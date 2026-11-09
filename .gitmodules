@@ -1,0 +1,3 @@
+[submodule ".claude/skills/ffmpeg-skill"]
+	path = .claude/skills/ffmpeg-skill
+	url = https://github.com/kajisho5/ffmpeg-skill
