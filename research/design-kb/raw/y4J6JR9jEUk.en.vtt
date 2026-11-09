@@ -1,0 +1,2946 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.470 --> 00:00:02.980
+- Jakob Nielsen recently
+shared his prediction
+
+00:00:02.980 --> 00:00:05.870
+for what UX looks like in 2050.
+
+00:00:05.870 --> 00:00:07.230
+Here's his keynote speech
+
+00:00:07.230 --> 00:00:10.340
+from our virtual conference in 2020.
+
+00:00:10.340 --> 00:00:11.600
+- Well, thank you very much, Sarah.
+
+00:00:11.600 --> 00:00:14.930
+And thank you everybody for coming,
+
+00:00:14.930 --> 00:00:16.770
+joining us in particular,
+of course, if it's
+
+00:00:16.770 --> 00:00:19.270
+in the middle of the night where you are.
+
+00:00:19.270 --> 00:00:21.530
+Since this is a February
+conference, I thought I would start
+
+00:00:21.530 --> 00:00:24.820
+by just briefly talk about Numa Pompilius.
+
+00:00:24.820 --> 00:00:27.920
+And he lived 2,700 years ago.
+
+00:00:27.920 --> 00:00:29.700
+And Numa Pompilius is responsible
+
+00:00:29.700 --> 00:00:32.290
+for the months of January and February
+
+00:00:32.290 --> 00:00:34.310
+because before him the year
+
+00:00:34.310 --> 00:00:36.940
+only had 10 months in the calendar.
+
+00:00:36.940 --> 00:00:38.850
+And that's actually why the months
+
+00:00:38.850 --> 00:00:42.160
+of September, October,
+November and December
+
+00:00:42.160 --> 00:00:45.620
+are named after number seven,
+eight, nine, and 10 in Latin
+
+00:00:45.620 --> 00:00:49.120
+because those were the numbers
+of those months at the time.
+
+00:00:49.120 --> 00:00:51.480
+And then Numa Pompilius
+introduced two more months
+
+00:00:51.480 --> 00:00:53.970
+and not at the end, put
+them at the beginning.
+
+00:00:53.970 --> 00:00:55.550
+So the numbering scheme was messed up
+
+00:00:55.550 --> 00:00:58.430
+and also said that it was February
+
+00:00:58.430 --> 00:01:01.940
+which I think is a usability
+abomination of a month.
+
+00:01:01.940 --> 00:01:03.450
+So that has caused so much trouble
+
+00:01:03.450 --> 00:01:05.030
+for all the little children
+
+00:01:05.030 --> 00:01:07.490
+for 2,700 years in learning the calendar
+
+00:01:07.490 --> 00:01:09.350
+so we can blame him for that.
+
+00:01:09.350 --> 00:01:10.470
+I just mentioned this story
+
+00:01:10.470 --> 00:01:12.850
+because it shows you how design decisions
+
+00:01:12.850 --> 00:01:15.800
+can sometimes last for a very long time
+
+00:01:15.800 --> 00:01:17.560
+though I don't think most
+of the designs we work
+
+00:01:17.560 --> 00:01:20.280
+on will still be here in 2,700 years.
+
+00:01:20.280 --> 00:01:23.550
+But even so that's why it
+makes sense to look ahead
+
+00:01:23.550 --> 00:01:24.740
+and talk about sort of a little bit
+
+00:01:24.740 --> 00:01:26.800
+of a longer term picture.
+
+00:01:26.800 --> 00:01:28.460
+And they're really two different ways
+
+00:01:28.460 --> 00:01:30.300
+we can consider problems.
+
+00:01:30.300 --> 00:01:33.180
+And so by way of example,
+I'm showing you two planets.
+
+00:01:33.180 --> 00:01:36.600
+We can look at planets,
+study them bottom up
+
+00:01:36.600 --> 00:01:37.630
+like earth was studied.
+
+00:01:37.630 --> 00:01:39.940
+Like first you get hold of like one rock
+
+00:01:39.940 --> 00:01:41.660
+and you can kind of how's this rock.
+
+00:01:41.660 --> 00:01:43.920
+And you then you maybe
+look at one volcano,
+
+00:01:43.920 --> 00:01:45.930
+one Island to build up to a bigger,
+
+00:01:45.930 --> 00:01:48.260
+bigger understanding of that planet
+
+00:01:48.260 --> 00:01:50.030
+until you get to things
+like continental drift
+
+00:01:50.030 --> 00:01:51.230
+and what have you.
+
+00:01:51.230 --> 00:01:54.690
+On the other hand, Mars
+was studied a top-down.
+
+00:01:54.690 --> 00:01:56.130
+And so in the beginning, people just knew
+
+00:01:56.130 --> 00:01:59.521
+it was a red planet and we
+still actually don't have rocks
+
+00:01:59.521 --> 00:02:01.850
+from Mars like under the microscope
+
+00:02:01.850 --> 00:02:04.020
+in the laboratories here,
+there are some missions
+
+00:02:04.020 --> 00:02:06.140
+up to try to collect them but so far, no.
+
+00:02:06.140 --> 00:02:08.060
+Today we're gonna take
+that kind of Mars view
+
+00:02:08.060 --> 00:02:12.270
+that a big global view, not
+look at the individual rocks
+
+00:02:12.270 --> 00:02:15.430
+or individual volcanoes,
+individual screen designs
+
+00:02:15.430 --> 00:02:16.520
+and buttons and what have you.
+
+00:02:16.520 --> 00:02:17.690
+We're gonna look at sort of a bigger,
+
+00:02:17.690 --> 00:02:19.090
+bigger picture scheme here.
+
+00:02:19.090 --> 00:02:21.280
+First, I always like to,
+when try to look ahead,
+
+00:02:21.280 --> 00:02:24.470
+try this mirror to flip it
+and look back the same amount
+
+00:02:24.470 --> 00:02:27.190
+of years to get us an
+idea of what can happen
+
+00:02:27.190 --> 00:02:29.040
+at this timeframe we're looking at.
+
+00:02:29.040 --> 00:02:33.301
+So 29 years ago, this screen
+I'm showing here was an example
+
+00:02:33.301 --> 00:02:37.370
+of a type of interface
+that we had at the time.
+
+00:02:37.370 --> 00:02:41.910
+So we had a multimedia, we
+had hypertext but on CD-ROMs.
+
+00:02:41.910 --> 00:02:45.616
+The web had just barely been
+invented the year before
+
+00:02:45.616 --> 00:02:47.210
+but it was very primitive.
+
+00:02:47.210 --> 00:02:50.000
+I actually saw the web demonstrated
+
+00:02:50.000 --> 00:02:53.120
+at a hypertext conference in 1991
+
+00:02:53.120 --> 00:02:55.230
+and I was not very impressed.
+
+00:02:55.230 --> 00:02:56.550
+The web was...
+
+00:02:56.550 --> 00:02:57.810
+There was like five websites
+
+00:02:57.810 --> 00:02:59.730
+or something like that in the world.
+
+00:02:59.730 --> 00:03:03.080
+The next year when the graphical browser
+
+00:03:03.080 --> 00:03:06.940
+was introduced widely spread
+that the web really took off.
+
+00:03:06.940 --> 00:03:08.513
+And also like in terms
+of like, for example
+
+00:03:08.513 --> 00:03:11.240
+what were the famous computer
+companies at the time.
+
+00:03:11.240 --> 00:03:12.920
+Well, some of them are still famous
+
+00:03:12.920 --> 00:03:14.710
+and Microsoft, IBM, Apple
+
+00:03:14.710 --> 00:03:17.630
+others don't even know exist anymore.
+
+00:03:17.630 --> 00:03:20.580
+Mobile, we had mobile
+devices know as flip phones,
+
+00:03:20.580 --> 00:03:22.040
+didn't have smartphones.
+
+00:03:22.040 --> 00:03:25.233
+The data services were
+completely, extremely primitive.
+
+00:03:26.130 --> 00:03:29.260
+So in terms of what's
+kind of important now,
+
+00:03:29.260 --> 00:03:31.520
+there were just some fairly small kind
+
+00:03:31.520 --> 00:03:34.090
+of starting elements of that at the time
+
+00:03:35.150 --> 00:03:37.360
+but it's has been very
+different of course.
+
+00:03:37.360 --> 00:03:41.040
+But that means that if
+we look ahead to 2050,
+
+00:03:41.040 --> 00:03:44.010
+we can maybe expect that we
+can sort of see some trends
+
+00:03:44.010 --> 00:03:46.610
+and that they may have some impact
+
+00:03:46.610 --> 00:03:48.200
+on what's gonna happen,
+
+00:03:48.200 --> 00:03:50.680
+but that said things are gonna
+be very different as well.
+
+00:03:50.680 --> 00:03:54.410
+So that's why it makes sense
+to look that much ahead.
+
+00:03:54.410 --> 00:03:56.070
+So here I have a list of 10
+
+00:03:56.070 --> 00:03:59.760
+of the most prominent
+technology companies right now.
+
+00:03:59.760 --> 00:04:02.570
+And I do say 10 of,
+because of course there's
+
+00:04:02.570 --> 00:04:04.933
+no official list of the 10
+most important companies
+
+00:04:04.933 --> 00:04:06.930
+or anything like that.
+
+00:04:06.930 --> 00:04:09.690
+But they are for sure
+10 of the most important
+
+00:04:09.690 --> 00:04:11.720
+and that's the most important
+
+00:04:11.720 --> 00:04:12.950
+and interesting thing about this list
+
+00:04:12.950 --> 00:04:15.520
+is companies marked with star
+
+00:04:15.520 --> 00:04:16.470
+because those are the ones
+
+00:04:16.470 --> 00:04:19.090
+that actually existed back in 1990.
+
+00:04:19.090 --> 00:04:22.340
+So most of them are new and similarly
+
+00:04:22.340 --> 00:04:24.130
+if we look ahead to 2050,
+
+00:04:24.130 --> 00:04:26.480
+we would expect if we
+deal to a similar list
+
+00:04:26.480 --> 00:04:30.700
+then of what are the most
+important technology companies,
+
+00:04:30.700 --> 00:04:32.450
+most likely, most of them
+are gonna be companies
+
+00:04:32.450 --> 00:04:34.000
+that don't exist now.
+
+00:04:34.000 --> 00:04:35.750
+And so new things are gonna happen.
+
+00:04:36.736 --> 00:04:38.780
+And one of the big things
+that I think is definitely
+
+00:04:38.780 --> 00:04:41.330
+gonna happen is we think about 2050
+
+00:04:41.330 --> 00:04:43.453
+the economy of China is
+expected to be about two
+
+00:04:43.453 --> 00:04:47.380
+and a half times as big as the
+economy of the United States.
+
+00:04:47.380 --> 00:04:50.400
+So we should expect a lot
+more Chinese companies
+
+00:04:50.400 --> 00:04:52.400
+on this type of list.
+
+00:04:52.400 --> 00:04:53.980
+Also, maybe even more importantly
+
+00:04:53.980 --> 00:04:57.310
+the economy of all of Asia put together
+
+00:04:57.310 --> 00:05:00.340
+will be about three times
+the economy of North America
+
+00:05:00.340 --> 00:05:01.610
+and Europe put together.
+
+00:05:01.610 --> 00:05:03.740
+So we should also expect companies
+
+00:05:03.740 --> 00:05:07.330
+from other places in Asia
+and not just from China.
+
+00:05:07.330 --> 00:05:09.230
+But of course exactly which countries
+
+00:05:09.230 --> 00:05:10.790
+and exactly which companies
+
+00:05:10.790 --> 00:05:13.840
+and what they're gonna be
+doing, that is very hard to say.
+
+00:05:13.840 --> 00:05:16.620
+But the main point I
+think that's important
+
+00:05:16.620 --> 00:05:18.780
+that we can recognize already now
+
+00:05:18.780 --> 00:05:21.510
+is dramatic much more
+internationalization,
+
+00:05:21.510 --> 00:05:25.050
+globalization, broadening
+of where technology
+
+00:05:25.050 --> 00:05:26.730
+and innovation is gonna come from
+
+00:05:26.730 --> 00:05:27.790
+compared to how it's been in the past
+
+00:05:27.790 --> 00:05:31.543
+where it was very kind of
+isolated and monopolized.
+
+00:05:32.570 --> 00:05:35.090
+This chart shows the growth
+
+00:05:35.090 --> 00:05:37.583
+in gross national product per person.
+
+00:05:38.900 --> 00:05:40.020
+And I'm showing you this
+
+00:05:40.020 --> 00:05:43.710
+because this is the single
+most important parameter
+
+00:05:43.710 --> 00:05:47.040
+for human welfare and
+our standard of living.
+
+00:05:47.040 --> 00:05:48.670
+It's of course not the only one
+
+00:05:48.670 --> 00:05:51.940
+but it's extremely highly
+correlated with almost
+
+00:05:51.940 --> 00:05:54.350
+all other things you might wanna measure,
+
+00:05:54.350 --> 00:05:56.160
+like percentage of households
+
+00:05:56.160 --> 00:05:58.760
+that have indoor plumbing
+or air condition,
+
+00:05:58.760 --> 00:06:01.710
+infant mortality, amount of pollution.
+
+00:06:01.710 --> 00:06:03.220
+I mean, whatever you wanna measure
+
+00:06:03.220 --> 00:06:05.320
+it's usually very strongly
+correlated with this.
+
+00:06:05.320 --> 00:06:07.773
+So it's a single measure
+that's nice to have.
+
+00:06:09.570 --> 00:06:11.770
+And you can see that it's basically
+
+00:06:11.770 --> 00:06:14.690
+this chart only goes back to the 1700,
+
+00:06:14.690 --> 00:06:17.970
+but we can draw it back all
+the way back to year one,
+
+00:06:17.970 --> 00:06:19.470
+the age of the Roman empire.
+
+00:06:19.470 --> 00:06:22.430
+And it was just a piece of flat
+line all the way going back
+
+00:06:22.430 --> 00:06:26.080
+because that's how it's been
+for all of human history.
+
+00:06:26.080 --> 00:06:26.930
+Two things really.
+
+00:06:26.930 --> 00:06:29.100
+First of all, no change.
+
+00:06:29.100 --> 00:06:31.810
+One decade was the same
+as the other decade.
+
+00:06:31.810 --> 00:06:34.280
+I mean, gradually no change
+
+00:06:34.280 --> 00:06:37.550
+but no change that you
+could actually feel.
+
+00:06:37.550 --> 00:06:39.420
+Of course in the country
+the reason it makes sense
+
+00:06:39.420 --> 00:06:41.940
+to talk about 2050 is we
+expect there will be change.
+
+00:06:41.940 --> 00:06:43.800
+So that's our current such scenario
+
+00:06:43.800 --> 00:06:45.900
+but that did not use to be the case.
+
+00:06:45.900 --> 00:06:48.940
+Also, it used to be the case
+that everybody was dirt poor.
+
+00:06:48.940 --> 00:06:52.140
+The line was like very,
+very, very close to zero.
+
+00:06:52.140 --> 00:06:53.810
+And of course it's not literally true.
+
+00:06:53.810 --> 00:06:56.240
+There were a few members of
+the nobility who were rich
+
+00:06:56.240 --> 00:06:59.140
+and of course the king was very rich.
+
+00:06:59.140 --> 00:07:00.612
+You have to remember though
+
+00:07:00.612 --> 00:07:05.180
+even the king didn't get
+good wifi in the palace.
+
+00:07:05.180 --> 00:07:09.720
+So, but we have had this
+great improvement in welfare.
+
+00:07:09.720 --> 00:07:11.290
+And just to give you one example
+
+00:07:11.290 --> 00:07:13.330
+of how the concrete of this,
+
+00:07:13.330 --> 00:07:15.600
+I'm looking at it as a bag of flour.
+
+00:07:15.600 --> 00:07:17.480
+This is one of the very few products
+
+00:07:17.480 --> 00:07:20.600
+that actually been the same for centuries.
+
+00:07:20.600 --> 00:07:23.850
+And with the benefit of utility
+for a person is the same.
+
+00:07:23.850 --> 00:07:25.800
+You can bake the same amount of bread now
+
+00:07:25.800 --> 00:07:27.000
+as you could back then
+
+00:07:27.000 --> 00:07:28.847
+and you can eat the
+same amount of bread now
+
+00:07:28.847 --> 00:07:30.250
+as you could back then.
+
+00:07:30.250 --> 00:07:31.950
+So it's the same benefit.
+
+00:07:31.950 --> 00:07:35.460
+But back in 1500, an
+average worker had to work
+
+00:07:35.460 --> 00:07:38.690
+for three days to make enough money to buy
+
+00:07:38.690 --> 00:07:40.250
+this kind of bag of flour.
+
+00:07:40.250 --> 00:07:42.220
+And today an average worker,
+
+00:07:42.220 --> 00:07:44.190
+average being half make
+more-half make less
+
+00:07:44.190 --> 00:07:47.570
+an average worker can buy 89 bags of flour
+
+00:07:47.570 --> 00:07:49.400
+for one day's salary.
+
+00:07:49.400 --> 00:07:51.270
+So you combine those two and you can see
+
+00:07:51.270 --> 00:07:58.083
+that we are 266 times better
+off for the average worker.
+
+00:07:58.083 --> 00:07:59.790
+And this doesn't even take into account
+
+00:07:59.790 --> 00:08:03.700
+that a day's work in year
+1500 was much harder.
+
+00:08:03.700 --> 00:08:07.610
+I mean, being a farmhand
+in 1500 was very hard work
+
+00:08:07.610 --> 00:08:09.930
+compared to the jobs people have today.
+
+00:08:09.930 --> 00:08:13.790
+So total, this is improvement
+of about 1.1% per year.
+
+00:08:13.790 --> 00:08:15.210
+So very little.
+
+00:08:15.210 --> 00:08:17.450
+And actually that's probably comprised
+
+00:08:17.450 --> 00:08:20.630
+of about 0.1% improvement per year
+
+00:08:20.630 --> 00:08:21.980
+for the first three centuries
+
+00:08:21.980 --> 00:08:24.080
+because again, things
+didn't change very much.
+
+00:08:24.080 --> 00:08:25.500
+And then the last two centuries
+
+00:08:25.500 --> 00:08:27.430
+may be more like 2% per year.
+
+00:08:27.430 --> 00:08:29.630
+Actually just small percentages every year
+
+00:08:29.630 --> 00:08:32.550
+they add up to huge, huge, huge advances.
+
+00:08:32.550 --> 00:08:34.087
+And it's not it's always only goes up.
+
+00:08:34.087 --> 00:08:37.180
+I mean you can see here,
+here are kind of the dips
+
+00:08:37.180 --> 00:08:39.960
+for the recession that we're in right now.
+
+00:08:39.960 --> 00:08:42.650
+So there's certainly things
+can get worse, of course.
+
+00:08:42.650 --> 00:08:44.730
+But basically they have
+been getting better
+
+00:08:44.730 --> 00:08:48.180
+and it varies between
+countries when that started.
+
+00:08:48.180 --> 00:08:51.630
+In Europe, United States, it
+started around the year 1800
+
+00:08:51.630 --> 00:08:53.940
+things started really
+changing and getting better.
+
+00:08:53.940 --> 00:08:57.720
+In Singapore, not until
+around the year 1960,
+
+00:08:57.720 --> 00:09:00.400
+in China not even until the year 1980
+
+00:09:00.400 --> 00:09:02.670
+did they really start and
+that kind of improvement curve
+
+00:09:02.670 --> 00:09:04.930
+of things constantly getting
+better and better and better.
+
+00:09:04.930 --> 00:09:06.440
+And why is it getting better?
+
+00:09:06.440 --> 00:09:08.140
+'Cause it doesn't happen by itself.
+
+00:09:08.140 --> 00:09:10.610
+The reason we are so well off today,
+
+00:09:10.610 --> 00:09:12.170
+it's really to the credit of probably
+
+00:09:12.170 --> 00:09:14.240
+at least a 1 million different people.
+
+00:09:14.240 --> 00:09:17.520
+Individuals like engineers
+inventing a new product
+
+00:09:17.520 --> 00:09:20.590
+or business people inventing a new way
+
+00:09:20.590 --> 00:09:22.310
+of meeting some new customer needs
+
+00:09:22.310 --> 00:09:24.380
+or running their company more efficiently
+
+00:09:24.380 --> 00:09:25.820
+so people could afford the products
+
+00:09:25.820 --> 00:09:28.770
+that engineers invented and so forth.
+
+00:09:28.770 --> 00:09:30.190
+And so some of these million people
+
+00:09:30.190 --> 00:09:31.610
+are certainly more famous than others,
+
+00:09:31.610 --> 00:09:33.330
+but most of them we don't know.
+
+00:09:33.330 --> 00:09:35.960
+Well, I know Thomas Edison
+got a thousand patents,
+
+00:09:35.960 --> 00:09:37.440
+very famous inventor.
+
+00:09:37.440 --> 00:09:40.600
+Or Henry Ford, very famous business person
+
+00:09:40.600 --> 00:09:43.170
+came up with a way of running
+his company so efficiently
+
+00:09:43.170 --> 00:09:46.110
+that normal people could
+afford to buy a car
+
+00:09:46.110 --> 00:09:48.440
+and before that it was
+just for rich people.
+
+00:09:48.440 --> 00:09:50.970
+So those are great individual improvements
+
+00:09:50.970 --> 00:09:52.700
+but again it's really the majority
+
+00:09:52.700 --> 00:09:54.480
+of the much smaller improvements
+
+00:09:54.480 --> 00:09:57.240
+that just add up and add up and add up.
+
+00:09:57.240 --> 00:09:58.610
+Because again, I mean, nobody uses
+
+00:09:58.610 --> 00:10:01.160
+a Thomas Edison light bulb today, right?
+
+00:10:01.160 --> 00:10:05.000
+We have these led light bulbs
+that are like much brighter,
+
+00:10:05.000 --> 00:10:06.830
+use much less electricity
+
+00:10:06.830 --> 00:10:10.541
+and they run for 10
+years without breaking.
+
+00:10:10.541 --> 00:10:12.950
+And this is not like one
+person invented that light bulb
+
+00:10:12.950 --> 00:10:14.840
+and we threw out the old light bulbs
+
+00:10:14.840 --> 00:10:16.290
+from Thomas Edison, right?
+
+00:10:16.290 --> 00:10:20.020
+A lot of smaller improvements
+over the years since Edison.
+
+00:10:20.020 --> 00:10:24.140
+And so this is what we also
+would expect going forward.
+
+00:10:24.140 --> 00:10:27.230
+But there's an interesting
+kind of difference I think.
+
+00:10:27.230 --> 00:10:31.100
+And so this chart is measured in money
+
+00:10:31.100 --> 00:10:34.050
+but money is just a
+measurement unit for resources
+
+00:10:34.050 --> 00:10:37.150
+and so it means how much can we do.
+
+00:10:37.150 --> 00:10:39.710
+So we're gonna get much
+richer than we are now.
+
+00:10:39.710 --> 00:10:41.810
+We are already very rich
+compared to our ancestors
+
+00:10:41.810 --> 00:10:43.240
+but we will get even more rich.
+
+00:10:43.240 --> 00:10:46.163
+And so when people get
+very rich, what happens is
+
+00:10:46.163 --> 00:10:49.330
+that they will demand quality
+
+00:10:49.330 --> 00:10:52.440
+and UX is a quality discipline.
+
+00:10:52.440 --> 00:10:56.040
+We are the ones who are
+gonna make these products
+
+00:10:56.040 --> 00:10:59.603
+and services better to
+satisfy these rich people
+
+00:10:59.603 --> 00:11:01.890
+that we all gonna be in the future.
+
+00:11:01.890 --> 00:11:03.540
+That's our job, our role.
+
+00:11:03.540 --> 00:11:05.850
+And this is why there'll
+be much more demand for us
+
+00:11:05.850 --> 00:11:10.600
+in the future is because people
+will be able to afford it.
+
+00:11:10.600 --> 00:11:12.830
+I mean, they will want
+better, better, and better
+
+00:11:12.830 --> 00:11:15.020
+and even better things all the time
+
+00:11:15.020 --> 00:11:17.640
+because they're getting
+richer and richer and richer.
+
+00:11:17.640 --> 00:11:19.790
+And another thing is also gonna happen
+
+00:11:19.790 --> 00:11:22.550
+is that again, these curves
+don't go up just by themselves.
+
+00:11:22.550 --> 00:11:25.820
+They go up because of
+improvements, innovation
+
+00:11:25.820 --> 00:11:29.700
+and they will for sure still
+be innovation in other fields
+
+00:11:29.700 --> 00:11:33.400
+like agriculture, like a bag
+of flour will be even cheaper
+
+00:11:33.400 --> 00:11:38.400
+by 2050, manufacturing industry
+will be improved as well
+
+00:11:38.400 --> 00:11:39.670
+for sure, for sure.
+
+00:11:39.670 --> 00:11:43.737
+But a lot of these additional
+enhancements to the economy
+
+00:11:43.737 --> 00:11:45.510
+are gonna come from us
+
+00:11:45.510 --> 00:11:48.910
+because now we are in a
+knowledge economy mainly,
+
+00:11:48.910 --> 00:11:50.200
+we also have agriculture,
+
+00:11:50.200 --> 00:11:51.800
+we also have the other things, right?
+
+00:11:51.800 --> 00:11:55.350
+But we are a lot to a great
+extent in a knowledge economy.
+
+00:11:55.350 --> 00:11:59.790
+And to improve knowledge work
+that is user experience work
+
+00:11:59.790 --> 00:12:03.780
+to make people more effective
+and efficient and innovative
+
+00:12:03.780 --> 00:12:07.590
+and just all these good
+things, that is our job.
+
+00:12:07.590 --> 00:12:11.230
+So I think both from the demand
+side and the supply side,
+
+00:12:11.230 --> 00:12:16.571
+we are going to be a very,
+very key part of this
+
+00:12:16.571 --> 00:12:18.960
+economic growth that's gonna happen
+
+00:12:18.960 --> 00:12:21.280
+over the next 30 years or so.
+
+00:12:21.280 --> 00:12:25.981
+And so that's why I believe
+that there will be an enormous,
+
+00:12:25.981 --> 00:12:28.210
+huge, more use of UX.
+
+00:12:28.210 --> 00:12:29.700
+Many, many, many more UX people
+
+00:12:29.700 --> 00:12:31.770
+which we'll return to in a minute.
+
+00:12:31.770 --> 00:12:34.210
+But first let's talk
+about the broadening of UX
+
+00:12:34.210 --> 00:12:36.090
+in terms of internationalization.
+
+00:12:36.090 --> 00:12:38.820
+So this chart here
+shows you the percentage
+
+00:12:38.820 --> 00:12:41.480
+of the world's population
+that's on the internet
+
+00:12:41.480 --> 00:12:44.890
+and over only a 15-year period,
+which is pretty short time,
+
+00:12:44.890 --> 00:12:47.830
+it's gone up by a factor of three.
+
+00:12:47.830 --> 00:12:49.480
+And so of course we can not go up
+
+00:12:49.480 --> 00:12:50.880
+by a factor of three again
+
+00:12:50.880 --> 00:12:52.197
+when we are already at
+more than half, right?
+
+00:12:52.197 --> 00:12:53.680
+But we can almost double
+
+00:12:53.680 --> 00:12:55.480
+and that's what I would
+predict will happen
+
+00:12:55.480 --> 00:12:56.590
+over the next 30 years.
+
+00:12:56.590 --> 00:12:59.010
+And I would predict that by 2050,
+
+00:12:59.010 --> 00:13:01.230
+we'll never get to a 100% know exactly,
+
+00:13:01.230 --> 00:13:02.540
+there's always gonna be a few people
+
+00:13:02.540 --> 00:13:04.120
+who don't wanna go online.
+
+00:13:04.120 --> 00:13:05.530
+But I believe we'll get to the point
+
+00:13:05.530 --> 00:13:08.220
+where basically everybody
+all over the world
+
+00:13:08.220 --> 00:13:10.440
+in all countries are on the internet
+
+00:13:10.440 --> 00:13:11.880
+and that means we have to design for them.
+
+00:13:11.880 --> 00:13:14.890
+And again, this is gonna
+be much, much broadening
+
+00:13:14.890 --> 00:13:17.003
+of the use of base compared
+to what we have now
+
+00:13:17.003 --> 00:13:20.780
+and particularly what we
+had those 15 years ago.
+
+00:13:20.780 --> 00:13:23.050
+We can even see this just
+at our own conference,
+
+00:13:23.050 --> 00:13:26.150
+the UX Conference, that we have people now
+
+00:13:26.150 --> 00:13:27.830
+coming from so many more countries
+
+00:13:27.830 --> 00:13:29.650
+and territories than we're used to
+
+00:13:29.650 --> 00:13:32.070
+even this just small amount of time
+
+00:13:32.070 --> 00:13:33.740
+by which I compiled the data.
+
+00:13:33.740 --> 00:13:38.070
+In 2015, we had people
+from 69 different countries
+
+00:13:38.070 --> 00:13:40.410
+and last year we had
+85 different countries.
+
+00:13:40.410 --> 00:13:41.820
+So it goes up, up, up,
+
+00:13:41.820 --> 00:13:45.460
+broader, broader, broader as spread of UX
+
+00:13:45.460 --> 00:13:46.660
+which I think is very happy.
+
+00:13:46.660 --> 00:13:49.620
+But it's one of those big, big trends
+
+00:13:49.620 --> 00:13:52.330
+that we are getting to be a much broader
+
+00:13:52.330 --> 00:13:57.600
+and much bigger field
+than we were in the past.
+
+00:13:57.600 --> 00:14:00.740
+So another prediction that's
+very safe is the distribution
+
+00:14:00.740 --> 00:14:03.020
+of the population by 2050
+
+00:14:03.020 --> 00:14:04.200
+because most of the people
+
+00:14:04.200 --> 00:14:07.420
+who will be alive then are already alive.
+
+00:14:07.420 --> 00:14:09.690
+And so we know how many
+old people they will be
+
+00:14:09.690 --> 00:14:11.820
+because they are the
+middle aged people now.
+
+00:14:11.820 --> 00:14:13.470
+Now we don't know exactly
+how many young people
+
+00:14:13.470 --> 00:14:15.960
+there will be because they
+have not been born yet.
+
+00:14:15.960 --> 00:14:17.640
+But the people who work on specialized
+
+00:14:17.640 --> 00:14:18.740
+in starting these things,
+
+00:14:18.740 --> 00:14:20.860
+they have some pretty
+decent projections of it
+
+00:14:20.860 --> 00:14:22.950
+and that's what I'm showing you here.
+
+00:14:22.950 --> 00:14:25.020
+And it varies between countries
+
+00:14:25.020 --> 00:14:27.400
+but the broad conclusion
+is really the same
+
+00:14:27.400 --> 00:14:30.370
+which is that will be more
+old people than young people.
+
+00:14:30.370 --> 00:14:34.540
+And that means that we have
+to design more for old people
+
+00:14:34.540 --> 00:14:36.030
+and we don't do that.
+
+00:14:36.030 --> 00:14:37.900
+Well, now that's a big disgrace
+
+00:14:37.900 --> 00:14:39.070
+in the user experience field.
+
+00:14:39.070 --> 00:14:42.560
+I have to say how we are
+ignoring elderly users.
+
+00:14:42.560 --> 00:14:46.180
+And it's even more so if you
+look at split this up now
+
+00:14:46.180 --> 00:14:50.110
+in not just old people, but
+young-old people and old,-old.
+
+00:14:50.110 --> 00:14:52.270
+And so the young old you can see here
+
+00:14:52.270 --> 00:14:54.390
+that's gonna grow
+somewhat in most countries
+
+00:14:54.390 --> 00:14:55.420
+except in Japan.
+
+00:14:55.420 --> 00:14:57.590
+Actually it's about the same
+
+00:14:57.590 --> 00:14:59.680
+because they already
+have a lot of old people.
+
+00:14:59.680 --> 00:15:04.370
+But the old-old people
+are gonna be hugely more
+
+00:15:04.370 --> 00:15:06.070
+in all countries.
+
+00:15:06.070 --> 00:15:08.490
+And from a UX perspective,
+that is important
+
+00:15:08.490 --> 00:15:11.640
+because the young-old people
+are actually not that different
+
+00:15:11.640 --> 00:15:14.890
+than middle aged people in
+terms of what design they need.
+
+00:15:14.890 --> 00:15:18.360
+But for the old-old, 85
+years and older people,
+
+00:15:18.360 --> 00:15:21.840
+we had to really do have to
+take a lot of special things
+
+00:15:21.840 --> 00:15:23.880
+into account when designing for them.
+
+00:15:23.880 --> 00:15:26.750
+And we don't do that very well now
+
+00:15:26.750 --> 00:15:29.140
+and that's one of the things
+we really do have to change
+
+00:15:29.140 --> 00:15:30.240
+in the upcoming years
+
+00:15:30.240 --> 00:15:33.380
+because of the user population changing.
+
+00:15:33.380 --> 00:15:35.550
+So we have to change the
+design for the actual people.
+
+00:15:35.550 --> 00:15:38.550
+That's one of our main principles.
+
+00:15:38.550 --> 00:15:41.840
+So I'm predicting a broad note increase
+
+00:15:41.840 --> 00:15:44.470
+in user experience workforce.
+
+00:15:44.470 --> 00:15:46.380
+And I'm gonna take a kind of broad view,
+
+00:15:46.380 --> 00:15:49.630
+a 100-year view actually
+of this going back to 1950
+
+00:15:49.630 --> 00:15:53.170
+when the field started and
+going forward to the 2050
+
+00:15:53.170 --> 00:15:56.050
+that's our kind of target
+date we're looking at here.
+
+00:15:56.050 --> 00:15:59.520
+And I'm gonna look at the different levels
+
+00:15:59.520 --> 00:16:02.700
+of intelligence and IQ
+intelligence quotient
+
+00:16:02.700 --> 00:16:04.610
+that's needed to do good UX work.
+
+00:16:04.610 --> 00:16:06.290
+Because I think that has
+actually been changing
+
+00:16:06.290 --> 00:16:08.930
+over the years which is
+an interesting point.
+
+00:16:08.930 --> 00:16:11.530
+And before I do that, I'll
+just have to first acknowledge
+
+00:16:11.530 --> 00:16:14.268
+that intelligence is not the only factor
+
+00:16:14.268 --> 00:16:16.570
+for how good people
+are at user experience,
+
+00:16:16.570 --> 00:16:19.430
+there are many other things
+that impact that too.
+
+00:16:19.430 --> 00:16:21.940
+But I'm talking about
+IQ here for two reasons.
+
+00:16:21.940 --> 00:16:26.130
+The first is that it is the
+number one most important number
+
+00:16:26.130 --> 00:16:28.510
+for any knowledge work
+including user experience.
+
+00:16:28.510 --> 00:16:30.620
+But for all knowledge
+work, how smart you are
+
+00:16:30.620 --> 00:16:33.360
+is the number one influence.
+
+00:16:33.360 --> 00:16:36.900
+And secondly, intelligence
+has been studied very,
+
+00:16:36.900 --> 00:16:39.300
+very detailed for about 100 years.
+
+00:16:39.300 --> 00:16:42.230
+And so we have very, very
+detailed knowledge about
+
+00:16:42.230 --> 00:16:44.220
+how many people exist in the world
+
+00:16:44.220 --> 00:16:46.290
+at different levels of intelligence.
+
+00:16:46.290 --> 00:16:47.123
+But before I got into that,
+
+00:16:47.123 --> 00:16:48.970
+let me just kind of
+acknowledged this point
+
+00:16:48.970 --> 00:16:51.370
+that intelligence is not the only thing.
+
+00:16:51.370 --> 00:16:53.520
+And so, as a little example,
+
+00:16:53.520 --> 00:16:56.900
+I'm here looking at
+three different UX people
+
+00:16:56.900 --> 00:16:59.610
+so person one, person
+two and persons three.
+
+00:16:59.610 --> 00:17:01.980
+And each dot is one thing that
+
+00:17:01.980 --> 00:17:04.360
+that person has done in a week.
+
+00:17:04.360 --> 00:17:07.290
+And furthermore, we're
+distributing those things according
+
+00:17:07.290 --> 00:17:11.180
+to their quality on a
+scale that I just made up.
+
+00:17:11.180 --> 00:17:14.210
+A one to 10 scale for how
+good the work product is.
+
+00:17:14.210 --> 00:17:17.010
+So work product, it could
+be like a screen design,
+
+00:17:17.010 --> 00:17:19.660
+it could be a research
+finding about users,
+
+00:17:19.660 --> 00:17:24.070
+it could be copywriting,
+something content you wrote
+
+00:17:24.070 --> 00:17:26.930
+depending on what
+subdiscipline of UX you're in.
+
+00:17:26.930 --> 00:17:30.110
+But just one thing the person has done.
+
+00:17:30.110 --> 00:17:33.060
+And it's definitely true
+that things vary in quality
+
+00:17:33.060 --> 00:17:34.470
+and some things are better than others.
+
+00:17:34.470 --> 00:17:36.200
+And for any given person,
+
+00:17:36.200 --> 00:17:38.210
+sometimes they do better
+than their average
+
+00:17:38.210 --> 00:17:40.270
+and sometimes they do
+worse than their average.
+
+00:17:40.270 --> 00:17:41.591
+But we have the other three people
+
+00:17:41.591 --> 00:17:42.966
+and there are two different averages.
+
+00:17:42.966 --> 00:17:46.560
+Person one and two have
+an average quality of 5.5
+
+00:17:46.560 --> 00:17:48.240
+and person three has a little bit
+
+00:17:48.240 --> 00:17:50.200
+lower quality unfortunately.
+
+00:17:50.200 --> 00:17:52.700
+And person one gets 22
+things done in a week
+
+00:17:52.700 --> 00:17:55.740
+and person two and three get
+44 things done in a week.
+
+00:17:55.740 --> 00:17:56.573
+Okay. Given this data,
+
+00:17:56.573 --> 00:17:59.403
+if you're gonna hire one
+person for your UX team,
+
+00:17:59.403 --> 00:18:02.113
+who should that be? 
+Person one, two or three?
+
+00:18:03.102 --> 00:18:05.580
+Well, okay.
+
+00:18:05.580 --> 00:18:08.000
+The answer here is very
+obvious it's person two
+
+00:18:08.000 --> 00:18:10.420
+'cause they get a lot done
+and it's high quality.
+
+00:18:10.420 --> 00:18:12.573
+Okay, let's say person
+two is not available now
+
+00:18:12.573 --> 00:18:14.390
+it becomes interesting.
+
+00:18:14.390 --> 00:18:15.790
+So we have only the choice
+
+00:18:15.790 --> 00:18:18.140
+between person one and person three.
+
+00:18:18.140 --> 00:18:21.562
+Let me furthermore say
+as an assumption here,
+
+00:18:21.562 --> 00:18:25.250
+we are in a company that
+place very high value
+
+00:18:25.250 --> 00:18:27.560
+on high quality user experience.
+
+00:18:27.560 --> 00:18:30.610
+So that's our main goal is high quality.
+
+00:18:30.610 --> 00:18:32.030
+Should you now hire person one?
+
+00:18:32.030 --> 00:18:33.547
+They do less work, but it's high quality
+
+00:18:33.547 --> 00:18:36.280
+and person three they do
+more work, but lower quality.
+
+00:18:36.280 --> 00:18:37.870
+And I want high quality.
+
+00:18:37.870 --> 00:18:40.048
+You might think that I
+should take person one,
+
+00:18:40.048 --> 00:18:43.330
+but not so under one more assumption.
+
+00:18:43.330 --> 00:18:46.980
+And that assumption is we cannot
+actually deliver everything
+
+00:18:46.980 --> 00:18:48.800
+that a UX team can come up with (laughs).
+
+00:18:48.800 --> 00:18:51.090
+And I think this is a
+very realistic assumption
+
+00:18:51.090 --> 00:18:54.710
+because honestly designers
+can design so many more things
+
+00:18:54.710 --> 00:18:57.120
+than the developers can
+ever actually implement
+
+00:18:57.120 --> 00:19:00.490
+or the UX researchers can come
+up with so many more insights
+
+00:19:00.490 --> 00:19:03.290
+about users than we can ever
+actually design and deliver
+
+00:19:03.290 --> 00:19:05.460
+and implement and see up in the product.
+
+00:19:05.460 --> 00:19:07.450
+So for the sake of this argument
+
+00:19:07.450 --> 00:19:10.100
+I'm just saying the top 10
+things we can actually do
+
+00:19:10.100 --> 00:19:11.990
+and the rest we cannot do.
+
+00:19:11.990 --> 00:19:13.320
+And US we're kind of lucky
+
+00:19:13.320 --> 00:19:15.830
+that we could probably actually
+find the 10 best things
+
+00:19:15.830 --> 00:19:18.634
+because we have evaluation methods.
+
+00:19:18.634 --> 00:19:22.030
+So we know what's a good,
+better design and other designs.
+
+00:19:22.030 --> 00:19:24.470
+So if we only do the top 10 things
+
+00:19:24.470 --> 00:19:27.250
+and now we compare person
+one and person three,
+
+00:19:27.250 --> 00:19:30.920
+we see that the average quality
+of the top 10 things only
+
+00:19:30.920 --> 00:19:33.060
+is actually higher for person three
+
+00:19:33.060 --> 00:19:35.940
+even though the overall
+average quality is lower.
+
+00:19:35.940 --> 00:19:38.240
+And that's because they
+have a very large number
+
+00:19:38.240 --> 00:19:40.710
+of things that will not gonna be done.
+
+00:19:40.710 --> 00:19:41.543
+And so what?
+
+00:19:41.543 --> 00:19:43.270
+It doesn't matter they're
+lower quality, right?
+
+00:19:43.270 --> 00:19:45.630
+Because there's so many
+more things to choose from,
+
+00:19:45.630 --> 00:19:48.110
+the quality of those few things we can do
+
+00:19:48.110 --> 00:19:49.800
+ends up being higher.
+
+00:19:49.800 --> 00:19:51.460
+So that's one of the points of sorts.
+
+00:19:51.460 --> 00:19:54.370
+It's not just talent like
+hard work matters as well
+
+00:19:54.370 --> 00:19:57.600
+and many other criteria
+as well matters as well.
+
+00:19:57.600 --> 00:20:00.740
+But let's go back to
+just looking at the IQ.
+
+00:20:00.740 --> 00:20:04.340
+So back in 1950, it was
+only a handful of people
+
+00:20:04.340 --> 00:20:06.220
+doing UX in the world.
+
+00:20:06.220 --> 00:20:09.370
+And it really started to build
+laboratories or build apps
+
+00:20:09.370 --> 00:20:12.500
+which was the research laboratory
+
+00:20:12.500 --> 00:20:15.230
+for the telephone companies
+in the United States.
+
+00:20:15.230 --> 00:20:20.640
+And build apps was a truly
+highly, highly elite laboratory.
+
+00:20:20.640 --> 00:20:23.260
+It was probably the number
+one research lab ever
+
+00:20:23.260 --> 00:20:25.280
+in the history of humanity.
+
+00:20:25.280 --> 00:20:27.800
+They invented things like
+the transistor, the laser
+
+00:20:27.800 --> 00:20:33.360
+the radio telescope, mobile
+cellular telephony, Unix
+
+00:20:33.360 --> 00:20:34.440
+whether you liked Unix
+
+00:20:34.440 --> 00:20:37.260
+that it was a major invention at the time,
+
+00:20:37.260 --> 00:20:39.180
+the touchstone of push-button telephone.
+
+00:20:39.180 --> 00:20:41.970
+All of these things many, many many more.
+
+00:20:41.970 --> 00:20:45.510
+Nobel prize winners walked
+the hallways at this lab.
+
+00:20:45.510 --> 00:20:47.730
+It was really very, very super elite
+
+00:20:47.730 --> 00:20:48.900
+and they hired only people
+
+00:20:48.900 --> 00:20:53.220
+with these kind of pretty
+close to genius level IQ.
+
+00:20:53.220 --> 00:20:54.680
+And so that was kinda lucky
+
+00:20:54.680 --> 00:20:56.160
+because I'll give you an example
+
+00:20:56.160 --> 00:20:57.760
+of one of the projects that they worked on
+
+00:20:57.760 --> 00:20:59.800
+which was in the touch tone telephone
+
+00:20:59.800 --> 00:21:01.620
+or the push button telephone.
+
+00:21:01.620 --> 00:21:03.800
+And here we see some of
+the different layouts
+
+00:21:03.800 --> 00:21:05.720
+that they designed and they worked on
+
+00:21:05.720 --> 00:21:07.530
+and luckily they did the study.
+
+00:21:07.530 --> 00:21:10.500
+And so you can see that preferred is what
+
+00:21:10.500 --> 00:21:13.990
+show it to some customers,
+"what telephone would you like?"
+
+00:21:13.990 --> 00:21:15.840
+But that was not the one that was the best
+
+00:21:15.840 --> 00:21:18.360
+and the fastest for
+entering telephone numbers.
+
+00:21:18.360 --> 00:21:20.710
+That was actually the one
+that's here's marked as fast.
+
+00:21:20.710 --> 00:21:23.860
+And that you can see this is
+the same one we have today.
+
+00:21:23.860 --> 00:21:28.050
+And so now, if I tell
+you you cannot choose
+
+00:21:28.050 --> 00:21:30.610
+the best design just
+by showing some options
+
+00:21:30.610 --> 00:21:33.480
+to the customers and ask them,
+"Which one would you like?"
+
+00:21:33.480 --> 00:21:35.680
+Honestly, we teach this
+in day one now, right?
+
+00:21:35.680 --> 00:21:37.970
+Everybody who does user experience knows
+
+00:21:37.970 --> 00:21:39.840
+that you can't just show things
+
+00:21:39.840 --> 00:21:41.860
+to customers and ask them what they want,
+
+00:21:41.860 --> 00:21:43.880
+you have to do observational research,
+
+00:21:43.880 --> 00:21:44.970
+we all know this.
+
+00:21:44.970 --> 00:21:49.000
+But now let's backtrack
+in time to the 1950s,
+
+00:21:49.000 --> 00:21:50.510
+they did not know that.
+
+00:21:50.510 --> 00:21:54.960
+This was the first set of
+UX work for product design.
+
+00:21:54.960 --> 00:21:56.527
+And they didn't know anything of that,
+
+00:21:56.527 --> 00:21:57.910
+any of the things we know today.
+
+00:21:57.910 --> 00:21:59.690
+They had to discover all that
+
+00:21:59.690 --> 00:22:03.892
+and that's why they had to
+be incredibly smart people,
+
+00:22:03.892 --> 00:22:06.069
+obviously just kind of
+genius level research.
+
+00:22:06.069 --> 00:22:07.720
+And today we don't have to have that
+
+00:22:07.720 --> 00:22:10.070
+because we know we have
+all these best practices.
+
+00:22:10.070 --> 00:22:12.450
+We know these things based on decades
+
+00:22:12.450 --> 00:22:15.550
+and decades of people already finding out.
+
+00:22:15.550 --> 00:22:18.780
+Another example from this early work.
+
+00:22:18.780 --> 00:22:21.040
+They also looked not only
+at the layout of the buttons
+
+00:22:21.040 --> 00:22:22.940
+but also the buttons themselves.
+
+00:22:22.940 --> 00:22:25.050
+So it should be a big
+button to small buttons.
+
+00:22:25.050 --> 00:22:27.360
+Well, they discovered that
+big buttons you can type
+
+00:22:27.360 --> 00:22:30.550
+into the phone number faster
+and you've make fewer errors.
+
+00:22:30.550 --> 00:22:35.540
+Now, do you need a big brain
+to design a big button?
+
+00:22:35.540 --> 00:22:36.660
+Today, no.
+
+00:22:36.660 --> 00:22:39.550
+Today, everybody who works at
+UX hopefully knows this rule
+
+00:22:39.550 --> 00:22:41.580
+that bigger buttons are faster to push.
+
+00:22:41.580 --> 00:22:43.750
+I mean fits as long all this...
+
+00:22:43.750 --> 00:22:46.940
+Again, something we teach
+in the basic courses.
+
+00:22:46.940 --> 00:22:49.960
+And so all people do UX
+should at least know this
+
+00:22:49.960 --> 00:22:53.600
+and should design as big buttons
+as they can get away with.
+
+00:22:53.600 --> 00:22:55.330
+But back then, this was not know.
+
+00:22:55.330 --> 00:22:57.340
+How would you know that it
+could be that small buttons
+
+00:22:57.340 --> 00:22:59.840
+were like you don't have to
+move your finger so much, right?
+
+00:22:59.840 --> 00:23:02.840
+So nobody knows or
+nobody knew I should say.
+
+00:23:02.840 --> 00:23:04.327
+And therefore they did...
+
+00:23:04.327 --> 00:23:06.250
+And they didn't know
+how to study this right
+
+00:23:06.250 --> 00:23:08.210
+so you had to come up with all of that.
+
+00:23:08.210 --> 00:23:10.036
+And I'm very happy they did
+
+00:23:10.036 --> 00:23:13.570
+(indistinct) had these genius
+people, UX people working
+
+00:23:13.570 --> 00:23:15.550
+on the push-button telephone
+
+00:23:15.550 --> 00:23:17.460
+because that design that they came up with
+
+00:23:17.460 --> 00:23:20.810
+that we are still using today,
+has been used approximately
+
+00:23:20.810 --> 00:23:26.540
+40 trillion times, 40 trillion
+times of usage of this design
+
+00:23:26.540 --> 00:23:27.820
+since it was launched.
+
+00:23:27.820 --> 00:23:31.740
+And this means that by
+doing the better design
+
+00:23:31.740 --> 00:23:36.210
+they have saved the world
+about 1 million person years.
+
+00:23:36.210 --> 00:23:38.160
+So those guys who did that study
+
+00:23:38.160 --> 00:23:40.190
+that was where we have really benefited,
+
+00:23:40.190 --> 00:23:43.550
+humanity's benefited a lot from that work.
+
+00:23:43.550 --> 00:23:47.050
+But, today we don't need to be that smart.
+
+00:23:47.050 --> 00:23:49.193
+We still definitely have to be
+smart to do user experience,
+
+00:23:49.193 --> 00:23:51.530
+it's still difficult
+
+00:23:51.530 --> 00:23:53.530
+but we don't have to be geniuses anymore.
+
+00:23:53.530 --> 00:23:55.690
+And I predict when we go forward,
+
+00:23:55.690 --> 00:23:57.120
+we can actually lower
+
+00:23:57.120 --> 00:23:59.790
+the intelligence requirements even more
+
+00:23:59.790 --> 00:24:03.370
+because there'll be even more
+best practices to rely on,
+
+00:24:03.370 --> 00:24:06.542
+there'll be even more design
+patterns that we can start from
+
+00:24:06.542 --> 00:24:09.410
+when we wanna design a new thing.
+
+00:24:09.410 --> 00:24:12.990
+I don't think we're gonna
+go down to the point
+
+00:24:12.990 --> 00:24:15.840
+with an intelligence of quotient of 100
+
+00:24:15.840 --> 00:24:17.940
+which is average intelligence.
+
+00:24:17.940 --> 00:24:18.773
+I don't think so.
+
+00:24:18.773 --> 00:24:21.610
+I don't think average people
+can do a good user experience.
+
+00:24:21.610 --> 00:24:25.940
+It is inherently very
+complicated, very demanding
+
+00:24:25.940 --> 00:24:27.510
+of brain power because you
+
+00:24:27.510 --> 00:24:30.700
+have some enormously
+many design dimensions.
+
+00:24:30.700 --> 00:24:31.710
+It's just this one thing,
+
+00:24:31.710 --> 00:24:34.310
+bigger or smaller buttons
+that would not be so hard.
+
+00:24:34.310 --> 00:24:37.010
+But there's 50 other things
+you gotta consider as well
+
+00:24:37.010 --> 00:24:38.580
+and put together and design.
+
+00:24:38.580 --> 00:24:40.950
+And that's very, very
+complicated to keep all
+
+00:24:40.950 --> 00:24:43.900
+of those different things in
+your brain at the same time.
+
+00:24:43.900 --> 00:24:47.120
+And also we have to do trade-offs
+
+00:24:47.120 --> 00:24:49.640
+between very vague criteria, conflict
+
+00:24:49.640 --> 00:24:53.380
+and criteria that are usually
+not very cleanly specified.
+
+00:24:53.380 --> 00:24:54.290
+So because of that,
+
+00:24:54.290 --> 00:24:58.450
+it is inherently rather
+difficult to do user experience.
+
+00:24:58.450 --> 00:25:00.480
+It's not gonna be something
+for the average person
+
+00:25:00.480 --> 00:25:01.860
+off the street who can do this.
+
+00:25:01.860 --> 00:25:02.693
+But I do think
+
+00:25:02.693 --> 00:25:05.930
+that we don't need to be
+geniuses anymore already now
+
+00:25:05.930 --> 00:25:07.800
+and in the future even less so.
+
+00:25:07.800 --> 00:25:09.810
+And that's lucky because
+I do have this prediction
+
+00:25:09.810 --> 00:25:13.260
+that there will be enormously
+many more UX professionals
+
+00:25:13.260 --> 00:25:14.380
+in the world in the future.
+
+00:25:14.380 --> 00:25:18.210
+So right now it's about 1.5 million of us.
+
+00:25:18.210 --> 00:25:20.220
+And that means that we are consuming,
+
+00:25:20.220 --> 00:25:23.580
+we are accounting for a third of a percent
+
+00:25:23.580 --> 00:25:26.300
+of the world's workforce
+that has this high level
+
+00:25:26.300 --> 00:25:27.580
+of intelligence.
+
+00:25:27.580 --> 00:25:29.550
+And that's not so bad.
+
+00:25:29.550 --> 00:25:31.120
+A third of a percent is not so bad.
+
+00:25:31.120 --> 00:25:34.260
+And I think it is a little bit
+hard to hire good UX people
+
+00:25:34.260 --> 00:25:37.750
+but it's not because of lack of talent,
+
+00:25:37.750 --> 00:25:39.660
+it's because of lack of training.
+
+00:25:39.660 --> 00:25:40.900
+So that's...
+
+00:25:40.900 --> 00:25:43.820
+We can deal with this. 
+But go into the future,
+
+00:25:43.820 --> 00:25:47.710
+I think we will have 100
+million UX people in the world.
+
+00:25:47.710 --> 00:25:50.740
+And now we're talking about
+we're gonna consume 11%
+
+00:25:50.740 --> 00:25:52.200
+of the world's smart people.
+
+00:25:52.200 --> 00:25:53.370
+Oh, workforce,
+
+00:25:53.370 --> 00:25:56.710
+not retired people but
+people in the workforce 11%.
+
+00:25:56.710 --> 00:26:00.870
+And that's a high, high percentage
+for just one profession.
+
+00:26:00.870 --> 00:26:03.520
+I actually still think
+that's probably realistic
+
+00:26:03.520 --> 00:26:06.000
+because I think there're
+a lot of other professions
+
+00:26:06.000 --> 00:26:09.010
+that now account for a large number
+
+00:26:09.010 --> 00:26:11.580
+of highly intelligent workforce
+
+00:26:11.580 --> 00:26:14.400
+that will require fewer
+people in the future
+
+00:26:14.400 --> 00:26:16.450
+because artificial
+intelligence and computers
+
+00:26:16.450 --> 00:26:20.380
+and so forth will take over
+a lot of that knowledge work
+
+00:26:20.380 --> 00:26:22.730
+and make people much, much more efficient
+
+00:26:22.730 --> 00:26:24.350
+in many, many disciplines.
+
+00:26:24.350 --> 00:26:26.150
+And that means that there'll be need
+
+00:26:26.150 --> 00:26:28.870
+for fewer of these other professions.
+
+00:26:28.870 --> 00:26:30.480
+But that doesn't mean
+there'll be unemployment,
+
+00:26:30.480 --> 00:26:32.510
+that means that those
+people will be available
+
+00:26:32.510 --> 00:26:34.620
+to have our type of job.
+
+00:26:34.620 --> 00:26:37.100
+And so that's how I think
+that's gonna play out is
+
+00:26:37.100 --> 00:26:40.203
+that there'll be a rebalancing
+of the types of jobs
+
+00:26:40.203 --> 00:26:41.254
+that people do
+
+00:26:41.254 --> 00:26:44.700
+where more of them we'll
+be doing user experience
+
+00:26:44.700 --> 00:26:45.880
+and few of them...
+
+00:26:45.880 --> 00:26:49.580
+I mean still 89% but few
+of them will be doing all
+
+00:26:49.580 --> 00:26:54.580
+the other types of jobs that
+are currently the high IQ jobs.
+
+00:26:54.600 --> 00:26:56.240
+In terms of what do we get out of this,
+
+00:26:56.240 --> 00:26:57.640
+a lot of people are working on UX.
+
+00:26:57.640 --> 00:26:58.900
+So what do we get in return?
+
+00:26:58.900 --> 00:27:02.840
+So this chart here shows you
+how much a design has improved
+
+00:27:02.840 --> 00:27:05.460
+into various measurable metrics
+
+00:27:05.460 --> 00:27:08.410
+after you've applied good
+UX practices to the design.
+
+00:27:08.410 --> 00:27:10.200
+And we've studied these a few times.
+
+00:27:10.200 --> 00:27:13.150
+So the first two bars are
+actually data from our studies
+
+00:27:13.150 --> 00:27:15.620
+and the last one is my
+prediction for the future.
+
+00:27:15.620 --> 00:27:17.400
+But the first time we started it,
+
+00:27:17.400 --> 00:27:20.020
+we found that the signs measurable,
+
+00:27:20.020 --> 00:27:24.330
+no metrics improved by 247%
+
+00:27:24.330 --> 00:27:26.510
+which is huge improvement, right?
+
+00:27:26.510 --> 00:27:28.010
+That's enormous improvement
+
+00:27:28.010 --> 00:27:31.030
+in design quality based
+on user experience.
+
+00:27:31.030 --> 00:27:34.420
+And, now last year we
+did the same study again
+
+00:27:34.420 --> 00:27:38.690
+and now it's 75% improvement
+from doing a good UX.
+
+00:27:38.690 --> 00:27:41.260
+Why is it that this
+improvement is so much lower?
+
+00:27:41.260 --> 00:27:46.690
+It's because back then the
+designs were really so bad.
+
+00:27:46.690 --> 00:27:48.840
+I mean, honestly, if you
+remember there was a lot
+
+00:27:48.840 --> 00:27:52.360
+of terrible websites out there
+and other products as well.
+
+00:27:52.360 --> 00:27:55.960
+And so when you start
+from a very low baseline,
+
+00:27:55.960 --> 00:27:57.830
+you can improve it alot.
+
+00:27:57.830 --> 00:28:00.810
+Nowadays, certainly the
+designs are still not perfect
+
+00:28:00.810 --> 00:28:04.630
+but user interfaces are much
+better than they used to be.
+
+00:28:04.630 --> 00:28:08.780
+And so this means that if we
+apply our good best practices
+
+00:28:08.780 --> 00:28:10.420
+from starting from a higher point,
+
+00:28:10.420 --> 00:28:13.630
+we can not improve them by quite as much.
+
+00:28:13.630 --> 00:28:17.900
+So, but 75% is still a
+good improvement in metrics
+
+00:28:17.900 --> 00:28:19.640
+from doing UX.
+
+00:28:19.640 --> 00:28:22.780
+Still, I think this is an
+example of misallocation
+
+00:28:22.780 --> 00:28:25.950
+of resources that we don't
+do even more of this.
+
+00:28:25.950 --> 00:28:28.740
+Because we did another study to find out
+
+00:28:28.740 --> 00:28:32.090
+how many people on an average product team
+
+00:28:32.090 --> 00:28:35.000
+had two UX professionals
+or designers or researchers
+
+00:28:35.000 --> 00:28:37.390
+and that's an average 11%.
+
+00:28:37.390 --> 00:28:41.360
+Now, sometimes more, sometimes
+less but on average 11%.
+
+00:28:41.360 --> 00:28:47.600
+Now, if 11% of the team
+improve the product by 75%,
+
+00:28:47.600 --> 00:28:50.060
+wow, you should do more of that, right?
+
+00:28:50.060 --> 00:28:51.890
+And so that's what I'm
+predicting in the future.
+
+00:28:51.890 --> 00:28:53.810
+And right now I think it's a misallocation
+
+00:28:53.810 --> 00:28:56.570
+of resources that we don't do even more UX
+
+00:28:56.570 --> 00:28:59.140
+but it takes a while to grow this.
+
+00:28:59.140 --> 00:29:01.280
+So my prediction is we're gonna grow more
+
+00:29:01.280 --> 00:29:04.860
+and more UX people but at
+the same time picking all
+
+00:29:04.860 --> 00:29:07.313
+the low-hanging fruit
+and design getting better
+
+00:29:07.313 --> 00:29:08.570
+and better and better.
+
+00:29:08.570 --> 00:29:10.810
+And so the improvement will get lower
+
+00:29:10.810 --> 00:29:11.910
+and lower unfortunately.
+
+00:29:11.910 --> 00:29:15.987
+But, honestly, so that make us feel like,
+
+00:29:15.987 --> 00:29:18.000
+"Well, UX is getting
+less and less important"
+
+00:29:18.000 --> 00:29:19.610
+but actually not so.
+
+00:29:19.610 --> 00:29:22.920
+Because what happens is
+that those 25% improvement
+
+00:29:22.920 --> 00:29:26.370
+will be applying to more
+and more things and more
+
+00:29:26.370 --> 00:29:28.370
+and more important things as well.
+
+00:29:28.370 --> 00:29:32.830
+So right now my estimate
+is that UX, our profession
+
+00:29:32.830 --> 00:29:35.900
+our field contributes
+$0.5 trillion per year
+
+00:29:35.900 --> 00:29:37.600
+to the world economy.
+
+00:29:37.600 --> 00:29:40.240
+And by 2050, I'm
+predicting that we will be
+
+00:29:40.240 --> 00:29:43.990
+contributing $10 trillion a
+year to the world economy.
+
+00:29:43.990 --> 00:29:49.180
+So vastly more each thing
+we do will have less impact
+
+00:29:49.180 --> 00:29:51.010
+but then we'll do so many more things
+
+00:29:51.010 --> 00:29:52.190
+that the total impact,
+
+00:29:52.190 --> 00:29:55.980
+which is what matters,
+will be much bigger.
+
+00:29:55.980 --> 00:29:59.500
+Now I wanna end by telling you
+the story of the Dodo bird.
+
+00:29:59.500 --> 00:30:02.970
+So the Dodo is mainly
+famous for being extinct,
+
+00:30:02.970 --> 00:30:05.110
+sad to say for the poor bird.
+
+00:30:05.110 --> 00:30:07.350
+But it used to live on the Island
+
+00:30:07.350 --> 00:30:08.940
+of Mauritius in the Indian ocean.
+
+00:30:08.940 --> 00:30:12.450
+And before it became extinct,
+luckily there were a few ships
+
+00:30:12.450 --> 00:30:15.020
+that landed on this island and
+caught a few of these birds
+
+00:30:15.020 --> 00:30:18.300
+and took them back to museums
+and so they got stuffed.
+
+00:30:18.300 --> 00:30:20.950
+So you can see in the Natural
+History Museum in London,
+
+00:30:20.950 --> 00:30:22.550
+you could see the photograph
+I took on the left.
+
+00:30:22.550 --> 00:30:24.490
+That's a bird that's stuffed
+and you can see it today.
+
+00:30:24.490 --> 00:30:28.990
+You can see how a Dodo
+used to look in the museum.
+
+00:30:28.990 --> 00:30:31.480
+Now, these sailors who was
+sailing around the Indian ocean
+
+00:30:31.480 --> 00:30:34.460
+they also pass by another
+Island in the Indian ocean
+
+00:30:34.460 --> 00:30:36.520
+called Reunion Island.
+
+00:30:36.520 --> 00:30:38.320
+And they didn't land on this island
+
+00:30:38.320 --> 00:30:40.570
+but they looked at it with their telescope
+
+00:30:40.570 --> 00:30:42.350
+and they saw some big birds there.
+
+00:30:42.350 --> 00:30:44.280
+And they saw they looked
+a lot like the Dodo bird
+
+00:30:44.280 --> 00:30:45.630
+that they just caught in Mauritius.
+
+00:30:45.630 --> 00:30:47.880
+So they went back to London
+and talked to the guys
+
+00:30:47.880 --> 00:30:50.937
+at the museum and said, "We
+saw a Dodo bird at Reunion
+
+00:30:50.937 --> 00:30:53.690
+"but we don't get to get to
+catch one for you, sorry."
+
+00:30:53.690 --> 00:30:56.067
+And so the museum people
+said, "Well, we wanna
+
+00:30:56.067 --> 00:31:00.010
+"have that Reunion Island
+Dodo as well in exhibit."
+
+00:31:00.010 --> 00:31:01.100
+But they didn't have one.
+
+00:31:01.100 --> 00:31:03.160
+So they just make up a fake bird.
+
+00:31:03.160 --> 00:31:04.970
+They made up a bird and stuffed
+
+00:31:04.970 --> 00:31:06.650
+and put that on display as well
+
+00:31:06.650 --> 00:31:09.950
+with a little sign saying,
+"Here's the Reunion Island Dodo."
+
+00:31:09.950 --> 00:31:13.070
+Now it turns out that there
+is no Dodo on Reunion Island,
+
+00:31:13.070 --> 00:31:15.690
+there never was a Dodo on Reunion Island.
+
+00:31:15.690 --> 00:31:17.340
+So those sailors who spotted the bird
+
+00:31:17.340 --> 00:31:21.510
+in their telescope must have
+seen some other type of bird.
+
+00:31:21.510 --> 00:31:22.990
+Now, I just had to say to the credit of
+
+00:31:22.990 --> 00:31:25.000
+the Natural History Museum in London,
+
+00:31:25.000 --> 00:31:28.650
+they have now clean about
+they made up a fake bird
+
+00:31:28.650 --> 00:31:30.607
+and they have another
+sign on it that says,
+
+00:31:30.607 --> 00:31:31.657
+"There was never this bird
+
+00:31:31.657 --> 00:31:33.390
+"but we made it up for this reason."
+
+00:31:33.390 --> 00:31:35.950
+So you can still see that fake bird today
+
+00:31:35.950 --> 00:31:39.690
+as a kind of lesson in the
+downsides of making up things.
+
+00:31:39.690 --> 00:31:42.130
+And I think there should
+be a lesson to not just
+
+00:31:42.130 --> 00:31:44.560
+to the Natural History
+Museum but also to us.
+
+00:31:44.560 --> 00:31:48.740
+Because UX unfortunately
+has a lot of fake birds.
+
+00:31:48.740 --> 00:31:52.650
+We have a lot of cases where
+we make up stories about users
+
+00:31:52.650 --> 00:31:54.077
+and say, "Well, people
+are kinda used to this,"
+
+00:31:54.077 --> 00:31:56.420
+"so they kinda like
+that or they want this."
+
+00:31:56.420 --> 00:31:59.490
+And we don't know because we
+didn't study actual users.
+
+00:31:59.490 --> 00:32:01.750
+And that's what I would call a fake bird.
+
+00:32:01.750 --> 00:32:03.250
+And we have a lot of those
+
+00:32:03.250 --> 00:32:05.160
+unfortunately in our field as well.
+
+00:32:05.160 --> 00:32:08.800
+And I'm sad to say, I'll
+predict we'll keep having those.
+
+00:32:08.800 --> 00:32:10.590
+Because the history of user experience is
+
+00:32:10.590 --> 00:32:13.960
+that every time we get a new technology
+
+00:32:13.960 --> 00:32:16.240
+or some new opportunity for design,
+
+00:32:16.240 --> 00:32:20.380
+it's like a two-step forward
+one-step back scenario
+
+00:32:20.380 --> 00:32:22.470
+which of course net is an improvement.
+
+00:32:22.470 --> 00:32:25.910
+But honestly, every time we
+get something new we can do,
+
+00:32:25.910 --> 00:32:28.300
+some people make up
+fake stories about users
+
+00:32:28.300 --> 00:32:32.600
+and then they do bad design
+and we have to fix all of that
+
+00:32:32.600 --> 00:32:33.820
+and that's a sad thing.
+
+00:32:33.820 --> 00:32:34.800
+And I really just predict
+
+00:32:34.800 --> 00:32:37.230
+that that's unfortunately gonna continue.
+
+00:32:37.230 --> 00:32:40.220
+I think that's an unfortunate scenario.
+
+00:32:40.220 --> 00:32:43.680
+But that said, remember
+that by 2050 I'm predicting
+
+00:32:43.680 --> 00:32:46.790
+we will have 100 million
+UX people in the world.
+
+00:32:46.790 --> 00:32:47.660
+And so this means
+
+00:32:47.660 --> 00:32:51.830
+that they will be an extremely
+large number of new insights,
+
+00:32:51.830 --> 00:32:54.540
+new user insights, new design ideas,
+
+00:32:54.540 --> 00:32:56.870
+various improvement in the
+user interface coming out
+
+00:32:56.870 --> 00:32:59.457
+and some fake birds, fake data,
+
+00:32:59.457 --> 00:33:02.550
+bad design coming out as well, yes.
+
+00:33:02.550 --> 00:33:04.950
+But also a great number of good ones.
+
+00:33:04.950 --> 00:33:07.763
+And now user experience
+we're actually lucky
+
+00:33:07.763 --> 00:33:10.950
+that we have designed Darwinism,
+
+00:33:10.950 --> 00:33:12.500
+the survival of the fittest
+
+00:33:12.500 --> 00:33:15.140
+or the survival of the high most usability
+
+00:33:15.140 --> 00:33:18.540
+which is that users
+will go where it's easy,
+
+00:33:18.540 --> 00:33:21.390
+where they're treated well,
+where things are nice for them.
+
+00:33:21.390 --> 00:33:22.880
+If they get a bad design,
+
+00:33:22.880 --> 00:33:25.170
+they'll use it less and
+they'll stop using it
+
+00:33:25.170 --> 00:33:27.570
+or they will not go to that
+website more than once.
+
+00:33:27.570 --> 00:33:30.600
+If it's a good design, they'll
+come back and use it more.
+
+00:33:30.600 --> 00:33:34.630
+And so the design Darwinism
+is that gradually,
+
+00:33:34.630 --> 00:33:36.680
+the good user experience actually wins.
+
+00:33:36.680 --> 00:33:41.010
+But there is temporarily a
+lot of bad mutations as well
+
+00:33:41.010 --> 00:33:42.410
+and we have to suffer under...
+
+00:33:42.410 --> 00:33:45.460
+But designed Darwinism means
+that eventually we get better.
+
+00:33:45.460 --> 00:33:48.880
+That's why that prediction
+of having so much innovation
+
+00:33:48.880 --> 00:33:51.970
+in the world is I think
+is extremely positive
+
+00:33:51.970 --> 00:33:54.940
+because that means that
+so many, many, many
+
+00:33:54.940 --> 00:33:56.300
+many ideas and so forth
+
+00:33:56.300 --> 00:33:59.520
+which we can call kind of the best ones.
+
+00:33:59.520 --> 00:34:02.330
+Now, because of all of these changes,
+
+00:34:02.330 --> 00:34:06.050
+my ultimate prediction
+about user experience is
+
+00:34:06.050 --> 00:34:09.000
+that we are gonna be the digital mermaid.
+
+00:34:09.000 --> 00:34:11.120
+We're gonna be like the little mermaid.
+
+00:34:11.120 --> 00:34:12.290
+When I say the "Little Mermaid"
+
+00:34:12.290 --> 00:34:15.800
+I mean the original fairytale
+by Hans Christian Andersen,
+
+00:34:15.800 --> 00:34:17.520
+I don't mean the kind of prettified movie
+
+00:34:17.520 --> 00:34:18.900
+that was made later.
+
+00:34:18.900 --> 00:34:21.850
+But in the original fairytale
+about the little mermaid,
+
+00:34:21.850 --> 00:34:25.630
+the ending is actually
+kind of tragic because
+
+00:34:25.630 --> 00:34:29.280
+or at least bittersweet
+because yes he gets the prince
+
+00:34:29.280 --> 00:34:31.300
+but at a very high cost,
+
+00:34:31.300 --> 00:34:34.330
+at the cost of everything
+that made her special.
+
+00:34:34.330 --> 00:34:37.430
+She has to become human and she loses...
+
+00:34:37.430 --> 00:34:38.890
+She can't swim with the fishes
+
+00:34:38.890 --> 00:34:41.860
+and all the various things
+that used to make her special.
+
+00:34:41.860 --> 00:34:43.710
+She has lost all of that.
+
+00:34:43.710 --> 00:34:46.940
+And I think this is what's
+gonna happen to us as well.
+
+00:34:46.940 --> 00:34:50.810
+We will do what used to make us special.
+
+00:34:50.810 --> 00:34:53.550
+We used to be special because
+we were a very small elite,
+
+00:34:53.550 --> 00:34:56.260
+very few people who
+knew how to make designs
+
+00:34:56.260 --> 00:34:57.470
+and websites work.
+
+00:34:57.470 --> 00:35:00.130
+Most people didn't and
+made terrible products.
+
+00:35:00.130 --> 00:35:02.470
+We were the few people that
+knew how to make it better.
+
+00:35:02.470 --> 00:35:03.880
+Whenever we worked on something,
+
+00:35:03.880 --> 00:35:06.040
+man, several hundred
+percents improvements.
+
+00:35:06.040 --> 00:35:07.440
+It was like, wow, wow, wow
+
+00:35:07.440 --> 00:35:09.290
+here comes the UX and we are the heroes
+
+00:35:09.290 --> 00:35:12.300
+and we will just make
+things so much better.
+
+00:35:12.300 --> 00:35:14.360
+Well, as I said my prediction is
+
+00:35:14.360 --> 00:35:16.570
+we will make things only a
+little better in the future
+
+00:35:16.570 --> 00:35:19.280
+because it's gonna get already much better
+
+00:35:19.280 --> 00:35:20.820
+and navigate so many innovations
+
+00:35:20.820 --> 00:35:22.770
+that each individual thing we work on
+
+00:35:22.770 --> 00:35:24.110
+is not gonna be so much.
+
+00:35:24.110 --> 00:35:28.150
+We're not gonna be special, 
+it's gonna be a 100 million of us.
+
+00:35:28.150 --> 00:35:30.780
+So, is that good or bad?
+
+00:35:30.780 --> 00:35:34.370
+I think ultimately it's good
+because there is that prize.
+
+00:35:34.370 --> 00:35:36.300
+The little mermaid she won the prince,
+
+00:35:36.300 --> 00:35:38.100
+we were gonna win the world.
+
+00:35:38.100 --> 00:35:42.380
+We're gonna make the
+world so much better for
+
+00:35:42.380 --> 00:35:44.810
+the broad masses of humanity
+
+00:35:44.810 --> 00:35:48.530
+and improve so many, many, many things.
+
+00:35:48.530 --> 00:35:52.460
+And we are gonna be normal,
+common, the way it's done.
+
+00:35:52.460 --> 00:35:54.520
+We're not gonna be that special elite,
+
+00:35:54.520 --> 00:35:56.480
+unusual thing anymore.
+
+00:35:56.480 --> 00:35:58.780
+But I think ultimately that
+honestly is for the best.
+
+00:35:58.780 --> 00:36:01.310
+So that's what I predict for
+the future of user experience.
+
+00:36:01.310 --> 00:36:02.310
+Thank you very much.
+

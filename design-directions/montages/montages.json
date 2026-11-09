@@ -1,0 +1,260 @@
+[
+ {
+  "id": "m01",
+  "title": "Reef first: the v4 cut, fixed",
+  "secs": 30.5,
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "cape",
+    "Tropical cape (12)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "m02",
+  "title": "Above and below, alternating",
+  "secs": 31.5,
+  "shots": [
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "corridor",
+    "Karst corridor, turns trimmed (32)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "m03",
+  "title": "Raja Ampat by boat",
+  "secs": 26.0,
+  "shots": [
+   [
+    "boat",
+    "Boat bow, horizon kept level (34)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "corridor",
+    "Karst corridor, turns trimmed (32)"
+   ],
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ]
+  ]
+ },
+ {
+  "id": "m04",
+  "title": "Islands from the air",
+  "secs": 30.5,
+  "shots": [
+   [
+    "cape",
+    "Tropical cape (12)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "garden",
+    "Low into the coral garden (17)"
+   ],
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "m05",
+  "title": "Underwater only",
+  "secs": 29.0,
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "fish",
+    "Bommie with reef fish (27)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "jellies",
+    "Jellyfish constellation (29)"
+   ]
+  ]
+ },
+ {
+  "id": "m06",
+  "title": "Quiet: long shots, dissolves",
+  "secs": 27.6,
+  "shots": [
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "m07",
+  "title": "Short and fast, 16 s",
+  "secs": 16.0,
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ]
+  ]
+ },
+ {
+  "id": "m08",
+  "title": "Beach and boats",
+  "secs": 30.0,
+  "shots": [
+   [
+    "canoe",
+    "Canoe on the white beach, longer (40)"
+   ],
+   [
+    "mushroom",
+    "Boat to the mushroom rock (20)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "m09",
+  "title": "North Sulawesi coast and reef",
+  "secs": 27.0,
+  "shots": [
+   [
+    "coast",
+    "Volcanic coast, North Sulawesi (06)"
+   ],
+   [
+    "palms",
+    "Between palm trunks (11)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "m10",
+  "title": "A day: morning to sunset",
+  "secs": 30.5,
+  "shots": [
+   [
+    "cape",
+    "Tropical cape (12)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ }
+]

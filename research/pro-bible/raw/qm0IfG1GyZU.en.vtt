@@ -1,0 +1,1454 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.098
+♪ [music] ♪
+
+00:00:13.082 --> 00:00:14.115
+Hi, I'm Una,
+
+00:00:14.115 --> 00:00:18.307
+a developer advocate on the Chrome team
+focusing on CSS and WebView-x.
+
+00:00:18.307 --> 00:00:21.548
+Thank you for joining me today,
+I am super excited to get started
+
+00:00:21.548 --> 00:00:25.899
+and talk about some magical lines of CSS
+that do some serious heavy lifting,
+
+00:00:25.899 --> 00:00:28.543
+and let you build 
+robust modern layouts.
+
+00:00:28.543 --> 00:00:31.543
+Before we dive in to that,
+there are a couple of key terms
+
+00:00:31.543 --> 00:00:33.780
+that will help you 
+in your styling journeys,
+
+00:00:33.780 --> 00:00:37.433
+and are super good to know about
+as we walk through these techniques.
+
+00:00:37.433 --> 00:00:39.299
+Most of the items I'm mentioning today
+
+00:00:39.299 --> 00:00:42.659
+are used in conjunction 
+with Grid or Flexbox layout
+
+00:00:42.659 --> 00:00:47.360
+and you can denote those as <i>display: grid</i>
+or <i>display: flex</i> on the parent element.
+
+00:00:47.360 --> 00:00:52.124
+The first key terms are <i>fr</i> and <i>auto</i>,
+these are used with grid layouts
+
+00:00:52.124 --> 00:00:54.872
+to denote fractional units of space, 
+that's <i>fr</i>
+
+00:00:54.872 --> 00:00:56.915
+or automatic space, that's <i>auto</i>
+
+00:00:56.915 --> 00:01:00.797
+based on the minimum content size
+of the items within that element.
+
+00:01:00.797 --> 00:01:03.872
+For grid layout we also have
+the <i>minmax()</i> function,
+
+00:01:03.872 --> 00:01:07.653
+which lets us set a minimum 
+and maximum value with our layout bounds
+
+00:01:07.653 --> 00:01:10.553
+to enable responsive design 
+without media queries.
+
+00:01:10.553 --> 00:01:13.433
+We also have separate <i>min() max() </i>
+and <i>clamp()</i> functions
+
+00:01:13.433 --> 00:01:17.119
+available in some browsers 
+that bring logic to CSS.
+
+00:01:17.119 --> 00:01:19.318
+The browser determines 
+which value to choose
+
+00:01:19.318 --> 00:01:21.787
+based on the function 
+provided for <i>min()</i> and <i>max(),</i>
+
+00:01:21.787 --> 00:01:24.252
+and for <i>clamp()</i>, 
+we set both a <i>min()</i> and <i>max()</i>
+
+00:01:24.252 --> 00:01:26.419
+with a relative value in between.
+
+00:01:26.419 --> 00:01:29.734
+We'll definitely be covering these 
+within the video with the demo.
+
+00:01:29.734 --> 00:01:33.466
+And within these layouts 
+we can also use <i>auto-fit</i> or <i>auto-fill</i>
+
+00:01:33.466 --> 00:01:36.915
+to automatically place child elements
+into a parent grid.
+
+00:01:36.915 --> 00:01:41.598
+This is another tool for dynamic 
+responsive layouts without media queries.
+
+00:01:41.598 --> 00:01:44.746
+We're going to be going over 
+all of those terms and more
+
+00:01:44.746 --> 00:01:46.348
+with demos galore.
+
+00:01:46.668 --> 00:01:49.159
+I'm a really big nerd, I don't know 
+why I made that rhyme
+
+00:01:49.159 --> 00:01:50.986
+and put that in this video, but I did,
+
+00:01:50.986 --> 00:01:55.094
+so let's just dive into these demos 
+and 1 line layouts.
+
+00:01:55.094 --> 00:02:00.260
+I made a handy little site called 
+1 line layouts at <i>1linelayouts.glitch.me</i>
+
+00:02:00.260 --> 00:02:02.627
+so that you can follow along 
+or play on your own
+
+00:02:02.627 --> 00:02:05.979
+and have a reference for the power 
+that CSS can bring to your layouts.
+
+00:02:06.619 --> 00:02:08.476
+For our first single line layout,
+
+00:02:08.476 --> 00:02:13.010
+let's solve the biggest mystery in all 
+the CSS land: centering things.
+
+00:02:13.010 --> 00:02:17.075
+I want you to know that's easier
+than you think with place items centered.
+
+00:02:17.075 --> 00:02:19.910
+I call this the 
+"definitely centered layout."
+
+00:02:19.910 --> 00:02:23.170
+What we need to do is first specify
+the layout method,
+
+00:02:23.170 --> 00:02:24.752
+which is <i>display: grid</i> here,
+
+00:02:24.752 --> 00:02:27.298
+and then we are going to write 
+<i>place-items: center</i>
+
+00:02:27.298 --> 00:02:29.674
+this is that one magical line of code,
+
+00:02:29.674 --> 00:02:32.073
+and I have these highlighted 
+under the titles here.
+
+00:02:32.073 --> 00:02:35.086
+So what happens here is 
+no matter what you put in here,
+
+00:02:35.086 --> 00:02:38.670
+it is going to stay centered 
+to that parent element.
+
+00:02:39.160 --> 00:02:41.976
+So if we look at the HTML, 
+we have this parent,
+
+00:02:41.976 --> 00:02:43.853
+and it's just getting 
+a background in blue,
+
+00:02:43.853 --> 00:02:46.250
+and then this child 
+with a coral background,
+
+00:02:46.250 --> 00:02:48.881
+and it's content editable
+so we can actually just type in here,
+
+00:02:48.881 --> 00:02:51.683
+we can have vertical content, "hello world,"
+
+00:02:51.683 --> 00:02:57.632
+and even as I'm typing, this child element
+it staying centered within the parent box.
+
+00:02:57.632 --> 00:03:00.217
+So I think that this is 
+a really cool technique,
+
+00:03:00.217 --> 00:03:03.880
+<i>place-item:center</i>
+will solve all of your centered dilemmas.
+
+00:03:03.880 --> 00:03:06.580
+Next we have the Deconstructed Pancake.
+
+00:03:06.580 --> 00:03:09.547
+This is something that we see 
+all the time on marketing sites,
+
+00:03:09.547 --> 00:03:11.676
+you see this row of three items,
+
+00:03:11.676 --> 00:03:14.495
+and usually on mobile 
+we'll want that to be stacked,
+
+00:03:14.495 --> 00:03:18.811
+wich is why I called this 
+the pancake stack but deconstructed,
+
+00:03:18.811 --> 00:03:22.126
+because as you increase
+the size of the viewport,
+
+00:03:22.126 --> 00:03:25.508
+those items will start spanning 
+into the same line,
+
+00:03:25.508 --> 00:03:28.244
+so it starts when they're all 
+on top of each other,
+
+00:03:28.244 --> 00:03:32.276
+and then they start to deconstruct
+as you increase the size of the viewport.
+
+00:03:32.276 --> 00:03:34.891
+So the way that we're going 
+to be doing this one
+
+00:03:34.891 --> 00:03:37.107
+is using the shorthand for Flexbox,
+
+00:03:37.107 --> 00:03:41.295
+<i>flex: 0 1 &lt;baseWidth&gt;</i>
+is what we will be using for this look
+
+00:03:41.295 --> 00:03:43.572
+that you're seeing right now 
+without the stretching.
+
+00:03:43.572 --> 00:03:47.090
+But if we did want it to stretch, 
+we would set that to <i>flex: 1 1</i>
+
+00:03:47.090 --> 00:03:48.799
+and then the flex basis.
+
+00:03:48.799 --> 00:03:54.203
+And the reason why we do this is because 
+the flex shorthand stands for flex grow,
+
+00:03:54.203 --> 00:03:56.553
+flex shrink, and then flex basis.
+
+00:03:56.553 --> 00:04:01.252
+So again, here we have <i>flex: 0 1 150px</i>, 
+that is the basis here
+
+00:04:01.252 --> 00:04:05.702
+so as we increase the size
+it is not going to be growing much.
+
+00:04:05.702 --> 00:04:09.067
+Also, when we decrease it, it's going 
+to be staying within that 150px size.
+
+00:04:09.067 --> 00:04:11.237
+When we do change that to 1,
+
+00:04:11.237 --> 00:04:12.934
+I'm just gonna delete
+this line of code here,
+
+00:04:12.934 --> 00:04:15.468
+now we see that 
+this is going to be stretching,
+
+00:04:15.468 --> 00:04:19.360
+so here you can see that it stretches
+to fill the space, even as it wraps,
+
+00:04:19.360 --> 00:04:22.730
+and as I increase it to be even larger 
+of a viewport size,
+
+00:04:22.730 --> 00:04:25.098
+these items are going to be 
+filling that space.
+
+00:04:25.098 --> 00:04:27.036
+So this is the Deconstructed Pancake,
+
+00:04:27.036 --> 00:04:29.845
+a really common technique
+that we see on marketing sites.
+
+00:04:29.845 --> 00:04:33.351
+This is usually is gonna be like an image 
+with some text about the product,
+
+00:04:33.351 --> 00:04:35.945
+and you can write it 
+by using the flex shorthand.
+
+00:04:36.705 --> 00:04:39.190
+I like to call this one Sidebar Says,
+
+00:04:39.190 --> 00:04:43.228
+and it takes advantage of that 
+<i>minmax()</i> function for grid layouts.
+
+00:04:43.228 --> 00:04:47.186
+So that is the line here, we have 
+<i>grid-template-columns: minmax()</i>
+
+00:04:47.186 --> 00:04:49.822
+and then <i>&lt;min&gt;</i> and <i>&lt;max&gt;</i> value.
+
+00:04:49.822 --> 00:04:51.932
+That's pretty straightforward 
+with <i>minmax().</i>
+
+00:04:51.932 --> 00:04:53.427
+But what this is doing
+
+00:04:53.427 --> 00:04:56.086
+is essentially as we are increasing 
+the size of the viewport,
+
+00:04:56.086 --> 00:04:59.739
+it's going to be taking that 25% size, 
+that max size,
+
+00:04:59.739 --> 00:05:04.262
+and as we decrease it, 
+it hits this point where it's 150px,
+
+00:05:04.262 --> 00:05:07.673
+and where 25% is smaller than 150px,
+
+00:05:07.673 --> 00:05:10.641
+so it's going to clamp it 
+at that minimum size.
+
+00:05:10.641 --> 00:05:14.753
+So it's going to be increasing 
+when it can take up that viewport space,
+
+00:05:14.753 --> 00:05:17.614
+but if we have content in here 
+that we don't want squeezed,
+
+00:05:17.614 --> 00:05:21.765
+or we want it to stop being 25%, 
+and at a minimum be 150px,
+
+00:05:21.765 --> 00:05:23.585
+or whatever value we set here,
+
+00:05:23.585 --> 00:05:27.135
+then that it's exactly what <i>minmax()</i>
+is doing for us.
+
+00:05:27.135 --> 00:05:29.635
+And in the grid template columns 
+here we are writing
+
+00:05:29.635 --> 00:05:32.472
+<i>grid-template-columns: minmax()</i>
+that base value,
+
+00:05:32.472 --> 00:05:35.119
+and then the relative value, so 25%,
+
+00:05:35.119 --> 00:05:37.502
+and that second element is getting <i>1fr</i>.
+
+00:05:37.502 --> 00:05:39.768
+So if we look at the HTML, 
+we have these two elements,
+
+00:05:39.768 --> 00:05:43.148
+this yellow side bar section, 
+and then this purple content section,
+
+00:05:43.148 --> 00:05:46.706
+and they are taking up the units 
+of space that we are specifying.
+
+00:05:46.706 --> 00:05:49.321
+In this specific case, 
+we can actually even set this to auto,
+
+00:05:49.321 --> 00:05:51.530
+and it would be looking the same,
+
+00:05:51.530 --> 00:05:54.544
+because we are only setting the size
+to that first element.
+
+00:05:54.544 --> 00:05:58.079
+We're gonna go over auto versus 1fr 
+in the next example.
+
+00:05:58.079 --> 00:06:02.678
+But I think that is this pretty neat, 
+a great way to set a minimum size,
+
+00:06:02.678 --> 00:06:05.961
+but then let your elements stretch 
+on larger viewports
+
+00:06:05.961 --> 00:06:09.088
+to fit those layouts a little bit better,
+
+00:06:09.088 --> 00:06:11.659
+based on how your user 
+is seeing your website.
+
+00:06:12.299 --> 00:06:14.616
+Next we have the Pancake Stack,
+
+00:06:14.616 --> 00:06:16.563
+unlike the Deconstructed Pancake,
+
+00:06:16.563 --> 00:06:20.309
+this one do not shift 
+when the screen changes sizes.
+
+00:06:20.309 --> 00:06:23.978
+This is a very common layout 
+that we see for both websites
+
+00:06:23.978 --> 00:06:27.420
+and applications across mobile 
+and desktop functions.
+
+00:06:27.820 --> 00:06:29.423
+So it looks like this,
+
+00:06:29.423 --> 00:06:31.523
+as we are increasing 
+and decreasing the size
+
+00:06:31.523 --> 00:06:33.808
+this content is not changing,
+
+00:06:33.808 --> 00:06:35.838
+and what we are doing to create this,
+
+00:06:35.838 --> 00:06:41.386
+is we are writing the <i>grid-template-rows:</i>
+to be <i>auto 1fr</i> and <i>auto</i>.
+
+00:06:41.386 --> 00:06:45.853
+So what we are doing is essentially 
+telling the first and last row
+
+00:06:45.853 --> 00:06:49.898
+to take up the space 
+that the internal elements allow.
+
+00:06:49.898 --> 00:06:53.174
+So if this header was two lines,
+then it's going to increasingly
+
+00:06:53.174 --> 00:06:56.859
+take up more space 
+within this vertical layout.
+
+00:06:57.299 --> 00:07:00.949
+With this <i>auto</i> section
+I could have more content here,
+
+00:07:00.949 --> 00:07:04.083
+but it's not going to increase the size,
+because what we're doing
+
+00:07:04.083 --> 00:07:10.147
+is setting the auto placed row first
+to take up that specific size
+
+00:07:10.147 --> 00:07:11.778
+based on the content within it,
+
+00:07:11.778 --> 00:07:15.094
+and then the remaining space,
+is the remaining fractional unit.
+
+00:07:15.094 --> 00:07:17.962
+So as we increase this also vertically,
+
+00:07:17.962 --> 00:07:22.076
+we can see that the first 
+and last row are not growing.
+
+00:07:22.076 --> 00:07:24.862
+They're still only gonna be taking
+the size that they need,
+
+00:07:24.862 --> 00:07:27.401
+but if I decrease the horizontal space,
+
+00:07:27.401 --> 00:07:29.598
+as Footer Content 
+moves on to the next line,
+
+00:07:29.598 --> 00:07:32.719
+it is going to take space up 
+within that layout.
+
+00:07:32.719 --> 00:07:36.941
+So with <i>grid-template-rows: auto 1fr auto</i>
+you can create the pancake stack.
+
+00:07:36.941 --> 00:07:39.626
+You could even have 
+an application toolbar down there.
+
+00:07:39.626 --> 00:07:42.690
+Again, this is the one 
+that we see really commonly,
+
+00:07:42.690 --> 00:07:45.171
+and <i>grid-template-rows</i>
+is a great one to know.
+
+00:07:45.691 --> 00:07:48.892
+Another very common layout
+is the Holy Grail layout.
+
+00:07:48.892 --> 00:07:50.572
+Does this look familiar?
+
+00:07:50.572 --> 00:07:52.629
+I think we've all have seen
+a website or two
+
+00:07:52.629 --> 00:07:56.104
+that looks exactly like this at some point
+on our web journey.
+
+00:07:56.104 --> 00:08:00.638
+We've got your Header, your Footer,
+your Left Sidebar over here,
+
+00:08:00.638 --> 00:08:03.170
+your Main Content, 
+and then a Right Sidebar.
+
+00:08:03.170 --> 00:08:08.118
+And we can write all of this
+in one line of code using <i>grid-template</i>.
+
+00:08:08.118 --> 00:08:12.502
+So <i>grid-template</i> allows us to write
+the <i>grid-template-rows</i>
+
+00:08:12.502 --> 00:08:16.082
+and <i>grid-template-columns</i>
+at the same time.
+
+00:08:16.082 --> 00:08:18.699
+So that's pretty neat. 
+It's also super responsive.
+
+00:08:18.699 --> 00:08:21.648
+Again, you see this auto content taking up
+
+00:08:21.648 --> 00:08:24.516
+what we are specifying here internally,
+
+00:08:24.516 --> 00:08:27.349
+and then this Main Content 
+taking up the <i>1fr</i>,
+
+00:08:27.349 --> 00:08:30.615
+and so what we are specifying
+in here is <i>grid-template</i>
+
+00:08:30.615 --> 00:08:35.262
+with <i>auto 1fr</i> for this middle space,
+and then <i>auto</i> for the footer,
+
+00:08:35.262 --> 00:08:38.995
+and then we've got our columns 
+of <i>auto 1fr</i> and <i>auto</i>.
+
+00:08:38.995 --> 00:08:41.711
+So you get the whole Holy Grail layout
+
+00:08:41.711 --> 00:08:45.460
+with <i>grid-template:</i>
+and <i>auto 1fr auto / auto 1fr auto</i>.
+
+00:08:45.460 --> 00:08:49.409
+This slash is what denotes 
+our rows versus columns
+
+00:08:49.409 --> 00:08:51.777
+when we are writing the <i>grid-template</i>.
+
+00:08:51.777 --> 00:08:54.359
+So I think that this one is great to know,
+
+00:08:54.359 --> 00:08:56.777
+<i>grid-template</i> is something 
+that I use all the time.
+
+00:08:56.777 --> 00:08:59.291
+This is not like exactly one line, I mean,
+
+00:08:59.291 --> 00:09:01.340
+all of these you have 
+a little bit more to add,
+
+00:09:01.340 --> 00:09:04.174
+but with this when you're already 
+in <i>grid-template</i>,
+
+00:09:04.174 --> 00:09:10.794
+you can then specify <i>grid-columns</i>
+and <i>grid-rows</i> for each of these elements.
+
+00:09:10.794 --> 00:09:15.055
+So here I'm specifying what grid column
+I'm placing the Header in.
+
+00:09:15.055 --> 00:09:20.143
+I'm going all the way across all three, 
+so <i>1 / 4</i> to get those grid tracks
+
+00:09:20.143 --> 00:09:22.055
+from the first track to the last track,
+
+00:09:22.055 --> 00:09:26.833
+and then the left side we have it 
+going inside the first, so from 1 to 2,
+
+00:09:26.833 --> 00:09:30.116
+this main section going from 2 to 3,
+
+00:09:30.116 --> 00:09:32.153
+so that's gonna be taking up 
+the middle section.
+
+00:09:32.153 --> 00:09:34.185
+And then the right side is from 3 to 4,
+
+00:09:34.185 --> 00:09:37.701
+so that's going all the way to the end
+of this grid that we created.
+
+00:09:37.701 --> 00:09:40.503
+And then for that footer it's going
+all the way across just like the header.
+
+00:09:40.503 --> 00:09:43.881
+So you do specify where items are placed,
+
+00:09:43.881 --> 00:09:46.670
+when it is a little bit more 
+of a complex UI,
+
+00:09:46.670 --> 00:09:48.676
+and here if we look at the HTML,
+
+00:09:48.676 --> 00:09:53.271
+I have this parent, then I have header,
+then I have left side bar,
+
+00:09:53.271 --> 00:09:58.637
+then I have the main section, 
+right section, and then the footer.
+
+00:09:58.637 --> 00:10:04.073
+So, you can write all of your layouts
+in one line using <i>grid-template</i> property.
+
+00:10:04.593 --> 00:10:08.679
+Next we have another classic, 
+the 12-By or 12-Span Grid.
+
+00:10:08.679 --> 00:10:13.025
+You can quickly write grids in CSS 
+using the repeat grid function.
+
+00:10:13.025 --> 00:10:17.564
+And here we're setting a repeat 
+of 12 columns, so that looks like this:
+
+00:10:17.564 --> 00:10:22.591
+<i>grid-template-columns: repeat</i> the number 
+that we want to repeat, and then <i>1fr</i>.
+
+00:10:22.591 --> 00:10:24.874
+So this would be the same as writing
+
+00:10:24.874 --> 00:10:28.856
+<i>grid-template-columns:
+1fr 1fr 1fr...</i> 12 times,
+
+00:10:28.856 --> 00:10:30.705
+but because I don't want to do that,
+
+00:10:30.705 --> 00:10:33.522
+I'm just gonna write <i>repeat 12</i>
+and then <i>1fr,</i>
+
+00:10:33.522 --> 00:10:36.271
+and then we have a 12-By grid.
+
+00:10:36.271 --> 00:10:40.505
+So now we can place our items 
+within this grid however we want.
+
+00:10:40.505 --> 00:10:43.457
+If we want it to span
+all the way across the 12 columns,
+
+00:10:43.457 --> 00:10:47.578
+we would use this <i>span-12</i> element--
+I just gave it a <i>span-12</i> class--
+
+00:10:47.578 --> 00:10:50.149
+and have it going from 1 
+to all the way to 13,
+
+00:10:50.149 --> 00:10:51.863
+so it's taking up the full space
+
+00:10:51.863 --> 00:10:55.231
+of the 12 columns ending 
+at the grid track of 13,
+
+00:10:55.231 --> 00:10:58.634
+which would be the end 
+of that 12th column line.
+
+00:10:58.634 --> 00:11:04.435
+For the <i>span-6</i>, this is going from 1 to 7,
+for <i>span-4</i>, this is going from 4 to 9.
+
+00:11:04.435 --> 00:11:05.742
+It can go anywhere.
+
+00:11:05.742 --> 00:11:09.166
+I could start this at the first line 
+and make it go all the way to 9.
+
+00:11:09.166 --> 00:11:11.985
+I could have this go to 5 
+and have it still <i>span-4,</i>
+
+00:11:11.985 --> 00:11:16.295
+but the cool thing is you can just place
+this wherever you want inside of your UI.
+
+00:11:16.295 --> 00:11:20.163
+So I fI wanted to have this start
+from 6 and go to 10, I could do that.
+
+00:11:20.163 --> 00:11:23.526
+And then we have this <i>span-2</i>,
+and this is just going from 3 to 5,
+
+00:11:25.347 --> 00:11:28.938
+And then a peep at the HTML, 
+we just have this parent element,
+
+00:11:28.938 --> 00:11:31.746
+and then the inside of here, 
+we're just giving it classes
+
+00:11:31.746 --> 00:11:36.799
+based on those span elements that we were
+just adjusting within that grid template.
+
+00:11:36.799 --> 00:11:40.502
+So the repeat function is very, 
+very useful when you don't want
+
+00:11:40.502 --> 00:11:44.200
+to keep typing out <i>1fr auto</i>
+multiple times,
+
+00:11:44.200 --> 00:11:46.937
+it just lets you
+quickly write information.
+
+00:11:47.393 --> 00:11:51.175
+We are going to expand 
+on the repeat function for number seven.
+
+00:11:51.175 --> 00:11:54.117
+And this technique is super cool, 
+super useful,
+
+00:11:54.117 --> 00:11:56.165
+if you take away anything from this video,
+
+00:11:56.165 --> 00:11:59.031
+I think this would be a great one
+to keep in your repertoire.
+
+00:11:59.031 --> 00:12:03.973
+I like to call this the RAM technique, 
+which stands for Repeat Auto and Minmax.
+
+00:12:03.973 --> 00:12:06.130
+And the line of code here looks like this.
+
+00:12:06.130 --> 00:12:10.237
+You have the <i>grid-template-columns:
+repeat(auto-fit </i> or <i>auto-fill,</i>
+
+00:12:10.237 --> 00:12:15.535
+<i>minmax</i> (the base value,
+and then <i>1fr</i>)) for a fractional unit.
+
+00:12:15.535 --> 00:12:18.270
+And here we have that base value as 150px,
+
+00:12:18.270 --> 00:12:20.117
+I'll show you exactly what's going on.
+
+00:12:20.117 --> 00:12:22.784
+So as we increase the size here,
+
+00:12:22.784 --> 00:12:27.535
+these elements are going to fit 
+to take up the space, these four boxes,
+
+00:12:27.535 --> 00:12:31.928
+as I decrease it, they're going to hit 
+this 150px base value,
+
+00:12:31.928 --> 00:12:35.365
+and then they're going to wrap
+onto the next line.
+
+00:12:35.365 --> 00:12:38.280
+But here we have them <i>auto-fitting</i>,
+
+00:12:38.280 --> 00:12:42.496
+so they're going to be spanning 
+to take up as much space as they can.
+
+00:12:42.496 --> 00:12:45.696
+There's some really cool 
+algorithms at play here.
+
+00:12:45.696 --> 00:12:50.678
+Now if we change this to <i>auto-fill</i>, 
+this will look a little bit different,
+
+00:12:50.678 --> 00:12:52.595
+so let me just update that to <i>auto-fill</i>.
+
+00:12:52.595 --> 00:12:55.244
+Here now as I increase the size,
+
+00:12:55.244 --> 00:12:57.960
+it's not going to be spanning
+and stretching
+
+00:12:57.960 --> 00:13:00.333
+to take up the remainder of the space.
+
+00:13:00.333 --> 00:13:04.639
+It's actually going to be suing that 150px
+as a baseline and stay within that.
+
+00:13:04.639 --> 00:13:07.020
+At smaller sizes,
+there's no difference here,
+
+00:13:07.020 --> 00:13:09.992
+but you really see the difference
+at larger sizes
+
+00:13:09.992 --> 00:13:12.358
+as you have additional space.
+
+00:13:12.358 --> 00:13:16.925
+And I use this technique on the page 
+that you're looking at here itself,
+
+00:13:16.925 --> 00:13:22.631
+this <i>auto-fill</i>, so that these two segments
+would stretch and shrink
+
+00:13:22.631 --> 00:13:26.817
+but not exceed a specific space 
+that I wanted them to,
+
+00:13:26.817 --> 00:13:28.309
+and then I have them centered.
+
+00:13:28.309 --> 00:13:33.346
+So you can center this within the parent 
+as it spreads to a larger size.
+
+00:13:33.346 --> 00:13:36.853
+That's always an option, 
+and a really great technique to know.
+
+00:13:36.853 --> 00:13:42.400
+Remember R-A-M, RAM, Repeat, 
+Auto-fill or fit, and then Minmax,
+
+00:13:42.400 --> 00:13:46.055
+and you can get these responsive boxes,
+you can use these for images,
+
+00:13:46.055 --> 00:13:47.834
+you can use them for a lot of things.
+
+00:13:47.834 --> 00:13:50.636
+It's something that we see 
+all the time for cards,
+
+00:13:50.636 --> 00:13:56.471
+and this is a great use of all of these
+fancy new grid capabilities in CSS.
+
+00:13:57.181 --> 00:14:00.382
+For our next layout, 
+we are heading back to Flexbox land,
+
+00:14:00.382 --> 00:14:03.130
+I wanted to include this one 
+because I just find it so useful
+
+00:14:03.130 --> 00:14:04.895
+and I use this all the time.
+
+00:14:04.895 --> 00:14:08.546
+I call it the Line Up, why?
+I don't know. I'm tired.
+
+00:14:08.546 --> 00:14:11.174
+If you have a better name,
+please let me know, leave a comment.
+
+00:14:11.174 --> 00:14:13.660
+But the main thing that I wanted 
+to demonstrate here
+
+00:14:13.660 --> 00:14:16.643
+is <i>justify-content</i> for placement of items.
+
+00:14:16.643 --> 00:14:18.561
+And here specifically, I wanted to highlight
+
+00:14:18.561 --> 00:14:22.529
+<i>justify-content: space-between</i>
+to place items at their edges.
+
+00:14:22.529 --> 00:14:25.376
+And so in this example 
+we have these three cards,
+
+00:14:25.376 --> 00:14:28.642
+and you can see that 
+as I'm stretching or shrinking
+
+00:14:28.642 --> 00:14:31.326
+the size of this viewport element,
+
+00:14:31.326 --> 00:14:34.293
+they are maintaining 
+the same height as each other.
+
+00:14:34.293 --> 00:14:39.644
+And in fact we are having them 
+fit to the top and bottom,
+
+00:14:39.644 --> 00:14:41.473
+and this interior content,
+
+00:14:41.473 --> 00:14:45.104
+so this description, like, 
+I can keep typing here,
+
+00:14:45.104 --> 00:14:49.849
+this is then going to be centered 
+within the remaining space.
+
+00:14:49.849 --> 00:14:54.870
+And so the reason that this is happening 
+is because for these cards
+
+00:14:54.870 --> 00:14:57.585
+we're giving them this 
+<i>flex-direction: column</i>
+
+00:14:57.585 --> 00:14:59.620
+this <i>display: flex</i>, the Flexbox mode,
+
+00:14:59.620 --> 00:15:02.951
+and then we are 
+<i>justify-content: space-between</i>.
+
+00:15:02.951 --> 00:15:06.451
+So because this is a column 
+for the <i>flex-direction</i>,
+
+00:15:06.451 --> 00:15:09.203
+the <i>space-between</i>
+is going to be right here
+
+00:15:09.203 --> 00:15:11.383
+in between these three elements,
+
+00:15:11.383 --> 00:15:14.117
+this little box here, 
+the description and the title.
+
+00:15:14.117 --> 00:15:19.214
+And so here as I'm having additional space
+added or removed vertically,
+
+00:15:19.214 --> 00:15:20.735
+they are centering themselves,
+
+00:15:20.735 --> 00:15:24.197
+and this just makes
+for a much neater layout.
+
+00:15:24.197 --> 00:15:26.839
+I've used this a lot here 
+without that justification,
+
+00:15:26.839 --> 00:15:28.162
+it looks a lot more messy,
+
+00:15:28.162 --> 00:15:30.879
+but because of the stretching here, 
+because of Flexbox,
+
+00:15:30.879 --> 00:15:32.780
+because this 
+<i>justify-content: space-between</i>,
+
+00:15:32.780 --> 00:15:36.234
+I use this all the time, 
+and I think it's really important to know
+
+00:15:36.234 --> 00:15:39.325
+that with Flexbox 
+you can change the direction
+
+00:15:39.325 --> 00:15:41.875
+and you can justify 
+your content in unique ways.
+
+00:15:41.875 --> 00:15:45.458
+It doesn't have to be just centered, 
+you can also do <i>center</i>,
+
+00:15:45.458 --> 00:15:49.526
+you can do <i>space-around</i> as well, 
+or <i>space-evenly</i>.
+
+00:15:49.526 --> 00:15:53.639
+But in this case I think that the best way
+to justify is <i>space-between</i>
+
+00:15:53.639 --> 00:15:56.173
+because this way we are ensuring
+
+00:15:56.173 --> 00:16:00.723
+that the first and last element
+here in our layout,
+
+00:16:00.723 --> 00:16:04.517
+which is going to be this <i>h3</i>, 
+and this whole visual box,
+
+00:16:04.517 --> 00:16:07.849
+remain flush to the top
+and bottom of our cards.
+
+00:16:08.649 --> 00:16:10.598
+Here's where we get into some techniques
+
+00:16:10.598 --> 00:16:12.971
+with a little less 
+current browser support.
+
+00:16:12.971 --> 00:16:17.178
+I like to call this one Clamping My Style,
+and it's a really neat trick.
+
+00:16:17.178 --> 00:16:21.638
+Remember at the beginning of this video, 
+we talked about <i>min() max()</i> and <i>clamp()</i>.
+
+00:16:21.638 --> 00:16:25.903
+Well, here's where it can come into play 
+for layouts and element style.
+
+00:16:25.903 --> 00:16:29.717
+Here I'm specifying the width 
+using this <i>clamp()</i> function,
+
+00:16:29.717 --> 00:16:34.887
+and I'm setting <i>clamp(23ch, 50%, 46ch)</i>.
+
+00:16:34.887 --> 00:16:36.050
+What does this do?
+
+00:16:36.050 --> 00:16:38.115
+Let me show you exactly 
+what's going on here.
+
+00:16:38.115 --> 00:16:42.965
+As I increase the size of this element, 
+the parent container here,
+
+00:16:42.965 --> 00:16:46.432
+it is going to increase
+the size of this card,
+
+00:16:46.432 --> 00:16:48.730
+and as I decrease it, it decreases it.
+
+00:16:48.730 --> 00:16:50.333
+But what we are setting here
+
+00:16:50.333 --> 00:16:54.196
+is a minimum and maximum size
+for it to clamp to
+
+00:16:54.196 --> 00:16:57.560
+as it reaches that 50% size.
+
+00:16:57.560 --> 00:17:00.755
+This card wants to be at 50% width,
+
+00:17:00.755 --> 00:17:04.512
+but if that 50% means
+that it's bigger than 46ch,
+
+00:17:04.512 --> 00:17:10.025
+which stands for 46 characters, 
+then it's going to stop getting bigger.
+
+00:17:10.025 --> 00:17:12.943
+The same thing happens 
+with the smaller viewport size.
+
+00:17:12.943 --> 00:17:18.307
+It's going to stop decreasing in size 
+when 50% of it's parent size
+
+00:17:18.307 --> 00:17:22.839
+means that it is smaller than 23ch, 
+which is 23 characters.
+
+00:17:22.839 --> 00:17:24.806
+And these specific character units
+
+00:17:24.806 --> 00:17:28.327
+can be used to make legibility 
+a little bit easier.
+
+00:17:28.327 --> 00:17:31.688
+So in this case, I don't want this card
+to get any smaller than that
+
+00:17:31.688 --> 00:17:33.771
+because then the paragraph 
+gets harder to read,
+
+00:17:33.771 --> 00:17:36.986
+and the same thing with getting bigger 
+than 46 characters,
+
+00:17:36.986 --> 00:17:39.172
+then it gets too long and hard to read.
+
+00:17:39.172 --> 00:17:44.936
+So you can use width: <i>clamp(minimum size,
+the actual size, and the max size)</i>
+
+00:17:44.936 --> 00:17:49.135
+to create some really cool 
+responsiveness within this element itself.
+
+00:17:49.135 --> 00:17:53.451
+And you can also use clamp for font size,
+that's a really great use case too.
+
+00:17:53.451 --> 00:17:56.383
+You can have this responsive 
+flexible typography,
+
+00:17:56.383 --> 00:18:01.034
+you can have like <i>clamp(1.5rems</i>,
+and then a--
+
+00:18:02.034 --> 00:18:08.011
+say <i>10vw</i> for the viewport width, 
+and then <i>3rems</i> as the biggest size,
+
+00:18:08.011 --> 00:18:14.163
+and that way as you resize your window,
+you're going to be having a minimum value
+
+00:18:14.163 --> 00:18:16.730
+of 1.5 rems, maximum value of 3 rems,
+
+00:18:16.730 --> 00:18:21.585
+and then you're gonna have that grow 
+and shrink into that remaining space.
+
+00:18:21.585 --> 00:18:26.110
+So it's pretty cool to see this 
+actually working in a browser.
+
+00:18:26.110 --> 00:18:28.959
+Again, this doesn't have 
+full browser supports,
+
+00:18:28.959 --> 00:18:31.760
+but it is a really great technique.
+
+00:18:31.760 --> 00:18:34.042
+So if you're using this,
+make sure that you have fallbacks
+
+00:18:34.042 --> 00:18:35.576
+and do your browser testing.
+
+00:18:36.026 --> 00:18:40.226
+And finally, we are at the end, 
+and this is the last layout tool,
+
+00:18:40.226 --> 00:18:43.275
+and this layout tool 
+is the most experimental of the bunch.
+
+00:18:43.275 --> 00:18:47.160
+This was recently introduced 
+to Chrome Canary and Chrome 84+,
+
+00:18:47.160 --> 00:18:49.257
+and there is an active effort 
+from Firefox
+
+00:18:49.257 --> 00:18:51.390
+in getting this implemented in browser,
+
+00:18:51.390 --> 00:18:54.389
+but it is currently not
+in any stable browsers
+
+00:18:54.389 --> 00:18:56.206
+at the time of this recording.
+
+00:18:56.206 --> 00:18:59.184
+I do want to mention it though, 
+because it's such a frequently met problem
+
+00:18:59.184 --> 00:19:01.485
+and it's just simply maintaining
+
+00:19:01.485 --> 00:19:05.619
+the aspect ratio of an image or a video, 
+or of an iframe.
+
+00:19:05.619 --> 00:19:09.621
+And so what this is
+is respecting the aspect,
+
+00:19:09.621 --> 00:19:11.660
+Respect For Aspect, 
+that's the name I gave it.
+
+00:19:11.660 --> 00:19:16.519
+And it is the aspect ratio property, 
+oh my gosh, I'm gonna be so excited
+
+00:19:16.519 --> 00:19:18.528
+when this is implemented in all browsers.
+
+00:19:19.098 --> 00:19:23.734
+What this is doing is, 
+as I am resizing this parent element,
+
+00:19:23.734 --> 00:19:27.765
+the image here, so this is just like, 
+I gave it a class of visual
+
+00:19:27.765 --> 00:19:34.165
+for this box here that is right here,
+this is getting an aspect ratio of 16 to 9
+
+00:19:34.165 --> 00:19:37.247
+and no matter how
+I increase it or decrease it,
+
+00:19:37.247 --> 00:19:39.430
+it is going to keep that aspect ratio.
+
+00:19:39.430 --> 00:19:41.512
+This is something that is so needed
+
+00:19:41.512 --> 00:19:45.694
+for when you are pulling in content
+from the CMS or otherwise,
+
+00:19:45.694 --> 00:19:50.076
+and you have a specific dimension
+that you have that media at,
+
+00:19:50.076 --> 00:19:54.543
+and this, this for example, 
+in the previous example if I scroll up,
+
+00:19:54.543 --> 00:19:58.127
+as I resize here,
+since I'm only setting a height,
+
+00:19:58.127 --> 00:20:01.608
+and it's just getting the 100% width
+of whatever remaining space
+
+00:20:01.608 --> 00:20:05.357
+that I'm providing here,
+it's actually changing the aspect ratio
+
+00:20:05.357 --> 00:20:08.068
+of the whole visual box, 
+and that's not what we want.
+
+00:20:08.638 --> 00:20:11.604
+That is going to make you force a decision
+
+00:20:11.604 --> 00:20:14.850
+on if you want to either
+fit the content inside of there,
+
+00:20:14.850 --> 00:20:17.020
+so it's smaller and fits within the space,
+
+00:20:17.020 --> 00:20:21.139
+or if you stretch it out 
+and you have it fill the content,
+
+00:20:21.139 --> 00:20:24.487
+and you're only seeing a piece 
+of that media, not the full image,
+
+00:20:24.487 --> 00:20:27.304
+and that's also gonna cause 
+all sorts of problems.
+
+00:20:27.304 --> 00:20:31.702
+So having this <i>aspect-ratio</i>
+is very exciting,
+
+00:20:31.702 --> 00:20:35.235
+you can also set this to a square
+if you do one over one,
+
+00:20:35.235 --> 00:20:38.668
+you could have this be 1 over 2,
+or you have this actually
+
+00:20:38.668 --> 00:20:42.048
+longer than it is wide 
+within this parent here,
+
+00:20:42.048 --> 00:20:44.433
+so that's gonna be maintaining 
+that aspect ratio,
+
+00:20:44.433 --> 00:20:46.514
+and it's just exciting, 
+so I wanted to mention it
+
+00:20:46.514 --> 00:20:48.756
+and let you know 
+that it's coming down the pipeline.
+
+00:20:49.246 --> 00:20:52.614
+And those are 
+the 10 really powerful lines of CSS
+
+00:20:52.614 --> 00:20:55.970
+that I wanted to talk about
+in this 1 line layout video.
+
+00:20:55.970 --> 00:20:57.789
+I hope that you all learned something new,
+
+00:20:57.789 --> 00:21:02.663
+and if you're looking for these demos, 
+check out <i>1linelayouts.glitch.me</i>
+
+00:21:02.663 --> 00:21:05.631
+Thank you all for watching,
+if you want more CSS content
+
+00:21:05.631 --> 00:21:08.010
+and to dive deeper into layout techniques,
+
+00:21:08.010 --> 00:21:11.646
+including all the bells and whistles 
+of CSS Grid and Flexbox,
+
+00:21:11.646 --> 00:21:16.030
+check out the CSS podcast
+that I do with my co-host Adam Argyle.
+
+00:21:16.030 --> 00:21:19.908
+It is at pod.link/thecsspodcast
+
+00:21:19.908 --> 00:21:22.392
+Thank you again,
+enjoy the rest of your web day!
+
+00:21:22.392 --> 00:21:26.790
+♪ [music] ♪
+

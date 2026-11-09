@@ -1,0 +1,1048 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Урок 3. Скорость и картинки</title>
+<meta name="description" content="Что происходит при загрузке страницы, метрики LCP, CLS и INP, картинки, шрифты и скрипты. Интерактивный урок.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2314171c%27/%3E%3Crect x=%277%27 y=%2718%27 width=%2718%27 height=%276%27 fill=%27%23ffe14d%27/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/GolosText-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/course.css?v=6">
+<style>
+/* lesson 3: demo-only styles */
+.sim-opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(17rem,100%),1fr));gap:.5rem 1.25rem}
+.sim-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem;align-items:start}
+@media (min-width:46rem){.sim-grid{grid-template-columns:13rem minmax(0,1fr)}}
+#simPage{width:13rem;max-width:100%;height:19rem;margin-inline:auto;border:2px solid var(--ink);border-radius:16px;background:#fff;padding:.6rem;display:grid;grid-template-rows:auto 7.5rem auto auto 1fr;gap:.5rem}
+#simPage > *{opacity:0}
+#simPage.painted > *{opacity:1}
+.sp-top{height:1.1rem;border-radius:4px;background:var(--ink)}
+.sp-hero{border-radius:8px;background:var(--sunk);display:grid;place-items:center;font-size:.75rem;color:var(--ink-3)}
+#simPage.hero .sp-hero{background:linear-gradient(165deg,#3f93c9,#9fd3f0 45%,#f4ecd0 78%,#f1c98c);color:transparent}
+.sp-h{font-weight:700;font-size:.95rem;line-height:1.15}
+.sp-p{font-size:.75rem;color:var(--ink-2);line-height:1.35}
+.sp-btn{align-self:start;justify-self:start;background:var(--ink);color:#fff;font-size:.75rem;font-weight:600;border-radius:6px;padding:.35rem .7rem}
+#simPage.painted:not(.text) .sp-h,#simPage.painted:not(.text) .sp-p,#simPage.painted:not(.text) .sp-btn{color:transparent}
+#simPage.painted:not(.text) .sp-btn{background:var(--line)}
+#simBars{position:relative;font-size:.8rem}
+.sb-row{display:grid;grid-template-columns:9.5rem minmax(0,1fr);gap:.6rem;align-items:center;padding:.16rem 0}
+.sb-row span{color:var(--ink-2);line-height:1.2}
+.sb-track{position:relative;height:.9rem;background:var(--sunk);border-radius:3px}
+.sb-wait,.sb-load{position:absolute;top:0;height:100%}
+.sb-wait{background:#c7cdd6;border-radius:3px 0 0 3px}
+.sb-load{border-radius:0 3px 3px 0}
+.t-doc{background:#14171c}.t-css{background:#6a4fc0}.t-js{background:#b06a00}.t-font{background:#0b7468}.t-img{background:#1c5fb8}.t-third{background:#7b828f}
+.sb-marks{display:grid;grid-template-columns:9.5rem minmax(0,1fr);gap:.6rem;margin-top:.35rem}
+.sb-axis{position:relative;height:4.4rem;border-top:1px solid var(--ink-3)}
+.sb-mark{position:absolute;top:0;font-size:.76rem;font-weight:650;white-space:nowrap;padding-left:.3rem;border-left:2px solid var(--ink);line-height:1.15;height:100%}
+.sb-mark.lcp{border-color:var(--bad);color:var(--bad);padding-top:2.2rem}
+.sb-mark.flip{transform:translateX(-100%);padding-left:0;padding-right:.3rem;border-left:0;border-right:2px solid var(--ink);text-align:right}
+.sb-mark.lcp.flip{border-color:var(--bad)}
+@media (max-width:34rem){.sb-row,.sb-marks{grid-template-columns:6.4rem minmax(0,1fr)}}
+.sim-play{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;margin-top:.7rem}
+#simClock{font-variant-numeric:tabular-nums;font-weight:650}
+
+.vit{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(16rem,100%),1fr));gap:1rem;margin-top:1.5rem}
+.vit > div{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1rem 1.1rem}
+.vit .mh{font-size:1.5rem;letter-spacing:-.01em}
+.vit .full{color:var(--ink-3);font-size:.9rem}
+.vit p{margin-top:.5rem;font-size:.97rem}
+.vit .num{font-weight:700;font-variant-numeric:tabular-nums}
+
+#clsFrame{display:block;width:min(21rem,100%);height:27rem;margin-inline:auto;border:2px solid var(--ink);border-radius:16px;background:#fff}
+.cls-bar{display:flex;flex-wrap:wrap;gap:.6rem 1rem;align-items:center}
+
+#favBtn{font:inherit;font-weight:650;font-size:1.05rem;padding:.8rem 1.3rem;min-height:3rem;border-radius:10px;border:2px solid var(--ink);background:#fff;color:var(--ink);cursor:pointer;display:inline-flex;gap:.5rem;align-items:center}
+#favBtn[aria-pressed=true]{background:var(--ink);color:#fff}
+.inp-box{display:flex;flex-wrap:wrap;gap:1rem 1.5rem;align-items:center;justify-content:center;padding:1.5rem 0}
+#favCount{font-variant-numeric:tabular-nums;color:var(--ink-2)}
+
+.lab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(18rem,100%),1fr));gap:1.25rem;align-items:start}
+#labPrev{display:block;width:100%;height:auto;border-radius:8px;background:var(--sunk);aspect-ratio:3/2;object-fit:cover}
+.lab-rows{list-style:none;padding:0;margin:0;display:grid;gap:.6rem}
+.lab-rows li{margin:0}
+.lab-rows .lr-top{display:flex;justify-content:space-between;gap:1rem;font-size:.95rem}
+.lab-rows .lr-top b{font-variant-numeric:tabular-nums;white-space:nowrap}
+.lab-rows .lr-bar{height:.6rem;background:var(--sunk);border-radius:3px;margin-top:.25rem}
+.lab-rows .lr-bar i{display:block;height:100%;border-radius:3px;background:var(--ink);min-width:2px}
+.lab-rows small{color:var(--ink-3);font-size:.84rem}
+.file-btn{position:relative;overflow:hidden}
+.file-btn input{position:absolute;inset:0;opacity:0;cursor:pointer;font-size:0}
+
+.px-fig{display:flex;flex-wrap:wrap;gap:1.25rem 2rem;align-items:center;justify-content:center}
+.px-outer{width:12.5rem;height:12.5rem;background:var(--bad-bg);border:1.5px solid var(--bad);display:grid;place-items:end start;flex:none}
+.px-inner{background:var(--good-bg);border:1.5px solid var(--good);width:var(--need);height:var(--need);max-width:100%;max-height:100%}
+.px-key{font-size:.95rem;max-width:22rem}
+.px-key i{display:inline-block;width:.85rem;height:.85rem;margin-right:.4rem;vertical-align:-.08em;border:1.5px solid}
+.px-key .k-bad{background:var(--bad-bg);border-color:var(--bad)}
+.px-key .k-good{background:var(--good-bg);border-color:var(--good)}
+
+.fit-row{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center}
+.fit-row figure{margin:0;text-align:center;font-size:.86rem;color:var(--ink-2)}
+.fit-row img{display:block;border-radius:8px;background:var(--ink);margin-bottom:.35rem}
+.fit-a{width:9rem;height:9rem}
+.fit-b{width:15rem;height:6.5rem}
+#fit[data-mode=fill] .fit-row img{object-fit:fill}
+#fit[data-mode=cover] .fit-row img{object-fit:cover}
+#fit[data-mode=contain] .fit-row img{object-fit:contain}
+
+#lazyBox{max-width:34rem;margin-inline:auto;height:15rem;overflow:auto;border:1px solid var(--line);border-radius:8px;background:#fff;padding:.6rem;display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;align-content:start}
+#lazyBox div{aspect-ratio:4/3;border-radius:6px;background:var(--sunk);display:grid;place-items:center;font-size:.76rem;color:var(--ink-3)}
+#lazyBox div.on{background:linear-gradient(165deg,#3f93c9,#9fd3f0 45%,#f4ecd0 78%,#f1c98c);color:var(--ink);font-weight:600}
+
+.fs-card{max-width:26rem;margin-inline:auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.25rem 1.4rem;min-height:12.5rem}
+.fs-h{font-size:1.6rem;font-weight:700;line-height:1.15}
+.fs-p{margin:.5rem 0 0;color:var(--ink-2)}
+.fs-btn{display:inline-block;margin-top:.9rem;background:var(--ink);color:#fff;font-weight:600;border-radius:8px;padding:.5rem 1rem;font-family:var(--font)}
+#fontsim[data-mode=block][data-phase=wait] .fs-h,#fontsim[data-mode=block][data-phase=wait] .fs-p{visibility:hidden}
+#fontsim[data-mode=swap][data-phase=wait] .fs-h,#fontsim[data-mode=swap][data-phase=wait] .fs-p{font-family:Georgia,'Times New Roman',serif}
+#fontsim[data-mode=match][data-phase=wait] .fs-h,#fontsim[data-mode=match][data-phase=wait] .fs-p{font-family:'Segoe UI',Arial,sans-serif;letter-spacing:.012em}
+#fontsim[data-mode=system] .fs-h,#fontsim[data-mode=system] .fs-p{font-family:system-ui,'Segoe UI',sans-serif}
+#fsClock{font-variant-numeric:tabular-nums;font-weight:650}
+
+.tracks{display:grid;gap:.8rem}
+.track{background:var(--sunk);border-radius:8px;padding:.5rem .75rem .6rem}
+.track span{display:block;font-size:.86rem;color:var(--ink-2)}
+.rail{position:relative;height:1.6rem;margin-top:.3rem}
+.rail i{position:absolute;top:0;left:0;width:1.6rem;height:1.6rem;border-radius:50%;background:var(--ink)}
+.rail i.good{background:var(--good)}
+@keyframes run-left{from{left:0}to{left:calc(100% - 1.6rem)}}
+@keyframes run-tf{from{transform:translateX(0)}to{transform:translateX(100%)}}
+.sled{position:absolute;top:0;left:0;right:1.6rem;height:1.6rem}
+#jam.live .css-left{animation:run-left 2.2s linear 60 alternate}
+#jam.live .css-tf{animation:run-tf 2.2s linear 60 alternate}
+@media (prefers-reduced-motion:reduce){#jam.live .css-left,#jam.live .css-tf{animation:none}}
+
+.bud{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(11rem,100%),1fr));gap:.6rem 1rem}
+.bud label{display:grid;gap:.2rem;font-size:.9rem;color:var(--ink-2)}
+.bud input{font:inherit;padding:.4rem .55rem;border:1px solid var(--ink-3);border-radius:8px;width:100%;background:#fff;color:var(--ink);font-variant-numeric:tabular-nums}
+.bud-out{list-style:none;padding:0;margin:0;display:grid;gap:.7rem}
+.bud-out li{margin:0}
+.bud-out .bo-top{display:flex;justify-content:space-between;gap:1rem;font-size:.95rem}
+.bud-out .bo-bar{position:relative;height:.7rem;background:var(--sunk);border-radius:3px;margin-top:.25rem}
+.bud-out .bo-bar i{display:block;height:100%;border-radius:3px;background:var(--good);max-width:100%}
+.bud-out .bo-bar i.over{background:var(--bad)}
+
+pre.code .k{color:#ffd76a}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="index.html">Матчасть</a>
+    <span class="top-here">Урок 3 из 9: скорость и картинки</span>
+    <a class="top-next" href="04-access.html">Следующий урок</a>
+  </div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+</header>
+
+<div class="shell">
+<nav aria-label="Содержание урока"><details class="toc"><summary>Содержание</summary><ol></ol></details></nav>
+
+<main>
+<div class="hero">
+  <h1>Урок 3. Скорость и картинки</h1>
+  <p class="lead">Что происходит за первую секунду, какие три числа измеряет Google и где сайт с фотографиями теряет время.</p>
+  <p>Примерно час. Десять интерактивов: часть из них симуляции, часть настоящие измерения в твоём браузере, это везде подписано. В конце чек-лист и тест.</p>
+  <p class="small">Пометки: ◆ стандарт или первичный источник, ◈ согласие нескольких авторов или общая практика, ◇ мнение одного автора.</p>
+</div>
+
+<section class="sec" id="journey" data-short="Что происходит при загрузке">
+  <h2>Что происходит, пока человек ждёт</h2>
+  <p>Нажатие на ссылку запускает цепочку. Браузер находит сервер по имени (<mark>DNS</mark>), устанавливает соединение, получает HTML. Читая HTML, он узнаёт, что нужны ещё CSS, скрипты, шрифты и картинки, и идёт за ними. Порядок важен, потому что часть файлов блокирует показ страницы.</p>
+  <ul>
+    <li><strong>CSS блокирует отрисовку.</strong> Пока стили не пришли, браузер ничего не рисует, чтобы не показать голую страницу.</li>
+    <li><strong>Скрипт в <code>&lt;head&gt;</code> без <code>defer</code> блокирует разбор HTML.</strong> Браузер останавливается, скачивает и выполняет его, и только потом читает дальше.</li>
+    <li><strong>Шрифты и картинки</strong> показ не блокируют, но именно они обычно самые тяжёлые.</li>
+  </ul>
+  <p>Ниже упрощённая модель этой цепочки. Включай ошибки по одной и смотри, как сдвигается момент, когда человек наконец видит главное фото.</p>
+
+  <div class="stage" id="sim" data-net="slow">
+    <div class="stage-head">
+      <span class="stage-title">Симулятор загрузки страницы тура</span>
+      <div class="seg" role="group" aria-label="Скорость сети">
+        <button type="button" data-set="net=fast" aria-pressed="false">Быстрый Wi-Fi</button>
+        <button type="button" data-set="net=slow" aria-pressed="true">Телефон, Slow 4G</button>
+      </div>
+    </div>
+    <div class="controls sim-opts">
+      <label class="field"><input type="checkbox" data-flag="hero"> Фото первого экрана весит 3,5 МБ</label>
+      <label class="field"><input type="checkbox" data-flag="lazy"> У этого фото стоит loading="lazy"</label>
+      <label class="field"><input type="checkbox" data-flag="jsb"> 600 КБ JavaScript в head без defer</label>
+      <label class="field"><input type="checkbox" data-flag="fonts"> Шесть файлов шрифтов без font-display</label>
+      <label class="field"><input type="checkbox" data-flag="third"> Чат, карта и аналитика грузятся сразу</label>
+      <label class="field"><input type="checkbox" data-flag="server"> Медленный сервер без кэша</label>
+    </div>
+    <div class="stage-body sim-grid">
+      <div>
+        <div id="simPage" aria-hidden="true">
+          <div class="sp-top"></div>
+          <div class="sp-hero">фото ещё грузится</div>
+          <div class="sp-h">Three days around Nusa Penida</div>
+          <div class="sp-p">Small boats, local guides, no crowds before 9 am.</div>
+          <div class="sp-btn">Check dates</div>
+        </div>
+        <div class="sim-play">
+          <button type="button" class="btn" id="simPlay"><i data-ic="play"></i><span>Проиграть</span></button>
+          <span id="simClock" aria-live="off"></span>
+        </div>
+      </div>
+      <div id="simBars" role="img" aria-label="График загрузки файлов по времени"></div>
+    </div>
+    <div class="stage-foot">
+      <p id="simOut" class="readout" aria-live="polite"></p>
+      <p class="small">Это модель, а не измерение: файлы делят канал поровну, приоритеты и кэш не учитываются. Параметры Slow 4G взяты из Lighthouse: 1,6 Мбит/с, задержка 150 мс, процессор в 4 раза медленнее. <span class="ev">◆ документация Lighthouse</span> Размеры файлов и «быстрый Wi-Fi» условные.</p>
+    </div>
+  </div>
+
+  <p>Самое полезное наблюдение: переключи сеть на быстрый Wi-Fi. Почти все ошибки перестают быть заметными. Поэтому на своём компьютере сайт всегда «летает», а клиент с телефона на пляже видит другое.</p>
+
+  <div class="note human">
+    <p class="nt">Где ошибаются люди</p>
+    <ul>
+      <li>Проверяют скорость на рабочем компьютере с хорошим интернетом и уже прогретым кэшем.</li>
+      <li>Заливают фото прямо с камеры или из выгрузки фотографа.</li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Scripts load with defer or at the end of body; nothing render-blocking in head except the main stylesheet.</li>
+      <li>The hero image is in the HTML as an img element with fetchpriority="high", never lazy-loaded and never a CSS background.</li>
+      <li>Report the page weight by type (HTML, CSS, JS, fonts, images, third-party) after each build.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="vitals" data-short="Три числа: LCP, CLS, INP">
+  <h2>Три числа, которыми меряют страницу</h2>
+  <p>Google свёл ощущение «быстро или медленно» к трём метрикам, Core Web Vitals. Их считают на реальных посетителях и смотрят на 75-й перцентиль: хорошо должно быть минимум у трёх из четырёх визитов. <span class="ev">◆ web.dev, проверено по тексту</span></p>
+
+  <div class="vit wide">
+    <div>
+      <div class="mh">LCP</div><div class="full">Largest Contentful Paint</div>
+      <p>Скорость загрузки: когда появился самый крупный элемент первого экрана. Обычно это главное фото или заголовок.</p>
+      <p>Хорошо: <span class="num">до 2,5 с</span> <span class="ev">◆</span><br>Плохо: <span class="num">больше 4 с</span> <span class="ev">◈</span></p>
+    </div>
+    <div>
+      <div class="mh">CLS</div><div class="full">Cumulative Layout Shift</div>
+      <p>Стабильность: насколько сильно блоки прыгают, пока страница догружается.</p>
+      <p>Хорошо: <span class="num">до 0,1</span> <span class="ev">◆</span><br>Плохо: <span class="num">больше 0,25</span> <span class="ev">◈</span></p>
+    </div>
+    <div>
+      <div class="mh">INP</div><div class="full">Interaction to Next Paint</div>
+      <p>Отзывчивость: сколько проходит от нажатия до видимой реакции.</p>
+      <p>Хорошо: <span class="num">до 200 мс</span> <span class="ev">◆</span><br>Плохо: <span class="num">больше 500 мс</span> <span class="ev">◈</span></p>
+    </div>
+  </div>
+
+  <p class="small">В старых видео и статьях вместо INP встречается FID с порогом 100 мс. Его заменили на INP в 2024 году, ориентируйся на INP. <span class="ev">◈ не сверял сегодня</span> Границы «плохо» взяты из таблицы в скилле Addy Osmani.</p>
+  <p>Влияют ли эти числа на место в поиске? Да, это один из сигналов. Но сам Osmani оговаривает: зелёные метрики не обещают роста позиций. Клиенту честнее продавать не «SEO», а то, что люди не уйдут, не дождавшись фото. <span class="ev">◈ Chrome, Fireship; оговорка из скилла Osmani</span></p>
+</section>
+
+<section class="sec" id="cls" data-short="CLS: прыгающая страница">
+  <h2>CLS: страница не должна прыгать</h2>
+  <p>Знакомая ситуация: тянешься к кнопке, в этот момент сверху догружается картинка или баннер, и палец попадает не туда. Причина всегда одна: что-то появилось позже и заняло место, которое для него не оставили.</p>
+
+  <div class="stage" id="clsStage" data-reserve="off">
+    <div class="stage-head">
+      <span class="stage-title">Попробуй нажать «Book this tour», пока страница грузится</span>
+      <div class="seg" role="group" aria-label="Место под поздние элементы">
+        <button type="button" class="is-bad" data-set="reserve=off" aria-pressed="true">Место не оставлено</button>
+        <button type="button" class="is-good" data-set="reserve=on" aria-pressed="false">Место оставлено</button>
+      </div>
+    </div>
+    <div class="controls cls-bar">
+      <button type="button" class="btn" id="clsReload"><i data-ic="redo"></i><span>Загрузить заново</span></button>
+      <span id="clsVal" class="readout" aria-live="polite"></span>
+    </div>
+    <div class="stage-body sunk"><iframe id="clsFrame" title="Страница тура, которая догружается с задержкой"></iframe></div>
+    <div class="stage-foot"><p id="clsOut" aria-live="polite">Через секунду после загрузки появится фото, ещё через секунду баннер.</p></div>
+  </div>
+
+  <p>Число CLS здесь настоящее: его считает сам браузер внутри рамки, тем же способом, что и для реальных сайтов. Работает в Chrome и Edge. Сдвиги сразу после твоего нажатия браузер в метрику не включает, поэтому при активных кликах число может быть меньше.</p>
+
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Картинки без <code>width</code> и <code>height</code>. Браузер не знает пропорций, пока файл не пришёл, и оставляет под него ноль места. <span class="ev">◈ Chrome, Vercel, Osmani</span></li>
+      <li>Баннеры, плашки cookie и уведомления, которые вставляются сверху и толкают всю страницу. Их кладут поверх, а не в поток. <span class="ev">◈ Syntax, Chrome</span></li>
+      <li>Шрифт с другими пропорциями, чем запасной: после подгрузки весь текст переверстывается. <span class="ev">◈ Syntax, Leatherman</span></li>
+      <li>Блоки, которые появляются после ответа сервера (отзывы, цены), без заглушки нужной высоты. <span class="ev">◈ Chrome, Syntax</span></li>
+    </ul>
+    <p class="small">Как часто так делают нынешние модели, никто не измерял. Это список для проверки, а не наблюдение.</p>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Every img has width and height attributes (or CSS aspect-ratio) so space is reserved before it loads.</li>
+      <li>Anything that appears late (banners, consent bars, async content) either overlays the page or has reserved space; it never pushes content down.</li>
+      <li>Target CLS below 0.1.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="inp" data-short="INP: отклик на нажатие">
+  <h2>INP: отклик на нажатие</h2>
+  <p>У страницы один главный поток. В нём выполняется JavaScript, считается раскладка и обрабатываются нажатия. Пока поток занят скриптом, страница не может даже показать, что кнопка нажата. Человек нажимает второй раз, и действие срабатывает дважды.</p>
+
+  <div class="stage" id="inpStage" data-order="work">
+    <div class="stage-head">
+      <span class="stage-title">Почувствуй задержку пальцем</span>
+      <div class="seg" role="group" aria-label="Порядок действий скрипта">
+        <button type="button" class="is-bad" data-set="order=work" aria-pressed="true">Сначала работа, потом отклик</button>
+        <button type="button" class="is-good" data-set="order=paint" aria-pressed="false">Сначала отклик, потом работа</button>
+      </div>
+    </div>
+    <div class="controls">
+      <span class="field">работа скрипта после нажатия
+        <span class="seg" role="group" aria-label="Длительность работы скрипта">
+          <button type="button" data-ms="0" aria-pressed="false">0 мс</button>
+          <button type="button" data-ms="100" aria-pressed="false">100 мс</button>
+          <button type="button" data-ms="300" aria-pressed="true">300 мс</button>
+          <button type="button" data-ms="800" aria-pressed="false">800 мс</button>
+        </span>
+      </span>
+    </div>
+    <div class="stage-body">
+      <div class="inp-box">
+        <button type="button" id="favBtn" aria-pressed="false"><span>Добавить в избранное</span></button>
+        <span id="favCount">Нажатий: 0</span>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="inpOut" class="readout" aria-live="polite">Понажимай кнопку при разных значениях. Число появится после первого нажатия.</p></div>
+  </div>
+
+  <p>Задержка здесь настоящая: скрипт на самом деле занимает поток на выбранное время. Во втором режиме работы столько же, но кнопка сначала меняет вид, а тяжёлое выполняется после отрисовки. Это главный приём: сначала показать реакцию, потом работать. <span class="ev">◈ Syntax</span></p>
+
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Тяжёлые библиотеки на странице, где нужна пара простых эффектов: каждая добавляет работы главному потоку при загрузке и при прокрутке. <span class="ev">◈ Chrome, Impeccable</span></li>
+      <li>Обработчики, которые на каждое движение мыши или прокрутку пересчитывают раскладку. <span class="ev">◈ Osmani, Vercel</span></li>
+      <li>Кнопка отправки формы без мгновенной реакции: человек не понимает, сработало ли, и нажимает снова. <span class="ev">◈ Vercel</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Every click gives visible feedback within one frame (pressed state, spinner, disabled button) before any heavy work or network request starts.</li>
+      <li>No scroll or mousemove handlers that read layout; use IntersectionObserver or CSS instead.</li>
+      <li>Target INP below 200 ms on a mid-range phone.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="images" data-short="Картинки">
+  <h2>Картинки: главный вес сайта с фотографиями</h2>
+  <p>Для travel-сайта это раздел, который даёт больше всего. Решений три: формат и сжатие, размер в пикселях, порядок загрузки. Все авторы в подборке сходятся на одном наборе: современный формат, заданные размеры, отложенная загрузка всего, что ниже первого экрана. <span class="ev">◈ Chrome, Beyond Fireship, Syntax, midudev</span></p>
+
+  <h3>Формат и сжатие</h3>
+  <p><mark>JPEG</mark> старый универсальный формат для фото. <mark>WebP</mark> и <mark>AVIF</mark> новее и сжимают сильнее при том же качестве. <mark>PNG</mark> хранит картинку без потерь и для фотографий не годится: он нужен для графики с прозрачностью. Сколько именно экономится, зависит от снимка, поэтому ниже не таблица из интернета, а настоящий кодировщик.</p>
+
+  <div class="stage" id="lab">
+    <div class="stage-head">
+      <span class="stage-title">Лаборатория: одна картинка в разных форматах</span>
+      <label class="btn ghost file-btn"><span>Взять своё фото</span><input type="file" accept="image/*" id="labFile" aria-label="Выбрать своё фото"></label>
+    </div>
+    <div class="controls">
+      <label class="field">ширина <input type="range" min="400" max="2400" value="1600" step="100" id="labW"><output id="labWOut"></output></label>
+      <label class="field">качество JPEG и WebP <input type="range" min="30" max="95" value="80" step="5" id="labQ"><output id="labQOut"></output></label>
+    </div>
+    <div class="stage-body">
+      <div class="lab-grid">
+        <div><img id="labPrev" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 3 2%27%3E%3Crect width=%273%27 height=%272%27 fill=%27%23cfd5de%27/%3E%3C/svg%3E" alt="Предпросмотр картинки после сжатия в WebP" width="600" height="400"><p class="small" id="labNote">Нарисованный пейзаж с зерном, как у фотографии. Своё фото никуда не отправляется: оно сжимается прямо в браузере.</p></div>
+        <ul class="lab-rows" id="labRows" aria-live="polite"></ul>
+      </div>
+    </div>
+    <div class="stage-foot"><p>Размеры файлов настоящие: браузер только что закодировал картинку с этими настройками. Время посчитано для Slow 4G как размер, делённый на 1,6 Мбит/с. AVIF браузер кодировать не умеет, поэтому в списке его нет; обычно он ещё меньше WebP, проверяй на своих снимках. <span class="ev">◈</span></p></div>
+  </div>
+
+  <h3>Размер в пикселях</h3>
+  <p>Вторая половина экономии вообще бесплатна по качеству. Если место под фото на экране 400 пикселей, а экран телефона с двойной плотностью, нужно 800 пикселей ширины. Всё сверх этого человек скачает и не увидит.</p>
+
+  <div class="stage" id="pxStage">
+    <div class="stage-head">
+      <span class="stage-title">Сколько пикселей скачано зря</span>
+      <div class="seg" role="group" aria-label="Плотность экрана">
+        <button type="button" data-dpr="1" aria-pressed="false">экран 1x</button>
+        <button type="button" data-dpr="2" aria-pressed="true">экран 2x</button>
+        <button type="button" data-dpr="3" aria-pressed="false">экран 3x</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">ширина файла <input type="range" min="400" max="6000" value="4000" step="100" id="pxFile"><output id="pxFileOut"></output></label>
+      <label class="field">место на экране <input type="range" min="200" max="1600" value="400" step="20" id="pxSlot"><output id="pxSlotOut"></output></label>
+    </div>
+    <div class="stage-body">
+      <div class="px-fig">
+        <div class="px-outer" aria-hidden="true"><div class="px-inner" id="pxInner"></div></div>
+        <div class="px-key">
+          <p><i class="k-bad"></i>весь файл</p>
+          <p><i class="k-good"></i>то, что экран способен показать</p>
+          <p id="pxOut" class="readout" aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p>Это чистая арифметика: площадь растёт как квадрат ширины. Поэтому одну картинку готовят в нескольких размерах, а браузер сам выбирает подходящий по атрибуту <code>srcset</code>.</p></div>
+  </div>
+
+  <h3>Правильный тег картинки</h3>
+  <div class="pair">
+    <div>
+      <p><span class="tag bad">Так часто пишет модель</span></p>
+      <pre class="code">&lt;img src="hero-original.png"&gt;</pre>
+      <p class="small">Нет размеров, нет описания, один огромный файл на все экраны.</p>
+    </div>
+    <div>
+      <p><span class="tag good">Фото первого экрана</span></p>
+      <pre class="code">&lt;img src="hero-1200.webp"
+  <span class="k">srcset</span>="hero-800.webp 800w,
+          hero-1200.webp 1200w,
+          hero-2000.webp 2000w"
+  <span class="k">sizes</span>="100vw"
+  <span class="k">width</span>="1200" <span class="k">height</span>="800"
+  <span class="k">alt</span>="Small boat under the Kelingking cliff"
+  <span class="k">fetchpriority</span>="high"&gt;</pre>
+    </div>
+  </div>
+  <ul>
+    <li><code>srcset</code> и <code>sizes</code>: несколько размеров, браузер берёт нужный.</li>
+    <li><code>width</code> и <code>height</code>: место резервируется до загрузки, страница не прыгает. <span class="ev">◆ Vercel</span></li>
+    <li><code>alt</code>: описание для поиска и программ экранного доступа. У декоративных картинок пустой <code>alt=""</code>.</li>
+    <li><code>fetchpriority="high"</code>: только у главного фото первого экрана. <span class="ev">◆ Vercel</span></li>
+    <li>У всех картинок ниже первого экрана вместо этого <code>loading="lazy"</code>. <span class="ev">◆ Vercel</span></li>
+  </ul>
+
+  <div class="stage" id="lazy" data-mode="eager">
+    <div class="stage-head">
+      <span class="stage-title">Галерея из 24 фото по 180 КБ</span>
+      <div class="seg" role="group" aria-label="Режим загрузки">
+        <button type="button" class="is-bad" data-set="mode=eager" aria-pressed="true">Грузить все сразу</button>
+        <button type="button" class="is-good" data-set="mode=lazy" aria-pressed="false">loading="lazy"</button>
+      </div>
+    </div>
+    <div class="stage-body sunk"><div id="lazyBox" tabindex="0" aria-label="Прокручиваемая галерея"></div></div>
+    <div class="stage-foot"><p id="lazyOut" class="readout" aria-live="polite"></p><p class="small">Симуляция: показывает принцип. Прокрути галерею во втором режиме. Вес одного фото условный.</p></div>
+  </div>
+
+  <h3>Пропорции: сплющенные фото</h3>
+  <p>Клиент загружает снимки любых пропорций в блок фиксированной формы. Без указания, как вписывать, браузер растягивает картинку под блок.</p>
+
+  <div class="stage" id="fit" data-mode="fill">
+    <div class="stage-head">
+      <span class="stage-title">Снимок 3:2 в квадратном и в широком блоке</span>
+      <div class="seg" role="group" aria-label="Способ вписывания">
+        <button type="button" class="is-bad" data-set="mode=fill" aria-pressed="true">Как есть</button>
+        <button type="button" class="is-good" data-set="mode=cover" aria-pressed="false">object-fit: cover</button>
+        <button type="button" data-set="mode=contain" aria-pressed="false">object-fit: contain</button>
+      </div>
+    </div>
+    <div class="stage-body sunk">
+      <div class="fit-row">
+        <figure><img class="fit-a" id="fitA" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 3 2%27%3E%3Crect width=%273%27 height=%272%27 fill=%27%23cfd5de%27/%3E%3C/svg%3E" alt="Пейзаж в квадратном блоке" width="144" height="144"><figcaption>квадрат</figcaption></figure>
+        <figure><img class="fit-b" id="fitB" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 3 2%27%3E%3Crect width=%273%27 height=%272%27 fill=%27%23cfd5de%27/%3E%3C/svg%3E" alt="Пейзаж в широком блоке" width="240" height="104"><figcaption>широкий</figcaption></figure>
+      </div>
+    </div>
+    <div class="stage-foot"><p>Смотри на солнце: круг превращается в овал. <code>cover</code> заполняет блок и обрезает лишнее, <code>contain</code> показывает снимок целиком с полями. Для карточек почти всегда нужен <code>cover</code>.</p></div>
+  </div>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <p>Берут картинки напрямую с фотостоков по ссылке, чаще всего с Unsplash. Чужой сервер, чужая лицензия, ссылка может пропасть. <span class="ev">◈ Flux (Claude, май 2026), DesignCode (июнь 2026)</span></p>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li><code>loading="lazy"</code> всем картинкам подряд, включая главное фото. Оно начинает грузиться позже всех. <span class="ev">◆ web.dev; ◈ Vercel, Osmani</span></li>
+      <li>Главное фото фоном через CSS или слайдером на скрипте: браузер узнаёт о нём слишком поздно. <span class="ev">◈ Osmani</span></li>
+      <li>Один файл на все экраны и никаких <code>width</code> и <code>height</code>. <span class="ev">◈ Chrome, Beyond Fireship</span></li>
+      <li>Большие фото вставлены в HTML длинной строкой base64: она на треть тяжелее файла и не кэшируется отдельно. Для крошечных иконок и сайтов из одного файла это допустимо. <span class="ev">◆ арифметика кодировки base64</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Photos are served as WebP (or AVIF with WebP fallback) in three widths via srcset and sizes. No PNG for photographs.</li>
+      <li>Every img has width, height and alt. The hero image has fetchpriority="high"; every image below the fold has loading="lazy" and decoding="async".</li>
+      <li>Fixed-shape image slots use aspect-ratio and object-fit: cover.</li>
+      <li>List every image with its pixel size and file size; flag anything above 300 KB.</li>
+    </ul>
+  </div>
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <p><code>F12</code>, вкладка Network, фильтр Img, перезагрузи страницу. Отсортируй по столбцу Size: самые тяжёлые файлы окажутся сверху. Наведи на имя файла, чтобы увидеть размеры в пикселях. <span class="ev">◆ Chrome DevTools</span></p>
+  </div>
+</section>
+
+<section class="sec" id="fonts" data-short="Шрифты">
+  <h2>Шрифты: каждое начертание это файл</h2>
+  <p>Обычный, жирный, курсив, жирный курсив: четыре файла на одно семейство. Пока шрифт не пришёл, у браузера два варианта. Не показывать текст вовсе, либо показать запасным шрифтом и потом заменить. Поведение задаёт свойство <code>font-display</code>. Согласие авторов: критичные шрифты подгружать заранее и ставить <code>font-display: swap</code>. <span class="ev">◈ Chrome, Beyond Fireship, Syntax; ◆ Vercel</span></p>
+
+  <div class="stage" id="fontsim" data-mode="block" data-phase="done">
+    <div class="stage-head">
+      <span class="stage-title">Что видит человек, пока шрифт в пути</span>
+      <div class="seg" role="group" aria-label="Стратегия загрузки шрифта">
+        <button type="button" class="is-bad" data-set="mode=block" aria-pressed="true">Текст скрыт</button>
+        <button type="button" data-set="mode=swap" aria-pressed="false">swap</button>
+        <button type="button" class="is-good" data-set="mode=match" aria-pressed="false">swap и похожий запасной</button>
+        <button type="button" class="is-good" data-set="mode=system" aria-pressed="false">Системный шрифт</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button type="button" class="btn" id="fsPlay"><i data-ic="play"></i><span>Проиграть</span></button>
+      <span id="fsClock"></span>
+    </div>
+    <div class="stage-body sunk">
+      <div class="fs-card">
+        <div class="fs-h">Kelingking at sunrise</div>
+        <p class="fs-p">Before the buses, with six guests and a local captain. Back in Sanur by five.</p>
+        <span class="fs-btn">Check dates</span>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="fsOut" aria-live="polite"></p><p class="small">Симуляция: шрифт «приходит» через две секунды.</p></div>
+  </div>
+
+  <div class="stage" id="fcalc">
+    <div class="stage-head"><span class="stage-title">Сколько файлов шрифтов получится</span></div>
+    <div class="controls">
+      <label class="field">семейств <input type="range" min="1" max="3" value="2" id="fcFam"><output id="fcFamOut"></output></label>
+      <label class="field">начертаний в каждом <input type="range" min="1" max="6" value="4" id="fcW"><output id="fcWOut"></output></label>
+      <label class="field"><input type="checkbox" id="fcIt"> плюс курсивы</label>
+      <label class="field"><input type="checkbox" id="fcVar"> вариативные шрифты</label>
+    </div>
+    <div class="stage-foot"><p id="fcOut" class="readout" aria-live="polite"></p><p class="small">Вес условный: 30 КБ за обычный файл и 50 КБ за вариативный. Для сравнения, у этого курса два вариативных файла Golos Text по 22 и 38 КБ, это настоящие размеры.</p></div>
+  </div>
+
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Подключают два семейства со всеми начертаниями «на всякий случай», хотя используются три. <span class="ev">◈ Impeccable, Leatherman; ◇ DesignCode: «AI тянет все шрифты»</span></li>
+      <li>Тянут шрифты с чужого сервера через <code>@import</code> в CSS: это лишнее соединение и блокировка. <span class="ev">◈ Osmani, Leatherman</span></li>
+      <li>Подключают иконочный шрифт целиком ради пяти иконок. <span class="ev">◈ Leatherman</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Self-host fonts as WOFF2, only the weights actually used; prefer one variable font file per family.</li>
+      <li>font-display: swap, preload the one or two critical font files, and choose a fallback with similar metrics.</li>
+      <li>Icons are inline SVG, not an icon font.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="js" data-short="Скрипты и анимации">
+  <h2>JavaScript, чужие скрипты и анимации</h2>
+  <p>Каждый скрипт стоит дважды: его нужно скачать и его нужно выполнить, причём на телефоне выполнение в разы медленнее, чем на ноутбуке. Свои скрипты можно контролировать. Чужие (чат, карта, видео, пиксели рекламных сетей) приходят со своим весом, и именно они чаще всего портят страницу, которая сама по себе лёгкая.</p>
+  <p>Отсюда приём «фасад»: вместо настоящей карты или видео показывают картинку с кнопкой, а тяжёлый модуль загружают только после нажатия. <span class="ev">◈ общая практика</span></p>
+
+  <h3>Анимации: что замирает, а что нет</h3>
+  <p>Браузер умеет двигать и растворять слои отдельно от главного потока, на видеокарте. Это касается только двух свойств: <code>transform</code> и <code>opacity</code>. Всё остальное (<code>left</code>, <code>top</code>, <code>width</code>, <code>height</code>, <code>margin</code>) заставляет пересчитывать раскладку в главном потоке. <span class="ev">◆ Vercel: «animate transform and opacity only»</span></p>
+
+  <div class="stage" id="jam">
+    <div class="stage-head">
+      <span class="stage-title">Три одинаковых движения, сделанных по-разному</span>
+      <button type="button" class="btn" id="jamBtn">Занять главный поток на 2 секунды</button>
+    </div>
+    <div class="stage-body">
+      <div class="tracks" aria-hidden="true">
+        <div class="track"><span>скрипт двигает left</span><div class="rail"><i id="dotJs"></i></div></div>
+        <div class="track"><span>CSS-анимация left</span><div class="rail"><i class="css-left"></i></div></div>
+        <div class="track"><span>CSS-анимация transform</span><div class="rail"><div class="sled css-tf"><i class="good"></i></div></div></div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="jamOut" aria-live="polite">Нажми кнопку и следи за тремя кружками. Замирание настоящее: поток действительно занят.</p></div>
+  </div>
+
+  <p>Третий кружок продолжает ехать, даже когда страница «зависла». Так и на реальном сайте: пока скрипты заняты при загрузке, анимация на <code>transform</code> остаётся плавной, остальные дёргаются.</p>
+  <p>И про количество. Скилл Anthropic формулирует так: один срежиссированный момент лучше россыпи эффектов, а одинаковое появление каждого блока при прокрутке читается как сгенерированное. Движение в ответ на действие человека уместно, когда показывает, что изменилось. <span class="ev">◆ Anthropic frontend-design</span></p>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <ul>
+      <li>Одинаковое появление снизу на каждом блоке и эффект при наведении на каждой карточке. Flux показал, что Claude делает так даже с установленным скиллом Anthropic, который прямо это запрещает. <span class="ev">◈ Anthropic, Impeccable, Flux (май 2026)</span></li>
+      <li>Без явного указания собирают статичный лендинг как React-проект: сотни килобайт кода, чтобы показать текст и картинки. <span class="ev">◇ DesignCode (Opus 5.5, сентябрь 2026); Opus 4.6 в другом видео выбрал обычный HTML</span></li>
+    </ul>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Tailwind подключён через CDN-скрипт. Документация Tailwind прямо говорит: Play CDN только для разработки, не для продакшена. <span class="ev">◆ tailwindcss.com, проверено по тексту</span></li>
+      <li>Библиотека анимаций ради плавного появления, которое делается тремя строками CSS. Сама анимация на скрипте не медленнее, если двигает только <code>transform</code> и <code>opacity</code>: платишь весом библиотеки. <span class="ev">◆ web.dev</span></li>
+      <li>Забытый <code>prefers-reduced-motion</code>: людям, которые отключили анимации в системе, их всё равно показывают. <span class="ev">◆ Vercel; ◈ Osmani</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Plain HTML and CSS for static pages; no framework runtime and no CDN build scripts in production.</li>
+      <li>Animate only transform and opacity, never transition: all. Respect prefers-reduced-motion.</li>
+      <li>One authored motion moment per page; no identical scroll-reveal on every section.</li>
+      <li>Third-party embeds (map, video, chat) load on click behind a static facade. List every third-party script and why it is there.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="measure" data-short="Как измерять">
+  <h2>Как измерять и чему верить</h2>
+  <p>Есть два вида данных, и их нельзя путать. <span class="ev">◆ web.dev, проверено по тексту</span></p>
+  <ul>
+    <li><strong>Лабораторные:</strong> один прогон на одном устройстве в заданных условиях. Это Lighthouse и вкладка Performance в DevTools. Хороши при разработке, чтобы поймать проблему до выпуска.</li>
+    <li><strong>Полевые:</strong> то, что реально получили посетители. Собираются в Chrome и показываются в PageSpeed Insights, если у сайта достаточно посещений. Только они показывают полную картину.</li>
+  </ul>
+  <p>web.dev формулирует жёстко: лабораторные измерения не заменяют полевые. А ведущие Syntax добавляют практическое: оценка 95 у сайта с душой лучше, чем 100 у пустой страницы; смысл в том, чтобы понимать, почему число такое, а не гнаться за сотней. <span class="ev">◇ Syntax</span></p>
+
+  <div class="note check">
+    <p class="nt">Три проверки, которые ты можешь сделать сам</p>
+    <ul>
+      <li><strong>Lighthouse.</strong> <code>F12</code>, вкладка Lighthouse, режим Mobile, кнопка Analyze. Смотри не на общую оценку, а на LCP, CLS и список предложений.</li>
+      <li><strong>Network с ограничением.</strong> Вкладка Network, включи Disable cache и в списке скоростей выбери Slow 4G. Перезагрузи страницу и посмотри, что видно через три секунды.</li>
+      <li><strong>PageSpeed Insights.</strong> На pagespeed.web.dev вставь адрес уже опубликованного сайта: сверху полевые данные, ниже лабораторные.</li>
+    </ul>
+  </div>
+
+  <h3>Бюджет страницы</h3>
+  <p>Чтобы не спорить о каждом килобайте, задают бюджет: потолок общего веса и отдельно скриптов и стилей. В скилле Addy Osmani ориентиры такие: вся страница до 1,5 МБ, скрипты до 300 КБ, стили до 100 КБ. <span class="ev">◈ только из текста скилла, первоисточник не сверял</span></p>
+
+  <div class="stage" id="bud">
+    <div class="stage-head">
+      <span class="stage-title">Калькулятор бюджета</span>
+      <div class="seg" role="group" aria-label="Примеры">
+        <button type="button" data-preset="30,40,60,60,300,0">Пример: лёгкая</button>
+        <button type="button" data-preset="60,350,900,420,2800,700">Пример: тяжёлая</button>
+      </div>
+    </div>
+    <div class="controls bud">
+      <label>HTML, КБ<input type="number" min="0" step="10" value="30" inputmode="numeric"></label>
+      <label>CSS, КБ<input type="number" min="0" step="10" value="40" inputmode="numeric"></label>
+      <label>JavaScript, КБ<input type="number" min="0" step="10" value="60" inputmode="numeric"></label>
+      <label>Шрифты, КБ<input type="number" min="0" step="10" value="60" inputmode="numeric"></label>
+      <label>Картинки, КБ<input type="number" min="0" step="10" value="300" inputmode="numeric"></label>
+      <label>Чужие скрипты, КБ<input type="number" min="0" step="10" value="0" inputmode="numeric"></label>
+    </div>
+    <div class="stage-body"><ul class="bud-out" id="budOut" aria-live="polite"></ul></div>
+    <div class="stage-foot"><p class="small">Числа в примерах условные. Свои возьми во вкладке Network: внизу написан общий вес, а фильтры JS, CSS, Img и Font показывают вес по типам. Время посчитано только для скачивания на Slow 4G, без задержек соединения.</p></div>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Run a Lighthouse mobile audit after each build and report LCP, CLS, total blocking time and the three largest files.</li>
+      <li>Budget: page under 1.5 MB, JavaScript under 300 KB, CSS under 100 KB. Stop and report when a change breaks the budget.</li>
+      <li>Never claim a performance result without the measured numbers.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="host" data-short="Хостинг, CDN, кэш">
+  <h2>Где лежит сайт: шесть слов, которые нужно знать</h2>
+  <p>Этого хватит, чтобы читать предложения модели про публикацию и задавать осмысленные вопросы.</p>
+  <dl class="gloss">
+    <div><dt>DNS</dt><dd>Справочник, который переводит имя сайта в адрес сервера. Настраивается там, где куплен домен.</dd></div>
+    <div><dt>Хостинг</dt><dd>Сервер, где лежат файлы сайта. Для статичных страниц подойдёт простой: файлы отдаются как есть.</dd></div>
+    <div><dt>CDN</dt><dd>Сеть серверов по всему миру с копиями твоих файлов. Посетитель получает их с ближайшего. <span class="ev">◈ Beyond Fireship, авторы по основам веба</span></dd></div>
+    <div><dt>Кэш</dt><dd>Сохранённая копия. Браузер не качает повторно то, что не менялось; сервер не собирает заново ту же страницу.</dd></div>
+    <div><dt>Сжатие</dt><dd>Текстовые файлы (HTML, CSS, JS) сервер отдаёт упакованными. Современные платформы включают это сами.</dd></div>
+    <div><dt>TTFB</dt><dd>Time to First Byte: сколько сервер думает до первого байта ответа. У статичного сайта на CDN маленький, у медленного сервера без кэша большой.</dd></div>
+  </dl>
+  <p>Практический вывод: статичный сайт на платформе с CDN (ты уже публикуешь через Cloudflare Pages) закрывает большую часть серверной скорости без настройки. Оставшиеся проблемы почти всегда в картинках, шрифтах и скриптах, то есть в этом уроке.</p>
+</section>
+
+<section class="sec" id="errors" data-short="12 типичных ошибок">
+  <h2>Двенадцать типичных ошибок скорости</h2>
+  <ol class="cases">
+    <li><div class="mh">1. Фото с камеры на первом экране</div><p>Три-восемь мегабайт. На телефоне главное фото появляется через десятки секунд.</p><p><code>Serve WebP at the displayed size.</code></p></li>
+    <li><div class="mh">2. loading="lazy" у главного фото</div><p>Самая важная картинка грузится последней.</p><p><code>Hero: fetchpriority="high", no lazy.</code></p></li>
+    <li><div class="mh">3. Картинки без размеров</div><p>Страница прыгает, пока грузится.</p><p><code>width and height on every img.</code></p></li>
+    <li><div class="mh">4. Один файл на все экраны</div><p>Телефон качает картинку для монитора.</p><p><code>srcset with three widths.</code></p></li>
+    <li><div class="mh">5. Скрипты в head без defer</div><p>Белый экран, пока скрипт не скачан и не выполнен.</p><p><code>defer, or move to the end of body.</code></p></li>
+    <li><div class="mh">6. Tailwind через CDN</div><p>Стили собираются скриптом в браузере посетителя.</p><p><code>Build the CSS file; no Play CDN.</code></p></li>
+    <li><div class="mh">7. Фреймворк для статичной страницы</div><p>Сотни килобайт кода ради текста и фото.</p><p><code>Plain HTML and CSS.</code></p></li>
+    <li><div class="mh">8. Много начертаний шрифтов</div><p>Восемь запросов и текст, который появляется с опозданием.</p><p><code>Only used weights; swap; preload.</code></p></li>
+    <li><div class="mh">9. Чат, карта и видео грузятся сразу</div><p>Чужие скрипты тяжелее всего остального.</p><p><code>Load on click behind a facade.</code></p></li>
+    <li><div class="mh">10. Анимация left, top, width</div><p>Дёргается при любой нагрузке.</p><p><code>Animate transform and opacity only.</code></p></li>
+    <li><div class="mh">11. Появление снизу на каждом блоке</div><p>Замедляет чтение и выглядит сгенерированным.</p><p><code>One authored moment per page.</code></p></li>
+    <li><div class="mh">12. Баннер, который толкает страницу</div><p>Плашка cookie или акции вставляется сверху после загрузки.</p><p><code>Overlay it or reserve the space.</code></p></li>
+  </ol>
+</section>
+
+<section class="sec" id="accept" data-short="Чек-лист приёмки">
+  <h2>Чек-лист приёмки по скорости</h2>
+  <ul class="checklist" data-id="l3">
+    <li><label><input type="checkbox"><span>Lighthouse в режиме Mobile: LCP до 2,5 с, CLS до 0,1.</span></label></li>
+    <li><label><input type="checkbox"><span>На Slow 4G с выключенным кэшем через три секунды виден заголовок и главное фото.</span></label></li>
+    <li><label><input type="checkbox"><span>Главное фото в WebP или AVIF, не лениво, с высоким приоритетом.</span></label></li>
+    <li><label><input type="checkbox"><span>У каждой картинки есть width, height и alt; ниже первого экрана стоит loading="lazy".</span></label></li>
+    <li><label><input type="checkbox"><span>Ни один файл картинки не тяжелее 300 КБ без причины.</span></label></li>
+    <li><label><input type="checkbox"><span>Шрифтов не больше двух-четырёх файлов, font-display: swap.</span></label></li>
+    <li><label><input type="checkbox"><span>В head нет скриптов без defer; нет CDN-сборок.</span></label></li>
+    <li><label><input type="checkbox"><span>Карта, видео и чат загружаются по нажатию.</span></label></li>
+    <li><label><input type="checkbox"><span>При загрузке ничего не прыгает: проверил, глядя на страницу, а не на код.</span></label></li>
+    <li><label><input type="checkbox"><span>Каждая кнопка реагирует мгновенно, до начала любой работы.</span></label></li>
+    <li><label><input type="checkbox"><span>Анимации только на transform и opacity, и их немного.</span></label></li>
+    <li><label><input type="checkbox"><span>Общий вес страницы и вес по типам записан в отчёте модели цифрами.</span></label></li>
+  </ul>
+</section>
+
+<section class="sec" id="quiz" data-short="Тест">
+  <h2>Проверь себя</h2>
+  <div class="quiz" data-quiz="l3">
+    <script type="application/json">
+[
+ {"q":"Что измеряет LCP?","opts":["Время до первого байта от сервера","Время до появления самого крупного элемента первого экрана","Общий вес страницы","Число запросов"],"a":1,"why":"Largest Contentful Paint: когда человек увидел главное, обычно фото или заголовок. Хорошо, если до 2,5 секунды."},
+ {"q":"Пока страница грузится, кнопка уезжает из-под пальца. Какая метрика и чем лечить?","opts":["LCP: сжать картинки","INP: убрать скрипты","CLS: оставить место под всё, что появляется позже","TTFB: сменить хостинг"],"a":2,"why":"Сдвиги раскладки это CLS. Картинкам задают width и height, поздним блокам резервируют место."},
+ {"q":"Модель поставила loading=\"lazy\" всем картинкам. Что не так?","opts":["Всё правильно","Главное фото первого экрана начнёт грузиться позже всех","Ленивая загрузка замедляет прокрутку","Нужно было поставить только на главное фото"],"a":1,"why":"Лениво грузят то, что ниже первого экрана. Главное фото наоборот получает fetchpriority=\"high\"."},
+ {"q":"Место под фото на экране 400 пикселей, экран телефона 2x, файл шириной 4000 пикселей. Сколько скачано зря?","opts":["Около половины","Около 80%","Около 96%","Ничего, запас нужен для качества"],"a":2,"why":"Нужно 800 пикселей. Площадь растёт как квадрат: (800/4000)² это 4% полезных пикселей."},
+ {"q":"После нажатия кнопка меняет вид только через полсекунды. В чём причина?","opts":["Медленный интернет","Главный поток занят скриптом и не может отрисовать реакцию","Слишком большая картинка","Не тот формат шрифта"],"a":1,"why":"Это INP. Лечение: сначала показать реакцию, тяжёлую работу выполнять после отрисовки и уменьшать количество скриптов."},
+ {"q":"Какая анимация продолжит работать плавно, пока скрипты заняты?","opts":["CSS-анимация свойства left","Анимация на setInterval","CSS-анимация transform или opacity","Анимация width"],"a":2,"why":"Только transform и opacity браузер умеет анимировать отдельно от главного потока."},
+ {"q":"На твоём ноутбуке Lighthouse показывает 98. Какой вывод верный?","opts":["Сайт быстрый для всех","Это один лабораторный прогон; нужно проверить в режиме Mobile и на медленной сети","Lighthouse всегда завышает","Можно не оптимизировать картинки"],"a":1,"why":"Лабораторные данные не заменяют полевые. Быстрое устройство и хорошая сеть скрывают почти все проблемы."},
+ {"q":"В проекте два семейства шрифтов по шесть начертаний. Что попросить?","opts":["Ничего, шрифты не влияют на скорость","Оставить только используемые начертания или взять вариативный файл, поставить font-display: swap","Перевести шрифты в PNG","Загружать шрифты после клика"],"a":1,"why":"Каждое начертание это отдельный файл и запрос. Обычно реально нужны два-три."},
+ {"q":"Tailwind подключён тегом script с CDN. Почему это проблема?","opts":["Это не проблема","Так делать можно только на телефонах","Документация Tailwind называет этот способ только для разработки: стили собираются в браузере посетителя","CDN всегда медленнее своего сервера"],"a":2,"why":"Для выпуска собирают готовый CSS-файл. Play CDN это инструмент для прототипов."},
+ {"q":"На странице карта, видео и чат поддержки. Как их подключать?","opts":["Все сразу в head","Показывать заглушку и загружать модуль по нажатию","Убрать совсем, они всегда вредны","Вставить в HTML как base64"],"a":1,"why":"Приём «фасад»: человек, которому карта не нужна, не платит за неё временем загрузки."}
+]
+    </script>
+  </div>
+</section>
+
+<section class="sec" id="sources" data-short="Источники">
+  <h2>Откуда это взято</h2>
+  <ul>
+    <li>◆ web.dev, «Web Vitals»: пороги LCP 2,5 с, INP 200 мс, CLS 0,1, 75-й перцентиль, различие лабораторных и полевых данных. Проверено по тексту.</li>
+    <li>◆ Документация Lighthouse (throttling): параметры Slow 4G. Документация Tailwind: назначение Play CDN.</li>
+    <li>◆ Vercel Web Interface Guidelines и Anthropic frontend-design: тексты прочитаны в исходниках.</li>
+    <li>◈ Addy Osmani, web-quality-skills: границы «плохо» и бюджеты страницы. Взяты из текста скилла, по первоисточникам не сверены.</li>
+    <li>◈ Chrome for Developers (три видео), Beyond Fireship, Syntax «Web Vitals Explained», курс midudev: согласие авторов по картинкам, шрифтам и скриптам.</li>
+    <li>◆ web.dev, «How to create high-performance CSS animations».</li>
+    <li>◈ Наблюдения за выдачей моделей: Flux (Claude, май 2026), DesignCode (Opus 5.5, сентябрь 2026), Anthropic frontend-design.</li>
+  </ul>
+  <p class="small">Три видео Chrome сняты в 2020–2021 годах и упоминают FID. В уроке вместо него INP.</p>
+  <p class="small">В блоках «Где ошибаются нейронки» стоит только то, что видели в выдаче моделей 2025–2026 годов, с моделью и датой. Реальные ошибки без такого подтверждения собраны в блоках «Частые ошибки: у людей и у нейронок», и метка там подтверждает правило, а не привычку моделей. Разбор по каждому утверждению: PROVENANCE_ERRORS.md, AUDIT_INDEPENDENT.md, EXTERNAL_CHECK.md.</p>
+</section>
+</main>
+</div>
+
+<footer class="foot">
+  <nav aria-label="Навигация по курсу"><a href="02-hierarchy.html">Урок 2. Иерархия, отступы, шрифт, цвет</a><a href="04-access.html">Урок 4. Доступность</a><a href="index.html">Все уроки</a></nav>
+</footer>
+
+<script src="assets/course.js?v=5"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const { $, $$, busy, icon } = Course;
+  const num = (n, d = 1) => n.toFixed(d).replace('.', ',');
+  const kb = (bytes) => (bytes >= 1e6 ? num(bytes / 1e6, 1) + ' МБ' : Math.round(bytes / 1e3) + ' КБ');
+  const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* 1. Loading simulator: a simplified model, files share the connection equally */
+  const NETS = { fast: { bps: 30e6 / 8, rtt: 20, cpu: 1 }, slow: { bps: 1.6e6 / 8, rtt: 150, cpu: 4 } };
+  function simulate(c) {
+    const net = NETS[c.net]; const R = []; const by = {};
+    const add = (id, label, type, size, deps, delay) => { const r = { id, label, type, size, deps, delay: delay || 0, start: null, from: null, end: null, left: size }; R.push(r); by[id] = r; };
+    add('html', 'HTML', 'doc', 20e3, [], 3 * net.rtt + (c.server ? 800 : 100));
+    add('css', 'CSS', 'css', 40e3, ['html']);
+    add('js', c.jsb ? 'JavaScript в head' : 'JavaScript, defer', 'js', c.jsb ? 600e3 : 40e3, ['html']);
+    const nf = c.fonts ? 6 : 2;
+    for (let i = 0; i < nf; i += 1) add('f' + i, 'Шрифт ' + (i + 1), 'font', c.fonts ? 80e3 : 30e3, ['css']);
+    add('hero', 'Фото первого экрана', 'img', c.hero ? 3.5e6 : 120e3, c.lazy ? ['css', 'js'] : ['html'], c.lazy ? 600 : 0);
+    if (c.third) { add('t1', 'Чат-виджет', 'third', 300e3, ['html']); add('t2', 'Карта', 'third', 300e3, ['html']); add('t3', 'Аналитика', 'third', 100e3, ['html']); }
+    let t = 0; const dt = 10;
+    while (R.some((r) => r.end == null) && t < 240000) {
+      R.forEach((r) => { if (r.start == null && r.deps.every((d) => by[d].end != null && by[d].end <= t)) { r.start = t; r.from = t + net.rtt + r.delay; } });
+      const act = R.filter((r) => r.start != null && r.end == null && t >= r.from);
+      const share = act.length ? (net.bps * dt) / 1000 / act.length : 0;
+      act.forEach((r) => { r.left -= share; if (r.left <= 0) r.end = t + dt; });
+      t += dt;
+    }
+    const exec = c.jsb ? 300 * net.cpu : 0;
+    const fcp = Math.max(by.css.end, c.jsb ? by.js.end + exec : 0) + 50;
+    const fontsEnd = Math.max(...R.filter((r) => r.type === 'font').map((r) => r.end));
+    const text = c.fonts ? Math.max(fcp, Math.min(fontsEnd, fcp + 3000)) : fcp;
+    const lcp = Math.max(by.hero.end, fcp);
+    return { R, fcp, text, lcp, total: R.reduce((a, r) => a + r.size, 0), end: Math.max(lcp, text, ...R.map((r) => r.end)) };
+  }
+  const sim = $('#sim'); const simPage = $('#simPage'); let simRes = null; let simTimer = null;
+  const simCfg = () => { const d = sim.dataset; return { net: d.net, hero: d.hero === 'on', lazy: d.lazy === 'on', jsb: d.jsb === 'on', fonts: d.fonts === 'on', third: d.third === 'on', server: d.server === 'on' }; };
+  function showFinal() { simPage.className = 'painted text hero'; $('#simClock').textContent = ''; }
+  function renderSim() {
+    clearInterval(simTimer);
+    simRes = simulate(simCfg());
+    const s = simRes; const span = s.end * 1.04;
+    const pct = (v) => (v / span) * 100;
+    const rows = s.R.map((r) => `<div class="sb-row"><span>${r.label}, ${kb(r.size)}</span><div class="sb-track"><i class="sb-wait" style="left:${pct(r.start)}%;width:${pct(r.from - r.start)}%"></i><i class="sb-load t-${r.type}" style="left:${pct(r.from)}%;width:${Math.max(0.4, pct(r.end - r.from))}%"></i></div></div>`).join('');
+    const mark = (cls, v, label) => `<div class="sb-mark ${cls}${pct(v) > 62 ? ' flip' : ''}" style="left:${pct(v)}%">${label}<br>${num(v / 1000)} с</div>`;
+    $('#simBars').innerHTML = rows + `<div class="sb-marks"><span></span><div class="sb-axis">${mark('', s.fcp, 'первая отрисовка')}${mark('lcp', s.lcp, 'главное фото, LCP')}</div></div>`;
+    const cls = s.lcp <= 2500 ? 'ok' : s.lcp <= 4000 ? 'mid' : 'no';
+    const word = cls === 'ok' ? 'хорошо' : cls === 'mid' ? 'нужно улучшать' : 'плохо';
+    let extra = '';
+    if (s.text > s.fcp + 100) extra = ` Текст невидим до ${num(s.text / 1000)} с: шрифты без font-display прячут его.`;
+    $('#simOut').innerHTML = `Всего ${kb(s.total)}. Первая отрисовка через ${num(s.fcp / 1000)} с, главное фото через <strong>${num(s.lcp / 1000)} с</strong>: <span class="verdict ${cls}">${word}</span>.${extra}`;
+    showFinal();
+  }
+  $('#simPlay').addEventListener('click', () => {
+    clearInterval(simTimer);
+    const s = simRes; const speed = Math.max(1, s.end / 7000);
+    simPage.className = ''; const t0 = performance.now();
+    simTimer = setInterval(() => {
+      const t = (performance.now() - t0) * speed;
+      simPage.classList.toggle('painted', t >= s.fcp);
+      simPage.classList.toggle('text', t >= s.text);
+      simPage.classList.toggle('hero', t >= s.lcp);
+      $('#simClock').textContent = num(Math.min(t, s.end) / 1000) + ' с' + (speed > 1.05 ? ` (ускорено в ${num(speed)} раза)` : '');
+      if (t >= s.end) { clearInterval(simTimer); }
+    }, 40);
+  });
+  sim.addEventListener('statechange', renderSim);
+  renderSim();
+
+  /* 3. CLS: a small page in an iframe; the browser itself reports layout shifts there */
+  const clsStage = $('#clsStage'); const clsFrame = $('#clsFrame'); let clsRun = 0;
+  function clsDoc(reserve, run) {
+    const css = 'body{margin:0;font:15px/1.45 system-ui,sans-serif;color:#14171c}.wrap{padding:14px}h1{font-size:20px;margin:0 0 6px;line-height:1.15}p{margin:0 0 10px;color:#4a5160}.promo{background:#ffe14d;border-radius:8px;padding:10px 12px;font-weight:600;margin:0 0 10px}.img{height:170px;border-radius:10px;margin:0 0 10px;background:linear-gradient(160deg,#9fd3f0,#f6e3a1 60%,#e9a56b)}.ph{background:#eceff3;border-radius:10px}button{font:inherit;font-weight:600;display:block;width:100%;padding:12px;border-radius:8px;border:0;margin:0 0 10px;cursor:pointer}#book{background:#14171c;color:#fff}#del{background:#fbe7e4;color:#a1261d;border:1px solid #e5a9a2}';
+    const js = "var cls=0,ok=true;try{new PerformanceObserver(function(l){l.getEntries().forEach(function(e){if(!e.hadRecentInput){cls+=e.value;parent.postMessage({k:'cls',v:cls,run:RUN},'*');}});}).observe({type:'layout-shift',buffered:true});}catch(e){ok=false;}parent.postMessage({k:'ready',ok:ok,run:RUN},'*');" +
+      "setTimeout(function(){document.getElementById('imgSlot').innerHTML='<div class=\\\"img\\\"></div>';},1000);" +
+      "setTimeout(function(){document.getElementById('promoSlot').innerHTML='<div class=\\\"promo\\\">Free cancellation today</div>';parent.postMessage({k:'done',v:cls,run:RUN},'*');},2100);" +
+      "document.addEventListener('click',function(e){var b=e.target.closest('button');if(b)parent.postMessage({k:'click',v:b.id,run:RUN},'*');});";
+    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>' + css + '</style></head><body><div class="wrap">' +
+      '<div id="promoSlot"' + (reserve ? ' style="min-height:52px"' : '') + '></div>' +
+      '<h1>Manta Point, half day</h1><p>Two snorkelling stops and lunch above the bay.</p>' +
+      '<div id="imgSlot"' + (reserve ? ' class="ph" style="height:170px;margin-bottom:10px"' : '') + '></div>' +
+      '<button id="del" type="button">Remove from wishlist</button><button id="book" type="button">Book this tour</button>' +
+      '<p>Hotel pickup from Sanur at 7:00. Back by 14:00.</p></div><script>var RUN=' + run + ';' + js + '<\/script></body></html>';
+  }
+  const clsVerdict = (v) => { const c = v <= 0.1 ? 'ok' : v <= 0.25 ? 'mid' : 'no'; return `<span class="verdict ${c}">${c === 'ok' ? 'хорошо' : c === 'mid' ? 'нужно улучшать' : 'плохо'}</span>`; };
+  function loadCls() {
+    clsRun += 1;
+    $('#clsVal').textContent = 'CLS: 0';
+    $('#clsOut').textContent = 'Страница грузится. Нажимай «Book this tour».';
+    clsFrame.srcdoc = clsDoc(clsStage.dataset.reserve === 'on', clsRun);
+  }
+  window.addEventListener('message', (e) => {
+    const m = e.data;
+    if (e.source !== clsFrame.contentWindow || !m || m.run !== clsRun) return;
+    if (m.k === 'ready' && !m.ok) $('#clsVal').textContent = 'Этот браузер не измеряет CLS. Открой в Chrome или Edge.';
+    if (m.k === 'cls' || m.k === 'done') $('#clsVal').innerHTML = `CLS, измерено браузером: <strong>${num(m.v, 2)}</strong> ${clsVerdict(m.v)}`;
+    if (m.k === 'click') {
+      $('#clsOut').innerHTML = m.v === 'book'
+        ? '<span class="verdict ok">Попал.</span> Нажата «Book this tour».'
+        : '<span class="verdict no">Мимо.</span> Ты нажал «Remove from wishlist»: страница сдвинулась, и под пальцем оказалась другая кнопка.';
+    }
+  });
+  $('#clsReload').addEventListener('click', loadCls);
+  clsStage.addEventListener('statechange', loadCls);
+  loadCls();
+
+  /* 4. INP: real main-thread work before or after the visual response */
+  const inpStage = $('#inpStage'); const fav = $('#favBtn'); let work = 300; let clicks = 0;
+  $$('[data-ms]', inpStage).forEach((b) => b.addEventListener('click', () => {
+    work = Number(b.dataset.ms);
+    $$('[data-ms]', inpStage).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+  }));
+  const paintFav = () => {
+    const on = fav.getAttribute('aria-pressed') !== 'true';
+    fav.setAttribute('aria-pressed', String(on));
+    fav.innerHTML = on ? icon('check') + '<span>В избранном</span>' : '<span>Добавить в избранное</span>';
+    clicks += 1; $('#favCount').textContent = 'Нажатий: ' + clicks;
+  };
+  fav.addEventListener('click', (e) => {
+    const t0 = e.timeStamp; let done = false;
+    const report = () => {
+      if (done) return; done = true;
+      const d = Math.max(0, Math.round(performance.now() - t0));
+      const c = d <= 200 ? 'ok' : d <= 500 ? 'mid' : 'no';
+      $('#inpOut').innerHTML = `От нажатия до видимой реакции: <strong>${d} мс</strong>. <span class="verdict ${c}">${c === 'ok' ? 'Хорошо.' : c === 'mid' ? 'Нужно улучшать.' : 'Плохо.'}</span> ` +
+        (inpStage.dataset.order === 'paint' && work > 0 ? `Работа на ${work} мс выполнилась уже после отрисовки.` : 'Порог хорошего INP 200 мс.');
+    };
+    const afterPaint = (fn) => { requestAnimationFrame(() => setTimeout(fn, 0)); setTimeout(fn, 80); };
+    if (inpStage.dataset.order === 'work') { busy(work); paintFav(); afterPaint(report); }
+    else { paintFav(); afterPaint(() => { report(); if (work) setTimeout(() => busy(work), 0); }); }
+  });
+
+  /* 5. Images. A painted seascape stands in for a photo; grain makes it compress like one. */
+  function paintScene(c, grain) {
+    const w = c.width; const h = c.height; const x = c.getContext('2d');
+    const sky = x.createLinearGradient(0, 0, 0, h * 0.62);
+    sky.addColorStop(0, '#2f6fb0'); sky.addColorStop(0.55, '#8ec5ea'); sky.addColorStop(1, '#f6ddb0');
+    x.fillStyle = sky; x.fillRect(0, 0, w, h * 0.62);
+    const sx = w * 0.68; const sy = h * 0.34; const sr = h * 0.1;
+    const glow = x.createRadialGradient(sx, sy, sr * 0.3, sx, sy, sr * 4);
+    glow.addColorStop(0, 'rgba(255,244,214,.9)'); glow.addColorStop(1, 'rgba(255,244,214,0)');
+    x.fillStyle = glow; x.fillRect(0, 0, w, h * 0.62);
+    x.fillStyle = '#fff3cf'; x.beginPath(); x.arc(sx, sy, sr, 0, Math.PI * 2); x.fill();
+    x.fillStyle = 'rgba(255,255,255,.72)';
+    [[0.16, 0.2, 0.16], [0.36, 0.12, 0.1], [0.9, 0.17, 0.12]].forEach(([cx, cy, r]) => {
+      for (let i = 0; i < 5; i += 1) { x.beginPath(); x.ellipse(w * (cx + i * r * 0.28 - r * 0.5), h * (cy + Math.sin(i * 1.7) * 0.012), w * r * 0.22, h * r * 0.16, 0, 0, Math.PI * 2); x.fill(); }
+    });
+    const sea = x.createLinearGradient(0, h * 0.62, 0, h);
+    sea.addColorStop(0, '#3c8fb4'); sea.addColorStop(1, '#0d3f66');
+    x.fillStyle = sea; x.fillRect(0, h * 0.62, w, h * 0.38);
+    const hill = (amp, color, seed) => {
+      x.fillStyle = color; x.beginPath(); x.moveTo(0, h * 0.62);
+      for (let i = 0; i <= 200; i += 1) { const u = i / 200; x.lineTo(u * w, h * 0.62 - Math.abs(Math.sin(u * 6 + seed) * Math.sin(u * 17 + seed * 2)) * h * amp); }
+      x.lineTo(w, h * 0.62); x.closePath(); x.fill();
+    };
+    hill(0.1, '#5b8196', 1.3); hill(0.17, '#2f5a57', 4.1);
+    x.fillStyle = 'rgba(255,240,200,.32)';
+    for (let i = 0; i < 60; i += 1) { const ww = w * (0.02 + i * 0.0018); x.fillRect(sx - ww / 2 + Math.sin(i * 2.3) * w * 0.004, h * (0.64 + i * 0.006), ww, Math.max(1, h * 0.0025)); }
+    x.fillStyle = '#f4f1e8'; x.beginPath(); x.moveTo(w * 0.26, h * 0.8); x.lineTo(w * 0.42, h * 0.8); x.lineTo(w * 0.4, h * 0.835); x.lineTo(w * 0.28, h * 0.835); x.closePath(); x.fill();
+    x.fillStyle = '#c8452f'; x.fillRect(w * 0.3, h * 0.775, w * 0.08, h * 0.025);
+    if (grain) {
+      const im = x.getImageData(0, 0, w, h); const d = im.data; let s = 12345;
+      for (let i = 0; i < d.length; i += 4) { s = (s * 1664525 + 1013904223) >>> 0; const n = (((s >>> 24) - 128) / 128) * grain; d[i] += n; d[i + 1] += n; d[i + 2] += n; }
+      x.putImageData(im, 0, 0);
+    }
+  }
+  // Small copy for the object-fit demo (cheap, drawn right away)
+  const small = document.createElement('canvas'); small.width = 600; small.height = 400; paintScene(small, 0);
+  const smallUrl = small.toDataURL('image/jpeg', 0.85);
+  $('#fitA').src = smallUrl; $('#fitB').src = smallUrl; $('#labPrev').src = smallUrl;
+
+  const lab = $('#lab'); const src = document.createElement('canvas'); let srcReady = false; let origBlob = null; let labJob = 0; let prevUrl = null; let userFileSize = null;
+  const toBlob = (c, type, q) => new Promise((res) => c.toBlob((b) => res(b), type, q));
+  async function encodeAt(w, type, q) {
+    const c = document.createElement('canvas'); c.width = w; c.height = Math.round((w * src.height) / src.width);
+    const x = c.getContext('2d'); x.imageSmoothingQuality = 'high'; x.drawImage(src, 0, 0, c.width, c.height);
+    return toBlob(c, type, q);
+  }
+  async function runLab() {
+    if (!srcReady) return;
+    const job = ++labJob;
+    const wIn = $('#labW'); const q = Number($('#labQ').value);
+    wIn.max = src.width; if (Number(wIn.value) > src.width) wIn.value = src.width;
+    const w = Number(wIn.value);
+    $('#labWOut').textContent = w + ' px'; $('#labQOut').textContent = q;
+    $('#labRows').innerHTML = '<li>Кодирую…</li>';
+    if (!origBlob) origBlob = await toBlob(src, 'image/png');
+    const list = [['Без обработки: PNG, ' + src.width + ' px', origBlob, 'image/png']];
+    for (const [name, type] of [['PNG, ' + w + ' px', 'image/png'], ['JPEG, качество ' + q + ', ' + w + ' px', 'image/jpeg'], ['WebP, качество ' + q + ', ' + w + ' px', 'image/webp']]) {
+      const b = await encodeAt(w, type, q / 100);
+      if (job !== labJob) return;
+      list.push([name, b, type]);
+    }
+    const max = Math.max(...list.map((r) => (r[1] ? r[1].size : 0)));
+    $('#labRows').innerHTML = list.map(([name, b, type]) => {
+      if (!b || b.type !== type) return `<li><div class="lr-top"><span>${name}</span><b>нет</b></div><small>Этот браузер не умеет кодировать такой формат.</small></li>`;
+      const sec = (b.size * 8) / 1.6e6;
+      return `<li><div class="lr-top"><span>${name}</span><b>${kb(b.size)}</b></div><div class="lr-bar"><i style="width:${(b.size / max) * 100}%"></i></div><small>на Slow 4G ${sec < 0.1 ? 'меньше 0,1 с' : 'около ' + num(sec, sec < 10 ? 1 : 0) + ' с'}</small></li>`;
+    }).join('') + (userFileSize ? `<li><small>Твой исходный файл весил ${kb(userFileSize)}.</small></li>` : '');
+    const webp = list[3][1] && list[3][1].type === 'image/webp' ? list[3][1] : list[2][1];
+    if (webp) { if (prevUrl) URL.revokeObjectURL(prevUrl); prevUrl = URL.createObjectURL(webp); $('#labPrev').src = prevUrl; }
+  }
+  let labDeb = null;
+  const labSoon = () => { $('#labWOut').textContent = $('#labW').value + ' px'; $('#labQOut').textContent = $('#labQ').value; clearTimeout(labDeb); labDeb = setTimeout(runLab, 220); };
+  $('#labW').addEventListener('input', labSoon); $('#labQ').addEventListener('input', labSoon);
+  $('#labWOut').textContent = $('#labW').value + ' px'; $('#labQOut').textContent = $('#labQ').value;
+  // Draw the large source only when the lab scrolls into view: no heavy work during page load.
+  new IntersectionObserver((en, io) => {
+    if (!en.some((e) => e.isIntersecting)) return;
+    io.disconnect();
+    src.width = 2400; src.height = 1600; paintScene(src, 14); srcReady = true; runLab();
+  }, { rootMargin: '300px' }).observe(lab);
+  $('#labFile').addEventListener('change', async (e) => {
+    const f = e.target.files[0]; if (!f) return;
+    try {
+      const bmp = await createImageBitmap(f);
+      const scale = Math.min(1, 3000 / bmp.width);
+      src.width = Math.round(bmp.width * scale); src.height = Math.round(bmp.height * scale);
+      src.getContext('2d').drawImage(bmp, 0, 0, src.width, src.height);
+      origBlob = null; userFileSize = f.size; srcReady = true;
+      $('#labNote').textContent = 'Твоё фото, ' + bmp.width + ' на ' + bmp.height + ' px' + (scale < 1 ? ', для опыта уменьшено до ' + src.width + ' px по ширине' : '') + '. Оно не покидает твой компьютер.';
+      $('#labW').value = Math.min(1600, src.width);
+      runLab();
+    } catch (err) { $('#labNote').textContent = 'Не получилось прочитать этот файл. Попробуй JPEG или PNG.'; }
+  });
+
+  /* 5b. Wasted pixels: pure arithmetic */
+  const pxStage = $('#pxStage'); let dpr = 2;
+  const renderPx = () => {
+    const file = Number($('#pxFile').value); const slot = Number($('#pxSlot').value); const need = slot * dpr;
+    $('#pxFileOut').textContent = file + ' px'; $('#pxSlotOut').textContent = slot + ' px';
+    const k = Math.min(1, need / file);
+    $('#pxInner').style.setProperty('--need', k * 100 + '%');
+    $('#pxOut').innerHTML = file > need
+      ? `Экрану нужно ${need} px, в файле ${file} px. <span class="verdict no">${Math.round((1 - k * k) * 100)}% пикселей скачаны зря.</span>`
+      : file === need ? `Экрану нужно ${need} px, в файле столько же. <span class="verdict ok">Точно в размер.</span>`
+        : `Экрану нужно ${need} px, в файле только ${file} px. <span class="verdict mid">Картинка будет мыльной.</span>`;
+  };
+  $$('[data-dpr]', pxStage).forEach((b) => b.addEventListener('click', () => { dpr = Number(b.dataset.dpr); $$('[data-dpr]', pxStage).forEach((x) => x.setAttribute('aria-pressed', String(x === b))); renderPx(); }));
+  $('#pxFile').addEventListener('input', renderPx); $('#pxSlot').addEventListener('input', renderPx); renderPx();
+
+  /* 5c. Lazy loading (simulation of the principle) */
+  const lazy = $('#lazy'); const lazyBox = $('#lazyBox'); let lazyIo = null;
+  const lazyCount = () => { const n = $$('div.on', lazyBox).length; $('#lazyOut').innerHTML = `Загружено <strong>${n} из 24</strong> фото, ${num((n * 180) / 1000)} МБ.` + (n === 24 ? ' Человек, который посмотрел только первый ряд, скачал всё.' : ''); };
+  const renderLazy = () => {
+    if (lazyIo) lazyIo.disconnect();
+    lazyBox.scrollTop = 0;
+    lazyBox.innerHTML = Array.from({ length: 24 }, (_, i) => `<div>${i + 1}</div>`).join('');
+    const tiles = $$('div', lazyBox);
+    if (lazy.dataset.mode === 'eager') { tiles.forEach((t) => t.classList.add('on')); lazyCount(); return; }
+    lazyIo = new IntersectionObserver((en) => { en.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('on'); lazyIo.unobserve(e.target); } }); lazyCount(); }, { root: lazyBox, rootMargin: '40px' });
+    tiles.forEach((t) => lazyIo.observe(t));
+    lazyCount();
+  };
+  lazy.addEventListener('statechange', renderLazy); renderLazy();
+
+  /* 6. Fonts */
+  const fontsim = $('#fontsim'); let fsTimer = null; let fsTick = null;
+  const FS_TEXT = {
+    block: 'Две секунды на месте текста пусто. Человек видит кнопку без объяснения, к чему она.',
+    swap: 'Текст виден сразу, запасным шрифтом. Когда приходит основной, строки переверстываются и кнопка прыгает.',
+    match: 'Запасной шрифт подобран близким по ширине букв. Замена почти незаметна, кнопка стоит на месте.',
+    system: 'Шрифт уже есть на устройстве: ждать нечего, запросов ноль. Цена: на разных системах буквы немного разные.'
+  };
+  const fsIdle = () => { clearTimeout(fsTimer); clearInterval(fsTick); fontsim.dataset.phase = 'done'; $('#fsClock').textContent = ''; $('#fsOut').textContent = FS_TEXT[fontsim.dataset.mode]; };
+  $('#fsPlay').addEventListener('click', () => {
+    clearTimeout(fsTimer); clearInterval(fsTick);
+    fontsim.dataset.phase = 'wait'; const t0 = performance.now();
+    fsTick = setInterval(() => { $('#fsClock').textContent = num(Math.min(2, (performance.now() - t0) / 1000)) + ' с'; }, 100);
+    fsTimer = setTimeout(() => { clearInterval(fsTick); fontsim.dataset.phase = 'done'; $('#fsClock').textContent = '2,0 с: шрифт пришёл'; }, 2000);
+  });
+  fontsim.addEventListener('statechange', fsIdle); fsIdle();
+
+  const renderFc = () => {
+    const fam = Number($('#fcFam').value); const w = Number($('#fcW').value); const it = $('#fcIt').checked; const vr = $('#fcVar').checked;
+    $('#fcFamOut').textContent = fam; $('#fcWOut').textContent = w;
+    const files = vr ? fam * (it ? 2 : 1) : fam * w * (it ? 2 : 1);
+    const weight = files * (vr ? 50 : 30);
+    const c = files <= 4 ? 'ok' : files <= 8 ? 'mid' : 'no';
+    $('#fcOut').innerHTML = `<strong>${files}</strong> ${files === 1 ? 'файл' : files < 5 ? 'файла' : 'файлов'}, около ${weight} КБ. <span class="verdict ${c}">${c === 'ok' ? 'Нормально.' : c === 'mid' ? 'Многовато.' : 'Слишком много.'}</span>` + (vr ? ' Вариативный файл содержит все начертания сразу.' : '');
+  };
+  ['#fcFam', '#fcW', '#fcIt', '#fcVar'].forEach((s) => $(s).addEventListener('input', renderFc)); renderFc();
+
+  /* 7. Main thread vs compositor */
+  const jam = $('#jam'); const dotJs = $('#dotJs'); let jamOn = false; let jamT0 = 0;
+  const jsStep = (now) => {
+    if (!jamOn) return;
+    const run = $('.rail', jam).clientWidth - dotJs.offsetWidth; const p = ((now - jamT0) % 4400) / 2200;
+    dotJs.style.left = (p <= 1 ? p : 2 - p) * run + 'px';
+    requestAnimationFrame(jsStep);
+  };
+  if (calm) $('#jamOut').textContent = 'У тебя в системе включено уменьшение движения, поэтому кружки стоят. Отключи настройку, чтобы увидеть демо.';
+  else new IntersectionObserver((en) => {
+    const vis = en[0].isIntersecting;
+    if (vis && !jamOn) { jamOn = true; jamT0 = performance.now(); jam.classList.add('live'); requestAnimationFrame(jsStep); }
+    if (!vis && jamOn) { jamOn = false; jam.classList.remove('live'); }
+  }).observe(jam);
+  $('#jamBtn').addEventListener('click', () => {
+    if (!calm) { jam.classList.remove('live'); void jam.offsetWidth; jam.classList.add('live'); jamT0 = performance.now(); if (!jamOn) { jamOn = true; requestAnimationFrame(jsStep); } }
+    $('#jamOut').textContent = 'Поток занят…';
+    setTimeout(() => { busy(2000); $('#jamOut').innerHTML = 'Два верхних кружка стояли две секунды: им нужен главный поток. Нижний ехал: <code>transform</code> анимируется отдельно от него.'; }, 700);
+  });
+
+  /* 8. Budget */
+  const budInputs = $$('#bud .bud input');
+  const renderBud = () => {
+    const v = budInputs.map((i) => Math.max(0, Number(i.value) || 0));
+    const total = v.reduce((a, b) => a + b, 0);
+    const row = (name, val, lim) => { const over = val > lim; return `<li><div class="bo-top"><span>${name}</span><b class="verdict ${over ? 'no' : 'ok'}">${val >= 1000 ? num(val / 1000, 2) + ' МБ' : val + ' КБ'} из ${lim >= 1000 ? num(lim / 1000) + ' МБ' : lim + ' КБ'}</b></div><div class="bo-bar"><i class="${over ? 'over' : ''}" style="width:${Math.min(100, (val / lim) * 100)}%"></i></div></li>`; };
+    const sec = (total * 8) / 1600;
+    $('#budOut').innerHTML = row('Вся страница', total, 1500) + row('JavaScript вместе с чужими скриптами', v[2] + v[5], 300) + row('CSS', v[1], 100) +
+      `<li>Скачивание на Slow 4G: около <strong>${num(sec, sec < 10 ? 1 : 0)} с</strong>.</li>`;
+  };
+  budInputs.forEach((i) => i.addEventListener('input', renderBud));
+  $$('#bud [data-preset]').forEach((b) => b.addEventListener('click', () => { b.dataset.preset.split(',').forEach((n, i) => { budInputs[i].value = n; }); renderBud(); }));
+  renderBud();
+});
+</script>
+</body>
+</html>

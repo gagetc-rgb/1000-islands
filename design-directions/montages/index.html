@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Видео для главного экрана · 1000 Islands</title>
+<style>
+  :root { --bg: #f4f3ef; --ink: #1d1d1b; --muted: #55534d; --line: #d9d6cd; --card: #fff; --top: #0b6e69; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1400px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: clamp(26px, 4vw, 40px); line-height: 1.1; margin: 0 0 12px; }
+  main > p { margin: 0 0 24px; color: var(--muted); max-width: 72ch; }
+  h2 { font-size: 22px; margin: 32px 0 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr)); gap: 20px; }
+  figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  figure.top { border: 2px solid var(--top); }
+  .v { position: relative; aspect-ratio: 16 / 9; background: #000; }
+  video { width: 100%; height: 100%; display: block; object-fit: cover; cursor: zoom-in; }
+  .n { position: absolute; left: 10px; top: 10px; background: rgba(0,0,0,.72); color: #fff; font-weight: 700; padding: 2px 10px; border-radius: 6px; }
+  figcaption { padding: 12px 16px 14px; }
+  figcaption b { display: block; font-size: 18px; }
+  .why { margin: 6px 0 8px; }
+  ol { margin: 0; padding-left: 20px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>10 вариантов видео для главного экрана</h1>
+  <p>Собраны только из кадров, которые ты одобрил, с исправлениями (32, 34, 40, 16). Бали не используется нигде. Цветокор у всех одинаковый. Сверху три, которые я считаю лучшими, ниже остальные. Клик по видео открывает его на весь экран.</p>
+  <div id="list"></div>
+</main>
+<script>
+const RU = {
+  m01: "Сначала риф: исправленная нарезка v4", m02: "Над водой и под водой по очереди", m03: "Раджа-Ампат с лодки",
+  m04: "Острова с воздуха", m05: "Только под водой", m06: "Тихий: длинные кадры, плавные переходы",
+  m07: "Короткий и быстрый, 16 с", m08: "Пляж и лодки", m09: "Побережье Северного Сулавеси и риф", m10: "Один день: от утра до заката"
+};
+// filled after review: id -> why it is in the top 3
+const TOP = {
+  m01: "Первое место. Это твоя любимая нарезка v4, исправленная по твоим словам: начинается с красного веера, добавлен дрон (лагуна за пальмой и мыс Сулавеси). Два кадра над водой и три под водой, цвета идут контрастом: красный, бирюза, синий, зелёный. Сразу видно и острова, и подводный мир, а это главное, что продают туры.",
+  m10: "Второе место. Единственный вариант с сюжетом: утро над мысом, лагуна, проход под скалой, риф и закат с пиниси, которую ты любишь. Над водой больше, чем под водой, это закрывает твоё «мало надземного». Минус: на повторе тёмный закат сменяется ярким утром, это заметный скачок.",
+  m07: "Третье место. Четыре самых сильных кадра по 4 секунды: веер, лагуна, черепаха, скала. Всего 16 секунд, поэтому файл примерно вдвое легче и быстрее грузится на телефоне, а повтор наступает раньше. Минус: нет заката и меньше «воздуха»."
+};
+fetch("montages.json").then(r => r.json()).then(ms => {
+  const list = document.getElementById("list");
+  const block = (title, items) => {
+    if (!items.length) return;
+    const h = document.createElement("h2"); h.textContent = title; list.append(h);
+    const g = document.createElement("div"); g.className = "grid"; list.append(g);
+    for (const m of items) {
+      const f = document.createElement("figure");
+      if (TOP[m.id]) f.className = "top";
+      f.innerHTML = `<div class="v"><video muted loop playsinline preload="none" poster="${m.id}.webp" data-src="${m.id}.mp4"></video>
+        <span class="n">${m.id.slice(1)}</span></div>
+        <figcaption><b>${RU[m.id] || m.title} · ${m.secs} с</b>${TOP[m.id] ? `<p class="why">${TOP[m.id]}</p>` : ""}
+        <ol>${m.shots.map(s => `<li>${s[1]}</li>`).join("")}</ol></figcaption>`;
+      const v = f.querySelector("video");
+      v.onclick = () => (v.requestFullscreen || v.webkitEnterFullscreen)?.call(v);
+      g.append(f);
+    }
+  };
+  const order = Object.keys(TOP);
+  block("Мои три лучших", order.map(id => ms.find(m => m.id === id)).filter(Boolean));
+  block("Остальные семь", ms.filter(m => !TOP[m.id]));
+  // Only on-screen clips hold a decoder: a clip that leaves the screen is unloaded
+  // (with every played 1080p clip kept loaded, the lower ones stopped starting, 1 Nov).
+  const playing = new Set();
+  const stop = v => { v.pause(); v.removeAttribute("src"); v.load(); playing.delete(v); };
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    const v = e.target;
+    if (!e.isIntersecting) { if (v.getAttribute("src")) stop(v); return; }
+    if (!v.getAttribute("src")) v.src = v.dataset.src;
+    v.muted = true; playing.add(v); v.play().catch(() => {});
+  }), { threshold: .5 });
+  document.querySelectorAll("video").forEach(v => io.observe(v));
+});
+</script>
+</body>
+</html>

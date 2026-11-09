@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Макет 1000 Islands: как смотреть и оставлять правки</title>
+<meta name="description" content="Как открыть макет сайта 1000 Islands Travel в Penpot, завести аккаунт и оставить комментарии.">
+<meta name="theme-color" content="#FBFBF6">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23FFE14D'/%3E%3Cpath d='M14 40c-2-10 6-20 18-20 8 0 14 4 16 10 4-2 8 2 6 6-1 3-4 3-5 1M22 40v8M40 40v8M14 40c8 4 22 4 30 0' fill='none' stroke='%23141414' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Caveat';font-style:normal;font-weight:600 700;font-display:swap;src:url(fonts/Caveat-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'Caveat';font-style:normal;font-weight:600 700;font-display:swap;src:url(fonts/Caveat-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Golos Text';font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/GolosText-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'Golos Text';font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/GolosText-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Pangolin';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/Pangolin-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'Pangolin';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/Pangolin-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+:root{
+  --paper:#FBFBF6; --ink:#141414; --ink-2:#45453F; --ink-3:#6B6B63; --line:#141414;
+  --yellow:#FFE14D; --pink:#FF7AB6; --pink-soft:#FFD3E6; --teal:#22C9B3; --teal-ink:#0B7468; --teal-soft:#C9F3EC;
+  --gut:clamp(16px,4vw,40px); --rope:92px; --col:41rem;
+  --ease-out:cubic-bezier(.16,1,.3,1);
+  --mark:'Pangolin','Comic Sans MS',cursive; --hand:'Caveat','Segoe Print',cursive; --text:'Golos Text',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scrollbar-width:none;-webkit-text-size-adjust:100%}
+html::-webkit-scrollbar{display:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background-color:var(--paper);background-image:radial-gradient(circle at 1px 1px,#DEDED4 1px,transparent 1.4px);background-size:22px 22px;color:var(--ink);font:400 1.0625rem/1.65 var(--text);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+::selection{background:var(--yellow);color:var(--ink)}
+a{color:inherit;text-decoration-thickness:2px;text-underline-offset:.22em;text-decoration-color:var(--teal)}
+a:hover{text-decoration-color:var(--pink)}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:6px}
+img{max-width:100%;display:block}
+kbd{font:500 .85em var(--text);display:inline-block;min-width:1.7em;text-align:center;padding:.05em .45em;border:1.5px solid var(--ink);border-bottom-width:3px;border-radius:6px;background:#fff;line-height:1.4}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- hand-drawn primitives ---------- */
+.rough{position:relative;isolation:isolate}
+.rough::before{content:"";position:absolute;inset:0;z-index:-1;border:2px solid var(--line);border-radius:14px 10px 16px 9px/10px 16px 9px 14px;background:var(--fill,transparent);filter:url(#rough)}
+.hl{--hl:var(--yellow);background:no-repeat 0 62%/100% 74% url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 40' preserveAspectRatio='none'%3E%3Cpath d='M9 9 C5 10 2 14 4 18 C2 22 3 27 7 30 C5 33 8 36 13 35 C60 37 120 33 188 36 C195 36 199 32 196 28 C199 24 198 19 195 16 C198 12 196 7 189 7 C130 5 70 7 9 9 Z' fill='%23FFD60A' fill-opacity='.7'/%3E%3Cpath d='M16 14 C60 12 110 15 184 12' stroke='%23FFD60A' stroke-opacity='0.34' stroke-width='3.2' stroke-linecap='round' fill='none'/%3E%3Cpath d='M12 24 C70 26 120 22 160 25' stroke='%23FFD60A' stroke-opacity='0.18' stroke-width='1.6' stroke-linecap='round' fill='none'/%3E%3Cpath d='M30 31 C90 33 150 29 186 31' stroke='%23FFD60A' stroke-opacity='0.24' stroke-width='2.4' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");padding:0 .08em;margin:0 -.04em;transition:background-size .9s var(--ease-out) .25s}
+.hl.pink{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 40' preserveAspectRatio='none'%3E%3Cpath d='M12 7 C6 8 3 12 5 16 C1 20 4 26 6 29 C3 33 7 37 14 36 C70 34 130 37 186 34 C194 35 198 31 195 27 C199 23 196 17 197 14 C199 9 193 5 186 6 C130 8 70 5 12 7 Z' fill='%23FF6FB0' fill-opacity='.7'/%3E%3Cpath d='M18 12 C80 14 130 10 182 13' stroke='%23FF6FB0' stroke-opacity='0.26' stroke-width='2.2' stroke-linecap='round' fill='none'/%3E%3Cpath d='M14 22 C60 20 140 24 188 21' stroke='%23FF6FB0' stroke-opacity='0.32' stroke-width='3.4' stroke-linecap='round' fill='none'/%3E%3Cpath d='M24 30 C70 32 110 30 150 32' stroke='%23FF6FB0' stroke-opacity='0.18' stroke-width='1.6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E")}
+.hl.teal{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 40' preserveAspectRatio='none'%3E%3Cpath d='M7 10 C3 13 4 17 6 20 C3 24 5 30 9 32 C8 36 12 37 16 35 C80 36 140 34 190 35 C197 34 198 29 195 26 C198 21 199 16 194 13 C197 9 192 6 186 8 C120 6 60 8 7 10 Z' fill='%233FD9C2' fill-opacity='.7'/%3E%3Cpath d='M14 16 C70 14 130 17 186 15' stroke='%233FD9C2' stroke-opacity='0.3' stroke-width='2.8' stroke-linecap='round' fill='none'/%3E%3Cpath d='M20 25 C80 27 120 24 178 27' stroke='%233FD9C2' stroke-opacity='0.22' stroke-width='2' stroke-linecap='round' fill='none'/%3E%3Cpath d='M10 31 C60 32 100 30 140 31' stroke='%233FD9C2' stroke-opacity='0.16' stroke-width='1.4' stroke-linecap='round' fill='none'/%3E%3C/svg%3E")}
+html.js .hl:not(.in){background-size:0% 74%}
+.squig{display:block;height:12px;width:min(260px,70%);margin-top:6px;background:no-repeat 0 0/100% 100% url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 260 12' preserveAspectRatio='none'%3E%3Cpath d='M2 8 C30 2 52 11 80 6 S130 2 160 7 S220 10 258 4' fill='none' stroke='%2322C9B3' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E")}
+html.js .squig:not(.in){clip-path:inset(0 100% 0 0)}
+.squig{clip-path:inset(0 0 0 0);transition:clip-path 1s var(--ease-out) .2s}
+.note{font:700 1.45rem/1.3 var(--hand);color:var(--teal-ink)}
+.note.pink{color:#B0236A}
+
+/* ---------- buttons ---------- */
+.btn{--fill:var(--yellow);position:relative;isolation:isolate;display:inline-flex;align-items:center;gap:12px;min-height:56px;padding:12px 26px;font:400 1.3rem/1 var(--mark);text-transform:uppercase;letter-spacing:.02em;color:var(--ink);text-decoration:none;border:0;background:none;cursor:pointer;transition:transform .25s var(--ease-out)}
+.btn::before{content:"";position:absolute;inset:0;z-index:-1;border:2.5px solid var(--ink);border-radius:12px 9px 14px 8px/9px 14px 8px 12px;background:var(--fill);filter:url(#rough)}
+.btn::after{content:"";position:absolute;inset:0;z-index:-2;transform:translate(5px,6px);border:2px solid var(--ink);border-radius:12px 9px 14px 8px/9px 14px 8px 12px;filter:url(#rough);transition:transform .25s var(--ease-out)}
+.btn:hover{transform:translate(-1px,-2px)}.btn:hover::after{transform:translate(7px,8px)}
+.btn:active{transform:translate(3px,4px)}.btn:active::after{transform:translate(1px,1px)}
+.btn svg{width:22px;height:22px;flex:none}
+.btn.ghost{--fill:#fff}
+.btn.small{min-height:44px;padding:8px 16px;font-size:1.05rem}
+.textlink{font:400 1.15rem/1.2 var(--mark);text-transform:uppercase;letter-spacing:.02em;text-decoration:none;display:inline-flex;align-items:center;gap:8px;padding:10px 2px;background:no-repeat 0 100%/100% 6px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 6' preserveAspectRatio='none'%3E%3Cpath d='M2 4 C60 1 140 5 198 2' fill='none' stroke='%2322C9B3' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E")}
+.textlink:hover{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 6' preserveAspectRatio='none'%3E%3Cpath d='M2 4 C60 1 140 5 198 2' fill='none' stroke='%23FF7AB6' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E")}
+.textlink svg{width:18px;height:18px}
+
+/* ---------- top bar ---------- */
+.top{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:18px;padding:14px var(--ele-room,170px) 12px var(--gut);background:linear-gradient(var(--paper) 72%,rgba(251,251,246,0))}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;font:400 1.25rem/1 var(--mark);text-transform:uppercase;white-space:nowrap}
+.brand small{font:700 1.2rem/1 var(--hand);color:var(--teal-ink);text-transform:none}
+.runhead{margin-left:auto;font:700 1.35rem/1 var(--hand);color:var(--ink-2);display:flex;align-items:center;gap:8px;min-width:0}
+.runhead b{font-weight:700;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:.25em}
+.runhead svg{width:26px;height:16px;flex:none}
+
+/* ---------- layout ---------- */
+.wrap{display:grid;grid-template-columns:minmax(0,1fr);padding:0 calc(var(--rope) + 8px) 0 var(--gut)}
+@media (min-width:1100px){.wrap{grid-template-columns:200px minmax(0,1fr);column-gap:clamp(32px,4vw,72px)}}
+.toc{display:none}
+@media (min-width:1100px){
+  .toc{display:block;position:sticky;top:84px;align-self:start;padding-top:28px}
+  .toc ol{list-style:none;margin:0;padding:0;counter-reset:t}
+  .toc li{counter-increment:t}
+  .toc a{display:flex;gap:10px;align-items:baseline;padding:7px 0;font:400 1.05rem/1.2 var(--mark);text-transform:uppercase;text-decoration:none;color:var(--ink-2)}
+  .toc a::before{content:counter(t);font:700 1.25rem/1 var(--hand);color:var(--ink-3);width:14px}
+  .toc a[aria-current="true"]{color:var(--ink)}
+  .toc a[aria-current="true"] span{background:no-repeat 0 70%/100% 60% url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 40' preserveAspectRatio='none'%3E%3Cpath d='M7 10 C3 13 4 17 6 20 C3 24 5 30 9 32 C8 36 12 37 16 35 C80 36 140 34 190 35 C197 34 198 29 195 26 C198 21 199 16 194 13 C197 9 192 6 186 8 C120 6 60 8 7 10 Z' fill='%233FD9C2' fill-opacity='.7'/%3E%3Cpath d='M14 16 C70 14 130 17 186 15' stroke='%233FD9C2' stroke-opacity='0.3' stroke-width='2.8' stroke-linecap='round' fill='none'/%3E%3Cpath d='M20 25 C80 27 120 24 178 27' stroke='%233FD9C2' stroke-opacity='0.22' stroke-width='2' stroke-linecap='round' fill='none'/%3E%3Cpath d='M10 31 C60 32 100 30 140 31' stroke='%233FD9C2' stroke-opacity='0.16' stroke-width='1.4' stroke-linecap='round' fill='none'/%3E%3C/svg%3E")}
+}
+main{min-width:0}
+section{padding:clamp(56px,9vw,112px) 0 0;scroll-margin-top:70px}
+h1,h2,h3{font-family:var(--mark);font-weight:400;text-transform:uppercase;line-height:1.02;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,6.2vw,4.9rem);letter-spacing:-.01em}
+h2{font-size:clamp(2rem,4.6vw,3.4rem)}
+h3{font-size:clamp(1.3rem,2vw,1.6rem);line-height:1.1}
+p{margin:0}
+.col{max-width:var(--col)}
+.lead{font-size:clamp(1.12rem,1.6vw,1.3rem);line-height:1.6;color:var(--ink-2);max-width:36rem}
+.sec-head{display:grid;gap:18px;margin-bottom:clamp(28px,4vw,44px)}
+.sec-head p{max-width:var(--col);color:var(--ink-2)}
+
+/* ---------- hero ---------- */
+.hero{display:grid;gap:clamp(32px,5vw,56px);padding-top:clamp(20px,4vw,48px);align-items:center}
+@media (min-width:900px){.hero{grid-template-columns:minmax(0,1.35fr) minmax(280px,.85fr)}}
+.hero-copy{display:grid;gap:26px;align-content:start}
+.hero .cta{display:flex;flex-wrap:wrap;align-items:center;gap:18px 28px;margin-top:6px}
+.hero .note{display:flex;align-items:flex-start;gap:8px;margin-top:-4px}
+.hero .note svg{width:58px;height:40px;flex:none;margin-top:-10px}
+.star{position:absolute;width:34px;height:34px}
+
+/* ---------- phone demo ---------- */
+.demo{position:relative;justify-self:center;width:min(300px,82vw);margin:0}
+.phone{position:relative;aspect-ratio:300/610;padding:16px 13px}
+.phone>svg.frame{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.screen{position:relative;height:100%;border-radius:22px;overflow:hidden;background:#fff;border:1.5px solid var(--ink)}
+.pp-bar{position:absolute;inset:0 0 auto;height:34px;background:#18181B;display:flex;align-items:center;justify-content:space-between;padding:0 9px;color:#E9E9EC;font:500 9.5px/1 var(--text);z-index:3}
+.pp-bar .ico{display:flex;gap:9px}
+.pp-bar .ico span{width:20px;height:20px;border-radius:5px;display:grid;place-items:center;transition:background .25s,box-shadow .25s}
+.pp-bar .ico svg{width:12px;height:12px}
+.pp-bar .zoom{padding:3px 6px;border-radius:5px;background:#2A2A30}
+.screen img{position:absolute;top:34px;left:0;width:100%;height:auto}
+.pin{position:absolute;left:58%;top:30%;width:26px;height:26px;margin:-13px 0 0 -13px;border-radius:50% 50% 50% 4px;background:var(--teal);color:#062C27;border:2px solid var(--ink);display:grid;place-items:center;font:700 12px/1 var(--text);z-index:4;transform:scale(0);transform-origin:0 100%}
+.bubble{position:absolute;left:9%;right:9%;top:38%;z-index:5;background:#fff;border:2px solid var(--ink);border-radius:12px;padding:10px 10px 8px;box-shadow:0 10px 24px -8px rgba(20,20,20,.35);font:400 12px/1.4 var(--text);opacity:0;transform:translateY(8px) scale(.96);transform-origin:50% 0}
+.bubble .who{font-weight:600;font-size:10.5px;color:var(--ink-3);margin-bottom:4px}
+.bubble .txt{min-height:34px;color:var(--ink)}
+.bubble .txt::after{content:"";display:inline-block;width:1.5px;height:13px;background:var(--ink);vertical-align:-2px;margin-left:1px;animation:caret 1s steps(1) infinite}
+.bubble .row{display:flex;justify-content:flex-end;gap:6px;margin-top:6px}
+.bubble .row span{font:600 10.5px/1 var(--text);padding:6px 10px;border-radius:6px;border:1.5px solid var(--ink)}
+.bubble .row .post{background:var(--teal);transition:transform .15s}
+@keyframes caret{50%{opacity:0}}
+.finger{position:absolute;z-index:6;width:46px;height:46px;left:70%;top:80%;pointer-events:none;transition:left .9s var(--ease-out),top .9s var(--ease-out),transform .2s}
+.finger.tap{transform:scale(.86)}
+.ripple{position:absolute;z-index:4;width:44px;height:44px;margin:-22px 0 0 -22px;border-radius:50%;border:2px solid var(--pink);opacity:0;pointer-events:none}
+.ripple.go{animation:rip .6s var(--ease-out)}
+@keyframes rip{from{opacity:1;transform:scale(.3)}to{opacity:0;transform:scale(1.4)}}
+.demo[data-stage="icon"] .pp-bar .c,.demo[data-stage="tap"] .pp-bar .c,.demo[data-stage="type"] .pp-bar .c,.demo[data-stage="post"] .pp-bar .c{background:var(--teal);color:#062C27}
+.demo[data-stage="tap"] .pin,.demo[data-stage="type"] .pin,.demo[data-stage="post"] .pin,.demo[data-stage="done"] .pin{transform:scale(1);transition:transform .45s var(--ease-out)}
+.demo[data-stage="type"] .bubble,.demo[data-stage="post"] .bubble{opacity:1;transform:none;transition:opacity .3s,transform .45s var(--ease-out)}
+.demo[data-stage="post"] .bubble .post{transform:scale(.92)}
+.screen img{transition:width .6s var(--ease-out),left .6s var(--ease-out)}
+.demo[data-stage="idle"] .screen,.demo[data-stage="zoom"] .screen,.demo[data-stage="pick"] .screen{background:#0B0B0C}
+.demo[data-stage="idle"] .screen img,.demo[data-stage="zoom"] .screen img,.demo[data-stage="pick"] .screen img{width:56%;left:22%}
+.zmenu{position:absolute;top:38px;right:6px;width:72%;z-index:5;background:#232327;border:1px solid #3A3A40;border-radius:8px;padding:4px;color:#E9E9EC;font:500 9px/1.2 var(--text);opacity:0;transform:translateY(-4px);transition:opacity .25s,transform .3s var(--ease-out);pointer-events:none}
+.zmenu span{display:flex;justify-content:space-between;gap:6px;padding:6px 6px;border-radius:5px}
+.zmenu .top{color:#B9B9C0}
+.zmenu .top b{color:#22C9B3;font-weight:600}
+.zmenu kbd{font-size:8px;border:1px solid #55555C;border-bottom-width:1px;background:none;color:#B9B9C0;min-width:0;padding:0 3px;border-radius:3px}
+.demo[data-stage="zoom"] .zmenu,.demo[data-stage="pick"] .zmenu{opacity:1;transform:none}
+.demo[data-stage="pick"] .zmenu .fill{background:#3A3A42}
+.demo[data-stage="zoom"] .pp-bar .zoom,.demo[data-stage="pick"] .pp-bar .zoom{background:var(--teal);color:#062C27}
+.demo figcaption{display:flex;justify-content:center;margin-top:14px}
+.demo figcaption .note{text-align:center;min-height:1.2em}
+.demo .tag{position:absolute;left:-18px;top:-14px;z-index:8;transform:rotate(-7deg);font:400 .95rem/1 var(--mark);text-transform:uppercase;padding:7px 12px;--fill:var(--pink-soft)}
+.demo .arrow-in{position:absolute;left:-74px;top:34%;width:78px;height:70px;display:none}
+@media (min-width:900px){.demo .arrow-in{display:block}}
+
+/* ---------- links ---------- */
+.lk{--fill:#fff;list-style:none;margin:0;padding:6px 22px}
+.lk li{display:grid;grid-template-columns:30px minmax(0,1fr) auto;gap:6px 16px;align-items:center;padding:14px 0}
+.lk li+li{border-top:2px dashed #C9C9BF}
+.lk li>svg{width:30px;height:30px}
+.lk p{margin:0;display:flex;flex-wrap:wrap;gap:2px 12px;align-items:baseline}
+.lk b{font:400 1.2rem/1.2 var(--mark);text-transform:uppercase}
+.lk p span{color:var(--ink-2);font-size:.98rem}
+.lk .go{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:flex-end}
+@media (max-width:759px){.lk{padding:4px 16px}.lk li{grid-template-columns:26px minmax(0,1fr)}.lk li>svg{width:26px;height:26px;align-self:start;margin-top:2px}.lk .go{grid-column:2;justify-content:flex-start;gap:0 18px}.lk .go .textlink{font-size:1.05rem;padding:6px 2px 8px}}
+.copy{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:6px 10px;border:0;background:none;font:700 1.25rem/1 var(--hand);color:var(--teal-ink);cursor:pointer;border-radius:8px}
+.copy svg{width:18px;height:18px}
+.copy:hover{background:var(--teal-soft)}
+.copy[data-done]{color:#B0236A}
+
+/* ---------- account ---------- */
+.acc{display:grid;gap:clamp(28px,4vw,48px)}
+@media (min-width:900px){.acc{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}}
+.acc-step{display:grid;gap:16px;align-content:start}
+.num{font:700 3.6rem/.8 var(--hand);color:var(--pink);display:block}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 14px}
+.tabs button{position:relative;isolation:isolate;min-height:44px;padding:8px 16px;border:0;background:none;font:400 1.05rem/1 var(--mark);text-transform:uppercase;cursor:pointer;color:var(--ink-2)}
+.tabs button::before{content:"";position:absolute;inset:0;z-index:-1;border:2px solid var(--ink);border-radius:10px 8px 12px 7px;filter:url(#rough);background:#fff}
+.tabs button[aria-selected="true"]{color:var(--ink)}
+.tabs button[aria-selected="true"]::before{background:var(--yellow)}
+.panel ol{margin:0;padding:0;list-style:none;counter-reset:s;display:grid;gap:10px}
+.panel li{counter-increment:s;display:grid;grid-template-columns:34px 1fr;gap:8px;align-items:baseline}
+.panel li::before{content:counter(s);font:700 1.6rem/1 var(--hand);color:var(--teal-ink)}
+.panel[hidden]{display:none}
+.shot{--fill:#fff;padding:10px;margin-top:6px}
+.shot img{border-radius:8px;border:1.5px solid var(--ink)}
+
+/* ---------- steps (comic panels) ---------- */
+.steps{display:grid;gap:22px;list-style:none;margin:0;padding:0;counter-reset:p}
+@media (min-width:760px){.steps{grid-template-columns:repeat(6,minmax(0,1fr))}.steps>li:nth-child(1),.steps>li:nth-child(4){grid-column:span 4}.steps>li:nth-child(2),.steps>li:nth-child(3){grid-column:span 2}.steps>li:nth-child(5),.steps>li:nth-child(6){grid-column:span 3}}
+.step{--fill:#fff;counter-increment:p;display:grid;gap:12px;padding:20px 20px 16px;align-content:start;transition:transform .4s var(--ease-out)}
+.step .hd{display:flex;align-items:center;gap:12px}
+.step .hd::before{content:counter(p);flex:none;width:40px;height:40px;display:grid;place-items:center;border-radius:50%;background:var(--teal);border:2px solid var(--ink);font:400 1.35rem/1 var(--mark)}
+.step p{color:var(--ink-2);font-size:1rem}
+.step .doodle{height:84px;display:flex;align-items:center}
+.step .doodle svg{height:100%;width:auto;max-width:100%;overflow:visible}
+.step .doodle.tall{height:auto}
+.step .doodle.tall svg{width:100%;max-width:300px;height:auto}
+.step .done{justify-self:start;display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:4px 8px 4px 4px;border:0;background:none;cursor:pointer;font:700 1.3rem/1 var(--hand);color:var(--ink-3);border-radius:8px}
+.step .done .box{width:26px;height:26px;flex:none}
+.step .done .box path.tick{stroke-dasharray:30;stroke-dashoffset:30;transition:stroke-dashoffset .4s var(--ease-out)}
+.step .done[aria-pressed="true"]{color:var(--teal-ink)}
+.step .done[aria-pressed="true"] .box path.tick{stroke-dashoffset:0}
+.step.is-done{--fill:#F2FBF9}
+.step .stamp{position:absolute;right:14px;top:12px;font:400 .95rem/1 var(--mark);text-transform:uppercase;color:#B0236A;border:2px solid #B0236A;border-radius:6px;padding:5px 8px;transform:rotate(8deg) scale(1.6);opacity:0;transition:transform .35s var(--ease-out),opacity .2s;pointer-events:none}
+.step.is-done .stamp{opacity:.9;transform:rotate(8deg) scale(1)}
+.path{margin:0;padding:0;list-style:none;counter-reset:p;display:grid;gap:8px;max-width:var(--col)}
+.path li{counter-increment:p;display:grid;grid-template-columns:30px 1fr;gap:6px;align-items:baseline}
+.path li::before{content:counter(p);font:700 1.8rem/1 var(--hand);color:#B0236A}
+.finish{--fill:#FFF6C4;padding:22px 24px;margin-top:34px;max-width:48rem;display:grid;gap:8px}
+.tip{display:flex;gap:14px;align-items:flex-start;margin-top:26px;max-width:var(--col)}
+.tip svg{width:46px;height:46px;flex:none}
+
+/* ---------- do / don't ---------- */
+.dd{display:grid;gap:22px}
+@media (min-width:860px){.dd{grid-template-columns:1.15fr .85fr}}
+.dd-col{--fill:#fff;padding:24px 24px 20px;display:grid;gap:14px;align-content:start}
+.dd-col.no{--fill:#F4F4EE}
+.dd-col h3{display:flex;align-items:center;gap:10px}
+.dd-col h3 svg{width:30px;height:30px}
+.dd-col ul{margin:0;padding:0;list-style:none;display:grid;gap:12px}
+.dd-col li{display:grid;grid-template-columns:24px 1fr;gap:10px;align-items:start}
+.dd-col li svg{width:22px;height:22px;margin-top:3px}
+.dd-col li b{font-weight:600}
+.dd-col li span{color:var(--ink-2)}
+
+/* ---------- dead links ---------- */
+.dead{display:flex;flex-wrap:wrap;gap:12px;list-style:none;margin:0;padding:0}
+.dead li{--fill:#fff;padding:10px 16px 10px 12px;display:flex;align-items:center;gap:10px;font-size:1rem}
+.dead li svg{width:22px;height:22px;flex:none}
+.dead-note{margin-top:22px;max-width:var(--col);color:var(--ink-2)}
+
+/* ---------- help ---------- */
+.faq{display:grid;gap:12px;max-width:48rem}
+.faq details{--fill:#fff;padding:0}
+.faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;font:400 1.15rem/1.25 var(--mark);text-transform:uppercase}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary svg{width:22px;height:22px;flex:none;transition:transform .3s var(--ease-out)}
+.faq details[open] summary svg{transform:rotate(45deg)}
+.faq .a{padding:0 20px 18px;color:var(--ink-2);max-width:var(--col)}
+
+
+.deep::after{content:"";position:absolute;inset:0;z-index:-2;transform:translate(8px,9px);border:2px solid var(--ink);border-radius:14px 10px 16px 9px/10px 16px 9px 14px;background:radial-gradient(circle at 1.5px 1.5px,#141414 1.1px,transparent 1.6px) 0 0/6px 6px;opacity:.85;filter:url(#rough)}
+.burst{position:relative;display:inline-flex}
+.burst>.ticks{position:absolute;right:-30px;top:-22px;width:34px;height:30px;pointer-events:none}
+.margin{display:flex;align-items:flex-end;gap:6px;font:700 1.4rem/1.3 var(--hand);color:#B0236A;margin:0}
+.margin svg{width:64px;height:48px;flex:none;overflow:visible}
+.margin.teal{color:var(--teal-ink)}
+.dd-col .margin{margin-top:6px}
+.dead-margin{margin-bottom:12px}
+.faq-note{margin:0 0 14px 8px}
+@media (max-width:759px){.burst>.ticks{right:auto;left:-12px;top:-24px;transform:scaleX(-1)}}
+
+/* ---------- footer ---------- */
+footer{margin-top:clamp(72px,10vw,128px);padding:28px 0 56px;border-top:2px dashed #C9C9BF;display:flex;flex-wrap:wrap;gap:12px 32px;align-items:baseline;justify-content:space-between;color:var(--ink-2);font-size:.95rem}
+
+/* ---------- elephant + rope ---------- */
+.ele{position:fixed;z-index:40;top:6px;right:10px;width:132px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.ele svg{width:100%;height:auto;overflow:visible;display:block}
+.ele-min path{stroke-width:1.6px;vector-effect:non-scaling-stroke}
+html.ele3 .ele{width:112px}
+.ele .ear{transform-box:fill-box;transform-origin:85% 15%}
+.ele.flap .ear{animation:flap .5s ease-in-out 3}
+@keyframes flap{50%{transform:rotate(-14deg)}}
+.ele .say{position:absolute;right:100%;top:30px;margin-right:6px;white-space:nowrap;font:700 1.3rem/1 var(--hand);color:#B0236A;opacity:0;transform:translateX(8px);transition:opacity .3s,transform .4s var(--ease-out);pointer-events:none}
+.ele.talk .say{opacity:1;transform:none}
+.rope{position:fixed;z-index:41;top:0;left:0;width:40px;margin-left:-20px;transform-origin:50% 0;touch-action:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.rope svg.line{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.knob{position:absolute;left:50%;top:0;width:30px;height:46px;margin-left:-15px;cursor:grab;touch-action:none;border-radius:16px}
+.knob svg{width:100%;height:100%;overflow:visible}
+.knob:active{cursor:grabbing}
+html.clean .only-joke,html:not(.clean) .only-clean{display:none}
+html.ele2 .ele.flap svg{transform-origin:60% 95%;animation:wig .5s ease-in-out 3}
+@keyframes wig{50%{transform:rotate(-4deg)}}
+html.ele2 .knob{border-radius:12px}
+
+@media (max-width:759px){
+  :root{--rope:46px;--col:100%;--ele-room:96px}
+  .ele{width:78px;top:4px;right:6px}
+  html.ele3 .ele{width:68px}
+  .ele-min path{stroke-width:1.4px}
+  .ele .say{font-size:1.1rem;top:20px}
+  .top{padding-top:12px}
+  .brand{font-size:1.05rem}.brand small{display:none}
+  .runhead{font-size:1.15rem}.runhead svg{display:none}
+  .knob{width:24px;height:38px;margin-left:-12px}
+}
+
+/* ---------- loader ---------- */
+.loader{position:fixed;inset:0;z-index:100;display:grid;place-items:center;background:var(--paper);transition:opacity .5s var(--ease-out),visibility .5s}
+.loader.gone{opacity:0;visibility:hidden}
+.loader div{display:grid;justify-items:center;gap:6px}
+.loader svg{width:min(260px,60vw);height:auto;overflow:visible}
+.loader svg path,.loader svg circle{stroke-dasharray:var(--len,400);stroke-dashoffset:var(--len,400);animation:draw 1.1s cubic-bezier(.45,.05,.35,1) forwards}
+.loader .note{font-size:1.6rem;color:var(--ink-2)}
+@keyframes draw{to{stroke-dashoffset:0}}
+html:not(.js) .loader{display:none}
+
+/* reveal: content is visible by default; only enhanced pages animate */
+html.js .rv{opacity:0;transform:translateY(18px)}
+html.js .rv.in{opacity:1;transform:none;transition:opacity .7s var(--ease-out),transform .9s var(--ease-out)}
+@media (prefers-reduced-motion:reduce){
+  html.js .rv,html.js .hl:not(.in),html.js .squig:not(.in){opacity:1;transform:none;background-size:100% 74%;clip-path:none}
+  .loader{display:none}
+  .finger{display:none}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <filter id="rough" x="-5%" y="-10%" width="110%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M3 12.5c5-.6 11-.4 17-.6M14 6.5c2 2 4.2 3.8 6.2 5.6-2.3 1.6-4.3 3.4-6 5.6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><path d="M8.5 7.5c0-1.6.6-2.6 2.2-2.6h7.6c1.4 0 2 .8 2 2.2v8.2c0 1.5-.8 2.3-2.2 2.3M4.6 9.8c0-1.5.8-2.3 2.2-2.3h7c1.6 0 2.3.7 2.3 2.2v8.4c0 1.4-.7 2.1-2.2 2.1H6.8c-1.5 0-2.2-.7-2.2-2.2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 36 36"><path d="M11 4.5c3.5-.4 10-.3 14 .2 1.6.2 2.2 1 2.3 2.6.3 7 .2 15 0 22-.1 1.6-.9 2.3-2.4 2.4-4 .2-9.5.3-13.5 0-1.6-.1-2.3-.9-2.4-2.5-.3-7-.3-15 0-22 .1-1.5.7-2.5 2-2.7z" fill="#fff" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M15 8h6M16.5 27.5h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-laptop" viewBox="0 0 36 36"><path d="M7 9.5c0-1.4.7-2 2-2.1 6-.3 12-.3 18 0 1.3.1 2 .8 2 2.2l.2 13H6.8z" fill="#fff" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M3.5 23.5c9.5-.3 19.5-.3 29 0-.4 2-1.4 3-3.4 3.1-7.5.3-14.8.3-22.2 0-2-.1-3-1.1-3.4-3.1z" fill="#fff" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 36 36"><path d="M5 10c0-1.5.8-2.3 2.3-2.4 7-.3 14.5-.3 21.5 0 1.5.1 2.2.9 2.2 2.4v15.5c0 1.6-.8 2.4-2.4 2.5-7 .2-14.3.2-21.3 0-1.6-.1-2.3-.9-2.3-2.5z" fill="#fff" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M6 10.5c4 3.5 8 6.3 12 8.4 4.2-2.2 8.2-5 12-8.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-gear" viewBox="0 0 36 36"><path d="M18 6.5l2 3.3 3.8-.9.6 3.9 3.6 1.4-1.6 3.6 2.2 3.2-3.4 1.9.1 3.9-3.9-.2-1.9 3.4-3.2-2.2-3.4 1.9-1.6-3.6-3.9-.6.9-3.8L6.5 18l3.3-2-.9-3.8 3.9-.6 1.5-3.6 3.6 1.6z" fill="#fff" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="18" cy="18" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-play" viewBox="0 0 36 36"><path d="M6.5 8c0-1.6.9-2.5 2.5-2.6 6-.3 12-.3 18 0 1.6.1 2.5 1 2.5 2.6v20c0 1.6-.9 2.5-2.5 2.6-6 .3-12 .3-18 0-1.6-.1-2.5-1-2.5-2.6z" fill="#fff" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M15 13c2.7 1.4 5.3 3 7.7 5-2.3 1.9-4.9 3.5-7.7 5z" fill="var(--yellow)" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-ok" viewBox="0 0 24 24"><path d="M4 12.8c2 1.6 3.6 3.4 5 5.4 3.3-5.4 6.8-9.5 11-12.6" fill="none" stroke="#0B7468" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-no" viewBox="0 0 24 24"><path d="M5.5 5.8c4.4 4 8.7 8.2 13 12.6M18.2 5.5c-4.5 4.2-8.7 8.5-12.6 13" fill="none" stroke="#B0236A" stroke-width="2.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4.5c.2 5 .1 10-.1 15M4.5 12.2c5-.3 10-.2 15 0" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-dead" viewBox="0 0 24 24"><path d="M9.5 14.5l5-5M8 11l-1.8 1.8c-1.6 1.7-1.6 3.8 0 5.3 1.5 1.5 3.6 1.5 5.2 0L13 16.5M16 13l1.8-1.8c1.6-1.6 1.6-3.8 0-5.3-1.5-1.5-3.6-1.5-5.2 0L11 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M3.5 3.8l17 16.4" stroke="#B0236A" stroke-width="2.2" stroke-linecap="round"/></symbol>
+</svg>
+
+<div class="loader" id="loader" aria-hidden="true"><div>
+  <svg viewBox="0 0 200 222" fill="none" stroke="#141414" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M184,74 C183,46 162,30 130,30 C112,30 100,31 90,34 C82,24 66,20 54,25 C44,29 34,24 28,10 C28,6 30,3 31,1 Q22,0 13,4 C15,6 17,9 18,12 C20,16 22,19 24,22 C30,36 38,46 48,54 C50,62 54,68 62,70 C68,72 72,76 74,80 L74,154 C74,157 76,159 79,159 L88,159 C91,159 92,157 92,154 L92,99 C110,102 132,101 148,94 C154,100 158,108 160,116 L160,154 C160,157 162,159 165,159 L177,159 C180,159 181,157 181,154 L182,112 C184,100 185,88 184,74 Z"/><path d="M90,36 C80,44 76,58 80,70 C84,80 96,82 106,76 C114,70 114,54 108,44 C104,38 97,35 90,36 Z"/><path d="M95,100 L95,154 C95,157 97,158 100,158 L105,158 C108,158 109,156 109,153 L108,102"/><path d="M184,76 C189,88 190,98 188,108"/><path transform="translate(149 95) rotate(3)" d="M-6,0 L-6,96.8 C-6,102.8 -10.5,104 -9.6,108.6 C-9,110.5 -3.6,110 -0.6,109 C2.4,110 6,109.8 6,104.6 L6,0"/>
+  </svg>
+</div></div>
+
+<header class="top">
+  <a class="brand" href="#start">1000 Islands <small>макет сайта</small></a>
+  <p class="runhead" aria-live="polite"><svg viewBox="0 0 26 16" aria-hidden="true"><path d="M2 9c6-1 13-1 20-.5M17 3.5c2 1.7 4 3.4 5.6 5-1.8 1.4-3.6 2.9-5.2 4.6" fill="none" stroke="#22C9B3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><b id="runhead">Начало</b></p>
+</header>
+
+<!-- the elephant: line drawing top right; its hanging line is the page scrollbar -->
+<div class="ele" id="ele" role="img" aria-label="Слон, нарисованный линией">
+  <span class="say" id="say">Готово, можно писать!</span>
+  <svg class="only-joke ele-min" viewBox="0 0 200 166" fill="#FBFBF6" stroke="#141414" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+    <path d="M95,96 L95,154 C95,157 97,158 100,158 L105,158 C108,158 109,156 109,153 L108,100 Z M139,94 L140,153 C140,157 142,158 145,158 L151,158 C154,158 155,156 155,153 L155,100 Z"/>
+    <path d="M184,74 C183,46 162,30 130,30 C112,30 100,31 90,34 C82,24 66,20 54,25 C44,29 34,24 28,10 C28,6 30,3 31,1 Q22,0 13,4 C15,6 17,9 18,12 C20,16 22,19 24,22 C30,36 38,46 48,54 C50,62 54,68 62,70 C68,72 72,76 74,80 L74,154 C74,157 76,159 79,159 L88,159 C91,159 92,157 92,154 L92,99 C110,102 132,101 148,94 C154,100 158,108 160,116 L160,154 C160,157 162,159 165,159 L177,159 C180,159 181,157 181,154 L182,112 C184,100 185,88 184,74 Z"/>
+    <path class="ear" d="M90,36 C80,44 76,58 80,70 C84,80 96,82 106,76 C114,70 114,54 108,44 C104,38 97,35 90,36 Z"/>
+    <path d="M184,76 C189,88 190,98 188,108 M188,108 l-3,6 M188,108 l0.5,7 M188,108 l4,5 M57,31 Q62,28 67,31 M49,57 C53,64 60,66 66,61 M29,32 l4,-2.4 M31,36.5 l4,-2.4 M78,159 q2,-3.6 4,0 M84,159 q2,-3.6 4,0 M165,159 q2,-3.6 4,0 M172,159 q2,-3.6 4,0 M100,158 q2,-3 4,0 M145,158 q2,-3 4,0" fill="none"/>
+    <circle cx="62" cy="39" r="2.4" fill="#141414" stroke="none"/>
+  </svg>
+  <svg class="only-clean" viewBox="0 0 170 120" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 86 C30 70 28 50 40 36 C54 20 84 16 104 22 C114 25 120 30 124 34" fill="#FBFBF6"/>
+    <path d="M118 30 C124 20 140 16 152 24 C160 30 162 42 158 52"/>
+    <g class="only-joke"><path d="M158 52 C160 60 166 64 166 72 C166 79 160 81 157 77 C155 74 158 71 160 73"/><path d="M150 56 C152 64 154 70 152 76"/></g>
+    <g class="only-clean"><path d="M158 52 C160 60 159 70 157 80"/><path d="M150 56 C151 66 151 74 149 80"/></g>
+    <path d="M146 58 C150 62 156 62 160 59"/>
+    <path class="ear" d="M124 34 C112 32 104 44 106 58 C108 70 122 74 130 64 C134 58 132 46 128 40" fill="#FFD3E6"/>
+    <circle cx="146" cy="36" r="2.2" fill="#141414" stroke="none"/><path d="M141 30 C144 28 148 28 151 30"/>
+    <path d="M128 66 L130 100 C134 102 140 102 144 100 L144 64"/><path d="M116 72 L116 96 C119 98 124 98 126 96"/>
+    <path d="M40 86 L42 104 C46 106 52 106 56 104 L57 88"/><path d="M60 92 L60 100 C63 102 68 102 70 100 L70 92"/>
+    <path d="M57 88 C70 94 96 94 116 80"/>
+    <path d="M34 52 C26 54 22 62 24 70"/><path d="M24 70 l-3 5 M24 70 l1 6 M24 70 l4 4"/>
+    <path d="M133 100 v-3 M138 101 v-3 M45 104 v-3 M50 104 v-3"/>
+  </svg>
+</div>
+<div class="rope" id="rope" aria-hidden="false">
+  <svg class="line" id="ropeLine" preserveAspectRatio="none"><path id="ropePath" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round"/></svg>
+  <div class="knob" id="knob" role="scrollbar" tabindex="0" aria-controls="main" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Прокрутка страницы">
+    <svg viewBox="0 0 30 46"><path d="M15 2.5c7.5 0 12 4.5 12 11.5v18c0 7.2-5 11.6-12 11.6S3 39.2 3 32V14C3 7 7.6 2.5 15 2.5z" fill="#FF9CC8" stroke="#141414" stroke-width="2.4"/><path d="M9 14c0-3 2-5 5-5.6" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/><path d="M10 26h10M10 31h10" stroke="#141414" stroke-width="1.8" stroke-linecap="round" opacity=".55"/></svg>
+  </div>
+</div>
+
+<div class="wrap">
+  <nav class="toc" aria-label="Разделы">
+    <ol>
+      <li><a href="#start" data-sec="start"><span>Начало</span></a></li>
+      <li><a href="#links" data-sec="links"><span>Penpot</span></a></li>
+      <li><a href="#account" data-sec="account"><span>Аккаунт</span></a></li>
+      <li><a href="#comment" data-sec="comment"><span>Правки</span></a></li>
+      <li><a href="#what" data-sec="what"><span>О чём писать</span></a></li>
+      <li><a href="#dead" data-sec="dead"><span>Не кликается</span></a></li>
+      <li><a href="#help" data-sec="help"><span>Если не так</span></a></li>
+    </ol>
+  </nav>
+
+  <main id="main">
+    <section id="start" class="hero" data-name="Начало">
+      <div class="hero-copy">
+        <h1>Как смотреть макет и оставлять <span class="hl">правки</span></h1>
+        <p class="lead">Это черновик будущего сайта 1000 Islands Travel, пока без цвета и фото. Посмотри его и напиши, что поменять. Вот и всё.</p>
+        <ol class="path">
+          <li><span>Посмотри сайт: кнопка ниже открывает его в браузере, и всё нажимается как на настоящем.</span></li>
+          <li><span>Заведи бесплатный аккаунт в Penpot, <a href="#account">это минута</a>.</span></li>
+          <li><span>Открой <a href="#links">макет в Penpot</a> и оставь правки прямо на экранах.</span></li>
+        </ol>
+        <div class="cta">
+          <span class="burst"><a class="btn" id="openMain" href="https://islands-1000-prototype.pages.dev/home" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-play"/></svg>Открыть сайт</a><svg class="ticks" viewBox="0 0 34 30" aria-hidden="true"><path d="M6 22 L13 15 M13 26 L22 22 M10 8 L14 3" stroke="#141414" stroke-width="2.6" stroke-linecap="round"/><path d="M26 6 l1.5 4.5 4.5 1.5 -4.5 1.5 -1.5 4.5 -1.5 -4.5 -4.5 -1.5 4.5 -1.5z" fill="#FF7AB6" stroke="#141414" stroke-width="1.4" stroke-linejoin="round"/></svg></span>
+          <button class="copy" type="button" id="copyMain" data-copy="https://islands-1000-prototype.pages.dev/home"><svg aria-hidden="true"><use href="#i-copy"/></svg><span>скопировать ссылку</span></button>
+        </div>
+      </div>
+
+      <figure class="demo rv" id="demo" data-stage="type" aria-label="Пример: так в Penpot подгоняют экран и оставляют комментарий">
+        <span class="tag rough">так это выглядит</span>
+        <svg class="arrow-in" viewBox="0 0 78 70" aria-hidden="true"><path d="M4 8c22-4 46 8 58 40M62 48c-6-2-11-2-16 0M62 48c1-6 0-11-3-15" fill="none" stroke="#FF7AB6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="phone">
+          <svg class="frame" viewBox="0 0 300 610" preserveAspectRatio="none" aria-hidden="true"><path d="M44 3C100 1 204 1 258 4c24 1 38 15 39 40 2 170 2 352 0 522-1 25-15 40-40 41-56 2-158 2-214 0C18 606 4 592 3 567 1 397 1 214 3 44 4 19 19 4 44 3z" fill="#fff" stroke="#141414" stroke-width="3" stroke-linejoin="round"/><path d="M118 10c22-1 44-1 64 0" stroke="#141414" stroke-width="3" stroke-linecap="round"/></svg>
+          <div class="screen">
+            <div class="pp-bar" aria-hidden="true">
+              <span>01 Home · Mobile</span>
+              <span class="ico"><span><svg viewBox="0 0 12 12"><path d="M3 2l7 4-7 4z" fill="currentColor"/></svg></span><span class="c"><svg viewBox="0 0 12 12"><path d="M2 3c0-1 .6-1.5 1.5-1.5h5C9.4 1.5 10 2 10 3v4c0 1-.6 1.5-1.5 1.5H5L2.5 10.5V8.4C2.2 8.2 2 7.8 2 7z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></span><span><svg viewBox="0 0 12 12"><path d="M4 3L1.5 6 4 9M8 3l2.5 3L8 9" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></span></span>
+              <span class="zoom">100%</span>
+            </div>
+            <div class="zmenu" aria-hidden="true"><span class="top">−&nbsp; 100% &nbsp;+ <b>Reset</b></span><span>Fit - Scale down to fit <kbd>F</kbd></span><span class="fill">Fill - Scale to fill <kbd>F</kbd></span><span>Full screen <kbd>Shift F</kbd></span></div>
+            <img src="img/home-phone.webp" width="780" height="1688" alt="Первый экран главной страницы в макете" loading="eager">
+            <span class="pin" aria-hidden="true">1</span>
+            <span class="ripple" id="ripple" aria-hidden="true"></span>
+            <div class="bubble" aria-hidden="true"><div class="who">Ты · сейчас</div><div class="txt" id="typed">Этот блок поднять выше, сразу под первый экран</div><div class="row"><span>Cancel</span><span class="post">Post</span></div></div>
+          </div>
+          <svg class="finger" id="finger" viewBox="0 0 46 46" aria-hidden="true"><path d="M17 40c-3-4-7-8-9-12-1-2 1-4 3-3l4 3V9c0-2 1.4-3.2 3-3.2S21 7 21 9v10c0-2 1.3-3 2.8-3s2.7 1 2.7 3v1.5c0-1.8 1.2-2.8 2.7-2.8s2.6 1 2.6 2.8V23c.2-1.6 1.4-2.4 2.6-2.4 1.6 0 2.6 1.2 2.6 3v7c0 5-3 9.5-8 9.5z" fill="#fff" stroke="#141414" stroke-width="2.2" stroke-linejoin="round"/></svg>
+        </div>
+        <figcaption><span class="note" id="demoCap">смотри, как оставить правку</span></figcaption>
+      </figure>
+    </section>
+
+    <section id="links" data-name="Penpot">
+      <div class="sec-head rv">
+        <h2>Макет в <span class="hl teal">Penpot</span></h2>
+        <p>Правки пишем не на самом сайте, а в Penpot. Это бесплатная программа прямо в браузере: в ней тот же сайт, только на нём можно оставлять комментарии. <strong class="hl pink">Для комментариев нужен бесплатный аккаунт</strong>, кнопка для него ниже. Начни с сайта, остальное можно посмотреть потом.</p>
+      </div>
+      <ul class="lk rough rv">
+        <li><svg aria-hidden="true"><use href="#i-laptop"/></svg><p><b>Сайт</b><span>Все страницы. Начни отсюда</span></p><span class="go"><a class="textlink" href="https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&amp;page-id=998cb9f0-5ded-8044-8008-bce251986e65&amp;share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&amp;section=interactions&amp;index=0" target="_blank" rel="noopener">телефон <svg aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="textlink" href="https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&amp;page-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ad&amp;share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&amp;section=interactions&amp;index=0" target="_blank" rel="noopener">компьютер <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></span></li>
+        <li><svg aria-hidden="true"><use href="#i-mail"/></svg><p><b>Письма</b><span>Что клиент получит на почту после заявки</span></p><span class="go"><a class="textlink" href="https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&amp;page-id=998cb9f0-5ded-8044-8008-bce2552ae348&amp;share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&amp;section=interactions&amp;index=0" target="_blank" rel="noopener">Открыть <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></span></li>
+        <li><svg aria-hidden="true"><use href="#i-gear"/></svg><p><b>Админка</b><span>Твоя панель управления: заявки, отзывы, фото, цены</span></p><span class="go"><a class="textlink" href="https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&amp;page-id=998cb9f0-5ded-8044-8008-bce2565ba647&amp;share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&amp;section=interactions&amp;index=0" target="_blank" rel="noopener">Открыть <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></span></li>
+      </ul>
+    </section>
+
+    <section id="account" data-name="Аккаунт">
+      <div class="sec-head rv">
+        <h2>Аккаунт <span class="hl pink">Penpot</span></h2>
+        <p>Смотреть макет можно и без аккаунта, а писать правки только из него. Аккаунт бесплатный.</p>
+      </div>
+      <div class="acc">
+        <div class="acc-step rv">
+          <span class="num" aria-hidden="true">1</span>
+          <h3>Создай аккаунт</h3>
+          <p class="col">Бесплатно, через Google или почту.</p>
+          <div><span class="burst"><a class="btn" href="https://design.penpot.app/#/auth/register" target="_blank" rel="noopener">Создать аккаунт <svg aria-hidden="true"><use href="#i-arrow"/></svg></a><svg class="ticks" viewBox="0 0 34 30" aria-hidden="true"><path d="M6 22 L13 15 M13 26 L22 22 M10 8 L14 3" stroke="#141414" stroke-width="2.6" stroke-linecap="round"/><path d="M26 6 l1.5 4.5 4.5 1.5 -4.5 1.5 -1.5 4.5 -1.5 -4.5 -4.5 -1.5 4.5 -1.5z" fill="#FF7AB6" stroke="#141414" stroke-width="1.4" stroke-linejoin="round"/></svg></span></div>
+          
+        </div>
+        <div class="acc-step rv">
+          <span class="num" aria-hidden="true">2</span>
+          <h3>По желанию: иконка на экране</h3>
+          <p class="col">Чтобы открывать макет в одно касание, как приложение.</p>
+          <div class="tabs" role="tablist" aria-label="Устройство">
+            <button role="tab" id="tab-ios" aria-controls="p-ios" aria-selected="true">iPhone</button>
+            <button role="tab" id="tab-and" aria-controls="p-and" aria-selected="false" tabindex="-1">Android</button>
+            <button role="tab" id="tab-pc" aria-controls="p-pc" aria-selected="false" tabindex="-1">Компьютер</button>
+          </div>
+          <div class="panel" id="p-ios" role="tabpanel" aria-labelledby="tab-ios">
+            <ol><li><span>Открой ссылку на макет в Safari.</span></li><li><span>Нажми «Поделиться», это квадрат со стрелкой вверх.</span></li><li><span>Выбери «На экран „Домой“».</span></li><li><span>Нажми «Добавить».</span></li></ol>
+          </div>
+          <div class="panel" id="p-and" role="tabpanel" aria-labelledby="tab-and" hidden>
+            <ol><li><span>Открой ссылку на макет в Chrome.</span></li><li><span>Нажми три точки вверху справа.</span></li><li><span>Выбери «Добавить на главный экран».</span></li><li><span>Нажми «Добавить».</span></li></ol>
+          </div>
+          <div class="panel" id="p-pc" role="tabpanel" aria-labelledby="tab-pc" hidden>
+            <ol><li><span>Открой ссылку на макет.</span></li><li><span>Нажми <kbd>Ctrl</kbd> + <kbd>D</kbd>, на Mac <kbd>Cmd</kbd> + <kbd>D</kbd>.</span></li><li><span>Сохрани в закладки.</span></li></ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comment" data-name="Правки">
+      <div class="sec-head rv">
+        <h2>Как оставить <span class="hl">правку</span></h2>
+        <p>Шесть шагов по порядку. Отмечай галочкой пройденные, страница запомнит. Можно в несколько заходов: комментарии сохраняются.</p>
+        <span class="squig" aria-hidden="true"></span>
+      </div>
+      <ol class="steps">
+        <li class="step rough deep rv" id="s1">
+          <span class="stamp" aria-hidden="true">готово</span>
+          <div class="hd"><h3>Открой макет</h3></div>
+          <div class="doodle" aria-hidden="true"><svg viewBox="0 0 240 84"><rect x="6" y="10" width="92" height="64" rx="8" fill="#fff" stroke="#141414" stroke-width="2.2"/><path d="M18 26h50M18 38h66M18 50h40" stroke="#C9C9BF" stroke-width="5" stroke-linecap="round"/><path d="M106 42c22-10 44-10 64 0M160 32l10 10-11 9" fill="none" stroke="#FF7AB6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="180" y="18" width="52" height="40" rx="10" fill="#FFE14D" stroke="#141414" stroke-width="2.2"/><text x="206" y="44" text-anchor="middle" font-family="Pangolin" font-size="15">START</text></svg></div>
+          <p>Открой <a href="https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&amp;page-id=998cb9f0-5ded-8044-8008-bce251986e65&amp;share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&amp;section=interactions&amp;index=0" target="_blank" rel="noopener">макет для телефона</a> или <a href="https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&amp;page-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ad&amp;share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&amp;section=interactions&amp;index=0" target="_blank" rel="noopener">для компьютера</a>. Сначала будет обложка с картинками всех экранов. Нажми <b>Start</b> или любую картинку.</p>
+          <button class="done" type="button" aria-pressed="false"><svg class="box" viewBox="0 0 26 26" aria-hidden="true"><path d="M4 5c6-1 12-1 18 0 1 6 1 12 0 17-6 1-12 1-18 0-1-6-1-11 0-17z" fill="#fff" stroke="#141414" stroke-width="2"/><path class="tick" d="M7 13.5l4 4.2 8-10" fill="none" stroke="#0B7468" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>сделал</button>
+        </li>
+        <li class="step rough rv" id="s2">
+          <span class="stamp" aria-hidden="true">готово</span>
+          <div class="hd"><h3>Подгони экран</h3></div>
+          <div class="doodle tall" aria-hidden="true"><svg viewBox="0 0 270 160"><rect x="2" y="4" width="266" height="36" rx="9" fill="#18181B"/><text x="14" y="27" font-family="Golos Text, sans-serif" font-size="12" fill="#E9E9EC">01 Home · Mobile</text><rect x="200" y="11" width="58" height="22" rx="6" fill="#22C9B3" stroke="#141414" stroke-width="2"/><text x="229" y="26.5" text-anchor="middle" font-family="Golos Text, sans-serif" font-size="12" font-weight="600" fill="#062C27">100%</text><ellipse cx="229" cy="22" rx="38" ry="22" fill="none" stroke="#FF7AB6" stroke-width="2.4" stroke-dasharray="4 4"/><path d="M226 46c-2 6-3 10-3 14M216 54l7 7 7-8" fill="none" stroke="#FF7AB6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="40" y="66" width="228" height="92" rx="10" fill="#232327"/><text x="54" y="88" font-family="Golos Text, sans-serif" font-size="13" fill="#B9B9C0">Fit - Scale down to fit</text><rect x="46" y="98" width="216" height="28" rx="6" fill="#22C9B3" stroke="#141414" stroke-width="2"/><text x="56" y="117" font-family="Golos Text, sans-serif" font-size="13.5" font-weight="700" fill="#062C27">Fill - Scale to fill</text><text x="54" y="146" font-family="Golos Text, sans-serif" font-size="13" fill="#B9B9C0">Full screen</text></svg></div>
+          <p>Если экран мелкий или не помещается, нажми «100%» вверху справа. Откроется меню: выбери в нём строку <b>Fill - Scale to fill</b>, и экран растянется по ширине. Это нужно сделать один раз. Строка ниже, <b>Full screen</b>, разворачивает макет на весь экран.</p>
+          <button class="done" type="button" aria-pressed="false"><svg class="box" viewBox="0 0 26 26" aria-hidden="true"><path d="M4 5c6-1 12-1 18 0 1 6 1 12 0 17-6 1-12 1-18 0-1-6-1-11 0-17z" fill="#fff" stroke="#141414" stroke-width="2"/><path class="tick" d="M7 13.5l4 4.2 8-10" fill="none" stroke="#0B7468" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>сделал</button>
+        </li>
+        <li class="step rough rv" id="s3">
+          <span class="stamp" aria-hidden="true">готово</span>
+          <div class="hd"><h3>Листай</h3></div>
+          <p>Прокручивай вниз, как обычную страницу: страницы длинные. Стрелки по краям переключают экраны по порядку, на компьютере ещё клавиши <kbd>←</kbd> <kbd>→</kbd>. Кнопки и ссылки на экранах в Penpot специально не нажимаются, чтобы случайное касание никуда не уводило.</p>
+          <button class="done" type="button" aria-pressed="false"><svg class="box" viewBox="0 0 26 26" aria-hidden="true"><path d="M4 5c6-1 12-1 18 0 1 6 1 12 0 17-6 1-12 1-18 0-1-6-1-11 0-17z" fill="#fff" stroke="#141414" stroke-width="2"/><path class="tick" d="M7 13.5l4 4.2 8-10" fill="none" stroke="#0B7468" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>сделал</button>
+        </li>
+        <li class="step rough rv" id="s4">
+          <span class="stamp" aria-hidden="true">готово</span>
+          <div class="hd"><h3>Нажми значок комментария</h3></div>
+          <div class="doodle" aria-hidden="true"><svg viewBox="0 0 380 84"><rect x="4" y="14" width="250" height="46" rx="10" fill="#18181B"/><circle cx="104" cy="37" r="13" fill="#2A2A30"/><path d="M99 33l8 4-8 4z" fill="#E9E9EC"/><rect x="118" y="24" width="28" height="26" rx="7" fill="#22C9B3" stroke="#141414" stroke-width="2"/><path d="M124 31c0-1.2.7-1.8 1.8-1.8h12.4c1.1 0 1.8.6 1.8 1.8v8c0 1.2-.7 1.8-1.8 1.8h-8l-4.6 3.6v-3.6c-1-.2-1.6-.8-1.6-1.8z" fill="none" stroke="#062C27" stroke-width="2" stroke-linejoin="round"/><circle cx="166" cy="37" r="13" fill="#2A2A30"/><path d="M161 32l-4 5 4 5M171 32l4 5-4 5" fill="none" stroke="#E9E9EC" stroke-width="2" stroke-linecap="round"/><path d="M268 66 C236 78 182 74 152 52 M152 52 C160 53 166 55 170 58 M152 52 C154 59 155 64 155 69" fill="none" stroke="#B0236A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><text x="272" y="72" font-family="Caveat" font-weight="700" font-size="26" fill="#B0236A" transform="rotate(-5 272 72)">вот оно!</text></svg></div>
+                    <p>Он похож на облачко и стоит вверху по центру. На компьютере можно нажать по очереди клавиши <kbd>G</kbd> и <kbd>C</kbd>. Если Penpot попросит войти, войди в свой аккаунт.</p>
+          <button class="done" type="button" aria-pressed="false"><svg class="box" viewBox="0 0 26 26" aria-hidden="true"><path d="M4 5c6-1 12-1 18 0 1 6 1 12 0 17-6 1-12 1-18 0-1-6-1-11 0-17z" fill="#fff" stroke="#141414" stroke-width="2"/><path class="tick" d="M7 13.5l4 4.2 8-10" fill="none" stroke="#0B7468" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>сделал</button>
+        </li>
+        <li class="step rough rv" id="s5">
+          <span class="stamp" aria-hidden="true">готово</span>
+          <div class="hd"><h3>Нажми на место и напиши</h3></div>
+          <p>Нажми прямо на тот кусок экрана, о котором хочешь сказать. Появится окошко: напиши правку, можно коротко, и нажми <b>Post</b>.</p>
+          <button class="done" type="button" aria-pressed="false"><svg class="box" viewBox="0 0 26 26" aria-hidden="true"><path d="M4 5c6-1 12-1 18 0 1 6 1 12 0 17-6 1-12 1-18 0-1-6-1-11 0-17z" fill="#fff" stroke="#141414" stroke-width="2"/><path class="tick" d="M7 13.5l4 4.2 8-10" fill="none" stroke="#0B7468" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>сделал</button>
+        </li>
+        <li class="step rough rv" id="s6">
+          <span class="stamp" aria-hidden="true">готово</span>
+          <div class="hd"><h3>Смотри ответы</h3></div>
+          <p>На месте правки появится кружок с номером. Нажми на него, чтобы прочитать мой ответ и ответить.</p>
+          <button class="done" type="button" aria-pressed="false"><svg class="box" viewBox="0 0 26 26" aria-hidden="true"><path d="M4 5c6-1 12-1 18 0 1 6 1 12 0 17-6 1-12 1-18 0-1-6-1-11 0-17z" fill="#fff" stroke="#141414" stroke-width="2"/><path class="tick" d="M7 13.5l4 4.2 8-10" fill="none" stroke="#0B7468" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>сделал</button>
+        </li>
+      </ol>
+      <div class="tip rv">
+        <svg viewBox="0 0 46 46" aria-hidden="true"><path d="M23 5c9 0 15 6 15 14 0 6-4 9-6 12-1 2-1 4-1 5H15c0-1 0-3-1-5-2-3-6-6-6-12 0-8 6-14 15-14z" fill="#FFE14D" stroke="#141414" stroke-width="2.2" stroke-linejoin="round"/><path d="M17 40h12M19 44h8" stroke="#141414" stroke-width="2.2" stroke-linecap="round"/></svg>
+        <p><b>Одна правка, один комментарий.</b> Так каждая правка получит свой номер, и ни одна не потеряется. Ошибся? Открой свой кружок: в нём можно изменить или удалить текст.</p>
+      </div>
+    </section>
+
+    <section id="what" data-name="О чём писать">
+      <div class="sec-head rv">
+        <h2>О чём писать <span class="hl teal">сейчас</span></h2>
+        <p>Это первый этап: договариваемся, из чего состоит сайт. Страница собрана из блоков, это куски со своей темой, например отзывы или цены. У каждого блока на макете есть подпись с номером вроде «01 · Hero», на неё можно ссылаться. Красоту обсуждаем потом, на макете с цветом и фото.</p>
+      </div>
+      <div class="dd">
+        <div class="dd-col rough deep rv">
+          <h3><svg aria-hidden="true"><use href="#i-ok"/></svg>Пиши</h3>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><span><b>Чего не хватает и что лишнее.</b> Страницы, блоки, пункты меню.</span></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><span><b>Порядок блоков.</b> Что поднять выше, что убрать вниз.</span></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><span><b>Куда ведут кнопки.</b> Если кнопка ведёт не туда, куда ты ждал.</span></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><span><b>Названия.</b> Разделы, кнопки, уровни поездок.</span></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><span><b>Телефон.</b> Удобно ли листать, видно ли главное.</span></li>
+          </ul>
+        </div>
+        <div class="dd-col no rough rv">
+          <h3><svg aria-hidden="true"><use href="#i-no"/></svg>Пока не надо</h3>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#i-no"/></svg><span><b>Цвета и шрифты.</b> Макет серый нарочно.</span></li>
+            <li><svg aria-hidden="true"><use href="#i-no"/></svg><span><b>Фото и видео.</b> На серых плашках подписано, что там будет.</span></li>
+            <li><svg aria-hidden="true"><use href="#i-no"/></svg><span><b>Тексты.</b> Серые полосы заменяют абзацы.</span></li>
+            <li><svg aria-hidden="true"><use href="#i-no"/></svg><span><b>Цены и цифры.</b> $X,XXX и рейтинг стоят для примера.</span></li>
+          </ul>
+          <p class="margin teal"><svg viewBox="0 0 64 48" aria-hidden="true"><path d="M6 40 C10 22 26 10 52 10 M52 10 C46 6 42 4 38 2 M52 10 C47 13 44 17 42 21" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>это всё на следующем этапе, обещаем</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="dead" data-name="Не кликается">
+      <div class="sec-head rv">
+        <h2>Не кликается <span class="hl pink">специально</span></h2>
+        <p>Это не поломка. В Penpot на экранах не нажимается ничего: там мы только смотрим и пишем правки. Ходить по сайту можно в живом прототипе, там работает всё, кроме кнопок ниже. Они заработают на настоящем сайте.</p>
+      </div>
+      <p class="margin dead-margin rv"><svg viewBox="0 0 64 48" aria-hidden="true"><path d="M58 4 C40 6 22 18 14 40 M14 40 C12 34 12 30 13 26 M14 40 C19 37 23 35 27 34" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>нажал, а ничего? так и задумано</p>
+      <ul class="dead rv">
+        <li class="rough"><svg aria-hidden="true"><use href="#i-dead"/></svg>WhatsApp, почта, Instagram</li>
+        <li class="rough"><svg aria-hidden="true"><use href="#i-dead"/></svg>«Read on Google» в отзывах</li>
+        <li class="rough"><svg aria-hidden="true"><use href="#i-dead"/></svg>«View all photos»</li>
+        <li class="rough"><svg aria-hidden="true"><use href="#i-dead"/></svg>Кнопки, которые листают к месту на той же странице</li>
+      </ul>
+      <p class="dead-note rv">Ползунок дней в Penpot застыл на 7 днях, а в вопросах-ответах раскрыт только первый вопрос. В живом прототипе всё это работает: двигай и раскрывай.</p>
+    </section>
+
+    <section id="help" data-name="Если не так">
+      <div class="sec-head rv">
+        <h2>Если что-то <span class="hl">не так</span></h2>
+      </div>
+      <p class="margin teal faq-note rv"><svg viewBox="0 0 64 48" aria-hidden="true"><path d="M58 4 C40 6 22 18 14 40 M14 40 C12 34 12 30 13 26 M14 40 C19 37 23 35 27 34" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>застрял? загляни сюда</p>
+      <div class="faq">
+        <details class="rough rv"><summary>Я что-нибудь сломаю?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p class="a">Нет. Ты только смотришь и пишешь комментарии, сам макет поменять нельзя.</p></details>
+        <details class="rough rv"><summary>Потерялся, не понимаю, где я<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p class="a">Нажми название экрана вверху слева: откроется список всех экранов. Или вернись на эту страницу и открой макет ещё раз.</p></details>
+        <details class="rough rv"><summary>Нет кнопки комментария<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p class="a">Скорее всего, ты не вошёл. Войди в аккаунт Penpot и открой ссылку на макет ещё раз.</p></details>
+        <details class="rough rv"><summary>Всё мелкое или листается вбок<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p class="a">Нажми «100%» вверху и выбери «Fill». На телефоне открывай <a href="https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&amp;page-id=998cb9f0-5ded-8044-8008-bce251986e65&amp;share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&amp;section=interactions&amp;index=0" target="_blank" rel="noopener">версию для телефона</a>: экраны для компьютера на нём всегда мелкие.</p></details>
+        <details class="rough rv"><summary>Белый экран<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p class="a">Подожди несколько секунд или обнови страницу. Первая загрузка Penpot бывает долгой, дальше быстрее.</p></details>
+        <details class="rough rv"><summary>Как указать на конкретный блок<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p class="a">Проще всего нажать на него в Penpot: комментарий прилипнет к этому месту. Ещё у каждого блока на макете есть подпись с номером вроде «01 · Hero», её можно написать в комментарии. Если пишешь словами, открой <a href="https://islands-1000-prototype.pages.dev/home?notes=1" target="_blank" rel="noopener">прототип с подписями блоков</a> и называй блок по подписи.</p></details>
+      </div>
+      <div class="finish rough rv">
+        <h3>Посмотрел? Напиши мне</h3>
+        <p>Напиши мне в обычный чат, что закончил. Спешить не нужно: возвращайся сколько угодно раз, все комментарии сохраняются.</p>
+      </div>
+    </section>
+
+    <footer>
+      <span>Макет v5 · 7 октября 2026 · 23 страницы, около 165 экранов</span>
+      <span class="note">слон одобряет</span>
+    </footer>
+  </main>
+</div>
+
+<script src="elephant.js"></script>
+<script>
+/* ?ele=a (ink), ?ele=c (riso) or ?ele=f (linocut): the new two-trunk elephant from elephant.js; without it the page keeps the old one */
+(function () {
+  var d = document, q = new URLSearchParams(location.search), key = { a: 'ink', c: 'riso', f: 'lino' }[(q.get('ele') || '').toLowerCase()];
+  if (!key || q.has('clean') || !window.Elephant) return;
+  var E = window.Elephant, take = E.byKey(key), VB = E.VB, ATT = E.ATT, ele = d.getElementById('ele');
+  d.documentElement.classList.add('ele2');
+  var cur = { size: 0, L: 0, c: null, m: null };
+  function body(size) {
+    var c = E.ctxFor(take, size, 100), p = E.parts(take, c);
+    ele.querySelector('svg').outerHTML = '<svg viewBox="' + VB.x + ' ' + VB.y + ' ' + VB.w + ' ' + VB.h + '" aria-hidden="true" focusable="false"><defs>' + p.defs + '</defs>' + p.body + '</svg>';
+    cur.size = size; cur.c = c; cur.L = 0;
+  }
+  function rope(L) {
+    var c = E.ctxFor(take, cur.size, L); c.id = cur.c.id;
+    var r = E.rng(99), g = E.trunkGeo(c), s = c.s;
+    var half = Math.max(c.W * 1.1, c.sw * 0.5) + 12 / s, kw = c.sw * 1.25, kh = c.sh * 1.25;
+    d.getElementById('ropeLine').outerHTML = '<svg class="line" id="ropeLine" viewBox="' + E.f1(-half) + ' 0 ' + E.f1(2 * half) + ' ' + E.f1(c.Lu) + '" preserveAspectRatio="none" aria-hidden="true">' + take.trunk(c, r, g, c.id) + '</svg>';
+    var knob = d.getElementById('knob');
+    knob.innerHTML = '<svg viewBox="' + E.f1(-kw / 2) + ' ' + E.f1(-kh / 2) + ' ' + E.f1(kw) + ' ' + E.f1(kh) + '" aria-hidden="true">' + take.slider(c, r, c.sw, c.sh, c.id) + '</svg>';
+    knob.style.width = (kw * s) + 'px'; knob.style.height = (kh * s) + 'px'; knob.style.marginLeft = (-kw * s / 2) + 'px';
+    cur.L = L; cur.m = { w: 2 * half * s, tip: 1.6 * c.W * s - (kh - c.sh) * s * 0.5 };
+  }
+  body(ele.getBoundingClientRect().width || 132);
+  window.__ele2 = {
+    rest: 4,
+    attach: function (rc) { var s = rc.width / VB.w; return [rc.left + (ATT[0] - VB.x) * s, rc.top + (ATT[1] - VB.y) * s]; },
+    draw: function (size, L) { if (Math.abs(size - cur.size) > 0.5) body(size); if (Math.abs(L - cur.L) > 1) rope(L); return cur.m; }
+  };
+  /* the loader draws the new outline */
+  var ld = d.querySelector('#loader svg');
+  if (ld) {
+    var g = E.trunkGeo({ W: E.TW, Lu: 520, lvl: 0, s: 0.2 });
+    ld.outerHTML = '<svg viewBox="' + VB.x + ' ' + VB.y + ' ' + VB.w + ' ' + (ATT[1] + 540 - VB.y) + '" fill="none" stroke="#141414" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">' +
+      E.LINES.filter(function (l) { return l[1] === 0; }).map(function (l) { return '<path d="' + l[0] + '"/>'; }).join('') +
+      '<g transform="translate(' + ATT[0] + ' ' + ATT[1] + ') rotate(4)"><path d="' + g.ink + '"/></g></svg>';
+  }
+})();
+</script>
+<script>
+/* default: the minimal line elephant (guide/elephants/minimal.html, take A); its second trunk is the scrollbar */
+(function () {
+  var d = document, q = new URLSearchParams(location.search);
+  if (q.has('clean') || window.__ele2) return;
+  d.documentElement.classList.add('ele3');
+  var VBW = 200, ATT = [149, 95], PAPER = '#FBFBF6', INK = '#141414';
+  function f1(v) { return Math.round(v * 10) / 10; }
+  function tube(W, L) {
+    var h = W / 2;
+    return 'M' + f1(-h) + ',0 L' + f1(-h) + ',' + f1(L - 1.1 * W) +
+      ' C' + f1(-h) + ',' + f1(L - 0.6 * W) + ' ' + f1(-1.75 * h) + ',' + f1(L - 0.5 * W) + ' ' + f1(-1.6 * h) + ',' + f1(L - 0.12 * W) +
+      ' C' + f1(-1.5 * h) + ',' + f1(L + 0.04 * W) + ' ' + f1(-0.6 * h) + ',' + f1(L) + ' ' + f1(-0.1 * h) + ',' + f1(L - 0.08 * W) +
+      ' C' + f1(0.4 * h) + ',' + f1(L) + ' ' + f1(h) + ',' + f1(L - 0.02 * W) + ' ' + f1(h) + ',' + f1(L - 0.45 * W) + ' L' + f1(h) + ',0';
+  }
+  function wrinkles(W, L, s) {
+    var out = [], gap = Math.max(2.6 * W, 46 / s), sp = Math.max(0.24 * W, 3.2 / s);
+    for (var y = W * 1.6; y < L - 2.2 * W; y += gap) for (var j = 0; j < 2; j++) {
+      var yy = y + j * sp; out.push('M' + f1(-0.3 * W) + ',' + f1(yy) + ' Q0,' + f1(yy + 0.14 * W) + ' ' + f1(0.3 * W) + ',' + f1(yy));
+    }
+    return out.join(' ');
+  }
+  function lip(W, L) { var h = W / 2; return 'M' + f1(-1.1 * h) + ',' + f1(L - 0.3 * W) + ' Q' + f1(-0.5 * h) + ',' + f1(L - 0.42 * W) + ' ' + f1(0.1 * h) + ',' + f1(L - 0.22 * W); }
+  function pill(w, h) { var r = Math.min(w, h) / 2; return 'M' + f1(-w / 2 + r) + ',' + f1(-h / 2) + ' H' + f1(w / 2 - r) + ' A' + f1(r) + ',' + f1(r) + ' 0 0 1 ' + f1(w / 2) + ',' + f1(-h / 2 + r) + ' V' + f1(h / 2 - r) + ' A' + f1(r) + ',' + f1(r) + ' 0 0 1 ' + f1(w / 2 - r) + ',' + f1(h / 2) + ' H' + f1(-w / 2 + r) + ' A' + f1(r) + ',' + f1(r) + ' 0 0 1 ' + f1(-w / 2) + ',' + f1(h / 2 - r) + ' V' + f1(-h / 2 + r) + ' A' + f1(r) + ',' + f1(r) + ' 0 0 1 ' + f1(-w / 2 + r) + ',' + f1(-h / 2) + 'Z'; }
+  function line(dd, w, col) { return '<path d="' + dd + '" fill="none" stroke="' + (col || INK) + '" stroke-width="' + f1(w) + '" stroke-linecap="round" stroke-linejoin="round"/>'; }
+  var cur = { size: 0, L: 0, m: null };
+  window.__ele2 = {
+    rest: 3,
+    attach: function (rc) { var s = rc.width / VBW; return [rc.left + ATT[0] * s, rc.top + ATT[1] * s]; },
+    draw: function (size, L) {
+      if (Math.abs(size - cur.size) <= 0.5 && Math.abs(L - cur.L) <= 1) return cur.m;
+      var s = size / VBW, W = Math.max(12, 6 / s), Lu = L / s, w = (size < 90 ? 1.4 : 1.6) / s, dd = tube(W, Lu);
+      var kw = Math.max(1.9 * W, 18 / s), kh = kw * 1.45, KW = Math.max(kw * 1.5, 30 / s), KH = Math.max(kh * 1.3, 40 / s);
+      var half = Math.max(W, KW / 2) + 8 / s;
+      d.getElementById('ropeLine').outerHTML = '<svg class="line" id="ropeLine" viewBox="' + f1(-half) + ' 0 ' + f1(2 * half) + ' ' + f1(Lu) + '" preserveAspectRatio="none" aria-hidden="true">' +
+        line(dd, w + 5 / s, PAPER) + '<path d="' + dd + 'Z" fill="' + PAPER + '"/>' + line(dd, w) + line(wrinkles(W, Lu, s) + ' ' + lip(W, Lu), w * 0.85) + '</svg>';
+      var knob = d.getElementById('knob');
+      knob.innerHTML = '<svg viewBox="' + f1(-KW / 2) + ' ' + f1(-KH / 2) + ' ' + f1(KW) + ' ' + f1(KH) + '" aria-hidden="true"><path d="' + pill(kw, kh) + '" fill="#FF9CC8" stroke="' + INK + '" stroke-width="' + f1(w) + '"/>' +
+        line('M' + f1(-kw / 2) + ',' + f1(-kh * 0.12) + ' H' + f1(kw / 2) + ' M' + f1(-kw / 2) + ',' + f1(kh * 0.12) + ' H' + f1(kw / 2), w * 0.8) + '</svg>';
+      knob.style.width = (KW * s) + 'px'; knob.style.height = (KH * s) + 'px'; knob.style.marginLeft = (-KW * s / 2) + 'px'; knob.style.borderRadius = '12px';
+      cur.size = size; cur.L = L; cur.m = { w: 2 * half * s, tip: 1.2 * W * s - (KH - kh) * s * 0.5 };
+      return cur.m;
+    }
+  };
+})();
+</script>
+<script>
+(function () {
+  var d = document, root = d.documentElement, q = new URLSearchParams(location.search);
+  root.classList.add('js');
+  if (q.has('clean')) root.classList.add('clean');
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var store = { get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+
+  /* loader: draw the elephant once per session */
+  var loader = d.getElementById('loader'), seen = false;
+  try { seen = sessionStorage.getItem('ele-drawn') === '1'; sessionStorage.setItem('ele-drawn', '1'); } catch (e) {}
+  if (reduce || seen) loader.remove();
+  else {
+    /* lines are drawn one after another, slowly enough to watch; a tap skips */
+    var lines = loader.querySelectorAll('svg path'), t = 0, end = 0, k = 1, plan = [];
+    lines.forEach(function (p) { var len = Math.ceil(p.getTotalLength()); plan.push([p, len, Math.max(0.7, Math.min(3.2, len / 200))]); });
+    plan.forEach(function (x) { t += x[2] * 0.8; }); if (t > 7) k = 7 / t; t = 0;
+    plan.forEach(function (x) {
+      var dur = x[2] * k; x[0].style.setProperty('--len', x[1]); x[0].style.animationDuration = dur + 's'; x[0].style.animationDelay = t + 's';
+      end = Math.max(end, t + dur); t += dur * 0.8;
+    });
+    var hide = function () { if (loader.classList.contains('gone')) return; loader.classList.add('gone'); setTimeout(function () { loader.remove(); }, 600); };
+    setTimeout(hide, (end + 0.8) * 1000);
+    loader.addEventListener('click', hide);
+  }
+
+  /* reveals, highlighter swipes, running head */
+  var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px' });
+  d.querySelectorAll('.rv,.hl,.squig').forEach(function (el) { io.observe(el); });
+  var head = d.getElementById('runhead'), tocLinks = d.querySelectorAll('.toc a');
+  var secs = Array.prototype.slice.call(d.querySelectorAll('main section'));
+  function current() {
+    var mid = innerHeight * 0.35, cur = secs[0];
+    secs.forEach(function (s) { if (s.getBoundingClientRect().top < mid) cur = s; });
+    if (head.textContent !== cur.dataset.name) head.textContent = cur.dataset.name;
+    tocLinks.forEach(function (a) { a.setAttribute('aria-current', a.dataset.sec === cur.id ? 'true' : 'false'); });
+  }
+
+  /* copy buttons */
+  d.querySelectorAll('[data-copy]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var t = b.getAttribute('data-copy'), lab = b.querySelector('span'), orig = b.dataset.label || (b.dataset.label = lab.textContent);
+      var ok = function () { lab.textContent = 'скопировано'; b.setAttribute('data-done', ''); setTimeout(function () { lab.textContent = orig; b.removeAttribute('data-done'); }, 1800); };
+      if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(t).then(ok, fallback); else fallback();
+      function fallback() { var ta = d.createElement('textarea'); ta.value = t; ta.style.position = 'fixed'; ta.style.opacity = '0'; d.body.appendChild(ta); ta.select(); try { d.execCommand('copy'); ok(); } catch (e) { lab.textContent = 'не вышло, попробуй ещё раз'; } ta.remove(); }
+    });
+  });
+
+  /* tabs */
+  var tabs = d.querySelectorAll('[role="tab"]');
+  function sel(t) { tabs.forEach(function (x) { var on = x === t; x.setAttribute('aria-selected', on); x.tabIndex = on ? 0 : -1; d.getElementById(x.getAttribute('aria-controls')).hidden = !on; }); }
+  tabs.forEach(function (t, i) {
+    t.addEventListener('click', function () { sel(t); });
+    t.addEventListener('keydown', function (e) { var n = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0; if (!n) return; var nx = tabs[(i + n + tabs.length) % tabs.length]; sel(nx); nx.focus(); e.preventDefault(); });
+  });
+  if (/Android/i.test(navigator.userAgent)) sel(d.getElementById('tab-and'));
+  else if (!/iPhone|iPad|iPod/i.test(navigator.userAgent) && matchMedia('(pointer:fine)').matches) sel(d.getElementById('tab-pc'));
+
+  /* steps: done marks, remembered */
+  var ele = d.getElementById('ele'), say = d.getElementById('say');
+  var done = {}; try { done = JSON.parse(store.get('guide-done') || '{}') || {}; } catch (e) {}
+  var steps = d.querySelectorAll('.step');
+  function paint(celebrate) {
+    var all = true;
+    steps.forEach(function (s) { var on = !!done[s.id]; s.classList.toggle('is-done', on); s.querySelector('.done').setAttribute('aria-pressed', on); if (!on) all = false; });
+    if (all && celebrate) { ele.classList.remove('flap'); void ele.offsetWidth; ele.classList.add('flap', 'talk'); setTimeout(function () { ele.classList.remove('talk'); }, 2600); }
+  }
+  /* the server copy wins: the marks follow the reader to any browser or device; this browser keeps a copy for offline */
+  var touched = false;
+  function save() { store.set('guide-done', JSON.stringify(done)); try { fetch('/api/done', { method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify(done), keepalive: true }).catch(function () {}); } catch (e) {} }
+  steps.forEach(function (s) { s.querySelector('.done').addEventListener('click', function () { touched = true; done[s.id] = !done[s.id]; if (!done[s.id]) delete done[s.id]; save(); paint(true); }); });
+  paint(false);
+  try { fetch('/api/done', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (srv) { if (!srv || typeof srv !== 'object' || touched) return; done = srv; store.set('guide-done', JSON.stringify(done)); paint(false); }).catch(function () {}); } catch (e) {}
+  ele.addEventListener('click', function () { ele.classList.remove('flap'); void ele.offsetWidth; ele.classList.add('flap'); kick(22); });
+
+  /* comment demo: the six moves of a Penpot comment, looping while visible */
+  var demo = d.getElementById('demo'), fin = d.getElementById('finger'), rip = d.getElementById('ripple'), typed = d.getElementById('typed'), cap = d.getElementById('demoCap');
+  var text = 'Этот блок поднять выше, сразу под первый экран', timers = [], running = false;
+  function at(ms, fn) { timers.push(setTimeout(fn, ms)); }
+  var phone = demo.querySelector('.phone'), screen = demo.querySelector('.screen');
+  var tZoom = demo.querySelector('.pp-bar .zoom'), tFill = demo.querySelector('.zmenu .fill');
+  var tIcon = demo.querySelector('.pp-bar .c'), tPin = demo.querySelector('.pin'), tPost = demo.querySelector('.bubble .post');
+  /* the fingertip sits at (19, 6) of the 46 px finger drawing; targets are measured live, in px from the phone's corner */
+  function spot(el, tail) { var p = phone.getBoundingClientRect(), r = el.getBoundingClientRect(); return tail ? [r.left - p.left, r.bottom - p.top] : [r.left - p.left + r.width / 2, r.top - p.top + r.height / 2]; }
+  function move(x, y) { fin.style.left = x + '%'; fin.style.top = y + '%'; }
+  function aim(pt) { var k = (parseFloat(getComputedStyle(fin).width) || 46) / 46; fin.style.left = (pt[0] - 19 * k) + 'px'; fin.style.top = (pt[1] - 6 * k) + 'px'; }
+  function tap(pt) {
+    var p = phone.getBoundingClientRect(), sc = screen.getBoundingClientRect();
+    fin.classList.add('tap'); setTimeout(function () { fin.classList.remove('tap'); }, 180);
+    rip.style.left = (pt[0] - (sc.left - p.left)) + 'px'; rip.style.top = (pt[1] - (sc.top - p.top)) + 'px'; rip.classList.remove('go'); void rip.offsetWidth; rip.classList.add('go');
+  }
+  function cycle() {
+    timers.forEach(clearTimeout); timers = []; typed.textContent = ''; demo.dataset.stage = 'idle'; move(72, 82); cap.textContent = 'смотри: подгоняем экран и пишем правку';
+    at(700, function () { aim(spot(tZoom)); cap.textContent = '1. жмём «100%» вверху'; });
+    at(1650, function () { tap(spot(tZoom)); demo.dataset.stage = 'zoom'; });
+    at(2400, function () { aim(spot(tFill)); cap.textContent = '2. выбираем Fill'; });
+    at(3350, function () { tap(spot(tFill)); demo.dataset.stage = 'pick'; });
+    at(3700, function () { demo.dataset.stage = 'fill'; cap.textContent = 'экран во всю ширину'; move(72, 82); });
+    var c = 3200;
+    at(c + 1700, function () { aim(spot(tIcon)); cap.textContent = '3. нажимаем облачко'; });
+    at(c + 2650, function () { tap(spot(tIcon)); demo.dataset.stage = 'icon'; });
+    at(c + 3500, function () { aim(spot(tPin, true)); cap.textContent = '4. тапаем по блоку'; });
+    at(c + 4450, function () { tap(spot(tPin, true)); demo.dataset.stage = 'tap'; });
+    at(c + 5100, function () { move(80, 86); demo.dataset.stage = 'type'; cap.textContent = '5. пишем правку'; });
+    for (var i = 1; i <= text.length; i++) (function (i) { at(c + 5300 + i * 45, function () { typed.textContent = text.slice(0, i); }); })(i);
+    var t = c + 5300 + text.length * 45 + 400;
+    at(t, function () { aim(spot(tPost)); cap.textContent = '6. жмём Post'; });
+    at(t + 900, function () { tap(spot(tPost)); demo.dataset.stage = 'post'; });
+    at(t + 1300, function () { demo.dataset.stage = 'done'; cap.textContent = 'готово: на макете кружок с номером'; move(72, 82); });
+    at(t + 4200, cycle);
+  }
+  if (reduce) { demo.dataset.stage = 'type'; typed.textContent = text; cap.textContent = '«100%» → Fill, облачко, тап по блоку, текст, Post'; }
+  else new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting && !running) { running = true; timers.push(setTimeout(cycle, 1600)); } else if (!e.isIntersecting && running) { running = false; timers.forEach(clearTimeout); } }); }, { threshold: 0.35 }).observe(demo);
+
+  /* the hanging line: scrollbar + pendulum */
+  var rope = d.getElementById('rope'), knob = d.getElementById('knob'), path = d.getElementById('ropePath'), svgLine = d.getElementById('ropeLine');
+  var VB = 170, ATTACH = { joke: [108, 86], clean: [155, 82] };
+  var L = 0, KH = 46, TIP = 0, theta = 0, omega = 0, lastY = scrollY, lastV = 0, raf = 0;
+  var E2 = window.__ele2, REST = E2 ? E2.rest : 0;
+  function layout() {
+    var r = ele.getBoundingClientRect(), x, y;
+    if (E2) {
+      var a = E2.attach(r); x = a[0]; y = a[1];
+      L = Math.max(120, innerHeight - y - 10);
+      var m = E2.draw(r.width, L); TIP = m.tip;
+      REST = Math.min(E2.rest, Math.atan(14 / L) * 57.3);   /* leans a little forward, the tip moves 14 px at most */
+      rope.style.width = m.w + 'px'; rope.style.marginLeft = (-m.w / 2) + 'px';
+      if (!raf) rope.style.transform = 'rotate(' + REST + 'deg)';
+    } else {
+      var s = r.width / VB, at = ATTACH[root.classList.contains('clean') ? 'clean' : 'joke'];
+      x = r.left + at[0] * s; y = r.top + at[1] * (r.height / 120);
+      L = Math.max(120, innerHeight - y - 10);
+      svgLine.setAttribute('viewBox', '0 0 40 ' + L);
+      var dpath = 'M20 0', yy = 0, k = 0;
+      while (yy < L - 4) { yy = Math.min(L - 4, yy + 46); k++; dpath += ' Q' + (20 + (k % 2 ? 2.2 : -2.2)) + ' ' + (yy - 23) + ' 20 ' + yy; }
+      path.setAttribute('d', dpath);
+    }
+    KH = knob.offsetHeight;
+    rope.style.left = x + 'px'; rope.style.top = y + 'px'; rope.style.height = L + 'px';
+    place();
+  }
+  function progress() { var m = d.documentElement.scrollHeight - innerHeight; return m > 0 ? Math.min(1, Math.max(0, scrollY / m)) : 0; }
+  function place() { var p = progress(); knob.style.transform = 'translateY(' + (p * Math.max(0, L - KH - TIP)) + 'px)'; knob.setAttribute('aria-valuenow', Math.round(p * 100)); }
+  function kick(v) { omega += v; if (!raf && !reduce) raf = requestAnimationFrame(step); }
+  var prevT = 0;
+  function step(t) {
+    var dt = prevT ? Math.min(0.033, (t - prevT) / 1000) : 0.016; prevT = t;
+    var K = 16, C = 1.25;
+    omega += (-K * theta - C * omega) * dt; theta += omega * dt;
+    rope.style.transform = 'rotate(' + (REST + theta).toFixed(3) + 'deg)';
+    if (Math.abs(theta) < 0.06 && Math.abs(omega) < 0.15) { theta = omega = 0; rope.style.transform = REST ? 'rotate(' + REST + 'deg)' : ''; raf = 0; prevT = 0; return; }
+    raf = requestAnimationFrame(step);
+  }
+  addEventListener('scroll', function () {
+    place(); current();
+    var v = scrollY - lastY; lastY = scrollY;
+    var acc = v - lastV; lastV = v;
+    if (Math.abs(acc) > 6) kick(Math.max(-14, Math.min(14, acc * 0.35)));
+  }, { passive: true });
+  addEventListener('resize', layout);
+  d.fonts && d.fonts.ready.then(layout);
+  addEventListener('load', layout);
+  layout(); current();
+
+  /* drag the knob to scroll; a plain tap on the line or knob sets it swinging */
+  var drag = null;
+  function onDown(e) {
+    var onKnob = knob.contains(e.target);
+    drag = { y0: e.clientY, x0: e.clientX, s0: scrollY, moved: false, knob: onKnob };
+    rope.setPointerCapture(e.pointerId);
+  }
+  rope.addEventListener('pointerdown', onDown);
+  rope.addEventListener('pointermove', function (e) {
+    if (!drag) return;
+    var dy = e.clientY - drag.y0;
+    if (!drag.moved && Math.abs(dy) + Math.abs(e.clientX - drag.x0) > 5) drag.moved = true;
+    if (drag.moved && drag.knob) { var m = d.documentElement.scrollHeight - innerHeight; scrollTo({ top: drag.s0 + dy / Math.max(1, L - KH) * m, behavior: 'instant' }); }
+  });
+  rope.addEventListener('pointerup', function (e) {
+    if (drag && !drag.moved) { var rr = rope.getBoundingClientRect(); kick(e.clientX < rr.left + rr.width / 2 ? 34 : -34); }
+    drag = null;
+  });
+  rope.addEventListener('pointercancel', function () { drag = null; });
+  knob.addEventListener('keydown', function (e) {
+    var step = { ArrowDown: 80, ArrowUp: -80, PageDown: innerHeight * 0.9, PageUp: -innerHeight * 0.9 }[e.key];
+    if (e.key === 'Home') { scrollTo({ top: 0 }); e.preventDefault(); return; }
+    if (e.key === 'End') { scrollTo({ top: d.documentElement.scrollHeight }); e.preventDefault(); return; }
+    if (e.key === 'Enter' || e.key === ' ') { kick(30); e.preventDefault(); return; }
+    if (step) { scrollBy({ top: step }); e.preventDefault(); }
+  });
+})();
+</script>
+</body>
+</html>

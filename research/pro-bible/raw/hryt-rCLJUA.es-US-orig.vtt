@@ -1,0 +1,1980 @@
+WEBVTT
+Kind: captions
+Language: es-US
+
+00:00:00.140 --> 00:00:01.896 align:start position:0%
+ 
+El<00:00:00.278><c> OWASP</c><00:00:00.556><c> Top</c><00:00:00.740><c> 10</c><00:00:00.879><c> se</c><00:00:01.018><c> ha</c><00:00:01.157><c> convertido</c><00:00:01.665><c> en</c><00:00:01.804><c> un</c>
+
+00:00:01.896 --> 00:00:01.942 align:start position:0%
+El OWASP Top 10 se ha convertido en un
+ 
+
+00:00:01.942 --> 00:00:03.607 align:start position:0%
+El OWASP Top 10 se ha convertido en un
+ estándar<00:00:02.405><c> de</c><00:00:02.543><c> seguridad</c><00:00:03.006><c> internacional</c>
+
+00:00:03.607 --> 00:00:03.653 align:start position:0%
+ estándar de seguridad internacional
+ 
+
+00:00:03.653 --> 00:00:05.456 align:start position:0%
+ estándar de seguridad internacional
+ utilizado<00:00:04.115><c> por</c><00:00:04.300><c> organizaciones</c><00:00:04.994><c> en</c><00:00:05.132><c> todo</c><00:00:05.363><c> el</c>
+
+00:00:05.456 --> 00:00:05.502 align:start position:0%
+ utilizado por organizaciones en todo el
+ 
+
+00:00:05.502 --> 00:00:07.846 align:start position:0%
+ utilizado por organizaciones en todo el
+ mundo<00:00:05.733><c>.</c><00:00:06.439><c> Pero</c><00:00:06.666><c> incluso</c><00:00:07.029><c> las</c><00:00:07.210><c> organizaciones</c>
+
+00:00:07.846 --> 00:00:07.891 align:start position:0%
+ mundo. Pero incluso las organizaciones
+ 
+
+00:00:07.891 --> 00:00:09.254 align:start position:0%
+ mundo. Pero incluso las organizaciones
+ que<00:00:08.073><c> usan</c><00:00:08.300><c> OWASP</c><00:00:08.573><c> terminan</c><00:00:08.981><c> siendo</c>
+
+00:00:09.254 --> 00:00:09.299 align:start position:0%
+ que usan OWASP terminan siendo
+ 
+
+00:00:09.299 --> 00:00:11.769 align:start position:0%
+ que usan OWASP terminan siendo
+ víctimas<00:00:09.753><c> de</c><00:00:09.889><c> ciberataques</c><00:00:10.434><c>.</c><00:00:11.199><c> Entonces</c><00:00:11.579><c>,</c><00:00:11.674><c> ¿</c>
+
+00:00:11.769 --> 00:00:13.241 align:start position:0%
+ víctimas de ciberataques. Entonces, ¿
+qué<00:00:12.006><c> es</c><00:00:12.149><c> el</c><00:00:12.291><c> OWASP</c><00:00:12.576><c> Top</c><00:00:12.766><c> 10</c><00:00:12.909><c> y</c><00:00:13.004><c> cómo</c>
+
+00:00:13.241 --> 00:00:13.289 align:start position:0%
+qué es el OWASP Top 10 y cómo
+ 
+
+00:00:13.289 --> 00:00:15.392 align:start position:0%
+qué es el OWASP Top 10 y cómo
+ debería<00:00:13.716><c> utilizarlo</c><00:00:14.191><c>?</c><00:00:14.740><c>¿</c><00:00:14.827><c>Qué</c><00:00:15.044><c> necesita</c>
+
+00:00:15.392 --> 00:00:15.436 align:start position:0%
+ debería utilizarlo?¿Qué necesita
+ 
+
+00:00:15.436 --> 00:00:16.871 align:start position:0%
+ debería utilizarlo?¿Qué necesita
+ saber<00:00:15.697><c> para</c><00:00:15.914><c> que</c><00:00:16.088><c> se</c><00:00:16.219><c> convierta</c><00:00:16.654><c> en</c><00:00:16.784><c> su</c>
+
+00:00:16.871 --> 00:00:16.915 align:start position:0%
+ saber para que se convierta en su
+ 
+
+00:00:16.915 --> 00:00:35.778 align:start position:0%
+ saber para que se convierta en su
+ aliado<00:00:17.176><c>?</c><00:00:34.240><c> OWASP</c><00:00:34.505><c>,</c><00:00:34.611><c> o</c><00:00:34.717><c> Open</c><00:00:34.982><c> Web</c><00:00:35.195><c> Application</c>
+
+00:00:35.778 --> 00:00:35.831 align:start position:0%
+ aliado? OWASP, o Open Web Application
+ 
+
+00:00:35.831 --> 00:00:37.794 align:start position:0%
+ aliado? OWASP, o Open Web Application
+ Security<00:00:36.309><c> Project</c><00:00:36.680><c>,</c><00:00:36.786><c> fue</c><00:00:36.998><c> lanzado</c><00:00:37.423><c> en</c><00:00:37.582><c> 2003</c>
+
+00:00:37.794 --> 00:00:37.847 align:start position:0%
+ Security Project, fue lanzado en 2003
+ 
+
+00:00:37.847 --> 00:00:39.916 align:start position:0%
+ Security Project, fue lanzado en 2003
+ para<00:00:38.113><c> mejorar</c><00:00:38.537><c> la</c><00:00:38.696><c> seguridad</c><00:00:39.227><c> del</c><00:00:39.439><c> software</c><00:00:39.863><c>,</c>
+
+00:00:39.916 --> 00:00:39.970 align:start position:0%
+ para mejorar la seguridad del software,
+ 
+
+00:00:39.970 --> 00:00:44.341 align:start position:0%
+ para mejorar la seguridad del software,
+ principalmente<00:00:40.765><c> las</c><00:00:40.978><c> aplicaciones</c><00:00:41.667><c> web</c><00:00:41.826><c>.</c><00:00:44.260><c> El</c>
+
+00:00:44.341 --> 00:00:44.382 align:start position:0%
+ principalmente las aplicaciones web. El
+ 
+
+00:00:44.382 --> 00:00:45.644 align:start position:0%
+ principalmente las aplicaciones web. El
+ OWASP<00:00:44.626><c> Top</c><00:00:44.789><c> 10</c><00:00:44.911><c> es</c><00:00:45.033><c> un</c><00:00:45.155><c> documento</c><00:00:45.562><c> de</c>
+
+00:00:45.644 --> 00:00:45.685 align:start position:0%
+ OWASP Top 10 es un documento de
+ 
+
+00:00:45.685 --> 00:00:46.906 align:start position:0%
+ OWASP Top 10 es un documento de
+ concientización<00:00:46.377><c> estándar</c><00:00:46.784><c> que</c>
+
+00:00:46.906 --> 00:00:46.947 align:start position:0%
+ concientización estándar que
+ 
+
+00:00:46.947 --> 00:00:48.535 align:start position:0%
+ concientización estándar que
+ representa<00:00:47.395><c> un</c><00:00:47.517><c> amplio</c><00:00:47.802><c> consenso</c><00:00:48.168><c> sobre</c><00:00:48.412><c> los</c>
+
+00:00:48.535 --> 00:00:48.575 align:start position:0%
+ representa un amplio consenso sobre los
+ 
+
+00:00:48.575 --> 00:00:50.000 align:start position:0%
+ representa un amplio consenso sobre los
+ riesgos<00:00:48.901><c> de</c><00:00:49.023><c> seguridad</c><00:00:49.430><c> más</c><00:00:49.634><c> críticos</c>
+
+00:00:50.000 --> 00:00:50.041 align:start position:0%
+ riesgos de seguridad más críticos
+ 
+
+00:00:50.041 --> 00:00:52.915 align:start position:0%
+ riesgos de seguridad más críticos
+ para<00:00:50.245><c> las</c><00:00:50.407><c> aplicaciones</c><00:00:50.937><c> web</c><00:00:51.059><c>.</c><00:00:52.400><c> Casi</c><00:00:52.657><c> todos</c>
+
+00:00:52.915 --> 00:00:52.966 align:start position:0%
+ para las aplicaciones web. Casi todos
+ 
+
+00:00:52.966 --> 00:00:54.461 align:start position:0%
+ para las aplicaciones web. Casi todos
+ los<00:00:53.172><c> involucrados</c><00:00:53.842><c> en</c><00:00:53.997><c> OWASP</c><00:00:54.306><c> son</c>
+
+00:00:54.461 --> 00:00:54.512 align:start position:0%
+ los involucrados en OWASP son
+ 
+
+00:00:54.512 --> 00:00:56.213 align:start position:0%
+ los involucrados en OWASP son
+ voluntarios<00:00:55.131><c> y</c><00:00:55.234><c> no</c><00:00:55.388><c> está</c><00:00:55.697><c> afiliado</c><00:00:56.161><c> a</c>
+
+00:00:56.213 --> 00:00:56.264 align:start position:0%
+ voluntarios y no está afiliado a
+ 
+
+00:00:56.264 --> 00:00:58.643 align:start position:0%
+ voluntarios y no está afiliado a
+ ninguna<00:00:56.676><c> empresa</c><00:00:57.089><c> tecnológica</c><00:00:57.707><c>.</c><00:00:58.459><c> Esta</c>
+
+00:00:58.643 --> 00:00:58.689 align:start position:0%
+ ninguna empresa tecnológica. Esta
+ 
+
+00:00:58.689 --> 00:01:00.392 align:start position:0%
+ ninguna empresa tecnológica. Esta
+ falta<00:00:58.965><c> de</c><00:00:59.103><c> presión</c><00:00:59.518><c> comercial</c><00:00:59.978><c> consolida</c>
+
+00:01:00.392 --> 00:01:00.438 align:start position:0%
+ falta de presión comercial consolida
+ 
+
+00:01:00.438 --> 00:01:02.188 align:start position:0%
+ falta de presión comercial consolida
+ la<00:01:00.577><c> reputación</c><00:01:01.129><c> de</c><00:01:01.267><c> OWASP</c><00:01:01.543><c> como</c><00:01:01.774><c> fuente</c><00:01:02.096><c> de</c>
+
+00:01:02.188 --> 00:01:02.234 align:start position:0%
+ la reputación de OWASP como fuente de
+ 
+
+00:01:02.234 --> 00:01:03.846 align:start position:0%
+ la reputación de OWASP como fuente de
+ información<00:01:02.833><c> imparcial</c><00:01:03.247><c>,</c><00:01:03.339><c> práctica</c><00:01:03.800><c> y</c>
+
+00:01:03.846 --> 00:01:03.892 align:start position:0%
+ información imparcial, práctica y
+ 
+
+00:01:03.892 --> 00:01:05.135 align:start position:0%
+ información imparcial, práctica y
+ rentable<00:01:04.306><c> sobre</c><00:01:04.582><c> seguridad</c><00:01:05.043><c> de</c>
+
+00:01:05.135 --> 00:01:05.181 align:start position:0%
+ rentable sobre seguridad de
+ 
+
+00:01:05.181 --> 00:01:11.544 align:start position:0%
+ rentable sobre seguridad de
+ aplicaciones<00:01:05.733><c>.</c><00:01:06.760><c> ¿</c><00:01:06.871><c>O</c><00:01:06.983><c> no</c><00:01:07.151><c> es</c><00:01:07.319><c> así</c><00:01:07.543><c>?</c><00:01:11.320><c> OWASP</c>
+
+00:01:11.544 --> 00:01:11.589 align:start position:0%
+ aplicaciones. ¿O no es así? OWASP
+ 
+
+00:01:11.589 --> 00:01:13.252 align:start position:0%
+ aplicaciones. ¿O no es así? OWASP
+ utiliza<00:01:11.949><c> una</c><00:01:12.128><c> comunidad</c><00:01:12.578><c> de</c><00:01:12.713><c> proyectos</c><00:01:13.162><c> de</c>
+
+00:01:13.252 --> 00:01:13.297 align:start position:0%
+ utiliza una comunidad de proyectos de
+ 
+
+00:01:13.297 --> 00:01:15.049 align:start position:0%
+ utiliza una comunidad de proyectos de
+ software<00:01:13.701><c> de</c><00:01:13.836><c> código</c><00:01:14.195><c> abierto</c><00:01:14.510><c>,</c><00:01:14.600><c> cientos</c><00:01:14.959><c> de</c>
+
+00:01:15.049 --> 00:01:15.094 align:start position:0%
+ software de código abierto, cientos de
+ 
+
+00:01:15.094 --> 00:01:16.712 align:start position:0%
+ software de código abierto, cientos de
+ capítulos<00:01:15.588><c> locales</c><00:01:15.948><c> en</c><00:01:16.083><c> todo</c><00:01:16.307><c> el</c><00:01:16.442><c> mundo</c><00:01:16.667><c>,</c>
+
+00:01:16.712 --> 00:01:16.757 align:start position:0%
+ capítulos locales en todo el mundo,
+ 
+
+00:01:16.757 --> 00:01:18.105 align:start position:0%
+ capítulos locales en todo el mundo,
+ decenas<00:01:17.116><c> de</c><00:01:17.251><c> miles</c><00:01:17.521><c> de</c><00:01:17.656><c> miembros</c><00:01:18.060><c> y</c>
+
+00:01:18.105 --> 00:01:18.150 align:start position:0%
+ decenas de miles de miembros y
+ 
+
+00:01:18.150 --> 00:01:19.678 align:start position:0%
+ decenas de miles de miembros y
+ conferencias<00:01:18.734><c> de</c><00:01:18.869><c> capacitación</c><00:01:19.498><c> para</c>
+
+00:01:19.678 --> 00:01:19.723 align:start position:0%
+ conferencias de capacitación para
+ 
+
+00:01:19.723 --> 00:01:21.475 align:start position:0%
+ conferencias de capacitación para
+ compilar<00:01:20.127><c> su</c><00:01:20.262><c> lista</c><00:01:20.531><c> de</c><00:01:20.666><c> los</c><00:01:20.846><c> 10</c><00:01:20.981><c> principales</c>
+
+00:01:21.475 --> 00:01:21.520 align:start position:0%
+ compilar su lista de los 10 principales
+ 
+
+00:01:21.520 --> 00:01:24.166 align:start position:0%
+ compilar su lista de los 10 principales
+ riesgos<00:01:21.835><c>.</c><00:01:22.959><c> Los</c><00:01:23.125><c> datos</c><00:01:23.375><c> y</c><00:01:23.458><c> la</c><00:01:23.583><c> documentación</c>
+
+00:01:24.166 --> 00:01:24.208 align:start position:0%
+ riesgos. Los datos y la documentación
+ 
+
+00:01:24.208 --> 00:01:25.623 align:start position:0%
+ riesgos. Los datos y la documentación
+ se<00:01:24.332><c> introducen</c><00:01:24.790><c> en</c><00:01:24.915><c> un</c><00:01:25.040><c> repositorio</c><00:01:25.540><c> de</c>
+
+00:01:25.623 --> 00:01:25.665 align:start position:0%
+ se introducen en un repositorio de
+ 
+
+00:01:25.665 --> 00:01:27.288 align:start position:0%
+ se introducen en un repositorio de
+ GitHub<00:01:25.956><c> gestionado</c><00:01:26.414><c> por</c><00:01:26.581><c> OWASP</c><00:01:26.830><c> después</c><00:01:27.205><c> de</c>
+
+00:01:27.288 --> 00:01:27.330 align:start position:0%
+ GitHub gestionado por OWASP después de
+ 
+
+00:01:27.330 --> 00:01:28.662 align:start position:0%
+ GitHub gestionado por OWASP después de
+ que<00:01:27.497><c> el</c><00:01:27.621><c> equipo</c><00:01:27.913><c> central</c><00:01:28.246><c> del</c><00:01:28.413><c> Top</c><00:01:28.579><c> 10</c>
+
+00:01:28.662 --> 00:01:28.704 align:start position:0%
+ que el equipo central del Top 10
+ 
+
+00:01:28.704 --> 00:01:30.120 align:start position:0%
+ que el equipo central del Top 10
+ realiza<00:01:29.037><c> una</c><00:01:29.204><c> convocatoria</c><00:01:29.745><c> de</c><00:01:29.870><c> datos</c><00:01:30.078><c>.</c>
+
+00:01:30.120 --> 00:01:30.840 align:start position:0%
+ realiza una convocatoria de datos.
+ 
+
+00:01:30.840 --> 00:01:32.409 align:start position:0%
+ realiza una convocatoria de datos.
+ También<00:01:31.221><c> se</c><00:01:31.348><c> anima</c><00:01:31.603><c> a</c><00:01:31.688><c> los</c><00:01:31.857><c> colaboradores</c>
+
+00:01:32.409 --> 00:01:32.451 align:start position:0%
+ También se anima a los colaboradores
+ 
+
+00:01:32.451 --> 00:01:33.935 align:start position:0%
+ También se anima a los colaboradores
+ de<00:01:32.578><c> la</c><00:01:32.706><c> industria</c><00:01:33.130><c> a</c><00:01:33.214><c> participar</c><00:01:33.681><c> en</c><00:01:33.808><c> una</c>
+
+00:01:33.935 --> 00:01:33.978 align:start position:0%
+ de la industria a participar en una
+ 
+
+00:01:33.978 --> 00:01:36.732 align:start position:0%
+ de la industria a participar en una
+ encuesta<00:01:34.317><c>.</c><00:01:35.360><c> Una</c><00:01:35.556><c> vez</c><00:01:35.752><c> que</c><00:01:35.948><c> se</c><00:01:36.095><c> recopilan</c><00:01:36.585><c> los</c>
+
+00:01:36.732 --> 00:01:36.781 align:start position:0%
+ encuesta. Una vez que se recopilan los
+ 
+
+00:01:36.781 --> 00:01:38.349 align:start position:0%
+ encuesta. Una vez que se recopilan los
+ datos<00:01:37.075><c> en</c><00:01:37.222><c> GitHub</c><00:01:37.516><c>,</c><00:01:37.614><c> se</c><00:01:37.761><c> normalizan</c><00:01:38.300><c> y</c>
+
+00:01:38.349 --> 00:01:38.398 align:start position:0%
+ datos en GitHub, se normalizan y
+ 
+
+00:01:38.398 --> 00:01:40.572 align:start position:0%
+ datos en GitHub, se normalizan y
+ analizan<00:01:38.790><c>.</c><00:01:39.060><c> Las</c><00:01:39.276><c> encuestas</c><00:01:39.816><c> se</c><00:01:39.978><c> recopilan</c><00:01:40.518><c> y</c>
+
+00:01:40.572 --> 00:01:40.626 align:start position:0%
+ analizan. Las encuestas se recopilan y
+ 
+
+00:01:40.626 --> 00:01:42.433 align:start position:0%
+ analizan. Las encuestas se recopilan y
+ revisan<00:01:41.004><c>.</c><00:01:41.280><c> Luego</c><00:01:41.527><c> se</c><00:01:41.650><c> elabora</c><00:01:41.980><c> un</c><00:01:42.104><c> borrador</c>
+
+00:01:42.433 --> 00:01:42.474 align:start position:0%
+ revisan. Luego se elabora un borrador
+ 
+
+00:01:42.474 --> 00:01:43.834 align:start position:0%
+ revisan. Luego se elabora un borrador
+ de<00:01:42.598><c> la</c><00:01:42.722><c> lista</c><00:01:42.969><c> de</c><00:01:43.093><c> los</c><00:01:43.257><c> 10</c><00:01:43.381><c> principales</c>
+
+00:01:43.834 --> 00:01:43.875 align:start position:0%
+ de la lista de los 10 principales
+ 
+
+00:01:43.875 --> 00:01:45.400 align:start position:0%
+ de la lista de los 10 principales
+ utilizando<00:01:44.329><c> ocho</c><00:01:44.535><c> riesgos</c><00:01:44.864><c> extraídos</c><00:01:45.318><c> de</c>
+
+00:01:45.400 --> 00:01:45.441 align:start position:0%
+ utilizando ocho riesgos extraídos de
+ 
+
+00:01:45.441 --> 00:01:47.230 align:start position:0%
+ utilizando ocho riesgos extraídos de
+ los<00:01:45.606><c> datos</c><00:01:45.853><c> y</c><00:01:45.936><c> dos</c><00:01:46.100><c> de</c><00:01:46.224><c> la</c><00:01:46.348><c> encuesta</c><00:01:46.677><c>.</c><00:01:47.140><c> El</c>
+
+00:01:47.230 --> 00:01:47.276 align:start position:0%
+ los datos y dos de la encuesta. El
+ 
+
+00:01:47.276 --> 00:01:49.000 align:start position:0%
+ los datos y dos de la encuesta. El
+ borrador<00:01:47.684><c> se</c><00:01:47.820><c> publica</c><00:01:48.183><c> públicamente</c><00:01:48.819><c> y</c><00:01:48.909><c> el</c>
+
+00:01:49.000 --> 00:01:49.046 align:start position:0%
+ borrador se publica públicamente y el
+ 
+
+00:01:49.046 --> 00:01:50.815 align:start position:0%
+ borrador se publica públicamente y el
+ proceso<00:01:49.409><c> de</c><00:01:49.545><c> edición</c><00:01:49.953><c> queda</c><00:01:50.225><c> registrado</c><00:01:50.725><c> en</c>
+
+00:01:50.815 --> 00:01:50.861 align:start position:0%
+ proceso de edición queda registrado en
+ 
+
+00:01:50.861 --> 00:01:53.210 align:start position:0%
+ proceso de edición queda registrado en
+ GitHub<00:01:51.133><c>.</c><00:01:51.780><c> Una</c><00:01:52.008><c> vez</c><00:01:52.237><c> que</c><00:01:52.466><c> se</c><00:01:52.638><c> alcanza</c><00:01:53.095><c> un</c>
+
+00:01:53.210 --> 00:01:53.267 align:start position:0%
+ GitHub. Una vez que se alcanza un
+ 
+
+00:01:53.267 --> 00:01:55.441 align:start position:0%
+ GitHub. Una vez que se alcanza un
+ consenso<00:01:53.782><c> público</c><00:01:54.239><c>,</c><00:01:54.354><c> se</c><00:01:54.526><c> publica</c><00:01:54.983><c> el</c><00:01:55.155><c> OWASP</c>
+
+00:01:55.441 --> 00:01:55.498 align:start position:0%
+ consenso público, se publica el OWASP
+ 
+
+00:01:55.498 --> 00:02:01.025 align:start position:0%
+ consenso público, se publica el OWASP
+ Top<00:01:55.727><c> 10</c><00:01:55.841><c>.</c><00:01:59.439><c> Actualizada</c><00:02:00.073><c> por</c><00:02:00.284><c> última</c><00:02:00.707><c> vez</c><00:02:00.919><c> en</c>
+
+00:02:01.025 --> 00:02:01.077 align:start position:0%
+ Top 10. Actualizada por última vez en
+ 
+
+00:02:01.077 --> 00:02:03.139 align:start position:0%
+ Top 10. Actualizada por última vez en
+ 2017<00:02:01.289><c>,</c><00:02:01.395><c> la</c><00:02:01.553><c> nueva</c><00:02:01.870><c> lista</c><00:02:02.188><c> publicada</c><00:02:02.716><c> el</c><00:02:02.875><c> 24</c><00:02:03.034><c> de</c>
+
+00:02:03.139 --> 00:02:03.192 align:start position:0%
+ 2017, la nueva lista publicada el 24 de
+ 
+
+00:02:03.192 --> 00:02:05.254 align:start position:0%
+ 2017, la nueva lista publicada el 24 de
+ septiembre<00:02:03.774><c> de</c><00:02:03.932><c> 2021</c><00:02:04.197><c> presentó</c><00:02:04.725><c> cambios</c><00:02:05.148><c> en</c>
+
+00:02:05.254 --> 00:02:05.307 align:start position:0%
+ septiembre de 2021 presentó cambios en
+ 
+
+00:02:05.307 --> 00:02:07.369 align:start position:0%
+ septiembre de 2021 presentó cambios en
+ el<00:02:05.466><c> orden</c><00:02:05.783><c> de</c><00:02:05.941><c> las</c><00:02:06.153><c> categorías</c><00:02:06.734><c>,</c><00:02:06.840><c> cambios</c><00:02:07.263><c> de</c>
+
+00:02:07.369 --> 00:02:07.422 align:start position:0%
+ el orden de las categorías, cambios de
+ 
+
+00:02:07.422 --> 00:02:08.955 align:start position:0%
+ el orden de las categorías, cambios de
+ nombres<00:02:07.845><c> y</c><00:02:07.950><c> algunas</c><00:02:08.373><c> categorías</c>
+
+00:02:08.955 --> 00:02:09.008 align:start position:0%
+ nombres y algunas categorías
+ 
+
+00:02:09.008 --> 00:02:11.804 align:start position:0%
+ nombres y algunas categorías
+ totalmente<00:02:09.589><c> nuevas</c><00:02:09.907><c>.</c><00:02:10.880><c> Echemos</c><00:02:11.249><c> un</c><00:02:11.388><c> vistazo</c><00:02:11.758><c> a</c>
+
+00:02:11.804 --> 00:02:11.851 align:start position:0%
+ totalmente nuevas. Echemos un vistazo a
+ 
+
+00:02:11.851 --> 00:02:13.469 align:start position:0%
+ totalmente nuevas. Echemos un vistazo a
+ la<00:02:11.989><c> lista</c><00:02:12.267><c> de</c><00:02:12.405><c> 2021</c><00:02:12.637><c> y</c><00:02:12.729><c> expliquemos</c><00:02:13.284><c> qué</c>
+
+00:02:13.469 --> 00:02:13.515 align:start position:0%
+ la lista de 2021 y expliquemos qué
+ 
+
+00:02:13.515 --> 00:02:15.318 align:start position:0%
+ la lista de 2021 y expliquemos qué
+ significan<00:02:14.024><c> realmente</c><00:02:14.486><c> las</c><00:02:14.671><c> 10</c><00:02:14.810><c> categorías</c>
+
+00:02:15.318 --> 00:02:15.365 align:start position:0%
+ significan realmente las 10 categorías
+ 
+
+00:02:15.365 --> 00:02:20.701 align:start position:0%
+ significan realmente las 10 categorías
+ principales<00:02:15.873><c>.</c><00:02:19.460><c> El</c><00:02:19.603><c> control</c><00:02:19.985><c> de</c><00:02:20.128><c> acceso</c><00:02:20.462><c> roto</c><00:02:20.653><c>,</c>
+
+00:02:20.701 --> 00:02:20.749 align:start position:0%
+ principales. El control de acceso roto,
+ 
+
+00:02:20.749 --> 00:02:22.372 align:start position:0%
+ principales. El control de acceso roto,
+ que<00:02:20.940><c> subió</c><00:02:21.274><c> desde</c><00:02:21.560><c> el</c><00:02:21.703><c> número</c><00:02:22.085><c> cinco</c><00:02:22.324><c>,</c>
+
+00:02:22.372 --> 00:02:22.420 align:start position:0%
+ que subió desde el número cinco,
+ 
+
+00:02:22.420 --> 00:02:24.493 align:start position:0%
+ que subió desde el número cinco,
+ ocupó<00:02:22.754><c> el</c><00:02:22.897><c> primer</c><00:02:23.231><c> lugar</c><00:02:23.518><c> en</c><00:02:23.661><c> 2021</c><00:02:23.852><c>.</c><00:02:24.180><c> Este</c><00:02:24.403><c> es</c>
+
+00:02:24.493 --> 00:02:24.538 align:start position:0%
+ ocupó el primer lugar en 2021. Este es
+ 
+
+00:02:24.538 --> 00:02:26.283 align:start position:0%
+ ocupó el primer lugar en 2021. Este es
+ un<00:02:24.672><c> cambio</c><00:02:24.985><c> importante</c><00:02:25.433><c>,</c><00:02:25.522><c> ya</c><00:02:25.656><c> que</c><00:02:25.835><c> reemplazó</c>
+
+00:02:26.283 --> 00:02:26.328 align:start position:0%
+ un cambio importante, ya que reemplazó
+ 
+
+00:02:26.328 --> 00:02:27.939 align:start position:0%
+ un cambio importante, ya que reemplazó
+ a<00:02:26.417><c> la</c><00:02:26.551><c> inyección</c><00:02:26.999><c>,</c><00:02:27.088><c> considerada</c><00:02:27.625><c> en</c><00:02:27.760><c> gran</c>
+
+00:02:27.939 --> 00:02:27.983 align:start position:0%
+ a la inyección, considerada en gran
+ 
+
+00:02:27.983 --> 00:02:29.684 align:start position:0%
+ a la inyección, considerada en gran
+ medida<00:02:28.297><c> la</c><00:02:28.431><c> forma</c><00:02:28.699><c> de</c><00:02:28.834><c> riesgo</c><00:02:29.147><c> más</c><00:02:29.371><c> popular</c>
+
+00:02:29.684 --> 00:02:29.729 align:start position:0%
+ medida la forma de riesgo más popular
+ 
+
+00:02:29.729 --> 00:02:32.513 align:start position:0%
+ medida la forma de riesgo más popular
+ explotada<00:02:30.176><c> por</c><00:02:30.355><c> los</c><00:02:30.534><c> ciberdelincuentes</c><00:02:31.295><c>.</c><00:02:32.419><c> El</c>
+
+00:02:32.513 --> 00:02:32.560 align:start position:0%
+ explotada por los ciberdelincuentes. El
+ 
+
+00:02:32.560 --> 00:02:34.254 align:start position:0%
+ explotada por los ciberdelincuentes. El
+ control<00:02:32.936><c> de</c><00:02:33.078><c> acceso</c><00:02:33.407><c> roto</c><00:02:33.642><c> permite</c><00:02:34.019><c> a</c><00:02:34.113><c> los</c>
+
+00:02:34.254 --> 00:02:34.301 align:start position:0%
+ control de acceso roto permite a los
+ 
+
+00:02:34.301 --> 00:02:35.996 align:start position:0%
+ control de acceso roto permite a los
+ atacantes<00:02:34.772><c> eludir</c><00:02:35.102><c> las</c><00:02:35.290><c> protecciones</c><00:02:35.902><c> de</c>
+
+00:02:35.996 --> 00:02:36.043 align:start position:0%
+ atacantes eludir las protecciones de
+ 
+
+00:02:36.043 --> 00:02:37.879 align:start position:0%
+ atacantes eludir las protecciones de
+ autorización<00:02:36.702><c> y</c><00:02:36.796><c> realizar</c><00:02:37.220><c> tareas</c><00:02:37.550><c> como</c><00:02:37.785><c> si</c>
+
+00:02:37.879 --> 00:02:37.926 align:start position:0%
+ autorización y realizar tareas como si
+ 
+
+00:02:37.926 --> 00:02:40.553 align:start position:0%
+ autorización y realizar tareas como si
+ fueran<00:02:38.256><c> usuarios</c><00:02:38.679><c> privilegiados</c><00:02:39.291><c>.</c><00:02:40.180><c> En</c><00:02:40.320><c> pocas</c>
+
+00:02:40.553 --> 00:02:40.600 align:start position:0%
+ fueran usuarios privilegiados. En pocas
+ 
+
+00:02:40.600 --> 00:02:42.236 align:start position:0%
+ fueran usuarios privilegiados. En pocas
+ palabras<00:02:40.974><c>,</c><00:02:41.068><c> el</c><00:02:41.208><c> control</c><00:02:41.582><c> de</c><00:02:41.722><c> acceso</c><00:02:42.049><c> roto</c>
+
+00:02:42.236 --> 00:02:42.283 align:start position:0%
+ palabras, el control de acceso roto
+ 
+
+00:02:42.283 --> 00:02:43.872 align:start position:0%
+ palabras, el control de acceso roto
+ brinda<00:02:42.610><c> al</c><00:02:42.750><c> atacante</c><00:02:43.171><c> la</c><00:02:43.311><c> capacidad</c><00:02:43.778><c> de</c>
+
+00:02:43.872 --> 00:02:43.918 align:start position:0%
+ brinda al atacante la capacidad de
+ 
+
+00:02:43.918 --> 00:02:45.274 align:start position:0%
+ brinda al atacante la capacidad de
+ exponer<00:02:44.292><c> datos</c><00:02:44.573><c> confidenciales</c><00:02:45.227><c>,</c>
+
+00:02:45.274 --> 00:02:45.321 align:start position:0%
+ exponer datos confidenciales,
+ 
+
+00:02:45.321 --> 00:02:47.097 align:start position:0%
+ exponer datos confidenciales,
+ modificarlos<00:02:45.928><c> o</c><00:02:46.022><c> destruirlos</c><00:02:46.536><c>,</c><00:02:46.629><c> o</c><00:02:46.723><c> realizar</c>
+
+00:02:47.097 --> 00:02:47.143 align:start position:0%
+ modificarlos o destruirlos, o realizar
+ 
+
+00:02:47.143 --> 00:02:48.826 align:start position:0%
+ modificarlos o destruirlos, o realizar
+ prácticamente<00:02:47.844><c> cualquier</c><00:02:48.312><c> función</c><00:02:48.732><c> de</c>
+
+00:02:48.826 --> 00:02:48.873 align:start position:0%
+ prácticamente cualquier función de
+ 
+
+00:02:48.873 --> 00:02:50.701 align:start position:0%
+ prácticamente cualquier función de
+ red<00:02:49.013><c>.</c><00:02:49.559><c> Es</c><00:02:49.701><c> el</c><00:02:49.844><c> santo</c><00:02:50.130><c> grial</c><00:02:50.416><c> de</c><00:02:50.559><c> las</c>
+
+00:02:50.701 --> 00:02:50.749 align:start position:0%
+ red. Es el santo grial de las
+ 
+
+00:02:50.749 --> 00:02:56.042 align:start position:0%
+ red. Es el santo grial de las
+ vulnerabilidades<00:02:51.511><c>.</c><00:02:55.660><c> Los</c><00:02:55.813><c> fallos</c>
+
+00:02:56.042 --> 00:02:56.081 align:start position:0%
+ vulnerabilidades. Los fallos
+ 
+
+00:02:56.081 --> 00:02:57.573 align:start position:0%
+ vulnerabilidades. Los fallos
+ criptográficos<00:02:56.655><c>,</c><00:02:56.731><c> anteriormente</c><00:02:57.267><c> llamados</c>
+
+00:02:57.573 --> 00:02:57.611 align:start position:0%
+ criptográficos, anteriormente llamados
+ 
+
+00:02:57.611 --> 00:02:59.104 align:start position:0%
+ criptográficos, anteriormente llamados
+ exposición<00:02:58.071><c> de</c><00:02:58.186><c> datos</c><00:02:58.415><c> confidenciales</c><00:02:58.951><c>,</c><00:02:59.028><c> se</c>
+
+00:02:59.104 --> 00:02:59.142 align:start position:0%
+ exposición de datos confidenciales, se
+ 
+
+00:02:59.142 --> 00:03:00.444 align:start position:0%
+ exposición de datos confidenciales, se
+ sitúan<00:02:59.449><c> en</c><00:02:59.563><c> el</c><00:02:59.678><c> número</c><00:02:59.984><c> dos</c><00:03:00.137><c> desde</c><00:03:00.367><c> el</c>
+
+00:03:00.444 --> 00:03:00.482 align:start position:0%
+ sitúan en el número dos desde el
+ 
+
+00:03:00.482 --> 00:03:02.554 align:start position:0%
+ sitúan en el número dos desde el
+ número<00:03:00.788><c> tres</c><00:03:00.941><c>.</c><00:03:02.099><c> Los</c><00:03:02.281><c> fallos</c>
+
+00:03:02.554 --> 00:03:02.600 align:start position:0%
+ número tres. Los fallos
+ 
+
+00:03:02.600 --> 00:03:04.286 align:start position:0%
+ número tres. Los fallos
+ criptográficos<00:03:03.329><c> significan</c><00:03:03.830><c> un</c><00:03:03.967><c> enfoque</c>
+
+00:03:04.286 --> 00:03:04.331 align:start position:0%
+ criptográficos significan un enfoque
+ 
+
+00:03:04.331 --> 00:03:05.744 align:start position:0%
+ criptográficos significan un enfoque
+ renovado<00:03:04.741><c> de</c><00:03:04.878><c> OWASP</c><00:03:05.151><c> en</c><00:03:05.288><c> los</c><00:03:05.470><c> fallos</c>
+
+00:03:05.744 --> 00:03:05.789 align:start position:0%
+ renovado de OWASP en los fallos
+ 
+
+00:03:05.789 --> 00:03:08.093 align:start position:0%
+ renovado de OWASP en los fallos
+ relacionados<00:03:06.382><c> con</c><00:03:06.564><c> la</c><00:03:06.701><c> criptografía</c><00:03:07.293><c>.</c><00:03:08.000><c> En</c>
+
+00:03:08.093 --> 00:03:08.140 align:start position:0%
+ relacionados con la criptografía. En
+ 
+
+00:03:08.140 --> 00:03:09.784 align:start position:0%
+ relacionados con la criptografía. En
+ esencia<00:03:08.469><c>,</c><00:03:08.563><c> esta</c><00:03:08.798><c> categoría</c><00:03:09.314><c> explota</c><00:03:09.690><c> la</c>
+
+00:03:09.784 --> 00:03:09.831 align:start position:0%
+ esencia, esta categoría explota la
+ 
+
+00:03:09.831 --> 00:03:11.568 align:start position:0%
+ esencia, esta categoría explota la
+ información<00:03:10.441><c> transferida</c><00:03:11.004><c> a</c><00:03:11.098><c> través</c><00:03:11.474><c> de</c>
+
+00:03:11.568 --> 00:03:11.615 align:start position:0%
+ información transferida a través de
+ 
+
+00:03:11.615 --> 00:03:13.446 align:start position:0%
+ información transferida a través de
+ comunicaciones<00:03:12.319><c> seguras</c><00:03:12.695><c> entre</c><00:03:12.976><c> dos</c><00:03:13.164><c> partes</c>
+
+00:03:13.446 --> 00:03:14.948 align:start position:0%
+ comunicaciones seguras entre dos partes
+,<00:03:13.540><c> lo</c><00:03:13.681><c> que</c><00:03:13.869><c> a</c><00:03:13.962><c> menudo</c><00:03:14.291><c> proporciona</c><00:03:14.855><c> al</c>
+
+00:03:14.948 --> 00:03:14.995 align:start position:0%
+, lo que a menudo proporciona al
+ 
+
+00:03:14.995 --> 00:03:16.780 align:start position:0%
+, lo que a menudo proporciona al
+ atacante<00:03:15.418><c> información</c><00:03:16.028><c> útil</c><00:03:16.310><c> en</c><00:03:16.451><c> la</c><00:03:16.592><c> fase</c>
+
+00:03:16.780 --> 00:03:16.827 align:start position:0%
+ atacante información útil en la fase
+ 
+
+00:03:16.827 --> 00:03:18.376 align:start position:0%
+ atacante información útil en la fase
+ posterior<00:03:17.296><c> a</c><00:03:17.390><c> la</c><00:03:17.531><c> explotación</c><00:03:18.094><c>,</c><00:03:18.188><c> como</c>
+
+00:03:18.376 --> 00:03:18.423 align:start position:0%
+ posterior a la explotación, como
+ 
+
+00:03:18.423 --> 00:03:24.431 align:start position:0%
+ posterior a la explotación, como
+ mantener<00:03:18.846><c> un</c><00:03:18.986><c> acceso</c><00:03:19.315><c> persistente</c><00:03:19.832><c>.</c><00:03:24.340><c> La</c>
+
+00:03:24.431 --> 00:03:24.476 align:start position:0%
+ mantener un acceso persistente. La
+ 
+
+00:03:24.476 --> 00:03:25.889 align:start position:0%
+ mantener un acceso persistente. La
+ inyección<00:03:24.932><c>,</c><00:03:25.023><c> antes</c><00:03:25.297><c> conocida</c><00:03:25.707><c> como</c>
+
+00:03:25.889 --> 00:03:25.935 align:start position:0%
+ inyección, antes conocida como
+ 
+
+00:03:25.935 --> 00:03:27.621 align:start position:0%
+ inyección, antes conocida como
+ cross-site<00:03:26.436><c> scripting</c><00:03:26.892><c> y</c><00:03:26.983><c> considerada</c><00:03:27.530><c> el</c>
+
+00:03:27.621 --> 00:03:27.667 align:start position:0%
+ cross-site scripting y considerada el
+ 
+
+00:03:27.667 --> 00:03:29.445 align:start position:0%
+ cross-site scripting y considerada el
+ rey<00:03:27.849><c> de</c><00:03:27.986><c> las</c><00:03:28.168><c> vulnerabilidades</c><00:03:28.898><c>,</c><00:03:28.989><c> descendió</c>
+
+00:03:29.445 --> 00:03:29.490 align:start position:0%
+ rey de las vulnerabilidades, descendió
+ 
+
+00:03:29.490 --> 00:03:32.442 align:start position:0%
+ rey de las vulnerabilidades, descendió
+ al<00:03:29.627><c> tercer</c><00:03:29.946><c> lugar</c><00:03:30.174><c>.</c><00:03:31.480><c> La</c><00:03:31.617><c> inyección</c><00:03:32.121><c> explota</c>
+
+00:03:32.442 --> 00:03:32.488 align:start position:0%
+ al tercer lugar. La inyección explota
+ 
+
+00:03:32.488 --> 00:03:34.092 align:start position:0%
+ al tercer lugar. La inyección explota
+ un<00:03:32.625><c> programa</c><00:03:33.038><c> informático</c><00:03:33.634><c> vulnerable</c>
+
+00:03:34.092 --> 00:03:34.138 align:start position:0%
+ un programa informático vulnerable
+ 
+
+00:03:34.138 --> 00:03:35.742 align:start position:0%
+ un programa informático vulnerable
+ introduciendo<00:03:34.780><c> código</c><00:03:35.147><c> que</c><00:03:35.330><c> cambia</c><00:03:35.651><c> la</c>
+
+00:03:35.742 --> 00:03:35.788 align:start position:0%
+ introduciendo código que cambia la
+ 
+
+00:03:35.788 --> 00:03:37.439 align:start position:0%
+ introduciendo código que cambia la
+ forma<00:03:36.063><c> en</c><00:03:36.201><c> que</c><00:03:36.384><c> se</c><00:03:36.522><c> ejecuta</c><00:03:36.888><c> el</c><00:03:37.026><c> programa</c><00:03:37.393><c>.</c>
+
+00:03:37.439 --> 00:03:38.460 align:start position:0%
+ forma en que se ejecuta el programa.
+ 
+
+00:03:38.460 --> 00:03:40.436 align:start position:0%
+ 
+ Por<00:03:38.662><c> ejemplo</c><00:03:39.017><c>,</c><00:03:39.118><c> al</c><00:03:39.271><c> inyectar</c><00:03:39.727><c> código</c><00:03:40.132><c> en</c><00:03:40.284><c> una</c>
+
+00:03:40.436 --> 00:03:40.487 align:start position:0%
+ Por ejemplo, al inyectar código en una
+ 
+
+00:03:40.487 --> 00:03:42.210 align:start position:0%
+ Por ejemplo, al inyectar código en una
+ aplicación<00:03:41.095><c> web</c><00:03:41.247><c>,</c><00:03:41.349><c> un</c><00:03:41.501><c> atacante</c><00:03:41.957><c> puede</c>
+
+00:03:42.210 --> 00:03:42.261 align:start position:0%
+ aplicación web, un atacante puede
+ 
+
+00:03:42.261 --> 00:03:43.934 align:start position:0%
+ aplicación web, un atacante puede
+ robar<00:03:42.565><c> cookies</c><00:03:42.971><c> de</c><00:03:43.123><c> autenticación</c><00:03:43.883><c> y</c>
+
+00:03:43.934 --> 00:03:43.985 align:start position:0%
+ robar cookies de autenticación y
+ 
+
+00:03:43.985 --> 00:03:45.860 align:start position:0%
+ robar cookies de autenticación y
+ usarlas<00:03:44.390><c> en</c><00:03:44.542><c> otros</c><00:03:44.846><c> servicios</c><00:03:45.353><c> en</c><00:03:45.505><c> línea</c><00:03:45.809><c>,</c>
+
+00:03:45.860 --> 00:03:45.911 align:start position:0%
+ usarlas en otros servicios en línea,
+ 
+
+00:03:45.911 --> 00:03:47.735 align:start position:0%
+ usarlas en otros servicios en línea,
+ engañándolos<00:03:46.671><c> para</c><00:03:46.924><c> que</c><00:03:47.127><c> crean</c><00:03:47.431><c> que</c><00:03:47.634><c> el</c>
+
+00:03:47.735 --> 00:03:47.786 align:start position:0%
+ engañándolos para que crean que el
+ 
+
+00:03:47.786 --> 00:03:53.899 align:start position:0%
+ engañándolos para que crean que el
+ atacante<00:03:48.242><c> es</c><00:03:48.394><c> usted</c><00:03:48.648><c>.</c><00:03:52.819><c> El</c><00:03:52.981><c> diseño</c><00:03:53.413><c> inseguro</c><00:03:53.845><c>,</c>
+
+00:03:53.899 --> 00:03:53.953 align:start position:0%
+ atacante es usted. El diseño inseguro,
+ 
+
+00:03:53.953 --> 00:03:56.007 align:start position:0%
+ atacante es usted. El diseño inseguro,
+ una<00:03:54.170><c> nueva</c><00:03:54.494><c> categoría</c><00:03:55.088><c> para</c><00:03:55.359><c> el</c><00:03:55.521><c> OWASP</c><00:03:55.845><c> Top</c>
+
+00:03:56.007 --> 00:03:56.061 align:start position:0%
+ una nueva categoría para el OWASP Top
+ 
+
+00:03:56.061 --> 00:03:58.225 align:start position:0%
+ una nueva categoría para el OWASP Top
+ 10<00:03:56.223><c> de</c><00:03:56.385><c> 2021</c><00:03:56.601><c>,</c><00:03:56.710><c> ocupa</c><00:03:57.034><c> el</c><00:03:57.196><c> cuarto</c><00:03:57.574><c> lugar</c><00:03:57.844><c>.</c><00:03:58.140><c> Se</c>
+
+00:03:58.225 --> 00:03:58.268 align:start position:0%
+ 10 de 2021, ocupa el cuarto lugar. Se
+ 
+
+00:03:58.268 --> 00:03:59.808 align:start position:0%
+ 10 de 2021, ocupa el cuarto lugar. Se
+ incluyó<00:03:58.653><c> como</c><00:03:58.867><c> un</c><00:03:58.995><c> firme</c><00:03:59.252><c> llamado</c><00:03:59.594><c> a</c><00:03:59.680><c> los</c>
+
+00:03:59.808 --> 00:03:59.851 align:start position:0%
+ incluyó como un firme llamado a los
+ 
+
+00:03:59.851 --> 00:04:01.392 align:start position:0%
+ incluyó como un firme llamado a los
+ desarrolladores<00:04:00.536><c> para</c><00:04:00.750><c> incorporar</c><00:04:01.220><c> más</c>
+
+00:04:01.392 --> 00:04:01.434 align:start position:0%
+ desarrolladores para incorporar más
+ 
+
+00:04:01.434 --> 00:04:02.889 align:start position:0%
+ desarrolladores para incorporar más
+ patrones<00:04:01.820><c> y</c><00:04:01.905><c> principios</c><00:04:02.376><c> de</c><00:04:02.504><c> seguridad</c>
+
+00:04:02.889 --> 00:04:02.932 align:start position:0%
+ patrones y principios de seguridad
+ 
+
+00:04:02.932 --> 00:04:05.579 align:start position:0%
+ patrones y principios de seguridad
+ desde<00:04:03.189><c> el</c><00:04:03.317><c> diseño</c><00:04:03.617><c>.</c><00:04:05.060><c> Esta</c><00:04:05.295><c> es</c><00:04:05.437><c> una</c>
+
+00:04:05.579 --> 00:04:05.626 align:start position:0%
+ desde el diseño. Esta es una
+ 
+
+00:04:05.626 --> 00:04:07.324 align:start position:0%
+ desde el diseño. Esta es una
+ consideración<00:04:06.333><c> importante</c><00:04:06.853><c> al</c><00:04:06.994><c> incluir</c>
+
+00:04:07.324 --> 00:04:07.372 align:start position:0%
+ consideración importante al incluir
+ 
+
+00:04:07.372 --> 00:04:08.646 align:start position:0%
+ consideración importante al incluir
+ una<00:04:07.560><c> nueva</c><00:04:07.843><c> aplicación</c><00:04:08.410><c> en</c><00:04:08.551><c> su</c>
+
+00:04:08.646 --> 00:04:08.693 align:start position:0%
+ una nueva aplicación en su
+ 
+
+00:04:08.693 --> 00:04:10.439 align:start position:0%
+ una nueva aplicación en su
+ infraestructura<00:04:09.448><c> de</c><00:04:09.589><c> red</c><00:04:09.731><c>,</c><00:04:09.825><c> especialmente</c>
+
+00:04:10.439 --> 00:04:10.486 align:start position:0%
+ infraestructura de red, especialmente
+ 
+
+00:04:10.486 --> 00:04:11.854 align:start position:0%
+ infraestructura de red, especialmente
+ tras<00:04:10.722><c> el</c><00:04:10.863><c> ataque</c><00:04:11.193><c> a</c><00:04:11.288><c> la</c><00:04:11.429><c> cadena</c><00:04:11.760><c> de</c>
+
+00:04:11.854 --> 00:04:11.901 align:start position:0%
+ tras el ataque a la cadena de
+ 
+
+00:04:11.901 --> 00:04:13.741 align:start position:0%
+ tras el ataque a la cadena de
+ suministro<00:04:12.420><c> de</c><00:04:12.562><c> SolarWinds</c><00:04:13.081><c> y</c><00:04:13.175><c> su</c><00:04:13.317><c> efecto</c><00:04:13.647><c> en</c>
+
+00:04:13.741 --> 00:04:13.789 align:start position:0%
+ suministro de SolarWinds y su efecto en
+ 
+
+00:04:13.789 --> 00:04:19.901 align:start position:0%
+ suministro de SolarWinds y su efecto en
+ proveedores<00:04:14.355><c> externos</c><00:04:14.732><c>.</c><00:04:19.160><c> La</c><00:04:19.290><c> configuración</c>
+
+00:04:19.901 --> 00:04:19.945 align:start position:0%
+ proveedores externos. La configuración
+ 
+
+00:04:19.945 --> 00:04:21.558 align:start position:0%
+ proveedores externos. La configuración
+ de<00:04:20.075><c> seguridad</c><00:04:20.511><c> incorrecta</c><00:04:20.948><c>,</c><00:04:21.035><c> en</c><00:04:21.166><c> el</c><00:04:21.296><c> quinto</c>
+
+00:04:21.558 --> 00:04:21.602 align:start position:0%
+ de seguridad incorrecta, en el quinto
+ 
+
+00:04:21.602 --> 00:04:23.259 align:start position:0%
+ de seguridad incorrecta, en el quinto
+ lugar<00:04:21.820><c>,</c><00:04:21.907><c> subiendo</c><00:04:22.300><c> desde</c><00:04:22.561><c> el</c><00:04:22.692><c> sexto</c><00:04:22.910><c>,</c><00:04:22.997><c> estuvo</c>
+
+00:04:23.259 --> 00:04:23.303 align:start position:0%
+ lugar, subiendo desde el sexto, estuvo
+ 
+
+00:04:23.303 --> 00:04:24.916 align:start position:0%
+ lugar, subiendo desde el sexto, estuvo
+ presente<00:04:23.695><c> en</c><00:04:23.826><c> el</c><00:04:23.957><c> 90</c><00:04:24.044><c>%</c><00:04:24.088><c>de</c><00:04:24.218><c> las</c><00:04:24.393><c> aplicaciones</c>
+
+00:04:24.916 --> 00:04:24.960 align:start position:0%
+ presente en el 90%de las aplicaciones
+ 
+
+00:04:24.960 --> 00:04:26.828 align:start position:0%
+ presente en el 90%de las aplicaciones
+ analizadas<00:04:25.396><c>.</c><00:04:25.700><c> No</c><00:04:25.830><c> es</c><00:04:25.960><c> sorprendente</c><00:04:26.524><c> dado</c><00:04:26.741><c> el</c>
+
+00:04:26.828 --> 00:04:26.872 align:start position:0%
+ analizadas. No es sorprendente dado el
+ 
+
+00:04:26.872 --> 00:04:28.131 align:start position:0%
+ analizadas. No es sorprendente dado el
+ aumento<00:04:27.219><c> de</c><00:04:27.349><c> software</c><00:04:27.740><c> altamente</c>
+
+00:04:28.131 --> 00:04:28.174 align:start position:0%
+ aumento de software altamente
+ 
+
+00:04:28.174 --> 00:04:30.960 align:start position:0%
+ aumento de software altamente
+ configurable<00:04:28.695><c>.</c><00:04:29.940><c> La</c><00:04:30.093><c> configuración</c><00:04:30.858><c> de</c>
+
+00:04:30.960 --> 00:04:31.011 align:start position:0%
+ configurable. La configuración de
+ 
+
+00:04:31.011 --> 00:04:32.797 align:start position:0%
+ configurable. La configuración de
+ seguridad<00:04:31.521><c> incorrecta</c><00:04:32.082><c> es</c><00:04:32.235><c> el</c><00:04:32.388><c> fallo</c><00:04:32.694><c> al</c>
+
+00:04:32.797 --> 00:04:32.848 align:start position:0%
+ seguridad incorrecta es el fallo al
+ 
+
+00:04:32.848 --> 00:04:34.582 align:start position:0%
+ seguridad incorrecta es el fallo al
+ implementar<00:04:33.460><c> todos</c><00:04:33.766><c> los</c><00:04:33.970><c> controles</c><00:04:34.480><c> de</c>
+
+00:04:34.582 --> 00:04:34.633 align:start position:0%
+ implementar todos los controles de
+ 
+
+00:04:34.633 --> 00:04:36.062 align:start position:0%
+ implementar todos los controles de
+ seguridad<00:04:35.143><c> para</c><00:04:35.398><c> un</c><00:04:35.551><c> servidor</c><00:04:36.011><c> o</c>
+
+00:04:36.062 --> 00:04:36.113 align:start position:0%
+ seguridad para un servidor o
+ 
+
+00:04:36.113 --> 00:04:38.000 align:start position:0%
+ seguridad para un servidor o
+ aplicación<00:04:36.725><c> web</c><00:04:36.878><c>,</c><00:04:36.980><c> o</c><00:04:37.082><c> implementarlos</c><00:04:37.847><c> con</c>
+
+00:04:38.000 --> 00:04:38.051 align:start position:0%
+ aplicación web, o implementarlos con
+ 
+
+00:04:38.051 --> 00:04:40.458 align:start position:0%
+ aplicación web, o implementarlos con
+ errores<00:04:38.408><c>.</c><00:04:39.240><c> Todos</c><00:04:39.492><c> cometemos</c><00:04:39.912><c> errores</c><00:04:40.248><c> y</c><00:04:40.332><c> las</c>
+
+00:04:40.458 --> 00:04:40.500 align:start position:0%
+ errores. Todos cometemos errores y las
+ 
+
+00:04:40.500 --> 00:04:41.677 align:start position:0%
+ errores. Todos cometemos errores y las
+ configuraciones<00:04:41.173><c> de</c><00:04:41.299><c> seguridad</c>
+
+00:04:41.677 --> 00:04:41.719 align:start position:0%
+ configuraciones de seguridad
+ 
+
+00:04:41.719 --> 00:04:43.358 align:start position:0%
+ configuraciones de seguridad
+ incorrectas<00:04:42.223><c> ocurren</c><00:04:42.560><c> por</c><00:04:42.728><c> una</c><00:04:42.896><c> amplia</c><00:04:43.190><c> gama</c>
+
+00:04:43.358 --> 00:04:43.400 align:start position:0%
+ incorrectas ocurren por una amplia gama
+ 
+
+00:04:43.400 --> 00:04:45.702 align:start position:0%
+ incorrectas ocurren por una amplia gama
+ de<00:04:43.526><c> errores</c><00:04:43.862><c> humanos</c><00:04:44.156><c>.</c><00:04:44.879><c> Malinterpretar</c><00:04:45.605><c> la</c>
+
+00:04:45.702 --> 00:04:45.750 align:start position:0%
+ de errores humanos. Malinterpretar la
+ 
+
+00:04:45.750 --> 00:04:47.348 align:start position:0%
+ de errores humanos. Malinterpretar la
+ implementación<00:04:46.525><c> de</c><00:04:46.670><c> un</c><00:04:46.815><c> sistema</c><00:04:47.154><c>,</c><00:04:47.251><c> no</c>
+
+00:04:47.348 --> 00:04:47.396 align:start position:0%
+ implementación de un sistema, no
+ 
+
+00:04:47.396 --> 00:04:48.558 align:start position:0%
+ implementación de un sistema, no
+ cambiar<00:04:47.783><c> las</c><00:04:47.977><c> credenciales</c>
+
+00:04:48.558 --> 00:04:48.606 align:start position:0%
+ cambiar las credenciales
+ 
+
+00:04:48.606 --> 00:04:50.398 align:start position:0%
+ cambiar las credenciales
+ predeterminadas<00:04:49.333><c>,</c><00:04:49.429><c> falta</c><00:04:49.720><c> de</c><00:04:49.865><c> habilidades</c>
+
+00:04:50.398 --> 00:04:50.446 align:start position:0%
+ predeterminadas, falta de habilidades
+ 
+
+00:04:50.446 --> 00:04:52.238 align:start position:0%
+ predeterminadas, falta de habilidades
+ informáticas<00:04:51.124><c> o</c><00:04:51.221><c> errores</c><00:04:51.608><c> bajo</c><00:04:51.850><c> presión</c>
+
+00:04:52.238 --> 00:04:52.286 align:start position:0%
+ informáticas o errores bajo presión
+ 
+
+00:04:52.286 --> 00:04:57.752 align:start position:0%
+ informáticas o errores bajo presión
+ de<00:04:52.431><c> tiempo</c><00:04:52.722><c>,</c><00:04:52.819><c> por</c><00:04:53.012><c> ejemplo</c><00:04:53.351><c>.</c><00:04:57.060><c> Los</c><00:04:57.244><c> componentes</c>
+
+00:04:57.752 --> 00:04:57.798 align:start position:0%
+ de tiempo, por ejemplo. Los componentes
+ 
+
+00:04:57.798 --> 00:04:59.182 align:start position:0%
+ de tiempo, por ejemplo. Los componentes
+ vulnerables<00:04:58.351><c> y</c><00:04:58.444><c> obsoletos</c><00:04:58.859><c>,</c><00:04:58.951><c> antes</c>
+
+00:04:59.182 --> 00:04:59.228 align:start position:0%
+ vulnerables y obsoletos, antes
+ 
+
+00:04:59.228 --> 00:05:00.935 align:start position:0%
+ vulnerables y obsoletos, antes
+ conocidos<00:04:59.689><c> como</c><00:04:59.920><c> uso</c><00:05:00.104><c> de</c><00:05:00.243><c> componentes</c><00:05:00.796><c> con</c>
+
+00:05:00.935 --> 00:05:00.981 align:start position:0%
+ conocidos como uso de componentes con
+ 
+
+00:05:00.981 --> 00:05:02.642 align:start position:0%
+ conocidos como uso de componentes con
+ vulnerabilidades<00:05:01.765><c> conocidas</c><00:05:02.180><c>,</c><00:05:02.273><c> suben</c><00:05:02.549><c> al</c>
+
+00:05:02.642 --> 00:05:02.688 align:start position:0%
+ vulnerabilidades conocidas, suben al
+ 
+
+00:05:02.688 --> 00:05:04.801 align:start position:0%
+ vulnerabilidades conocidas, suben al
+ sexto<00:05:02.965><c> lugar</c><00:05:03.241><c> desde</c><00:05:03.518><c> el</c><00:05:03.657><c> noveno</c><00:05:03.933><c>.</c><00:05:04.419><c> Según</c><00:05:04.716><c> el</c>
+
+00:05:04.801 --> 00:05:04.844 align:start position:0%
+ sexto lugar desde el noveno. Según el
+ 
+
+00:05:04.844 --> 00:05:06.205 align:start position:0%
+ sexto lugar desde el noveno. Según el
+ propio<00:05:05.142><c> OWASP</c><00:05:05.354><c>,</c><00:05:05.439><c> esta</c><00:05:05.652><c> categoría</c><00:05:06.120><c> es</c>
+
+00:05:06.205 --> 00:05:06.248 align:start position:0%
+ propio OWASP, esta categoría es
+ 
+
+00:05:06.248 --> 00:05:07.864 align:start position:0%
+ propio OWASP, esta categoría es
+ difícil<00:05:06.630><c> de</c><00:05:06.758><c> probar</c><00:05:07.013><c>,</c><00:05:07.098><c> pero</c><00:05:07.311><c> figuró</c><00:05:07.651><c> mucho</c>
+
+00:05:07.864 --> 00:05:07.907 align:start position:0%
+ difícil de probar, pero figuró mucho
+ 
+
+00:05:07.907 --> 00:05:09.353 align:start position:0%
+ difícil de probar, pero figuró mucho
+ en<00:05:08.034><c> la</c><00:05:08.162><c> encuesta</c><00:05:08.545><c> comunitaria</c><00:05:09.013><c>,</c><00:05:09.098><c> lo</c><00:05:09.225><c> que</c>
+
+00:05:09.353 --> 00:05:09.395 align:start position:0%
+ en la encuesta comunitaria, lo que
+ 
+
+00:05:09.395 --> 00:05:10.459 align:start position:0%
+ en la encuesta comunitaria, lo que
+ contribuyó<00:05:09.906><c> a</c><00:05:09.991><c> su</c><00:05:10.119><c> reciente</c>
+
+00:05:10.459 --> 00:05:10.501 align:start position:0%
+ contribuyó a su reciente
+ 
+
+00:05:10.501 --> 00:05:13.769 align:start position:0%
+ contribuyó a su reciente
+ clasificación<00:05:11.097><c>.</c><00:05:13.020><c> Los</c><00:05:13.219><c> componentes</c>
+
+00:05:13.769 --> 00:05:13.819 align:start position:0%
+ clasificación. Los componentes
+ 
+
+00:05:13.819 --> 00:05:15.417 align:start position:0%
+ clasificación. Los componentes
+ vulnerables<00:05:14.418><c> y</c><00:05:14.518><c> obsoletos</c><00:05:15.018><c> incluyen</c>
+
+00:05:15.417 --> 00:05:15.467 align:start position:0%
+ vulnerables y obsoletos incluyen
+ 
+
+00:05:15.467 --> 00:05:17.316 align:start position:0%
+ vulnerables y obsoletos incluyen
+ sistemas<00:05:15.917><c> operativos</c><00:05:16.417><c>,</c><00:05:16.516><c> servidores</c><00:05:17.066><c> web</c><00:05:17.266><c> o</c>
+
+00:05:17.316 --> 00:05:17.366 align:start position:0%
+ sistemas operativos, servidores web o
+ 
+
+00:05:17.366 --> 00:05:19.214 align:start position:0%
+ sistemas operativos, servidores web o
+ de<00:05:17.516><c> aplicaciones</c><00:05:18.115><c>,</c><00:05:18.215><c> sistemas</c><00:05:18.665><c> de</c><00:05:18.814><c> gestión</c>
+
+00:05:19.214 --> 00:05:19.264 align:start position:0%
+ de aplicaciones, sistemas de gestión
+ 
+
+00:05:19.264 --> 00:05:21.013 align:start position:0%
+ de aplicaciones, sistemas de gestión
+ de<00:05:19.414><c> bases</c><00:05:19.714><c> de</c><00:05:19.864><c> datos</c><00:05:20.113><c>,</c><00:05:20.213><c> APIs</c><00:05:20.463><c> y</c><00:05:20.563><c> todos</c><00:05:20.863><c> los</c>
+
+00:05:21.013 --> 00:05:21.063 align:start position:0%
+ de bases de datos, APIs y todos los
+ 
+
+00:05:21.063 --> 00:05:22.911 align:start position:0%
+ de bases de datos, APIs y todos los
+ componentes<00:05:21.612><c>,</c><00:05:21.712><c> entornos</c><00:05:22.162><c> de</c><00:05:22.311><c> ejecución</c><00:05:22.861><c> y</c>
+
+00:05:22.911 --> 00:05:22.961 align:start position:0%
+ componentes, entornos de ejecución y
+ 
+
+00:05:22.961 --> 00:05:24.809 align:start position:0%
+ componentes, entornos de ejecución y
+ librerías<00:05:23.510><c> vulnerables</c><00:05:24.060><c>,</c><00:05:24.160><c> sin</c><00:05:24.360><c> soporte</c><00:05:24.759><c> o</c>
+
+00:05:24.809 --> 00:05:24.859 align:start position:0%
+ librerías vulnerables, sin soporte o
+ 
+
+00:05:24.859 --> 00:05:27.577 align:start position:0%
+ librerías vulnerables, sin soporte o
+ desactualizados<00:05:25.609><c>.</c><00:05:26.700><c> A</c><00:05:26.787><c> un</c><00:05:26.919><c> adversario</c><00:05:27.401><c> solo</c>
+
+00:05:27.577 --> 00:05:27.621 align:start position:0%
+ desactualizados. A un adversario solo
+ 
+
+00:05:27.621 --> 00:05:29.025 align:start position:0%
+ desactualizados. A un adversario solo
+ le<00:05:27.752><c> basta</c><00:05:28.016><c> encontrar</c><00:05:28.454><c> un</c><00:05:28.586><c> componente</c>
+
+00:05:29.025 --> 00:05:29.069 align:start position:0%
+ le basta encontrar un componente
+ 
+
+00:05:29.069 --> 00:05:30.780 align:start position:0%
+ le basta encontrar un componente
+ vulnerable<00:05:29.551><c> para</c><00:05:29.770><c> comprometer</c><00:05:30.297><c> un</c><00:05:30.429><c> sistema</c><00:05:30.736><c>.</c>
+
+00:05:30.780 --> 00:05:31.320 align:start position:0%
+ vulnerable para comprometer un sistema.
+ 
+
+00:05:31.320 --> 00:05:32.766 align:start position:0%
+ vulnerable para comprometer un sistema.
+ El<00:05:31.459><c> problema</c><00:05:31.879><c> es</c><00:05:32.019><c> que</c><00:05:32.206><c> cada</c><00:05:32.439><c> año</c><00:05:32.673><c> se</c>
+
+00:05:32.766 --> 00:05:32.813 align:start position:0%
+ El problema es que cada año se
+ 
+
+00:05:32.813 --> 00:05:34.632 align:start position:0%
+ El problema es que cada año se
+ descubren<00:05:33.279><c> aproximadamente</c><00:05:34.026><c> 18,000</c><00:05:34.352><c> nuevas</c>
+
+00:05:34.632 --> 00:05:34.679 align:start position:0%
+ descubren aproximadamente 18,000 nuevas
+ 
+
+00:05:34.679 --> 00:05:36.499 align:start position:0%
+ descubren aproximadamente 18,000 nuevas
+ vulnerabilidades<00:05:35.426><c>,</c><00:05:35.519><c> por</c><00:05:35.706><c> lo</c><00:05:35.846><c> que</c><00:05:36.032><c> protegerse</c>
+
+00:05:36.499 --> 00:05:36.545 align:start position:0%
+ vulnerabilidades, por lo que protegerse
+ 
+
+00:05:36.545 --> 00:05:38.132 align:start position:0%
+ vulnerabilidades, por lo que protegerse
+ contra<00:05:36.872><c> las</c><00:05:37.059><c> conocidas</c><00:05:37.525><c> es</c><00:05:37.665><c> un</c><00:05:37.805><c> proceso</c>
+
+00:05:38.132 --> 00:05:38.179 align:start position:0%
+ contra las conocidas es un proceso
+ 
+
+00:05:38.179 --> 00:05:43.965 align:start position:0%
+ contra las conocidas es un proceso
+ continuo<00:05:38.552><c>.</c><00:05:42.880><c> Un</c><00:05:43.021><c> nuevo</c><00:05:43.304><c> nombre</c><00:05:43.634><c> para</c><00:05:43.870><c> la</c>
+
+00:05:43.965 --> 00:05:44.012 align:start position:0%
+ continuo. Un nuevo nombre para la
+ 
+
+00:05:44.012 --> 00:05:45.428 align:start position:0%
+ continuo. Un nuevo nombre para la
+ autenticación<00:05:44.720><c> rota</c><00:05:44.909><c>,</c><00:05:45.003><c> fallos</c><00:05:45.333><c> de</c>
+
+00:05:45.428 --> 00:05:45.475 align:start position:0%
+ autenticación rota, fallos de
+ 
+
+00:05:45.475 --> 00:05:47.315 align:start position:0%
+ autenticación rota, fallos de
+ identificación<00:05:46.230><c> y</c><00:05:46.324><c> autenticación</c><00:05:46.985><c>,</c><00:05:47.079><c> llega</c>
+
+00:05:47.315 --> 00:05:47.362 align:start position:0%
+ identificación y autenticación, llega
+ 
+
+00:05:47.362 --> 00:05:49.014 align:start position:0%
+ identificación y autenticación, llega
+ al<00:05:47.504><c> séptimo</c><00:05:47.929><c> lugar</c><00:05:48.164><c>,</c><00:05:48.259><c> bajando</c><00:05:48.636><c> desde</c><00:05:48.919><c> el</c>
+
+00:05:49.014 --> 00:05:49.061 align:start position:0%
+ al séptimo lugar, bajando desde el
+ 
+
+00:05:49.061 --> 00:05:50.650 align:start position:0%
+ al séptimo lugar, bajando desde el
+ segundo<00:05:49.391><c>.</c><00:05:49.620><c> Una</c><00:05:49.772><c> buena</c><00:05:50.001><c> señal</c><00:05:50.269><c> de</c><00:05:50.383><c> que</c><00:05:50.536><c> los</c>
+
+00:05:50.650 --> 00:05:50.689 align:start position:0%
+ segundo. Una buena señal de que los
+ 
+
+00:05:50.689 --> 00:05:52.140 align:start position:0%
+ segundo. Una buena señal de que los
+ marcos<00:05:50.956><c> estandarizados</c><00:05:51.529><c> están</c><00:05:51.796><c> ayudando</c><00:05:52.101><c>.</c>
+
+00:05:52.140 --> 00:05:52.840 align:start position:0%
+ marcos estandarizados están ayudando.
+ 
+
+00:05:52.840 --> 00:05:54.698 align:start position:0%
+ marcos estandarizados están ayudando.
+ La<00:05:52.990><c> autenticación</c><00:05:53.744><c> rota</c><00:05:53.995><c> se</c><00:05:54.145><c> refería</c><00:05:54.597><c> al</c>
+
+00:05:54.698 --> 00:05:54.748 align:start position:0%
+ La autenticación rota se refería al
+ 
+
+00:05:54.748 --> 00:05:56.506 align:start position:0%
+ La autenticación rota se refería al
+ compromiso<00:05:55.300><c> de</c><00:05:55.451><c> contraseñas</c><00:05:56.054><c>,</c><00:05:56.154><c> claves</c><00:05:56.456><c>,</c>
+
+00:05:56.506 --> 00:05:56.556 align:start position:0%
+ compromiso de contraseñas, claves,
+ 
+
+00:05:56.556 --> 00:05:58.264 align:start position:0%
+ compromiso de contraseñas, claves,
+ tokens<00:05:56.908><c> de</c><00:05:57.058><c> sesión</c><00:05:57.410><c>,</c><00:05:57.510><c> información</c><00:05:58.163><c> de</c>
+
+00:05:58.264 --> 00:05:58.314 align:start position:0%
+ tokens de sesión, información de
+ 
+
+00:05:58.314 --> 00:06:00.072 align:start position:0%
+ tokens de sesión, información de
+ cuentas<00:05:58.716><c> de</c><00:05:58.866><c> usuario</c><00:05:59.268><c> y</c><00:05:59.368><c> otros</c><00:05:59.670><c> detalles</c>
+
+00:06:00.072 --> 00:06:00.122 align:start position:0%
+ cuentas de usuario y otros detalles
+ 
+
+00:06:00.122 --> 00:06:02.612 align:start position:0%
+ cuentas de usuario y otros detalles
+ para<00:06:00.373><c> asumir</c><00:06:00.724><c> identidades</c><00:06:01.327><c> de</c><00:06:01.478><c> usuario</c><00:06:01.829><c>.</c><00:06:02.519><c> La</c>
+
+00:06:02.612 --> 00:06:02.658 align:start position:0%
+ para asumir identidades de usuario. La
+ 
+
+00:06:02.658 --> 00:06:04.150 align:start position:0%
+ para asumir identidades de usuario. La
+ nueva<00:06:02.938><c> posición</c><00:06:03.404><c> de</c><00:06:03.544><c> los</c><00:06:03.730><c> fallos</c><00:06:04.056><c> de</c>
+
+00:06:04.150 --> 00:06:04.196 align:start position:0%
+ nueva posición de los fallos de
+ 
+
+00:06:04.196 --> 00:06:05.688 align:start position:0%
+ nueva posición de los fallos de
+ identificación<00:06:04.942><c> y</c><00:06:05.035><c> autenticación</c>
+
+00:06:05.688 --> 00:06:05.734 align:start position:0%
+ identificación y autenticación
+ 
+
+00:06:05.734 --> 00:06:07.505 align:start position:0%
+ identificación y autenticación
+ muestra<00:06:06.107><c> que</c><00:06:06.294><c> procedimientos</c><00:06:06.993><c> como</c><00:06:07.226><c> el</c><00:06:07.365><c> MFA</c>
+
+00:06:07.505 --> 00:06:07.552 align:start position:0%
+ muestra que procedimientos como el MFA
+ 
+
+00:06:07.552 --> 00:06:09.090 align:start position:0%
+ muestra que procedimientos como el MFA
+ son<00:06:07.738><c> fundamentales</c><00:06:08.391><c> para</c><00:06:08.624><c> autenticar</c>
+
+00:06:09.090 --> 00:06:09.136 align:start position:0%
+ son fundamentales para autenticar
+ 
+
+00:06:09.136 --> 00:06:10.721 align:start position:0%
+ son fundamentales para autenticar
+ información<00:06:09.742><c> clave</c><00:06:10.022><c> como</c><00:06:10.255><c> nombres</c><00:06:10.628><c> de</c>
+
+00:06:10.721 --> 00:06:10.768 align:start position:0%
+ información clave como nombres de
+ 
+
+00:06:10.768 --> 00:06:16.235 align:start position:0%
+ información clave como nombres de
+ usuario<00:06:11.140><c> y</c><00:06:11.234><c> contraseñas</c><00:06:11.793><c>.</c><00:06:15.680><c> Otra</c><00:06:15.957><c> nueva</c>
+
+00:06:16.235 --> 00:06:16.291 align:start position:0%
+ usuario y contraseñas. Otra nueva
+ 
+
+00:06:16.291 --> 00:06:18.235 align:start position:0%
+ usuario y contraseñas. Otra nueva
+ categoría<00:06:16.846><c>,</c><00:06:16.957><c> fallos</c><00:06:17.346><c> de</c><00:06:17.513><c> integridad</c><00:06:18.124><c> de</c>
+
+00:06:18.235 --> 00:06:18.291 align:start position:0%
+ categoría, fallos de integridad de
+ 
+
+00:06:18.291 --> 00:06:20.457 align:start position:0%
+ categoría, fallos de integridad de
+ datos<00:06:18.624><c> y</c><00:06:18.735><c> software</c><00:06:19.180><c>,</c><00:06:19.291><c> llega</c><00:06:19.624><c> al</c><00:06:19.791><c> octavo</c><00:06:20.180><c> lugar</c>
+
+00:06:20.457 --> 00:06:22.457 align:start position:0%
+ datos y software, llega al octavo lugar
+,<00:06:20.568><c> enfocándose</c><00:06:21.291><c> en</c><00:06:21.457><c> actualizaciones</c><00:06:22.346><c> de</c>
+
+00:06:22.457 --> 00:06:22.513 align:start position:0%
+, enfocándose en actualizaciones de
+ 
+
+00:06:22.513 --> 00:06:24.680 align:start position:0%
+, enfocándose en actualizaciones de
+ software<00:06:22.957><c>,</c><00:06:23.068><c> datos</c><00:06:23.402><c> críticos</c><00:06:23.902><c>,</c><00:06:24.013><c> tuberías</c><00:06:24.568><c> CI</c>
+
+00:06:24.680 --> 00:06:26.680 align:start position:0%
+ software, datos críticos, tuberías CI
+/<00:06:24.735><c>CD</c><00:06:24.902><c> e</c><00:06:25.013><c> incluyendo</c><00:06:25.624><c> la</c><00:06:25.791><c> deserialización</c>
+
+00:06:26.680 --> 00:06:26.735 align:start position:0%
+/CD e incluyendo la deserialización
+ 
+
+00:06:26.735 --> 00:06:29.440 align:start position:0%
+/CD e incluyendo la deserialización
+ insegura<00:06:27.235><c> de</c><00:06:27.402><c> 2017</c><00:06:27.624><c>.</c><00:06:28.459><c> Esta</c><00:06:28.692><c> nueva</c><00:06:28.972><c> categoría</c>
+
+00:06:29.440 --> 00:06:29.486 align:start position:0%
+ insegura de 2017. Esta nueva categoría
+ 
+
+00:06:29.486 --> 00:06:30.701 align:start position:0%
+ insegura de 2017. Esta nueva categoría
+ se<00:06:29.627><c> relaciona</c><00:06:30.094><c> con</c><00:06:30.281><c> código</c><00:06:30.655><c> e</c>
+
+00:06:30.701 --> 00:06:30.748 align:start position:0%
+ se relaciona con código e
+ 
+
+00:06:30.748 --> 00:06:32.477 align:start position:0%
+ se relaciona con código e
+ infraestructura<00:06:31.496><c> que</c><00:06:31.683><c> no</c><00:06:31.823><c> protege</c><00:06:32.197><c> contra</c>
+
+00:06:32.477 --> 00:06:32.524 align:start position:0%
+ infraestructura que no protege contra
+ 
+
+00:06:32.524 --> 00:06:34.675 align:start position:0%
+ infraestructura que no protege contra
+ violaciones<00:06:33.084><c> de</c><00:06:33.225><c> integridad</c><00:06:33.692><c>.</c><00:06:34.138><c> Un</c><00:06:34.299><c> ejemplo</c>
+
+00:06:34.675 --> 00:06:34.729 align:start position:0%
+ violaciones de integridad. Un ejemplo
+ 
+
+00:06:34.729 --> 00:06:36.824 align:start position:0%
+ violaciones de integridad. Un ejemplo
+ de<00:06:34.890><c> esto</c><00:06:35.158><c> es</c><00:06:35.320><c> cuando</c><00:06:35.696><c> una</c><00:06:35.911><c> aplicación</c><00:06:36.502><c>,</c><00:06:36.609><c> como</c>
+
+00:06:36.824 --> 00:06:36.878 align:start position:0%
+ de esto es cuando una aplicación, como
+ 
+
+00:06:36.878 --> 00:06:38.866 align:start position:0%
+ de esto es cuando una aplicación, como
+ WordPress<00:06:37.361><c>,</c><00:06:37.469><c> depende</c><00:06:37.899><c> de</c><00:06:38.060><c> complementos</c><00:06:38.758><c> de</c>
+
+00:06:38.866 --> 00:06:38.919 align:start position:0%
+ WordPress, depende de complementos de
+ 
+
+00:06:38.919 --> 00:06:40.543 align:start position:0%
+ WordPress, depende de complementos de
+ fuentes<00:06:39.349><c> no</c><00:06:39.510><c> confiables</c><00:06:40.048><c>.</c><00:06:40.240><c> Un</c><00:06:40.370><c> solo</c>
+
+00:06:40.543 --> 00:06:40.586 align:start position:0%
+ fuentes no confiables. Un solo
+ 
+
+00:06:40.586 --> 00:06:42.234 align:start position:0%
+ fuentes no confiables. Un solo
+ complemento<00:06:41.107><c> comprometido</c><00:06:41.670><c> puede</c><00:06:41.931><c> darle</c><00:06:42.191><c> a</c>
+
+00:06:42.234 --> 00:06:42.277 align:start position:0%
+ complemento comprometido puede darle a
+ 
+
+00:06:42.277 --> 00:06:43.839 align:start position:0%
+ complemento comprometido puede darle a
+ un<00:06:42.408><c> atacante</c><00:06:42.798><c> acceso</c><00:06:43.101><c> a</c><00:06:43.188><c> su</c><00:06:43.318><c> aplicación</c><00:06:43.795><c>.</c>
+
+00:06:43.839 --> 00:06:47.700 align:start position:0%
+ un atacante acceso a su aplicación.
+ 
+
+00:06:47.700 --> 00:06:49.287 align:start position:0%
+ 
+ Previamente<00:06:48.188><c> categorizados</c><00:06:48.758><c> como</c><00:06:48.962><c> registro</c>
+
+00:06:49.287 --> 00:06:49.328 align:start position:0%
+ Previamente categorizados como registro
+ 
+
+00:06:49.328 --> 00:06:50.835 align:start position:0%
+ Previamente categorizados como registro
+ y<00:06:49.410><c> monitoreo</c><00:06:49.817><c> insuficientes</c><00:06:50.346><c>,</c><00:06:50.427><c> los</c><00:06:50.590><c> fallos</c>
+
+00:06:50.835 --> 00:06:50.875 align:start position:0%
+ y monitoreo insuficientes, los fallos
+ 
+
+00:06:50.875 --> 00:06:52.341 align:start position:0%
+ y monitoreo insuficientes, los fallos
+ de<00:06:50.997><c> registro</c><00:06:51.364><c> y</c><00:06:51.445><c> monitoreo</c><00:06:51.852><c> de</c><00:06:51.975><c> seguridad</c>
+
+00:06:52.341 --> 00:06:52.382 align:start position:0%
+ de registro y monitoreo de seguridad
+ 
+
+00:06:52.382 --> 00:06:53.970 align:start position:0%
+ de registro y monitoreo de seguridad
+ llegan<00:06:52.667><c> al</c><00:06:52.789><c> número</c><00:06:53.115><c> nueve</c><00:06:53.318><c>,</c><00:06:53.400><c> subiendo</c><00:06:53.766><c> desde</c>
+
+00:06:53.970 --> 00:06:54.010 align:start position:0%
+ llegan al número nueve, subiendo desde
+ 
+
+00:06:54.010 --> 00:06:56.107 align:start position:0%
+ llegan al número nueve, subiendo desde
+ el<00:06:54.132><c> puesto</c><00:06:54.417><c> 10</c><00:06:54.499><c>.</c><00:06:54.962><c> Aunque</c><00:06:55.343><c> es</c><00:06:55.507><c> difícil</c><00:06:55.997><c> de</c>
+
+00:06:56.107 --> 00:06:56.161 align:start position:0%
+ el puesto 10. Aunque es difícil de
+ 
+
+00:06:56.161 --> 00:06:57.633 align:start position:0%
+ el puesto 10. Aunque es difícil de
+ probar<00:06:56.543><c> debido</c><00:06:56.924><c> a</c><00:06:57.033><c> la</c><00:06:57.197><c> falta</c><00:06:57.524><c> de</c>
+
+00:06:57.633 --> 00:06:57.688 align:start position:0%
+ probar debido a la falta de
+ 
+
+00:06:57.688 --> 00:06:59.705 align:start position:0%
+ probar debido a la falta de
+ representación<00:06:58.560><c> en</c><00:06:58.724><c> los</c><00:06:58.942><c> datos</c><00:06:59.269><c> CVE</c><00:06:59.487><c> CSS</c><00:06:59.651><c>,</c>
+
+00:06:59.705 --> 00:06:59.760 align:start position:0%
+ representación en los datos CVE CSS,
+ 
+
+00:06:59.760 --> 00:07:01.613 align:start position:0%
+ representación en los datos CVE CSS,
+ los<00:06:59.978><c> fallos</c><00:07:00.359><c> de</c><00:07:00.523><c> registro</c><00:07:01.014><c> y</c><00:07:01.123><c> monitoreo</c>
+
+00:07:01.613 --> 00:07:01.668 align:start position:0%
+ los fallos de registro y monitoreo
+ 
+
+00:07:01.668 --> 00:07:03.195 align:start position:0%
+ los fallos de registro y monitoreo
+ pueden<00:07:02.050><c> afectar</c><00:07:02.486><c> seriamente</c><00:07:03.086><c> la</c>
+
+00:07:03.195 --> 00:07:03.249 align:start position:0%
+ pueden afectar seriamente la
+ 
+
+00:07:03.249 --> 00:07:09.583 align:start position:0%
+ pueden afectar seriamente la
+ visibilidad<00:07:03.903><c> y</c><00:07:04.012><c> el</c><00:07:04.176><c> análisis</c><00:07:04.721><c> forense</c><00:07:05.103><c>.</c><00:07:09.459><c> Por</c>
+
+00:07:09.583 --> 00:07:09.625 align:start position:0%
+ visibilidad y el análisis forense. Por
+ 
+
+00:07:09.625 --> 00:07:10.833 align:start position:0%
+ visibilidad y el análisis forense. Por
+ último<00:07:09.917><c>,</c><00:07:10.000><c> en</c><00:07:10.125><c> el</c><00:07:10.250><c> número</c><00:07:10.583><c> 10</c><00:07:10.666><c>,</c><00:07:10.749><c> la</c>
+
+00:07:10.833 --> 00:07:10.874 align:start position:0%
+ último, en el número 10, la
+ 
+
+00:07:10.874 --> 00:07:12.415 align:start position:0%
+ último, en el número 10, la
+ falsificación<00:07:11.499><c> de</c><00:07:11.624><c> peticiones</c><00:07:12.082><c> del</c><00:07:12.249><c> lado</c>
+
+00:07:12.415 --> 00:07:12.457 align:start position:0%
+ falsificación de peticiones del lado
+ 
+
+00:07:12.457 --> 00:07:13.914 align:start position:0%
+ falsificación de peticiones del lado
+ del<00:07:12.623><c> servidor</c><00:07:12.998><c> es</c><00:07:13.123><c> otra</c><00:07:13.331><c> nueva</c><00:07:13.581><c> adición</c>
+
+00:07:13.914 --> 00:07:13.956 align:start position:0%
+ del servidor es otra nueva adición
+ 
+
+00:07:13.956 --> 00:07:15.580 align:start position:0%
+ del servidor es otra nueva adición
+ debido<00:07:14.248><c> a</c><00:07:14.331><c> su</c><00:07:14.456><c> posición</c><00:07:14.872><c> número</c><00:07:15.205><c> uno</c><00:07:15.372><c> en</c><00:07:15.497><c> la</c>
+
+00:07:15.580 --> 00:07:15.622 align:start position:0%
+ debido a su posición número uno en la
+ 
+
+00:07:15.622 --> 00:07:17.246 align:start position:0%
+ debido a su posición número uno en la
+ encuesta<00:07:15.997><c> comunitaria</c><00:07:16.455><c>,</c><00:07:16.538><c> lo</c><00:07:16.663><c> que</c><00:07:16.829><c> indica</c><00:07:17.121><c> una</c>
+
+00:07:17.246 --> 00:07:17.287 align:start position:0%
+ encuesta comunitaria, lo que indica una
+ 
+
+00:07:17.287 --> 00:07:18.745 align:start position:0%
+ encuesta comunitaria, lo que indica una
+ fuerte<00:07:17.579><c> respuesta</c><00:07:17.995><c> de</c><00:07:18.120><c> la</c><00:07:18.245><c> comunidad</c><00:07:18.662><c> de</c>
+
+00:07:18.745 --> 00:07:18.787 align:start position:0%
+ fuerte respuesta de la comunidad de
+ 
+
+00:07:18.787 --> 00:07:19.994 align:start position:0%
+ fuerte respuesta de la comunidad de
+ seguridad<00:07:19.203><c> de</c><00:07:19.328><c> que</c><00:07:19.495><c> es</c><00:07:19.620><c> un</c><00:07:19.744><c> riesgo</c>
+
+00:07:19.994 --> 00:07:20.036 align:start position:0%
+ seguridad de que es un riesgo
+ 
+
+00:07:20.036 --> 00:07:21.577 align:start position:0%
+ seguridad de que es un riesgo
+ importante<00:07:20.452><c>,</c><00:07:20.536><c> aunque</c><00:07:20.827><c> no</c><00:07:20.952><c> esté</c><00:07:21.202><c> ilustrado</c>
+
+00:07:21.577 --> 00:07:21.618 align:start position:0%
+ importante, aunque no esté ilustrado
+ 
+
+00:07:21.618 --> 00:07:23.651 align:start position:0%
+ importante, aunque no esté ilustrado
+ en<00:07:21.743><c> los</c><00:07:21.910><c> datos</c><00:07:22.160><c> recopilados</c><00:07:22.618><c>.</c><00:07:23.560><c> La</c>
+
+00:07:23.651 --> 00:07:23.696 align:start position:0%
+ en los datos recopilados. La
+ 
+
+00:07:23.696 --> 00:07:25.382 align:start position:0%
+ en los datos recopilados. La
+ falsificación<00:07:24.380><c> de</c><00:07:24.516><c> peticiones</c><00:07:25.018><c> del</c><00:07:25.200><c> lado</c>
+
+00:07:25.382 --> 00:07:25.428 align:start position:0%
+ falsificación de peticiones del lado
+ 
+
+00:07:25.428 --> 00:07:27.205 align:start position:0%
+ falsificación de peticiones del lado
+ del<00:07:25.610><c> servidor</c><00:07:26.020><c> es</c><00:07:26.157><c> un</c><00:07:26.294><c> tipo</c><00:07:26.522><c> de</c><00:07:26.658><c> ataque</c><00:07:26.977><c> donde</c>
+
+00:07:27.205 --> 00:07:27.251 align:start position:0%
+ del servidor es un tipo de ataque donde
+ 
+
+00:07:27.251 --> 00:07:29.028 align:start position:0%
+ del servidor es un tipo de ataque donde
+ un<00:07:27.387><c> agresor</c><00:07:27.752><c> abusa</c><00:07:28.025><c> de</c><00:07:28.162><c> la</c><00:07:28.299><c> funcionalidad</c><00:07:28.937><c> de</c>
+
+00:07:29.028 --> 00:07:29.073 align:start position:0%
+ un agresor abusa de la funcionalidad de
+ 
+
+00:07:29.073 --> 00:07:30.623 align:start position:0%
+ un agresor abusa de la funcionalidad de
+ un<00:07:29.210><c> servidor</c><00:07:29.575><c>,</c><00:07:29.666><c> haciendo</c><00:07:30.076><c> que</c><00:07:30.258><c> acceda</c><00:07:30.577><c> o</c>
+
+00:07:30.623 --> 00:07:30.668 align:start position:0%
+ un servidor, haciendo que acceda o
+ 
+
+00:07:30.668 --> 00:07:32.400 align:start position:0%
+ un servidor, haciendo que acceda o
+ manipule<00:07:31.078><c> información</c><00:07:31.671><c> que</c><00:07:31.853><c> de</c><00:07:31.990><c> otro</c><00:07:32.218><c> modo</c>
+
+00:07:32.400 --> 00:07:32.446 align:start position:0%
+ manipule información que de otro modo
+ 
+
+00:07:32.446 --> 00:07:34.132 align:start position:0%
+ manipule información que de otro modo
+ no<00:07:32.582><c> sería</c><00:07:32.901><c> directamente</c><00:07:33.494><c> accesible</c><00:07:33.949><c> para</c>
+
+00:07:34.132 --> 00:07:34.177 align:start position:0%
+ no sería directamente accesible para
+ 
+
+00:07:34.177 --> 00:07:39.966 align:start position:0%
+ no sería directamente accesible para
+ él<00:07:34.314><c>.</c><00:07:38.680><c> El</c><00:07:38.808><c> OWASP</c><00:07:39.065><c> Top</c><00:07:39.237><c> 10</c><00:07:39.365><c> es</c><00:07:39.494><c> la</c><00:07:39.623><c> lista</c><00:07:39.880><c> de</c>
+
+00:07:39.966 --> 00:07:40.009 align:start position:0%
+ él. El OWASP Top 10 es la lista de
+ 
+
+00:07:40.009 --> 00:07:41.595 align:start position:0%
+ él. El OWASP Top 10 es la lista de
+ referencia<00:07:40.480><c> para</c><00:07:40.694><c> cualquiera</c><00:07:41.166><c> interesado</c>
+
+00:07:41.595 --> 00:07:41.638 align:start position:0%
+ referencia para cualquiera interesado
+ 
+
+00:07:41.638 --> 00:07:43.138 align:start position:0%
+ referencia para cualquiera interesado
+ en<00:07:41.766><c> aumentar</c><00:07:42.152><c> su</c><00:07:42.281><c> conciencia</c><00:07:42.752><c> sobre</c><00:07:43.010><c> los</c>
+
+00:07:43.138 --> 00:07:43.181 align:start position:0%
+ en aumentar su conciencia sobre los
+ 
+
+00:07:43.181 --> 00:07:45.195 align:start position:0%
+ en aumentar su conciencia sobre los
+ principales<00:07:43.696><c> riesgos</c><00:07:43.996><c>.</c><00:07:44.560><c> La</c><00:07:44.696><c> adición</c><00:07:45.105><c> de</c>
+
+00:07:45.195 --> 00:07:45.241 align:start position:0%
+ principales riesgos. La adición de
+ 
+
+00:07:45.241 --> 00:07:46.922 align:start position:0%
+ principales riesgos. La adición de
+ consideraciones<00:07:45.968><c> de</c><00:07:46.104><c> encuestas</c><00:07:46.513><c>,</c><00:07:46.604><c> además</c>
+
+00:07:46.922 --> 00:07:46.967 align:start position:0%
+ consideraciones de encuestas, además
+ 
+
+00:07:46.967 --> 00:07:48.466 align:start position:0%
+ consideraciones de encuestas, además
+ de<00:07:47.103><c> datos</c><00:07:47.376><c> puramente</c><00:07:47.830><c> estadísticos</c><00:07:48.421><c>,</c>
+
+00:07:48.466 --> 00:07:48.511 align:start position:0%
+ de datos puramente estadísticos,
+ 
+
+00:07:48.511 --> 00:07:49.874 align:start position:0%
+ de datos puramente estadísticos,
+ significa<00:07:48.966><c> que</c><00:07:49.147><c> OWASP</c><00:07:49.420><c> no</c><00:07:49.556><c> depende</c>
+
+00:07:49.874 --> 00:07:49.920 align:start position:0%
+ significa que OWASP no depende
+ 
+
+00:07:49.920 --> 00:07:51.555 align:start position:0%
+ significa que OWASP no depende
+ únicamente<00:07:50.465><c> de</c><00:07:50.601><c> datos</c><00:07:50.873><c> recopilados</c><00:07:51.418><c> por</c>
+
+00:07:51.555 --> 00:07:51.600 align:start position:0%
+ únicamente de datos recopilados por
+ 
+
+00:07:51.600 --> 00:07:53.523 align:start position:0%
+ únicamente de datos recopilados por
+ pruebas<00:07:51.964><c> automatizadas</c><00:07:52.554><c>.</c><00:07:53.080><c> Cuando</c><00:07:53.424><c> es</c>
+
+00:07:53.523 --> 00:07:53.572 align:start position:0%
+ pruebas automatizadas. Cuando es
+ 
+
+00:07:53.572 --> 00:07:55.444 align:start position:0%
+ pruebas automatizadas. Cuando es
+ posible<00:07:53.917><c>,</c><00:07:54.016><c> las</c><00:07:54.213><c> categorías</c><00:07:54.804><c> se</c><00:07:54.952><c> clasifican</c>
+
+00:07:55.444 --> 00:07:55.494 align:start position:0%
+ posible, las categorías se clasifican
+ 
+
+00:07:55.494 --> 00:07:57.415 align:start position:0%
+ posible, las categorías se clasifican
+ según<00:07:55.839><c> tres</c><00:07:56.085><c> consideraciones</c><00:07:56.873><c> principales</c>
+
+00:07:57.415 --> 00:07:58.992 align:start position:0%
+ según tres consideraciones principales
+:<00:07:57.514><c> explotabilidad</c><00:07:58.203><c>,</c><00:07:58.302><c> probabilidad</c><00:07:58.942><c> e</c>
+
+00:07:58.992 --> 00:07:59.041 align:start position:0%
+: explotabilidad, probabilidad e
+ 
+
+00:07:59.041 --> 00:08:01.528 align:start position:0%
+: explotabilidad, probabilidad e
+ impacto<00:07:59.435><c> técnico</c><00:07:59.829><c>.</c><00:08:00.580><c> Sin</c><00:08:00.760><c> embargo</c><00:08:01.076><c>,</c><00:08:01.167><c> la</c><00:08:01.302><c> misma</c>
+
+00:08:01.528 --> 00:08:01.573 align:start position:0%
+ impacto técnico. Sin embargo, la misma
+ 
+
+00:08:01.573 --> 00:08:03.199 align:start position:0%
+ impacto técnico. Sin embargo, la misma
+ OWASP<00:08:01.844><c> afirma</c><00:08:02.160><c> que</c><00:08:02.341><c> es</c><00:08:02.476><c> una</c><00:08:02.657><c> línea</c><00:08:02.973><c> base</c><00:08:03.154><c>,</c>
+
+00:08:03.199 --> 00:08:03.244 align:start position:0%
+ OWASP afirma que es una línea base,
+ 
+
+00:08:03.244 --> 00:08:04.734 align:start position:0%
+ OWASP afirma que es una línea base,
+ casi<00:08:03.470><c> un</c><00:08:03.605><c> pseudo</c><00:08:03.921><c> estándar</c><00:08:04.328><c>,</c><00:08:04.418><c> para</c><00:08:04.644><c> el</c>
+
+00:08:04.734 --> 00:08:04.780 align:start position:0%
+ casi un pseudo estándar, para el
+ 
+
+00:08:04.780 --> 00:08:06.270 align:start position:0%
+ casi un pseudo estándar, para el
+ cumplimiento<00:08:05.321><c>,</c><00:08:05.412><c> la</c><00:08:05.547><c> educación</c><00:08:06.044><c> y</c><00:08:06.134><c> las</c>
+
+00:08:06.270 --> 00:08:06.315 align:start position:0%
+ cumplimiento, la educación y las
+ 
+
+00:08:06.315 --> 00:08:08.498 align:start position:0%
+ cumplimiento, la educación y las
+ herramientas<00:08:06.902><c> de</c><00:08:07.038><c> proveedores</c><00:08:07.534><c>.</c><00:08:08.340><c> Como</c>
+
+00:08:08.498 --> 00:08:08.538 align:start position:0%
+ herramientas de proveedores. Como
+ 
+
+00:08:08.538 --> 00:08:09.806 align:start position:0%
+ herramientas de proveedores. Como
+ documento<00:08:08.934><c> de</c><00:08:09.053><c> concienciación</c><00:08:09.647><c>,</c><00:08:09.727><c> se</c>
+
+00:08:09.806 --> 00:08:09.845 align:start position:0%
+ documento de concienciación, se
+ 
+
+00:08:09.845 --> 00:08:11.074 align:start position:0%
+ documento de concienciación, se
+ considera<00:08:10.242><c> la</c><00:08:10.361><c> referencia</c><00:08:10.797><c> mínima</c>
+
+00:08:11.074 --> 00:08:11.114 align:start position:0%
+ considera la referencia mínima
+ 
+
+00:08:11.114 --> 00:08:12.421 align:start position:0%
+ considera la referencia mínima
+ necesaria<00:08:11.510><c> para</c><00:08:11.708><c> los</c><00:08:11.867><c> estándares</c><00:08:12.342><c> de</c>
+
+00:08:12.421 --> 00:08:12.461 align:start position:0%
+ necesaria para los estándares de
+ 
+
+00:08:12.461 --> 00:08:13.927 align:start position:0%
+ necesaria para los estándares de
+ codificación<00:08:12.976><c>,</c><00:08:13.055><c> revisiones</c><00:08:13.491><c> de</c><00:08:13.610><c> código</c><00:08:13.888><c>,</c>
+
+00:08:13.927 --> 00:08:13.967 align:start position:0%
+ codificación, revisiones de código,
+ 
+
+00:08:13.967 --> 00:08:15.314 align:start position:0%
+ codificación, revisiones de código,
+ revisiones<00:08:14.403><c> entre</c><00:08:14.641><c> pares</c><00:08:14.839><c>,</c><00:08:14.918><c> soporte</c><00:08:15.235><c> de</c>
+
+00:08:15.314 --> 00:08:15.354 align:start position:0%
+ revisiones entre pares, soporte de
+ 
+
+00:08:15.354 --> 00:08:16.900 align:start position:0%
+ revisiones entre pares, soporte de
+ herramientas<00:08:15.869><c> y</c><00:08:15.948><c> pruebas</c><00:08:16.265><c> de</c><00:08:16.384><c> penetración</c><00:08:16.860><c>.</c>
+
+00:08:16.900 --> 00:08:17.320 align:start position:0%
+ herramientas y pruebas de penetración.
+ 
+
+00:08:17.320 --> 00:08:18.681 align:start position:0%
+ herramientas y pruebas de penetración.
+ Al<00:08:17.451><c> centrarse</c><00:08:17.890><c> en</c><00:08:18.022><c> la</c><00:08:18.154><c> seguridad</c><00:08:18.593><c> de</c>
+
+00:08:18.681 --> 00:08:18.725 align:start position:0%
+ Al centrarse en la seguridad de
+ 
+
+00:08:18.725 --> 00:08:20.042 align:start position:0%
+ Al centrarse en la seguridad de
+ aplicaciones<00:08:19.252><c>,</c><00:08:19.339><c> muchos</c><00:08:19.647><c> de</c><00:08:19.778><c> los</c><00:08:19.954><c> 10</c>
+
+00:08:20.042 --> 00:08:20.086 align:start position:0%
+ aplicaciones, muchos de los 10
+ 
+
+00:08:20.086 --> 00:08:21.447 align:start position:0%
+ aplicaciones, muchos de los 10
+ principales<00:08:20.613><c> hallazgos</c><00:08:21.052><c> no</c><00:08:21.184><c> pueden</c>
+
+00:08:21.447 --> 00:08:21.491 align:start position:0%
+ principales hallazgos no pueden
+ 
+
+00:08:21.491 --> 00:08:23.160 align:start position:0%
+ principales hallazgos no pueden
+ probarse<00:08:21.886><c> fácilmente</c><00:08:22.413><c> de</c><00:08:22.545><c> forma</c><00:08:22.808><c> interna</c><00:08:23.116><c>.</c>
+
+00:08:23.160 --> 00:08:23.619 align:start position:0%
+ probarse fácilmente de forma interna.
+ 
+
+00:08:23.619 --> 00:08:25.330 align:start position:0%
+ probarse fácilmente de forma interna.
+ Al<00:08:23.770><c> ser</c><00:08:23.971><c> un</c><00:08:24.122><c> servicio</c><00:08:24.575><c> voluntario</c><00:08:25.078><c>,</c><00:08:25.179><c> los</c>
+
+00:08:25.330 --> 00:08:25.380 align:start position:0%
+ Al ser un servicio voluntario, los
+ 
+
+00:08:25.380 --> 00:08:27.344 align:start position:0%
+ Al ser un servicio voluntario, los
+ participantes<00:08:26.085><c> que</c><00:08:26.287><c> publican</c><00:08:26.740><c> información</c>
+
+00:08:27.344 --> 00:08:27.394 align:start position:0%
+ participantes que publican información
+ 
+
+00:08:27.394 --> 00:08:28.854 align:start position:0%
+ participantes que publican información
+ lo<00:08:27.545><c> hacen</c><00:08:27.847><c> teóricamente</c><00:08:28.552><c> sin</c><00:08:28.753><c> la</c>
+
+00:08:28.854 --> 00:08:28.904 align:start position:0%
+ lo hacen teóricamente sin la
+ 
+
+00:08:28.904 --> 00:08:30.716 align:start position:0%
+ lo hacen teóricamente sin la
+ experiencia<00:08:29.508><c> de</c><00:08:29.659><c> un</c><00:08:29.810><c> ataque</c><00:08:30.163><c> en</c><00:08:30.314><c> el</c><00:08:30.465><c> mundo</c>
+
+00:08:30.716 --> 00:08:30.767 align:start position:0%
+ experiencia de un ataque en el mundo
+ 
+
+00:08:30.767 --> 00:08:33.153 align:start position:0%
+ experiencia de un ataque en el mundo
+ real<00:08:30.968><c>.</c><00:08:31.858><c> Si</c><00:08:31.996><c> desea</c><00:08:32.274><c> saber</c><00:08:32.551><c> más</c><00:08:32.783><c> sobre</c><00:08:33.060><c> la</c>
+
+00:08:33.153 --> 00:08:33.199 align:start position:0%
+ real. Si desea saber más sobre la
+ 
+
+00:08:33.199 --> 00:08:34.910 align:start position:0%
+ real. Si desea saber más sobre la
+ lista<00:08:33.476><c> Top</c><00:08:33.661><c> 10</c><00:08:33.800><c> de</c><00:08:33.939><c> OWASP</c><00:08:34.170><c>,</c><00:08:34.263><c> esté</c><00:08:34.540><c> atento</c><00:08:34.864><c> a</c>
+
+00:08:34.910 --> 00:08:34.956 align:start position:0%
+ lista Top 10 de OWASP, esté atento a
+ 
+
+00:08:34.956 --> 00:08:36.298 align:start position:0%
+ lista Top 10 de OWASP, esté atento a
+ nuestro<00:08:35.326><c> próximo</c><00:08:35.743><c> video</c><00:08:35.974><c>,</c><00:08:36.066><c> donde</c>
+
+00:08:36.298 --> 00:08:36.344 align:start position:0%
+ nuestro próximo video, donde
+ 
+
+00:08:36.344 --> 00:08:38.055 align:start position:0%
+ nuestro próximo video, donde
+ comparamos<00:08:36.853><c> los</c><00:08:37.038><c> hallazgos</c><00:08:37.500><c> de</c><00:08:37.639><c> OWASP</c><00:08:37.917><c> con</c>
+
+00:08:38.055 --> 00:08:38.102 align:start position:0%
+ comparamos los hallazgos de OWASP con
+ 
+
+00:08:38.102 --> 00:08:39.489 align:start position:0%
+ comparamos los hallazgos de OWASP con
+ nuestra<00:08:38.472><c> propia</c><00:08:38.795><c> lista</c><00:08:39.073><c> de</c><00:08:39.212><c> los</c><00:08:39.397><c> 10</c>
+
+00:08:39.489 --> 00:08:39.535 align:start position:0%
+ nuestra propia lista de los 10
+ 
+
+00:08:39.535 --> 00:08:41.655 align:start position:0%
+ nuestra propia lista de los 10
+ principales<00:08:40.090><c> riesgos</c><00:08:40.414><c>.</c><00:08:40.823><c> El</c><00:08:40.961><c> riesgo</c><00:08:41.285><c> es</c><00:08:41.423><c> real</c><00:08:41.608><c>.</c>
+
+00:08:41.655 --> 00:08:42.540 align:start position:0%
+ principales riesgos. El riesgo es real.
+ 
+
+00:08:42.540 --> 00:08:45.180 align:start position:0%
+ principales riesgos. El riesgo es real.
+ Defiéndase<00:08:43.196><c> con</c><00:08:43.414><c> Cyber</c><00:08:43.742><c> Citadel</c><00:08:44.125><c>.</c>
+

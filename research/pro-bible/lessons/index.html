@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Матчасть для тех, кто строит сайты с нейронками</title>
+<meta name="description" content="Интерактивный курс: то, что нужно понимать в вёрстке, дизайне и скорости, когда код пишет модель.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2314171c%27/%3E%3Crect x=%277%27 y=%2718%27 width=%2718%27 height=%276%27 fill=%27%23ffe14d%27/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/GolosText-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/course.css?v=6">
+<style>
+.home{max-width:60rem;margin-inline:auto;padding:0 var(--gut) 5rem}
+.home .hero > *{max-width:44rem}
+.home section{padding-top:3.75rem}
+.home section > p,.home section > ul{max-width:var(--measure)}
+.plan{list-style:none;padding:0;margin:1.5rem 0 0;counter-reset:plan}
+.plan > li{counter-increment:plan;margin:0;padding:1.4rem 0;border-top:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr);gap:.2rem 2rem}
+.plan > li:last-child{border-bottom:1px solid var(--line)}
+.plan h3{margin:0;font-size:1.3rem}
+.plan h3::before{content:counter(plan) ". ";color:var(--ink-3);font-variant-numeric:tabular-nums}
+.plan h3 a{text-decoration-thickness:2px;text-decoration-color:var(--mark)}
+.plan p{margin-top:.45rem;color:var(--ink-2)}
+.plan ul{margin-top:.5rem;color:var(--ink-2);font-size:.97rem}
+.plan .state{font-size:.92rem;font-weight:650;margin-top:.5rem}
+.plan .state.ready{color:var(--good)}
+.plan .state.later{color:var(--ink-3)}
+.plan .score{font-weight:400;color:var(--ink-2)}
+@media (min-width:52rem){
+  .plan > li{grid-template-columns:minmax(0,1fr) 11rem}
+  .plan .state{margin-top:.35rem;text-align:right}
+  .plan .body{grid-column:1;grid-row:1}
+}
+.steps{counter-reset:step;list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(15rem,100%),1fr));gap:1rem 2rem;margin-top:1.4rem}
+.steps li{counter-increment:step;margin:0;padding-top:.7rem;border-top:2px solid var(--ink)}
+.steps li::before{content:counter(step);font-weight:700;font-size:1.1rem;display:block}
+.steps strong{display:block;margin-top:.15rem}
+.steps span{color:var(--ink-2);font-size:.97rem}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="index.html">Матчасть</a>
+    <span class="top-here">Курс из девяти уроков</span>
+  </div>
+</header>
+
+<main class="home">
+<div class="hero">
+  <h1>Матчасть для тех, кто строит сайты с нейронками</h1>
+  <p class="lead">Код пишет модель. Твоя работа: понимать, что она сделала, называть проблемы точными словами и проверять результат. Здесь только то, что для этого нужно.</p>
+  <p>В каждом уроке короткая теория, вещи, которые можно потрогать руками, типичные ошибки людей и нейронок, готовые фразы для промпта и способ проверить всё за минуту.</p>
+</div>
+
+<section aria-labelledby="h-plan">
+  <h2 id="h-plan">План курса</h2>
+  <ol class="plan">
+    <li>
+      <div class="body">
+        <h3><a href="01-layout.html">Как устроена страница</a></h3>
+        <p>Блоки, четыре алгоритма раскладки, адаптив, слои и теги со смыслом. Почему сайт едет вбок и как найти виновника.</p>
+        <ul>
+          <li>Выключатель слоёв HTML, CSS и JS.</li>
+          <li>Конструктор box model, Flex и Grid с живым CSS.</li>
+          <li>Рамка устройства: одна страница в трёх версиях вёрстки.</li>
+          <li>Игра «найди, кто торчит» на четыре раунда.</li>
+        </ul>
+      </div>
+      <p class="state ready" data-lesson="l1">Готов <span class="score"></span></p>
+    </li>
+    <li>
+      <div class="body">
+        <h3><a href="02-hierarchy.html">Иерархия, отступы, шрифт, цвет</a></h3>
+        <p>Почему одна страница выглядит дорого, а другая дёшево, при том же контенте. Как с первого взгляда узнать работу нейронки.</p>
+        <ul>
+          <li>Тест прищуром и чёрно-белый режим.</li>
+          <li>Упражнение «расставь уровни важности».</li>
+          <li>Шкала шрифта, длина строки, проверка контраста по WCAG.</li>
+          <li>Игра «найди десять признаков нейронки».</li>
+        </ul>
+      </div>
+      <p class="state ready" data-lesson="l2">Готов <span class="score"></span></p>
+    </li>
+    <li>
+      <div class="body">
+        <h3><a href="03-speed.html">Скорость и картинки</a></h3>
+        <p>Что происходит за первую секунду, три метрики Google и где фото-сайт теряет время.</p>
+        <ul>
+          <li>Симулятор загрузки с включаемыми ошибками.</li>
+          <li>Прыгающая страница с настоящим замером CLS.</li>
+          <li>Лаборатория картинок: твоё фото, реальные килобайты.</li>
+          <li>Анимация, которая замирает, и анимация, которая нет.</li>
+        </ul>
+      </div>
+      <p class="state ready" data-lesson="l3">Готов <span class="score"></span></p>
+    </li>
+    <li>
+      <div class="body">
+        <h3><a href="04-access.html">Доступность</a></h3>
+        <p>Клавиатура, фокус, программы экранного доступа, alt, размер касания, движение. Почему Lighthouse 100 ещё не значит «доступно».</p>
+        <ul>
+          <li>Пройти страницу клавишей Tab и увидеть, куда проваливается фокус.</li>
+          <li>Услышать карточку тура ушами программы экранного доступа.</li>
+          <li>Подобрать alt к четырём картинкам.</li>
+          <li>Попасть пальцем в «Keep», не задев «Delete».</li>
+        </ul>
+      </div>
+      <p class="state ready" data-lesson="l4">Готов <span class="score"></span></p>
+    </li>
+    <li>
+      <div class="body">
+        <h3><a href="05-forms.html">Формы и путь к заявке</a></h3>
+        <p>Подписи, лишние поля, ошибки, клавиатура телефона, двойная отправка и что происходит после «Отправить».</p>
+        <ul>
+          <li>Настоящие поля: подпись против подсказки внутри.</li>
+          <li>Конструктор формы заявки: что нужно, а что лишнее.</li>
+          <li>Когда показывать ошибку и как она должна выглядеть.</li>
+          <li>Медленная сеть и две одинаковые заявки.</li>
+        </ul>
+      </div>
+      <p class="state ready" data-lesson="l5">Готов <span class="score"></span></p>
+    </li>
+    <li>
+      <div class="body">
+        <h3><a href="06-search.html">Поиск и шаринг</a></h3>
+        <p>Что на самом деле влияет на поиск, title и description, карточка ссылки в мессенджере, structured data, один адрес у страницы.</p>
+        <ul>
+          <li>Редактор строки выдачи Google и шесть одинаковых вкладок.</li>
+          <li>Карточка ссылки: что меняет каждый тег Open Graph.</li>
+          <li>Проверка разметки structured data с ошибками.</li>
+          <li>Пять адресов одной страницы.</li>
+        </ul>
+      </div>
+      <p class="state ready" data-lesson="l6">Готов <span class="score"></span></p>
+    </li>
+    <li>
+      <div class="body">
+        <h3><a href="07-security.html">Безопасность, чужие скрипты и приватность</a></h3>
+        <p>Что важно, когда на сайте появилась форма или оплата. OWASP 2025, чужие скрипты, баннер cookie, GDPR и индонезийский закон о данных.</p>
+        <ul>
+          <li>Найти ключ в коде страницы, как это делает бот.</li>
+          <li>Опубликовать «отзыв» с кодом в изолированной рамке.</li>
+          <li>Купить тур за доллар у сервера, который верит браузеру.</li>
+          <li>Четыре баннера cookie и журнал запросов.</li>
+        </ul>
+      </div>
+      <p class="state ready" data-lesson="l7">Готов <span class="score"></span></p>
+    </li>
+    <li>
+      <div class="body">
+        <h3><a href="08-accept.html">Приёмка работы нейронки</a></h3>
+        <p>Задание, по которому можно принять работу, отчёт против доказательств, выдуманные факты, шлюз приёмки за 15 минут, передача домена и хостинга.</p>
+        <ul>
+          <li>Конструктор задания с открытыми рисками.</li>
+          <li>Разобрать отчёт модели: заявление или доказательство.</li>
+          <li>Найти выдумки на странице по брифу.</li>
+          <li>Переезд сайта и TTL на карте мира.</li>
+        </ul>
+      </div>
+      <p class="state ready" data-lesson="l8">Готов <span class="score"></span></p>
+    </li>
+    <li>
+      <div class="body">
+        <h3><a href="09-type-photo.html">Типографика и фото</a></h3>
+        <p>Алфавиты шрифта, число семейств, текст при увеличении, кадрирование фото под телефон, бриф фотографу. Самая тонкая тема по источникам, это сказано в уроке.</p>
+        <ul>
+          <li>Шрифт без кириллицы на настоящем примере.</li>
+          <li>Резиновый заголовок при увеличении 200%.</li>
+          <li>Одно фото на телефоне и на широком экране.</li>
+          <li>Конструктор брифа для фотографа.</li>
+        </ul>
+      </div>
+      <p class="state ready" data-lesson="l9">Готов <span class="score"></span></p>
+    </li>
+  </ol>
+</section>
+
+<section aria-labelledby="h-how">
+  <h2 id="h-how">Как устроен каждый урок</h2>
+  <ol class="steps">
+    <li><strong>Модель в голове</strong><span>Коротко, как это работает и почему.</span></li>
+    <li><strong>Потрогать</strong><span>Ползунки и переключатели: плохо, хорошо, в чём разница.</span></li>
+    <li><strong>Ошибки</strong><span>Три блока: где ошибаются люди, где ошибаются нейронки и частые ошибки, которые делают и те и другие.</span></li>
+    <li><strong>Фразы для модели</strong><span>На английском, копируются одной кнопкой.</span></li>
+    <li><strong>Проверка за минуту</strong><span>Что нажать в браузере, чтобы убедиться самому.</span></li>
+    <li><strong>Тест</strong><span>С объяснением после каждого ответа.</span></li>
+  </ol>
+</section>
+
+<section aria-labelledby="h-src">
+  <h2 id="h-src">На чём это основано</h2>
+  <p>Уроки собраны из трёх слоёв: первичные стандарты (web.dev, W3C WCAG 2.2, MDN, Google Search Central, OWASP, тексты законов ЕС), исходные тексты трёх наборов правил для моделей (Vercel, Addy Osmani, Anthropic) и 94 видео на восьми языках, перекрёстно проверенных на совпадения. Там, где источников мало или их нет, урок говорит об этом прямо. Правило попадает в урок, когда с ним согласны несколько независимых авторов или стандарт.</p>
+  <ul>
+    <li><strong>◆</strong> стандарт или первичный источник, проверено по тексту.</li>
+    <li><strong>◈</strong> согласие нескольких авторов или общая практика.</li>
+    <li><strong>◇</strong> мнение одного автора или спорный вопрос.</li>
+  </ul>
+  <p class="small">Сводка правил лежит рядом в файле BEST_PRACTICES_2026.md, сырые ответы перекрёстной проверки в папке answers.</p>
+
+  <h3>Как читать блоки об ошибках нейронок</h3>
+  <p>В блок «Где ошибаются нейронки» попадает только то, что кто-то видел в выдаче моделей 2025–2026 годов или о чём пишет сам разработчик модели. Рядом с каждым пунктом указано, кто это видел и на какой модели. Почти все такие наблюдения касаются внешнего вида: шрифты, цвета, шаблонные украшения.</p>
+  <p>Технические ошибки (скорость, доступность, формы, поиск, безопасность) реальны и подтверждены стандартами, но доказательств, что их делают именно нынешние модели, почти нет. Поэтому они собраны в блоке «Частые ошибки: у людей и у нейронок». Это список того, что проверить в любой сборке, а не наблюдение за моделями. Метка ◆ там подтверждает само правило.</p>
+  <p>Исключение составляет доступность. Независимый бенчмарк AIMAC (октябрь 2026) прогнал 70 моделей, включая Opus 5.5, Fable 5.1, GPT-6 Astra и Gemini 3.x: страницы без указаний про доступность, проверка axe-core по WCAG 2.2 AA. Его данные приведены в уроках 2 и 4. <span class="ev">◈ aimac.ai, методика открыта, все страницы опубликованы</span></p>
+  <p>Модели меняются каждые несколько месяцев, и признаки меняются вместе с ними. Фиолетовый градиент был главным признаком в середине 2026 года, а у новейших моделей шаблоны уже другие.</p>
+  <p class="small">Разбор происхождения каждого утверждения: PROVENANCE_ERRORS.md, AUDIT_INDEPENDENT.md и EXTERNAL_CHECK.md в папке уроков.</p>
+</section>
+</main>
+
+<script src="assets/course.js?v=6"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('[data-lesson]').forEach((el) => {
+    const r = Course.store.get('quiz:' + el.dataset.lesson, null);
+    if (r) el.querySelector('.score').textContent = '(тест ' + r.right + ' из ' + r.total + ')';
+  });
+});
+</script>
+</body>
+</html>

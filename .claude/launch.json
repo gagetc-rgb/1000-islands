@@ -1,0 +1,99 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wireframes",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5173",
+        "--directory",
+        "wireframes"
+      ],
+      "port": 5173
+    },
+    {
+      "name": "guide",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5180",
+        "--directory",
+        "guide"
+      ],
+      "port": 5180
+    },
+    {
+      "name": "project-root",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5174",
+        "--directory",
+        "."
+      ],
+      "port": 5174
+    },
+    {
+      "name": "lessons",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5190",
+        "--directory",
+        "research/pro-bible/lessons"
+      ],
+      "port": 5190
+    },
+    {
+      "name": "harness-ab",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5200",
+        "--directory",
+        "experiments/harness-ab"
+      ],
+      "port": 5200
+    },
+    {
+      "name": "directions",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-I",
+        "design-directions/_build/serve.py",
+        "5210"
+      ],
+      "port": 5210
+    },
+    {
+      "name": "directions-previous",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5211",
+        "--directory",
+        "design-directions/_dist"
+      ],
+      "port": 5211
+    },
+    {
+      "name": "guide-alt",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5181",
+        "--directory",
+        "guide"
+      ],
+      "port": 5181
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+
+== home @ 1440x790
+  HTTP>=400: none
+  a. "Raja Ampat" rect=517,14,81x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "North Sulawesi" rect=622,14,108x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "Yacht charters" rect=755,14,104x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "Guest stories" rect=883,14,95x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "About" rect=1002,14,43x44 vis=visible disp=flex op=1 checkVisibility=true
+  a.secondary "Travel agents" rect=1069,14,97x44 vis=visible disp=flex op=1 checkVisibility=true
+  a.btn.primary "Plan your trip" rect=1190,14,130x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "Raja Ampat" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "North Sulawesi" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "Yacht charters" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "Guest stories" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "About" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "Travel agents" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a.btn.primary "Plan your trip" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a.btn.ghost "WhatsApp" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  mbar: div.mbar.is-armed "Plan your tripWhatsA" rect=0,0,0x0 vis=visible disp=none op=1 checkVisibility=false classes=mbar is-armed
+  scroller x=500 w=820 padL=0px scrollPadL=auto firstCard x=500 overflowX=visible
+  trip card x:  parent overflowX: 
+
+== raja-ampat @ 1440x790
+  HTTP>=400: none
+  a. "Raja Ampat" rect=517,14,81x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "North Sulawesi" rect=622,14,108x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "Yacht charters" rect=755,14,104x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "Guest stories" rect=883,14,95x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "About" rect=1002,14,43x44 vis=visible disp=flex op=1 checkVisibility=true
+  a.secondary "Travel agents" rect=1069,14,97x44 vis=visible disp=flex op=1 checkVisibility=true
+  a.btn.primary "Plan your trip" rect=1190,14,130x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "Raja Ampat" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "North Sulawesi" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "Yacht charters" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "Guest stories" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "About" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "Travel agents" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a.btn.primary "Plan your trip" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a.btn.ghost "WhatsApp" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  mbar: div.mbar.is-armed "Plan your tripWhatsA" rect=0,0,0x0 vis=visible disp=none op=1 checkVisibility=false classes=mbar is-armed
+  scroller x=120 w=1200 padL=0px scrollPadL=auto firstCard x=120 overflowX=visible
+  trip card x: 120,528,936 parent overflowX: visible
+
+== plan @ 1440x790
+  HTTP>=400: none
+  a. "Raja Ampat" rect=517,14,81x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "North Sulawesi" rect=622,14,108x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "Yacht charters" rect=755,14,104x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "Guest stories" rect=883,14,95x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "About" rect=1002,14,43x44 vis=visible disp=flex op=1 checkVisibility=true
+  a.secondary "Travel agents" rect=1069,14,97x44 vis=visible disp=flex op=1 checkVisibility=true
+  a.btn.primary "Plan your trip" rect=1190,14,130x44 vis=visible disp=flex op=1 checkVisibility=true
+  a. "Raja Ampat" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "North Sulawesi" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "Yacht charters" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "Guest stories" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "About" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a. "Travel agents" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a.btn.primary "Plan your trip" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  a.btn.ghost "WhatsApp" rect=0,0,0x0 vis=visible disp=flex op=1 checkVisibility=false  hiddenBy: details.menu[vis=visible,op=1,tf=none]
+  mbar: none
+  no scroller
+  trip card x:  parent overflowX: 
+
+== home @ 390x664
+  HTTP>=400: none
+  a. "Raja Ampat" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "North Sulawesi" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "Yacht charters" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "Guest stories" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "About" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a.secondary "Travel agents" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a.btn.primary "Plan your trip" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "Raja Ampat" rect=342,64,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "North Sulawesi" rect=342,120,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "Yacht charters" rect=342,176,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "Guest stories" rect=342,232,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "About" rect=342,288,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "Travel agents" rect=342,344,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a.btn.primary "Plan your trip" rect=342,408,153x48 vis=visible disp=flex op=1 checkVisibility=false
+  a.btn.ghost "WhatsApp" rect=342,468,153x48 vis=visible disp=flex op=1 checkVisibility=false
+  mbar: div.mbar.is-armed "Plan your tripWhatsA" rect=0,621,390x61 vis=visible disp=grid op=1 checkVisibility=true classes=mbar is-armed
+  scroller x=16 w=358 padL=0px scrollPadL=auto firstCard x=16 overflowX=auto
+  trip card x:  parent overflowX: 
+
+== raja-ampat @ 390x664
+  HTTP>=400: none
+  a. "Raja Ampat" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "North Sulawesi" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "Yacht charters" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "Guest stories" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "About" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a.secondary "Travel agents" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a.btn.primary "Plan your trip" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "Raja Ampat" rect=342,64,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "North Sulawesi" rect=342,120,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "Yacht charters" rect=342,176,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "Guest stories" rect=342,232,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "About" rect=342,288,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "Travel agents" rect=342,344,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a.btn.primary "Plan your trip" rect=342,408,153x48 vis=visible disp=flex op=1 checkVisibility=false
+  a.btn.ghost "WhatsApp" rect=342,468,153x48 vis=visible disp=flex op=1 checkVisibility=false
+  mbar: div.mbar.is-armed "Plan your tripWhatsA" rect=0,621,390x61 vis=visible disp=grid op=1 checkVisibility=true classes=mbar is-armed
+  scroller x=16 w=358 padL=0px scrollPadL=auto firstCard x=16 overflowX=auto
+  trip card x: 16,341,665 parent overflowX: auto
+
+== plan @ 390x664
+  HTTP>=400: none
+  a. "Raja Ampat" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "North Sulawesi" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "Yacht charters" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "Guest stories" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "About" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a.secondary "Travel agents" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a.btn.primary "Plan your trip" rect=0,0,0x0 vis=visible disp=inline-flex op=1 checkVisibility=false  hiddenBy: nav.nav[vis=visible,op=1,tf=none]
+  a. "Raja Ampat" rect=342,64,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "North Sulawesi" rect=342,120,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "Yacht charters" rect=342,176,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "Guest stories" rect=342,232,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "About" rect=342,288,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a. "Travel agents" rect=342,344,153x52 vis=visible disp=flex op=1 checkVisibility=false
+  a.btn.primary "Plan your trip" rect=342,408,153x48 vis=visible disp=flex op=1 checkVisibility=false
+  a.btn.ghost "WhatsApp" rect=342,468,153x48 vis=visible disp=flex op=1 checkVisibility=false
+  mbar: none
+  no scroller
+  trip card x:  parent overflowX: 

@@ -1,0 +1,8 @@
+# Cloudflare Pages project for the owner guide. The KV store keeps the "сделал" checkmarks server-side (functions/api/done.js).
+name = "islands-1000-guide"
+pages_build_output_dir = "site"
+compatibility_date = "2026-10-01"
+
+[[kv_namespaces]]
+binding = "DONE"
+id = "dbedc22679254be081cd551a5fd56fa6"

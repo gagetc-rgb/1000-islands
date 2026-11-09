@@ -1,0 +1,849 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Урок 4. Доступность</title>
+<meta name="description" content="Клавиатура, фокус, программы экранного доступа, alt, размер касания, движение. Интерактивный урок для тех, кто строит сайты с нейронками.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2314171c%27/%3E%3Crect x=%277%27 y=%2718%27 width=%2718%27 height=%276%27 fill=%27%23ffe14d%27/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/GolosText-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/course.css?v=6">
+<style>
+/* lesson 4: demo-only styles */
+.who{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(14rem,100%),1fr));gap:1rem;margin-top:1.5rem;padding:0;list-style:none}
+.who li{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:.9rem 1rem}
+.who .mh{font-size:1.02rem}
+.who p{margin-top:.35rem;font-size:.95rem;color:var(--ink-2)}
+
+.demo-frame{display:block;width:100%;height:23rem;border:2px solid var(--ink);border-radius:12px;background:#fff}
+#kbdLog{list-style:none;padding:0;margin:.5rem 0 0;display:flex;flex-wrap:wrap;gap:.35rem}
+#kbdLog li{margin:0;font-size:.86rem;padding:.12rem .5rem;border-radius:6px;background:var(--sunk);border:1px solid var(--line)}
+#kbdLog li.warn{background:var(--bad-bg);border-color:var(--bad-line)}
+
+.fd{display:flex;flex-wrap:wrap;gap:.5rem 1.4rem;align-items:center;padding:1rem 1.2rem;background:#fff;border:1px solid var(--line);border-radius:10px}
+.fd a{color:var(--ink-2);text-decoration:none;font-weight:600;padding:.35rem .2rem;border-radius:6px}
+.fd a.fd-cta{background:var(--ink);color:#fff;padding:.5rem .95rem;margin-left:auto}
+#focusStage[data-mode=none] .fd a:focus-visible{outline:none;box-shadow:none}
+#focusStage[data-mode=color] .fd a:focus-visible{outline:none;color:var(--ink)}
+#focusStage[data-mode=color] .fd a.fd-cta:focus-visible{color:#fff;background:#2a2f38}
+#focusStage[data-mode=ring] .fd a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+
+.sr-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem;align-items:start}
+@media (min-width:52rem){.sr-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+#srFrame{height:27rem}
+.sr-out{background:#10141a;color:#e6e9ee;border-radius:var(--r);padding:.9rem 1rem;font-family:var(--mono);font-size:.86rem;line-height:1.5;min-height:12rem}
+.sr-out ol{margin:0;padding-left:1.6rem}
+.sr-out li+li{margin-top:.3rem}
+.sr-out .miss{color:#ffb4ab}
+.sr-out .ok{color:#9be3b5}
+.sr-out .dim{color:#a9b2c0}
+
+.alt-card{display:grid;grid-template-columns:minmax(0,1fr);gap:1rem 1.5rem;align-items:start}
+@media (min-width:46rem){.alt-card{grid-template-columns:15rem minmax(0,1fr)}}
+.alt-pic{background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem}
+.alt-pic svg{display:block;width:100%;height:auto;border-radius:6px}
+.alt-ctx{font-size:.92rem;color:var(--ink-2);margin-top:.5rem}
+.alt-opts{display:grid;gap:.5rem;margin-top:.6rem}
+.alt-opts button{font:inherit;text-align:left;padding:.55rem .8rem;min-height:2.75rem;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);cursor:pointer;font-family:var(--mono);font-size:.86rem;overflow-wrap:anywhere}
+.alt-opts button:hover:not(:disabled){border-color:var(--ink)}
+.alt-opts button.right{background:var(--good-bg);border-color:var(--good-line)}
+.alt-opts button.wrong{background:var(--bad-bg);border-color:var(--bad-line)}
+.alt-opts button:disabled{cursor:default}
+.alt-nav{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;margin-top:.9rem}
+
+.tap-wrap{display:flex;flex-wrap:wrap;gap:1.25rem 2rem;align-items:center;justify-content:center}
+#tapPad{position:relative;width:16rem;height:12rem;max-width:100%;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.tap-t{position:absolute;top:50%;transform:translateY(-50%);border-radius:6px;display:grid;place-items:center;font-size:.7rem;font-weight:650;overflow:hidden;white-space:nowrap}
+.tap-t.del{background:var(--bad-bg);border:1.5px solid var(--bad);color:var(--bad)}
+.tap-t.ok{background:var(--good-bg);border:1.5px solid var(--good);color:var(--good)}
+.tap-dot{position:absolute;width:6px;height:6px;margin:-3px 0 0 -3px;border-radius:50%;background:var(--ink)}
+.tap-dot.miss{background:var(--bad)}
+.tap-key{font-size:.92rem;max-width:20rem}
+
+.mo-box{position:relative;height:13rem;border-radius:10px;overflow:hidden;background:linear-gradient(165deg,#3f93c9,#9fd3f0 45%,#f4ecd0 78%,#f1c98c)}
+.mo-card{position:absolute;left:1.2rem;bottom:1.2rem;background:#fff;border-radius:10px;padding:.7rem .9rem;max-width:14rem;box-shadow:0 6px 20px rgba(20,23,28,.18)}
+.mo-card .mh{font-size:1rem}
+.mo-card p{margin:.2rem 0 0;font-size:.82rem;color:var(--ink-2)}
+.mo-strip{position:absolute;top:1rem;right:1rem;width:9rem;height:5.5rem;border-radius:8px;overflow:hidden;background:rgba(255,255,255,.35)}
+.mo-strip > div{display:flex;width:300%;height:100%}
+.mo-strip span{flex:1;display:grid;place-items:center;font-size:.78rem;font-weight:650;color:var(--ink)}
+.mo-strip span:nth-child(1){background:#fff6c7}.mo-strip span:nth-child(2){background:#e2f3e7}.mo-strip span:nth-child(3){background:#efeafb}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-18px) rotate(1.5deg)}}
+#motion[data-anim=on] .mo-card{animation:bob 2.4s ease-in-out infinite}
+.mo-strip > div{transition:transform .5s ease}
+#moPause{position:absolute;top:7rem;right:1rem;font:inherit;font-size:.78rem;font-weight:650;padding:.25rem .6rem;min-height:1.9rem;border-radius:6px;border:1px solid var(--ink);background:#fff;color:var(--ink);cursor:pointer}
+#motion[data-site=ignore] #moPause{display:none}
+@media (prefers-reduced-motion:reduce){#motion .mo-card{animation:none!important}.mo-strip > div{transition:none}}
+
+.live-box{display:flex;flex-wrap:wrap;gap:1rem 1.5rem;align-items:center}
+#liveBtn{font:inherit;font-weight:650;padding:.6rem 1.1rem;min-height:2.75rem;border-radius:8px;border:2px solid var(--ink);background:#fff;color:var(--ink);cursor:pointer}
+#liveToast{font-size:.95rem;font-weight:650;color:var(--good);min-height:1.5rem}
+#liveSays{font-family:var(--mono);font-size:.88rem;background:#10141a;color:#e6e9ee;border-radius:8px;padding:.6rem .8rem;flex:1 1 16rem}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="index.html">Матчасть</a>
+    <span class="top-here">Урок 4 из 9: доступность</span>
+    <a class="top-next" href="05-forms.html">Следующий урок</a>
+  </div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+</header>
+
+<div class="shell">
+<nav aria-label="Содержание урока"><details class="toc"><summary>Содержание</summary><ol></ol></details></nav>
+
+<main>
+<div class="hero">
+  <h1>Урок 4. Доступность</h1>
+  <p class="lead">Сайт должен работать без мыши, без зрения, с крупным шрифтом и дрожащей рукой. Это не отдельная функция, а качество вёрстки, и нейронки его ломают: в независимом бенчмарке ошибки контраста есть на 87% страниц, которые сделали модели. <span class="ev">◈ AIMAC, октябрь 2026</span></p>
+  <p>Около часа. Семь интерактивов: пройти страницу клавиатурой, услышать её ушами программы экранного доступа, подобрать alt, попасть пальцем в кнопку. Часть из них симуляции, это подписано. В конце чек-лист и тест.</p>
+  <p class="small">Пометки: ◆ стандарт или первичный источник, ◈ согласие нескольких авторов или общая практика, ◇ мнение одного автора.</p>
+</div>
+
+<section class="sec" id="who" data-short="Для кого и зачем">
+  <h2>Для кого это и почему это не мелочь</h2>
+  <p>Доступность обычно представляют как заботу о незрячих. На деле круг шире, и в нём рано или поздно оказывается каждый.</p>
+  <ul class="who">
+    <li><div class="mh">Клавиатура</div><p>Люди с нарушениями моторики, опытные пользователи, все, у кого сломалась мышь или тачпад.</p></li>
+    <li><div class="mh">Программа экранного доступа</div><p>Незрячие и слабовидящие. Программа читает страницу вслух и перемещается по заголовкам, ссылкам и полям.</p></li>
+    <li><div class="mh">Увеличение</div><p>Каждый, кто старше сорока, и любой человек на солнце с телефоном. Страница должна выдерживать крупный шрифт.</p></li>
+    <li><div class="mh">Временные ограничения</div><p>Рука в гипсе, ребёнок на руках, тряский транспорт. Мелкая кнопка рядом с «Удалить» становится ловушкой.</p></li>
+  </ul>
+  <p>Масштаб проблемы измерен. WebAIM каждый год проверяет главные страницы миллиона популярных сайтов. В выпуске 2026 года автоматические ошибки по WCAG нашлись у 95,9% страниц, и почти все ошибки сводятся к шести типам: слабый контраст текста (83,9% страниц), картинки без alt (53,1%), поля без подписи (51%), пустые ссылки, пустые кнопки, не указан язык страницы. <span class="ev">◆ WebAIM Million 2026, проверено по тексту</span></p>
+  <p>У страниц, которые делают модели, четыре из этих шести типов тоже в верхней части списка: контраст, пустые ссылки, поля без подписи, пустые кнопки. <span class="ev">◈ AIMAC, октябрь 2026</span> Хорошая новость: все шесть легко проверить, и в этом уроке ты научишься это делать.</p>
+
+  <h3>Что говорит стандарт</h3>
+  <p>Правила доступности собраны в <mark>WCAG 2.2</mark>, это документ консорциума W3C. В нём три уровня: A, AA и AAA. Рабочая планка для сайтов это AA. Сам стандарт не советует требовать AAA для целого сайта, потому что часть критериев AAA для некоторых страниц невыполнима. Разумное правило: AA обязательно, AAA там, где это дёшево. <span class="ev">◆ WCAG 2.2, примечание к уровням соответствия</span></p>
+  <p>Обязателен ли он по закону, зависит от страны и размера бизнеса. В ЕС с 28 июня 2025 года действует European Accessibility Act, он касается в том числе онлайн-продаж потребителям. Микропредприятия, то есть меньше 10 человек и оборот до 2 млн евро, освобождены от требований к услугам. <span class="ev">◈ несколько юридических обзоров; текст директивы сам не сверял</span> Для маленького туроператора это скорее аргумент качества, чем закона. Но если клиент больше, вопрос нужно задать юристу.</p>
+</section>
+
+<section class="sec" id="keyboard" data-short="Клавиатура">
+  <h2>Пройди страницу клавиатурой</h2>
+  <p>Клавиша <code>Tab</code> переводит фокус на следующий интерактивный элемент: ссылку, кнопку, поле. <code>Shift+Tab</code> назад, <code>Enter</code> нажимает ссылку и кнопку, пробел нажимает кнопку и ставит галочку. Если до элемента нельзя дойти клавишей Tab, для части людей его просто нет. <span class="ev">◆ WCAG 2.1.1; ◈ пять авторов в подборке</span></p>
+
+  <div class="stage" id="kbd" data-ver="bad" data-order="off">
+    <div class="stage-head">
+      <span class="stage-title">Шапка и первый экран сайта туров</span>
+      <div class="seg" role="group" aria-label="Версия страницы">
+        <button type="button" class="is-bad" data-set="ver=bad" aria-pressed="true">Типичная ошибка</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Исправленная</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field"><input type="checkbox" data-flag="order"> Показать порядок Tab цифрами</label>
+      <button type="button" class="btn ghost" id="kbdFocus">Поставить фокус в начало рамки</button>
+    </div>
+    <div class="stage-body sunk"><iframe class="demo-frame" id="kbdFrame" title="Пример страницы для проверки клавиатурой"></iframe></div>
+    <div class="stage-foot">
+      <p id="kbdHint">Нажми кнопку «Поставить фокус в начало рамки» и дальше жми <code>Tab</code>. Здесь будет записан путь фокуса.</p>
+      <ul id="kbdLog" aria-live="polite"></ul>
+      <p id="kbdOut" class="readout" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <p>В плохой версии собраны четыре самые частые ошибки, все четыре из реальных ответов моделей:</p>
+  <ul>
+    <li><strong>Пункты меню и кнопка сделаны из <code>div</code> с обработчиком клика.</strong> Мышью работает, клавиатурой нет: <code>div</code> не получает фокус. Правило простое: действие это <code>button</code>, переход это <code>a</code>. <span class="ev">◆ WCAG 4.1.2; ◈ пять авторов</span></li>
+    <li><strong><code>tabindex="1"</code> у ссылки на видео.</strong> Положительный tabindex выдёргивает элемент в начало очереди, и порядок перестаёт совпадать с тем, что видно глазами. <span class="ev">◆ MDN: «Avoid using tabindex values greater than 0»</span></li>
+    <li><strong>Спрятанное мобильное меню уехало за край экрана, но осталось в очереди Tab.</strong> Фокус проваливается в невидимые ссылки, и человек жмёт Tab четыре раза вслепую.</li>
+    <li><strong>Нет ссылки «Skip to content».</strong> На длинной шапке человек с клавиатурой проходит всё меню на каждой странице. Первым элементом в очереди должна быть ссылка, которая перепрыгивает к содержимому. Она видна только при фокусе. <span class="ev">◆ WCAG 2.4.1; ◈ три автора</span></li>
+  </ul>
+
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>«Кнопки» из <code>div</code> и <code>span</code> с <code>role="button"</code>, до которых не добраться с клавиатуры. <span class="ev">◈ Osmani, Vercel</span></li>
+      <li>Меню, модальное окно или раскрывающийся блок спрятаны сдвигом за край или прозрачностью. Содержимое остаётся доступным для Tab. <span class="ev">◈ Soueidan</span></li>
+      <li>Модальное окно не забирает фокус при открытии и не возвращает его на кнопку при закрытии. <span class="ev">◆ W3C WAI-ARIA APG, шаблон Dialog (Modal)</span></li>
+      <li>Карусель или выпадающее меню, которое открывается только при наведении мыши. <span class="ev">◈ Vercel, Impeccable</span></li>
+    </ul>
+    <p class="small">Работу с клавиатурой у нынешних моделей никто не проверял вручную. В единственном аудите выдачи Claude из наших источников (Flux, май 2026) человек с клавиатурой терял навигацию по якорям, а у главной кнопки не было видимого фокуса. <span class="ev">◇ один аудит</span></p>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Every action is a button element and every navigation is an a element with href. No click handlers on div or span.</li>
+      <li>No positive tabindex anywhere. Tab order follows the visual order.</li>
+      <li>Hidden menus, drawers and closed dialogs are removed from the tab order (hidden attribute, display: none or inert), not just moved off-screen.</li>
+      <li>Add a skip link to main content as the first focusable element; it appears on focus.</li>
+      <li>Dialogs move focus inside on open, trap it while open, close on Escape and return focus to the trigger.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="focus" data-short="Видимый фокус">
+  <h2>Фокус должен быть виден</h2>
+  <p>Мышь показывает курсор. У клавиатуры курсора нет, его роль играет рамка фокуса. Дизайнеры её не любят, и самая популярная строка в CSS, которая ломает доступность, это <code>outline: none</code>. Убирать рамку можно только вместе с заменой, которая видна не хуже. <span class="ev">◆ WCAG 2.4.7; ◆ MDN :focus-visible; ◈ три автора</span></p>
+
+  <div class="stage" id="focusStage" data-mode="none">
+    <div class="stage-head">
+      <span class="stage-title">Нажми сюда и пройди по меню клавишей Tab</span>
+      <div class="seg" role="group" aria-label="Стиль фокуса">
+        <button type="button" class="is-bad" data-set="mode=none" aria-pressed="true">outline: none</button>
+        <button type="button" class="is-bad" data-set="mode=color" aria-pressed="false">Только цвет текста</button>
+        <button type="button" class="is-good" data-set="mode=ring" aria-pressed="false">Заметная рамка</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="fd" id="fdBar">
+        <a href="#focus">Tours</a>
+        <a href="#focus">Dates and prices</a>
+        <a href="#focus">About us</a>
+        <a href="#focus">Contact</a>
+        <a href="#focus" class="fd-cta">Book a trip</a>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="focusOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>Обрати внимание на вторую кнопку. Смена цвета текста кажется заменой, но разницу между серым и чёрным глаз почти не ловит. Стандарт требует для индикаторов состояния контраст хотя бы 3:1 с соседними цветами. <span class="ev">◆ WCAG 1.4.11</span> И ещё одна ловушка: липкая шапка или плашка cookie не должна закрывать элемент в фокусе целиком. <span class="ev">◆ WCAG 2.4.11, новое в версии 2.2</span></p>
+  <p>Свойство <code>:focus-visible</code> решает старый спор с дизайнерами: рамка показывается при работе с клавиатуры и не появляется при щелчке мышью. Поэтому аргумента «рамка некрасиво торчит после клика» больше нет.</p>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Never remove the focus outline without an equally visible replacement. Use :focus-visible with a 2-3 px outline in a colour that has 3:1 contrast against both the element and the background.</li>
+      <li>Sticky headers and banners must not cover the focused element; set scroll-padding-top to the header height.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="sr" data-short="Что слышит программа">
+  <h2>Что слышит программа экранного доступа</h2>
+  <p>Программа экранного доступа (screen reader) не видит картинку страницы. Она читает дерево доступности: браузер строит его из HTML и для каждого элемента знает три вещи. <mark>Роль</mark>: это кнопка, ссылка, заголовок, поле. <mark>Имя</mark>: что на ней написано или что сказано в alt и подписи. <mark>Состояние</mark>: нажато, раскрыто, отмечено. Если в HTML этого нет, программе неоткуда это взять.</p>
+  <p>Ниже симуляция: упрощённая модель того, что объявит программа. Настоящие программы (NVDA, JAWS, VoiceOver, Narrator) говорят немного по-разному, но суть та же.</p>
+
+  <div class="stage" id="srStage" data-ver="bad" data-view="all">
+    <div class="stage-head">
+      <span class="stage-title">Карточка тура глазами и ушами</span>
+      <div class="seg" role="group" aria-label="Версия кода">
+        <button type="button" class="is-bad" data-set="ver=bad" aria-pressed="true">Типичная ошибка</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Исправленная</button>
+      </div>
+    </div>
+    <div class="controls">
+      <span class="field">Что читать
+        <span class="seg" role="group" aria-label="Режим чтения">
+          <button type="button" data-set="view=all" aria-pressed="true">Всё подряд</button>
+          <button type="button" data-set="view=links" aria-pressed="false">Только ссылки и кнопки</button>
+          <button type="button" data-set="view=heads" aria-pressed="false">Только заголовки</button>
+        </span>
+      </span>
+    </div>
+    <div class="stage-body sr-grid">
+      <iframe class="demo-frame" id="srFrame" title="Карточка тура"></iframe>
+      <div class="sr-out" id="srOut" aria-live="polite"></div>
+    </div>
+    <div class="stage-foot"><p id="srSum" class="readout"></p><p class="small">Симуляция по упрощённым правилам: роль из тега, имя из текста, alt, label и aria-label. Режимы «только ссылки» и «только заголовки» есть во всех настоящих программах, ими пользуются, чтобы быстро пробежать страницу.</p></div>
+  </div>
+
+  <p>Две вещи стоит запомнить из этого примера. Первая: на вид обе карточки одинаковые. Разница только в коде, поэтому её не видно на скриншоте и не видно в отчёте модели «всё готово». Вторая: в режиме «только ссылки» плохая версия превращается в «Read more, Read more, Read more». Ссылка должна сама говорить, куда ведёт, без соседнего текста. <span class="ev">◈ четыре автора</span></p>
+
+  <h3>ARIA: лекарство с побочными эффектами</h3>
+  <p><mark>ARIA</mark> это набор атрибутов (<code>role</code>, <code>aria-label</code>, <code>aria-expanded</code> и другие), которыми можно дописать роль, имя и состояние там, где HTML не справляется. Первое правило ARIA, которое повторяют все авторы: если есть родной элемент HTML, бери его. <span class="ev">◈ пять авторов</span></p>
+  <p>У WebAIM есть красноречивая цифра: на главных страницах с ARIA в среднем 59,1 ошибки, без ARIA 42. Сами авторы оговаривают, что это не доказывает вину ARIA, такие страницы просто сложнее. <span class="ev">◆ WebAIM Million 2026</span> Практический вывод для тебя: много ARIA в коде от модели это повод проверить, а не признак качества.</p>
+
+  <h3>Сообщения, которые появляются сами</h3>
+  <p>Человек нажал «Сохранить», рядом появилась зелёная надпись «Сохранено». Зрячий её видит. Программа экранного доступа молчит: она читает то место, где фокус, а надпись возникла в другом. Чтобы такие сообщения зачитывались, их кладут в область с атрибутом <code>aria-live="polite"</code>: программа дождётся паузы и прочитает. <span class="ev">◈ четыре автора</span></p>
+
+  <div class="stage" id="liveStage" data-live="off">
+    <div class="stage-head">
+      <span class="stage-title">Сообщение после нажатия</span>
+      <div class="seg" role="group" aria-label="Живая область">
+        <button type="button" class="is-bad" data-set="live=off" aria-pressed="true">Без aria-live</button>
+        <button type="button" class="is-good" data-set="live=on" aria-pressed="false">aria-live="polite"</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="live-box">
+        <button type="button" id="liveBtn">Save to wishlist</button>
+        <span id="liveToast"></span>
+        <div id="liveSays">Программа скажет: …</div>
+      </div>
+    </div>
+    <div class="stage-foot"><p class="small">Симуляция: правая панель показывает, что прозвучит после нажатия.</p></div>
+  </div>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки: что измерено</p>
+    <p>Доступность единственная техническая тема, где выдачу нынешних моделей проверяли по стандарту. Бенчмарк AIMAC (данные на октябрь 2026) попросил 70 моделей сделать страницы 28 типов, ничего не сказав про доступность, и прогнал их через axe-core по WCAG 2.2 AA. <span class="ev">◈ aimac.ai, все страницы опубликованы</span></p>
+    <ul>
+      <li>Доля страниц хотя бы с одной ошибкой: низкий контраст текста 87%, пустые ссылки 18%, поля без подписи 15%, ARIA-роли без обязательных дочерних элементов 4%, слишком маленькие цели касания 4%, пустые кнопки 4%.</li>
+      <li>У Opus 5.5 и Fable 5.1 главное то же: контраст, затем неправильная ARIA (роль без нужных дочерних элементов). У Fable 5.1 ещё ссылки, которые отличаются от текста только цветом.</li>
+      <li>Место в рейтинге из 70: GPT-6 Astra Pro 12-е, Gemini 3.1 Pro 27-е, Sonnet 5.5 43-е, Opus 5.5 49-е, Fable 5.1 51-е. Первые места у GPT 5.4 Mini и GPT 5.3 Codex.</li>
+    </ul>
+    <p>Автоматическая проверка видит не всё. Рецензируемое исследование CHI 2026 нашло в страницах моделей ошибки, которые проходят проверку, но ничего не говорят человеку: безликие подписи кнопок 27%, непонятные ссылки вроде «Learn more» 26%, бесполезный alt 20%, неверная ARIA 14%, безликие подписи полей 12%. Модели там на поколение старше нынешних. <span class="ev">◆ CHI 2026: claude-sonnet-4, gemini-2.5-flash, gpt-4o</span></p>
+    <p class="small">Отсутствие <code>lang</code> было главной автоматической ошибкой у моделей 2024–2025 годов (W4A 2025), но в данных AIMAC по Opus 5.5 и Fable 5.1 его нет: похоже, у новейших моделей это уже редкость. Пропущенные уровни заголовков тоже находили у моделей постарше (W4A 2025, Brad Frost на Sonnet 4.5), а AIMAC их не меряет: в axe-core это правило из «лучших практик», а не из WCAG AA. Проверять всё равно стоит, это одна минута.</p>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Кнопки-иконки без имени: сердечко, крестик, стрелка. Программа скажет просто «кнопка». <span class="ev">◈ Vercel, Soueidan</span></li>
+      <li>Заголовки, сделанные из <code>div</code> с крупным шрифтом. Режим «только заголовки» показывает пустоту. <span class="ev">◈ freeCodeCamp, Web Dev Simplified</span></li>
+      <li>Пропущенные уровни: после <code>h1</code> сразу <code>h4</code>, потому что «так мельче». Уровень заголовка это структура, а не размер. <span class="ev">◈ Soy Dalto, freeCodeCamp</span></li>
+      <li>Лишняя ARIA поверх правильного HTML: <code>role="button"</code> на <code>button</code>, <code>aria-label</code>, который расходится с видимым текстом. Стандарт требует, чтобы имя содержало видимую надпись. <span class="ev">◆ WCAG 2.5.3</span></li>
+      <li>Нет <code>lang</code> у страницы: программа читает английский текст русским голосом или наоборот. <span class="ev">◆ WCAG 3.1.1</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Use native HTML elements; add ARIA only where no native element exists, and tell me where you used it and why.</li>
+      <li>Every icon-only button has an aria-label that says the action (for example "Save tour to wishlist").</li>
+      <li>Link text says where it goes without surrounding context; no "Read more" or "Click here".</li>
+      <li>Headings are real h1-h6 in order, one h1 per page, no skipped levels; size is set in CSS.</li>
+      <li>Status messages (saved, sent, error) are announced through an aria-live="polite" region.</li>
+      <li>Set lang on html, and on any passage in another language.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="alt" data-short="Alt у картинок">
+  <h2>Alt: что написать вместо картинки</h2>
+  <p>Атрибут <code>alt</code> это текст, который заменяет картинку для тех, кто её не видит, и для поисковика. Правило в одну строку: alt говорит то, что картинка сообщает в этом месте страницы. Если картинка ничего не сообщает, а только украшает, ставят пустой <code>alt=""</code>, и программа её пропускает. Если alt нет совсем, многие программы зачитывают имя файла. <span class="ev">◆ WCAG 1.1.1; ◆ Google: alt важнейший атрибут картинки; ◈ пять авторов</span></p>
+
+  <div class="stage" id="altStage">
+    <div class="stage-head">
+      <span class="stage-title" id="altTitle">Картинка 1 из 4</span>
+      <span class="readout" id="altScore"></span>
+    </div>
+    <div class="stage-body">
+      <div class="alt-card">
+        <div class="alt-pic" id="altPic"></div>
+        <div>
+          <p class="alt-ctx" id="altCtx"></p>
+          <div class="alt-opts" id="altOpts"></div>
+          <p id="altWhy" class="readout" aria-live="polite"></p>
+          <div class="alt-nav"><button type="button" class="btn" id="altNext" disabled>Следующая картинка</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note human">
+    <p class="nt">Где ошибаются люди</p>
+    <ul>
+      <li>Начинают alt со слов «Image of» или «Photo of». Программа уже сказала «картинка». <span class="ev">◆ WebAIM</span></li>
+      <li>Набивают alt ключевыми словами для поиска. Google просит описывать, что на картинке, а не перечислять запросы. <span class="ev">◆ Google Search Central</span></li>
+      <li>Описывают декоративные картинки, и человек слушает «wave decoration» между каждыми двумя блоками.</li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Write alt text that says what the image shows in this context, under about 125 characters, no "image of". Decorative images get alt="".</li>
+      <li>If an image contains text (schedule, prices, map labels), that text must be in the alt or on the page.</li>
+      <li>List every image with its alt text in your report so I can review them.</li>
+    </ul>
+  </div>
+  <p class="small">«Около 125 символов» это привычка, а не норма стандарта: в WCAG нет длины alt. <span class="ev">◇</span></p>
+</section>
+
+<section class="sec" id="targets" data-short="Размер касания">
+  <h2>Попасть пальцем</h2>
+  <p>Палец не курсор: он закрывает цель и касается с разбросом. Стандарт задаёт минимум для уровня AA: цель касания не меньше 24 на 24 CSS-пикселя, или вокруг меньшей цели должно быть свободное место до этого размера. На уровне AAA 44 на 44. <span class="ev">◆ WCAG 2.5.8 и 2.5.5</span> Цифра 48 из гайдов Android это правило платформы, а не WCAG. <span class="ev">◆ проверено, что в WCAG её нет</span></p>
+
+  <div class="stage" id="tapStage">
+    <div class="stage-head">
+      <span class="stage-title">Целишься в «Keep», рядом «Delete»</span>
+      <button type="button" class="btn" id="tapGo">Сделать 30 касаний</button>
+    </div>
+    <div class="controls">
+      <label class="field">размер кнопок <input type="range" min="14" max="56" value="18" step="2" id="tapSize"><output id="tapSizeOut"></output></label>
+      <label class="field">промежуток <input type="range" min="0" max="24" value="2" step="2" id="tapGap"><output id="tapGapOut"></output></label>
+    </div>
+    <div class="stage-body sunk">
+      <div class="tap-wrap">
+        <div id="tapPad" aria-hidden="true"></div>
+        <div class="tap-key"><p id="tapOut" class="readout" aria-live="polite">Нажми «Сделать 30 касаний».</p></div>
+      </div>
+    </div>
+    <div class="stage-foot"><p class="small">Симуляция. Разброс касаний условный (около 7 пикселей в каждую сторону), это не измерение реальных пальцев. Принцип верный: при том же разбросе маленькие цели вплотную друг к другу дают ошибочные нажатия, большие или разнесённые нет.</p></div>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Every tap target is at least 44 by 44 CSS px on touch screens (24 by 24 is the legal floor), with spacing between neighbouring targets.</li>
+      <li>Destructive actions (delete, cancel booking) are never placed right next to the main action.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="motion-sec" data-short="Движение">
+  <h2>Движение и настройка «уменьшить движение»</h2>
+  <p>У части людей анимация вызывает головокружение и тошноту, у других мешает читать. В Windows, macOS, iOS и Android есть системная настройка «уменьшить движение». Сайт может её прочитать через медиазапрос <code>prefers-reduced-motion</code> и убрать необязательную анимацию. <span class="ev">◆ MDN</span></p>
+  <p>Отдельное требование про автоматическое движение: если что-то движется само дольше пяти секунд рядом с другим содержимым (карусель, бегущая строка, видео на фоне), должна быть кнопка остановки. <span class="ev">◆ WCAG 2.2.2, уровень A</span></p>
+
+  <div class="stage" id="motion" data-sys="normal" data-site="ignore" data-anim="on" data-paused="off">
+    <div class="stage-head">
+      <span class="stage-title">Первый экран с анимацией и каруселью</span>
+    </div>
+    <div class="controls">
+      <span class="field">В системе
+        <span class="seg" role="group" aria-label="Системная настройка">
+          <button type="button" data-set="sys=normal" aria-pressed="true">движение обычное</button>
+          <button type="button" data-set="sys=reduce" aria-pressed="false">«уменьшить движение»</button>
+        </span>
+      </span>
+      <span class="field">Сайт
+        <span class="seg" role="group" aria-label="Поведение сайта">
+          <button type="button" class="is-bad" data-set="site=ignore" aria-pressed="true">не учитывает</button>
+          <button type="button" class="is-good" data-set="site=respect" aria-pressed="false">учитывает и даёт паузу</button>
+        </span>
+      </span>
+    </div>
+    <div class="stage-body">
+      <div class="mo-box">
+        <div class="mo-strip"><div><span>Sunrise trip</span><span>Snorkel day</span><span>Island hop</span></div></div>
+        <button type="button" id="moPause">Pause</button>
+        <div class="mo-card"><div class="mh">Nusa Penida in a day</div><p>Small boat, local guide.</p></div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="moOut" class="readout" aria-live="polite"></p><p class="small" id="moReal"></p></div>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Wrap all non-essential animation in @media (prefers-reduced-motion: no-preference), or turn it off under reduce.</li>
+      <li>No autoplaying carousels. If something moves for more than five seconds, it has a visible pause button.</li>
+      <li>No parallax or scroll-jacking.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="zoom" data-short="Увеличение и контраст">
+  <h2>Увеличение, контраст, цвет</h2>
+  <p>Эти темы уже были, здесь только связка с доступностью.</p>
+  <ul>
+    <li><strong>Текст увеличивается до 200% без потерь.</strong> Ничего не обрезается и не налезает. Это получается само, если размеры в <code>rem</code>, а не в <code>px</code>, и у блоков нет жёсткой высоты. Демонстрация в <a href="01-layout.html#units">уроке 1</a>. <span class="ev">◆ WCAG 1.4.4</span></li>
+    <li><strong>При ширине 320 CSS-пикселей нет горизонтальной прокрутки.</strong> Это то же самое, что окно 1280 пикселей при увеличении 400%. <span class="ev">◆ WCAG 1.4.10</span></li>
+    <li><strong>Нельзя запрещать масштабирование.</strong> Строка <code>user-scalable=no</code> или <code>maximum-scale=1</code> в meta viewport отключает щипок на телефоне. Нейронки иногда вставляют её, чтобы «страница не прыгала».</li>
+    <li><strong>Контраст 4,5:1 для обычного текста и 3:1 для крупного.</strong> Крупный это от 18 pt, или от 14 pt жирным. Калькулятор в <a href="02-hierarchy.html#contrast">уроке 2</a>. <span class="ev">◆ WCAG 1.4.3</span></li>
+    <li><strong>Цвет не единственный носитель смысла.</strong> Красная рамка у поля с ошибкой плюс текст ошибки; занятые даты не только серые, но и перечёркнутые.</li>
+  </ul>
+</section>
+
+<section class="sec" id="check" data-short="Проверка за 5 минут">
+  <h2>Проверка за пять минут</h2>
+  <p>Автоматические инструменты находят только часть проблем. Lighthouse с оценкой 100 по доступности не значит, что сайт доступен: он не может понять, осмысленный ли alt и логичен ли порядок. Все пять авторов в подборке настаивают на ручной проверке. <span class="ev">◈ пять авторов</span></p>
+  <div class="note check">
+    <p class="nt">Пять проверок, которые ты делаешь сам</p>
+    <ul>
+      <li><strong>Tab.</strong> Убери руку с мыши. Щёлкни в адресную строку и жми <code>Tab</code> до конца страницы. Фокус всегда виден? Порядок совпадает с глазами? Дошёл до каждой кнопки и смог её нажать <code>Enter</code>?</li>
+      <li><strong>Увеличение.</strong> <code>Ctrl</code> и плюс до 200%. Ничего не обрезано, нет горизонтальной прокрутки, меню работает.</li>
+      <li><strong>Lighthouse.</strong> <code>F12</code>, вкладка Lighthouse, отметь Accessibility, Analyze. Исправь всё красное, но помни, что это нижняя планка.</li>
+      <li><strong>Дерево доступности.</strong> <code>F12</code>, вкладка Elements, справа панель Accessibility. Выбери кнопку: в строках Name и Role должно быть то, что ты ожидаешь. <span class="ev">◆ Chrome DevTools</span></li>
+      <li><strong>Послушай.</strong> В Windows встроен Экранный диктор: <code>Win+Ctrl+Enter</code> включает и выключает. На Mac VoiceOver: <code>Cmd+F5</code>. Пройди одну страницу с закрытыми глазами пять минут.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="errors" data-short="12 типичных ошибок">
+  <h2>Двенадцать типичных ошибок доступности</h2>
+  <ol class="cases">
+    <li><div class="mh">1. Кнопка из div</div><p>Мышью работает, клавиатурой и программой экранного доступа нет.</p><p><code>button for actions, a for links.</code></p></li>
+    <li><div class="mh">2. outline: none</div><p>Человек с клавиатурой не знает, где он.</p><p><code>Visible :focus-visible style.</code></p></li>
+    <li><div class="mh">3. Спрятанное меню в очереди Tab</div><p>Фокус проваливается в невидимые ссылки.</p><p><code>hidden or inert when closed.</code></p></li>
+    <li><div class="mh">4. tabindex больше нуля</div><p>Порядок фокуса не совпадает с глазами.</p><p><code>No positive tabindex.</code></p></li>
+    <li><div class="mh">5. Кнопка-иконка без имени</div><p>Программа говорит просто «кнопка».</p><p><code>aria-label with the action.</code></p></li>
+    <li><div class="mh">6. Картинка без alt</div><p>Зачитывается имя файла.</p><p><code>Meaningful alt or alt="".</code></p></li>
+    <li><div class="mh">7. Placeholder вместо подписи</div><p>Подсказка исчезает при вводе, и поле остаётся без имени.</p><p><code>Visible label for every field.</code></p></li>
+    <li><div class="mh">8. «Read more» и «Click here»</div><p>В списке ссылок ничего не понятно.</p><p><code>Link text says where it goes.</code></p></li>
+    <li><div class="mh">9. Заголовки из div и пропуски уровней</div><p>Нельзя пробежать страницу по заголовкам.</p><p><code>Real h1-h6 in order.</code></p></li>
+    <li><div class="mh">10. Запрет масштабирования</div><p>Человек не может увеличить мелкий текст.</p><p><code>No user-scalable=no.</code></p></li>
+    <li><div class="mh">11. Карусель без паузы</div><p>Движется сама и не останавливается.</p><p><code>Pause button; respect reduced motion.</code></p></li>
+    <li><div class="mh">12. Сообщение, которое никто не слышит</div><p>«Сохранено» видно, но не звучит.</p><p><code>aria-live="polite" region.</code></p></li>
+  </ol>
+</section>
+
+<section class="sec" id="accept" data-short="Чек-лист приёмки">
+  <h2>Чек-лист приёмки по доступности</h2>
+  <ul class="checklist" data-id="l4">
+    <li><label><input type="checkbox"><span>Прошёл каждую страницу клавишей Tab: дошёл до всего, фокус всегда виден, порядок как на экране.</span></label></li>
+    <li><label><input type="checkbox"><span>Первый Tab показывает ссылку «Skip to content».</span></label></li>
+    <li><label><input type="checkbox"><span>Закрытое меню и модальные окна не попадают в очередь Tab; окно закрывается клавишей Escape.</span></label></li>
+    <li><label><input type="checkbox"><span>В коде нет div и span с обработчиком клика и нет положительного tabindex.</span></label></li>
+    <li><label><input type="checkbox"><span>У каждой картинки осмысленный alt или пустой alt для украшений; список alt прочитан глазами.</span></label></li>
+    <li><label><input type="checkbox"><span>У каждой кнопки-иконки есть имя; в панели Accessibility видно Name.</span></label></li>
+    <li><label><input type="checkbox"><span>У каждого поля видимая подпись.</span></label></li>
+    <li><label><input type="checkbox"><span>Ссылки понятны без соседнего текста.</span></label></li>
+    <li><label><input type="checkbox"><span>Один h1, заголовки по порядку, без пропусков; у html есть lang.</span></label></li>
+    <li><label><input type="checkbox"><span>200% увеличения и ширина 320 px без потерь и горизонтальной прокрутки; масштабирование не запрещено.</span></label></li>
+    <li><label><input type="checkbox"><span>Кнопки на телефоне не меньше 44 px, опасные действия не вплотную к главным.</span></label></li>
+    <li><label><input type="checkbox"><span>Анимации выключаются при «уменьшить движение», у карусели есть пауза.</span></label></li>
+    <li><label><input type="checkbox"><span>Lighthouse Accessibility без красных пунктов, и я помню, что это не всё.</span></label></li>
+  </ul>
+</section>
+
+<section class="sec" id="quiz" data-short="Тест">
+  <h2>Проверь себя</h2>
+  <div class="quiz" data-quiz="l4">
+    <script type="application/json">
+[
+ {"q":"Модель сделала кнопку «Book» как div с обработчиком клика и добавила role=\"button\". Что ещё не так?","opts":["Ничего, role решает проблему","До неё всё ещё не дойти клавишей Tab и её не нажать Enter: нужен настоящий button","Нужно добавить title","Нужно поменять цвет"],"a":1,"why":"role только сообщает программе роль. Фокус, Enter и пробел у div не появляются сами. Родной button даёт всё сразу."},
+ {"q":"Дизайнер просит убрать «уродливую» рамку фокуса. Что ответить модели?","opts":["outline: none для всех элементов","Оставить рамку только при работе с клавиатуры через :focus-visible и сделать её аккуратной, но заметной","Заменить рамку на чуть более тёмный текст","Рамку можно убрать, если сайт не для инвалидов"],"a":1,"why":":focus-visible показывает рамку только при клавиатуре. Смена оттенка текста не видна: нужен контраст индикатора хотя бы 3:1."},
+ {"q":"Какой alt правильный у волнистого разделителя между секциями?","opts":["alt=\"wave\"","alt=\"decorative wave image\"","alt=\"\"","Атрибут alt можно не писать"],"a":2,"why":"Пустой alt говорит программе пропустить картинку. Без атрибута многие программы прочитают имя файла."},
+ {"q":"На фото расписание отправлений: «7:00 и 13:00 из Санура». Что должно быть в alt?","opts":["Schedule","Image of a poster","Сам текст расписания: Departures daily at 7:00 and 13:00 from Sanur","Пустой alt"],"a":2,"why":"Если картинка содержит информацию, alt передаёт эту информацию. Название картинки ничего не сообщает."},
+ {"q":"В режиме «только ссылки» программа читает: Read more, Read more, Read more. Как исправить?","opts":["Добавить aria-live","Сделать текст ссылок описательным: «Nusa Penida day trip details»","Поставить tabindex","Подчеркнуть ссылки"],"a":1,"why":"Ссылка должна говорить, куда ведёт, без соседнего текста. Список ссылок одинаковых слов бесполезен."},
+ {"q":"Какой минимальный размер цели касания требует WCAG на уровне AA?","opts":["16 на 16 px","24 на 24 CSS px или свободное место вокруг до этого размера","48 на 48 px","Никакого"],"a":1,"why":"2.5.8, новое в WCAG 2.2. 44 на 44 это уровень AAA, а 48 это правило Android."},
+ {"q":"Модель спрятала мобильное меню через left: -300px. Чем это плохо?","opts":["Ничем","Ссылки меню остаются в очереди Tab, и фокус уходит в невидимое","Меню будет медленнее","Это ломает SEO"],"a":1,"why":"Сдвиг за край прячет только картинку. Закрытое меню нужно убирать атрибутом hidden, display: none или inert."},
+ {"q":"Lighthouse показал 100 по доступности. Что это значит?","opts":["Сайт полностью доступен","Автоматические проверки пройдены, но ручная проверка клавиатурой и смысл alt всё ещё нужны","Можно не проверять клавиатуру","Сайт соответствует закону"],"a":1,"why":"Автоматика находит только часть проблем. Все авторы в подборке требуют ручной проверки."},
+ {"q":"После «Сохранить» появляется зелёная надпись, но программа экранного доступа молчит. Что нужно?","opts":["Сделать надпись крупнее","Положить сообщение в область с aria-live=\"polite\"","Добавить alt","Перезагрузить страницу"],"a":1,"why":"Программа читает место фокуса. Живая область заставляет её зачитать новое сообщение."},
+ {"q":"Карусель на главной листается сама каждые три секунды. Что требует стандарт?","opts":["Ничего","Возможность её остановить, если движение длится больше пяти секунд","Чтобы она листалась медленнее","Чтобы она была только на компьютере"],"a":1,"why":"WCAG 2.2.2, уровень A: пауза, остановка или скрытие для автоматического движения дольше пяти секунд. Плюс учитывать prefers-reduced-motion."},
+ {"q":"Какую планку WCAG разумно требовать для всего сайта?","opts":["A","AA, а AAA там, где это дёшево","AAA для всего","Никакую"],"a":1,"why":"Сам стандарт не советует требовать AAA для целого сайта: часть критериев для некоторых страниц невыполнима."}
+]
+    </script>
+  </div>
+</section>
+
+<section class="sec" id="sources" data-short="Источники">
+  <h2>Откуда это взято</h2>
+  <ul>
+    <li>◆ W3C WCAG 2.2: критерии 1.1.1, 1.4.3, 1.4.4, 1.4.10, 1.4.11, 2.1.1, 2.2.2, 2.4.1, 2.4.7, 2.4.11, 2.5.3, 2.5.5, 2.5.8, 4.1.2 и примечание об уровне AAA. Проверено по тексту.</li>
+    <li>◆ WebAIM Million 2026: доли ошибок и цифра про ARIA с оговоркой авторов.</li>
+    <li>◆ MDN: tabindex, :focus-visible, prefers-reduced-motion, label. Google Search Central: alt и имена файлов картинок.</li>
+    <li>◈ Пять видео на четырёх языках: Soy Dalto (es), Script Raccoon (de), Web Dev Simplified (en), Sara Soueidan на CSS Day 2024 (en), курс freeCodeCamp (en, машинный перевод субтитров, слабое свидетельство формулировок). Все опираются на WCAG, так что их согласие это согласие о базовых правилах.</li>
+    <li>◈ European Accessibility Act и исключение для микропредприятий: несколько юридических обзоров 2026 года, текст директивы сам не сверял.</li>
+    <li>◈ AIMAC, aimac.ai: 70 моделей, axe-core, WCAG 2.2 AA, данные на октябрь 2026.</li>
+    <li>◆ «Measuring the Semantic Accessibility Gap in LLM-Generated Web UIs», CHI 2026; «When LLM-Generated Code Perpetuates UI Accessibility Barriers», W4A 2025.</li>
+    <li>◆ W3C WAI-ARIA APG, шаблон Dialog (Modal); WebAIM, «Alternative Text».</li>
+  </ul>
+  <p class="small">Не вошло: советы одного автора (шрифт для дислексии, autofocus на поиске) и детали поведения конкретных браузеров из доклада Сары Суэйдан: они меняются от версии к версии.</p>
+  <p class="small">В блоках «Где ошибаются нейронки» стоит только то, что видели в выдаче моделей 2025–2026 годов, с моделью и датой. Реальные ошибки без такого подтверждения собраны в блоках «Частые ошибки: у людей и у нейронок», и метка там подтверждает правило, а не привычку моделей. Разбор по каждому утверждению: PROVENANCE_ERRORS.md, AUDIT_INDEPENDENT.md, EXTERNAL_CHECK.md.</p>
+</section>
+</main>
+</div>
+
+<footer class="foot">
+  <nav aria-label="Навигация по курсу"><a href="03-speed.html">Урок 3. Скорость и картинки</a><a href="05-forms.html">Урок 5. Формы и путь к заявке</a><a href="index.html">Все уроки</a></nav>
+</footer>
+
+<script src="assets/course.js?v=6"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const { $, $$, icon } = Course;
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  /* Shared: the focus order a browser would use (positive tabindex first, then DOM order) */
+  function tabOrder(doc) {
+    const els = [...doc.querySelectorAll('a[href],button,input,select,textarea,summary,[tabindex]')].filter((e) => {
+      if (e.disabled || e.tabIndex < 0 || e.closest('[inert]')) return false;
+      if (!e.getClientRects().length) return false;
+      return doc.defaultView.getComputedStyle(e).visibility !== 'hidden';
+    });
+    const pos = els.filter((e) => e.tabIndex > 0).sort((a, b) => a.tabIndex - b.tabIndex);
+    return pos.concat(els.filter((e) => e.tabIndex === 0));
+  }
+  const nameOf = (e) => (e.getAttribute('aria-label') || e.textContent || '').replace(/\s+/g, ' ').trim();
+
+  /* 1. Keyboard walk */
+  const BASE = `<style>
+  *{box-sizing:border-box}body{margin:0;font:15px/1.45 system-ui,'Segoe UI',sans-serif;color:#14171c;background:#fff;overflow-x:hidden}
+  header{display:flex;align-items:center;gap:14px;padding:12px 16px;border-bottom:1px solid #d5dae1;flex-wrap:wrap}
+  .logo{font-weight:800;text-decoration:none;color:#14171c;margin-right:auto}
+  .nav{display:flex;gap:14px}.nav > *{color:#3d4350;text-decoration:none;font-weight:600;cursor:pointer}
+  .burger{border:1px solid #9aa2ae;background:#fff;border-radius:6px;padding:4px 9px;font:inherit;cursor:pointer}
+  .hero{padding:22px 16px}h1{font-size:24px;line-height:1.15;margin:0 0 8px}p{margin:0 0 14px;color:#3d4350}
+  .btn{display:inline-block;background:#14171c;color:#fff;border:0;border-radius:8px;padding:10px 16px;font:600 15px system-ui,sans-serif;cursor:pointer;text-decoration:none}
+  .vid{margin-left:12px;color:#14171c}
+  .search{display:flex;gap:8px;padding:0 16px 16px}.search input{flex:1;min-width:0;padding:9px;border:1px solid #9aa2ae;border-radius:8px;font:inherit}
+  .skip{position:absolute;left:8px;top:-60px;background:#ffe14d;color:#14171c;padding:8px 12px;border-radius:6px;font-weight:700;z-index:5}
+  .skip:focus{top:8px}
+  .badge{position:absolute;z-index:9;background:#a1261d;color:#fff;font:700 11px/18px system-ui;min-width:18px;height:18px;border-radius:9px;text-align:center;padding:0 4px;pointer-events:none}
+  </style>`;
+  const BAD = BASE + `<style>*{outline:none!important}.drawer{position:absolute;left:-320px;top:60px;width:260px;background:#fff;padding:12px}.drawer a{display:block;padding:6px 0;color:#14171c}</style>
+  <header><a class="logo" href="#">1000 Islands</a>
+  <div class="nav"><div data-click>Tours</div><div data-click>About</div><div data-click>Contact</div></div>
+  <button class="burger">Menu</button></header>
+  <nav class="drawer"><a href="#">Tours</a><a href="#">About</a><a href="#">Reviews</a><a href="#">Contact</a></nav>
+  <div class="hero"><h1>Nusa Penida before the crowds</h1><p>Small boats, local guides, back by five.</p>
+  <div class="btn" data-click>Book now</div><a class="vid" href="#" tabindex="1">Watch video</a></div>
+  <div class="search"><input placeholder="Search tours"><div class="btn" data-click>Go</div></div>`;
+  const GOOD = BASE + `<style>a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #1f5eff;outline-offset:2px}.drawer{padding:12px 16px}.drawer a{display:block;padding:6px 0;color:#14171c}</style>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><a class="logo" href="#">1000 Islands</a>
+  <nav class="nav" aria-label="Main"><a href="#">Tours</a><a href="#">About</a><a href="#">Contact</a></nav>
+  <button class="burger" aria-expanded="false" aria-controls="drawer">Menu</button></header>
+  <nav class="drawer" id="drawer" hidden aria-label="Mobile"><a href="#">Tours</a><a href="#">About</a><a href="#">Reviews</a><a href="#">Contact</a></nav>
+  <main id="main" class="hero"><h1>Nusa Penida before the crowds</h1><p>Small boats, local guides, back by five.</p>
+  <button class="btn" type="button">Book now</button><a class="vid" href="#">Watch video</a></main>
+  <form class="search" role="search" onsubmit="return false"><label for="q" style="position:absolute;left:-9999px">Search tours</label><input id="q" type="search" placeholder="e.g. snorkelling"><button class="btn" type="submit">Search</button></form>`;
+
+  const kbd = $('#kbd'); const kbdFrame = $('#kbdFrame'); let path = [];
+  const label = (e) => {
+    const n = nameOf(e) || (e.placeholder ? 'поле «' + e.placeholder + '»' : e.tagName.toLowerCase());
+    return n.length > 22 ? n.slice(0, 21) + '…' : n;
+  };
+  function offscreen(e) { const r = e.getBoundingClientRect(); const w = e.ownerDocument.documentElement.clientWidth; return r.right <= 0 || r.left >= w || r.bottom <= 0; }
+  function kbdRender() {
+    const d = kbdFrame.contentDocument; if (!d || !d.body) return;
+    $$('.badge', d).forEach((b) => b.remove());
+    const order = tabOrder(d);
+    if (kbd.dataset.order === 'on') {
+      order.forEach((e, i) => {
+        const r = e.getBoundingClientRect(); const b = d.createElement('span');
+        b.className = 'badge'; b.textContent = i + 1;
+        b.style.left = Math.max(2, Math.min(r.left + d.defaultView.scrollX - 6, d.documentElement.clientWidth - 24)) + 'px';
+        b.style.top = Math.max(2, r.top + d.defaultView.scrollY - 8) + 'px';
+        if (offscreen(e)) b.style.background = '#4a2fa0';
+        d.body.appendChild(b);
+      });
+    }
+    const unreachable = $$('[data-click]', d).map((e) => nameOf(e));
+    const hidden = order.filter(offscreen).length;
+    const first = order[0] ? label(order[0]) : '';
+    let out;
+    if (kbd.dataset.ver === 'bad') {
+      out = `<span class="verdict no">В очереди Tab ${order.length} элементов, из них ${hidden} за краем экрана.</span> Недоступны клавиатурой: ${unreachable.join(', ')}. Первым фокус получает «${first}» из-за tabindex="1".`;
+      if (kbd.dataset.order === 'on') out += ' Фиолетовые цифры у левого края: это ссылки спрятанного меню, их видно только по номеру.';
+    } else {
+      out = `<span class="verdict ok">В очереди Tab ${order.length} элементов, все видимы и идут в порядке чтения.</span> Первым идёт «${first}»: нажми Tab и увидишь жёлтую ссылку. Меню спрятано атрибутом hidden и в очередь не попадает.`;
+    }
+    $('#kbdOut').innerHTML = out;
+  }
+  function kbdBuild() {
+    path = []; $('#kbdLog').innerHTML = '';
+    kbdFrame.srcdoc = kbd.dataset.ver === 'bad' ? BAD : GOOD;
+  }
+  kbdFrame.addEventListener('load', () => {
+    const d = kbdFrame.contentDocument;
+    d.addEventListener('focusin', (ev) => {
+      const e = ev.target; if (e === d.body) return;
+      const off = offscreen(e);
+      const outlineOff = d.defaultView.getComputedStyle(e).outlineStyle === 'none';
+      path.push(e);
+      const li = document.createElement('li');
+      li.textContent = path.length + '. ' + label(e) + (off ? ' (невидимо)' : outlineOff ? ' (рамки нет)' : '');
+      if (off || outlineOff) li.className = 'warn';
+      $('#kbdLog').appendChild(li);
+      while ($('#kbdLog').children.length > 14) $('#kbdLog').firstElementChild.remove();
+    });
+    d.addEventListener('submit', (ev) => ev.preventDefault());
+    kbdRender();
+  });
+  kbd.addEventListener('statechange', (ev) => { if (ev.target === kbd) { if (kbdFrame.dataset.ver !== kbd.dataset.ver) { kbdFrame.dataset.ver = kbd.dataset.ver; kbdBuild(); } else kbdRender(); } });
+  $('#kbdFocus').addEventListener('click', () => {
+    const d = kbdFrame.contentDocument; path = []; $('#kbdLog').innerHTML = '';
+    if (d && d.activeElement && d.activeElement !== d.body) d.activeElement.blur();
+    kbdFrame.contentWindow.focus();
+    $('#kbdHint').innerHTML = 'Фокус в начале рамки. Теперь жми <code>Tab</code>, <code>Shift+Tab</code> назад.';
+  });
+  kbdFrame.dataset.ver = kbd.dataset.ver; kbdBuild();
+
+  /* 2. Focus styles */
+  const fs = $('#focusStage');
+  const FMSG = {
+    none: '<span class="verdict no">Фокус есть, но его не видно.</span> Браузер честно переводит фокус, просто рамка убрана.',
+    color: '<span class="verdict no">Фокус почти не виден.</span> Текст темнеет на один тон: заметить это на ходу нельзя.',
+    ring: '<span class="verdict ok">Фокус виден сразу.</span> Синяя рамка с отступом читается на любом фоне.'
+  };
+  function focusOut() {
+    const a = document.activeElement; const inside = a && $('#fdBar').contains(a);
+    $('#focusOut').innerHTML = FMSG[fs.dataset.mode] + (inside ? ` Сейчас фокус на «${esc(a.textContent)}». Найди его глазами.` : ' Щёлкни по слову Tours и жми Tab.');
+  }
+  $('#fdBar').addEventListener('click', (e) => { if (e.target.closest('a')) e.preventDefault(); });
+  $('#fdBar').addEventListener('focusin', focusOut);
+  fs.addEventListener('statechange', focusOut);
+  focusOut();
+
+  /* 3. Screen reader simulation */
+  const CARD_CSS = `<style>*{box-sizing:border-box}body{margin:0;padding:14px;font:15px/1.45 system-ui,'Segoe UI',sans-serif;color:#14171c;background:#fff}
+  .pic{display:block;width:100%;height:120px;border-radius:8px;object-fit:cover;background:#ccc}
+  .t{font-size:20px;font-weight:700;line-height:1.2;margin:10px 0 4px}p{margin:0 0 10px;color:#3d4350}
+  .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .btn{display:inline-block;background:#14171c;color:#fff;border:0;border-radius:8px;padding:9px 14px;font:600 14px system-ui,sans-serif;cursor:pointer}
+  .ic{width:40px;height:40px;border:1px solid #9aa2ae;border-radius:8px;background:#fff;display:grid;place-items:center;cursor:pointer;padding:0}
+  .ic svg{width:20px;height:20px;fill:none;stroke:#a1261d;stroke-width:2}
+  .more{margin-top:12px;border-top:1px solid #d5dae1;padding-top:10px}.more .s{font-weight:700;font-size:15px;margin:0 0 4px}
+  .more a{display:block;color:#14171c;padding:2px 0}
+  .sub{display:flex;gap:8px;margin-top:10px}.sub input{flex:1;min-width:0;padding:8px;border:1px solid #9aa2ae;border-radius:8px;font:inherit}
+  .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}</style>`;
+  const PIC = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 120'%3E%3Crect width='300' height='120' fill='%239fd3f0'/%3E%3Cpath d='M0 120V70l60-40 50 30 40-45 70 55 80-20v70z' fill='%2317633a'/%3E%3Cpath d='M0 120V95h300v25z' fill='%233f93c9'/%3E%3Cpath d='M120 96h40l-6 8h-28z' fill='%23fff'/%3E%3C/svg%3E";
+  const HEART = '<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>';
+  const SR_BAD = CARD_CSS + `<img class="pic" src="${PIC}" data-file="IMG_2041.jpg">
+  <div class="t">Nusa Penida day trip</div><p>From $95 per person. Pick-up from Sanur at 7:00.</p>
+  <div class="row"><div class="btn" data-click>Book</div><button class="ic">${HEART}</button><a href="#">Click here</a><span>for cancellation policy</span></div>
+  <div class="more"><div class="s">More tours</div><a href="#">Read more</a><a href="#">Read more</a><a href="#">Read more</a></div>
+  <div class="sub"><input placeholder="Your email"><div class="btn" data-click>→</div></div>`;
+  const SR_GOOD = CARD_CSS + `<img class="pic" src="${PIC}" alt="Small boat below green cliffs on turquoise water">
+  <h2 class="t">Nusa Penida day trip</h2><p>From $95 per person. Pick-up from Sanur at 7:00.</p>
+  <div class="row"><button class="btn">Book this trip</button><button class="ic" aria-label="Save tour to wishlist">${HEART}</button><a href="#">Cancellation policy</a></div>
+  <div class="more"><h3 class="s">More tours</h3><a href="#">Snorkelling at Crystal Bay</a><a href="#">Sunrise at Mount Batur</a><a href="#">Ubud rice terraces walk</a></div>
+  <form class="sub" onsubmit="return false"><label class="vh" for="em">Email for trip updates</label><input id="em" type="email" placeholder="you@example.com"><button class="btn">Subscribe</button></form>`;
+  const srStage = $('#srStage'); const srFrame = $('#srFrame');
+  function announce(d) {
+    const lines = [];
+    const walk = (n) => {
+      if (n.nodeType === 3) { const t = n.textContent.replace(/\s+/g, ' ').trim(); if (t) lines.push({ kind: 'text', html: esc(t) }); return; }
+      if (n.nodeType !== 1) return;
+      const tag = n.tagName.toLowerCase();
+      if (tag === 'style' || tag === 'script') return;
+      if (n.classList.contains('vh') && tag === 'label') return;
+      if (/^h[1-6]$/.test(tag)) { lines.push({ kind: 'head', html: `заголовок, уровень ${tag[1]}: ${esc(n.textContent.trim())}`, ok: true }); return; }
+      if (tag === 'img') {
+        if (!n.hasAttribute('alt')) lines.push({ kind: 'img', html: `картинка: ${esc(n.dataset.file || 'image')}`, miss: 'нет alt, прочитано имя файла' });
+        else if (n.alt) lines.push({ kind: 'img', html: `картинка: ${esc(n.alt)}`, ok: true });
+        return;
+      }
+      if (tag === 'a') { const nm = nameOf(n); lines.push({ kind: 'link', html: `ссылка: ${esc(nm)}`, miss: /^(read more|click here)$/i.test(nm) ? 'непонятно куда' : '' }); return; }
+      if (tag === 'button') { const nm = nameOf(n); lines.push({ kind: 'link', html: nm ? `кнопка: ${esc(nm)}` : 'кнопка', miss: nm ? '' : 'без имени' }); return; }
+      if (tag === 'input') {
+        const lab = n.id && d.querySelector(`label[for="${n.id}"]`);
+        if (lab) lines.push({ kind: 'link', html: `поле ввода, ${n.type === 'email' ? 'email' : 'текст'}: ${esc(lab.textContent.trim())}`, ok: true });
+        else lines.push({ kind: 'link', html: 'поле ввода, текст', miss: 'без подписи; некоторые программы прочитают подсказку «' + esc(n.placeholder) + '», некоторые нет' });
+        return;
+      }
+      if (n.hasAttribute('data-click')) { lines.push({ kind: 'text', html: esc(n.textContent.trim()), miss: 'выглядит как кнопка, а звучит как обычный текст' }); return; }
+      if (n.classList.contains('t') || n.classList.contains('s')) { lines.push({ kind: 'text', html: esc(n.textContent.trim()), miss: 'выглядит как заголовок, но это просто текст' }); return; }
+      [...n.childNodes].forEach(walk);
+    };
+    walk(d.body);
+    return lines;
+  }
+  function srRender() {
+    const d = srFrame.contentDocument; if (!d || !d.body || !d.body.children.length) return;
+    const all = announce(d); const view = srStage.dataset.view;
+    const list = view === 'links' ? all.filter((l) => l.kind === 'link') : view === 'heads' ? all.filter((l) => l.kind === 'head') : all;
+    const items = list.map((l) => `<li class="${l.miss ? 'miss' : l.ok ? 'ok' : ''}">${l.html}${l.miss ? ` <span class="dim">(${l.miss})</span>` : ''}</li>`).join('');
+    $('#srOut').innerHTML = list.length ? `<ol>${items}</ol>` : '<p class="miss">Ничего. Программа сообщит: «заголовков нет».</p>';
+    const bad = all.filter((l) => l.miss).length;
+    $('#srSum').innerHTML = bad ? `<span class="verdict no">${bad} мест, где человек без зрения теряет смысл или действие.</span> Красным отмечены проблемы.` : '<span class="verdict ok">Каждый элемент назван и имеет правильную роль.</span>';
+  }
+  srFrame.addEventListener('load', srRender);
+  srStage.addEventListener('statechange', () => {
+    const want = srStage.dataset.ver;
+    if (srFrame.dataset.ver !== want) { srFrame.dataset.ver = want; srFrame.srcdoc = want === 'bad' ? SR_BAD : SR_GOOD; } else srRender();
+  });
+  srFrame.dataset.ver = 'bad'; srFrame.srcdoc = SR_BAD;
+
+  /* live region */
+  const live = $('#liveStage'); let saved = false;
+  $('#liveBtn').addEventListener('click', () => {
+    saved = !saved;
+    $('#liveBtn').textContent = saved ? 'Remove from wishlist' : 'Save to wishlist';
+    $('#liveToast').textContent = saved ? 'Saved to your wishlist' : 'Removed from your wishlist';
+    const said = 'кнопка: ' + $('#liveBtn').textContent;
+    $('#liveSays').innerHTML = live.dataset.live === 'on'
+      ? `Программа скажет: «${said}», пауза, «${$('#liveToast').textContent}». <span class="verdict ok">Человек знает, что сработало.</span>`
+      : `Программа скажет: «${said}». Зелёное сообщение не прозвучит. <span class="verdict no">Человек не уверен, что что-то произошло.</span>`;
+  });
+  live.addEventListener('statechange', () => { $('#liveSays').textContent = 'Программа скажет: … Нажми кнопку.'; $('#liveToast').textContent = ''; });
+
+  /* 4. Alt text picker */
+  const SCN = {
+    boat: "<svg viewBox='0 0 300 180' role='img' aria-label='Лодка у скал'><rect width='300' height='180' fill='#9fd3f0'/><path d='M0 180V90l70-60 50 40 50-55 70 65 60-20v120z' fill='#17633a'/><path d='M0 180v-45h300v45z' fill='#2a9fd6'/><path d='M110 140h70l-10 14h-50z' fill='#fff'/><path d='M140 140v-28l18 22z' fill='#f4ecd0'/></svg>",
+    wave: "<svg viewBox='0 0 300 180' role='img' aria-label='Волнистая линия'><rect width='300' height='180' fill='#fff'/><path d='M0 95c25-22 50-22 75 0s50 22 75 0 50-22 75 0 50 22 75 0' fill='none' stroke='#9aa2ae' stroke-width='6'/></svg>",
+    heart: "<svg viewBox='0 0 300 180' role='img' aria-label='Кнопка с сердечком'><rect width='300' height='180' fill='#fff'/><rect x='110' y='50' width='80' height='80' rx='14' fill='#fff' stroke='#9aa2ae' stroke-width='3'/><path d='M150 112s-22-14-22-31a12 12 0 0 1 22-8 12 12 0 0 1 22 8c0 17-22 31-22 31z' fill='none' stroke='#a1261d' stroke-width='5'/></svg>",
+    sign: "<svg viewBox='0 0 300 180' role='img' aria-label='Табличка с расписанием'><rect width='300' height='180' fill='#e4e8ee'/><rect x='50' y='30' width='200' height='120' rx='6' fill='#14171c'/><text x='150' y='68' fill='#ffe14d' font-family='system-ui' font-size='17' font-weight='700' text-anchor='middle'>SANUR HARBOUR</text><text x='150' y='100' fill='#fff' font-family='system-ui' font-size='15' text-anchor='middle'>Departures daily</text><text x='150' y='126' fill='#fff' font-family='system-ui' font-size='19' font-weight='700' text-anchor='middle'>7:00 · 13:00</text></svg>"
+  };
+  const ALT = [
+    { pic: 'boat', ctx: 'Главное фото в карточке тура. Над карточкой заголовок «Nusa Penida day trip».', a: 3,
+      opts: ['alt="photo"', 'alt="IMG_2041.jpg"', 'alt="Nusa Penida tour Bali best tour cheap boat trip"', 'alt="Small wooden boat below green cliffs on turquoise water"'],
+      why: ['Слово «photo» ничего не сообщает, программа и так скажет «картинка».', 'Имя файла звучит как шум. Ровно это прочитает программа, если alt забыть.', 'Это набивка ключевыми словами. Человек слушает рекламу, а Google просит описывать содержимое.', 'Описывает то, что видно, и не повторяет заголовок карточки.'] },
+    { pic: 'wave', ctx: 'Волнистая линия между двумя секциями страницы. Чистое украшение.', a: 0,
+      opts: ['alt=""', 'alt="wave"', 'alt="decorative wave image"', 'без атрибута alt'],
+      why: ['Пустой alt: программа пропускает картинку, человек не слышит лишнего.', 'Человек услышит «картинка: wave» между каждыми двумя секциями.', 'Ещё длиннее и всё так же бесполезно.', 'Без атрибута многие программы прочитают имя файла, например «divider-03.svg».'] },
+    { pic: 'heart', ctx: 'Кнопка с сердечком на карточке тура, добавляет тур в избранное. Иконка нарисована SVG внутри button.', a: 1,
+      opts: ['alt="heart" на SVG', 'aria-label="Save tour to wishlist" на кнопке', 'title="❤" на кнопке', 'ничего, иконка понятна'],
+      why: ['Человек услышит «кнопка: heart». Что она делает, непонятно. Имя должно называть действие.', 'Программа скажет «кнопка: Save tour to wishlist». Действие понятно.', 'title читается не везде, и сердечко в нём не помогает.', 'Понятна глазам. Программа скажет просто «кнопка».'] },
+    { pic: 'sign', ctx: 'Фото таблички с расписанием на странице «How to get there». Больше расписания на странице нет.', a: 2,
+      opts: ['alt="Schedule sign"', 'alt=""', 'alt="Sanur harbour: departures daily at 7:00 and 13:00"', 'alt="Image of text"'],
+      why: ['Название без содержания. Человек знает, что расписание есть, но не знает какое.', 'Пустой alt выкидывает единственное место с расписанием.', 'Если на картинке информация, alt передаёт саму информацию.', 'Хуже некуда: и «image of», и никакого смысла.'] }
+  ];
+  let ai = 0; let altRight = 0;
+  function altShow() {
+    const s = ALT[ai];
+    $('#altTitle').textContent = `Картинка ${ai + 1} из ${ALT.length}`;
+    $('#altPic').innerHTML = SCN[s.pic];
+    $('#altCtx').textContent = s.ctx;
+    $('#altWhy').textContent = '';
+    $('#altNext').disabled = true;
+    $('#altNext').textContent = ai === ALT.length - 1 ? 'Начать заново' : 'Следующая картинка';
+    $('#altOpts').innerHTML = '';
+    s.opts.forEach((o, i) => {
+      const b = document.createElement('button'); b.type = 'button'; b.textContent = o;
+      b.addEventListener('click', () => {
+        $$('button', $('#altOpts')).forEach((x, j) => { x.disabled = true; if (j === s.a) x.classList.add('right'); });
+        if (i !== s.a) b.classList.add('wrong'); else altRight += 1;
+        $('#altWhy').innerHTML = (i === s.a ? '<span class="verdict ok">Верно.</span> ' : '<span class="verdict no">Не лучший вариант.</span> ') + s.why[i] + (i === s.a ? '' : ' Правильный: ' + esc(s.opts[s.a]) + '. ' + s.why[s.a]);
+        $('#altScore').textContent = `верно ${altRight} из ${ai + 1}`;
+        $('#altNext').disabled = false;
+      });
+      $('#altOpts').appendChild(b);
+    });
+  }
+  $('#altNext').addEventListener('click', () => { ai += 1; if (ai >= ALT.length) { ai = 0; altRight = 0; $('#altScore').textContent = ''; } altShow(); });
+  altShow();
+
+  /* 5. Tap targets */
+  const pad = $('#tapPad');
+  const tSize = $('#tapSize'); const tGap = $('#tapGap');
+  function tapLayout() {
+    const s = Number(tSize.value); const g = Number(tGap.value);
+    $('#tapSizeOut').textContent = s + ' px'; $('#tapGapOut').textContent = g + ' px';
+    const cx = pad.clientWidth / 2;
+    pad.innerHTML = `<div class="tap-t del" style="width:${s}px;height:${s}px;left:${cx - g / 2 - s}px">${s >= 40 ? 'Delete' : '×'}</div><div class="tap-t ok" style="width:${s}px;height:${s}px;left:${cx + g / 2}px">${s >= 40 ? 'Keep' : '✓'}</div>`;
+    const lvl = s >= 44 ? 'уровень AAA' : s >= 24 ? 'уровень AA' : 'меньше минимума AA';
+    $('#tapOut').innerHTML = `Кнопки ${s}×${s} px с промежутком ${g} px: <strong>${lvl}</strong>. Нажми «Сделать 30 касаний».`;
+  }
+  const gauss = () => { let u = 0; let v = 0; while (!u) u = Math.random(); while (!v) v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); };
+  $('#tapGo').addEventListener('click', () => {
+    tapLayout();
+    const s = Number(tSize.value); const g = Number(tGap.value);
+    const cx = pad.clientWidth / 2; const cy = pad.clientHeight / 2;
+    const tx = cx + g / 2 + s / 2; let hit = 0; let wrong = 0;
+    const del = { l: cx - g / 2 - s, r: cx - g / 2 }; const ok = { l: cx + g / 2, r: cx + g / 2 + s };
+    for (let i = 0; i < 30; i += 1) {
+      const x = tx + gauss() * 7; const y = cy + gauss() * 7;
+      const inY = Math.abs(y - cy) <= s / 2;
+      const inOk = inY && x >= ok.l && x <= ok.r; const inDel = inY && x >= del.l && x <= del.r;
+      if (inOk) hit += 1; if (inDel) wrong += 1;
+      const dot = document.createElement('i'); dot.className = 'tap-dot' + (inOk ? '' : ' miss');
+      dot.style.left = x + 'px'; dot.style.top = y + 'px'; pad.appendChild(dot);
+    }
+    const miss = 30 - hit - wrong;
+    const v = wrong ? 'no' : miss > 3 ? 'mid' : 'ok';
+    $('#tapOut').innerHTML = `Попал в «Keep» <strong>${hit} из 30</strong>. Мимо обеих кнопок: ${miss}. <span class="verdict ${v}">Нажал «Delete» по ошибке: ${wrong}.</span> ${wrong ? 'Увеличь кнопки или промежуток.' : 'Ошибочных нажатий нет.'}`;
+  });
+  tSize.addEventListener('input', tapLayout); tGap.addEventListener('input', tapLayout);
+  new ResizeObserver(tapLayout).observe(pad);
+
+  /* 6. Reduced motion */
+  const mo = $('#motion');
+  const realReduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  function moRender() {
+    const sys = mo.dataset.sys; const site = mo.dataset.site;
+    const anim = !(sys === 'reduce' && site === 'respect');
+    mo.setAttribute('data-anim', anim ? 'on' : 'off');
+    if (site === 'ignore') mo.setAttribute('data-paused', 'off');
+    const MSG = {
+      'normal-ignore': '<span class="verdict mid">Всё движется, остановить нельзя.</span> Карусель листается сама, кнопки паузы нет: это нарушение WCAG 2.2.2 при движении дольше пяти секунд.',
+      'reduce-ignore': '<span class="verdict no">Человек попросил систему убрать движение, а сайт не послушал.</span> Именно этот случай вызывает головокружение.',
+      'normal-respect': '<span class="verdict ok">Движение есть, но карусель можно остановить.</span> Нажми Pause.',
+      'reduce-respect': '<span class="verdict ok">Всё неподвижно.</span> Сайт прочитал prefers-reduced-motion и выключил необязательную анимацию.'
+    };
+    $('#moOut').innerHTML = MSG[sys + '-' + site];
+  }
+  let slide = 0;
+  setInterval(() => {
+    if (mo.dataset.anim !== 'on' || mo.dataset.paused === 'on' || realReduce.matches) return;
+    slide = (slide + 1) % 3;
+    $('.mo-strip > div').style.transform = `translateX(${-slide * 33.333}%)`;
+  }, 2000);
+  $('#moPause').addEventListener('click', () => {
+    const p = mo.dataset.paused === 'on' ? 'off' : 'on'; mo.setAttribute('data-paused', p);
+    $('#moPause').textContent = p === 'on' ? 'Play' : 'Pause';
+  });
+  mo.addEventListener('statechange', moRender);
+  $('#moReal').textContent = realReduce.matches
+    ? 'В твоей системе сейчас включено «уменьшить движение», поэтому этот курс показывает пример неподвижным. Переключатели выше симулируют настройку.'
+    : 'В твоей системе «уменьшить движение» сейчас выключено (проверено через prefers-reduced-motion). Переключатель «В системе» симулирует эту настройку.';
+  moRender();
+});
+</script>
+</body>
+</html>

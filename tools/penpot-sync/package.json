@@ -1,0 +1,7 @@
+{
+  "name": "penpot-sync",
+  "private": true,
+  "description": "Mirror the grey HTML wireframes into Penpot (extract with headless Chrome, push through the Penpot MCP server) and QA the result.",
+  "type": "commonjs",
+  "dependencies": { "puppeteer-core": "^24.43.1" }
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "01 Home · Desktop",
+    "html": 120,
+    "penpot": 120,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "02 Raja Ampat · Desktop",
+    "html": 152,
+    "penpot": 152,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "03 North Sulawesi · Desktop",
+    "html": 151,
+    "penpot": 151,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "04 Yacht charters · Desktop",
+    "html": 129,
+    "penpot": 129,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "05 Guest stories · Desktop",
+    "html": 86,
+    "penpot": 86,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "06 About us · Desktop",
+    "html": 82,
+    "penpot": 82,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "07 Travel agents · Desktop",
+    "html": 136,
+    "penpot": 136,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "08 Plan your trip · Desktop",
+    "html": 79,
+    "penpot": 79,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "09 Thank-you · traveller · Desktop",
+    "html": 48,
+    "penpot": 48,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "10 Thank-you · agent · Desktop",
+    "html": 47,
+    "penpot": 47,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "11 Privacy & cookies · Desktop",
+    "html": 57,
+    "penpot": 57,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "12 Booking terms · Desktop",
+    "html": 62,
+    "penpot": 62,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "13 404 · Page not found · Desktop",
+    "html": 46,
+    "penpot": 46,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "14 Temporarily unavailable · Desktop",
+    "html": 8,
+    "penpot": 8,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "S1 State · Cookie banner · Desktop",
+    "html": 22,
+    "penpot": 22,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "S2 State · Cookie settings · Desktop",
+    "html": 24,
+    "penpot": 24,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "S3 State · Form errors · Desktop",
+    "html": 59,
+    "penpot": 59,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "S4 State · Sending failed · Desktop",
+    "html": 45,
+    "penpot": 45,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "01 Home · Mobile",
+    "html": 110,
+    "penpot": 110,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "02 Raja Ampat · Mobile",
+    "html": 138,
+    "penpot": 138,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "03 North Sulawesi · Mobile",
+    "html": 139,
+    "penpot": 139,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "04 Yacht charters · Mobile",
+    "html": 104,
+    "penpot": 104,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "05 Guest stories · Mobile",
+    "html": 80,
+    "penpot": 80,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "06 About us · Mobile",
+    "html": 80,
+    "penpot": 80,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "07 Travel agents · Mobile",
+    "html": 125,
+    "penpot": 125,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "08 Plan your trip · Mobile",
+    "html": 74,
+    "penpot": 74,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "09 Thank-you · traveller · Mobile",
+    "html": 36,
+    "penpot": 36,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "10 Thank-you · agent · Mobile",
+    "html": 35,
+    "penpot": 35,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "11 Privacy & cookies · Mobile",
+    "html": 45,
+    "penpot": 45,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "12 Booking terms · Mobile",
+    "html": 51,
+    "penpot": 51,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "13 404 · Page not found · Mobile",
+    "html": 34,
+    "penpot": 34,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "14 Temporarily unavailable · Mobile",
+    "html": 9,
+    "penpot": 9,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "S1 State · Cookie banner · Mobile",
+    "html": 15,
+    "penpot": 15,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "S2 State · Cookie settings · Mobile",
+    "html": 17,
+    "penpot": 17,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "S3 State · Form errors · Mobile",
+    "html": 46,
+    "penpot": 46,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "S4 State · Sending failed · Mobile",
+    "html": 33,
+    "penpot": 33,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "M1 Mobile menu (open) · Mobile",
+    "html": 116,
+    "penpot": 21,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "E1 Email · Auto-reply to traveller · Desktop",
+    "html": 23,
+    "penpot": 23,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "E2 Email · Auto-reply to agent · Desktop",
+    "html": 20,
+    "penpot": 20,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "E3 Email · New enquiry alert (owner) · Desktop",
+    "html": 29,
+    "penpot": 29,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "E1 Email · Auto-reply to traveller · Mobile",
+    "html": 26,
+    "penpot": 26,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "E2 Email · Auto-reply to agent · Mobile",
+    "html": 23,
+    "penpot": 23,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "E3 Email · New enquiry alert (owner) · Mobile",
+    "html": 30,
+    "penpot": 30,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "P1 Link previews",
+    "html": 60,
+    "penpot": 60,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "A1 Admin · Enquiries",
+    "html": 41,
+    "penpot": 41,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "A2 Admin · Reviews",
+    "html": 33,
+    "penpot": 33,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "A3 Admin · Photos & video",
+    "html": 34,
+    "penpot": 34,
+    "missing": [],
+    "extra": []
+  },
+  {
+    "name": "A4 Admin · Prices",
+    "html": 59,
+    "penpot": 59,
+    "missing": [],
+    "extra": []
+  }
+]

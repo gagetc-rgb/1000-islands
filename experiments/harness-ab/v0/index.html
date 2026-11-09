@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1000 Islands Travel · Remote Indonesia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #13252b;
+    --ink-soft: #4a5b60;
+    --sand: #f4efe6;
+    --paper: #fbf9f5;
+    --sea: #0f4c5c;
+    --sea-deep: #0a3440;
+    --coral: #d9734e;
+    --line: #e2dbcf;
+    --radius: 14px;
+    --wrap: 1200px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: "Manrope", system-ui, sans-serif; color: var(--ink); background: var(--paper); line-height: 1.6; font-size: 17px; }
+  h1, h2, h3 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600; line-height: 1.1; }
+  h1 { font-size: clamp(44px, 7vw, 92px); }
+  h2 { font-size: clamp(34px, 4vw, 54px); margin-bottom: 18px; }
+  h3 { font-size: 28px; }
+  a { color: inherit; }
+  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
+  section { padding: 96px 0; }
+  .lead { font-size: 19px; color: var(--ink-soft); max-width: 620px; }
+  .btn { display: inline-block; padding: 14px 26px; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: 15px; transition: transform .2s, background .2s; }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary { background: var(--coral); color: #fff; }
+  .btn-primary:hover { background: #c4623f; }
+  .btn-ghost { border: 1.5px solid currentColor; }
+  .photo { position: relative; background: linear-gradient(135deg, #1d6a7a, #0a3440); color: rgba(255,255,255,.75); overflow: hidden; }
+  .photo .slot { position: absolute; left: 16px; bottom: 14px; font-size: 12px; letter-spacing: .04em; background: rgba(0,0,0,.25); padding: 4px 10px; border-radius: 6px; }
+
+  /* header */
+  .site-header { position: absolute; top: 0; left: 0; right: 0; z-index: 10; color: #fff; }
+  .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 84px; }
+  .logo { text-decoration: none; display: flex; flex-direction: column; line-height: 1.1; }
+  .logo b { font-family: "Cormorant Garamond", serif; font-size: 26px; }
+  .logo small { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .8; }
+  .nav { display: flex; gap: 26px; align-items: center; font-size: 15px; }
+  .nav a { text-decoration: none; opacity: .92; }
+  .nav a:hover { opacity: 1; }
+  .nav .agents { padding-left: 26px; border-left: 1px solid rgba(255,255,255,.35); }
+  .menu { display: none; }
+
+  /* hero */
+  .hero { min-height: 100vh; display: flex; align-items: flex-end; padding: 0; color: #fff; }
+  .hero .photo { position: absolute; inset: 0; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.25) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,.55) 100%); }
+  .hero { position: relative; }
+  .hero-copy { position: relative; z-index: 2; padding-bottom: 96px; width: 100%; }
+  .hero-copy p { font-size: 20px; margin: 22px 0 34px; max-width: 560px; opacity: .92; }
+  .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+
+  /* where */
+  .where-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 48px; }
+  .dest { position: relative; display: block; aspect-ratio: 4/5; border-radius: var(--radius); text-decoration: none; color: #fff; }
+  .dest::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 45%, rgba(0,0,0,.65)); }
+  .dest-copy { position: absolute; left: 28px; right: 28px; bottom: 28px; z-index: 2; }
+  .dest-copy h3 { font-size: 40px; }
+  .dest-copy p { font-size: 15px; opacity: .9; }
+  .dest-copy .from { margin-top: 10px; font-weight: 600; }
+  .dest .slot { top: 14px; bottom: auto; }
+
+  /* yachts */
+  .yachts { background: var(--sand); }
+  .pano { aspect-ratio: 3/1; border-radius: var(--radius); }
+  .yacht-row { display: grid; grid-template-columns: 1fr 1.2fr auto; gap: 40px; align-items: end; margin-top: 36px; }
+  .price { font-weight: 600; font-size: 18px; }
+  .link { font-weight: 600; color: var(--sea); }
+
+  /* steps */
+  .steps { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 48px; counter-reset: s; }
+  .steps li { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 30px 26px; }
+  .steps .num { display: inline-flex; width: 40px; height: 40px; border-radius: 50%; background: var(--sea); color: #fff; align-items: center; justify-content: center; font-weight: 600; margin-bottom: 18px; }
+  .steps h3 { font-size: 26px; margin-bottom: 8px; }
+  .steps p { color: var(--ink-soft); font-size: 15px; }
+
+  /* story */
+  .story { background: var(--sea-deep); color: #fff; }
+  .story-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; align-items: center; }
+  .story .photo { aspect-ratio: 4/3; border-radius: var(--radius); }
+  .story .meta { font-size: 14px; letter-spacing: .06em; text-transform: uppercase; opacity: .7; margin-bottom: 14px; }
+  .story p.body { opacity: .85; margin-bottom: 26px; }
+  .story .btn-ghost { color: #fff; }
+
+  /* reviews */
+  .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+  .review { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 30px; }
+  .review blockquote { font-family: "Cormorant Garamond", serif; font-size: 23px; line-height: 1.3; margin-bottom: 18px; }
+  .review cite { font-style: normal; font-size: 14px; color: var(--ink-soft); }
+  .rating { color: var(--ink-soft); }
+
+  /* trade */
+  .trade-box { display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px; background: var(--sand); border-radius: 20px; padding: 56px; align-items: center; }
+  .trade-box ul { list-style: none; display: grid; gap: 12px; }
+  .trade-box li { padding-left: 28px; position: relative; }
+  .trade-box li::before { content: "—"; position: absolute; left: 0; color: var(--coral); }
+
+  /* cta */
+  .cta { text-align: center; }
+  .cta .lead { margin: 0 auto 32px; }
+  .cta-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  .cta .btn-ghost { color: var(--sea); }
+
+  footer { background: var(--ink); color: #c9d3d5; padding: 64px 0 40px; font-size: 15px; }
+  .foot-grid { display: grid; grid-template-columns: 1.4fr repeat(4, 1fr); gap: 32px; }
+  footer h2 { font-family: "Manrope", sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: .1em; color: #fff; margin-bottom: 14px; }
+  footer ul { list-style: none; display: grid; gap: 8px; }
+  footer a { text-decoration: none; }
+  footer a:hover { color: #fff; }
+  .legal { margin-top: 48px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.12); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 13px; }
+
+  @media (max-width: 900px) {
+    body { font-size: 16px; }
+    section { padding: 64px 0; }
+    .nav { display: none; }
+    .menu { display: block; position: relative; }
+    .menu summary { list-style: none; cursor: pointer; padding: 10px 16px; border: 1px solid rgba(255,255,255,.5); border-radius: 999px; font-size: 14px; }
+    .menu summary::-webkit-details-marker { display: none; }
+    .menu nav { position: absolute; right: 0; top: 52px; background: #fff; color: var(--ink); border-radius: var(--radius); padding: 18px; display: grid; gap: 12px; min-width: 220px; box-shadow: 0 12px 40px rgba(0,0,0,.18); }
+    .menu nav a { text-decoration: none; }
+    .hero-copy { padding-bottom: 64px; }
+    .where-grid, .story-grid, .trade-box, .reviews-grid { grid-template-columns: 1fr; }
+    .steps { grid-template-columns: 1fr 1fr; }
+    .yacht-row { grid-template-columns: 1fr; gap: 16px; }
+    .pano { aspect-ratio: 4/3; }
+    .trade-box { padding: 32px 24px; }
+    .foot-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 520px) {
+    .steps { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="#"><b>1000 Islands Travel</b><small>Remote Indonesia</small></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#where">Raja Ampat</a>
+      <a href="#where">North Sulawesi</a>
+      <a href="#yachts">Yacht charters</a>
+      <a href="#story">Guest stories</a>
+      <a href="#">About us</a>
+      <a class="agents" href="#trade">Travel agents</a>
+      <a class="btn btn-primary" href="#start">Plan your trip</a>
+    </nav>
+    <details class="menu">
+      <summary>Menu</summary>
+      <nav aria-label="Main">
+        <a href="#where">Raja Ampat</a>
+        <a href="#where">North Sulawesi</a>
+        <a href="#yachts">Yacht charters</a>
+        <a href="#story">Guest stories</a>
+        <a href="#">About us</a>
+        <a href="#trade">Travel agents</a>
+        <a class="btn btn-primary" href="#start">Plan your trip</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="photo"><span class="slot">Photo slot · hero video, above and under water</span></div>
+  <div class="wrap hero-copy">
+    <h1 id="hero-title">Remote Indonesia.<br>Off the map.</h1>
+    <p>Private, tailor-made trips to Raja Ampat and North Sulawesi, run by our own people on the ground for X years.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#start">Plan your trip</a>
+      <a class="btn btn-ghost" href="#where">Where we go</a>
+    </div>
+  </div>
+</section>
+
+<section id="where" aria-labelledby="where-title">
+  <div class="wrap">
+    <h2 id="where-title">Where we go</h2>
+    <p class="lead">Two of the most remote corners of eastern Indonesia, without the headache of getting there.</p>
+    <div class="where-grid">
+      <a class="dest photo" href="#">
+        <span class="slot">Photo slot · Raja Ampat aerial, karst islets</span>
+        <div class="dest-copy">
+          <h3>Raja Ampat</h3>
+          <p>Central · Misool · Triton Bay · via Sorong</p>
+          <p class="from">from $X,XXX pp</p>
+        </div>
+      </a>
+      <a class="dest photo" href="#">
+        <span class="slot">Photo slot · Siau volcano from the water</span>
+        <div class="dest-copy">
+          <h3>North Sulawesi</h3>
+          <p>Bunaken · Sangihe &amp; Siau · Halmahera &amp; Widi · via Manado</p>
+          <p class="from">from $X,XXX pp</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="yachts" class="yachts" aria-labelledby="yacht-title">
+  <div class="wrap">
+    <div class="pano photo"><span class="slot">Photo slot · phinisi under sail between islets</span></div>
+    <div class="yacht-row">
+      <h2 id="yacht-title">Yacht charters</h2>
+      <p>Charter a whole traditional phinisi for your group, sailing Raja Ampat and North Sulawesi.</p>
+      <div>
+        <p class="price">from $X,XXX per day</p>
+        <a class="link" href="#">See yacht charters →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="easy-title">
+  <div class="wrap">
+    <h2 id="easy-title">Remote, made easy</h2>
+    <p class="lead">Indonesia is easy. Until it isn't. That is where we come in.</p>
+    <ol class="steps">
+      <li><span class="num">1</span><h3>Tell us</h3><p>Share your dates, who is coming and what you dream of seeing.</p></li>
+      <li><span class="num">2</span><h3>We design it</h3><p>A private route built around you, with a clear price.</p></li>
+      <li><span class="num">3</span><h3>We handle everything</h3><p>Flights, boats, permits and transfers, arranged by our team.</p></li>
+      <li><span class="num">4</span><h3>You travel</h3><p>Our people meet you on the ground and stay reachable 24/7.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="story" class="story" aria-labelledby="story-title">
+  <div class="wrap story-grid">
+    <div class="photo"><span class="slot">Photo slot · guest story, Raja Ampat</span></div>
+    <div>
+      <p class="meta">Guest story · Comfort · 9 days</p>
+      <h2 id="story-title">Nine days in Raja Ampat</h2>
+      <p class="body">Placeholder for a real guest story, to be supplied by the owner.</p>
+      <a class="btn btn-ghost" href="#">Read the story</a>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="reviews-title">
+  <div class="wrap">
+    <h2 id="reviews-title">What guests say</h2>
+    <p class="rating">Google rating X.X · XX reviews</p>
+    <div class="reviews-grid">
+      <figure class="review"><blockquote>Guest review placeholder.</blockquote><cite>Name, country</cite></figure>
+      <figure class="review"><blockquote>Guest review placeholder.</blockquote><cite>Name, country</cite></figure>
+      <figure class="review"><blockquote>Guest review placeholder.</blockquote><cite>Name, country</cite></figure>
+    </div>
+  </div>
+</section>
+
+<section id="trade" aria-labelledby="trade-title">
+  <div class="wrap">
+    <div class="trade-box">
+      <div>
+        <h2 id="trade-title">For travel agents</h2>
+        <p class="lead">Your client remains your client. We handle Indonesia on the ground.</p>
+      </div>
+      <div>
+        <ul>
+          <li>Trade rates after a short registration</li>
+          <li>Replies within 24 hours, 7 days a week</li>
+          <li>Our own team in Raja Ampat and North Sulawesi</li>
+        </ul>
+        <p style="margin-top:24px"><a class="btn btn-primary" href="#">Become a partner</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="start" class="cta" aria-labelledby="cta-title">
+  <div class="wrap">
+    <h2 id="cta-title">Start with an idea</h2>
+    <p class="lead">Tell us roughly when and who. A real person replies within 24 hours.</p>
+    <div class="cta-actions">
+      <a class="btn btn-primary" href="#">Plan your trip</a>
+      <a class="btn btn-ghost" href="#">WhatsApp us</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><b style="font-family:'Cormorant Garamond',serif;font-size:24px;color:#fff">1000 Islands Travel</b><p>Remote Indonesia</p></div>
+      <div><h2>Where we go</h2><ul><li><a href="#">Raja Ampat</a></li><li><a href="#">North Sulawesi</a></li><li><a href="#">Yacht charters</a></li></ul></div>
+      <div><h2>Travel</h2><ul><li><a href="#">Guest stories</a></li><li><a href="#">Plan your trip</a></li></ul></div>
+      <div><h2>Company</h2><ul><li><a href="#">About us</a></li><li><a href="#">FAQ</a></li><li><a href="#">Travel agents</a></li></ul></div>
+      <div><h2>Contact</h2><ul><li><a href="#">WhatsApp</a></li><li><a href="#">Email</a></li><li><a href="#">Instagram</a></li></ul></div>
+    </div>
+    <div class="legal"><span>© 2026 1000 Islands Travel</span><span><a href="#">Privacy &amp; cookies</a> · <a href="#">Booking terms</a></span></div>
+  </div>
+</footer>
+</body>
+</html>

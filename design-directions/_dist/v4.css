@@ -1,0 +1,129 @@
+/* 4 · Reef — our own: deep-water blue and sea-fan coral, expressive grotesk, rounded media */
+:root{
+  --loader-bg:#06202c;--loader-ink:#fff;--loader-bar:#ff6a3d;
+  --bg:#eaf2f0; --ink:#0a2735; --muted:#3f5560; --deep:#06202c; --coral:#ff6a3d; --coral-ink:#d94a1e; --aqua:#8fe6d8;
+  --font-display:"Bricolage Grotesque",system-ui,sans-serif;
+  --font-body:"Bricolage Grotesque",system-ui,sans-serif;
+  --hdr-h:76px; --max:1320px; --focus:#ff6a3d; --r:22px;
+}
+.hdr{color:#fff;background:rgb(6 32 44 / .94);backdrop-filter:blur(10px)}
+.hdr.solid{background:rgb(6 32 44 / .92);backdrop-filter:blur(10px)}
+.logo{font-family:var(--font-display)}
+.logo-name{font-weight:800;font-size:19px;letter-spacing:-.01em;font-variation-settings:"wdth" 90}
+.logo-sub{font-size:16px;color:var(--aqua);margin-top:2px}
+.nav a{font-size:16px;font-weight:500}
+.nav a:not(.btn):hover{color:var(--aqua)}
+.btn{border-radius:999px;font-weight:600;font-size:16px;padding:0 24px}
+.btn-primary,.btn-hero{background:var(--coral);color:var(--deep)}
+.btn-primary:hover,.btn-hero:hover{background:#fff}
+.menu-panel{border-radius:16px}
+
+.hero{--hero-scrim:rgb(6 32 44 / .82);--hero-scrim-top:rgb(6 32 44 / .3)}
+.hero h1{font-weight:700;line-height:1;letter-spacing:-.01em;font-variation-settings:"wdth" 92}
+.link-hero{font-weight:600;text-decoration-color:var(--coral);text-underline-offset:6px;text-decoration-thickness:2px}
+
+section:not(.hero):not(.yacht):not(.story):not(.cta){padding:clamp(72px,10vw,140px) 0}
+h2{font-weight:700;font-size:clamp(32px,3.4vw,50px);line-height:1;letter-spacing:-.01em;font-variation-settings:"wdth" 92}
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px 48px;margin-bottom:48px}
+.sec-lead{font-size:19px;color:var(--muted);max-width:40ch}
+
+.dest-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.dest{position:relative;border-radius:var(--r);overflow:hidden;color:#fff;min-height:620px;display:flex;align-items:flex-end}
+.dest-media{position:absolute;inset:0}
+.dest::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgb(6 32 44 / .85),rgb(6 32 44 / 0) 60%)}
+.dest-body{position:relative;z-index:1;padding:32px}
+.dest h3{font-weight:800;font-size:clamp(36px,3.6vw,52px);line-height:1;letter-spacing:-.03em}
+.dest-tag{font-size:18px;margin:8px 0 6px}
+.dest-places{color:var(--aqua);font-size:16px}
+.dest-meta{margin-top:18px;align-items:center;font-size:16px}
+.price{display:inline-block;background:#fff;color:var(--deep);border-radius:999px;padding:6px 14px;font-weight:700}
+
+.yacht{min-height:82svh;display:flex;align-items:flex-end;color:#fff;padding-bottom:clamp(40px,6vw,80px)}
+.yacht::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgb(6 32 44 / .7),rgb(6 32 44 / 0) 55%);z-index:1}
+.yacht-copy{display:grid;grid-template-columns:1fr auto;gap:12px 40px;align-items:end}
+.yacht h2{grid-column:1}
+.yacht-price{grid-column:2;grid-row:1;justify-self:end;background:var(--coral);color:var(--deep)}
+.yacht .btn{grid-column:2;grid-row:2}
+.btn-on-media{background:#fff;color:var(--deep)}
+.btn-on-media:hover{background:var(--coral)}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.steps li{background:#fff;border-radius:var(--r);padding:28px 26px 32px}
+.num{display:block;font-family:var(--font-display);font-weight:800;font-size:56px;line-height:1;letter-spacing:-.04em;color:var(--coral-ink);margin-bottom:28px}
+.steps h3{font-weight:700;font-size:24px;letter-spacing:-.02em;margin-bottom:6px}
+.steps p{color:var(--muted)}
+
+.gallery{background:var(--bg)}
+.gallery-title{margin-bottom:40px}
+.gallery-row{--g-gap:14px;padding:0 var(--gutter)}
+.g{border-radius:var(--r)}
+.g2,.g3{height:84%;align-self:center}
+
+.story{background:var(--deep);color:#fff;min-height:82svh;display:flex;align-items:flex-end;padding-bottom:clamp(48px,7vw,96px)}
+.story::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgb(6 32 44 / .85),rgb(6 32 44 / 0) 60%);z-index:1}
+.story-meta{color:var(--aqua);margin:14px 0 20px}
+.story-quote{font-size:clamp(22px,2.2vw,30px);line-height:1.36;letter-spacing:-.01em;margin-bottom:32px;max-width:26ch}
+
+.reviews{background:var(--deep);color:#fff}
+.reviews .sec-lead{color:#b9cad1}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rev{background:#0d3344;border-radius:var(--r);padding:30px;display:flex;flex-direction:column;justify-content:space-between;gap:28px}
+.rev blockquote{font-size:19px;line-height:1.45}
+.rev figcaption{display:flex;flex-direction:column;font-size:16px;color:#b9cad1}
+.rev b{color:#fff;font-size:16px}
+
+.trade{background:var(--coral);color:var(--deep)}
+.trade-in{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px 48px}
+.trade h2{font-size:clamp(30px,3vw,44px)}
+.trade-text{font-size:20px;font-weight:500;max-width:38ch}
+.trade .btn-primary{background:var(--deep);color:#fff}
+
+.cta{min-height:82svh;display:flex;align-items:flex-end;color:#fff;padding-bottom:clamp(56px,10vh,120px)}
+.cta::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgb(6 32 44 / .85),rgb(6 32 44 / .45) 55%,rgb(6 32 44 / .1));z-index:1}
+.cta h2{font-size:clamp(40px,4.4vw,64px)}
+.cta-text{font-size:19px;max-width:42ch;margin:22px 0 32px}
+.btn-ghost{color:#fff;box-shadow:inset 0 0 0 2px #fff}
+.btn-ghost:hover{background:#fff;color:var(--deep)}
+
+.ftr{background:var(--deep);color:#fff;padding:72px 0 28px}
+.ftr h2{font-size:16px;font-weight:600;color:var(--aqua);margin-bottom:14px;letter-spacing:0}
+.ftr-bottom{border-top:1px solid #1d4252;margin-top:52px;padding-top:22px;font-size:16px;color:#b9cad1}
+
+.mbar{background:rgb(6 32 44 / .94);backdrop-filter:blur(10px)}
+.mbar .btn-ghost{color:#fff;box-shadow:inset 0 0 0 2px #fff}
+
+@media (max-width:860px){
+  .dest-grid,.steps,.rev-grid{grid-template-columns:1fr}
+  .dest{min-height:480px}
+  .yacht-copy{grid-template-columns:1fr}
+  .yacht-price,.yacht .btn{grid-column:1;grid-row:auto;justify-self:start}
+  .trade-in{grid-template-columns:1fr}
+}
+
+.hero,.dest,.yacht,.cta{background-color:#06202c}
+
+@media (max-width:860px){.steps{grid-template-columns:1fr 1fr;gap:12px}.steps li{padding:20px 18px 24px}.num{font-size:40px;margin-bottom:16px}.steps h3{font-size:20px}.g2,.g3{height:100%}}
+
+/* Header fit (1 Nov): below this width the links and both header buttons no longer fit, so the menu takes over */
+@media (max-width:1199px){.nav{display:none}.menu{display:block}}
+
+/* Header wordmark (2 Nov): one line "1000 Islands Travel" in caps; "Remote Indonesia" lives in the headline and the footer, not twice on one screen */
+.hdr .logo-name{font-size:18px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-variation-settings:"wdth" 100}
+
+/* Final pass (2 Nov): hover on the dark trade button; on the coral band the coral focus ring would vanish */
+.trade .btn-primary:hover{background:#fff;color:var(--deep)}
+.trade{--focus:var(--deep)}
+.hero,.yacht,.story,.cta{--focus:#fff}
+.nav .btn-trade:hover{background:#fff;color:var(--deep)}
+/* the coral yacht price read as the main button: plain type instead */
+.yacht-price{background:none;padding:0;color:#fff;font-size:20px}
+.ftr-brand p{color:#b9cad1}
+
+/* Travel agents (2 Nov, user): slanted photo shutters, round-3 variant 7, photos 8 / 23 / 28 */
+.trade.trade-shutters{background:var(--bg);color:var(--ink);--focus:var(--coral-ink)}
+.trade-shutters h2{font-size:clamp(32px,min(3.4vw,6vh),50px)}
+.trade-shutters .btn-primary{background:var(--deep);color:#fff}
+.trade-shutters .btn-primary:hover{background:var(--coral);color:var(--deep)}
+
+/* 2 Nov, later (user): the same generous air above and below the shutters on desktop; the shutters give up the height */
+@media (min-width:761px){section.trade-shutters{--tpad:clamp(56px,9vh,104px)}}

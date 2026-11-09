@@ -1,0 +1,4004 @@
+WEBVTT
+Kind: captions
+Language: pl
+
+00:00:00.266 --> 00:00:02.293 align:start position:0%
+ 
+Jak<00:00:00.479><c> zarządzać</c><00:00:01.119><c> hostingiem</c><00:00:01.706><c> i</c><00:00:01.813><c> domenami</c><00:00:02.240><c>,</c>
+
+00:00:02.293 --> 00:00:02.346 align:start position:0%
+Jak zarządzać hostingiem i domenami,
+ 
+
+00:00:02.346 --> 00:00:04.799 align:start position:0%
+Jak zarządzać hostingiem i domenami,
+ gdy<00:00:02.560><c> pracujesz</c><00:00:03.093><c> z</c><00:00:03.200><c> klientami</c><00:00:03.680><c>?</c><00:00:04.206><c> Kto</c><00:00:04.443><c> płaci</c>
+
+00:00:04.799 --> 00:00:04.858 align:start position:0%
+ gdy pracujesz z klientami? Kto płaci
+ 
+
+00:00:04.858 --> 00:00:06.801 align:start position:0%
+ gdy pracujesz z klientami? Kto płaci
+ rachunki<00:00:05.333><c>?</c><00:00:05.624><c> Czy</c><00:00:05.828><c> opłacasz</c><00:00:06.340><c> wszystkie</c>
+
+00:00:06.801 --> 00:00:06.852 align:start position:0%
+ rachunki? Czy opłacasz wszystkie
+ 
+
+00:00:06.852 --> 00:00:08.745 align:start position:0%
+ rachunki? Czy opłacasz wszystkie
+ rachunki<00:00:07.312><c> za</c><00:00:07.466><c> hosting</c><00:00:07.875><c> swoich</c><00:00:08.234><c> klientów</c><00:00:08.694><c>,</c>
+
+00:00:08.745 --> 00:00:08.796 align:start position:0%
+ rachunki za hosting swoich klientów,
+ 
+
+00:00:08.796 --> 00:00:13.570 align:start position:0%
+ rachunki za hosting swoich klientów,
+ czy<00:00:09.001><c> robią</c><00:00:09.359><c> to</c><00:00:09.513><c> oni</c><00:00:09.718><c> sami</c><00:00:09.922><c>?</c><00:00:12.874><c> Nawet</c><00:00:13.152><c> nie</c><00:00:13.338><c> wiem</c><00:00:13.523><c>,</c>
+
+00:00:13.570 --> 00:00:13.616 align:start position:0%
+ czy robią to oni sami? Nawet nie wiem,
+ 
+
+00:00:13.616 --> 00:00:15.008 align:start position:0%
+ czy robią to oni sami? Nawet nie wiem,
+ dlaczego<00:00:14.034><c> nie</c><00:00:14.219><c> wyjaśniłem</c><00:00:14.822><c> tego</c>
+
+00:00:15.008 --> 00:00:15.055 align:start position:0%
+ dlaczego nie wyjaśniłem tego
+ 
+
+00:00:15.055 --> 00:00:16.539 align:start position:0%
+ dlaczego nie wyjaśniłem tego
+ wcześniej<00:00:15.519><c>,</c><00:00:15.611><c> ale</c><00:00:15.797><c> dzisiaj</c><00:00:16.168><c> się</c><00:00:16.400><c> tym</c>
+
+00:00:16.539 --> 00:00:16.586 align:start position:0%
+ wcześniej, ale dzisiaj się tym
+ 
+
+00:00:16.586 --> 00:00:18.967 align:start position:0%
+ wcześniej, ale dzisiaj się tym
+ zajmiemy<00:00:16.957><c>.</c><00:00:17.642><c> Pokażę</c><00:00:18.119><c> ci</c><00:00:18.225><c>,</c><00:00:18.331><c> co</c><00:00:18.490><c> sugeruję</c>
+
+00:00:18.967 --> 00:00:19.020 align:start position:0%
+ zajmiemy. Pokażę ci, co sugeruję
+ 
+
+00:00:19.020 --> 00:00:20.769 align:start position:0%
+ zajmiemy. Pokażę ci, co sugeruję
+ zrobić<00:00:19.444><c> i</c><00:00:19.550><c> jakich</c><00:00:19.921><c> dostawców</c><00:00:20.504><c> warto</c>
+
+00:00:20.769 --> 00:00:20.822 align:start position:0%
+ zrobić i jakich dostawców warto
+ 
+
+00:00:20.822 --> 00:00:22.837 align:start position:0%
+ zrobić i jakich dostawców warto
+ wybrać<00:00:21.246><c> dla</c><00:00:21.458><c> siebie</c><00:00:21.829><c> i</c><00:00:21.935><c> swoich</c><00:00:22.306><c> klientów</c><00:00:22.783><c>.</c>
+
+00:00:22.837 --> 00:00:23.934 align:start position:0%
+ wybrać dla siebie i swoich klientów.
+ 
+
+00:00:23.934 --> 00:00:26.076 align:start position:0%
+ 
+ Najpierw<00:00:24.469><c> omówmy</c><00:00:24.945><c> absolutne</c><00:00:25.540><c> podstawy</c><00:00:26.016><c>.</c>
+
+00:00:26.076 --> 00:00:26.176 align:start position:0%
+ Najpierw omówmy absolutne podstawy.
+ 
+
+00:00:26.176 --> 00:00:27.686 align:start position:0%
+ Najpierw omówmy absolutne podstawy.
+ Dla<00:00:26.370><c> każdej</c><00:00:26.760><c> strony</c><00:00:27.101><c> internetowej</c>
+
+00:00:27.686 --> 00:00:27.735 align:start position:0%
+ Dla każdej strony internetowej
+ 
+
+00:00:27.735 --> 00:00:30.129 align:start position:0%
+ Dla każdej strony internetowej
+ potrzebujesz<00:00:28.368><c> dwóch</c><00:00:28.709><c> rzeczy</c><00:00:29.002><c>.</c><00:00:29.595><c> Pierwszą</c>
+
+00:00:30.129 --> 00:00:30.189 align:start position:0%
+ potrzebujesz dwóch rzeczy. Pierwszą
+ 
+
+00:00:30.189 --> 00:00:32.268 align:start position:0%
+ potrzebujesz dwóch rzeczy. Pierwszą
+ jest<00:00:30.486><c> domena</c><00:00:30.842><c>,</c><00:00:30.961><c> czyli</c><00:00:31.317><c> nazwa</c><00:00:31.674><c> strony</c><00:00:32.030><c>,</c><00:00:32.149><c> co</c>
+
+00:00:32.268 --> 00:00:32.327 align:start position:0%
+ jest domena, czyli nazwa strony, co
+ 
+
+00:00:32.327 --> 00:00:34.407 align:start position:0%
+ jest domena, czyli nazwa strony, co
+ kosztuje<00:00:32.862><c> średnio</c><00:00:33.397><c> około</c><00:00:33.813><c> 2</c><00:00:33.931><c> dolarów</c>
+
+00:00:34.407 --> 00:00:34.466 align:start position:0%
+ kosztuje średnio około 2 dolarów
+ 
+
+00:00:34.466 --> 00:00:36.783 align:start position:0%
+ kosztuje średnio około 2 dolarów
+ miesięcznie<00:00:35.238><c> lub</c><00:00:35.476><c> 10-15</c><00:00:35.833><c> dolarów</c><00:00:36.367><c> rocznie</c>
+
+00:00:36.783 --> 00:00:40.337 align:start position:0%
+ miesięcznie lub 10-15 dolarów rocznie
+.<00:00:38.724><c> Z</c><00:00:38.831><c> kolei</c><00:00:39.154><c> hosting</c><00:00:39.584><c> to</c><00:00:39.745><c> przestrzeń</c>
+
+00:00:40.337 --> 00:00:40.391 align:start position:0%
+. Z kolei hosting to przestrzeń
+ 
+
+00:00:40.391 --> 00:00:42.112 align:start position:0%
+. Z kolei hosting to przestrzeń
+ wynajmowana<00:00:41.036><c> na</c><00:00:41.197><c> serwerze</c><00:00:41.628><c>,</c><00:00:41.735><c> dzięki</c>
+
+00:00:42.112 --> 00:00:42.166 align:start position:0%
+ wynajmowana na serwerze, dzięki
+ 
+
+00:00:42.166 --> 00:00:44.156 align:start position:0%
+ wynajmowana na serwerze, dzięki
+ której<00:00:42.596><c> twoja</c><00:00:42.919><c> strona</c><00:00:43.295><c> działa</c><00:00:43.725><c> w</c><00:00:43.833><c> sieci</c><00:00:44.102><c>.</c>
+
+00:00:44.156 --> 00:00:44.840 align:start position:0%
+ której twoja strona działa w sieci.
+ 
+
+00:00:44.840 --> 00:00:46.669 align:start position:0%
+ której twoja strona działa w sieci.
+ Kosztuje<00:00:45.354><c> to</c><00:00:45.526><c> około</c><00:00:45.926><c> 5-10</c><00:00:46.212><c> dolarów</c>
+
+00:00:46.669 --> 00:00:46.727 align:start position:0%
+ Kosztuje to około 5-10 dolarów
+ 
+
+00:00:46.727 --> 00:00:48.842 align:start position:0%
+ Kosztuje to około 5-10 dolarów
+ miesięcznie<00:00:47.413><c>,</c><00:00:47.527><c> w</c><00:00:47.642><c> zależności</c><00:00:48.385><c> od</c><00:00:48.556><c> wielu</c>
+
+00:00:48.842 --> 00:00:48.900 align:start position:0%
+ miesięcznie, w zależności od wielu
+ 
+
+00:00:48.900 --> 00:00:50.844 align:start position:0%
+ miesięcznie, w zależności od wielu
+ czynników<00:00:49.471><c>,</c><00:00:49.586><c> takich</c><00:00:49.986><c> jak</c><00:00:50.215><c> szybkość</c><00:00:50.787><c>,</c>
+
+00:00:50.844 --> 00:00:50.901 align:start position:0%
+ czynników, takich jak szybkość,
+ 
+
+00:00:50.901 --> 00:00:52.652 align:start position:0%
+ czynników, takich jak szybkość,
+ wsparcie<00:00:51.416><c> i</c><00:00:51.530><c> funkcje</c><00:00:51.930><c>.</c><00:00:52.088><c> Większość</c>
+
+00:00:52.652 --> 00:00:52.699 align:start position:0%
+ wsparcie i funkcje. Większość
+ 
+
+00:00:52.699 --> 00:00:54.111 align:start position:0%
+ wsparcie i funkcje. Większość
+ pakietów<00:00:53.170><c> hostingowych</c><00:00:53.782><c> zawiera</c>
+
+00:00:54.111 --> 00:00:54.158 align:start position:0%
+ pakietów hostingowych zawiera
+ 
+
+00:00:54.158 --> 00:00:55.711 align:start position:0%
+ pakietów hostingowych zawiera
+ również<00:00:54.629><c> możliwość</c><00:00:55.240><c> stworzenia</c>
+
+00:00:55.711 --> 00:00:55.758 align:start position:0%
+ również możliwość stworzenia
+ 
+
+00:00:55.758 --> 00:00:57.543 align:start position:0%
+ również możliwość stworzenia
+ profesjonalnego<00:00:56.511><c> adresu</c><00:00:56.840><c> e-mail</c><00:00:57.122><c>.</c><00:00:57.270><c> Moja</c>
+
+00:00:57.543 --> 00:00:57.611 align:start position:0%
+ profesjonalnego adresu e-mail. Moja
+ 
+
+00:00:57.611 --> 00:01:00.165 align:start position:0%
+ profesjonalnego adresu e-mail. Moja
+ strona<00:00:58.090><c> to</c><00:00:58.295><c> rinodeboer.com</c><00:00:59.251><c>.</c><00:00:59.420><c> Mogę</c><00:00:59.826><c> więc</c>
+
+00:01:00.165 --> 00:01:00.233 align:start position:0%
+ strona to rinodeboer.com. Mogę więc
+ 
+
+00:01:00.233 --> 00:01:02.674 align:start position:0%
+ strona to rinodeboer.com. Mogę więc
+ utworzyć<00:01:00.911><c> adres</c><00:01:01.318><c> info@rinodeboer.com</c><00:01:02.606><c>.</c>
+
+00:01:02.674 --> 00:01:02.774 align:start position:0%
+ utworzyć adres info@rinodeboer.com.
+ 
+
+00:01:02.774 --> 00:01:04.404 align:start position:0%
+ utworzyć adres info@rinodeboer.com.
+ Możesz<00:01:03.169><c> stworzyć</c><00:01:03.663><c> dowolny</c><00:01:04.058><c> e-mail</c><00:01:04.355><c>,</c>
+
+00:01:04.404 --> 00:01:04.454 align:start position:0%
+ Możesz stworzyć dowolny e-mail,
+ 
+
+00:01:04.454 --> 00:01:06.134 align:start position:0%
+ Możesz stworzyć dowolny e-mail,
+ który<00:01:04.800><c> chcesz</c><00:01:05.096><c>,</c><00:01:05.195><c> przed</c><00:01:05.492><c> nazwą</c><00:01:05.838><c> swojej</c>
+
+00:01:06.134 --> 00:01:06.184 align:start position:0%
+ który chcesz, przed nazwą swojej
+ 
+
+00:01:06.184 --> 00:01:08.620 align:start position:0%
+ który chcesz, przed nazwą swojej
+ domeny<00:01:06.480><c>.</c><00:01:07.071><c> Domenę</c><00:01:07.513><c> musisz</c><00:01:07.901><c> kupić</c><00:01:08.288><c> osobno</c>
+
+00:01:08.620 --> 00:01:08.675 align:start position:0%
+ domeny. Domenę musisz kupić osobno
+ 
+
+00:01:08.675 --> 00:01:11.571 align:start position:0%
+ domeny. Domenę musisz kupić osobno
+ dla<00:01:08.897><c> każdej</c><00:01:09.340><c> strony</c><00:01:09.727><c> internetowej</c><00:01:10.391><c>.</c><00:01:11.436><c> To</c>
+
+00:01:11.571 --> 00:01:11.639 align:start position:0%
+ dla każdej strony internetowej. To
+ 
+
+00:01:11.639 --> 00:01:13.856 align:start position:0%
+ dla każdej strony internetowej. To
+ proste<00:01:12.047><c>.</c><00:01:12.215><c> Kiedy</c><00:01:12.532><c> potrzebujesz</c><00:01:13.221><c> nowej</c><00:01:13.538><c> strony</c>
+
+00:01:13.856 --> 00:01:16.264 align:start position:0%
+ proste. Kiedy potrzebujesz nowej strony
+,<00:01:13.962><c> zawsze</c><00:01:14.333><c> kupujesz</c><00:01:14.809><c> nową</c><00:01:15.127><c> domenę</c><00:01:15.498><c>.</c><00:01:15.860><c> Czyli</c>
+
+00:01:16.264 --> 00:01:16.345 align:start position:0%
+, zawsze kupujesz nową domenę. Czyli
+ 
+
+00:01:16.345 --> 00:01:19.260 align:start position:0%
+, zawsze kupujesz nową domenę. Czyli
+ twojafirma.com<00:01:17.560><c> lub</c><00:01:17.884><c> twojafirma.org</c><00:01:19.018><c>.</c><00:01:19.206><c> W</c>
+
+00:01:19.260 --> 00:01:19.315 align:start position:0%
+ twojafirma.com lub twojafirma.org. W
+ 
+
+00:01:19.315 --> 00:01:21.172 align:start position:0%
+ twojafirma.com lub twojafirma.org. W
+ przypadku<00:01:19.861><c> hostingu</c><00:01:20.353><c> sprawa</c><00:01:20.735><c> wygląda</c>
+
+00:01:21.172 --> 00:01:21.227 align:start position:0%
+ przypadku hostingu sprawa wygląda
+ 
+
+00:01:21.227 --> 00:01:23.421 align:start position:0%
+ przypadku hostingu sprawa wygląda
+ nieco<00:01:21.554><c> inaczej</c><00:01:21.937><c>.</c><00:01:22.118><c> Pierwsza</c><00:01:22.676><c> rada</c><00:01:22.925><c>:</c><00:01:23.049><c> zawsze</c>
+
+00:01:23.421 --> 00:01:23.483 align:start position:0%
+ nieco inaczej. Pierwsza rada: zawsze
+ 
+
+00:01:23.483 --> 00:01:25.781 align:start position:0%
+ nieco inaczej. Pierwsza rada: zawsze
+ kupuj<00:01:23.856><c> domenę</c><00:01:24.353><c> i</c><00:01:24.477><c> hosting</c><00:01:24.974><c> u</c><00:01:25.098><c> tego</c><00:01:25.408><c> samego</c>
+
+00:01:25.781 --> 00:01:25.843 align:start position:0%
+ kupuj domenę i hosting u tego samego
+ 
+
+00:01:25.843 --> 00:01:28.023 align:start position:0%
+ kupuj domenę i hosting u tego samego
+ dostawcy<00:01:26.339><c>.</c><00:01:26.677><c> Nie</c><00:01:26.876><c> ma</c><00:01:27.025><c> znaczenia</c><00:01:27.474><c>,</c><00:01:27.574><c> u</c><00:01:27.674><c> której</c>
+
+00:01:28.023 --> 00:01:28.072 align:start position:0%
+ dostawcy. Nie ma znaczenia, u której
+ 
+
+00:01:28.072 --> 00:01:29.917 align:start position:0%
+ dostawcy. Nie ma znaczenia, u której
+ firmy<00:01:28.372><c> kupisz</c><00:01:28.721><c> domenę</c><00:01:29.070><c>,</c><00:01:29.169><c> ale</c><00:01:29.369><c> to</c><00:01:29.518><c> znacznie</c>
+
+00:01:29.917 --> 00:01:29.967 align:start position:0%
+ firmy kupisz domenę, ale to znacznie
+ 
+
+00:01:29.967 --> 00:01:31.704 align:start position:0%
+ firmy kupisz domenę, ale to znacznie
+ ułatwia<00:01:30.416><c> sprawę</c><00:01:30.765><c>.</c><00:01:30.915><c> W</c><00:01:31.002><c> przeciwnym</c><00:01:31.484><c> razie</c>
+
+00:01:31.704 --> 00:01:31.747 align:start position:0%
+ ułatwia sprawę. W przeciwnym razie
+ 
+
+00:01:31.747 --> 00:01:33.457 align:start position:0%
+ ułatwia sprawę. W przeciwnym razie
+ musisz<00:01:32.054><c> je</c><00:01:32.186><c> ze</c><00:01:32.317><c> sobą</c><00:01:32.580><c> połączyć</c><00:01:33.062><c>,</c><00:01:33.150><c> co</c><00:01:33.282><c> jest</c>
+
+00:01:33.457 --> 00:01:33.501 align:start position:0%
+ musisz je ze sobą połączyć, co jest
+ 
+
+00:01:33.501 --> 00:01:35.035 align:start position:0%
+ musisz je ze sobą połączyć, co jest
+ skomplikowane<00:01:34.115><c> i</c><00:01:34.202><c> stanowi</c><00:01:34.553><c> dodatkową</c><00:01:34.991><c>,</c>
+
+00:01:35.035 --> 00:01:35.079 align:start position:0%
+ skomplikowane i stanowi dodatkową,
+ 
+
+00:01:35.079 --> 00:01:36.650 align:start position:0%
+ skomplikowane i stanowi dodatkową,
+ niepotrzebną<00:01:35.693><c> pracę</c><00:01:35.956><c>.</c><00:01:36.100><c> Upewnij</c><00:01:36.466><c> się</c>
+
+00:01:36.650 --> 00:01:36.696 align:start position:0%
+ niepotrzebną pracę. Upewnij się
+ 
+
+00:01:36.696 --> 00:01:38.485 align:start position:0%
+ niepotrzebną pracę. Upewnij się
+ więc<00:01:36.925><c>,</c><00:01:37.017><c> że</c><00:01:37.200><c> kupujesz</c><00:01:37.613><c> domenę</c><00:01:37.980><c> i</c><00:01:38.072><c> hosting</c><00:01:38.439><c> w</c>
+
+00:01:38.485 --> 00:01:38.531 align:start position:0%
+ więc, że kupujesz domenę i hosting w
+ 
+
+00:01:38.531 --> 00:01:40.303 align:start position:0%
+ więc, że kupujesz domenę i hosting w
+ tej<00:01:38.714><c> samej</c><00:01:38.989><c> firmie</c><00:01:39.265><c>.</c><00:01:39.411><c> Jedyną</c><00:01:39.786><c> rzeczą</c><00:01:40.115><c>,</c><00:01:40.209><c> na</c>
+
+00:01:40.303 --> 00:01:40.350 align:start position:0%
+ tej samej firmie. Jedyną rzeczą, na
+ 
+
+00:01:40.350 --> 00:01:42.041 align:start position:0%
+ tej samej firmie. Jedyną rzeczą, na
+ którą<00:01:40.726><c> musisz</c><00:01:41.054><c> uważać</c><00:01:41.477><c> przy</c><00:01:41.712><c> zakupie</c>
+
+00:01:42.041 --> 00:01:42.088 align:start position:0%
+ którą musisz uważać przy zakupie
+ 
+
+00:01:42.088 --> 00:01:43.938 align:start position:0%
+ którą musisz uważać przy zakupie
+ domeny<00:01:42.369><c>,</c><00:01:42.463><c> jest</c><00:01:42.698><c> jej</c><00:01:42.886><c> dostępność</c><00:01:43.497><c>.</c><00:01:43.644><c> Jeśli</c>
+
+00:01:43.938 --> 00:01:43.987 align:start position:0%
+ domeny, jest jej dostępność. Jeśli
+ 
+
+00:01:43.987 --> 00:01:45.655 align:start position:0%
+ domeny, jest jej dostępność. Jeśli
+ domena<00:01:44.330><c> została</c><00:01:44.772><c> już</c><00:01:45.017><c> kupiona</c><00:01:45.410><c> przez</c>
+
+00:01:45.655 --> 00:01:45.704 align:start position:0%
+ domena została już kupiona przez
+ 
+
+00:01:45.704 --> 00:01:47.618 align:start position:0%
+ domena została już kupiona przez
+ kogoś<00:01:45.998><c>,</c><00:01:46.097><c> nikt</c><00:01:46.342><c> inny</c><00:01:46.587><c> nie</c><00:01:46.783><c> może</c><00:01:47.078><c> jej</c><00:01:47.274><c> nabyć</c><00:01:47.568><c>.</c>
+
+00:01:47.618 --> 00:01:47.993 align:start position:0%
+ kogoś, nikt inny nie może jej nabyć.
+ 
+
+00:01:47.993 --> 00:01:49.769 align:start position:0%
+ kogoś, nikt inny nie może jej nabyć.
+ Czasami<00:01:48.410><c> zdarza</c><00:01:48.776><c> się</c><00:01:48.985><c>,</c><00:01:49.089><c> że</c><00:01:49.298><c> klient</c><00:01:49.664><c> ma</c>
+
+00:01:49.769 --> 00:01:49.821 align:start position:0%
+ Czasami zdarza się, że klient ma
+ 
+
+00:01:49.821 --> 00:01:51.806 align:start position:0%
+ Czasami zdarza się, że klient ma
+ nazwę<00:01:50.186><c> firmy</c><00:01:50.448><c>,</c><00:01:50.552><c> którą</c><00:01:50.970><c> posługują</c><00:01:51.597><c> się</c>
+
+00:01:51.806 --> 00:01:51.858 align:start position:0%
+ nazwę firmy, którą posługują się
+ 
+
+00:01:51.858 --> 00:01:53.916 align:start position:0%
+ nazwę firmy, którą posługują się
+ też<00:01:52.119><c> inne</c><00:01:52.380><c> podmioty</c><00:01:52.798><c>.</c><00:01:52.951><c> Wtedy</c><00:01:53.272><c> zakup</c><00:01:53.594><c> domeny</c>
+
+00:01:53.916 --> 00:01:53.969 align:start position:0%
+ też inne podmioty. Wtedy zakup domeny
+ 
+
+00:01:53.969 --> 00:01:55.524 align:start position:0%
+ też inne podmioty. Wtedy zakup domeny
+ z<00:01:54.077><c> końcówką</c><00:01:54.720><c> .com</c><00:01:54.988><c> może</c><00:01:55.310><c> być</c>
+
+00:01:55.524 --> 00:01:55.578 align:start position:0%
+ z końcówką .com może być
+ 
+
+00:01:55.578 --> 00:01:57.583 align:start position:0%
+ z końcówką .com może być
+ niemożliwy<00:01:56.168><c>.</c><00:01:56.322><c> Możesz</c><00:01:56.710><c> wtedy</c><00:01:57.001><c> zrobić</c><00:01:57.389><c> dwie</c>
+
+00:01:57.583 --> 00:01:57.632 align:start position:0%
+ niemożliwy. Możesz wtedy zrobić dwie
+ 
+
+00:01:57.632 --> 00:01:59.456 align:start position:0%
+ niemożliwy. Możesz wtedy zrobić dwie
+ rzeczy<00:01:57.923><c>.</c><00:01:58.072><c> Po</c><00:01:58.215><c> pierwsze</c><00:01:58.597><c>,</c><00:01:58.692><c> możesz</c><00:01:59.074><c> zmienić</c>
+
+00:01:59.456 --> 00:01:59.504 align:start position:0%
+ rzeczy. Po pierwsze, możesz zmienić
+ 
+
+00:01:59.504 --> 00:02:01.782 align:start position:0%
+ rzeczy. Po pierwsze, możesz zmienić
+ rozszerzenie<00:02:00.077><c>.</c><00:02:00.225><c> Na</c><00:02:00.411><c> przykład</c><00:02:01.035><c> zamiast</c><00:02:01.533><c> .com</c>
+
+00:02:01.782 --> 00:02:01.845 align:start position:0%
+ rozszerzenie. Na przykład zamiast .com
+ 
+
+00:02:01.845 --> 00:02:04.088 align:start position:0%
+ rozszerzenie. Na przykład zamiast .com
+ użyć<00:02:02.281><c> .org</c><00:02:02.530><c>,</c><00:02:02.655><c> albo</c><00:02:02.966><c> po</c><00:02:03.153><c> prostu</c><00:02:03.589><c> zmienić</c>
+
+00:02:04.088 --> 00:02:04.150 align:start position:0%
+ użyć .org, albo po prostu zmienić
+ 
+
+00:02:04.150 --> 00:02:06.408 align:start position:0%
+ użyć .org, albo po prostu zmienić
+ nazwę<00:02:04.586><c> przed</c><00:02:04.960><c> .com</c><00:02:05.209><c>.</c><00:02:05.372><c> Może</c><00:02:05.683><c> dodaj</c><00:02:05.994><c> myślnik</c>
+
+00:02:06.408 --> 00:02:08.223 align:start position:0%
+ nazwę przed .com. Może dodaj myślnik
+,<00:02:06.512><c> jeśli</c><00:02:06.875><c> to</c><00:02:07.030><c> możliwe</c><00:02:07.445><c>,</c><00:02:07.549><c> albo</c><00:02:07.808><c> wzbogać</c>
+
+00:02:08.223 --> 00:02:08.275 align:start position:0%
+, jeśli to możliwe, albo wzbogać
+ 
+
+00:02:08.275 --> 00:02:10.285 align:start position:0%
+, jeśli to możliwe, albo wzbogać
+ nazwę<00:02:08.638><c> o</c><00:02:08.741><c> dodatkowe</c><00:02:09.260><c> słowo</c><00:02:09.571><c>.</c><00:02:09.723><c> To</c><00:02:09.863><c> wszystko</c><00:02:10.238><c>,</c>
+
+00:02:10.285 --> 00:02:10.332 align:start position:0%
+ nazwę o dodatkowe słowo. To wszystko,
+ 
+
+00:02:10.332 --> 00:02:11.786 align:start position:0%
+ nazwę o dodatkowe słowo. To wszystko,
+ co<00:02:10.473><c> musisz</c><00:02:10.801><c> wiedzieć</c><00:02:11.270><c> o</c><00:02:11.364><c> domenach</c><00:02:11.739><c>.</c>
+
+00:02:11.786 --> 00:02:11.886 align:start position:0%
+ co musisz wiedzieć o domenach.
+ 
+
+00:02:11.886 --> 00:02:13.669 align:start position:0%
+ co musisz wiedzieć o domenach.
+ Sytuacja<00:02:12.358><c> komplikuje</c><00:02:12.934><c> się</c><00:02:13.197><c> dopiero</c><00:02:13.616><c> w</c>
+
+00:02:13.669 --> 00:02:13.721 align:start position:0%
+ Sytuacja komplikuje się dopiero w
+ 
+
+00:02:13.721 --> 00:02:16.270 align:start position:0%
+ Sytuacja komplikuje się dopiero w
+ przypadku<00:02:14.246><c> hostingu</c><00:02:14.665><c>.</c><00:02:15.453><c> Hosting</c><00:02:15.888><c> możesz</c>
+
+00:02:16.270 --> 00:02:16.324 align:start position:0%
+ przypadku hostingu. Hosting możesz
+ 
+
+00:02:16.324 --> 00:02:18.448 align:start position:0%
+ przypadku hostingu. Hosting możesz
+ kupić<00:02:16.705><c> dla</c><00:02:16.923><c> każdej</c><00:02:17.359><c> strony</c><00:02:17.740><c> z</c><00:02:17.849><c> osobna</c><00:02:18.176><c>,</c><00:02:18.285><c> ale</c>
+
+00:02:18.448 --> 00:02:18.503 align:start position:0%
+ kupić dla każdej strony z osobna, ale
+ 
+
+00:02:18.503 --> 00:02:20.191 align:start position:0%
+ kupić dla każdej strony z osobna, ale
+ możesz<00:02:18.939><c> też</c><00:02:19.211><c> kupić</c><00:02:19.592><c> hosting</c><00:02:20.028><c> dla</c>
+
+00:02:20.191 --> 00:02:20.246 align:start position:0%
+ możesz też kupić hosting dla
+ 
+
+00:02:20.246 --> 00:02:22.657 align:start position:0%
+ możesz też kupić hosting dla
+ nieograniczonej<00:02:21.117><c> liczby</c><00:02:21.499><c> stron</c><00:02:21.771><c>.</c><00:02:22.328><c> I</c><00:02:22.422><c> tutaj</c>
+
+00:02:22.657 --> 00:02:22.704 align:start position:0%
+ nieograniczonej liczby stron. I tutaj
+ 
+
+00:02:22.704 --> 00:02:24.304 align:start position:0%
+ nieograniczonej liczby stron. I tutaj
+ robi<00:02:22.939><c> się</c><00:02:23.175><c> skomplikowanie</c><00:02:23.833><c>,</c><00:02:23.928><c> bo</c><00:02:24.069><c> kiedy</c>
+
+00:02:24.304 --> 00:02:24.351 align:start position:0%
+ robi się skomplikowanie, bo kiedy
+ 
+
+00:02:24.351 --> 00:02:26.186 align:start position:0%
+ robi się skomplikowanie, bo kiedy
+ prowadzisz<00:02:24.869><c> firmę</c><00:02:25.198><c> projektującą</c><00:02:25.904><c> strony</c>
+
+00:02:26.186 --> 00:02:27.834 align:start position:0%
+ prowadzisz firmę projektującą strony
+,<00:02:26.281><c> wydaje</c><00:02:26.610><c> się</c><00:02:26.845><c> to</c><00:02:26.986><c> świetną</c><00:02:27.457><c> okazją</c><00:02:27.786><c>.</c>
+
+00:02:27.834 --> 00:02:27.934 align:start position:0%
+, wydaje się to świetną okazją.
+ 
+
+00:02:27.934 --> 00:02:29.367 align:start position:0%
+, wydaje się to świetną okazją.
+ Skoro<00:02:28.230><c> możesz</c><00:02:28.625><c> tego</c><00:02:28.872><c> użyć</c><00:02:29.218><c> dla</c>
+
+00:02:29.367 --> 00:02:29.416 align:start position:0%
+ Skoro możesz tego użyć dla
+ 
+
+00:02:29.416 --> 00:02:31.096 align:start position:0%
+ Skoro możesz tego użyć dla
+ wszystkich<00:02:29.960><c> stron</c><00:02:30.256><c> swoich</c><00:02:30.602><c> klientów</c><00:02:31.047><c>,</c>
+
+00:02:31.096 --> 00:02:31.146 align:start position:0%
+ wszystkich stron swoich klientów,
+ 
+
+00:02:31.146 --> 00:02:33.307 align:start position:0%
+ wszystkich stron swoich klientów,
+ prawda<00:02:31.442><c>?</c><00:02:31.592><c> Cóż</c><00:02:31.868><c>,</c><00:02:31.979><c> moim</c><00:02:32.256><c> zdaniem</c><00:02:32.699><c> to</c><00:02:32.865><c> nie</c><00:02:33.086><c> jest</c>
+
+00:02:33.307 --> 00:02:33.363 align:start position:0%
+ prawda? Cóż, moim zdaniem to nie jest
+ 
+
+00:02:33.363 --> 00:02:35.369 align:start position:0%
+ prawda? Cóż, moim zdaniem to nie jest
+ zbyt<00:02:33.640><c> dobry</c><00:02:33.972><c> pomysł</c><00:02:34.359><c>.</c><00:02:34.644><c> Ale</c><00:02:34.885><c> najpierw</c>
+
+00:02:35.369 --> 00:02:35.430 align:start position:0%
+ zbyt dobry pomysł. Ale najpierw
+ 
+
+00:02:35.430 --> 00:02:37.789 align:start position:0%
+ zbyt dobry pomysł. Ale najpierw
+ omówmy<00:02:35.853><c>,</c><00:02:35.974><c> co</c><00:02:36.156><c> inni</c><00:02:36.458><c> ludzie</c><00:02:36.881><c> robią</c><00:02:37.305><c> ze</c><00:02:37.486><c> swoim</c>
+
+00:02:37.789 --> 00:02:37.849 align:start position:0%
+ omówmy, co inni ludzie robią ze swoim
+ 
+
+00:02:37.849 --> 00:02:40.067 align:start position:0%
+ omówmy, co inni ludzie robią ze swoim
+ hostingiem<00:02:38.454><c>.</c><00:02:38.821><c> Niektórzy</c><00:02:39.417><c> kupują</c><00:02:39.850><c> plan</c>
+
+00:02:40.067 --> 00:02:40.121 align:start position:0%
+ hostingiem. Niektórzy kupują plan
+ 
+
+00:02:40.121 --> 00:02:41.964 align:start position:0%
+ hostingiem. Niektórzy kupują plan
+ hostingu<00:02:40.609><c> bez</c><00:02:40.826><c> limitu</c><00:02:41.205><c> dla</c><00:02:41.422><c> wszystkich</c>
+
+00:02:41.964 --> 00:02:42.018 align:start position:0%
+ hostingu bez limitu dla wszystkich
+ 
+
+00:02:42.018 --> 00:02:44.186 align:start position:0%
+ hostingu bez limitu dla wszystkich
+ swoich<00:02:42.397><c> witryn</c><00:02:42.722><c>.</c><00:02:42.928><c> Następnie</c><00:02:43.504><c> pobierają</c><00:02:44.081><c> od</c>
+
+00:02:44.186 --> 00:02:44.239 align:start position:0%
+ swoich witryn. Następnie pobierają od
+ 
+
+00:02:44.239 --> 00:02:45.969 align:start position:0%
+ swoich witryn. Następnie pobierają od
+ klientów<00:02:44.763><c> niewielką</c><00:02:45.340><c> miesięczną</c>
+
+00:02:45.969 --> 00:02:46.022 align:start position:0%
+ klientów niewielką miesięczną
+ 
+
+00:02:46.022 --> 00:02:48.187 align:start position:0%
+ klientów niewielką miesięczną
+ opłatę<00:02:46.494><c> za</c><00:02:46.651><c> hosting</c><00:02:47.018><c>.</c><00:02:47.218><c> Jest</c><00:02:47.487><c> to</c><00:02:47.648><c> możliwe</c><00:02:48.133><c> u</c>
+
+00:02:48.187 --> 00:02:48.241 align:start position:0%
+ opłatę za hosting. Jest to możliwe u
+ 
+
+00:02:48.241 --> 00:02:50.179 align:start position:0%
+ opłatę za hosting. Jest to możliwe u
+ niektórych<00:02:48.887><c> dostawców</c><00:02:49.425><c>,</c><00:02:49.533><c> ale</c><00:02:49.748><c> u</c><00:02:49.856><c> innych</c>
+
+00:02:50.179 --> 00:02:50.233 align:start position:0%
+ niektórych dostawców, ale u innych
+ 
+
+00:02:50.233 --> 00:02:53.677 align:start position:0%
+ niektórych dostawców, ale u innych
+ jest<00:02:50.502><c> to</c><00:02:50.664><c> wręcz</c><00:02:51.041><c> niedozwolone</c><00:02:51.687><c>.</c><00:02:53.171><c> Niektórzy</c>
+
+00:02:53.677 --> 00:02:53.728 align:start position:0%
+ jest to wręcz niedozwolone. Niektórzy
+ 
+
+00:02:53.728 --> 00:02:55.145 align:start position:0%
+ jest to wręcz niedozwolone. Niektórzy
+ rejestrują<00:02:54.335><c> się</c><00:02:54.588><c> w</c><00:02:54.690><c> programie</c>
+
+00:02:55.145 --> 00:02:55.196 align:start position:0%
+ rejestrują się w programie
+ 
+
+00:02:55.196 --> 00:02:57.019 align:start position:0%
+ rejestrują się w programie
+ resellerskim<00:02:55.804><c>,</c><00:02:55.905><c> stworzonym</c><00:02:56.462><c> dla</c><00:02:56.665><c> agencji</c>
+
+00:02:57.019 --> 00:02:57.070 align:start position:0%
+ resellerskim, stworzonym dla agencji
+ 
+
+00:02:57.070 --> 00:02:58.893 align:start position:0%
+ resellerskim, stworzonym dla agencji
+ webowych<00:02:57.475><c>,</c><00:02:57.576><c> który</c><00:02:57.931><c> pozwala</c><00:02:58.336><c> zarządzać</c>
+
+00:02:58.893 --> 00:02:58.944 align:start position:0%
+ webowych, który pozwala zarządzać
+ 
+
+00:02:58.944 --> 00:03:00.868 align:start position:0%
+ webowych, który pozwala zarządzać
+ wszystkimi<00:02:59.501><c> stronami</c><00:02:59.956><c> klientów</c><00:03:00.463><c> w</c><00:03:00.564><c> jednym</c>
+
+00:03:00.868 --> 00:03:00.919 align:start position:0%
+ wszystkimi stronami klientów w jednym
+ 
+
+00:03:00.919 --> 00:03:02.843 align:start position:0%
+ wszystkimi stronami klientów w jednym
+ panelu<00:03:01.222><c>,</c><00:03:01.324><c> za</c><00:03:01.476><c> wyższą</c><00:03:01.931><c> miesięczną</c><00:03:02.590><c> cenę</c>
+
+00:03:02.843 --> 00:03:02.894 align:start position:0%
+ panelu, za wyższą miesięczną cenę
+ 
+
+00:03:02.894 --> 00:03:04.869 align:start position:0%
+ panelu, za wyższą miesięczną cenę
+ niż<00:03:03.147><c> większość</c><00:03:03.805><c> pakietów</c><00:03:04.311><c> bez</c><00:03:04.514><c> limitu</c><00:03:04.818><c>.</c>
+
+00:03:04.869 --> 00:03:06.067 align:start position:0%
+ niż większość pakietów bez limitu.
+ 
+
+00:03:06.067 --> 00:03:07.996 align:start position:0%
+ 
+ Brzmi<00:03:06.363><c> to</c><00:03:06.512><c> całkiem</c><00:03:06.957><c> nieźle</c><00:03:07.353><c> w</c><00:03:07.452><c> teorii</c><00:03:07.749><c>,</c><00:03:07.847><c> ale</c>
+
+00:03:07.996 --> 00:03:08.045 align:start position:0%
+ Brzmi to całkiem nieźle w teorii, ale
+ 
+
+00:03:08.045 --> 00:03:09.975 align:start position:0%
+ Brzmi to całkiem nieźle w teorii, ale
+ z<00:03:08.144><c> mojego</c><00:03:08.491><c> doświadczenia</c><00:03:09.233><c> wynika</c><00:03:09.529><c>,</c><00:03:09.628><c> że</c><00:03:09.826><c> nie</c>
+
+00:03:09.975 --> 00:03:10.024 align:start position:0%
+ z mojego doświadczenia wynika, że nie
+ 
+
+00:03:10.024 --> 00:03:11.508 align:start position:0%
+ z mojego doświadczenia wynika, że nie
+ jest<00:03:10.272><c> to</c><00:03:10.420><c> zbyt</c><00:03:10.667><c> praktyczne</c><00:03:11.162><c>,</c><00:03:11.261><c> więc</c>
+
+00:03:11.508 --> 00:03:11.558 align:start position:0%
+ jest to zbyt praktyczne, więc
+ 
+
+00:03:11.558 --> 00:03:13.509 align:start position:0%
+ jest to zbyt praktyczne, więc
+ również<00:03:12.052><c> tego</c><00:03:12.300><c> nie</c><00:03:12.498><c> polecam</c><00:03:12.844><c>.</c><00:03:12.994><c> Niektórzy</c>
+
+00:03:13.509 --> 00:03:13.560 align:start position:0%
+ również tego nie polecam. Niektórzy
+ 
+
+00:03:13.560 --> 00:03:15.208 align:start position:0%
+ również tego nie polecam. Niektórzy
+ kupują<00:03:13.972><c> licencję</c><00:03:14.487><c> na</c><00:03:14.642><c> pojedynczą</c>
+
+00:03:15.208 --> 00:03:15.260 align:start position:0%
+ kupują licencję na pojedynczą
+ 
+
+00:03:15.260 --> 00:03:17.114 align:start position:0%
+ kupują licencję na pojedynczą
+ stronę<00:03:15.620><c>,</c><00:03:15.723><c> płacąc</c><00:03:16.187><c> własną</c><00:03:16.650><c> kartą</c><00:03:17.011><c> za</c>
+
+00:03:17.114 --> 00:03:17.165 align:start position:0%
+ stronę, płacąc własną kartą za
+ 
+
+00:03:17.165 --> 00:03:19.504 align:start position:0%
+ stronę, płacąc własną kartą za
+ każdą<00:03:17.577><c> nową</c><00:03:17.886><c> witrynę</c><00:03:18.350><c> klienta</c><00:03:18.710><c>.</c><00:03:19.242><c> Wtedy</c>
+
+00:03:19.504 --> 00:03:19.556 align:start position:0%
+ każdą nową witrynę klienta. Wtedy
+ 
+
+00:03:19.556 --> 00:03:21.288 align:start position:0%
+ każdą nową witrynę klienta. Wtedy
+ również<00:03:20.081><c> co</c><00:03:20.239><c> miesiąc</c><00:03:20.711><c> wystawiają</c>
+
+00:03:21.288 --> 00:03:21.341 align:start position:0%
+ również co miesiąc wystawiają
+ 
+
+00:03:21.341 --> 00:03:23.534 align:start position:0%
+ również co miesiąc wystawiają
+ klientowi<00:03:21.866><c> fakturę</c><00:03:22.338><c> za</c><00:03:22.496><c> hosting</c><00:03:22.863><c>.</c><00:03:23.260><c> W</c><00:03:23.369><c> ten</c>
+
+00:03:23.534 --> 00:03:23.589 align:start position:0%
+ klientowi fakturę za hosting. W ten
+ 
+
+00:03:23.589 --> 00:03:25.730 align:start position:0%
+ klientowi fakturę za hosting. W ten
+ sposób<00:03:24.028><c> masz</c><00:03:24.303><c> oddzielne</c><00:03:24.852><c> konto</c><00:03:25.181><c> hostingowe</c>
+
+00:03:25.730 --> 00:03:25.785 align:start position:0%
+ sposób masz oddzielne konto hostingowe
+ 
+
+00:03:25.785 --> 00:03:28.124 align:start position:0%
+ sposób masz oddzielne konto hostingowe
+ dla<00:03:26.005><c> każdego</c><00:03:26.499><c> klienta</c><00:03:26.884><c>.</c><00:03:27.210><c> Jest</c><00:03:27.479><c> też</c><00:03:27.748><c> czwarta</c>
+
+00:03:28.124 --> 00:03:28.178 align:start position:0%
+ dla każdego klienta. Jest też czwarta
+ 
+
+00:03:28.178 --> 00:03:30.277 align:start position:0%
+ dla każdego klienta. Jest też czwarta
+ grupa<00:03:28.447><c>,</c><00:03:28.555><c> czyli</c><00:03:28.878><c> ludzie</c><00:03:29.201><c>,</c><00:03:29.308><c> którzy</c><00:03:29.739><c> pozwalają</c>
+
+00:03:30.277 --> 00:03:30.331 align:start position:0%
+ grupa, czyli ludzie, którzy pozwalają
+ 
+
+00:03:30.331 --> 00:03:32.160 align:start position:0%
+ grupa, czyli ludzie, którzy pozwalają
+ klientowi<00:03:30.869><c> kupić</c><00:03:31.245><c> własny</c><00:03:31.676><c> hosting</c><00:03:32.106><c> i</c>
+
+00:03:32.160 --> 00:03:32.214 align:start position:0%
+ klientowi kupić własny hosting i
+ 
+
+00:03:32.214 --> 00:03:34.097 align:start position:0%
+ klientowi kupić własny hosting i
+ domenę<00:03:32.591><c>,</c><00:03:32.698><c> a</c><00:03:32.806><c> potem</c><00:03:33.129><c> proszą</c><00:03:33.559><c> go</c><00:03:33.721><c> tylko</c><00:03:34.044><c> o</c>
+
+00:03:34.097 --> 00:03:34.151 align:start position:0%
+ domenę, a potem proszą go tylko o
+ 
+
+00:03:34.151 --> 00:03:35.927 align:start position:0%
+ domenę, a potem proszą go tylko o
+ dane<00:03:34.420><c> logowania</c><00:03:34.905><c>,</c><00:03:35.012><c> aby</c><00:03:35.227><c> zainstalować</c>
+
+00:03:35.927 --> 00:03:35.981 align:start position:0%
+ dane logowania, aby zainstalować
+ 
+
+00:03:35.981 --> 00:03:37.864 align:start position:0%
+ dane logowania, aby zainstalować
+ WordPressa<00:03:36.573><c> i</c><00:03:36.680><c> rozpocząć</c><00:03:37.326><c> pracę</c><00:03:37.703><c> nad</c>
+
+00:03:37.864 --> 00:03:37.918 align:start position:0%
+ WordPressa i rozpocząć pracę nad
+ 
+
+00:03:37.918 --> 00:03:40.563 align:start position:0%
+ WordPressa i rozpocząć pracę nad
+ stroną<00:03:38.295><c>.</c><00:03:39.161><c> Pierwsze</c><00:03:39.628><c> trzy</c><00:03:39.888><c> opcje</c><00:03:40.199><c> brzmią</c>
+
+00:03:40.563 --> 00:03:40.615 align:start position:0%
+ stroną. Pierwsze trzy opcje brzmią
+ 
+
+00:03:40.615 --> 00:03:42.225 align:start position:0%
+ stroną. Pierwsze trzy opcje brzmią
+ naprawdę<00:03:41.134><c> kusząco</c><00:03:41.550><c>,</c><00:03:41.654><c> ale</c><00:03:41.862><c> z</c><00:03:41.965><c> mojej</c>
+
+00:03:42.225 --> 00:03:42.277 align:start position:0%
+ naprawdę kusząco, ale z mojej
+ 
+
+00:03:42.277 --> 00:03:44.199 align:start position:0%
+ naprawdę kusząco, ale z mojej
+ perspektywy<00:03:42.900><c> powinieneś</c><00:03:43.524><c> wybrać</c><00:03:43.939><c> tylko</c>
+
+00:03:44.199 --> 00:03:44.251 align:start position:0%
+ perspektywy powinieneś wybrać tylko
+ 
+
+00:03:44.251 --> 00:03:46.135 align:start position:0%
+ perspektywy powinieneś wybrać tylko
+ czwartą<00:03:44.667><c>.</c><00:03:44.829><c> Podam</c><00:03:45.155><c> ci</c><00:03:45.318><c> kilka</c><00:03:45.645><c> powodów</c><00:03:46.081><c>,</c>
+
+00:03:46.135 --> 00:03:46.190 align:start position:0%
+ czwartą. Podam ci kilka powodów,
+ 
+
+00:03:46.190 --> 00:03:48.511 align:start position:0%
+ czwartą. Podam ci kilka powodów,
+ dlaczego<00:03:46.680><c> tak</c><00:03:46.897><c> jest</c><00:03:47.115><c>.</c><00:03:47.510><c> Czasami</c><00:03:47.910><c> zdarza</c><00:03:48.261><c> się</c><00:03:48.461><c>,</c>
+
+00:03:48.511 --> 00:03:48.561 align:start position:0%
+ dlaczego tak jest. Czasami zdarza się,
+ 
+
+00:03:48.561 --> 00:03:50.414 align:start position:0%
+ dlaczego tak jest. Czasami zdarza się,
+ że<00:03:48.761><c> w</c><00:03:48.862><c> pewnym</c><00:03:49.212><c> momencie</c><00:03:49.663><c> nie</c><00:03:49.863><c> chcesz</c><00:03:50.214><c> już</c>
+
+00:03:50.414 --> 00:03:50.464 align:start position:0%
+ że w pewnym momencie nie chcesz już
+ 
+
+00:03:50.464 --> 00:03:52.417 align:start position:0%
+ że w pewnym momencie nie chcesz już
+ pracować<00:03:50.965><c> z</c><00:03:51.065><c> klientem</c><00:03:51.466><c>,</c><00:03:51.566><c> ale</c><00:03:51.766><c> on</c><00:03:51.916><c> nadal</c><00:03:52.217><c> chce</c>
+
+00:03:52.417 --> 00:03:52.467 align:start position:0%
+ pracować z klientem, ale on nadal chce
+ 
+
+00:03:52.467 --> 00:03:56.278 align:start position:0%
+ pracować z klientem, ale on nadal chce
+ pracować<00:03:52.968><c> z</c><00:03:53.068><c> tobą</c><00:03:53.318><c>.</c><00:03:54.665><c> Tak</c><00:03:54.945><c> bywa</c><00:03:55.225><c>.</c><00:03:55.968><c> Wtedy</c><00:03:56.226><c>,</c>
+
+00:03:56.278 --> 00:03:56.329 align:start position:0%
+ pracować z tobą. Tak bywa. Wtedy,
+ 
+
+00:03:56.329 --> 00:03:58.346 align:start position:0%
+ pracować z tobą. Tak bywa. Wtedy,
+ skoro<00:03:56.640><c> płacisz</c><00:03:57.105><c> za</c><00:03:57.260><c> konto</c><00:03:57.571><c> i</c><00:03:57.674><c> jest</c><00:03:57.933><c> to</c><00:03:58.088><c> twoje</c>
+
+00:03:58.346 --> 00:03:58.398 align:start position:0%
+ skoro płacisz za konto i jest to twoje
+ 
+
+00:03:58.398 --> 00:04:00.415 align:start position:0%
+ skoro płacisz za konto i jest to twoje
+ konto<00:03:58.708><c> hostingowe</c><00:03:59.225><c>,</c><00:03:59.329><c> musisz</c><00:03:59.691><c> przeprowadzić</c>
+
+00:04:00.415 --> 00:04:00.467 align:start position:0%
+ konto hostingowe, musisz przeprowadzić
+ 
+
+00:04:00.467 --> 00:04:02.380 align:start position:0%
+ konto hostingowe, musisz przeprowadzić
+ tę<00:04:00.673><c> niezręczną</c><00:04:01.346><c> rozmowę</c><00:04:01.759><c>,</c><00:04:01.863><c> a</c><00:04:01.966><c> jeśli</c><00:04:02.328><c> w</c>
+
+00:04:02.380 --> 00:04:02.432 align:start position:0%
+ tę niezręczną rozmowę, a jeśli w
+ 
+
+00:04:02.432 --> 00:04:04.448 align:start position:0%
+ tę niezręczną rozmowę, a jeśli w
+ końcu<00:04:02.794><c> zrozumieją</c><00:04:03.362><c>,</c><00:04:03.466><c> że</c><00:04:03.673><c> chcesz</c><00:04:04.035><c> odejść</c>
+
+00:04:04.448 --> 00:04:06.310 align:start position:0%
+ końcu zrozumieją, że chcesz odejść
+,<00:04:04.552><c> musisz</c><00:04:04.914><c> wykonać</c><00:04:05.379><c> dodatkową</c><00:04:05.948><c> pracę</c><00:04:06.258><c>,</c>
+
+00:04:06.310 --> 00:04:06.362 align:start position:0%
+, musisz wykonać dodatkową pracę,
+ 
+
+00:04:06.362 --> 00:04:08.400 align:start position:0%
+, musisz wykonać dodatkową pracę,
+ aby<00:04:06.569><c> przeprowadzić</c><00:04:07.344><c> migrację</c><00:04:07.810><c>.</c><00:04:07.962><c> Po</c><00:04:08.108><c> prostu</c>
+
+00:04:08.400 --> 00:04:08.448 align:start position:0%
+ aby przeprowadzić migrację. Po prostu
+ 
+
+00:04:08.448 --> 00:04:10.201 align:start position:0%
+ aby przeprowadzić migrację. Po prostu
+ dlatego<00:04:08.789><c>,</c><00:04:08.886><c> że</c><00:04:09.081><c> nie</c><00:04:09.276><c> mogą</c><00:04:09.568><c> tego</c><00:04:09.811><c> zrobić</c><00:04:10.152><c>,</c>
+
+00:04:10.201 --> 00:04:10.249 align:start position:0%
+ dlatego, że nie mogą tego zrobić,
+ 
+
+00:04:10.249 --> 00:04:11.758 align:start position:0%
+ dlatego, że nie mogą tego zrobić,
+ nawet<00:04:10.541><c> jeśli</c><00:04:10.882><c> wiedzą</c><00:04:11.272><c> jak</c><00:04:11.418><c>,</c><00:04:11.515><c> bo</c><00:04:11.661><c> to</c>
+
+00:04:11.758 --> 00:04:11.807 align:start position:0%
+ nawet jeśli wiedzą jak, bo to
+ 
+
+00:04:11.807 --> 00:04:14.094 align:start position:0%
+ nawet jeśli wiedzą jak, bo to
+ część<00:04:12.245><c> twojego</c><00:04:12.634><c> konta</c><00:04:12.878><c>.</c><00:04:13.540><c> Może</c><00:04:13.842><c> chcą</c>
+
+00:04:14.094 --> 00:04:14.145 align:start position:0%
+ część twojego konta. Może chcą
+ 
+
+00:04:14.145 --> 00:04:15.758 align:start position:0%
+ część twojego konta. Może chcą
+ pracować<00:04:14.649><c> z</c><00:04:14.750><c> kimś</c><00:04:15.052><c> innym</c><00:04:15.355><c> lub</c><00:04:15.556><c> nowy</c>
+
+00:04:15.758 --> 00:04:15.808 align:start position:0%
+ pracować z kimś innym lub nowy
+ 
+
+00:04:15.808 --> 00:04:17.422 align:start position:0%
+ pracować z kimś innym lub nowy
+ pracownik<00:04:16.313><c> zaczyna</c><00:04:16.716><c> zajmować</c><00:04:17.220><c> się</c>
+
+00:04:17.422 --> 00:04:17.472 align:start position:0%
+ pracownik zaczyna zajmować się
+ 
+
+00:04:17.472 --> 00:04:19.438 align:start position:0%
+ pracownik zaczyna zajmować się
+ stroną<00:04:17.825><c>,</c><00:04:17.926><c> a</c><00:04:18.027><c> ty</c><00:04:18.178><c> musisz</c><00:04:18.531><c> włożyć</c><00:04:19.035><c> pracę</c><00:04:19.388><c> w</c>
+
+00:04:19.438 --> 00:04:19.489 align:start position:0%
+ stroną, a ty musisz włożyć pracę w
+ 
+
+00:04:19.489 --> 00:04:21.354 align:start position:0%
+ stroną, a ty musisz włożyć pracę w
+ migrację<00:04:19.943><c>,</c><00:04:20.044><c> ponieważ</c><00:04:20.548><c> wciąż</c><00:04:20.951><c> płacisz</c>
+
+00:04:21.354 --> 00:04:21.405 align:start position:0%
+ migrację, ponieważ wciąż płacisz
+ 
+
+00:04:21.405 --> 00:04:23.371 align:start position:0%
+ migrację, ponieważ wciąż płacisz
+ rachunki<00:04:21.808><c>,</c><00:04:21.909><c> a</c><00:04:22.010><c> może</c><00:04:22.312><c> oni</c><00:04:22.514><c> sami</c><00:04:22.766><c> chcieliby</c><00:04:23.270><c> je</c>
+
+00:04:23.371 --> 00:04:23.422 align:start position:0%
+ rachunki, a może oni sami chcieliby je
+ 
+
+00:04:23.422 --> 00:04:25.732 align:start position:0%
+ rachunki, a może oni sami chcieliby je
+ w<00:04:23.522><c> końcu</c><00:04:23.875><c> opłacać</c><00:04:24.329><c>.</c><00:04:25.127><c> Uważam</c><00:04:25.480><c>,</c><00:04:25.581><c> że</c>
+
+00:04:25.732 --> 00:04:25.783 align:start position:0%
+ w końcu opłacać. Uważam, że
+ 
+
+00:04:25.783 --> 00:04:27.601 align:start position:0%
+ w końcu opłacać. Uważam, że
+ powinni<00:04:26.187><c> mieć</c><00:04:26.490><c> możliwość</c><00:04:27.146><c> rozstania</c>
+
+00:04:27.601 --> 00:04:27.651 align:start position:0%
+ powinni mieć możliwość rozstania
+ 
+
+00:04:27.651 --> 00:04:29.519 align:start position:0%
+ powinni mieć możliwość rozstania
+ się<00:04:27.904><c> z</c><00:04:28.005><c> Tobą</c><00:04:28.308><c> bez</c><00:04:28.510><c> Twojego</c><00:04:28.914><c> udziału</c><00:04:29.317><c>,</c><00:04:29.418><c> co</c>
+
+00:04:29.519 --> 00:04:29.570 align:start position:0%
+ się z Tobą bez Twojego udziału, co
+ 
+
+00:04:29.570 --> 00:04:31.438 align:start position:0%
+ się z Tobą bez Twojego udziału, co
+ oszczędza<00:04:30.125><c> Ci</c><00:04:30.277><c> pracy</c><00:04:30.529><c>,</c><00:04:30.630><c> a</c><00:04:30.731><c> ostatecznie</c><00:04:31.337><c> to</c>
+
+00:04:31.438 --> 00:04:31.489 align:start position:0%
+ oszczędza Ci pracy, a ostatecznie to
+ 
+
+00:04:31.489 --> 00:04:33.657 align:start position:0%
+ oszczędza Ci pracy, a ostatecznie to
+ jest<00:04:31.741><c> ich</c><00:04:31.943><c> strona</c><00:04:32.297><c> internetowa</c><00:04:32.852><c>.</c><00:04:33.003><c> Numer</c><00:04:33.395><c> trzy</c>
+
+00:04:33.657 --> 00:04:38.169 align:start position:0%
+ jest ich strona internetowa. Numer trzy
+.<00:04:34.855><c> Trzy</c><00:04:35.214><c>.</c><00:04:36.390><c> Czasami</c><00:04:36.898><c> klienci</c><00:04:37.406><c> bankrutują</c><00:04:38.105><c>.</c>
+
+00:04:38.169 --> 00:04:38.845 align:start position:0%
+. Trzy. Czasami klienci bankrutują.
+ 
+
+00:04:38.845 --> 00:04:40.536 align:start position:0%
+. Trzy. Czasami klienci bankrutują.
+ Zdarzyło<00:04:39.314><c> mi</c><00:04:39.455><c> się</c><00:04:39.690><c> to</c><00:04:39.831><c> już</c><00:04:40.066><c> dwa</c><00:04:40.254><c> razy</c><00:04:40.489><c> z</c>
+
+00:04:40.536 --> 00:04:40.583 align:start position:0%
+ Zdarzyło mi się to już dwa razy z
+ 
+
+00:04:40.583 --> 00:04:42.134 align:start position:0%
+ Zdarzyło mi się to już dwa razy z
+ dwoma<00:04:40.865><c> moimi</c><00:04:41.147><c> klientami</c><00:04:41.570><c>,</c><00:04:41.664><c> a</c><00:04:41.758><c> wtedy</c><00:04:42.040><c> po</c>
+
+00:04:42.134 --> 00:04:42.181 align:start position:0%
+ dwoma moimi klientami, a wtedy po
+ 
+
+00:04:42.181 --> 00:04:43.591 align:start position:0%
+ dwoma moimi klientami, a wtedy po
+ prostu<00:04:42.510><c> nie</c><00:04:42.698><c> mają</c><00:04:42.980><c> pieniędzy</c><00:04:43.497><c> na</c>
+
+00:04:43.591 --> 00:04:43.638 align:start position:0%
+ prostu nie mają pieniędzy na
+ 
+
+00:04:43.638 --> 00:04:45.377 align:start position:0%
+ prostu nie mają pieniędzy na
+ opłacenie<00:04:44.155><c> faktur</c><00:04:44.484><c> i</c><00:04:44.578><c> musisz</c><00:04:44.907><c> ciągle</c><00:04:45.283><c> do</c>
+
+00:04:45.377 --> 00:04:45.424 align:start position:0%
+ opłacenie faktur i musisz ciągle do
+ 
+
+00:04:45.424 --> 00:04:47.163 align:start position:0%
+ opłacenie faktur i musisz ciągle do
+ nich<00:04:45.659><c> dzwonić</c><00:04:46.082><c> z</c><00:04:46.176><c> pytaniem</c><00:04:46.552><c>:</c><00:04:46.646><c> „</c><00:04:46.787><c>Hej</c><00:04:46.928><c>,</c><00:04:47.022><c> czy</c>
+
+00:04:47.163 --> 00:04:47.210 align:start position:0%
+ nich dzwonić z pytaniem: „Hej, czy
+ 
+
+00:04:47.210 --> 00:04:49.140 align:start position:0%
+ nich dzwonić z pytaniem: „Hej, czy
+ możecie<00:04:47.633><c> zapłacić</c><00:04:48.150><c> faktury</c><00:04:48.479><c>?</c><00:04:48.526><c>”</c><00:04:48.667><c>.</c><00:04:49.001><c> Ale</c>
+
+00:04:49.140 --> 00:04:49.187 align:start position:0%
+ możecie zapłacić faktury?”. Ale
+ 
+
+00:04:49.187 --> 00:04:51.000 align:start position:0%
+ możecie zapłacić faktury?”. Ale
+ ponieważ<00:04:49.652><c> to</c><00:04:49.791><c> tylko</c><00:04:50.070><c> niewielka</c><00:04:50.535><c> kwota</c><00:04:50.768><c>,</c><00:04:50.861><c> nie</c>
+
+00:04:51.000 --> 00:04:51.047 align:start position:0%
+ ponieważ to tylko niewielka kwota, nie
+ 
+
+00:04:51.047 --> 00:04:52.489 align:start position:0%
+ ponieważ to tylko niewielka kwota, nie
+ możesz<00:04:51.419><c> robić</c><00:04:51.744><c> z</c><00:04:51.837><c> tego</c><00:04:52.070><c> wielkiego</c>
+
+00:04:52.489 --> 00:04:52.535 align:start position:0%
+ możesz robić z tego wielkiego
+ 
+
+00:04:52.535 --> 00:04:53.837 align:start position:0%
+ możesz robić z tego wielkiego
+ problemu<00:04:52.907><c>,</c><00:04:53.000><c> bo</c><00:04:53.140><c> ludzie</c><00:04:53.419><c>,</c><00:04:53.512><c> którzy</c>
+
+00:04:53.837 --> 00:04:53.884 align:start position:0%
+ problemu, bo ludzie, którzy
+ 
+
+00:04:53.884 --> 00:04:55.558 align:start position:0%
+ problemu, bo ludzie, którzy
+ bankrutują<00:04:54.395><c>,</c><00:04:54.488><c> mają</c><00:04:54.767><c> znacznie</c><00:04:55.186><c> większe</c>
+
+00:04:55.558 --> 00:04:55.605 align:start position:0%
+ bankrutują, mają znacznie większe
+ 
+
+00:04:55.605 --> 00:04:57.186 align:start position:0%
+ bankrutują, mają znacznie większe
+ kłopoty<00:04:56.023><c> finansowe</c><00:04:56.488><c> niż</c><00:04:56.721><c> opłacenie</c>
+
+00:04:57.186 --> 00:04:57.232 align:start position:0%
+ kłopoty finansowe niż opłacenie
+ 
+
+00:04:57.232 --> 00:04:58.721 align:start position:0%
+ kłopoty finansowe niż opłacenie
+ hostingu<00:04:57.604><c>,</c><00:04:57.697><c> czyli</c><00:04:57.977><c> faktury</c><00:04:58.349><c> na</c><00:04:58.488><c> kilka</c>
+
+00:04:58.721 --> 00:04:58.767 align:start position:0%
+ hostingu, czyli faktury na kilka
+ 
+
+00:04:58.767 --> 00:05:00.302 align:start position:0%
+ hostingu, czyli faktury na kilka
+ dolarów<00:04:59.186><c> miesięcznie</c><00:04:59.744><c>,</c><00:04:59.837><c> którą</c><00:05:00.209><c> im</c>
+
+00:05:00.302 --> 00:05:00.348 align:start position:0%
+ dolarów miesięcznie, którą im
+ 
+
+00:05:00.348 --> 00:05:02.011 align:start position:0%
+ dolarów miesięcznie, którą im
+ wysłałeś<00:05:00.860><c>.</c><00:05:01.007><c> Więc</c><00:05:01.269><c> to</c><00:05:01.400><c> również</c><00:05:01.836><c> jest</c>
+
+00:05:02.011 --> 00:05:02.055 align:start position:0%
+ wysłałeś. Więc to również jest
+ 
+
+00:05:02.055 --> 00:05:03.715 align:start position:0%
+ wysłałeś. Więc to również jest
+ kiepska<00:05:02.404><c> sytuacja</c><00:05:02.754><c>,</c><00:05:02.841><c> w</c><00:05:02.928><c> której</c><00:05:03.278><c> nie</c><00:05:03.453><c> chcesz</c>
+
+00:05:03.715 --> 00:05:03.758 align:start position:0%
+ kiepska sytuacja, w której nie chcesz
+ 
+
+00:05:03.758 --> 00:05:05.633 align:start position:0%
+ kiepska sytuacja, w której nie chcesz
+ się<00:05:03.977><c> znaleźć</c><00:05:04.370><c>.</c><00:05:04.514><c> Powód</c><00:05:04.905><c> numer</c><00:05:05.241><c> cztery</c><00:05:05.577><c>.</c>
+
+00:05:05.633 --> 00:05:06.162 align:start position:0%
+ się znaleźć. Powód numer cztery.
+ 
+
+00:05:06.162 --> 00:05:08.235 align:start position:0%
+ się znaleźć. Powód numer cztery.
+ Wielu<00:05:06.498><c> klientów</c><00:05:07.058><c> ma</c><00:05:07.226><c> już</c><00:05:07.507><c> swój</c><00:05:07.843><c> hosting</c>
+
+00:05:08.235 --> 00:05:08.291 align:start position:0%
+ Wielu klientów ma już swój hosting
+ 
+
+00:05:08.291 --> 00:05:10.478 align:start position:0%
+ Wielu klientów ma już swój hosting
+ lub<00:05:08.516><c> domenę</c><00:05:08.964><c> w</c><00:05:09.076><c> innej</c><00:05:09.413><c> firmie</c><00:05:09.805><c> hostingowej</c><00:05:10.421><c>.</c>
+
+00:05:10.478 --> 00:05:10.592 align:start position:0%
+ lub domenę w innej firmie hostingowej.
+ 
+
+00:05:10.592 --> 00:05:12.040 align:start position:0%
+ lub domenę w innej firmie hostingowej.
+ Wtedy<00:05:10.847><c> możesz</c><00:05:11.188><c> powiedzieć</c><00:05:11.656><c>:</c><00:05:11.741><c> „</c><00:05:11.869><c>Tak</c><00:05:11.997><c>,</c>
+
+00:05:12.040 --> 00:05:12.082 align:start position:0%
+ Wtedy możesz powiedzieć: „Tak,
+ 
+
+00:05:12.082 --> 00:05:13.658 align:start position:0%
+ Wtedy możesz powiedzieć: „Tak,
+ cóż<00:05:12.295><c>,</c><00:05:12.380><c> mogę</c><00:05:12.636><c> przeprowadzić</c><00:05:13.275><c> migrację</c>
+
+00:05:13.658 --> 00:05:15.710 align:start position:0%
+ cóż, mogę przeprowadzić migrację
+”<00:05:13.786><c>.</c><00:05:13.929><c> Cóż</c><00:05:14.191><c>,</c><00:05:14.295><c> migracje</c><00:05:14.767><c> nie</c><00:05:14.977><c> są</c><00:05:15.186><c> łatwe</c><00:05:15.553><c> dla</c>
+
+00:05:15.710 --> 00:05:15.763 align:start position:0%
+”. Cóż, migracje nie są łatwe dla
+ 
+
+00:05:15.763 --> 00:05:17.806 align:start position:0%
+”. Cóż, migracje nie są łatwe dla
+ przeciętnego<00:05:16.496><c> projektanta</c><00:05:17.073><c>,</c><00:05:17.177><c> ponieważ</c><00:05:17.701><c> to</c>
+
+00:05:17.806 --> 00:05:17.859 align:start position:0%
+ przeciętnego projektanta, ponieważ to
+ 
+
+00:05:17.859 --> 00:05:20.012 align:start position:0%
+ przeciętnego projektanta, ponieważ to
+ bardzo<00:05:18.225><c> techniczna</c><00:05:18.802><c> sprawa</c><00:05:19.116><c>.</c><00:05:19.473><c> Właściwie</c>
+
+00:05:20.012 --> 00:05:20.061 align:start position:0%
+ bardzo techniczna sprawa. Właściwie
+ 
+
+00:05:20.061 --> 00:05:21.876 align:start position:0%
+ bardzo techniczna sprawa. Właściwie
+ ponad<00:05:20.355><c> połowa</c><00:05:20.748><c> moich</c><00:05:21.042><c> klientów</c><00:05:21.532><c> ma</c><00:05:21.680><c> już</c>
+
+00:05:21.876 --> 00:05:21.925 align:start position:0%
+ ponad połowa moich klientów ma już
+ 
+
+00:05:21.925 --> 00:05:23.876 align:start position:0%
+ ponad połowa moich klientów ma już
+ gdzieś<00:05:22.317><c> hosting</c><00:05:22.660><c>.</c><00:05:22.810><c> Więc</c><00:05:23.114><c> wtedy</c><00:05:23.419><c> po</c><00:05:23.571><c> prostu</c>
+
+00:05:23.876 --> 00:05:23.926 align:start position:0%
+ gdzieś hosting. Więc wtedy po prostu
+ 
+
+00:05:23.926 --> 00:05:25.805 align:start position:0%
+ gdzieś hosting. Więc wtedy po prostu
+ instaluję<00:05:24.485><c> WordPressa</c><00:05:25.043><c> na</c><00:05:25.195><c> ich</c><00:05:25.398><c> hostingu</c>
+
+00:05:25.805 --> 00:05:25.855 align:start position:0%
+ instaluję WordPressa na ich hostingu
+ 
+
+00:05:25.855 --> 00:05:27.734 align:start position:0%
+ instaluję WordPressa na ich hostingu
+ lub<00:05:26.008><c>,</c><00:05:26.109><c> jeśli</c><00:05:26.465><c> już</c><00:05:26.718><c> mają</c><00:05:27.023><c> WordPressa</c><00:05:27.531><c>,</c><00:05:27.632><c> po</c>
+
+00:05:27.734 --> 00:05:27.784 align:start position:0%
+ lub, jeśli już mają WordPressa, po
+ 
+
+00:05:27.784 --> 00:05:29.307 align:start position:0%
+ lub, jeśli już mają WordPressa, po
+ prostu<00:05:28.140><c> zmieniam</c><00:05:28.597><c> stronę</c><00:05:29.003><c> na</c><00:05:29.155><c> tej</c>
+
+00:05:29.307 --> 00:05:29.358 align:start position:0%
+ prostu zmieniam stronę na tej
+ 
+
+00:05:29.358 --> 00:05:31.138 align:start position:0%
+ prostu zmieniam stronę na tej
+ instalacji<00:05:29.866><c>.</c><00:05:30.017><c> Nie</c><00:05:30.203><c> zamierzam</c><00:05:30.671><c> wykonywać</c>
+
+00:05:31.138 --> 00:05:31.184 align:start position:0%
+ instalacji. Nie zamierzam wykonywać
+ 
+
+00:05:31.184 --> 00:05:32.726 align:start position:0%
+ instalacji. Nie zamierzam wykonywać
+ dodatkowej<00:05:31.698><c> pracy</c><00:05:31.932><c>,</c><00:05:32.025><c> która</c><00:05:32.352><c> nie</c><00:05:32.539><c> jest</c>
+
+00:05:32.726 --> 00:05:32.773 align:start position:0%
+ dodatkowej pracy, która nie jest
+ 
+
+00:05:32.773 --> 00:05:34.659 align:start position:0%
+ dodatkowej pracy, która nie jest
+ płatna<00:05:33.100><c>.</c><00:05:33.247><c> Dlatego</c><00:05:33.623><c> wszystkie</c><00:05:34.094><c> te</c><00:05:34.235><c> metody</c><00:05:34.518><c>,</c><00:05:34.612><c> w</c>
+
+00:05:34.659 --> 00:05:34.706 align:start position:0%
+ płatna. Dlatego wszystkie te metody, w
+ 
+
+00:05:34.706 --> 00:05:36.354 align:start position:0%
+ płatna. Dlatego wszystkie te metody, w
+ których<00:05:35.130><c> używasz</c><00:05:35.553><c> jednego</c><00:05:35.930><c> konta</c><00:05:36.213><c> dla</c>
+
+00:05:36.354 --> 00:05:36.401 align:start position:0%
+ których używasz jednego konta dla
+ 
+
+00:05:36.401 --> 00:05:37.766 align:start position:0%
+ których używasz jednego konta dla
+ wszystkich<00:05:36.919><c> klientów</c><00:05:37.343><c>,</c><00:05:37.437><c> nie</c><00:05:37.625><c> są</c>
+
+00:05:37.766 --> 00:05:37.813 align:start position:0%
+ wszystkich klientów, nie są
+ 
+
+00:05:37.813 --> 00:05:39.650 align:start position:0%
+ wszystkich klientów, nie są
+ praktyczne<00:05:38.331><c> i</c><00:05:38.425><c> nie</c><00:05:38.614><c> są</c><00:05:38.802><c> zbyt</c><00:05:39.037><c> realistyczne</c><00:05:39.602><c>.</c>
+
+00:05:39.650 --> 00:05:39.750 align:start position:0%
+ praktyczne i nie są zbyt realistyczne.
+ 
+
+00:05:39.750 --> 00:05:41.606 align:start position:0%
+ praktyczne i nie są zbyt realistyczne.
+ Kolejną<00:05:40.178><c> wadą</c><00:05:40.463><c> dla</c><00:05:40.654><c> Twojego</c><00:05:41.035><c> klienta</c><00:05:41.415><c> jest</c>
+
+00:05:41.606 --> 00:05:41.653 align:start position:0%
+ Kolejną wadą dla Twojego klienta jest
+ 
+
+00:05:41.653 --> 00:05:43.367 align:start position:0%
+ Kolejną wadą dla Twojego klienta jest
+ to<00:05:41.748><c>,</c><00:05:41.844><c> że</c><00:05:42.034><c> to</c><00:05:42.177><c> Ty</c><00:05:42.320><c> jesteś</c><00:05:42.700><c> właścicielem</c>
+
+00:05:43.367 --> 00:05:43.414 align:start position:0%
+ to, że to Ty jesteś właścicielem
+ 
+
+00:05:43.414 --> 00:05:45.129 align:start position:0%
+ to, że to Ty jesteś właścicielem
+ konta<00:05:43.700><c> hostingowego</c><00:05:44.271><c>.</c><00:05:44.419><c> W</c><00:05:44.528><c> ten</c><00:05:44.746><c> sposób</c>
+
+00:05:45.129 --> 00:05:45.183 align:start position:0%
+ konta hostingowego. W ten sposób
+ 
+
+00:05:45.183 --> 00:05:47.259 align:start position:0%
+ konta hostingowego. W ten sposób
+ odpowiadasz<00:05:45.839><c> nawet</c><00:05:46.166><c> za</c><00:05:46.330><c> ich</c><00:05:46.549><c> konta</c><00:05:46.876><c> e-mail</c><00:05:47.204><c>.</c>
+
+00:05:47.259 --> 00:05:47.650 align:start position:0%
+ odpowiadasz nawet za ich konta e-mail.
+ 
+
+00:05:47.650 --> 00:05:49.983 align:start position:0%
+ odpowiadasz nawet za ich konta e-mail.
+ Możesz<00:05:48.118><c> usuwać</c><00:05:48.587><c> konta</c><00:05:48.938><c> e-mail</c><00:05:49.290><c>.</c><00:05:49.606><c> Możesz</c>
+
+00:05:49.983 --> 00:05:50.037 align:start position:0%
+ Możesz usuwać konta e-mail. Możesz
+ 
+
+00:05:50.037 --> 00:05:52.386 align:start position:0%
+ Możesz usuwać konta e-mail. Możesz
+ zmieniać<00:05:50.575><c> hasła</c><00:05:50.899><c>.</c><00:05:51.420><c> A</c><00:05:51.527><c> dla</c><00:05:51.742><c> większości</c>
+
+00:05:52.386 --> 00:05:52.440 align:start position:0%
+ zmieniać hasła. A dla większości
+ 
+
+00:05:52.440 --> 00:05:54.533 align:start position:0%
+ zmieniać hasła. A dla większości
+ firm<00:05:52.708><c> ich</c><00:05:52.923><c> poczta</c><00:05:53.299><c> e-mail</c><00:05:53.674><c> to</c><00:05:53.835><c> bardzo</c><00:05:54.211><c> poufne</c>
+
+00:05:54.533 --> 00:05:54.587 align:start position:0%
+ firm ich poczta e-mail to bardzo poufne
+ 
+
+00:05:54.587 --> 00:05:57.304 align:start position:0%
+ firm ich poczta e-mail to bardzo poufne
+ informacje<00:05:55.124><c>.</c><00:05:55.861><c> Nie</c><00:05:56.074><c> chcą</c><00:05:56.342><c>,</c><00:05:56.449><c> aby</c><00:05:56.663><c> web</c><00:05:56.877><c> designer</c>
+
+00:05:57.304 --> 00:05:57.358 align:start position:0%
+ informacje. Nie chcą, aby web designer
+ 
+
+00:05:57.358 --> 00:05:59.337 align:start position:0%
+ informacje. Nie chcą, aby web designer
+ miał<00:05:57.679><c> taką</c><00:05:58.000><c> władzę</c><00:05:58.481><c> nad</c><00:05:58.695><c> ich</c><00:05:58.909><c> mailami</c><00:05:59.283><c>.</c>
+
+00:05:59.337 --> 00:05:59.644 align:start position:0%
+ miał taką władzę nad ich mailami.
+ 
+
+00:05:59.644 --> 00:06:01.557 align:start position:0%
+ miał taką władzę nad ich mailami.
+ Możesz<00:06:00.046><c> nawet</c><00:06:00.348><c> usunąć</c><00:06:00.801><c> prywatny</c><00:06:01.255><c> e-mail</c>
+
+00:06:01.557 --> 00:06:01.607 align:start position:0%
+ Możesz nawet usunąć prywatny e-mail
+ 
+
+00:06:01.607 --> 00:06:03.420 align:start position:0%
+ Możesz nawet usunąć prywatny e-mail
+ dyrektora<00:06:02.110><c> generalnego</c><00:06:02.664><c>,</c><00:06:02.765><c> na</c><00:06:02.916><c> przykład</c><00:06:03.369><c>.</c>
+
+00:06:03.420 --> 00:06:03.520 align:start position:0%
+ dyrektora generalnego, na przykład.
+ 
+
+00:06:03.520 --> 00:06:05.475 align:start position:0%
+ dyrektora generalnego, na przykład.
+ Ostatnią<00:06:04.021><c> wadą</c><00:06:04.272><c>,</c><00:06:04.372><c> którą</c><00:06:04.773><c> chciałem</c><00:06:05.275><c> się</c>
+
+00:06:05.475 --> 00:06:05.526 align:start position:0%
+ Ostatnią wadą, którą chciałem się
+ 
+
+00:06:05.526 --> 00:06:07.481 align:start position:0%
+ Ostatnią wadą, którą chciałem się
+ podzielić<00:06:06.027><c>,</c><00:06:06.127><c> jest</c><00:06:06.378><c> to</c><00:06:06.478><c>,</c><00:06:06.579><c> że</c><00:06:06.779><c> jeśli</c><00:06:07.130><c> jesteś</c>
+
+00:06:07.481 --> 00:06:07.532 align:start position:0%
+ podzielić, jest to, że jeśli jesteś
+ 
+
+00:06:07.532 --> 00:06:09.437 align:start position:0%
+ podzielić, jest to, że jeśli jesteś
+ właścicielem<00:06:08.284><c> ich</c><00:06:08.484><c> konta</c><00:06:08.785><c> hostingowego</c><00:06:09.387><c>,</c>
+
+00:06:09.437 --> 00:06:09.487 align:start position:0%
+ właścicielem ich konta hostingowego,
+ 
+
+00:06:09.487 --> 00:06:11.092 align:start position:0%
+ właścicielem ich konta hostingowego,
+ łatwiej<00:06:09.939><c> jest</c><00:06:10.189><c> im</c><00:06:10.340><c> zadawać</c><00:06:10.791><c> proste</c>
+
+00:06:11.092 --> 00:06:11.142 align:start position:0%
+ łatwiej jest im zadawać proste
+ 
+
+00:06:11.142 --> 00:06:12.898 align:start position:0%
+ łatwiej jest im zadawać proste
+ pytania<00:06:11.544><c> typu</c><00:06:11.744><c>:</c><00:06:11.844><c> „</c><00:06:11.995><c>Hej</c><00:06:12.145><c>,</c><00:06:12.246><c> Reno</c><00:06:12.446><c>,</c><00:06:12.547><c> możesz</c>
+
+00:06:12.898 --> 00:06:12.948 align:start position:0%
+ pytania typu: „Hej, Reno, możesz
+ 
+
+00:06:12.948 --> 00:06:14.703 align:start position:0%
+ pytania typu: „Hej, Reno, możesz
+ stworzyć<00:06:13.449><c> e-mail</c><00:06:13.800><c> dla</c><00:06:14.001><c> naszego</c><00:06:14.402><c> nowego</c>
+
+00:06:14.703 --> 00:06:14.753 align:start position:0%
+ stworzyć e-mail dla naszego nowego
+ 
+
+00:06:14.753 --> 00:06:16.717 align:start position:0%
+ stworzyć e-mail dla naszego nowego
+ pracownika<00:06:15.305><c> lub</c><00:06:15.505><c> stażysty</c><00:06:15.957><c>?</c><00:06:16.007><c>”</c><00:06:16.157><c>.</c><00:06:16.308><c> Albo</c><00:06:16.489><c>:</c><00:06:16.580><c> „</c>
+
+00:06:16.717 --> 00:06:18.218 align:start position:0%
+ pracownika lub stażysty?”. Albo: „
+Czy<00:06:16.899><c> możesz</c><00:06:17.263><c> zmienić</c><00:06:17.672><c> moje</c><00:06:17.899><c> hasło</c><00:06:18.172><c>?</c>
+
+00:06:18.218 --> 00:06:18.318 align:start position:0%
+Czy możesz zmienić moje hasło?
+ 
+
+00:06:18.318 --> 00:06:20.192 align:start position:0%
+Czy możesz zmienić moje hasło?
+ Zgubiłem<00:06:18.827><c> je</c><00:06:18.929><c>”</c><00:06:19.082><c>.</c><00:06:19.233><c> Oczywiście</c><00:06:19.838><c> możesz</c>
+
+00:06:20.192 --> 00:06:20.242 align:start position:0%
+ Zgubiłem je”. Oczywiście możesz
+ 
+
+00:06:20.242 --> 00:06:22.060 align:start position:0%
+ Zgubiłem je”. Oczywiście możesz
+ odmówić<00:06:20.697><c>,</c><00:06:20.798><c> ale</c><00:06:21.000><c> takie</c><00:06:21.303><c> rzeczy</c><00:06:21.656><c> zajmują</c>
+
+00:06:22.060 --> 00:06:22.111 align:start position:0%
+ odmówić, ale takie rzeczy zajmują
+ 
+
+00:06:22.111 --> 00:06:24.861 align:start position:0%
+ odmówić, ale takie rzeczy zajmują
+ minutę<00:06:22.464><c>.</c><00:06:23.506><c> A</c><00:06:23.606><c> w</c><00:06:23.706><c> przypadku</c><00:06:24.208><c> takich</c><00:06:24.560><c> zadań</c>
+
+00:06:24.861 --> 00:06:24.911 align:start position:0%
+ minutę. A w przypadku takich zadań
+ 
+
+00:06:24.911 --> 00:06:26.769 align:start position:0%
+ minutę. A w przypadku takich zadań
+ nie<00:06:25.112><c> chcesz</c><00:06:25.464><c> też</c><00:06:25.715><c> wystawiać</c><00:06:26.267><c> faktury</c><00:06:26.669><c> na</c>
+
+00:06:26.769 --> 00:06:26.819 align:start position:0%
+ nie chcesz też wystawiać faktury na
+ 
+
+00:06:26.819 --> 00:06:29.633 align:start position:0%
+ nie chcesz też wystawiać faktury na
+ kilka<00:06:27.121><c> dolarów</c><00:06:27.522><c>.</c><00:06:28.799><c> I</c><00:06:28.903><c> znowu</c><00:06:29.164><c>,</c><00:06:29.268><c> możesz</c>
+
+00:06:29.633 --> 00:06:29.685 align:start position:0%
+ kilka dolarów. I znowu, możesz
+ 
+
+00:06:29.685 --> 00:06:31.563 align:start position:0%
+ kilka dolarów. I znowu, możesz
+ odmówić<00:06:30.155><c>,</c><00:06:30.259><c> ale</c><00:06:30.468><c> chcesz</c><00:06:30.833><c> też</c><00:06:31.094><c> utrzymać</c>
+
+00:06:31.563 --> 00:06:31.615 align:start position:0%
+ odmówić, ale chcesz też utrzymać
+ 
+
+00:06:31.615 --> 00:06:34.944 align:start position:0%
+ odmówić, ale chcesz też utrzymać
+ dobre<00:06:31.928><c> relacje</c><00:06:32.346><c> z</c><00:06:32.450><c> klientem</c><00:06:32.867><c>.</c><00:06:34.297><c> To</c><00:06:34.458><c> jest</c><00:06:34.728><c> też</c>
+
+00:06:34.944 --> 00:06:34.998 align:start position:0%
+ dobre relacje z klientem. To jest też
+ 
+
+00:06:34.998 --> 00:06:36.887 align:start position:0%
+ dobre relacje z klientem. To jest też
+ mniejszy<00:06:35.484><c> problem</c><00:06:35.861><c>,</c><00:06:35.969><c> gdy</c><00:06:36.185><c> sami</c><00:06:36.455><c> wykupią</c>
+
+00:06:36.887 --> 00:06:36.941 align:start position:0%
+ mniejszy problem, gdy sami wykupią
+ 
+
+00:06:36.941 --> 00:06:38.937 align:start position:0%
+ mniejszy problem, gdy sami wykupią
+ własny<00:06:37.372><c> hosting</c><00:06:37.750><c>,</c><00:06:37.858><c> bo</c><00:06:38.020><c> wtedy</c><00:06:38.344><c> czują</c><00:06:38.668><c>,</c><00:06:38.775><c> że</c>
+
+00:06:38.937 --> 00:06:38.991 align:start position:0%
+ własny hosting, bo wtedy czują, że
+ 
+
+00:06:38.991 --> 00:06:41.096 align:start position:0%
+ własny hosting, bo wtedy czują, że
+ to<00:06:39.153><c> bardziej</c><00:06:39.639><c> część</c><00:06:40.125><c> ich</c><00:06:40.340><c> biznesu</c><00:06:40.718><c>,</c><00:06:40.826><c> a</c><00:06:40.934><c> nie</c>
+
+00:06:41.096 --> 00:06:41.150 align:start position:0%
+ to bardziej część ich biznesu, a nie
+ 
+
+00:06:41.150 --> 00:06:45.304 align:start position:0%
+ to bardziej część ich biznesu, a nie
+ twojego<00:06:41.528><c>.</c><00:06:43.943><c> Wszystko</c><00:06:44.414><c> sprowadza</c><00:06:44.937><c> się</c><00:06:45.199><c> do</c>
+
+00:06:45.304 --> 00:06:45.356 align:start position:0%
+ twojego. Wszystko sprowadza się do
+ 
+
+00:06:45.356 --> 00:06:47.398 align:start position:0%
+ twojego. Wszystko sprowadza się do
+ tego<00:06:45.566><c>,</c><00:06:45.670><c> że</c><00:06:45.880><c> ich</c><00:06:46.089><c> strona</c><00:06:46.403><c>,</c><00:06:46.508><c> domena</c><00:06:46.875><c> i</c><00:06:46.979><c> maile</c><00:06:47.293><c> to</c>
+
+00:06:47.398 --> 00:06:47.451 align:start position:0%
+ tego, że ich strona, domena i maile to
+ 
+
+00:06:47.451 --> 00:06:49.336 align:start position:0%
+ tego, że ich strona, domena i maile to
+ część<00:06:47.922><c> ich</c><00:06:48.131><c> biznesu</c><00:06:48.498><c>,</c><00:06:48.602><c> a</c><00:06:48.707><c> nie</c><00:06:48.917><c> twojego</c><00:06:49.283><c>.</c>
+
+00:06:49.336 --> 00:06:50.894 align:start position:0%
+ część ich biznesu, a nie twojego.
+ 
+
+00:06:50.894 --> 00:06:52.906 align:start position:0%
+ 
+ Oto<00:06:51.111><c> moje</c><00:06:51.383><c> spojrzenie</c><00:06:51.981><c> na</c><00:06:52.144><c> tę</c><00:06:52.362><c> sytuację</c><00:06:52.851><c>.</c>
+
+00:06:52.906 --> 00:06:53.913 align:start position:0%
+ Oto moje spojrzenie na tę sytuację.
+ 
+
+00:06:53.913 --> 00:06:55.687 align:start position:0%
+ 
+ Zawsze<00:06:54.278><c> pozwól</c><00:06:54.695><c> im</c><00:06:54.852><c> wykupić</c><00:06:55.321><c> własny</c>
+
+00:06:55.687 --> 00:06:55.739 align:start position:0%
+ Zawsze pozwól im wykupić własny
+ 
+
+00:06:55.739 --> 00:06:57.774 align:start position:0%
+ Zawsze pozwól im wykupić własny
+ hosting<00:06:56.156><c> i</c><00:06:56.261><c> za</c><00:06:56.417><c> niego</c><00:06:56.730><c> zapłacić</c><00:06:57.252><c>,</c><00:06:57.356><c> uprość</c>
+
+00:06:57.774 --> 00:06:57.826 align:start position:0%
+ hosting i za niego zapłacić, uprość
+ 
+
+00:06:57.826 --> 00:06:59.861 align:start position:0%
+ hosting i za niego zapłacić, uprość
+ to<00:06:57.930><c>,</c><00:06:58.035><c> bo</c><00:06:58.191><c> wtedy</c><00:06:58.504><c> ty</c><00:06:58.661><c> możesz</c><00:06:59.078><c> odejść</c><00:06:59.496><c>,</c><00:06:59.600><c> kiedy</c>
+
+00:06:59.861 --> 00:06:59.913 align:start position:0%
+ to, bo wtedy ty możesz odejść, kiedy
+ 
+
+00:06:59.913 --> 00:07:01.687 align:start position:0%
+ to, bo wtedy ty możesz odejść, kiedy
+ chcesz<00:07:00.226><c>,</c><00:07:00.331><c> i</c><00:07:00.435><c> oni</c><00:07:00.644><c> też</c><00:07:00.904><c> mogą</c><00:07:01.218><c> odejść</c><00:07:01.635><c>,</c>
+
+00:07:01.687 --> 00:07:01.739 align:start position:0%
+ chcesz, i oni też mogą odejść,
+ 
+
+00:07:01.739 --> 00:07:04.228 align:start position:0%
+ chcesz, i oni też mogą odejść,
+ kiedy<00:07:02.052><c> chcą</c><00:07:02.313><c>.</c><00:07:03.015><c> A</c><00:07:03.108><c> jeśli</c><00:07:03.435><c> jeszcze</c><00:07:03.808><c> nie</c><00:07:03.995><c> mają</c>
+
+00:07:04.228 --> 00:07:04.275 align:start position:0%
+ kiedy chcą. A jeśli jeszcze nie mają
+ 
+
+00:07:04.275 --> 00:07:06.002 align:start position:0%
+ kiedy chcą. A jeśli jeszcze nie mają
+ hostingu<00:07:04.648><c>,</c><00:07:04.742><c> po</c><00:07:04.882><c> prostu</c><00:07:05.208><c> powiedz</c><00:07:05.582><c> im</c><00:07:05.675><c>,</c><00:07:05.769><c> jakie</c>
+
+00:07:06.002 --> 00:07:06.049 align:start position:0%
+ hostingu, po prostu powiedz im, jakie
+ 
+
+00:07:06.049 --> 00:07:07.589 align:start position:0%
+ hostingu, po prostu powiedz im, jakie
+ są<00:07:06.235><c> miesięczne</c><00:07:06.796><c> koszty</c><00:07:07.122><c> posiadania</c>
+
+00:07:07.589 --> 00:07:07.636 align:start position:0%
+ są miesięczne koszty posiadania
+ 
+
+00:07:07.636 --> 00:07:09.297 align:start position:0%
+ są miesięczne koszty posiadania
+ strony<00:07:07.963><c> internetowej</c><00:07:08.523><c>.</c><00:07:08.670><c> Powiedz</c><00:07:09.028><c> coś</c><00:07:09.252><c> w</c>
+
+00:07:09.297 --> 00:07:09.342 align:start position:0%
+ strony internetowej. Powiedz coś w
+ 
+
+00:07:09.342 --> 00:07:10.955 align:start position:0%
+ strony internetowej. Powiedz coś w
+ stylu<00:07:09.566><c>:</c><00:07:09.656><c> „</c><00:07:09.790><c>Hej</c><00:07:09.924><c>,</c><00:07:10.014><c> to</c><00:07:10.149><c> kosztuje</c><00:07:10.552><c> około</c><00:07:10.866><c> 10</c>
+
+00:07:10.955 --> 00:07:11.000 align:start position:0%
+ stylu: „Hej, to kosztuje około 10
+ 
+
+00:07:11.000 --> 00:07:12.821 align:start position:0%
+ stylu: „Hej, to kosztuje około 10
+ dolarów<00:07:11.403><c> miesięcznie</c><00:07:11.941><c>”</c><00:07:12.076><c>.</c><00:07:12.221><c> A</c><00:07:12.330><c> potem</c><00:07:12.657><c> daj</c>
+
+00:07:12.821 --> 00:07:12.876 align:start position:0%
+ dolarów miesięcznie”. A potem daj
+ 
+
+00:07:12.876 --> 00:07:15.005 align:start position:0%
+ dolarów miesięcznie”. A potem daj
+ im<00:07:13.040><c> instrukcje</c><00:07:13.586><c>,</c><00:07:13.695><c> jak</c><00:07:13.913><c> mogą</c><00:07:14.241><c> zarejestrować</c>
+
+00:07:15.005 --> 00:07:15.060 align:start position:0%
+ im instrukcje, jak mogą zarejestrować
+ 
+
+00:07:15.060 --> 00:07:17.043 align:start position:0%
+ im instrukcje, jak mogą zarejestrować
+ swoje<00:07:15.387><c> konto</c><00:07:15.715><c> hostingowe</c><00:07:16.261><c>.</c><00:07:16.416><c> Powiedz</c><00:07:16.802><c> im</c><00:07:16.946><c> po</c>
+
+00:07:17.043 --> 00:07:17.091 align:start position:0%
+ swoje konto hostingowe. Powiedz im po
+ 
+
+00:07:17.091 --> 00:07:18.974 align:start position:0%
+ swoje konto hostingowe. Powiedz im po
+ prostu<00:07:17.381><c>,</c><00:07:17.477><c> że</c><00:07:17.670><c> to</c><00:07:17.815><c> tak</c><00:07:18.008><c> łatwe</c><00:07:18.298><c>,</c><00:07:18.394><c> jak</c><00:07:18.587><c> zakupy</c><00:07:18.925><c> w</c>
+
+00:07:18.974 --> 00:07:19.022 align:start position:0%
+ prostu, że to tak łatwe, jak zakupy w
+ 
+
+00:07:19.022 --> 00:07:20.856 align:start position:0%
+ prostu, że to tak łatwe, jak zakupy w
+ sklepie<00:07:19.408><c> internetowym</c><00:07:19.987><c>,</c><00:07:20.084><c> bo</c><00:07:20.228><c> tak</c><00:07:20.422><c> właśnie</c>
+
+00:07:20.856 --> 00:07:20.904 align:start position:0%
+ sklepie internetowym, bo tak właśnie
+ 
+
+00:07:20.904 --> 00:07:23.106 align:start position:0%
+ sklepie internetowym, bo tak właśnie
+ jest<00:07:21.097><c>.</c><00:07:21.406><c> Wybierają</c><00:07:21.990><c> plan</c><00:07:22.203><c>,</c><00:07:22.309><c> wpisują</c><00:07:22.787><c> nazwę</c>
+
+00:07:23.106 --> 00:07:23.160 align:start position:0%
+ jest. Wybierają plan, wpisują nazwę
+ 
+
+00:07:23.160 --> 00:07:25.020 align:start position:0%
+ jest. Wybierają plan, wpisują nazwę
+ domeny<00:07:23.478><c>,</c><00:07:23.585><c> którą</c><00:07:24.010><c> chcą</c><00:07:24.276><c>,</c><00:07:24.382><c> wypełniają</c>
+
+00:07:25.020 --> 00:07:25.073 align:start position:0%
+ domeny, którą chcą, wypełniają
+ 
+
+00:07:25.073 --> 00:07:27.035 align:start position:0%
+ domeny, którą chcą, wypełniają
+ dane<00:07:25.339><c> i</c><00:07:25.445><c> klikają</c><00:07:25.924><c> „</c><00:07:26.083><c>zamów</c><00:07:26.402><c>”</c><00:07:26.561><c>.</c><00:07:26.715><c> Jedyne</c><00:07:26.989><c>,</c>
+
+00:07:27.035 --> 00:07:27.080 align:start position:0%
+ dane i klikają „zamów”. Jedyne,
+ 
+
+00:07:27.080 --> 00:07:28.315 align:start position:0%
+ dane i klikają „zamów”. Jedyne,
+ co<00:07:27.217><c> muszą</c><00:07:27.537><c> wtedy</c><00:07:27.812><c> zrobić</c><00:07:28.132><c>,</c><00:07:28.223><c> to</c>
+
+00:07:28.315 --> 00:07:28.360 align:start position:0%
+ co muszą wtedy zrobić, to
+ 
+
+00:07:28.360 --> 00:07:30.144 align:start position:0%
+ co muszą wtedy zrobić, to
+ udostępnić<00:07:28.955><c> ci</c><00:07:29.092><c> dane</c><00:07:29.321><c> do</c><00:07:29.458><c> logowania</c><00:07:29.869><c>,</c><00:07:29.961><c> a</c><00:07:30.052><c> ty</c>
+
+00:07:30.144 --> 00:07:30.189 align:start position:0%
+ udostępnić ci dane do logowania, a ty
+ 
+
+00:07:30.189 --> 00:07:31.790 align:start position:0%
+ udostępnić ci dane do logowania, a ty
+ możesz<00:07:30.555><c> zająć</c><00:07:30.921><c> się</c><00:07:31.149><c> swoją</c><00:07:31.469><c> pracą</c><00:07:31.744><c>.</c>
+
+00:07:31.790 --> 00:07:31.890 align:start position:0%
+ możesz zająć się swoją pracą.
+ 
+
+00:07:31.890 --> 00:07:33.439 align:start position:0%
+ możesz zająć się swoją pracą.
+ Następnie<00:07:32.422><c> możesz</c><00:07:32.810><c> zainstalować</c>
+
+00:07:33.439 --> 00:07:33.488 align:start position:0%
+ Następnie możesz zainstalować
+ 
+
+00:07:33.488 --> 00:07:35.364 align:start position:0%
+ Następnie możesz zainstalować
+ WordPressa<00:07:34.021><c> i</c><00:07:34.118><c> działać</c><00:07:34.602><c> dalej</c><00:07:34.844><c>.</c><00:07:34.993><c> A</c><00:07:35.085><c> jeśli</c>
+
+00:07:35.364 --> 00:07:35.410 align:start position:0%
+ WordPressa i działać dalej. A jeśli
+ 
+
+00:07:35.410 --> 00:07:37.081 align:start position:0%
+ WordPressa i działać dalej. A jeśli
+ będą<00:07:35.735><c> chcieli</c><00:07:36.106><c> zrezygnować</c><00:07:36.710><c> z</c><00:07:36.803><c> twoich</c>
+
+00:07:37.081 --> 00:07:37.127 align:start position:0%
+ będą chcieli zrezygnować z twoich
+ 
+
+00:07:37.127 --> 00:07:38.845 align:start position:0%
+ będą chcieli zrezygnować z twoich
+ usług<00:07:37.406><c>,</c><00:07:37.499><c> po</c><00:07:37.638><c> prostu</c><00:07:37.963><c> zmienią</c><00:07:38.380><c> hasło</c><00:07:38.659><c>,</c><00:07:38.752><c> to</c>
+
+00:07:38.845 --> 00:07:38.891 align:start position:0%
+ usług, po prostu zmienią hasło, to
+ 
+
+00:07:38.891 --> 00:07:40.423 align:start position:0%
+ usług, po prostu zmienią hasło, to
+ całkiem<00:07:39.309><c> proste</c><00:07:39.587><c>,</c><00:07:39.680><c> nikt</c><00:07:39.912><c> nie</c><00:07:40.098><c> jest</c><00:07:40.330><c> od</c>
+
+00:07:40.423 --> 00:07:40.469 align:start position:0%
+ całkiem proste, nikt nie jest od
+ 
+
+00:07:40.469 --> 00:07:42.670 align:start position:0%
+ całkiem proste, nikt nie jest od
+ nikogo<00:07:40.794><c> zależny</c><00:07:41.165><c>.</c><00:07:41.561><c> Jeśli</c><00:07:41.930><c> martwisz</c><00:07:42.406><c> się</c><00:07:42.617><c>,</c>
+
+00:07:42.670 --> 00:07:42.722 align:start position:0%
+ nikogo zależny. Jeśli martwisz się,
+ 
+
+00:07:42.722 --> 00:07:44.413 align:start position:0%
+ nikogo zależny. Jeśli martwisz się,
+ że<00:07:42.934><c> klient</c><00:07:43.303><c> nie</c><00:07:43.515><c> wie</c><00:07:43.673><c>,</c><00:07:43.779><c> jak</c><00:07:43.990><c> wykupić</c>
+
+00:07:44.413 --> 00:07:44.465 align:start position:0%
+ że klient nie wie, jak wykupić
+ 
+
+00:07:44.465 --> 00:07:46.525 align:start position:0%
+ że klient nie wie, jak wykupić
+ hosting<00:07:44.835><c>,</c><00:07:44.941><c> wskocz</c><00:07:45.311><c> na</c><00:07:45.469><c> Skype’a</c><00:07:45.944><c>,</c><00:07:46.050><c> zadzwoń</c><00:07:46.473><c>,</c>
+
+00:07:46.525 --> 00:07:46.578 align:start position:0%
+ hosting, wskocz na Skype’a, zadzwoń,
+ 
+
+00:07:46.578 --> 00:07:48.638 align:start position:0%
+ hosting, wskocz na Skype’a, zadzwoń,
+ powiedz<00:07:47.001><c> im</c><00:07:47.106><c>,</c><00:07:47.212><c> gdzie</c><00:07:47.529><c> kliknąć</c><00:07:48.004><c>,</c><00:07:48.110><c> i</c><00:07:48.216><c> dopilnuj</c>
+
+00:07:48.638 --> 00:07:50.549 align:start position:0%
+ powiedz im, gdzie kliknąć, i dopilnuj
+,<00:07:48.744><c> żeby</c><00:07:49.061><c> założyli</c><00:07:49.642><c> konto</c><00:07:49.906><c>.</c><00:07:50.204><c> Z</c><00:07:50.290><c> mojego</c>
+
+00:07:50.549 --> 00:07:50.592 align:start position:0%
+, żeby założyli konto. Z mojego
+ 
+
+00:07:50.592 --> 00:07:52.275 align:start position:0%
+, żeby założyli konto. Z mojego
+ doświadczenia<00:07:51.239><c> wynika</c><00:07:51.498><c>,</c><00:07:51.584><c> że</c><00:07:51.757><c> większość</c>
+
+00:07:52.275 --> 00:07:52.318 align:start position:0%
+ doświadczenia wynika, że większość
+ 
+
+00:07:52.318 --> 00:07:53.699 align:start position:0%
+ doświadczenia wynika, że większość
+ klientów<00:07:52.750><c> to</c><00:07:52.879><c> uwielbia</c><00:07:53.224><c>,</c><00:07:53.311><c> po</c><00:07:53.440><c> prostu</c>
+
+00:07:53.699 --> 00:07:53.742 align:start position:0%
+ klientów to uwielbia, po prostu
+ 
+
+00:07:53.742 --> 00:07:55.339 align:start position:0%
+ klientów to uwielbia, po prostu
+ dlatego<00:07:54.044><c>,</c><00:07:54.131><c> że</c><00:07:54.303><c> czują</c><00:07:54.605><c> się</c><00:07:54.821><c> dzięki</c><00:07:55.166><c> temu</c>
+
+00:07:55.339 --> 00:07:55.382 align:start position:0%
+ dlatego, że czują się dzięki temu
+ 
+
+00:07:55.382 --> 00:07:56.768 align:start position:0%
+ dlatego, że czują się dzięki temu
+ bardziej<00:07:55.771><c> kompetentni</c><00:07:56.245><c>.</c><00:07:56.389><c> Bo</c><00:07:56.531><c> teraz</c>
+
+00:07:56.768 --> 00:07:56.815 align:start position:0%
+ bardziej kompetentni. Bo teraz
+ 
+
+00:07:56.815 --> 00:07:58.189 align:start position:0%
+ bardziej kompetentni. Bo teraz
+ potrafią<00:07:57.289><c> zrobić</c><00:07:57.668><c> coś</c><00:07:57.858><c>,</c><00:07:57.952><c> czego</c>
+
+00:07:58.189 --> 00:07:58.237 align:start position:0%
+ potrafią zrobić coś, czego
+ 
+
+00:07:58.237 --> 00:08:00.049 align:start position:0%
+ potrafią zrobić coś, czego
+ wcześniej<00:07:58.758><c> nie</c><00:07:58.948><c> umieli</c><00:07:59.232><c>.</c><00:07:59.380><c> Skoro</c><00:07:59.688><c> mamy</c><00:07:59.946><c> to</c>
+
+00:08:00.049 --> 00:08:00.100 align:start position:0%
+ wcześniej nie umieli. Skoro mamy to
+ 
+
+00:08:00.100 --> 00:08:02.004 align:start position:0%
+ wcześniej nie umieli. Skoro mamy to
+ już<00:08:00.357><c> za</c><00:08:00.512><c> sobą</c><00:08:00.769><c>,</c><00:08:00.872><c> porozmawiajmy</c><00:08:01.592><c> o</c><00:08:01.695><c> twojej</c>
+
+00:08:02.004 --> 00:08:02.056 align:start position:0%
+ już za sobą, porozmawiajmy o twojej
+ 
+
+00:08:02.056 --> 00:08:03.758 align:start position:0%
+ już za sobą, porozmawiajmy o twojej
+ własnej<00:08:02.519><c> stronie</c><00:08:02.879><c>.</c><00:08:03.031><c> Jakiego</c><00:08:03.478><c> planu</c>
+
+00:08:03.758 --> 00:08:03.814 align:start position:0%
+ własnej stronie. Jakiego planu
+ 
+
+00:08:03.814 --> 00:08:05.996 align:start position:0%
+ własnej stronie. Jakiego planu
+ hostingowego<00:08:04.541><c> potrzebujesz</c><00:08:05.269><c> dla</c><00:08:05.492><c> własnego</c>
+
+00:08:05.996 --> 00:08:06.052 align:start position:0%
+ hostingowego potrzebujesz dla własnego
+ 
+
+00:08:06.052 --> 00:08:08.055 align:start position:0%
+ hostingowego potrzebujesz dla własnego
+ portfolio<00:08:06.556><c>?</c><00:08:06.923><c> Zanim</c><00:08:07.231><c> więc</c><00:08:07.540><c> wpiszesz</c><00:08:08.004><c> w</c>
+
+00:08:08.055 --> 00:08:08.106 align:start position:0%
+ portfolio? Zanim więc wpiszesz w
+ 
+
+00:08:08.106 --> 00:08:10.063 align:start position:0%
+ portfolio? Zanim więc wpiszesz w
+ Google<00:08:08.415><c>:</c><00:08:08.518><c> „</c><00:08:08.673><c>najtańszy</c><00:08:09.239><c> możliwy</c><00:08:09.702><c> hosting</c>
+
+00:08:10.063 --> 00:08:11.872 align:start position:0%
+ Google: „najtańszy możliwy hosting
+”<00:08:10.217><c>.</c><00:08:10.369><c> musisz</c><00:08:10.678><c> się</c><00:08:10.899><c> zastanowić</c><00:08:11.386><c>,</c><00:08:11.474><c> czego</c><00:08:11.739><c> tak</c>
+
+00:08:11.872 --> 00:08:11.916 align:start position:0%
+”. musisz się zastanowić, czego tak
+ 
+
+00:08:11.916 --> 00:08:13.724 align:start position:0%
+”. musisz się zastanowić, czego tak
+ naprawdę<00:08:12.359><c> potrzebujesz</c><00:08:12.889><c>.</c><00:08:13.034><c> Jedną</c><00:08:13.356><c> z</c><00:08:13.448><c> rzeczy</c>
+
+00:08:13.724 --> 00:08:15.242 align:start position:0%
+ naprawdę potrzebujesz. Jedną z rzeczy
+,<00:08:13.816><c> która</c><00:08:14.138><c> jest</c><00:08:14.368><c> niezbędna</c><00:08:14.874><c> w</c><00:08:14.966><c> planie</c>
+
+00:08:15.242 --> 00:08:15.288 align:start position:0%
+, która jest niezbędna w planie
+ 
+
+00:08:15.288 --> 00:08:16.944 align:start position:0%
+, która jest niezbędna w planie
+ hostingowym<00:08:15.794><c>,</c><00:08:15.886><c> gdy</c><00:08:16.070><c> prowadzisz</c><00:08:16.576><c> własną</c>
+
+00:08:16.944 --> 00:08:16.990 align:start position:0%
+ hostingowym, gdy prowadzisz własną
+ 
+
+00:08:16.990 --> 00:08:18.554 align:start position:0%
+ hostingowym, gdy prowadzisz własną
+ firmę<00:08:17.312><c> projektującą</c><00:08:18.002><c> strony</c><00:08:18.278><c>,</c><00:08:18.370><c> jest</c>
+
+00:08:18.554 --> 00:08:18.600 align:start position:0%
+ firmę projektującą strony, jest
+ 
+
+00:08:18.600 --> 00:08:20.921 align:start position:0%
+ firmę projektującą strony, jest
+ obsługa<00:08:19.014><c> subdomen</c><00:08:19.382><c>.</c><00:08:19.852><c> Obsługa</c><00:08:20.333><c> subdomen</c><00:08:20.814><c> to</c>
+
+00:08:20.921 --> 00:08:20.974 align:start position:0%
+ obsługa subdomen. Obsługa subdomen to
+ 
+
+00:08:20.974 --> 00:08:22.686 align:start position:0%
+ obsługa subdomen. Obsługa subdomen to
+ funkcja<00:08:21.349><c>,</c><00:08:21.456><c> która</c><00:08:21.830><c> pozwala</c><00:08:22.258><c> tworzyć</c>
+
+00:08:22.686 --> 00:08:22.739 align:start position:0%
+ funkcja, która pozwala tworzyć
+ 
+
+00:08:22.739 --> 00:08:24.611 align:start position:0%
+ funkcja, która pozwala tworzyć
+ różne<00:08:23.167><c> strony</c><00:08:23.541><c> internetowe</c><00:08:24.183><c> w</c><00:08:24.290><c> ramach</c>
+
+00:08:24.611 --> 00:08:24.664 align:start position:0%
+ różne strony internetowe w ramach
+ 
+
+00:08:24.664 --> 00:08:28.134 align:start position:0%
+ różne strony internetowe w ramach
+ twojej<00:08:25.038><c> głównej</c><00:08:25.573><c> domeny</c><00:08:25.894><c>.</c><00:08:27.253><c> Na</c><00:08:27.473><c> przykład</c>
+
+00:08:28.134 --> 00:08:28.207 align:start position:0%
+ twojej głównej domeny. Na przykład
+ 
+
+00:08:28.207 --> 00:08:31.072 align:start position:0%
+ twojej głównej domeny. Na przykład
+ moja<00:08:28.575><c> domena</c><00:08:29.089><c> to</c><00:08:29.309><c> arjandebruin.com</c><00:08:30.484><c>,</c><00:08:30.631><c> a</c><00:08:30.778><c> moja</c>
+
+00:08:31.072 --> 00:08:31.145 align:start position:0%
+ moja domena to arjandebruin.com, a moja
+ 
+
+00:08:31.145 --> 00:08:33.422 align:start position:0%
+ moja domena to arjandebruin.com, a moja
+ subdomena<00:08:31.880><c> może</c><00:08:32.321><c> wyglądać</c><00:08:33.129><c> tak</c><00:08:33.349><c>:</c>
+
+00:08:33.422 --> 00:08:33.496 align:start position:0%
+ subdomena może wyglądać tak:
+ 
+
+00:08:33.496 --> 00:08:35.332 align:start position:0%
+ subdomena może wyglądać tak:
+ blog.arjandebruin.com<00:08:35.112><c> lub</c>
+
+00:08:35.332 --> 00:08:35.406 align:start position:0%
+ blog.arjandebruin.com lub
+ 
+
+00:08:35.406 --> 00:08:37.919 align:start position:0%
+ blog.arjandebruin.com lub
+ shop.arjandebruin.com<00:08:36.948><c>.</c><00:08:37.122><c> Więc</c><00:08:37.421><c> domena</c><00:08:37.720><c>,</c><00:08:37.819><c> za</c>
+
+00:08:37.919 --> 00:08:37.969 align:start position:0%
+ shop.arjandebruin.com. Więc domena, za
+ 
+
+00:08:37.969 --> 00:08:39.664 align:start position:0%
+ shop.arjandebruin.com. Więc domena, za
+ którą<00:08:38.368><c> zapłaciłeś</c><00:08:39.016><c>,</c><00:08:39.116><c> jest</c><00:08:39.365><c> zawsze</c>
+
+00:08:39.664 --> 00:08:39.714 align:start position:0%
+ którą zapłaciłeś, jest zawsze
+ 
+
+00:08:39.714 --> 00:08:41.603 align:start position:0%
+ którą zapłaciłeś, jest zawsze
+ widoczna<00:08:40.163><c> w</c><00:08:40.262><c> linku</c><00:08:40.512><c>.</c><00:08:40.662><c> Dlatego</c><00:08:41.058><c> nie</c><00:08:41.256><c> jest</c><00:08:41.504><c> to</c>
+
+00:08:41.603 --> 00:08:41.652 align:start position:0%
+ widoczna w linku. Dlatego nie jest to
+ 
+
+00:08:41.652 --> 00:08:43.584 align:start position:0%
+ widoczna w linku. Dlatego nie jest to
+ rozwiązanie<00:08:42.296><c> dla</c><00:08:42.494><c> stron</c><00:08:42.791><c> twoich</c><00:08:43.138><c> klientów</c>
+
+00:08:43.584 --> 00:08:45.148 align:start position:0%
+ rozwiązanie dla stron twoich klientów
+.<00:08:43.734><c> Dlatego</c><00:08:44.076><c> właśnie</c><00:08:44.505><c> musisz</c><00:08:44.805><c> kupować</c>
+
+00:08:45.148 --> 00:08:45.191 align:start position:0%
+. Dlatego właśnie musisz kupować
+ 
+
+00:08:45.191 --> 00:08:46.692 align:start position:0%
+. Dlatego właśnie musisz kupować
+ nową<00:08:45.448><c> domenę</c><00:08:45.791><c> dla</c><00:08:45.963><c> każdego</c><00:08:46.349><c> klienta</c><00:08:46.649><c>,</c>
+
+00:08:46.692 --> 00:08:46.734 align:start position:0%
+ nową domenę dla każdego klienta,
+ 
+
+00:08:46.734 --> 00:08:48.489 align:start position:0%
+ nową domenę dla każdego klienta,
+ który<00:08:47.035><c> jeszcze</c><00:08:47.378><c> jej</c><00:08:47.549><c> nie</c><00:08:47.721><c> posiada</c><00:08:48.021><c>.</c><00:08:48.164><c> Ale</c><00:08:48.349><c> dla</c>
+
+00:08:48.489 --> 00:08:48.535 align:start position:0%
+ który jeszcze jej nie posiada. Ale dla
+ 
+
+00:08:48.535 --> 00:08:50.254 align:start position:0%
+ który jeszcze jej nie posiada. Ale dla
+ własnego<00:08:49.000><c> biznesu</c><00:08:49.371><c> web</c><00:08:49.557><c> designu</c><00:08:49.929><c> jest</c><00:08:50.161><c> to</c>
+
+00:08:50.254 --> 00:08:50.301 align:start position:0%
+ własnego biznesu web designu jest to
+ 
+
+00:08:50.301 --> 00:08:52.113 align:start position:0%
+ własnego biznesu web designu jest to
+ idealne<00:08:50.672><c> rozwiązanie</c><00:08:51.230><c>,</c><00:08:51.323><c> ponieważ</c><00:08:51.787><c> możesz</c>
+
+00:08:52.113 --> 00:08:52.159 align:start position:0%
+ idealne rozwiązanie, ponieważ możesz
+ 
+
+00:08:52.159 --> 00:08:53.971 align:start position:0%
+ idealne rozwiązanie, ponieważ możesz
+ wykorzystać<00:08:52.763><c> to</c><00:08:52.902><c> jako</c><00:08:53.135><c> elementy</c><00:08:53.553><c> portfolio</c>
+
+00:08:53.971 --> 00:08:56.028 align:start position:0%
+ wykorzystać to jako elementy portfolio
+.<00:08:54.118><c> Ponieważ</c><00:08:54.648><c> w</c><00:08:54.754><c> ramach</c><00:08:55.126><c> subdomeny</c><00:08:55.657><c> możesz</c>
+
+00:08:56.028 --> 00:08:56.081 align:start position:0%
+. Ponieważ w ramach subdomeny możesz
+ 
+
+00:08:56.081 --> 00:08:58.152 align:start position:0%
+. Ponieważ w ramach subdomeny możesz
+ uruchomić<00:08:56.665><c> osobną</c><00:08:57.037><c>,</c><00:08:57.143><c> pełną</c><00:08:57.568><c> instalację</c>
+
+00:08:58.152 --> 00:08:58.205 align:start position:0%
+ uruchomić osobną, pełną instalację
+ 
+
+00:08:58.205 --> 00:09:00.116 align:start position:0%
+ uruchomić osobną, pełną instalację
+ WordPressa<00:08:58.789><c> w</c><00:08:58.895><c> obrębie</c><00:08:59.372><c> swojej</c><00:08:59.744><c> domeny</c><00:09:00.062><c>.</c>
+
+00:09:00.116 --> 00:09:00.216 align:start position:0%
+ WordPressa w obrębie swojej domeny.
+ 
+
+00:09:00.216 --> 00:09:02.136 align:start position:0%
+ WordPressa w obrębie swojej domeny.
+ Możesz<00:09:00.620><c> podlinkować</c><00:09:01.277><c> ten</c><00:09:01.479><c> adres</c><00:09:01.782><c> w</c><00:09:01.883><c> swoim</c>
+
+00:09:02.136 --> 00:09:02.187 align:start position:0%
+ Możesz podlinkować ten adres w swoim
+ 
+
+00:09:02.187 --> 00:09:04.057 align:start position:0%
+ Możesz podlinkować ten adres w swoim
+ portfolio<00:09:02.692><c> bez</c><00:09:02.894><c> konieczności</c><00:09:03.602><c> płacenia</c>
+
+00:09:04.057 --> 00:09:04.107 align:start position:0%
+ portfolio bez konieczności płacenia
+ 
+
+00:09:04.107 --> 00:09:05.750 align:start position:0%
+ portfolio bez konieczności płacenia
+ za<00:09:04.259><c> dodatkowy</c><00:09:04.764><c> hosting</c><00:09:05.118><c>.</c><00:09:05.269><c> Ja</c><00:09:05.413><c> już</c><00:09:05.654><c> to</c>
+
+00:09:05.750 --> 00:09:05.798 align:start position:0%
+ za dodatkowy hosting. Ja już to
+ 
+
+00:09:05.798 --> 00:09:07.579 align:start position:0%
+ za dodatkowy hosting. Ja już to
+ zrobiłem<00:09:06.279><c> ze</c><00:09:06.424><c> swoim</c><00:09:06.713><c> blogiem</c><00:09:07.098><c> o</c><00:09:07.194><c> zdrowiu</c><00:09:07.531><c>,</c>
+
+00:09:07.579 --> 00:09:07.627 align:start position:0%
+ zrobiłem ze swoim blogiem o zdrowiu,
+ 
+
+00:09:07.627 --> 00:09:09.504 align:start position:0%
+ zrobiłem ze swoim blogiem o zdrowiu,
+ który<00:09:07.964><c> zbudowałem</c><00:09:08.542><c> do</c><00:09:08.686><c> swojego</c><00:09:09.071><c> portfolio</c>
+
+00:09:09.504 --> 00:09:10.697 align:start position:0%
+ który zbudowałem do swojego portfolio
+.<00:09:09.653><c> Jeśli</c><00:09:10.037><c> wejdziesz</c><00:09:10.587><c> na</c>
+
+00:09:10.697 --> 00:09:10.752 align:start position:0%
+. Jeśli wejdziesz na
+ 
+
+00:09:10.752 --> 00:09:12.895 align:start position:0%
+. Jeśli wejdziesz na
+ healthyblog.arjandebruin.com<00:09:12.290><c>,</c><00:09:12.400><c> zobaczysz</c>
+
+00:09:12.895 --> 00:09:12.950 align:start position:0%
+ healthyblog.arjandebruin.com, zobaczysz
+ 
+
+00:09:12.950 --> 00:09:14.873 align:start position:0%
+ healthyblog.arjandebruin.com, zobaczysz
+ cały<00:09:13.280><c> blog</c><00:09:13.500><c>,</c><00:09:13.609><c> który</c><00:09:13.994><c> stworzyłem</c><00:09:14.599><c>,</c><00:09:14.709><c> aby</c>
+
+00:09:14.873 --> 00:09:14.928 align:start position:0%
+ cały blog, który stworzyłem, aby
+ 
+
+00:09:14.928 --> 00:09:16.852 align:start position:0%
+ cały blog, który stworzyłem, aby
+ pokazać<00:09:15.423><c> potencjalnym</c><00:09:16.137><c> klientom</c><00:09:16.577><c>,</c><00:09:16.687><c> że</c>
+
+00:09:16.852 --> 00:09:16.907 align:start position:0%
+ pokazać potencjalnym klientom, że
+ 
+
+00:09:16.907 --> 00:09:19.185 align:start position:0%
+ pokazać potencjalnym klientom, że
+ potrafię<00:09:17.456><c> budować</c><00:09:17.951><c> takie</c><00:09:18.281><c> strony</c><00:09:18.611><c>.</c><00:09:18.971><c> Przy</c>
+
+00:09:19.185 --> 00:09:19.238 align:start position:0%
+ potrafię budować takie strony. Przy
+ 
+
+00:09:19.238 --> 00:09:21.218 align:start position:0%
+ potrafię budować takie strony. Przy
+ okazji<00:09:19.559><c>,</c><00:09:19.666><c> poradnik</c><00:09:20.148><c> do</c><00:09:20.308><c> całej</c><00:09:20.683><c> tej</c><00:09:20.897><c> strony</c>
+
+00:09:21.218 --> 00:09:21.272 align:start position:0%
+ okazji, poradnik do całej tej strony
+ 
+
+00:09:21.272 --> 00:09:23.276 align:start position:0%
+ okazji, poradnik do całej tej strony
+ pojawi<00:09:21.646><c> się</c><00:09:21.914><c> wkrótce</c><00:09:22.395><c> na</c><00:09:22.556><c> kanale</c><00:09:22.877><c>.</c><00:09:23.031><c> Więc</c>
+
+00:09:23.276 --> 00:09:23.325 align:start position:0%
+ pojawi się wkrótce na kanale. Więc
+ 
+
+00:09:23.325 --> 00:09:24.850 align:start position:0%
+ pojawi się wkrótce na kanale. Więc
+ nie<00:09:23.522><c> płacę</c><00:09:23.915><c> nic</c><00:09:24.112><c> za</c><00:09:24.260><c> ten</c><00:09:24.456><c> hosting</c><00:09:24.800><c>,</c>
+
+00:09:24.850 --> 00:09:24.899 align:start position:0%
+ nie płacę nic za ten hosting,
+ 
+
+00:09:24.899 --> 00:09:26.814 align:start position:0%
+ nie płacę nic za ten hosting,
+ ponieważ<00:09:25.390><c> jest</c><00:09:25.636><c> to</c><00:09:25.784><c> subdomena</c><00:09:26.226><c>,</c><00:09:26.324><c> prawda</c><00:09:26.619><c>?</c><00:09:26.769><c> A</c>
+
+00:09:26.814 --> 00:09:26.859 align:start position:0%
+ ponieważ jest to subdomena, prawda? A
+ 
+
+00:09:26.859 --> 00:09:28.537 align:start position:0%
+ ponieważ jest to subdomena, prawda? A
+ jest<00:09:27.086><c> to</c><00:09:27.222><c> pełna</c><00:09:27.539><c> instalacja</c><00:09:28.038><c> WordPressa</c><00:09:28.491><c>,</c>
+
+00:09:28.537 --> 00:09:28.582 align:start position:0%
+ jest to pełna instalacja WordPressa,
+ 
+
+00:09:28.582 --> 00:09:30.260 align:start position:0%
+ jest to pełna instalacja WordPressa,
+ którą<00:09:28.945><c> mogę</c><00:09:29.217><c> pokazać</c><00:09:29.625><c> moim</c><00:09:29.851><c> klientom</c><00:09:30.214><c>.</c>
+
+00:09:30.260 --> 00:09:30.360 align:start position:0%
+ którą mogę pokazać moim klientom.
+ 
+
+00:09:30.360 --> 00:09:31.499 align:start position:0%
+ którą mogę pokazać moim klientom.
+ Mogę<00:09:30.604><c> wysłać</c><00:09:30.970><c> im</c><00:09:31.092><c> ten</c><00:09:31.255><c> link</c><00:09:31.458><c> i</c>
+
+00:09:31.499 --> 00:09:31.540 align:start position:0%
+ Mogę wysłać im ten link i
+ 
+
+00:09:31.540 --> 00:09:33.046 align:start position:0%
+ Mogę wysłać im ten link i
+ powiedzieć<00:09:31.987><c>:</c><00:09:32.069><c> „</c><00:09:32.191><c>Hej</c><00:09:32.313><c>,</c><00:09:32.394><c> mogę</c><00:09:32.639><c> zrobić</c><00:09:32.964><c> to</c>
+
+00:09:33.046 --> 00:09:33.086 align:start position:0%
+ powiedzieć: „Hej, mogę zrobić to
+ 
+
+00:09:33.086 --> 00:09:34.723 align:start position:0%
+ powiedzieć: „Hej, mogę zrobić to
+ samo<00:09:33.290><c> dla</c><00:09:33.453><c> ciebie</c><00:09:33.697><c>”</c><00:09:33.819><c>.</c><00:09:33.960><c> A</c><00:09:34.049><c> jeśli</c><00:09:34.364><c> martwisz</c>
+
+00:09:34.723 --> 00:09:34.768 align:start position:0%
+ samo dla ciebie”. A jeśli martwisz
+ 
+
+00:09:34.768 --> 00:09:36.518 align:start position:0%
+ samo dla ciebie”. A jeśli martwisz
+ się<00:09:34.947><c>,</c><00:09:35.037><c> że</c><00:09:35.217><c> klienci</c><00:09:35.576><c> nie</c><00:09:35.755><c> lubią</c><00:09:36.069><c> sztucznych</c>
+
+00:09:36.518 --> 00:09:36.563 align:start position:0%
+ się, że klienci nie lubią sztucznych
+ 
+
+00:09:36.563 --> 00:09:38.224 align:start position:0%
+ się, że klienci nie lubią sztucznych
+ projektów<00:09:37.057><c> w</c><00:09:37.147><c> portfolio</c><00:09:37.551><c>,</c><00:09:37.641><c> cóż</c><00:09:37.865><c>,</c><00:09:37.955><c> powiem</c>
+
+00:09:38.224 --> 00:09:38.269 align:start position:0%
+ projektów w portfolio, cóż, powiem
+ 
+
+00:09:38.269 --> 00:09:41.243 align:start position:0%
+ projektów w portfolio, cóż, powiem
+ ci<00:09:38.404><c> tak</c><00:09:38.539><c>.</c><00:09:39.880><c> Klientów</c><00:09:40.384><c> to</c><00:09:40.536><c> w</c><00:09:40.637><c> zasadzie</c><00:09:41.091><c> nie</c>
+
+00:09:41.243 --> 00:09:41.293 align:start position:0%
+ ci tak. Klientów to w zasadzie nie
+ 
+
+00:09:41.293 --> 00:09:43.212 align:start position:0%
+ ci tak. Klientów to w zasadzie nie
+ obchodzi<00:09:41.697><c>,</c><00:09:41.798><c> bo</c><00:09:41.950><c> liczy</c><00:09:42.253><c> się</c><00:09:42.505><c> dla</c><00:09:42.707><c> nich</c><00:09:42.959><c> tylko</c>
+
+00:09:43.212 --> 00:09:43.262 align:start position:0%
+ obchodzi, bo liczy się dla nich tylko
+ 
+
+00:09:43.262 --> 00:09:44.929 align:start position:0%
+ obchodzi, bo liczy się dla nich tylko
+ to<00:09:43.363><c>,</c><00:09:43.464><c> czy</c><00:09:43.666><c> dostarczysz</c><00:09:44.272><c> im</c><00:09:44.424><c> wartość</c><00:09:44.878><c>,</c>
+
+00:09:44.929 --> 00:09:44.979 align:start position:0%
+ to, czy dostarczysz im wartość,
+ 
+
+00:09:44.979 --> 00:09:48.617 align:start position:0%
+ to, czy dostarczysz im wartość,
+ której<00:09:45.383><c> szukają</c><00:09:45.787><c>.</c><00:09:47.477><c> Oczywiście</c><00:09:48.128><c> prawdziwe</c>
+
+00:09:48.617 --> 00:09:48.672 align:start position:0%
+ której szukają. Oczywiście prawdziwe
+ 
+
+00:09:48.672 --> 00:09:50.790 align:start position:0%
+ której szukają. Oczywiście prawdziwe
+ projekty<00:09:49.161><c> są</c><00:09:49.378><c> zawsze</c><00:09:49.758><c> lepsze</c><00:09:50.084><c>,</c><00:09:50.193><c> ale</c><00:09:50.410><c> to</c><00:09:50.573><c> jest</c>
+
+00:09:50.790 --> 00:09:50.845 align:start position:0%
+ projekty są zawsze lepsze, ale to jest
+ 
+
+00:09:50.845 --> 00:09:52.909 align:start position:0%
+ projekty są zawsze lepsze, ale to jest
+ 10<00:09:51.008><c> razy</c><00:09:51.279><c> lepsze</c><00:09:51.660><c> niż</c><00:09:51.931><c> brak</c><00:09:52.203><c> jakichkolwiek</c>
+
+00:09:52.909 --> 00:09:52.963 align:start position:0%
+ 10 razy lepsze niż brak jakichkolwiek
+ 
+
+00:09:52.963 --> 00:09:55.446 align:start position:0%
+ 10 razy lepsze niż brak jakichkolwiek
+ prac<00:09:53.235><c> w</c><00:09:53.344><c> portfolio</c><00:09:53.833><c>,</c><00:09:53.941><c> prawda</c><00:09:54.267><c>?</c><00:09:54.688><c> Więc</c><00:09:55.037><c> używaj</c>
+
+00:09:55.446 --> 00:09:55.504 align:start position:0%
+ prac w portfolio, prawda? Więc używaj
+ 
+
+00:09:55.504 --> 00:09:57.429 align:start position:0%
+ prac w portfolio, prawda? Więc używaj
+ tych<00:09:55.796><c> subdomen</c><00:09:56.321><c> do</c><00:09:56.496><c> swoich</c><00:09:56.904><c> pozycji</c><00:09:57.371><c> w</c>
+
+00:09:57.429 --> 00:09:57.487 align:start position:0%
+ tych subdomen do swoich pozycji w
+ 
+
+00:09:57.487 --> 00:10:00.297 align:start position:0%
+ tych subdomen do swoich pozycji w
+ portfolio<00:09:58.012><c>.</c><00:09:58.751><c> Twórz</c><00:09:59.137><c> wiele</c><00:09:59.468><c> różnych</c><00:10:00.021><c> stron</c>
+
+00:10:00.297 --> 00:10:02.285 align:start position:0%
+ portfolio. Twórz wiele różnych stron
+,<00:10:00.407><c> aby</c><00:10:00.628><c> pokazać</c><00:10:01.125><c> potencjalnym</c><00:10:01.843><c> klientom</c>
+
+00:10:02.285 --> 00:10:02.340 align:start position:0%
+, aby pokazać potencjalnym klientom
+ 
+
+00:10:02.340 --> 00:10:04.439 align:start position:0%
+, aby pokazać potencjalnym klientom
+ swoje<00:10:02.672><c> umiejętności</c><00:10:03.445><c>,</c><00:10:03.555><c> a</c><00:10:03.666><c> przy</c><00:10:03.942><c> okazji</c><00:10:04.328><c> to</c>
+
+00:10:04.439 --> 00:10:04.494 align:start position:0%
+ swoje umiejętności, a przy okazji to
+ 
+
+00:10:04.494 --> 00:10:06.537 align:start position:0%
+ swoje umiejętności, a przy okazji to
+ świetna<00:10:04.991><c> praktyka</c><00:10:05.488><c> budowania</c><00:10:06.040><c> stron</c><00:10:06.372><c> bez</c>
+
+00:10:06.537 --> 00:10:06.593 align:start position:0%
+ świetna praktyka budowania stron bez
+ 
+
+00:10:06.593 --> 00:10:09.640 align:start position:0%
+ świetna praktyka budowania stron bez
+ ryzyka<00:10:06.979><c> utraty</c><00:10:07.366><c> klienta</c><00:10:07.752><c>.</c><00:10:08.785><c> Kolejnym</c><00:10:09.266><c> powodem</c>
+
+00:10:09.640 --> 00:10:11.618 align:start position:0%
+ ryzyka utraty klienta. Kolejnym powodem
+,<00:10:09.747><c> dla</c><00:10:09.961><c> którego</c><00:10:10.442><c> chcesz</c><00:10:10.816><c> mieć</c><00:10:11.137><c> hosting</c><00:10:11.565><c> z</c>
+
+00:10:11.618 --> 00:10:11.672 align:start position:0%
+, dla którego chcesz mieć hosting z
+ 
+
+00:10:11.672 --> 00:10:13.757 align:start position:0%
+, dla którego chcesz mieć hosting z
+ funkcją<00:10:12.153><c> subdomen</c><00:10:12.581><c>,</c><00:10:12.688><c> jest</c><00:10:12.955><c> to</c><00:10:13.062><c>,</c><00:10:13.169><c> że</c><00:10:13.383><c> klienci</c>
+
+00:10:13.757 --> 00:10:13.810 align:start position:0%
+ funkcją subdomen, jest to, że klienci
+ 
+
+00:10:13.810 --> 00:10:15.830 align:start position:0%
+ funkcją subdomen, jest to, że klienci
+ bywają<00:10:14.238><c> naprawdę</c><00:10:14.773><c> powolni</c><00:10:15.147><c>.</c><00:10:15.301><c> Często</c><00:10:15.686><c> nie</c>
+
+00:10:15.830 --> 00:10:15.879 align:start position:0%
+ bywają naprawdę powolni. Często nie
+ 
+
+00:10:15.879 --> 00:10:17.723 align:start position:0%
+ bywają naprawdę powolni. Często nie
+ mają<00:10:16.168><c> jeszcze</c><00:10:16.553><c> nawet</c><00:10:16.842><c> nazwy</c><00:10:17.131><c> domeny</c><00:10:17.420><c>.</c><00:10:17.569><c> Nie</c>
+
+00:10:17.723 --> 00:10:17.774 align:start position:0%
+ mają jeszcze nawet nazwy domeny. Nie
+ 
+
+00:10:17.774 --> 00:10:19.628 align:start position:0%
+ mają jeszcze nawet nazwy domeny. Nie
+ kupili<00:10:18.135><c> jeszcze</c><00:10:18.547><c> hostingu</c><00:10:18.959><c>,</c><00:10:19.061><c> a</c><00:10:19.164><c> ty</c><00:10:19.319><c> chcesz</c>
+
+00:10:19.628 --> 00:10:19.679 align:start position:0%
+ kupili jeszcze hostingu, a ty chcesz
+ 
+
+00:10:19.679 --> 00:10:21.687 align:start position:0%
+ kupili jeszcze hostingu, a ty chcesz
+ zacząć<00:10:20.091><c>,</c><00:10:20.194><c> bo</c><00:10:20.349><c> masz</c><00:10:20.606><c> już</c><00:10:20.863><c> gotowy</c><00:10:21.224><c> projekt</c><00:10:21.636><c> i</c>
+
+00:10:21.687 --> 00:10:21.739 align:start position:0%
+ zacząć, bo masz już gotowy projekt i
+ 
+
+00:10:21.739 --> 00:10:23.785 align:start position:0%
+ zacząć, bo masz już gotowy projekt i
+ chcesz<00:10:22.099><c> ruszyć</c><00:10:22.511><c> z</c><00:10:22.614><c> WordPressem</c><00:10:23.180><c>.</c><00:10:23.475><c> Cóż</c><00:10:23.733><c>,</c>
+
+00:10:23.785 --> 00:10:23.837 align:start position:0%
+ chcesz ruszyć z WordPressem. Cóż,
+ 
+
+00:10:23.837 --> 00:10:25.700 align:start position:0%
+ chcesz ruszyć z WordPressem. Cóż,
+ dzięki<00:10:24.251><c> subdomenie</c><00:10:24.820><c> możesz</c><00:10:25.234><c> po</c><00:10:25.389><c> prostu</c>
+
+00:10:25.700 --> 00:10:25.751 align:start position:0%
+ dzięki subdomenie możesz po prostu
+ 
+
+00:10:25.751 --> 00:10:27.511 align:start position:0%
+ dzięki subdomenie możesz po prostu
+ zainstalować<00:10:26.476><c> WordPressa</c><00:10:27.045><c> na</c><00:10:27.200><c> swojej</c>
+
+00:10:27.511 --> 00:10:27.563 align:start position:0%
+ zainstalować WordPressa na swojej
+ 
+
+00:10:27.563 --> 00:10:29.374 align:start position:0%
+ zainstalować WordPressa na swojej
+ subdomenie<00:10:28.132><c> i</c><00:10:28.235><c> już</c><00:10:28.494><c> zacząć</c><00:10:28.960><c> budować</c>
+
+00:10:29.374 --> 00:10:29.426 align:start position:0%
+ subdomenie i już zacząć budować
+ 
+
+00:10:29.426 --> 00:10:31.406 align:start position:0%
+ subdomenie i już zacząć budować
+ stronę<00:10:29.788><c>.</c><00:10:29.940><c> Kiedy</c><00:10:30.233><c> oni</c><00:10:30.428><c> będą</c><00:10:30.771><c> mieli</c><00:10:31.064><c> domenę</c>
+
+00:10:31.406 --> 00:10:32.775 align:start position:0%
+ stronę. Kiedy oni będą mieli domenę
+,<00:10:31.504><c> po</c><00:10:31.651><c> prostu</c><00:10:31.993><c> pobierasz</c><00:10:32.482><c> całą</c>
+
+00:10:32.775 --> 00:10:32.824 align:start position:0%
+, po prostu pobierasz całą
+ 
+
+00:10:32.824 --> 00:10:34.731 align:start position:0%
+, po prostu pobierasz całą
+ zawartość<00:10:33.411><c> za</c><00:10:33.557><c> pomocą</c><00:10:33.948><c> prostej</c><00:10:34.339><c> wtyczki</c><00:10:34.682><c>.</c>
+
+00:10:34.731 --> 00:10:34.831 align:start position:0%
+ zawartość za pomocą prostej wtyczki.
+ 
+
+00:10:34.831 --> 00:10:36.746 align:start position:0%
+ zawartość za pomocą prostej wtyczki.
+ Na<00:10:34.982><c> przykład</c><00:10:35.487><c> tej</c><00:10:35.689><c> wtyczki</c><00:10:36.043><c>.</c><00:10:36.194><c> Pakuje</c><00:10:36.580><c> ona</c>
+
+00:10:36.746 --> 00:10:36.801 align:start position:0%
+ Na przykład tej wtyczki. Pakuje ona
+ 
+
+00:10:36.801 --> 00:10:38.897 align:start position:0%
+ Na przykład tej wtyczki. Pakuje ona
+ wszystko<00:10:37.298><c> do</c><00:10:37.464><c> pliku</c><00:10:37.796><c> zip</c><00:10:37.961><c>.</c><00:10:38.117><c> Przesyłasz</c><00:10:38.741><c> ten</c>
+
+00:10:38.897 --> 00:10:38.949 align:start position:0%
+ wszystko do pliku zip. Przesyłasz ten
+ 
+
+00:10:38.949 --> 00:10:40.876 align:start position:0%
+ wszystko do pliku zip. Przesyłasz ten
+ plik<00:10:39.210><c> zip</c><00:10:39.418><c> na</c><00:10:39.574><c> hosting</c><00:10:39.991><c> klienta</c><00:10:40.407><c> i</c><00:10:40.511><c> możesz</c>
+
+00:10:40.876 --> 00:10:40.928 align:start position:0%
+ plik zip na hosting klienta i możesz
+ 
+
+00:10:40.928 --> 00:10:42.974 align:start position:0%
+ plik zip na hosting klienta i możesz
+ działać<00:10:41.448><c> dalej</c><00:10:41.708><c>.</c><00:10:41.861><c> Dzięki</c><00:10:42.265><c> temu</c><00:10:42.518><c> subdomeny</c>
+
+00:10:42.974 --> 00:10:43.024 align:start position:0%
+ działać dalej. Dzięki temu subdomeny
+ 
+
+00:10:43.024 --> 00:10:44.846 align:start position:0%
+ działać dalej. Dzięki temu subdomeny
+ nie<00:10:43.227><c> spowalniają</c><00:10:43.884><c> twojej</c><00:10:44.238><c> pracy</c><00:10:44.491><c>,</c><00:10:44.593><c> nawet</c>
+
+00:10:44.846 --> 00:10:44.896 align:start position:0%
+ nie spowalniają twojej pracy, nawet
+ 
+
+00:10:44.896 --> 00:10:46.992 align:start position:0%
+ nie spowalniają twojej pracy, nawet
+ gdy<00:10:45.099><c> klient</c><00:10:45.453><c> jest</c><00:10:45.706><c> powolny</c><00:10:46.060><c>.</c><00:10:46.211><c> Dobra</c><00:10:46.490><c>,</c><00:10:46.601><c> a</c><00:10:46.713><c> teraz</c>
+
+00:10:46.992 --> 00:10:47.048 align:start position:0%
+ gdy klient jest powolny. Dobra, a teraz
+ 
+
+00:10:47.048 --> 00:10:49.265 align:start position:0%
+ gdy klient jest powolny. Dobra, a teraz
+ porozmawiajmy<00:10:47.829><c> o</c><00:10:47.941><c> firmach</c><00:10:48.388><c> hostingowych</c><00:10:49.058><c>.</c><00:10:49.214><c> Z</c>
+
+00:10:49.265 --> 00:10:49.316 align:start position:0%
+ porozmawiajmy o firmach hostingowych. Z
+ 
+
+00:10:49.316 --> 00:10:50.962 align:start position:0%
+ porozmawiajmy o firmach hostingowych. Z
+ mojej<00:10:49.625><c> perspektywy</c><00:10:50.242><c> istnieją</c><00:10:50.756><c> dwie</c>
+
+00:10:50.962 --> 00:10:51.013 align:start position:0%
+ mojej perspektywy istnieją dwie
+ 
+
+00:10:51.013 --> 00:10:52.864 align:start position:0%
+ mojej perspektywy istnieją dwie
+ różne<00:10:51.425><c> grupy</c><00:10:51.733><c> odbiorców</c><00:10:52.299><c> kupujących</c>
+
+00:10:52.864 --> 00:10:52.916 align:start position:0%
+ różne grupy odbiorców kupujących
+ 
+
+00:10:52.916 --> 00:10:54.612 align:start position:0%
+ różne grupy odbiorców kupujących
+ hosting<00:10:53.276><c>:</c><00:10:53.378><c> ludzie</c><00:10:53.687><c>,</c><00:10:53.790><c> którzy</c><00:10:54.201><c> chcą</c><00:10:54.510><c> po</c>
+
+00:10:54.612 --> 00:10:54.664 align:start position:0%
+ hosting: ludzie, którzy chcą po
+ 
+
+00:10:54.664 --> 00:10:56.206 align:start position:0%
+ hosting: ludzie, którzy chcą po
+ prostu<00:10:55.024><c> najtańszego</c><00:10:55.692><c> możliwego</c>
+
+00:10:56.206 --> 00:10:56.258 align:start position:0%
+ prostu najtańszego możliwego
+ 
+
+00:10:56.258 --> 00:10:58.263 align:start position:0%
+ prostu najtańszego możliwego
+ rozwiązania<00:10:56.875><c>,</c><00:10:56.978><c> oraz</c><00:10:57.235><c> większość</c><00:10:57.852><c>,</c><00:10:57.955><c> która</c>
+
+00:10:58.263 --> 00:10:58.315 align:start position:0%
+ rozwiązania, oraz większość, która
+ 
+
+00:10:58.315 --> 00:10:59.857 align:start position:0%
+ rozwiązania, oraz większość, która
+ szuka<00:10:58.623><c> hostingu</c><00:10:59.086><c> dobrego</c><00:10:59.446><c>,</c><00:10:59.549><c> wysoko</c>
+
+00:10:59.857 --> 00:10:59.909 align:start position:0%
+ szuka hostingu dobrego, wysoko
+ 
+
+00:10:59.909 --> 00:11:01.811 align:start position:0%
+ szuka hostingu dobrego, wysoko
+ ocenianego<00:11:00.423><c>,</c><00:11:00.526><c> ale</c><00:11:00.731><c> wciąż</c><00:11:01.143><c> przystępnego</c>
+
+00:11:01.811 --> 00:11:01.863 align:start position:0%
+ ocenianego, ale wciąż przystępnego
+ 
+
+00:11:01.863 --> 00:11:03.575 align:start position:0%
+ ocenianego, ale wciąż przystępnego
+ cenowo<00:11:02.171><c>.</c><00:11:02.323><c> Uważam</c><00:11:02.704><c>,</c><00:11:02.812><c> że</c><00:11:03.030><c> dotyczy</c><00:11:03.466><c> to</c>
+
+00:11:03.575 --> 00:11:03.629 align:start position:0%
+ cenowo. Uważam, że dotyczy to
+ 
+
+00:11:03.629 --> 00:11:05.752 align:start position:0%
+ cenowo. Uważam, że dotyczy to
+ zarówno<00:11:04.119><c> ciebie</c><00:11:04.446><c>,</c><00:11:04.554><c> jak</c><00:11:04.772><c> i</c><00:11:04.881><c> twoich</c><00:11:05.262><c> klientów</c>
+
+00:11:05.752 --> 00:11:07.767 align:start position:0%
+ zarówno ciebie, jak i twoich klientów
+.<00:11:05.907><c> Większość</c><00:11:06.598><c> firm</c><00:11:06.863><c> pobiera</c><00:11:07.289><c> około</c><00:11:07.661><c> 10</c>
+
+00:11:07.767 --> 00:11:07.820 align:start position:0%
+. Większość firm pobiera około 10
+ 
+
+00:11:07.820 --> 00:11:09.893 align:start position:0%
+. Większość firm pobiera około 10
+ dolarów<00:11:08.299><c> miesięcznie</c><00:11:08.990><c> za</c><00:11:09.149><c> hosting</c><00:11:09.574><c> i</c><00:11:09.681><c> wiem</c>
+
+00:11:09.893 --> 00:11:11.531 align:start position:0%
+ dolarów miesięcznie za hosting i wiem
+,<00:11:10.000><c> co</c><00:11:10.159><c> teraz</c><00:11:10.478><c> myślisz</c><00:11:10.903><c>.</c><00:11:11.057><c> Ale</c><00:11:11.267><c> Reno</c><00:11:11.478><c>,</c>
+
+00:11:11.531 --> 00:11:11.584 align:start position:0%
+, co teraz myślisz. Ale Reno,
+ 
+
+00:11:11.584 --> 00:11:13.112 align:start position:0%
+, co teraz myślisz. Ale Reno,
+ widziałem<00:11:12.163><c> wszystkie</c><00:11:12.690><c> te</c><00:11:12.849><c> firmy</c>
+
+00:11:13.112 --> 00:11:13.165 align:start position:0%
+ widziałem wszystkie te firmy
+ 
+
+00:11:13.165 --> 00:11:15.220 align:start position:0%
+ widziałem wszystkie te firmy
+ hostingowe<00:11:13.692><c>,</c><00:11:13.797><c> które</c><00:11:14.166><c> reklamowały</c><00:11:14.851><c> hosting</c>
+
+00:11:15.220 --> 00:11:15.273 align:start position:0%
+ hostingowe, które reklamowały hosting
+ 
+
+00:11:15.273 --> 00:11:17.644 align:start position:0%
+ hostingowe, które reklamowały hosting
+ za<00:11:15.431><c> trzy</c><00:11:15.695><c> lub</c><00:11:15.906><c> cztery</c><00:11:16.275><c> dolary</c><00:11:16.591><c>.</c><00:11:17.050><c> Cóż</c><00:11:17.320><c>,</c><00:11:17.428><c> tak</c><00:11:17.590><c>,</c>
+
+00:11:17.644 --> 00:11:17.698 align:start position:0%
+ za trzy lub cztery dolary. Cóż, tak,
+ 
+
+00:11:17.698 --> 00:11:19.536 align:start position:0%
+ za trzy lub cztery dolary. Cóż, tak,
+ to<00:11:17.860><c> prawda</c><00:11:18.185><c>,</c><00:11:18.293><c> ale</c><00:11:18.509><c> to</c><00:11:18.671><c> ceny</c><00:11:18.942><c> promocyjne</c><00:11:19.482><c>,</c>
+
+00:11:19.536 --> 00:11:19.590 align:start position:0%
+ to prawda, ale to ceny promocyjne,
+ 
+
+00:11:19.590 --> 00:11:21.266 align:start position:0%
+ to prawda, ale to ceny promocyjne,
+ które<00:11:19.969><c> obowiązują</c><00:11:20.672><c> tylko</c><00:11:20.996><c> przez</c>
+
+00:11:21.266 --> 00:11:21.320 align:start position:0%
+ które obowiązują tylko przez
+ 
+
+00:11:21.320 --> 00:11:24.619 align:start position:0%
+ które obowiązują tylko przez
+ pierwsze<00:11:21.807><c> kilka</c><00:11:22.131><c> lat</c><00:11:22.293><c>.</c><00:11:24.041><c> Wiele</c><00:11:24.356><c> stron</c>
+
+00:11:24.619 --> 00:11:24.671 align:start position:0%
+ pierwsze kilka lat. Wiele stron
+ 
+
+00:11:24.671 --> 00:11:26.405 align:start position:0%
+ pierwsze kilka lat. Wiele stron
+ internetowych<00:11:25.354><c>,</c><00:11:25.459><c> które</c><00:11:25.827><c> kupujesz</c><00:11:26.248><c>,</c><00:11:26.353><c> a</c>
+
+00:11:26.405 --> 00:11:26.458 align:start position:0%
+ internetowych, które kupujesz, a
+ 
+
+00:11:26.458 --> 00:11:28.297 align:start position:0%
+ internetowych, które kupujesz, a
+ zwłaszcza<00:11:27.036><c> powiązane</c><00:11:27.614><c> z</c><00:11:27.719><c> nimi</c><00:11:27.982><c> adresy</c>
+
+00:11:28.297 --> 00:11:28.350 align:start position:0%
+ zwłaszcza powiązane z nimi adresy
+ 
+
+00:11:28.350 --> 00:11:30.189 align:start position:0%
+ zwłaszcza powiązane z nimi adresy
+ e-mail<00:11:28.665><c>,</c><00:11:28.770><c> będzie</c><00:11:29.191><c> używanych</c><00:11:29.769><c> znacznie</c>
+
+00:11:30.189 --> 00:11:30.242 align:start position:0%
+ e-mail, będzie używanych znacznie
+ 
+
+00:11:30.242 --> 00:11:32.239 align:start position:0%
+ e-mail, będzie używanych znacznie
+ dłużej<00:11:30.715><c> niż</c><00:11:30.977><c> przez</c><00:11:31.293><c> rok</c><00:11:31.450><c>,</c><00:11:31.555><c> dwa</c><00:11:31.766><c> czy</c><00:11:31.976><c> trzy</c><00:11:32.186><c>.</c>
+
+00:11:32.239 --> 00:11:33.801 align:start position:0%
+ dłużej niż przez rok, dwa czy trzy.
+ 
+
+00:11:33.801 --> 00:11:35.415 align:start position:0%
+ 
+ Dlatego<00:11:34.217><c> musisz</c><00:11:34.582><c> patrzeć</c><00:11:35.051><c> na</c><00:11:35.207><c> ceny</c>
+
+00:11:35.415 --> 00:11:35.467 align:start position:0%
+ Dlatego musisz patrzeć na ceny
+ 
+
+00:11:35.467 --> 00:11:37.082 align:start position:0%
+ Dlatego musisz patrzeć na ceny
+ odnowienia<00:11:35.988><c>,</c><00:11:36.093><c> a</c><00:11:36.197><c> nie</c><00:11:36.405><c> tylko</c><00:11:36.718><c> na</c><00:11:36.874><c> ceny</c>
+
+00:11:37.082 --> 00:11:37.134 align:start position:0%
+ odnowienia, a nie tylko na ceny
+ 
+
+00:11:37.134 --> 00:11:38.958 align:start position:0%
+ odnowienia, a nie tylko na ceny
+ promocyjne<00:11:37.655><c>,</c><00:11:37.759><c> które</c><00:11:38.124><c> są</c><00:11:38.332><c> reklamowane</c><00:11:38.905><c>.</c>
+
+00:11:38.958 --> 00:11:41.214 align:start position:0%
+ promocyjne, które są reklamowane.
+ 
+
+00:11:41.214 --> 00:11:42.762 align:start position:0%
+ 
+ Przygotowałem<00:11:41.963><c> więc</c><00:11:42.262><c> dla</c><00:11:42.462><c> ciebie</c>
+
+00:11:42.762 --> 00:11:42.812 align:start position:0%
+ Przygotowałem więc dla ciebie
+ 
+
+00:11:42.812 --> 00:11:44.710 align:start position:0%
+ Przygotowałem więc dla ciebie
+ zestawienie<00:11:43.411><c> głównych</c><00:11:43.961><c> graczy</c><00:11:44.310><c> na</c><00:11:44.460><c> rynku</c>
+
+00:11:44.710 --> 00:11:44.760 align:start position:0%
+ zestawienie głównych graczy na rynku
+ 
+
+00:11:44.760 --> 00:11:46.508 align:start position:0%
+ zestawienie głównych graczy na rynku
+ wraz<00:11:45.010><c> z</c><00:11:45.110><c> ich</c><00:11:45.310><c> cenami</c><00:11:45.659><c> promocyjnymi</c><00:11:46.309><c> oraz</c>
+
+00:11:46.508 --> 00:11:46.558 align:start position:0%
+ wraz z ich cenami promocyjnymi oraz
+ 
+
+00:11:46.558 --> 00:11:48.207 align:start position:0%
+ wraz z ich cenami promocyjnymi oraz
+ cenami<00:11:46.908><c> odnowienia</c><00:11:47.457><c> dla</c><00:11:47.657><c> licencji</c><00:11:48.107><c> na</c>
+
+00:11:48.207 --> 00:11:48.257 align:start position:0%
+ cenami odnowienia dla licencji na
+ 
+
+00:11:48.257 --> 00:11:50.005 align:start position:0%
+ cenami odnowienia dla licencji na
+ pojedynczą<00:11:48.856><c> stronę</c><00:11:49.206><c>,</c><00:11:49.306><c> która</c><00:11:49.655><c> oferuje</c>
+
+00:11:50.005 --> 00:11:50.055 align:start position:0%
+ pojedynczą stronę, która oferuje
+ 
+
+00:11:50.055 --> 00:11:54.119 align:start position:0%
+ pojedynczą stronę, która oferuje
+ również<00:11:50.554><c> obsługę</c><00:11:51.054><c> subdomen</c><00:11:51.454><c>.</c><00:11:53.657><c> Liczby</c><00:11:54.016><c> te</c>
+
+00:11:54.119 --> 00:11:54.170 align:start position:0%
+ również obsługę subdomen. Liczby te
+ 
+
+00:11:54.170 --> 00:11:56.175 align:start position:0%
+ również obsługę subdomen. Liczby te
+ stanowią<00:11:54.684><c> dobry</c><00:11:54.993><c> wskaźnik</c><00:11:55.506><c> rzeczywistych</c>
+
+00:11:56.175 --> 00:11:56.226 align:start position:0%
+ stanowią dobry wskaźnik rzeczywistych
+ 
+
+00:11:56.226 --> 00:11:58.230 align:start position:0%
+ stanowią dobry wskaźnik rzeczywistych
+ kosztów<00:11:56.688><c> utrzymania</c><00:11:57.254><c> strony</c><00:11:57.613><c> klienta</c><00:11:58.024><c> oraz</c>
+
+00:11:58.230 --> 00:11:58.281 align:start position:0%
+ kosztów utrzymania strony klienta oraz
+ 
+
+00:11:58.281 --> 00:12:00.131 align:start position:0%
+ kosztów utrzymania strony klienta oraz
+ twojego<00:11:58.693><c> własnego</c><00:11:59.206><c> portfolio</c><00:11:59.720><c> po</c><00:11:59.874><c> kilku</c>
+
+00:12:00.131 --> 00:12:00.183 align:start position:0%
+ twojego własnego portfolio po kilku
+ 
+
+00:12:00.183 --> 00:12:01.938 align:start position:0%
+ twojego własnego portfolio po kilku
+ latach<00:12:00.491><c>.</c><00:12:00.744><c> Jak</c><00:12:00.927><c> widzisz</c><00:12:01.249><c>,</c><00:12:01.341><c> oscylują</c><00:12:01.800><c> one</c>
+
+00:12:01.938 --> 00:12:01.984 align:start position:0%
+ latach. Jak widzisz, oscylują one
+ 
+
+00:12:01.984 --> 00:12:03.684 align:start position:0%
+ latach. Jak widzisz, oscylują one
+ wokół<00:12:02.352><c> 10</c><00:12:02.490><c> dolarów</c><00:12:02.903><c> miesięcznie</c><00:12:03.454><c>,</c><00:12:03.546><c> ale</c>
+
+00:12:03.684 --> 00:12:03.730 align:start position:0%
+ wokół 10 dolarów miesięcznie, ale
+ 
+
+00:12:03.730 --> 00:12:05.430 align:start position:0%
+ wokół 10 dolarów miesięcznie, ale
+ oczywiście<00:12:04.281><c> powinieneś</c><00:12:04.833><c> skorzystać</c><00:12:05.384><c> z</c>
+
+00:12:05.430 --> 00:12:05.476 align:start position:0%
+ oczywiście powinieneś skorzystać z
+ 
+
+00:12:05.476 --> 00:12:07.130 align:start position:0%
+ oczywiście powinieneś skorzystać z
+ tych<00:12:05.706><c> pierwszych</c><00:12:06.211><c> promocyjnych</c><00:12:06.809><c> lat</c><00:12:06.946><c>,</c><00:12:07.038><c> co</c>
+
+00:12:07.130 --> 00:12:07.176 align:start position:0%
+ tych pierwszych promocyjnych lat, co
+ 
+
+00:12:07.176 --> 00:12:08.784 align:start position:0%
+ tych pierwszych promocyjnych lat, co
+ sam<00:12:07.360><c> również</c><00:12:07.819><c> zrobiłem</c><00:12:08.279><c> w</c><00:12:08.371><c> przypadku</c>
+
+00:12:08.784 --> 00:12:08.830 align:start position:0%
+ sam również zrobiłem w przypadku
+ 
+
+00:12:08.830 --> 00:12:10.719 align:start position:0%
+ sam również zrobiłem w przypadku
+ mojego<00:12:09.152><c> hostingu</c><00:12:09.520><c>.</c><00:12:09.666><c> Korzystam</c><00:12:10.144><c> z</c><00:12:10.240><c> SiteGround</c>
+
+00:12:10.719 --> 00:12:10.766 align:start position:0%
+ mojego hostingu. Korzystam z SiteGround
+ 
+
+00:12:10.766 --> 00:12:12.538 align:start position:0%
+ mojego hostingu. Korzystam z SiteGround
+ i<00:12:10.862><c> opłaciłem</c><00:12:11.437><c> już</c><00:12:11.676><c> z</c><00:12:11.772><c> góry</c><00:12:12.059><c> 3</c><00:12:12.155><c> lata</c><00:12:12.346><c>,</c><00:12:12.442><c> co</c>
+
+00:12:12.538 --> 00:12:12.585 align:start position:0%
+ i opłaciłem już z góry 3 lata, co
+ 
+
+00:12:12.585 --> 00:12:14.452 align:start position:0%
+ i opłaciłem już z góry 3 lata, co
+ sprawia<00:12:12.921><c>,</c><00:12:13.016><c> że</c><00:12:13.208><c> przez</c><00:12:13.495><c> pierwsze</c><00:12:13.926><c> 3</c><00:12:14.021><c> lata</c><00:12:14.261><c> jest</c>
+
+00:12:14.452 --> 00:12:14.500 align:start position:0%
+ sprawia, że przez pierwsze 3 lata jest
+ 
+
+00:12:14.500 --> 00:12:16.157 align:start position:0%
+ sprawia, że przez pierwsze 3 lata jest
+ to<00:12:14.644><c> znacznie</c><00:12:15.075><c> tańsze</c><00:12:15.410><c>.</c><00:12:15.558><c> Powodem</c><00:12:15.907><c>,</c><00:12:16.007><c> dla</c>
+
+00:12:16.157 --> 00:12:16.207 align:start position:0%
+ to znacznie tańsze. Powodem, dla
+ 
+
+00:12:16.207 --> 00:12:17.706 align:start position:0%
+ to znacznie tańsze. Powodem, dla
+ którego<00:12:16.657><c> stawiam</c><00:12:17.056><c> SiteGround</c><00:12:17.606><c> na</c>
+
+00:12:17.706 --> 00:12:17.756 align:start position:0%
+ którego stawiam SiteGround na
+ 
+
+00:12:17.756 --> 00:12:19.455 align:start position:0%
+ którego stawiam SiteGround na
+ pierwszym<00:12:18.255><c> miejscu</c><00:12:18.605><c>,</c><00:12:18.705><c> jest</c><00:12:18.955><c> to</c><00:12:19.055><c>,</c><00:12:19.155><c> że</c><00:12:19.355><c> za</c>
+
+00:12:19.455 --> 00:12:19.504 align:start position:0%
+ pierwszym miejscu, jest to, że za
+ 
+
+00:12:19.504 --> 00:12:21.353 align:start position:0%
+ pierwszym miejscu, jest to, że za
+ dolara<00:12:19.854><c> lub</c><00:12:20.054><c> dwa</c><00:12:20.254><c> więcej</c><00:12:20.654><c> miesięcznie</c><00:12:21.303><c> w</c>
+
+00:12:21.353 --> 00:12:21.403 align:start position:0%
+ dolara lub dwa więcej miesięcznie w
+ 
+
+00:12:21.403 --> 00:12:23.102 align:start position:0%
+ dolara lub dwa więcej miesięcznie w
+ porównaniu<00:12:22.003><c> do</c><00:12:22.152><c> innych</c><00:12:22.452><c>,</c><00:12:22.552><c> otrzymujesz</c>
+
+00:12:23.102 --> 00:12:23.152 align:start position:0%
+ porównaniu do innych, otrzymujesz
+ 
+
+00:12:23.152 --> 00:12:25.000 align:start position:0%
+ porównaniu do innych, otrzymujesz
+ hosting<00:12:23.551><c> od</c><00:12:23.701><c> firmy</c><00:12:23.951><c>,</c><00:12:24.051><c> która</c><00:12:24.401><c> od</c><00:12:24.551><c> wielu</c><00:12:24.850><c> lat</c>
+
+00:12:25.000 --> 00:12:25.050 align:start position:0%
+ hosting od firmy, która od wielu lat
+ 
+
+00:12:25.050 --> 00:12:26.949 align:start position:0%
+ hosting od firmy, która od wielu lat
+ jest<00:12:25.300><c> oceniana</c><00:12:25.750><c> jako</c><00:12:25.999><c> numer</c><00:12:26.299><c> jeden</c><00:12:26.599><c> w</c><00:12:26.699><c> wielu</c>
+
+00:12:26.949 --> 00:12:26.999 align:start position:0%
+ jest oceniana jako numer jeden w wielu
+ 
+
+00:12:26.999 --> 00:12:28.929 align:start position:0%
+ jest oceniana jako numer jeden w wielu
+ różnych<00:12:27.498><c> grupach</c><00:12:27.898><c> na</c><00:12:28.048><c> Facebooku</c><00:12:28.498><c>.</c><00:12:28.648><c> Musisz</c>
+
+00:12:28.929 --> 00:12:28.976 align:start position:0%
+ różnych grupach na Facebooku. Musisz
+ 
+
+00:12:28.976 --> 00:12:30.664 align:start position:0%
+ różnych grupach na Facebooku. Musisz
+ również<00:12:29.445><c> wiedzieć</c><00:12:29.867><c>,</c><00:12:29.961><c> że</c><00:12:30.148><c> firmy</c><00:12:30.430><c> takie</c>
+
+00:12:30.664 --> 00:12:30.711 align:start position:0%
+ również wiedzieć, że firmy takie
+ 
+
+00:12:30.711 --> 00:12:32.118 align:start position:0%
+ również wiedzieć, że firmy takie
+ jak<00:12:30.899><c> HostGator</c><00:12:31.368><c> i</c><00:12:31.461><c> Bluehost</c><00:12:31.883><c> są</c><00:12:32.071><c> w</c>
+
+00:12:32.118 --> 00:12:32.165 align:start position:0%
+ jak HostGator i Bluehost są w
+ 
+
+00:12:32.165 --> 00:12:33.759 align:start position:0%
+ jak HostGator i Bluehost są w
+ rzeczywistości<00:12:32.915><c> własnością</c><00:12:33.572><c> tego</c>
+
+00:12:33.759 --> 00:12:33.806 align:start position:0%
+ rzeczywistości własnością tego
+ 
+
+00:12:33.806 --> 00:12:35.635 align:start position:0%
+ rzeczywistości własnością tego
+ samego<00:12:34.135><c> właściciela</c><00:12:34.744><c>,</c><00:12:34.838><c> który</c><00:12:35.166><c> jest</c><00:12:35.401><c> znany</c>
+
+00:12:35.635 --> 00:12:35.682 align:start position:0%
+ samego właściciela, który jest znany
+ 
+
+00:12:35.682 --> 00:12:36.855 align:start position:0%
+ samego właściciela, który jest znany
+ z<00:12:35.776><c> umieszczania</c><00:12:36.386><c> zbyt</c><00:12:36.620><c> wielu</c>
+
+00:12:36.855 --> 00:12:36.902 align:start position:0%
+ z umieszczania zbyt wielu
+ 
+
+00:12:36.902 --> 00:12:38.496 align:start position:0%
+ z umieszczania zbyt wielu
+ użytkowników<00:12:37.605><c> na</c><00:12:37.746><c> jednym</c><00:12:38.074><c> serwerze</c><00:12:38.449><c>,</c>
+
+00:12:38.496 --> 00:12:38.543 align:start position:0%
+ użytkowników na jednym serwerze,
+ 
+
+00:12:38.543 --> 00:12:40.185 align:start position:0%
+ użytkowników na jednym serwerze,
+ czego<00:12:38.824><c> oczywiście</c><00:12:39.387><c> chcesz</c><00:12:39.716><c> uniknąć</c><00:12:40.138><c>.</c>
+
+00:12:40.185 --> 00:12:40.285 align:start position:0%
+ czego oczywiście chcesz uniknąć.
+ 
+
+00:12:40.285 --> 00:12:41.864 align:start position:0%
+ czego oczywiście chcesz uniknąć.
+ Dlatego<00:12:40.656><c> właśnie</c><00:12:41.121><c> utrzymuję</c><00:12:41.632><c> moją</c>
+
+00:12:41.864 --> 00:12:41.910 align:start position:0%
+ Dlatego właśnie utrzymuję moją
+ 
+
+00:12:41.910 --> 00:12:43.443 align:start position:0%
+ Dlatego właśnie utrzymuję moją
+ główną<00:12:42.375><c> stronę</c><00:12:42.746><c> na</c><00:12:42.886><c> SiteGround</c><00:12:43.397><c> i</c>
+
+00:12:43.443 --> 00:12:43.489 align:start position:0%
+ główną stronę na SiteGround i
+ 
+
+00:12:43.489 --> 00:12:45.255 align:start position:0%
+ główną stronę na SiteGround i
+ stworzyłem<00:12:44.047><c> też</c><00:12:44.279><c> o</c><00:12:44.372><c> nich</c><00:12:44.604><c> kilka</c><00:12:44.883><c> filmów</c><00:12:45.208><c>.</c>
+
+00:12:45.255 --> 00:12:45.355 align:start position:0%
+ stworzyłem też o nich kilka filmów.
+ 
+
+00:12:45.355 --> 00:12:47.181 align:start position:0%
+ stworzyłem też o nich kilka filmów.
+ Ja<00:12:45.511><c> sam</c><00:12:45.720><c> korzystam</c><00:12:46.241><c> z</c><00:12:46.346><c> planu</c><00:12:46.659><c> Grow</c><00:12:46.920><c> Big</c><00:12:47.128><c> w</c>
+
+00:12:47.181 --> 00:12:47.233 align:start position:0%
+ Ja sam korzystam z planu Grow Big w
+ 
+
+00:12:47.233 --> 00:12:48.746 align:start position:0%
+ Ja sam korzystam z planu Grow Big w
+ SiteGround<00:12:47.754><c>,</c><00:12:47.859><c> który</c><00:12:48.224><c> pozwala</c><00:12:48.641><c> na</c>
+
+00:12:48.746 --> 00:12:48.798 align:start position:0%
+ SiteGround, który pozwala na
+ 
+
+00:12:48.798 --> 00:12:50.520 align:start position:0%
+ SiteGround, który pozwala na
+ nielimitowaną<00:12:49.581><c> liczbę</c><00:12:49.998><c> stron</c><00:12:50.259><c>,</c><00:12:50.363><c> ale</c>
+
+00:12:50.520 --> 00:12:50.572 align:start position:0%
+ nielimitowaną liczbę stron, ale
+ 
+
+00:12:50.572 --> 00:12:52.450 align:start position:0%
+ nielimitowaną liczbę stron, ale
+ oczywiście<00:12:51.198><c> nie</c><00:12:51.407><c> dla</c><00:12:51.615><c> moich</c><00:12:51.928><c> klientów</c><00:12:52.398><c>,</c>
+
+00:12:52.450 --> 00:12:52.502 align:start position:0%
+ oczywiście nie dla moich klientów,
+ 
+
+00:12:52.502 --> 00:12:54.433 align:start position:0%
+ oczywiście nie dla moich klientów,
+ tylko<00:12:52.815><c> dlatego</c><00:12:53.181><c>,</c><00:12:53.285><c> że</c><00:12:53.494><c> mam</c><00:12:53.702><c> stronę</c><00:12:54.120><c> mojego</c>
+
+00:12:54.433 --> 00:12:54.485 align:start position:0%
+ tylko dlatego, że mam stronę mojego
+ 
+
+00:12:54.485 --> 00:12:56.415 align:start position:0%
+ tylko dlatego, że mam stronę mojego
+ portfolio<00:12:54.954><c>,</c><00:12:55.059><c> stronę</c><00:12:55.476><c> Living</c><00:12:55.841><c> with</c><00:12:56.102><c> Pixels</c>
+
+00:12:56.415 --> 00:12:56.467 align:start position:0%
+ portfolio, stronę Living with Pixels
+ 
+
+00:12:56.467 --> 00:12:58.294 align:start position:0%
+ portfolio, stronę Living with Pixels
+ oraz<00:12:56.728><c> kolejną</c><00:12:57.198><c> stronę</c><00:12:57.615><c> dla</c><00:12:57.824><c> jednego</c><00:12:58.241><c> z</c>
+
+00:12:58.294 --> 00:12:58.346 align:start position:0%
+ oraz kolejną stronę dla jednego z
+ 
+
+00:12:58.346 --> 00:13:00.135 align:start position:0%
+ oraz kolejną stronę dla jednego z
+ moich<00:12:58.659><c> biznesów</c><00:12:59.128><c>.</c><00:12:59.281><c> Dlatego</c><00:12:59.682><c> właśnie</c>
+
+00:13:00.135 --> 00:13:00.185 align:start position:0%
+ moich biznesów. Dlatego właśnie
+ 
+
+00:13:00.185 --> 00:13:01.899 align:start position:0%
+ moich biznesów. Dlatego właśnie
+ korzystam<00:13:00.687><c> z</c><00:13:00.788><c> planu</c><00:13:01.089><c> Grow</c><00:13:01.341><c> Big</c><00:13:01.491><c>.</c><00:13:01.690><c> Moja</c>
+
+00:13:01.899 --> 00:13:01.952 align:start position:0%
+ korzystam z planu Grow Big. Moja
+ 
+
+00:13:01.952 --> 00:13:03.945 align:start position:0%
+ korzystam z planu Grow Big. Moja
+ główna<00:13:02.424><c> rekomendacja</c><00:13:03.106><c> dla</c><00:13:03.315><c> większości</c>
+
+00:13:03.945 --> 00:13:03.997 align:start position:0%
+ główna rekomendacja dla większości
+ 
+
+00:13:03.997 --> 00:13:05.833 align:start position:0%
+ główna rekomendacja dla większości
+ stron<00:13:04.312><c> twoich</c><00:13:04.679><c> klientów</c><00:13:05.203><c> oraz</c><00:13:05.466><c> twojego</c>
+
+00:13:05.833 --> 00:13:05.885 align:start position:0%
+ stron twoich klientów oraz twojego
+ 
+
+00:13:05.885 --> 00:13:08.735 align:start position:0%
+ stron twoich klientów oraz twojego
+ własnego<00:13:06.410><c> portfolio</c><00:13:06.934><c> to</c><00:13:07.092><c> SiteGround</c><00:13:07.616><c>.</c><00:13:08.629><c> Bo</c>
+
+00:13:08.735 --> 00:13:08.789 align:start position:0%
+ własnego portfolio to SiteGround. Bo
+ 
+
+00:13:08.789 --> 00:13:10.391 align:start position:0%
+ własnego portfolio to SiteGround. Bo
+ nawet<00:13:09.109><c> w</c><00:13:09.216><c> ich</c><00:13:09.430><c> najtańszym</c><00:13:10.070><c> planie</c>
+
+00:13:10.391 --> 00:13:10.444 align:start position:0%
+ nawet w ich najtańszym planie
+ 
+
+00:13:10.444 --> 00:13:12.527 align:start position:0%
+ nawet w ich najtańszym planie
+ otrzymujesz<00:13:11.085><c> nielimitowane</c><00:13:11.833><c> subdomeny</c><00:13:12.313><c>,</c><00:13:12.420><c> co</c>
+
+00:13:12.527 --> 00:13:12.580 align:start position:0%
+ otrzymujesz nielimitowane subdomeny, co
+ 
+
+00:13:12.580 --> 00:13:14.907 align:start position:0%
+ otrzymujesz nielimitowane subdomeny, co
+ jest<00:13:12.847><c> całkiem</c><00:13:13.328><c> fajne</c><00:13:13.595><c>.</c><00:13:14.132><c> I</c><00:13:14.228><c> powtórzę</c><00:13:14.713><c>,</c><00:13:14.810><c> to</c>
+
+00:13:14.907 --> 00:13:14.956 align:start position:0%
+ jest całkiem fajne. I powtórzę, to
+ 
+
+00:13:14.956 --> 00:13:16.846 align:start position:0%
+ jest całkiem fajne. I powtórzę, to
+ tylko<00:13:15.247><c> jeden</c><00:13:15.537><c> lub</c><00:13:15.731><c> dwa</c><00:13:15.925><c> dolary</c><00:13:16.265><c> miesięcznie</c>
+
+00:13:16.846 --> 00:13:16.895 align:start position:0%
+ tylko jeden lub dwa dolary miesięcznie
+ 
+
+00:13:16.895 --> 00:13:18.786 align:start position:0%
+ tylko jeden lub dwa dolary miesięcznie
+ więcej<00:13:17.283><c> niż</c><00:13:17.525><c> w</c><00:13:17.622><c> przypadku</c><00:13:18.107><c> innych</c><00:13:18.398><c>,</c><00:13:18.495><c> które</c>
+
+00:13:18.786 --> 00:13:18.834 align:start position:0%
+ więcej niż w przypadku innych, które
+ 
+
+00:13:18.834 --> 00:13:20.289 align:start position:0%
+ więcej niż w przypadku innych, które
+ nie<00:13:19.028><c> mają</c><00:13:19.319><c> takiej</c><00:13:19.658><c> reputacji</c><00:13:20.143><c> jak</c>
+
+00:13:20.289 --> 00:13:20.337 align:start position:0%
+ nie mają takiej reputacji jak
+ 
+
+00:13:20.337 --> 00:13:22.164 align:start position:0%
+ nie mają takiej reputacji jak
+ SiteGround<00:13:20.822><c>.</c><00:13:20.971><c> Dlatego</c><00:13:21.368><c> właśnie</c><00:13:21.866><c> zawsze</c>
+
+00:13:22.164 --> 00:13:22.214 align:start position:0%
+ SiteGround. Dlatego właśnie zawsze
+ 
+
+00:13:22.214 --> 00:13:24.142 align:start position:0%
+ SiteGround. Dlatego właśnie zawsze
+ polecam<00:13:22.612><c> SiteGround</c><00:13:23.109><c>.</c><00:13:23.259><c> Rozumiem</c><00:13:23.756><c> jednak</c><00:13:24.087><c>,</c>
+
+00:13:24.142 --> 00:13:24.198 align:start position:0%
+ polecam SiteGround. Rozumiem jednak,
+ 
+
+00:13:24.198 --> 00:13:26.352 align:start position:0%
+ polecam SiteGround. Rozumiem jednak,
+ że<00:13:24.419><c> są</c><00:13:24.640><c> ludzie</c><00:13:25.026><c> z</c><00:13:25.137><c> ograniczonym</c><00:13:25.855><c> budżetem</c>
+
+00:13:26.352 --> 00:13:29.337 align:start position:0%
+ że są ludzie z ograniczonym budżetem
+.<00:13:27.508><c> Być</c><00:13:27.769><c> może</c><00:13:28.082><c> mieszkasz</c><00:13:28.605><c> w</c><00:13:28.710><c> kraju</c><00:13:28.971><c>,</c><00:13:29.076><c> gdzie</c>
+
+00:13:29.337 --> 00:13:29.389 align:start position:0%
+. Być może mieszkasz w kraju, gdzie
+ 
+
+00:13:29.389 --> 00:13:31.114 align:start position:0%
+. Być może mieszkasz w kraju, gdzie
+ dochody<00:13:29.807><c> nie</c><00:13:30.016><c> są</c><00:13:30.225><c> tak</c><00:13:30.434><c> wysokie</c><00:13:30.853><c> jak</c><00:13:31.062><c> w</c>
+
+00:13:31.114 --> 00:13:31.166 align:start position:0%
+ dochody nie są tak wysokie jak w
+ 
+
+00:13:31.166 --> 00:13:35.658 align:start position:0%
+ dochody nie są tak wysokie jak w
+ Europie<00:13:31.584><c> czy</c><00:13:31.793><c> Ameryce</c><00:13:32.159><c>.</c><00:13:34.751><c> Dlatego</c><00:13:35.178><c> dla</c><00:13:35.391><c> osób</c>
+
+00:13:35.658 --> 00:13:35.712 align:start position:0%
+ Europie czy Ameryce. Dlatego dla osób
+ 
+
+00:13:35.712 --> 00:13:37.581 align:start position:0%
+ Europie czy Ameryce. Dlatego dla osób
+ z<00:13:35.819><c> naprawdę</c><00:13:36.353><c> ograniczonym</c><00:13:37.047><c> budżetem</c><00:13:37.527><c>,</c>
+
+00:13:37.581 --> 00:13:37.634 align:start position:0%
+ z naprawdę ograniczonym budżetem,
+ 
+
+00:13:37.634 --> 00:13:39.664 align:start position:0%
+ z naprawdę ograniczonym budżetem,
+ które<00:13:38.008><c> są</c><00:13:38.222><c> skłonne</c><00:13:38.702><c> zaryzykować</c><00:13:39.397><c> nieco</c>
+
+00:13:39.664 --> 00:13:39.717 align:start position:0%
+ które są skłonne zaryzykować nieco
+ 
+
+00:13:39.717 --> 00:13:41.479 align:start position:0%
+ które są skłonne zaryzykować nieco
+ pod<00:13:39.931><c> kątem</c><00:13:40.304><c> funkcji</c><00:13:40.678><c>,</c><00:13:40.785><c> wydajności</c><00:13:41.426><c> i</c>
+
+00:13:41.479 --> 00:13:41.533 align:start position:0%
+ pod kątem funkcji, wydajności i
+ 
+
+00:13:41.533 --> 00:13:43.348 align:start position:0%
+ pod kątem funkcji, wydajności i
+ szybkości<00:13:42.067><c>,</c><00:13:42.173><c> przejrzałem</c><00:13:42.868><c> różnych</c>
+
+00:13:43.348 --> 00:13:43.402 align:start position:0%
+ szybkości, przejrzałem różnych
+ 
+
+00:13:43.402 --> 00:13:45.271 align:start position:0%
+ szybkości, przejrzałem różnych
+ dostawców<00:13:43.989><c> hostingu</c><00:13:44.470><c> i</c><00:13:44.577><c> dodałem</c><00:13:45.057><c> nowy</c>
+
+00:13:45.271 --> 00:13:45.324 align:start position:0%
+ dostawców hostingu i dodałem nowy
+ 
+
+00:13:45.324 --> 00:13:47.087 align:start position:0%
+ dostawców hostingu i dodałem nowy
+ link<00:13:45.591><c> na</c><00:13:45.751><c> stronie</c><00:13:46.179><c> livingwithpixels</c><00:13:47.033><c>.</c>
+
+00:13:47.087 --> 00:13:48.669 align:start position:0%
+ link na stronie livingwithpixels.
+ 
+
+00:13:48.669 --> 00:13:49.614 align:start position:0%
+ 
+ Jeśli<00:13:49.017><c> wejdziesz</c><00:13:49.515><c> na</c>
+
+00:13:49.614 --> 00:13:49.664 align:start position:0%
+ Jeśli wejdziesz na
+ 
+
+00:13:49.664 --> 00:13:51.356 align:start position:0%
+ Jeśli wejdziesz na
+ livingwithpixels.com<00:13:50.709><c> i</c><00:13:50.809><c> klikniesz</c><00:13:51.306><c> w</c>
+
+00:13:51.356 --> 00:13:51.406 align:start position:0%
+ livingwithpixels.com i klikniesz w
+ 
+
+00:13:51.406 --> 00:13:53.198 align:start position:0%
+ livingwithpixels.com i klikniesz w
+ linki<00:13:51.705><c> na</c><00:13:51.854><c> stronie</c><00:13:52.202><c>,</c><00:13:52.302><c> przejdziesz</c><00:13:52.899><c> do</c><00:13:53.048><c> tej</c>
+
+00:13:53.198 --> 00:13:53.248 align:start position:0%
+ linki na stronie, przejdziesz do tej
+ 
+
+00:13:53.248 --> 00:13:55.089 align:start position:0%
+ linki na stronie, przejdziesz do tej
+ podstrony<00:13:53.695><c>,</c><00:13:53.795><c> gdzie</c><00:13:54.094><c> pod</c><00:13:54.293><c> SiteGround</c><00:13:54.840><c> nieco</c>
+
+00:13:55.089 --> 00:13:55.139 align:start position:0%
+ podstrony, gdzie pod SiteGround nieco
+ 
+
+00:13:55.139 --> 00:13:56.533 align:start position:0%
+ podstrony, gdzie pod SiteGround nieco
+ zmodyfikowałem<00:13:55.935><c> zawartość</c><00:13:56.483><c>.</c>
+
+00:13:56.533 --> 00:13:56.633 align:start position:0%
+ zmodyfikowałem zawartość.
+ 
+
+00:13:56.633 --> 00:13:58.129 align:start position:0%
+ zmodyfikowałem zawartość.
+ Sprawdziłem<00:13:57.144><c> prawie</c><00:13:57.420><c> wszystkie</c><00:13:57.814><c> główne</c>
+
+00:13:58.129 --> 00:13:58.168 align:start position:0%
+ Sprawdziłem prawie wszystkie główne
+ 
+
+00:13:58.168 --> 00:13:59.625 align:start position:0%
+ Sprawdziłem prawie wszystkie główne
+ firmy<00:13:58.404><c> hostingowe</c><00:13:58.837><c> i</c><00:13:58.916><c> to</c><00:13:59.034><c> jest</c><00:13:59.231><c> najtańsza</c>
+
+00:13:59.625 --> 00:13:59.664 align:start position:0%
+ firmy hostingowe i to jest najtańsza
+ 
+
+00:13:59.664 --> 00:14:01.161 align:start position:0%
+ firmy hostingowe i to jest najtańsza
+ opcja<00:13:59.861><c>,</c><00:13:59.940><c> jaką</c><00:14:00.176><c> udało</c><00:14:00.452><c> mi</c><00:14:00.570><c> się</c><00:14:00.767><c> znaleźć</c><00:14:01.121><c>.</c>
+
+00:14:01.161 --> 00:14:01.261 align:start position:0%
+ opcja, jaką udało mi się znaleźć.
+ 
+
+00:14:01.261 --> 00:14:02.576 align:start position:0%
+ opcja, jaką udało mi się znaleźć.
+ Zobaczmy<00:14:01.699><c> więc</c><00:14:01.942><c>,</c><00:14:02.040><c> co</c><00:14:02.186><c> mają</c><00:14:02.478><c> do</c>
+
+00:14:02.576 --> 00:14:02.624 align:start position:0%
+ Zobaczmy więc, co mają do
+ 
+
+00:14:02.624 --> 00:14:04.420 align:start position:0%
+ Zobaczmy więc, co mają do
+ zaoferowania<00:14:03.209><c>.</c><00:14:03.358><c> Jeśli</c><00:14:03.696><c> klikniesz</c><00:14:04.179><c> w</c><00:14:04.275><c> ten</c>
+
+00:14:04.420 --> 00:14:04.468 align:start position:0%
+ zaoferowania. Jeśli klikniesz w ten
+ 
+
+00:14:04.468 --> 00:14:06.255 align:start position:0%
+ zaoferowania. Jeśli klikniesz w ten
+ link<00:14:04.661><c>,</c><00:14:04.758><c> przejdziesz</c><00:14:05.338><c> na</c><00:14:05.483><c> stronę</c><00:14:05.869><c> hostingu</c>
+
+00:14:06.255 --> 00:14:06.304 align:start position:0%
+ link, przejdziesz na stronę hostingu
+ 
+
+00:14:06.304 --> 00:14:08.139 align:start position:0%
+ link, przejdziesz na stronę hostingu
+ WordPress<00:14:06.738><c>,</c><00:14:06.835><c> który</c><00:14:07.173><c> jest</c><00:14:07.414><c> zoptymalizowany</c>
+
+00:14:08.139 --> 00:14:08.187 align:start position:0%
+ WordPress, który jest zoptymalizowany
+ 
+
+00:14:08.187 --> 00:14:10.088 align:start position:0%
+ WordPress, który jest zoptymalizowany
+ pod<00:14:08.380><c> kątem</c><00:14:08.718><c> tej</c><00:14:08.912><c> platformy</c><00:14:09.346><c>.</c><00:14:09.495><c> Jeśli</c><00:14:09.840><c> więc</c>
+
+00:14:10.088 --> 00:14:10.137 align:start position:0%
+ pod kątem tej platformy. Jeśli więc
+ 
+
+00:14:10.137 --> 00:14:12.065 align:start position:0%
+ pod kątem tej platformy. Jeśli więc
+ budujesz<00:14:10.582><c> strony</c><00:14:10.928><c> na</c><00:14:11.076><c> WordPressie</c><00:14:11.620><c>,</c><00:14:11.719><c> to</c><00:14:11.867><c> jest</c>
+
+00:14:12.065 --> 00:14:12.114 align:start position:0%
+ budujesz strony na WordPressie, to jest
+ 
+
+00:14:12.114 --> 00:14:13.893 align:start position:0%
+ budujesz strony na WordPressie, to jest
+ pakiet<00:14:12.411><c>,</c><00:14:12.510><c> który</c><00:14:12.855><c> powinieneś</c><00:14:13.449><c> wybrać</c><00:14:13.844><c> i</c>
+
+00:14:13.893 --> 00:14:13.943 align:start position:0%
+ pakiet, który powinieneś wybrać i
+ 
+
+00:14:13.943 --> 00:14:15.871 align:start position:0%
+ pakiet, który powinieneś wybrać i
+ tak<00:14:14.141><c> naprawdę</c><00:14:14.635><c> jest</c><00:14:14.882><c> to</c><00:14:15.030><c> najlepszy</c><00:14:15.525><c> pakiet</c><00:14:15.821><c>.</c>
+
+00:14:15.871 --> 00:14:16.943 align:start position:0%
+ tak naprawdę jest to najlepszy pakiet.
+ 
+
+00:14:16.943 --> 00:14:19.533 align:start position:0%
+ 
+ Jak<00:14:17.223><c> widzisz</c><00:14:17.713><c>,</c><00:14:17.853><c> oferują</c><00:14:18.483><c> swój</c><00:14:18.903><c> pakiet</c><00:14:19.393><c> za</c>
+
+00:14:19.533 --> 00:14:19.603 align:start position:0%
+ Jak widzisz, oferują swój pakiet za
+ 
+
+00:14:19.603 --> 00:14:22.334 align:start position:0%
+ Jak widzisz, oferują swój pakiet za
+ 2,15<00:14:19.953><c> dolara</c><00:14:20.374><c>,</c><00:14:20.514><c> a</c><00:14:20.654><c> cena</c><00:14:21.004><c> odnowienia</c><00:14:21.774><c> to</c><00:14:21.984><c> tylko</c>
+
+00:14:22.334 --> 00:14:22.404 align:start position:0%
+ 2,15 dolara, a cena odnowienia to tylko
+ 
+
+00:14:22.404 --> 00:14:24.715 align:start position:0%
+ 2,15 dolara, a cena odnowienia to tylko
+ 3,50<00:14:22.754><c> dolara</c><00:14:23.245><c> miesięcznie</c><00:14:24.085><c>,</c><00:14:24.225><c> co</c><00:14:24.435><c> jest</c>
+
+00:14:24.715 --> 00:14:24.785 align:start position:0%
+ 3,50 dolara miesięcznie, co jest
+ 
+
+00:14:24.785 --> 00:14:28.253 align:start position:0%
+ 3,50 dolara miesięcznie, co jest
+ całkiem<00:14:25.415><c> niesamowite</c><00:14:26.185><c>.</c><00:14:27.621><c> Dlaczego</c><00:14:28.095><c> nie</c>
+
+00:14:28.253 --> 00:14:28.306 align:start position:0%
+ całkiem niesamowite. Dlaczego nie
+ 
+
+00:14:28.306 --> 00:14:30.309 align:start position:0%
+ całkiem niesamowite. Dlaczego nie
+ polecam<00:14:28.728><c> wyboru</c><00:14:29.097><c> licencji</c><00:14:29.571><c> na</c><00:14:29.729><c> pojedynczą</c>
+
+00:14:30.309 --> 00:14:30.362 align:start position:0%
+ polecam wyboru licencji na pojedynczą
+ 
+
+00:14:30.362 --> 00:14:32.171 align:start position:0%
+ polecam wyboru licencji na pojedynczą
+ stronę<00:14:30.731><c>?</c><00:14:30.891><c> Ponieważ</c><00:14:31.403><c> w</c><00:14:31.505><c> tej</c><00:14:31.710><c> licencji</c><00:14:32.120><c>,</c>
+
+00:14:32.171 --> 00:14:32.223 align:start position:0%
+ stronę? Ponieważ w tej licencji,
+ 
+
+00:14:32.223 --> 00:14:34.118 align:start position:0%
+ stronę? Ponieważ w tej licencji,
+ którą<00:14:32.633><c> znajdziesz</c><00:14:33.196><c> poniżej</c><00:14:33.606><c>,</c><00:14:33.708><c> oferują</c>
+
+00:14:34.118 --> 00:14:34.170 align:start position:0%
+ którą znajdziesz poniżej, oferują
+ 
+
+00:14:34.170 --> 00:14:36.168 align:start position:0%
+ którą znajdziesz poniżej, oferują
+ tylko<00:14:34.477><c> dwie</c><00:14:34.733><c> subdomeny</c><00:14:35.194><c>,</c><00:14:35.297><c> co</c><00:14:35.450><c> nie</c><00:14:35.655><c> wystarczy</c><00:14:36.117><c>,</c>
+
+00:14:36.168 --> 00:14:36.219 align:start position:0%
+ tylko dwie subdomeny, co nie wystarczy,
+ 
+
+00:14:36.219 --> 00:14:37.807 align:start position:0%
+ tylko dwie subdomeny, co nie wystarczy,
+ jeśli<00:14:36.578><c> chcesz</c><00:14:36.936><c> prowadzić</c><00:14:37.500><c> firmę</c>
+
+00:14:37.807 --> 00:14:37.859 align:start position:0%
+ jeśli chcesz prowadzić firmę
+ 
+
+00:14:37.859 --> 00:14:39.806 align:start position:0%
+ jeśli chcesz prowadzić firmę
+ zajmującą<00:14:38.473><c> się</c><00:14:38.730><c> projektowaniem</c><00:14:39.498><c> stron</c><00:14:39.754><c>.</c>
+
+00:14:39.806 --> 00:14:40.188 align:start position:0%
+ zajmującą się projektowaniem stron.
+ 
+
+00:14:40.188 --> 00:14:41.999 align:start position:0%
+ zajmującą się projektowaniem stron.
+ To<00:14:40.338><c> najtańszy</c><00:14:40.892><c> pakiet</c><00:14:41.194><c>,</c><00:14:41.295><c> jaki</c><00:14:41.546><c> udało</c><00:14:41.898><c> mi</c>
+
+00:14:41.999 --> 00:14:42.049 align:start position:0%
+ To najtańszy pakiet, jaki udało mi
+ 
+
+00:14:42.049 --> 00:14:43.559 align:start position:0%
+ To najtańszy pakiet, jaki udało mi
+ się<00:14:42.301><c> znaleźć</c><00:14:42.754><c>,</c><00:14:42.854><c> który</c><00:14:43.207><c> oferuje</c>
+
+00:14:43.559 --> 00:14:43.609 align:start position:0%
+ się znaleźć, który oferuje
+ 
+
+00:14:43.609 --> 00:14:45.521 align:start position:0%
+ się znaleźć, który oferuje
+ subdomeny<00:14:44.112><c> w</c><00:14:44.213><c> bardzo</c><00:14:44.565><c> przystępnej</c><00:14:45.219><c> cenie</c><00:14:45.471><c>,</c>
+
+00:14:45.521 --> 00:14:45.572 align:start position:0%
+ subdomeny w bardzo przystępnej cenie,
+ 
+
+00:14:45.572 --> 00:14:49.006 align:start position:0%
+ subdomeny w bardzo przystępnej cenie,
+ właściwie<00:14:46.175><c> najtaniej</c><00:14:46.679><c> na</c><00:14:46.830><c> rynku</c><00:14:47.081><c>.</c><00:14:48.595><c> Dodajmy</c>
+
+00:14:49.006 --> 00:14:49.065 align:start position:0%
+ właściwie najtaniej na rynku. Dodajmy
+ 
+
+00:14:49.065 --> 00:14:51.240 align:start position:0%
+ właściwie najtaniej na rynku. Dodajmy
+ to<00:14:49.241><c> do</c><00:14:49.418><c> koszyka</c><00:14:49.829><c>,</c><00:14:49.947><c> ponieważ</c><00:14:50.535><c> ta</c><00:14:50.711><c> cena</c><00:14:50.946><c>,</c><00:14:51.064><c> jak</c>
+
+00:14:51.240 --> 00:14:51.299 align:start position:0%
+ to do koszyka, ponieważ ta cena, jak
+ 
+
+00:14:51.299 --> 00:14:53.416 align:start position:0%
+ to do koszyka, ponieważ ta cena, jak
+ już<00:14:51.593><c> wspominałem</c><00:14:52.299><c>,</c><00:14:52.416><c> nie</c><00:14:52.652><c> dotyczy</c><00:14:53.122><c> roku</c><00:14:53.357><c>,</c>
+
+00:14:53.416 --> 00:14:53.475 align:start position:0%
+ już wspominałem, nie dotyczy roku,
+ 
+
+00:14:53.475 --> 00:14:56.792 align:start position:0%
+ już wspominałem, nie dotyczy roku,
+ ale<00:14:53.710><c> subskrypcji</c><00:14:54.416><c> na</c><00:14:54.592><c> 4</c><00:14:54.710><c> lata</c><00:14:54.945><c>.</c><00:14:56.318><c> To</c><00:14:56.495><c> spore</c>
+
+00:14:56.792 --> 00:14:56.851 align:start position:0%
+ ale subskrypcji na 4 lata. To spore
+ 
+
+00:14:56.851 --> 00:15:00.759 align:start position:0%
+ ale subskrypcji na 4 lata. To spore
+ zobowiązanie<00:14:57.621><c>.</c><00:14:59.339><c> Dlatego</c><00:14:59.832><c> polecam</c><00:15:00.265><c>,</c><00:15:00.388><c> jeśli</c>
+
+00:15:00.759 --> 00:15:00.820 align:start position:0%
+ zobowiązanie. Dlatego polecam, jeśli
+ 
+
+00:15:00.820 --> 00:15:02.981 align:start position:0%
+ zobowiązanie. Dlatego polecam, jeśli
+ kupujesz<00:15:01.376><c> taki</c><00:15:01.685><c> tani</c><00:15:01.993><c> hosting</c><00:15:02.426><c>,</c><00:15:02.549><c> wybrać</c>
+
+00:15:02.981 --> 00:15:03.043 align:start position:0%
+ kupujesz taki tani hosting, wybrać
+ 
+
+00:15:03.043 --> 00:15:06.680 align:start position:0%
+ kupujesz taki tani hosting, wybrać
+ plan<00:15:03.352><c> na</c><00:15:03.537><c> 12</c><00:15:03.722><c> miesięcy</c><00:15:04.278><c>.</c><00:15:05.636><c> Dlaczego</c><00:15:06.172><c>?</c><00:15:06.339><c> Cóż</c><00:15:06.623><c>,</c>
+
+00:15:06.680 --> 00:15:06.737 align:start position:0%
+ plan na 12 miesięcy. Dlaczego? Cóż,
+ 
+
+00:15:06.737 --> 00:15:08.730 align:start position:0%
+ plan na 12 miesięcy. Dlaczego? Cóż,
+ cena<00:15:07.022><c> odnowienia</c><00:15:07.648><c> jest</c><00:15:07.933><c> nieco</c><00:15:08.274><c> wyższa</c><00:15:08.673><c>,</c>
+
+00:15:08.730 --> 00:15:08.787 align:start position:0%
+ cena odnowienia jest nieco wyższa,
+ 
+
+00:15:08.787 --> 00:15:10.779 align:start position:0%
+ cena odnowienia jest nieco wyższa,
+ około<00:15:09.185><c> 6</c><00:15:09.299><c> dolarów</c><00:15:09.755><c>,</c><00:15:09.868><c> ale</c><00:15:10.096><c> to</c><00:15:10.267><c> wciąż</c><00:15:10.722><c> 4</c>
+
+00:15:10.779 --> 00:15:10.836 align:start position:0%
+ około 6 dolarów, ale to wciąż 4
+ 
+
+00:15:10.836 --> 00:15:12.943 align:start position:0%
+ około 6 dolarów, ale to wciąż 4
+ dolary<00:15:11.235><c> taniej</c><00:15:11.633><c> niż</c><00:15:11.918><c> w</c><00:15:12.032><c> przypadku</c><00:15:12.601><c> innych</c>
+
+00:15:12.943 --> 00:15:13.000 align:start position:0%
+ dolary taniej niż w przypadku innych
+ 
+
+00:15:13.000 --> 00:15:14.828 align:start position:0%
+ dolary taniej niż w przypadku innych
+ ofert<00:15:13.285><c>.</c><00:15:13.442><c> Dzięki</c><00:15:13.838><c> temu</c><00:15:14.085><c> nie</c><00:15:14.283><c> podejmujesz</c>
+
+00:15:14.828 --> 00:15:14.878 align:start position:0%
+ ofert. Dzięki temu nie podejmujesz
+ 
+
+00:15:14.878 --> 00:15:16.464 align:start position:0%
+ ofert. Dzięki temu nie podejmujesz
+ dużego<00:15:15.274><c> ryzyka</c><00:15:15.571><c>.</c><00:15:15.721><c> Oczywiście</c><00:15:16.190><c> możesz</c>
+
+00:15:16.464 --> 00:15:16.503 align:start position:0%
+ dużego ryzyka. Oczywiście możesz
+ 
+
+00:15:16.503 --> 00:15:17.912 align:start position:0%
+ dużego ryzyka. Oczywiście możesz
+ też<00:15:16.699><c> zdecydować</c><00:15:17.168><c> się</c><00:15:17.364><c> na</c><00:15:17.482><c> 4</c><00:15:17.560><c> lata</c><00:15:17.716><c>,</c><00:15:17.795><c> ale</c>
+
+00:15:17.912 --> 00:15:17.951 align:start position:0%
+ też zdecydować się na 4 lata, ale
+ 
+
+00:15:17.951 --> 00:15:19.282 align:start position:0%
+ też zdecydować się na 4 lata, ale
+ wtedy<00:15:18.186><c> będziesz</c><00:15:18.577><c> musiał</c><00:15:18.890><c> zapłacić</c>
+
+00:15:19.282 --> 00:15:19.321 align:start position:0%
+ wtedy będziesz musiał zapłacić
+ 
+
+00:15:19.321 --> 00:15:20.735 align:start position:0%
+ wtedy będziesz musiał zapłacić
+ trochę<00:15:19.634><c> więcej</c><00:15:19.947><c> już</c><00:15:20.143><c> teraz</c><00:15:20.338><c>.</c><00:15:20.478><c> Bo</c><00:15:20.606><c> jak</c>
+
+00:15:20.735 --> 00:15:20.778 align:start position:0%
+ trochę więcej już teraz. Bo jak
+ 
+
+00:15:20.778 --> 00:15:22.279 align:start position:0%
+ trochę więcej już teraz. Bo jak
+ widzisz<00:15:21.078><c>,</c><00:15:21.164><c> jeśli</c><00:15:21.464><c> to</c><00:15:21.593><c> kupisz</c><00:15:21.850><c>,</c><00:15:21.936><c> płacisz</c>
+
+00:15:22.279 --> 00:15:22.322 align:start position:0%
+ widzisz, jeśli to kupisz, płacisz
+ 
+
+00:15:22.322 --> 00:15:23.823 align:start position:0%
+ widzisz, jeśli to kupisz, płacisz
+ tylko<00:15:22.579><c> 54</c><00:15:22.708><c> dolary</c><00:15:22.965><c>,</c><00:15:23.051><c> a</c><00:15:23.137><c> jeśli</c><00:15:23.437><c> klikniesz</c>
+
+00:15:23.823 --> 00:15:23.866 align:start position:0%
+ tylko 54 dolary, a jeśli klikniesz
+ 
+
+00:15:23.866 --> 00:15:25.538 align:start position:0%
+ tylko 54 dolary, a jeśli klikniesz
+ tutaj<00:15:24.080><c>,</c><00:15:24.166><c> zobaczysz</c><00:15:24.552><c>,</c><00:15:24.638><c> że</c><00:15:24.809><c> zapłacisz</c><00:15:25.281><c> prawie</c>
+
+00:15:25.538 --> 00:15:25.581 align:start position:0%
+ tutaj, zobaczysz, że zapłacisz prawie
+ 
+
+00:15:25.581 --> 00:15:27.211 align:start position:0%
+ tutaj, zobaczysz, że zapłacisz prawie
+ dwa<00:15:25.753><c> razy</c><00:15:25.967><c> tyle</c><00:15:26.139><c>,</c><00:15:26.224><c> ale</c><00:15:26.396><c> oczywiście</c><00:15:26.911><c> jest</c><00:15:27.125><c> to</c>
+
+00:15:27.211 --> 00:15:27.254 align:start position:0%
+ dwa razy tyle, ale oczywiście jest to
+ 
+
+00:15:27.254 --> 00:15:28.884 align:start position:0%
+ dwa razy tyle, ale oczywiście jest to
+ różnica<00:15:27.683><c> między</c><00:15:28.026><c> 1</c><00:15:28.112><c> rokiem</c><00:15:28.412><c> a</c><00:15:28.498><c> 4</c><00:15:28.583><c> latami</c><00:15:28.841><c>.</c>
+
+00:15:28.884 --> 00:15:30.327 align:start position:0%
+ różnica między 1 rokiem a 4 latami.
+ 
+
+00:15:30.327 --> 00:15:32.463 align:start position:0%
+ 
+ Wspaniałą<00:15:31.001><c> rzeczą</c><00:15:31.451><c> w</c><00:15:31.563><c> Hostingerze</c><00:15:32.238><c> jest</c>
+
+00:15:32.463 --> 00:15:32.519 align:start position:0%
+ Wspaniałą rzeczą w Hostingerze jest
+ 
+
+00:15:32.519 --> 00:15:34.375 align:start position:0%
+ Wspaniałą rzeczą w Hostingerze jest
+ to<00:15:32.632><c>,</c><00:15:32.744><c> że</c><00:15:32.969><c> w</c><00:15:33.082><c> planach</c><00:15:33.531><c> od</c><00:15:33.700><c> 12</c><00:15:33.869><c> miesięcy</c>
+
+00:15:34.375 --> 00:15:34.431 align:start position:0%
+ to, że w planach od 12 miesięcy
+ 
+
+00:15:34.431 --> 00:15:36.511 align:start position:0%
+ to, że w planach od 12 miesięcy
+ oferują<00:15:34.937><c> darmową</c><00:15:35.443><c> domenę</c><00:15:35.893><c> na</c><00:15:36.062><c> pierwszy</c>
+
+00:15:36.511 --> 00:15:36.568 align:start position:0%
+ oferują darmową domenę na pierwszy
+ 
+
+00:15:36.568 --> 00:15:41.094 align:start position:0%
+ oferują darmową domenę na pierwszy
+ rok<00:15:36.736><c>.</c><00:15:39.113><c> Normalnie</c><00:15:39.713><c> musiałbyś</c><00:15:40.433><c> płacić</c><00:15:40.974><c> 10</c>
+
+00:15:41.094 --> 00:15:41.154 align:start position:0%
+ rok. Normalnie musiałbyś płacić 10
+ 
+
+00:15:41.154 --> 00:15:43.404 align:start position:0%
+ rok. Normalnie musiałbyś płacić 10
+ lub<00:15:41.394><c> 15</c><00:15:41.574><c> dolarów</c><00:15:42.115><c> rocznie</c><00:15:42.595><c> za</c><00:15:42.775><c> domenę</c><00:15:43.195><c>.</c><00:15:43.356><c> W</c>
+
+00:15:43.404 --> 00:15:43.453 align:start position:0%
+ lub 15 dolarów rocznie za domenę. W
+ 
+
+00:15:43.453 --> 00:15:45.016 align:start position:0%
+ lub 15 dolarów rocznie za domenę. W
+ ten<00:15:43.649><c> sposób</c><00:15:44.039><c> zaoszczędzisz</c><00:15:44.772><c> nieco</c>
+
+00:15:45.016 --> 00:15:45.065 align:start position:0%
+ ten sposób zaoszczędzisz nieco
+ 
+
+00:15:45.065 --> 00:15:47.003 align:start position:0%
+ ten sposób zaoszczędzisz nieco
+ więcej<00:15:45.455><c> pieniędzy</c><00:15:45.944><c>.</c><00:15:46.096><c> Powiedzmy</c><00:15:46.679><c>,</c><00:15:46.809><c> że</c>
+
+00:15:47.003 --> 00:15:47.068 align:start position:0%
+ więcej pieniędzy. Powiedzmy, że
+ 
+
+00:15:47.068 --> 00:15:50.403 align:start position:0%
+ więcej pieniędzy. Powiedzmy, że
+ chcę<00:15:47.457><c> kupić</c><00:15:47.911><c> Rina</c><00:15:48.235><c> de</c><00:15:48.429><c> Boer</c><00:15:48.754><c> 2.com</c><00:15:49.078><c>.</c><00:15:50.084><c> Klikam</c>
+
+00:15:50.403 --> 00:15:50.456 align:start position:0%
+ chcę kupić Rina de Boer 2.com. Klikam
+ 
+
+00:15:50.456 --> 00:15:52.317 align:start position:0%
+ chcę kupić Rina de Boer 2.com. Klikam
+ szukaj<00:15:50.828><c> i</c><00:15:50.934><c> jak</c><00:15:51.147><c> widzisz</c><00:15:51.519><c>,</c><00:15:51.626><c> nie</c><00:15:51.838><c> dodaje</c><00:15:52.210><c> to</c>
+
+00:15:52.317 --> 00:15:52.370 align:start position:0%
+ szukaj i jak widzisz, nie dodaje to
+ 
+
+00:15:52.370 --> 00:15:55.219 align:start position:0%
+ szukaj i jak widzisz, nie dodaje to
+ niczego<00:15:52.795><c> do</c><00:15:52.955><c> rachunku</c><00:15:53.380><c>.</c><00:15:53.833><c> To</c><00:15:54.064><c> nadal</c><00:15:54.526><c> 54</c><00:15:54.757><c> dolary</c>
+
+00:15:55.219 --> 00:15:57.731 align:start position:0%
+ niczego do rachunku. To nadal 54 dolary
+,<00:15:55.373><c> a</c><00:15:55.527><c> do</c><00:15:55.759><c> tego</c><00:15:56.144><c> mam</c><00:15:56.452><c> nazwę</c><00:15:56.991><c> .com</c><00:15:57.299><c>.</c><00:15:57.477><c> Mogę</c>
+
+00:15:57.731 --> 00:15:57.782 align:start position:0%
+, a do tego mam nazwę .com. Mogę
+ 
+
+00:15:57.782 --> 00:15:59.716 align:start position:0%
+, a do tego mam nazwę .com. Mogę
+ sprawić<00:15:58.189><c>,</c><00:15:58.291><c> by</c><00:15:58.443><c> było</c><00:15:58.749><c> to</c><00:15:58.901><c> jeszcze</c><00:15:59.309><c> tańsze</c><00:15:59.665><c>,</c>
+
+00:15:59.716 --> 00:15:59.767 align:start position:0%
+ sprawić, by było to jeszcze tańsze,
+ 
+
+00:15:59.767 --> 00:16:01.751 align:start position:0%
+ sprawić, by było to jeszcze tańsze,
+ bo<00:15:59.919><c> nie</c><00:16:00.123><c> wiem</c><00:16:00.326><c>,</c><00:16:00.428><c> czy</c><00:16:00.632><c> już</c><00:16:00.886><c> to</c><00:16:01.039><c> zauważyłeś</c><00:16:01.700><c>,</c>
+
+00:16:01.751 --> 00:16:01.802 align:start position:0%
+ bo nie wiem, czy już to zauważyłeś,
+ 
+
+00:16:01.802 --> 00:16:03.583 align:start position:0%
+ bo nie wiem, czy już to zauważyłeś,
+ ale<00:16:02.006><c> tutaj</c><00:16:02.311><c> na</c><00:16:02.464><c> dole</c><00:16:02.718><c> jest</c><00:16:02.973><c> mały</c><00:16:03.278><c> wiersz</c>
+
+00:16:03.583 --> 00:16:03.634 align:start position:0%
+ ale tutaj na dole jest mały wiersz
+ 
+
+00:16:03.634 --> 00:16:07.421 align:start position:0%
+ ale tutaj na dole jest mały wiersz
+ tekstu<00:16:03.940><c>.</c><00:16:05.585><c> Jeśli</c><00:16:05.999><c> użyjesz</c><00:16:06.532><c> kodu</c><00:16:06.828><c> rabatowego</c>
+
+00:16:07.421 --> 00:16:07.480 align:start position:0%
+ tekstu. Jeśli użyjesz kodu rabatowego
+ 
+
+00:16:07.480 --> 00:16:09.376 align:start position:0%
+ tekstu. Jeśli użyjesz kodu rabatowego
+ livingwithpixels<00:16:08.428><c>,</c><00:16:08.546><c> skopiujesz</c><00:16:09.198><c> go</c><00:16:09.316><c>,</c>
+
+00:16:09.376 --> 00:16:09.435 align:start position:0%
+ livingwithpixels, skopiujesz go,
+ 
+
+00:16:09.435 --> 00:16:11.567 align:start position:0%
+ livingwithpixels, skopiujesz go,
+ przejdziesz<00:16:10.146><c> do</c><00:16:10.323><c> koszyka</c><00:16:10.738><c>,</c><00:16:10.856><c> wpiszesz</c><00:16:11.389><c> kod</c>
+
+00:16:11.567 --> 00:16:11.626 align:start position:0%
+ przejdziesz do koszyka, wpiszesz kod
+ 
+
+00:16:11.626 --> 00:16:13.640 align:start position:0%
+ przejdziesz do koszyka, wpiszesz kod
+ kuponu<00:16:11.982><c>,</c><00:16:12.100><c> dadzą</c><00:16:12.515><c> ci</c><00:16:12.693><c> nawet</c><00:16:13.048><c> 10</c><00:16:13.167><c>%</c><00:16:13.226><c>więcej</c>
+
+00:16:13.640 --> 00:16:13.700 align:start position:0%
+ kuponu, dadzą ci nawet 10%więcej
+ 
+
+00:16:13.700 --> 00:16:17.799 align:start position:0%
+ kuponu, dadzą ci nawet 10%więcej
+ zniżki<00:16:14.114><c>.</c><00:16:16.429><c> Wtedy</c><00:16:16.786><c> wychodzi</c><00:16:17.322><c> tylko</c><00:16:17.680><c> 50</c>
+
+00:16:17.799 --> 00:16:17.859 align:start position:0%
+ zniżki. Wtedy wychodzi tylko 50
+ 
+
+00:16:17.859 --> 00:16:19.944 align:start position:0%
+ zniżki. Wtedy wychodzi tylko 50
+ dolarów<00:16:18.395><c> za</c><00:16:18.574><c> 12</c><00:16:18.753><c> miesięcy</c><00:16:19.348><c> hostingu</c><00:16:19.885><c> i</c>
+
+00:16:19.944 --> 00:16:20.004 align:start position:0%
+ dolarów za 12 miesięcy hostingu i
+ 
+
+00:16:20.004 --> 00:16:22.328 align:start position:0%
+ dolarów za 12 miesięcy hostingu i
+ darmową<00:16:20.540><c> domenę</c><00:16:21.017><c> na</c><00:16:21.196><c> pierwszy</c><00:16:21.732><c> rok</c><00:16:21.911><c>.</c><00:16:22.233><c> Po</c>
+
+00:16:22.328 --> 00:16:22.375 align:start position:0%
+ darmową domenę na pierwszy rok. Po
+ 
+
+00:16:22.375 --> 00:16:24.232 align:start position:0%
+ darmową domenę na pierwszy rok. Po
+ tym<00:16:22.566><c> czasie</c><00:16:22.899><c> oczywiście</c><00:16:23.471><c> możesz</c><00:16:23.852><c> zmienić</c>
+
+00:16:24.232 --> 00:16:24.280 align:start position:0%
+ tym czasie oczywiście możesz zmienić
+ 
+
+00:16:24.280 --> 00:16:25.756 align:start position:0%
+ tym czasie oczywiście możesz zmienić
+ dostawcę<00:16:24.709><c>,</c><00:16:24.804><c> jeśli</c><00:16:25.137><c> nie</c><00:16:25.328><c> będziesz</c>
+
+00:16:25.756 --> 00:16:25.804 align:start position:0%
+ dostawcę, jeśli nie będziesz
+ 
+
+00:16:25.804 --> 00:16:27.280 align:start position:0%
+ dostawcę, jeśli nie będziesz
+ zadowolony<00:16:26.280><c>,</c><00:16:26.375><c> ale</c><00:16:26.566><c> to</c><00:16:26.709><c> już</c><00:16:26.947><c> kwestia</c>
+
+00:16:27.280 --> 00:16:27.328 align:start position:0%
+ zadowolony, ale to już kwestia
+ 
+
+00:16:27.328 --> 00:16:29.265 align:start position:0%
+ zadowolony, ale to już kwestia
+ techniczna<00:16:27.804><c>.</c><00:16:27.952><c> Więc</c><00:16:28.267><c> po</c><00:16:28.424><c> prostu</c><00:16:28.792><c> zdecyduj</c><00:16:29.212><c>:</c>
+
+00:16:29.265 --> 00:16:29.317 align:start position:0%
+ techniczna. Więc po prostu zdecyduj:
+ 
+
+00:16:29.317 --> 00:16:31.208 align:start position:0%
+ techniczna. Więc po prostu zdecyduj:
+ czy<00:16:29.527><c> należysz</c><00:16:30.052><c> do</c><00:16:30.210><c> grupy</c><00:16:30.525><c> osób</c><00:16:30.788><c>,</c><00:16:30.893><c> które</c>
+
+00:16:31.208 --> 00:16:31.260 align:start position:0%
+ czy należysz do grupy osób, które
+ 
+
+00:16:31.260 --> 00:16:33.256 align:start position:0%
+ czy należysz do grupy osób, które
+ chcą<00:16:31.576><c> najtańszej</c><00:16:32.206><c> możliwej</c><00:16:32.731><c> opcji</c><00:16:32.994><c>,</c><00:16:33.099><c> czy</c>
+
+00:16:33.256 --> 00:16:33.309 align:start position:0%
+ chcą najtańszej możliwej opcji, czy
+ 
+
+00:16:33.309 --> 00:16:35.094 align:start position:0%
+ chcą najtańszej możliwej opcji, czy
+ wolisz<00:16:33.676><c> coś</c><00:16:33.886><c>,</c><00:16:33.992><c> co</c><00:16:34.149><c> jest</c><00:16:34.412><c> numerem</c><00:16:34.832><c> jeden</c>
+
+00:16:35.094 --> 00:16:35.147 align:start position:0%
+ wolisz coś, co jest numerem jeden
+ 
+
+00:16:35.147 --> 00:16:36.880 align:start position:0%
+ wolisz coś, co jest numerem jeden
+ według<00:16:35.567><c> większości</c><00:16:36.250><c> i</c><00:16:36.355><c> nadal</c><00:16:36.670><c> jest</c>
+
+00:16:36.880 --> 00:16:36.933 align:start position:0%
+ według większości i nadal jest
+ 
+
+00:16:36.933 --> 00:16:38.876 align:start position:0%
+ według większości i nadal jest
+ przystępne<00:16:37.563><c> cenowo</c><00:16:37.878><c>,</c><00:16:37.983><c> wtedy</c><00:16:38.298><c> powinieneś</c>
+
+00:16:38.876 --> 00:16:38.929 align:start position:0%
+ przystępne cenowo, wtedy powinieneś
+ 
+
+00:16:38.929 --> 00:16:40.980 align:start position:0%
+ przystępne cenowo, wtedy powinieneś
+ wybrać<00:16:39.349><c> SiteGround</c><00:16:39.874><c>.</c><00:16:40.027><c> Myślę</c><00:16:40.378><c>,</c><00:16:40.478><c> że</c><00:16:40.679><c> to</c><00:16:40.829><c> są</c>
+
+00:16:40.980 --> 00:16:41.030 align:start position:0%
+ wybrać SiteGround. Myślę, że to są
+ 
+
+00:16:41.030 --> 00:16:42.936 align:start position:0%
+ wybrać SiteGround. Myślę, że to są
+ dwie<00:16:41.281><c> grupy</c><00:16:41.582><c> odbiorców</c><00:16:42.083><c>,</c><00:16:42.184><c> które</c><00:16:42.535><c> mogłyby</c>
+
+00:16:42.936 --> 00:16:42.986 align:start position:0%
+ dwie grupy odbiorców, które mogłyby
+ 
+
+00:16:42.986 --> 00:16:44.979 align:start position:0%
+ dwie grupy odbiorców, które mogłyby
+ obejrzeć<00:16:43.488><c> ten</c><00:16:43.689><c> film</c><00:16:43.889><c>.</c><00:16:44.040><c> Powtarzam</c><00:16:44.484><c>,</c><00:16:44.583><c> hostuję</c>
+
+00:16:44.979 --> 00:16:45.028 align:start position:0%
+ obejrzeć ten film. Powtarzam, hostuję
+ 
+
+00:16:45.028 --> 00:16:46.808 align:start position:0%
+ obejrzeć ten film. Powtarzam, hostuję
+ wszystkie<00:16:45.523><c> moje</c><00:16:45.770><c> strony</c><00:16:46.116><c> na</c><00:16:46.264><c> SiteGround</c><00:16:46.759><c>,</c>
+
+00:16:46.808 --> 00:16:46.858 align:start position:0%
+ wszystkie moje strony na SiteGround,
+ 
+
+00:16:46.858 --> 00:16:48.786 align:start position:0%
+ wszystkie moje strony na SiteGround,
+ ale<00:16:47.056><c> warto</c><00:16:47.352><c> wypróbować</c><00:16:47.995><c> firmę</c><00:16:48.341><c> taką</c><00:16:48.638><c> jak</c>
+
+00:16:48.786 --> 00:16:48.835 align:start position:0%
+ ale warto wypróbować firmę taką jak
+ 
+
+00:16:48.835 --> 00:16:50.517 align:start position:0%
+ ale warto wypróbować firmę taką jak
+ Hostinger<00:16:49.280><c>,</c><00:16:49.379><c> jeśli</c><00:16:49.725><c> masz</c><00:16:49.973><c> ograniczony</c>
+
+00:16:50.517 --> 00:16:50.566 align:start position:0%
+ Hostinger, jeśli masz ograniczony
+ 
+
+00:16:50.566 --> 00:16:52.451 align:start position:0%
+ Hostinger, jeśli masz ograniczony
+ budżet<00:16:50.912><c>.</c><00:16:51.062><c> Przygotowywałem</c><00:16:52.007><c> ten</c><00:16:52.229><c> film</c>
+
+00:16:52.451 --> 00:16:52.507 align:start position:0%
+ budżet. Przygotowywałem ten film
+ 
+
+00:16:52.507 --> 00:16:54.385 align:start position:0%
+ budżet. Przygotowywałem ten film
+ przez<00:16:52.840><c> ponad</c><00:16:53.174><c> 2</c><00:16:53.285><c> dni</c><00:16:53.452><c>.</c><00:16:53.608><c> Wymagało</c><00:16:54.094><c> to</c><00:16:54.239><c> ode</c>
+
+00:16:54.385 --> 00:16:54.434 align:start position:0%
+ przez ponad 2 dni. Wymagało to ode
+ 
+
+00:16:54.434 --> 00:16:56.184 align:start position:0%
+ przez ponad 2 dni. Wymagało to ode
+ mnie<00:16:54.677><c> sporo</c><00:16:54.969><c> researchu</c><00:16:55.406><c>,</c><00:16:55.503><c> więc</c><00:16:55.795><c> myślę</c><00:16:56.135><c>,</c>
+
+00:16:56.184 --> 00:16:56.233 align:start position:0%
+ mnie sporo researchu, więc myślę,
+ 
+
+00:16:56.233 --> 00:16:58.128 align:start position:0%
+ mnie sporo researchu, więc myślę,
+ że<00:16:56.427><c> masz</c><00:16:56.670><c> już</c><00:16:56.913><c> wszystkie</c><00:16:57.399><c> odpowiedzi</c><00:16:57.885><c>,</c><00:16:57.983><c> ale</c>
+
+00:16:58.128 --> 00:16:58.177 align:start position:0%
+ że masz już wszystkie odpowiedzi, ale
+ 
+
+00:16:58.177 --> 00:17:00.024 align:start position:0%
+ że masz już wszystkie odpowiedzi, ale
+ jeśli<00:16:58.517><c> nie</c><00:16:58.663><c>,</c><00:16:58.760><c> po</c><00:16:58.906><c> prostu</c><00:16:59.246><c> zostaw</c><00:16:59.587><c> komentarz</c>
+
+00:17:00.024 --> 00:17:00.073 align:start position:0%
+ jeśli nie, po prostu zostaw komentarz
+ 
+
+00:17:00.073 --> 00:17:01.969 align:start position:0%
+ jeśli nie, po prostu zostaw komentarz
+ poniżej<00:17:00.462><c>,</c><00:17:00.559><c> a</c><00:17:00.656><c> postaram</c><00:17:01.094><c> się</c><00:17:01.337><c> odpowiedzieć</c>
+
+00:17:01.969 --> 00:17:02.017 align:start position:0%
+ poniżej, a postaram się odpowiedzieć
+ 
+
+00:17:02.017 --> 00:17:03.805 align:start position:0%
+ poniżej, a postaram się odpowiedzieć
+ każdemu<00:17:02.406><c>,</c><00:17:02.503><c> jeśli</c><00:17:02.844><c> znam</c><00:17:03.087><c> odpowiedź</c><00:17:03.573><c>.</c><00:17:03.722><c> To</c>
+
+00:17:03.805 --> 00:17:03.847 align:start position:0%
+ każdemu, jeśli znam odpowiedź. To
+ 
+
+00:17:03.847 --> 00:17:05.430 align:start position:0%
+ każdemu, jeśli znam odpowiedź. To
+ wszystko<00:17:04.180><c>,</c><00:17:04.263><c> co</c><00:17:04.388><c> mam</c><00:17:04.555><c> do</c><00:17:04.680><c> powiedzenia</c><00:17:05.180><c> na</c><00:17:05.305><c> ten</c>
+
+00:17:05.430 --> 00:17:05.472 align:start position:0%
+ wszystko, co mam do powiedzenia na ten
+ 
+
+00:17:05.472 --> 00:17:07.241 align:start position:0%
+ wszystko, co mam do powiedzenia na ten
+ moment<00:17:05.722><c>.</c><00:17:05.864><c> Mam</c><00:17:06.041><c> nadzieję</c><00:17:06.441><c>,</c><00:17:06.530><c> że</c><00:17:06.708><c> film</c><00:17:06.930><c> Ci</c><00:17:07.063><c> się</c>
+
+00:17:07.241 --> 00:17:07.286 align:start position:0%
+ moment. Mam nadzieję, że film Ci się
+ 
+
+00:17:07.286 --> 00:17:08.704 align:start position:0%
+ moment. Mam nadzieję, że film Ci się
+ podobał<00:17:07.641><c>.</c><00:17:07.786><c> Jeśli</c><00:17:08.065><c> chcesz</c><00:17:08.345><c> zobaczyć</c>
+
+00:17:08.704 --> 00:17:08.744 align:start position:0%
+ podobał. Jeśli chcesz zobaczyć
+ 
+
+00:17:08.744 --> 00:17:10.301 align:start position:0%
+ podobał. Jeśli chcesz zobaczyć
+ więcej<00:17:09.063><c> filmów</c><00:17:09.383><c> o</c><00:17:09.463><c> zakładaniu</c><00:17:09.942><c> własnego</c>
+
+00:17:10.301 --> 00:17:10.341 align:start position:0%
+ więcej filmów o zakładaniu własnego
+ 
+
+00:17:10.341 --> 00:17:11.420 align:start position:0%
+ więcej filmów o zakładaniu własnego
+ biznesu<00:17:10.661><c> web</c><00:17:10.821><c> design</c><00:17:11.060><c>,</c><00:17:11.140><c> możesz</c>
+
+00:17:11.420 --> 00:17:11.460 align:start position:0%
+ biznesu web design, możesz
+ 
+
+00:17:11.460 --> 00:17:12.977 align:start position:0%
+ biznesu web design, możesz
+ zasubskrybować<00:17:12.099><c> kanał</c><00:17:12.338><c>,</c><00:17:12.418><c> jeśli</c><00:17:12.698><c> chcesz</c><00:17:12.937><c>,</c>
+
+00:17:12.977 --> 00:17:13.017 align:start position:0%
+ zasubskrybować kanał, jeśli chcesz,
+ 
+
+00:17:13.017 --> 00:17:14.535 align:start position:0%
+ zasubskrybować kanał, jeśli chcesz,
+ a<00:17:13.097><c> ja</c><00:17:13.217><c> chciałbym</c><00:17:13.656><c> Ci</c><00:17:13.776><c> podziękować</c><00:17:14.335><c> i</c><00:17:14.415><c> mam</c>
+
+00:17:14.535 --> 00:17:14.575 align:start position:0%
+ a ja chciałbym Ci podziękować i mam
+ 
+
+00:17:14.575 --> 00:17:15.813 align:start position:0%
+ a ja chciałbym Ci podziękować i mam
+ nadzieję<00:17:14.934><c>,</c><00:17:15.014><c> że</c><00:17:15.174><c> zobaczymy</c><00:17:15.573><c> się</c><00:17:15.773><c> w</c>
+
+00:17:15.813 --> 00:17:15.853 align:start position:0%
+ nadzieję, że zobaczymy się w
+ 
+
+00:17:15.853 --> 00:17:17.351 align:start position:0%
+ nadzieję, że zobaczymy się w
+ kolejnym<00:17:16.212><c> filmie</c><00:17:16.452><c>.</c><00:17:16.592><c> W</c><00:17:16.718><c> porządku</c><00:17:17.287><c>.</c>
+
+00:17:17.351 --> 00:17:41.093 align:start position:0%
+ kolejnym filmie. W porządku.
+ 
+
+00:17:41.093 --> 00:17:42.493 align:start position:0%
+ 
+ Mhm<00:17:41.393><c>.</c>
+

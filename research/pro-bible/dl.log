@@ -1,0 +1,932 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=OtBeg5eyEHU
+[youtube] OtBeg5eyEHU: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] OtBeg5eyEHU: Downloading visionos player API JSON
+[youtube] OtBeg5eyEHU: Downloading m3u8 information
+[info] OtBeg5eyEHU: Downloading subtitles: en-orig, en
+[info] OtBeg5eyEHU: Downloading 1 format(s): 401+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\OtBeg5eyEHU.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\OtBeg5eyEHU.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    1.14MiB/s (00:00:00)[download]   15.00KiB at    1.28MiB/s (00:00:00)[download]   31.00KiB at  646.13KiB/s (00:00:00)[download]   63.00KiB at  537.66KiB/s (00:00:00)[download]  127.00KiB at  761.28KiB/s (00:00:00)[download]  255.00KiB at    1.18MiB/s (00:00:00)[download]  346.86KiB at    1.34MiB/s (00:00:00)[download] 100% of  346.86KiB in 00:00:00 at 652.77KiB/s
+[info] Writing video subtitles to: raw\OtBeg5eyEHU.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\OtBeg5eyEHU.en.vtt
+[download]    1.00KiB at  998.17KiB/s (00:00:00)[download]    3.00KiB at    2.92MiB/s (00:00:00)[download]    7.00KiB at    6.82MiB/s (00:00:00)[download]   15.00KiB at    2.05MiB/s (00:00:00)[download]   31.00KiB at  624.58KiB/s (00:00:00)[download]   50.17KiB at  716.93KiB/s (00:00:00)[download] 100% of   50.17KiB in 00:00:00 at 205.14KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=fYs2Mdyasuc
+[youtube] fYs2Mdyasuc: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] fYs2Mdyasuc: Downloading visionos player API JSON
+[youtube] fYs2Mdyasuc: Downloading m3u8 information
+[info] fYs2Mdyasuc: Downloading subtitles: en-orig, en
+[info] fYs2Mdyasuc: Downloading 1 format(s): 616+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\fYs2Mdyasuc.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\fYs2Mdyasuc.en-orig.vtt
+[download]    1.00KiB at  444.64KiB/s (00:00:00)[download]    3.00KiB at  846.82KiB/s (00:00:00)[download]    7.00KiB at    1.93MiB/s (00:00:00)[download]   15.00KiB at    1.37MiB/s (00:00:00)[download]   31.00KiB at  614.62KiB/s (00:00:00)[download]   63.00KiB at  734.53KiB/s (00:00:00)[download]   83.69KiB at  791.78KiB/s (00:00:00)[download] 100% of   83.69KiB in 00:00:00 at 301.89KiB/s
+[info] Writing video subtitles to: raw\fYs2Mdyasuc.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\fYs2Mdyasuc.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.46MiB/s (00:00:00)[download]    7.00KiB at    1.12MiB/s (00:00:00)[download]   15.00KiB at  849.36KiB/s (00:00:00)[download]   31.00KiB at  618.24KiB/s (00:00:00)[download]   63.00KiB at  706.12KiB/s (00:00:00)[download]   83.69KiB at  825.48KiB/s (00:00:00)[download] 100% of   83.69KiB in 00:00:00 at 312.00KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ABggYX2jOsM
+[youtube] ABggYX2jOsM: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ABggYX2jOsM: Downloading visionos player API JSON
+[youtube] ABggYX2jOsM: Downloading m3u8 information
+[info] ABggYX2jOsM: Downloading subtitles: es-orig, en
+[info] ABggYX2jOsM: Downloading 1 format(s): 401+251-1
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\ABggYX2jOsM.es-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ABggYX2jOsM.es-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.17MiB/s (00:00:00)[download]    7.00KiB at  996.34KiB/s (00:00:00)[download]   15.00KiB at    1.10MiB/s (00:00:00)[download]   31.00KiB at  604.13KiB/s (00:00:00)[download]   63.00KiB at  674.30KiB/s (00:00:00)[download]  127.00KiB at  873.63KiB/s (00:00:00)[download]  255.00KiB at    1.13MiB/s (00:00:00)[download]  429.49KiB at    1.57MiB/s (00:00:00)[download] 100% of  429.49KiB in 00:00:00 at 812.32KiB/s
+[info] Writing video subtitles to: raw\ABggYX2jOsM.en.vtt
+[download] Sleeping 2.00 seconds ...
+WARNING: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://www.youtube.com/watch?v=jpXEDEVXzoo
+[youtube] jpXEDEVXzoo: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] jpXEDEVXzoo: Downloading visionos player API JSON
+[youtube] jpXEDEVXzoo: Downloading m3u8 information
+[info] jpXEDEVXzoo: Downloading subtitles: ru-orig, en
+[info] jpXEDEVXzoo: Downloading 1 format(s): 616+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\jpXEDEVXzoo.ru-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\jpXEDEVXzoo.ru-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.94MiB/s (00:00:00)[download]    7.00KiB at    4.53MiB/s (00:00:00)[download]   15.00KiB at    1.19MiB/s (00:00:00)[download]   31.00KiB at  432.73KiB/s (00:00:00)[download]   63.00KiB at  564.24KiB/s (00:00:00)[download]  127.00KiB at  796.13KiB/s (00:00:00)[download]  255.00KiB at    1.16MiB/s (00:00:00)[download]  511.00KiB at    1.76MiB/s (00:00:00)[download] 1023.00KiB at    2.36MiB/s (00:00:00)[download]    1.03MiB at    2.39MiB/s (00:00:00)[download] 100% of    1.03MiB in 00:00:00 at 1.27MiB/s
+[info] Writing video subtitles to: raw\jpXEDEVXzoo.en.vtt
+[download] Sleeping 2.00 seconds ...
+WARNING: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://www.youtube.com/watch?v=KYT7nz9gmsc
+[youtube] KYT7nz9gmsc: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] KYT7nz9gmsc: Downloading visionos player API JSON
+[youtube] KYT7nz9gmsc: Downloading m3u8 information
+[info] KYT7nz9gmsc: Downloading subtitles: ja-orig, en
+[info] KYT7nz9gmsc: Downloading 1 format(s): 616+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\KYT7nz9gmsc.ja-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\KYT7nz9gmsc.ja-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  500.20KiB/s (00:00:00)[download]   15.00KiB at  467.63KiB/s (00:00:00)[download]   31.00KiB at  494.73KiB/s (00:00:00)[download]   63.00KiB at  643.27KiB/s (00:00:00)[download]  127.00KiB at  884.14KiB/s (00:00:00)[download]  229.93KiB at    1.29MiB/s (00:00:00)[download] 100% of  229.93KiB in 00:00:00 at 513.32KiB/s
+[info] Writing video subtitles to: raw\KYT7nz9gmsc.en.vtt
+[download] Sleeping 2.00 seconds ...
+WARNING: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://www.youtube.com/watch?v=RqCJRrseD1k
+[youtube] RqCJRrseD1k: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] RqCJRrseD1k: Downloading visionos player API JSON
+[youtube] RqCJRrseD1k: Downloading m3u8 information
+[info] RqCJRrseD1k: Downloading subtitles: fr-orig, en
+[info] RqCJRrseD1k: Downloading 1 format(s): 616+251-1
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\RqCJRrseD1k.fr-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\RqCJRrseD1k.fr-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.91MiB/s (00:00:00)[download]    7.00KiB at    1.92MiB/s (00:00:00)[download]   15.00KiB at    1.15MiB/s (00:00:00)[download]   31.00KiB at  517.45KiB/s (00:00:00)[download]   63.00KiB at  632.68KiB/s (00:00:00)[download]  127.00KiB at  897.26KiB/s (00:00:00)[download]  255.00KiB at    1.25MiB/s (00:00:00)[download]  408.29KiB at    1.56MiB/s (00:00:00)[download] 100% of  408.29KiB in 00:00:00 at 789.45KiB/s
+[info] Writing video subtitles to: raw\RqCJRrseD1k.en.vtt
+[download] Sleeping 2.00 seconds ...
+WARNING: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests
+[youtube] Extracting URL: https://www.youtube.com/watch?v=S6-q5BheEYU
+[youtube] S6-q5BheEYU: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] S6-q5BheEYU: Downloading visionos player API JSON
+[youtube] S6-q5BheEYU: Downloading m3u8 information
+[info] S6-q5BheEYU: Downloading subtitles: en-orig, en
+[info] S6-q5BheEYU: Downloading 1 format(s): 616+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\S6-q5BheEYU.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\S6-q5BheEYU.en-orig.vtt
+[download]    1.00KiB at  662.82KiB/s (00:00:00)[download]    3.00KiB at    1.94MiB/s (00:00:00)[download]    7.00KiB at  546.88KiB/s (00:00:00)[download]   15.00KiB at  591.58KiB/s (00:00:00)[download]   31.00KiB at  513.30KiB/s (00:00:00)[download]   63.00KiB at  619.73KiB/s (00:00:00)[download]  127.00KiB at  887.90KiB/s (00:00:00)[download]  146.73KiB at  838.38KiB/s (00:00:00)[download] 100% of  146.73KiB in 00:00:00 at 356.80KiB/s
+[info] Writing video subtitles to: raw\S6-q5BheEYU.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\S6-q5BheEYU.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.92MiB/s (00:00:00)[download]    7.00KiB at    2.70MiB/s (00:00:00)[download]   15.00KiB at    1.71MiB/s (00:00:00)[download]   31.00KiB at  607.75KiB/s (00:00:00)[download]   63.00KiB at  668.65KiB/s (00:00:00)[download]  127.00KiB at  987.35KiB/s (00:00:00)[download]  146.73KiB at  892.49KiB/s (00:00:00)[download] 100% of  146.73KiB in 00:00:00 at 421.29KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=uwNClNmekGU
+[youtube] uwNClNmekGU: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] uwNClNmekGU: Downloading visionos player API JSON
+[youtube] uwNClNmekGU: Downloading m3u8 information
+[info] uwNClNmekGU: Downloading subtitles: en-orig, en
+[info] uwNClNmekGU: Downloading 1 format(s): 616+251-11
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\uwNClNmekGU.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\uwNClNmekGU.en-orig.vtt
+[download]    1.00KiB at  498.85KiB/s (00:00:00)[download]    3.00KiB at  996.67KiB/s (00:00:00)[download]    7.00KiB at    1.37MiB/s (00:00:00)[download]   15.00KiB at  781.95KiB/s (00:00:00)[download]   31.00KiB at  582.55KiB/s (00:00:00)[download]   63.00KiB at  682.86KiB/s (00:00:00)[download]   89.17KiB at  865.48KiB/s (00:00:00)[download] 100% of   89.17KiB in 00:00:00 at 327.76KiB/s
+[info] Writing video subtitles to: raw\uwNClNmekGU.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\uwNClNmekGU.en.vtt
+[download]    1.00KiB at  500.16KiB/s (00:00:00)[download]    3.00KiB at  998.17KiB/s (00:00:00)[download]    7.00KiB at    1.71MiB/s (00:00:00)[download]   15.00KiB at    1.09MiB/s (00:00:00)[download]   31.00KiB at  330.73KiB/s (00:00:00)[download]   63.00KiB at  644.68KiB/s (00:00:00)[download]   89.17KiB at  615.13KiB/s (00:00:00)[download] 100% of   89.17KiB in 00:00:00 at 283.49KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=9ElrcTtAxzA
+[youtube] 9ElrcTtAxzA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 9ElrcTtAxzA: Downloading visionos player API JSON
+[youtube] 9ElrcTtAxzA: Downloading m3u8 information
+[info] 9ElrcTtAxzA: Downloading subtitles: en-orig, en
+[info] 9ElrcTtAxzA: Downloading 1 format(s): 399+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\9ElrcTtAxzA.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\9ElrcTtAxzA.en-orig.vtt
+[download]    1.00KiB at  762.46KiB/s (00:00:00)[download]    3.00KiB at    1.27MiB/s (00:00:00)[download]    7.00KiB at  978.25KiB/s (00:00:00)[download]   15.00KiB at  657.36KiB/s (00:00:00)[download]   31.00KiB at  427.57KiB/s (00:00:00)[download]   63.00KiB at  510.84KiB/s (00:00:00)[download]   88.66KiB at  638.55KiB/s (00:00:00)[download] 100% of   88.66KiB in 00:00:00 at 279.36KiB/s
+[info] Writing video subtitles to: raw\9ElrcTtAxzA.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\9ElrcTtAxzA.en.vtt
+[download]    1.00KiB at  988.52KiB/s (00:00:00)[download]    3.00KiB at    1.45MiB/s (00:00:00)[download]    7.00KiB at    2.27MiB/s (00:00:00)[download]   15.00KiB at    1.20MiB/s (00:00:00)[download]   31.00KiB at  595.86KiB/s (00:00:00)[download]   63.00KiB at  688.78KiB/s (00:00:00)[download]   88.66KiB at  856.76KiB/s (00:00:00)[download] 100% of   88.66KiB in 00:00:00 at 279.59KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=9-oefwZ6Z74
+[youtube] 9-oefwZ6Z74: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 9-oefwZ6Z74: Downloading visionos player API JSON
+[youtube] 9-oefwZ6Z74: Downloading m3u8 information
+[info] 9-oefwZ6Z74: Downloading subtitles: en-orig, en
+[info] 9-oefwZ6Z74: Downloading 1 format(s): 616+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\9-oefwZ6Z74.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\9-oefwZ6Z74.en-orig.vtt
+[download]    1.00KiB at  994.38KiB/s (00:00:00)[download]    3.00KiB at    2.91MiB/s (00:00:00)[download]    7.00KiB at  697.39KiB/s (00:00:00)[download]   15.00KiB at  755.45KiB/s (00:00:00)[download]   31.00KiB at  565.30KiB/s (00:00:00)[download]   63.00KiB at  674.53KiB/s (00:00:00)[download]  100.49KiB at  828.73KiB/s (00:00:00)[download] 100% of  100.49KiB in 00:00:00 at 307.16KiB/s
+[info] Writing video subtitles to: raw\9-oefwZ6Z74.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\9-oefwZ6Z74.en.vtt
+[download]    1.00KiB at  683.33KiB/s (00:00:00)[download]    3.00KiB at    2.00MiB/s (00:00:00)[download]    7.00KiB at  936.02KiB/s (00:00:00)[download]   15.00KiB at    1.14MiB/s (00:00:00)[download]   31.00KiB at  621.63KiB/s (00:00:00)[download]   63.00KiB at  737.36KiB/s (00:00:00)[download]  100.49KiB at  912.10KiB/s (00:00:00)[download] 100% of  100.49KiB in 00:00:00 at 384.47KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=dx3UAlX7q38
+[youtube] dx3UAlX7q38: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] dx3UAlX7q38: Downloading visionos player API JSON
+[youtube] dx3UAlX7q38: Downloading m3u8 information
+[info] dx3UAlX7q38: Downloading subtitles: ru-orig, en
+[info] dx3UAlX7q38: Downloading 1 format(s): 616+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\dx3UAlX7q38.ru-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\dx3UAlX7q38.ru-orig.vtt
+[download]    1.00KiB at  279.32KiB/s (00:00:00)[download]    3.00KiB at  539.81KiB/s (00:00:00)[download]    7.00KiB at    1.04MiB/s (00:00:00)[download]   15.00KiB at    1.17MiB/s (00:00:00)[download]   31.00KiB at  576.74KiB/s (00:00:00)[download]   63.00KiB at  681.76KiB/s (00:00:00)[download]  127.00KiB at  699.94KiB/s (00:00:00)[download]  158.10KiB at  796.63KiB/s (00:00:00)[download] 100% of  158.10KiB in 00:00:00 at 355.20KiB/s
+[info] Writing video subtitles to: raw\dx3UAlX7q38.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\dx3UAlX7q38.en.vtt
+[download]    1.00KiB at  984.58KiB/s (00:00:00)[download]    3.00KiB at  995.33KiB/s (00:00:00)[download]    7.00KiB at    1.14MiB/s (00:00:00)[download]   15.00KiB at  966.56KiB/s (00:00:00)[download]   31.00KiB at  597.66KiB/s (00:00:00)[download]   63.00KiB at  710.11KiB/s (00:00:00)[download]  127.00KiB at  996.53KiB/s (00:00:00)[download]  132.81KiB at  987.95KiB/s (00:00:00)[download] 100% of  132.81KiB in 00:00:00 at 201.27KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=x4u1yp3Msao
+[youtube] x4u1yp3Msao: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] x4u1yp3Msao: Downloading visionos player API JSON
+[youtube] x4u1yp3Msao: Downloading m3u8 information
+[info] x4u1yp3Msao: Downloading subtitles: ar-orig, bn-orig, nl-NL-orig, en-orig, fr-orig, iw-orig, hi-orig, id-orig, it-orig, ja-orig, ko-orig, ml-orig, pl-orig, pa-orig, ru-orig, es-US-orig, ta-orig, te-orig, uk-orig, en
+[info] x4u1yp3Msao: Downloading 1 format(s): 616+251-18
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\x4u1yp3Msao.ar-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.ar-orig.vtt
+[download]    1.00KiB at  500.51KiB/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at    2.28MiB/s (00:00:00)[download]   15.00KiB at    4.90MiB/s (00:00:00)[download]   31.00KiB at  582.58KiB/s (00:00:00)[download]   63.00KiB at  648.45KiB/s (00:00:00)[download]  127.00KiB at  840.11KiB/s (00:00:00)[download]  255.00KiB at    1.24MiB/s (00:00:00)[download]  303.51KiB at    1.21MiB/s (00:00:00)[download] 100% of  303.51KiB in 00:00:00 at 629.20KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.bn-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.bn-orig.vtt
+[download]    1.00KiB at  994.15KiB/s (00:00:00)[download]    3.00KiB at    1.46MiB/s (00:00:00)[download]    7.00KiB at    1.14MiB/s (00:00:00)[download]   15.00KiB at    1.13MiB/s (00:00:00)[download]   31.00KiB at  562.28KiB/s (00:00:00)[download]   63.00KiB at  633.06KiB/s (00:00:00)[download]  127.00KiB at  750.65KiB/s (00:00:00)[download]  255.00KiB at    1.05MiB/s (00:00:00)[download]  452.56KiB at    1.44MiB/s (00:00:00)[download] 100% of  452.56KiB in 00:00:00 at 790.69KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.nl-NL-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.nl-NL-orig.vtt
+[download]    1.00KiB at  997.93KiB/s (00:00:00)[download]    3.00KiB at  749.61KiB/s (00:00:00)[download]    7.00KiB at  777.96KiB/s (00:00:00)[download]   15.00KiB at  987.93KiB/s (00:00:00)[download]   31.00KiB at  567.72KiB/s (00:00:00)[download]   63.00KiB at  730.41KiB/s (00:00:00)[download]  127.00KiB at  974.76KiB/s (00:00:00)[download]  246.91KiB at    1.12MiB/s (00:00:00)[download] 100% of  246.91KiB in 00:00:00 at 625.21KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.en-orig.vtt
+[download]    1.00KiB at  495.02KiB/s (00:00:00)[download]    3.00KiB at  993.99KiB/s (00:00:00)[download]    7.00KiB at  997.80KiB/s (00:00:00)[download]   15.00KiB at    1.33MiB/s (00:00:00)[download]   31.00KiB at  632.45KiB/s (00:00:00)[download]   63.00KiB at  711.43KiB/s (00:00:00)[download]  127.00KiB at 1001.98KiB/s (00:00:00)[download]  255.00KiB at    1.14MiB/s (00:00:00)[download]  256.50KiB at    1.14MiB/s (00:00:00)[download] 100% of  256.50KiB in 00:00:00 at 555.83KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.fr-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.fr-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  996.11KiB/s (00:00:00)[download]    7.00KiB at  997.96KiB/s (00:00:00)[download]   15.00KiB at    1.01MiB/s (00:00:00)[download]   31.00KiB at  637.39KiB/s (00:00:00)[download]   63.00KiB at  722.65KiB/s (00:00:00)[download]  127.00KiB at  967.00KiB/s (00:00:00)[download]  254.58KiB at    1.38MiB/s (00:00:00)[download] 100% of  254.58KiB in 00:00:00 at 701.37KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.iw-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.iw-orig.vtt
+[download]    1.00KiB at  661.25KiB/s (00:00:00)[download]    3.00KiB at    1.03MiB/s (00:00:00)[download]    7.00KiB at  887.58KiB/s (00:00:00)[download]   15.00KiB at 1008.99KiB/s (00:00:00)[download]   31.00KiB at  542.44KiB/s (00:00:00)[download]   63.00KiB at  483.46KiB/s (00:00:00)[download]  127.00KiB at  596.51KiB/s (00:00:00)[download]  255.00KiB at  925.84KiB/s (00:00:00)[download]  281.66KiB at  993.66KiB/s (00:00:00)[download] 100% of  281.66KiB in 00:00:00 at 544.52KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.hi-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.hi-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.13MiB/s (00:00:00)[download]    7.00KiB at  469.35KiB/s (00:00:00)[download]   15.00KiB at  867.72KiB/s (00:00:00)[download]   31.00KiB at  563.10KiB/s (00:00:00)[download]   63.00KiB at  675.56KiB/s (00:00:00)[download]  127.00KiB at  896.65KiB/s (00:00:00)[download]  255.00KiB at    1.29MiB/s (00:00:00)[download]  510.05KiB at    1.79MiB/s (00:00:00)[download] 100% of  510.05KiB in 00:00:00 at 968.52KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.id-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.id-orig.vtt
+[download]    1.00KiB at  433.03KiB/s (00:00:00)[download]    3.00KiB at  243.68KiB/s (00:00:00)[download]    7.00KiB at  568.59KiB/s (00:00:00)[download]   15.00KiB at    1.10MiB/s (00:00:00)[download]   31.00KiB at  514.95KiB/s (00:00:00)[download]   63.00KiB at  551.03KiB/s (00:00:00)[download]  127.00KiB at  817.46KiB/s (00:00:00)[download]  255.00KiB at    1.14MiB/s (00:00:00)[download]  260.56KiB at    1.16MiB/s (00:00:00)[download] 100% of  260.56KiB in 00:00:00 at 623.04KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.it-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.it-orig.vtt
+[download]    1.00KiB at  331.49KiB/s (00:00:00)[download]    3.00KiB at  599.56KiB/s (00:00:00)[download]    7.00KiB at    1.14MiB/s (00:00:00)[download]   15.00KiB at 1000.12KiB/s (00:00:00)[download]   31.00KiB at  565.26KiB/s (00:00:00)[download]   63.00KiB at  535.88KiB/s (00:00:00)[download]  127.00KiB at  728.15KiB/s (00:00:00)[download]  233.10KiB at    1.10MiB/s (00:00:00)[download] 100% of  233.10KiB in 00:00:00 at 539.27KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.ja-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.ja-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.87MiB/s (00:00:00)[download]    7.00KiB at    1.70MiB/s (00:00:00)[download]   15.00KiB at    1.32MiB/s (00:00:00)[download]   31.00KiB at  618.80KiB/s (00:00:00)[download]   63.00KiB at  732.16KiB/s (00:00:00)[download]  127.00KiB at  930.65KiB/s (00:00:00)[download]  217.46KiB at    1.27MiB/s (00:00:00)[download] 100% of  217.46KiB in 00:00:00 at 607.20KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.ko-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.ko-orig.vtt
+[download]    1.00KiB at  698.24KiB/s (00:00:00)[download]    3.00KiB at    1.51MiB/s (00:00:00)[download]    7.00KiB at    3.52MiB/s (00:00:00)[download]   15.00KiB at    1.84MiB/s (00:00:00)[download]   31.00KiB at  509.89KiB/s (00:00:00)[download]   63.00KiB at  649.51KiB/s (00:00:00)[download]  127.00KiB at  888.05KiB/s (00:00:00)[download]  252.85KiB at    1.31MiB/s (00:00:00)[download] 100% of  252.85KiB in 00:00:00 at 668.71KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.ml-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.ml-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  752.39KiB/s (00:00:00)[download]    7.00KiB at  938.29KiB/s (00:00:00)[download]   15.00KiB at    1.09MiB/s (00:00:00)[download]   31.00KiB at  534.55KiB/s (00:00:00)[download]   63.00KiB at  608.05KiB/s (00:00:00)[download]  127.00KiB at  801.62KiB/s (00:00:00)[download]  255.00KiB at    1.24MiB/s (00:00:00)[download]  494.03KiB at    1.75MiB/s (00:00:00)[download] 100% of  494.03KiB in 00:00:00 at 1002.45KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.pl-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.pl-orig.vtt
+[download]    1.00KiB at  501.11KiB/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at  643.45KiB/s (00:00:00)[download]   15.00KiB at    1.14MiB/s (00:00:00)[download]   31.00KiB at  641.95KiB/s (00:00:00)[download]   63.00KiB at  733.64KiB/s (00:00:00)[download]  127.00KiB at 1004.72KiB/s (00:00:00)[download]  225.40KiB at    1.33MiB/s (00:00:00)[download] 100% of  225.40KiB in 00:00:00 at 595.02KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.pa-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.pa-orig.vtt
+[download]    1.00KiB at  990.62KiB/s (00:00:00)[download]    3.00KiB at 1000.63KiB/s (00:00:00)[download]    7.00KiB at  700.42KiB/s (00:00:00)[download]   15.00KiB at  576.64KiB/s (00:00:00)[download]   31.00KiB at  536.02KiB/s (00:00:00)[download]   63.00KiB at  662.15KiB/s (00:00:00)[download]  127.00KiB at  896.06KiB/s (00:00:00)[download]  255.00KiB at    1.35MiB/s (00:00:00)[download]  506.38KiB at    1.82MiB/s (00:00:00)[download] 100% of  506.38KiB in 00:00:00 at 961.37KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.ru-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.ru-orig.vtt
+[download]    1.00KiB at  989.22KiB/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at  777.50KiB/s (00:00:00)[download]   15.00KiB at    1.22MiB/s (00:00:00)[download]   31.00KiB at  526.40KiB/s (00:00:00)[download]   63.00KiB at  729.08KiB/s (00:00:00)[download]  127.00KiB at  957.69KiB/s (00:00:00)[download]  255.00KiB at    1.38MiB/s (00:00:00)[download]  337.62KiB at    1.41MiB/s (00:00:00)[download] 100% of  337.62KiB in 00:00:00 at 784.44KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.es-US-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.es-US-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at 1000.39KiB/s (00:00:00)[download]    7.00KiB at    2.28MiB/s (00:00:00)[download]   15.00KiB at    1.63MiB/s (00:00:00)[download]   31.00KiB at  288.18KiB/s (00:00:00)[download]   63.00KiB at  569.43KiB/s (00:00:00)[download]  127.00KiB at  412.50KiB/s (00:00:00)[download]  247.05KiB at  572.20KiB/s (00:00:00)[download] 100% of  247.05KiB in 00:00:00 at 348.72KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.ta-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.ta-orig.vtt
+[download]    1.00KiB at  502.31KiB/s (00:00:00)[download]    3.00KiB at  751.44KiB/s (00:00:00)[download]    7.00KiB at    1.37MiB/s (00:00:00)[download]   15.00KiB at    2.09MiB/s (00:00:00)[download]   31.00KiB at  566.54KiB/s (00:00:00)[download]   63.00KiB at  450.76KiB/s (00:00:00)[download]  127.00KiB at  589.37KiB/s (00:00:00)[download]  255.00KiB at  946.92KiB/s (00:00:00)[download]  495.85KiB at    1.39MiB/s (00:00:00)[download] 100% of  495.85KiB in 00:00:00 at 892.44KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.te-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.te-orig.vtt
+[download]    1.00KiB at  388.97KiB/s (00:00:00)[download]    3.00KiB at  834.24KiB/s (00:00:00)[download]    7.00KiB at  815.31KiB/s (00:00:00)[download]   15.00KiB at    1.26MiB/s (00:00:00)[download]   31.00KiB at  569.10KiB/s (00:00:00)[download]   63.00KiB at  689.24KiB/s (00:00:00)[download]  127.00KiB at  923.97KiB/s (00:00:00)[download]  255.00KiB at    1.19MiB/s (00:00:00)[download]  463.40KiB at    1.53MiB/s (00:00:00)[download] 100% of  463.40KiB in 00:00:00 at 907.01KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.uk-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.uk-orig.vtt
+[download]    1.00KiB at  333.46KiB/s (00:00:00)[download]    3.00KiB at  750.55KiB/s (00:00:00)[download]    7.00KiB at    1.14MiB/s (00:00:00)[download]   15.00KiB at    1.05MiB/s (00:00:00)[download]   31.00KiB at  614.25KiB/s (00:00:00)[download]   63.00KiB at  729.64KiB/s (00:00:00)[download]  127.00KiB at  993.04KiB/s (00:00:00)[download]  255.00KiB at    1.49MiB/s (00:00:00)[download]  321.67KiB at    1.48MiB/s (00:00:00)[download] 100% of  321.67KiB in 00:00:00 at 713.39KiB/s
+[info] Writing video subtitles to: raw\x4u1yp3Msao.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\x4u1yp3Msao.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at 1021.01KiB/s (00:00:00)[download]   15.00KiB at    1.07MiB/s (00:00:00)[download]   31.00KiB at  599.17KiB/s (00:00:00)[download]   63.00KiB at  750.95KiB/s (00:00:00)[download]  127.00KiB at    1.01MiB/s (00:00:00)[download]  255.00KiB at    1.50MiB/s (00:00:00)[download]  260.86KiB at    1.53MiB/s (00:00:00)[download] 100% of  260.86KiB in 00:00:00 at 334.15KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=qm0IfG1GyZU
+[youtube] qm0IfG1GyZU: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] qm0IfG1GyZU: Downloading visionos player API JSON
+[youtube] qm0IfG1GyZU: Downloading m3u8 information
+[info] qm0IfG1GyZU: Downloading subtitles: en
+[info] qm0IfG1GyZU: Downloading 1 format(s): 399+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\qm0IfG1GyZU.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\qm0IfG1GyZU.en.vtt
+[download]    1.00KiB at  503.46KiB/s (00:00:00)[download]    3.00KiB at  987.28KiB/s (00:00:00)[download]    7.00KiB at  583.64KiB/s (00:00:00)[download]   15.00KiB at  923.42KiB/s (00:00:00)[download]   31.00KiB at  604.65KiB/s (00:00:00)[download]   32.70KiB at  614.12KiB/s (00:00:00)[download] 100% of   32.70KiB in 00:00:00 at 96.02KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Xt1Cw4qM3Ec
+[youtube] Xt1Cw4qM3Ec: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Xt1Cw4qM3Ec: Downloading visionos player API JSON
+[youtube] Xt1Cw4qM3Ec: Downloading m3u8 information
+[info] Xt1Cw4qM3Ec: Downloading subtitles: en-orig, en
+[info] Xt1Cw4qM3Ec: Downloading 1 format(s): 137+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\Xt1Cw4qM3Ec.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\Xt1Cw4qM3Ec.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  599.99KiB/s (00:00:00)[download]    7.00KiB at  875.09KiB/s (00:00:00)[download]   15.00KiB at    1.03MiB/s (00:00:00)[download]   31.00KiB at  505.69KiB/s (00:00:00)[download]   63.00KiB at  714.61KiB/s (00:00:00)[download]  127.00KiB at  978.97KiB/s (00:00:00)[download]  255.00KiB at    1.35MiB/s (00:00:00)[download]  445.58KiB at    1.58MiB/s (00:00:00)[download] 100% of  445.58KiB in 00:00:00 at 857.80KiB/s
+[info] Writing video subtitles to: raw\Xt1Cw4qM3Ec.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\Xt1Cw4qM3Ec.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.89MiB/s (00:00:00)[download]    7.00KiB at  867.74KiB/s (00:00:00)[download]   15.00KiB at  936.69KiB/s (00:00:00)[download]   31.00KiB at  561.33KiB/s (00:00:00)[download]   63.00KiB at  698.10KiB/s (00:00:00)[download]  127.00KiB at  973.09KiB/s (00:00:00)[download]  255.00KiB at    1.18MiB/s (00:00:00)[download]  445.58KiB at    1.58MiB/s (00:00:00)[download] 100% of  445.58KiB in 00:00:00 at 896.94KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=hrxjBqZWsb0
+[youtube] hrxjBqZWsb0: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] hrxjBqZWsb0: Downloading visionos player API JSON
+[youtube] hrxjBqZWsb0: Downloading m3u8 information
+[info] hrxjBqZWsb0: Downloading subtitles: es-orig, en
+[info] hrxjBqZWsb0: Downloading 1 format(s): 399+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\hrxjBqZWsb0.es-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hrxjBqZWsb0.es-orig.vtt
+[download]    1.00KiB at  333.36KiB/s (00:00:00)[download]    3.00KiB at  750.10KiB/s (00:00:00)[download]    7.00KiB at    1.14MiB/s (00:00:00)[download]   15.00KiB at  799.50KiB/s (00:00:00)[download]   31.00KiB at  622.92KiB/s (00:00:00)[download]   63.00KiB at  741.94KiB/s (00:00:00)[download]  127.00KiB at  962.56KiB/s (00:00:00)[download]  255.00KiB at    1.37MiB/s (00:00:00)[download]  511.00KiB at    1.99MiB/s (00:00:00)[download]  950.64KiB at    1.71MiB/s (00:00:00)[download] 100% of  950.64KiB in 00:00:00 at 990.65KiB/s
+[info] Writing video subtitles to: raw\hrxjBqZWsb0.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hrxjBqZWsb0.en.vtt
+[download]    1.00KiB at  999.60KiB/s (00:00:01)[download]    3.00KiB at    2.93MiB/s (00:00:01)[download]    7.00KiB at  999.63KiB/s (00:00:01)[download]   15.00KiB at  813.92KiB/s (00:00:01)[download]   31.00KiB at  608.93KiB/s (00:00:01)[download]   63.00KiB at  731.87KiB/s (00:00:01)[download]  127.00KiB at  998.33KiB/s (00:00:01)[download]  255.00KiB at    1.43MiB/s (00:00:01)[download]  511.00KiB at    2.04MiB/s (00:00:01)[download]  909.19KiB at    2.54MiB/s (00:00:01)[download] 100% of  909.19KiB in 00:00:01 at 641.28KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=SpCUuyZZTp8
+[youtube] SpCUuyZZTp8: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] SpCUuyZZTp8: Downloading visionos player API JSON
+[youtube] SpCUuyZZTp8: Downloading m3u8 information
+[info] SpCUuyZZTp8: Downloading subtitles: ru-orig, en
+[info] SpCUuyZZTp8: Downloading 1 format(s): 616+251-1
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\SpCUuyZZTp8.ru-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\SpCUuyZZTp8.ru-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    1.01MiB/s (00:00:00)[download]   15.00KiB at  950.84KiB/s (00:00:00)[download]   31.00KiB at  638.19KiB/s (00:00:00)[download]   63.00KiB at  668.25KiB/s (00:00:00)[download]  127.00KiB at  919.97KiB/s (00:00:00)[download]  255.00KiB at    1.37MiB/s (00:00:00)[download]  511.00KiB at    2.05MiB/s (00:00:00)[download]  875.14KiB at    2.43MiB/s (00:00:00)[download] 100% of  875.14KiB in 00:00:00 at 1.22MiB/s
+[info] Writing video subtitles to: raw\SpCUuyZZTp8.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\SpCUuyZZTp8.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:02)[download]    3.00KiB at    1.47MiB/s (00:00:02)[download]    7.00KiB at    1.14MiB/s (00:00:02)[download]   15.00KiB at  868.76KiB/s (00:00:02)[download]   31.00KiB at  380.15KiB/s (00:00:02)[download]   63.00KiB at  497.19KiB/s (00:00:02)[download]  127.00KiB at  764.18KiB/s (00:00:02)[download]  255.00KiB at    1.08MiB/s (00:00:02)[download]  511.00KiB at    1.58MiB/s (00:00:02)[download]  759.27KiB at    1.88MiB/s (00:00:02)[download] 100% of  759.27KiB in 00:00:02 at 274.50KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=e2nkq3h1P68
+[youtube] e2nkq3h1P68: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] e2nkq3h1P68: Downloading visionos player API JSON
+[youtube] e2nkq3h1P68: Downloading m3u8 information
+[info] e2nkq3h1P68: Downloading subtitles: ar-orig, bn-orig, nl-NL-orig, en-orig, fr-FR-orig, de-DE-orig, iw-orig, hi-orig, id-orig, it-orig, ja-orig, ko-orig, ml-orig, pl-orig, pt-BR-orig, ru-orig, es-US-orig, ta-orig, te-orig, uk-orig, en
+[info] e2nkq3h1P68: Downloading 1 format(s): 399+251-19
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\e2nkq3h1P68.ar-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.ar-orig.vtt
+[download]    1.00KiB at  489.42KiB/s (00:00:00)[download]    3.00KiB at 1002.46KiB/s (00:00:00)[download]    7.00KiB at    1.71MiB/s (00:00:00)[download]   15.00KiB at 1000.61KiB/s (00:00:00)[download]   31.00KiB at  628.15KiB/s (00:00:00)[download]   63.00KiB at  755.30KiB/s (00:00:00)[download]  127.00KiB at  984.72KiB/s (00:00:00)[download]  255.00KiB at    1.37MiB/s (00:00:00)[download]  511.00KiB at    2.06MiB/s (00:00:00)[download]  793.06KiB at    2.46MiB/s (00:00:00)[download] 100% of  793.06KiB in 00:00:00 at 1.08MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.bn-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.bn-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    1.36MiB/s (00:00:00)[download]   15.00KiB at  880.95KiB/s (00:00:00)[download]   31.00KiB at  628.30KiB/s (00:00:00)[download]   63.00KiB at  743.22KiB/s (00:00:00)[download]  127.00KiB at  998.27KiB/s (00:00:00)[download]  255.00KiB at    1.42MiB/s (00:00:00)[download]  511.00KiB at    1.90MiB/s (00:00:00)[download] 1023.00KiB at    2.58MiB/s (00:00:00)[download]    1.25MiB at    2.64MiB/s (00:00:00)[download] 100% of    1.25MiB in 00:00:00 at 1.44MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.nl-NL-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.nl-NL-orig.vtt
+[download]    1.00KiB at  496.31KiB/s (00:00:00)[download]    3.00KiB at  999.36KiB/s (00:00:00)[download]    7.00KiB at    1.71MiB/s (00:00:00)[download]   15.00KiB at    2.92MiB/s (00:00:00)[download]   31.00KiB at  557.79KiB/s (00:00:00)[download]   63.00KiB at  476.47KiB/s (00:00:00)[download]  127.00KiB at  830.63KiB/s (00:00:00)[download]  255.00KiB at    1.14MiB/s (00:00:00)[download]  511.00KiB at    1.67MiB/s (00:00:00)[download]  663.87KiB at    1.84MiB/s (00:00:00)[download] 100% of  663.87KiB in 00:00:00 at 1.05MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.en-orig.vtt
+[download]    1.00KiB at  986.66KiB/s (00:00:00)[download]    3.00KiB at    1.45MiB/s (00:00:00)[download]    7.00KiB at    1.71MiB/s (00:00:00)[download]   15.00KiB at 1000.20KiB/s (00:00:00)[download]   31.00KiB at  562.85KiB/s (00:00:00)[download]   63.00KiB at  537.00KiB/s (00:00:00)[download]  127.00KiB at  696.14KiB/s (00:00:00)[download]  255.00KiB at    1.10MiB/s (00:00:00)[download]  511.00KiB at    1.62MiB/s (00:00:00)[download]  611.62KiB at    1.79MiB/s (00:00:00)[download] 100% of  611.62KiB in 00:00:00 at 1.01MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.fr-FR-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.fr-FR-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.90MiB/s (00:00:00)[download]    7.00KiB at  801.82KiB/s (00:00:00)[download]   15.00KiB at    1.15MiB/s (00:00:00)[download]   31.00KiB at  565.92KiB/s (00:00:00)[download]   63.00KiB at  591.95KiB/s (00:00:00)[download]  127.00KiB at  769.39KiB/s (00:00:00)[download]  255.00KiB at    1.08MiB/s (00:00:00)[download]  511.00KiB at    1.44MiB/s (00:00:00)[download]  710.69KiB at    1.73MiB/s (00:00:00)[download] 100% of  710.69KiB in 00:00:00 at 1.05MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.de-DE-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.de-DE-orig.vtt
+[download]    1.00KiB at  321.30KiB/s (00:00:00)[download]    3.00KiB at  747.03KiB/s (00:00:00)[download]    7.00KiB at  538.12KiB/s (00:00:00)[download]   15.00KiB at  999.23KiB/s (00:00:00)[download]   31.00KiB at  373.13KiB/s (00:00:00)[download]   63.00KiB at  683.99KiB/s (00:00:00)[download]  127.00KiB at  843.50KiB/s (00:00:00)[download]  255.00KiB at    1.17MiB/s (00:00:00)[download]  511.00KiB at    1.82MiB/s (00:00:00)[download]  682.00KiB at    1.97MiB/s (00:00:00)[download] 100% of  682.00KiB in 00:00:00 at 1.06MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.iw-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.iw-orig.vtt
+[download]    1.00KiB at  996.75KiB/s (00:00:00)[download]    3.00KiB at    1.46MiB/s (00:00:00)[download]    7.00KiB at 1000.31KiB/s (00:00:00)[download]   15.00KiB at  830.41KiB/s (00:00:00)[download]   31.00KiB at  545.88KiB/s (00:00:00)[download]   63.00KiB at  594.91KiB/s (00:00:00)[download]  127.00KiB at  777.92KiB/s (00:00:00)[download]  255.00KiB at    1.14MiB/s (00:00:00)[download]  511.00KiB at    1.68MiB/s (00:00:00)[download]  728.49KiB at    1.97MiB/s (00:00:00)[download] 100% of  728.49KiB in 00:00:00 at 1.09MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.hi-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.hi-orig.vtt
+[download]    1.00KiB at  660.42KiB/s (00:00:00)[download]    3.00KiB at    1.16MiB/s (00:00:00)[download]    7.00KiB at    1.24MiB/s (00:00:00)[download]   15.00KiB at    1.01MiB/s (00:00:00)[download]   31.00KiB at  625.98KiB/s (00:00:00)[download]   63.00KiB at  767.01KiB/s (00:00:00)[download]  127.00KiB at 1004.10KiB/s (00:00:00)[download]  255.00KiB at    1.34MiB/s (00:00:00)[download]  511.00KiB at    1.76MiB/s (00:00:00)[download] 1023.00KiB at    2.46MiB/s (00:00:00)[download]    1.25MiB at    2.72MiB/s (00:00:00)[download] 100% of    1.25MiB in 00:00:00 at 1.51MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.id-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.id-orig.vtt
+[download]    1.00KiB at  663.13KiB/s (00:00:00)[download]    3.00KiB at    1.16MiB/s (00:00:00)[download]    7.00KiB at  929.88KiB/s (00:00:00)[download]   15.00KiB at    1.01MiB/s (00:00:00)[download]   31.00KiB at  591.09KiB/s (00:00:00)[download]   63.00KiB at  700.29KiB/s (00:00:00)[download]  127.00KiB at  959.27KiB/s (00:00:00)[download]  255.00KiB at    1.39MiB/s (00:00:00)[download]  511.00KiB at    1.79MiB/s (00:00:00)[download]  644.14KiB at    1.90MiB/s (00:00:00)[download] 100% of  644.14KiB in 00:00:00 at 1.07MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.it-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.it-orig.vtt
+[download]    1.00KiB at  501.83KiB/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at  874.00KiB/s (00:00:00)[download]   15.00KiB at  998.36KiB/s (00:00:00)[download]   31.00KiB at  560.62KiB/s (00:00:00)[download]   63.00KiB at  647.00KiB/s (00:00:00)[download]  127.00KiB at  829.07KiB/s (00:00:00)[download]  255.00KiB at    1.07MiB/s (00:00:00)[download]  511.00KiB at    1.47MiB/s (00:00:00)[download]  651.54KiB at    1.68MiB/s (00:00:00)[download] 100% of  651.54KiB in 00:00:00 at 1.07MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.ja-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.ja-orig.vtt
+[download]    1.00KiB at  500.75KiB/s (00:00:00)[download]    3.00KiB at 1000.63KiB/s (00:00:00)[download]    7.00KiB at  631.48KiB/s (00:00:00)[download]   15.00KiB at  932.54KiB/s (00:00:00)[download]   31.00KiB at  632.36KiB/s (00:00:00)[download]   63.00KiB at  524.22KiB/s (00:00:00)[download]  127.00KiB at  720.44KiB/s (00:00:00)[download]  255.00KiB at    1.04MiB/s (00:00:00)[download]  511.00KiB at    1.50MiB/s (00:00:00)[download]  621.28KiB at    1.68MiB/s (00:00:00)[download] 100% of  621.28KiB in 00:00:00 at 968.25KiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.ko-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.ko-orig.vtt
+[download]    1.00KiB at  996.04KiB/s (00:00:00)[download]    3.00KiB at    2.92MiB/s (00:00:00)[download]    7.00KiB at    2.27MiB/s (00:00:00)[download]   15.00KiB at    1.16MiB/s (00:00:00)[download]   31.00KiB at  611.02KiB/s (00:00:00)[download]   63.00KiB at  603.36KiB/s (00:00:00)[download]  127.00KiB at  817.83KiB/s (00:00:00)[download]  255.00KiB at    1.27MiB/s (00:00:00)[download]  511.00KiB at    1.85MiB/s (00:00:00)[download]  694.13KiB at    1.97MiB/s (00:00:00)[download] 100% of  694.13KiB in 00:00:00 at 1.11MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.ml-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.ml-orig.vtt
+[download]    1.00KiB at  873.81KiB/s (00:00:00)[download]    3.00KiB at  946.37KiB/s (00:00:00)[download]    7.00KiB at    1.11MiB/s (00:00:00)[download]   15.00KiB at 1020.81KiB/s (00:00:00)[download]   31.00KiB at  601.81KiB/s (00:00:00)[download]   63.00KiB at  694.57KiB/s (00:00:00)[download]  127.00KiB at    1.01MiB/s (00:00:00)[download]  255.00KiB at    1.45MiB/s (00:00:00)[download]  511.00KiB at    2.09MiB/s (00:00:00)[download] 1023.00KiB at    2.70MiB/s (00:00:00)[download]    1.31MiB at    2.81MiB/s (00:00:00)[download] 100% of    1.31MiB in 00:00:00 at 1.42MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.pl-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.pl-orig.vtt
+[download]    1.00KiB at  968.89KiB/s (00:00:00)[download]    3.00KiB at    2.84MiB/s (00:00:00)[download]    7.00KiB at    6.62MiB/s (00:00:00)[download]   15.00KiB at    2.07MiB/s (00:00:00)[download]   31.00KiB at  582.57KiB/s (00:00:00)[download]   63.00KiB at  644.32KiB/s (00:00:00)[download]  127.00KiB at  873.46KiB/s (00:00:00)[download]  255.00KiB at    1.24MiB/s (00:00:00)[download]  511.00KiB at    1.73MiB/s (00:00:00)[download]  628.73KiB at    1.90MiB/s (00:00:00)[download] 100% of  628.73KiB in 00:00:00 at 1.08MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.pt-BR-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.pt-BR-orig.vtt
+[download]    1.00KiB at  498.73KiB/s (00:00:01)[download]    3.00KiB at  995.17KiB/s (00:00:01)[download]    7.00KiB at    1.14MiB/s (00:00:01)[download]   15.00KiB at  999.04KiB/s (00:00:01)[download]   31.00KiB at  612.43KiB/s (00:00:01)[download]   63.00KiB at  731.31KiB/s (00:00:01)[download]  127.00KiB at 1014.38KiB/s (00:00:01)[download]  255.00KiB at    1.49MiB/s (00:00:01)[download]  511.00KiB at    1.99MiB/s (00:00:01)[download]  659.77KiB at    2.08MiB/s (00:00:01)[download] 100% of  659.77KiB in 00:00:01 at 412.33KiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.ru-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.ru-orig.vtt
+[download]    1.00KiB at  635.50KiB/s (00:00:00)[download]    3.00KiB at    1.13MiB/s (00:00:00)[download]    7.00KiB at  882.53KiB/s (00:00:00)[download]   15.00KiB at  680.98KiB/s (00:00:00)[download]   31.00KiB at  526.07KiB/s (00:00:00)[download]   63.00KiB at  638.46KiB/s (00:00:00)[download]  127.00KiB at  898.06KiB/s (00:00:00)[download]  255.00KiB at    1.36MiB/s (00:00:00)[download]  511.00KiB at    2.04MiB/s (00:00:00)[download]  920.65KiB at    2.65MiB/s (00:00:00)[download] 100% of  920.65KiB in 00:00:00 at 1.49MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.es-US-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.es-US-orig.vtt
+[download]    1.00KiB at  600.30KiB/s (00:00:00)[download]    3.00KiB at    1.76MiB/s (00:00:00)[download]    7.00KiB at    1.86MiB/s (00:00:00)[download]   15.00KiB at    1.31MiB/s (00:00:00)[download]   31.00KiB at  642.24KiB/s (00:00:00)[download]   63.00KiB at  732.27KiB/s (00:00:00)[download]  127.00KiB at  982.49KiB/s (00:00:00)[download]  255.00KiB at    1.43MiB/s (00:00:00)[download]  511.00KiB at    2.19MiB/s (00:00:00)[download]  678.02KiB at    2.53MiB/s (00:00:00)[download] 100% of  678.02KiB in 00:00:00 at 1.24MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.ta-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.ta-orig.vtt
+[download]    1.00KiB at  499.44KiB/s (00:00:00)[download]    3.00KiB at  998.56KiB/s (00:00:00)[download]    7.00KiB at    1.66MiB/s (00:00:00)[download]   15.00KiB at    1.47MiB/s (00:00:00)[download]   31.00KiB at  591.84KiB/s (00:00:00)[download]   63.00KiB at  713.86KiB/s (00:00:00)[download]  127.00KiB at  857.30KiB/s (00:00:00)[download]  255.00KiB at    1.07MiB/s (00:00:00)[download]  511.00KiB at    1.56MiB/s (00:00:00)[download] 1023.00KiB at    2.28MiB/s (00:00:00)[download]    1.35MiB at    2.45MiB/s (00:00:00)[download] 100% of    1.35MiB in 00:00:00 at 1.44MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.te-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.te-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  777.83KiB/s (00:00:00)[download]   15.00KiB at  921.84KiB/s (00:00:00)[download]   31.00KiB at  602.08KiB/s (00:00:00)[download]   63.00KiB at  738.80KiB/s (00:00:00)[download]  127.00KiB at 1008.11KiB/s (00:00:00)[download]  255.00KiB at    1.48MiB/s (00:00:00)[download]  511.00KiB at    2.07MiB/s (00:00:00)[download] 1023.00KiB at    2.63MiB/s (00:00:00)[download]    1.24MiB at    2.81MiB/s (00:00:00)[download] 100% of    1.24MiB in 00:00:00 at 1.65MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.uk-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.uk-orig.vtt
+[download]    1.00KiB at  990.39KiB/s (00:00:00)[download]    3.00KiB at    1.46MiB/s (00:00:00)[download]    7.00KiB at  788.30KiB/s (00:00:00)[download]   15.00KiB at    1.09MiB/s (00:00:00)[download]   31.00KiB at  613.24KiB/s (00:00:00)[download]   63.00KiB at  701.83KiB/s (00:00:00)[download]  127.00KiB at  970.02KiB/s (00:00:00)[download]  255.00KiB at    1.41MiB/s (00:00:00)[download]  511.00KiB at    2.04MiB/s (00:00:00)[download]  947.16KiB at    2.22MiB/s (00:00:00)[download] 100% of  947.16KiB in 00:00:00 at 1.31MiB/s
+[info] Writing video subtitles to: raw\e2nkq3h1P68.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\e2nkq3h1P68.en.vtt
+[download]    1.00KiB at  660.73KiB/s (00:00:01)[download]    3.00KiB at    1.15MiB/s (00:00:01)[download]    7.00KiB at    1.93MiB/s (00:00:01)[download]   15.00KiB at    3.23MiB/s (00:00:01)[download]   31.00KiB at  643.24KiB/s (00:00:01)[download]   63.00KiB at  664.78KiB/s (00:00:01)[download]  127.00KiB at  729.51KiB/s (00:00:01)[download]  255.00KiB at  599.54KiB/s (00:00:01)[download]  511.00KiB at  939.85KiB/s (00:00:01)[download]  765.20KiB at    1.21MiB/s (00:00:01)[download] 100% of  765.20KiB in 00:00:01 at 417.31KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=2oiBKSjOOFE
+[youtube] 2oiBKSjOOFE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 2oiBKSjOOFE: Downloading visionos player API JSON
+[youtube] 2oiBKSjOOFE: Downloading m3u8 information
+[info] 2oiBKSjOOFE: Downloading subtitles: en-orig, en
+[info] 2oiBKSjOOFE: Downloading 1 format(s): 616+251-19
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\2oiBKSjOOFE.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\2oiBKSjOOFE.en-orig.vtt
+[download]    1.00KiB at  960.01KiB/s (00:00:00)[download]    3.00KiB at    1.30MiB/s (00:00:00)[download]    7.00KiB at    1.02MiB/s (00:00:00)[download]   15.00KiB at  998.30KiB/s (00:00:00)[download]   31.00KiB at  576.44KiB/s (00:00:00)[download]   63.00KiB at  651.29KiB/s (00:00:00)[download]  127.00KiB at  948.07KiB/s (00:00:00)[download]  255.00KiB at    1.21MiB/s (00:00:00)[download]  475.84KiB at    1.58MiB/s (00:00:00)[download] 100% of  475.84KiB in 00:00:00 at 885.56KiB/s
+[info] Writing video subtitles to: raw\2oiBKSjOOFE.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\2oiBKSjOOFE.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:01)[download]    3.00KiB at    1.95MiB/s (00:00:01)[download]    7.00KiB at  665.14KiB/s (00:00:01)[download]   15.00KiB at  786.51KiB/s (00:00:01)[download]   31.00KiB at  447.25KiB/s (00:00:01)[download]   63.00KiB at  560.09KiB/s (00:00:01)[download]  127.00KiB at  825.13KiB/s (00:00:01)[download]  255.00KiB at    1.19MiB/s (00:00:01)[download]  475.84KiB at    1.77MiB/s (00:00:01)[download] 100% of  475.84KiB in 00:00:01 at 351.57KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=m67d6q_oYHo
+[youtube] m67d6q_oYHo: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] m67d6q_oYHo: Downloading visionos player API JSON
+[youtube] m67d6q_oYHo: Downloading m3u8 information
+[info] m67d6q_oYHo: Downloading subtitles: en-US-orig, pt-BR-orig, es-orig, en
+[info] m67d6q_oYHo: Downloading 1 format(s): 401+251-2
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\m67d6q_oYHo.en-US-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\m67d6q_oYHo.en-US-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    1.36MiB/s (00:00:00)[download]   15.00KiB at  635.54KiB/s (00:00:00)[download]   31.00KiB at  600.60KiB/s (00:00:00)[download]   63.00KiB at  703.78KiB/s (00:00:00)[download]  127.00KiB at  877.39KiB/s (00:00:00)[download]  182.94KiB at  943.87KiB/s (00:00:00)[download] 100% of  182.94KiB in 00:00:00 at 381.35KiB/s
+[info] Writing video subtitles to: raw\m67d6q_oYHo.pt-BR-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\m67d6q_oYHo.pt-BR-orig.vtt
+[download]    1.00KiB at  911.81KiB/s (00:00:00)[download]    3.00KiB at    2.67MiB/s (00:00:00)[download]    7.00KiB at  973.09KiB/s (00:00:00)[download]   15.00KiB at  823.11KiB/s (00:00:00)[download]   31.00KiB at  586.68KiB/s (00:00:00)[download]   63.00KiB at  676.69KiB/s (00:00:00)[download]  127.00KiB at  600.64KiB/s (00:00:00)[download]  190.39KiB at  859.84KiB/s (00:00:00)[download] 100% of  190.39KiB in 00:00:00 at 460.31KiB/s
+[info] Writing video subtitles to: raw\m67d6q_oYHo.es-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\m67d6q_oYHo.es-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at    2.24MiB/s (00:00:00)[download]   15.00KiB at    2.44MiB/s (00:00:00)[download]   31.00KiB at  588.48KiB/s (00:00:00)[download]   63.00KiB at  671.15KiB/s (00:00:00)[download]  127.00KiB at  876.71KiB/s (00:00:00)[download]  177.48KiB at    1.06MiB/s (00:00:00)[download] 100% of  177.48KiB in 00:00:00 at 449.62KiB/s
+[info] Writing video subtitles to: raw\m67d6q_oYHo.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\m67d6q_oYHo.en.vtt
+[download]    1.00KiB at  500.63KiB/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at    2.28MiB/s (00:00:00)[download]   15.00KiB at    4.88MiB/s (00:00:00)[download]   31.00KiB at  474.39KiB/s (00:00:00)[download]   63.00KiB at  670.74KiB/s (00:00:00)[download]  127.00KiB at  836.22KiB/s (00:00:00)[download]  167.24KiB at  975.76KiB/s (00:00:00)[download] 100% of  167.24KiB in 00:00:00 at 251.68KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ob_M_qXeDVE
+[youtube] ob_M_qXeDVE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ob_M_qXeDVE: Downloading visionos player API JSON
+[youtube] ob_M_qXeDVE: Downloading m3u8 information
+[info] ob_M_qXeDVE: Downloading subtitles: en-orig, fr-FR-orig, hi-orig, id-orig, it-orig, en
+[info] ob_M_qXeDVE: Downloading 1 format(s): 299+251-4
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\ob_M_qXeDVE.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ob_M_qXeDVE.en-orig.vtt
+[download]    1.00KiB at  330.62KiB/s (00:00:00)[download]    3.00KiB at  744.51KiB/s (00:00:00)[download]    7.00KiB at  871.22KiB/s (00:00:00)[download]   15.00KiB at  936.09KiB/s (00:00:00)[download]   31.00KiB at  600.52KiB/s (00:00:00)[download]   63.00KiB at  697.23KiB/s (00:00:00)[download]  127.00KiB at  781.72KiB/s (00:00:00)[download]  255.00KiB at    1.15MiB/s (00:00:00)[download]  509.94KiB at    1.51MiB/s (00:00:00)[download] 100% of  509.94KiB in 00:00:00 at 847.92KiB/s
+[info] Writing video subtitles to: raw\ob_M_qXeDVE.fr-FR-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ob_M_qXeDVE.fr-FR-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at    4.88MiB/s (00:00:00)[download]   31.00KiB at  189.51KiB/s (00:00:00)[download]   63.00KiB at  382.79KiB/s (00:00:00)[download]  127.00KiB at  473.68KiB/s (00:00:00)[download]  255.00KiB at  571.20KiB/s (00:00:00)[download]  511.00KiB at  553.33KiB/s (00:00:01)[download]  603.14KiB at  589.69KiB/s (00:00:01)[download] 100% of  603.14KiB in 00:00:01 at 409.68KiB/s
+[info] Writing video subtitles to: raw\ob_M_qXeDVE.hi-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ob_M_qXeDVE.hi-orig.vtt
+[download]    1.00KiB at  996.75KiB/s (00:00:00)[download]    3.00KiB at  999.99KiB/s (00:00:00)[download]    7.00KiB at    1.14MiB/s (00:00:00)[download]   15.00KiB at  999.33KiB/s (00:00:00)[download]   31.00KiB at  609.46KiB/s (00:00:00)[download]   63.00KiB at  726.16KiB/s (00:00:00)[download]  127.00KiB at  786.04KiB/s (00:00:00)[download]  255.00KiB at    1.08MiB/s (00:00:00)[download]  511.00KiB at    1.65MiB/s (00:00:00)[download] 1023.00KiB at    2.16MiB/s (00:00:00)[download]    1.07MiB at    2.26MiB/s (00:00:00)[download] 100% of    1.07MiB in 00:00:00 at 1.38MiB/s
+[info] Writing video subtitles to: raw\ob_M_qXeDVE.id-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ob_M_qXeDVE.id-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  860.24KiB/s (00:00:00)[download]   15.00KiB at  932.68KiB/s (00:00:00)[download]   31.00KiB at  532.32KiB/s (00:00:00)[download]   63.00KiB at  607.90KiB/s (00:00:00)[download]  127.00KiB at  776.33KiB/s (00:00:00)[download]  255.00KiB at    1.10MiB/s (00:00:00)[download]  511.00KiB at    1.61MiB/s (00:00:00)[download]  521.61KiB at    1.63MiB/s (00:00:00)[download] 100% of  521.61KiB in 00:00:00 at 975.54KiB/s
+[info] Writing video subtitles to: raw\ob_M_qXeDVE.it-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ob_M_qXeDVE.it-orig.vtt
+[download]    1.00KiB at  996.75KiB/s (00:00:00)[download]    3.00KiB at    1.46MiB/s (00:00:00)[download]    7.00KiB at 1000.35KiB/s (00:00:00)[download]   15.00KiB at    1.05MiB/s (00:00:00)[download]   31.00KiB at  590.83KiB/s (00:00:00)[download]   63.00KiB at  717.25KiB/s (00:00:00)[download]  127.00KiB at  927.64KiB/s (00:00:00)[download]  255.00KiB at    1.33MiB/s (00:00:00)[download]  511.00KiB at    2.04MiB/s (00:00:00)[download]  532.97KiB at    2.09MiB/s (00:00:00)[download] 100% of  532.97KiB in 00:00:00 at 1.04MiB/s
+[info] Writing video subtitles to: raw\ob_M_qXeDVE.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ob_M_qXeDVE.en.vtt
+[download]    1.00KiB at  988.52KiB/s (00:00:00)[download]    3.00KiB at    1.44MiB/s (00:00:00)[download]    7.00KiB at    1.70MiB/s (00:00:00)[download]   15.00KiB at    1.09MiB/s (00:00:00)[download]   31.00KiB at  633.54KiB/s (00:00:00)[download]   63.00KiB at  696.12KiB/s (00:00:00)[download]  127.00KiB at  835.11KiB/s (00:00:00)[download]  255.00KiB at    1.16MiB/s (00:00:00)[download]  488.43KiB at    1.68MiB/s (00:00:01)[download] 100% of  488.43KiB in 00:00:01 at 482.21KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=T3Qw67DrKDo
+[youtube] T3Qw67DrKDo: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] T3Qw67DrKDo: Downloading visionos player API JSON
+[youtube] T3Qw67DrKDo: Downloading m3u8 information
+[info] T3Qw67DrKDo: Downloading subtitles: de-orig, en
+[info] T3Qw67DrKDo: Downloading 1 format(s): 299+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\T3Qw67DrKDo.de-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\T3Qw67DrKDo.de-orig.vtt
+[download]    1.00KiB at  998.88KiB/s (00:00:00)[download]    3.00KiB at    1.94MiB/s (00:00:00)[download]    7.00KiB at    4.52MiB/s (00:00:00)[download]   15.00KiB at    9.68MiB/s (00:00:00)[download]   31.00KiB at  579.86KiB/s (00:00:00)[download]   63.00KiB at  686.83KiB/s (00:00:00)[download]  127.00KiB at  919.66KiB/s (00:00:00)[download]  255.00KiB at    1.21MiB/s (00:00:00)[download]  391.15KiB at    1.47MiB/s (00:00:00)[download] 100% of  391.15KiB in 00:00:00 at 717.83KiB/s
+[info] Writing video subtitles to: raw\T3Qw67DrKDo.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\T3Qw67DrKDo.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.68MiB/s (00:00:00)[download]    7.00KiB at  874.23KiB/s (00:00:00)[download]   15.00KiB at    1.04MiB/s (00:00:00)[download]   31.00KiB at  589.38KiB/s (00:00:00)[download]   63.00KiB at  749.12KiB/s (00:00:00)[download]  127.00KiB at    1.00MiB/s (00:00:00)[download]  255.00KiB at    1.48MiB/s (00:00:00)[download]  349.86KiB at    1.52MiB/s (00:00:00)[download] 100% of  349.86KiB in 00:00:00 at 375.70KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=AQqFZ5t8uNc
+[youtube] AQqFZ5t8uNc: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] AQqFZ5t8uNc: Downloading visionos player API JSON
+[youtube] AQqFZ5t8uNc: Downloading m3u8 information
+[info] AQqFZ5t8uNc: Downloading subtitles: en-orig, en
+[info] AQqFZ5t8uNc: Downloading 1 format(s): 616+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\AQqFZ5t8uNc.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\AQqFZ5t8uNc.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at 1000.31KiB/s (00:00:00)[download]    7.00KiB at  663.34KiB/s (00:00:00)[download]   15.00KiB at  807.19KiB/s (00:00:00)[download]   31.00KiB at  555.09KiB/s (00:00:00)[download]   63.00KiB at  626.16KiB/s (00:00:00)[download]  127.00KiB at  882.85KiB/s (00:00:00)[download]  255.00KiB at    1.33MiB/s (00:00:00)[download]  310.82KiB at    1.20MiB/s (00:00:00)[download] 100% of  310.82KiB in 00:00:00 at 607.00KiB/s
+[info] Writing video subtitles to: raw\AQqFZ5t8uNc.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\AQqFZ5t8uNc.en.vtt
+[download]    1.00KiB at  499.62KiB/s (00:00:00)[download]    3.00KiB at  999.44KiB/s (00:00:00)[download]    7.00KiB at    1.71MiB/s (00:00:00)[download]   15.00KiB at    2.40MiB/s (00:00:00)[download]   31.00KiB at  605.06KiB/s (00:00:00)[download]   55.11KiB at  624.47KiB/s (00:00:00)[download] 100% of   55.11KiB in 00:00:00 at 182.42KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=0fONene3OIA
+[youtube] 0fONene3OIA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 0fONene3OIA: Downloading visionos player API JSON
+[youtube] 0fONene3OIA: Downloading m3u8 information
+[info] 0fONene3OIA: Downloading subtitles: en-orig, en
+[info] 0fONene3OIA: Downloading 1 format(s): 401+251-12
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\0fONene3OIA.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\0fONene3OIA.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at  971.32KiB/s (00:00:00)[download]   15.00KiB at    1.12MiB/s (00:00:00)[download]   31.00KiB at  606.99KiB/s (00:00:00)[download]   63.00KiB at  723.95KiB/s (00:00:00)[download]   78.57KiB at  810.47KiB/s (00:00:00)[download] 100% of   78.57KiB in 00:00:00 at 286.36KiB/s
+[info] Writing video subtitles to: raw\0fONene3OIA.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\0fONene3OIA.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at    1.71MiB/s (00:00:00)[download]   15.00KiB at    1.09MiB/s (00:00:00)[download]   31.00KiB at  510.98KiB/s (00:00:00)[download]   63.00KiB at  717.29KiB/s (00:00:00)[download]   78.57KiB at  759.04KiB/s (00:00:00)[download] 100% of   78.57KiB in 00:00:00 at 283.25KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=F0NYT7DIlDQ
+[youtube] F0NYT7DIlDQ: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] F0NYT7DIlDQ: Downloading visionos player API JSON
+[youtube] F0NYT7DIlDQ: Downloading m3u8 information
+[info] F0NYT7DIlDQ: Downloading subtitles: en-orig, en
+[info] F0NYT7DIlDQ: Downloading 1 format(s): 399+251-20
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\F0NYT7DIlDQ.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\F0NYT7DIlDQ.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.48MiB/s (00:00:00)[download]    7.00KiB at 1003.46KiB/s (00:00:00)[download]   15.00KiB at 1000.93KiB/s (00:00:00)[download]   31.00KiB at  606.09KiB/s (00:00:00)[download]   63.00KiB at  705.17KiB/s (00:00:00)[download]   74.98KiB at  771.22KiB/s (00:00:00)[download] 100% of   74.98KiB in 00:00:00 at 206.45KiB/s
+[info] Writing video subtitles to: raw\F0NYT7DIlDQ.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\F0NYT7DIlDQ.en.vtt
+[download]    1.00KiB at  999.60KiB/s (00:00:00)[download]    3.00KiB at    2.93MiB/s (00:00:00)[download]    7.00KiB at    6.83MiB/s (00:00:00)[download]   15.00KiB at    7.32MiB/s (00:00:00)[download]   31.00KiB at  582.83KiB/s (00:00:00)[download]   63.00KiB at  679.50KiB/s (00:00:00)[download]   74.98KiB at  688.31KiB/s (00:00:00)[download] 100% of   74.98KiB in 00:00:00 at 241.27KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=KY6Cr6t-cuA
+[youtube] KY6Cr6t-cuA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] KY6Cr6t-cuA: Downloading visionos player API JSON
+[youtube] KY6Cr6t-cuA: Downloading m3u8 information
+[info] KY6Cr6t-cuA: Downloading subtitles: en-orig, en
+[info] KY6Cr6t-cuA: Downloading 1 format(s): 137+251-5
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\KY6Cr6t-cuA.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\KY6Cr6t-cuA.en-orig.vtt
+[download]    1.00KiB at  998.17KiB/s (00:00:00)[download]    3.00KiB at    2.92MiB/s (00:00:00)[download]    7.00KiB at    3.39MiB/s (00:00:00)[download]   15.00KiB at    2.09MiB/s (00:00:00)[download]   31.00KiB at  569.26KiB/s (00:00:00)[download]   63.00KiB at  540.23KiB/s (00:00:00)[download]  127.00KiB at  718.97KiB/s (00:00:00)[download]  195.29KiB at  928.91KiB/s (00:00:00)[download] 100% of  195.29KiB in 00:00:00 at 408.59KiB/s
+[info] Writing video subtitles to: raw\KY6Cr6t-cuA.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\KY6Cr6t-cuA.en.vtt
+[download]    1.00KiB at  992.73KiB/s (00:00:00)[download]    3.00KiB at    2.91MiB/s (00:00:00)[download]    7.00KiB at    3.34MiB/s (00:00:00)[download]   15.00KiB at    1.83MiB/s (00:00:00)[download]   31.00KiB at  622.19KiB/s (00:00:00)[download]   63.00KiB at  763.89KiB/s (00:00:00)[download]  127.00KiB at    1.00MiB/s (00:00:00)[download]  195.29KiB at    1.26MiB/s (00:00:00)[download] 100% of  195.29KiB in 00:00:00 at 583.23KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=-B58GgsehKQ
+[youtube] -B58GgsehKQ: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] -B58GgsehKQ: Downloading visionos player API JSON
+[youtube] -B58GgsehKQ: Downloading m3u8 information
+[info] -B58GgsehKQ: Downloading subtitles: en-orig, en
+[info] -B58GgsehKQ: Downloading 1 format(s): 401+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\-B58GgsehKQ.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\-B58GgsehKQ.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  876.08KiB/s (00:00:00)[download]   15.00KiB at    1.05MiB/s (00:00:00)[download]   31.00KiB at  606.02KiB/s (00:00:00)[download]   63.00KiB at  694.23KiB/s (00:00:00)[download]  126.91KiB at  764.54KiB/s (00:00:00)[download] 100% of  126.91KiB in 00:00:00 at 354.90KiB/s
+[info] Writing video subtitles to: raw\-B58GgsehKQ.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\-B58GgsehKQ.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    1.70MiB/s (00:00:00)[download]   15.00KiB at    1.05MiB/s (00:00:00)[download]   31.00KiB at  609.10KiB/s (00:00:00)[download]   63.00KiB at  691.66KiB/s (00:00:00)[download]  126.91KiB at  905.86KiB/s (00:00:00)[download] 100% of  126.91KiB in 00:00:00 at 407.73KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ggpZA5U2rZk
+[youtube] ggpZA5U2rZk: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ggpZA5U2rZk: Downloading visionos player API JSON
+[youtube] ggpZA5U2rZk: Downloading m3u8 information
+[info] ggpZA5U2rZk: Downloading subtitles: en-orig, en
+[info] ggpZA5U2rZk: Downloading 1 format(s): 401+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\ggpZA5U2rZk.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ggpZA5U2rZk.en-orig.vtt
+[download]    1.00KiB at  282.52KiB/s (00:00:00)[download]    3.00KiB at  661.81KiB/s (00:00:00)[download]    7.00KiB at    1.05MiB/s (00:00:00)[download]   15.00KiB at  879.57KiB/s (00:00:00)[download]   31.00KiB at  615.93KiB/s (00:00:00)[download]   63.00KiB at  655.65KiB/s (00:00:00)[download]   80.40KiB at  779.93KiB/s (00:00:00)[download] 100% of   80.40KiB in 00:00:00 at 223.30KiB/s
+[info] Writing video subtitles to: raw\ggpZA5U2rZk.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ggpZA5U2rZk.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  930.62KiB/s (00:00:00)[download]   15.00KiB at  552.01KiB/s (00:00:00)[download]   15.35KiB at  526.24KiB/s (00:00:00)[download] 100% of   15.35KiB in 00:00:00 at 64.77KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=3nYLTiY5skU
+[youtube] 3nYLTiY5skU: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 3nYLTiY5skU: Downloading visionos player API JSON
+[youtube] 3nYLTiY5skU: Downloading m3u8 information
+[info] 3nYLTiY5skU: Downloading subtitles: en-US-orig, es-orig, en
+[info] 3nYLTiY5skU: Downloading 1 format(s): 399+251-1
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\3nYLTiY5skU.en-US-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\3nYLTiY5skU.en-US-orig.vtt
+[download]    1.00KiB at  998.88KiB/s (00:00:00)[download]    3.00KiB at    1.46MiB/s (00:00:00)[download]    7.00KiB at  996.54KiB/s (00:00:00)[download]   15.00KiB at    1.01MiB/s (00:00:00)[download]   31.00KiB at  637.48KiB/s (00:00:00)[download]   63.00KiB at  752.80KiB/s (00:00:00)[download]  127.00KiB at  987.78KiB/s (00:00:00)[download]  255.00KiB at    1.16MiB/s (00:00:00)[download]  511.00KiB at    1.27MiB/s (00:00:00)[download] 1023.00KiB at    1.27MiB/s (00:00:01)[download]    1.11MiB at    1.25MiB/s (00:00:01)[download] 100% of    1.11MiB in 00:00:01 at 938.09KiB/s
+[info] Writing video subtitles to: raw\3nYLTiY5skU.es-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\3nYLTiY5skU.es-orig.vtt
+[download]    1.00KiB at  998.17KiB/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at    1.20MiB/s (00:00:00)[download]   15.00KiB at  985.12KiB/s (00:00:00)[download]   31.00KiB at  650.58KiB/s (00:00:00)[download]   63.00KiB at  750.66KiB/s (00:00:00)[download]  127.00KiB at 1013.40KiB/s (00:00:00)[download]  255.00KiB at    1.44MiB/s (00:00:00)[download]  511.00KiB at    2.18MiB/s (00:00:00)[download] 1023.00KiB at    2.48MiB/s (00:00:00)[download]    1.03MiB at    2.51MiB/s (00:00:00)[download] 100% of    1.03MiB in 00:00:00 at 1.38MiB/s
+[info] Writing video subtitles to: raw\3nYLTiY5skU.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\3nYLTiY5skU.en.vtt
+[download]    1.00KiB at  992.97KiB/s (00:00:01)[download]    3.00KiB at    2.91MiB/s (00:00:01)[download]    7.00KiB at    1.37MiB/s (00:00:01)[download]   15.00KiB at    1.04MiB/s (00:00:01)[download]   31.00KiB at  528.50KiB/s (00:00:01)[download]   63.00KiB at  659.66KiB/s (00:00:01)[download]  127.00KiB at  936.17KiB/s (00:00:01)[download]  255.00KiB at    1.36MiB/s (00:00:01)[download]  511.00KiB at    1.97MiB/s (00:00:01)[download] 1006.96KiB at    2.42MiB/s (00:00:01)[download] 100% of 1006.96KiB in 00:00:01 at 639.95KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=EoaDgUgS6QA
+[youtube] EoaDgUgS6QA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] EoaDgUgS6QA: Downloading visionos player API JSON
+[youtube] EoaDgUgS6QA: Downloading m3u8 information
+[info] EoaDgUgS6QA: Downloading subtitles: en-orig, en
+[info] EoaDgUgS6QA: Downloading 1 format(s): 616+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\EoaDgUgS6QA.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\EoaDgUgS6QA.en-orig.vtt
+[download]    1.00KiB at  500.22KiB/s (00:00:00)[download]    3.00KiB at  995.33KiB/s (00:00:00)[download]    7.00KiB at    1.71MiB/s (00:00:00)[download]   15.00KiB at    1.17MiB/s (00:00:00)[download]   31.00KiB at  384.54KiB/s (00:00:00)[download]   63.00KiB at  517.24KiB/s (00:00:00)[download]   80.69KiB at  602.97KiB/s (00:00:00)[download] 100% of   80.69KiB in 00:00:00 at 268.30KiB/s
+[info] Writing video subtitles to: raw\EoaDgUgS6QA.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\EoaDgUgS6QA.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  580.41KiB/s (00:00:00)[download]   15.00KiB at    1.13MiB/s (00:00:00)[download]   31.00KiB at  570.28KiB/s (00:00:00)[download]   63.00KiB at  616.34KiB/s (00:00:00)[download]   80.69KiB at  586.46KiB/s (00:00:00)[download] 100% of   80.69KiB in 00:00:00 at 218.42KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=eWEgUcHPle0
+[youtube] eWEgUcHPle0: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] eWEgUcHPle0: Downloading visionos player API JSON
+[youtube] eWEgUcHPle0: Downloading m3u8 information
+[info] eWEgUcHPle0: Downloading subtitles: en-orig, en
+[info] eWEgUcHPle0: Downloading 1 format(s): 616+251-9
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\eWEgUcHPle0.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\eWEgUcHPle0.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:01)[download]    3.00KiB at    1.94MiB/s (00:00:01)[download]    7.00KiB at    1.04MiB/s (00:00:01)[download]   15.00KiB at    1.01MiB/s (00:00:01)[download]   31.00KiB at  608.28KiB/s (00:00:01)[download]   63.00KiB at  729.20KiB/s (00:00:01)[download]  104.74KiB at  930.02KiB/s (00:00:01)[download] 100% of  104.74KiB in 00:00:01 at 90.33KiB/s
+[info] Writing video subtitles to: raw\eWEgUcHPle0.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\eWEgUcHPle0.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    1.37MiB/s (00:00:00)[download]   15.00KiB at    1.13MiB/s (00:00:00)[download]   31.00KiB at  538.70KiB/s (00:00:00)[download]   63.00KiB at  695.12KiB/s (00:00:00)[download]  104.74KiB at  835.93KiB/s (00:00:00)[download] 100% of  104.74KiB in 00:00:00 at 346.89KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ZFzn2AQPwRA
+[youtube] ZFzn2AQPwRA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ZFzn2AQPwRA: Downloading visionos player API JSON
+[youtube] ZFzn2AQPwRA: Downloading m3u8 information
+[info] ZFzn2AQPwRA: Downloading subtitles: ru-orig, en
+[info] ZFzn2AQPwRA: Downloading 1 format(s): 401+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\ZFzn2AQPwRA.ru-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ZFzn2AQPwRA.ru-orig.vtt
+[download]    1.00KiB at  999.36KiB/s (00:00:00)[download]    3.00KiB at    1.46MiB/s (00:00:00)[download]    7.00KiB at  700.54KiB/s (00:00:00)[download]   15.00KiB at  570.94KiB/s (00:00:00)[download]   31.00KiB at  519.72KiB/s (00:00:00)[download]   63.00KiB at  645.15KiB/s (00:00:00)[download]  127.00KiB at  908.08KiB/s (00:00:00)[download]  181.67KiB at    1.03MiB/s (00:00:00)[download] 100% of  181.67KiB in 00:00:00 at 218.02KiB/s
+[info] Writing video subtitles to: raw\ZFzn2AQPwRA.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ZFzn2AQPwRA.en.vtt
+[download]    1.00KiB at  506.19KiB/s (00:00:00)[download]    3.00KiB at  999.04KiB/s (00:00:00)[download]    7.00KiB at    1.72MiB/s (00:00:00)[download]   15.00KiB at    1.22MiB/s (00:00:00)[download]   31.00KiB at  622.14KiB/s (00:00:00)[download]   63.00KiB at  755.61KiB/s (00:00:00)[download]  127.00KiB at 1007.29KiB/s (00:00:00)[download]  149.14KiB at    1.09MiB/s (00:00:00)[download] 100% of  149.14KiB in 00:00:00 at 235.38KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=hryt-rCLJUA
+[youtube] hryt-rCLJUA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] hryt-rCLJUA: Downloading visionos player API JSON
+[youtube] hryt-rCLJUA: Downloading m3u8 information
+[info] hryt-rCLJUA: Downloading subtitles: en-orig, fr-FR-orig, de-DE-orig, hi-orig, id-orig, it-orig, pt-BR-orig, es-US-orig, en
+[info] hryt-rCLJUA: Downloading 1 format(s): 401+251-7
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\hryt-rCLJUA.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hryt-rCLJUA.en-orig.vtt
+[download]    1.00KiB at  999.83KiB/s (00:00:02)[download]    3.00KiB at  119.80KiB/s (00:00:02)[download]    7.00KiB at   62.09KiB/s (00:00:02)[download]   15.00KiB at   35.44KiB/s (00:00:02)[download]   31.00KiB at   31.50KiB/s (00:00:03)[download]   59.53KiB at   37.72KiB/s (00:00:03)[download]   67.78KiB at   36.05KiB/s (00:00:04)[download] 100% of   67.78KiB in 00:00:04 at 16.55KiB/s
+[info] Writing video subtitles to: raw\hryt-rCLJUA.fr-FR-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hryt-rCLJUA.fr-FR-orig.vtt
+[download]    1.00KiB at  998.17KiB/s (00:00:02)[download]    3.00KiB at    2.92MiB/s (00:00:02)[download]    7.00KiB at  121.22KiB/s (00:00:02)[download]   15.00KiB at   73.91KiB/s (00:00:02)[download]   31.00KiB at   29.02KiB/s (00:00:03)[download]   49.49KiB at   30.67KiB/s (00:00:04)[download]   83.39KiB at   40.94KiB/s (00:00:04)[download]   83.98KiB at   41.21KiB/s (00:00:04)[download] 100% of   83.98KiB in 00:00:04 at 18.84KiB/s
+[info] Writing video subtitles to: raw\hryt-rCLJUA.de-DE-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hryt-rCLJUA.de-DE-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:02)[download]    3.00KiB at  Unknown B/s (00:00:02)[download]    7.00KiB at  170.35KiB/s (00:00:02)[download]   15.00KiB at   85.60KiB/s (00:00:02)[download]   31.00KiB at   30.44KiB/s (00:00:03)[download]   49.98KiB at   40.41KiB/s (00:00:03)[download]   76.49KiB at   47.39KiB/s (00:00:04)[download] 100% of   76.49KiB in 00:00:04 at 18.84KiB/s
+[info] Writing video subtitles to: raw\hryt-rCLJUA.hi-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hryt-rCLJUA.hi-orig.vtt
+[download]    1.00KiB at  987.13KiB/s (00:00:01)[download]    3.00KiB at  130.39KiB/s (00:00:01)[download]    7.00KiB at   91.98KiB/s (00:00:01)[download]   15.00KiB at   83.81KiB/s (00:00:01)[download]   31.00KiB at   42.32KiB/s (00:00:02)[download]   59.91KiB at   55.09KiB/s (00:00:02)[download]  117.72KiB at   79.79KiB/s (00:00:03)[download]  151.21KiB at   93.39KiB/s (00:00:03)[download] 100% of  151.21KiB in 00:00:03 at 44.29KiB/s
+[info] Writing video subtitles to: raw\hryt-rCLJUA.id-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hryt-rCLJUA.id-orig.vtt
+[download]    1.00KiB at  501.05KiB/s (00:00:00)[download]    3.00KiB at 1002.38KiB/s (00:00:00)[download]    7.00KiB at  212.10KiB/s (00:00:00)[download]   15.00KiB at  184.60KiB/s (00:00:00)[download]   31.00KiB at   72.12KiB/s (00:00:01)[download]   63.00KiB at   88.72KiB/s (00:00:01)[download]   73.07KiB at   96.01KiB/s (00:00:01)[download] 100% of   73.07KiB in 00:00:01 at 44.04KiB/s
+[info] Writing video subtitles to: raw\hryt-rCLJUA.it-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hryt-rCLJUA.it-orig.vtt
+[download]    1.00KiB at  975.42KiB/s (00:00:01)[download]    3.00KiB at  199.76KiB/s (00:00:01)[download]    7.00KiB at  436.91KiB/s (00:00:01)[download]   15.00KiB at  225.29KiB/s (00:00:01)[download]   31.00KiB at   65.54KiB/s (00:00:01)[download]   63.00KiB at   83.46KiB/s (00:00:02)[download]   78.51KiB at   89.29KiB/s (00:00:02)[download] 100% of   78.51KiB in 00:00:02 at 36.64KiB/s
+[info] Writing video subtitles to: raw\hryt-rCLJUA.pt-BR-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hryt-rCLJUA.pt-BR-orig.vtt
+[download]    1.00KiB at  993.68KiB/s (00:00:01)[download]    3.00KiB at    2.91MiB/s (00:00:01)[download]    7.00KiB at  107.93KiB/s (00:00:01)[download]   15.00KiB at  117.74KiB/s (00:00:01)[download]   31.00KiB at   70.99KiB/s (00:00:01)[download]   63.00KiB at   87.23KiB/s (00:00:01)[download]   78.80KiB at   95.50KiB/s (00:00:01)[download] 100% of   78.80KiB in 00:00:01 at 42.00KiB/s
+[info] Writing video subtitles to: raw\hryt-rCLJUA.es-US-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hryt-rCLJUA.es-US-orig.vtt
+[download]    1.00KiB at  500.27KiB/s (00:00:00)[download]    3.00KiB at  120.09KiB/s (00:00:01)[download]    7.00KiB at  139.29KiB/s (00:00:01)[download]   15.00KiB at  104.65KiB/s (00:00:01)[download]   31.00KiB at   69.73KiB/s (00:00:01)[download]   63.00KiB at   80.12KiB/s (00:00:01)[download]   80.06KiB at   91.21KiB/s (00:00:01)[download] 100% of   80.06KiB in 00:00:01 at 42.86KiB/s
+[info] Writing video subtitles to: raw\hryt-rCLJUA.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hryt-rCLJUA.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:01)[download]    3.00KiB at    1.99MiB/s (00:00:01)[download]    7.00KiB at  117.37KiB/s (00:00:01)[download]   11.78KiB at   28.91KiB/s (00:00:01)[download] 100% of   11.78KiB in 00:00:01 at 7.64KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=vf9Waxh3I04
+[youtube] vf9Waxh3I04: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] vf9Waxh3I04: Downloading visionos player API JSON
+[youtube] vf9Waxh3I04: Downloading m3u8 information
+[info] vf9Waxh3I04: Downloading subtitles: es-orig, en
+[info] vf9Waxh3I04: Downloading 1 format(s): 137+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\vf9Waxh3I04.es-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\vf9Waxh3I04.es-orig.vtt
+[download]    1.00KiB at  998.64KiB/s (00:00:01)[download]    3.00KiB at   96.58KiB/s (00:00:01)[download]    7.00KiB at   74.41KiB/s (00:00:01)[download]   15.00KiB at   69.74KiB/s (00:00:02)[download]   31.00KiB at   38.55KiB/s (00:00:02)[download]   58.16KiB at   42.22KiB/s (00:00:03)[download]   76.56KiB at   47.95KiB/s (00:00:03)[download] 100% of   76.56KiB in 00:00:03 at 22.21KiB/s
+[info] Writing video subtitles to: raw\vf9Waxh3I04.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\vf9Waxh3I04.en.vtt
+[download]    1.00KiB at  993.91KiB/s (00:00:02)[download]    3.00KiB at  141.63KiB/s (00:00:03)[download]    7.00KiB at   18.65KiB/s (00:00:03)[download]   15.00KiB at   39.87KiB/s (00:00:03)[download]   31.00KiB at   18.77KiB/s (00:00:04)[download]   43.54KiB at   25.66KiB/s (00:00:04)[download]   68.63KiB at   28.18KiB/s (00:00:05)[download]   71.78KiB at   28.99KiB/s (00:00:05)[download] 100% of   71.78KiB in 00:00:05 at 13.14KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=OzBy8nYLY-I
+[youtube] OzBy8nYLY-I: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] OzBy8nYLY-I: Downloading visionos player API JSON
+[youtube] OzBy8nYLY-I: Downloading m3u8 information
+[info] OzBy8nYLY-I: Downloading subtitles: pt-orig, en
+[info] OzBy8nYLY-I: Downloading 1 format(s): 299+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\OzBy8nYLY-I.pt-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\OzBy8nYLY-I.pt-orig.vtt
+[download]    1.00KiB at  997.46KiB/s (00:00:01)[download]    3.00KiB at    2.92MiB/s (00:00:01)[download]    7.00KiB at  482.14KiB/s (00:00:01)[download]   15.00KiB at  155.10KiB/s (00:00:01)[download]   31.00KiB at   70.92KiB/s (00:00:01)[download]   63.00KiB at   84.34KiB/s (00:00:02)[download]  127.00KiB at  112.58KiB/s (00:00:02)[download]  173.40KiB at  133.32KiB/s (00:00:02)[download] 100% of  173.40KiB in 00:00:02 at 67.73KiB/s
+[info] Writing video subtitles to: raw\OzBy8nYLY-I.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\OzBy8nYLY-I.en.vtt
+[download]    1.00KiB at  500.16KiB/s (00:00:01)[download]    3.00KiB at 1000.15KiB/s (00:00:01)[download]    7.00KiB at  153.55KiB/s (00:00:01)[download]   15.00KiB at  142.24KiB/s (00:00:01)[download]   31.00KiB at   61.42KiB/s (00:00:02)[download]   63.00KiB at   61.94KiB/s (00:00:02)[download]  125.45KiB at   82.41KiB/s (00:00:03)[download]  160.85KiB at   78.54KiB/s (00:00:03)[download] 100% of  160.85KiB in 00:00:03 at 42.85KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=HE244moNuXE
+[youtube] HE244moNuXE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] HE244moNuXE: Downloading visionos player API JSON
+[youtube] HE244moNuXE: Downloading m3u8 information
+[info] HE244moNuXE: Downloading subtitles: hi-orig, en
+[info] HE244moNuXE: Downloading 1 format(s): 399+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\HE244moNuXE.hi-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\HE244moNuXE.hi-orig.vtt
+[download]    1.00KiB at  247.70KiB/s (00:00:02)[download]    3.00KiB at   83.14KiB/s (00:00:02)[download]    7.00KiB at   62.43KiB/s (00:00:02)[download]   15.00KiB at   67.86KiB/s (00:00:02)[download]   31.00KiB at   37.78KiB/s (00:00:03)[download]   57.69KiB at   47.44KiB/s (00:00:03)[download]  111.06KiB at   63.99KiB/s (00:00:04)[download]  213.81KiB at   96.99KiB/s (00:00:04)[download]  227.59KiB at  101.72KiB/s (00:00:04)[download] 100% of  227.59KiB in 00:00:04 at 49.29KiB/s
+[info] Writing video subtitles to: raw\HE244moNuXE.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\HE244moNuXE.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:01)[download]    3.00KiB at    1.47MiB/s (00:00:01)[download]    7.00KiB at   69.18KiB/s (00:00:01)[download]   15.00KiB at   92.04KiB/s (00:00:01)[download]   31.00KiB at   42.86KiB/s (00:00:02)[download]   59.55KiB at   51.66KiB/s (00:00:02)[download]  116.66KiB at   68.67KiB/s (00:00:03)[download]  137.88KiB at   76.20KiB/s (00:00:03)[download] 100% of  137.88KiB in 00:00:03 at 38.45KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=hJHvdBlSxug
+[youtube] hJHvdBlSxug: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] hJHvdBlSxug: Downloading visionos player API JSON
+[youtube] hJHvdBlSxug: Downloading m3u8 information
+[info] hJHvdBlSxug: Downloading subtitles: en-orig, en
+[info] hJHvdBlSxug: Downloading 1 format(s): 616+251-11
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\hJHvdBlSxug.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hJHvdBlSxug.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    1.05MiB/s (00:00:00)[download]   15.00KiB at    1.05MiB/s (00:00:00)[download]   31.00KiB at  605.25KiB/s (00:00:00)[download]   63.00KiB at  741.30KiB/s (00:00:00)[download]  108.53KiB at  948.50KiB/s (00:00:00)[download] 100% of  108.53KiB in 00:00:00 at 369.40KiB/s
+[info] Writing video subtitles to: raw\hJHvdBlSxug.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\hJHvdBlSxug.en.vtt
+[download]    1.00KiB at  991.56KiB/s (00:00:00)[download]    3.00KiB at    1.45MiB/s (00:00:00)[download]    7.00KiB at  538.00KiB/s (00:00:00)[download]   15.00KiB at    1.05MiB/s (00:00:00)[download]   31.00KiB at  618.78KiB/s (00:00:00)[download]   63.00KiB at  699.45KiB/s (00:00:00)[download]  108.53KiB at  911.48KiB/s (00:00:00)[download] 100% of  108.53KiB in 00:00:00 at 361.05KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=GhrvZ5nUWNg
+[youtube] GhrvZ5nUWNg: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] GhrvZ5nUWNg: Downloading visionos player API JSON
+[youtube] GhrvZ5nUWNg: Downloading m3u8 information
+[info] GhrvZ5nUWNg: Downloading subtitles: en-orig, en
+[info] GhrvZ5nUWNg: Downloading 1 format(s): 616+251-12
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\GhrvZ5nUWNg.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\GhrvZ5nUWNg.en-orig.vtt
+[download]    1.00KiB at  999.36KiB/s (00:00:00)[download]    3.00KiB at 1001.35KiB/s (00:00:00)[download]    7.00KiB at    1.71MiB/s (00:00:00)[download]   15.00KiB at 1000.30KiB/s (00:00:00)[download]   31.00KiB at  584.20KiB/s (00:00:00)[download]   63.00KiB at  645.47KiB/s (00:00:00)[download]   90.58KiB at  789.41KiB/s (00:00:00)[download] 100% of   90.58KiB in 00:00:00 at 278.60KiB/s
+[info] Writing video subtitles to: raw\GhrvZ5nUWNg.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\GhrvZ5nUWNg.en.vtt
+[download]    1.00KiB at  739.87KiB/s (00:00:00)[download]    3.00KiB at    1.20MiB/s (00:00:00)[download]    7.00KiB at    1.23MiB/s (00:00:00)[download]   15.00KiB at    1.28MiB/s (00:00:00)[download]   31.00KiB at  551.45KiB/s (00:00:00)[download]   63.00KiB at  482.21KiB/s (00:00:00)[download]   90.58KiB at  655.03KiB/s (00:00:00)[download] 100% of   90.58KiB in 00:00:00 at 271.77KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Qjk-cSW-jk4
+[youtube] Qjk-cSW-jk4: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] Qjk-cSW-jk4: Downloading visionos player API JSON
+[youtube] Qjk-cSW-jk4: Downloading m3u8 information
+[info] Qjk-cSW-jk4: Downloading subtitles: pt-orig, en
+[info] Qjk-cSW-jk4: Downloading 1 format(s): 616+251-1
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\Qjk-cSW-jk4.pt-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\Qjk-cSW-jk4.pt-orig.vtt
+[download]    1.00KiB at  981.35KiB/s (00:00:02)[download]    3.00KiB at  170.65KiB/s (00:00:02)[download]    7.00KiB at  116.21KiB/s (00:00:02)[download]   15.00KiB at   54.68KiB/s (00:00:02)[download]   31.00KiB at   96.69KiB/s (00:00:02)[download]   63.00KiB at   90.11KiB/s (00:00:02)[download]  127.00KiB at  104.44KiB/s (00:00:03)[download]  250.83KiB at  118.23KiB/s (00:00:04)[download]  386.52KiB at   80.53KiB/s (00:00:07)[download] 100% of  386.52KiB in 00:00:07 at 54.57KiB/s
+[info] Writing video subtitles to: raw\Qjk-cSW-jk4.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\Qjk-cSW-jk4.en.vtt
+[download]    1.00KiB at  979.52KiB/s (00:00:02)[download]    3.00KiB at    1.46MiB/s (00:00:02)[download]    7.00KiB at   84.25KiB/s (00:00:02)[download]   15.00KiB at   77.23KiB/s (00:00:02)[download]   31.00KiB at   47.06KiB/s (00:00:02)[download]   63.00KiB at   58.01KiB/s (00:00:03)[download]  127.00KiB at   77.13KiB/s (00:00:03)[download]  241.19KiB at  105.40KiB/s (00:00:04)[download]  376.69KiB at  131.13KiB/s (00:00:04)[download] 100% of  376.69KiB in 00:00:04 at 76.11KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=9mZmc6a0tmM
+[youtube] 9mZmc6a0tmM: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 9mZmc6a0tmM: Downloading visionos player API JSON
+[youtube] 9mZmc6a0tmM: Downloading m3u8 information
+[info] 9mZmc6a0tmM: Downloading subtitles: ru-orig, en
+[info] 9mZmc6a0tmM: Downloading 1 format(s): 616+251-1
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\9mZmc6a0tmM.ru-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\9mZmc6a0tmM.ru-orig.vtt
+[download]    1.00KiB at  995.56KiB/s (00:00:02)[download]    3.00KiB at    1.46MiB/s (00:00:02)[download]    7.00KiB at    1.14MiB/s (00:00:02)[download]   15.00KiB at  996.33KiB/s (00:00:02)[download]   31.00KiB at  611.06KiB/s (00:00:02)[download]   63.00KiB at  670.69KiB/s (00:00:02)[download]  127.00KiB at  917.42KiB/s (00:00:02)[download]  244.44KiB at    1.14MiB/s (00:00:02)[download] 100% of  244.44KiB in 00:00:02 at 85.12KiB/s
+[info] Writing video subtitles to: raw\9mZmc6a0tmM.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\9mZmc6a0tmM.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:02)[download]    3.00KiB at    1.46MiB/s (00:00:02)[download]    7.00KiB at   81.07KiB/s (00:00:02)[download]   15.00KiB at   74.76KiB/s (00:00:02)[download]   31.00KiB at   39.86KiB/s (00:00:03)[download]   58.73KiB at   42.95KiB/s (00:00:04)[download]  105.75KiB at   56.45KiB/s (00:00:04)[download]  198.67KiB at   72.30KiB/s (00:00:05)[download]  200.04KiB at   72.69KiB/s (00:00:05)[download] 100% of  200.04KiB in 00:00:05 at 36.39KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=M8E6vYAIuzQ
+[youtube] M8E6vYAIuzQ: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] M8E6vYAIuzQ: Downloading visionos player API JSON
+[youtube] M8E6vYAIuzQ: Downloading m3u8 information
+[info] M8E6vYAIuzQ: Downloading subtitles: ko-orig, en
+[info] M8E6vYAIuzQ: Downloading 1 format(s): 616+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\M8E6vYAIuzQ.ko-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\M8E6vYAIuzQ.ko-orig.vtt
+[download]    1.00KiB at  499.38KiB/s (00:00:01)[download]    3.00KiB at 1002.14KiB/s (00:00:01)[download]    7.00KiB at   71.38KiB/s (00:00:01)[download]   15.00KiB at  116.88KiB/s (00:00:01)[download]   31.00KiB at   52.97KiB/s (00:00:02)[download]   63.00KiB at   61.54KiB/s (00:00:02)[download]  111.78KiB at   82.14KiB/s (00:00:02)[download] 100% of  111.78KiB in 00:00:02 at 38.03KiB/s
+[info] Writing video subtitles to: raw\M8E6vYAIuzQ.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\M8E6vYAIuzQ.en.vtt
+[download]    1.00KiB at  999.60KiB/s (00:00:02)[download]    3.00KiB at  137.58KiB/s (00:00:02)[download]    7.00KiB at   51.61KiB/s (00:00:02)[download]   15.00KiB at   72.73KiB/s (00:00:02)[download]   31.00KiB at   49.90KiB/s (00:00:03)[download]   63.00KiB at   59.72KiB/s (00:00:03)[download]  119.58KiB at   79.36KiB/s (00:00:03)[download] 100% of  119.58KiB in 00:00:03 at 30.15KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=V3ZPPPKEipA
+[youtube] V3ZPPPKEipA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] V3ZPPPKEipA: Downloading visionos player API JSON
+[youtube] V3ZPPPKEipA: Downloading m3u8 information
+[info] V3ZPPPKEipA: Downloading subtitles: en-orig, en
+[info] V3ZPPPKEipA: Downloading 1 format(s): 401+251-9
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\V3ZPPPKEipA.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\V3ZPPPKEipA.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at    1.37MiB/s (00:00:00)[download]   15.00KiB at    1.20MiB/s (00:00:00)[download]   31.00KiB at  445.25KiB/s (00:00:00)[download]   63.00KiB at  546.50KiB/s (00:00:00)[download]  127.00KiB at  812.89KiB/s (00:00:00)[download]  197.29KiB at  997.50KiB/s (00:00:00)[download] 100% of  197.29KiB in 00:00:00 at 526.39KiB/s
+[info] Writing video subtitles to: raw\V3ZPPPKEipA.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\V3ZPPPKEipA.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.46MiB/s (00:00:00)[download]    7.00KiB at  981.68KiB/s (00:00:00)[download]   15.00KiB at    1.12MiB/s (00:00:00)[download]   31.00KiB at  615.37KiB/s (00:00:00)[download]   63.00KiB at  696.79KiB/s (00:00:00)[download]  127.00KiB at  965.48KiB/s (00:00:00)[download]  197.29KiB at    1.21MiB/s (00:00:00)[download] 100% of  197.29KiB in 00:00:00 at 591.16KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=fHWFF_pnqDk
+[youtube] fHWFF_pnqDk: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] fHWFF_pnqDk: Downloading visionos player API JSON
+[youtube] fHWFF_pnqDk: Downloading m3u8 information
+[info] fHWFF_pnqDk: Downloading subtitles: en-orig, en
+[info] fHWFF_pnqDk: Downloading 1 format(s): 399+251-5
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\fHWFF_pnqDk.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\fHWFF_pnqDk.en-orig.vtt
+[download]    1.00KiB at  496.31KiB/s (00:00:00)[download]    3.00KiB at  994.70KiB/s (00:00:00)[download]    7.00KiB at    1.70MiB/s (00:00:00)[download]   15.00KiB at    2.92MiB/s (00:00:00)[download]   31.00KiB at  595.55KiB/s (00:00:00)[download]   63.00KiB at  580.35KiB/s (00:00:00)[download]  127.00KiB at  837.78KiB/s (00:00:00)[download]  255.00KiB at    1.23MiB/s (00:00:00)[download]  285.33KiB at    1.13MiB/s (00:00:00)[download] 100% of  285.33KiB in 00:00:00 at 581.99KiB/s
+[info] Writing video subtitles to: raw\fHWFF_pnqDk.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\fHWFF_pnqDk.en.vtt
+[download]    1.00KiB at  965.10KiB/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at    1.36MiB/s (00:00:00)[download]   15.00KiB at    1.22MiB/s (00:00:00)[download]   31.00KiB at  610.31KiB/s (00:00:00)[download]   45.38KiB at  655.55KiB/s (00:00:00)[download] 100% of   45.38KiB in 00:00:00 at 173.69KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ya6520zh4pQ
+[youtube] ya6520zh4pQ: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] ya6520zh4pQ: Downloading visionos player API JSON
+[youtube] ya6520zh4pQ: Downloading m3u8 information
+[info] ya6520zh4pQ: Downloading subtitles: en-orig, en
+[info] ya6520zh4pQ: Downloading 1 format(s): 399+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\ya6520zh4pQ.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ya6520zh4pQ.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.47MiB/s (00:00:00)[download]    7.00KiB at    1.52MiB/s (00:00:00)[download]   15.00KiB at    1.24MiB/s (00:00:00)[download]   31.00KiB at  510.95KiB/s (00:00:00)[download]   63.00KiB at  491.64KiB/s (00:00:00)[download]   64.00KiB at  488.04KiB/s (00:00:00)[download] 100% of   64.00KiB in 00:00:00 at 203.92KiB/s
+[info] Writing video subtitles to: raw\ya6520zh4pQ.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\ya6520zh4pQ.en.vtt
+[download]    1.00KiB at  994.38KiB/s (00:00:01)[download]    3.00KiB at  101.50KiB/s (00:00:01)[download]    7.00KiB at   58.05KiB/s (00:00:01)[download]   15.00KiB at   63.35KiB/s (00:00:01)[download]   31.00KiB at   44.61KiB/s (00:00:02)[download]   63.00KiB at   66.22KiB/s (00:00:02)[download]   64.00KiB at   67.11KiB/s (00:00:02)[download] 100% of   64.00KiB in 00:00:02 at 24.62KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=5fhcklZe-qE
+[youtube] 5fhcklZe-qE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 5fhcklZe-qE: Downloading visionos player API JSON
+[youtube] 5fhcklZe-qE: Downloading m3u8 information
+[info] 5fhcklZe-qE: Downloading subtitles: en-orig, en
+[info] 5fhcklZe-qE: Downloading 1 format(s): 400+251
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\5fhcklZe-qE.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\5fhcklZe-qE.en-orig.vtt
+[download]    1.00KiB at  970.01KiB/s (00:00:00)[download]    3.00KiB at    1.44MiB/s (00:00:00)[download]    7.00KiB at    2.27MiB/s (00:00:00)[download]   15.00KiB at  636.59KiB/s (00:00:00)[download]   31.00KiB at   84.69KiB/s (00:00:01)[download]   63.00KiB at  111.68KiB/s (00:00:01)[download]  115.96KiB at  146.57KiB/s (00:00:01)[download] 100% of  115.96KiB in 00:00:01 at 69.88KiB/s
+[info] Writing video subtitles to: raw\5fhcklZe-qE.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\5fhcklZe-qE.en.vtt
+[download]    1.00KiB at  994.62KiB/s (00:00:00)[download]    3.00KiB at  118.88KiB/s (00:00:00)[download]    7.00KiB at  118.15KiB/s (00:00:01)[download]   15.00KiB at  152.38KiB/s (00:00:01)[download]   31.00KiB at   69.43KiB/s (00:00:01)[download]   63.00KiB at   88.55KiB/s (00:00:01)[download]  115.96KiB at  115.65KiB/s (00:00:01)[download] 100% of  115.96KiB in 00:00:01 at 58.65KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=BJjsfNO5JTo
+[youtube] BJjsfNO5JTo: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] BJjsfNO5JTo: Downloading visionos player API JSON
+[youtube] BJjsfNO5JTo: Downloading m3u8 information
+[info] BJjsfNO5JTo: Downloading subtitles: en-orig, en
+[info] BJjsfNO5JTo: Downloading 1 format(s): 616+251-9
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\BJjsfNO5JTo.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\BJjsfNO5JTo.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:01)[download]    3.00KiB at    1.47MiB/s (00:00:01)[download]    7.00KiB at    2.25MiB/s (00:00:01)[download]   15.00KiB at  218.56KiB/s (00:00:01)[download]   31.00KiB at   82.18KiB/s (00:00:01)[download]   63.00KiB at   70.56KiB/s (00:00:01)[download]  125.05KiB at   94.05KiB/s (00:00:02)[download]  155.79KiB at  108.92KiB/s (00:00:02)[download] 100% of  155.79KiB in 00:00:02 at 62.21KiB/s
+[info] Writing video subtitles to: raw\BJjsfNO5JTo.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\BJjsfNO5JTo.en.vtt
+[download]    1.00KiB at  505.46KiB/s (00:00:01)[download]    3.00KiB at 1008.65KiB/s (00:00:01)[download]    7.00KiB at  106.60KiB/s (00:00:01)[download]   15.00KiB at   73.04KiB/s (00:00:01)[download]   31.00KiB at   54.18KiB/s (00:00:01)[download]   63.00KiB at   62.41KiB/s (00:00:02)[download]  127.00KiB at   84.68KiB/s (00:00:02)[download]  155.79KiB at   97.08KiB/s (00:00:02)[download] 100% of  155.79KiB in 00:00:02 at 58.27KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=gv0WHhKelSE
+[youtube] gv0WHhKelSE: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] gv0WHhKelSE: Downloading visionos player API JSON
+[youtube] gv0WHhKelSE: Downloading m3u8 information
+[info] gv0WHhKelSE: Downloading subtitles: en-orig, en
+[info] gv0WHhKelSE: Downloading 1 format(s): 399+251-9
+[info] Writing '%(id)s\t%(upload_date)s\t%(channel)s\t%(duration)s\t%(language)s\t%(title)s' to: meta.tsv
+[info] Writing video subtitles to: raw\gv0WHhKelSE.en-orig.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\gv0WHhKelSE.en-orig.vtt
+[download]    1.00KiB at  500.63KiB/s (00:00:01)[download]    3.00KiB at   94.36KiB/s (00:00:01)[download]    7.00KiB at   60.39KiB/s (00:00:01)[download]   15.00KiB at   73.12KiB/s (00:00:02)[download]   31.00KiB at   38.87KiB/s (00:00:02)[download]   58.01KiB at   40.46KiB/s (00:00:03)[download]  100.45KiB at   34.43KiB/s (00:00:04)[download]  129.07KiB at   44.21KiB/s (00:00:04)[download]  186.29KiB at   46.07KiB/s (00:00:05)[download]  237.17KiB at   58.62KiB/s (00:00:05)[download]  243.12KiB at   60.06KiB/s (00:00:05)[download] 100% of  243.12KiB in 00:00:05 at 41.57KiB/s
+[info] Writing video subtitles to: raw\gv0WHhKelSE.en.vtt
+[download] Sleeping 2.00 seconds ...
+[download] Destination: raw\gv0WHhKelSE.en.vtt
+[download]    1.00KiB at  489.70KiB/s (00:00:01)[download]    3.00KiB at    1.43MiB/s (00:00:01)[download]    7.00KiB at  399.27KiB/s (00:00:01)[download]   15.00KiB at  444.50KiB/s (00:00:01)[download]   31.00KiB at  373.62KiB/s (00:00:01)[download]   38.63KiB at  404.03KiB/s (00:00:01)[download] 100% of   38.63KiB in 00:00:01 at 24.84KiB/s

@@ -1,0 +1,251 @@
+
+1366x657 privacy
+   line too long ~111 chars: .note "Owner: company name, address"
+
+1366x657 terms
+   line too long ~111 chars: .note "Owner: these terms come from"
+
+1920x950 privacy
+   line too long ~111 chars: .note "Owner: company name, address"
+
+1920x950 terms
+   line too long ~111 chars: .note "Owner: these terms come from"
+
+768x950 404
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 about
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 advisors
+   small tap target 39x52: a "Proof"
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 email-advisor
+   small tap target 46x16: a "Privacy"
+
+768x950 email-owner
+   small tap target 46x16: a "Privacy"
+
+768x950 email-traveller
+   small tap target 46x16: a "Privacy"
+
+768x950 home
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 link-preview
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 north-sulawesi
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 plan
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 privacy
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+   line too long ~100 chars: .note "Owner: company name, address"
+
+768x950 raja-ampat
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 state-form-errors
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 state-form-failed
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 stories
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 terms
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+   line too long ~100 chars: .note "Owner: these terms come from"
+
+768x950 thank-you-advisor
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 thank-you
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+768x950 yachts
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 404
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 about
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 advisors
+   small tap target 39x52: a "Proof"
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 email-advisor
+   small tap target 46x16: a "Privacy"
+
+390x664 email-owner
+   small tap target 46x16: a "Privacy"
+
+390x664 email-traveller
+   small tap target 46x16: a "Privacy"
+
+390x664 home
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 link-preview
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 north-sulawesi
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 plan
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 privacy
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 raja-ampat
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 state-form-errors
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 state-form-failed
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 stories
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 terms
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 thank-you-advisor
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 thank-you
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+390x664 yachts
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 404
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 about
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 advisors
+   small tap target 39x52: a "Proof"
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 email-advisor
+   small tap target 46x16: a "Privacy"
+
+360x640 email-owner
+   small tap target 46x16: a "Privacy"
+
+360x640 email-traveller
+   small tap target 46x16: a "Privacy"
+
+360x640 home
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 link-preview
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 north-sulawesi
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 plan
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 privacy
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 raja-ampat
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 state-form-errors
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 state-form-failed
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 stories
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 terms
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 thank-you-advisor
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 thank-you
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+360x640 yachts
+   small tap target 29x52: a "FAQ"
+   small tap target 29x44: a "FAQ"
+   small tap target 38x44: a "Email"
+
+TOTAL 126
+exit=0

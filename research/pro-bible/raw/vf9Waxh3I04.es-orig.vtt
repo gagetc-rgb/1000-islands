@@ -1,0 +1,1888 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.080 --> 00:00:01.709 align:start position:0%
+ 
+Hola<00:00:00.320><c> a</c><00:00:00.399><c> todos</c><00:00:00.640><c> bienvenidos</c><00:00:01.120><c> al</c><00:00:01.240><c> diccionario</c>
+
+00:00:01.709 --> 00:00:01.719 align:start position:0%
+Hola a todos bienvenidos al diccionario
+ 
+
+00:00:01.719 --> 00:00:03.550 align:start position:0%
+Hola a todos bienvenidos al diccionario
+del<00:00:01.880><c> hacking</c><00:00:02.280><c> ético</c><00:00:02.760><c> hoy</c><00:00:02.960><c> vamos</c><00:00:03.120><c> a</c><00:00:03.240><c> hablar</c><00:00:03.439><c> del</c>
+
+00:00:03.550 --> 00:00:03.560 align:start position:0%
+del hacking ético hoy vamos a hablar del
+ 
+
+00:00:03.560 --> 00:00:07.030 align:start position:0%
+del hacking ético hoy vamos a hablar del
+owas<00:00:04.400><c> top</c><00:00:04.680><c> 10</c><00:00:05.319><c> que</c><00:00:05.560><c> básicamente</c><00:00:06.319><c> son</c><00:00:06.520><c> las</c><00:00:06.680><c> 10</c>
+
+00:00:07.030 --> 00:00:07.040 align:start position:0%
+owas top 10 que básicamente son las 10
+ 
+
+00:00:07.040 --> 00:00:09.310 align:start position:0%
+owas top 10 que básicamente son las 10
+vulnerabilidades<00:00:08.000><c> críticas</c><00:00:08.480><c> más</c><00:00:08.679><c> comunes</c><00:00:09.080><c> en</c>
+
+00:00:09.310 --> 00:00:09.320 align:start position:0%
+vulnerabilidades críticas más comunes en
+ 
+
+00:00:09.320 --> 00:00:11.470 align:start position:0%
+vulnerabilidades críticas más comunes en
+páginas<00:00:09.760><c> web</c><00:00:10.200><c> si</c><00:00:10.400><c> quieres</c><00:00:10.639><c> ser</c><00:00:10.759><c> hacker</c><00:00:11.240><c> ético</c>
+
+00:00:11.470 --> 00:00:11.480 align:start position:0%
+páginas web si quieres ser hacker ético
+ 
+
+00:00:11.480 --> 00:00:13.789 align:start position:0%
+páginas web si quieres ser hacker ético
+pentester<00:00:12.160><c> o</c><00:00:12.440><c> incluso</c><00:00:12.759><c> desarrollador</c><00:00:13.360><c> web</c>
+
+00:00:13.789 --> 00:00:13.799 align:start position:0%
+pentester o incluso desarrollador web
+ 
+
+00:00:13.799 --> 00:00:15.990 align:start position:0%
+pentester o incluso desarrollador web
+Este<00:00:14.000><c> vídeo</c><00:00:14.400><c> te</c><00:00:14.559><c> va</c><00:00:14.719><c> a</c><00:00:14.839><c> interesar</c><00:00:15.400><c> en</c><00:00:15.639><c> este</c>
+
+00:00:15.990 --> 00:00:16.000 align:start position:0%
+Este vídeo te va a interesar en este
+ 
+
+00:00:16.000 --> 00:00:17.910 align:start position:0%
+Este vídeo te va a interesar en este
+vídeo<00:00:16.279><c> Te</c><00:00:16.359><c> quiero</c><00:00:16.600><c> explicar</c><00:00:17.199><c> estos</c><00:00:17.480><c> conceptos</c>
+
+00:00:17.910 --> 00:00:17.920 align:start position:0%
+vídeo Te quiero explicar estos conceptos
+ 
+
+00:00:17.920 --> 00:00:20.269 align:start position:0%
+vídeo Te quiero explicar estos conceptos
+de<00:00:18.080><c> manera</c><00:00:18.480><c> más</c><00:00:18.680><c> sencilla</c><00:00:19.160><c> posible</c><00:00:19.840><c> para</c><00:00:20.039><c> que</c>
+
+00:00:20.269 --> 00:00:20.279 align:start position:0%
+de manera más sencilla posible para que
+ 
+
+00:00:20.279 --> 00:00:22.670 align:start position:0%
+de manera más sencilla posible para que
+personas<00:00:20.720><c> técnicas</c><00:00:21.439><c> y</c><00:00:21.640><c> no</c><00:00:21.840><c> técnicas</c><00:00:22.279><c> puedan</c>
+
+00:00:22.670 --> 00:00:22.680 align:start position:0%
+personas técnicas y no técnicas puedan
+ 
+
+00:00:22.680 --> 00:00:24.830 align:start position:0%
+personas técnicas y no técnicas puedan
+entender<00:00:23.000><c> estas</c><00:00:23.320><c> vulnerabilidades</c><00:00:24.320><c> además</c>
+
+00:00:24.830 --> 00:00:24.840 align:start position:0%
+entender estas vulnerabilidades además
+ 
+
+00:00:24.840 --> 00:00:26.750 align:start position:0%
+entender estas vulnerabilidades además
+al<00:00:25.039><c> final</c><00:00:25.279><c> del</c><00:00:25.480><c> vídeo</c><00:00:25.760><c> te</c><00:00:25.920><c> voy</c><00:00:26.080><c> a</c><00:00:26.160><c> regalar</c><00:00:26.560><c> un</c>
+
+00:00:26.750 --> 00:00:26.760 align:start position:0%
+al final del vídeo te voy a regalar un
+ 
+
+00:00:26.760 --> 00:00:28.550 align:start position:0%
+al final del vídeo te voy a regalar un
+recurso<00:00:27.439><c> para</c><00:00:27.640><c> que</c><00:00:27.720><c> puedas</c><00:00:28.080><c> aprender</c><00:00:28.439><c> de</c>
+
+00:00:28.550 --> 00:00:28.560 align:start position:0%
+recurso para que puedas aprender de
+ 
+
+00:00:28.560 --> 00:00:34.709 align:start position:0%
+recurso para que puedas aprender de
+manera<00:00:28.840><c> sencilla</c><00:00:29.359><c> estas</c><00:00:29.679><c> 10</c>
+
+00:00:34.709 --> 00:00:34.719 align:start position:0%
+ 
+ 
+
+00:00:34.719 --> 00:00:37.950 align:start position:0%
+ 
+vulnerabilidades<00:00:35.719><c> el</c><00:00:36.480><c> owas</c><00:00:36.960><c> top</c><00:00:37.160><c> 10</c><00:00:37.399><c> es</c><00:00:37.559><c> una</c>
+
+00:00:37.950 --> 00:00:37.960 align:start position:0%
+vulnerabilidades el owas top 10 es una
+ 
+
+00:00:37.960 --> 00:00:39.790 align:start position:0%
+vulnerabilidades el owas top 10 es una
+iniciativa<00:00:38.440><c> de</c><00:00:38.559><c> la</c><00:00:38.680><c> organización</c><00:00:39.200><c> sin</c><00:00:39.480><c> ánimo</c>
+
+00:00:39.790 --> 00:00:39.800 align:start position:0%
+iniciativa de la organización sin ánimo
+ 
+
+00:00:39.800 --> 00:00:42.350 align:start position:0%
+iniciativa de la organización sin ánimo
+de<00:00:39.960><c> lucro</c><00:00:40.360><c> Open</c><00:00:40.760><c> web</c><00:00:41.079><c> application</c><00:00:41.719><c> Security</c>
+
+00:00:42.350 --> 00:00:42.360 align:start position:0%
+de lucro Open web application Security
+ 
+
+00:00:42.360 --> 00:00:44.549 align:start position:0%
+de lucro Open web application Security
+project<00:00:42.800><c> que</c><00:00:42.920><c> es</c><00:00:43.000><c> owasp</c><00:00:43.920><c> que</c><00:00:44.079><c> tiene</c><00:00:44.360><c> como</c>
+
+00:00:44.549 --> 00:00:44.559 align:start position:0%
+project que es owasp que tiene como
+ 
+
+00:00:44.559 --> 00:00:46.990 align:start position:0%
+project que es owasp que tiene como
+objetivo<00:00:45.120><c> Identificar</c><00:00:45.640><c> y</c><00:00:46.039><c> difundir</c><00:00:46.480><c> las</c><00:00:46.680><c> 10</c>
+
+00:00:46.990 --> 00:00:47.000 align:start position:0%
+objetivo Identificar y difundir las 10
+ 
+
+00:00:47.000 --> 00:00:48.910 align:start position:0%
+objetivo Identificar y difundir las 10
+vulnerabilidades<00:00:47.960><c> de</c><00:00:48.120><c> seguridad</c><00:00:48.680><c> más</c>
+
+00:00:48.910 --> 00:00:48.920 align:start position:0%
+vulnerabilidades de seguridad más
+ 
+
+00:00:48.920 --> 00:00:50.990 align:start position:0%
+vulnerabilidades de seguridad más
+críticas<00:00:49.640><c> que</c><00:00:49.800><c> afectan</c><00:00:50.199><c> a</c><00:00:50.360><c> las</c><00:00:50.520><c> aplicaciones</c>
+
+00:00:50.990 --> 00:00:51.000 align:start position:0%
+críticas que afectan a las aplicaciones
+ 
+
+00:00:51.000 --> 00:00:54.150 align:start position:0%
+críticas que afectan a las aplicaciones
+web<00:00:51.239><c> el</c><00:00:51.760><c> L</c><00:00:52.239><c> top</c><00:00:52.440><c> 10</c><00:00:52.840><c> se</c><00:00:52.920><c> basa</c><00:00:53.199><c> en</c><00:00:53.320><c> el</c><00:00:53.520><c> análisis</c>
+
+00:00:54.150 --> 00:00:54.160 align:start position:0%
+web el L top 10 se basa en el análisis
+ 
+
+00:00:54.160 --> 00:00:56.110 align:start position:0%
+web el L top 10 se basa en el análisis
+de<00:00:54.280><c> datos</c><00:00:54.520><c> de</c><00:00:54.760><c> cientos</c><00:00:55.120><c> de</c><00:00:55.239><c> organizaciones</c><00:00:56.000><c> y</c>
+
+00:00:56.110 --> 00:00:56.120 align:start position:0%
+de datos de cientos de organizaciones y
+ 
+
+00:00:56.120 --> 00:00:58.229 align:start position:0%
+de datos de cientos de organizaciones y
+miles<00:00:56.440><c> de</c><00:00:56.559><c> vulnerabilidades</c><00:00:57.520><c> reportadas</c><00:00:58.120><c> por</c>
+
+00:00:58.229 --> 00:00:58.239 align:start position:0%
+miles de vulnerabilidades reportadas por
+ 
+
+00:00:58.239 --> 00:00:59.990 align:start position:0%
+miles de vulnerabilidades reportadas por
+expertos<00:00:58.680><c> de</c><00:00:58.800><c> seguridad</c><00:00:59.239><c> de</c><00:00:59.399><c> todo</c><00:00:59.600><c> el</c><00:00:59.680><c> mundo</c>
+
+00:00:59.990 --> 00:01:00.000 align:start position:0%
+expertos de seguridad de todo el mundo
+ 
+
+00:01:00.000 --> 00:01:02.189 align:start position:0%
+expertos de seguridad de todo el mundo
+mundo<00:01:00.440><c> el</c><00:01:00.640><c> propósito</c><00:01:01.079><c> de</c><00:01:01.239><c> lowas</c><00:01:01.920><c> es</c>
+
+00:01:02.189 --> 00:01:02.199 align:start position:0%
+mundo el propósito de lowas es
+ 
+
+00:01:02.199 --> 00:01:04.109 align:start position:0%
+mundo el propósito de lowas es
+concienciar<00:01:02.840><c> a</c><00:01:02.960><c> los</c><00:01:03.120><c> desarrolladores</c><00:01:03.840><c> y</c>
+
+00:01:04.109 --> 00:01:04.119 align:start position:0%
+concienciar a los desarrolladores y
+ 
+
+00:01:04.119 --> 00:01:06.350 align:start position:0%
+concienciar a los desarrolladores y
+administradores<00:01:04.960><c> auditores</c><00:01:05.519><c> e</c><00:01:05.680><c> incluso</c><00:01:06.000><c> los</c>
+
+00:01:06.350 --> 00:01:06.360 align:start position:0%
+administradores auditores e incluso los
+ 
+
+00:01:06.360 --> 00:01:08.630 align:start position:0%
+administradores auditores e incluso los
+usuarios<00:01:07.000><c> sobre</c><00:01:07.280><c> la</c><00:01:07.400><c> importancia</c><00:01:08.080><c> de</c><00:01:08.240><c> aplicar</c>
+
+00:01:08.630 --> 00:01:08.640 align:start position:0%
+usuarios sobre la importancia de aplicar
+ 
+
+00:01:08.640 --> 00:01:10.749 align:start position:0%
+usuarios sobre la importancia de aplicar
+medidas<00:01:09.040><c> de</c><00:01:09.200><c> seguridad</c><00:01:09.680><c> en</c><00:01:09.840><c> el</c><00:01:10.040><c> diseño</c>
+
+00:01:10.749 --> 00:01:10.759 align:start position:0%
+medidas de seguridad en el diseño
+ 
+
+00:01:10.759 --> 00:01:12.830 align:start position:0%
+medidas de seguridad en el diseño
+desarrollo<00:01:11.560><c> implementación</c><00:01:12.479><c> Y</c><00:01:12.640><c> el</c>
+
+00:01:12.830 --> 00:01:12.840 align:start position:0%
+desarrollo implementación Y el
+ 
+
+00:01:12.840 --> 00:01:15.070 align:start position:0%
+desarrollo implementación Y el
+mantenimiento<00:01:13.560><c> de</c><00:01:13.720><c> las</c><00:01:13.920><c> aplicaciones</c><00:01:14.439><c> web</c><00:01:14.920><c> la</c>
+
+00:01:15.070 --> 00:01:15.080 align:start position:0%
+mantenimiento de las aplicaciones web la
+ 
+
+00:01:15.080 --> 00:01:17.109 align:start position:0%
+mantenimiento de las aplicaciones web la
+primera<00:01:15.439><c> vulnerabilidad</c><00:01:16.360><c> es</c><00:01:16.479><c> el</c><00:01:16.799><c> control</c><00:01:16.960><c> de</c>
+
+00:01:17.109 --> 00:01:17.119 align:start position:0%
+primera vulnerabilidad es el control de
+ 
+
+00:01:17.119 --> 00:01:19.870 align:start position:0%
+primera vulnerabilidad es el control de
+acceso<00:01:17.680><c> roto</c><00:01:18.320><c> básicamente</c><00:01:19.080><c> ocurre</c><00:01:19.479><c> cuando</c><00:01:19.720><c> un</c>
+
+00:01:19.870 --> 00:01:19.880 align:start position:0%
+acceso roto básicamente ocurre cuando un
+ 
+
+00:01:19.880 --> 00:01:21.950 align:start position:0%
+acceso roto básicamente ocurre cuando un
+usuario<00:01:20.240><c> no</c><00:01:20.560><c> autorizado</c><00:01:21.079><c> Puede</c><00:01:21.400><c> acceder</c><00:01:21.799><c> a</c>
+
+00:01:21.950 --> 00:01:21.960 align:start position:0%
+usuario no autorizado Puede acceder a
+ 
+
+00:01:21.960 --> 00:01:24.149 align:start position:0%
+usuario no autorizado Puede acceder a
+recursos<00:01:22.479><c> o</c><00:01:22.720><c> funcionalidades</c><00:01:23.720><c> que</c><00:01:23.960><c> no</c><00:01:24.079><c> le</c>
+
+00:01:24.149 --> 00:01:24.159 align:start position:0%
+recursos o funcionalidades que no le
+ 
+
+00:01:24.159 --> 00:01:26.030 align:start position:0%
+recursos o funcionalidades que no le
+corresponden<00:01:25.000><c> imagina</c><00:01:25.479><c> que</c><00:01:25.560><c> estás</c><00:01:25.759><c> en</c><00:01:25.880><c> una</c>
+
+00:01:26.030 --> 00:01:26.040 align:start position:0%
+corresponden imagina que estás en una
+ 
+
+00:01:26.040 --> 00:01:28.830 align:start position:0%
+corresponden imagina que estás en una
+tienda<00:01:26.280><c> online</c><00:01:26.640><c> y</c><00:01:26.799><c> tu</c><00:01:26.920><c> usuario</c><00:01:27.240><c> es</c><00:01:27.320><c> el</c><00:01:27.600><c> 123</c><00:01:28.600><c> tú</c>
+
+00:01:28.830 --> 00:01:28.840 align:start position:0%
+tienda online y tu usuario es el 123 tú
+ 
+
+00:01:28.840 --> 00:01:30.710 align:start position:0%
+tienda online y tu usuario es el 123 tú
+como<00:01:29.040><c> usuario</c><00:01:29.400><c> que</c><00:01:29.479><c> está</c><00:01:29.880><c> logueado</c><00:01:30.479><c> solo</c>
+
+00:01:30.710 --> 00:01:30.720 align:start position:0%
+como usuario que está logueado solo
+ 
+
+00:01:30.720 --> 00:01:32.910 align:start position:0%
+como usuario que está logueado solo
+puedes<00:01:31.040><c> ver</c><00:01:31.200><c> tus</c><00:01:31.400><c> pedidos</c><00:01:31.799><c> y</c><00:01:32.000><c> tus</c><00:01:32.200><c> datos</c><00:01:32.680><c> Pero</c>
+
+00:01:32.910 --> 00:01:32.920 align:start position:0%
+puedes ver tus pedidos y tus datos Pero
+ 
+
+00:01:32.920 --> 00:01:34.749 align:start position:0%
+puedes ver tus pedidos y tus datos Pero
+qué<00:01:33.079><c> ocurre</c><00:01:33.479><c> si</c><00:01:33.600><c> puedes</c><00:01:33.880><c> ver</c><00:01:34.079><c> los</c><00:01:34.200><c> datos</c><00:01:34.479><c> y</c>
+
+00:01:34.749 --> 00:01:34.759 align:start position:0%
+qué ocurre si puedes ver los datos y
+ 
+
+00:01:34.759 --> 00:01:37.510 align:start position:0%
+qué ocurre si puedes ver los datos y
+pedidos<00:01:35.159><c> del</c><00:01:35.360><c> usuario</c><00:01:35.920><c> 321</c><00:01:36.920><c> aquí</c><00:01:37.159><c> es</c><00:01:37.280><c> donde</c>
+
+00:01:37.510 --> 00:01:37.520 align:start position:0%
+pedidos del usuario 321 aquí es donde
+ 
+
+00:01:37.520 --> 00:01:39.429 align:start position:0%
+pedidos del usuario 321 aquí es donde
+aparece<00:01:37.960><c> esta</c><00:01:38.159><c> vulnerabilidad</c><00:01:39.119><c> poder</c>
+
+00:01:39.429 --> 00:01:39.439 align:start position:0%
+aparece esta vulnerabilidad poder
+ 
+
+00:01:39.439 --> 00:01:41.469 align:start position:0%
+aparece esta vulnerabilidad poder
+acceder<00:01:39.759><c> a</c><00:01:40.040><c> información</c><00:01:40.600><c> que</c><00:01:40.720><c> a</c><00:01:40.920><c> priori</c><00:01:41.360><c> no</c>
+
+00:01:41.469 --> 00:01:41.479 align:start position:0%
+acceder a información que a priori no
+ 
+
+00:01:41.479 --> 00:01:43.310 align:start position:0%
+acceder a información que a priori no
+deberías<00:01:41.960><c> de</c><00:01:42.119><c> tener</c><00:01:42.360><c> acceso</c><00:01:42.880><c> la</c><00:01:43.000><c> segunda</c>
+
+00:01:43.310 --> 00:01:43.320 align:start position:0%
+deberías de tener acceso la segunda
+ 
+
+00:01:43.320 --> 00:01:45.429 align:start position:0%
+deberías de tener acceso la segunda
+vulnerabilidad<00:01:44.119><c> es</c><00:01:44.360><c> el</c><00:01:44.520><c> ataque</c><00:01:44.799><c> de</c><00:01:45.040><c> fallos</c>
+
+00:01:45.429 --> 00:01:45.439 align:start position:0%
+vulnerabilidad es el ataque de fallos
+ 
+
+00:01:45.439 --> 00:01:47.910 align:start position:0%
+vulnerabilidad es el ataque de fallos
+criptográficos<00:01:46.360><c> y</c><00:01:46.560><c> abarca</c><00:01:47.200><c> todos</c><00:01:47.479><c> los</c><00:01:47.640><c> datos</c>
+
+00:01:47.910 --> 00:01:47.920 align:start position:0%
+criptográficos y abarca todos los datos
+ 
+
+00:01:47.920 --> 00:01:49.469 align:start position:0%
+criptográficos y abarca todos los datos
+que<00:01:48.040><c> podrían</c><00:01:48.439><c> quedar</c><00:01:48.719><c> expuestos</c><00:01:49.280><c> sin</c>
+
+00:01:49.469 --> 00:01:49.479 align:start position:0%
+que podrían quedar expuestos sin
+ 
+
+00:01:49.479 --> 00:01:51.910 align:start position:0%
+que podrían quedar expuestos sin
+protección<00:01:49.920><c> ni</c><00:01:50.280><c> cifrado</c><00:01:51.000><c> y</c><00:01:51.200><c> que</c><00:01:51.320><c> poseen</c><00:01:51.799><c> un</c>
+
+00:01:51.910 --> 00:01:51.920 align:start position:0%
+protección ni cifrado y que poseen un
+ 
+
+00:01:51.920 --> 00:01:53.910 align:start position:0%
+protección ni cifrado y que poseen un
+valor<00:01:52.200><c> significativo</c><00:01:52.880><c> para</c><00:01:53.040><c> la</c><00:01:53.200><c> entidad</c><00:01:53.479><c> o</c>
+
+00:01:53.910 --> 00:01:53.920 align:start position:0%
+valor significativo para la entidad o
+ 
+
+00:01:53.920 --> 00:01:55.990 align:start position:0%
+valor significativo para la entidad o
+individuo<00:01:54.520><c> propietario</c><00:01:55.000><c> de</c><00:01:55.079><c> los</c><00:01:55.240><c> mismos</c>
+
+00:01:55.990 --> 00:01:56.000 align:start position:0%
+individuo propietario de los mismos
+ 
+
+00:01:56.000 --> 00:01:57.590 align:start position:0%
+individuo propietario de los mismos
+algunos<00:01:56.399><c> ejemplos</c><00:01:56.799><c> incluyen</c><00:01:57.240><c> datos</c>
+
+00:01:57.590 --> 00:01:57.600 align:start position:0%
+algunos ejemplos incluyen datos
+ 
+
+00:01:57.600 --> 00:01:59.029 align:start position:0%
+algunos ejemplos incluyen datos
+bancarios<00:01:58.240><c> información</c><00:01:58.719><c> personal</c>
+
+00:01:59.029 --> 00:01:59.039 align:start position:0%
+bancarios información personal
+ 
+
+00:01:59.039 --> 00:02:01.310 align:start position:0%
+bancarios información personal
+credencial<00:01:59.640><c> de</c><00:01:59.840><c> de</c><00:01:59.920><c> usuario</c><00:02:00.600><c> contraseñas</c><00:02:01.159><c> o</c>
+
+00:02:01.310 --> 00:02:01.320 align:start position:0%
+credencial de de usuario contraseñas o
+ 
+
+00:02:01.320 --> 00:02:03.429 align:start position:0%
+credencial de de usuario contraseñas o
+base<00:02:01.680><c> de</c><00:02:01.759><c> datos</c><00:02:02.240><c> para</c><00:02:02.399><c> prevenir</c><00:02:02.960><c> los</c><00:02:03.119><c> ataques</c>
+
+00:02:03.429 --> 00:02:03.439 align:start position:0%
+base de datos para prevenir los ataques
+ 
+
+00:02:03.439 --> 00:02:05.510 align:start position:0%
+base de datos para prevenir los ataques
+de<00:02:03.560><c> fallos</c><00:02:03.960><c> criptográficos</c><00:02:04.840><c> es</c><00:02:05.000><c> recomendado</c>
+
+00:02:05.510 --> 00:02:05.520 align:start position:0%
+de fallos criptográficos es recomendado
+ 
+
+00:02:05.520 --> 00:02:07.670 align:start position:0%
+de fallos criptográficos es recomendado
+utilizar<00:02:05.960><c> protección</c><00:02:06.439><c> al</c><00:02:06.719><c> servidor</c><00:02:07.119><c> web</c><00:02:07.479><c> lo</c>
+
+00:02:07.670 --> 00:02:07.680 align:start position:0%
+utilizar protección al servidor web lo
+ 
+
+00:02:07.680 --> 00:02:09.869 align:start position:0%
+utilizar protección al servidor web lo
+que<00:02:07.880><c> se</c><00:02:08.039><c> conoce</c><00:02:08.280><c> como</c><00:02:08.440><c> hardening</c><00:02:09.440><c> que</c><00:02:09.679><c> esto</c>
+
+00:02:09.869 --> 00:02:09.879 align:start position:0%
+que se conoce como hardening que esto
+ 
+
+00:02:09.879 --> 00:02:12.190 align:start position:0%
+que se conoce como hardening que esto
+implica<00:02:10.440><c> configuraciones</c><00:02:11.160><c> seguras</c><00:02:11.640><c> ajustes</c>
+
+00:02:12.190 --> 00:02:12.200 align:start position:0%
+implica configuraciones seguras ajustes
+ 
+
+00:02:12.200 --> 00:02:14.110 align:start position:0%
+implica configuraciones seguras ajustes
+para<00:02:12.440><c> desactivar</c><00:02:13.080><c> servicios</c><00:02:13.520><c> que</c><00:02:13.800><c> no</c><00:02:13.920><c> son</c>
+
+00:02:14.110 --> 00:02:14.120 align:start position:0%
+para desactivar servicios que no son
+ 
+
+00:02:14.120 --> 00:02:16.430 align:start position:0%
+para desactivar servicios que no son
+esenciales<00:02:14.879><c> actualizaciones</c><00:02:15.760><c> y</c><00:02:15.920><c> parches</c>
+
+00:02:16.430 --> 00:02:16.440 align:start position:0%
+esenciales actualizaciones y parches
+ 
+
+00:02:16.440 --> 00:02:18.350 align:start position:0%
+esenciales actualizaciones y parches
+mantener<00:02:16.840><c> el</c><00:02:16.959><c> sistema</c><00:02:17.400><c> actualizado</c><00:02:18.040><c> con</c><00:02:18.160><c> las</c>
+
+00:02:18.350 --> 00:02:18.360 align:start position:0%
+mantener el sistema actualizado con las
+ 
+
+00:02:18.360 --> 00:02:20.270 align:start position:0%
+mantener el sistema actualizado con las
+últimas<00:02:18.720><c> correcciones</c><00:02:19.239><c> de</c><00:02:19.360><c> seguridad</c>
+
+00:02:20.270 --> 00:02:20.280 align:start position:0%
+últimas correcciones de seguridad
+ 
+
+00:02:20.280 --> 00:02:21.990 align:start position:0%
+últimas correcciones de seguridad
+políticas<00:02:20.800><c> de</c><00:02:21.080><c> contraseñas</c><00:02:21.519><c> seguras</c>
+
+00:02:21.990 --> 00:02:22.000 align:start position:0%
+políticas de contraseñas seguras
+ 
+
+00:02:22.000 --> 00:02:23.949 align:start position:0%
+políticas de contraseñas seguras
+establecer<00:02:22.680><c> contraseñas</c><00:02:23.080><c> que</c><00:02:23.200><c> son</c><00:02:23.480><c> que</c><00:02:23.800><c> son</c>
+
+00:02:23.949 --> 00:02:23.959 align:start position:0%
+establecer contraseñas que son que son
+ 
+
+00:02:23.959 --> 00:02:25.869 align:start position:0%
+establecer contraseñas que son que son
+complicadas<00:02:24.519><c> y</c><00:02:24.800><c> cambiarlas</c><00:02:25.360><c> regularmente</c>
+
+00:02:25.869 --> 00:02:25.879 align:start position:0%
+complicadas y cambiarlas regularmente
+ 
+
+00:02:25.879 --> 00:02:28.470 align:start position:0%
+complicadas y cambiarlas regularmente
+gestión<00:02:26.879><c> de</c><00:02:27.000><c> acceso</c><00:02:27.319><c> y</c><00:02:27.400><c> los</c><00:02:27.560><c> permisos</c><00:02:28.080><c> limitar</c>
+
+00:02:28.470 --> 00:02:28.480 align:start position:0%
+gestión de acceso y los permisos limitar
+ 
+
+00:02:28.480 --> 00:02:30.229 align:start position:0%
+gestión de acceso y los permisos limitar
+el<00:02:28.560><c> acceso</c><00:02:28.879><c> y</c><00:02:29.000><c> privilegios</c><00:02:29.519><c> a</c><00:02:29.920><c> personas</c>
+
+00:02:30.229 --> 00:02:30.239 align:start position:0%
+el acceso y privilegios a personas
+ 
+
+00:02:30.239 --> 00:02:32.750 align:start position:0%
+el acceso y privilegios a personas
+solamente<00:02:30.760><c> autorizadas</c><00:02:31.760><c> cifrado</c><00:02:32.280><c> de</c><00:02:32.400><c> datos</c>
+
+00:02:32.750 --> 00:02:32.760 align:start position:0%
+solamente autorizadas cifrado de datos
+ 
+
+00:02:32.760 --> 00:02:34.670 align:start position:0%
+solamente autorizadas cifrado de datos
+proteger<00:02:33.319><c> información</c><00:02:33.840><c> sensible</c><00:02:34.319><c> mediante</c>
+
+00:02:34.670 --> 00:02:34.680 align:start position:0%
+proteger información sensible mediante
+ 
+
+00:02:34.680 --> 00:02:36.990 align:start position:0%
+proteger información sensible mediante
+este<00:02:34.879><c> cifrado</c><00:02:35.440><c> Y</c><00:02:35.560><c> por</c><00:02:35.680><c> último</c><00:02:36.160><c> auditorías</c><00:02:36.800><c> y</c>
+
+00:02:36.990 --> 00:02:37.000 align:start position:0%
+este cifrado Y por último auditorías y
+ 
+
+00:02:37.000 --> 00:02:39.390 align:start position:0%
+este cifrado Y por último auditorías y
+monitorización<00:02:38.000><c> registrar</c><00:02:38.680><c> y</c><00:02:38.800><c> revisar</c>
+
+00:02:39.390 --> 00:02:39.400 align:start position:0%
+monitorización registrar y revisar
+ 
+
+00:02:39.400 --> 00:02:41.270 align:start position:0%
+monitorización registrar y revisar
+actividades<00:02:40.000><c> para</c><00:02:40.200><c> detectar</c><00:02:40.760><c> posibles</c>
+
+00:02:41.270 --> 00:02:41.280 align:start position:0%
+actividades para detectar posibles
+ 
+
+00:02:41.280 --> 00:02:43.509 align:start position:0%
+actividades para detectar posibles
+intrusos<00:02:42.080><c> la</c><00:02:42.200><c> tercera</c><00:02:42.519><c> vulnerabilidad</c><00:02:43.319><c> y</c>
+
+00:02:43.509 --> 00:02:43.519 align:start position:0%
+intrusos la tercera vulnerabilidad y
+ 
+
+00:02:43.519 --> 00:02:45.430 align:start position:0%
+intrusos la tercera vulnerabilidad y
+posiblemente<00:02:43.920><c> una</c><00:02:44.360><c> de</c><00:02:44.480><c> mis</c><00:02:44.640><c> favoritas</c><00:02:45.080><c> es</c><00:02:45.200><c> la</c>
+
+00:02:45.430 --> 00:02:45.440 align:start position:0%
+posiblemente una de mis favoritas es la
+ 
+
+00:02:45.440 --> 00:02:47.710 align:start position:0%
+posiblemente una de mis favoritas es la
+inyección<00:02:46.360><c> Quizás</c><00:02:46.720><c> te</c><00:02:46.879><c> suene</c><00:02:47.159><c> la</c><00:02:47.280><c> inyección</c>
+
+00:02:47.710 --> 00:02:47.720 align:start position:0%
+inyección Quizás te suene la inyección
+ 
+
+00:02:47.720 --> 00:02:51.030 align:start position:0%
+inyección Quizás te suene la inyección
+sql<00:02:48.440><c> ataques</c><00:02:48.879><c> xss</c><00:02:49.800><c> o</c><00:02:50.040><c> ejecución</c><00:02:50.560><c> remota</c><00:02:50.920><c> de</c>
+
+00:02:51.030 --> 00:02:51.040 align:start position:0%
+sql ataques xss o ejecución remota de
+ 
+
+00:02:51.040 --> 00:02:53.390 align:start position:0%
+sql ataques xss o ejecución remota de
+comandos<00:02:51.680><c> en</c><00:02:51.920><c> resumen</c><00:02:52.519><c> esta</c><00:02:52.760><c> vulnerabilidad</c>
+
+00:02:53.390 --> 00:02:53.400 align:start position:0%
+comandos en resumen esta vulnerabilidad
+ 
+
+00:02:53.400 --> 00:02:55.869 align:start position:0%
+comandos en resumen esta vulnerabilidad
+permite<00:02:53.800><c> ejecutar</c><00:02:54.280><c> código</c><00:02:54.720><c> en</c><00:02:54.879><c> el</c><00:02:55.000><c> servidor</c><00:02:55.599><c> o</c>
+
+00:02:55.869 --> 00:02:55.879 align:start position:0%
+permite ejecutar código en el servidor o
+ 
+
+00:02:55.879 --> 00:02:58.270 align:start position:0%
+permite ejecutar código en el servidor o
+en<00:02:56.080><c> el</c><00:02:56.360><c> navegador</c><00:02:57.360><c> Comencemos</c><00:02:57.920><c> con</c><00:02:58.040><c> las</c>
+
+00:02:58.270 --> 00:02:58.280 align:start position:0%
+en el navegador Comencemos con las
+ 
+
+00:02:58.280 --> 00:03:00.670 align:start position:0%
+en el navegador Comencemos con las
+inyecciones<00:02:58.959><c> al</c><00:02:59.200><c> servidor</c><00:02:59.959><c> las</c><00:03:00.120><c> inyecciones</c>
+
+00:03:00.670 --> 00:03:00.680 align:start position:0%
+inyecciones al servidor las inyecciones
+ 
+
+00:03:00.680 --> 00:03:03.550 align:start position:0%
+inyecciones al servidor las inyecciones
+sql<00:03:01.560><c> te</c><00:03:01.680><c> permiten</c><00:03:02.159><c> consultar</c><00:03:02.920><c> datos</c><00:03:03.200><c> de</c><00:03:03.400><c> la</c>
+
+00:03:03.550 --> 00:03:03.560 align:start position:0%
+sql te permiten consultar datos de la
+ 
+
+00:03:03.560 --> 00:03:05.830 align:start position:0%
+sql te permiten consultar datos de la
+base<00:03:03.799><c> de</c><00:03:03.920><c> datos</c><00:03:04.239><c> Y</c><00:03:04.400><c> obtener</c><00:03:04.879><c> información</c><00:03:05.560><c> del</c>
+
+00:03:05.830 --> 00:03:05.840 align:start position:0%
+base de datos Y obtener información del
+ 
+
+00:03:05.840 --> 00:03:08.350 align:start position:0%
+base de datos Y obtener información del
+propio<00:03:06.200><c> servidor</c><00:03:06.920><c> Como</c><00:03:07.120><c> por</c><00:03:07.239><c> ejemplo</c><00:03:08.000><c> base</c><00:03:08.280><c> de</c>
+
+00:03:08.350 --> 00:03:08.360 align:start position:0%
+propio servidor Como por ejemplo base de
+ 
+
+00:03:08.360 --> 00:03:11.390 align:start position:0%
+propio servidor Como por ejemplo base de
+datos<00:03:08.519><c> de</c><00:03:08.599><c> My</c><00:03:09.000><c> sql</c><00:03:09.400><c> o</c><00:03:09.519><c> Marí</c><00:03:09.920><c> db</c><00:03:10.840><c> los</c><00:03:11.000><c> que</c><00:03:11.080><c> vienen</c>
+
+00:03:11.390 --> 00:03:11.400 align:start position:0%
+datos de My sql o Marí db los que vienen
+ 
+
+00:03:11.400 --> 00:03:13.309 align:start position:0%
+datos de My sql o Marí db los que vienen
+del<00:03:11.560><c> lado</c><00:03:11.760><c> del</c><00:03:11.920><c> navegador</c><00:03:12.480><c> suceden</c><00:03:12.959><c> cuando</c><00:03:13.159><c> el</c>
+
+00:03:13.309 --> 00:03:13.319 align:start position:0%
+del lado del navegador suceden cuando el
+ 
+
+00:03:13.319 --> 00:03:15.229 align:start position:0%
+del lado del navegador suceden cuando el
+atacante<00:03:13.840><c> puede</c><00:03:14.159><c> ejecutar</c><00:03:14.640><c> acciones</c><00:03:15.000><c> en</c>
+
+00:03:15.229 --> 00:03:15.239 align:start position:0%
+atacante puede ejecutar acciones en
+ 
+
+00:03:15.239 --> 00:03:17.229 align:start position:0%
+atacante puede ejecutar acciones en
+nombre<00:03:15.519><c> de</c><00:03:15.840><c> dicho</c><00:03:16.159><c> usuario</c><00:03:16.680><c> robar</c><00:03:17.000><c> sus</c>
+
+00:03:17.229 --> 00:03:17.239 align:start position:0%
+nombre de dicho usuario robar sus
+ 
+
+00:03:17.239 --> 00:03:19.270 align:start position:0%
+nombre de dicho usuario robar sus
+cookies<00:03:17.560><c> o</c><00:03:17.920><c> sesiones</c><00:03:18.720><c> Modificar</c><00:03:19.200><c> el</c>
+
+00:03:19.270 --> 00:03:19.280 align:start position:0%
+cookies o sesiones Modificar el
+ 
+
+00:03:19.280 --> 00:03:20.990 align:start position:0%
+cookies o sesiones Modificar el
+contenido<00:03:19.680><c> o</c><00:03:19.879><c> el</c><00:03:20.000><c> aspecto</c><00:03:20.319><c> de</c><00:03:20.400><c> la</c><00:03:20.519><c> página</c>
+
+00:03:20.990 --> 00:03:21.000 align:start position:0%
+contenido o el aspecto de la página
+ 
+
+00:03:21.000 --> 00:03:23.710 align:start position:0%
+contenido o el aspecto de la página
+redirigir<00:03:21.840><c> a</c><00:03:21.959><c> sitios</c><00:03:22.319><c> maliciosos</c><00:03:22.840><c> o</c><00:03:23.040><c> incluso</c>
+
+00:03:23.710 --> 00:03:23.720 align:start position:0%
+redirigir a sitios maliciosos o incluso
+ 
+
+00:03:23.720 --> 00:03:25.270 align:start position:0%
+redirigir a sitios maliciosos o incluso
+instalar<00:03:24.040><c> malware</c><00:03:24.879><c> la</c><00:03:25.040><c> cuarta</c>
+
+00:03:25.270 --> 00:03:25.280 align:start position:0%
+instalar malware la cuarta
+ 
+
+00:03:25.280 --> 00:03:27.710 align:start position:0%
+instalar malware la cuarta
+vulnerabilidad<00:03:26.120><c> es</c><00:03:26.239><c> la</c><00:03:26.360><c> de</c><00:03:26.599><c> diseño</c><00:03:27.000><c> inseguro</c>
+
+00:03:27.710 --> 00:03:27.720 align:start position:0%
+vulnerabilidad es la de diseño inseguro
+ 
+
+00:03:27.720 --> 00:03:29.750 align:start position:0%
+vulnerabilidad es la de diseño inseguro
+esta<00:03:27.920><c> ocurre</c><00:03:28.319><c> cuando</c><00:03:28.560><c> los</c><00:03:28.680><c> desarrolladores</c><00:03:29.360><c> o</c>
+
+00:03:29.750 --> 00:03:29.760 align:start position:0%
+esta ocurre cuando los desarrolladores o
+ 
+
+00:03:29.760 --> 00:03:32.030 align:start position:0%
+esta ocurre cuando los desarrolladores o
+equipos<00:03:30.080><c> de</c><00:03:30.159><c> calidad</c><00:03:30.680><c> no</c><00:03:30.799><c> logran</c><00:03:31.280><c> anticipar</c><00:03:31.799><c> y</c>
+
+00:03:32.030 --> 00:03:32.040 align:start position:0%
+equipos de calidad no logran anticipar y
+ 
+
+00:03:32.040 --> 00:03:33.750 align:start position:0%
+equipos de calidad no logran anticipar y
+evaluar<00:03:32.480><c> la</c><00:03:32.640><c> lógica</c><00:03:33.040><c> detrás</c><00:03:33.439><c> de</c><00:03:33.599><c> una</c>
+
+00:03:33.750 --> 00:03:33.760 align:start position:0%
+evaluar la lógica detrás de una
+ 
+
+00:03:33.760 --> 00:03:36.949 align:start position:0%
+evaluar la lógica detrás de una
+aplicación<00:03:34.599><c> te</c><00:03:34.840><c> explico</c><00:03:35.680><c> Imagínate</c><00:03:36.400><c> que</c><00:03:36.799><c> que</c>
+
+00:03:36.949 --> 00:03:36.959 align:start position:0%
+aplicación te explico Imagínate que que
+ 
+
+00:03:36.959 --> 00:03:38.470 align:start position:0%
+aplicación te explico Imagínate que que
+estás<00:03:37.200><c> intentando</c><00:03:37.760><c> comprar</c><00:03:38.040><c> algo</c><00:03:38.200><c> en</c><00:03:38.360><c> una</c>
+
+00:03:38.470 --> 00:03:38.480 align:start position:0%
+estás intentando comprar algo en una
+ 
+
+00:03:38.480 --> 00:03:40.550 align:start position:0%
+estás intentando comprar algo en una
+página<00:03:38.799><c> web</c><00:03:39.080><c> y</c><00:03:39.200><c> solo</c><00:03:39.400><c> quedan</c><00:03:39.799><c> dos</c><00:03:40.040><c> unidades</c><00:03:40.439><c> de</c>
+
+00:03:40.550 --> 00:03:40.560 align:start position:0%
+página web y solo quedan dos unidades de
+ 
+
+00:03:40.560 --> 00:03:42.509 align:start position:0%
+página web y solo quedan dos unidades de
+ese<00:03:40.760><c> artículo</c><00:03:41.200><c> o</c><00:03:41.480><c> servicio</c><00:03:42.080><c> digamos</c><00:03:42.400><c> que</c>
+
+00:03:42.509 --> 00:03:42.519 align:start position:0%
+ese artículo o servicio digamos que
+ 
+
+00:03:42.519 --> 00:03:43.869 align:start position:0%
+ese artículo o servicio digamos que
+estás<00:03:42.799><c> reservando</c><00:03:43.239><c> las</c><00:03:43.360><c> vacaciones</c><00:03:43.760><c> de</c>
+
+00:03:43.869 --> 00:03:43.879 align:start position:0%
+estás reservando las vacaciones de
+ 
+
+00:03:43.879 --> 00:03:46.390 align:start position:0%
+estás reservando las vacaciones de
+Navidad<00:03:44.519><c> Qué</c><00:03:44.720><c> pasaría</c><00:03:45.120><c> si</c><00:03:45.239><c> reservará</c><00:03:45.840><c> 50</c>
+
+00:03:46.390 --> 00:03:46.400 align:start position:0%
+Navidad Qué pasaría si reservará 50
+ 
+
+00:03:46.400 --> 00:03:49.190 align:start position:0%
+Navidad Qué pasaría si reservará 50
+paquetes<00:03:46.760><c> de</c><00:03:46.920><c> ese</c><00:03:47.120><c> viaje</c><00:03:48.000><c> puede</c><00:03:48.319><c> que</c><00:03:48.720><c> que</c><00:03:48.920><c> no</c>
+
+00:03:49.190 --> 00:03:49.200 align:start position:0%
+paquetes de ese viaje puede que que no
+ 
+
+00:03:49.200 --> 00:03:51.910 align:start position:0%
+paquetes de ese viaje puede que que no
+no<00:03:49.400><c> parezca</c><00:03:49.840><c> problemático</c><00:03:50.519><c> pero</c><00:03:50.840><c> hacer</c><00:03:51.120><c> 150</c>
+
+00:03:51.910 --> 00:03:51.920 align:start position:0%
+no parezca problemático pero hacer 150
+ 
+
+00:03:51.920 --> 00:03:53.910 align:start position:0%
+no parezca problemático pero hacer 150
+reservas<00:03:52.319><c> de</c><00:03:52.519><c> algo</c><00:03:52.760><c> que</c><00:03:52.920><c> físicamente</c><00:03:53.720><c> solo</c>
+
+00:03:53.910 --> 00:03:53.920 align:start position:0%
+reservas de algo que físicamente solo
+ 
+
+00:03:53.920 --> 00:03:55.990 align:start position:0%
+reservas de algo que físicamente solo
+está<00:03:54.120><c> disponible</c><00:03:54.599><c> para</c><00:03:54.760><c> dos</c><00:03:55.000><c> personas</c><00:03:55.599><c> podría</c>
+
+00:03:55.990 --> 00:03:56.000 align:start position:0%
+está disponible para dos personas podría
+ 
+
+00:03:56.000 --> 00:03:58.030 align:start position:0%
+está disponible para dos personas podría
+convertirse<00:03:56.640><c> en</c><00:03:56.720><c> un</c><00:03:57.159><c> problemón</c><00:03:57.799><c> ahora</c>
+
+00:03:58.030 --> 00:03:58.040 align:start position:0%
+convertirse en un problemón ahora
+ 
+
+00:03:58.040 --> 00:03:59.910 align:start position:0%
+convertirse en un problemón ahora
+imagina<00:03:58.400><c> que</c><00:03:58.560><c> se</c><00:03:58.720><c> tratase</c><00:03:59.120><c> de</c><00:03:59.239><c> comida</c><00:03:59.760><c> a</c>
+
+00:03:59.910 --> 00:03:59.920 align:start position:0%
+imagina que se tratase de comida a
+ 
+
+00:03:59.920 --> 00:04:02.229 align:start position:0%
+imagina que se tratase de comida a
+domicilio<00:04:00.480><c> Sería</c><00:04:00.840><c> posible</c><00:04:01.200><c> hacerlo</c><00:04:01.799><c> piensa</c>
+
+00:04:02.229 --> 00:04:02.239 align:start position:0%
+domicilio Sería posible hacerlo piensa
+ 
+
+00:04:02.239 --> 00:04:03.949 align:start position:0%
+domicilio Sería posible hacerlo piensa
+en<00:04:02.360><c> todos</c><00:04:02.599><c> los</c><00:04:02.720><c> problemas</c><00:04:03.040><c> que</c><00:04:03.120><c> podría</c><00:04:03.560><c> surgir</c>
+
+00:04:03.949 --> 00:04:03.959 align:start position:0%
+en todos los problemas que podría surgir
+ 
+
+00:04:03.959 --> 00:04:06.309 align:start position:0%
+en todos los problemas que podría surgir
+a<00:04:04.079><c> partir</c><00:04:04.360><c> de</c><00:04:04.519><c> esta</c><00:04:04.760><c> vulnerabilidad</c><00:04:05.760><c> imagina</c>
+
+00:04:06.309 --> 00:04:06.319 align:start position:0%
+a partir de esta vulnerabilidad imagina
+ 
+
+00:04:06.319 --> 00:04:07.869 align:start position:0%
+a partir de esta vulnerabilidad imagina
+si<00:04:06.400><c> pudieras</c><00:04:06.799><c> encontrar</c><00:04:07.120><c> una</c><00:04:07.360><c> forma</c><00:04:07.720><c> de</c>
+
+00:04:07.869 --> 00:04:07.879 align:start position:0%
+si pudieras encontrar una forma de
+ 
+
+00:04:07.879 --> 00:04:09.710 align:start position:0%
+si pudieras encontrar una forma de
+eludir<00:04:08.280><c> las</c><00:04:08.400><c> limitaciones</c><00:04:08.920><c> de</c><00:04:09.040><c> una</c><00:04:09.239><c> web</c><00:04:09.439><c> o</c><00:04:09.599><c> de</c>
+
+00:04:09.710 --> 00:04:09.720 align:start position:0%
+eludir las limitaciones de una web o de
+ 
+
+00:04:09.720 --> 00:04:12.110 align:start position:0%
+eludir las limitaciones de una web o de
+una<00:04:09.840><c> tienda</c><00:04:10.079><c> online</c><00:04:10.599><c> y</c><00:04:10.799><c> cambiar</c><00:04:11.280><c> realmente</c><00:04:11.920><c> la</c>
+
+00:04:12.110 --> 00:04:12.120 align:start position:0%
+una tienda online y cambiar realmente la
+ 
+
+00:04:12.120 --> 00:04:14.350 align:start position:0%
+una tienda online y cambiar realmente la
+lógica<00:04:12.840><c> para</c><00:04:13.120><c> pedir</c><00:04:13.400><c> más</c><00:04:13.599><c> cosas</c><00:04:13.879><c> de</c><00:04:14.120><c> las</c><00:04:14.239><c> que</c>
+
+00:04:14.350 --> 00:04:14.360 align:start position:0%
+lógica para pedir más cosas de las que
+ 
+
+00:04:14.360 --> 00:04:15.869 align:start position:0%
+lógica para pedir más cosas de las que
+están<00:04:14.560><c> disponibles</c><00:04:15.120><c> esto</c><00:04:15.280><c> también</c><00:04:15.519><c> podría</c>
+
+00:04:15.869 --> 00:04:15.879 align:start position:0%
+están disponibles esto también podría
+ 
+
+00:04:15.879 --> 00:04:17.349 align:start position:0%
+están disponibles esto también podría
+ocurrir<00:04:16.199><c> con</c><00:04:16.280><c> los</c><00:04:16.440><c> descuentos</c><00:04:16.959><c> supongamos</c>
+
+00:04:17.349 --> 00:04:17.359 align:start position:0%
+ocurrir con los descuentos supongamos
+ 
+
+00:04:17.359 --> 00:04:18.749 align:start position:0%
+ocurrir con los descuentos supongamos
+que<00:04:17.440><c> quieres</c><00:04:17.720><c> cambiar</c><00:04:18.000><c> el</c><00:04:18.079><c> precio</c><00:04:18.359><c> de</c><00:04:18.440><c> algo</c>
+
+00:04:18.749 --> 00:04:18.759 align:start position:0%
+que quieres cambiar el precio de algo
+ 
+
+00:04:18.759 --> 00:04:21.469 align:start position:0%
+que quieres cambiar el precio de algo
+algo<00:04:19.000><c> que</c><00:04:19.120><c> debería</c><00:04:19.560><c> de</c><00:04:19.680><c> costar</c><00:04:19.959><c> 15</c><00:04:20.840><c> Imagínate</c>
+
+00:04:21.469 --> 00:04:21.479 align:start position:0%
+algo que debería de costar 15 Imagínate
+ 
+
+00:04:21.479 --> 00:04:23.230 align:start position:0%
+algo que debería de costar 15 Imagínate
+que<00:04:21.600><c> puedes</c><00:04:21.919><c> aplicar</c><00:04:22.320><c> diferentes</c><00:04:22.800><c> descuentos</c>
+
+00:04:23.230 --> 00:04:23.240 align:start position:0%
+que puedes aplicar diferentes descuentos
+ 
+
+00:04:23.240 --> 00:04:25.110 align:start position:0%
+que puedes aplicar diferentes descuentos
+que<00:04:23.520><c> no</c><00:04:23.720><c> deberían</c><00:04:24.040><c> de</c><00:04:24.120><c> estar</c><00:04:24.280><c> disponibles</c><00:04:24.960><c> y</c>
+
+00:04:25.110 --> 00:04:25.120 align:start position:0%
+que no deberían de estar disponibles y
+ 
+
+00:04:25.120 --> 00:04:28.950 align:start position:0%
+que no deberían de estar disponibles y
+que<00:04:25.280><c> un</c><00:04:25.400><c> producto</c><00:04:25.840><c> que</c><00:04:26.000><c> cuesta</c><00:04:26.320><c> 15</c><00:04:27.320><c> vale</c><00:04:27.960><c> 1</c>
+
+00:04:28.950 --> 00:04:28.960 align:start position:0%
+que un producto que cuesta 15 vale 1
+ 
+
+00:04:28.960 --> 00:04:31.189 align:start position:0%
+que un producto que cuesta 15 vale 1
+Estas<00:04:29.320><c> son</c><00:04:29.440><c> las</c><00:04:29.759><c> cosas</c><00:04:30.039><c> que</c><00:04:30.199><c> podrían</c><00:04:30.680><c> ocurrir</c>
+
+00:04:31.189 --> 00:04:31.199 align:start position:0%
+Estas son las cosas que podrían ocurrir
+ 
+
+00:04:31.199 --> 00:04:33.270 align:start position:0%
+Estas son las cosas que podrían ocurrir
+con<00:04:31.320><c> este</c><00:04:31.560><c> tipo</c><00:04:31.759><c> de</c><00:04:32.000><c> vulnerabilidad</c><00:04:33.000><c> piensa</c>
+
+00:04:33.270 --> 00:04:33.280 align:start position:0%
+con este tipo de vulnerabilidad piensa
+ 
+
+00:04:33.280 --> 00:04:35.390 align:start position:0%
+con este tipo de vulnerabilidad piensa
+en<00:04:33.440><c> la</c><00:04:33.520><c> lógica</c><00:04:33.880><c> de</c><00:04:34.000><c> tu</c><00:04:34.160><c> negocio</c><00:04:34.560><c> y</c><00:04:34.680><c> observa</c><00:04:35.199><c> si</c>
+
+00:04:35.390 --> 00:04:35.400 align:start position:0%
+en la lógica de tu negocio y observa si
+ 
+
+00:04:35.400 --> 00:04:37.350 align:start position:0%
+en la lógica de tu negocio y observa si
+puedes<00:04:35.759><c> encontrar</c><00:04:36.240><c> un</c><00:04:36.440><c> defecto</c><00:04:37.000><c> en</c><00:04:37.120><c> esa</c>
+
+00:04:37.350 --> 00:04:37.360 align:start position:0%
+puedes encontrar un defecto en esa
+ 
+
+00:04:37.360 --> 00:04:39.830 align:start position:0%
+puedes encontrar un defecto en esa
+lógica<00:04:37.880><c> que</c><00:04:38.000><c> podría</c><00:04:38.440><c> costarte</c><00:04:39.080><c> recursos</c><00:04:39.639><c> o</c>
+
+00:04:39.830 --> 00:04:39.840 align:start position:0%
+lógica que podría costarte recursos o
+ 
+
+00:04:39.840 --> 00:04:41.430 align:start position:0%
+lógica que podría costarte recursos o
+cualquier<00:04:40.240><c> otra</c><00:04:40.479><c> cosa</c><00:04:40.639><c> que</c><00:04:40.759><c> pueda</c><00:04:41.160><c> ser</c><00:04:41.280><c> un</c>
+
+00:04:41.430 --> 00:04:41.440 align:start position:0%
+cualquier otra cosa que pueda ser un
+ 
+
+00:04:41.440 --> 00:04:43.029 align:start position:0%
+cualquier otra cosa que pueda ser un
+problema<00:04:41.800><c> comercial</c><00:04:42.440><c> y</c><00:04:42.639><c> que</c><00:04:42.759><c> pueda</c>
+
+00:04:43.029 --> 00:04:43.039 align:start position:0%
+problema comercial y que pueda
+ 
+
+00:04:43.039 --> 00:04:44.990 align:start position:0%
+problema comercial y que pueda
+relacionarse<00:04:43.600><c> con</c><00:04:43.720><c> la</c><00:04:43.840><c> lógica</c><00:04:44.400><c> de</c><00:04:44.800><c> el</c>
+
+00:04:44.990 --> 00:04:45.000 align:start position:0%
+relacionarse con la lógica de el
+ 
+
+00:04:45.000 --> 00:04:47.390 align:start position:0%
+relacionarse con la lógica de el
+funcionamiento<00:04:45.960><c> de</c><00:04:46.160><c> la</c><00:04:46.320><c> aplicación</c><00:04:46.840><c> o</c><00:04:47.080><c> de</c><00:04:47.240><c> tu</c>
+
+00:04:47.390 --> 00:04:47.400 align:start position:0%
+funcionamiento de la aplicación o de tu
+ 
+
+00:04:47.400 --> 00:04:49.629 align:start position:0%
+funcionamiento de la aplicación o de tu
+página<00:04:47.759><c> web</c><00:04:48.080><c> la</c><00:04:48.240><c> quinta</c><00:04:48.560><c> vulnerabilidad</c><00:04:49.440><c> es</c>
+
+00:04:49.629 --> 00:04:49.639 align:start position:0%
+página web la quinta vulnerabilidad es
+ 
+
+00:04:49.639 --> 00:04:52.029 align:start position:0%
+página web la quinta vulnerabilidad es
+la<00:04:49.800><c> configuración</c><00:04:50.400><c> de</c><00:04:50.600><c> seguridad</c><00:04:51.160><c> incorrecta</c>
+
+00:04:52.029 --> 00:04:52.039 align:start position:0%
+la configuración de seguridad incorrecta
+ 
+
+00:04:52.039 --> 00:04:54.070 align:start position:0%
+la configuración de seguridad incorrecta
+se<00:04:52.199><c> refiere</c><00:04:52.479><c> a</c><00:04:52.680><c> errores</c><00:04:53.039><c> o</c><00:04:53.240><c> descuidos</c><00:04:53.840><c> en</c><00:04:54.000><c> la</c>
+
+00:04:54.070 --> 00:04:54.080 align:start position:0%
+se refiere a errores o descuidos en la
+ 
+
+00:04:54.080 --> 00:04:55.749 align:start position:0%
+se refiere a errores o descuidos en la
+configuración<00:04:54.639><c> de</c><00:04:54.759><c> los</c><00:04:54.960><c> componentes</c><00:04:55.520><c> del</c>
+
+00:04:55.749 --> 00:04:55.759 align:start position:0%
+configuración de los componentes del
+ 
+
+00:04:55.759 --> 00:04:57.909 align:start position:0%
+configuración de los componentes del
+sistema<00:04:56.160><c> como</c><00:04:56.360><c> por</c><00:04:56.479><c> ejemplo</c><00:04:57.080><c> dejar</c><00:04:57.360><c> activas</c>
+
+00:04:57.909 --> 00:04:57.919 align:start position:0%
+sistema como por ejemplo dejar activas
+ 
+
+00:04:57.919 --> 00:04:59.909 align:start position:0%
+sistema como por ejemplo dejar activas
+funcionalidades<00:04:58.639><c> innecesarias</c><00:04:59.639><c> dejar</c>
+
+00:04:59.909 --> 00:04:59.919 align:start position:0%
+funcionalidades innecesarias dejar
+ 
+
+00:04:59.919 --> 00:05:01.430 align:start position:0%
+funcionalidades innecesarias dejar
+credenciales<00:05:00.479><c> predeterminadas</c><00:05:01.120><c> en</c><00:05:01.240><c> una</c>
+
+00:05:01.430 --> 00:05:01.440 align:start position:0%
+credenciales predeterminadas en una
+ 
+
+00:05:01.440 --> 00:05:03.830 align:start position:0%
+credenciales predeterminadas en una
+aplicación<00:05:02.039><c> o</c><00:05:02.320><c> dejar</c><00:05:02.680><c> accesibles</c><00:05:03.240><c> páginas</c>
+
+00:05:03.830 --> 00:05:03.840 align:start position:0%
+aplicación o dejar accesibles páginas
+ 
+
+00:05:03.840 --> 00:05:05.830 align:start position:0%
+aplicación o dejar accesibles páginas
+que<00:05:03.960><c> no</c><00:05:04.080><c> deberían</c><00:05:04.520><c> de</c><00:05:04.680><c> serlo</c><00:05:05.240><c> un</c><00:05:05.479><c> ejemplo</c>
+
+00:05:05.830 --> 00:05:05.840 align:start position:0%
+que no deberían de serlo un ejemplo
+ 
+
+00:05:05.840 --> 00:05:08.150 align:start position:0%
+que no deberían de serlo un ejemplo
+común<00:05:06.360><c> suele</c><00:05:06.680><c> ser</c><00:05:06.840><c> una</c><00:05:07.120><c> aplicación</c><00:05:07.600><c> que</c><00:05:08.039><c> que</c>
+
+00:05:08.150 --> 00:05:08.160 align:start position:0%
+común suele ser una aplicación que que
+ 
+
+00:05:08.160 --> 00:05:09.830 align:start position:0%
+común suele ser una aplicación que que
+instalas<00:05:08.520><c> en</c><00:05:08.639><c> tu</c><00:05:08.759><c> empresa</c><00:05:09.199><c> y</c><00:05:09.360><c> que</c><00:05:09.479><c> viene</c><00:05:09.720><c> con</c>
+
+00:05:09.830 --> 00:05:09.840 align:start position:0%
+instalas en tu empresa y que viene con
+ 
+
+00:05:09.840 --> 00:05:12.150 align:start position:0%
+instalas en tu empresa y que viene con
+credenciales<00:05:10.400><c> predeterminadas</c><00:05:11.120><c> como</c><00:05:11.320><c> admin</c>
+
+00:05:12.150 --> 00:05:12.160 align:start position:0%
+credenciales predeterminadas como admin
+ 
+
+00:05:12.160 --> 00:05:14.390 align:start position:0%
+credenciales predeterminadas como admin
+y<00:05:12.560><c> password</c><00:05:13.240><c> y</c><00:05:13.440><c> estas</c><00:05:13.680><c> son</c><00:05:13.840><c> cosas</c><00:05:14.120><c> que</c><00:05:14.280><c> los</c>
+
+00:05:14.390 --> 00:05:14.400 align:start position:0%
+y password y estas son cosas que los
+ 
+
+00:05:14.400 --> 00:05:16.550 align:start position:0%
+y password y estas son cosas que los
+atacantes<00:05:15.000><c> encontrarán</c><00:05:15.720><c> y</c><00:05:15.880><c> explotarán</c><00:05:16.400><c> para</c>
+
+00:05:16.550 --> 00:05:16.560 align:start position:0%
+atacantes encontrarán y explotarán para
+ 
+
+00:05:16.560 --> 00:05:18.909 align:start position:0%
+atacantes encontrarán y explotarán para
+acceder<00:05:16.880><c> a</c><00:05:17.039><c> ese</c><00:05:17.320><c> sistema</c><00:05:17.840><c> y</c><00:05:18.039><c> explotar</c><00:05:18.680><c> o</c>
+
+00:05:18.909 --> 00:05:18.919 align:start position:0%
+acceder a ese sistema y explotar o
+ 
+
+00:05:18.919 --> 00:05:20.909 align:start position:0%
+acceder a ese sistema y explotar o
+Elevar<00:05:19.280><c> aún</c><00:05:19.639><c> más</c><00:05:19.800><c> los</c><00:05:19.960><c> accesos</c><00:05:20.479><c> ya</c><00:05:20.759><c> Hemos</c>
+
+00:05:20.909 --> 00:05:20.919 align:start position:0%
+Elevar aún más los accesos ya Hemos
+ 
+
+00:05:20.919 --> 00:05:22.390 align:start position:0%
+Elevar aún más los accesos ya Hemos
+llegado<00:05:21.160><c> a</c><00:05:21.240><c> la</c><00:05:21.319><c> mitad</c><00:05:21.520><c> del</c><00:05:21.639><c> vídeo</c><00:05:21.919><c> si</c><00:05:22.080><c> sigues</c>
+
+00:05:22.390 --> 00:05:22.400 align:start position:0%
+llegado a la mitad del vídeo si sigues
+ 
+
+00:05:22.400 --> 00:05:24.390 align:start position:0%
+llegado a la mitad del vídeo si sigues
+aquí<00:05:22.639><c> y</c><00:05:22.720><c> aún</c><00:05:23.000><c> no</c><00:05:23.080><c> la</c><00:05:23.360><c> has</c><00:05:23.520><c> hecho</c><00:05:23.720><c> suscríbete</c><00:05:24.280><c> al</c>
+
+00:05:24.390 --> 00:05:24.400 align:start position:0%
+aquí y aún no la has hecho suscríbete al
+ 
+
+00:05:24.400 --> 00:05:26.950 align:start position:0%
+aquí y aún no la has hecho suscríbete al
+Canal<00:05:24.800><c> Dale</c><00:05:25.199><c> A</c><00:05:25.360><c> Like</c><00:05:25.639><c> y</c><00:05:25.840><c> comenta</c><00:05:26.319><c> Qué</c><00:05:26.560><c> ataque</c>
+
+00:05:26.950 --> 00:05:26.960 align:start position:0%
+Canal Dale A Like y comenta Qué ataque
+ 
+
+00:05:26.960 --> 00:05:29.510 align:start position:0%
+Canal Dale A Like y comenta Qué ataque
+te<00:05:27.120><c> parece</c><00:05:27.560><c> más</c><00:05:27.759><c> interesante</c><00:05:28.479><c> la</c><00:05:28.720><c> sexta</c>
+
+00:05:29.510 --> 00:05:29.520 align:start position:0%
+te parece más interesante la sexta
+ 
+
+00:05:29.520 --> 00:05:31.430 align:start position:0%
+te parece más interesante la sexta
+vulnerabilidad<00:05:30.199><c> es</c><00:05:30.319><c> la</c><00:05:30.479><c> de</c><00:05:30.680><c> componentes</c><00:05:31.240><c> con</c>
+
+00:05:31.430 --> 00:05:31.440 align:start position:0%
+vulnerabilidad es la de componentes con
+ 
+
+00:05:31.440 --> 00:05:33.150 align:start position:0%
+vulnerabilidad es la de componentes con
+vulnerabilidades<00:05:32.280><c> conocidas</c><00:05:33.000><c> los</c>
+
+00:05:33.150 --> 00:05:33.160 align:start position:0%
+vulnerabilidades conocidas los
+ 
+
+00:05:33.160 --> 00:05:34.590 align:start position:0%
+vulnerabilidades conocidas los
+componentes<00:05:33.639><c> con</c><00:05:33.800><c> vulnerabilidades</c>
+
+00:05:34.590 --> 00:05:34.600 align:start position:0%
+componentes con vulnerabilidades
+ 
+
+00:05:34.600 --> 00:05:36.309 align:start position:0%
+componentes con vulnerabilidades
+conocidas<00:05:35.080><c> son</c><00:05:35.240><c> aquellos</c><00:05:35.560><c> que</c><00:05:35.720><c> la</c><00:05:35.840><c> aplicación</c>
+
+00:05:36.309 --> 00:05:36.319 align:start position:0%
+conocidas son aquellos que la aplicación
+ 
+
+00:05:36.319 --> 00:05:38.430 align:start position:0%
+conocidas son aquellos que la aplicación
+usa<00:05:36.639><c> y</c><00:05:36.800><c> que</c><00:05:36.919><c> tiene</c><00:05:37.520><c> fallos</c><00:05:37.800><c> de</c><00:05:37.880><c> seguridad</c>
+
+00:05:38.430 --> 00:05:38.440 align:start position:0%
+usa y que tiene fallos de seguridad
+ 
+
+00:05:38.440 --> 00:05:40.550 align:start position:0%
+usa y que tiene fallos de seguridad
+documentados<00:05:39.120><c> y</c><00:05:39.360><c> publicados</c><00:05:40.240><c> estos</c>
+
+00:05:40.550 --> 00:05:40.560 align:start position:0%
+documentados y publicados estos
+ 
+
+00:05:40.560 --> 00:05:41.909 align:start position:0%
+documentados y publicados estos
+componentes<00:05:41.000><c> pueden</c><00:05:41.280><c> ser</c><00:05:41.479><c> librerías</c>
+
+00:05:41.909 --> 00:05:41.919 align:start position:0%
+componentes pueden ser librerías
+ 
+
+00:05:41.919 --> 00:05:44.270 align:start position:0%
+componentes pueden ser librerías
+frameworks<00:05:42.720><c> o</c><00:05:42.880><c> plugins</c><00:05:43.600><c> como</c><00:05:43.800><c> por</c><00:05:43.919><c> ejemplo</c>
+
+00:05:44.270 --> 00:05:44.280 align:start position:0%
+frameworks o plugins como por ejemplo
+ 
+
+00:05:44.280 --> 00:05:46.230 align:start position:0%
+frameworks o plugins como por ejemplo
+tener<00:05:44.560><c> una</c><00:05:44.759><c> versión</c><00:05:45.039><c> antigua</c><00:05:45.400><c> de</c><00:05:45.560><c> wordpress</c>
+
+00:05:46.230 --> 00:05:46.240 align:start position:0%
+tener una versión antigua de wordpress
+ 
+
+00:05:46.240 --> 00:05:48.189 align:start position:0%
+tener una versión antigua de wordpress
+para<00:05:46.639><c> para</c><00:05:46.880><c> la</c><00:05:47.039><c> que</c><00:05:47.120><c> se</c><00:05:47.280><c> ha</c><00:05:47.400><c> detectado</c><00:05:47.960><c> una</c>
+
+00:05:48.189 --> 00:05:48.199 align:start position:0%
+para para la que se ha detectado una
+ 
+
+00:05:48.199 --> 00:05:50.350 align:start position:0%
+para para la que se ha detectado una
+vulnerabilidad<00:05:49.039><c> crítica</c><00:05:49.680><c> para</c><00:05:49.960><c> probar</c><00:05:50.199><c> esta</c>
+
+00:05:50.350 --> 00:05:50.360 align:start position:0%
+vulnerabilidad crítica para probar esta
+ 
+
+00:05:50.360 --> 00:05:52.430 align:start position:0%
+vulnerabilidad crítica para probar esta
+vulnerabilidad<00:05:51.240><c> se</c><00:05:51.400><c> puede</c><00:05:51.720><c> identificar</c><00:05:52.319><c> los</c>
+
+00:05:52.430 --> 00:05:52.440 align:start position:0%
+vulnerabilidad se puede identificar los
+ 
+
+00:05:52.440 --> 00:05:54.230 align:start position:0%
+vulnerabilidad se puede identificar los
+componentes<00:05:52.840><c> que</c><00:05:52.960><c> usa</c><00:05:53.240><c> el</c><00:05:53.400><c> aplicación</c><00:05:54.039><c> y</c>
+
+00:05:54.230 --> 00:05:54.240 align:start position:0%
+componentes que usa el aplicación y
+ 
+
+00:05:54.240 --> 00:05:56.110 align:start position:0%
+componentes que usa el aplicación y
+Buscar<00:05:54.560><c> información</c><00:05:55.039><c> sobre</c><00:05:55.280><c> sus</c><00:05:55.520><c> versiones</c><00:05:56.000><c> y</c>
+
+00:05:56.110 --> 00:05:56.120 align:start position:0%
+Buscar información sobre sus versiones y
+ 
+
+00:05:56.120 --> 00:05:58.270 align:start position:0%
+Buscar información sobre sus versiones y
+sus<00:05:56.400><c> vulnerabilidades</c><00:05:57.240><c> conocidas</c><00:05:58.000><c> también</c>
+
+00:05:58.270 --> 00:05:58.280 align:start position:0%
+sus vulnerabilidades conocidas también
+ 
+
+00:05:58.280 --> 00:05:59.909 align:start position:0%
+sus vulnerabilidades conocidas también
+se<00:05:58.400><c> puede</c><00:05:58.680><c> usar</c><00:05:58.840><c> herramientas</c><00:05:59.479><c> automáticas</c>
+
+00:05:59.909 --> 00:05:59.919 align:start position:0%
+se puede usar herramientas automáticas
+ 
+
+00:05:59.919 --> 00:06:01.670 align:start position:0%
+se puede usar herramientas automáticas
+que<00:06:00.000><c> escanean</c><00:06:00.479><c> toda</c><00:06:00.759><c> la</c><00:06:00.880><c> aplicación</c><00:06:01.440><c> y</c>
+
+00:06:01.670 --> 00:06:01.680 align:start position:0%
+que escanean toda la aplicación y
+ 
+
+00:06:01.680 --> 00:06:03.950 align:start position:0%
+que escanean toda la aplicación y
+detectan<00:06:02.280><c> este</c><00:06:02.520><c> tipo</c><00:06:02.759><c> de</c><00:06:02.919><c> componentes</c><00:06:03.720><c> la</c>
+
+00:06:03.950 --> 00:06:03.960 align:start position:0%
+detectan este tipo de componentes la
+ 
+
+00:06:03.960 --> 00:06:06.189 align:start position:0%
+detectan este tipo de componentes la
+séptima<00:06:04.440><c> vulnerabilidad</c><00:06:05.360><c> es</c><00:06:05.560><c> la</c><00:06:05.680><c> de</c><00:06:05.840><c> fallos</c>
+
+00:06:06.189 --> 00:06:06.199 align:start position:0%
+séptima vulnerabilidad es la de fallos
+ 
+
+00:06:06.199 --> 00:06:08.550 align:start position:0%
+séptima vulnerabilidad es la de fallos
+de<00:06:06.400><c> identificación</c><00:06:07.039><c> y</c><00:06:07.440><c> autenticación</c><00:06:08.199><c> esta</c>
+
+00:06:08.550 --> 00:06:08.560 align:start position:0%
+de identificación y autenticación esta
+ 
+
+00:06:08.560 --> 00:06:09.950 align:start position:0%
+de identificación y autenticación esta
+se<00:06:08.680><c> produce</c><00:06:09.080><c> cuando</c><00:06:09.360><c> los</c><00:06:09.479><c> datos</c><00:06:09.800><c> que</c>
+
+00:06:09.950 --> 00:06:09.960 align:start position:0%
+se produce cuando los datos que
+ 
+
+00:06:09.960 --> 00:06:11.870 align:start position:0%
+se produce cuando los datos que
+requieren<00:06:10.400><c> protección</c><00:06:10.960><c> como</c><00:06:11.360><c> contraseñas</c>
+
+00:06:11.870 --> 00:06:11.880 align:start position:0%
+requieren protección como contraseñas
+ 
+
+00:06:11.880 --> 00:06:14.029 align:start position:0%
+requieren protección como contraseñas
+tarjetas<00:06:12.280><c> de</c><00:06:12.400><c> crédito</c><00:06:12.960><c> información</c><00:06:13.440><c> personal</c>
+
+00:06:14.029 --> 00:06:14.039 align:start position:0%
+tarjetas de crédito información personal
+ 
+
+00:06:14.039 --> 00:06:15.749 align:start position:0%
+tarjetas de crédito información personal
+no<00:06:14.199><c> se</c><00:06:14.400><c> cifran</c><00:06:14.759><c> adecuadamente</c><00:06:15.440><c> o</c><00:06:15.639><c> se</c>
+
+00:06:15.749 --> 00:06:15.759 align:start position:0%
+no se cifran adecuadamente o se
+ 
+
+00:06:15.759 --> 00:06:18.070 align:start position:0%
+no se cifran adecuadamente o se
+almacenan<00:06:16.319><c> en</c><00:06:16.520><c> lugares</c><00:06:17.000><c> inseguros</c><00:06:17.840><c> esta</c>
+
+00:06:18.070 --> 00:06:18.080 align:start position:0%
+almacenan en lugares inseguros esta
+ 
+
+00:06:18.080 --> 00:06:20.309 align:start position:0%
+almacenan en lugares inseguros esta
+categoría<00:06:18.639><c> aborda</c><00:06:19.160><c> debilidades</c><00:06:19.919><c> en</c><00:06:20.080><c> la</c>
+
+00:06:20.309 --> 00:06:20.319 align:start position:0%
+categoría aborda debilidades en la
+ 
+
+00:06:20.319 --> 00:06:22.469 align:start position:0%
+categoría aborda debilidades en la
+autenticación<00:06:21.039><c> y</c><00:06:21.240><c> la</c><00:06:21.400><c> gestión</c><00:06:21.720><c> de</c><00:06:21.840><c> sesiones</c>
+
+00:06:22.469 --> 00:06:22.479 align:start position:0%
+autenticación y la gestión de sesiones
+ 
+
+00:06:22.479 --> 00:06:24.629 align:start position:0%
+autenticación y la gestión de sesiones
+que<00:06:22.639><c> son</c><00:06:22.840><c> cruciales</c><00:06:23.440><c> para</c><00:06:23.560><c> prevenir</c><00:06:24.039><c> ataques</c>
+
+00:06:24.629 --> 00:06:24.639 align:start position:0%
+que son cruciales para prevenir ataques
+ 
+
+00:06:24.639 --> 00:06:26.950 align:start position:0%
+que son cruciales para prevenir ataques
+relacionados<00:06:25.199><c> con</c><00:06:25.360><c> toda</c><00:06:25.639><c> la</c><00:06:25.960><c> autenticación</c>
+
+00:06:26.950 --> 00:06:26.960 align:start position:0%
+relacionados con toda la autenticación
+ 
+
+00:06:26.960 --> 00:06:28.550 align:start position:0%
+relacionados con toda la autenticación
+las<00:06:27.160><c> debilidades</c><00:06:27.759><c> pueden</c><00:06:28.039><c> surgir</c><00:06:28.319><c> si</c><00:06:28.440><c> la</c>
+
+00:06:28.550 --> 00:06:28.560 align:start position:0%
+las debilidades pueden surgir si la
+ 
+
+00:06:28.560 --> 00:06:30.990 align:start position:0%
+las debilidades pueden surgir si la
+aplicación<00:06:28.919><c> permite</c><00:06:29.520><c> ataques</c><00:06:30.000><c> automatizados</c>
+
+00:06:30.990 --> 00:06:31.000 align:start position:0%
+aplicación permite ataques automatizados
+ 
+
+00:06:31.000 --> 00:06:33.670 align:start position:0%
+aplicación permite ataques automatizados
+contraseñas<00:06:31.360><c> débiles</c><00:06:31.960><c> o</c><00:06:32.199><c> su</c><00:06:32.680><c> reutilización</c>
+
+00:06:33.670 --> 00:06:33.680 align:start position:0%
+contraseñas débiles o su reutilización
+ 
+
+00:06:33.680 --> 00:06:35.710 align:start position:0%
+contraseñas débiles o su reutilización
+almacenamiento<00:06:34.440><c> inseguro</c><00:06:34.880><c> de</c><00:06:35.160><c> contraseñas</c>
+
+00:06:35.710 --> 00:06:35.720 align:start position:0%
+almacenamiento inseguro de contraseñas
+ 
+
+00:06:35.720 --> 00:06:37.430 align:start position:0%
+almacenamiento inseguro de contraseñas
+exposición<00:06:36.280><c> de</c><00:06:36.400><c> identificadores</c><00:06:37.039><c> de</c><00:06:37.120><c> la</c>
+
+00:06:37.430 --> 00:06:37.440 align:start position:0%
+exposición de identificadores de la
+ 
+
+00:06:37.440 --> 00:06:39.749 align:start position:0%
+exposición de identificadores de la
+sesión<00:06:37.759><c> en</c><00:06:37.960><c> la</c><00:06:38.039><c> propia</c><00:06:38.319><c> URL</c><00:06:39.120><c> y</c><00:06:39.280><c> falta</c><00:06:39.599><c> de</c>
+
+00:06:39.749 --> 00:06:39.759 align:start position:0%
+sesión en la propia URL y falta de
+ 
+
+00:06:39.759 --> 00:06:42.070 align:start position:0%
+sesión en la propia URL y falta de
+autenticación<00:06:40.280><c> de</c><00:06:40.479><c> multifactor</c><00:06:41.440><c> la</c><00:06:41.639><c> octava</c>
+
+00:06:42.070 --> 00:06:42.080 align:start position:0%
+autenticación de multifactor la octava
+ 
+
+00:06:42.080 --> 00:06:43.830 align:start position:0%
+autenticación de multifactor la octava
+vulnerabilidad<00:06:42.919><c> es</c><00:06:43.080><c> la</c><00:06:43.199><c> de</c><00:06:43.360><c> fallos</c><00:06:43.720><c> de</c>
+
+00:06:43.830 --> 00:06:43.840 align:start position:0%
+vulnerabilidad es la de fallos de
+ 
+
+00:06:43.840 --> 00:06:45.990 align:start position:0%
+vulnerabilidad es la de fallos de
+software<00:06:44.280><c> e</c><00:06:44.599><c> integridad</c><00:06:45.120><c> de</c><00:06:45.240><c> datos</c><00:06:45.720><c> También</c>
+
+00:06:45.990 --> 00:06:46.000 align:start position:0%
+software e integridad de datos También
+ 
+
+00:06:46.000 --> 00:06:49.270 align:start position:0%
+software e integridad de datos También
+conocido<00:06:46.400><c> como</c><00:06:46.880><c> desila</c><00:06:47.880><c> insegura</c><00:06:48.599><c> la</c><00:06:48.840><c> deser</c>
+
+00:06:49.270 --> 00:06:49.280 align:start position:0%
+conocido como desila insegura la deser
+ 
+
+00:06:49.280 --> 00:06:51.189 align:start position:0%
+conocido como desila insegura la deser
+iliza<00:06:49.880><c> insegura</c><00:06:50.440><c> ocurre</c><00:06:50.800><c> cuando</c><00:06:51.080><c> la</c>
+
+00:06:51.189 --> 00:06:51.199 align:start position:0%
+iliza insegura ocurre cuando la
+ 
+
+00:06:51.199 --> 00:06:53.029 align:start position:0%
+iliza insegura ocurre cuando la
+aplicación<00:06:51.639><c> recibe</c><00:06:52.080><c> datos</c><00:06:52.400><c> en</c><00:06:52.520><c> un</c><00:06:52.680><c> formato</c>
+
+00:06:53.029 --> 00:06:53.039 align:start position:0%
+aplicación recibe datos en un formato
+ 
+
+00:06:53.039 --> 00:06:56.830 align:start position:0%
+aplicación recibe datos en un formato
+serializado<00:06:54.000><c> como</c><00:06:54.440><c> json</c><00:06:55.000><c> xml</c><00:06:55.840><c> etcétera</c><00:06:56.520><c> y</c><00:06:56.680><c> los</c>
+
+00:06:56.830 --> 00:06:56.840 align:start position:0%
+serializado como json xml etcétera y los
+ 
+
+00:06:56.840 --> 00:06:59.390 align:start position:0%
+serializado como json xml etcétera y los
+convierte<00:06:57.199><c> a</c><00:06:57.560><c> objetos</c><00:06:58.000><c> sin</c><00:06:58.280><c> validarlos</c><00:06:58.759><c> o</c>
+
+00:06:59.390 --> 00:06:59.400 align:start position:0%
+convierte a objetos sin validarlos o
+ 
+
+00:06:59.400 --> 00:07:01.350 align:start position:0%
+convierte a objetos sin validarlos o
+filtrarlos<00:06:59.800><c> esto</c><00:07:00.479><c> puede</c><00:07:00.720><c> permitir</c><00:07:01.120><c> a</c><00:07:01.280><c> un</c>
+
+00:07:01.350 --> 00:07:01.360 align:start position:0%
+filtrarlos esto puede permitir a un
+ 
+
+00:07:01.360 --> 00:07:03.550 align:start position:0%
+filtrarlos esto puede permitir a un
+atacante<00:07:01.879><c> ejecutar</c><00:07:02.360><c> código</c><00:07:02.759><c> arbitrario</c><00:07:03.360><c> o</c>
+
+00:07:03.550 --> 00:07:03.560 align:start position:0%
+atacante ejecutar código arbitrario o
+ 
+
+00:07:03.560 --> 00:07:05.270 align:start position:0%
+atacante ejecutar código arbitrario o
+Modificar<00:07:04.199><c> el</c><00:07:04.400><c> comportamiento</c><00:07:04.919><c> de</c><00:07:05.120><c> la</c>
+
+00:07:05.270 --> 00:07:05.280 align:start position:0%
+Modificar el comportamiento de la
+ 
+
+00:07:05.280 --> 00:07:07.350 align:start position:0%
+Modificar el comportamiento de la
+aplicación<00:07:05.800><c> en</c><00:07:05.960><c> términos</c><00:07:06.400><c> más</c><00:07:06.560><c> sencillos</c><00:07:06.919><c> se</c>
+
+00:07:07.350 --> 00:07:07.360 align:start position:0%
+aplicación en términos más sencillos se
+ 
+
+00:07:07.360 --> 00:07:09.029 align:start position:0%
+aplicación en términos más sencillos se
+refiere<00:07:07.759><c> al</c><00:07:07.919><c> uso</c><00:07:08.120><c> de</c><00:07:08.280><c> bibliotecas</c><00:07:08.879><c> de</c>
+
+00:07:09.029 --> 00:07:09.039 align:start position:0%
+refiere al uso de bibliotecas de
+ 
+
+00:07:09.039 --> 00:07:10.869 align:start position:0%
+refiere al uso de bibliotecas de
+terceros<00:07:09.440><c> o</c><00:07:09.599><c> de</c><00:07:09.759><c> software</c><00:07:10.240><c> proveniente</c><00:07:10.759><c> de</c>
+
+00:07:10.869 --> 00:07:10.879 align:start position:0%
+terceros o de software proveniente de
+ 
+
+00:07:10.879 --> 00:07:13.150 align:start position:0%
+terceros o de software proveniente de
+fuentes<00:07:11.199><c> no</c><00:07:11.360><c> confiables</c><00:07:12.000><c> como</c><00:07:12.199><c> por</c><00:07:12.280><c> ejemplo</c>
+
+00:07:13.150 --> 00:07:13.160 align:start position:0%
+fuentes no confiables como por ejemplo
+ 
+
+00:07:13.160 --> 00:07:15.830 align:start position:0%
+fuentes no confiables como por ejemplo
+proyectos<00:07:13.599><c> de</c><00:07:13.800><c> github</c><00:07:14.440><c> o</c><00:07:14.639><c> acceso</c><00:07:15.039><c> público</c><00:07:15.639><c> la</c>
+
+00:07:15.830 --> 00:07:15.840 align:start position:0%
+proyectos de github o acceso público la
+ 
+
+00:07:15.840 --> 00:07:17.869 align:start position:0%
+proyectos de github o acceso público la
+novena<00:07:16.199><c> vulnerabilidad</c><00:07:17.000><c> es</c><00:07:17.120><c> la</c><00:07:17.240><c> de</c><00:07:17.400><c> fallos</c><00:07:17.759><c> de</c>
+
+00:07:17.869 --> 00:07:17.879 align:start position:0%
+novena vulnerabilidad es la de fallos de
+ 
+
+00:07:17.879 --> 00:07:19.990 align:start position:0%
+novena vulnerabilidad es la de fallos de
+registro<00:07:18.400><c> y</c><00:07:18.639><c> seguimiento</c><00:07:19.440><c> Esto</c><00:07:19.599><c> no</c><00:07:19.720><c> es</c><00:07:19.840><c> un</c>
+
+00:07:19.990 --> 00:07:20.000 align:start position:0%
+registro y seguimiento Esto no es un
+ 
+
+00:07:20.000 --> 00:07:22.270 align:start position:0%
+registro y seguimiento Esto no es un
+tipo<00:07:20.199><c> de</c><00:07:20.560><c> de</c><00:07:20.680><c> ataque</c><00:07:21.080><c> en</c><00:07:21.199><c> sí</c><00:07:21.520><c> sino</c><00:07:21.800><c> más</c><00:07:21.960><c> bien</c><00:07:22.120><c> Es</c>
+
+00:07:22.270 --> 00:07:22.280 align:start position:0%
+tipo de de ataque en sí sino más bien Es
+ 
+
+00:07:22.280 --> 00:07:23.710 align:start position:0%
+tipo de de ataque en sí sino más bien Es
+la<00:07:22.400><c> capacidad</c><00:07:22.759><c> de</c><00:07:22.879><c> una</c><00:07:23.039><c> empresa</c><00:07:23.520><c> para</c>
+
+00:07:23.710 --> 00:07:23.720 align:start position:0%
+la capacidad de una empresa para
+ 
+
+00:07:23.720 --> 00:07:26.270 align:start position:0%
+la capacidad de una empresa para
+detectar<00:07:24.199><c> si</c><00:07:24.360><c> han</c><00:07:24.560><c> recibido</c><00:07:24.960><c> un</c><00:07:25.280><c> ciberataque</c>
+
+00:07:26.270 --> 00:07:26.280 align:start position:0%
+detectar si han recibido un ciberataque
+ 
+
+00:07:26.280 --> 00:07:28.629 align:start position:0%
+detectar si han recibido un ciberataque
+esto<00:07:26.520><c> incluye</c><00:07:27.160><c> medidas</c><00:07:27.560><c> como</c><00:07:27.800><c> el</c><00:07:27.960><c> registro</c><00:07:28.360><c> e</c>
+
+00:07:28.629 --> 00:07:28.639 align:start position:0%
+esto incluye medidas como el registro e
+ 
+
+00:07:28.639 --> 00:07:30.589 align:start position:0%
+esto incluye medidas como el registro e
+intentos<00:07:29.360><c> idos</c><00:07:29.720><c> en</c><00:07:29.800><c> páginas</c><00:07:30.120><c> de</c><00:07:30.199><c> inicio</c><00:07:30.479><c> de</c>
+
+00:07:30.589 --> 00:07:30.599 align:start position:0%
+intentos idos en páginas de inicio de
+ 
+
+00:07:30.599 --> 00:07:32.670 align:start position:0%
+intentos idos en páginas de inicio de
+sesión<00:07:31.080><c> o</c><00:07:31.319><c> una</c><00:07:31.560><c> herramienta</c><00:07:32.080><c> que</c><00:07:32.199><c> te</c><00:07:32.319><c> permita</c>
+
+00:07:32.670 --> 00:07:32.680 align:start position:0%
+sesión o una herramienta que te permita
+ 
+
+00:07:32.680 --> 00:07:34.629 align:start position:0%
+sesión o una herramienta que te permita
+capturar<00:07:33.120><c> todo</c><00:07:33.319><c> el</c><00:07:33.440><c> tráfico</c><00:07:34.000><c> de</c><00:07:34.160><c> tu</c><00:07:34.319><c> página</c>
+
+00:07:34.629 --> 00:07:34.639 align:start position:0%
+capturar todo el tráfico de tu página
+ 
+
+00:07:34.639 --> 00:07:36.550 align:start position:0%
+capturar todo el tráfico de tu página
+web<00:07:34.879><c> o</c><00:07:35.000><c> de</c><00:07:35.120><c> tu</c><00:07:35.280><c> empresa</c><00:07:35.800><c> por</c><00:07:35.919><c> último</c><00:07:36.440><c> los</c>
+
+00:07:36.550 --> 00:07:36.560 align:start position:0%
+web o de tu empresa por último los
+ 
+
+00:07:36.560 --> 00:07:38.390 align:start position:0%
+web o de tu empresa por último los
+ataques<00:07:36.879><c> de</c><00:07:37.080><c> falsificación</c><00:07:37.759><c> de</c><00:07:37.919><c> petición</c><00:07:38.240><c> del</c>
+
+00:07:38.390 --> 00:07:38.400 align:start position:0%
+ataques de falsificación de petición del
+ 
+
+00:07:38.400 --> 00:07:41.469 align:start position:0%
+ataques de falsificación de petición del
+lado<00:07:38.759><c> del</c><00:07:38.879><c> servidor</c><00:07:39.280><c> que</c><00:07:39.360><c> es</c><00:07:39.879><c> ssrf</c><00:07:40.879><c> permite</c><00:07:41.280><c> al</c>
+
+00:07:41.469 --> 00:07:41.479 align:start position:0%
+lado del servidor que es ssrf permite al
+ 
+
+00:07:41.479 --> 00:07:43.110 align:start position:0%
+lado del servidor que es ssrf permite al
+atacante<00:07:41.919><c> realizar</c><00:07:42.319><c> solicitudes</c><00:07:42.800><c> a</c><00:07:43.000><c> una</c>
+
+00:07:43.110 --> 00:07:43.120 align:start position:0%
+atacante realizar solicitudes a una
+ 
+
+00:07:43.120 --> 00:07:44.790 align:start position:0%
+atacante realizar solicitudes a una
+aplicación<00:07:43.639><c> a</c><00:07:43.720><c> la</c><00:07:43.840><c> que</c><00:07:43.919><c> no</c><00:07:44.080><c> debería</c><00:07:44.479><c> de</c><00:07:44.599><c> tener</c>
+
+00:07:44.790 --> 00:07:44.800 align:start position:0%
+aplicación a la que no debería de tener
+ 
+
+00:07:44.800 --> 00:07:46.749 align:start position:0%
+aplicación a la que no debería de tener
+acceso<00:07:45.520><c> como</c><00:07:45.759><c> recursos</c><00:07:46.120><c> que</c><00:07:46.240><c> hay</c><00:07:46.440><c> detrás</c><00:07:46.680><c> de</c>
+
+00:07:46.749 --> 00:07:46.759 align:start position:0%
+acceso como recursos que hay detrás de
+ 
+
+00:07:46.759 --> 00:07:48.909 align:start position:0%
+acceso como recursos que hay detrás de
+un<00:07:46.840><c> firewall</c><00:07:47.479><c> o</c><00:07:47.639><c> que</c><00:07:47.759><c> solo</c><00:07:48.000><c> son</c><00:07:48.199><c> accesibles</c><00:07:48.680><c> a</c>
+
+00:07:48.909 --> 00:07:48.919 align:start position:0%
+un firewall o que solo son accesibles a
+ 
+
+00:07:48.919 --> 00:07:51.550 align:start position:0%
+un firewall o que solo son accesibles a
+través<00:07:49.159><c> de</c><00:07:49.240><c> una</c><00:07:49.599><c> VPN</c><00:07:50.560><c> Por</c><00:07:50.680><c> ejemplo</c><00:07:51.199><c> si</c><00:07:51.360><c> una</c>
+
+00:07:51.550 --> 00:07:51.560 align:start position:0%
+través de una VPN Por ejemplo si una
+ 
+
+00:07:51.560 --> 00:07:53.350 align:start position:0%
+través de una VPN Por ejemplo si una
+aplicación<00:07:51.960><c> interna</c><00:07:52.360><c> es</c><00:07:52.520><c> vulnerable</c><00:07:52.960><c> a</c><00:07:53.120><c> un</c>
+
+00:07:53.350 --> 00:07:53.360 align:start position:0%
+aplicación interna es vulnerable a un
+ 
+
+00:07:53.360 --> 00:07:55.830 align:start position:0%
+aplicación interna es vulnerable a un
+ssrf<00:07:54.360><c> un</c><00:07:54.599><c> atacante</c><00:07:55.080><c> externo</c><00:07:55.479><c> podría</c>
+
+00:07:55.830 --> 00:07:55.840 align:start position:0%
+ssrf un atacante externo podría
+ 
+
+00:07:55.840 --> 00:07:57.430 align:start position:0%
+ssrf un atacante externo podría
+aprovecharse<00:07:56.479><c> para</c><00:07:56.639><c> interactuar</c><00:07:57.199><c> con</c>
+
+00:07:57.430 --> 00:07:57.440 align:start position:0%
+aprovecharse para interactuar con
+ 
+
+00:07:57.440 --> 00:07:59.629 align:start position:0%
+aprovecharse para interactuar con
+servidores<00:07:57.919><c> internos</c><00:07:58.560><c> y</c><00:07:58.720><c> extraer</c><00:07:59.360><c> datos</c>
+
+00:07:59.629 --> 00:07:59.639 align:start position:0%
+servidores internos y extraer datos
+ 
+
+00:07:59.639 --> 00:08:01.990 align:start position:0%
+servidores internos y extraer datos
+sensibles<00:08:00.199><c> o</c><00:08:00.440><c> hacer</c><00:08:00.680><c> solicitudes</c><00:08:01.199><c> en</c><00:08:01.520><c> nombre</c>
+
+00:08:01.990 --> 00:08:02.000 align:start position:0%
+sensibles o hacer solicitudes en nombre
+ 
+
+00:08:02.000 --> 00:08:03.790 align:start position:0%
+sensibles o hacer solicitudes en nombre
+de<00:08:02.159><c> la</c><00:08:02.280><c> aplicación</c><00:08:02.639><c> que</c><00:08:02.800><c> ha</c><00:08:03.000><c> sido</c><00:08:03.199><c> vulnerada</c>
+
+00:08:03.790 --> 00:08:03.800 align:start position:0%
+de la aplicación que ha sido vulnerada
+ 
+
+00:08:03.800 --> 00:08:05.110 align:start position:0%
+de la aplicación que ha sido vulnerada
+hasta<00:08:04.000><c> aquí</c><00:08:04.120><c> el</c><00:08:04.199><c> vídeo</c><00:08:04.440><c> de</c><00:08:04.520><c> hoy</c><00:08:04.720><c> Recuerda</c><00:08:05.039><c> que</c>
+
+00:08:05.110 --> 00:08:05.120 align:start position:0%
+hasta aquí el vídeo de hoy Recuerda que
+ 
+
+00:08:05.120 --> 00:08:06.589 align:start position:0%
+hasta aquí el vídeo de hoy Recuerda que
+abajo<00:08:05.360><c> en</c><00:08:05.479><c> la</c><00:08:05.560><c> descripción</c><00:08:05.960><c> tienes</c><00:08:06.199><c> un</c><00:08:06.319><c> enlace</c>
+
+00:08:06.589 --> 00:08:06.599 align:start position:0%
+abajo en la descripción tienes un enlace
+ 
+
+00:08:06.599 --> 00:08:08.510 align:start position:0%
+abajo en la descripción tienes un enlace
+a<00:08:06.720><c> la</c><00:08:06.759><c> guía</c><00:08:07.000><c> gratuita</c><00:08:07.440><c> de</c><00:08:07.560><c> lowas</c><00:08:08.120><c> en</c><00:08:08.240><c> la</c><00:08:08.319><c> que</c><00:08:08.400><c> te</c>
+
+00:08:08.510 --> 00:08:08.520 align:start position:0%
+a la guía gratuita de lowas en la que te
+ 
+
+00:08:08.520 --> 00:08:10.589 align:start position:0%
+a la guía gratuita de lowas en la que te
+explicamos<00:08:09.080><c> brevemente</c><00:08:10.080><c> los</c><00:08:10.199><c> tipos</c><00:08:10.479><c> de</c>
+
+00:08:10.589 --> 00:08:10.599 align:start position:0%
+explicamos brevemente los tipos de
+ 
+
+00:08:10.599 --> 00:08:12.550 align:start position:0%
+explicamos brevemente los tipos de
+ataque<00:08:10.919><c> junto</c><00:08:11.159><c> a</c><00:08:11.319><c> ejemplos</c><00:08:11.720><c> prácticos</c><00:08:12.280><c> y</c>
+
+00:08:12.550 --> 00:08:12.560 align:start position:0%
+ataque junto a ejemplos prácticos y
+ 
+
+00:08:12.560 --> 00:08:14.469 align:start position:0%
+ataque junto a ejemplos prácticos y
+gráficos<00:08:13.280><c> si</c><00:08:13.440><c> te</c><00:08:13.599><c> ha</c><00:08:13.720><c> parecido</c><00:08:14.080><c> interesante</c>
+
+00:08:14.469 --> 00:08:14.479 align:start position:0%
+gráficos si te ha parecido interesante
+ 
+
+00:08:14.479 --> 00:08:16.070 align:start position:0%
+gráficos si te ha parecido interesante
+te<00:08:14.599><c> recomiendo</c><00:08:14.960><c> que</c><00:08:15.039><c> te</c><00:08:15.319><c> suscribas</c><00:08:15.720><c> al</c><00:08:15.840><c> Canal</c>
+
+00:08:16.070 --> 00:08:16.080 align:start position:0%
+te recomiendo que te suscribas al Canal
+ 
+
+00:08:16.080 --> 00:08:18.350 align:start position:0%
+te recomiendo que te suscribas al Canal
+porque<00:08:16.280><c> Subiré</c><00:08:16.840><c> vídeos</c><00:08:17.280><c> más</c><00:08:17.479><c> prácticos</c><00:08:17.960><c> y</c><00:08:18.159><c> más</c>
+
+00:08:18.350 --> 00:08:18.360 align:start position:0%
+porque Subiré vídeos más prácticos y más
+ 
+
+00:08:18.360 --> 00:08:20.230 align:start position:0%
+porque Subiré vídeos más prácticos y más
+técnicos<00:08:19.159><c> explicando</c><00:08:19.879><c> estas</c>
+
+00:08:20.230 --> 00:08:20.240 align:start position:0%
+técnicos explicando estas
+ 
+
+00:08:20.240 --> 00:08:28.230 align:start position:0%
+técnicos explicando estas
+vulnerabilidades<00:08:20.960><c> Paz</c><00:08:21.960><c> bits</c><00:08:22.639><c> y</c><00:08:23.159><c> código</c>
+
+00:08:28.230 --> 00:08:28.240 align:start position:0%
+ 
+ 
+
+00:08:28.240 --> 00:08:31.240 align:start position:0%
+ 
+chao
+

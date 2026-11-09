@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Урок 8. Приёмка работы нейронки</title>
+<meta name="description" content="Задание для модели, отчёт против доказательств, выдуманные факты, шлюз приёмки за 15 минут, передача домена и хостинга. Интерактивный урок.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2314171c%27/%3E%3Crect x=%277%27 y=%2718%27 width=%2718%27 height=%276%27 fill=%27%23ffe14d%27/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/GolosText-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/course.css?v=6">
+<style>
+/* lesson 8: demo-only styles */
+.loop{list-style:none;padding:0;margin:1.4rem 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(10.5rem,100%),1fr));gap:.6rem;counter-reset:lp}
+.loop li{counter-increment:lp;margin:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:.75rem .85rem}
+.loop li::before{content:counter(lp);display:block;font-weight:700;font-size:1.1rem;color:var(--ink-3)}
+.loop strong{display:block}
+.loop span{font-size:.9rem;color:var(--ink-2)}
+
+.pb{display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem;align-items:start}
+@media (min-width:56rem){.pb{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}}
+.pb-opts{display:grid;gap:.25rem}
+.pb-opts label{display:flex;gap:.55rem;align-items:flex-start;font-size:.94rem;padding:.3rem .2rem;border-radius:6px;cursor:pointer}
+.pb-opts label:hover{background:var(--sunk)}
+.pb-opts input{width:1.1rem;height:1.1rem;margin:.18rem 0 0;accent-color:var(--ink);flex:none}
+.risks{list-style:none;padding:0;margin:.7rem 0 0;display:grid;gap:.35rem}
+.risks li{margin:0;font-size:.92rem;padding:.35rem .6rem;border-radius:6px;background:var(--bad-bg);border:1px solid var(--bad-line)}
+
+.claims{list-style:none;padding:0;margin:0;display:grid;gap:.6rem}
+.claims li{margin:0;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.7rem .85rem}
+.claims .cq{font-family:var(--mono);font-size:.86rem;line-height:1.5;overflow-wrap:anywhere}
+.claims li{min-width:0}
+.claims .row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-top:.5rem}
+.claims .why{font-size:.92rem;margin-top:.45rem;color:var(--ink-2)}
+.claims li.right{border-color:var(--good-line);background:var(--good-bg)}
+.claims li.wrong{border-color:var(--bad-line);background:var(--bad-bg)}
+
+.fk{display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem;align-items:start}
+@media (min-width:56rem){.fk{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}}
+.brief{background:var(--mark-soft);border:1px solid var(--mark-line);border-radius:10px;padding:.8rem 1rem;font-size:.93rem}
+.brief ul{margin-top:.4rem}
+.fk-page{background:#fff;border:1px solid var(--line);border-radius:10px;padding:1rem 1.1rem;font-family:system-ui,'Segoe UI',sans-serif;font-size:.95rem;line-height:1.6}
+.fk-page .mh{font-size:1.2rem;margin-bottom:.3rem}
+.fk-page p{margin:.5rem 0 0}
+.fk-page .cl{cursor:pointer;border-radius:3px;padding:0 .1rem;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.fk-page .cl:hover{background:var(--sunk)}
+.fk-page .cl.pick{background:var(--mark);outline:1px solid var(--mark-line)}
+.fk-page .cl.hit{background:var(--good-bg);outline:1px solid var(--good)}
+.fk-page .cl.miss{background:var(--bad-bg);outline:1px dashed var(--bad)}
+.fk-page .cl.false{background:var(--bad-bg);text-decoration:line-through}
+.fk-page .cl:focus-visible{outline:3px solid var(--focus)}
+
+.gate{list-style:none;padding:0;margin:0;display:grid;gap:.5rem;counter-reset:g}
+.gate li{counter-increment:g;margin:0;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.7rem .85rem;display:grid;grid-template-columns:minmax(0,1fr);gap:.4rem}
+@media (min-width:52rem){.gate li{grid-template-columns:minmax(0,1fr) auto;align-items:center}}
+.gate .t{font-weight:650}
+.gate .t::before{content:counter(g) ". ";color:var(--ink-3)}
+.gate .d{font-size:.9rem;color:var(--ink-2);margin-top:.15rem}
+.gate li[data-r=pass]{border-color:var(--good-line);background:var(--good-bg)}
+.gate li[data-r=fail]{border-color:var(--bad-line);background:var(--bad-bg)}
+.gate .seg button{font-size:.84rem;padding:.3rem .6rem;min-height:2.1rem}
+
+.ttl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(4.6rem,1fr));gap:.4rem}
+.ttl-grid div{border-radius:7px;padding:.4rem .3rem;text-align:center;font-size:.74rem;line-height:1.25;border:1px solid}
+.ttl-grid div.old{background:var(--bad-bg);border-color:var(--bad-line);color:var(--bad)}
+.ttl-grid div.new{background:var(--good-bg);border-color:var(--good-line);color:var(--good)}
+.ttl-grid b{display:block;font-size:.8rem}
+
+.own{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(16rem,100%),1fr));gap:1rem;margin-top:1.4rem}
+.own > div{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1rem}
+.own .mh{margin-bottom:.35rem}
+.own p{font-size:.95rem;margin-top:.35rem}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="index.html">Матчасть</a>
+    <span class="top-here">Урок 8 из 9: приёмка работы нейронки</span>
+    <a class="top-next" href="09-type-photo.html">Следующий урок</a>
+  </div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+</header>
+
+<div class="shell">
+<nav aria-label="Содержание урока"><details class="toc"><summary>Содержание</summary><ol></ol></details></nav>
+
+<main>
+<div class="hero">
+  <h1>Урок 8. Приёмка работы нейронки</h1>
+  <p class="lead">Модель всегда говорит «готово». Твоя работа в том, чтобы отличить готовое от похожего на готовое, не читая каждую строку кода.</p>
+  <p>Около 50 минут. Пять интерактивов: собрать задание для модели, отличить отчёт от доказательства, найти выдуманные факты, пройти шлюз приёмки, посмотреть, как меняется адрес сайта по всему миру. Этот урок собирает проверки из уроков 1–7 в один порядок.</p>
+  <p class="small">Пометки: ◆ стандарт или первичный источник, ◈ согласие нескольких авторов или общая практика, ◇ мнение одного автора. Для работы с нейронками стандартов нет вообще: здесь согласие практиков, а не доказанная эффективность. Два видео из пяти сняла Anthropic о своём же продукте, они считаются одним голосом.</p>
+</div>
+
+<section class="sec" id="loop" data-short="Цикл работы">
+  <h2>Цикл, на котором сходятся все авторы</h2>
+  <p>Четыре независимых голоса (DevForge, ForrestKnight, Y Combinator и Anthropic) описывают один и тот же цикл. <span class="ev">◈ четыре голоса</span></p>
+  <ol class="loop">
+    <li><strong>План без кода</strong><span>«Don't write any code yet». План в файле, по-человечески.</span></li>
+    <li><strong>Ты читаешь план</strong><span>Сверяешь с брифом, задаёшь вопросы, правишь.</span></li>
+    <li><strong>Маленький шаг</strong><span>Одна задача, один набор файлов.</span></li>
+    <li><strong>Проверка</strong><span>Модель показывает результат проверок, ты смотришь сам.</span></li>
+    <li><strong>Сохранение</strong><span>Коммит. Каждый шаг можно отменить.</span></li>
+  </ol>
+  <p>Две вещи из этого цикла чаще всего пропускают. Первая: <strong>откат вместо заплаток</strong>. Если исправление не помогло, автор из Y Combinator советует вернуться к последнему рабочему состоянию и начать заново, а не лепить второе исправление поверх первого, иначе слои «корки» копятся. <span class="ev">◈ три автора</span> Вторая: <strong>файл с правилами</strong> проекта (у Claude это CLAUDE.md), который модель читает в начале каждой сессии. <span class="ev">◈ три голоса</span></p>
+
+  <h3>Нужно ли читать код</h3>
+  <p>Здесь авторы честно расходятся. DevForge и ForrestKnight: да, проверять как код младшего коллеги и уметь объяснить каждую строку. Инженер Anthropic: можно проверять через абстракцию, то есть тесты, наблюдаемый результат и поведение, а читать только ядро. <span class="ev">◇ спор, без решения</span> Для того, кто сам не пишет код, рабочий вариант второй, но с условием: проверки настоящие, а рискованные части (формы, вход, оплата, ключи, чужие скрипты) смотрит человек, который код читает. И сюда же совет всех авторов: просить модель объяснить, что она сделала, и учиться на этом. <span class="ev">◈ четыре голоса</span></p>
+</section>
+
+<section class="sec" id="prompt" data-short="Задание для модели">
+  <h2>Задание, по которому можно принять работу</h2>
+  <p>Главное правило ForrestKnight: «be specific», будь конкретным. Хорошее задание проверяемо: в нём есть, что значит «готово». <span class="ev">◈ три голоса</span> Собери задание из частей и посмотри, какие риски остаются открытыми.</p>
+
+  <div class="stage" id="pb">
+    <div class="stage-head">
+      <span class="stage-title">Задание: страница тура</span>
+      <div class="seg" role="group" aria-label="Примеры">
+        <button type="button" data-pb="none">Одной строкой</button>
+        <button type="button" data-pb="all">Полное</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="pb">
+        <div class="pb-opts" id="pbOpts"></div>
+        <div>
+          <pre class="code" id="pbText" style="margin-top:0"></pre>
+          <ul class="risks" id="pbRisks" aria-live="polite"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="pbOut" class="readout"></p></div>
+  </div>
+</section>
+
+<section class="sec" id="claims" data-short="Отчёт или доказательство">
+  <h2>Отчёт модели: заявление или доказательство</h2>
+  <p>Модель пишет отчёт уверенно, и уверенность ничего не стоит. Различай два вида фраз. <mark>Заявление</mark>: «всё адаптивно», «доступность в порядке». <mark>Доказательство</mark>: числа замера, скриншоты конкретных ширин, вывод команды, адрес, на который пришла тестовая заявка. Принимать можно только второе. <span class="ev">◈ «verify, don't trust», четыре голоса</span></p>
+
+  <div class="stage" id="cl">
+    <div class="stage-head">
+      <span class="stage-title">Разбери отчёт модели</span>
+      <span class="readout" id="clScore"></span>
+    </div>
+    <div class="stage-body sunk"><ul class="claims" id="clList"></ul></div>
+    <div class="stage-foot"><p class="small">Числа в фразах условные.</p></div>
+  </div>
+
+  <p>Отдельно про Lighthouse. Оценка доступности в нём складывается только из автоматических проверок: ручные проверки в неё не входят, это написано в документации. <span class="ev">◆ Chrome Lighthouse docs</span> А оценка скорости это один лабораторный прогон, не данные реальных посетителей. <span class="ev">◆ web.dev</span> Поэтому «Lighthouse 100» это нижняя планка, а не приёмка.</p>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Never say "done", "works" or "responsive" without evidence. For every claim give the measurement, the command output or the screenshot it rests on.</li>
+      <li>Report what you did not check, explicitly.</li>
+      <li>List every file you changed and why. Do not touch files outside the task.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="facts" data-short="Выдуманные факты">
+  <h2>Выдуманные факты</h2>
+  <p>Нейронка заполняет пустоты правдоподобным. Цены, телефоны, «лицензия министерства», «Travellers' Choice 2025», отзывы с именами, «более 10 000 довольных гостей». На прототипе это незаметно, а потом попадает к клиенту и в поиск. Выдумки модели задокументированы во всех тестах на достоверность, а свежая работа PhantomFill (июль 2026) показала механизм: когда формат требует ответа, модель его придумывает. GPT-5.5 в свободном тексте честно отвечает «данных нет» в 98% случаев, а при обязательном поле выдумал ответ 40 раз из 40. Страница сайта с пустыми местами под цену и отзывы работает как такое обязательное поле. <span class="ev">◈ PhantomFill, arXiv 2607.20492; отдельных исследований выдуманных фактов именно на сайтах нет</span></p>
+
+  <div class="stage" id="fk">
+    <div class="stage-head">
+      <span class="stage-title">Найди всё, чего нет в брифе</span>
+      <div class="seg" role="group" aria-label="Действия">
+        <button type="button" id="fkCheck">Проверить</button>
+        <button type="button" id="fkReset">Сначала</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="fk">
+        <div class="brief">
+          <strong>Бриф от владельца</strong>
+          <ul>
+            <li>Тур: Nusa Penida, один день, из Санура.</li>
+            <li>Лодка до 6 гостей, местный капитан.</li>
+            <li>Цена от $95 с человека.</li>
+            <li>Возвращение к 17:00.</li>
+            <li>Связь: WhatsApp, номер ещё не дали.</li>
+          </ul>
+        </div>
+        <div class="fk-page" id="fkPage">
+          <div class="mh">Nusa Penida day trip</div>
+          <p><span class="cl" data-ok tabindex="0">A small boat for up to six guests</span> and <span class="cl" data-ok tabindex="0">a local captain</span>. <span class="cl" tabindex="0">Rated 4.9 by over 2,000 travellers</span>, we are <span class="cl" tabindex="0">Bali's most awarded day-trip operator</span>.</p>
+          <p><span class="cl" data-ok tabindex="0">From $95 per person</span>, <span class="cl" tabindex="0">lunch and snorkel gear included</span>. <span class="cl" data-ok tabindex="0">Back in Sanur by 5 pm</span>.</p>
+          <p><span class="cl" tabindex="0">Licensed by the Indonesian Ministry of Tourism (No. 4471/2019)</span>. <span class="cl" tabindex="0">Free cancellation up to 24 hours before</span>.</p>
+          <p>Message us on WhatsApp: <span class="cl" tabindex="0">+62 812 3456 7890</span>.</p>
+          <p>“<span class="cl" tabindex="0">Best day of our honeymoon!</span>” <span class="cl" tabindex="0">Sarah K., London</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="fkOut" class="readout" aria-live="polite">Нажимай на фразы, которых нет в брифе. Потом «Проверить».</p></div>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Use only facts from the brief. Where a fact is missing, write a visible placeholder like [PRICE?] or [PHONE?] and list all placeholders at the end of your report.</li>
+      <li>No invented reviews, ratings, awards, licences, statistics or contact details. Ever.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="gate" data-short="Шлюз за 15 минут">
+  <h2>Шлюз приёмки за 15 минут</h2>
+  <p>Порядок проверки перед тем, как что-то показать клиенту. Каждая строка ссылается на урок, где проверка разобрана подробно. Отмечай по ходу: результат сохранится в этом браузере.</p>
+
+  <div class="stage" id="gt">
+    <div class="stage-head"><span class="stage-title">Проверка сборки</span><button type="button" class="btn ghost" id="gtClear">Очистить</button></div>
+    <div class="stage-body sunk"><ol class="gate" id="gtList"></ol></div>
+    <div class="stage-foot"><p id="gtOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>В этом проекте к шлюзу добавлена своя автоматическая проверка: детектор Impeccable должен пройти без находок перед показом владельцу. Это убирает механические признаки «сделано нейронкой», но хорошего дизайна не гарантирует.</p>
+</section>
+
+<section class="sec" id="handoff" data-short="Домен и хостинг">
+  <h2>Передача сайта: домен, хостинг, почта</h2>
+  <p>Сайт принят, его нужно отдать так, чтобы клиент не зависел от тебя. Три автора сходятся: домен должен принадлежать клиенту. Про хостинг мнения расходятся, но счёт и доступ разумно держать на клиенте, а разработчику давать приглашение. <span class="ev">◈ три автора; ◇ спор о хостинге</span></p>
+
+  <div class="own">
+    <div><div class="mh">Владеет клиент</div><p>Аккаунт регистратора домена, хостинга, почты, аналитики, Search Console. Двухфакторный вход и автопродление домена.</p></div>
+    <div><div class="mh">Получает разработчик</div><p>Приглашение с ролью, а не пароль владельца. Уходит, и доступ отзывается одной кнопкой.</p></div>
+    <div><div class="mh">Записано в одном файле</div><p>Где что лежит, кто платит и когда, как откатить неудачную публикацию, кто правит тексты.</p></div>
+  </div>
+
+  <h3>Пять слов про DNS</h3>
+  <dl class="gloss">
+    <div><dt>A и AAAA</dt><dd>Имя сайта указывает на адрес сервера. Для запуска сайта обычно достаточно их. <span class="ev">◈ три автора</span></dd></div>
+    <div><dt>CNAME</dt><dd>Имя указывает на другое имя. На корневом домене его ставить нельзя: на имени с CNAME не может быть других записей. <span class="ev">◆ RFC 1034</span></dd></div>
+    <div><dt>MX</dt><dd>Куда доставлять почту домена. Меньшее число означает больший приоритет. <span class="ev">◈ два автора</span></dd></div>
+    <div><dt>TXT</dt><dd>Текстовые записи: подтверждение владения для Search Console и настройки почты SPF, DKIM, DMARC.</dd></div>
+    <div><dt>TTL</dt><dd>Сколько секунд другие серверы держат ответ в памяти. «Распространение DNS» это просто ожидание, пока истечёт TTL. <span class="ev">◈ три автора</span></dd></div>
+  </dl>
+
+  <div class="stage" id="ttl">
+    <div class="stage-head">
+      <span class="stage-title">Переезд сайта на новый сервер</span>
+      <div class="seg" role="group" aria-label="TTL перед переездом">
+        <button type="button" class="is-bad" data-set="ttl=86400" aria-pressed="true">TTL сутки</button>
+        <button type="button" data-set="ttl=3600" aria-pressed="false">TTL час</button>
+        <button type="button" class="is-good" data-set="ttl=300" aria-pressed="false">TTL 5 минут, снижен заранее</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">прошло после смены записи <input type="range" id="ttlT" min="0" max="100" value="10"><output id="ttlTOut"></output></label>
+    </div>
+    <div class="stage-body"><div class="ttl-grid" id="ttlGrid" aria-hidden="true"></div></div>
+    <div class="stage-foot"><p id="ttlOut" class="readout" aria-live="polite"></p><p class="small">Модель: 24 сервера провайдеров по миру, у каждого старый ответ запомнен в случайный момент в пределах TTL. Реальное поведение сложнее, но принцип такой. Время переезда авторы называют по-разному, от минут до 48 часов, по первоисточникам это не решается. <span class="ev">◇</span> У Cloudflare TTL записи через прокси 300 секунд, без прокси от 60 секунд до суток. <span class="ev">◆ Cloudflare docs</span></p></div>
+  </div>
+
+  <p>Отсюда рецепт переезда: за сутки снизить TTL, дождаться, пока истечёт старый, сменить запись, проверить с внешнего сервера (например, сервисом проверки DNS из нескольких стран), потом вернуть TTL. Старый хостинг не выключать, пока всё не устоится. <span class="ev">◇ один автор, логика следует из стандарта кэширования</span></p>
+  <p>И про почту. Письма с домена сайта (подтверждения заявок, ответы) без записей SPF, DKIM и DMARC попадают в спам или отклоняются. Gmail требует SPF или DKIM от всех отправителей. <span class="ev">◆ RFC 7208, RFC 7489, правила Gmail</span></p>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Write HANDOVER.md: every account (registrar, DNS, hosting, email, analytics, Search Console), who owns it, who pays, renewal dates, how to roll back a deploy.</li>
+      <li>List every DNS record the site needs with its purpose. Lower TTL a day before any switch; verify from an external resolver after.</li>
+      <li>Set up SPF, DKIM and DMARC for any domain that sends email, and show me the test result.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="errors" data-short="10 типичных провалов">
+  <h2>Десять типичных провалов при приёмке</h2>
+  <ol class="cases">
+    <li><div class="mh">1. «Готово» без доказательств</div><p>Приняли на слово.</p><p><code>Evidence for every claim.</code></p></li>
+    <li><div class="mh">2. Нет плана</div><p>Модель сразу пишет код и решает за тебя.</p><p><code>Plan first, no code yet.</code></p></li>
+    <li><div class="mh">3. Заплатки поверх заплаток</div><p>Пятое исправление ломает третье.</p><p><code>Reset to last good commit.</code></p></li>
+    <li><div class="mh">4. Выдуманные факты</div><p>Цены, лицензии, отзывы, телефоны.</p><p><code>Placeholders, never inventions.</code></p></li>
+    <li><div class="mh">5. Нет состояний</div><p>Пусто, загрузка, ошибка, успех, 404 не сделаны.</p><p><code>Show every state.</code></p></li>
+    <li><div class="mh">6. Мёртвые кнопки</div><p>Выглядят рабочими, не делают ничего.</p><p><code>Label prototypes as prototypes.</code></p></li>
+    <li><div class="mh">7. Изменения не по задаче</div><p>Модель «заодно» поправила соседние файлы.</p><p><code>Only files in the plan.</code></p></li>
+    <li><div class="mh">8. Стили расползаются</div><p>Шрифты и отступы разные на разных страницах.</p><p><code>Use the design tokens.</code></p></li>
+    <li><div class="mh">9. Проверено только на ноутбуке</div><p>На телефоне всё едет.</p><p><code>320, 390, 1440 screenshots.</code></p></li>
+    <li><div class="mh">10. Домен на разработчике</div><p>Клиент не может уйти без него.</p><p><code>Client owns the accounts.</code></p></li>
+  </ol>
+</section>
+
+<section class="sec" id="quiz" data-short="Тест">
+  <h2>Проверь себя</h2>
+  <div class="quiz" data-quiz="l8">
+    <script type="application/json">
+[
+ {"q":"С чего начинать задачу для модели, по словам всех авторов?","opts":["Сразу просить код, потом смотреть","С плана без кода, который ты читаешь и одобряешь","С выбора самой дорогой модели","С тестов в Lighthouse"],"a":1,"why":"«Don't write any code yet»: план в файле, проверка плана, потом маленькие шаги."},
+ {"q":"Третья попытка исправить ошибку не помогла. Что советует автор из Y Combinator?","opts":["Попросить четвёртую","Откатиться к последнему рабочему коммиту и начать заново","Переписать весь сайт","Сменить модель посреди разговора"],"a":1,"why":"Каждая неудачная заплатка остаётся слоем «корки». Откат дешевле."},
+ {"q":"Какая фраза в отчёте модели доказательство?","opts":["The site is fully responsive","Accessibility is compliant","Screenshots at 320, 390 and 1440 px attached; no horizontal scroll at any width","Everything works as expected"],"a":2,"why":"Доказательство это то, что можно проверить: замер, скриншот, вывод команды."},
+ {"q":"Lighthouse показал 100 по доступности. Что из этого следует по документации?","opts":["Сайт доступен","В оценку входят только автоматические проверки; ручные в неё не входят","Можно не проверять клавиатуру","Сайт соответствует WCAG AA"],"a":1,"why":"Документация Lighthouse прямо говорит, что ручные проверки на оценку не влияют."},
+ {"q":"В брифе нет телефона, а на странице номер +62 812 3456 7890. Что делать?","opts":["Оставить, выглядит правдоподобно","Это выдумка: потребовать заглушку [PHONE?] и список заглушек в отчёте","Позвонить по номеру","Удалить контакты совсем"],"a":1,"why":"Модель заполняет пустоты правдоподобным. Правило: только факты из брифа, остальное заглушки."},
+ {"q":"Кто должен владеть аккаунтом регистратора домена?","opts":["Разработчик, ему удобнее","Клиент; разработчик получает доступ по приглашению","Хостинг","Неважно"],"a":1,"why":"Три автора сходятся: иначе клиент не может уйти без разработчика."},
+ {"q":"Почему новый адрес сервера виден не всем сразу после смены записи DNS?","opts":["DNS обновляется раз в неделю","Серверы провайдеров держат старый ответ, пока не истечёт его TTL","Google проверяет сайт","Нужно перезагрузить роутер"],"a":1,"why":"«Распространение» это ожидание истечения TTL. Поэтому TTL снижают заранее."},
+ {"q":"Подтверждения заявок с домена сайта уходят в спам. Чего скорее всего нет?","opts":["Красивого шаблона письма","Записей SPF, DKIM и DMARC","HTTPS","Favicon"],"a":1,"why":"Gmail требует SPF или DKIM от всех отправителей. Без них письма часто отклоняются или идут в спам."},
+ {"q":"Нужно ли тому, кто не пишет код, читать каждую строку?","opts":["Да, все авторы требуют","Авторы спорят; рабочий вариант: настоящие проверки результата плюс человек, читающий код, для рискованных частей","Нет, модель не ошибается","Только CSS"],"a":1,"why":"DevForge и ForrestKnight за чтение, инженер Anthropic за проверку через тесты и результат. Формы, вход, оплата и ключи в любом случае смотрит специалист."}
+]
+    </script>
+  </div>
+</section>
+
+<section class="sec" id="sources" data-short="Источники">
+  <h2>Откуда это взято</h2>
+  <ul>
+    <li>◈ Видео: DevForge, ForrestKnight (спонсор Warp), Y Combinator (у фонда доли в упомянутых инструментах), два доклада Anthropic о Claude Code (один голос, вендор).</li>
+    <li>◆ Документация Lighthouse о том, что входит в оценку доступности; web.dev о разнице лабораторных и полевых данных.</li>
+    <li>◆ RFC 1034 (CNAME), RFC 2308 (кэширование отрицательных ответов), RFC 7208 (SPF), RFC 7489 (DMARC), документация Cloudflare о TTL и своих доменах для Pages, правила Gmail для отправителей.</li>
+    <li>◈ Видео о доменах и хостинге: Backend Deep Dives, Bryce Matheson, DesignWithArash, Кириленко (ru, машинный перевод), Rino de Boer, Stewart Gauld, Alberto López (es), Cookie connecté (fr). Двое из них зарабатывают на хостинге.</li>
+    <li>◈ PhantomFill, arXiv 2607.20492, июль 2026: 13 моделей, выдумывание ответа при обязательном поле.</li>
+  </ul>
+  <p class="small">Не проверено: утверждение из доклада Anthropic, что длина задач для моделей удваивается каждые семь месяцев; «48 часов» на смену серверов имён; утверждение одного видео о минимальном TTL у Cloudflare противоречит документации Cloudflare и не вошло.</p>
+</section>
+</main>
+</div>
+
+<footer class="foot">
+  <nav aria-label="Навигация по курсу"><a href="07-security.html">Урок 7. Безопасность, чужие скрипты и приватность</a><a href="09-type-photo.html">Урок 9. Типографика и фото</a><a href="index.html">Все уроки</a></nav>
+</footer>
+
+<script src="assets/course.js?v=6"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const { $, $$, store } = Course;
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  /* 1. Prompt builder */
+  const PB = [
+    { id: 'goal', l: 'Цель и для кого', t: 'Build the tour page for "Nusa Penida day trip" for couples and small groups who will enquire on WhatsApp or by form.', risk: 'Модель не знает, для кого страница и какое действие главное: сделает «универсальную» витрину.' },
+    { id: 'facts', l: 'Факты из брифа и запрет выдумывать', t: 'Use only these facts: … Missing facts become visible placeholders like [PRICE?]. No invented reviews, ratings or awards.', risk: 'Пустоты заполнятся правдоподобными выдумками: цены, отзывы, лицензии.' },
+    { id: 'rules', l: 'Ссылка на правила проекта', t: 'Follow CLAUDE.md and LAYOUT_RULES.md; reuse the existing tokens and components.', risk: 'Стили, шрифты и отступы разъедутся с остальными страницами.' },
+    { id: 'plan', l: 'Сначала план, без кода', t: 'Do not write code yet. First write a plan: sections, files you will touch, open questions. Wait for my approval.', risk: 'Модель сразу напишет код и сама решит то, что должен решить ты.' },
+    { id: 'scope', l: 'Границы: какие файлы можно трогать', t: 'Only create tours/nusa-penida.html and its images. Do not change other files.', risk: 'Модель «заодно» поправит соседние страницы и сломает то, что работало.' },
+    { id: 'done', l: 'Что значит «готово»', t: 'Done means: works at 320, 390 and 1440 px without sideways scroll; keyboard walk-through passes; Lighthouse mobile LCP under 2.5 s; enquiry form test arrives.', risk: 'Нечем проверить результат: «готово» будет мнением модели.' },
+    { id: 'proof', l: 'Требование доказательств в отчёте', t: 'In your report give screenshots, measured numbers and the list of changed files. Say what you did not check.', risk: 'Получишь уверенный отчёт без единого проверяемого факта.' }
+  ];
+  $('#pbOpts').innerHTML = PB.map((p) => `<label><input type="checkbox" data-pb-id="${p.id}"><span>${esc(p.l)}</span></label>`).join('');
+  function pbRender() {
+    const on = PB.filter((p) => $(`[data-pb-id="${p.id}"]`).checked);
+    const off = PB.filter((p) => !on.includes(p));
+    $('#pbText').textContent = on.length ? on.map((p) => p.t).join('\n\n') : 'Make a nice page for our Nusa Penida tour.';
+    $('#pbRisks').innerHTML = off.map((p) => `<li>${esc(p.risk)}</li>`).join('');
+    $('#pbOut').innerHTML = off.length ? `<span class="verdict ${off.length > 3 ? 'no' : 'mid'}">Открытых рисков: ${off.length} из ${PB.length}.</span> Каждая красная строка это то, что модель решит за тебя.` : '<span class="verdict ok">Задание проверяемое:</span> есть факты, границы, план, определение готовности и требование доказательств.';
+  }
+  $('#pbOpts').addEventListener('change', () => { $$('#pb [data-pb]').forEach((x) => x.setAttribute('aria-pressed', 'false')); pbRender(); });
+  $$('#pb [data-pb]').forEach((b) => b.addEventListener('click', () => {
+    PB.forEach((p) => { $(`[data-pb-id="${p.id}"]`).checked = b.dataset.pb === 'all'; });
+    $$('#pb [data-pb]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    pbRender();
+  }));
+  $('#pb [data-pb="none"]').setAttribute('aria-pressed', 'true'); pbRender();
+
+  /* 2. Claim vs evidence */
+  const CL = [
+    ['The page is fully responsive and looks great on all devices.', 0, 'Заявление. «Все устройства» не проверить; нужны скриншоты конкретных ширин.'],
+    ['Lighthouse mobile: LCP 1.9 s, CLS 0.02, INP n/a (lab). Report attached.', 1, 'Доказательство: числа конкретного прогона и отчёт. И модель честно пишет, что INP в лаборатории не измеряется.'],
+    ['Accessibility is WCAG 2.2 AA compliant.', 0, 'Заявление. Соответствие не проверяется автоматически; нужен ручной проход и список проверенного.'],
+    ['Keyboard walk-through: 14 stops, order matches layout, focus visible on all; video attached.', 1, 'Доказательство: что сделано, что увидено, запись.'],
+    ['The enquiry form works.', 0, 'Заявление. Работает в смысле «показывает Thank you»? Куда ушла заявка?'],
+    ['Test enquiry sent at 14:02 arrived at hello@1000islands.travel (inbox, not spam); screenshot attached.', 1, 'Доказательство: время, адрес, папка, скриншот.'],
+    ['I optimized all images.', 0, 'Заявление. Нужна таблица: файл, размер в пикселях, вес до и после.'],
+    ['Not checked: Safari on iPhone, Russian text in the footer.', 1, 'Это ценная часть отчёта: модель называет, что не проверяла. Честный отчёт всегда содержит такой список.']
+  ];
+  let clRight = 0; let clDone = 0;
+  $('#clList').innerHTML = CL.map(([q], i) => `<li data-i="${i}"><div class="cq">${esc(q)}</div><div class="row"><span class="seg" role="group" aria-label="Тип фразы"><button type="button" data-v="0">Заявление</button><button type="button" data-v="1">Доказательство</button></span></div><p class="why" hidden></p></li>`).join('');
+  $('#clList').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-v]'); if (!b) return;
+    const li = b.closest('li'); if (li.classList.contains('right') || li.classList.contains('wrong')) return;
+    const [, a, why] = CL[li.dataset.i]; const ok = Number(b.dataset.v) === a;
+    li.classList.add(ok ? 'right' : 'wrong'); b.setAttribute('aria-pressed', 'true');
+    $$('button', li).forEach((x) => { x.disabled = true; });
+    const w = $('.why', li); w.hidden = false; w.innerHTML = (ok ? '<strong>Верно.</strong> ' : '<strong>Не совсем.</strong> ') + esc(why);
+    clDone += 1; if (ok) clRight += 1;
+    $('#clScore').textContent = `верно ${clRight} из ${clDone}`;
+  });
+
+  /* 3. Invented facts */
+  const page = $('#fkPage');
+  page.addEventListener('click', (e) => { const s = e.target.closest('.cl'); if (s && !page.dataset.checked) s.classList.toggle('pick'); });
+  page.addEventListener('keydown', (e) => { if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('cl')) { e.preventDefault(); e.target.click(); } });
+  $('#fkCheck').addEventListener('click', () => {
+    page.dataset.checked = '1'; let hit = 0; let miss = 0; let wrong = 0;
+    $$('.cl', page).forEach((s) => {
+      const fake = !s.hasAttribute('data-ok'); const picked = s.classList.contains('pick');
+      s.classList.remove('pick');
+      if (fake && picked) { s.classList.add('hit'); hit += 1; }
+      else if (fake) { s.classList.add('miss'); miss += 1; }
+      else if (picked) { s.classList.add('false'); wrong += 1; }
+    });
+    const total = hit + miss;
+    $('#fkOut').innerHTML = `Найдено ${hit} из ${total} выдумок. ${miss ? `<span class="verdict no">Пропущено ${miss}</span> (пунктирная рамка). ` : '<span class="verdict ok">Ничего не пропущено.</span> '}${wrong ? `Зря отмечено ${wrong}: эти факты есть в брифе (зачёркнуты). ` : ''}Выдуманы рейтинг, «самый награждённый», обед и снаряжение, лицензия с номером, условия отмены, телефон, отзыв и его автор. Условия отмены особенно опасны: это обещание, за которое отвечает владелец.`;
+  });
+  $('#fkReset').addEventListener('click', () => { delete page.dataset.checked; $$('.cl', page).forEach((s) => s.classList.remove('pick', 'hit', 'miss', 'false')); $('#fkOut').textContent = 'Нажимай на фразы, которых нет в брифе. Потом «Проверить».'; });
+
+  /* 4. Acceptance gate */
+  const GT = [
+    ['Ширина 320, 390, 1440', 'Нет горизонтальной прокрутки, ничего не обрезано. Урок 1.'],
+    ['Проход клавишей Tab', 'Дошёл до всего, фокус виден, порядок как на экране. Урок 4.'],
+    ['Lighthouse Mobile', 'LCP до 2,5 с, CLS до 0,1, красного в доступности нет. Уроки 3 и 4.'],
+    ['Network: Slow 4G без кэша', 'Через 3 секунды видны заголовок и главное фото; нет тяжёлых файлов. Урок 3.'],
+    ['Консоль без ошибок', 'F12, Console: нет красных строк на каждой странице.'],
+    ['Форма: пустая отправка и настоящая заявка', 'Ошибки текстом у полей; тестовая заявка дошла не в спам. Урок 5.'],
+    ['Факты и заглушки', 'Нет выдуманных цен, отзывов, телефонов; все [ЗАГЛУШКИ] перечислены.'],
+    ['Просмотр кода страницы', 'Свой title и description, og-теги, текст в HTML. Урок 6.'],
+    ['Ссылка в мессенджере', 'Карточка с фото этой страницы. Урок 6.'],
+    ['Чужие скрипты и cookie', 'Список с причинами; в приватном окне до согласия ничего не грузится. Урок 7.'],
+    ['Секреты', 'Поиск по файлам сборки не находит ключей. Урок 7.'],
+    ['Отчёт модели', 'Доказательства, а не заявления; список непроверенного; список изменённых файлов.']
+  ];
+  const saved = store.get('gate:l8', {});
+  $('#gtList').innerHTML = GT.map(([t, d], i) => `<li data-r="${saved[i] || ''}"><div><div class="t">${esc(t)}</div><div class="d">${esc(d)}</div></div><span class="seg" role="group" aria-label="Результат: ${esc(t)}"><button type="button" class="is-good" data-g="${i}" data-r="pass" aria-pressed="${saved[i] === 'pass'}">прошло</button><button type="button" class="is-bad" data-g="${i}" data-r="fail" aria-pressed="${saved[i] === 'fail'}">не прошло</button></span></li>`).join('');
+  function gtRender() {
+    const r = $$('#gtList > li').map((li) => li.dataset.r);
+    const pass = r.filter((x) => x === 'pass').length; const fail = r.filter((x) => x === 'fail').length; const left = GT.length - pass - fail;
+    $('#gtOut').innerHTML = fail ? `<span class="verdict no">Показывать нельзя: не прошло ${fail}.</span> Верни модели конкретные пункты, по одному на шаг.` : left ? `Прошло ${pass} из ${GT.length}, осталось проверить ${left}.` : '<span class="verdict ok">Все двенадцать пунктов пройдены.</span> Можно показывать, приложив доказательства.';
+  }
+  $('#gtList').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-g]'); if (!b) return;
+    const li = b.closest('li'); const i = Number(b.dataset.g);
+    const v = li.dataset.r === b.dataset.r ? '' : b.dataset.r;
+    li.dataset.r = v; $$('button', li).forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.r === v)));
+    const s = store.get('gate:l8', {}); s[i] = v; store.set('gate:l8', s);
+    gtRender();
+  });
+  $('#gtClear').addEventListener('click', () => { store.set('gate:l8', {}); $$('#gtList > li').forEach((li) => { li.dataset.r = ''; $$('button', li).forEach((x) => x.setAttribute('aria-pressed', 'false')); }); gtRender(); });
+  gtRender();
+
+  /* 5. TTL model */
+  const ttl = $('#ttl'); const ttlT = $('#ttlT');
+  const seeds = Array.from({ length: 24 }, (_, i) => ((i * 7919) % 97) / 97);
+  const CITIES = ['Sydney', 'Jakarta', 'Singapore', 'Tokyo', 'Seoul', 'Mumbai', 'Dubai', 'Moscow', 'Berlin', 'Paris', 'London', 'Madrid', 'Rome', 'Warsaw', 'Kyiv', 'Istanbul', 'Cairo', 'Lagos', 'New York', 'Toronto', 'Chicago', 'Mexico', 'São Paulo', 'Perth'];
+  const fmt = (s) => (s < 120 ? Math.round(s) + ' с' : s < 7200 ? Math.round(s / 60) + ' мин' : (s / 3600).toFixed(1).replace('.', ',') + ' ч');
+  function ttlRender() {
+    const T = Number(ttl.dataset.ttl || 86400);
+    const t = (Number(ttlT.value) / 100) * 86400 * 1.05;
+    $('#ttlTOut').textContent = fmt(t);
+    let n = 0;
+    $('#ttlGrid').innerHTML = seeds.map((s, i) => { const left = s * T; const isNew = t >= left; if (isNew) n += 1; return `<div class="${isNew ? 'new' : 'old'}"><b>${CITIES[i]}</b>${isNew ? 'новый' : 'старый ещё ' + fmt(left - t)}</div>`; }).join('');
+    $('#ttlOut').innerHTML = n === 24 ? `<span class="verdict ok">Все видят новый сервер.</span> С TTL ${fmt(T)} это занимает не дольше ${fmt(T)}.` : `<span class="verdict ${n > 12 ? 'mid' : 'no'}">Новый сервер видят ${n} из 24.</span> Остальные ещё получают старый адрес из памяти. Если старый хостинг уже выключен, у них сайт не открывается.`;
+  }
+  ttl.setAttribute('data-ttl', '86400');
+  ttl.addEventListener('statechange', ttlRender); ttlT.addEventListener('input', ttlRender); ttlRender();
+});
+</script>
+</body>
+</html>

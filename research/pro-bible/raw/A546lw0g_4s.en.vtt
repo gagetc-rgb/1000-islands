@@ -1,0 +1,456 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:04.240
+In this video, you will learn how&nbsp;
+to configure conversions in GA4,&nbsp;&nbsp;
+
+00:00:04.240 --> 00:00:09.120
+Google Analytics 4. It's important to take&nbsp;
+the time to do this because conversions are&nbsp;&nbsp;
+
+00:00:09.120 --> 00:00:14.880
+used to measure the most important actions&nbsp;
+taking place on your website. For example,&nbsp;&nbsp;
+
+00:00:14.880 --> 00:00:22.800
+you might want to track people completing a form,&nbsp;
+signing up for a newsletter, or making a purchase.&nbsp;&nbsp;
+
+00:00:25.040 --> 00:00:30.240
+In this video, we're going to walk through two&nbsp;
+ways to configure conversions. We're going to&nbsp;&nbsp;
+
+00:00:30.240 --> 00:00:34.800
+walk through the steps to create an event&nbsp;
+in Google Analytics. And we're also going&nbsp;&nbsp;
+
+00:00:34.800 --> 00:00:40.800
+to cover how we can use Google Tag Manager. It's&nbsp;
+important to highlight that we track conversions&nbsp;&nbsp;
+
+00:00:40.800 --> 00:00:46.400
+using 'Key Events' in Google Analytics. So when&nbsp;
+you jump into your reports, you'll be using 'Key&nbsp;&nbsp;
+
+00:00:46.400 --> 00:00:53.440
+Events' to understand if people convert on your&nbsp;
+website. Okay, let's get started! We're looking&nbsp;&nbsp;
+
+00:00:53.440 --> 00:01:04.080
+at my GA4 demo property, so let's navigate&nbsp;
+to 'Admin'. And let's select 'Data Display'.&nbsp;&nbsp;
+
+00:01:04.080 --> 00:01:11.680
+And choose 'Events'. We're currently looking at&nbsp;
+the 'Key Events' tab. This shows us all of the&nbsp;&nbsp;
+
+00:01:11.680 --> 00:01:18.640
+events that have already been configured to track&nbsp;
+conversions actions taking place on our website.&nbsp;&nbsp;
+
+00:01:18.640 --> 00:01:25.680
+If you want to configure another event as a 'Key&nbsp;
+Event', we can select the 'Recent Events' tab.&nbsp;&nbsp;
+
+00:01:25.680 --> 00:01:32.080
+We're now looking at all of the events that have&nbsp;
+been recently collected into our GA4 property.&nbsp;&nbsp;
+
+00:01:32.080 --> 00:01:39.760
+And on the left, we can see there's a column&nbsp;
+of stars. When a star is solid grey, and not&nbsp;&nbsp;
+
+00:01:39.760 --> 00:01:47.360
+just an outline, this tells us the event has been&nbsp;
+marked as a 'Key Event' to report on conversions.&nbsp;&nbsp;
+
+00:01:47.920 --> 00:01:53.440
+So if you look down the list of recent events&nbsp;
+and you see the event you want to use for your&nbsp;&nbsp;
+
+00:01:53.440 --> 00:02:02.080
+conversion, you can mark it as a key event. To do&nbsp;
+this, we just need to click the star. In order to&nbsp;&nbsp;
+
+00:02:02.080 --> 00:02:09.040
+be able to mark events as 'Key Events' you will&nbsp;
+need editor or administrator permission for the&nbsp;&nbsp;
+
+00:02:09.040 --> 00:02:13.840
+property. If you don't have the correct&nbsp;
+permission, you will need to get someone&nbsp;&nbsp;
+
+00:02:13.840 --> 00:02:20.960
+who does to configure things for you, or have&nbsp;
+your permission increased. Since I do have the&nbsp;&nbsp;
+
+00:02:20.960 --> 00:02:28.240
+correct level of permission for this property,&nbsp;
+this event is now marked as a key event. Now,&nbsp;&nbsp;
+
+00:02:28.240 --> 00:02:34.960
+moving forward, whenever this event is&nbsp;
+collected, it will be counted as a key event.&nbsp;&nbsp;
+
+00:02:34.960 --> 00:02:40.960
+So if you see the event you want to track as a&nbsp;
+conversion, this is fine, but there will be times&nbsp;&nbsp;
+
+00:02:40.960 --> 00:02:47.280
+when you don't see the event listed. Or what if&nbsp;
+you want to track a particular page, like a thank&nbsp;&nbsp;
+
+00:02:47.280 --> 00:02:54.880
+you page, as a conversion? In this case, we can't&nbsp;
+just mark the 'page view' event as a 'Key Event'&nbsp;&nbsp;
+
+00:02:54.880 --> 00:03:01.440
+because this would mean every page people view&nbsp;
+on our website would be counted as a conversion.&nbsp;&nbsp;
+
+00:03:02.000 --> 00:03:07.200
+This means if you want to track something more&nbsp;
+specific, like people viewing a thank you page,&nbsp;&nbsp;
+
+00:03:07.200 --> 00:03:14.400
+we need to create a new event first. Now we're&nbsp;
+going to cover the steps to create a new event&nbsp;&nbsp;
+
+00:03:14.400 --> 00:03:20.240
+directly inside Google Analytics. This allows us&nbsp;
+to create an event based on one that is already&nbsp;&nbsp;
+
+00:03:20.240 --> 00:03:25.840
+being collected. And this is a great option if you&nbsp;
+want to track people viewing a particular thank&nbsp;&nbsp;
+
+00:03:25.840 --> 00:03:33.120
+you page as a key event. We're still looking&nbsp;
+at the 'Events' settings in the GA4 property&nbsp;&nbsp;
+
+00:03:33.120 --> 00:03:40.880
+and we can see there's a button at the top to&nbsp;
+create a new event. Let's click this. To start,&nbsp;&nbsp;
+
+00:03:40.880 --> 00:03:48.480
+we need to name our new event. I'm going to name&nbsp;
+my event 'generate, underscore, lead'. This is&nbsp;&nbsp;
+
+00:03:48.480 --> 00:03:54.240
+one of Google's recommended event names and it's&nbsp;
+perfect for tracking when people have successfully&nbsp;&nbsp;
+
+00:03:54.240 --> 00:04:02.320
+submitted a form on our website. Next, we can&nbsp;
+enable the 'Mark as key event' option. This will&nbsp;&nbsp;
+
+00:04:02.320 --> 00:04:08.880
+mean that as soon as our new event is triggered,&nbsp;
+it will be counted as a key event. We can now&nbsp;&nbsp;
+
+00:04:08.880 --> 00:04:15.920
+define a value for our key event. For my key&nbsp;
+event, I'm going to leave 'US Dollars' selected&nbsp;&nbsp;
+
+00:04:15.920 --> 00:04:22.400
+and I'm going to set the value of the conversion&nbsp;
+to '50'. This means the event will be assigned a&nbsp;&nbsp;
+
+00:04:22.400 --> 00:04:28.960
+value of fifty dollars each time it is triggered.&nbsp;
+Below this we can control how the key event will&nbsp;&nbsp;
+
+00:04:28.960 --> 00:04:36.560
+be counted. The default is 'Once per event' which&nbsp;
+means each time the event is triggered it will be&nbsp;&nbsp;
+
+00:04:36.560 --> 00:04:44.080
+counted as a key event. However, we can change&nbsp;
+this to 'Once per session', which is useful if&nbsp;&nbsp;
+
+00:04:44.080 --> 00:04:50.400
+you expect people to complete the same action&nbsp;
+multiple times, but you're not increasing the&nbsp;&nbsp;
+
+00:04:50.400 --> 00:04:57.440
+total value for your business or organization.&nbsp;
+I'm going to leave the default for my event, but&nbsp;&nbsp;
+
+00:04:57.440 --> 00:05:05.520
+you can change this. Scrolling down, let's ensure&nbsp;
+that the 'Create without code' option is enabled.&nbsp;&nbsp;
+
+00:05:05.520 --> 00:05:12.320
+We also need to check that the correct data stream&nbsp;
+is selected. In most cases you will only have one&nbsp;&nbsp;
+
+00:05:12.320 --> 00:05:19.920
+data stream if you're just tracking your website,&nbsp;
+so you probably won't need to change this. Next,&nbsp;&nbsp;
+
+00:05:19.920 --> 00:05:26.400
+we need to define the conditions for when we want&nbsp;
+our new event to be triggered. Google has made it&nbsp;&nbsp;
+
+00:05:26.400 --> 00:05:33.040
+easy for us to create a new event based on a page&nbsp;
+being viewed on our website. We can see the 'page&nbsp;&nbsp;
+
+00:05:33.040 --> 00:05:40.080
+view' event is already selected for us. Using&nbsp;
+this simplified setup, we can see there's only&nbsp;&nbsp;
+
+00:05:40.080 --> 00:05:48.240
+one matching option, which is 'URL contains', so&nbsp;
+you can then enter the URL or the part of the URL&nbsp;&nbsp;
+
+00:05:48.240 --> 00:05:56.000
+we want to match below this. Let's enter 'thank,&nbsp;
+dash, you'. This means our new event will trigger&nbsp;&nbsp;
+
+00:05:56.000 --> 00:06:02.640
+every time someone views a page on our website&nbsp;
+that has a URL containing 'thank, dash, you'.&nbsp;&nbsp;
+
+00:06:02.640 --> 00:06:09.280
+I'm happy with the configuration for this&nbsp;
+event, so let's click 'Create' at the top.&nbsp;&nbsp;
+
+00:06:10.640 --> 00:06:15.760
+We've now created a new event that will be&nbsp;
+triggered when someone views a thank you page&nbsp;&nbsp;
+
+00:06:15.760 --> 00:06:22.240
+on our website. Once someone has viewed a page&nbsp;
+that matches our condition, you will be able to&nbsp;&nbsp;
+
+00:06:22.240 --> 00:06:29.040
+see the event in the real time reports straight&nbsp;
+away. However, it can take 12 to 24 hours for&nbsp;&nbsp;
+
+00:06:29.040 --> 00:06:35.040
+key events to appear in the standard reports.&nbsp;
+So if someone visits the thank you page now,&nbsp;&nbsp;
+
+00:06:35.040 --> 00:06:41.200
+I recommend checking back tomorrow to see it in&nbsp;
+your reports. And if you're wondering, you can&nbsp;&nbsp;
+
+00:06:41.200 --> 00:06:48.240
+enable up to 30 unique events as key events in&nbsp;
+GA4, so you should have plenty of scope to track&nbsp;&nbsp;
+
+00:06:48.240 --> 00:06:55.200
+all of those important actions as conversions.&nbsp;
+To check this, you can click 'Quota Information'&nbsp;&nbsp;
+
+00:06:55.200 --> 00:07:02.240
+on the top right hand corner. And this shows&nbsp;
+you how many key events you've created. Okay,&nbsp;&nbsp;
+
+00:07:02.240 --> 00:07:07.440
+let's close this, and now let's take a look&nbsp;
+at where you can see key events reported in&nbsp;&nbsp;
+
+00:07:07.440 --> 00:07:17.440
+Google Analytics. Let's navigate to 'Reports'. And&nbsp;
+let's select 'Acquisition' and open the 'Traffic&nbsp;&nbsp;
+
+00:07:17.440 --> 00:07:25.200
+Acquisition' report. I previously configured key&nbsp;
+events in my demo property, so I already have data&nbsp;&nbsp;
+
+00:07:25.200 --> 00:07:31.760
+in my reports. If you've only just configured key&nbsp;
+events, you will need to wait until the event has&nbsp;&nbsp;
+
+00:07:31.760 --> 00:07:39.280
+been triggered before you begin to see it in your&nbsp;
+reports. If we scroll to the right of the table.&nbsp;&nbsp;
+
+00:07:39.280 --> 00:07:45.520
+We can see the total number of key events that&nbsp;
+have been triggered. And the 'Session Key Event&nbsp;&nbsp;
+
+00:07:45.520 --> 00:07:53.280
+Rate'. You can also use the drop-down to select&nbsp;
+an individual key event to update the metrics.&nbsp;&nbsp;
+
+00:07:53.280 --> 00:07:59.760
+Apart from this report which includes key events&nbsp;
+by default, you can also add the key event metrics&nbsp;&nbsp;
+
+00:07:59.760 --> 00:08:07.440
+to your other reports, and you can add them to&nbsp;
+Exploration reports. We've now covered the steps&nbsp;&nbsp;
+
+00:08:07.440 --> 00:08:13.760
+to create a new key event in GA4 based on an&nbsp;
+existing event. But what if you want to track a&nbsp;&nbsp;
+
+00:08:13.760 --> 00:08:19.920
+custom action as a key event? In this case, using&nbsp;
+Google Tag Manager is a great way to send the&nbsp;&nbsp;
+
+00:08:19.920 --> 00:08:28.160
+event to GA4. Let's head to Google Tag Manager.&nbsp;
+We can see there's an existing Google Tag in this&nbsp;&nbsp;
+
+00:08:28.160 --> 00:08:36.000
+GTM container. This tag will automatically send&nbsp;
+events, including page views, to Google Analytics.&nbsp;&nbsp;
+
+00:08:36.000 --> 00:08:41.840
+So now we need to create a new tag to send an&nbsp;
+additional event for the conversion we want to&nbsp;&nbsp;
+
+00:08:41.840 --> 00:08:50.880
+track. To do this, let's create a new tag. Let's&nbsp;
+name the tag 'Google Analytics, GA4, Conversion'.&nbsp;&nbsp;
+
+00:08:55.360 --> 00:09:01.280
+Now let's select 'Tag Configuration'.&nbsp;
+And let's choose 'Google Analytics',&nbsp;&nbsp;
+
+00:09:01.280 --> 00:09:09.680
+and select 'GA4 Event' as the 'Tag Type'. We need&nbsp;
+to enter our measurement ID from Google Analytics.&nbsp;&nbsp;
+
+00:09:09.680 --> 00:09:17.680
+I've already created a variable for my measurement&nbsp;
+ID, so I'm going to select this. If you would like&nbsp;&nbsp;
+
+00:09:17.680 --> 00:09:23.760
+to learn the steps to create your own variable,&nbsp;
+then please check out the extra resources and my&nbsp;&nbsp;
+
+00:09:23.760 --> 00:09:30.400
+courses in the description below this video. Okay,&nbsp;
+now let's name the event 'generate', 'underscore',&nbsp;&nbsp;
+
+00:09:30.400 --> 00:09:37.200
+'lead'. You can add event parameters to send&nbsp;
+extra information with your event. For example,&nbsp;&nbsp;
+
+00:09:37.200 --> 00:09:42.000
+if you wanted to distinguish different&nbsp;
+types of leads. But for this event,&nbsp;&nbsp;
+
+00:09:42.000 --> 00:09:50.000
+I'm going to keep things simple and I'm going to&nbsp;
+leave the defaults. So let's select 'Triggering'.&nbsp;&nbsp;
+
+00:09:50.000 --> 00:09:56.480
+And we need to create a new trigger that will only&nbsp;
+fire our GA4 event tag when someone views a thank&nbsp;&nbsp;
+
+00:09:56.480 --> 00:10:09.600
+you page on our website. Let's click the blue plus&nbsp;
+sign. Let's name our trigger 'Any Thank You Page'.&nbsp;&nbsp;
+
+00:10:09.600 --> 00:10:16.880
+And let's select 'Trigger Configuration'. You can&nbsp;
+create triggers for any action you'd like, but&nbsp;&nbsp;
+
+00:10:16.880 --> 00:10:23.200
+we're going to create a trigger that fires the tag&nbsp;
+based on the URL of the page someone is viewing on&nbsp;&nbsp;
+
+00:10:23.200 --> 00:10:32.720
+our website. So let's select 'Initialization'. And&nbsp;
+then 'Some Initialization Events'. Now I'm going&nbsp;&nbsp;
+
+00:10:32.720 --> 00:10:41.520
+to select 'Page URL'. 'Contains'. And I'm going to&nbsp;
+enter 'thank', 'dash', 'you'. This will mean that&nbsp;&nbsp;
+
+00:10:41.520 --> 00:10:48.640
+our tag is triggered whenever someone views a page&nbsp;
+that contains 'thank you' in the URL. Now let's&nbsp;&nbsp;
+
+00:10:48.640 --> 00:11:01.280
+click 'Save'. And let's save the tag. You can now&nbsp;
+preview the changes to test them on your website,&nbsp;&nbsp;
+
+00:11:01.280 --> 00:11:07.680
+but I'm happy with the new tag, so I'm going to&nbsp;
+publish the changes to my website. To do this,&nbsp;&nbsp;
+
+00:11:07.680 --> 00:11:30.720
+we click 'Submit'. We name our version. And click&nbsp;
+'Publish'. You can apply the same technique to any&nbsp;&nbsp;
+
+00:11:30.720 --> 00:11:36.560
+other actions you want to track as key events&nbsp;
+in Google Analytics. The main thing is that you&nbsp;&nbsp;
+
+00:11:36.560 --> 00:11:42.560
+need to create a trigger that will fire the GA4&nbsp;
+event tag once someone has completed your desired&nbsp;&nbsp;
+
+00:11:42.560 --> 00:11:48.320
+action. So this could be submitting a form,&nbsp;
+it could be clicking a button, viewing a page,&nbsp;&nbsp;
+
+00:11:48.320 --> 00:11:54.960
+or any other action you choose. Now that we've&nbsp;
+published our changes in Google Tag Manager,&nbsp;&nbsp;
+
+00:11:54.960 --> 00:12:02.160
+we can head back to Google Analytics. And you&nbsp;
+will then need to enable the event as a key event.&nbsp;&nbsp;
+
+00:12:02.160 --> 00:12:10.720
+To do this, we can follow the steps we covered&nbsp;
+previously, so we navigate to 'Admin'. Select&nbsp;&nbsp;
+
+00:12:10.720 --> 00:12:17.840
+'Data Display', and then 'Events'. If your key&nbsp;
+event has already been collected, you will find&nbsp;&nbsp;
+
+00:12:17.840 --> 00:12:24.800
+it under the 'Recent Events' tab. If it hasn't&nbsp;
+been collected yet, you won't find it here,&nbsp;&nbsp;
+
+00:12:24.800 --> 00:12:32.880
+so instead you can pre-configure the event as&nbsp;
+a key event. To do this, click 'Create Event'.&nbsp;&nbsp;
+
+00:12:32.880 --> 00:12:39.680
+Enter the name of the event exactly as it will&nbsp;
+be sent to Google Analytics. So the exact event&nbsp;&nbsp;
+
+00:12:39.680 --> 00:12:48.640
+name you used in Google Tag Manager. Then enable&nbsp;
+the 'Mark as Key Event' option. Scroll down. And&nbsp;&nbsp;
+
+00:12:48.640 --> 00:12:56.560
+select 'Create With Code'. Now you can click&nbsp;
+'Create'. Once the event has been collected,&nbsp;&nbsp;
+
+00:12:56.560 --> 00:13:03.520
+it will appear as a key event in your reports.&nbsp;
+We've now looked at two ways to create key events&nbsp;&nbsp;
+
+00:13:03.520 --> 00:13:09.920
+to report on conversions in GA4. We've covered&nbsp;
+creating events directly in Google Analytics&nbsp;&nbsp;
+
+00:13:09.920 --> 00:13:16.400
+and using Google Tag Manager. For each conversion&nbsp;
+you want to track as a key event, you only need to&nbsp;&nbsp;
+
+00:13:16.400 --> 00:13:22.480
+choose one of these methods. What conversions are&nbsp;
+you going to track in Google Analytics? I'd love&nbsp;&nbsp;
+
+00:13:22.480 --> 00:13:28.080
+to know. Let me know in the comments below. And&nbsp;
+if you found this video helpful please like it so&nbsp;&nbsp;
+
+00:13:28.080 --> 00:13:32.999
+I know to make more videos like this one. Thanks&nbsp;
+for watching, and I'll see you in the next video!
+

@@ -1,0 +1,122 @@
+[
+  {
+    "test": "advisors-overlap",
+    "scrollY": 2154
+  },
+  {
+    "test": "home-anchor-actual-click",
+    "measure": {
+      "headingTop": -8,
+      "headerBottom": 0,
+      "scrollY": 958
+    }
+  },
+  {
+    "test": "google-link",
+    "page": "home",
+    "before": 0,
+    "after": 1,
+    "url": "https://islands-1000-prototype.pages.dev/home#"
+  },
+  {
+    "test": "google-link",
+    "page": "raja-ampat",
+    "before": 0,
+    "after": 0,
+    "url": "https://islands-1000-prototype.pages.dev/raja-ampat#"
+  },
+  {
+    "test": "google-link",
+    "page": "north-sulawesi",
+    "before": 0,
+    "after": 0,
+    "url": "https://islands-1000-prototype.pages.dev/north-sulawesi#"
+  },
+  {
+    "test": "plan-choice",
+    "changed": false
+  },
+  {
+    "test": "cookies-switch",
+    "before": [
+      "switch locked",
+      "switch on",
+      "switch"
+    ],
+    "after": [
+      "switch locked",
+      "switch on",
+      "switch"
+    ]
+  },
+  {
+    "test": "admin-review-initially-visible",
+    "hidden": true,
+    "display": "grid",
+    "height": 393.546875
+  },
+  {
+    "test": "delete-review",
+    "before": 4,
+    "after": 4
+  },
+  {
+    "test": "publish-review",
+    "count": 4,
+    "text": "Reviews\n+ Add review\nGuest name\nCountry\nWhat they said\nShow on\nRaja Ampat\nNorth Sulawesi\nYacht charters\n+ Guest photo (optional)\nPublish\nAll\nRaja Ampat\nNorth Sulawesi\nYacht charters\nAnna · Australia\nRaja Ampat\nOn the site\nDelete\n\nReview text, two or three lines.\n\nMark · UK\nYacht charters\nOn the site\nDelete\n\nReview text, two or three lines.\n\nLena · Germany\nNorth Sulawesi\nOn the site\nDelete\n\nReview text, two or three lines.",
+    "formHidden": true,
+    "formDisplay": "grid"
+  },
+  {
+    "test": "add-photos",
+    "changed": false
+  },
+  {
+    "test": "agents-filter",
+    "visibleCards": [
+      "Client name\nRaja Ampat\nComfort · 10 days\nOct · 2 people\nToday 09:14",
+      "Agency name\nAgent\nYacht charters\nMar · 6 people\nToday 07:02",
+      "Client name\nNorth Sulawesi\nEssential · 7 days\nJul · 4 people\nYesterday"
+    ]
+  },
+  {
+    "test": "contact-bar",
+    "page": "home",
+    "bad": []
+  },
+  {
+    "test": "contact-bar",
+    "page": "raja-ampat",
+    "bad": []
+  },
+  {
+    "test": "contact-bar",
+    "page": "north-sulawesi",
+    "bad": []
+  },
+  {
+    "test": "contact-bar",
+    "page": "yachts",
+    "bad": []
+  },
+  {
+    "test": "contact-bar",
+    "page": "stories",
+    "bad": []
+  },
+  {
+    "test": "contact-bar",
+    "page": "about",
+    "bad": []
+  },
+  {
+    "test": "contact-bar",
+    "page": "advisors",
+    "bad": []
+  },
+  {
+    "test": "contact-bar",
+    "page": "plan",
+    "bad": []
+  }
+]

@@ -1,0 +1,2360 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:02.070 align:start position:0%
+ 
+most<00:00:00.480><c> of</c><00:00:00.599><c> the</c><00:00:00.719><c> uis</c><00:00:01.120><c> are</c><00:00:01.360><c> just</c><00:00:01.599><c> text</c><00:00:01.880><c> and</c>
+
+00:00:02.070 --> 00:00:02.080 align:start position:0%
+most of the uis are just text and
+ 
+
+00:00:02.080 --> 00:00:04.470 align:start position:0%
+most of the uis are just text and
+buttons<00:00:02.879><c> with</c><00:00:03.040><c> some</c><00:00:03.320><c> icons</c><00:00:03.679><c> to</c><00:00:03.840><c> help</c><00:00:04.040><c> users</c>
+
+00:00:04.470 --> 00:00:04.480 align:start position:0%
+buttons with some icons to help users
+ 
+
+00:00:04.480 --> 00:00:07.269 align:start position:0%
+buttons with some icons to help users
+take<00:00:04.799><c> necessary</c><00:00:05.440><c> actions</c><00:00:06.440><c> so</c><00:00:06.720><c> mastering</c>
+
+00:00:07.269 --> 00:00:07.279 align:start position:0%
+take necessary actions so mastering
+ 
+
+00:00:07.279 --> 00:00:09.990 align:start position:0%
+take necessary actions so mastering
+typography<00:00:08.120><c> is</c><00:00:08.280><c> that</c><00:00:08.480><c> 20%</c><00:00:09.160><c> of</c><00:00:09.280><c> the</c><00:00:09.480><c> design</c>
+
+00:00:09.990 --> 00:00:10.000 align:start position:0%
+typography is that 20% of the design
+ 
+
+00:00:10.000 --> 00:00:12.709 align:start position:0%
+typography is that 20% of the design
+that<00:00:10.120><c> gives</c><00:00:10.320><c> you</c><00:00:10.480><c> the</c><00:00:10.599><c> 80%</c><00:00:11.320><c> of</c><00:00:11.440><c> the</c>
+
+00:00:12.709 --> 00:00:12.719 align:start position:0%
+that gives you the 80% of the
+ 
+
+00:00:12.719 --> 00:00:15.230 align:start position:0%
+that gives you the 80% of the
+results<00:00:13.719><c> let's</c><00:00:14.000><c> start</c><00:00:14.320><c> by</c><00:00:14.480><c> removing</c><00:00:14.960><c> all</c><00:00:15.120><c> the</c>
+
+00:00:15.230 --> 00:00:15.240 align:start position:0%
+results let's start by removing all the
+ 
+
+00:00:15.240 --> 00:00:18.630 align:start position:0%
+results let's start by removing all the
+font<00:00:15.519><c> styles</c><00:00:16.000><c> from</c><00:00:16.240><c> this</c><00:00:16.440><c> very</c><00:00:16.720><c> popular</c><00:00:17.520><c> UI</c><00:00:18.520><c> on</c>
+
+00:00:18.630 --> 00:00:18.640 align:start position:0%
+font styles from this very popular UI on
+ 
+
+00:00:18.640 --> 00:00:20.750 align:start position:0%
+font styles from this very popular UI on
+the<00:00:18.800><c> left</c><00:00:19.080><c> sidebar</c><00:00:19.680><c> we</c><00:00:19.840><c> broke</c><00:00:20.119><c> the</c><00:00:20.279><c> selected</c>
+
+00:00:20.750 --> 00:00:20.760 align:start position:0%
+the left sidebar we broke the selected
+ 
+
+00:00:20.760 --> 00:00:23.150 align:start position:0%
+the left sidebar we broke the selected
+tab<00:00:21.600><c> that's</c><00:00:21.880><c> definitely</c><00:00:22.400><c> bad</c><00:00:22.600><c> for</c><00:00:22.800><c> user</c>
+
+00:00:23.150 --> 00:00:23.160 align:start position:0%
+tab that's definitely bad for user
+ 
+
+00:00:23.160 --> 00:00:25.550 align:start position:0%
+tab that's definitely bad for user
+experience<00:00:24.160><c> we</c><00:00:24.279><c> have</c><00:00:24.480><c> no</c><00:00:24.720><c> idea</c><00:00:25.080><c> where</c><00:00:25.199><c> we</c><00:00:25.320><c> are</c>
+
+00:00:25.550 --> 00:00:25.560 align:start position:0%
+experience we have no idea where we are
+ 
+
+00:00:25.560 --> 00:00:28.429 align:start position:0%
+experience we have no idea where we are
+right<00:00:25.840><c> now</c><00:00:26.679><c> same</c><00:00:26.960><c> thing</c><00:00:27.160><c> for</c><00:00:27.320><c> the</c><00:00:27.400><c> buttons</c><00:00:27.760><c> on</c>
+
+00:00:28.429 --> 00:00:28.439 align:start position:0%
+right now same thing for the buttons on
+ 
+
+00:00:28.439 --> 00:00:31.710 align:start position:0%
+right now same thing for the buttons on
+top<00:00:29.439><c> now</c><00:00:30.000><c> coming</c><00:00:30.199><c> to</c><00:00:30.279><c> the</c><00:00:30.400><c> feed</c><00:00:30.720><c> itself</c><00:00:31.599><c> there</c>
+
+00:00:31.710 --> 00:00:31.720 align:start position:0%
+top now coming to the feed itself there
+ 
+
+00:00:31.720 --> 00:00:34.229 align:start position:0%
+top now coming to the feed itself there
+is<00:00:31.920><c> no</c><00:00:32.160><c> hierarchy</c><00:00:32.719><c> and</c><00:00:32.920><c> point</c><00:00:33.120><c> of</c><00:00:33.360><c> focus</c><00:00:34.079><c> so</c>
+
+00:00:34.229 --> 00:00:34.239 align:start position:0%
+is no hierarchy and point of focus so
+ 
+
+00:00:34.239 --> 00:00:35.790 align:start position:0%
+is no hierarchy and point of focus so
+it's<00:00:34.440><c> tough</c><00:00:34.680><c> to</c><00:00:34.800><c> tell</c><00:00:35.079><c> what</c><00:00:35.200><c> we</c><00:00:35.280><c> are</c><00:00:35.480><c> looking</c>
+
+00:00:35.790 --> 00:00:35.800 align:start position:0%
+it's tough to tell what we are looking
+ 
+
+00:00:35.800 --> 00:00:39.310 align:start position:0%
+it's tough to tell what we are looking
+at<00:00:36.480><c> it's</c><00:00:36.719><c> just</c><00:00:36.879><c> a</c><00:00:37.000><c> bunch</c><00:00:37.239><c> of</c><00:00:37.879><c> text</c><00:00:38.879><c> looking</c><00:00:39.160><c> at</c>
+
+00:00:39.310 --> 00:00:39.320 align:start position:0%
+at it's just a bunch of text looking at
+ 
+
+00:00:39.320 --> 00:00:40.990 align:start position:0%
+at it's just a bunch of text looking at
+the<00:00:39.440><c> original</c><00:00:39.879><c> shows</c><00:00:40.320><c> the</c><00:00:40.480><c> impact</c><00:00:40.840><c> of</c>
+
+00:00:40.990 --> 00:00:41.000 align:start position:0%
+the original shows the impact of
+ 
+
+00:00:41.000 --> 00:00:43.670 align:start position:0%
+the original shows the impact of
+typography<00:00:41.640><c> in</c><00:00:41.760><c> UI</c><00:00:42.120><c> design</c><00:00:43.120><c> let's</c><00:00:43.360><c> try</c><00:00:43.559><c> to</c>
+
+00:00:43.670 --> 00:00:43.680 align:start position:0%
+typography in UI design let's try to
+ 
+
+00:00:43.680 --> 00:00:46.189 align:start position:0%
+typography in UI design let's try to
+build<00:00:43.920><c> it</c><00:00:44.079><c> from</c><00:00:44.280><c> scratch</c><00:00:45.239><c> the</c><00:00:45.399><c> most</c><00:00:45.680><c> obvious</c>
+
+00:00:46.189 --> 00:00:46.199 align:start position:0%
+build it from scratch the most obvious
+ 
+
+00:00:46.199 --> 00:00:48.029 align:start position:0%
+build it from scratch the most obvious
+thing<00:00:46.399><c> is</c><00:00:46.520><c> to</c><00:00:46.640><c> make</c><00:00:46.800><c> the</c><00:00:46.920><c> title</c><00:00:47.280><c> bigger</c><00:00:47.800><c> and</c><00:00:47.920><c> a</c>
+
+00:00:48.029 --> 00:00:48.039 align:start position:0%
+thing is to make the title bigger and a
+ 
+
+00:00:48.039 --> 00:00:50.510 align:start position:0%
+thing is to make the title bigger and a
+bit<00:00:48.199><c> Bolder</c><00:00:48.640><c> than</c><00:00:48.800><c> the</c><00:00:48.920><c> rest</c><00:00:49.120><c> of</c><00:00:49.239><c> the</c><00:00:49.520><c> elements</c>
+
+00:00:50.510 --> 00:00:50.520 align:start position:0%
+bit Bolder than the rest of the elements
+ 
+
+00:00:50.520 --> 00:00:53.110 align:start position:0%
+bit Bolder than the rest of the elements
+did<00:00:50.640><c> you</c><00:00:50.800><c> notice</c><00:00:51.120><c> the</c><00:00:51.280><c> Gap</c><00:00:51.600><c> here</c><00:00:52.199><c> it's</c><00:00:52.399><c> not</c><00:00:52.719><c> Gap</c>
+
+00:00:53.110 --> 00:00:53.120 align:start position:0%
+did you notice the Gap here it's not Gap
+ 
+
+00:00:53.120 --> 00:00:55.549 align:start position:0%
+did you notice the Gap here it's not Gap
+margin<00:00:53.480><c> or</c><00:00:53.719><c> padding</c><00:00:54.680><c> it's</c><00:00:54.840><c> the</c><00:00:55.000><c> line</c><00:00:55.320><c> height</c>
+
+00:00:55.549 --> 00:00:55.559 align:start position:0%
+margin or padding it's the line height
+ 
+
+00:00:55.559 --> 00:00:58.150 align:start position:0%
+margin or padding it's the line height
+doing<00:00:55.840><c> its</c><00:00:56.079><c> thing</c><00:00:56.559><c> but</c><00:00:56.760><c> more</c><00:00:56.960><c> on</c><00:00:57.160><c> that</c><00:00:57.359><c> later</c>
+
+00:00:58.150 --> 00:00:58.160 align:start position:0%
+doing its thing but more on that later
+ 
+
+00:00:58.160 --> 00:01:00.310 align:start position:0%
+doing its thing but more on that later
+for<00:00:58.399><c> now</c><00:00:58.800><c> we</c><00:00:58.960><c> have</c><00:00:59.079><c> a</c><00:00:59.239><c> UI</c><00:00:59.519><c> that</c><00:00:59.600><c> is</c><00:01:00.000><c> almost</c>
+
+00:01:00.310 --> 00:01:00.320 align:start position:0%
+for now we have a UI that is almost
+ 
+
+00:01:00.320 --> 00:01:02.950 align:start position:0%
+for now we have a UI that is almost
+there<00:01:00.920><c> but</c><00:01:01.079><c> we</c><00:01:01.199><c> can</c><00:01:01.359><c> make</c><00:01:01.519><c> it</c><00:01:01.719><c> better</c><00:01:02.719><c> right</c>
+
+00:01:02.950 --> 00:01:02.960 align:start position:0%
+there but we can make it better right
+ 
+
+00:01:02.960 --> 00:01:04.710 align:start position:0%
+there but we can make it better right
+now<00:01:03.239><c> this</c><00:01:03.440><c> whole</c><00:01:03.719><c> thing</c><00:01:03.960><c> looks</c><00:01:04.280><c> like</c><00:01:04.479><c> one</c>
+
+00:01:04.710 --> 00:01:04.720 align:start position:0%
+now this whole thing looks like one
+ 
+
+00:01:04.720 --> 00:01:07.270 align:start position:0%
+now this whole thing looks like one
+single<00:01:05.119><c> block</c><00:01:05.400><c> of</c><00:01:05.799><c> information</c><00:01:06.799><c> like</c><00:01:06.960><c> we</c><00:01:07.080><c> are</c>
+
+00:01:07.270 --> 00:01:07.280 align:start position:0%
+single block of information like we are
+ 
+
+00:01:07.280 --> 00:01:09.469 align:start position:0%
+single block of information like we are
+telling<00:01:07.560><c> the</c><00:01:07.680><c> user</c><00:01:08.600><c> hey</c><00:01:08.759><c> you</c><00:01:08.920><c> better</c><00:01:09.200><c> read</c>
+
+00:01:09.469 --> 00:01:09.479 align:start position:0%
+telling the user hey you better read
+ 
+
+00:01:09.479 --> 00:01:12.149 align:start position:0%
+telling the user hey you better read
+this<00:01:09.680><c> as</c><00:01:10.040><c> well</c><00:01:11.040><c> but</c><00:01:11.200><c> we</c><00:01:11.320><c> know</c><00:01:11.560><c> that</c><00:01:11.720><c> the</c><00:01:11.840><c> title</c>
+
+00:01:12.149 --> 00:01:12.159 align:start position:0%
+this as well but we know that the title
+ 
+
+00:01:12.159 --> 00:01:14.310 align:start position:0%
+this as well but we know that the title
+is<00:01:12.320><c> connected</c><00:01:12.720><c> to</c><00:01:12.840><c> the</c><00:01:13.000><c> thumbnail</c><00:01:13.840><c> and</c><00:01:14.000><c> users</c>
+
+00:01:14.310 --> 00:01:14.320 align:start position:0%
+is connected to the thumbnail and users
+ 
+
+00:01:14.320 --> 00:01:16.070 align:start position:0%
+is connected to the thumbnail and users
+should<00:01:14.560><c> look</c><00:01:14.720><c> at</c><00:01:14.880><c> these</c><00:01:15.040><c> two</c><00:01:15.400><c> together</c><00:01:15.720><c> before</c>
+
+00:01:16.070 --> 00:01:16.080 align:start position:0%
+should look at these two together before
+ 
+
+00:01:16.080 --> 00:01:18.870 align:start position:0%
+should look at these two together before
+moving<00:01:16.360><c> on</c><00:01:16.520><c> to</c><00:01:16.720><c> the</c><00:01:16.880><c> other</c><00:01:17.200><c> elements</c><00:01:18.200><c> in</c><00:01:18.360><c> short</c>
+
+00:01:18.870 --> 00:01:18.880 align:start position:0%
+moving on to the other elements in short
+ 
+
+00:01:18.880 --> 00:01:20.590 align:start position:0%
+moving on to the other elements in short
+we<00:01:19.000><c> don't</c><00:01:19.280><c> just</c><00:01:19.439><c> want</c><00:01:19.640><c> the</c><00:01:19.799><c> title</c><00:01:20.079><c> to</c><00:01:20.280><c> stand</c>
+
+00:01:20.590 --> 00:01:20.600 align:start position:0%
+we don't just want the title to stand
+ 
+
+00:01:20.600 --> 00:01:23.550 align:start position:0%
+we don't just want the title to stand
+out<00:01:21.520><c> we</c><00:01:21.680><c> also</c><00:01:21.960><c> need</c><00:01:22.119><c> it</c><00:01:22.280><c> to</c><00:01:22.439><c> stand</c><00:01:22.680><c> on</c><00:01:22.840><c> its</c><00:01:23.000><c> own</c>
+
+00:01:23.550 --> 00:01:23.560 align:start position:0%
+out we also need it to stand on its own
+ 
+
+00:01:23.560 --> 00:01:26.789 align:start position:0%
+out we also need it to stand on its own
+separate<00:01:24.000><c> from</c><00:01:24.240><c> this</c><00:01:24.799><c> group</c><00:01:25.799><c> to</c><00:01:26.000><c> do</c><00:01:26.240><c> that</c><00:01:26.680><c> we</c>
+
+00:01:26.789 --> 00:01:26.799 align:start position:0%
+separate from this group to do that we
+ 
+
+00:01:26.799 --> 00:01:28.710 align:start position:0%
+separate from this group to do that we
+need<00:01:26.960><c> to</c><00:01:27.479><c> understand</c><00:01:27.720><c> how</c><00:01:27.880><c> the</c><00:01:28.040><c> human</c><00:01:28.360><c> brain</c>
+
+00:01:28.710 --> 00:01:28.720 align:start position:0%
+need to understand how the human brain
+ 
+
+00:01:28.720 --> 00:01:31.310 align:start position:0%
+need to understand how the human brain
+recognizes<00:01:29.320><c> shapes</c><00:01:29.640><c> and</c><00:01:30.119><c> patterns</c><00:01:31.119><c> what</c><00:01:31.200><c> do</c>
+
+00:01:31.310 --> 00:01:31.320 align:start position:0%
+recognizes shapes and patterns what do
+ 
+
+00:01:31.320 --> 00:01:34.190 align:start position:0%
+recognizes shapes and patterns what do
+you<00:01:31.479><c> see</c><00:01:32.159><c> here</c><00:01:33.159><c> how</c><00:01:33.320><c> can</c><00:01:33.479><c> we</c><00:01:33.680><c> separate</c><00:01:34.040><c> them</c>
+
+00:01:34.190 --> 00:01:34.200 align:start position:0%
+you see here how can we separate them
+ 
+
+00:01:34.200 --> 00:01:37.270 align:start position:0%
+you see here how can we separate them
+into<00:01:34.439><c> two</c><00:01:35.159><c> groups</c><00:01:36.159><c> we</c><00:01:36.320><c> could</c><00:01:36.520><c> space</c><00:01:36.840><c> them</c><00:01:37.000><c> out</c>
+
+00:01:37.270 --> 00:01:37.280 align:start position:0%
+into two groups we could space them out
+ 
+
+00:01:37.280 --> 00:01:39.389 align:start position:0%
+into two groups we could space them out
+like<00:01:37.520><c> this</c><00:01:38.200><c> but</c><00:01:38.360><c> people</c><00:01:38.680><c> might</c><00:01:38.880><c> still</c><00:01:39.200><c> get</c>
+
+00:01:39.389 --> 00:01:39.399 align:start position:0%
+like this but people might still get
+ 
+
+00:01:39.399 --> 00:01:41.149 align:start position:0%
+like this but people might still get
+confused<00:01:39.920><c> between</c><00:01:40.240><c> one</c><00:01:40.479><c> group</c><00:01:40.720><c> of</c><00:01:40.880><c> six</c>
+
+00:01:41.149 --> 00:01:41.159 align:start position:0%
+confused between one group of six
+ 
+
+00:01:41.159 --> 00:01:44.149 align:start position:0%
+confused between one group of six
+circles<00:01:42.000><c> or</c><00:01:42.159><c> two</c><00:01:42.399><c> groups</c><00:01:42.720><c> of</c><00:01:42.880><c> three</c><00:01:43.159><c> circles</c>
+
+00:01:44.149 --> 00:01:44.159 align:start position:0%
+circles or two groups of three circles
+ 
+
+00:01:44.159 --> 00:01:45.749 align:start position:0%
+circles or two groups of three circles
+so<00:01:44.600><c> let's</c><00:01:44.880><c> try</c>
+
+00:01:45.749 --> 00:01:45.759 align:start position:0%
+so let's try
+ 
+
+00:01:45.759 --> 00:01:48.990 align:start position:0%
+so let's try
+size<00:01:46.759><c> this</c><00:01:46.880><c> is</c><00:01:47.119><c> also</c><00:01:47.560><c> confusing</c><00:01:48.560><c> some</c><00:01:48.840><c> might</c>
+
+00:01:48.990 --> 00:01:49.000 align:start position:0%
+size this is also confusing some might
+ 
+
+00:01:49.000 --> 00:01:50.749 align:start position:0%
+size this is also confusing some might
+see<00:01:49.360><c> this</c><00:01:49.520><c> as</c><00:01:49.680><c> three</c><00:01:49.920><c> groups</c><00:01:50.240><c> instead</c><00:01:50.520><c> of</c><00:01:50.640><c> the</c>
+
+00:01:50.749 --> 00:01:50.759 align:start position:0%
+see this as three groups instead of the
+ 
+
+00:01:50.759 --> 00:01:51.670 align:start position:0%
+see this as three groups instead of the
+two<00:01:51.000><c> we</c>
+
+00:01:51.670 --> 00:01:51.680 align:start position:0%
+two we
+ 
+
+00:01:51.680 --> 00:01:54.069 align:start position:0%
+two we
+intended<00:01:52.680><c> let's</c><00:01:52.920><c> try</c>
+
+00:01:54.069 --> 00:01:54.079 align:start position:0%
+intended let's try
+ 
+
+00:01:54.079 --> 00:01:56.510 align:start position:0%
+intended let's try
+color<00:01:55.079><c> it's</c><00:01:55.280><c> still</c><00:01:55.520><c> not</c><00:01:55.719><c> clear</c><00:01:56.079><c> enough</c><00:01:56.399><c> if</c>
+
+00:01:56.510 --> 00:01:56.520 align:start position:0%
+color it's still not clear enough if
+ 
+
+00:01:56.520 --> 00:01:58.749 align:start position:0%
+color it's still not clear enough if
+it's<00:01:56.719><c> three</c><00:01:56.920><c> or</c><00:01:57.039><c> two</c><00:01:57.280><c> groups</c><00:01:58.159><c> but</c><00:01:58.320><c> if</c><00:01:58.439><c> we</c><00:01:58.600><c> just</c>
+
+00:01:58.749 --> 00:01:58.759 align:start position:0%
+it's three or two groups but if we just
+ 
+
+00:01:58.759 --> 00:02:00.870 align:start position:0%
+it's three or two groups but if we just
+move<00:01:59.039><c> the</c><00:01:59.159><c> second</c><00:01:59.399><c> group</c><00:01:59.640><c> of</c><00:01:59.960><c> bit</c><00:02:00.159><c> down</c><00:02:00.719><c> it</c>
+
+00:02:00.870 --> 00:02:00.880 align:start position:0%
+move the second group of bit down it
+ 
+
+00:02:00.880 --> 00:02:02.789 align:start position:0%
+move the second group of bit down it
+becomes<00:02:01.320><c> very</c><00:02:01.600><c> clear</c><00:02:01.960><c> that</c><00:02:02.079><c> it's</c><00:02:02.240><c> two</c><00:02:02.479><c> groups</c>
+
+00:02:02.789 --> 00:02:02.799 align:start position:0%
+becomes very clear that it's two groups
+ 
+
+00:02:02.799 --> 00:02:05.230 align:start position:0%
+becomes very clear that it's two groups
+instead<00:02:03.079><c> of</c><00:02:03.280><c> three</c><00:02:04.200><c> you</c><00:02:04.320><c> can</c><00:02:04.560><c> validate</c><00:02:05.039><c> this</c>
+
+00:02:05.230 --> 00:02:05.240 align:start position:0%
+instead of three you can validate this
+ 
+
+00:02:05.240 --> 00:02:07.109 align:start position:0%
+instead of three you can validate this
+by<00:02:05.360><c> showing</c><00:02:05.680><c> it</c><00:02:05.759><c> to</c><00:02:05.920><c> your</c><00:02:06.119><c> friends</c><00:02:06.439><c> or</c>
+
+00:02:07.109 --> 00:02:07.119 align:start position:0%
+by showing it to your friends or
+ 
+
+00:02:07.119 --> 00:02:09.749 align:start position:0%
+by showing it to your friends or
+colleagues<00:02:08.119><c> now</c><00:02:08.479><c> let's</c><00:02:08.720><c> retrace</c><00:02:09.160><c> our</c><00:02:09.360><c> steps</c>
+
+00:02:09.749 --> 00:02:09.759 align:start position:0%
+colleagues now let's retrace our steps
+ 
+
+00:02:09.759 --> 00:02:12.150 align:start position:0%
+colleagues now let's retrace our steps
+before<00:02:10.000><c> we</c><00:02:10.160><c> go</c><00:02:10.360><c> back</c><00:02:10.520><c> to</c><00:02:10.760><c> fonts</c><00:02:11.760><c> you</c><00:02:11.879><c> are</c><00:02:12.040><c> going</c>
+
+00:02:12.150 --> 00:02:12.160 align:start position:0%
+before we go back to fonts you are going
+ 
+
+00:02:12.160 --> 00:02:14.710 align:start position:0%
+before we go back to fonts you are going
+to<00:02:12.319><c> need</c><00:02:12.680><c> size</c><00:02:13.280><c> color</c><00:02:13.760><c> and</c><00:02:13.920><c> spacing</c><00:02:14.280><c> to</c><00:02:14.480><c> group</c>
+
+00:02:14.710 --> 00:02:14.720 align:start position:0%
+to need size color and spacing to group
+ 
+
+00:02:14.720 --> 00:02:17.589 align:start position:0%
+to need size color and spacing to group
+or<00:02:14.920><c> separate</c><00:02:15.280><c> elements</c><00:02:16.280><c> technically</c><00:02:17.160><c> spacing</c>
+
+00:02:17.589 --> 00:02:17.599 align:start position:0%
+or separate elements technically spacing
+ 
+
+00:02:17.599 --> 00:02:19.949 align:start position:0%
+or separate elements technically spacing
+falls<00:02:18.000><c> under</c><00:02:18.200><c> the</c><00:02:18.360><c> law</c><00:02:18.560><c> of</c><00:02:18.840><c> proximity</c><00:02:19.840><c> but</c>
+
+00:02:19.949 --> 00:02:19.959 align:start position:0%
+falls under the law of proximity but
+ 
+
+00:02:19.959 --> 00:02:22.309 align:start position:0%
+falls under the law of proximity but
+it's<00:02:20.160><c> used</c><00:02:20.440><c> for</c><00:02:20.599><c> the</c><00:02:20.760><c> same</c><00:02:21.080><c> purpose</c><00:02:21.879><c> to</c><00:02:22.040><c> group</c>
+
+00:02:22.309 --> 00:02:22.319 align:start position:0%
+it's used for the same purpose to group
+ 
+
+00:02:22.319 --> 00:02:25.030 align:start position:0%
+it's used for the same purpose to group
+or<00:02:22.519><c> separate</c><00:02:22.920><c> elements</c><00:02:23.879><c> speaking</c><00:02:24.239><c> of</c><00:02:24.400><c> laws</c>
+
+00:02:25.030 --> 00:02:25.040 align:start position:0%
+or separate elements speaking of laws
+ 
+
+00:02:25.040 --> 00:02:27.630 align:start position:0%
+or separate elements speaking of laws
+you<00:02:25.200><c> can</c><00:02:25.440><c> also</c><00:02:25.680><c> use</c><00:02:25.920><c> shape</c><00:02:26.200><c> to</c><00:02:26.360><c> group</c><00:02:26.640><c> elements</c>
+
+00:02:27.630 --> 00:02:27.640 align:start position:0%
+you can also use shape to group elements
+ 
+
+00:02:27.640 --> 00:02:30.030 align:start position:0%
+you can also use shape to group elements
+but<00:02:27.840><c> it</c><00:02:28.000><c> doesn't</c><00:02:28.280><c> help</c><00:02:28.519><c> us</c><00:02:28.640><c> in</c><00:02:28.840><c> this</c><00:02:29.040><c> case</c><00:02:29.640><c> how</c>
+
+00:02:30.030 --> 00:02:30.040 align:start position:0%
+but it doesn't help us in this case how
+ 
+
+00:02:30.040 --> 00:02:32.430 align:start position:0%
+but it doesn't help us in this case how
+however<00:02:30.400><c> we</c><00:02:30.560><c> do</c><00:02:30.800><c> have</c><00:02:30.959><c> font</c><00:02:31.280><c> weight</c><00:02:32.040><c> more</c><00:02:32.239><c> on</c>
+
+00:02:32.430 --> 00:02:32.440 align:start position:0%
+however we do have font weight more on
+ 
+
+00:02:32.440 --> 00:02:35.589 align:start position:0%
+however we do have font weight more on
+that<00:02:33.000><c> later</c><00:02:34.000><c> for</c><00:02:34.239><c> now</c><00:02:34.680><c> let's</c><00:02:34.920><c> get</c><00:02:35.160><c> back</c><00:02:35.319><c> to</c><00:02:35.440><c> the</c>
+
+00:02:35.589 --> 00:02:35.599 align:start position:0%
+that later for now let's get back to the
+ 
+
+00:02:35.599 --> 00:02:38.110 align:start position:0%
+that later for now let's get back to the
+UI<00:02:35.959><c> we</c><00:02:36.040><c> were</c><00:02:36.239><c> designing</c><00:02:36.680><c> earlier</c><00:02:37.680><c> from</c><00:02:37.959><c> what</c>
+
+00:02:38.110 --> 00:02:38.120 align:start position:0%
+UI we were designing earlier from what
+ 
+
+00:02:38.120 --> 00:02:40.190 align:start position:0%
+UI we were designing earlier from what
+we<00:02:38.280><c> just</c><00:02:38.480><c> observed</c><00:02:39.200><c> we</c><00:02:39.400><c> already</c><00:02:39.760><c> have</c><00:02:39.959><c> these</c>
+
+00:02:40.190 --> 00:02:40.200 align:start position:0%
+we just observed we already have these
+ 
+
+00:02:40.200 --> 00:02:41.949 align:start position:0%
+we just observed we already have these
+three<00:02:40.480><c> properties</c><00:02:40.879><c> to</c><00:02:41.120><c> emphasize</c><00:02:41.800><c> and</c>
+
+00:02:41.949 --> 00:02:41.959 align:start position:0%
+three properties to emphasize and
+ 
+
+00:02:41.959 --> 00:02:44.190 align:start position:0%
+three properties to emphasize and
+separate<00:02:42.280><c> the</c><00:02:42.440><c> title</c><00:02:42.760><c> from</c><00:02:42.959><c> this</c><00:02:43.159><c> group</c><00:02:44.000><c> all</c>
+
+00:02:44.190 --> 00:02:44.200 align:start position:0%
+separate the title from this group all
+ 
+
+00:02:44.200 --> 00:02:47.309 align:start position:0%
+separate the title from this group all
+we<00:02:44.319><c> need</c><00:02:44.560><c> is</c><00:02:44.879><c> color</c><00:02:45.879><c> but</c><00:02:46.040><c> which</c><00:02:46.239><c> color</c><00:02:47.120><c> white</c>
+
+00:02:47.309 --> 00:02:47.319 align:start position:0%
+we need is color but which color white
+ 
+
+00:02:47.319 --> 00:02:49.750 align:start position:0%
+we need is color but which color white
+on<00:02:47.599><c> black</c><00:02:47.879><c> is</c><00:02:48.080><c> already</c><00:02:48.440><c> at</c><00:02:48.599><c> the</c><00:02:48.720><c> max</c><00:02:49.080><c> contrast</c>
+
+00:02:49.750 --> 00:02:49.760 align:start position:0%
+on black is already at the max contrast
+ 
+
+00:02:49.760 --> 00:02:52.990 align:start position:0%
+on black is already at the max contrast
+possible<00:02:50.720><c> so</c><00:02:51.040><c> to</c><00:02:51.280><c> emphasize</c><00:02:51.920><c> this</c><00:02:52.560><c> we</c><00:02:52.680><c> need</c><00:02:52.840><c> to</c>
+
+00:02:52.990 --> 00:02:53.000 align:start position:0%
+possible so to emphasize this we need to
+ 
+
+00:02:53.000 --> 00:02:56.149 align:start position:0%
+possible so to emphasize this we need to
+deemphasize<00:02:54.000><c> that</c><00:02:55.000><c> the</c><00:02:55.159><c> easiest</c><00:02:55.599><c> way</c><00:02:55.720><c> to</c><00:02:55.879><c> do</c>
+
+00:02:56.149 --> 00:02:56.159 align:start position:0%
+deemphasize that the easiest way to do
+ 
+
+00:02:56.159 --> 00:02:58.390 align:start position:0%
+deemphasize that the easiest way to do
+that<00:02:56.599><c> is</c><00:02:56.760><c> by</c><00:02:56.879><c> tweaking</c><00:02:57.280><c> the</c><00:02:57.440><c> lightness</c><00:02:57.920><c> value</c>
+
+00:02:58.390 --> 00:02:58.400 align:start position:0%
+that is by tweaking the lightness value
+ 
+
+00:02:58.400 --> 00:03:00.390 align:start position:0%
+that is by tweaking the lightness value
+and<00:02:58.519><c> seeing</c><00:02:58.920><c> what</c><00:02:59.080><c> works</c><00:02:59.480><c> best</c>
+
+00:03:00.390 --> 00:03:00.400 align:start position:0%
+and seeing what works best
+ 
+
+00:03:00.400 --> 00:03:03.550 align:start position:0%
+and seeing what works best
+in<00:03:00.560><c> our</c><00:03:00.840><c> case</c><00:03:01.360><c> 60%</c><00:03:02.159><c> lightness</c><00:03:02.959><c> is</c><00:03:03.080><c> the</c><00:03:03.200><c> sweet</c>
+
+00:03:03.550 --> 00:03:03.560 align:start position:0%
+in our case 60% lightness is the sweet
+ 
+
+00:03:03.560 --> 00:03:05.550 align:start position:0%
+in our case 60% lightness is the sweet
+spot<00:03:03.840><c> for</c><00:03:04.040><c> keeping</c><00:03:04.360><c> the</c><00:03:04.519><c> text</c><00:03:04.760><c> readable</c><00:03:05.400><c> and</c>
+
+00:03:05.550 --> 00:03:05.560 align:start position:0%
+spot for keeping the text readable and
+ 
+
+00:03:05.560 --> 00:03:08.509 align:start position:0%
+spot for keeping the text readable and
+still<00:03:05.840><c> emphasizing</c><00:03:06.480><c> the</c><00:03:07.080><c> title</c><00:03:08.080><c> this</c><00:03:08.200><c> is</c><00:03:08.319><c> a</c>
+
+00:03:08.509 --> 00:03:08.519 align:start position:0%
+still emphasizing the title this is a
+ 
+
+00:03:08.519 --> 00:03:11.030 align:start position:0%
+still emphasizing the title this is a
+pretty<00:03:08.760><c> brilliant</c><00:03:09.200><c> technique</c><00:03:09.599><c> in</c><00:03:09.720><c> UI</c><00:03:10.120><c> design</c>
+
+00:03:11.030 --> 00:03:11.040 align:start position:0%
+pretty brilliant technique in UI design
+ 
+
+00:03:11.040 --> 00:03:13.270 align:start position:0%
+pretty brilliant technique in UI design
+you<00:03:11.200><c> know</c><00:03:11.440><c> who</c><00:03:11.599><c> else</c><00:03:11.840><c> is</c><00:03:12.080><c> brilliant</c><00:03:13.080><c> the</c>
+
+00:03:13.270 --> 00:03:13.280 align:start position:0%
+you know who else is brilliant the
+ 
+
+00:03:13.280 --> 00:03:15.270 align:start position:0%
+you know who else is brilliant the
+sponsor<00:03:13.640><c> of</c><00:03:13.840><c> this</c><00:03:14.040><c> video</c><00:03:14.920><c> they</c><00:03:15.040><c> are</c>
+
+00:03:15.270 --> 00:03:15.280 align:start position:0%
+sponsor of this video they are
+ 
+
+00:03:15.280 --> 00:03:17.350 align:start position:0%
+sponsor of this video they are
+exceptional<00:03:15.799><c> at</c><00:03:15.959><c> explaining</c><00:03:16.480><c> complex</c><00:03:17.000><c> topics</c>
+
+00:03:17.350 --> 00:03:17.360 align:start position:0%
+exceptional at explaining complex topics
+ 
+
+00:03:17.360 --> 00:03:19.830 align:start position:0%
+exceptional at explaining complex topics
+in<00:03:17.560><c> simple</c><00:03:17.959><c> ways</c><00:03:18.879><c> brilliant</c><00:03:19.440><c> offers</c>
+
+00:03:19.830 --> 00:03:19.840 align:start position:0%
+in simple ways brilliant offers
+ 
+
+00:03:19.840 --> 00:03:22.309 align:start position:0%
+in simple ways brilliant offers
+interactive<00:03:20.440><c> lessons</c><00:03:20.840><c> in</c><00:03:21.080><c> math</c><00:03:21.720><c> science</c>
+
+00:03:22.309 --> 00:03:22.319 align:start position:0%
+interactive lessons in math science
+ 
+
+00:03:22.319 --> 00:03:25.149 align:start position:0%
+interactive lessons in math science
+coding<00:03:22.920><c> and</c><00:03:23.120><c> much</c><00:03:23.360><c> more</c><00:03:24.159><c> all</c><00:03:24.440><c> crafted</c><00:03:24.879><c> by</c><00:03:25.040><c> an</c>
+
+00:03:25.149 --> 00:03:25.159 align:start position:0%
+coding and much more all crafted by an
+ 
+
+00:03:25.159 --> 00:03:27.070 align:start position:0%
+coding and much more all crafted by an
+award-winning<00:03:25.799><c> team</c><00:03:26.040><c> of</c><00:03:26.239><c> researchers</c><00:03:26.840><c> and</c>
+
+00:03:27.070 --> 00:03:27.080 align:start position:0%
+award-winning team of researchers and
+ 
+
+00:03:27.080 --> 00:03:30.110 align:start position:0%
+award-winning team of researchers and
+professionals<00:03:27.680><c> from</c><00:03:27.920><c> Top</c><00:03:28.159><c> tier</c><00:03:28.439><c> institutions</c>
+
+00:03:30.110 --> 00:03:30.120 align:start position:0%
+professionals from Top tier institutions
+ 
+
+00:03:30.120 --> 00:03:32.030 align:start position:0%
+professionals from Top tier institutions
+the<00:03:30.239><c> lessons</c><00:03:30.599><c> are</c><00:03:30.760><c> filled</c><00:03:31.120><c> with</c><00:03:31.319><c> interactive</c>
+
+00:03:32.030 --> 00:03:32.040 align:start position:0%
+the lessons are filled with interactive
+ 
+
+00:03:32.040 --> 00:03:33.910 align:start position:0%
+the lessons are filled with interactive
+problem<00:03:32.439><c> solving</c><00:03:32.920><c> activities</c><00:03:33.480><c> that</c><00:03:33.599><c> let</c><00:03:33.760><c> you</c>
+
+00:03:33.910 --> 00:03:33.920 align:start position:0%
+problem solving activities that let you
+ 
+
+00:03:33.920 --> 00:03:36.390 align:start position:0%
+problem solving activities that let you
+play<00:03:34.120><c> with</c><00:03:34.280><c> the</c><00:03:34.560><c> concepts</c><00:03:35.560><c> a</c><00:03:35.720><c> method</c><00:03:36.080><c> proven</c>
+
+00:03:36.390 --> 00:03:36.400 align:start position:0%
+play with the concepts a method proven
+ 
+
+00:03:36.400 --> 00:03:38.350 align:start position:0%
+play with the concepts a method proven
+to<00:03:36.519><c> be</c><00:03:36.760><c> six</c><00:03:37.080><c> times</c><00:03:37.400><c> more</c><00:03:37.680><c> effective</c><00:03:38.120><c> than</c>
+
+00:03:38.350 --> 00:03:38.360 align:start position:0%
+to be six times more effective than
+ 
+
+00:03:38.360 --> 00:03:40.990 align:start position:0%
+to be six times more effective than
+watching<00:03:38.680><c> lecture</c><00:03:39.200><c> videos</c><00:03:40.200><c> one</c><00:03:40.439><c> lesson</c><00:03:40.799><c> I</c>
+
+00:03:40.990 --> 00:03:41.000 align:start position:0%
+watching lecture videos one lesson I
+ 
+
+00:03:41.000 --> 00:03:43.550 align:start position:0%
+watching lecture videos one lesson I
+really<00:03:41.239><c> liked</c><00:03:41.640><c> is</c><00:03:41.799><c> thinking</c><00:03:42.120><c> in</c><00:03:42.360><c> code</c><00:03:43.319><c> it's</c>
+
+00:03:43.550 --> 00:03:43.560 align:start position:0%
+really liked is thinking in code it's
+ 
+
+00:03:43.560 --> 00:03:45.589 align:start position:0%
+really liked is thinking in code it's
+packed<00:03:43.879><c> with</c><00:03:44.080><c> essential</c><00:03:44.519><c> coding</c><00:03:44.920><c> elements</c>
+
+00:03:45.589 --> 00:03:45.599 align:start position:0%
+packed with essential coding elements
+ 
+
+00:03:45.599 --> 00:03:47.869 align:start position:0%
+packed with essential coding elements
+from<00:03:45.879><c> loops</c><00:03:46.239><c> and</c><00:03:46.439><c> variables</c><00:03:46.920><c> to</c><00:03:47.080><c> nesting</c><00:03:47.519><c> and</c>
+
+00:03:47.869 --> 00:03:47.879 align:start position:0%
+from loops and variables to nesting and
+ 
+
+00:03:47.879 --> 00:03:50.070 align:start position:0%
+from loops and variables to nesting and
+conditionals<00:03:48.879><c> making</c><00:03:49.120><c> it</c><00:03:49.239><c> a</c><00:03:49.400><c> great</c><00:03:49.680><c> starting</c>
+
+00:03:50.070 --> 00:03:50.080 align:start position:0%
+conditionals making it a great starting
+ 
+
+00:03:50.080 --> 00:03:52.750 align:start position:0%
+conditionals making it a great starting
+point<00:03:50.319><c> for</c><00:03:50.480><c> your</c><00:03:50.640><c> coding</c><00:03:51.400><c> Journey</c><00:03:52.400><c> if</c><00:03:52.519><c> you're</c>
+
+00:03:52.750 --> 00:03:52.760 align:start position:0%
+point for your coding Journey if you're
+ 
+
+00:03:52.760 --> 00:03:54.949 align:start position:0%
+point for your coding Journey if you're
+already<00:03:53.120><c> familiar</c><00:03:53.519><c> with</c><00:03:53.680><c> the</c><00:03:53.879><c> basics</c><00:03:54.599><c> you</c><00:03:54.760><c> can</c>
+
+00:03:54.949 --> 00:03:54.959 align:start position:0%
+already familiar with the basics you can
+ 
+
+00:03:54.959 --> 00:03:56.990 align:start position:0%
+already familiar with the basics you can
+jump<00:03:55.239><c> ahead</c><00:03:55.640><c> and</c><00:03:55.840><c> explore</c><00:03:56.239><c> more</c><00:03:56.480><c> advanced</c>
+
+00:03:56.990 --> 00:03:57.000 align:start position:0%
+jump ahead and explore more advanced
+ 
+
+00:03:57.000 --> 00:03:59.110 align:start position:0%
+jump ahead and explore more advanced
+topics<00:03:57.959><c> brilliant</c><00:03:58.439><c> literally</c><00:03:58.879><c> has</c>
+
+00:03:59.110 --> 00:03:59.120 align:start position:0%
+topics brilliant literally has
+ 
+
+00:03:59.120 --> 00:04:01.390 align:start position:0%
+topics brilliant literally has
+everything<00:03:59.879><c> and</c><00:04:00.040><c> you</c><00:04:00.120><c> can</c><00:04:00.319><c> try</c><00:04:00.560><c> it</c><00:04:00.720><c> all</c><00:04:01.200><c> for</c>
+
+00:04:01.390 --> 00:04:01.400 align:start position:0%
+everything and you can try it all for
+ 
+
+00:04:01.400 --> 00:04:04.110 align:start position:0%
+everything and you can try it all for
+free<00:04:01.920><c> for</c><00:04:02.079><c> a</c><00:04:02.200><c> full</c><00:04:02.480><c> 30</c><00:04:02.840><c> days</c><00:04:03.599><c> just</c><00:04:03.840><c> visit</c>
+
+00:04:04.110 --> 00:04:04.120 align:start position:0%
+free for a full 30 days just visit
+ 
+
+00:04:04.120 --> 00:04:05.949 align:start position:0%
+free for a full 30 days just visit
+brilliant.org
+
+00:04:05.949 --> 00:04:05.959 align:start position:0%
+brilliant.org
+ 
+
+00:04:05.959 --> 00:04:08.990 align:start position:0%
+brilliant.org
+or<00:04:06.959><c> click</c><00:04:07.200><c> the</c><00:04:07.319><c> link</c><00:04:07.519><c> in</c><00:04:07.640><c> the</c><00:04:08.000><c> description</c>
+
+00:04:08.990 --> 00:04:09.000 align:start position:0%
+or click the link in the description
+ 
+
+00:04:09.000 --> 00:04:11.350 align:start position:0%
+or click the link in the description
+plus<00:04:09.439><c> you'll</c><00:04:09.680><c> get</c><00:04:09.879><c> 20%</c><00:04:10.640><c> off</c><00:04:10.760><c> an</c><00:04:11.000><c> annual</c>
+
+00:04:11.350 --> 00:04:11.360 align:start position:0%
+plus you'll get 20% off an annual
+ 
+
+00:04:11.360 --> 00:04:14.869 align:start position:0%
+plus you'll get 20% off an annual
+premium
+
+00:04:14.869 --> 00:04:14.879 align:start position:0%
+ 
+ 
+
+00:04:14.879 --> 00:04:17.469 align:start position:0%
+ 
+subscription<00:04:15.879><c> if</c><00:04:16.000><c> we</c><00:04:16.120><c> zoom</c><00:04:16.400><c> out</c><00:04:16.560><c> a</c><00:04:16.759><c> bit</c><00:04:17.280><c> we'll</c>
+
+00:04:17.469 --> 00:04:17.479 align:start position:0%
+subscription if we zoom out a bit we'll
+ 
+
+00:04:17.479 --> 00:04:19.069 align:start position:0%
+subscription if we zoom out a bit we'll
+see<00:04:17.759><c> this</c><00:04:17.959><c> color</c><00:04:18.199><c> trick</c><00:04:18.519><c> being</c><00:04:18.720><c> used</c>
+
+00:04:19.069 --> 00:04:19.079 align:start position:0%
+see this color trick being used
+ 
+
+00:04:19.079 --> 00:04:21.430 align:start position:0%
+see this color trick being used
+everywhere<00:04:20.040><c> the</c><00:04:20.239><c> most</c><00:04:20.479><c> important</c><00:04:20.959><c> elements</c>
+
+00:04:21.430 --> 00:04:21.440 align:start position:0%
+everywhere the most important elements
+ 
+
+00:04:21.440 --> 00:04:23.670 align:start position:0%
+everywhere the most important elements
+have<00:04:21.600><c> the</c><00:04:21.759><c> highest</c><00:04:22.199><c> contrast</c><00:04:23.199><c> and</c><00:04:23.320><c> then</c><00:04:23.440><c> to</c>
+
+00:04:23.670 --> 00:04:23.680 align:start position:0%
+have the highest contrast and then to
+ 
+
+00:04:23.680 --> 00:04:25.790 align:start position:0%
+have the highest contrast and then to
+deemphasize<00:04:24.400><c> other</c><00:04:24.639><c> elements</c><00:04:25.440><c> they</c><00:04:25.600><c> just</c>
+
+00:04:25.790 --> 00:04:25.800 align:start position:0%
+deemphasize other elements they just
+ 
+
+00:04:25.800 --> 00:04:28.629 align:start position:0%
+deemphasize other elements they just
+played<00:04:26.120><c> with</c><00:04:26.240><c> the</c><00:04:26.360><c> lightness</c><00:04:27.320><c> value</c><00:04:28.320><c> but</c><00:04:28.520><c> this</c>
+
+00:04:28.629 --> 00:04:28.639 align:start position:0%
+played with the lightness value but this
+ 
+
+00:04:28.639 --> 00:04:30.790 align:start position:0%
+played with the lightness value but this
+is<00:04:28.759><c> a</c><00:04:28.919><c> bit</c><00:04:29.160><c> different</c><00:04:29.960><c> we</c><00:04:30.080><c> will</c><00:04:30.280><c> come</c><00:04:30.440><c> to</c><00:04:30.639><c> it</c>
+
+00:04:30.790 --> 00:04:30.800 align:start position:0%
+is a bit different we will come to it
+ 
+
+00:04:30.800 --> 00:04:33.909 align:start position:0%
+is a bit different we will come to it
+later<00:04:31.120><c> in</c><00:04:31.240><c> the</c><00:04:31.759><c> video</c><00:04:32.759><c> for</c><00:04:33.039><c> now</c><00:04:33.360><c> you</c><00:04:33.560><c> just</c><00:04:33.800><c> have</c>
+
+00:04:33.909 --> 00:04:33.919 align:start position:0%
+later in the video for now you just have
+ 
+
+00:04:33.919 --> 00:04:36.629 align:start position:0%
+later in the video for now you just have
+to<00:04:34.400><c> understand</c><00:04:34.600><c> the</c><00:04:34.720><c> hsl</c><00:04:35.240><c> color</c><00:04:35.639><c> function</c><00:04:36.479><c> and</c>
+
+00:04:36.629 --> 00:04:36.639 align:start position:0%
+to understand the hsl color function and
+ 
+
+00:04:36.639 --> 00:04:39.150 align:start position:0%
+to understand the hsl color function and
+how<00:04:36.800><c> it's</c><00:04:36.960><c> used</c><00:04:37.199><c> in</c><00:04:37.320><c> UI</c><00:04:37.680><c> design</c><00:04:38.680><c> it's</c><00:04:38.840><c> short</c>
+
+00:04:39.150 --> 00:04:39.160 align:start position:0%
+how it's used in UI design it's short
+ 
+
+00:04:39.160 --> 00:04:42.390 align:start position:0%
+how it's used in UI design it's short
+for<00:04:39.440><c> Hue</c><00:04:40.080><c> saturation</c><00:04:40.840><c> and</c><00:04:41.080><c> lightness</c><00:04:42.080><c> this</c><00:04:42.199><c> is</c>
+
+00:04:42.390 --> 00:04:42.400 align:start position:0%
+for Hue saturation and lightness this is
+ 
+
+00:04:42.400 --> 00:04:44.749 align:start position:0%
+for Hue saturation and lightness this is
+the<00:04:42.560><c> type</c><00:04:42.759><c> of</c><00:04:42.880><c> color</c><00:04:43.199><c> you</c><00:04:43.360><c> want</c><00:04:44.120><c> like</c><00:04:44.360><c> red</c>
+
+00:04:44.749 --> 00:04:44.759 align:start position:0%
+the type of color you want like red
+ 
+
+00:04:44.759 --> 00:04:47.469 align:start position:0%
+the type of color you want like red
+green<00:04:45.199><c> or</c><00:04:45.360><c> blue</c><00:04:46.280><c> it's</c><00:04:46.520><c> measured</c><00:04:46.880><c> in</c><00:04:47.080><c> degrees</c>
+
+00:04:47.469 --> 00:04:47.479 align:start position:0%
+green or blue it's measured in degrees
+ 
+
+00:04:47.479 --> 00:04:50.790 align:start position:0%
+green or blue it's measured in degrees
+on<00:04:47.600><c> a</c><00:04:47.759><c> color</c><00:04:48.039><c> wheel</c><00:04:48.840><c> starts</c><00:04:49.199><c> at</c><00:04:49.440><c> zero</c><00:04:49.800><c> with</c><00:04:50.039><c> red</c>
+
+00:04:50.790 --> 00:04:50.800 align:start position:0%
+on a color wheel starts at zero with red
+ 
+
+00:04:50.800 --> 00:04:54.469 align:start position:0%
+on a color wheel starts at zero with red
+120<00:04:51.400><c> is</c><00:04:51.600><c> green</c><00:04:52.160><c> and</c><00:04:52.320><c> 240</c><00:04:52.960><c> is</c><00:04:53.160><c> blue</c><00:04:54.000><c> think</c><00:04:54.199><c> of</c><00:04:54.320><c> it</c>
+
+00:04:54.469 --> 00:04:54.479 align:start position:0%
+120 is green and 240 is blue think of it
+ 
+
+00:04:54.479 --> 00:04:57.830 align:start position:0%
+120 is green and 240 is blue think of it
+as<00:04:54.639><c> picking</c><00:04:54.960><c> the</c><00:04:55.120><c> base</c><00:04:55.880><c> color</c><00:04:56.880><c> saturation</c>
+
+00:04:57.830 --> 00:04:57.840 align:start position:0%
+as picking the base color saturation
+ 
+
+00:04:57.840 --> 00:04:59.749 align:start position:0%
+as picking the base color saturation
+controls<00:04:58.320><c> the</c><00:04:58.479><c> intensity</c><00:04:59.039><c> of</c><00:04:59.160><c> that</c><00:04:59.280><c> base</c>
+
+00:04:59.749 --> 00:04:59.759 align:start position:0%
+controls the intensity of that base
+ 
+
+00:04:59.759 --> 00:05:03.110 align:start position:0%
+controls the intensity of that base
+color<00:05:00.560><c> a</c><00:05:00.759><c> saturation</c><00:05:01.320><c> of</c><00:05:01.600><c> 100%</c><00:05:02.600><c> gives</c><00:05:02.800><c> you</c><00:05:02.960><c> the</c>
+
+00:05:03.110 --> 00:05:03.120 align:start position:0%
+color a saturation of 100% gives you the
+ 
+
+00:05:03.120 --> 00:05:06.070 align:start position:0%
+color a saturation of 100% gives you the
+most<00:05:03.360><c> intense</c><00:05:03.800><c> version</c><00:05:04.120><c> of</c><00:05:04.240><c> the</c><00:05:04.400><c> color</c><00:05:05.160><c> and</c><00:05:05.280><c> 0%</c>
+
+00:05:06.070 --> 00:05:06.080 align:start position:0%
+most intense version of the color and 0%
+ 
+
+00:05:06.080 --> 00:05:08.469 align:start position:0%
+most intense version of the color and 0%
+turns<00:05:06.360><c> it</c><00:05:06.560><c> into</c><00:05:06.759><c> a</c><00:05:06.880><c> shade</c><00:05:07.120><c> of</c><00:05:07.320><c> gray</c><00:05:08.280><c> and</c>
+
+00:05:08.469 --> 00:05:08.479 align:start position:0%
+turns it into a shade of gray and
+ 
+
+00:05:08.479 --> 00:05:10.430 align:start position:0%
+turns it into a shade of gray and
+finally<00:05:09.039><c> we</c><00:05:09.160><c> use</c><00:05:09.440><c> lightness</c><00:05:09.840><c> to</c><00:05:10.000><c> control</c><00:05:10.320><c> the</c>
+
+00:05:10.430 --> 00:05:10.440 align:start position:0%
+finally we use lightness to control the
+ 
+
+00:05:10.440 --> 00:05:14.270 align:start position:0%
+finally we use lightness to control the
+brightness<00:05:11.440><c> at</c><00:05:11.720><c> 50%</c><00:05:12.720><c> you</c><00:05:12.919><c> get</c><00:05:13.080><c> the</c><00:05:13.199><c> base</c><00:05:13.520><c> color</c>
+
+00:05:14.270 --> 00:05:14.280 align:start position:0%
+brightness at 50% you get the base color
+ 
+
+00:05:14.280 --> 00:05:18.230 align:start position:0%
+brightness at 50% you get the base color
+at<00:05:14.479><c> zero</c><00:05:15.039><c> it's</c><00:05:15.320><c> black</c><00:05:15.919><c> and</c><00:05:16.039><c> at</c><00:05:16.320><c> 100</c><00:05:16.639><c> it's</c><00:05:17.240><c> white</c>
+
+00:05:18.230 --> 00:05:18.240 align:start position:0%
+at zero it's black and at 100 it's white
+ 
+
+00:05:18.240 --> 00:05:20.390 align:start position:0%
+at zero it's black and at 100 it's white
+so<00:05:18.600><c> Hue</c><00:05:19.000><c> represents</c><00:05:19.520><c> color</c><00:05:19.880><c> values</c><00:05:20.240><c> that</c>
+
+00:05:20.390 --> 00:05:20.400 align:start position:0%
+so Hue represents color values that
+ 
+
+00:05:20.400 --> 00:05:23.870 align:start position:0%
+so Hue represents color values that
+range<00:05:20.720><c> from</c><00:05:20.919><c> 0</c><00:05:21.280><c> to</c><00:05:21.880><c> 360</c><00:05:22.880><c> saturation</c><00:05:23.479><c> is</c><00:05:23.680><c> the</c>
+
+00:05:23.870 --> 00:05:23.880 align:start position:0%
+range from 0 to 360 saturation is the
+ 
+
+00:05:23.880 --> 00:05:26.430 align:start position:0%
+range from 0 to 360 saturation is the
+intensity<00:05:24.840><c> measured</c><00:05:25.199><c> in</c><00:05:25.400><c> percentage</c><00:05:26.280><c> and</c>
+
+00:05:26.430 --> 00:05:26.440 align:start position:0%
+intensity measured in percentage and
+ 
+
+00:05:26.440 --> 00:05:28.309 align:start position:0%
+intensity measured in percentage and
+lightness<00:05:26.880><c> is</c><00:05:26.960><c> a</c><00:05:27.160><c> percentage</c><00:05:27.720><c> that</c><00:05:27.880><c> controls</c>
+
+00:05:28.309 --> 00:05:28.319 align:start position:0%
+lightness is a percentage that controls
+ 
+
+00:05:28.319 --> 00:05:30.110 align:start position:0%
+lightness is a percentage that controls
+the<00:05:28.479><c> brightness</c>
+
+00:05:30.110 --> 00:05:30.120 align:start position:0%
+the brightness
+ 
+
+00:05:30.120 --> 00:05:32.590 align:start position:0%
+the brightness
+to<00:05:30.360><c> assign</c><00:05:30.639><c> a</c><00:05:30.800><c> color</c><00:05:31.440><c> we</c><00:05:31.600><c> use</c><00:05:31.919><c> these</c><00:05:32.160><c> values</c>
+
+00:05:32.590 --> 00:05:32.600 align:start position:0%
+to assign a color we use these values
+ 
+
+00:05:32.600 --> 00:05:35.430 align:start position:0%
+to assign a color we use these values
+inside<00:05:32.960><c> the</c><00:05:33.080><c> hsl</c><00:05:33.680><c> function</c><00:05:34.160><c> like</c><00:05:34.400><c> this</c><00:05:35.199><c> for</c>
+
+00:05:35.430 --> 00:05:35.440 align:start position:0%
+inside the hsl function like this for
+ 
+
+00:05:35.440 --> 00:05:37.670 align:start position:0%
+inside the hsl function like this for
+this<00:05:35.680><c> video</c><00:05:36.319><c> all</c><00:05:36.479><c> we</c><00:05:36.639><c> need</c><00:05:36.919><c> is</c><00:05:37.080><c> the</c><00:05:37.199><c> lightness</c>
+
+00:05:37.670 --> 00:05:37.680 align:start position:0%
+this video all we need is the lightness
+ 
+
+00:05:37.680 --> 00:05:40.830 align:start position:0%
+this video all we need is the lightness
+value<00:05:38.639><c> after</c><00:05:38.880><c> all</c><00:05:39.479><c> this</c><00:05:39.680><c> video</c><00:05:40.039><c> is</c><00:05:40.199><c> about</c><00:05:40.479><c> font</c>
+
+00:05:40.830 --> 00:05:40.840 align:start position:0%
+value after all this video is about font
+ 
+
+00:05:40.840 --> 00:05:42.230 align:start position:0%
+value after all this video is about font
+Styles<00:05:41.440><c> not</c>
+
+00:05:42.230 --> 00:05:42.240 align:start position:0%
+Styles not
+ 
+
+00:05:42.240 --> 00:05:45.350 align:start position:0%
+Styles not
+colors<00:05:43.240><c> that's</c><00:05:43.520><c> exactly</c><00:05:43.960><c> what</c><00:05:44.120><c> we</c><00:05:44.280><c> did</c><00:05:44.560><c> here</c>
+
+00:05:45.350 --> 00:05:45.360 align:start position:0%
+colors that's exactly what we did here
+ 
+
+00:05:45.360 --> 00:05:47.909 align:start position:0%
+colors that's exactly what we did here
+this<00:05:45.560><c> has</c><00:05:45.759><c> a</c><00:05:45.919><c> lightness</c><00:05:46.280><c> of</c><00:05:46.639><c> 100%</c><00:05:47.639><c> And</c><00:05:47.800><c> this</c>
+
+00:05:47.909 --> 00:05:47.919 align:start position:0%
+this has a lightness of 100% And this
+ 
+
+00:05:47.919 --> 00:05:51.670 align:start position:0%
+this has a lightness of 100% And this
+one<00:05:48.199><c> has</c><00:05:48.680><c> 60</c><00:05:49.680><c> using</c><00:05:50.039><c> the</c><00:05:50.160><c> same</c><00:05:50.520><c> concept</c><00:05:51.400><c> we</c><00:05:51.520><c> can</c>
+
+00:05:51.670 --> 00:05:51.680 align:start position:0%
+one has 60 using the same concept we can
+ 
+
+00:05:51.680 --> 00:05:53.670 align:start position:0%
+one has 60 using the same concept we can
+wrap<00:05:52.000><c> this</c><00:05:52.160><c> inside</c><00:05:52.479><c> a</c><00:05:52.680><c> card</c><00:05:53.199><c> and</c><00:05:53.360><c> give</c><00:05:53.520><c> the</c>
+
+00:05:53.670 --> 00:05:53.680 align:start position:0%
+wrap this inside a card and give the
+ 
+
+00:05:53.680 --> 00:05:57.629 align:start position:0%
+wrap this inside a card and give the
+card<00:05:54.000><c> 10</c><00:05:54.199><c> or</c><00:05:54.400><c> 20%</c><00:05:55.520><c> lightness</c><00:05:56.520><c> we</c><00:05:56.639><c> can</c><00:05:56.880><c> also</c><00:05:57.120><c> use</c>
+
+00:05:57.629 --> 00:05:57.639 align:start position:0%
+card 10 or 20% lightness we can also use
+ 
+
+00:05:57.639 --> 00:06:01.070 align:start position:0%
+card 10 or 20% lightness we can also use
+color<00:05:58.639><c> just</c><00:05:58.880><c> focus</c><00:05:59.160><c> on</c><00:05:59.280><c> the</c><00:05:59.400><c> light</c><00:05:59.960><c> value</c><00:06:00.880><c> this</c>
+
+00:06:01.070 --> 00:06:01.080 align:start position:0%
+color just focus on the light value this
+ 
+
+00:06:01.080 --> 00:06:03.150 align:start position:0%
+color just focus on the light value this
+color<00:06:01.400><c> is</c><00:06:01.560><c> too</c><00:06:01.759><c> bright</c><00:06:02.000><c> for</c><00:06:02.160><c> the</c><00:06:02.319><c> card</c><00:06:03.000><c> so</c>
+
+00:06:03.150 --> 00:06:03.160 align:start position:0%
+color is too bright for the card so
+ 
+
+00:06:03.160 --> 00:06:04.870 align:start position:0%
+color is too bright for the card so
+let's<00:06:03.400><c> bring</c><00:06:03.600><c> it</c><00:06:03.759><c> down</c><00:06:03.960><c> to</c>
+
+00:06:04.870 --> 00:06:04.880 align:start position:0%
+let's bring it down to
+ 
+
+00:06:04.880 --> 00:06:07.390 align:start position:0%
+let's bring it down to
+10%<00:06:05.880><c> let's</c><00:06:06.120><c> apply</c><00:06:06.400><c> the</c><00:06:06.560><c> base</c><00:06:06.840><c> color</c><00:06:07.080><c> to</c><00:06:07.240><c> this</c>
+
+00:06:07.390 --> 00:06:07.400 align:start position:0%
+10% let's apply the base color to this
+ 
+
+00:06:07.400 --> 00:06:10.550 align:start position:0%
+10% let's apply the base color to this
+group<00:06:07.919><c> and</c><00:06:08.080><c> see</c><00:06:08.280><c> if</c><00:06:08.400><c> it</c><00:06:09.000><c> works</c><00:06:10.000><c> we'll</c><00:06:10.280><c> check</c>
+
+00:06:10.550 --> 00:06:10.560 align:start position:0%
+group and see if it works we'll check
+ 
+
+00:06:10.560 --> 00:06:12.870 align:start position:0%
+group and see if it works we'll check
+that<00:06:10.680><c> in</c><00:06:10.800><c> a</c><00:06:10.960><c> minute</c><00:06:11.720><c> but</c><00:06:11.960><c> first</c><00:06:12.400><c> we</c><00:06:12.560><c> need</c><00:06:12.720><c> a</c>
+
+00:06:12.870 --> 00:06:12.880 align:start position:0%
+that in a minute but first we need a
+ 
+
+00:06:12.880 --> 00:06:14.950 align:start position:0%
+that in a minute but first we need a
+lighter<00:06:13.240><c> color</c><00:06:13.520><c> for</c><00:06:13.680><c> the</c><00:06:13.840><c> title</c><00:06:14.560><c> because</c><00:06:14.840><c> the</c>
+
+00:06:14.950 --> 00:06:14.960 align:start position:0%
+lighter color for the title because the
+ 
+
+00:06:14.960 --> 00:06:18.390 align:start position:0%
+lighter color for the title because the
+base<00:06:15.240><c> color</c><00:06:15.599><c> won't</c><00:06:15.840><c> work</c><00:06:16.080><c> in</c><00:06:16.280><c> this</c><00:06:16.599><c> case</c><00:06:17.599><c> 90%</c>
+
+00:06:18.390 --> 00:06:18.400 align:start position:0%
+base color won't work in this case 90%
+ 
+
+00:06:18.400 --> 00:06:20.749 align:start position:0%
+base color won't work in this case 90%
+looks<00:06:18.759><c> good</c><00:06:19.400><c> but</c><00:06:19.520><c> the</c><00:06:19.680><c> base</c><00:06:19.960><c> color</c><00:06:20.280><c> is</c><00:06:20.400><c> a</c><00:06:20.560><c> bit</c>
+
+00:06:20.749 --> 00:06:20.759 align:start position:0%
+looks good but the base color is a bit
+ 
+
+00:06:20.759 --> 00:06:23.270 align:start position:0%
+looks good but the base color is a bit
+dark<00:06:21.000><c> for</c><00:06:21.199><c> this</c><00:06:21.440><c> group</c><00:06:22.280><c> so</c><00:06:22.639><c> I'm</c><00:06:22.759><c> going</c><00:06:22.919><c> to</c><00:06:23.080><c> bump</c>
+
+00:06:23.270 --> 00:06:23.280 align:start position:0%
+dark for this group so I'm going to bump
+ 
+
+00:06:23.280 --> 00:06:26.909 align:start position:0%
+dark for this group so I'm going to bump
+it<00:06:23.400><c> up</c><00:06:23.599><c> to</c><00:06:23.759><c> 70</c><00:06:24.479><c> and</c><00:06:24.639><c> see</c><00:06:24.840><c> if</c><00:06:25.039><c> that</c><00:06:25.199><c> does</c><00:06:25.400><c> the</c><00:06:25.919><c> job</c>
+
+00:06:26.909 --> 00:06:26.919 align:start position:0%
+it up to 70 and see if that does the job
+ 
+
+00:06:26.919 --> 00:06:29.029 align:start position:0%
+it up to 70 and see if that does the job
+I<00:06:27.080><c> think</c><00:06:27.240><c> it</c><00:06:27.319><c> will</c><00:06:27.520><c> work</c><00:06:28.199><c> but</c><00:06:28.319><c> let's</c><00:06:28.560><c> zoom</c><00:06:28.800><c> out</c>
+
+00:06:29.029 --> 00:06:29.039 align:start position:0%
+I think it will work but let's zoom out
+ 
+
+00:06:29.039 --> 00:06:31.510 align:start position:0%
+I think it will work but let's zoom out
+and<00:06:29.160><c> see</c><00:06:29.360><c> how</c><00:06:29.680><c> looks</c><00:06:29.880><c> on</c><00:06:29.960><c> a</c><00:06:30.080><c> real</c><00:06:30.319><c> UI</c><00:06:31.240><c> we</c><00:06:31.360><c> want</c>
+
+00:06:31.510 --> 00:06:31.520 align:start position:0%
+and see how looks on a real UI we want
+ 
+
+00:06:31.520 --> 00:06:33.790 align:start position:0%
+and see how looks on a real UI we want
+to<00:06:31.720><c> check</c><00:06:31.960><c> if</c><00:06:32.080><c> the</c><00:06:32.240><c> title</c><00:06:32.599><c> stands</c><00:06:33.000><c> out</c><00:06:33.560><c> and</c><00:06:33.680><c> if</c>
+
+00:06:33.790 --> 00:06:33.800 align:start position:0%
+to check if the title stands out and if
+ 
+
+00:06:33.800 --> 00:06:36.670 align:start position:0%
+to check if the title stands out and if
+the<00:06:33.919><c> group</c><00:06:34.160><c> is</c><00:06:34.400><c> legible</c><00:06:35.400><c> ideally</c><00:06:36.120><c> you'd</c><00:06:36.360><c> test</c>
+
+00:06:36.670 --> 00:06:36.680 align:start position:0%
+the group is legible ideally you'd test
+ 
+
+00:06:36.680 --> 00:06:38.909 align:start position:0%
+the group is legible ideally you'd test
+this<00:06:36.800><c> with</c><00:06:36.960><c> real</c><00:06:37.199><c> users</c><00:06:38.199><c> but</c><00:06:38.319><c> you</c><00:06:38.440><c> can</c><00:06:38.680><c> also</c>
+
+00:06:38.909 --> 00:06:38.919 align:start position:0%
+this with real users but you can also
+ 
+
+00:06:38.919 --> 00:06:41.390 align:start position:0%
+this with real users but you can also
+show<00:06:39.160><c> it</c><00:06:39.240><c> to</c><00:06:39.440><c> friends</c><00:06:39.800><c> or</c><00:06:40.000><c> colleagues</c><00:06:40.440><c> for</c>
+
+00:06:41.390 --> 00:06:41.400 align:start position:0%
+show it to friends or colleagues for
+ 
+
+00:06:41.400 --> 00:06:43.950 align:start position:0%
+show it to friends or colleagues for
+feedback<00:06:42.400><c> and</c><00:06:42.599><c> by</c><00:06:42.720><c> the</c><00:06:42.880><c> way</c><00:06:43.440><c> this</c><00:06:43.560><c> is</c><00:06:43.800><c> just</c>
+
+00:06:43.950 --> 00:06:43.960 align:start position:0%
+feedback and by the way this is just
+ 
+
+00:06:43.960 --> 00:06:45.909 align:start position:0%
+feedback and by the way this is just
+using<00:06:44.240><c> a</c><00:06:44.400><c> lighter</c><00:06:44.759><c> color</c><00:06:45.080><c> to</c><00:06:45.280><c> highlight</c><00:06:45.720><c> the</c>
+
+00:06:45.909 --> 00:06:45.919 align:start position:0%
+using a lighter color to highlight the
+ 
+
+00:06:45.919 --> 00:06:48.950 align:start position:0%
+using a lighter color to highlight the
+active<00:06:46.280><c> tab</c><00:06:47.199><c> lighter</c><00:06:47.520><c> Shades</c><00:06:47.960><c> appear</c><00:06:48.240><c> on</c><00:06:48.520><c> top</c>
+
+00:06:48.950 --> 00:06:48.960 align:start position:0%
+active tab lighter Shades appear on top
+ 
+
+00:06:48.960 --> 00:06:51.589 align:start position:0%
+active tab lighter Shades appear on top
+making<00:06:49.240><c> them</c><00:06:49.400><c> more</c><00:06:50.160><c> important</c><00:06:51.160><c> before</c><00:06:51.440><c> we</c>
+
+00:06:51.589 --> 00:06:51.599 align:start position:0%
+making them more important before we
+ 
+
+00:06:51.599 --> 00:06:53.870 align:start position:0%
+making them more important before we
+move<00:06:51.840><c> forward</c><00:06:52.240><c> with</c><00:06:52.360><c> the</c><00:06:52.479><c> rest</c><00:06:52.680><c> of</c><00:06:52.800><c> the</c><00:06:52.960><c> video</c>
+
+00:06:53.870 --> 00:06:53.880 align:start position:0%
+move forward with the rest of the video
+ 
+
+00:06:53.880 --> 00:06:55.950 align:start position:0%
+move forward with the rest of the video
+Let's<00:06:54.160><c> improve</c><00:06:54.560><c> this</c><00:06:54.720><c> UI</c><00:06:55.080><c> using</c><00:06:55.360><c> the</c><00:06:55.520><c> basic</c>
+
+00:06:55.950 --> 00:06:55.960 align:start position:0%
+Let's improve this UI using the basic
+ 
+
+00:06:55.960 --> 00:06:58.350 align:start position:0%
+Let's improve this UI using the basic
+concepts<00:06:56.440><c> we've</c><00:06:56.680><c> learned</c><00:06:57.560><c> we</c><00:06:57.720><c> have</c><00:06:57.840><c> a</c><00:06:58.000><c> list</c><00:06:58.199><c> of</c>
+
+00:06:58.350 --> 00:06:58.360 align:start position:0%
+concepts we've learned we have a list of
+ 
+
+00:06:58.360 --> 00:07:00.749 align:start position:0%
+concepts we've learned we have a list of
+channels<00:06:58.800><c> the</c><00:06:58.879><c> user</c><00:06:59.120><c> is</c><00:06:59.240><c> Subs</c><00:06:59.560><c> subcribed</c><00:06:59.960><c> to</c>
+
+00:07:00.749 --> 00:07:00.759 align:start position:0%
+channels the user is Subs subcribed to
+ 
+
+00:07:00.759 --> 00:07:03.230 align:start position:0%
+channels the user is Subs subcribed to
+how<00:07:00.919><c> can</c><00:07:01.039><c> we</c><00:07:01.280><c> provide</c><00:07:01.599><c> a</c><00:07:01.759><c> better</c><00:07:02.039><c> user</c>
+
+00:07:03.230 --> 00:07:03.240 align:start position:0%
+how can we provide a better user
+ 
+
+00:07:03.240 --> 00:07:06.589 align:start position:0%
+how can we provide a better user
+experience<00:07:04.240><c> firstly</c><00:07:04.919><c> there</c><00:07:05.000><c> is</c><00:07:05.199><c> no</c><00:07:05.599><c> hierarchy</c>
+
+00:07:06.589 --> 00:07:06.599 align:start position:0%
+experience firstly there is no hierarchy
+ 
+
+00:07:06.599 --> 00:07:08.430 align:start position:0%
+experience firstly there is no hierarchy
+everything<00:07:07.039><c> just</c><00:07:07.240><c> looks</c><00:07:07.560><c> like</c><00:07:07.720><c> a</c><00:07:07.800><c> blob</c><00:07:08.120><c> of</c>
+
+00:07:08.430 --> 00:07:08.440 align:start position:0%
+everything just looks like a blob of
+ 
+
+00:07:08.440 --> 00:07:11.309 align:start position:0%
+everything just looks like a blob of
+text<00:07:09.440><c> secondly</c><00:07:10.199><c> this</c><00:07:10.360><c> button</c><00:07:10.639><c> needs</c><00:07:10.840><c> to</c><00:07:11.039><c> stand</c>
+
+00:07:11.309 --> 00:07:11.319 align:start position:0%
+text secondly this button needs to stand
+ 
+
+00:07:11.319 --> 00:07:15.189 align:start position:0%
+text secondly this button needs to stand
+out<00:07:12.280><c> let's</c><00:07:12.520><c> zoom</c><00:07:13.160><c> in</c><00:07:14.160><c> some</c><00:07:14.560><c> size</c><00:07:14.759><c> and</c><00:07:14.960><c> weight</c>
+
+00:07:15.189 --> 00:07:15.199 align:start position:0%
+out let's zoom in some size and weight
+ 
+
+00:07:15.199 --> 00:07:17.670 align:start position:0%
+out let's zoom in some size and weight
+to<00:07:15.400><c> emphasize</c><00:07:16.000><c> the</c><00:07:16.120><c> title</c><00:07:16.960><c> then</c><00:07:17.120><c> a</c><00:07:17.319><c> darker</c>
+
+00:07:17.670 --> 00:07:17.680 align:start position:0%
+to emphasize the title then a darker
+ 
+
+00:07:17.680 --> 00:07:19.830 align:start position:0%
+to emphasize the title then a darker
+color<00:07:18.039><c> and</c><00:07:18.240><c> smaller</c><00:07:18.680><c> size</c><00:07:18.960><c> to</c><00:07:19.120><c> deemphasize</c>
+
+00:07:19.830 --> 00:07:19.840 align:start position:0%
+color and smaller size to deemphasize
+ 
+
+00:07:19.840 --> 00:07:22.150 align:start position:0%
+color and smaller size to deemphasize
+the<00:07:20.080><c> username</c><00:07:21.080><c> a</c><00:07:21.240><c> lighter</c><00:07:21.599><c> color</c><00:07:21.919><c> to</c>
+
+00:07:22.150 --> 00:07:22.160 align:start position:0%
+the username a lighter color to
+ 
+
+00:07:22.160 --> 00:07:23.909 align:start position:0%
+the username a lighter color to
+highlight<00:07:22.520><c> the</c><00:07:22.680><c> button</c><00:07:23.360><c> but</c><00:07:23.560><c> the</c><00:07:23.680><c> button</c>
+
+00:07:23.909 --> 00:07:23.919 align:start position:0%
+highlight the button but the button
+ 
+
+00:07:23.919 --> 00:07:26.189 align:start position:0%
+highlight the button but the button
+doesn't<00:07:24.240><c> look</c><00:07:24.520><c> quite</c><00:07:24.800><c> right</c><00:07:25.080><c> here</c><00:07:25.800><c> let's</c><00:07:26.000><c> move</c>
+
+00:07:26.189 --> 00:07:26.199 align:start position:0%
+doesn't look quite right here let's move
+ 
+
+00:07:26.199 --> 00:07:28.110 align:start position:0%
+doesn't look quite right here let's move
+it<00:07:26.319><c> to</c><00:07:26.479><c> the</c><00:07:26.680><c> right</c><00:07:27.240><c> and</c><00:07:27.360><c> wrap</c><00:07:27.759><c> everything</c>
+
+00:07:28.110 --> 00:07:28.120 align:start position:0%
+it to the right and wrap everything
+ 
+
+00:07:28.120 --> 00:07:31.150 align:start position:0%
+it to the right and wrap everything
+inside<00:07:28.440><c> a</c><00:07:28.639><c> card</c><00:07:30.000><c> it's</c><00:07:30.240><c> looking</c><00:07:30.560><c> much</c><00:07:30.800><c> better</c>
+
+00:07:31.150 --> 00:07:31.160 align:start position:0%
+inside a card it's looking much better
+ 
+
+00:07:31.160 --> 00:07:33.790 align:start position:0%
+inside a card it's looking much better
+now<00:07:32.080><c> the</c><00:07:32.199><c> button</c><00:07:32.520><c> still</c><00:07:32.759><c> looks</c><00:07:33.000><c> a</c><00:07:33.120><c> bit</c><00:07:33.319><c> bulky</c>
+
+00:07:33.790 --> 00:07:33.800 align:start position:0%
+now the button still looks a bit bulky
+ 
+
+00:07:33.800 --> 00:07:35.950 align:start position:0%
+now the button still looks a bit bulky
+though<00:07:34.440><c> let's</c><00:07:34.720><c> reduce</c><00:07:35.039><c> the</c><00:07:35.199><c> font</c><00:07:35.520><c> size</c><00:07:35.800><c> to</c>
+
+00:07:35.950 --> 00:07:35.960 align:start position:0%
+though let's reduce the font size to
+ 
+
+00:07:35.960 --> 00:07:38.990 align:start position:0%
+though let's reduce the font size to
+match<00:07:36.199><c> the</c><00:07:36.680><c> username</c><00:07:37.680><c> it</c><00:07:37.800><c> looks</c><00:07:38.160><c> good</c><00:07:38.800><c> but</c>
+
+00:07:38.990 --> 00:07:39.000 align:start position:0%
+match the username it looks good but
+ 
+
+00:07:39.000 --> 00:07:41.230 align:start position:0%
+match the username it looks good but
+remember<00:07:39.479><c> we're</c><00:07:39.720><c> zoomed</c><00:07:40.120><c> in</c><00:07:40.759><c> we</c><00:07:40.919><c> need</c><00:07:41.039><c> to</c>
+
+00:07:41.230 --> 00:07:41.240 align:start position:0%
+remember we're zoomed in we need to
+ 
+
+00:07:41.240 --> 00:07:44.110 align:start position:0%
+remember we're zoomed in we need to
+check<00:07:41.520><c> if</c><00:07:41.599><c> it</c><00:07:41.759><c> works</c><00:07:42.039><c> at</c><00:07:42.199><c> the</c><00:07:42.360><c> original</c><00:07:43.120><c> size</c>
+
+00:07:44.110 --> 00:07:44.120 align:start position:0%
+check if it works at the original size
+ 
+
+00:07:44.120 --> 00:07:46.390 align:start position:0%
+check if it works at the original size
+the<00:07:44.240><c> username</c><00:07:44.720><c> might</c><00:07:44.919><c> be</c><00:07:45.080><c> hard</c><00:07:45.240><c> to</c><00:07:45.479><c> read</c><00:07:46.240><c> it</c>
+
+00:07:46.390 --> 00:07:46.400 align:start position:0%
+the username might be hard to read it
+ 
+
+00:07:46.400 --> 00:07:49.309 align:start position:0%
+the username might be hard to read it
+could<00:07:46.560><c> use</c><00:07:46.800><c> some</c><00:07:47.120><c> weight</c><00:07:47.639><c> and</c><00:07:47.800><c> so</c><00:07:48.039><c> could</c><00:07:48.199><c> the</c>
+
+00:07:49.309 --> 00:07:49.319 align:start position:0%
+could use some weight and so could the
+ 
+
+00:07:49.319 --> 00:07:51.629 align:start position:0%
+could use some weight and so could the
+button<00:07:50.319><c> I'll</c><00:07:50.520><c> leave</c><00:07:50.680><c> it</c><00:07:50.759><c> to</c><00:07:50.879><c> you</c><00:07:51.000><c> to</c><00:07:51.159><c> judge</c><00:07:51.440><c> the</c>
+
+00:07:51.629 --> 00:07:51.639 align:start position:0%
+button I'll leave it to you to judge the
+ 
+
+00:07:51.639 --> 00:07:55.469 align:start position:0%
+button I'll leave it to you to judge the
+design<00:07:52.360><c> for</c><00:07:52.599><c> now</c><00:07:53.039><c> let's</c><00:07:53.240><c> shift</c>
+
+00:07:55.469 --> 00:07:55.479 align:start position:0%
+design for now let's shift
+ 
+
+00:07:55.479 --> 00:07:57.830 align:start position:0%
+design for now let's shift
+gears<00:07:56.479><c> these</c><00:07:56.599><c> are</c><00:07:56.800><c> all</c><00:07:56.919><c> the</c><00:07:57.039><c> font</c><00:07:57.400><c> sizes</c><00:07:57.720><c> you</c>
+
+00:07:57.830 --> 00:07:57.840 align:start position:0%
+gears these are all the font sizes you
+ 
+
+00:07:57.840 --> 00:08:01.629 align:start position:0%
+gears these are all the font sizes you
+need<00:07:57.960><c> to</c><00:07:58.159><c> design</c><00:07:58.560><c> 99%</c><00:07:59.599><c> of</c><00:07:59.800><c> apps</c><00:08:00.080><c> and</c><00:08:00.479><c> uis</c><00:08:01.479><c> and</c>
+
+00:08:01.629 --> 00:08:01.639 align:start position:0%
+need to design 99% of apps and uis and
+ 
+
+00:08:01.639 --> 00:08:03.950 align:start position:0%
+need to design 99% of apps and uis and
+if<00:08:01.720><c> you</c><00:08:01.879><c> want</c><00:08:02.440><c> just</c><00:08:02.680><c> these</c><00:08:02.919><c> three</c><00:08:03.520><c> combined</c>
+
+00:08:03.950 --> 00:08:03.960 align:start position:0%
+if you want just these three combined
+ 
+
+00:08:03.960 --> 00:08:05.749 align:start position:0%
+if you want just these three combined
+with<00:08:04.120><c> weight</c><00:08:04.360><c> and</c><00:08:04.560><c> color</c><00:08:05.199><c> are</c><00:08:05.400><c> enough</c><00:08:05.599><c> to</c>
+
+00:08:05.749 --> 00:08:05.759 align:start position:0%
+with weight and color are enough to
+ 
+
+00:08:05.759 --> 00:08:08.869 align:start position:0%
+with weight and color are enough to
+build<00:08:06.000><c> an</c><00:08:06.199><c> entire</c><00:08:06.800><c> UI</c><00:08:07.800><c> how</c><00:08:07.960><c> many</c><00:08:08.199><c> font</c><00:08:08.520><c> sizes</c>
+
+00:08:08.869 --> 00:08:08.879 align:start position:0%
+build an entire UI how many font sizes
+ 
+
+00:08:08.879 --> 00:08:12.469 align:start position:0%
+build an entire UI how many font sizes
+do<00:08:08.960><c> you</c><00:08:09.120><c> see</c>
+
+00:08:12.469 --> 00:08:12.479 align:start position:0%
+ 
+ 
+
+00:08:12.479 --> 00:08:15.029 align:start position:0%
+ 
+here<00:08:13.479><c> these</c><00:08:13.680><c> all</c><00:08:13.919><c> have</c><00:08:14.080><c> the</c><00:08:14.199><c> same</c><00:08:14.479><c> font</c><00:08:14.840><c> size</c>
+
+00:08:15.029 --> 00:08:15.039 align:start position:0%
+here these all have the same font size
+ 
+
+00:08:15.039 --> 00:08:18.430 align:start position:0%
+here these all have the same font size
+of<00:08:15.199><c> 16</c><00:08:15.759><c> pixels</c><00:08:16.639><c> except</c><00:08:16.960><c> for</c><00:08:17.159><c> this</c><00:08:17.319><c> one</c><00:08:18.280><c> the</c>
+
+00:08:18.430 --> 00:08:18.440 align:start position:0%
+of 16 pixels except for this one the
+ 
+
+00:08:18.440 --> 00:08:20.589 align:start position:0%
+of 16 pixels except for this one the
+impact<00:08:18.759><c> of</c><00:08:18.960><c> weight</c><00:08:19.199><c> and</c><00:08:19.400><c> color</c><00:08:19.680><c> on</c><00:08:19.879><c> font</c><00:08:20.280><c> size</c>
+
+00:08:20.589 --> 00:08:20.599 align:start position:0%
+impact of weight and color on font size
+ 
+
+00:08:20.599 --> 00:08:23.070 align:start position:0%
+impact of weight and color on font size
+is<00:08:20.800><c> pretty</c><00:08:21.120><c> wild</c><00:08:22.000><c> so</c><00:08:22.280><c> you</c><00:08:22.400><c> don't</c><00:08:22.599><c> need</c><00:08:22.840><c> many</c>
+
+00:08:23.070 --> 00:08:23.080 align:start position:0%
+is pretty wild so you don't need many
+ 
+
+00:08:23.080 --> 00:08:26.230 align:start position:0%
+is pretty wild so you don't need many
+sizes<00:08:23.479><c> to</c><00:08:23.639><c> create</c><00:08:24.159><c> hierarchy</c><00:08:25.159><c> combining</c><00:08:25.759><c> size</c>
+
+00:08:26.230 --> 00:08:26.240 align:start position:0%
+sizes to create hierarchy combining size
+ 
+
+00:08:26.240 --> 00:08:29.029 align:start position:0%
+sizes to create hierarchy combining size
+weight<00:08:26.639><c> and</c><00:08:26.800><c> color</c><00:08:27.120><c> can</c><00:08:27.240><c> do</c><00:08:27.400><c> the</c><00:08:27.919><c> trick</c><00:08:28.919><c> I'm</c>
+
+00:08:29.029 --> 00:08:29.039 align:start position:0%
+weight and color can do the trick I'm
+ 
+
+00:08:29.039 --> 00:08:31.029 align:start position:0%
+weight and color can do the trick I'm
+not<00:08:29.199><c> saying</c><00:08:29.720><c> you</c><00:08:29.800><c> should</c><00:08:29.960><c> create</c><00:08:30.240><c> a</c><00:08:30.400><c> typ</c><00:08:30.599><c> scale</c>
+
+00:08:31.029 --> 00:08:31.039 align:start position:0%
+not saying you should create a typ scale
+ 
+
+00:08:31.039 --> 00:08:33.029 align:start position:0%
+not saying you should create a typ scale
+like<00:08:31.240><c> this</c><00:08:31.919><c> but</c><00:08:32.080><c> this</c><00:08:32.200><c> won't</c><00:08:32.440><c> help</c><00:08:32.599><c> you</c><00:08:32.760><c> much</c>
+
+00:08:33.029 --> 00:08:33.039 align:start position:0%
+like this but this won't help you much
+ 
+
+00:08:33.039 --> 00:08:35.110 align:start position:0%
+like this but this won't help you much
+either<00:08:33.760><c> you'll</c><00:08:34.080><c> probably</c><00:08:34.440><c> need</c><00:08:34.719><c> something</c>
+
+00:08:35.110 --> 00:08:35.120 align:start position:0%
+either you'll probably need something
+ 
+
+00:08:35.120 --> 00:08:38.750 align:start position:0%
+either you'll probably need something
+more<00:08:35.440><c> like</c><00:08:35.719><c> this</c><00:08:36.719><c> yep</c><00:08:37.039><c> that's</c><00:08:37.399><c> it</c><00:08:38.399><c> everything</c>
+
+00:08:38.750 --> 00:08:38.760 align:start position:0%
+more like this yep that's it everything
+ 
+
+00:08:38.760 --> 00:08:41.350 align:start position:0%
+more like this yep that's it everything
+you<00:08:38.919><c> see</c><00:08:39.200><c> is</c><00:08:39.360><c> 14</c><00:08:39.919><c> pixels</c><00:08:40.760><c> except</c><00:08:41.039><c> for</c><00:08:41.200><c> the</c>
+
+00:08:41.350 --> 00:08:41.360 align:start position:0%
+you see is 14 pixels except for the
+ 
+
+00:08:41.360 --> 00:08:43.750 align:start position:0%
+you see is 14 pixels except for the
+title<00:08:41.680><c> and</c><00:08:41.800><c> the</c><00:08:41.919><c> two</c><00:08:42.159><c> headings</c><00:08:43.159><c> it's</c><00:08:43.399><c> the</c><00:08:43.519><c> same</c>
+
+00:08:43.750 --> 00:08:43.760 align:start position:0%
+title and the two headings it's the same
+ 
+
+00:08:43.760 --> 00:08:46.590 align:start position:0%
+title and the two headings it's the same
+on<00:08:43.959><c> this</c><00:08:44.159><c> video</c><00:08:44.560><c> page</c><00:08:45.480><c> everything</c><00:08:45.880><c> is</c><00:08:46.040><c> 14</c>
+
+00:08:46.590 --> 00:08:46.600 align:start position:0%
+on this video page everything is 14
+ 
+
+00:08:46.600 --> 00:08:48.670 align:start position:0%
+on this video page everything is 14
+pixels<00:08:47.480><c> except</c><00:08:47.760><c> for</c><00:08:47.920><c> the</c><00:08:48.080><c> title</c><00:08:48.440><c> and</c><00:08:48.560><c> the</c>
+
+00:08:48.670 --> 00:08:48.680 align:start position:0%
+pixels except for the title and the
+ 
+
+00:08:48.680 --> 00:08:51.829 align:start position:0%
+pixels except for the title and the
+channel<00:08:49.279><c> name</c><00:08:50.279><c> for</c><00:08:50.480><c> your</c><00:08:50.800><c> project</c><00:08:51.480><c> just</c><00:08:51.680><c> pick</c>
+
+00:08:51.829 --> 00:08:51.839 align:start position:0%
+channel name for your project just pick
+ 
+
+00:08:51.839 --> 00:08:55.710 align:start position:0%
+channel name for your project just pick
+a<00:08:52.000><c> base</c><00:08:52.279><c> font</c><00:08:52.680><c> size</c><00:08:53.600><c> either</c><00:08:53.839><c> 14</c><00:08:54.279><c> or</c><00:08:54.480><c> 16</c><00:08:54.959><c> pixels</c>
+
+00:08:55.710 --> 00:08:55.720 align:start position:0%
+a base font size either 14 or 16 pixels
+ 
+
+00:08:55.720 --> 00:08:58.829 align:start position:0%
+a base font size either 14 or 16 pixels
+regular<00:08:56.160><c> weight</c><00:08:56.600><c> and</c><00:08:56.880><c> 100%</c><00:08:57.680><c> lightness</c><00:08:58.680><c> I'll</c>
+
+00:08:58.829 --> 00:08:58.839 align:start position:0%
+regular weight and 100% lightness I'll
+ 
+
+00:08:58.839 --> 00:09:00.910 align:start position:0%
+regular weight and 100% lightness I'll
+get<00:08:58.959><c> to</c><00:08:59.120><c> light</c><00:08:59.480><c> mode</c><00:08:59.720><c> in</c><00:08:59.800><c> a</c><00:08:59.959><c> minute</c><00:09:00.519><c> but</c><00:09:00.680><c> let's</c>
+
+00:09:00.910 --> 00:09:00.920 align:start position:0%
+get to light mode in a minute but let's
+ 
+
+00:09:00.920 --> 00:09:03.069 align:start position:0%
+get to light mode in a minute but let's
+finish<00:09:01.279><c> this</c><00:09:01.519><c> first</c><00:09:02.399><c> once</c><00:09:02.600><c> you've</c><00:09:02.839><c> picked</c>
+
+00:09:03.069 --> 00:09:03.079 align:start position:0%
+finish this first once you've picked
+ 
+
+00:09:03.079 --> 00:09:05.389 align:start position:0%
+finish this first once you've picked
+your<00:09:03.240><c> base</c><00:09:03.519><c> font</c><00:09:04.160><c> try</c><00:09:04.480><c> designing</c><00:09:05.000><c> everything</c>
+
+00:09:05.389 --> 00:09:05.399 align:start position:0%
+your base font try designing everything
+ 
+
+00:09:05.399 --> 00:09:07.630 align:start position:0%
+your base font try designing everything
+with<00:09:05.600><c> that</c><00:09:05.839><c> size</c><00:09:06.600><c> and</c><00:09:06.720><c> when</c><00:09:06.880><c> you</c><00:09:07.079><c> absolutely</c>
+
+00:09:07.630 --> 00:09:07.640 align:start position:0%
+with that size and when you absolutely
+ 
+
+00:09:07.640 --> 00:09:10.310 align:start position:0%
+with that size and when you absolutely
+need<00:09:07.839><c> to</c><00:09:08.440><c> go</c><00:09:08.640><c> two</c><00:09:08.880><c> pixels</c><00:09:09.279><c> up</c><00:09:09.440><c> or</c><00:09:09.640><c> down</c><00:09:09.880><c> from</c>
+
+00:09:10.310 --> 00:09:10.320 align:start position:0%
+need to go two pixels up or down from
+ 
+
+00:09:10.320 --> 00:09:14.230 align:start position:0%
+need to go two pixels up or down from
+there<00:09:11.320><c> that's</c><00:09:11.519><c> it</c><00:09:12.079><c> that's</c><00:09:12.279><c> your</c><00:09:12.480><c> typ</c><00:09:13.040><c> scale</c><00:09:14.040><c> to</c>
+
+00:09:14.230 --> 00:09:14.240 align:start position:0%
+there that's it that's your typ scale to
+ 
+
+00:09:14.240 --> 00:09:16.790 align:start position:0%
+there that's it that's your typ scale to
+make<00:09:14.440><c> things</c><00:09:14.760><c> easier</c><00:09:15.640><c> assign</c><00:09:16.000><c> them</c><00:09:16.200><c> as</c><00:09:16.360><c> Global</c>
+
+00:09:16.790 --> 00:09:16.800 align:start position:0%
+make things easier assign them as Global
+ 
+
+00:09:16.800 --> 00:09:19.710 align:start position:0%
+make things easier assign them as Global
+variables<00:09:17.800><c> this</c><00:09:17.959><c> isn't</c><00:09:18.200><c> a</c><00:09:18.360><c> CSS</c><00:09:18.880><c> video</c><00:09:19.519><c> but</c>
+
+00:09:19.710 --> 00:09:19.720 align:start position:0%
+variables this isn't a CSS video but
+ 
+
+00:09:19.720 --> 00:09:22.389 align:start position:0%
+variables this isn't a CSS video but
+here's<00:09:20.040><c> how</c><00:09:20.160><c> you</c><00:09:20.279><c> can</c><00:09:20.480><c> do</c><00:09:20.640><c> it</c><00:09:21.480><c> first</c><00:09:22.040><c> set</c><00:09:22.279><c> the</c>
+
+00:09:22.389 --> 00:09:22.399 align:start position:0%
+here's how you can do it first set the
+ 
+
+00:09:22.399 --> 00:09:24.790 align:start position:0%
+here's how you can do it first set the
+font<00:09:22.720><c> weight</c><00:09:23.440><c> then</c><00:09:23.600><c> the</c><00:09:23.680><c> font</c><00:09:24.000><c> size</c><00:09:24.240><c> and</c><00:09:24.440><c> line</c>
+
+00:09:24.790 --> 00:09:24.800 align:start position:0%
+font weight then the font size and line
+ 
+
+00:09:24.800 --> 00:09:28.269 align:start position:0%
+font weight then the font size and line
+height<00:09:25.519><c> and</c><00:09:25.720><c> finally</c><00:09:26.200><c> the</c><00:09:26.320><c> font</c><00:09:26.959><c> family</c><00:09:27.959><c> any</c>
+
+00:09:28.269 --> 00:09:28.279 align:start position:0%
+height and finally the font family any
+ 
+
+00:09:28.279 --> 00:09:31.190 align:start position:0%
+height and finally the font family any
+popular<00:09:28.640><c> font</c><00:09:28.920><c> will</c><00:09:29.040><c> work</c><00:09:29.480><c> just</c><00:09:29.880><c> fine</c><00:09:30.880><c> you</c><00:09:31.000><c> can</c>
+
+00:09:31.190 --> 00:09:31.200 align:start position:0%
+popular font will work just fine you can
+ 
+
+00:09:31.200 --> 00:09:34.190 align:start position:0%
+popular font will work just fine you can
+get<00:09:31.360><c> them</c><00:09:31.519><c> for</c><00:09:31.680><c> free</c><00:09:31.959><c> from</c><00:09:32.640><c> Google</c><00:09:33.640><c> first</c>
+
+00:09:34.190 --> 00:09:34.200 align:start position:0%
+get them for free from Google first
+ 
+
+00:09:34.200 --> 00:09:36.949 align:start position:0%
+get them for free from Google first
+convert<00:09:34.560><c> the</c><00:09:34.720><c> pixel</c><00:09:35.079><c> unit</c><00:09:35.320><c> to</c><00:09:35.480><c> a</c><00:09:35.640><c> rem</c><00:09:35.959><c> value</c><00:09:36.839><c> we</c>
+
+00:09:36.949 --> 00:09:36.959 align:start position:0%
+convert the pixel unit to a rem value we
+ 
+
+00:09:36.959 --> 00:09:38.910 align:start position:0%
+convert the pixel unit to a rem value we
+want<00:09:37.200><c> our</c><00:09:37.440><c> apt</c><00:09:37.640><c> to</c><00:09:37.800><c> follow</c><00:09:38.160><c> accessibility</c>
+
+00:09:38.910 --> 00:09:38.920 align:start position:0%
+want our apt to follow accessibility
+ 
+
+00:09:38.920 --> 00:09:41.110 align:start position:0%
+want our apt to follow accessibility
+guidelines<00:09:39.800><c> so</c><00:09:40.040><c> users</c><00:09:40.399><c> should</c><00:09:40.560><c> be</c><00:09:40.720><c> able</c><00:09:40.920><c> to</c>
+
+00:09:41.110 --> 00:09:41.120 align:start position:0%
+guidelines so users should be able to
+ 
+
+00:09:41.120 --> 00:09:43.550 align:start position:0%
+guidelines so users should be able to
+adjust<00:09:41.440><c> the</c><00:09:41.560><c> font</c><00:09:41.920><c> size</c><00:09:42.200><c> if</c><00:09:42.320><c> they</c><00:09:42.480><c> need</c><00:09:42.680><c> to</c>
+
+00:09:43.550 --> 00:09:43.560 align:start position:0%
+adjust the font size if they need to
+ 
+
+00:09:43.560 --> 00:09:46.310 align:start position:0%
+adjust the font size if they need to
+secondly<00:09:44.399><c> this</c><00:09:44.560><c> m</c><00:09:44.839><c> value</c><00:09:45.160><c> is</c><00:09:45.399><c> very</c>
+
+00:09:46.310 --> 00:09:46.320 align:start position:0%
+secondly this m value is very
+ 
+
+00:09:46.320 --> 00:09:49.509 align:start position:0%
+secondly this m value is very
+important<00:09:47.320><c> remember</c><00:09:47.800><c> this</c><00:09:48.200><c> Gap</c><00:09:49.200><c> this</c><00:09:49.320><c> is</c>
+
+00:09:49.509 --> 00:09:49.519 align:start position:0%
+important remember this Gap this is
+ 
+
+00:09:49.519 --> 00:09:51.389 align:start position:0%
+important remember this Gap this is
+crucial<00:09:49.880><c> for</c><00:09:50.040><c> the</c><00:09:50.160><c> title</c><00:09:50.480><c> to</c><00:09:50.680><c> stand</c><00:09:50.959><c> out</c><00:09:51.240><c> and</c>
+
+00:09:51.389 --> 00:09:51.399 align:start position:0%
+crucial for the title to stand out and
+ 
+
+00:09:51.399 --> 00:09:54.670 align:start position:0%
+crucial for the title to stand out and
+stand<00:09:52.120><c> alone</c><00:09:53.120><c> in</c><00:09:53.360><c> most</c><00:09:53.680><c> cases</c><00:09:54.240><c> we</c><00:09:54.360><c> don't</c><00:09:54.519><c> need</c>
+
+00:09:54.670 --> 00:09:54.680 align:start position:0%
+stand alone in most cases we don't need
+ 
+
+00:09:54.680 --> 00:09:57.509 align:start position:0%
+stand alone in most cases we don't need
+to<00:09:54.839><c> manually</c><00:09:55.279><c> add</c><00:09:55.440><c> a</c><00:09:55.640><c> gap</c><00:09:55.839><c> or</c><00:09:56.040><c> margin</c><00:09:57.040><c> the</c><00:09:57.160><c> line</c>
+
+00:09:57.509 --> 00:09:57.519 align:start position:0%
+to manually add a gap or margin the line
+ 
+
+00:09:57.519 --> 00:09:59.670 align:start position:0%
+to manually add a gap or margin the line
+height<00:09:57.800><c> takes</c><00:09:58.079><c> care</c><00:09:58.240><c> of</c><00:09:58.360><c> it</c><00:09:58.519><c> automatically</c>
+
+00:09:59.670 --> 00:09:59.680 align:start position:0%
+height takes care of it automatically
+ 
+
+00:09:59.680 --> 00:10:01.630 align:start position:0%
+height takes care of it automatically
+acting<00:10:00.000><c> as</c><00:10:00.120><c> the</c><00:10:00.240><c> margin</c><00:10:00.680><c> bottom</c><00:10:01.040><c> for</c><00:10:01.279><c> text</c>
+
+00:10:01.630 --> 00:10:01.640 align:start position:0%
+acting as the margin bottom for text
+ 
+
+00:10:01.640 --> 00:10:04.310 align:start position:0%
+acting as the margin bottom for text
+elements<00:10:02.640><c> so</c><00:10:02.959><c> your</c><00:10:03.160><c> Global</c><00:10:03.560><c> variables</c><00:10:04.120><c> might</c>
+
+00:10:04.310 --> 00:10:04.320 align:start position:0%
+elements so your Global variables might
+ 
+
+00:10:04.320 --> 00:10:07.829 align:start position:0%
+elements so your Global variables might
+look<00:10:04.560><c> something</c><00:10:05.000><c> like</c><00:10:05.600><c> this</c><00:10:06.600><c> and</c><00:10:06.800><c> that's</c><00:10:07.040><c> it</c>
+
+00:10:07.829 --> 00:10:07.839 align:start position:0%
+look something like this and that's it
+ 
+
+00:10:07.839 --> 00:10:10.150 align:start position:0%
+look something like this and that's it
+this<00:10:07.959><c> is</c><00:10:08.120><c> all</c><00:10:08.279><c> you</c><00:10:08.399><c> need</c><00:10:08.560><c> to</c><00:10:08.680><c> build</c><00:10:08.880><c> a</c><00:10:09.040><c> top</c><00:10:09.279><c> tier</c>
+
+00:10:10.150 --> 00:10:10.160 align:start position:0%
+this is all you need to build a top tier
+ 
+
+00:10:10.160 --> 00:10:13.750 align:start position:0%
+this is all you need to build a top tier
+UI<00:10:11.160><c> but</c><00:10:11.360><c> keep</c><00:10:11.600><c> in</c><00:10:11.800><c> mind</c><00:10:12.440><c> not</c><00:10:12.640><c> all</c><00:10:12.839><c> H1</c><00:10:13.360><c> elements</c>
+
+00:10:13.750 --> 00:10:13.760 align:start position:0%
+UI but keep in mind not all H1 elements
+ 
+
+00:10:13.760 --> 00:10:16.790 align:start position:0%
+UI but keep in mind not all H1 elements
+will<00:10:13.880><c> share</c><00:10:14.240><c> the</c><00:10:14.360><c> same</c><00:10:14.600><c> font</c><00:10:15.240><c> style</c><00:10:16.240><c> code</c><00:10:16.519><c> for</c>
+
+00:10:16.790 --> 00:10:16.800 align:start position:0%
+will share the same font style code for
+ 
+
+00:10:16.800 --> 00:10:20.030 align:start position:0%
+will share the same font style code for
+document<00:10:17.240><c> hierarchy</c><00:10:18.120><c> but</c><00:10:18.320><c> style</c><00:10:18.640><c> for</c><00:10:18.839><c> visual</c>
+
+00:10:20.030 --> 00:10:20.040 align:start position:0%
+document hierarchy but style for visual
+ 
+
+00:10:20.040 --> 00:10:22.190 align:start position:0%
+document hierarchy but style for visual
+hierarchy<00:10:21.040><c> you</c><00:10:21.200><c> might</c><00:10:21.399><c> think</c><00:10:21.640><c> this</c><00:10:21.800><c> is</c><00:10:22.000><c> the</c>
+
+00:10:22.190 --> 00:10:22.200 align:start position:0%
+hierarchy you might think this is the
+ 
+
+00:10:22.200 --> 00:10:23.590 align:start position:0%
+hierarchy you might think this is the
+obvious
+
+00:10:23.590 --> 00:10:23.600 align:start position:0%
+obvious
+ 
+
+00:10:23.600 --> 00:10:25.710 align:start position:0%
+obvious
+solution<00:10:24.600><c> but</c><00:10:24.720><c> it</c><00:10:24.839><c> should</c><00:10:25.120><c> actually</c><00:10:25.480><c> look</c>
+
+00:10:25.710 --> 00:10:25.720 align:start position:0%
+solution but it should actually look
+ 
+
+00:10:25.720 --> 00:10:27.470 align:start position:0%
+solution but it should actually look
+something<00:10:26.200><c> like</c>
+
+00:10:27.470 --> 00:10:27.480 align:start position:0%
+something like
+ 
+
+00:10:27.480 --> 00:10:30.230 align:start position:0%
+something like
+this<00:10:28.480><c> use</c><00:10:28.720><c> your</c><00:10:28.920><c> common</c><00:10:29.399><c> sense</c><00:10:29.640><c> to</c><00:10:29.800><c> judge</c><00:10:30.120><c> what</c>
+
+00:10:30.230 --> 00:10:30.240 align:start position:0%
+this use your common sense to judge what
+ 
+
+00:10:30.240 --> 00:10:32.550 align:start position:0%
+this use your common sense to judge what
+the<00:10:30.360><c> user</c><00:10:30.640><c> will</c><00:10:30.839><c> focus</c><00:10:31.200><c> on</c><00:10:31.720><c> and</c><00:10:31.920><c> emphasize</c>
+
+00:10:32.550 --> 00:10:32.560 align:start position:0%
+the user will focus on and emphasize
+ 
+
+00:10:32.560 --> 00:10:33.350 align:start position:0%
+the user will focus on and emphasize
+that
+
+00:10:33.350 --> 00:10:33.360 align:start position:0%
+that
+ 
+
+00:10:33.360 --> 00:10:36.150 align:start position:0%
+that
+text<00:10:34.360><c> once</c><00:10:34.519><c> you're</c><00:10:34.800><c> happy</c><00:10:35.079><c> with</c><00:10:35.200><c> the</c><00:10:35.399><c> design</c>
+
+00:10:36.150 --> 00:10:36.160 align:start position:0%
+text once you're happy with the design
+ 
+
+00:10:36.160 --> 00:10:39.310 align:start position:0%
+text once you're happy with the design
+zoom<00:10:36.440><c> out</c><00:10:36.680><c> and</c><00:10:36.800><c> view</c><00:10:37.040><c> the</c><00:10:37.200><c> entire</c><00:10:37.959><c> UI</c><00:10:38.959><c> font</c>
+
+00:10:39.310 --> 00:10:39.320 align:start position:0%
+zoom out and view the entire UI font
+ 
+
+00:10:39.320 --> 00:10:41.350 align:start position:0%
+zoom out and view the entire UI font
+size<00:10:39.600><c> is</c><00:10:39.720><c> a</c><00:10:39.920><c> relative</c><00:10:40.360><c> unit</c><00:10:40.920><c> meaning</c><00:10:41.240><c> it</c>
+
+00:10:41.350 --> 00:10:41.360 align:start position:0%
+size is a relative unit meaning it
+ 
+
+00:10:41.360 --> 00:10:43.550 align:start position:0%
+size is a relative unit meaning it
+depends<00:10:41.720><c> on</c><00:10:41.880><c> its</c><00:10:42.040><c> neighboring</c><00:10:42.560><c> elements</c>
+
+00:10:43.550 --> 00:10:43.560 align:start position:0%
+depends on its neighboring elements
+ 
+
+00:10:43.560 --> 00:10:45.750 align:start position:0%
+depends on its neighboring elements
+right<00:10:43.800><c> now</c><00:10:44.320><c> both</c><00:10:44.519><c> are</c><00:10:44.720><c> competing</c><00:10:45.120><c> for</c>
+
+00:10:45.750 --> 00:10:45.760 align:start position:0%
+right now both are competing for
+ 
+
+00:10:45.760 --> 00:10:48.430 align:start position:0%
+right now both are competing for
+attention<00:10:46.760><c> let's</c><00:10:47.000><c> try</c><00:10:47.240><c> a</c><00:10:47.360><c> bigger</c><00:10:47.720><c> font</c><00:10:48.120><c> size</c>
+
+00:10:48.430 --> 00:10:48.440 align:start position:0%
+attention let's try a bigger font size
+ 
+
+00:10:48.440 --> 00:10:49.829 align:start position:0%
+attention let's try a bigger font size
+and<00:10:48.600><c> see</c><00:10:48.839><c> if</c><00:10:49.040><c> that</c>
+
+00:10:49.829 --> 00:10:49.839 align:start position:0%
+and see if that
+ 
+
+00:10:49.839 --> 00:10:52.829 align:start position:0%
+and see if that
+works<00:10:50.839><c> big</c><00:10:51.160><c> bold</c><00:10:51.519><c> fonts</c><00:10:51.920><c> can</c><00:10:52.160><c> often</c><00:10:52.440><c> be</c><00:10:52.600><c> too</c>
+
+00:10:52.829 --> 00:10:52.839 align:start position:0%
+works big bold fonts can often be too
+ 
+
+00:10:52.839 --> 00:10:54.949 align:start position:0%
+works big bold fonts can often be too
+harsh<00:10:53.079><c> on</c><00:10:53.320><c> the</c><00:10:53.519><c> eyes</c><00:10:54.200><c> so</c><00:10:54.399><c> let's</c><00:10:54.600><c> bring</c><00:10:54.839><c> the</c>
+
+00:10:54.949 --> 00:10:54.959 align:start position:0%
+harsh on the eyes so let's bring the
+ 
+
+00:10:54.959 --> 00:10:57.910 align:start position:0%
+harsh on the eyes so let's bring the
+weight<00:10:55.240><c> down</c><00:10:55.480><c> and</c><00:10:55.639><c> see</c><00:10:55.880><c> if</c><00:10:56.079><c> that</c><00:10:56.760><c> works</c><00:10:57.760><c> it</c>
+
+00:10:57.910 --> 00:10:57.920 align:start position:0%
+weight down and see if that works it
+ 
+
+00:10:57.920 --> 00:11:00.790 align:start position:0%
+weight down and see if that works it
+looks<00:10:58.320><c> good</c><00:10:58.880><c> but</c><00:10:59.040><c> this</c><00:10:59.360><c> is</c><00:10:59.440><c> a</c><00:10:59.600><c> dynamic</c><00:11:00.040><c> number</c>
+
+00:11:00.790 --> 00:11:00.800 align:start position:0%
+looks good but this is a dynamic number
+ 
+
+00:11:00.800 --> 00:11:02.990 align:start position:0%
+looks good but this is a dynamic number
+so<00:11:01.000><c> we</c><00:11:01.120><c> need</c><00:11:01.279><c> to</c><00:11:01.480><c> account</c><00:11:01.760><c> for</c><00:11:01.959><c> that</c><00:11:02.200><c> as</c><00:11:02.360><c> well</c>
+
+00:11:02.990 --> 00:11:03.000 align:start position:0%
+so we need to account for that as well
+ 
+
+00:11:03.000 --> 00:11:05.550 align:start position:0%
+so we need to account for that as well
+don't<00:11:03.279><c> just</c><00:11:03.519><c> design</c><00:11:03.880><c> for</c><00:11:04.120><c> visual</c><00:11:04.560><c> hierarchy</c>
+
+00:11:05.550 --> 00:11:05.560 align:start position:0%
+don't just design for visual hierarchy
+ 
+
+00:11:05.560 --> 00:11:07.470 align:start position:0%
+don't just design for visual hierarchy
+design<00:11:05.920><c> for</c><00:11:06.200><c> functionality</c>
+
+00:11:07.470 --> 00:11:07.480 align:start position:0%
+design for functionality
+ 
+
+00:11:07.480 --> 00:11:09.910 align:start position:0%
+design for functionality
+too<00:11:08.480><c> let's</c><00:11:08.720><c> now</c><00:11:08.959><c> wrap</c><00:11:09.240><c> things</c><00:11:09.519><c> up</c><00:11:09.760><c> by</c>
+
+00:11:09.910 --> 00:11:09.920 align:start position:0%
+too let's now wrap things up by
+ 
+
+00:11:09.920 --> 00:11:12.310 align:start position:0%
+too let's now wrap things up by
+converting<00:11:10.480><c> this</c><00:11:10.680><c> design</c><00:11:10.959><c> to</c><00:11:11.160><c> light</c><00:11:11.440><c> mode</c>
+
+00:11:12.310 --> 00:11:12.320 align:start position:0%
+converting this design to light mode
+ 
+
+00:11:12.320 --> 00:11:15.069 align:start position:0%
+converting this design to light mode
+it's<00:11:12.519><c> much</c><00:11:12.760><c> easier</c><00:11:13.200><c> than</c><00:11:13.360><c> you</c><00:11:13.839><c> think</c><00:11:14.839><c> let's</c>
+
+00:11:15.069 --> 00:11:15.079 align:start position:0%
+it's much easier than you think let's
+ 
+
+00:11:15.079 --> 00:11:17.670 align:start position:0%
+it's much easier than you think let's
+start<00:11:15.440><c> with</c><00:11:15.600><c> these</c><00:11:15.800><c> three</c><00:11:16.040><c> colors</c><00:11:16.880><c> white</c><00:11:17.320><c> gray</c>
+
+00:11:17.670 --> 00:11:17.680 align:start position:0%
+start with these three colors white gray
+ 
+
+00:11:17.680 --> 00:11:20.590 align:start position:0%
+start with these three colors white gray
+and<00:11:17.920><c> black</c><00:11:18.720><c> as</c><00:11:18.880><c> I</c><00:11:19.040><c> said</c><00:11:19.279><c> earlier</c><00:11:20.040><c> all</c><00:11:20.160><c> you</c><00:11:20.320><c> need</c>
+
+00:11:20.590 --> 00:11:20.600 align:start position:0%
+and black as I said earlier all you need
+ 
+
+00:11:20.600 --> 00:11:23.590 align:start position:0%
+and black as I said earlier all you need
+is<00:11:20.800><c> this</c><00:11:20.959><c> L</c><00:11:21.279><c> value</c><00:11:22.160><c> so</c><00:11:22.440><c> always</c><00:11:22.760><c> use</c><00:11:23.000><c> hsl</c>
+
+00:11:23.590 --> 00:11:23.600 align:start position:0%
+is this L value so always use hsl
+ 
+
+00:11:23.600 --> 00:11:25.310 align:start position:0%
+is this L value so always use hsl
+instead<00:11:23.839><c> of</c><00:11:24.040><c> hex</c><00:11:24.320><c> or</c>
+
+00:11:25.310 --> 00:11:25.320 align:start position:0%
+instead of hex or
+ 
+
+00:11:25.320 --> 00:11:28.350 align:start position:0%
+instead of hex or
+RGB<00:11:26.320><c> the</c><00:11:26.480><c> background</c><00:11:26.959><c> is</c><00:11:27.160><c> pure</c><00:11:27.480><c> black</c><00:11:28.040><c> so</c><00:11:28.240><c> the</c>
+
+00:11:28.350 --> 00:11:28.360 align:start position:0%
+RGB the background is pure black so the
+ 
+
+00:11:28.360 --> 00:11:30.790 align:start position:0%
+RGB the background is pure black so the
+light<00:11:28.560><c> mode</c><00:11:28.839><c> will</c><00:11:28.959><c> be</c><00:11:29.320><c> pure</c><00:11:29.600><c> white</c><00:11:30.440><c> but</c><00:11:30.560><c> if</c><00:11:30.639><c> you</c>
+
+00:11:30.790 --> 00:11:30.800 align:start position:0%
+light mode will be pure white but if you
+ 
+
+00:11:30.800 --> 00:11:33.190 align:start position:0%
+light mode will be pure white but if you
+look<00:11:30.959><c> at</c><00:11:31.079><c> the</c><00:11:31.200><c> L</c><00:11:31.480><c> value</c><00:11:32.079><c> we</c><00:11:32.279><c> just</c><00:11:32.480><c> did</c><00:11:32.600><c> a</c><00:11:32.800><c> simple</c>
+
+00:11:33.190 --> 00:11:33.200 align:start position:0%
+look at the L value we just did a simple
+ 
+
+00:11:33.200 --> 00:11:35.829 align:start position:0%
+look at the L value we just did a simple
+calculation<00:11:33.920><c> there</c><00:11:34.680><c> subtract</c><00:11:35.120><c> the</c><00:11:35.240><c> L</c><00:11:35.519><c> value</c>
+
+00:11:35.829 --> 00:11:35.839 align:start position:0%
+calculation there subtract the L value
+ 
+
+00:11:35.839 --> 00:11:38.509 align:start position:0%
+calculation there subtract the L value
+from<00:11:36.480><c> 100</c><00:11:37.480><c> and</c><00:11:37.680><c> that's</c><00:11:37.839><c> all</c><00:11:38.000><c> you</c><00:11:38.079><c> need</c><00:11:38.240><c> to</c><00:11:38.360><c> do</c>
+
+00:11:38.509 --> 00:11:38.519 align:start position:0%
+from 100 and that's all you need to do
+ 
+
+00:11:38.519 --> 00:11:39.790 align:start position:0%
+from 100 and that's all you need to do
+with<00:11:38.720><c> these</c><00:11:38.920><c> colors</c>
+
+00:11:39.790 --> 00:11:39.800 align:start position:0%
+with these colors
+ 
+
+00:11:39.800 --> 00:11:42.870 align:start position:0%
+with these colors
+too<00:11:40.800><c> let's</c><00:11:41.040><c> do</c><00:11:41.200><c> the</c><00:11:41.320><c> same</c><00:11:41.560><c> thing</c><00:11:41.800><c> with</c><00:11:41.959><c> this</c><00:11:42.120><c> UI</c>
+
+00:11:42.870 --> 00:11:42.880 align:start position:0%
+too let's do the same thing with this UI
+ 
+
+00:11:42.880 --> 00:11:45.110 align:start position:0%
+too let's do the same thing with this UI
+which<00:11:43.079><c> has</c><00:11:43.200><c> a</c><00:11:43.399><c> lot</c><00:11:43.519><c> of</c><00:11:43.680><c> colors</c><00:11:44.040><c> in</c><00:11:44.200><c> it</c><00:11:44.880><c> some</c>
+
+00:11:45.110 --> 00:11:45.120 align:start position:0%
+which has a lot of colors in it some
+ 
+
+00:11:45.120 --> 00:11:47.430 align:start position:0%
+which has a lot of colors in it some
+used<00:11:45.440><c> for</c><00:11:45.600><c> gradient</c><00:11:46.040><c> backgrounds</c><00:11:46.959><c> and</c><00:11:47.160><c> others</c>
+
+00:11:47.430 --> 00:11:47.440 align:start position:0%
+used for gradient backgrounds and others
+ 
+
+00:11:47.440 --> 00:11:49.430 align:start position:0%
+used for gradient backgrounds and others
+for<00:11:47.680><c> text</c><00:11:48.160><c> labels</c><00:11:48.600><c> and</c>
+
+00:11:49.430 --> 00:11:49.440 align:start position:0%
+for text labels and
+ 
+
+00:11:49.440 --> 00:11:51.829 align:start position:0%
+for text labels and
+buttons<00:11:50.440><c> here's</c><00:11:50.760><c> what</c><00:11:51.000><c> those</c><00:11:51.200><c> colors</c><00:11:51.600><c> look</c>
+
+00:11:51.829 --> 00:11:51.839 align:start position:0%
+buttons here's what those colors look
+ 
+
+00:11:51.839 --> 00:11:54.470 align:start position:0%
+buttons here's what those colors look
+like<00:11:52.040><c> on</c><00:11:52.160><c> a</c><00:11:52.320><c> light</c><00:11:52.639><c> background</c><00:11:53.440><c> without</c><00:11:53.720><c> any</c>
+
+00:11:54.470 --> 00:11:54.480 align:start position:0%
+like on a light background without any
+ 
+
+00:11:54.480 --> 00:11:56.790 align:start position:0%
+like on a light background without any
+modifications<00:11:55.480><c> and</c><00:11:55.639><c> if</c><00:11:55.760><c> we</c><00:11:55.920><c> subtract</c><00:11:56.360><c> the</c><00:11:56.480><c> L</c>
+
+00:11:56.790 --> 00:11:56.800 align:start position:0%
+modifications and if we subtract the L
+ 
+
+00:11:56.800 --> 00:11:58.949 align:start position:0%
+modifications and if we subtract the L
+value<00:11:57.079><c> from</c><00:11:57.360><c> 100</c><00:11:58.200><c> they'll</c><00:11:58.399><c> look</c><00:11:58.639><c> something</c>
+
+00:11:58.949 --> 00:11:58.959 align:start position:0%
+value from 100 they'll look something
+ 
+
+00:11:58.959 --> 00:12:01.550 align:start position:0%
+value from 100 they'll look something
+like<00:11:59.399><c> this</c><00:12:00.079><c> now</c><00:12:00.320><c> all</c><00:12:00.480><c> you</c><00:12:00.639><c> have</c><00:12:00.760><c> to</c><00:12:00.920><c> do</c><00:12:01.399><c> is</c>
+
+00:12:01.550 --> 00:12:01.560 align:start position:0%
+like this now all you have to do is
+ 
+
+00:12:01.560 --> 00:12:03.150 align:start position:0%
+like this now all you have to do is
+switch<00:12:01.880><c> out</c><00:12:02.079><c> the</c><00:12:02.200><c> colors</c><00:12:02.600><c> with</c><00:12:02.720><c> the</c><00:12:02.839><c> help</c><00:12:03.040><c> of</c>
+
+00:12:03.150 --> 00:12:03.160 align:start position:0%
+switch out the colors with the help of
+ 
+
+00:12:03.160 --> 00:12:04.790 align:start position:0%
+switch out the colors with the help of
+CSS
+
+00:12:04.790 --> 00:12:04.800 align:start position:0%
+CSS
+ 
+
+00:12:04.800 --> 00:12:07.150 align:start position:0%
+CSS
+variables<00:12:05.800><c> I</c><00:12:05.880><c> could</c><00:12:06.120><c> keep</c><00:12:06.440><c> going</c><00:12:06.920><c> but</c>
+
+00:12:07.150 --> 00:12:07.160 align:start position:0%
+variables I could keep going but
+ 
+
+00:12:07.160 --> 00:12:09.829 align:start position:0%
+variables I could keep going but
+remember<00:12:08.000><c> this</c><00:12:08.200><c> video</c><00:12:08.519><c> is</c><00:12:08.680><c> about</c><00:12:08.920><c> font</c><00:12:09.279><c> Styles</c>
+
+00:12:09.829 --> 00:12:09.839 align:start position:0%
+remember this video is about font Styles
+ 
+
+00:12:09.839 --> 00:12:12.870 align:start position:0%
+remember this video is about font Styles
+not<00:12:10.519><c> colors</c><00:12:11.519><c> you</c><00:12:11.639><c> can</c><00:12:11.880><c> check</c><00:12:12.079><c> out</c><00:12:12.360><c> this</c><00:12:12.560><c> color</c>
+
+00:12:12.870 --> 00:12:12.880 align:start position:0%
+not colors you can check out this color
+ 
+
+00:12:12.880 --> 00:12:15.230 align:start position:0%
+not colors you can check out this color
+generator<00:12:13.360><c> on</c><00:12:13.519><c> my</c><00:12:13.720><c> website</c><00:12:14.720><c> this</c><00:12:14.839><c> could</c><00:12:15.000><c> help</c>
+
+00:12:15.230 --> 00:12:15.240 align:start position:0%
+generator on my website this could help
+ 
+
+00:12:15.240 --> 00:12:17.230 align:start position:0%
+generator on my website this could help
+you<00:12:15.360><c> break</c><00:12:15.600><c> out</c><00:12:15.720><c> of</c><00:12:15.880><c> the</c><00:12:16.000><c> typical</c><00:12:16.399><c> gray</c><00:12:16.680><c> color</c>
+
+00:12:17.230 --> 00:12:17.240 align:start position:0%
+you break out of the typical gray color
+ 
+
+00:12:17.240 --> 00:12:19.269 align:start position:0%
+you break out of the typical gray color
+scheme<00:12:18.240><c> the</c><00:12:18.360><c> link</c><00:12:18.639><c> will</c><00:12:18.800><c> be</c><00:12:19.000><c> in</c><00:12:19.120><c> the</c>
+
+00:12:19.269 --> 00:12:19.279 align:start position:0%
+scheme the link will be in the
+ 
+
+00:12:19.279 --> 00:12:21.470 align:start position:0%
+scheme the link will be in the
+description<00:12:20.240><c> just</c><00:12:20.480><c> below</c><00:12:20.800><c> the</c><00:12:21.000><c> like</c><00:12:21.279><c> And</c>
+
+00:12:21.470 --> 00:12:21.480 align:start position:0%
+description just below the like And
+ 
+
+00:12:21.480 --> 00:12:24.959 align:start position:0%
+description just below the like And
+subscribe<00:12:21.959><c> buttons</c>
+

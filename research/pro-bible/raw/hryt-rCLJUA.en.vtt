@@ -1,0 +1,360 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:03.600
+The OWASP Top 10 has developed into&nbsp;
+an international security standard&nbsp;&nbsp;
+
+00:00:03.600 --> 00:00:08.480
+used by organizations across the globe.&nbsp;
+But even organizations that use OWASP&nbsp;&nbsp;
+
+00:00:08.480 --> 00:00:14.560
+still end up as victims of cyberattack. So what&nbsp;
+is the OWASP Top 10 and how should you be using it?
+
+00:00:14.560 --> 00:00:29.840
+What do you need to know so it becomes your friend?
+
+00:00:33.600 --> 00:00:39.360
+OWASP, or the Open Web Application Security&nbsp;
+Project, was launched in 2003 to improve the&nbsp;&nbsp;
+
+00:00:39.360 --> 00:00:46.400
+security of software, notably web applications.&nbsp;
+The OWASP Top 10 is a standard awareness document&nbsp;&nbsp;
+
+00:00:46.400 --> 00:00:51.360
+that represents a broad consensus about the&nbsp;
+most critical security risks to web applications.&nbsp;&nbsp;
+
+00:00:52.400 --> 00:00:57.200
+Nearly all involved with OWASP are volunteers&nbsp;
+and it is not affiliated with any technology&nbsp;&nbsp;
+
+00:00:57.200 --> 00:01:02.800
+company. This lack of commercial pressure&nbsp;
+cements OWASP's claim of "unbiased, practical&nbsp;&nbsp;
+
+00:01:02.800 --> 00:01:07.360
+and cost-effective information about&nbsp;
+application security." Or does it?
+
+00:01:11.040 --> 00:01:14.400
+OWASP uses a community of&nbsp;
+open source software projects,&nbsp;&nbsp;
+
+00:01:14.400 --> 00:01:19.600
+hundreds of local chapters worldwide, tens of&nbsp;
+thousands of members and training conferences&nbsp;&nbsp;
+
+00:01:19.600 --> 00:01:26.240
+to compile their list of Top 10 risks. Data and&nbsp;
+documentation is fed into a GitHub repository&nbsp;&nbsp;
+
+00:01:26.240 --> 00:01:31.920
+managed by OWASP after the Top 10 core team&nbsp;
+release a data call. Industry contributors are&nbsp;&nbsp;
+
+00:01:31.920 --> 00:01:38.000
+also encouraged to participate in a survey. Once&nbsp;
+the data is collected in GitHub, it is normalized&nbsp;&nbsp;
+
+00:01:38.000 --> 00:01:44.240
+and analyzed. Surveys are collected and reviewed. A&nbsp;
+draft Top 10 list is then made using eight risks&nbsp;&nbsp;
+
+00:01:44.240 --> 00:01:49.760
+taken from the data and two from the survey. The&nbsp;
+draft is released publicly and the editing process&nbsp;&nbsp;
+
+00:01:49.760 --> 00:01:55.680
+is recorded in GitHub. Once a public consensus&nbsp;
+has been reached, the OWASP Top 10 is released.
+
+00:01:59.200 --> 00:02:04.480
+Last updated in 2017, the new list&nbsp;
+released on 24 September 2021&nbsp;&nbsp;
+
+00:02:04.480 --> 00:02:09.840
+featured changes in category order, category name&nbsp;
+changes as well as some entirely new categories.&nbsp;&nbsp;
+
+00:02:10.640 --> 00:02:15.760
+Let's take a look at the 2021 list and explain&nbsp;
+what the Top 10 categories actually mean.
+
+00:02:19.200 --> 00:02:24.000
+Broken Access Control - up from number&nbsp;
+five - has taken the top spot in 2021.&nbsp;&nbsp;
+
+00:02:24.000 --> 00:02:28.720
+This is an important change as it replaced&nbsp;
+injection - largely seen as the most popular&nbsp;&nbsp;
+
+00:02:28.720 --> 00:02:34.320
+form of risk exploited by cybercriminals.&nbsp;
+Broken Access Control allows attackers to&nbsp;&nbsp;
+
+00:02:34.320 --> 00:02:39.280
+bypass authorization safeguards and perform&nbsp;
+tasks as if they were privileged users.&nbsp;&nbsp;
+
+00:02:39.840 --> 00:02:44.880
+Put simply, broken access control gives an&nbsp;
+attacker the ability to expose sensitive data&nbsp;&nbsp;
+
+00:02:44.880 --> 00:02:51.440
+modify or destroy data, or perform pretty much any&nbsp;
+network function. It is the holy grail of exploits.
+
+00:02:55.440 --> 00:03:00.160
+Cryptographic Failures - previously called&nbsp;
+Sensitive Data Exposure - is in at number two&nbsp;&nbsp;
+
+00:03:00.160 --> 00:03:06.080
+from number three. Cryptographic Failures&nbsp;
+signifies a renewed focus by OWASP on failures&nbsp;&nbsp;
+
+00:03:06.080 --> 00:03:11.600
+related to cryptography. In essence, this category&nbsp;
+exploits information transferred over secure&nbsp;&nbsp;
+
+00:03:11.600 --> 00:03:16.080
+communication between two parties, which often&nbsp;
+provides an attacker with useful information&nbsp;&nbsp;
+
+00:03:16.080 --> 00:03:20.080
+in the post-exploitation phase, like&nbsp;
+how to maintain persistent access.&nbsp;&nbsp;
+
+00:03:24.160 --> 00:03:29.040
+Injection - previously known as Cross-site Scripting&nbsp;
+and considered the king of vulnerabilities -&nbsp;&nbsp;
+
+00:03:29.040 --> 00:03:34.560
+slid down to number three. Injection exploits&nbsp;
+a vulnerable computer program by introducing&nbsp;&nbsp;
+
+00:03:34.560 --> 00:03:40.880
+code that changes the way a program executes. For&nbsp;
+example, by injecting code into a web application&nbsp;&nbsp;
+
+00:03:40.880 --> 00:03:45.040
+an attacker can steal authentication&nbsp;
+cookies and use them on other online&nbsp;&nbsp;
+
+00:03:45.040 --> 00:03:48.960
+services, tricking these services into&nbsp;
+thinking that the attacker is you.
+
+00:03:52.640 --> 00:03:58.080
+Insecure Design - a new category for the&nbsp;
+2021 OWASP Top 10 - is in at number four. It&nbsp;&nbsp;
+
+00:03:58.080 --> 00:04:02.960
+was included as a firm call for developers to&nbsp;
+include more security patterns and principles&nbsp;&nbsp;
+
+00:04:02.960 --> 00:04:08.080
+by design. This is an important consideration&nbsp;
+when including a new application into your&nbsp;&nbsp;
+
+00:04:08.080 --> 00:04:11.920
+network infrastructure, especially given&nbsp;
+the supply chain attack on SolarWinds&nbsp;&nbsp;
+
+00:04:11.920 --> 00:04:15.120
+and the effect it had on&nbsp;third-party service providers.
+
+00:04:18.800 --> 00:04:23.840
+Security Misconfiguration - in at number five,&nbsp;
+up from number six - was present in 90%&nbsp;&nbsp;
+
+00:04:23.840 --> 00:04:28.720
+of applications tested, not surprising&nbsp;
+given the rise in highly configurable software.&nbsp;&nbsp;
+
+00:04:29.520 --> 00:04:34.000
+Security Misconfiguration is a failure to&nbsp;
+implement all the security controls for a&nbsp;&nbsp;
+
+00:04:34.000 --> 00:04:39.440
+server or web application, or implementing&nbsp;
+security controls but with errors. Everyone&nbsp;&nbsp;
+
+00:04:39.440 --> 00:04:44.400
+makes mistakes and security misconfigurations&nbsp;
+occur through a broad range of human errors:&nbsp;&nbsp;
+
+00:04:44.400 --> 00:04:49.040
+misinterpreting a system implementation;&nbsp;
+not changing default logging credentials;&nbsp;&nbsp;
+
+00:04:49.040 --> 00:04:55.840
+a lack of computer skills; or, mistakes&nbsp;
+made under time pressure, for example.
+
+00:04:56.800 --> 00:05:00.560
+Vulnerable and Outdated Components -&nbsp;
+previously known as Using Components&nbsp;&nbsp;
+
+00:05:00.560 --> 00:05:05.600
+with Known Vulnerabilities - is up at number&nbsp;
+six, from number nine. By OWASP's own admission,&nbsp;&nbsp;
+
+00:05:05.600 --> 00:05:09.280
+this category is difficult to test, but&nbsp;
+featured highly in the community survey&nbsp;&nbsp;
+
+00:05:09.280 --> 00:05:14.400
+therefore contributing to its recent rank.&nbsp;
+Vulnerable and Outdated Components includes&nbsp;&nbsp;
+
+00:05:14.400 --> 00:05:19.280
+operating systems, web or application&nbsp;
+servers, database management systems,&nbsp;&nbsp;
+
+00:05:19.280 --> 00:05:24.160
+apis, and all components runtime environments&nbsp;
+and libraries that are vulnerable,&nbsp;&nbsp;
+
+00:05:24.160 --> 00:05:29.680
+unsupported, or out of date. An adversary only&nbsp;
+needs to find one vulnerable component to&nbsp;&nbsp;
+
+00:05:29.680 --> 00:05:34.720
+compromise a system. The problem is approximately&nbsp;
+18,000 new vulnerabilities are found&nbsp;&nbsp;
+
+00:05:34.720 --> 00:05:38.560
+each year, so protecting against known&nbsp;
+vulnerabilities is an ongoing process.
+
+00:05:42.640 --> 00:05:47.280
+A new name given to Broken Authentication,&nbsp;
+Identification and Authentication Failures&nbsp;&nbsp;
+
+00:05:47.280 --> 00:05:51.840
+comes in at number seven, down from number two - a&nbsp;
+good sign that standardized frameworks are helping.&nbsp;&nbsp;
+
+00:05:52.560 --> 00:05:56.000
+broken authentication referred&nbsp;to the compromise of 
+passwords,&nbsp;&nbsp;
+
+00:05:56.000 --> 00:06:02.240
+keys, session tokens, user account information&nbsp;
+and other details to assume user identities.&nbsp;&nbsp;
+
+00:06:02.240 --> 00:06:06.800
+The new position of Identification and&nbsp;
+Authentication Failures shows that procedures&nbsp;&nbsp;
+
+00:06:06.800 --> 00:06:11.760
+like MFA are integral in authenticating key&nbsp;
+information, like usernames and passwords.
+
+00:06:15.520 --> 00:06:20.240
+Another new category, Software and Data Integrity&nbsp;
+Failures comes in at number eight, focusing on&nbsp;&nbsp;
+
+00:06:20.240 --> 00:06:27.520
+software updates, critical data, CI/CD pipelines&nbsp;
+and includes Insecure Desterilization from 2017.&nbsp;&nbsp;
+
+00:06:28.240 --> 00:06:32.320
+This new category relates to code and&nbsp;
+infrastructure that does not protect against&nbsp;&nbsp;
+
+00:06:32.320 --> 00:06:38.480
+integrity violations. An example of this is where&nbsp;
+an application, like Wordpress, relies on plugins&nbsp;&nbsp;
+
+00:06:38.480 --> 00:06:43.760
+from untrusted sources one compromise plugin&nbsp;
+can give an attacker access to your application.
+
+00:06:47.520 --> 00:06:51.440
+Previously categorized as Insufficient&nbsp;
+Logging and Monitoring, Security Logging&nbsp;&nbsp;
+
+00:06:51.440 --> 00:06:53.600
+and Monitoring Failures comes in at number nine,
+
+00:06:53.600 --> 00:07:01.276
+up from number 10. Although admittedly hard to&nbsp;
+test for due to a lack of representation in CVE/CSS data,
+
+00:07:01.276 --> 00:07:04.880
+Security Logging and Monitoring Failures&nbsp;
+can seriously impact visibility and forensics.
+
+00:07:09.120 --> 00:07:14.160
+Lastly, at number 10, Server-side Request Forgery&nbsp;
+is another new addition due to its position as&nbsp;&nbsp;
+
+00:07:14.160 --> 00:07:18.960
+number one in the community survey, indicating&nbsp;
+strong feedback from the security community&nbsp;&nbsp;
+
+00:07:18.960 --> 00:07:24.880
+that it is an important risk but not illustrated&nbsp;
+in the data collected. Server-side Request Forgery&nbsp;&nbsp;
+
+00:07:24.880 --> 00:07:29.840
+is a type of exploit where an attacker abuses the&nbsp;
+functionality of a server causing it to access or&nbsp;&nbsp;
+
+00:07:29.840 --> 00:07:34.400
+manipulate information that would otherwise&nbsp;
+not be directly accessible to the attacker.
+
+00:07:38.400 --> 00:07:43.520
+The OWASP Top 10 is the go-to listing for anyone&nbsp;
+concerned with raising their awareness of top&nbsp;&nbsp;
+
+00:07:43.520 --> 00:07:48.480
+risks. The addition of survey considerations&nbsp;
+as well as pure statistical data means that&nbsp;&nbsp;
+
+00:07:48.480 --> 00:07:54.240
+OWASP does not solely rely on data collected by&nbsp;
+automated tests. Where possible, the categories&nbsp;&nbsp;
+
+00:07:54.240 --> 00:07:59.680
+are ranked given three main considerations&nbsp;
+exploitability likelihood and technical impact. 
+
+00:08:00.320 --> 00:08:05.840
+However, OWASP themselves claim that it is a&nbsp;
+baseline - a "pseudo standard" even - for compliance,&nbsp;&nbsp;
+
+00:08:05.840 --> 00:08:10.960
+education and vendor tools. As an awareness&nbsp;
+document, it is regarded as the bare minimum&nbsp;&nbsp;
+
+00:08:10.960 --> 00:08:17.200
+reference for standards of coding, code reviews,&nbsp;
+peer reviews, tool support and penetration testing.&nbsp;&nbsp;
+
+00:08:17.200 --> 00:08:23.360
+Being focused on AppSec means that many of the Top&nbsp;
+10 findings cannot be easily tested for in-house.&nbsp;&nbsp;
+
+00:08:23.360 --> 00:08:28.640
+Being a voluntary service means that participants&nbsp;
+releasing information publicly do so theoretically,&nbsp;&nbsp;
+
+00:08:28.640 --> 00:08:34.880
+without the experience of a real world attack. If&nbsp;
+you're keen to hear more about OWASP's Top 10 list,&nbsp;
+
+00:08:34.880 --> 00:08:39.840
+keep an eye out for our next video which compares&nbsp;
+OWASP's findings with our own list of Top 10 risks.&nbsp;&nbsp;
+
+00:08:40.640 --> 00:08:45.487
+The risk is real. Defend with Cyber Citadel.
+

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1000 Islands Travel · карта прототипа</title>
+<link rel="stylesheet" href="wf.css?v=33">
+<style>
+  /* Prototype hub only (not a site page): owner-facing, Russian; site page names stay English. */
+  .hub-top { color: #fff; background-color: #3a3a3a; background-image: linear-gradient(172deg, #5e5e5e 0%, #444 55%, #2b2b2b 100%); padding: 64px 0 56px; }
+  .hub-top h1 { color: #fff; font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.02; letter-spacing: -.03em; margin: 0; max-width: 16ch; }
+  .hub-top .lead { color: #ececec; max-width: 54ch; margin-top: 20px; }
+  .hub-actions { display: flex; flex-wrap: wrap; gap: 12px 16px; align-items: center; margin-top: 32px; }
+  .hub-top .btn.outline-light[aria-pressed="true"] { background: #fff; color: var(--ink); border-color: #fff; }
+  .hub-top .btn.outline-light[aria-pressed="true"]:hover { background: #e6e6e6; border-color: #e6e6e6; }
+
+  .hub-read { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gutter); }
+  .hub-read figure { margin: 0; }
+  .hub-read .demo { height: 88px; border-radius: 4px; margin-bottom: 16px; position: relative; }
+  .hub-read .demo.photo { background-image: linear-gradient(172deg, #8f8f8f 0%, #6d6d6d 50%, #4a4a4a 100%); }
+  .hub-read .demo.photo span { position: absolute; top: 12px; left: 12px; font-size: 12px; font-weight: 500; color: #2e2e2e; background: rgba(255,255,255,.9); padding: 4px 8px; border-radius: 2px; }
+  .hub-read .demo.text { display: grid; align-content: center; gap: 10px; padding: 0 4px; }
+  .hub-read .demo.text i { display: block; height: 10px; border-radius: 2px; background: var(--skel); }
+  .hub-read .demo.text i:nth-child(2) { width: 86%; } .hub-read .demo.text i:nth-child(3) { width: 58%; }
+  .hub-read .demo.tag-demo { display: flex; align-items: center; }
+  .hub-read .demo.tag-demo span { font-size: 13px; font-weight: 600; background: var(--note); color: var(--ink); padding: 6px 10px; border-radius: 2px; }
+  .hub-read h3 { margin: 0 0 6px; }
+  .hub-read p { margin: 0; color: var(--ink-2); max-width: 36ch; }
+
+  .hub-map h2 { margin-bottom: 8px; }
+  .hub-map .sub { color: var(--ink-2); margin: 0 0 32px; max-width: 60ch; }
+  .hub-map + .hub-map { padding-top: 0; }
+  .hub-home { display: flex; align-items: center; justify-content: space-between; gap: 24px; text-decoration: none; color: #fff; border-radius: 6px; padding: 28px 32px; margin-bottom: 32px; background-color: #444; background-image: linear-gradient(172deg, #6a6a6a 0%, #4a4a4a 60%, #333 100%); }
+  .hub-home b { display: block; font-size: 1.75rem; letter-spacing: -.02em; }
+  .hub-home small { display: block; color: #e6e6e6; font-size: 15px; margin-top: 4px; }
+  .hub-home::after { content: ""; flex: none; width: 24px; height: 24px; background: #fff; -webkit-mask: var(--i-right) center / 24px no-repeat; mask: var(--i-right) center / 24px no-repeat; transition: transform .2s; }
+  .hub-home:hover::after { transform: translateX(4px); }
+  .hub-groups { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px var(--gutter); }
+  .hub-groups.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .hub-group h3 { font-size: 1rem; margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--ink); }
+  .hub-group ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .hub-group a { display: grid; grid-template-columns: 28px 1fr; column-gap: 8px; text-decoration: none; color: var(--ink); background: var(--fill-2); border-radius: 4px; padding: 12px 14px; transition: background-color .15s; }
+  .hub-group a:hover { background: var(--fill); }
+  .hub-group .n { color: var(--ink-3); font-weight: 500; font-variant-numeric: tabular-nums; }
+  .hub-group b { font-weight: 600; }
+  .hub-group small { grid-column: 2; color: var(--ink-3); font-size: 13px; }
+
+  .hub-foot { border-top: 1px solid var(--line); padding: 32px 0 48px; color: var(--ink-2); }
+  .hub-foot p { margin: 0; }
+  .hub-foot a { color: var(--ink); }
+
+  @media (max-width: 999px) { .hub-groups, .hub-groups.three { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 768px) {
+    .hub-read { grid-template-columns: 1fr; gap: 32px; }
+    .hub-home { padding: 22px 20px; } .hub-home b { font-size: 1.375rem; }
+    .hub-top { padding: 48px 0 40px; }
+  }
+  @media (max-width: 480px) { .hub-groups, .hub-groups.three { grid-template-columns: 1fr; } }
+  @media (prefers-reduced-motion: reduce) { .hub-home::after, .hub-group a { transition: none; } }
+</style>
+</head>
+<body>
+<main>
+<section class="hub-top">
+  <div class="wrap">
+    <h1>Карта прототипа 1000 Islands Travel</h1>
+    <p class="lead">Серый черновик сайта. Здесь проверяем структуру и переходы; цвета, фото и тексты будут на следующем этапе. Открой любую страницу и дальше ходи по сайту как обычный посетитель.</p>
+    <div class="hub-actions">
+      <a class="btn light" href="home.html">Открыть главную</a>
+      <button type="button" class="btn outline-light notes-toggle" aria-pressed="false">Показать номера блоков</button>
+    </div>
+  </div>
+</section>
+
+<section class="pad-s" aria-labelledby="read">
+  <div class="wrap">
+    <h2 id="read">Как читать макет</h2>
+    <div class="hub-read">
+      <figure><div class="demo photo" aria-hidden="true"><span>Raja Ampat · aerial, karst islets</span></div><h3>Серое поле</h3><p>Фото или видео. Подпись в углу говорит, что будет в кадре.</p></figure>
+      <figure><div class="demo text" aria-hidden="true"><i></i><i></i><i></i></div><h3>Серые полосы</h3><p>Текст, который напишем позже. Сейчас важно, где он стоит и сколько его.</p></figure>
+      <figure><div class="demo tag-demo" aria-hidden="true"><span>01 · Hero</span></div><h3>Номера блоков</h3><p>По ним удобно писать комментарии. Включаются кнопкой выше (на компьютере ещё клавишей N) и остаются включёнными на всех страницах.</p></figure>
+    </div>
+  </div>
+</section>
+
+<section class="pad-s hub-map" aria-labelledby="site">
+  <div class="wrap">
+    <h2 id="site">Страницы сайта</h2>
+    <p class="sub">То, что увидит посетитель. Номера совпадают с макетом в Penpot.</p>
+    <a class="hub-home" href="home.html"><span><b>01 Home</b><small>главная: куда едем, яхты, истории гостей, заявка</small></span></a>
+    <div class="hub-groups three">
+      <div class="hub-group"><h3>Направления</h3><ul>
+        <li><a href="raja-ampat.html"><span class="n">02</span><b>Raja Ampat</b><small>лендинг · поездки и цены</small></a></li>
+        <li><a href="north-sulawesi.html"><span class="n">03</span><b>North Sulawesi</b><small>лендинг · поездки и цены</small></a></li>
+        <li><a href="yachts.html"><span class="n">04</span><b>Yacht charters</b><small>лендинг · три лодки</small></a></li>
+        <li><a href="advisors.html"><span class="n">07</span><b>Travel agents</b><small>лендинг для турагентов</small></a></li>
+      </ul></div>
+      <div class="hub-group"><h3>О нас</h3><ul>
+        <li><a href="stories.html"><span class="n">05</span><b>Guest stories</b><small>истории гостей</small></a></li>
+        <li><a href="about.html"><span class="n">06</span><b>About us</b><small>команда · как путешествуем · FAQ</small></a></li>
+      </ul></div>
+      <div class="hub-group"><h3>Заявка</h3><ul>
+        <li><a href="plan.html"><span class="n">08</span><b>Plan your trip</b><small>форма заявки</small></a></li>
+        <li><a href="thank-you.html"><span class="n">09</span><b>Thank-you</b><small>после заявки путешественника</small></a></li>
+        <li><a href="thank-you-advisor.html"><span class="n">10</span><b>Thank-you</b><small>после заявки агента</small></a></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="pad-s hub-map" aria-labelledby="service">
+  <div class="wrap">
+    <h2 id="service">Служебное</h2>
+    <p class="sub">Экраны, которые посетитель видит редко, и то, что видишь только ты.</p>
+    <div class="hub-groups">
+      <div class="hub-group"><h3>Юридическое и сбои</h3><ul>
+        <li><a href="privacy.html"><span class="n">11</span><b>Privacy &amp; cookies</b></a></li>
+        <li><a href="terms.html"><span class="n">12</span><b>Booking terms</b></a></li>
+        <li><a href="404.html"><span class="n">13</span><b>404</b><small>страница не найдена</small></a></li>
+        <li><a href="unavailable.html"><span class="n">14</span><b>Temporarily unavailable</b><small>техработы</small></a></li>
+      </ul></div>
+      <div class="hub-group"><h3>Состояния</h3><ul>
+        <li><a href="state-cookies.html"><span class="n">S1</span><b>Cookie banner</b><small>первый визит</small></a></li>
+        <li><a href="state-cookie-settings.html"><span class="n">S2</span><b>Cookie settings</b><small>окно настроек</small></a></li>
+        <li><a href="state-form-errors.html"><span class="n">S3</span><b>Form errors</b><small>ошибки в форме</small></a></li>
+        <li><a href="state-form-failed.html"><span class="n">S4</span><b>Sending failed</b><small>заявка не ушла</small></a></li>
+      </ul></div>
+      <div class="hub-group"><h3>Письма и ссылки</h3><ul>
+        <li><a href="email-traveller.html"><span class="n">E1</span><b>Auto-reply</b><small>письмо путешественнику</small></a></li>
+        <li><a href="email-advisor.html"><span class="n">E2</span><b>Auto-reply</b><small>письмо агенту</small></a></li>
+        <li><a href="email-owner.html"><span class="n">E3</span><b>New enquiry alert</b><small>письмо тебе о новой заявке</small></a></li>
+        <li><a href="link-preview.html"><span class="n">P1</span><b>Link previews</b><small>как ссылка выглядит в WhatsApp, соцсетях, Google</small></a></li>
+      </ul></div>
+      <div class="hub-group"><h3>Админка</h3><ul>
+        <li><a href="admin-simple.html"><span class="n">A</span><b>Admin</b><small>заявки · отзывы · фото и видео · цены, всё на одном экране</small></a></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<footer class="hub-foot">
+  <div class="wrap">
+    <p>Комментарии удобнее оставлять в макете Penpot: <a href="https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&amp;page-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ad&amp;share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&amp;section=interactions&amp;index=0">версия для компьютера</a>, <a href="https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&amp;page-id=998cb9f0-5ded-8044-8008-bce251986e65&amp;share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&amp;section=interactions&amp;index=0">версия для телефона</a>.</p>
+  </div>
+</footer>
+</main>
+<script src="wf.js?v=31"></script>
+<script>
+  // keep the notes button label in step with the notes mode (wf.js toggles it and remembers it)
+  (function () {
+    var b = document.querySelector('.hub-actions .notes-toggle'), root = document.documentElement;
+    var sync = function () { var on = root.classList.contains('notes'); b.setAttribute('aria-pressed', on); b.textContent = on ? 'Скрыть номера блоков' : 'Показать номера блоков'; };
+    new MutationObserver(sync).observe(root, { attributes: true, attributeFilter: ['class'] }); sync();
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,3092 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.299 --> 00:00:04.410 align:start position:0%
+ 
+Hello <00:00:03.891><c>and</c>
+
+00:00:04.410 --> 00:00:04.447 align:start position:0%
+Hello and
+ 
+
+00:00:04.447 --> 00:00:05.854 align:start position:0%
+Hello and
+welcome <00:00:04.903><c>to </c><00:00:05.359><c>Programming </c><00:00:05.815><c>Percy,</c>
+
+00:00:05.854 --> 00:00:05.891 align:start position:0%
+welcome to Programming Percy,
+ 
+
+00:00:05.891 --> 00:00:06.669 align:start position:0%
+welcome to Programming Percy,
+today <00:00:06.520><c>we'll</c>
+
+00:00:06.669 --> 00:00:06.706 align:start position:0%
+today we'll
+ 
+
+00:00:06.706 --> 00:00:07.706 align:start position:0%
+today we'll
+talk <00:00:07.094><c>about </c><00:00:07.482><c>the</c>
+
+00:00:07.706 --> 00:00:07.743 align:start position:0%
+talk about the
+ 
+
+00:00:07.743 --> 00:00:10.287 align:start position:0%
+talk about the
+Open <00:00:08.346><c>Graph </c><00:00:08.949><c>protocol.  </c><00:00:09.552><c>We </c><00:00:10.155><c>will</c>
+
+00:00:10.287 --> 00:00:10.320 align:start position:0%
+Open Graph protocol.  We will
+ 
+
+00:00:10.320 --> 00:00:11.563 align:start position:0%
+Open Graph protocol.  We will
+discuss <00:00:10.565><c>how </c><00:00:10.810><c>and </c><00:00:11.055><c>why </c><00:00:11.300><c>you</c>
+
+00:00:11.563 --> 00:00:11.596 align:start position:0%
+discuss how and why you
+ 
+
+00:00:11.596 --> 00:00:11.923 align:start position:0%
+discuss how and why you
+should
+
+00:00:11.923 --> 00:00:11.956 align:start position:0%
+should
+ 
+
+00:00:11.956 --> 00:00:13.232 align:start position:0%
+should
+use <00:00:12.970><c>it</c>
+
+00:00:13.232 --> 00:00:13.264 align:start position:0%
+use it
+ 
+
+00:00:13.264 --> 00:00:14.442 align:start position:0%
+use it
+on <00:00:13.591><c>your </c><00:00:13.918><c>website </c><00:00:14.245><c>to</c>
+
+00:00:14.442 --> 00:00:14.475 align:start position:0%
+on your website to
+ 
+
+00:00:14.475 --> 00:00:15.227 align:start position:0%
+on your website to
+make <00:00:14.966><c>it</c>
+
+00:00:15.227 --> 00:00:15.260 align:start position:0%
+make it
+ 
+
+00:00:15.260 --> 00:00:16.242 align:start position:0%
+make it
+much <00:00:16.209><c>better.</c>
+
+00:00:16.242 --> 00:00:17.701 align:start position:0%
+much better.
+ 
+
+00:00:17.701 --> 00:00:18.819 align:start position:0%
+ 
+I <00:00:17.896><c>hadn't </c><00:00:18.091><c>thought </c><00:00:18.286><c>about </c><00:00:18.481><c>it </c><00:00:18.676><c>before</c>
+
+00:00:18.819 --> 00:00:18.854 align:start position:0%
+I hadn't thought about it before
+ 
+
+00:00:18.854 --> 00:00:20.880 align:start position:0%
+I hadn't thought about it before
+.  <00:00:19.648><c>How </c><00:00:20.442><c>do</c>
+
+00:00:20.880 --> 00:00:20.916 align:start position:0%
+.  How do
+ 
+
+00:00:20.916 --> 00:00:22.046 align:start position:0%
+.  How do
+Twitter, <00:00:21.195><c>Facebook, </c><00:00:21.474><c>and </c><00:00:21.753><c>other</c>
+
+00:00:22.046 --> 00:00:22.083 align:start position:0%
+Twitter, Facebook, and other
+ 
+
+00:00:22.083 --> 00:00:23.431 align:start position:0%
+Twitter, Facebook, and other
+social <00:00:22.484><c>networks </c><00:00:22.885><c>know </c><00:00:23.286><c>how</c>
+
+00:00:23.431 --> 00:00:23.468 align:start position:0%
+social networks know how
+ 
+
+00:00:23.468 --> 00:00:24.889 align:start position:0%
+social networks know how
+to <00:00:23.929><c>display </c><00:00:24.390><c>my </c><00:00:24.851><c>site</c>
+
+00:00:24.889 --> 00:00:24.926 align:start position:0%
+to display my site
+ 
+
+00:00:24.926 --> 00:00:26.165 align:start position:0%
+to display my site
+when <00:00:25.159><c>I </c><00:00:25.392><c>share </c><00:00:25.625><c>it </c><00:00:25.858><c>in </c><00:00:26.091><c>a</c>
+
+00:00:26.165 --> 00:00:26.202 align:start position:0%
+when I share it in a
+ 
+
+00:00:26.202 --> 00:00:28.537 align:start position:0%
+when I share it in a
+post?  <00:00:27.173><c>I've </c><00:00:28.144><c>never</c>
+
+00:00:28.537 --> 00:00:29.521 align:start position:0%
+post?  I've never
+ 
+
+00:00:29.521 --> 00:00:29.554 align:start position:0%
+ 
+ 
+
+00:00:29.554 --> 00:00:31.959 align:start position:0%
+ 
+thought <00:00:29.943><c>about </c><00:00:30.332><c>this </c><00:00:30.721><c>before.  </c><00:00:31.110><c>But </c><00:00:31.499><c>then </c><00:00:31.888><c>I</c>
+
+00:00:31.959 --> 00:00:31.994 align:start position:0%
+thought about this before.  But then I
+ 
+
+00:00:31.994 --> 00:00:33.151 align:start position:0%
+thought about this before.  But then I
+started <00:00:32.186><c>redesigning </c><00:00:32.378><c>my</c>
+
+00:00:33.151 --> 00:00:33.186 align:start position:0%
+started redesigning my
+ 
+
+00:00:33.186 --> 00:00:34.168 align:start position:0%
+started redesigning my
+own <00:00:34.027><c>site</c>
+
+00:00:34.168 --> 00:00:34.203 align:start position:0%
+own site
+ 
+
+00:00:34.203 --> 00:00:36.838 align:start position:0%
+own site
+using <00:00:35.374><c>SvelteKit.  </c><00:00:36.545><c>When</c>
+
+00:00:36.838 --> 00:00:36.875 align:start position:0%
+using SvelteKit.  When
+ 
+
+00:00:36.875 --> 00:00:38.081 align:start position:0%
+using SvelteKit.  When
+I <00:00:37.063><c>was </c><00:00:37.251><c>done, </c><00:00:37.439><c>I </c><00:00:37.627><c>was </c><00:00:37.815><c>excited </c><00:00:38.003><c>to</c>
+
+00:00:38.081 --> 00:00:39.434 align:start position:0%
+I was done, I was excited to
+ 
+
+00:00:39.434 --> 00:00:39.470 align:start position:0%
+ 
+ 
+
+00:00:39.470 --> 00:00:40.457 align:start position:0%
+ 
+share <00:00:40.092><c>my</c>
+
+00:00:40.457 --> 00:00:40.494 align:start position:0%
+share my
+ 
+
+00:00:40.494 --> 00:00:43.826 align:start position:0%
+share my
+site <00:00:41.473><c>on </c><00:00:42.452><c>Twitter.  </c><00:00:43.431><c>Imagine</c>
+
+00:00:43.826 --> 00:00:43.859 align:start position:0%
+site on Twitter.  Imagine
+ 
+
+00:00:43.859 --> 00:00:44.915 align:start position:0%
+site on Twitter.  Imagine
+my <00:00:44.882><c>disappointment</c>
+
+00:00:44.915 --> 00:00:44.947 align:start position:0%
+my disappointment
+ 
+
+00:00:44.947 --> 00:00:45.937 align:start position:0%
+my disappointment
+when <00:00:45.145><c>I </c><00:00:45.343><c>copied</c>
+
+00:00:45.937 --> 00:00:45.970 align:start position:0%
+when I copied
+ 
+
+00:00:45.970 --> 00:00:47.091 align:start position:0%
+when I copied
+the <00:00:46.145><c>link </c><00:00:46.320><c>into </c><00:00:46.495><c>a </c><00:00:46.670><c>tweet </c><00:00:46.845><c>and </c><00:00:47.020><c>the</c>
+
+00:00:47.091 --> 00:00:47.124 align:start position:0%
+the link into a tweet and the
+ 
+
+00:00:47.124 --> 00:00:48.344 align:start position:0%
+the link into a tweet and the
+preview
+
+00:00:48.344 --> 00:00:48.377 align:start position:0%
+preview
+ 
+
+00:00:48.377 --> 00:00:51.360 align:start position:0%
+preview
+turned <00:00:48.932><c>out </c><00:00:49.487><c>to </c><00:00:50.042><c>be </c><00:00:50.597><c>boring.  </c><00:00:51.152><c>That's</c>
+
+00:00:51.360 --> 00:00:51.394 align:start position:0%
+turned out to be boring.  That's
+ 
+
+00:00:51.394 --> 00:00:53.316 align:start position:0%
+turned out to be boring.  That's
+about <00:00:52.317><c>it.  </c><00:00:53.240><c>I</c>
+
+00:00:53.316 --> 00:00:53.354 align:start position:0%
+about it.  I
+ 
+
+00:00:53.354 --> 00:00:54.794 align:start position:0%
+about it.  I
+started <00:00:53.581><c>looking </c><00:00:53.808><c>for </c><00:00:54.035><c>the </c><00:00:54.262><c>reason</c>
+
+00:00:54.794 --> 00:00:54.832 align:start position:0%
+started looking for the reason
+ 
+
+00:00:54.832 --> 00:00:55.817 align:start position:0%
+started looking for the reason
+and <00:00:55.084><c>learned </c><00:00:55.336><c>about </c><00:00:55.588><c>the</c>
+
+00:00:55.817 --> 00:00:55.855 align:start position:0%
+and learned about the
+ 
+
+00:00:55.855 --> 00:00:56.917 align:start position:0%
+and learned about the
+Open <00:00:56.196><c>Graph </c><00:00:56.537><c>protocol.    </c><00:00:56.878><c>The</c>
+
+00:00:56.917 --> 00:00:57.928 align:start position:0%
+Open Graph protocol.    The
+ 
+
+00:00:57.928 --> 00:00:59.083 align:start position:0%
+ 
+Open <00:00:58.182><c>Graph </c><00:00:58.436><c>protocol </c><00:00:58.690><c>is </c><00:00:58.944><c>a</c>
+
+00:00:59.083 --> 00:00:59.117 align:start position:0%
+Open Graph protocol is a
+ 
+
+00:00:59.117 --> 00:01:00.205 align:start position:0%
+Open Graph protocol is a
+standardized
+
+00:01:00.205 --> 00:01:00.239 align:start position:0%
+standardized
+ 
+
+00:01:00.239 --> 00:01:01.564 align:start position:0%
+standardized
+way <00:01:00.460><c>to </c><00:01:00.681><c>present</c>
+
+00:01:01.564 --> 00:01:01.598 align:start position:0%
+way to present
+ 
+
+00:01:01.598 --> 00:01:02.924 align:start position:0%
+way to present
+your <00:01:01.994><c>site's </c><00:01:02.390><c>data </c><00:01:02.786><c>on</c>
+
+00:01:02.924 --> 00:01:02.958 align:start position:0%
+your site's data on
+ 
+
+00:01:02.958 --> 00:01:03.910 align:start position:0%
+your site's data on
+other <00:01:03.876><c>resources.</c>
+
+00:01:03.910 --> 00:01:04.847 align:start position:0%
+other resources.
+ 
+
+00:01:04.847 --> 00:01:06.125 align:start position:0%
+other resources.
+Consider <00:01:05.093><c>it </c><00:01:05.339><c>the </c><00:01:05.585><c>calling</c>
+
+00:01:06.125 --> 00:01:06.158 align:start position:0%
+Consider it the calling
+ 
+
+00:01:06.158 --> 00:01:07.436 align:start position:0%
+Consider it the calling
+card <00:01:06.472><c>of </c><00:01:06.786><c>your </c><00:01:07.100><c>site</c>
+
+00:01:07.436 --> 00:01:07.470 align:start position:0%
+card of your site
+ 
+
+00:01:07.470 --> 00:01:08.546 align:start position:0%
+card of your site
+or <00:01:07.671><c>even </c><00:01:07.872><c>a </c><00:01:08.073><c>separate</c>
+
+00:01:08.546 --> 00:01:08.580 align:start position:0%
+or even a separate
+ 
+
+00:01:08.580 --> 00:01:10.048 align:start position:0%
+or even a separate
+page.  <00:01:09.135><c>You </c><00:01:09.690><c>can</c>
+
+00:01:10.048 --> 00:01:10.078 align:start position:0%
+page.  You can
+ 
+
+00:01:10.078 --> 00:01:11.062 align:start position:0%
+page.  You can
+set <00:01:10.421><c>up </c><00:01:10.764><c>different</c>
+
+00:01:11.062 --> 00:01:11.092 align:start position:0%
+set up different
+ 
+
+00:01:11.092 --> 00:01:12.196 align:start position:0%
+set up different
+previews
+
+00:01:12.196 --> 00:01:12.226 align:start position:0%
+previews
+ 
+
+00:01:12.226 --> 00:01:13.300 align:start position:0%
+previews
+for <00:01:12.375><c>different </c><00:01:12.524><c>pages </c><00:01:12.673><c>on </c><00:01:12.822><c>your</c>
+
+00:01:13.300 --> 00:01:13.329 align:start position:0%
+for different pages on your
+ 
+
+00:01:13.329 --> 00:01:16.363 align:start position:0%
+for different pages on your
+site.  <00:01:16.040><c>After</c>
+
+00:01:16.363 --> 00:01:16.395 align:start position:0%
+site.  After
+ 
+
+00:01:16.395 --> 00:01:17.172 align:start position:0%
+site.  After
+applying
+
+00:01:17.172 --> 00:01:17.204 align:start position:0%
+applying
+ 
+
+00:01:17.204 --> 00:01:18.304 align:start position:0%
+applying
+the <00:01:17.484><c>protocol, </c><00:01:17.764><c>my </c><00:01:18.044><c>tweet</c>
+
+00:01:18.304 --> 00:01:18.336 align:start position:0%
+the protocol, my tweet
+ 
+
+00:01:18.336 --> 00:01:19.210 align:start position:0%
+the protocol, my tweet
+looked
+
+00:01:19.210 --> 00:01:19.242 align:start position:0%
+looked
+ 
+
+00:01:19.242 --> 00:01:20.472 align:start position:0%
+looked
+much <00:01:19.840><c>more </c><00:01:20.438><c>attractive,</c>
+
+00:01:20.472 --> 00:01:20.504 align:start position:0%
+much more attractive,
+ 
+
+00:01:20.504 --> 00:01:21.475 align:start position:0%
+much more attractive,
+and <00:01:20.691><c>people </c><00:01:20.878><c>are </c><00:01:21.065><c>likely </c><00:01:21.252><c>to </c><00:01:21.439><c>be</c>
+
+00:01:21.475 --> 00:01:21.507 align:start position:0%
+and people are likely to be
+ 
+
+00:01:21.507 --> 00:01:21.960 align:start position:0%
+and people are likely to be
+more
+
+00:01:21.960 --> 00:01:21.992 align:start position:0%
+more
+ 
+
+00:01:21.992 --> 00:01:22.898 align:start position:0%
+more
+interested in
+
+00:01:22.898 --> 00:01:22.930 align:start position:0%
+interested in
+ 
+
+00:01:22.930 --> 00:01:23.869 align:start position:0%
+interested in
+the <00:01:23.178><c>site </c><00:01:23.426><c>when </c><00:01:23.674><c>it</c>
+
+00:01:23.869 --> 00:01:23.901 align:start position:0%
+the site when it
+ 
+
+00:01:23.901 --> 00:01:28.346 align:start position:0%
+the site when it
+looks <00:01:25.315><c>like </c><00:01:26.729><c>this.  </c><00:01:28.143><c>This</c>
+
+00:01:28.346 --> 00:01:28.379 align:start position:0%
+looks like this.  This
+ 
+
+00:01:28.379 --> 00:01:29.559 align:start position:0%
+looks like this.  This
+protocol <00:01:28.665><c>is </c><00:01:28.951><c>actually</c>
+
+00:01:29.559 --> 00:01:29.592 align:start position:0%
+protocol is actually
+ 
+
+00:01:29.592 --> 00:01:30.232 align:start position:0%
+protocol is actually
+very <00:01:29.895><c>easy</c>
+
+00:01:30.232 --> 00:01:30.266 align:start position:0%
+very easy
+ 
+
+00:01:30.266 --> 00:01:32.955 align:start position:0%
+very easy
+to <00:01:31.055><c>implement.  </c><00:01:31.844><c>There </c><00:01:32.633><c>are</c>
+
+00:01:32.955 --> 00:01:32.987 align:start position:0%
+to implement.  There are
+ 
+
+00:01:32.987 --> 00:01:34.173 align:start position:0%
+to implement.  There are
+many <00:01:33.564><c>different </c><00:01:34.141><c>tags,</c>
+
+00:01:34.173 --> 00:01:34.205 align:start position:0%
+many different tags,
+ 
+
+00:01:34.205 --> 00:01:35.327 align:start position:0%
+many different tags,
+but <00:01:35.135><c>you</c>
+
+00:01:35.327 --> 00:01:35.359 align:start position:0%
+but you
+ 
+
+00:01:35.359 --> 00:01:36.513 align:start position:0%
+but you
+only <00:01:35.658><c>need </c><00:01:35.957><c>to </c><00:01:36.256><c>know</c>
+
+00:01:36.513 --> 00:01:36.545 align:start position:0%
+only need to know
+ 
+
+00:01:36.545 --> 00:01:37.283 align:start position:0%
+only need to know
+four <00:01:36.686><c>of </c><00:01:36.827><c>them </c><00:01:36.968><c>to </c><00:01:37.109><c>get </c><00:01:37.250><c>started.</c>
+
+00:01:37.283 --> 00:01:38.581 align:start position:0%
+four of them to get started.
+ 
+
+00:01:38.581 --> 00:01:39.693 align:start position:0%
+ 
+The <00:01:38.761><c>protocol </c><00:01:38.941><c>is </c><00:01:39.121><c>based</c>
+
+00:01:39.693 --> 00:01:39.725 align:start position:0%
+The protocol is based
+ 
+
+00:01:39.725 --> 00:01:40.456 align:start position:0%
+The protocol is based
+on <00:01:39.804><c>meta </c><00:01:39.883><c>tags</c>
+
+00:01:40.456 --> 00:01:40.487 align:start position:0%
+on meta tags
+ 
+
+00:01:40.487 --> 00:01:41.568 align:start position:0%
+on meta tags
+inside <00:01:40.725><c>the </c><00:01:40.963><c>head </c><00:01:41.201><c>block </c><00:01:41.439><c>of</c>
+
+00:01:41.568 --> 00:01:41.600 align:start position:0%
+inside the head block of
+ 
+
+00:01:41.600 --> 00:01:42.712 align:start position:0%
+inside the head block of
+your <00:01:42.060><c>page </c><00:01:42.520><c>that</c>
+
+00:01:42.712 --> 00:01:42.744 align:start position:0%
+your page that
+ 
+
+00:01:42.744 --> 00:01:43.761 align:start position:0%
+your page that
+other <00:01:43.061><c>sites </c><00:01:43.378><c>can</c>
+
+00:01:43.761 --> 00:01:43.792 align:start position:0%
+other sites can
+ 
+
+00:01:43.792 --> 00:01:45.000 align:start position:0%
+other sites can
+read <00:01:44.110><c>and </c><00:01:44.428><c>understand</c>
+
+00:01:45.000 --> 00:01:45.032 align:start position:0%
+read and understand
+ 
+
+00:01:45.032 --> 00:01:45.826 align:start position:0%
+read and understand
+to <00:01:45.143><c>create </c><00:01:45.254><c>a</c>
+
+00:01:45.826 --> 00:01:45.858 align:start position:0%
+to create a
+ 
+
+00:01:45.858 --> 00:01:46.621 align:start position:0%
+to create a
+
+
+00:01:46.621 --> 00:01:46.653 align:start position:0%
+ 
+ 
+
+00:01:46.653 --> 00:01:48.006 align:start position:0%
+ 
+preview.  <00:01:47.968><c>So,</c>
+
+00:01:48.006 --> 00:01:48.044 align:start position:0%
+preview.  So,
+ 
+
+00:01:48.044 --> 00:01:49.369 align:start position:0%
+preview.  So,
+let's <00:01:48.612><c>talk</c>
+
+00:01:49.369 --> 00:01:49.407 align:start position:0%
+let's talk
+ 
+
+00:01:49.407 --> 00:01:50.732 align:start position:0%
+let's talk
+about <00:01:49.728><c>Open </c><00:01:50.049><c>Graph </c><00:01:50.370><c>meta </c><00:01:50.691><c>tags.</c>
+
+00:01:50.732 --> 00:01:53.316 align:start position:0%
+about Open Graph meta tags.
+ 
+
+00:01:53.316 --> 00:01:54.563 align:start position:0%
+ 
+Open <00:01:53.536><c>Graph </c><00:01:53.756><c>meta </c><00:01:53.976><c>tags </c><00:01:54.196><c>are </c><00:01:54.416><c>a</c>
+
+00:01:54.563 --> 00:01:54.599 align:start position:0%
+Open Graph meta tags are a
+ 
+
+00:01:54.599 --> 00:01:55.956 align:start position:0%
+Open Graph meta tags are a
+set <00:01:54.826><c>of </c><00:01:55.053><c>meta </c><00:01:55.280><c>tags </c><00:01:55.507><c>that </c><00:01:55.734><c>are</c>
+
+00:01:55.956 --> 00:01:55.993 align:start position:0%
+set of meta tags that are
+ 
+
+00:01:55.993 --> 00:01:56.837 align:start position:0%
+set of meta tags that are
+added <00:01:56.690><c>to</c>
+
+00:01:56.837 --> 00:01:56.873 align:start position:0%
+added to
+ 
+
+00:01:56.873 --> 00:01:57.753 align:start position:0%
+added to
+the <00:01:57.084><c>head </c><00:01:57.295><c>of </c><00:01:57.506><c>an </c><00:01:57.717><c>HTML</c>
+
+00:01:57.753 --> 00:01:59.184 align:start position:0%
+the head of an HTML
+document <00:01:58.248><c>to </c><00:01:58.743><c>provide</c>
+
+00:01:59.184 --> 00:01:59.221 align:start position:0%
+document to provide
+ 
+
+00:01:59.221 --> 00:02:00.651 align:start position:0%
+document to provide
+additional <00:01:59.917><c>information</c>
+
+00:02:00.651 --> 00:02:00.688 align:start position:0%
+additional information
+ 
+
+00:02:00.688 --> 00:02:01.861 align:start position:0%
+additional information
+about <00:02:00.871><c>the </c><00:02:01.054><c>appearance </c><00:02:01.237><c>of </c><00:02:01.420><c>the</c>
+
+00:02:01.861 --> 00:02:01.898 align:start position:0%
+about the appearance of the
+ 
+
+00:02:01.898 --> 00:02:07.041 align:start position:0%
+about the appearance of the
+page <00:02:04.403><c>content.  </c><00:02:06.908><c>This</c>
+
+00:02:07.041 --> 00:02:07.074 align:start position:0%
+page content.  This
+ 
+
+00:02:07.074 --> 00:02:08.164 align:start position:0%
+page content.  This
+information <00:02:07.421><c>can </c><00:02:07.768><c>be</c>
+
+00:02:08.164 --> 00:02:08.198 align:start position:0%
+information can be
+ 
+
+00:02:08.198 --> 00:02:09.189 align:start position:0%
+information can be
+used
+
+00:02:09.189 --> 00:02:09.222 align:start position:0%
+used
+ 
+
+00:02:09.222 --> 00:02:10.280 align:start position:0%
+used
+by <00:02:09.420><c>social </c><00:02:09.618><c>networks </c><00:02:09.816><c>or </c><00:02:10.014><c>other</c>
+
+00:02:10.280 --> 00:02:10.313 align:start position:0%
+by social networks or other
+ 
+
+00:02:10.313 --> 00:02:11.503 align:start position:0%
+by social networks or other
+sites <00:02:10.511><c>to </c><00:02:10.709><c>create </c><00:02:10.907><c>an</c>
+
+00:02:11.503 --> 00:02:11.536 align:start position:0%
+sites to create an
+ 
+
+00:02:11.536 --> 00:02:12.263 align:start position:0%
+sites to create an
+extended
+
+00:02:12.263 --> 00:02:12.296 align:start position:0%
+extended
+ 
+
+00:02:12.296 --> 00:02:13.089 align:start position:0%
+extended
+
+
+00:02:13.089 --> 00:02:13.122 align:start position:0%
+ 
+ 
+
+00:02:13.122 --> 00:02:14.081 align:start position:0%
+ 
+preview, <00:02:13.397><c>such </c><00:02:13.672><c>as </c><00:02:13.947><c>a</c>
+
+00:02:14.081 --> 00:02:14.114 align:start position:0%
+preview, such as a
+ 
+
+00:02:14.114 --> 00:02:15.072 align:start position:0%
+preview, such as a
+title, <00:02:15.039><c>description,</c>
+
+00:02:15.072 --> 00:02:15.105 align:start position:0%
+title, description,
+ 
+
+00:02:15.105 --> 00:02:16.328 align:start position:0%
+title, description,
+image, <00:02:15.650><c>video, </c><00:02:16.195><c>or</c>
+
+00:02:16.328 --> 00:02:16.361 align:start position:0%
+image, video, or
+ 
+
+00:02:16.361 --> 00:02:22.277 align:start position:0%
+image, video, or
+other <00:02:19.198><c>details.  </c><00:02:22.035><c>To</c>
+
+00:02:22.277 --> 00:02:22.317 align:start position:0%
+other details.  To
+ 
+
+00:02:22.317 --> 00:02:23.485 align:start position:0%
+other details.  To
+start <00:02:22.841><c>adding</c>
+
+00:02:23.485 --> 00:02:23.525 align:start position:0%
+start adding
+ 
+
+00:02:23.525 --> 00:02:25.055 align:start position:0%
+start adding
+Open <00:02:23.773><c>Graph </c><00:02:24.021><c>meta </c><00:02:24.269><c>tags </c><00:02:24.517><c>to </c><00:02:24.765><c>an </c><00:02:25.013><c>HTML</c>
+
+00:02:25.055 --> 00:02:25.820 align:start position:0%
+Open Graph meta tags to an HTML
+document,
+
+00:02:25.820 --> 00:02:25.860 align:start position:0%
+document,
+ 
+
+00:02:25.860 --> 00:02:26.988 align:start position:0%
+document,
+use the
+
+00:02:26.988 --> 00:02:27.028 align:start position:0%
+use the
+ 
+
+00:02:27.028 --> 00:02:27.914 align:start position:0%
+use the
+meta <00:02:27.296><c>element </c><00:02:27.564><c>with </c><00:02:27.832><c>the</c>
+
+00:02:27.914 --> 00:02:27.954 align:start position:0%
+meta element with the
+ 
+
+00:02:27.954 --> 00:02:29.082 align:start position:0%
+meta element with the
+property <00:02:29.041><c>attribute.</c>
+
+00:02:29.082 --> 00:02:33.528 align:start position:0%
+property attribute.
+ 
+
+00:02:33.528 --> 00:02:34.587 align:start position:0%
+ 
+Set <00:02:33.911><c>the </c><00:02:34.294><c>property</c>
+
+00:02:34.587 --> 00:02:34.624 align:start position:0%
+Set the property
+ 
+
+00:02:34.624 --> 00:02:35.355 align:start position:0%
+Set the property
+to <00:02:34.971><c>"og" </c><00:02:35.318><c>(</c>
+
+00:02:35.355 --> 00:02:36.780 align:start position:0%
+to "og" (
+short <00:02:35.817><c>for </c><00:02:36.279><c>Open </c><00:02:36.741><c>Graph)</c>
+
+00:02:36.780 --> 00:02:38.132 align:start position:0%
+short for Open Graph)
+and <00:02:37.063><c>then </c><00:02:37.346><c>specify </c><00:02:37.629><c>the </c><00:02:37.912><c>type</c>
+
+00:02:38.132 --> 00:02:38.168 align:start position:0%
+and then specify the type
+ 
+
+00:02:38.168 --> 00:02:39.593 align:start position:0%
+and then specify the type
+of <00:02:38.414><c>content </c><00:02:38.660><c>you </c><00:02:38.906><c>want </c><00:02:39.152><c>to</c>
+
+00:02:39.593 --> 00:02:39.630 align:start position:0%
+of content you want to
+ 
+
+00:02:39.630 --> 00:02:43.976 align:start position:0%
+of content you want to
+display.  <00:02:43.760><c>This</c>
+
+00:02:43.976 --> 00:02:44.012 align:start position:0%
+display.  This
+ 
+
+00:02:44.012 --> 00:02:45.421 align:start position:0%
+display.  This
+meta <00:02:44.192><c>tag </c><00:02:44.372><c>uses </c><00:02:44.552><c>the</c>
+
+00:02:45.421 --> 00:02:45.457 align:start position:0%
+meta tag uses the
+ 
+
+00:02:45.457 --> 00:02:46.793 align:start position:0%
+meta tag uses the
+"og:title" <00:02:46.757><c>property</c>
+
+00:02:46.793 --> 00:02:46.829 align:start position:0%
+"og:title" property
+ 
+
+00:02:46.829 --> 00:02:47.587 align:start position:0%
+"og:title" property
+to <00:02:47.082><c>specify</c>
+
+00:02:47.587 --> 00:02:47.623 align:start position:0%
+to specify
+ 
+
+00:02:47.623 --> 00:02:49.032 align:start position:0%
+to specify
+the <00:02:47.957><c>page </c><00:02:48.291><c>title, </c><00:02:48.625><c>and </c><00:02:48.959><c>the</c>
+
+00:02:49.032 --> 00:02:49.068 align:start position:0%
+the page title, and the
+ 
+
+00:02:49.068 --> 00:02:50.259 align:start position:0%
+the page title, and the
+content <00:02:49.344><c>attribute </c><00:02:49.620><c>provides </c><00:02:49.896><c>a</c>
+
+00:02:50.259 --> 00:02:50.295 align:start position:0%
+content attribute provides a
+ 
+
+00:02:50.295 --> 00:02:51.451 align:start position:0%
+content attribute provides a
+value <00:02:50.728><c>for </c><00:02:51.161><c>this</c>
+
+00:02:51.451 --> 00:02:51.487 align:start position:0%
+value for this
+ 
+
+00:02:51.487 --> 00:02:54.459 align:start position:0%
+value for this
+property.  <00:02:54.331><c>You</c>
+
+00:02:54.459 --> 00:02:54.491 align:start position:0%
+property.  You
+ 
+
+00:02:54.491 --> 00:02:55.292 align:start position:0%
+property.  You
+can <00:02:54.907><c>add</c>
+
+00:02:55.292 --> 00:02:55.324 align:start position:0%
+can add
+ 
+
+00:02:55.324 --> 00:02:56.317 align:start position:0%
+can add
+as <00:02:55.805><c>many</c>
+
+00:02:56.317 --> 00:02:56.349 align:start position:0%
+as many
+ 
+
+00:02:56.349 --> 00:02:57.439 align:start position:0%
+as many
+Open <00:02:56.486><c>Graph </c><00:02:56.623><c>meta </c><00:02:56.760><c>tags </c><00:02:56.897><c>as </c><00:02:57.034><c>you </c><00:02:57.171><c>want </c><00:02:57.308><c>to</c>
+
+00:02:57.439 --> 00:02:57.471 align:start position:0%
+Open Graph meta tags as you want to
+ 
+
+00:02:57.471 --> 00:02:58.657 align:start position:0%
+Open Graph meta tags as you want to
+a <00:02:57.655><c>document, </c><00:02:57.839><c>and </c><00:02:58.023><c>the </c><00:02:58.207><c>system</c>
+
+00:02:58.657 --> 00:02:58.689 align:start position:0%
+a document, and the system
+ 
+
+00:02:58.689 --> 00:02:59.778 align:start position:0%
+a document, and the system
+will use the
+
+00:02:59.778 --> 00:02:59.810 align:start position:0%
+will use the
+ 
+
+00:02:59.810 --> 00:03:00.932 align:start position:0%
+will use the
+last
+
+00:03:00.932 --> 00:03:00.964 align:start position:0%
+last
+ 
+
+00:03:00.964 --> 00:03:02.299 align:start position:0%
+last
+tag <00:03:01.143><c>found.  </c><00:03:01.322><c>So </c><00:03:01.501><c>duplicates </c><00:03:01.680><c>are</c>
+
+00:03:02.299 --> 00:03:02.333 align:start position:0%
+tag found.  So duplicates are
+ 
+
+00:03:02.333 --> 00:03:03.429 align:start position:0%
+tag found.  So duplicates are
+perfectly <00:03:03.394><c>acceptable.</c>
+
+00:03:03.429 --> 00:03:03.529 align:start position:0%
+perfectly acceptable.
+ 
+
+00:03:03.529 --> 00:03:04.609 align:start position:0%
+perfectly acceptable.
+There's <00:03:03.912><c>no</c>
+
+00:03:04.609 --> 00:03:04.644 align:start position:0%
+There's no
+ 
+
+00:03:04.644 --> 00:03:06.003 align:start position:0%
+There's no
+point <00:03:05.085><c>in </c><00:03:05.526><c>having </c><00:03:05.967><c>duplicates,</c>
+
+00:03:06.003 --> 00:03:06.038 align:start position:0%
+point in having duplicates,
+ 
+
+00:03:06.038 --> 00:03:07.084 align:start position:0%
+point in having duplicates,
+but <00:03:06.290><c>just </c><00:03:06.542><c>so </c><00:03:06.794><c>you </c><00:03:07.046><c>know,</c>
+
+00:03:07.084 --> 00:03:07.119 align:start position:0%
+but just so you know,
+ 
+
+00:03:07.119 --> 00:03:07.990 align:start position:0%
+but just so you know,
+the <00:03:07.249><c>system </c><00:03:07.379><c>will </c><00:03:07.509><c>choose </c><00:03:07.639><c>the</c>
+
+00:03:07.990 --> 00:03:08.025 align:start position:0%
+the system will choose the
+ 
+
+00:03:08.025 --> 00:03:11.500 align:start position:0%
+the system will choose the
+last <00:03:08.839><c>one.  </c><00:03:09.653><c>Here </c><00:03:10.467><c>is </c><00:03:11.281><c>a</c>
+
+00:03:11.500 --> 00:03:11.537 align:start position:0%
+last one.  Here is a
+ 
+
+00:03:11.537 --> 00:03:11.977 align:start position:0%
+last one.  Here is a
+list of
+
+00:03:11.977 --> 00:03:12.014 align:start position:0%
+list of
+ 
+
+00:03:12.014 --> 00:03:13.040 align:start position:0%
+list of
+the most common
+
+00:03:13.040 --> 00:03:13.077 align:start position:0%
+the most common
+ 
+
+00:03:13.077 --> 00:03:15.534 align:start position:0%
+the most common
+Open <00:03:14.267><c>Graph </c><00:03:15.457><c>properties.</c>
+
+00:03:15.534 --> 00:03:15.573 align:start position:0%
+Open Graph properties.
+ 
+
+00:03:15.573 --> 00:03:17.085 align:start position:0%
+Open Graph properties.
+We <00:03:15.836><c>have </c><00:03:16.099><c>an </c><00:03:16.362><c>Open </c><00:03:16.625><c>Graph </c><00:03:16.888><c>header</c>
+
+00:03:17.085 --> 00:03:18.403 align:start position:0%
+We have an Open Graph header
+, <00:03:17.193><c>which </c><00:03:17.301><c>is </c><00:03:17.409><c>the </c><00:03:17.517><c>title </c><00:03:17.625><c>of</c>
+
+00:03:18.403 --> 00:03:18.441 align:start position:0%
+, which is the title of
+ 
+
+00:03:18.441 --> 00:03:19.848 align:start position:0%
+, which is the title of
+the <00:03:18.844><c>page.  </c><00:03:19.247><c>It </c><00:03:19.650><c>should</c>
+
+00:03:19.848 --> 00:03:19.881 align:start position:0%
+the page.  It should
+ 
+
+00:03:19.881 --> 00:03:21.093 align:start position:0%
+the page.  It should
+be <00:03:20.263><c>very </c><00:03:20.645><c>short </c><00:03:21.027><c>and</c>
+
+00:03:21.093 --> 00:03:21.126 align:start position:0%
+be very short and
+ 
+
+00:03:21.126 --> 00:03:21.912 align:start position:0%
+be very short and
+descriptive <00:03:21.715><c>to</c>
+
+00:03:21.912 --> 00:03:21.944 align:start position:0%
+descriptive to
+ 
+
+00:03:21.944 --> 00:03:23.091 align:start position:0%
+descriptive to
+summarize <00:03:22.386><c>all </c><00:03:22.828><c>the</c>
+
+00:03:23.091 --> 00:03:23.123 align:start position:0%
+summarize all the
+ 
+
+00:03:23.123 --> 00:03:25.534 align:start position:0%
+summarize all the
+content.  <00:03:23.816><c>We </c><00:03:24.509><c>have </c><00:03:25.202><c>an</c>
+
+00:03:25.534 --> 00:03:25.575 align:start position:0%
+content.  We have an
+ 
+
+00:03:25.575 --> 00:03:27.142 align:start position:0%
+content.  We have an
+Open <00:03:25.806><c>Graph </c><00:03:26.037><c>description, </c><00:03:26.268><c>which </c><00:03:26.499><c>is </c><00:03:26.730><c>a</c>
+
+00:03:27.142 --> 00:03:27.183 align:start position:0%
+Open Graph description, which is a
+ 
+
+00:03:27.183 --> 00:03:28.667 align:start position:0%
+Open Graph description, which is a
+short <00:03:27.451><c>description </c><00:03:27.719><c>of </c><00:03:27.987><c>the </c><00:03:28.255><c>entire</c>
+
+00:03:28.667 --> 00:03:28.709 align:start position:0%
+short description of the entire
+ 
+
+00:03:28.709 --> 00:03:30.720 align:start position:0%
+short description of the entire
+page.  <00:03:29.293><c>This </c><00:03:29.877><c>should </c><00:03:30.461><c>be</c>
+
+00:03:30.720 --> 00:03:30.752 align:start position:0%
+page.  This should be
+ 
+
+00:03:30.752 --> 00:03:31.818 align:start position:0%
+page.  This should be
+a <00:03:31.042><c>few </c><00:03:31.332><c>sentences </c><00:03:31.622><c>that</c>
+
+00:03:31.818 --> 00:03:31.850 align:start position:0%
+a few sentences that
+ 
+
+00:03:31.850 --> 00:03:32.721 align:start position:0%
+a few sentences that
+provide <00:03:32.334><c>more</c>
+
+00:03:32.721 --> 00:03:32.754 align:start position:0%
+provide more
+ 
+
+00:03:32.754 --> 00:03:33.786 align:start position:0%
+provide more
+details <00:03:32.931><c>about </c><00:03:33.108><c>the </c><00:03:33.285><c>content </c><00:03:33.462><c>of</c>
+
+00:03:33.786 --> 00:03:33.819 align:start position:0%
+details about the content of
+ 
+
+00:03:33.819 --> 00:03:37.964 align:start position:0%
+details about the content of
+your <00:03:35.774><c>page.  </c><00:03:37.729><c>We</c>
+
+00:03:37.964 --> 00:03:38.003 align:start position:0%
+your page.  We
+ 
+
+00:03:38.003 --> 00:03:39.365 align:start position:0%
+your page.  We
+have <00:03:38.267><c>the </c><00:03:38.531><c>OG </c><00:03:38.795><c>image, </c><00:03:39.059><c>which </c><00:03:39.323><c>of</c>
+
+00:03:39.365 --> 00:03:39.404 align:start position:0%
+have the OG image, which of
+ 
+
+00:03:39.404 --> 00:03:40.066 align:start position:0%
+have the OG image, which of
+course
+
+00:03:40.066 --> 00:03:40.105 align:start position:0%
+course
+ 
+
+00:03:40.105 --> 00:03:41.234 align:start position:0%
+course
+represents <00:03:40.553><c>the </c><00:03:41.001><c>entire</c>
+
+00:03:41.234 --> 00:03:41.273 align:start position:0%
+represents the entire
+ 
+
+00:03:41.273 --> 00:03:42.753 align:start position:0%
+represents the entire
+page, <00:03:41.545><c>as </c><00:03:41.817><c>well </c><00:03:42.089><c>as </c><00:03:42.361><c>the </c><00:03:42.633><c>URL—</c>
+
+00:03:42.753 --> 00:03:43.843 align:start position:0%
+page, as well as the URL—
+the <00:03:43.064><c>link </c><00:03:43.375><c>to </c><00:03:43.686><c>that</c>
+
+00:03:43.843 --> 00:03:43.882 align:start position:0%
+the link to that
+ 
+
+00:03:43.882 --> 00:03:48.004 align:start position:0%
+the link to that
+page.  <00:03:47.546><c>Pretty</c>
+
+00:03:48.004 --> 00:03:48.042 align:start position:0%
+page.  Pretty
+ 
+
+00:03:48.042 --> 00:03:52.021 align:start position:0%
+page.  Pretty
+obvious.  <00:03:51.831><c>To</c>
+
+00:03:52.021 --> 00:03:52.052 align:start position:0%
+obvious.  To
+ 
+
+00:03:52.052 --> 00:03:53.162 align:start position:0%
+obvious.  To
+understand <00:03:52.512><c>which </c><00:03:52.972><c>tag</c>
+
+00:03:53.162 --> 00:03:53.194 align:start position:0%
+understand which tag
+ 
+
+00:03:53.194 --> 00:03:54.367 align:start position:0%
+understand which tag
+applies <00:03:53.764><c>to </c><00:03:54.334><c>what,</c>
+
+00:03:54.367 --> 00:03:54.398 align:start position:0%
+applies to what,
+ 
+
+00:03:54.398 --> 00:03:55.603 align:start position:0%
+applies to what,
+let's <00:03:54.667><c>take </c><00:03:54.936><c>a </c><00:03:55.205><c>look </c><00:03:55.474><c>at</c>
+
+00:03:55.603 --> 00:03:55.635 align:start position:0%
+let's take a look at
+ 
+
+00:03:55.635 --> 00:03:56.808 align:start position:0%
+let's take a look at
+my <00:03:56.205><c>improved </c><00:03:56.775><c>tweet.</c>
+
+00:03:56.808 --> 00:04:00.774 align:start position:0%
+my improved tweet.
+ 
+
+00:04:00.774 --> 00:04:01.661 align:start position:0%
+ 
+We <00:04:01.018><c>see </c><00:04:01.262><c>that </c><00:04:01.506><c>the</c>
+
+00:04:01.661 --> 00:04:01.700 align:start position:0%
+We see that the
+ 
+
+00:04:01.700 --> 00:04:03.204 align:start position:0%
+We see that the
+OG <00:04:01.999><c>image </c><00:04:02.298><c>is </c><00:04:02.597><c>just </c><00:04:02.896><c>that</c>
+
+00:04:03.204 --> 00:04:03.243 align:start position:0%
+OG image is just that
+ 
+
+00:04:03.243 --> 00:04:04.516 align:start position:0%
+OG image is just that
+, <00:04:03.641><c>the </c><00:04:04.039><c>OG </c><00:04:04.437><c>description</c>
+
+00:04:04.516 --> 00:04:04.555 align:start position:0%
+, the OG description
+ 
+
+00:04:04.555 --> 00:04:05.828 align:start position:0%
+, the OG description
+has <00:04:04.953><c>more </c><00:04:05.351><c>space </c><00:04:05.749><c>and</c>
+
+00:04:05.828 --> 00:04:05.867 align:start position:0%
+has more space and
+ 
+
+00:04:05.867 --> 00:04:06.947 align:start position:0%
+has more space and
+can <00:04:06.098><c>be </c><00:04:06.329><c>a </c><00:04:06.560><c>bit</c>
+
+00:04:06.947 --> 00:04:06.986 align:start position:0%
+can be a bit
+ 
+
+00:04:06.986 --> 00:04:08.452 align:start position:0%
+can be a bit
+longer, <00:04:07.263><c>and </c><00:04:07.540><c>the </c><00:04:07.817><c>OG </c><00:04:08.094><c>title </c><00:04:08.371><c>is</c>
+
+00:04:08.452 --> 00:04:13.059 align:start position:0%
+longer, and the OG title is
+short.  <00:04:09.961><c>The </c><00:04:11.470><c>OG </c><00:04:12.979><c>URL</c>
+
+00:04:13.059 --> 00:04:13.099 align:start position:0%
+short.  The OG URL
+ 
+
+00:04:13.099 --> 00:04:14.498 align:start position:0%
+short.  The OG URL
+is <00:04:13.679><c>displayed </c><00:04:14.259><c>below</c>
+
+00:04:14.498 --> 00:04:14.538 align:start position:0%
+is displayed below
+ 
+
+00:04:14.538 --> 00:04:16.058 align:start position:0%
+is displayed below
+the <00:04:15.031><c>image, </c><00:04:15.524><c>right </c><00:04:16.017><c>here.</c>
+
+00:04:16.058 --> 00:04:18.914 align:start position:0%
+the image, right here.
+ 
+
+00:04:18.914 --> 00:04:19.966 align:start position:0%
+ 
+In <00:04:19.197><c>addition </c><00:04:19.480><c>to </c><00:04:19.763><c>these</c>
+
+00:04:19.966 --> 00:04:20.000 align:start position:0%
+In addition to these
+ 
+
+00:04:20.000 --> 00:04:21.223 align:start position:0%
+In addition to these
+properties, <00:04:20.442><c>there </c><00:04:20.884><c>are</c>
+
+00:04:21.223 --> 00:04:21.257 align:start position:0%
+properties, there are
+ 
+
+00:04:21.257 --> 00:04:22.038 align:start position:0%
+properties, there are
+many <00:04:21.699><c>other</c>
+
+00:04:22.038 --> 00:04:22.072 align:start position:0%
+many other
+ 
+
+00:04:22.072 --> 00:04:23.295 align:start position:0%
+many other
+Open <00:04:22.666><c>Graph </c><00:04:23.260><c>properties</c>
+
+00:04:23.295 --> 00:04:23.329 align:start position:0%
+Open Graph properties
+ 
+
+00:04:23.329 --> 00:04:23.906 align:start position:0%
+Open Graph properties
+that <00:04:23.448><c>can </c><00:04:23.567><c>be</c>
+
+00:04:23.906 --> 00:04:23.940 align:start position:0%
+that can be
+ 
+
+00:04:23.940 --> 00:04:25.197 align:start position:0%
+that can be
+used <00:04:24.993><c>to</c>
+
+00:04:25.197 --> 00:04:25.231 align:start position:0%
+used to
+ 
+
+00:04:25.231 --> 00:04:26.488 align:start position:0%
+used to
+specify <00:04:25.809><c>additional</c>
+
+00:04:26.488 --> 00:04:26.522 align:start position:0%
+specify additional
+ 
+
+00:04:26.522 --> 00:04:27.235 align:start position:0%
+specify additional
+information,
+
+00:04:27.235 --> 00:04:27.269 align:start position:0%
+information,
+ 
+
+00:04:27.269 --> 00:04:28.152 align:start position:0%
+information,
+such <00:04:27.608><c>as </c><00:04:27.947><c>the</c>
+
+00:04:28.152 --> 00:04:28.186 align:start position:0%
+such as the
+ 
+
+00:04:28.186 --> 00:04:30.198 align:start position:0%
+such as the
+page <00:04:28.650><c>type.  </c><00:04:29.114><c>Is </c><00:04:29.578><c>this </c><00:04:30.042><c>an</c>
+
+00:04:30.198 --> 00:04:30.237 align:start position:0%
+page type.  Is this an
+ 
+
+00:04:30.237 --> 00:04:31.508 align:start position:0%
+page type.  Is this an
+article, <00:04:30.853><c>for </c><00:04:31.469><c>example?</c>
+
+00:04:31.508 --> 00:04:33.341 align:start position:0%
+article, for example?
+ 
+
+00:04:33.341 --> 00:04:34.516 align:start position:0%
+ 
+Or <00:04:33.569><c>the </c><00:04:33.797><c>author </c><00:04:34.025><c>of </c><00:04:34.253><c>the </c><00:04:34.481><c>page,</c>
+
+00:04:34.516 --> 00:04:34.550 align:start position:0%
+Or the author of the page,
+ 
+
+00:04:34.550 --> 00:04:35.725 align:start position:0%
+Or the author of the page,
+or <00:04:34.930><c>the </c><00:04:35.310><c>publication </c><00:04:35.690><c>date</c>
+
+00:04:35.725 --> 00:04:35.759 align:start position:0%
+or the publication date
+ 
+
+00:04:35.759 --> 00:04:36.632 align:start position:0%
+or the publication date
+when <00:04:36.061><c>it </c><00:04:36.363><c>was</c>
+
+00:04:36.632 --> 00:04:36.666 align:start position:0%
+when it was
+ 
+
+00:04:36.666 --> 00:04:37.506 align:start position:0%
+when it was
+published,
+
+00:04:37.506 --> 00:04:37.539 align:start position:0%
+published,
+ 
+
+00:04:37.539 --> 00:04:40.649 align:start position:0%
+published,
+for <00:04:38.437><c>example.  </c><00:04:39.335><c>A </c><00:04:40.233><c>full</c>
+
+00:04:40.649 --> 00:04:40.684 align:start position:0%
+for example.  A full
+ 
+
+00:04:40.684 --> 00:04:41.934 align:start position:0%
+for example.  A full
+list <00:04:40.962><c>can </c><00:04:41.240><c>be </c><00:04:41.518><c>found</c>
+
+00:04:41.934 --> 00:04:41.969 align:start position:0%
+list can be found
+ 
+
+00:04:41.969 --> 00:04:42.698 align:start position:0%
+list can be found
+on <00:04:42.143><c>the</c>
+
+00:04:42.698 --> 00:04:42.733 align:start position:0%
+on the
+ 
+
+00:04:42.733 --> 00:04:46.719 align:start position:0%
+on the
+Open <00:04:43.694><c>Graph </c><00:04:44.655><c>protocols </c><00:04:45.616><c>website.  </c><00:04:46.577><c>As</c>
+
+00:04:46.719 --> 00:04:46.753 align:start position:0%
+Open Graph protocols website.  As
+ 
+
+00:04:46.753 --> 00:04:47.901 align:start position:0%
+Open Graph protocols website.  As
+you <00:04:46.953><c>can </c><00:04:47.153><c>see, </c><00:04:47.353><c>they </c><00:04:47.553><c>also</c>
+
+00:04:47.901 --> 00:04:47.935 align:start position:0%
+you can see, they also
+ 
+
+00:04:47.935 --> 00:04:48.944 align:start position:0%
+you can see, they also
+show <00:04:48.265><c>the </c><00:04:48.595><c>first</c>
+
+00:04:48.944 --> 00:04:48.978 align:start position:0%
+show the first
+ 
+
+00:04:48.978 --> 00:04:49.848 align:start position:0%
+show the first
+four <00:04:49.343><c>that </c><00:04:49.708><c>we</c>
+
+00:04:49.848 --> 00:04:49.882 align:start position:0%
+four that we
+ 
+
+00:04:49.882 --> 00:04:51.134 align:start position:0%
+four that we
+discussed, <00:04:50.253><c>and </c><00:04:50.624><c>there </c><00:04:50.995><c>are</c>
+
+00:04:51.134 --> 00:04:51.169 align:start position:0%
+discussed, and there are
+ 
+
+00:04:51.169 --> 00:04:51.968 align:start position:0%
+discussed, and there are
+many <00:04:51.621><c>other</c>
+
+00:04:51.968 --> 00:04:52.003 align:start position:0%
+many other
+ 
+
+00:04:52.003 --> 00:04:53.151 align:start position:0%
+many other
+meta <00:04:52.269><c>tags </c><00:04:52.535><c>that </c><00:04:52.801><c>you</c>
+
+00:04:53.151 --> 00:04:53.185 align:start position:0%
+meta tags that you
+ 
+
+00:04:53.185 --> 00:04:54.298 align:start position:0%
+meta tags that you
+can
+
+00:04:54.298 --> 00:04:54.333 align:start position:0%
+can
+ 
+
+00:04:54.333 --> 00:04:59.630 align:start position:0%
+can
+do <00:04:55.163><c>a </c><00:04:55.993><c>lot </c><00:04:56.823><c>with, </c><00:04:57.653><c>but </c><00:04:58.483><c>the </c><00:04:59.313><c>first</c>
+
+00:04:59.630 --> 00:04:59.662 align:start position:0%
+do a lot with, but the first
+ 
+
+00:04:59.662 --> 00:05:00.131 align:start position:0%
+do a lot with, but the first
+four <00:04:59.865><c>are </c><00:05:00.068><c>the</c>
+
+00:05:00.131 --> 00:05:00.163 align:start position:0%
+four are the
+ 
+
+00:05:00.163 --> 00:05:01.289 align:start position:0%
+four are the
+most <00:05:00.632><c>important </c><00:05:01.101><c>to</c>
+
+00:05:01.289 --> 00:05:01.321 align:start position:0%
+most important to
+ 
+
+00:05:01.321 --> 00:05:02.228 align:start position:0%
+most important to
+get <00:05:01.587><c>a </c><00:05:01.853><c>good</c>
+
+00:05:02.228 --> 00:05:02.259 align:start position:0%
+get a good
+ 
+
+00:05:02.259 --> 00:05:03.449 align:start position:0%
+get a good
+preview
+
+00:05:03.449 --> 00:05:03.480 align:start position:0%
+preview
+ 
+
+00:05:03.480 --> 00:05:04.607 align:start position:0%
+preview
+when <00:05:03.793><c>someone </c><00:05:04.106><c>shares</c>
+
+00:05:04.607 --> 00:05:04.638 align:start position:0%
+when someone shares
+ 
+
+00:05:04.638 --> 00:05:05.640 align:start position:0%
+when someone shares
+your <00:05:05.608><c>link.</c>
+
+00:05:05.640 --> 00:05:07.847 align:start position:0%
+your link.
+ 
+
+00:05:07.847 --> 00:05:09.108 align:start position:0%
+ 
+For <00:05:08.131><c>example, </c><00:05:08.415><c>we </c><00:05:08.699><c>can</c>
+
+00:05:09.108 --> 00:05:09.142 align:start position:0%
+For example, we can
+ 
+
+00:05:09.142 --> 00:05:09.926 align:start position:0%
+For example, we can
+take <00:05:09.304><c>a </c><00:05:09.466><c>look </c><00:05:09.628><c>at </c><00:05:09.790><c>the</c>
+
+00:05:09.926 --> 00:05:09.960 align:start position:0%
+take a look at the
+ 
+
+00:05:09.960 --> 00:05:11.052 align:start position:0%
+take a look at the
+Open <00:05:10.198><c>Graph </c><00:05:10.436><c>meta </c><00:05:10.674><c>tags </c><00:05:10.912><c>on</c>
+
+00:05:11.052 --> 00:05:11.086 align:start position:0%
+Open Graph meta tags on
+ 
+
+00:05:11.086 --> 00:05:12.245 align:start position:0%
+Open Graph meta tags on
+my <00:05:11.449><c>site </c><00:05:11.812><c>when </c><00:05:12.175><c>I'm</c>
+
+00:05:12.245 --> 00:05:12.279 align:start position:0%
+my site when I'm
+ 
+
+00:05:12.279 --> 00:05:13.371 align:start position:0%
+my site when I'm
+done.  <00:05:12.688><c>And </c><00:05:13.097><c>they</c>
+
+00:05:13.371 --> 00:05:13.406 align:start position:0%
+done.  And they
+ 
+
+00:05:13.406 --> 00:05:14.602 align:start position:0%
+done.  And they
+look <00:05:13.986><c>like </c><00:05:14.566><c>this.</c>
+
+00:05:14.602 --> 00:05:16.232 align:start position:0%
+look like this.
+ 
+
+00:05:16.232 --> 00:05:16.839 align:start position:0%
+ 
+You <00:05:16.410><c>can</c>
+
+00:05:16.839 --> 00:05:16.875 align:start position:0%
+You can
+ 
+
+00:05:16.875 --> 00:05:17.876 align:start position:0%
+You can
+view <00:05:17.358><c>them </c><00:05:17.841><c>by</c>
+
+00:05:17.876 --> 00:05:17.912 align:start position:0%
+view them by
+ 
+
+00:05:17.912 --> 00:05:18.556 align:start position:0%
+view them by
+opening the
+
+00:05:18.556 --> 00:05:18.592 align:start position:0%
+opening the
+ 
+
+00:05:18.592 --> 00:05:19.378 align:start position:0%
+opening the
+
+
+00:05:19.378 --> 00:05:19.414 align:start position:0%
+ 
+ 
+
+00:05:19.414 --> 00:05:20.773 align:start position:0%
+ 
+developer <00:05:19.807><c>tools: </c><00:05:20.200><c>right-click</c>
+
+00:05:20.773 --> 00:05:22.096 align:start position:0%
+developer tools: right-click
+ 
+
+00:05:22.096 --> 00:05:22.132 align:start position:0%
+ 
+ 
+
+00:05:22.132 --> 00:05:22.990 align:start position:0%
+ 
+and <00:05:22.919><c>select</c>
+
+00:05:22.990 --> 00:05:24.027 align:start position:0%
+and select
+Inspect <00:05:23.813><c>or</c>
+
+00:05:24.027 --> 00:05:24.063 align:start position:0%
+Inspect or
+ 
+
+00:05:24.063 --> 00:05:27.637 align:start position:0%
+Inspect or
+press <00:05:25.152><c>F12.  </c><00:05:26.241><c>I </c><00:05:27.330><c>have</c>
+
+00:05:27.637 --> 00:05:27.675 align:start position:0%
+press F12.  I have
+ 
+
+00:05:27.675 --> 00:05:32.018 align:start position:0%
+press F12.  I have
+quite <00:05:28.527><c>a </c><00:05:29.379><c>few </c><00:05:30.231><c>of </c><00:05:31.083><c>them.  </c><00:05:31.935><c>And</c>
+
+00:05:32.018 --> 00:05:32.059 align:start position:0%
+quite a few of them.  And
+ 
+
+00:05:32.059 --> 00:05:32.797 align:start position:0%
+quite a few of them.  And
+actually the
+
+00:05:32.797 --> 00:05:32.838 align:start position:0%
+actually the
+ 
+
+00:05:32.838 --> 00:05:34.191 align:start position:0%
+actually the
+most <00:05:33.261><c>important </c><00:05:33.684><c>thing </c><00:05:34.107><c>I</c>
+
+00:05:34.191 --> 00:05:34.232 align:start position:0%
+most important thing I
+ 
+
+00:05:34.232 --> 00:05:35.831 align:start position:0%
+most important thing I
+want <00:05:34.621><c>you </c><00:05:35.010><c>to </c><00:05:35.399><c>notice </c><00:05:35.788><c>is:</c>
+
+00:05:35.831 --> 00:05:35.872 align:start position:0%
+want you to notice is:
+ 
+
+00:05:35.872 --> 00:05:37.348 align:start position:0%
+want you to notice is:
+some <00:05:36.134><c>of </c><00:05:36.396><c>them </c><00:05:36.658><c>are </c><00:05:36.920><c>OG </c><00:05:37.182><c>(Open</c>
+
+00:05:37.348 --> 00:05:37.389 align:start position:0%
+some of them are OG (Open
+ 
+
+00:05:37.389 --> 00:05:38.701 align:start position:0%
+some of them are OG (Open
+Graph), <00:05:37.600><c>and </c><00:05:37.811><c>some </c><00:05:38.022><c>of </c><00:05:38.233><c>them </c><00:05:38.444><c>are </c><00:05:38.655><c>Twitter.</c>
+
+00:05:38.701 --> 00:05:42.869 align:start position:0%
+Graph), and some of them are Twitter.
+ 
+
+00:05:42.869 --> 00:05:44.105 align:start position:0%
+ 
+For <00:05:43.208><c>example, </c><00:05:43.547><c>Twitter </c><00:05:43.886><c>has</c>
+
+00:05:44.105 --> 00:05:44.141 align:start position:0%
+For example, Twitter has
+ 
+
+00:05:44.141 --> 00:05:45.231 align:start position:0%
+For example, Twitter has
+its <00:05:44.492><c>own </c><00:05:44.843><c>meta </c><00:05:45.194><c>tags</c>
+
+00:05:45.231 --> 00:05:45.268 align:start position:0%
+its own meta tags
+ 
+
+00:05:45.268 --> 00:05:46.249 align:start position:0%
+its own meta tags
+specific <00:05:46.031><c>to</c>
+
+00:05:46.249 --> 00:05:46.286 align:start position:0%
+specific to
+ 
+
+00:05:46.286 --> 00:05:47.558 align:start position:0%
+specific to
+their <00:05:46.904><c>site </c><00:05:47.522><c>and</c>
+
+00:05:47.558 --> 00:05:47.594 align:start position:0%
+their site and
+ 
+
+00:05:47.594 --> 00:05:49.012 align:start position:0%
+their site and
+how <00:05:47.824><c>they </c><00:05:48.054><c>handle </c><00:05:48.284><c>them</c>
+
+00:05:49.012 --> 00:05:52.920 align:start position:0%
+how they handle them
+.  <00:05:49.713><c>This </c><00:05:50.414><c>is </c><00:05:51.115><c>something </c><00:05:51.816><c>to </c><00:05:52.517><c>take</c>
+
+00:05:52.920 --> 00:05:52.961 align:start position:0%
+.  This is something to take
+ 
+
+00:05:52.961 --> 00:05:56.030 align:start position:0%
+.  This is something to take
+into <00:05:54.305><c>account.  </c><00:05:55.649><c>Various</c>
+
+00:05:56.030 --> 00:05:56.061 align:start position:0%
+into account.  Various
+ 
+
+00:05:56.061 --> 00:05:57.263 align:start position:0%
+into account.  Various
+social <00:05:56.630><c>networks </c><00:05:57.199><c>have</c>
+
+00:05:57.263 --> 00:05:57.295 align:start position:0%
+social networks have
+ 
+
+00:05:57.295 --> 00:05:57.832 align:start position:0%
+social networks have
+so-called
+
+00:05:57.832 --> 00:05:57.864 align:start position:0%
+so-called
+ 
+
+00:05:57.864 --> 00:06:00.650 align:start position:0%
+so-called
+alternative <00:06:00.569><c>tags.</c>
+
+00:06:00.650 --> 00:06:00.690 align:start position:0%
+alternative tags.
+ 
+
+00:06:00.690 --> 00:06:01.989 align:start position:0%
+alternative tags.
+They <00:06:01.004><c>have </c><00:06:01.318><c>their </c><00:06:01.632><c>own </c><00:06:01.946><c>tags.</c>
+
+00:06:01.989 --> 00:06:02.825 align:start position:0%
+They have their own tags.
+ 
+
+00:06:02.825 --> 00:06:04.105 align:start position:0%
+They have their own tags.
+I <00:06:03.203><c>think </c><00:06:03.581><c>most </c><00:06:03.959><c>of</c>
+
+00:06:04.105 --> 00:06:04.142 align:start position:0%
+I think most of
+ 
+
+00:06:04.142 --> 00:06:05.533 align:start position:0%
+I think most of
+them <00:06:04.251><c>will </c><00:06:04.360><c>default </c><00:06:04.469><c>to </c><00:06:04.578><c>the</c>
+
+00:06:05.533 --> 00:06:05.569 align:start position:0%
+them will default to the
+ 
+
+00:06:05.569 --> 00:06:06.960 align:start position:0%
+them will default to the
+
+
+00:06:06.960 --> 00:06:06.996 align:start position:0%
+ 
+ 
+
+00:06:06.996 --> 00:06:08.094 align:start position:0%
+ 
+OG <00:06:07.142><c>tag </c><00:06:07.288><c>if </c><00:06:07.434><c>there </c><00:06:07.580><c>are </c><00:06:07.726><c>no</c>
+
+00:06:08.094 --> 00:06:08.131 align:start position:0%
+OG tag if there are no
+ 
+
+00:06:08.131 --> 00:06:11.980 align:start position:0%
+OG tag if there are no
+others.  <00:06:09.400><c>Um, </c><00:06:10.669><c>but </c><00:06:11.938><c>for</c>
+
+00:06:11.980 --> 00:06:12.020 align:start position:0%
+others.  Um, but for
+ 
+
+00:06:12.020 --> 00:06:13.450 align:start position:0%
+others.  Um, but for
+example, <00:06:12.714><c>for </c><00:06:13.408><c>Twitter,</c>
+
+00:06:13.450 --> 00:06:13.491 align:start position:0%
+example, for Twitter,
+ 
+
+00:06:13.491 --> 00:06:14.880 align:start position:0%
+example, for Twitter,
+if <00:06:14.063><c>you </c><00:06:14.635><c>want</c>
+
+00:06:14.880 --> 00:06:14.921 align:start position:0%
+if you want
+ 
+
+00:06:14.921 --> 00:06:15.738 align:start position:0%
+if you want
+the image to
+
+00:06:15.738 --> 00:06:15.779 align:start position:0%
+the image to
+ 
+
+00:06:15.779 --> 00:06:17.045 align:start position:0%
+the image to
+fill <00:06:16.248><c>the </c><00:06:16.717><c>entire</c>
+
+00:06:17.045 --> 00:06:17.086 align:start position:0%
+fill the entire
+ 
+
+00:06:17.086 --> 00:06:18.230 align:start position:0%
+fill the entire
+tweet <00:06:17.358><c>like </c><00:06:17.630><c>on </c><00:06:17.902><c>my</c>
+
+00:06:18.230 --> 00:06:18.271 align:start position:0%
+tweet like on my
+ 
+
+00:06:18.271 --> 00:06:19.578 align:start position:0%
+tweet like on my
+page,
+
+00:06:19.578 --> 00:06:19.619 align:start position:0%
+page,
+ 
+
+00:06:19.619 --> 00:06:20.640 align:start position:0%
+page,
+instead <00:06:19.850><c>of </c><00:06:20.081><c>being </c><00:06:20.312><c>a</c>
+
+00:06:20.640 --> 00:06:20.681 align:start position:0%
+instead of being a
+ 
+
+00:06:20.681 --> 00:06:22.193 align:start position:0%
+instead of being a
+small <00:06:21.457><c>picture</c>
+
+00:06:22.193 --> 00:06:22.233 align:start position:0%
+small picture
+ 
+
+00:06:22.233 --> 00:06:23.786 align:start position:0%
+small picture
+in <00:06:22.412><c>the </c><00:06:22.591><c>corner, </c><00:06:22.770><c>you </c><00:06:22.949><c>need </c><00:06:23.128><c>to</c>
+
+00:06:23.786 --> 00:06:23.827 align:start position:0%
+in the corner, you need to
+ 
+
+00:06:23.827 --> 00:06:25.216 align:start position:0%
+in the corner, you need to
+specify <00:06:24.051><c>the </c><00:06:24.275><c>Twitter </c><00:06:24.499><c>card </c><00:06:24.723><c>tag</c>
+
+00:06:25.216 --> 00:06:25.256 align:start position:0%
+specify the Twitter card tag
+ 
+
+00:06:25.256 --> 00:06:26.686 align:start position:0%
+specify the Twitter card tag
+and <00:06:25.889><c>specify </c><00:06:26.522><c>that</c>
+
+00:06:26.686 --> 00:06:26.727 align:start position:0%
+and specify that
+ 
+
+00:06:26.727 --> 00:06:27.667 align:start position:0%
+and specify that
+it <00:06:27.013><c>should </c><00:06:27.299><c>be </c><00:06:27.585><c>"</c>
+
+00:06:27.667 --> 00:06:28.974 align:start position:0%
+it should be "
+summary_large_image <00:06:27.953><c>", </c><00:06:28.239><c>as </c><00:06:28.525><c>you </c><00:06:28.811><c>can</c>
+
+00:06:28.974 --> 00:06:29.015 align:start position:0%
+summary_large_image ", as you can
+ 
+
+00:06:29.015 --> 00:06:30.322 align:start position:0%
+summary_large_image ", as you can
+see <00:06:29.423><c>I </c><00:06:29.831><c>did </c><00:06:30.239><c>in</c>
+
+00:06:30.322 --> 00:06:30.363 align:start position:0%
+see I did in
+ 
+
+00:06:30.363 --> 00:06:36.115 align:start position:0%
+see I did in
+my <00:06:32.268><c>meta </c><00:06:34.173><c>tag.  </c><00:06:36.078><c>So</c>
+
+00:06:36.115 --> 00:06:36.153 align:start position:0%
+my meta tag.  So
+ 
+
+00:06:36.153 --> 00:06:37.591 align:start position:0%
+my meta tag.  So
+to <00:06:36.645><c>learn </c><00:06:37.137><c>more</c>
+
+00:06:37.591 --> 00:06:37.629 align:start position:0%
+to learn more
+ 
+
+00:06:37.629 --> 00:06:38.992 align:start position:0%
+to learn more
+about <00:06:37.881><c>what </c><00:06:38.133><c>meta </c><00:06:38.385><c>tags</c>
+
+00:06:38.992 --> 00:06:39.029 align:start position:0%
+about what meta tags
+ 
+
+00:06:39.029 --> 00:06:40.203 align:start position:0%
+about what meta tags
+are <00:06:39.332><c>available </c><00:06:39.635><c>for </c><00:06:39.938><c>Twitter,</c>
+
+00:06:40.203 --> 00:06:40.240 align:start position:0%
+are available for Twitter,
+ 
+
+00:06:40.240 --> 00:06:41.262 align:start position:0%
+are available for Twitter,
+etc., <00:06:40.524><c>you </c><00:06:40.808><c>can</c>
+
+00:06:41.262 --> 00:06:41.300 align:start position:0%
+etc., you can
+ 
+
+00:06:41.300 --> 00:06:41.981 align:start position:0%
+etc., you can
+visit
+
+00:06:41.981 --> 00:06:42.019 align:start position:0%
+visit
+ 
+
+00:06:42.019 --> 00:06:43.154 align:start position:0%
+visit
+developer.twitter.com—it
+
+00:06:43.154 --> 00:06:43.192 align:start position:0%
+developer.twitter.com—it
+ 
+
+00:06:43.192 --> 00:06:44.063 align:start position:0%
+developer.twitter.com—it
+shows <00:06:43.514><c>all </c><00:06:43.836><c>the</c>
+
+00:06:44.063 --> 00:06:44.101 align:start position:0%
+shows all the
+ 
+
+00:06:44.101 --> 00:06:45.236 align:start position:0%
+shows all the
+available <00:06:44.592><c>tags </c><00:06:45.083><c>and</c>
+
+00:06:45.236 --> 00:06:45.274 align:start position:0%
+available tags and
+ 
+
+00:06:45.274 --> 00:06:46.295 align:start position:0%
+available tags and
+provides <00:06:45.766><c>brief</c>
+
+00:06:46.295 --> 00:06:46.333 align:start position:0%
+provides brief
+ 
+
+00:06:46.333 --> 00:06:48.285 align:start position:0%
+provides brief
+explanations <00:06:46.634><c>for </c><00:06:46.935><c>them.  </c><00:06:47.236><c>The </c><00:06:47.537><c>same </c><00:06:47.838><c>goes </c><00:06:48.139><c>for</c>
+
+00:06:48.285 --> 00:06:48.321 align:start position:0%
+explanations for them.  The same goes for
+ 
+
+00:06:48.321 --> 00:06:49.679 align:start position:0%
+explanations for them.  The same goes for
+Facebook
+
+00:06:49.679 --> 00:06:49.715 align:start position:0%
+Facebook
+ 
+
+00:06:49.715 --> 00:06:51.137 align:start position:0%
+Facebook
+and <00:06:50.142><c>other </c><00:06:50.569><c>platforms.  </c><00:06:50.996><c>You</c>
+
+00:06:51.137 --> 00:06:51.172 align:start position:0%
+and other platforms.  You
+ 
+
+00:06:51.172 --> 00:06:52.043 align:start position:0%
+and other platforms.  You
+can <00:06:51.625><c>find</c>
+
+00:06:52.043 --> 00:06:52.077 align:start position:0%
+can find
+ 
+
+00:06:52.077 --> 00:06:53.088 align:start position:0%
+can find
+the <00:06:52.187><c>link </c><00:06:52.297><c>at </c><00:06:52.407><c>the </c><00:06:52.517><c>bottom </c><00:06:52.627><c>of </c><00:06:52.737><c>the</c>
+
+00:06:53.088 --> 00:06:54.342 align:start position:0%
+the link at the bottom of the
+ 
+
+00:06:54.342 --> 00:06:54.376 align:start position:0%
+ 
+ 
+
+00:06:54.376 --> 00:06:57.975 align:start position:0%
+ 
+Open <00:06:55.082><c>Graph </c><00:06:55.788><c>protocol </c><00:06:56.494><c>page.  </c><00:06:57.200><c>There </c><00:06:57.906><c>are</c>
+
+00:06:57.975 --> 00:06:58.010 align:start position:0%
+Open Graph protocol page.  There are
+ 
+
+00:06:58.010 --> 00:06:59.048 align:start position:0%
+Open Graph protocol page.  There are
+links <00:06:58.425><c>to </c><00:06:58.840><c>all</c>
+
+00:06:59.048 --> 00:06:59.082 align:start position:0%
+links to all
+ 
+
+00:06:59.082 --> 00:07:00.328 align:start position:0%
+links to all
+relevant <00:07:00.294><c>sources,</c>
+
+00:07:00.328 --> 00:07:00.363 align:start position:0%
+relevant sources,
+ 
+
+00:07:00.363 --> 00:07:01.574 align:start position:0%
+relevant sources,
+for <00:07:00.674><c>example, </c><00:07:00.985><c>for </c><00:07:01.296><c>Facebook</c>
+
+00:07:01.574 --> 00:07:01.609 align:start position:0%
+for example, for Facebook
+ 
+
+00:07:01.609 --> 00:07:05.756 align:start position:0%
+for example, for Facebook
+or <00:07:02.373><c>Google.  </c><00:07:03.137><c>Therefore, </c><00:07:03.901><c>it </c><00:07:04.665><c>is </c><00:07:05.429><c>worth</c>
+
+00:07:05.756 --> 00:07:05.789 align:start position:0%
+or Google.  Therefore, it is worth
+ 
+
+00:07:05.789 --> 00:07:06.966 align:start position:0%
+or Google.  Therefore, it is worth
+studying <00:07:05.998><c>a </c><00:07:06.207><c>little </c><00:07:06.416><c>how </c><00:07:06.625><c>this </c><00:07:06.834><c>is</c>
+
+00:07:06.966 --> 00:07:06.999 align:start position:0%
+studying a little how this is
+ 
+
+00:07:06.999 --> 00:07:07.947 align:start position:0%
+studying a little how this is
+implemented <00:07:07.751><c>for</c>
+
+00:07:07.947 --> 00:07:07.980 align:start position:0%
+implemented for
+ 
+
+00:07:07.980 --> 00:07:09.190 align:start position:0%
+implemented for
+each <00:07:08.471><c>specific</c>
+
+00:07:09.190 --> 00:07:09.223 align:start position:0%
+each specific
+ 
+
+00:07:09.223 --> 00:07:11.971 align:start position:0%
+each specific
+media.  <00:07:10.532><c>Once </c><00:07:11.841><c>you</c>
+
+00:07:11.971 --> 00:07:12.003 align:start position:0%
+media.  Once you
+ 
+
+00:07:12.003 --> 00:07:12.458 align:start position:0%
+media.  Once you
+start
+
+00:07:12.458 --> 00:07:12.491 align:start position:0%
+start
+ 
+
+00:07:12.491 --> 00:07:13.628 align:start position:0%
+start
+using <00:07:13.498><c>these</c>
+
+00:07:13.628 --> 00:07:13.660 align:start position:0%
+using these
+ 
+
+00:07:13.660 --> 00:07:14.440 align:start position:0%
+using these
+meta <00:07:13.952><c>tags, </c><00:07:14.244><c>you'll</c>
+
+00:07:14.440 --> 00:07:14.473 align:start position:0%
+meta tags, you'll
+ 
+
+00:07:14.473 --> 00:07:15.285 align:start position:0%
+meta tags, you'll
+want <00:07:15.155><c>to</c>
+
+00:07:15.285 --> 00:07:15.317 align:start position:0%
+want to
+ 
+
+00:07:15.317 --> 00:07:17.191 align:start position:0%
+want to
+test <00:07:15.893><c>them.  </c><00:07:16.469><c>And </c><00:07:17.045><c>it's</c>
+
+00:07:17.191 --> 00:07:17.227 align:start position:0%
+test them.  And it's
+ 
+
+00:07:17.227 --> 00:07:18.349 align:start position:0%
+test them.  And it's
+actually <00:07:17.915><c>quite</c>
+
+00:07:18.349 --> 00:07:18.385 align:start position:0%
+actually quite
+ 
+
+00:07:18.385 --> 00:07:19.622 align:start position:0%
+actually quite
+easy.  <00:07:18.669><c>There </c><00:07:18.953><c>are </c><00:07:19.237><c>many</c>
+
+00:07:19.622 --> 00:07:19.654 align:start position:0%
+easy.  There are many
+ 
+
+00:07:19.654 --> 00:07:20.907 align:start position:0%
+easy.  There are many
+tools <00:07:20.714><c>that</c>
+
+00:07:20.907 --> 00:07:20.939 align:start position:0%
+tools that
+ 
+
+00:07:20.939 --> 00:07:22.063 align:start position:0%
+tools that
+will <00:07:21.211><c>help </c><00:07:21.483><c>you </c><00:07:21.755><c>with </c><00:07:22.027><c>this.</c>
+
+00:07:22.063 --> 00:07:22.163 align:start position:0%
+will help you with this.
+ 
+
+00:07:22.163 --> 00:07:23.382 align:start position:0%
+will help you with this.
+You <00:07:22.485><c>can </c><00:07:22.807><c>enter </c><00:07:23.129><c>your</c>
+
+00:07:23.382 --> 00:07:23.413 align:start position:0%
+You can enter your
+ 
+
+00:07:23.413 --> 00:07:24.319 align:start position:0%
+You can enter your
+URL <00:07:23.741><c>and </c><00:07:24.069><c>they</c>
+
+00:07:24.319 --> 00:07:24.350 align:start position:0%
+URL and they
+ 
+
+00:07:24.350 --> 00:07:25.507 align:start position:0%
+URL and they
+will <00:07:24.527><c>show </c><00:07:24.704><c>you </c><00:07:24.881><c>a</c>
+
+00:07:25.507 --> 00:07:25.538 align:start position:0%
+will show you a
+ 
+
+00:07:25.538 --> 00:07:26.695 align:start position:0%
+will show you a
+preview <00:07:25.960><c>that </c><00:07:26.382><c>exists</c>
+
+00:07:26.695 --> 00:07:26.726 align:start position:0%
+preview that exists
+ 
+
+00:07:26.726 --> 00:07:27.883 align:start position:0%
+preview that exists
+for <00:07:27.288><c>your </c><00:07:27.850><c>website.</c>
+
+00:07:27.883 --> 00:07:28.122 align:start position:0%
+for your website.
+ 
+
+00:07:28.122 --> 00:07:29.656 align:start position:0%
+for your website.
+Twitter.  <00:07:28.409><c>Twitter </c><00:07:28.696><c>has </c><00:07:28.983><c>such </c><00:07:29.270><c>a</c>
+
+00:07:29.656 --> 00:07:29.695 align:start position:0%
+Twitter.  Twitter has such a
+ 
+
+00:07:29.695 --> 00:07:30.502 align:start position:0%
+Twitter.  Twitter has such a
+tool.
+
+00:07:30.502 --> 00:07:30.974 align:start position:0%
+tool.
+ 
+
+00:07:30.974 --> 00:07:32.069 align:start position:0%
+tool.
+For <00:07:31.288><c>example, </c><00:07:31.602><c>as </c><00:07:31.916><c>you</c>
+
+00:07:32.069 --> 00:07:32.107 align:start position:0%
+For example, as you
+ 
+
+00:07:32.107 --> 00:07:33.542 align:start position:0%
+For example, as you
+see <00:07:32.434><c>here, </c><00:07:32.761><c>we </c><00:07:33.088><c>can</c>
+
+00:07:33.542 --> 00:07:33.580 align:start position:0%
+see here, we can
+ 
+
+00:07:33.580 --> 00:07:35.053 align:start position:0%
+see here, we can
+enter <00:07:34.297><c>our </c><00:07:35.014><c>URL,</c>
+
+00:07:35.053 --> 00:07:35.091 align:start position:0%
+enter our URL,
+ 
+
+00:07:35.091 --> 00:07:36.375 align:start position:0%
+enter our URL,
+click <00:07:35.695><c>“preview,” </c><00:07:36.299><c>and</c>
+
+00:07:36.375 --> 00:07:36.413 align:start position:0%
+click “preview,” and
+ 
+
+00:07:36.413 --> 00:07:37.659 align:start position:0%
+click “preview,” and
+it <00:07:36.686><c>will </c><00:07:36.959><c>report </c><00:07:37.232><c>that </c><00:07:37.505><c>it</c>
+
+00:07:37.659 --> 00:07:37.697 align:start position:0%
+it will report that it
+ 
+
+00:07:37.697 --> 00:07:39.094 align:start position:0%
+it will report that it
+found <00:07:38.150><c>16 </c><00:07:38.603><c>meta </c><00:07:39.056><c>tags,</c>
+
+00:07:39.094 --> 00:07:39.132 align:start position:0%
+found 16 meta tags,
+ 
+
+00:07:39.132 --> 00:07:40.454 align:start position:0%
+found 16 meta tags,
+found <00:07:39.415><c>the </c><00:07:39.698><c>matching</c>
+
+00:07:40.454 --> 00:07:40.492 align:start position:0%
+found the matching
+ 
+
+00:07:40.492 --> 00:07:41.549 align:start position:0%
+found the matching
+Twitter <00:07:40.794><c>card, </c><00:07:41.096><c>and </c><00:07:41.398><c>that</c>
+
+00:07:41.549 --> 00:07:41.587 align:start position:0%
+Twitter card, and that
+ 
+
+00:07:41.587 --> 00:07:42.607 align:start position:0%
+Twitter card, and that
+the <00:07:42.078><c>card</c>
+
+00:07:42.607 --> 00:07:42.645 align:start position:0%
+the card
+ 
+
+00:07:42.645 --> 00:07:45.003 align:start position:0%
+the card
+loaded <00:07:43.733><c>successfully.  </c><00:07:44.821><c>It</c>
+
+00:07:45.003 --> 00:07:45.033 align:start position:0%
+loaded successfully.  It
+ 
+
+00:07:45.033 --> 00:07:45.972 align:start position:0%
+loaded successfully.  It
+will <00:07:45.237><c>tell </c><00:07:45.441><c>you </c><00:07:45.645><c>that </c><00:07:45.849><c>it</c>
+
+00:07:45.972 --> 00:07:46.002 align:start position:0%
+will tell you that it
+ 
+
+00:07:46.002 --> 00:07:46.940 align:start position:0%
+will tell you that it
+cannot <00:07:46.274><c>display</c>
+
+00:07:46.940 --> 00:07:46.970 align:start position:0%
+cannot display
+ 
+
+00:07:46.970 --> 00:07:47.788 align:start position:0%
+cannot display
+the <00:07:47.162><c>card </c><00:07:47.354><c>because </c><00:07:47.546><c>they</c>
+
+00:07:47.788 --> 00:07:47.818 align:start position:0%
+the card because they
+ 
+
+00:07:47.818 --> 00:07:48.998 align:start position:0%
+the card because they
+have <00:07:48.098><c>stopped </c><00:07:48.378><c>doing </c><00:07:48.658><c>so </c><00:07:48.938><c>for</c>
+
+00:07:48.998 --> 00:07:49.029 align:start position:0%
+have stopped doing so for
+ 
+
+00:07:49.029 --> 00:07:50.499 align:start position:0%
+have stopped doing so for
+some <00:07:49.451><c>reason.  </c><00:07:49.873><c>But </c><00:07:50.295><c>it's</c>
+
+00:07:50.499 --> 00:07:50.533 align:start position:0%
+some reason.  But it's
+ 
+
+00:07:50.533 --> 00:07:51.550 align:start position:0%
+some reason.  But it's
+good <00:07:50.722><c>to </c><00:07:50.911><c>know </c><00:07:51.100><c>if </c><00:07:51.289><c>there </c><00:07:51.478><c>are</c>
+
+00:07:51.550 --> 00:07:51.584 align:start position:0%
+good to know if there are
+ 
+
+00:07:51.584 --> 00:07:52.533 align:start position:0%
+good to know if there are
+any <00:07:52.024><c>errors </c><00:07:52.464><c>in</c>
+
+00:07:52.533 --> 00:07:52.566 align:start position:0%
+any errors in
+ 
+
+00:07:52.566 --> 00:07:53.583 align:start position:0%
+any errors in
+your <00:07:52.973><c>tag—it </c><00:07:53.380><c>will</c>
+
+00:07:53.583 --> 00:07:53.617 align:start position:0%
+your tag—it will
+ 
+
+00:07:53.617 --> 00:07:54.736 align:start position:0%
+your tag—it will
+definitely <00:07:53.862><c>tell </c><00:07:54.107><c>you </c><00:07:54.352><c>about </c><00:07:54.597><c>it</c>
+
+00:07:54.736 --> 00:07:54.770 align:start position:0%
+definitely tell you about it
+ 
+
+00:07:54.770 --> 00:07:56.439 align:start position:0%
+definitely tell you about it
+.  <00:07:55.119><c>The </c><00:07:55.468><c>same </c><00:07:55.817><c>goes </c><00:07:56.166><c>for</c>
+
+00:07:56.439 --> 00:07:56.473 align:start position:0%
+.  The same goes for
+ 
+
+00:07:56.473 --> 00:07:57.590 align:start position:0%
+.  The same goes for
+Facebook,
+
+00:07:57.590 --> 00:07:57.624 align:start position:0%
+Facebook,
+ 
+
+00:07:57.624 --> 00:07:58.808 align:start position:0%
+Facebook,
+they <00:07:57.801><c>also </c><00:07:57.978><c>have </c><00:07:58.155><c>their </c><00:07:58.332><c>own</c>
+
+00:07:58.808 --> 00:07:58.842 align:start position:0%
+they also have their own
+ 
+
+00:07:58.842 --> 00:07:59.519 align:start position:0%
+they also have their own
+
+
+00:07:59.519 --> 00:07:59.553 align:start position:0%
+ 
+ 
+
+00:07:59.553 --> 00:08:01.079 align:start position:0%
+ 
+debugging <00:07:59.949><c>tool.  </c><00:08:00.345><c>I'll </c><00:08:00.741><c>add</c>
+
+00:08:01.079 --> 00:08:01.113 align:start position:0%
+debugging tool.  I'll add
+ 
+
+00:08:01.113 --> 00:08:02.356 align:start position:0%
+debugging tool.  I'll add
+a <00:08:01.407><c>link </c><00:08:01.701><c>to </c><00:08:01.995><c>it </c><00:08:02.289><c>in</c>
+
+00:08:02.356 --> 00:08:02.390 align:start position:0%
+a link to it in
+ 
+
+00:08:02.390 --> 00:08:03.547 align:start position:0%
+a link to it in
+the <00:08:02.661><c>description.  </c><00:08:02.932><c>So </c><00:08:03.203><c>when </c><00:08:03.474><c>I</c>
+
+00:08:03.547 --> 00:08:03.583 align:start position:0%
+the description.  So when I
+ 
+
+00:08:03.583 --> 00:08:04.848 align:start position:0%
+the description.  So when I
+want <00:08:03.956><c>to </c><00:08:04.329><c>check </c><00:08:04.702><c>what</c>
+
+00:08:04.848 --> 00:08:04.885 align:start position:0%
+want to check what
+ 
+
+00:08:04.885 --> 00:08:06.114 align:start position:0%
+want to check what
+it <00:08:05.183><c>looks </c><00:08:05.481><c>like </c><00:08:05.779><c>on </c><00:08:06.077><c>Facebook,</c>
+
+00:08:06.114 --> 00:08:06.150 align:start position:0%
+it looks like on Facebook,
+ 
+
+00:08:06.150 --> 00:08:06.946 align:start position:0%
+it looks like on Facebook,
+for <00:08:06.511><c>example, </c><00:08:06.872><c>I</c>
+
+00:08:06.946 --> 00:08:06.982 align:start position:0%
+for example, I
+ 
+
+00:08:06.982 --> 00:08:08.211 align:start position:0%
+for example, I
+go <00:08:07.271><c>here, </c><00:08:07.560><c>to </c><00:08:07.849><c>the </c><00:08:08.138><c>"</c>
+
+00:08:08.211 --> 00:08:09.669 align:start position:0%
+go here, to the "
+sharing <00:08:08.518><c>debugger."  </c><00:08:08.825><c>I </c><00:08:09.132><c>enter</c>
+
+00:08:09.669 --> 00:08:09.713 align:start position:0%
+sharing debugger."  I enter
+ 
+
+00:08:09.713 --> 00:08:10.875 align:start position:0%
+sharing debugger."  I enter
+my <00:08:10.830><c>URL.</c>
+
+00:08:10.875 --> 00:08:11.750 align:start position:0%
+my URL.
+ 
+
+00:08:11.750 --> 00:08:12.953 align:start position:0%
+my URL.
+I <00:08:12.101><c>click </c><00:08:12.452><c>"debug", </c><00:08:12.803><c>it</c>
+
+00:08:12.953 --> 00:08:12.991 align:start position:0%
+I click "debug", it
+ 
+
+00:08:12.991 --> 00:08:14.458 align:start position:0%
+I click "debug", it
+takes <00:08:13.467><c>a </c><00:08:13.943><c>few </c><00:08:14.419><c>seconds,</c>
+
+00:08:14.458 --> 00:08:14.495 align:start position:0%
+takes a few seconds,
+ 
+
+00:08:14.495 --> 00:08:15.849 align:start position:0%
+takes a few seconds,
+and <00:08:14.758><c>after </c><00:08:15.021><c>that </c><00:08:15.284><c>I </c><00:08:15.547><c>see</c>
+
+00:08:15.849 --> 00:08:15.887 align:start position:0%
+and after that I see
+ 
+
+00:08:15.887 --> 00:08:17.956 align:start position:0%
+and after that I see
+all <00:08:16.299><c>the </c><00:08:16.711><c>data.  </c><00:08:17.123><c>You </c><00:08:17.535><c>can</c>
+
+00:08:17.956 --> 00:08:17.990 align:start position:0%
+all the data.  You can
+ 
+
+00:08:17.990 --> 00:08:19.242 align:start position:0%
+all the data.  You can
+see <00:08:18.338><c>here </c><00:08:18.686><c>that </c><00:08:19.034><c>it</c>
+
+00:08:19.242 --> 00:08:19.277 align:start position:0%
+see here that it
+ 
+
+00:08:19.277 --> 00:08:20.599 align:start position:0%
+see here that it
+crawled <00:08:19.799><c>my </c><00:08:20.321><c>site</c>
+
+00:08:20.599 --> 00:08:20.634 align:start position:0%
+crawled my site
+ 
+
+00:08:20.634 --> 00:08:21.851 align:start position:0%
+crawled my site
+51 <00:08:20.980><c>minutes </c><00:08:21.326><c>ago.  </c><00:08:21.672><c>You</c>
+
+00:08:21.851 --> 00:08:21.895 align:start position:0%
+51 minutes ago.  You
+ 
+
+00:08:21.895 --> 00:08:23.546 align:start position:0%
+51 minutes ago.  You
+see <00:08:22.698><c>my </c><00:08:23.501><c>URL.</c>
+
+00:08:23.546 --> 00:08:25.640 align:start position:0%
+see my URL.
+ 
+
+00:08:25.640 --> 00:08:26.776 align:start position:0%
+ 
+We <00:08:25.940><c>can </c><00:08:26.240><c>see</c>
+
+00:08:26.776 --> 00:08:26.810 align:start position:0%
+We can see
+ 
+
+00:08:26.810 --> 00:08:27.846 align:start position:0%
+We can see
+some <00:08:27.019><c>of </c><00:08:27.228><c>the </c><00:08:27.437><c>tags </c><00:08:27.646><c>that</c>
+
+00:08:27.846 --> 00:08:27.880 align:start position:0%
+some of the tags that
+ 
+
+00:08:27.880 --> 00:08:29.151 align:start position:0%
+some of the tags that
+were <00:08:29.117><c>redirected</c>
+
+00:08:29.151 --> 00:08:29.184 align:start position:0%
+were redirected
+ 
+
+00:08:29.184 --> 00:08:30.187 align:start position:0%
+were redirected
+and <00:08:29.473><c>see </c><00:08:29.762><c>what </c><00:08:30.051><c>it</c>
+
+00:08:30.187 --> 00:08:30.221 align:start position:0%
+and see what it
+ 
+
+00:08:30.221 --> 00:08:31.458 align:start position:0%
+and see what it
+looks <00:08:30.521><c>like </c><00:08:30.821><c>when </c><00:08:31.121><c>someone</c>
+
+00:08:31.458 --> 00:08:31.491 align:start position:0%
+looks like when someone
+ 
+
+00:08:31.491 --> 00:08:32.662 align:start position:0%
+looks like when someone
+posts <00:08:31.775><c>a </c><00:08:32.059><c>link</c>
+
+00:08:32.662 --> 00:08:32.695 align:start position:0%
+posts a link
+ 
+
+00:08:32.695 --> 00:08:33.799 align:start position:0%
+posts a link
+to <00:08:32.962><c>my </c><00:08:33.229><c>site </c><00:08:33.496><c>on </c><00:08:33.763><c>Facebook.</c>
+
+00:08:33.799 --> 00:08:35.688 align:start position:0%
+to my site on Facebook.
+ 
+
+00:08:35.688 --> 00:08:37.189 align:start position:0%
+ 
+This <00:08:35.916><c>is </c><00:08:36.144><c>what </c><00:08:36.372><c>it </c><00:08:36.600><c>looks </c><00:08:36.828><c>like.  </c><00:08:37.056><c>We</c>
+
+00:08:37.189 --> 00:08:37.222 align:start position:0%
+This is what it looks like.  We
+ 
+
+00:08:37.222 --> 00:08:37.979 align:start position:0%
+This is what it looks like.  We
+can <00:08:37.584><c>also</c>
+
+00:08:37.979 --> 00:08:38.012 align:start position:0%
+can also
+ 
+
+00:08:38.012 --> 00:08:39.132 align:start position:0%
+can also
+see <00:08:38.374><c>the </c><00:08:38.736><c>meta </c><00:08:39.098><c>tags</c>
+
+00:08:39.132 --> 00:08:39.165 align:start position:0%
+see the meta tags
+ 
+
+00:08:39.165 --> 00:08:39.362 align:start position:0%
+see the meta tags
+that
+
+00:08:39.362 --> 00:08:39.395 align:start position:0%
+that
+ 
+
+00:08:39.395 --> 00:08:40.646 align:start position:0%
+that
+were <00:08:39.987><c>used </c><00:08:40.579><c>and</c>
+
+00:08:40.646 --> 00:08:40.679 align:start position:0%
+were used and
+ 
+
+00:08:40.679 --> 00:08:41.733 align:start position:0%
+were used and
+how <00:08:41.019><c>he </c><00:08:41.359><c>found </c><00:08:41.699><c>them.</c>
+
+00:08:41.733 --> 00:08:44.223 align:start position:0%
+how he found them.
+ 
+
+00:08:44.223 --> 00:08:45.393 align:start position:0%
+ 
+So, <00:08:44.448><c>meta </c><00:08:44.673><c>tags </c><00:08:44.898><c>are </c><00:08:45.123><c>very</c>
+
+00:08:45.393 --> 00:08:45.426 align:start position:0%
+So, meta tags are very
+ 
+
+00:08:45.426 --> 00:08:45.927 align:start position:0%
+So, meta tags are very
+simple <00:08:45.861><c>to</c>
+
+00:08:45.927 --> 00:08:45.961 align:start position:0%
+simple to
+ 
+
+00:08:45.961 --> 00:08:47.031 align:start position:0%
+simple to
+use, <00:08:46.830><c>but</c>
+
+00:08:47.031 --> 00:08:47.064 align:start position:0%
+use, but
+ 
+
+00:08:47.064 --> 00:08:47.833 align:start position:0%
+use, but
+they <00:08:47.365><c>add</c>
+
+00:08:47.833 --> 00:08:47.866 align:start position:0%
+they add
+ 
+
+00:08:47.866 --> 00:08:49.036 align:start position:0%
+they add
+a <00:08:48.024><c>lot </c><00:08:48.182><c>of </c><00:08:48.340><c>value </c><00:08:48.498><c>to</c>
+
+00:08:49.036 --> 00:08:49.070 align:start position:0%
+a lot of value to
+ 
+
+00:08:49.070 --> 00:08:50.073 align:start position:0%
+a lot of value to
+your <00:08:50.039><c>website.</c>
+
+00:08:50.073 --> 00:08:50.173 align:start position:0%
+your website.
+ 
+
+00:08:50.173 --> 00:08:51.202 align:start position:0%
+your website.
+Every <00:08:50.531><c>time </c><00:08:50.889><c>someone</c>
+
+00:08:51.202 --> 00:08:51.233 align:start position:0%
+Every time someone
+ 
+
+00:08:51.233 --> 00:08:52.388 align:start position:0%
+Every time someone
+shares <00:08:51.498><c>a </c><00:08:51.763><c>link</c>
+
+00:08:52.388 --> 00:08:52.419 align:start position:0%
+shares a link
+ 
+
+00:08:52.419 --> 00:08:53.355 align:start position:0%
+shares a link
+to <00:08:52.647><c>your </c><00:08:52.875><c>site, </c><00:08:53.103><c>it</c>
+
+00:08:53.355 --> 00:08:53.386 align:start position:0%
+to your site, it
+ 
+
+00:08:53.386 --> 00:08:54.478 align:start position:0%
+to your site, it
+will <00:08:53.625><c>look </c><00:08:53.864><c>much </c><00:08:54.103><c>more</c>
+
+00:08:54.478 --> 00:08:54.509 align:start position:0%
+will look much more
+ 
+
+00:08:54.509 --> 00:08:55.828 align:start position:0%
+will look much more
+attractive.  <00:08:55.796><c>So,</c>
+
+00:08:55.828 --> 00:08:55.860 align:start position:0%
+attractive.  So,
+ 
+
+00:08:55.860 --> 00:08:56.587 align:start position:0%
+attractive.  So,
+if <00:08:56.160><c>you </c><00:08:56.460><c>haven't</c>
+
+00:08:56.587 --> 00:08:56.618 align:start position:0%
+if you haven't
+ 
+
+00:08:56.618 --> 00:08:57.725 align:start position:0%
+if you haven't
+used <00:08:57.598><c>Open</c>
+
+00:08:57.725 --> 00:08:57.756 align:start position:0%
+used Open
+ 
+
+00:08:57.756 --> 00:08:58.989 align:start position:0%
+used Open
+Graph <00:08:57.985><c>yet, </c><00:08:58.214><c>you </c><00:08:58.443><c>really </c><00:08:58.672><c>should</c>
+
+00:08:58.989 --> 00:08:59.021 align:start position:0%
+Graph yet, you really should
+ 
+
+00:08:59.021 --> 00:08:59.938 align:start position:0%
+Graph yet, you really should
+implement <00:08:59.685><c>it</c>
+
+00:08:59.938 --> 00:08:59.969 align:start position:0%
+implement it
+ 
+
+00:08:59.969 --> 00:09:01.568 align:start position:0%
+implement it
+as <00:09:00.351><c>soon </c><00:09:00.733><c>as </c><00:09:01.115><c>possible.  </c><00:09:01.497><c>I</c>
+
+00:09:01.568 --> 00:09:01.604 align:start position:0%
+as soon as possible.  I
+ 
+
+00:09:01.604 --> 00:09:02.947 align:start position:0%
+as soon as possible.  I
+recommend <00:09:02.134><c>visiting </c><00:09:02.664><c>the</c>
+
+00:09:02.947 --> 00:09:02.982 align:start position:0%
+recommend visiting the
+ 
+
+00:09:02.982 --> 00:09:03.619 align:start position:0%
+recommend visiting the
+Open <00:09:03.123><c>Graph </c><00:09:03.264><c>website </c><00:09:03.405><c>to</c>
+
+00:09:03.619 --> 00:09:03.654 align:start position:0%
+Open Graph website to
+ 
+
+00:09:03.654 --> 00:09:04.609 align:start position:0%
+Open Graph website to
+explore <00:09:04.538><c>the</c>
+
+00:09:04.609 --> 00:09:04.644 align:start position:0%
+explore the
+ 
+
+00:09:04.644 --> 00:09:05.881 align:start position:0%
+explore the
+available <00:09:05.386><c>options</c>
+
+00:09:05.881 --> 00:09:05.917 align:start position:0%
+available options
+ 
+
+00:09:05.917 --> 00:09:07.225 align:start position:0%
+available options
+and <00:09:06.282><c>see </c><00:09:06.647><c>what </c><00:09:07.012><c>you</c>
+
+00:09:07.225 --> 00:09:07.260 align:start position:0%
+and see what you
+ 
+
+00:09:07.260 --> 00:09:08.580 align:start position:0%
+and see what you
+can <00:09:07.497><c>do </c><00:09:07.734><c>with </c><00:09:07.971><c>it.  </c><00:09:08.208><c>We </c><00:09:08.445><c>have</c>
+
+00:09:08.580 --> 00:09:09.912 align:start position:0%
+can do with it.  We have
+ 
+
+00:09:09.912 --> 00:09:09.946 align:start position:0%
+ 
+ 
+
+00:09:09.946 --> 00:09:10.978 align:start position:0%
+ 
+only <00:09:10.020><c>demonstrated </c><00:09:10.094><c>the </c><00:09:10.168><c>most </c><00:09:10.242><c>basic</c>
+
+00:09:10.978 --> 00:09:11.012 align:start position:0%
+only demonstrated the most basic
+ 
+
+00:09:11.012 --> 00:09:12.175 align:start position:0%
+only demonstrated the most basic
+things <00:09:11.271><c>here.  </c><00:09:11.530><c>You </c><00:09:11.789><c>can</c>
+
+00:09:12.175 --> 00:09:12.208 align:start position:0%
+things here.  You can
+ 
+
+00:09:12.208 --> 00:09:13.173 align:start position:0%
+things here.  You can
+add <00:09:12.465><c>a </c><00:09:12.722><c>video </c><00:09:12.979><c>for</c>
+
+00:09:13.173 --> 00:09:13.205 align:start position:0%
+add a video for
+ 
+
+00:09:13.205 --> 00:09:13.977 align:start position:0%
+add a video for
+
+
+00:09:13.977 --> 00:09:14.009 align:start position:0%
+ 
+ 
+
+00:09:14.009 --> 00:09:14.910 align:start position:0%
+ 
+preview, <00:09:14.877><c>etc.</c>
+
+00:09:14.910 --> 00:09:15.010 align:start position:0%
+preview, etc.
+ 
+
+00:09:15.010 --> 00:09:15.964 align:start position:0%
+preview, etc.
+At <00:09:15.232><c>least </c><00:09:15.454><c>I'm </c><00:09:15.676><c>not </c><00:09:15.898><c>a</c>
+
+00:09:15.964 --> 00:09:15.997 align:start position:0%
+At least I'm not a
+ 
+
+00:09:15.997 --> 00:09:17.282 align:start position:0%
+At least I'm not a
+front-end <00:09:16.557><c>developer</c>
+
+00:09:17.282 --> 00:09:17.315 align:start position:0%
+front-end developer
+ 
+
+00:09:17.315 --> 00:09:19.777 align:start position:0%
+front-end developer
+by <00:09:17.913><c>profession.  </c><00:09:18.511><c>I'm </c><00:09:19.109><c>new </c><00:09:19.707><c>to</c>
+
+00:09:19.777 --> 00:09:19.811 align:start position:0%
+by profession.  I'm new to
+ 
+
+00:09:19.811 --> 00:09:20.810 align:start position:0%
+by profession.  I'm new to
+frontend, <00:09:20.075><c>and </c><00:09:20.339><c>I </c><00:09:20.603><c>was</c>
+
+00:09:20.810 --> 00:09:20.845 align:start position:0%
+frontend, and I was
+ 
+
+00:09:20.845 --> 00:09:21.672 align:start position:0%
+frontend, and I was
+amazed <00:09:21.637><c>at</c>
+
+00:09:21.672 --> 00:09:21.706 align:start position:0%
+amazed at
+ 
+
+00:09:21.706 --> 00:09:22.878 align:start position:0%
+amazed at
+how <00:09:21.964><c>easy </c><00:09:22.222><c>it </c><00:09:22.480><c>was </c><00:09:22.738><c>to</c>
+
+00:09:22.878 --> 00:09:22.912 align:start position:0%
+how easy it was to
+ 
+
+00:09:22.912 --> 00:09:24.118 align:start position:0%
+how easy it was to
+implement, <00:09:23.980><c>as</c>
+
+00:09:24.118 --> 00:09:25.462 align:start position:0%
+implement, as
+ 
+
+00:09:25.462 --> 00:09:25.497 align:start position:0%
+ 
+ 
+
+00:09:25.497 --> 00:09:26.737 align:start position:0%
+ 
+I <00:09:25.841><c>knew </c><00:09:26.185><c>nothing </c><00:09:26.529><c>about</c>
+
+00:09:26.737 --> 00:09:26.771 align:start position:0%
+I knew nothing about
+ 
+
+00:09:26.771 --> 00:09:28.921 align:start position:0%
+I knew nothing about
+Open <00:09:27.004><c>Graph </c><00:09:27.237><c>before </c><00:09:27.470><c>this </c><00:09:27.703><c>site </c><00:09:27.936><c>redesign.  </c><00:09:28.169><c>Today's</c>
+
+00:09:28.921 --> 00:09:28.952 align:start position:0%
+Open Graph before this site redesign.  Today's
+ 
+
+00:09:28.952 --> 00:09:29.891 align:start position:0%
+Open Graph before this site redesign.  Today's
+episode <00:09:29.405><c>is </c><00:09:29.858><c>short.</c>
+
+00:09:29.891 --> 00:09:29.991 align:start position:0%
+episode is short.
+ 
+
+00:09:29.991 --> 00:09:31.012 align:start position:0%
+episode is short.
+I <00:09:30.392><c>hope </c><00:09:30.793><c>you</c>
+
+00:09:31.012 --> 00:09:31.048 align:start position:0%
+I hope you
+ 
+
+00:09:31.048 --> 00:09:31.888 align:start position:0%
+I hope you
+enjoyed <00:09:31.851><c>it.</c>
+
+00:09:31.888 --> 00:09:31.988 align:start position:0%
+enjoyed it.
+ 
+
+00:09:31.988 --> 00:09:33.120 align:start position:0%
+enjoyed it.
+Contact <00:09:32.525><c>me </c><00:09:33.062><c>on</c>
+
+00:09:33.120 --> 00:09:33.149 align:start position:0%
+Contact me on
+ 
+
+00:09:33.149 --> 00:09:34.253 align:start position:0%
+Contact me on
+any <00:09:33.672><c>social</c>
+
+00:09:34.253 --> 00:09:34.282 align:start position:0%
+any social
+ 
+
+00:09:34.282 --> 00:09:34.892 align:start position:0%
+any social
+media <00:09:34.717><c>or</c>
+
+00:09:34.892 --> 00:09:34.921 align:start position:0%
+media or
+ 
+
+00:09:34.921 --> 00:09:35.995 align:start position:0%
+media or
+leave <00:09:35.472><c>comments</c>
+
+00:09:35.995 --> 00:09:36.024 align:start position:0%
+leave comments
+ 
+
+00:09:36.024 --> 00:09:37.423 align:start position:0%
+leave comments
+here.  <00:09:36.308><c>Let </c><00:09:36.592><c>me </c><00:09:36.876><c>know </c><00:09:37.160><c>if</c>
+
+00:09:37.423 --> 00:09:37.456 align:start position:0%
+here.  Let me know if
+ 
+
+00:09:37.456 --> 00:09:38.205 align:start position:0%
+here.  Let me know if
+you <00:09:37.684><c>need</c>
+
+00:09:38.205 --> 00:09:38.238 align:start position:0%
+you need
+ 
+
+00:09:38.238 --> 00:09:39.478 align:start position:0%
+you need
+help <00:09:38.630><c>with </c><00:09:39.022><c>anything.  </c><00:09:39.414><c>And</c>
+
+00:09:39.478 --> 00:09:39.510 align:start position:0%
+help with anything.  And
+ 
+
+00:09:39.510 --> 00:09:40.738 align:start position:0%
+help with anything.  And
+if <00:09:39.768><c>you </c><00:09:40.026><c>liked</c>
+
+00:09:40.738 --> 00:09:40.771 align:start position:0%
+if you liked
+ 
+
+00:09:40.771 --> 00:09:41.708 align:start position:0%
+if you liked
+this <00:09:40.954><c>video, </c><00:09:41.137><c>like </c><00:09:41.320><c>it</c>
+
+00:09:41.708 --> 00:09:41.740 align:start position:0%
+this video, like it
+ 
+
+00:09:41.740 --> 00:09:42.419 align:start position:0%
+this video, like it
+,
+
+00:09:42.419 --> 00:09:42.451 align:start position:0%
+,
+ 
+
+00:09:42.451 --> 00:09:43.323 align:start position:0%
+,
+subscribe, <00:09:43.259><c>and</c>
+
+00:09:43.323 --> 00:09:43.356 align:start position:0%
+subscribe, and
+ 
+
+00:09:43.356 --> 00:09:44.390 align:start position:0%
+subscribe, and
+watch <00:09:43.776><c>my </c><00:09:44.196><c>other</c>
+
+00:09:44.390 --> 00:09:44.422 align:start position:0%
+watch my other
+ 
+
+00:09:44.422 --> 00:09:45.778 align:start position:0%
+watch my other
+videos.
+

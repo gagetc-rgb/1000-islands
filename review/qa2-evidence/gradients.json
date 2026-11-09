@@ -1,0 +1,366 @@
+[
+  {
+    "board": "01 Home · Desktop",
+    "expected": 10,
+    "actual": 10,
+    "missing": []
+  },
+  {
+    "board": "02 Raja Ampat · Desktop",
+    "expected": 13,
+    "actual": 13,
+    "missing": []
+  },
+  {
+    "board": "03 North Sulawesi · Desktop",
+    "expected": 13,
+    "actual": 13,
+    "missing": []
+  },
+  {
+    "board": "04 Yacht charters · Desktop",
+    "expected": 9,
+    "actual": 9,
+    "missing": []
+  },
+  {
+    "board": "05 Guest stories · Desktop",
+    "expected": 8,
+    "actual": 8,
+    "missing": []
+  },
+  {
+    "board": "06 About us · Desktop",
+    "expected": 6,
+    "actual": 6,
+    "missing": []
+  },
+  {
+    "board": "07 Travel agents · Desktop",
+    "expected": 15,
+    "actual": 15,
+    "missing": []
+  },
+  {
+    "board": "08 Plan your trip · Desktop",
+    "expected": 1,
+    "actual": 1,
+    "missing": []
+  },
+  {
+    "board": "09 Thank-you · traveller · Desktop",
+    "expected": 2,
+    "actual": 2,
+    "missing": []
+  },
+  {
+    "board": "10 Thank-you · agent · Desktop",
+    "expected": 2,
+    "actual": 2,
+    "missing": []
+  },
+  {
+    "board": "11 Privacy & cookies · Desktop",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "12 Booking terms · Desktop",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "13 404 · Page not found · Desktop",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "14 Temporarily unavailable · Desktop",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "S1 State · Cookie banner · Desktop",
+    "expected": 2,
+    "actual": 2,
+    "missing": []
+  },
+  {
+    "board": "S2 State · Cookie settings · Desktop",
+    "expected": 2,
+    "actual": 2,
+    "missing": []
+  },
+  {
+    "board": "S3 State · Form errors · Desktop",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "S4 State · Sending failed · Desktop",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "01 Home · Mobile",
+    "expected": 10,
+    "actual": 10,
+    "missing": []
+  },
+  {
+    "board": "02 Raja Ampat · Mobile",
+    "expected": 13,
+    "actual": 13,
+    "missing": []
+  },
+  {
+    "board": "03 North Sulawesi · Mobile",
+    "expected": 13,
+    "actual": 13,
+    "missing": []
+  },
+  {
+    "board": "04 Yacht charters · Mobile",
+    "expected": 10,
+    "actual": 10,
+    "missing": []
+  },
+  {
+    "board": "05 Guest stories · Mobile",
+    "expected": 8,
+    "actual": 8,
+    "missing": []
+  },
+  {
+    "board": "06 About us · Mobile",
+    "expected": 6,
+    "actual": 6,
+    "missing": []
+  },
+  {
+    "board": "07 Travel agents · Mobile",
+    "expected": 16,
+    "actual": 16,
+    "missing": []
+  },
+  {
+    "board": "08 Plan your trip · Mobile",
+    "expected": 2,
+    "actual": 2,
+    "missing": []
+  },
+  {
+    "board": "09 Thank-you · traveller · Mobile",
+    "expected": 2,
+    "actual": 2,
+    "missing": []
+  },
+  {
+    "board": "10 Thank-you · agent · Mobile",
+    "expected": 2,
+    "actual": 2,
+    "missing": []
+  },
+  {
+    "board": "11 Privacy & cookies · Mobile",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "12 Booking terms · Mobile",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "13 404 · Page not found · Mobile",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "14 Temporarily unavailable · Mobile",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "S1 State · Cookie banner · Mobile",
+    "expected": 2,
+    "actual": 2,
+    "missing": []
+  },
+  {
+    "board": "S2 State · Cookie settings · Mobile",
+    "expected": 2,
+    "actual": 2,
+    "missing": []
+  },
+  {
+    "board": "S3 State · Form errors · Mobile",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "S4 State · Sending failed · Mobile",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "M1 Mobile menu (open) · Mobile",
+    "expected": 2,
+    "actual": 2,
+    "missing": []
+  },
+  {
+    "board": "E1 Email · Auto-reply to traveller · Desktop",
+    "expected": 1,
+    "actual": 1,
+    "missing": []
+  },
+  {
+    "board": "E2 Email · Auto-reply to agent · Desktop",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "E3 Email · New enquiry alert (owner) · Desktop",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "E1 Email · Auto-reply to traveller · Mobile",
+    "expected": 1,
+    "actual": 1,
+    "missing": []
+  },
+  {
+    "board": "E2 Email · Auto-reply to agent · Mobile",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "E3 Email · New enquiry alert (owner) · Mobile",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "P1 Link previews",
+    "expected": 3,
+    "actual": 0,
+    "missing": [
+      {
+        "k": "rect",
+        "x": 328,
+        "y": 327.4,
+        "w": 344,
+        "h": 180.6,
+        "bg": {
+          "hex": "#8F8F8F",
+          "a": 1
+        },
+        "grad": "linear-gradient(165deg, rgb(163, 163, 163) 0%, rgb(138, 138, 138) 55%, rgb(114, 114, 114) 100%)",
+        "op": 1,
+        "rad": 0,
+        "rads": [
+          6,
+          6,
+          0,
+          0
+        ],
+        "sh": null,
+        "fx": false,
+        "lb": false,
+        "stroke": null,
+        "zk": []
+      },
+      {
+        "k": "rect",
+        "x": 944,
+        "y": 327.4,
+        "w": 344,
+        "h": 180.6,
+        "bg": {
+          "hex": "#8F8F8F",
+          "a": 1
+        },
+        "grad": "linear-gradient(165deg, rgb(163, 163, 163) 0%, rgb(138, 138, 138) 55%, rgb(114, 114, 114) 100%)",
+        "op": 1,
+        "rad": 0,
+        "rads": [
+          6,
+          6,
+          0,
+          0
+        ],
+        "sh": null,
+        "fx": false,
+        "lb": false,
+        "stroke": null,
+        "zk": []
+      },
+      {
+        "k": "rect",
+        "x": 121,
+        "y": 722,
+        "w": 582,
+        "h": 305.5,
+        "bg": {
+          "hex": "#8F8F8F",
+          "a": 1
+        },
+        "grad": "linear-gradient(165deg, rgb(163, 163, 163) 0%, rgb(138, 138, 138) 55%, rgb(114, 114, 114) 100%)",
+        "op": 1,
+        "rad": 0,
+        "rads": [
+          5,
+          5,
+          0,
+          0
+        ],
+        "sh": null,
+        "fx": false,
+        "lb": false,
+        "stroke": null,
+        "zk": []
+      }
+    ]
+  },
+  {
+    "board": "A1 Admin · Enquiries",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "A2 Admin · Reviews",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "A3 Admin · Photos & video",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  },
+  {
+    "board": "A4 Admin · Prices",
+    "expected": 0,
+    "actual": 0,
+    "missing": []
+  }
+]

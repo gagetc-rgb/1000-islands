@@ -1,0 +1,295 @@
+[
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\404.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\about.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\admin-simple.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\advisors.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\email-advisor.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\email-owner.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\email-traveller.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\home.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "numbered-section-labels",
+    "name": "Tiny numbered section labels",
+    "description": "Small numeric index labels riding next to section headings, repeated section after section, are AI editorial scaffolding — a page numbering its own chapters instead of earning structure. Let hierarchy, content, and rhythm carry the sequence.",
+    "severity": "advisory",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\home.html",
+    "line": 0,
+    "snippet": "tiny numbered label \"03 · Remote, made easy\" beside h2 \"Remote, made easy\" (3 on page)",
+    "advisory": true
+  },
+  {
+    "antipattern": "numbered-section-labels",
+    "name": "Tiny numbered section labels",
+    "description": "Small numeric index labels riding next to section headings, repeated section after section, are AI editorial scaffolding — a page numbering its own chapters instead of earning structure. Let hierarchy, content, and rhythm carry the sequence.",
+    "severity": "advisory",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\home.html",
+    "line": 0,
+    "snippet": "tiny numbered label \"05 · For travel agents\" beside h2 \"For travel agents\" (3 on page)",
+    "advisory": true
+  },
+  {
+    "antipattern": "numbered-section-labels",
+    "name": "Tiny numbered section labels",
+    "description": "Small numeric index labels riding next to section headings, repeated section after section, are AI editorial scaffolding — a page numbering its own chapters instead of earning structure. Let hierarchy, content, and rhythm carry the sequence.",
+    "severity": "advisory",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\home.html",
+    "line": 0,
+    "snippet": "tiny numbered label \"06 · Start with an idea\" beside h2 \"Start with an idea\" (3 on page)",
+    "advisory": true
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\index.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\link-preview.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\north-sulawesi.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\plan.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\privacy.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\raja-ampat.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\state-cookie-settings.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\state-cookies.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\state-form-errors.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\state-form-failed.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\stories.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\terms.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\thank-you-advisor.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\thank-you.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\unavailable.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\wf.css",
+    "line": 42,
+    "snippet": "font-family: 'Inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\wf.css",
+    "line": 3,
+    "snippet": "Google Fonts: inter"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\yachts.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  }
+]

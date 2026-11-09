@@ -1,0 +1,1904 @@
+WEBVTT
+Kind: captions
+Language: id
+
+00:00:00.100 --> 00:00:01.811 align:start position:0%
+ 
+OWASP<00:00:00.377><c> Top</c><00:00:00.562><c> 10</c><00:00:00.701><c> telah</c><00:00:00.978><c> berkembang</c><00:00:01.487><c> menjadi</c>
+
+00:00:01.811 --> 00:00:01.857 align:start position:0%
+OWASP Top 10 telah berkembang menjadi
+ 
+
+00:00:01.857 --> 00:00:03.476 align:start position:0%
+OWASP Top 10 telah berkembang menjadi
+ standar<00:00:02.227><c> keamanan</c><00:00:02.643><c> internasional</c><00:00:03.291><c> yang</c>
+
+00:00:03.476 --> 00:00:03.522 align:start position:0%
+ standar keamanan internasional yang
+ 
+
+00:00:03.522 --> 00:00:05.234 align:start position:0%
+ standar keamanan internasional yang
+ digunakan<00:00:03.985><c> oleh</c><00:00:04.216><c> berbagai</c><00:00:04.632><c> organisasi</c><00:00:05.141><c> di</c>
+
+00:00:05.234 --> 00:00:05.280 align:start position:0%
+ digunakan oleh berbagai organisasi di
+ 
+
+00:00:05.280 --> 00:00:07.519 align:start position:0%
+ digunakan oleh berbagai organisasi di
+ seluruh<00:00:05.650><c> dunia</c><00:00:05.881><c>.</c><00:00:06.419><c> Namun</c><00:00:06.648><c>,</c><00:00:06.739><c> bahkan</c><00:00:07.060><c> organisasi</c>
+
+00:00:07.519 --> 00:00:07.565 align:start position:0%
+ seluruh dunia. Namun, bahkan organisasi
+ 
+
+00:00:07.565 --> 00:00:09.078 align:start position:0%
+ seluruh dunia. Namun, bahkan organisasi
+ yang<00:00:07.794><c> menggunakan</c><00:00:08.344><c> OWASP</c><00:00:08.619><c> tetap</c><00:00:08.895><c> bisa</c>
+
+00:00:09.078 --> 00:00:09.124 align:start position:0%
+ yang menggunakan OWASP tetap bisa
+ 
+
+00:00:09.124 --> 00:00:11.392 align:start position:0%
+ yang menggunakan OWASP tetap bisa
+ menjadi<00:00:09.491><c> korban</c><00:00:09.812><c> serangan</c><00:00:10.224><c> siber</c><00:00:10.454><c>.</c><00:00:11.179><c> Jadi</c><00:00:11.350><c>,</c>
+
+00:00:11.392 --> 00:00:11.435 align:start position:0%
+ menjadi korban serangan siber. Jadi,
+ 
+
+00:00:11.435 --> 00:00:12.890 align:start position:0%
+ menjadi korban serangan siber. Jadi,
+ apa<00:00:11.606><c> itu</c><00:00:11.777><c> OWASP</c><00:00:12.034><c> Top</c><00:00:12.205><c> 10</c><00:00:12.334><c> dan</c><00:00:12.505><c> bagaimana</c>
+
+00:00:12.890 --> 00:00:12.932 align:start position:0%
+ apa itu OWASP Top 10 dan bagaimana
+ 
+
+00:00:12.932 --> 00:00:14.836 align:start position:0%
+ apa itu OWASP Top 10 dan bagaimana
+ seharusnya<00:00:13.403><c> Anda</c><00:00:13.617><c> menggunakannya</c><00:00:14.216><c>?</c><00:00:14.720><c> Apa</c>
+
+00:00:14.836 --> 00:00:14.875 align:start position:0%
+ seharusnya Anda menggunakannya? Apa
+ 
+
+00:00:14.875 --> 00:00:16.270 align:start position:0%
+ seharusnya Anda menggunakannya? Apa
+ yang<00:00:15.068><c> perlu</c><00:00:15.301><c> Anda</c><00:00:15.495><c> ketahui</c><00:00:15.805><c> agar</c><00:00:15.999><c> hal</c><00:00:16.154><c> ini</c>
+
+00:00:16.270 --> 00:00:16.309 align:start position:0%
+ yang perlu Anda ketahui agar hal ini
+ 
+
+00:00:16.309 --> 00:00:34.764 align:start position:0%
+ yang perlu Anda ketahui agar hal ini
+ menjadi<00:00:16.619><c> kawan</c><00:00:16.852><c> bagi</c><00:00:17.046><c> Anda</c><00:00:17.201><c>?</c><00:00:34.180><c> OWASP</c><00:00:34.445><c>,</c><00:00:34.552><c> atau</c>
+
+00:00:34.764 --> 00:00:34.817 align:start position:0%
+ menjadi kawan bagi Anda? OWASP, atau
+ 
+
+00:00:34.817 --> 00:00:36.837 align:start position:0%
+ menjadi kawan bagi Anda? OWASP, atau
+ Open<00:00:35.083><c> Web</c><00:00:35.296><c> Application</c><00:00:35.933><c> Security</c><00:00:36.412><c> Project</c><00:00:36.784><c>,</c>
+
+00:00:36.837 --> 00:00:36.890 align:start position:0%
+ Open Web Application Security Project,
+ 
+
+00:00:36.890 --> 00:00:38.644 align:start position:0%
+ Open Web Application Security Project,
+ diluncurkan<00:00:37.528><c> pada</c><00:00:37.794><c> tahun</c><00:00:38.113><c> 2003</c><00:00:38.378><c> untuk</c>
+
+00:00:38.644 --> 00:00:38.697 align:start position:0%
+ diluncurkan pada tahun 2003 untuk
+ 
+
+00:00:38.697 --> 00:00:40.717 align:start position:0%
+ diluncurkan pada tahun 2003 untuk
+ meningkatkan<00:00:39.388><c> keamanan</c><00:00:39.867><c> perangkat</c><00:00:40.398><c> lunak</c><00:00:40.664><c>,</c>
+
+00:00:40.717 --> 00:00:40.770 align:start position:0%
+ meningkatkan keamanan perangkat lunak,
+ 
+
+00:00:40.770 --> 00:00:44.484 align:start position:0%
+ meningkatkan keamanan perangkat lunak,
+ terutama<00:00:41.249><c> aplikasi</c><00:00:41.727><c> web</c><00:00:41.886><c>.</c><00:00:43.800><c> OWASP</c><00:00:44.142><c> Top</c><00:00:44.370><c> 10</c>
+
+00:00:44.484 --> 00:00:44.541 align:start position:0%
+ terutama aplikasi web. OWASP Top 10
+ 
+
+00:00:44.541 --> 00:00:46.652 align:start position:0%
+ terutama aplikasi web. OWASP Top 10
+ adalah<00:00:44.941><c> dokumen</c><00:00:45.397><c> kesadaran</c><00:00:45.968><c> standar</c><00:00:46.424><c> yang</c>
+
+00:00:46.652 --> 00:00:46.710 align:start position:0%
+ adalah dokumen kesadaran standar yang
+ 
+
+00:00:46.710 --> 00:00:48.935 align:start position:0%
+ adalah dokumen kesadaran standar yang
+ mewakili<00:00:47.223><c> konsensus</c><00:00:47.794><c> luas</c><00:00:48.079><c> mengenai</c><00:00:48.592><c> risiko</c>
+
+00:00:48.935 --> 00:00:48.992 align:start position:0%
+ mewakili konsensus luas mengenai risiko
+ 
+
+00:00:48.992 --> 00:00:50.761 align:start position:0%
+ mewakili konsensus luas mengenai risiko
+ keamanan<00:00:49.505><c> paling</c><00:00:49.905><c> kritis</c><00:00:50.304><c> terhadap</c>
+
+00:00:50.761 --> 00:00:50.818 align:start position:0%
+ keamanan paling kritis terhadap
+ 
+
+00:00:50.818 --> 00:00:53.079 align:start position:0%
+ keamanan paling kritis terhadap
+ aplikasi<00:00:51.331><c> web</c><00:00:51.502><c>.</c><00:00:52.400><c> Hampir</c><00:00:52.679><c> semua</c><00:00:52.919><c> yang</c>
+
+00:00:53.079 --> 00:00:53.119 align:start position:0%
+ aplikasi web. Hampir semua yang
+ 
+
+00:00:53.119 --> 00:00:54.239 align:start position:0%
+ aplikasi web. Hampir semua yang
+ terlibat<00:00:53.479><c> dengan</c><00:00:53.759><c> OWASP</c><00:00:53.999><c> adalah</c>
+
+00:00:54.239 --> 00:00:54.279 align:start position:0%
+ terlibat dengan OWASP adalah
+ 
+
+00:00:54.279 --> 00:00:55.759 align:start position:0%
+ terlibat dengan OWASP adalah
+ sukarelawan<00:00:54.719><c>,</c><00:00:54.799><c> dan</c><00:00:54.959><c> organisasi</c><00:00:55.399><c> ini</c><00:00:55.559><c> tidak</c>
+
+00:00:55.759 --> 00:00:55.799 align:start position:0%
+ sukarelawan, dan organisasi ini tidak
+ 
+
+00:00:55.799 --> 00:00:57.359 align:start position:0%
+ sukarelawan, dan organisasi ini tidak
+ berafiliasi<00:00:56.279><c> dengan</c><00:00:56.559><c> perusahaan</c><00:00:56.999><c> teknologi</c>
+
+00:00:57.359 --> 00:00:57.399 align:start position:0%
+ berafiliasi dengan perusahaan teknologi
+ 
+
+00:00:57.399 --> 00:00:59.779 align:start position:0%
+ berafiliasi dengan perusahaan teknologi
+ mana<00:00:57.599><c> pun</c><00:00:57.719><c>.</c><00:00:58.200><c> Kurangnya</c><00:00:58.785><c> tekanan</c><00:00:59.253><c> komersial</c>
+
+00:00:59.779 --> 00:00:59.838 align:start position:0%
+ mana pun. Kurangnya tekanan komersial
+ 
+
+00:00:59.838 --> 00:01:02.002 align:start position:0%
+ mana pun. Kurangnya tekanan komersial
+ memperkuat<00:01:00.481><c> klaim</c><00:01:00.832><c> OWASP</c><00:01:01.183><c> atas</c><00:01:01.476><c> informasi</c>
+
+00:01:02.002 --> 00:01:02.061 align:start position:0%
+ memperkuat klaim OWASP atas informasi
+ 
+
+00:01:02.061 --> 00:01:04.108 align:start position:0%
+ memperkuat klaim OWASP atas informasi
+ yang<00:01:02.353><c> tidak</c><00:01:02.704><c> bias</c><00:01:02.938><c>,</c><00:01:03.055><c> praktis</c><00:01:03.465><c>,</c><00:01:03.582><c> dan</c><00:01:03.816><c> hemat</c>
+
+00:01:04.108 --> 00:01:04.167 align:start position:0%
+ yang tidak bias, praktis, dan hemat
+ 
+
+00:01:04.167 --> 00:01:06.039 align:start position:0%
+ yang tidak bias, praktis, dan hemat
+ biaya<00:01:04.518><c> terkait</c><00:01:04.986><c> keamanan</c><00:01:05.512><c> aplikasi</c><00:01:05.980><c>.</c>
+
+00:01:06.039 --> 00:01:06.779 align:start position:0%
+ biaya terkait keamanan aplikasi.
+ 
+
+00:01:06.779 --> 00:01:11.907 align:start position:0%
+ biaya terkait keamanan aplikasi.
+ Ataukah<00:01:07.035><c> sebenarnya</c><00:01:07.387><c> tidak</c><00:01:07.547><c>?</c><00:01:11.660><c> OWASP</c>
+
+00:01:11.907 --> 00:01:11.956 align:start position:0%
+ Ataukah sebenarnya tidak? OWASP
+ 
+
+00:01:11.956 --> 00:01:13.833 align:start position:0%
+ Ataukah sebenarnya tidak? OWASP
+ menggunakan<00:01:12.549><c> komunitas</c><00:01:13.043><c> proyek</c><00:01:13.389><c> perangkat</c>
+
+00:01:13.833 --> 00:01:13.883 align:start position:0%
+ menggunakan komunitas proyek perangkat
+ 
+
+00:01:13.883 --> 00:01:15.661 align:start position:0%
+ menggunakan komunitas proyek perangkat
+ lunak<00:01:14.179><c> sumber</c><00:01:14.525><c> terbuka</c><00:01:14.871><c>,</c><00:01:14.969><c> ratusan</c><00:01:15.365><c> cabang</c>
+
+00:01:15.661 --> 00:01:15.710 align:start position:0%
+ lunak sumber terbuka, ratusan cabang
+ 
+
+00:01:15.710 --> 00:01:17.489 align:start position:0%
+ lunak sumber terbuka, ratusan cabang
+ lokal<00:01:16.007><c> di</c><00:01:16.155><c> seluruh</c><00:01:16.550><c> dunia</c><00:01:16.797><c>,</c><00:01:16.896><c> puluhan</c><00:01:17.291><c> ribu</c>
+
+00:01:17.489 --> 00:01:17.538 align:start position:0%
+ lokal di seluruh dunia, puluhan ribu
+ 
+
+00:01:17.538 --> 00:01:19.465 align:start position:0%
+ lokal di seluruh dunia, puluhan ribu
+ anggota<00:01:17.884><c>,</c><00:01:17.983><c> dan</c><00:01:18.180><c> konferensi</c><00:01:18.724><c> pelatihan</c><00:01:19.218><c> untuk</c>
+
+00:01:19.465 --> 00:01:19.514 align:start position:0%
+ anggota, dan konferensi pelatihan untuk
+ 
+
+00:01:19.514 --> 00:01:21.144 align:start position:0%
+ anggota, dan konferensi pelatihan untuk
+ menyusun<00:01:19.959><c> daftar</c><00:01:20.305><c> 10</c><00:01:20.453><c> risiko</c><00:01:20.799><c> teratas</c>
+
+00:01:21.144 --> 00:01:21.194 align:start position:0%
+ menyusun daftar 10 risiko teratas
+ 
+
+00:01:21.194 --> 00:01:24.664 align:start position:0%
+ menyusun daftar 10 risiko teratas
+ mereka<00:01:21.490><c>.</c><00:01:22.979><c> Data</c><00:01:23.250><c> dan</c><00:01:23.468><c> dokumentasi</c><00:01:24.120><c> dimasukkan</c>
+
+00:01:24.664 --> 00:01:24.718 align:start position:0%
+ mereka. Data dan dokumentasi dimasukkan
+ 
+
+00:01:24.718 --> 00:01:26.403 align:start position:0%
+ mereka. Data dan dokumentasi dimasukkan
+ ke<00:01:24.881><c> dalam</c><00:01:25.207><c> repositori</c><00:01:25.805><c> GitHub</c><00:01:26.186><c> yang</c>
+
+00:01:26.403 --> 00:01:26.457 align:start position:0%
+ ke dalam repositori GitHub yang
+ 
+
+00:01:26.457 --> 00:01:28.414 align:start position:0%
+ ke dalam repositori GitHub yang
+ dikelola<00:01:26.947><c> oleh</c><00:01:27.218><c> OWASP</c><00:01:27.545><c> setelah</c><00:01:27.980><c> tim</c><00:01:28.197><c> inti</c>
+
+00:01:28.414 --> 00:01:28.469 align:start position:0%
+ dikelola oleh OWASP setelah tim inti
+ 
+
+00:01:28.469 --> 00:01:31.048 align:start position:0%
+ dikelola oleh OWASP setelah tim inti
+ Top<00:01:28.686><c> 10</c><00:01:28.849><c> merilis</c><00:01:29.284><c> panggilan</c><00:01:29.828><c> data</c><00:01:30.045><c>.</c><00:01:30.860><c> Para</c>
+
+00:01:31.048 --> 00:01:31.095 align:start position:0%
+ Top 10 merilis panggilan data. Para
+ 
+
+00:01:31.095 --> 00:01:32.694 align:start position:0%
+ Top 10 merilis panggilan data. Para
+ kontributor<00:01:31.659><c> industri</c><00:01:32.082><c> juga</c><00:01:32.317><c> didorong</c>
+
+00:01:32.694 --> 00:01:32.741 align:start position:0%
+ kontributor industri juga didorong
+ 
+
+00:01:32.741 --> 00:01:34.340 align:start position:0%
+ kontributor industri juga didorong
+ untuk<00:01:33.023><c> berpartisipasi</c><00:01:33.728><c> dalam</c><00:01:34.010><c> survei</c><00:01:34.292><c>.</c>
+
+00:01:34.340 --> 00:01:35.339 align:start position:0%
+ untuk berpartisipasi dalam survei.
+ 
+
+00:01:35.339 --> 00:01:36.898 align:start position:0%
+ untuk berpartisipasi dalam survei.
+ Setelah<00:01:35.695><c> data</c><00:01:35.918><c> dikumpulkan</c><00:01:36.453><c> di</c><00:01:36.586><c> GitHub</c><00:01:36.854><c>,</c>
+
+00:01:36.898 --> 00:01:36.943 align:start position:0%
+ Setelah data dikumpulkan di GitHub,
+ 
+
+00:01:36.943 --> 00:01:38.325 align:start position:0%
+ Setelah data dikumpulkan di GitHub,
+ data<00:01:37.166><c> tersebut</c><00:01:37.567><c> dinormalisasi</c><00:01:38.191><c> dan</c>
+
+00:01:38.325 --> 00:01:38.369 align:start position:0%
+ data tersebut dinormalisasi dan
+ 
+
+00:01:38.369 --> 00:01:40.411 align:start position:0%
+ data tersebut dinormalisasi dan
+ dianalisis<00:01:38.815><c>.</c><00:01:39.120><c> Survei</c><00:01:39.531><c> dikumpulkan</c><00:01:40.235><c> dan</c>
+
+00:01:40.411 --> 00:01:40.470 align:start position:0%
+ dianalisis. Survei dikumpulkan dan
+ 
+
+00:01:40.470 --> 00:01:42.688 align:start position:0%
+ dianalisis. Survei dikumpulkan dan
+ ditinjau<00:01:40.940><c>.</c><00:01:41.300><c> Draf</c><00:01:41.557><c> daftar</c><00:01:41.917><c> Top</c><00:01:42.122><c> 10</c><00:01:42.276><c> kemudian</c>
+
+00:01:42.688 --> 00:01:42.739 align:start position:0%
+ ditinjau. Draf daftar Top 10 kemudian
+ 
+
+00:01:42.739 --> 00:01:44.693 align:start position:0%
+ ditinjau. Draf daftar Top 10 kemudian
+ dibuat<00:01:43.099><c> menggunakan</c><00:01:43.716><c> delapan</c><00:01:44.128><c> risiko</c><00:01:44.487><c> yang</c>
+
+00:01:44.693 --> 00:01:44.745 align:start position:0%
+ dibuat menggunakan delapan risiko yang
+ 
+
+00:01:44.745 --> 00:01:46.699 align:start position:0%
+ dibuat menggunakan delapan risiko yang
+ diambil<00:01:45.156><c> dari</c><00:01:45.413><c> data</c><00:01:45.670><c> dan</c><00:01:45.876><c> dua</c><00:01:46.081><c> dari</c><00:01:46.339><c> survei</c><00:01:46.647><c>.</c>
+
+00:01:46.699 --> 00:01:47.119 align:start position:0%
+ diambil dari data dan dua dari survei.
+ 
+
+00:01:47.119 --> 00:01:49.083 align:start position:0%
+ diambil dari data dan dua dari survei.
+ Draf<00:01:47.370><c> tersebut</c><00:01:47.824><c> dirilis</c><00:01:48.227><c> secara</c><00:01:48.580><c> publik</c><00:01:48.932><c> dan</c>
+
+00:01:49.083 --> 00:01:49.134 align:start position:0%
+ Draf tersebut dirilis secara publik dan
+ 
+
+00:01:49.134 --> 00:01:50.796 align:start position:0%
+ Draf tersebut dirilis secara publik dan
+ proses<00:01:49.486><c> penyuntingannya</c><00:01:50.293><c> dicatat</c><00:01:50.696><c> di</c>
+
+00:01:50.796 --> 00:01:50.847 align:start position:0%
+ proses penyuntingannya dicatat di
+ 
+
+00:01:50.847 --> 00:01:53.443 align:start position:0%
+ proses penyuntingannya dicatat di
+ GitHub<00:01:51.149><c>.</c><00:01:51.860><c> Setelah</c><00:01:52.387><c> konsensus</c><00:01:53.047><c> publik</c>
+
+00:01:53.443 --> 00:01:53.509 align:start position:0%
+ GitHub. Setelah konsensus publik
+ 
+
+00:01:53.509 --> 00:01:55.819 align:start position:0%
+ GitHub. Setelah konsensus publik
+ tercapai<00:01:54.037><c>,</c><00:01:54.169><c> OWASP</c><00:01:54.565><c> Top</c><00:01:54.829><c> 10</c><00:01:55.027><c> pun</c><00:01:55.291><c> dirilis</c><00:01:55.753><c>.</c>
+
+00:01:55.819 --> 00:01:59.360 align:start position:0%
+ tercapai, OWASP Top 10 pun dirilis.
+ 
+
+00:01:59.360 --> 00:02:01.450 align:start position:0%
+ 
+ Terakhir<00:01:59.868><c> diperbarui</c><00:02:00.490><c> pada</c><00:02:00.772><c> 2017</c><00:02:00.998><c>,</c><00:02:01.111><c> daftar</c>
+
+00:02:01.450 --> 00:02:01.507 align:start position:0%
+ Terakhir diperbarui pada 2017, daftar
+ 
+
+00:02:01.507 --> 00:02:03.484 align:start position:0%
+ Terakhir diperbarui pada 2017, daftar
+ baru<00:02:01.789><c> yang</c><00:02:02.072><c> dirilis</c><00:02:02.524><c> pada</c><00:02:02.806><c> 24</c><00:02:02.976><c> September</c>
+
+00:02:03.484 --> 00:02:03.541 align:start position:0%
+ baru yang dirilis pada 24 September
+ 
+
+00:02:03.541 --> 00:02:05.405 align:start position:0%
+ baru yang dirilis pada 24 September
+ 2021<00:02:03.823><c> menampilkan</c><00:02:04.501><c> perubahan</c><00:02:05.066><c> urutan</c>
+
+00:02:05.405 --> 00:02:05.462 align:start position:0%
+ 2021 menampilkan perubahan urutan
+ 
+
+00:02:05.462 --> 00:02:07.383 align:start position:0%
+ 2021 menampilkan perubahan urutan
+ kategori<00:02:05.914><c>,</c><00:02:06.027><c> perubahan</c><00:02:06.592><c> nama</c><00:02:06.874><c> kategori</c><00:02:07.326><c>,</c>
+
+00:02:07.383 --> 00:02:07.439 align:start position:0%
+ kategori, perubahan nama kategori,
+ 
+
+00:02:07.439 --> 00:02:09.021 align:start position:0%
+ kategori, perubahan nama kategori,
+ serta<00:02:07.778><c> beberapa</c><00:02:08.287><c> kategori</c><00:02:08.795><c> yang</c>
+
+00:02:09.021 --> 00:02:09.078 align:start position:0%
+ serta beberapa kategori yang
+ 
+
+00:02:09.078 --> 00:02:11.648 align:start position:0%
+ serta beberapa kategori yang
+ benar-benar<00:02:09.756><c> baru</c><00:02:09.982><c>.</c><00:02:10.840><c> Mari</c><00:02:11.109><c> kita</c><00:02:11.378><c> lihat</c>
+
+00:02:11.648 --> 00:02:11.702 align:start position:0%
+ benar-benar baru. Mari kita lihat
+ 
+
+00:02:11.702 --> 00:02:13.480 align:start position:0%
+ benar-benar baru. Mari kita lihat
+ daftar<00:02:12.079><c> 2021</c><00:02:12.349><c> dan</c><00:02:12.564><c> jelaskan</c><00:02:13.049><c> apa</c><00:02:13.265><c> arti</c>
+
+00:02:13.480 --> 00:02:13.534 align:start position:0%
+ daftar 2021 dan jelaskan apa arti
+ 
+
+00:02:13.534 --> 00:02:15.421 align:start position:0%
+ daftar 2021 dan jelaskan apa arti
+ sebenarnya<00:02:14.127><c> dari</c><00:02:14.397><c> 10</c><00:02:14.558><c> kategori</c><00:02:15.043><c> teratas</c>
+
+00:02:15.421 --> 00:02:15.474 align:start position:0%
+ sebenarnya dari 10 kategori teratas
+ 
+
+00:02:15.474 --> 00:02:20.678 align:start position:0%
+ sebenarnya dari 10 kategori teratas
+ tersebut<00:02:15.906><c>.</c><00:02:19.420><c> Broken</c><00:02:19.746><c> access</c><00:02:20.072><c> control</c><00:02:20.398><c>,</c><00:02:20.491><c> yang</c>
+
+00:02:20.678 --> 00:02:20.724 align:start position:0%
+ tersebut. Broken access control, yang
+ 
+
+00:02:20.724 --> 00:02:22.309 align:start position:0%
+ tersebut. Broken access control, yang
+ naik<00:02:20.957><c> dari</c><00:02:21.190><c> posisi</c><00:02:21.516><c> kelima</c><00:02:21.796><c>,</c><00:02:21.889><c> menempati</c>
+
+00:02:22.309 --> 00:02:22.355 align:start position:0%
+ naik dari posisi kelima, menempati
+ 
+
+00:02:22.355 --> 00:02:24.310 align:start position:0%
+ naik dari posisi kelima, menempati
+ peringkat<00:02:22.821><c> teratas</c><00:02:23.194><c> pada</c><00:02:23.427><c> tahun</c><00:02:23.707><c> 2021</c><00:02:23.893><c>.</c><00:02:24.180><c> Ini</c>
+
+00:02:24.310 --> 00:02:24.353 align:start position:0%
+ peringkat teratas pada tahun 2021. Ini
+ 
+
+00:02:24.353 --> 00:02:25.698 align:start position:0%
+ peringkat teratas pada tahun 2021. Ini
+ adalah<00:02:24.657><c> perubahan</c><00:02:25.091><c> penting</c><00:02:25.438><c> karena</c>
+
+00:02:25.698 --> 00:02:25.742 align:start position:0%
+ adalah perubahan penting karena
+ 
+
+00:02:25.742 --> 00:02:27.347 align:start position:0%
+ adalah perubahan penting karena
+ menggantikan<00:02:26.306><c> injection</c><00:02:26.696><c>,</c><00:02:26.783><c> yang</c><00:02:27.000><c> sebagian</c>
+
+00:02:27.347 --> 00:02:27.391 align:start position:0%
+ menggantikan injection, yang sebagian
+ 
+
+00:02:27.391 --> 00:02:28.953 align:start position:0%
+ menggantikan injection, yang sebagian
+ besar<00:02:27.651><c> dianggap</c><00:02:28.042><c> sebagai</c><00:02:28.389><c> bentuk</c><00:02:28.692><c> risiko</c>
+
+00:02:28.953 --> 00:02:28.996 align:start position:0%
+ besar dianggap sebagai bentuk risiko
+ 
+
+00:02:28.996 --> 00:02:30.645 align:start position:0%
+ besar dianggap sebagai bentuk risiko
+ paling<00:02:29.300><c> populer</c><00:02:29.647><c> yang</c><00:02:29.864><c> dieksploitasi</c><00:02:30.472><c> oleh</c>
+
+00:02:30.645 --> 00:02:30.689 align:start position:0%
+ paling populer yang dieksploitasi oleh
+ 
+
+00:02:30.689 --> 00:02:33.359 align:start position:0%
+ paling populer yang dieksploitasi oleh
+ penjahat<00:02:31.079><c> siber</c><00:02:31.296><c>.</c><00:02:32.499><c> Broken</c><00:02:32.785><c> access</c><00:02:33.072><c> control</c>
+
+00:02:33.359 --> 00:02:33.400 align:start position:0%
+ penjahat siber. Broken access control
+ 
+
+00:02:33.400 --> 00:02:34.916 align:start position:0%
+ penjahat siber. Broken access control
+ memungkinkan<00:02:33.932><c> penyerang</c><00:02:34.342><c> untuk</c><00:02:34.588><c> melewati</c>
+
+00:02:34.916 --> 00:02:34.957 align:start position:0%
+ memungkinkan penyerang untuk melewati
+ 
+
+00:02:34.957 --> 00:02:36.432 align:start position:0%
+ memungkinkan penyerang untuk melewati
+ perlindungan<00:02:35.489><c> otorisasi</c><00:02:35.899><c> dan</c><00:02:36.063><c> melakukan</c>
+
+00:02:36.432 --> 00:02:36.473 align:start position:0%
+ perlindungan otorisasi dan melakukan
+ 
+
+00:02:36.473 --> 00:02:37.743 align:start position:0%
+ perlindungan otorisasi dan melakukan
+ tugas<00:02:36.718><c> seolah-olah</c><00:02:37.210><c> mereka</c><00:02:37.497><c> adalah</c>
+
+00:02:37.743 --> 00:02:37.784 align:start position:0%
+ tugas seolah-olah mereka adalah
+ 
+
+00:02:37.784 --> 00:02:39.259 align:start position:0%
+ tugas seolah-olah mereka adalah
+ pengguna<00:02:38.152><c> yang</c><00:02:38.357><c> memiliki</c><00:02:38.726><c> hak</c><00:02:38.890><c> istimewa</c><00:02:39.218><c>.</c>
+
+00:02:39.259 --> 00:02:40.140 align:start position:0%
+ pengguna yang memiliki hak istimewa.
+ 
+
+00:02:40.140 --> 00:02:41.942 align:start position:0%
+ pengguna yang memiliki hak istimewa.
+ Sederhananya<00:02:40.757><c>,</c><00:02:40.860><c> broken</c><00:02:41.221><c> access</c><00:02:41.581><c> control</c>
+
+00:02:41.942 --> 00:02:41.993 align:start position:0%
+ Sederhananya, broken access control
+ 
+
+00:02:41.993 --> 00:02:43.693 align:start position:0%
+ Sederhananya, broken access control
+ memberi<00:02:42.405><c> penyerang</c><00:02:42.920><c> kemampuan</c><00:02:43.435><c> untuk</c>
+
+00:02:43.693 --> 00:02:43.744 align:start position:0%
+ memberi penyerang kemampuan untuk
+ 
+
+00:02:43.744 --> 00:02:45.752 align:start position:0%
+ memberi penyerang kemampuan untuk
+ mengekspos<00:02:44.311><c> data</c><00:02:44.568><c> sensitif</c><00:02:44.980><c>,</c><00:02:45.083><c> mengubah</c><00:02:45.546><c> atau</c>
+
+00:02:45.752 --> 00:02:45.804 align:start position:0%
+ mengekspos data sensitif, mengubah atau
+ 
+
+00:02:45.804 --> 00:02:47.555 align:start position:0%
+ mengekspos data sensitif, mengubah atau
+ menghancurkan<00:02:46.525><c> data</c><00:02:46.731><c>,</c><00:02:46.834><c> atau</c><00:02:47.091><c> melakukan</c>
+
+00:02:47.555 --> 00:02:47.606 align:start position:0%
+ menghancurkan data, atau melakukan
+ 
+
+00:02:47.606 --> 00:02:49.666 align:start position:0%
+ menghancurkan data, atau melakukan
+ hampir<00:02:47.967><c> semua</c><00:02:48.276><c> fungsi</c><00:02:48.636><c> jaringan</c><00:02:49.048><c>.</c><00:02:49.559><c> Ini</c>
+
+00:02:49.666 --> 00:02:49.701 align:start position:0%
+ hampir semua fungsi jaringan. Ini
+ 
+
+00:02:49.701 --> 00:02:51.094 align:start position:0%
+ hampir semua fungsi jaringan. Ini
+ adalah<00:02:49.951><c> pencapaian</c><00:02:50.344><c> tertinggi</c><00:02:50.701><c> dari</c><00:02:50.880><c> sebuah</c>
+
+00:02:51.094 --> 00:02:51.130 align:start position:0%
+ adalah pencapaian tertinggi dari sebuah
+ 
+
+00:02:51.130 --> 00:02:56.613 align:start position:0%
+ adalah pencapaian tertinggi dari sebuah
+ eksploitasi<00:02:51.523><c>.</c><00:02:55.700><c> Cryptographic</c><00:02:56.255><c> failures</c><00:02:56.573><c>,</c>
+
+00:02:56.613 --> 00:02:56.652 align:start position:0%
+ eksploitasi. Cryptographic failures,
+ 
+
+00:02:56.652 --> 00:02:58.161 align:start position:0%
+ eksploitasi. Cryptographic failures,
+ yang<00:02:56.851><c> sebelumnya</c><00:02:57.287><c> disebut</c><00:02:57.605><c> sensitive</c><00:02:58.002><c> data</c>
+
+00:02:58.161 --> 00:02:58.200 align:start position:0%
+ yang sebelumnya disebut sensitive data
+ 
+
+00:02:58.200 --> 00:02:59.590 align:start position:0%
+ yang sebelumnya disebut sensitive data
+ exposure<00:02:58.518><c>,</c><00:02:58.597><c> berada</c><00:02:58.875><c> di</c><00:02:58.994><c> peringkat</c><00:02:59.391><c> kedua</c>
+
+00:02:59.590 --> 00:02:59.630 align:start position:0%
+ exposure, berada di peringkat kedua
+ 
+
+00:02:59.630 --> 00:03:00.940 align:start position:0%
+ exposure, berada di peringkat kedua
+ dari<00:02:59.828><c> peringkat</c><00:03:00.225><c> ketiga</c><00:03:00.503><c> sebelumnya</c><00:03:00.900><c>.</c>
+
+00:03:00.940 --> 00:03:02.139 align:start position:0%
+ dari peringkat ketiga sebelumnya.
+ 
+
+00:03:02.139 --> 00:03:04.092 align:start position:0%
+ 
+ Cryptographic<00:03:02.840><c> failures</c><00:03:03.291><c> menandakan</c><00:03:03.842><c> fokus</c>
+
+00:03:04.092 --> 00:03:04.142 align:start position:0%
+ Cryptographic failures menandakan fokus
+ 
+
+00:03:04.142 --> 00:03:05.896 align:start position:0%
+ Cryptographic failures menandakan fokus
+ baru<00:03:04.393><c> oleh</c><00:03:04.643><c> OWASP</c><00:03:04.944><c> pada</c><00:03:05.194><c> kegagalan</c><00:03:05.695><c> yang</c>
+
+00:03:05.896 --> 00:03:05.946 align:start position:0%
+ baru oleh OWASP pada kegagalan yang
+ 
+
+00:03:05.946 --> 00:03:08.119 align:start position:0%
+ baru oleh OWASP pada kegagalan yang
+ terkait<00:03:06.347><c> dengan</c><00:03:06.697><c> kriptografi</c><00:03:07.248><c>.</c><00:03:07.920><c> Pada</c>
+
+00:03:08.119 --> 00:03:08.169 align:start position:0%
+ terkait dengan kriptografi. Pada
+ 
+
+00:03:08.169 --> 00:03:10.018 align:start position:0%
+ terkait dengan kriptografi. Pada
+ intinya<00:03:08.519><c>,</c><00:03:08.619><c> kategori</c><00:03:09.068><c> ini</c><00:03:09.268><c> mengeksploitasi</c>
+
+00:03:10.018 --> 00:03:10.068 align:start position:0%
+ intinya, kategori ini mengeksploitasi
+ 
+
+00:03:10.068 --> 00:03:11.716 align:start position:0%
+ intinya, kategori ini mengeksploitasi
+ informasi<00:03:10.567><c> yang</c><00:03:10.817><c> ditransfer</c><00:03:11.366><c> melalui</c>
+
+00:03:11.716 --> 00:03:11.766 align:start position:0%
+ informasi yang ditransfer melalui
+ 
+
+00:03:11.766 --> 00:03:13.614 align:start position:0%
+ informasi yang ditransfer melalui
+ komunikasi<00:03:12.315><c> aman</c><00:03:12.565><c> antar</c><00:03:12.865><c> dua</c><00:03:13.065><c> pihak</c><00:03:13.315><c>,</c><00:03:13.414><c> yang</c>
+
+00:03:13.614 --> 00:03:13.664 align:start position:0%
+ komunikasi aman antar dua pihak, yang
+ 
+
+00:03:13.664 --> 00:03:15.612 align:start position:0%
+ komunikasi aman antar dua pihak, yang
+ sering<00:03:14.014><c> kali</c><00:03:14.264><c> memberi</c><00:03:14.663><c> penyerang</c><00:03:15.163><c> informasi</c>
+
+00:03:15.612 --> 00:03:15.662 align:start position:0%
+ sering kali memberi penyerang informasi
+ 
+
+00:03:15.662 --> 00:03:17.511 align:start position:0%
+ sering kali memberi penyerang informasi
+ berguna<00:03:16.062><c> dalam</c><00:03:16.362><c> fase</c><00:03:16.612><c> pasca-eksploitasi</c><00:03:17.461><c>,</c>
+
+00:03:17.511 --> 00:03:17.561 align:start position:0%
+ berguna dalam fase pasca-eksploitasi,
+ 
+
+00:03:17.561 --> 00:03:19.209 align:start position:0%
+ berguna dalam fase pasca-eksploitasi,
+ seperti<00:03:17.960><c> cara</c><00:03:18.210><c> mempertahankan</c><00:03:18.959><c> akses</c>
+
+00:03:19.209 --> 00:03:19.259 align:start position:0%
+ seperti cara mempertahankan akses
+ 
+
+00:03:19.259 --> 00:03:25.023 align:start position:0%
+ seperti cara mempertahankan akses
+ terus-menerus<00:03:19.909><c>.</c><00:03:24.340><c> Injection</c><00:03:24.750><c>,</c><00:03:24.841><c> yang</c>
+
+00:03:25.023 --> 00:03:25.069 align:start position:0%
+ terus-menerus. Injection, yang
+ 
+
+00:03:25.069 --> 00:03:26.755 align:start position:0%
+ terus-menerus. Injection, yang
+ sebelumnya<00:03:25.570><c> dikenal</c><00:03:25.935><c> sebagai</c><00:03:26.300><c> cross-site</c>
+
+00:03:26.755 --> 00:03:26.801 align:start position:0%
+ sebelumnya dikenal sebagai cross-site
+ 
+
+00:03:26.801 --> 00:03:28.533 align:start position:0%
+ sebelumnya dikenal sebagai cross-site
+ scripting<00:03:27.257><c> dan</c><00:03:27.439><c> dianggap</c><00:03:27.849><c> sebagai</c><00:03:28.214><c> rajanya</c>
+
+00:03:28.533 --> 00:03:28.579 align:start position:0%
+ scripting dan dianggap sebagai rajanya
+ 
+
+00:03:28.579 --> 00:03:30.220 align:start position:0%
+ scripting dan dianggap sebagai rajanya
+ kerentanan<00:03:29.034><c>,</c><00:03:29.126><c> turun</c><00:03:29.399><c> ke</c><00:03:29.536><c> peringkat</c><00:03:29.992><c> tiga</c><00:03:30.174><c>.</c>
+
+00:03:30.220 --> 00:03:31.500 align:start position:0%
+ kerentanan, turun ke peringkat tiga.
+ 
+
+00:03:31.500 --> 00:03:33.062 align:start position:0%
+ 
+ Injection<00:03:31.973><c> mengeksploitasi</c><00:03:32.731><c> program</c>
+
+00:03:33.062 --> 00:03:33.109 align:start position:0%
+ Injection mengeksploitasi program
+ 
+
+00:03:33.109 --> 00:03:34.909 align:start position:0%
+ Injection mengeksploitasi program
+ komputer<00:03:33.536><c> yang</c><00:03:33.772><c> rentan</c><00:03:34.104><c> dengan</c><00:03:34.435><c> memasukkan</c>
+
+00:03:34.909 --> 00:03:34.956 align:start position:0%
+ komputer yang rentan dengan memasukkan
+ 
+
+00:03:34.956 --> 00:03:36.424 align:start position:0%
+ komputer yang rentan dengan memasukkan
+ kode<00:03:35.193><c> yang</c><00:03:35.430><c> mengubah</c><00:03:35.856><c> cara</c><00:03:36.093><c> program</c>
+
+00:03:36.424 --> 00:03:36.471 align:start position:0%
+ kode yang mengubah cara program
+ 
+
+00:03:36.471 --> 00:03:38.857 align:start position:0%
+ kode yang mengubah cara program
+ tersebut<00:03:36.898><c> dieksekusi</c><00:03:37.371><c>.</c><00:03:38.039><c> Sebagai</c><00:03:38.475><c> contoh</c><00:03:38.803><c>,</c>
+
+00:03:38.857 --> 00:03:38.912 align:start position:0%
+ tersebut dieksekusi. Sebagai contoh,
+ 
+
+00:03:38.912 --> 00:03:40.877 align:start position:0%
+ tersebut dieksekusi. Sebagai contoh,
+ dengan<00:03:39.294><c> menyuntikkan</c><00:03:40.004><c> kode</c><00:03:40.277><c> ke</c><00:03:40.440><c> aplikasi</c>
+
+00:03:40.877 --> 00:03:40.932 align:start position:0%
+ dengan menyuntikkan kode ke aplikasi
+ 
+
+00:03:40.932 --> 00:03:42.842 align:start position:0%
+ dengan menyuntikkan kode ke aplikasi
+ web<00:03:41.095><c>,</c><00:03:41.205><c> penyerang</c><00:03:41.750><c> dapat</c><00:03:42.078><c> mencuri</c><00:03:42.515><c> cookie</c>
+
+00:03:42.842 --> 00:03:42.897 align:start position:0%
+ web, penyerang dapat mencuri cookie
+ 
+
+00:03:42.897 --> 00:03:44.698 align:start position:0%
+ web, penyerang dapat mencuri cookie
+ autentikasi<00:03:43.552><c> dan</c><00:03:43.770><c> menggunakannya</c><00:03:44.589><c> di</c>
+
+00:03:44.698 --> 00:03:44.753 align:start position:0%
+ autentikasi dan menggunakannya di
+ 
+
+00:03:44.753 --> 00:03:46.663 align:start position:0%
+ autentikasi dan menggunakannya di
+ layanan<00:03:45.189><c> daring</c><00:03:45.571><c> lain</c><00:03:45.790><c>,</c><00:03:45.899><c> menipu</c><00:03:46.281><c> layanan</c>
+
+00:03:46.663 --> 00:03:46.718 align:start position:0%
+ layanan daring lain, menipu layanan
+ 
+
+00:03:46.718 --> 00:03:48.792 align:start position:0%
+ layanan daring lain, menipu layanan
+ tersebut<00:03:47.209><c> agar</c><00:03:47.482><c> mengira</c><00:03:47.919><c> penyerang</c><00:03:48.464><c> adalah</c>
+
+00:03:48.792 --> 00:03:48.847 align:start position:0%
+ tersebut agar mengira penyerang adalah
+ 
+
+00:03:48.847 --> 00:03:54.550 align:start position:0%
+ tersebut agar mengira penyerang adalah
+ Anda<00:03:49.065><c>.</c><00:03:52.819><c> Insecure</c><00:03:53.338><c> design</c><00:03:53.684><c>,</c><00:03:53.800><c> kategori</c><00:03:54.319><c> baru</c>
+
+00:03:54.550 --> 00:03:54.608 align:start position:0%
+ Anda. Insecure design, kategori baru
+ 
+
+00:03:54.608 --> 00:03:56.744 align:start position:0%
+ Anda. Insecure design, kategori baru
+ untuk<00:03:54.954><c> OWASP</c><00:03:55.301><c> Top</c><00:03:55.532><c> 10</c><00:03:55.705><c> tahun</c><00:03:56.051><c> 2021</c><00:03:56.282><c>,</c><00:03:56.398><c> berada</c>
+
+00:03:56.744 --> 00:03:56.802 align:start position:0%
+ untuk OWASP Top 10 tahun 2021, berada
+ 
+
+00:03:56.802 --> 00:03:58.597 align:start position:0%
+ untuk OWASP Top 10 tahun 2021, berada
+ di<00:03:56.975><c> peringkat</c><00:03:57.552><c> empat</c><00:03:57.841><c>.</c><00:03:58.100><c> Kategori</c><00:03:58.473><c> ini</c>
+
+00:03:58.597 --> 00:03:58.639 align:start position:0%
+ di peringkat empat. Kategori ini
+ 
+
+00:03:58.639 --> 00:04:00.132 align:start position:0%
+ di peringkat empat. Kategori ini
+ disertakan<00:03:59.095><c> sebagai</c><00:03:59.427><c> seruan</c><00:03:59.717><c> tegas</c><00:03:59.966><c> bagi</c>
+
+00:04:00.132 --> 00:04:00.174 align:start position:0%
+ disertakan sebagai seruan tegas bagi
+ 
+
+00:04:00.174 --> 00:04:01.542 align:start position:0%
+ disertakan sebagai seruan tegas bagi
+ pengembang<00:04:00.630><c> untuk</c><00:04:00.879><c> menerapkan</c><00:04:01.335><c> lebih</c>
+
+00:04:01.542 --> 00:04:01.584 align:start position:0%
+ pengembang untuk menerapkan lebih
+ 
+
+00:04:01.584 --> 00:04:03.160 align:start position:0%
+ pengembang untuk menerapkan lebih
+ banyak<00:04:01.874><c> pola</c><00:04:02.082><c> dan</c><00:04:02.248><c> prinsip</c><00:04:02.580><c> keamanan</c><00:04:02.953><c> sejak</c>
+
+00:04:03.160 --> 00:04:03.202 align:start position:0%
+ banyak pola dan prinsip keamanan sejak
+ 
+
+00:04:03.202 --> 00:04:05.744 align:start position:0%
+ banyak pola dan prinsip keamanan sejak
+ perancangan<00:04:03.658><c>.</c><00:04:04.580><c> Ini</c><00:04:04.782><c> adalah</c><00:04:05.136><c> pertimbangan</c>
+
+00:04:05.744 --> 00:04:05.794 align:start position:0%
+ perancangan. Ini adalah pertimbangan
+ 
+
+00:04:05.794 --> 00:04:07.718 align:start position:0%
+ perancangan. Ini adalah pertimbangan
+ penting<00:04:06.199><c> saat</c><00:04:06.452><c> menyertakan</c><00:04:07.060><c> aplikasi</c><00:04:07.515><c> baru</c>
+
+00:04:07.718 --> 00:04:07.768 align:start position:0%
+ penting saat menyertakan aplikasi baru
+ 
+
+00:04:07.768 --> 00:04:09.641 align:start position:0%
+ penting saat menyertakan aplikasi baru
+ ke<00:04:07.920><c> dalam</c><00:04:08.224><c> infrastruktur</c><00:04:08.932><c> jaringan</c><00:04:09.388><c> Anda</c><00:04:09.590><c>,</c>
+
+00:04:09.641 --> 00:04:09.692 align:start position:0%
+ ke dalam infrastruktur jaringan Anda,
+ 
+
+00:04:09.692 --> 00:04:11.413 align:start position:0%
+ ke dalam infrastruktur jaringan Anda,
+ terutama<00:04:10.147><c> mengingat</c><00:04:10.653><c> serangan</c><00:04:11.109><c> rantai</c>
+
+00:04:11.413 --> 00:04:11.463 align:start position:0%
+ terutama mengingat serangan rantai
+ 
+
+00:04:11.463 --> 00:04:13.235 align:start position:0%
+ terutama mengingat serangan rantai
+ pasok<00:04:11.767><c> pada</c><00:04:12.020><c> SolarWinds</c><00:04:12.577><c> dan</c><00:04:12.779><c> dampaknya</c>
+
+00:04:13.235 --> 00:04:13.285 align:start position:0%
+ pasok pada SolarWinds dan dampaknya
+ 
+
+00:04:13.285 --> 00:04:15.260 align:start position:0%
+ pasok pada SolarWinds dan dampaknya
+ terhadap<00:04:13.741><c> penyedia</c><00:04:14.197><c> layanan</c><00:04:14.601><c> pihak</c><00:04:14.905><c> ketiga</c><00:04:15.209><c>.</c>
+
+00:04:15.260 --> 00:04:19.036 align:start position:0%
+ terhadap penyedia layanan pihak ketiga.
+ 
+
+00:04:19.036 --> 00:04:21.333 align:start position:0%
+ 
+ Security<00:04:19.566><c> misconfiguration</c><00:04:20.508><c>,</c><00:04:20.626><c> di</c><00:04:20.803><c> peringkat</c>
+
+00:04:21.333 --> 00:04:21.392 align:start position:0%
+ Security misconfiguration, di peringkat
+ 
+
+00:04:21.392 --> 00:04:23.218 align:start position:0%
+ Security misconfiguration, di peringkat
+ lima<00:04:21.628><c>,</c><00:04:21.745><c> naik</c><00:04:22.040><c> dari</c><00:04:22.334><c> peringkat</c><00:04:22.924><c> enam</c><00:04:23.159><c>,</c>
+
+00:04:23.218 --> 00:04:23.277 align:start position:0%
+ lima, naik dari peringkat enam,
+ 
+
+00:04:23.277 --> 00:04:25.516 align:start position:0%
+ lima, naik dari peringkat enam,
+ ditemukan<00:04:23.866><c> pada</c><00:04:24.161><c> 90</c><00:04:24.278><c>%</c><00:04:24.337><c>aplikasi</c><00:04:24.868><c> yang</c><00:04:25.162><c> diuji</c><00:04:25.457><c>.</c>
+
+00:04:25.516 --> 00:04:25.616 align:start position:0%
+ ditemukan pada 90%aplikasi yang diuji.
+ 
+
+00:04:25.616 --> 00:04:26.527 align:start position:0%
+ ditemukan pada 90%aplikasi yang diuji.
+ Tidak<00:04:25.811><c> mengherankan</c><00:04:26.234><c> mengingat</c>
+
+00:04:26.527 --> 00:04:26.559 align:start position:0%
+ Tidak mengherankan mengingat
+ 
+
+00:04:26.559 --> 00:04:27.829 align:start position:0%
+ Tidak mengherankan mengingat
+ meningkatnya<00:04:26.983><c> penggunaan</c><00:04:27.341><c> perangkat</c><00:04:27.666><c> lunak</c>
+
+00:04:27.829 --> 00:04:27.861 align:start position:0%
+ meningkatnya penggunaan perangkat lunak
+ 
+
+00:04:27.861 --> 00:04:28.871 align:start position:0%
+ meningkatnya penggunaan perangkat lunak
+ yang<00:04:28.024><c> sangat</c><00:04:28.252><c> bisa</c><00:04:28.415><c> dikonfigurasi</c><00:04:28.838><c>.</c>
+
+00:04:28.871 --> 00:04:29.800 align:start position:0%
+ yang sangat bisa dikonfigurasi.
+ 
+
+00:04:29.800 --> 00:04:31.446 align:start position:0%
+ yang sangat bisa dikonfigurasi.
+ Security<00:04:30.263><c> misconfiguration</c><00:04:31.138><c> adalah</c>
+
+00:04:31.446 --> 00:04:31.498 align:start position:0%
+ Security misconfiguration adalah
+ 
+
+00:04:31.498 --> 00:04:33.145 align:start position:0%
+ Security misconfiguration adalah
+ kegagalan<00:04:32.012><c> dalam</c><00:04:32.321><c> menerapkan</c><00:04:32.887><c> semua</c>
+
+00:04:33.145 --> 00:04:33.196 align:start position:0%
+ kegagalan dalam menerapkan semua
+ 
+
+00:04:33.196 --> 00:04:34.946 align:start position:0%
+ kegagalan dalam menerapkan semua
+ kontrol<00:04:33.608><c> keamanan</c><00:04:34.071><c> untuk</c><00:04:34.380><c> server</c><00:04:34.740><c> atau</c>
+
+00:04:34.946 --> 00:04:34.997 align:start position:0%
+ kontrol keamanan untuk server atau
+ 
+
+00:04:34.997 --> 00:04:36.901 align:start position:0%
+ kontrol keamanan untuk server atau
+ aplikasi<00:04:35.460><c> web</c><00:04:35.615><c>,</c><00:04:35.718><c> atau</c><00:04:35.975><c> menerapkan</c><00:04:36.541><c> kontrol</c>
+
+00:04:36.901 --> 00:04:36.953 align:start position:0%
+ aplikasi web, atau menerapkan kontrol
+ 
+
+00:04:36.953 --> 00:04:39.560 align:start position:0%
+ aplikasi web, atau menerapkan kontrol
+ keamanan<00:04:37.416><c> namun</c><00:04:37.725><c> dengan</c><00:04:38.085><c> kesalahan</c><00:04:38.548><c>.</c><00:04:39.279><c> Setiap</c>
+
+00:04:39.560 --> 00:04:39.607 align:start position:0%
+ keamanan namun dengan kesalahan. Setiap
+ 
+
+00:04:39.607 --> 00:04:41.297 align:start position:0%
+ keamanan namun dengan kesalahan. Setiap
+ orang<00:04:39.889><c> membuat</c><00:04:40.264><c> kesalahan</c><00:04:40.733><c> dan</c><00:04:40.921><c> security</c>
+
+00:04:41.297 --> 00:04:41.344 align:start position:0%
+ orang membuat kesalahan dan security
+ 
+
+00:04:41.344 --> 00:04:42.845 align:start position:0%
+ orang membuat kesalahan dan security
+ misconfiguration<00:04:42.141><c> terjadi</c><00:04:42.517><c> melalui</c>
+
+00:04:42.845 --> 00:04:42.892 align:start position:0%
+ misconfiguration terjadi melalui
+ 
+
+00:04:42.892 --> 00:04:45.067 align:start position:0%
+ misconfiguration terjadi melalui
+ berbagai<00:04:43.315><c> kesalahan</c><00:04:43.784><c> manusia</c><00:04:44.113><c>.</c><00:04:44.800><c> Salah</c>
+
+00:04:45.067 --> 00:04:45.121 align:start position:0%
+ berbagai kesalahan manusia. Salah
+ 
+
+00:04:45.121 --> 00:04:47.157 align:start position:0%
+ berbagai kesalahan manusia. Salah
+ menafsirkan<00:04:45.764><c> implementasi</c><00:04:46.460><c> sistem</c><00:04:46.782><c>,</c><00:04:46.889><c> tidak</c>
+
+00:04:47.157 --> 00:04:47.210 align:start position:0%
+ menafsirkan implementasi sistem, tidak
+ 
+
+00:04:47.210 --> 00:04:49.193 align:start position:0%
+ menafsirkan implementasi sistem, tidak
+ mengubah<00:04:47.693><c> kredensial</c><00:04:48.282><c> log</c><00:04:48.496><c> masuk</c><00:04:48.818><c> bawaan</c><00:04:49.139><c>,</c>
+
+00:04:49.193 --> 00:04:49.246 align:start position:0%
+ mengubah kredensial log masuk bawaan,
+ 
+
+00:04:49.246 --> 00:04:51.228 align:start position:0%
+ mengubah kredensial log masuk bawaan,
+ kurangnya<00:04:49.782><c> keterampilan</c><00:04:50.478><c> komputer</c><00:04:50.907><c>,</c><00:04:51.014><c> atau</c>
+
+00:04:51.228 --> 00:04:51.282 align:start position:0%
+ kurangnya keterampilan komputer, atau
+ 
+
+00:04:51.282 --> 00:04:52.943 align:start position:0%
+ kurangnya keterampilan komputer, atau
+ kesalahan<00:04:51.818><c> karena</c><00:04:52.193><c> tekanan</c><00:04:52.621><c> waktu</c><00:04:52.889><c>,</c>
+
+00:04:52.943 --> 00:04:52.996 align:start position:0%
+ kesalahan karena tekanan waktu,
+ 
+
+00:04:52.996 --> 00:04:58.088 align:start position:0%
+ kesalahan karena tekanan waktu,
+ misalnya<00:04:53.425><c>.</c><00:04:57.140><c> Vulnerable</c><00:04:57.593><c> and</c><00:04:57.758><c> outdated</c>
+
+00:04:58.088 --> 00:04:58.129 align:start position:0%
+ misalnya. Vulnerable and outdated
+ 
+
+00:04:58.129 --> 00:04:59.695 align:start position:0%
+ misalnya. Vulnerable and outdated
+ components<00:04:58.541><c>,</c><00:04:58.623><c> sebelumnya</c><00:04:59.077><c> dikenal</c><00:04:59.407><c> sebagai</c>
+
+00:04:59.695 --> 00:04:59.736 align:start position:0%
+ components, sebelumnya dikenal sebagai
+ 
+
+00:04:59.736 --> 00:05:01.261 align:start position:0%
+ components, sebelumnya dikenal sebagai
+ penggunaan<00:05:00.190><c> komponen</c><00:05:00.561><c> dengan</c><00:05:00.849><c> kerentanan</c>
+
+00:05:01.261 --> 00:05:01.303 align:start position:0%
+ penggunaan komponen dengan kerentanan
+ 
+
+00:05:01.303 --> 00:05:02.869 align:start position:0%
+ penggunaan komponen dengan kerentanan
+ yang<00:05:01.509><c> diketahui</c><00:05:01.880><c>,</c><00:05:01.962><c> naik</c><00:05:02.168><c> ke</c><00:05:02.292><c> peringkat</c><00:05:02.704><c> enam</c>
+
+00:05:02.869 --> 00:05:02.910 align:start position:0%
+ yang diketahui, naik ke peringkat enam
+ 
+
+00:05:02.910 --> 00:05:04.452 align:start position:0%
+ yang diketahui, naik ke peringkat enam
+ dari<00:05:03.116><c> peringkat</c><00:05:03.529><c> sembilan</c><00:05:03.858><c>.</c><00:05:04.140><c> Menurut</c>
+
+00:05:04.452 --> 00:05:04.497 align:start position:0%
+ dari peringkat sembilan. Menurut
+ 
+
+00:05:04.497 --> 00:05:06.149 align:start position:0%
+ dari peringkat sembilan. Menurut
+ pengakuan<00:05:04.943><c> OWASP</c><00:05:05.211><c> sendiri</c><00:05:05.524><c>,</c><00:05:05.613><c> kategori</c><00:05:06.015><c> ini</c>
+
+00:05:06.149 --> 00:05:06.194 align:start position:0%
+ pengakuan OWASP sendiri, kategori ini
+ 
+
+00:05:06.194 --> 00:05:07.801 align:start position:0%
+ pengakuan OWASP sendiri, kategori ini
+ sulit<00:05:06.462><c> diuji</c><00:05:06.685><c>,</c><00:05:06.774><c> tetapi</c><00:05:07.087><c> menempati</c><00:05:07.533><c> posisi</c>
+
+00:05:07.801 --> 00:05:07.846 align:start position:0%
+ sulit diuji, tetapi menempati posisi
+ 
+
+00:05:07.846 --> 00:05:09.588 align:start position:0%
+ sulit diuji, tetapi menempati posisi
+ tinggi<00:05:08.159><c> dalam</c><00:05:08.427><c> survei</c><00:05:08.739><c> komunitas</c><00:05:09.141><c>,</c><00:05:09.230><c> sehingga</c>
+
+00:05:09.588 --> 00:05:09.632 align:start position:0%
+ tinggi dalam survei komunitas, sehingga
+ 
+
+00:05:09.632 --> 00:05:11.374 align:start position:0%
+ tinggi dalam survei komunitas, sehingga
+ berkontribusi<00:05:10.257><c> pada</c><00:05:10.481><c> peringkat</c><00:05:10.927><c> terbarunya</c>
+
+00:05:11.374 --> 00:05:15.166 align:start position:0%
+ berkontribusi pada peringkat terbarunya
+.<00:05:13.299><c> Vulnerable</c><00:05:13.903><c> and</c><00:05:14.122><c> outdated</c><00:05:14.616><c> components</c>
+
+00:05:15.166 --> 00:05:15.220 align:start position:0%
+. Vulnerable and outdated components
+ 
+
+00:05:15.220 --> 00:05:17.142 align:start position:0%
+. Vulnerable and outdated components
+ mencakup<00:05:15.715><c> sistem</c><00:05:16.099><c> operasi</c><00:05:16.483><c>,</c><00:05:16.593><c> server</c><00:05:16.978><c> web</c>
+
+00:05:17.142 --> 00:05:17.197 align:start position:0%
+ mencakup sistem operasi, server web
+ 
+
+00:05:17.197 --> 00:05:19.229 align:start position:0%
+ mencakup sistem operasi, server web
+ atau<00:05:17.472><c> aplikasi</c><00:05:17.911><c>,</c><00:05:18.021><c> sistem</c><00:05:18.405><c> manajemen</c><00:05:18.955><c> basis</c>
+
+00:05:19.229 --> 00:05:19.284 align:start position:0%
+ atau aplikasi, sistem manajemen basis
+ 
+
+00:05:19.284 --> 00:05:20.931 align:start position:0%
+ atau aplikasi, sistem manajemen basis
+ data<00:05:19.504><c>,</c><00:05:19.614><c> API</c><00:05:19.778><c>,</c><00:05:19.888><c> dan</c><00:05:20.108><c> semua</c><00:05:20.437><c> komponen</c><00:05:20.877><c>,</c>
+
+00:05:20.931 --> 00:05:20.986 align:start position:0%
+ data, API, dan semua komponen,
+ 
+
+00:05:20.986 --> 00:05:23.073 align:start position:0%
+ data, API, dan semua komponen,
+ lingkungan<00:05:21.590><c> runtime</c><00:05:21.975><c>,</c><00:05:22.085><c> serta</c><00:05:22.414><c> pustaka</c><00:05:22.853><c> yang</c>
+
+00:05:23.073 --> 00:05:23.128 align:start position:0%
+ lingkungan runtime, serta pustaka yang
+ 
+
+00:05:23.128 --> 00:05:24.666 align:start position:0%
+ lingkungan runtime, serta pustaka yang
+ rentan<00:05:23.458><c>,</c><00:05:23.567><c> tidak</c><00:05:23.897><c> didukung</c><00:05:24.336><c>,</c><00:05:24.446><c> atau</c>
+
+00:05:24.666 --> 00:05:24.721 align:start position:0%
+ rentan, tidak didukung, atau
+ 
+
+00:05:24.721 --> 00:05:27.667 align:start position:0%
+ rentan, tidak didukung, atau
+ kedaluwarsa<00:05:25.325><c>.</c><00:05:26.700><c> Seorang</c><00:05:27.036><c> penyerang</c><00:05:27.457><c> hanya</c>
+
+00:05:27.667 --> 00:05:27.709 align:start position:0%
+ kedaluwarsa. Seorang penyerang hanya
+ 
+
+00:05:27.709 --> 00:05:29.139 align:start position:0%
+ kedaluwarsa. Seorang penyerang hanya
+ perlu<00:05:27.961><c> menemukan</c><00:05:28.382><c> satu</c><00:05:28.592><c> komponen</c><00:05:28.971><c> yang</c>
+
+00:05:29.139 --> 00:05:29.181 align:start position:0%
+ perlu menemukan satu komponen yang
+ 
+
+00:05:29.181 --> 00:05:30.780 align:start position:0%
+ perlu menemukan satu komponen yang
+ rentan<00:05:29.476><c> untuk</c><00:05:29.728><c> menyusup</c><00:05:30.107><c> ke</c><00:05:30.233><c> dalam</c><00:05:30.485><c> sistem</c><00:05:30.737><c>.</c>
+
+00:05:30.780 --> 00:05:31.239 align:start position:0%
+ rentan untuk menyusup ke dalam sistem.
+ 
+
+00:05:31.239 --> 00:05:33.111 align:start position:0%
+ rentan untuk menyusup ke dalam sistem.
+ Masalahnya<00:05:31.745><c>,</c><00:05:31.846><c> sekitar</c><00:05:32.251><c> 18.000</c><00:05:32.605><c> kerentanan</c>
+
+00:05:33.111 --> 00:05:33.162 align:start position:0%
+ Masalahnya, sekitar 18.000 kerentanan
+ 
+
+00:05:33.162 --> 00:05:34.832 align:start position:0%
+ Masalahnya, sekitar 18.000 kerentanan
+ baru<00:05:33.415><c> ditemukan</c><00:05:33.921><c> setiap</c><00:05:34.276><c> tahun</c><00:05:34.529><c>,</c><00:05:34.630><c> jadi</c>
+
+00:05:34.832 --> 00:05:34.883 align:start position:0%
+ baru ditemukan setiap tahun, jadi
+ 
+
+00:05:34.883 --> 00:05:36.452 align:start position:0%
+ baru ditemukan setiap tahun, jadi
+ melindungi<00:05:35.440><c> dari</c><00:05:35.693><c> kerentanan</c><00:05:36.250><c> yang</c>
+
+00:05:36.452 --> 00:05:36.503 align:start position:0%
+ melindungi dari kerentanan yang
+ 
+
+00:05:36.503 --> 00:05:37.920 align:start position:0%
+ melindungi dari kerentanan yang
+ diketahui<00:05:37.009><c> adalah</c><00:05:37.363><c> proses</c><00:05:37.718><c> yang</c>
+
+00:05:37.920 --> 00:05:37.971 align:start position:0%
+ diketahui adalah proses yang
+ 
+
+00:05:37.971 --> 00:05:43.745 align:start position:0%
+ diketahui adalah proses yang
+ berkelanjutan<00:05:38.629><c>.</c><00:05:42.673><c> Nama</c><00:05:42.896><c> baru</c><00:05:43.119><c> yang</c><00:05:43.343><c> diberikan</c>
+
+00:05:43.745 --> 00:05:43.790 align:start position:0%
+ berkelanjutan. Nama baru yang diberikan
+ 
+
+00:05:43.790 --> 00:05:45.310 align:start position:0%
+ berkelanjutan. Nama baru yang diberikan
+ untuk<00:05:44.058><c> broken</c><00:05:44.371><c> authentication</c><00:05:44.997><c>,</c><00:05:45.086><c> yaitu</c>
+
+00:05:45.310 --> 00:05:45.354 align:start position:0%
+ untuk broken authentication, yaitu
+ 
+
+00:05:45.354 --> 00:05:46.829 align:start position:0%
+ untuk broken authentication, yaitu
+ identification<00:05:46.025><c> and</c><00:05:46.204><c> authentication</c>
+
+00:05:46.829 --> 00:05:46.874 align:start position:0%
+ identification and authentication
+ 
+
+00:05:46.874 --> 00:05:48.483 align:start position:0%
+ identification and authentication
+ failures<00:05:47.232><c>,</c><00:05:47.321><c> berada</c><00:05:47.634><c> di</c><00:05:47.768><c> peringkat</c><00:05:48.215><c> tujuh</c><00:05:48.439><c>,</c>
+
+00:05:48.483 --> 00:05:48.528 align:start position:0%
+ failures, berada di peringkat tujuh,
+ 
+
+00:05:48.528 --> 00:05:50.173 align:start position:0%
+ failures, berada di peringkat tujuh,
+ turun<00:05:48.796><c> dari</c><00:05:49.020><c> peringkat</c><00:05:49.467><c> dua</c><00:05:49.601><c>.</c><00:05:49.820><c> Tanda</c><00:05:50.032><c> yang</c>
+
+00:05:50.173 --> 00:05:50.208 align:start position:0%
+ turun dari peringkat dua. Tanda yang
+ 
+
+00:05:50.208 --> 00:05:51.586 align:start position:0%
+ turun dari peringkat dua. Tanda yang
+ baik<00:05:50.385><c> bahwa</c><00:05:50.597><c> kerangka</c><00:05:50.915><c> kerja</c><00:05:51.127><c> standar</c><00:05:51.410><c> mulai</c>
+
+00:05:51.586 --> 00:05:51.622 align:start position:0%
+ baik bahwa kerangka kerja standar mulai
+ 
+
+00:05:51.622 --> 00:05:54.501 align:start position:0%
+ baik bahwa kerangka kerja standar mulai
+ membantu<00:05:51.904><c>.</c><00:05:52.860><c> Broken</c><00:05:53.256><c> authentication</c><00:05:54.105><c> merujuk</c>
+
+00:05:54.501 --> 00:05:54.558 align:start position:0%
+ membantu. Broken authentication merujuk
+ 
+
+00:05:54.558 --> 00:05:56.709 align:start position:0%
+ membantu. Broken authentication merujuk
+ pada<00:05:54.841><c> kompromi</c><00:05:55.350><c> kata</c><00:05:55.633><c> sandi</c><00:05:55.916><c>,</c><00:05:56.029><c> kunci</c><00:05:56.312><c>,</c><00:05:56.426><c> token</c>
+
+00:05:56.709 --> 00:05:56.765 align:start position:0%
+ pada kompromi kata sandi, kunci, token
+ 
+
+00:05:56.765 --> 00:05:58.690 align:start position:0%
+ pada kompromi kata sandi, kunci, token
+ sesi<00:05:56.992><c>,</c><00:05:57.105><c> informasi</c><00:05:57.671><c> akun</c><00:05:57.954><c> pengguna</c><00:05:58.407><c>,</c><00:05:58.520><c> dan</c>
+
+00:05:58.690 --> 00:05:58.746 align:start position:0%
+ sesi, informasi akun pengguna, dan
+ 
+
+00:05:58.746 --> 00:06:00.727 align:start position:0%
+ sesi, informasi akun pengguna, dan
+ detail<00:05:59.143><c> lainnya</c><00:05:59.595><c> untuk</c><00:05:59.935><c> mengambil</c><00:06:00.501><c> alih</c>
+
+00:06:00.727 --> 00:06:00.784 align:start position:0%
+ detail lainnya untuk mengambil alih
+ 
+
+00:06:00.784 --> 00:06:03.093 align:start position:0%
+ detail lainnya untuk mengambil alih
+ identitas<00:06:01.350><c> pengguna</c><00:06:01.803><c>.</c><00:06:02.539><c> Posisi</c><00:06:02.892><c> baru</c>
+
+00:06:03.093 --> 00:06:03.144 align:start position:0%
+ identitas pengguna. Posisi baru
+ 
+
+00:06:03.144 --> 00:06:04.808 align:start position:0%
+ identitas pengguna. Posisi baru
+ identification<00:06:03.900><c> and</c><00:06:04.102><c> authentication</c>
+
+00:06:04.808 --> 00:06:04.859 align:start position:0%
+ identification and authentication
+ 
+
+00:06:04.859 --> 00:06:06.624 align:start position:0%
+ identification and authentication
+ failures<00:06:05.313><c> menunjukkan</c><00:06:05.918><c> bahwa</c><00:06:06.221><c> prosedur</c>
+
+00:06:06.624 --> 00:06:06.675 align:start position:0%
+ failures menunjukkan bahwa prosedur
+ 
+
+00:06:06.675 --> 00:06:08.289 align:start position:0%
+ failures menunjukkan bahwa prosedur
+ seperti<00:06:07.078><c> MFA</c><00:06:07.280><c> sangat</c><00:06:07.633><c> penting</c><00:06:08.036><c> dalam</c>
+
+00:06:08.289 --> 00:06:08.339 align:start position:0%
+ seperti MFA sangat penting dalam
+ 
+
+00:06:08.339 --> 00:06:10.306 align:start position:0%
+ seperti MFA sangat penting dalam
+ mengautentikasi<00:06:09.146><c> informasi</c><00:06:09.651><c> utama</c><00:06:09.953><c> seperti</c>
+
+00:06:10.306 --> 00:06:10.357 align:start position:0%
+ mengautentikasi informasi utama seperti
+ 
+
+00:06:10.357 --> 00:06:16.068 align:start position:0%
+ mengautentikasi informasi utama seperti
+ nama<00:06:10.609><c> pengguna</c><00:06:11.063><c> dan</c><00:06:11.265><c> kata</c><00:06:11.517><c> sandi</c><00:06:11.769><c>.</c><00:06:15.620><c> Kategori</c>
+
+00:06:16.068 --> 00:06:16.125 align:start position:0%
+ nama pengguna dan kata sandi. Kategori
+ 
+
+00:06:16.125 --> 00:06:17.864 align:start position:0%
+ nama pengguna dan kata sandi. Kategori
+ baru<00:06:16.405><c> lainnya</c><00:06:16.798><c>,</c><00:06:16.910><c> software</c><00:06:17.415><c> and</c><00:06:17.640><c> data</c>
+
+00:06:17.864 --> 00:06:17.920 align:start position:0%
+ baru lainnya, software and data
+ 
+
+00:06:17.920 --> 00:06:20.108 align:start position:0%
+ baru lainnya, software and data
+ integrity<00:06:18.481><c> failures</c><00:06:18.930><c>,</c><00:06:19.042><c> berada</c><00:06:19.435><c> di</c><00:06:19.603><c> peringkat</c>
+
+00:06:20.108 --> 00:06:20.165 align:start position:0%
+ integrity failures, berada di peringkat
+ 
+
+00:06:20.165 --> 00:06:21.960 align:start position:0%
+ integrity failures, berada di peringkat
+ delapan<00:06:20.557><c>,</c><00:06:20.670><c> berfokus</c><00:06:21.175><c> pada</c><00:06:21.455><c> pembaruan</c>
+
+00:06:21.960 --> 00:06:22.016 align:start position:0%
+ delapan, berfokus pada pembaruan
+ 
+
+00:06:22.016 --> 00:06:23.924 align:start position:0%
+ delapan, berfokus pada pembaruan
+ perangkat<00:06:22.577><c> lunak</c><00:06:22.858><c>,</c><00:06:22.970><c> data</c><00:06:23.251><c> kritis</c><00:06:23.587><c>,</c><00:06:23.700><c> alur</c>
+
+00:06:23.924 --> 00:06:23.980 align:start position:0%
+ perangkat lunak, data kritis, alur
+ 
+
+00:06:23.980 --> 00:06:25.888 align:start position:0%
+ perangkat lunak, data kritis, alur
+ kerja<00:06:24.317><c> CI</c><00:06:24.429><c>/</c><00:06:24.485><c>CD</c><00:06:24.597><c>,</c><00:06:24.710><c> dan</c><00:06:24.934><c> mencakup</c><00:06:25.439><c> insecure</c>
+
+00:06:25.888 --> 00:06:25.944 align:start position:0%
+ kerja CI/CD, dan mencakup insecure
+ 
+
+00:06:25.944 --> 00:06:27.740 align:start position:0%
+ kerja CI/CD, dan mencakup insecure
+ deserialization<00:06:26.842><c> dari</c><00:06:27.122><c> tahun</c><00:06:27.459><c> 2017</c><00:06:27.683><c>.</c>
+
+00:06:27.740 --> 00:06:28.379 align:start position:0%
+ deserialization dari tahun 2017.
+ 
+
+00:06:28.379 --> 00:06:30.343 align:start position:0%
+ deserialization dari tahun 2017.
+ Kategori<00:06:28.832><c> baru</c><00:06:29.084><c> ini</c><00:06:29.285><c> berkaitan</c><00:06:29.789><c> dengan</c><00:06:30.141><c> kode</c>
+
+00:06:30.343 --> 00:06:30.393 align:start position:0%
+ Kategori baru ini berkaitan dengan kode
+ 
+
+00:06:30.393 --> 00:06:32.358 align:start position:0%
+ Kategori baru ini berkaitan dengan kode
+ dan<00:06:30.595><c> infrastruktur</c><00:06:31.300><c> yang</c><00:06:31.552><c> tidak</c><00:06:31.854><c> melindungi</c>
+
+00:06:32.358 --> 00:06:32.408 align:start position:0%
+ dan infrastruktur yang tidak melindungi
+ 
+
+00:06:32.408 --> 00:06:34.845 align:start position:0%
+ dan infrastruktur yang tidak melindungi
+ dari<00:06:32.660><c> pelanggaran</c><00:06:33.264><c> integritas</c><00:06:33.768><c>.</c><00:06:34.380><c> Contohnya</c>
+
+00:06:34.845 --> 00:06:34.896 align:start position:0%
+ dari pelanggaran integritas. Contohnya
+ 
+
+00:06:34.896 --> 00:06:36.499 align:start position:0%
+ dari pelanggaran integritas. Contohnya
+ adalah<00:06:35.258><c> ketika</c><00:06:35.620><c> aplikasi</c><00:06:36.034><c>,</c><00:06:36.137><c> seperti</c>
+
+00:06:36.499 --> 00:06:36.551 align:start position:0%
+ adalah ketika aplikasi, seperti
+ 
+
+00:06:36.551 --> 00:06:38.360 align:start position:0%
+ adalah ketika aplikasi, seperti
+ WordPress<00:06:37.016><c>,</c><00:06:37.120><c> mengandalkan</c><00:06:37.792><c> plugin</c><00:06:38.153><c> dari</c>
+
+00:06:38.360 --> 00:06:38.412 align:start position:0%
+ WordPress, mengandalkan plugin dari
+ 
+
+00:06:38.412 --> 00:06:40.471 align:start position:0%
+ WordPress, mengandalkan plugin dari
+ sumber<00:06:38.774><c> yang</c><00:06:39.032><c> tidak</c><00:06:39.343><c> tepercaya</c><00:06:39.808><c>.</c><00:06:40.279><c> Satu</c>
+
+00:06:40.471 --> 00:06:40.520 align:start position:0%
+ sumber yang tidak tepercaya. Satu
+ 
+
+00:06:40.520 --> 00:06:42.160 align:start position:0%
+ sumber yang tidak tepercaya. Satu
+ plugin<00:06:40.857><c> yang</c><00:06:41.098><c> disusupi</c><00:06:41.533><c> dapat</c><00:06:41.822><c> memberi</c>
+
+00:06:42.160 --> 00:06:42.208 align:start position:0%
+ plugin yang disusupi dapat memberi
+ 
+
+00:06:42.208 --> 00:06:43.800 align:start position:0%
+ plugin yang disusupi dapat memberi
+ penyerang<00:06:42.690><c> akses</c><00:06:42.980><c> ke</c><00:06:43.124><c> aplikasi</c><00:06:43.558><c> Anda</c><00:06:43.751><c>.</c>
+
+00:06:43.800 --> 00:06:47.486 align:start position:0%
+ penyerang akses ke aplikasi Anda.
+ 
+
+00:06:47.486 --> 00:06:48.770 align:start position:0%
+ 
+ Sebelumnya<00:06:47.927><c> dikategorikan</c><00:06:48.489><c> sebagai</c>
+
+00:06:48.770 --> 00:06:48.811 align:start position:0%
+ Sebelumnya dikategorikan sebagai
+ 
+
+00:06:48.811 --> 00:06:50.256 align:start position:0%
+ Sebelumnya dikategorikan sebagai
+ pencatatan<00:06:49.252><c> dan</c><00:06:49.413><c> pemantauan</c><00:06:49.855><c> yang</c><00:06:50.055><c> tidak</c>
+
+00:06:50.256 --> 00:06:50.296 align:start position:0%
+ pencatatan dan pemantauan yang tidak
+ 
+
+00:06:50.296 --> 00:06:51.621 align:start position:0%
+ pencatatan dan pemantauan yang tidak
+ memadai<00:06:50.577><c>,</c><00:06:50.658><c> kegagalan</c><00:06:51.059><c> pencatatan</c><00:06:51.501><c> dan</c>
+
+00:06:51.621 --> 00:06:51.662 align:start position:0%
+ memadai, kegagalan pencatatan dan
+ 
+
+00:06:51.662 --> 00:06:53.027 align:start position:0%
+ memadai, kegagalan pencatatan dan
+ pemantauan<00:06:52.103><c> keamanan</c><00:06:52.465><c> kini</c><00:06:52.665><c> menempati</c>
+
+00:06:53.027 --> 00:06:53.067 align:start position:0%
+ pemantauan keamanan kini menempati
+ 
+
+00:06:53.067 --> 00:06:54.633 align:start position:0%
+ pemantauan keamanan kini menempati
+ urutan<00:06:53.348><c> kesembilan</c><00:06:53.750><c>,</c><00:06:53.830><c> naik</c><00:06:54.031><c> dari</c><00:06:54.231><c> urutan</c><00:06:54.513><c> ke</c><00:06:54.593><c>-</c>
+
+00:06:54.633 --> 00:06:56.753 align:start position:0%
+ urutan kesembilan, naik dari urutan ke-
+10<00:06:54.713><c>.</c><00:06:55.160><c> Meskipun</c><00:06:55.691><c> sulit</c><00:06:56.045><c> diuji</c><00:06:56.399><c> karena</c>
+
+00:06:56.753 --> 00:06:56.813 align:start position:0%
+10. Meskipun sulit diuji karena
+ 
+
+00:06:56.813 --> 00:06:58.997 align:start position:0%
+10. Meskipun sulit diuji karena
+ kurangnya<00:06:57.403><c> representasi</c><00:06:58.170><c> dalam</c><00:06:58.525><c> data</c><00:06:58.820><c> CVE</c>
+
+00:06:58.997 --> 00:06:59.056 align:start position:0%
+ kurangnya representasi dalam data CVE
+ 
+
+00:06:59.056 --> 00:07:00.768 align:start position:0%
+ kurangnya representasi dalam data CVE
+ CSS<00:06:59.233><c>,</c><00:06:59.351><c> kegagalan</c><00:06:59.941><c> pencatatan</c><00:07:00.591><c> dan</c>
+
+00:07:00.768 --> 00:07:00.827 align:start position:0%
+ CSS, kegagalan pencatatan dan
+ 
+
+00:07:00.827 --> 00:07:02.716 align:start position:0%
+ CSS, kegagalan pencatatan dan
+ pemantauan<00:07:01.476><c> keamanan</c><00:07:02.008><c> dapat</c><00:07:02.362><c> sangat</c>
+
+00:07:02.716 --> 00:07:02.775 align:start position:0%
+ pemantauan keamanan dapat sangat
+ 
+
+00:07:02.775 --> 00:07:04.960 align:start position:0%
+ pemantauan keamanan dapat sangat
+ memengaruhi<00:07:03.484><c> visibilitas</c><00:07:04.192><c> dan</c><00:07:04.428><c> forensik</c><00:07:04.900><c>.</c>
+
+00:07:04.960 --> 00:07:09.680 align:start position:0%
+ memengaruhi visibilitas dan forensik.
+ 
+
+00:07:09.680 --> 00:07:11.269 align:start position:0%
+ 
+ Terakhir<00:07:10.033><c>,</c><00:07:10.121><c> di</c><00:07:10.253><c> urutan</c><00:07:10.562><c> ke</c><00:07:10.651><c>-</c><00:07:10.695><c>10</c><00:07:10.783><c>,</c><00:07:10.872><c> pemalsuan</c>
+
+00:07:11.269 --> 00:07:11.313 align:start position:0%
+ Terakhir, di urutan ke-10, pemalsuan
+ 
+
+00:07:11.313 --> 00:07:12.991 align:start position:0%
+ Terakhir, di urutan ke-10, pemalsuan
+ permintaan<00:07:11.799><c> sisi</c><00:07:12.019><c> server</c><00:07:12.328><c> adalah</c><00:07:12.637><c> tambahan</c>
+
+00:07:12.991 --> 00:07:13.035 align:start position:0%
+ permintaan sisi server adalah tambahan
+ 
+
+00:07:13.035 --> 00:07:14.668 align:start position:0%
+ permintaan sisi server adalah tambahan
+ baru<00:07:13.256><c> lainnya</c><00:07:13.609><c> karena</c><00:07:13.918><c> posisinya</c><00:07:14.359><c> sebagai</c>
+
+00:07:14.668 --> 00:07:14.712 align:start position:0%
+ baru lainnya karena posisinya sebagai
+ 
+
+00:07:14.712 --> 00:07:16.434 align:start position:0%
+ baru lainnya karena posisinya sebagai
+ nomor<00:07:14.977><c> satu</c><00:07:15.198><c> dalam</c><00:07:15.463><c> survei</c><00:07:15.772><c> komunitas</c><00:07:16.169><c>,</c><00:07:16.258><c> yang</c>
+
+00:07:16.434 --> 00:07:16.478 align:start position:0%
+ nomor satu dalam survei komunitas, yang
+ 
+
+00:07:16.478 --> 00:07:18.200 align:start position:0%
+ nomor satu dalam survei komunitas, yang
+ menunjukkan<00:07:17.008><c> masukan</c><00:07:17.361><c> kuat</c><00:07:17.582><c> dari</c><00:07:17.803><c> komunitas</c>
+
+00:07:18.200 --> 00:07:18.244 align:start position:0%
+ menunjukkan masukan kuat dari komunitas
+ 
+
+00:07:18.244 --> 00:07:19.657 align:start position:0%
+ menunjukkan masukan kuat dari komunitas
+ keamanan<00:07:18.642><c> bahwa</c><00:07:18.907><c> ini</c><00:07:19.083><c> adalah</c><00:07:19.392><c> risiko</c>
+
+00:07:19.657 --> 00:07:19.701 align:start position:0%
+ keamanan bahwa ini adalah risiko
+ 
+
+00:07:19.701 --> 00:07:21.423 align:start position:0%
+ keamanan bahwa ini adalah risiko
+ penting<00:07:20.010><c>,</c><00:07:20.099><c> namun</c><00:07:20.364><c> tidak</c><00:07:20.628><c> tergambarkan</c><00:07:21.202><c> dalam</c>
+
+00:07:21.423 --> 00:07:21.467 align:start position:0%
+ penting, namun tidak tergambarkan dalam
+ 
+
+00:07:21.467 --> 00:07:24.038 align:start position:0%
+ penting, namun tidak tergambarkan dalam
+ data<00:07:21.688><c> yang</c><00:07:21.909><c> dikumpulkan</c><00:07:22.394><c>.</c><00:07:23.600><c> Pemalsuan</c>
+
+00:07:24.038 --> 00:07:24.087 align:start position:0%
+ data yang dikumpulkan. Pemalsuan
+ 
+
+00:07:24.087 --> 00:07:25.792 align:start position:0%
+ data yang dikumpulkan. Pemalsuan
+ permintaan<00:07:24.623><c> sisi</c><00:07:24.866><c> server</c><00:07:25.208><c> adalah</c><00:07:25.549><c> jenis</c>
+
+00:07:25.792 --> 00:07:25.841 align:start position:0%
+ permintaan sisi server adalah jenis
+ 
+
+00:07:25.841 --> 00:07:27.254 align:start position:0%
+ permintaan sisi server adalah jenis
+ eksploitasi<00:07:26.426><c> di</c><00:07:26.572><c> mana</c><00:07:26.816><c> penyerang</c>
+
+00:07:27.254 --> 00:07:27.303 align:start position:0%
+ eksploitasi di mana penyerang
+ 
+
+00:07:27.303 --> 00:07:28.765 align:start position:0%
+ eksploitasi di mana penyerang
+ menyalahgunakan<00:07:28.082><c> fungsi</c><00:07:28.424><c> server</c><00:07:28.716><c>,</c>
+
+00:07:28.765 --> 00:07:28.813 align:start position:0%
+ menyalahgunakan fungsi server,
+ 
+
+00:07:28.813 --> 00:07:30.226 align:start position:0%
+ menyalahgunakan fungsi server,
+ menyebabkannya<00:07:29.544><c> mengakses</c><00:07:30.032><c> atau</c>
+
+00:07:30.226 --> 00:07:30.275 align:start position:0%
+ menyebabkannya mengakses atau
+ 
+
+00:07:30.275 --> 00:07:32.127 align:start position:0%
+ menyebabkannya mengakses atau
+ memanipulasi<00:07:30.909><c> informasi</c><00:07:31.396><c> yang</c><00:07:31.640><c> seharusnya</c>
+
+00:07:32.127 --> 00:07:32.176 align:start position:0%
+ memanipulasi informasi yang seharusnya
+ 
+
+00:07:32.176 --> 00:07:33.784 align:start position:0%
+ memanipulasi informasi yang seharusnya
+ tidak<00:07:32.468><c> dapat</c><00:07:32.760><c> diakses</c><00:07:33.150><c> langsung</c><00:07:33.589><c> oleh</c>
+
+00:07:33.784 --> 00:07:33.832 align:start position:0%
+ tidak dapat diakses langsung oleh
+ 
+
+00:07:33.832 --> 00:07:39.794 align:start position:0%
+ tidak dapat diakses langsung oleh
+ penyerang<00:07:34.271><c>.</c><00:07:38.680><c> OWASP</c><00:07:38.937><c> Top</c><00:07:39.108><c> 10</c><00:07:39.237><c> adalah</c><00:07:39.537><c> daftar</c>
+
+00:07:39.794 --> 00:07:39.837 align:start position:0%
+ penyerang. OWASP Top 10 adalah daftar
+ 
+
+00:07:39.837 --> 00:07:41.466 align:start position:0%
+ penyerang. OWASP Top 10 adalah daftar
+ acuan<00:07:40.094><c> bagi</c><00:07:40.309><c> siapa</c><00:07:40.566><c> pun</c><00:07:40.737><c> yang</c><00:07:40.952><c> peduli</c><00:07:41.252><c> untuk</c>
+
+00:07:41.466 --> 00:07:41.509 align:start position:0%
+ acuan bagi siapa pun yang peduli untuk
+ 
+
+00:07:41.509 --> 00:07:43.138 align:start position:0%
+ acuan bagi siapa pun yang peduli untuk
+ meningkatkan<00:07:42.066><c> kesadaran</c><00:07:42.495><c> mereka</c><00:07:42.795><c> terhadap</c>
+
+00:07:43.138 --> 00:07:43.181 align:start position:0%
+ meningkatkan kesadaran mereka terhadap
+ 
+
+00:07:43.181 --> 00:07:45.252 align:start position:0%
+ meningkatkan kesadaran mereka terhadap
+ risiko-risiko<00:07:43.781><c> utama</c><00:07:43.996><c>.</c><00:07:44.720><c> Penambahan</c>
+
+00:07:45.252 --> 00:07:45.305 align:start position:0%
+ risiko-risiko utama. Penambahan
+ 
+
+00:07:45.305 --> 00:07:46.956 align:start position:0%
+ risiko-risiko utama. Penambahan
+ pertimbangan<00:07:45.997><c> survei</c><00:07:46.317><c>,</c><00:07:46.423><c> serta</c><00:07:46.743><c> data</c>
+
+00:07:46.956 --> 00:07:47.009 align:start position:0%
+ pertimbangan survei, serta data
+ 
+
+00:07:47.009 --> 00:07:48.926 align:start position:0%
+ pertimbangan survei, serta data
+ statistik<00:07:47.541><c> murni</c><00:07:47.808><c>,</c><00:07:47.914><c> berarti</c><00:07:48.340><c> OWASP</c><00:07:48.659><c> tidak</c>
+
+00:07:48.926 --> 00:07:48.979 align:start position:0%
+ statistik murni, berarti OWASP tidak
+ 
+
+00:07:48.979 --> 00:07:50.470 align:start position:0%
+ statistik murni, berarti OWASP tidak
+ hanya<00:07:49.298><c> mengandalkan</c><00:07:49.990><c> data</c><00:07:50.257><c> yang</c>
+
+00:07:50.470 --> 00:07:50.523 align:start position:0%
+ hanya mengandalkan data yang
+ 
+
+00:07:50.523 --> 00:07:52.440 align:start position:0%
+ hanya mengandalkan data yang
+ dikumpulkan<00:07:51.162><c> oleh</c><00:07:51.428><c> pengujian</c><00:07:51.960><c> otomatis</c><00:07:52.386><c>.</c>
+
+00:07:52.440 --> 00:07:53.040 align:start position:0%
+ dikumpulkan oleh pengujian otomatis.
+ 
+
+00:07:53.040 --> 00:07:54.648 align:start position:0%
+ dikumpulkan oleh pengujian otomatis.
+ Jika<00:07:53.263><c> memungkinkan</c><00:07:53.799><c>,</c><00:07:53.888><c> kategori-kategori</c>
+
+00:07:54.648 --> 00:07:54.692 align:start position:0%
+ Jika memungkinkan, kategori-kategori
+ 
+
+00:07:54.692 --> 00:07:56.345 align:start position:0%
+ Jika memungkinkan, kategori-kategori
+ tersebut<00:07:55.094><c> diberi</c><00:07:55.407><c> peringkat</c><00:07:55.854><c> berdasarkan</c>
+
+00:07:56.345 --> 00:07:56.390 align:start position:0%
+ tersebut diberi peringkat berdasarkan
+ 
+
+00:07:56.390 --> 00:07:57.908 align:start position:0%
+ tersebut diberi peringkat berdasarkan
+ tiga<00:07:56.613><c> pertimbangan</c><00:07:57.194><c> utama</c><00:07:57.417><c>:</c><00:07:57.506><c> kemampuan</c>
+
+00:07:57.908 --> 00:07:57.953 align:start position:0%
+ tiga pertimbangan utama: kemampuan
+ 
+
+00:07:57.953 --> 00:07:59.561 align:start position:0%
+ tiga pertimbangan utama: kemampuan
+ eksploitasi<00:07:58.444><c>,</c><00:07:58.534><c> kemungkinan</c><00:07:59.025><c>,</c><00:07:59.114><c> dan</c><00:07:59.293><c> dampak</c>
+
+00:07:59.561 --> 00:07:59.606 align:start position:0%
+ eksploitasi, kemungkinan, dan dampak
+ 
+
+00:07:59.606 --> 00:08:02.242 align:start position:0%
+ eksploitasi, kemungkinan, dan dampak
+ teknis<00:07:59.874><c>.</c><00:08:00.520><c> Namun</c><00:08:00.807><c>,</c><00:08:00.921><c> OWASP</c><00:08:01.266><c> sendiri</c><00:08:01.725><c> mengklaim</c>
+
+00:08:02.242 --> 00:08:02.300 align:start position:0%
+ teknis. Namun, OWASP sendiri mengklaim
+ 
+
+00:08:02.300 --> 00:08:04.367 align:start position:0%
+ teknis. Namun, OWASP sendiri mengklaim
+ bahwa<00:08:02.644><c> ini</c><00:08:02.874><c> adalah</c><00:08:03.276><c> garis</c><00:08:03.620><c> dasar</c><00:08:03.907><c>,</c><00:08:04.022><c> bahkan</c>
+
+00:08:04.367 --> 00:08:04.424 align:start position:0%
+ bahwa ini adalah garis dasar, bahkan
+ 
+
+00:08:04.424 --> 00:08:06.663 align:start position:0%
+ bahwa ini adalah garis dasar, bahkan
+ standar<00:08:04.883><c> semu</c><00:08:05.113><c>,</c><00:08:05.228><c> untuk</c><00:08:05.572><c> kepatuhan</c><00:08:06.089><c>,</c><00:08:06.204><c> edukasi</c><00:08:06.606><c>,</c>
+
+00:08:06.663 --> 00:08:06.721 align:start position:0%
+ standar semu, untuk kepatuhan, edukasi,
+ 
+
+00:08:06.721 --> 00:08:09.474 align:start position:0%
+ standar semu, untuk kepatuhan, edukasi,
+ dan<00:08:06.950><c> alat</c><00:08:07.238><c> vendor</c><00:08:07.582><c>.</c><00:08:08.760><c> Sebagai</c><00:08:09.141><c> dokumen</c>
+
+00:08:09.474 --> 00:08:09.522 align:start position:0%
+ dan alat vendor. Sebagai dokumen
+ 
+
+00:08:09.522 --> 00:08:10.999 align:start position:0%
+ dan alat vendor. Sebagai dokumen
+ kesadaran<00:08:09.951><c>,</c><00:08:10.046><c> ini</c><00:08:10.237><c> dianggap</c><00:08:10.666><c> sebagai</c>
+
+00:08:10.999 --> 00:08:11.047 align:start position:0%
+ kesadaran, ini dianggap sebagai
+ 
+
+00:08:11.047 --> 00:08:12.524 align:start position:0%
+ kesadaran, ini dianggap sebagai
+ referensi<00:08:11.523><c> minimum</c><00:08:11.905><c> untuk</c><00:08:12.191><c> standar</c>
+
+00:08:12.524 --> 00:08:12.572 align:start position:0%
+ referensi minimum untuk standar
+ 
+
+00:08:12.572 --> 00:08:14.240 align:start position:0%
+ referensi minimum untuk standar
+ pengkodean<00:08:13.048><c>,</c><00:08:13.144><c> tinjauan</c><00:08:13.573><c> kode</c><00:08:13.763><c>,</c><00:08:13.859><c> tinjauan</c>
+
+00:08:14.240 --> 00:08:14.287 align:start position:0%
+ pengkodean, tinjauan kode, tinjauan
+ 
+
+00:08:14.287 --> 00:08:15.955 align:start position:0%
+ pengkodean, tinjauan kode, tinjauan
+ rekan<00:08:14.526><c>,</c><00:08:14.621><c> dukungan</c><00:08:15.050><c> alat</c><00:08:15.240><c>,</c><00:08:15.336><c> dan</c><00:08:15.526><c> pengujian</c>
+
+00:08:15.955 --> 00:08:16.003 align:start position:0%
+ rekan, dukungan alat, dan pengujian
+ 
+
+00:08:16.003 --> 00:08:19.107 align:start position:0%
+ rekan, dukungan alat, dan pengujian
+ penetrasi<00:08:16.432><c>.</c><00:08:17.839><c> Karena</c><00:08:18.156><c> berfokus</c><00:08:18.563><c> pada</c><00:08:18.790><c> AppSec</c><00:08:19.061><c>,</c>
+
+00:08:19.107 --> 00:08:19.152 align:start position:0%
+ penetrasi. Karena berfokus pada AppSec,
+ 
+
+00:08:19.152 --> 00:08:20.737 align:start position:0%
+ penetrasi. Karena berfokus pada AppSec,
+ banyak<00:08:19.469><c> dari</c><00:08:19.695><c> 10</c><00:08:19.831><c> temuan</c><00:08:20.148><c> teratas</c><00:08:20.511><c> tidak</c>
+
+00:08:20.737 --> 00:08:20.783 align:start position:0%
+ banyak dari 10 temuan teratas tidak
+ 
+
+00:08:20.783 --> 00:08:22.187 align:start position:0%
+ banyak dari 10 temuan teratas tidak
+ dapat<00:08:21.054><c> dengan</c><00:08:21.371><c> mudah</c><00:08:21.643><c> diuji</c><00:08:21.915><c> secara</c>
+
+00:08:22.187 --> 00:08:22.232 align:start position:0%
+ dapat dengan mudah diuji secara
+ 
+
+00:08:22.232 --> 00:08:24.985 align:start position:0%
+ dapat dengan mudah diuji secara
+ internal<00:08:22.594><c>.</c><00:08:23.659><c> Sebagai</c><00:08:24.083><c> layanan</c><00:08:24.507><c> sukarela</c><00:08:24.932><c>,</c>
+
+00:08:24.985 --> 00:08:25.038 align:start position:0%
+ internal. Sebagai layanan sukarela,
+ 
+
+00:08:25.038 --> 00:08:27.000 align:start position:0%
+ internal. Sebagai layanan sukarela,
+ peserta<00:08:25.462><c> yang</c><00:08:25.727><c> merilis</c><00:08:26.152><c> informasi</c><00:08:26.682><c> secara</c>
+
+00:08:27.000 --> 00:08:27.053 align:start position:0%
+ peserta yang merilis informasi secara
+ 
+
+00:08:27.053 --> 00:08:28.910 align:start position:0%
+ peserta yang merilis informasi secara
+ publik<00:08:27.425><c> melakukannya</c><00:08:28.114><c> secara</c><00:08:28.485><c> teoretis</c>
+
+00:08:28.910 --> 00:08:28.963 align:start position:0%
+ publik melakukannya secara teoretis
+ 
+
+00:08:28.963 --> 00:08:30.979 align:start position:0%
+ publik melakukannya secara teoretis
+ tanpa<00:08:29.281><c> pengalaman</c><00:08:29.865><c> serangan</c><00:08:30.342><c> dunia</c><00:08:30.660><c> nyata</c><00:08:30.925><c>.</c>
+
+00:08:30.979 --> 00:08:32.239 align:start position:0%
+ tanpa pengalaman serangan dunia nyata.
+ 
+
+00:08:32.239 --> 00:08:33.894 align:start position:0%
+ 
+ Jika<00:08:32.456><c> Anda</c><00:08:32.674><c> ingin</c><00:08:32.935><c> mendengar</c><00:08:33.371><c> lebih</c><00:08:33.632><c> banyak</c>
+
+00:08:33.894 --> 00:08:33.937 align:start position:0%
+ Jika Anda ingin mendengar lebih banyak
+ 
+
+00:08:33.937 --> 00:08:35.331 align:start position:0%
+ Jika Anda ingin mendengar lebih banyak
+ tentang<00:08:34.286><c> daftar</c><00:08:34.591><c> 10</c><00:08:34.721><c> teratas</c><00:08:35.070><c> OWASP</c><00:08:35.288><c>,</c>
+
+00:08:35.331 --> 00:08:35.375 align:start position:0%
+ tentang daftar 10 teratas OWASP,
+ 
+
+00:08:35.375 --> 00:08:36.900 align:start position:0%
+ tentang daftar 10 teratas OWASP,
+ nantikan<00:08:35.767><c> video</c><00:08:36.028><c> kami</c><00:08:36.246><c> berikutnya</c><00:08:36.725><c> yang</c>
+
+00:08:36.900 --> 00:08:36.943 align:start position:0%
+ nantikan video kami berikutnya yang
+ 
+
+00:08:36.943 --> 00:08:38.381 align:start position:0%
+ nantikan video kami berikutnya yang
+ membandingkan<00:08:37.553><c> temuan</c><00:08:37.858><c> OWASP</c><00:08:38.119><c> dengan</c>
+
+00:08:38.381 --> 00:08:38.424 align:start position:0%
+ membandingkan temuan OWASP dengan
+ 
+
+00:08:38.424 --> 00:08:40.080 align:start position:0%
+ membandingkan temuan OWASP dengan
+ daftar<00:08:38.729><c> 10</c><00:08:38.860><c> risiko</c><00:08:39.165><c> teratas</c><00:08:39.513><c> kami</c><00:08:39.731><c> sendiri</c><00:08:40.036><c>.</c>
+
+00:08:40.080 --> 00:08:40.799 align:start position:0%
+ daftar 10 risiko teratas kami sendiri.
+ 
+
+00:08:40.799 --> 00:08:43.447 align:start position:0%
+ daftar 10 risiko teratas kami sendiri.
+ Risikonya<00:08:41.349><c> nyata</c><00:08:41.624><c>.</c><00:08:42.620><c> Bertahanlah</c><00:08:43.142><c> bersama</c>
+
+00:08:43.447 --> 00:08:43.490 align:start position:0%
+ Risikonya nyata. Bertahanlah bersama
+ 
+
+00:08:43.490 --> 00:08:45.100 align:start position:0%
+ Risikonya nyata. Bertahanlah bersama
+ Cyber<00:08:43.751><c> Citadel</c><00:08:44.056><c>.</c>
+

@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Урок 6. Поиск и шаринг</title>
+<meta name="description" content="Title и description, карточка ссылки в мессенджере, structured data, один адрес на страницу, Search Console. Интерактивный урок.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2314171c%27/%3E%3Crect x=%277%27 y=%2718%27 width=%2718%27 height=%276%27 fill=%27%23ffe14d%27/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/GolosText-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/course.css?v=6">
+<style>
+/* lesson 6: demo-only styles */
+.chain{list-style:none;padding:0;margin:1.4rem 0 0;counter-reset:ch;display:grid;gap:.5rem}
+.chain li{counter-increment:ch;margin:0;display:grid;grid-template-columns:2.2rem minmax(0,1fr);gap:.75rem;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:.7rem .9rem}
+.chain li::before{content:counter(ch);font-weight:700;font-size:1.25rem;line-height:1.2;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.chain p{margin:.15rem 0 0;font-size:.95rem;color:var(--ink-2)}
+
+.ed{display:grid;gap:.7rem;max-width:40rem}
+.ed label{display:grid;gap:.25rem;font-size:.92rem;font-weight:600}
+.ed input,.ed textarea{font:inherit;font-weight:400;padding:.5rem .65rem;border:1.5px solid var(--ink-3);border-radius:8px;background:#fff;color:var(--ink);width:100%}
+.ed textarea{min-height:4.4rem;resize:vertical}
+.ed .cnt{font-weight:400;color:var(--ink-2);font-size:.86rem;font-variant-numeric:tabular-nums}
+.serp{background:#fff;border:1px solid var(--line);border-radius:10px;padding:1rem 1.1rem;margin-top:1rem;max-width:40rem;font-family:system-ui,'Segoe UI',sans-serif}
+.serp-site{display:flex;gap:.6rem;align-items:center;font-size:.85rem;color:#202124}
+.serp-site i{width:1.75rem;height:1.75rem;border-radius:50%;background:var(--sunk);border:1px solid var(--line);flex:none}
+.serp-site small{display:block;color:#4d5156;font-size:.78rem}
+.serp-t{font-size:1.25rem;line-height:1.3;color:#1a0dab;margin-top:.35rem;white-space:nowrap;overflow:hidden}
+.serp-d{font-size:.875rem;line-height:1.58;color:#474747;margin-top:.2rem}
+
+.tabs-bar{display:flex;gap:2px;background:#d5dae1;padding:.4rem .4rem 0;border-radius:10px 10px 0 0;overflow:hidden}
+.tabs-bar span{flex:1 1 0;min-width:0;background:#eceff3;border-radius:7px 7px 0 0;padding:.35rem .5rem;font-size:.78rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tabs-bar span.dup{background:var(--bad-bg);color:var(--bad)}
+.pages-list{list-style:none;padding:0;margin:0;border:1px solid var(--line);border-top:0;border-radius:0 0 10px 10px;background:#fff}
+.pages-list li{margin:0;padding:.5rem .8rem;border-top:1px solid var(--line-2);display:grid;grid-template-columns:8rem minmax(0,1fr);gap:.75rem;font-size:.9rem}
+.pages-list li:first-child{border-top:0}
+.pages-list code{font-size:.8rem}
+.pages-list .dup{color:var(--bad)}
+
+.og-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem;align-items:start}
+@media (min-width:52rem){.og-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.chat{background:#e7ded3;border-radius:12px;padding:1rem;min-height:16rem}
+.bubble{background:#dcf8c6;border-radius:10px;padding:.35rem;max-width:20rem;margin-left:auto;font-family:system-ui,'Segoe UI',sans-serif;box-shadow:0 1px 1px rgba(0,0,0,.12)}
+.bubble .lnk{color:#1746c4;font-size:.86rem;padding:.25rem .45rem .15rem;overflow-wrap:anywhere}
+.prev{background:#f3f6f2;border-radius:7px;overflow:hidden}
+.prev .img{display:block;width:100%;background:linear-gradient(165deg,#3f93c9,#9fd3f0 45%,#f4ecd0 78%,#f1c98c);position:relative}
+.prev .img.wide{aspect-ratio:1200/630}
+.prev .img.sq{width:4.5rem;height:4.5rem;flex:none}
+.prev .img span{position:absolute;inset:auto .5rem .4rem auto;font-size:.66rem;font-weight:700;color:#14171c;background:rgba(255,255,255,.75);padding:0 .3rem;border-radius:3px}
+.prev .row{display:flex;gap:.5rem;align-items:flex-start}
+.prev .tx{padding:.4rem .5rem .5rem;min-width:0}
+.prev .tx b{display:block;font-size:.86rem;line-height:1.25}
+.prev .tx p{margin:.15rem 0 0;font-size:.78rem;color:#4d5156;line-height:1.3}
+.prev .tx small{display:block;font-size:.72rem;color:#5f6368;margin-top:.15rem}
+.og-opts{display:grid;gap:.4rem}
+.og-opts .field{font-size:.95rem}
+
+.ld-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem;align-items:start}
+@media (min-width:52rem){.ld-grid{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}}
+.ld-opts{display:grid;gap:.35rem}
+.ld-page{background:#fff;border:1px solid var(--line);border-radius:10px;padding:.9rem 1rem;font-size:.92rem}
+.ld-page .mh{font-size:1.05rem}
+.ld-page p{margin-top:.3rem;color:var(--ink-2)}
+#ldIssues{list-style:none;padding:0;margin:.5rem 0 0;display:grid;gap:.4rem}
+#ldIssues li{margin:0;font-size:.93rem;padding:.4rem .6rem;border-radius:6px;border:1px solid}
+#ldIssues li.no{background:var(--bad-bg);border-color:var(--bad-line)}
+#ldIssues li.mid{background:var(--mark-soft);border-color:var(--mark-line)}
+#ldIssues li.ok{background:var(--good-bg);border-color:var(--good-line)}
+
+.urls{list-style:none;padding:0;margin:0;display:grid;gap:.45rem}
+.urls li{margin:0;min-width:0;word-break:break-all;display:flex;flex-wrap:wrap;gap:.25rem .75rem;align-items:center;font-family:var(--mono);font-size:.84rem;background:#fff;border:1px solid var(--line);border-radius:8px;padding:.45rem .7rem}
+.urls li b{font-family:var(--font);font-size:.82rem;font-weight:650;margin-left:auto;word-break:normal}
+.urls li.main{border-color:var(--good);background:var(--good-bg)}
+.urls li.sep b{color:var(--bad)}
+.urls li.red b{color:var(--good)}
+
+.src-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:1rem}
+@media (min-width:52rem){.src-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.robot{background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem 1rem;min-height:9rem}
+.robot .mh{font-size:.95rem;margin-bottom:.35rem}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="index.html">Матчасть</a>
+    <span class="top-here">Урок 6 из 9: поиск и шаринг</span>
+    <a class="top-next" href="07-security.html">Следующий урок</a>
+  </div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+</header>
+
+<div class="shell">
+<nav aria-label="Содержание урока"><details class="toc"><summary>Содержание</summary><ol></ol></details></nav>
+
+<main>
+<div class="hero">
+  <h1>Урок 6. Поиск и шаринг</h1>
+  <p class="lead">Как страница выглядит в Google и в мессенджере, когда ссылку пересылают. Здесь техника, которую легко проверить, и мифы, которые продают клиентам.</p>
+  <p>Около 45 минут. Пять интерактивов: выдача Google, вкладки браузера, карточка ссылки, проверка разметки, адреса одной страницы. В конце чек-лист и тест.</p>
+  <p class="small">Пометки: ◆ стандарт или первичный источник, ◈ согласие нескольких авторов или общая практика, ◇ мнение одного автора. О работе поиска почти все свидетельства идут от самого Google или от продавцов курсов: независимых измерений в подборке нет.</p>
+</div>
+
+<section class="sec" id="chain" data-short="Что на самом деле влияет">
+  <h2>Что на самом деле влияет на поиск</h2>
+  <p>Google пишет прямо: поиск всегда старается показать самое подходящее содержимое, даже если по удобству страница слабее. Скорость и стабильность (Core Web Vitals из урока 3) учитываются, но это не главное. <span class="ev">◆ Google Search Central, проверено по тексту</span> Отсюда честная цепочка, по порядку важности:</p>
+  <ol class="chain">
+    <li><div><strong>Содержимое, которое отвечает на вопрос.</strong><p>Страница про конкретный тур с ценой, маршрутом и фото лучше общих слов. <span class="ev">◆ Google; ◈ два автора</span></p></div></li>
+    <li><div><strong>Свой title и description у каждой страницы.</strong><p>Это то, что человек видит в выдаче и решает, нажимать ли. <span class="ev">◆ Google; ◈ три автора</span></p></div></li>
+    <li><div><strong>Настоящие заголовки и alt у картинок.</strong><p>Google объясняет их пользой для людей; что слова в заголовках весят больше для позиции, он не пишет. <span class="ev">◆ Google; ◇ обратное утверждение одного автора</span></p></div></li>
+    <li><div><strong>Один адрес у каждой страницы.</strong><p>Без дублей с www и без www. <span class="ev">◆ Google</span></p></div></li>
+    <li><div><strong>Быстрая и стабильная страница по данным реальных посетителей.</strong><p>Урок 3. <span class="ev">◆ Google</span></p></div></li>
+    <li><div><strong>Structured data там, где она даёт расширенный результат.</strong><p>Это право на показ, а не обещание позиции. <span class="ev">◆ Google</span></p></div></li>
+  </ol>
+  <div class="note human">
+    <p class="nt">Где ошибаются люди</p>
+    <ul>
+      <li>Обещают клиенту позиции. Честно можно обещать только то, что сайт технически не мешает поиску. <span class="ev">◈ перекрёстная проверка по поиску; Osmani</span></li>
+      <li>Верят про «более 200 факторов ранжирования», показатель отказов и время на сайте как сигналы. В видео это звучит как факт, но ни одна страница Google в проверке этого не подтвердила. <span class="ev">◇ не подтверждено</span></li>
+      <li>Ждут результата от SEO-плагина. Плагин пишет теги, но не содержимое. <span class="ev">◇ наш вывод, в источниках этого нет</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="snippet" data-short="Title и description">
+  <h2>Title и description: витрина в выдаче</h2>
+  <p><code>&lt;title&gt;</code> это имя страницы. Его видно во вкладке браузера, в закладках и крупной синей строкой в выдаче. <code>&lt;meta name="description"&gt;</code> это короткое описание. Google просит, чтобы title был у каждой страницы и был описательным и кратким. Description он считает подсказкой: текст под ссылкой он чаще берёт из самой страницы, а description использует, если тот хорошо описывает её. <span class="ev">◆ Google Search Central, две страницы</span></p>
+
+  <div class="stage" id="sn">
+    <div class="stage-head">
+      <span class="stage-title">Как страница тура выглядит в выдаче</span>
+      <div class="seg" role="group" aria-label="Примеры">
+        <button type="button" data-ex="ai">Типичная ошибка</button>
+        <button type="button" data-ex="long">Слишком длинно</button>
+        <button type="button" data-ex="good">Хорошо</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="ed">
+        <label>title <span class="cnt" id="snTc"></span><input id="snT"></label>
+        <label>meta description <span class="cnt" id="snDc"></span><textarea id="snD"></textarea></label>
+      </div>
+      <div class="serp" aria-hidden="true">
+        <div class="serp-site"><i></i><div>1000 Islands Travel<small>1000islands.travel › tours › nusa-penida</small></div></div>
+        <div class="serp-t" id="snOutT"></div>
+        <div class="serp-d" id="snOutD"></div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="snOut" class="readout" aria-live="polite"></p><p class="small">Схема выдачи. Google обрезает по ширине в пикселях, а не по числу знаков, и сам лимит не публикует; здесь взят ориентир из практики, около 600 пикселей на заголовок. <span class="ev">◇</span> Свои формулировки можно вписать прямо в поля.</p></div>
+  </div>
+
+  <h3>Одинаковые title на всех страницах</h3>
+  <p>Частая ошибка шаблонов: title прописан один раз в общем шаблоне и становится одинаковым на всём сайте. Google просит свой title у каждой страницы. <span class="ev">◆ Google Search Central</span> Пока страниц три, этого не видно. Открой шесть вкладок сайта, и проблема бросается в глаза.</p>
+
+  <div class="stage" id="tb" data-ver="bad">
+    <div class="stage-head">
+      <span class="stage-title">Шесть страниц сайта во вкладках</span>
+      <div class="seg" role="group" aria-label="Версия">
+        <button type="button" class="is-bad" data-set="ver=bad" aria-pressed="true">Title из шаблона</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Свой у каждой</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="tabs-bar" id="tbBar" aria-hidden="true"></div>
+      <ul class="pages-list" id="tbList"></ul>
+    </div>
+    <div class="stage-foot"><p id="tbOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Every page has its own title: the specific thing first, the brand last ("Nusa Penida day trip from Sanur | 1000 Islands"). Keep it to one clear phrase.</li>
+      <li>Every page has its own meta description: one or two sentences that say what the page offers and for whom. List all titles and descriptions in a table so I can review them.</li>
+      <li>One h1 per page that matches the title in meaning.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="share" data-short="Карточка ссылки">
+  <h2>Карточка ссылки в мессенджере</h2>
+  <p>Когда ссылку на тур пересылают в мессенджере или соцсети, сервис заходит на страницу и ищет теги <mark>Open Graph</mark>: заголовок, картинку, описание. Из них собирается карточка. Нет тегов, и ссылка выглядит голой строкой, а для турагентства, которое продают через «скинь подруге», это заметная потеря. <span class="ev">◈ три автора</span></p>
+  <p>По спецификации обязательных свойств четыре: <code>og:title</code>, <code>og:type</code>, <code>og:image</code>, <code>og:url</code>. Описание необязательно, хотя многие уроки называют его среди главных. <span class="ev">◆ ogp.me, проверено по тексту</span> Картинку Meta советует от 1200 на 630 пикселей, не меньше 200 на 200 и не тяжелее 8 МБ. <span class="ev">◆ Meta for Developers</span></p>
+
+  <div class="stage" id="og" data-title="on" data-desc="on" data-img="wide" data-url="on">
+    <div class="stage-head">
+      <span class="stage-title">Подруга переслала ссылку на тур</span>
+    </div>
+    <div class="stage-body">
+      <div class="og-grid">
+        <div class="og-opts">
+          <label class="field"><input type="checkbox" data-flag="title" checked> og:title</label>
+          <label class="field"><input type="checkbox" data-flag="desc" checked> og:description</label>
+          <label class="field"><input type="checkbox" data-flag="url" checked> og:url</label>
+          <span class="field">og:image
+            <span class="seg" role="group" aria-label="Картинка">
+              <button type="button" class="is-bad" data-set="img=none" aria-pressed="false">нет</button>
+              <button type="button" data-set="img=small" aria-pressed="false">400×400</button>
+              <button type="button" class="is-good" data-set="img=wide" aria-pressed="true">1200×630</button>
+            </span>
+          </span>
+          <pre class="code" id="ogCode"></pre>
+        </div>
+        <div class="chat" aria-hidden="true">
+          <div class="bubble"><div id="ogCard"></div><div class="lnk">https://1000islands.travel/tours/nusa-penida</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="ogOut" class="readout" aria-live="polite"></p><p class="small">Схема: у каждого мессенджера свой вид карточки, и правила выбора маленькой или большой картинки у них свои. Принцип общий: что не задано тегами, сервис угадывает или пропускает.</p></div>
+  </div>
+
+  <p>Две вещи, на которых спотыкаются чаще всего. Первая: сервисы запоминают карточку. Поменял картинку, а в мессенджере старая. У Meta есть Sharing Debugger, где страницу можно перечитать заново; у других сервисов свои способы. <span class="ev">◆ Meta</span> Вторая: теги должны быть в самом HTML страницы. Если их дописывает скрипт после загрузки, часть сервисов их не увидит. <span class="ev">◇ поведение конкретных сервисов в подборке не проверено; держать теги в HTML безопасно всегда</span></p>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <p>Забывают favicon, значок сайта во вкладке и в карточке ссылки. Так было в тесте Fable 5 со скиллом Impeccable: страница получилась аккуратной, а значка нет. <span class="ev">◇ Flux, Fable 5, август 2026, один тест</span></p>
+    <p class="small">Других ошибок поиска и шаринга в выдаче моделей никто не разбирал.</p>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Одна и та же картинка и описание для всех страниц, обычно логотип. <span class="ev">◈ перекрёстная проверка по поиску</span></li>
+      <li>Относительный адрес картинки (<code>/img/hero.jpg</code>). Сервисам нужен полный адрес с https. <span class="ev">◆ Meta</span></li>
+      <li>Нет <code>og:image:alt</code>, описания картинки для тех, кто её не видит. <span class="ev">◆ ogp.me</span></li>
+      <li>Теги дублируются: часть из шаблона, часть из плагина, с разными значениями. <span class="ev">◈ перекрёстная проверка по поиску</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Every page has Open Graph tags in the HTML: og:title, og:description, og:type, og:url (absolute, canonical), og:image (absolute URL, 1200 x 630, under 1 MB) and og:image:alt, plus twitter:card = summary_large_image.</li>
+      <li>Tour pages use their own photo and description, not the logo.</li>
+      <li>No duplicate meta tags from different sources. Show me the final head of each page.</li>
+    </ul>
+  </div>
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <p>Отправь ссылку на опубликованную страницу самому себе в мессенджер. Нет картинки или старая: прогони адрес через Sharing Debugger Meta и отправь ещё раз. Для подробностей: правый клик по странице, «Просмотр кода страницы», поиск <code>og:</code>.</p>
+  </div>
+</section>
+
+<section class="sec" id="ld" data-short="Structured data">
+  <h2>Structured data: подпись для машины</h2>
+  <p><mark>Structured data</mark> это описание страницы на языке, понятном поисковику: «это турагентство, вот адрес, вот телефон», «это тур, вот маршрут». Словарь называется schema.org, а Google советует записывать его в формате <code>JSON-LD</code>: отдельный блок в коде, который не смешивается с вёрсткой. <span class="ev">◆ Google; ◈ четыре автора</span></p>
+  <p>Главные правила Google жёсткие: размечать только то, что человек видит на странице, и только правдивое и актуальное. Разметка, не связанная с содержимым, считается злоупотреблением. Лучше меньше полей, но полных и точных. <span class="ev">◆ Google, правила для structured data</span></p>
+
+  <div class="stage" id="ldStage">
+    <div class="stage-head">
+      <span class="stage-title">Разметка с ошибками. Проверь её</span>
+      <div class="seg" role="group" aria-label="Примеры">
+        <button type="button" data-ldex="ai">Типичная ошибка</button>
+        <button type="button" data-ldex="good">Исправленная</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="ld-grid">
+        <div>
+          <div class="ld-opts" id="ldOpts"></div>
+          <pre class="code" id="ldCode"></pre>
+        </div>
+        <div>
+          <div class="ld-page">
+            <p class="small" style="margin:0">Что видно на странице «Contact»:</p>
+            <div class="mh" style="margin-top:.4rem">1000 Islands Travel</div>
+            <p>Jl. Danau Tamblingan 12, Sanur, Bali 80228</p>
+            <p>+62 812 0000 0000 · Open daily 8:00–20:00</p>
+            <p>Отзывов и рейтинга на странице нет. Вопросов и ответов нет.</p>
+          </div>
+          <ul id="ldIssues" aria-live="polite"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p class="small">Адрес и телефон выдуманы для примера. Проверка в рамке упрощённая и повторяет правила Google, на настоящем сайте это делает Rich Results Test.</p></div>
+  </div>
+
+  <ul>
+    <li><strong>FAQ-разметку больше не добавлять ради показа.</strong> Google объявил в мае 2026 года, что расширенный результат с вопросами и ответами больше не показывается. Модели обучены на старых статьях и вставляют её по привычке. <span class="ev">◆ Google, проверено по тексту</span></li>
+    <li><strong>Для бизнеса с адресом есть LocalBusiness</strong>, у неё обязательные поля, в том числе адрес. <span class="ev">◆ Google</span> У schema.org есть и типы TravelAgency и TouristTrip, но показывает ли Google для них что-то особенное, я не проверил. <span class="ev">◆ типы существуют; ◇ эффект не проверен</span></li>
+    <li><strong>Один источник разметки.</strong> Если её пишет и шаблон, и плагин, получаются два блока с разными данными. <span class="ev">◆ Google</span></li>
+  </ul>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Add JSON-LD only for what is visible on the page: Organization or LocalBusiness (TravelAgency) on the contact page with name, address, phone and opening hours; BreadcrumbList on inner pages.</li>
+      <li>No FAQPage markup, no review or rating markup unless real reviews are shown on that page.</li>
+      <li>One source of structured data. Validate every page type with Google's Rich Results Test and report the result.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="canon" data-short="Один адрес">
+  <h2>Один адрес у каждой страницы</h2>
+  <p>Одна и та же страница может открываться по разным адресам: с <code>www</code> и без, по <code>http</code> и <code>https</code>, со слэшем в конце и без, с метками рекламы. Для поисковика это разные адреса с одинаковым содержимым, и он сам выбирает, какой считать главным. Сайт подсказывает ему тремя способами, и у них разная сила: перенаправление (redirect) и тег <code>rel="canonical"</code> сильные сигналы, включение в sitemap слабый. <span class="ev">◆ Google, проверено по тексту</span></p>
+
+  <div class="stage" id="cn" data-fix="none">
+    <div class="stage-head">
+      <span class="stage-title">Пять адресов одной страницы</span>
+      <div class="seg" role="group" aria-label="Что настроено">
+        <button type="button" class="is-bad" data-set="fix=none" aria-pressed="true">Ничего</button>
+        <button type="button" data-set="fix=sitemap" aria-pressed="false">Только sitemap</button>
+        <button type="button" data-set="fix=canon" aria-pressed="false">canonical</button>
+        <button type="button" class="is-good" data-set="fix=both" aria-pressed="false">redirect и canonical</button>
+      </div>
+    </div>
+    <div class="stage-body"><ul class="urls" id="cnList"></ul></div>
+    <div class="stage-foot"><p id="cnOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Pick one host (with or without www) and 301-redirect everything else to it, including http to https.</li>
+      <li>Every page has rel="canonical" pointing to its own clean absolute URL.</li>
+      <li>Generate sitemap.xml with canonical URLs only and reference it in robots.txt.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="render" data-short="Текст в HTML">
+  <h2>Текст должен быть в HTML</h2>
+  <p>Есть два способа собрать страницу. Готовый HTML с текстом, который сервер отдаёт сразу. Или пустая заготовка, в которую текст вставляет скрипт уже в браузере. Второй способ по умолчанию дают многие популярные фреймворки, а модели к ним тянутся: Opus 5.5 без указания собрал React-проект. <span class="ev">◇ DesignCode, сентябрь 2026; Opus 4.6 в другом видео выбрал обычный HTML</span></p>
+
+  <div class="stage" id="rd" data-mode="csr">
+    <div class="stage-head">
+      <span class="stage-title">Что получает робот, который не выполняет скрипты</span>
+      <div class="seg" role="group" aria-label="Способ сборки">
+        <button type="button" class="is-bad" data-set="mode=csr" aria-pressed="true">Текст вставляет скрипт</button>
+        <button type="button" class="is-good" data-set="mode=static" aria-pressed="false">Готовый HTML</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="src-grid">
+        <pre class="code" id="rdCode" style="margin:0"></pre>
+        <div class="robot"><div class="mh">Что видно без скриптов</div><div id="rdSee"></div></div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="rdOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>Google скрипты выполняет: он обрабатывает такие страницы в три этапа, сканирование, отрисовка и индексирование, и страницы ждут отрисовки в очереди. <span class="ev">◆ Google</span> Поэтому утверждение «Google не видит сайты на React» устарело, правильнее «видит с задержкой и риском». Про роботы мессенджеров, которые собирают карточки ссылок, в подборке проверенных данных нет. <span class="ev">◇</span> Для сайта-визитки и каталога туров решение простое: готовый HTML, и вопрос снимается.</p>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Ship static HTML: all text, headings, links, title and meta tags are in the HTML the server sends. JavaScript only enhances.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="console" data-short="Search Console">
+  <h2>Search Console: как Google видит сайт</h2>
+  <p>Google Search Console это бесплатный кабинет, где видно, какие страницы попали в поиск, по каким запросам их показывают и что сломано. Его подключают в день запуска.</p>
+  <div class="note check">
+    <p class="nt">Первые шаги после публикации</p>
+    <ul>
+      <li>Подтверди владение сайтом. Для домена удобнее способ через запись DNS, это урок 8.</li>
+      <li>Отправь адрес sitemap в разделе Sitemaps. <span class="ev">◇ один автор советует делать это первым</span></li>
+      <li>Для важной страницы: проверка URL и «Запросить индексирование». Это просьба просканировать, а не гарантия попадания. <span class="ev">◆ справка Search Console</span></li>
+      <li>Через несколько недель посмотри отчёты об индексировании и Core Web Vitals. Там полевые данные реальных посетителей, если их достаточно.</li>
+    </ul>
+  </div>
+  <p>Чего в подборке нет и что нужно добрать перед запуском: карточка компании в Google Maps (Business Profile) для местного поиска и <code>hreflang</code>, если сайт будет на нескольких языках. Источников по ним я не собирал. <span class="ev">не исследовано</span></p>
+</section>
+
+<section class="sec" id="errors" data-short="10 типичных ошибок">
+  <h2>Десять типичных ошибок</h2>
+  <ol class="cases">
+    <li><div class="mh">1. Один title на весь сайт</div><p>Вкладки и выдача неразличимы.</p><p><code>Unique title per page.</code></p></li>
+    <li><div class="mh">2. Нет description</div><p>Google сам вырежет кусок текста, часто неудачный.</p><p><code>Write one per page.</code></p></li>
+    <li><div class="mh">3. Голая ссылка в мессенджере</div><p>Нет Open Graph тегов.</p><p><code>og:title, og:image 1200x630…</code></p></li>
+    <li><div class="mh">4. Логотип вместо фото тура</div><p>Все карточки одинаковые.</p><p><code>Page-specific og:image.</code></p></li>
+    <li><div class="mh">5. Относительный адрес картинки</div><p>Сервис не находит картинку.</p><p><code>Absolute https URL.</code></p></li>
+    <li><div class="mh">6. Рейтинг в разметке без отзывов</div><p>Разметка расходится с видимым.</p><p><code>Mark up only what is visible.</code></p></li>
+    <li><div class="mh">7. FAQ-разметка ради показа</div><p>Google её больше не показывает.</p><p><code>No FAQPage markup.</code></p></li>
+    <li><div class="mh">8. www и без www одновременно</div><p>Две копии каждой страницы.</p><p><code>301 to one host + canonical.</code></p></li>
+    <li><div class="mh">9. Текст только из скрипта</div><p>Роботы видят пустую страницу.</p><p><code>Static HTML with text.</code></p></li>
+    <li><div class="mh">10. Обещание позиций</div><p>Клиент ждёт того, что от сайта не зависит.</p><p><code>Promise technical hygiene only.</code></p></li>
+  </ol>
+</section>
+
+<section class="sec" id="accept" data-short="Чек-лист приёмки">
+  <h2>Чек-лист приёмки</h2>
+  <ul class="checklist" data-id="l6">
+    <li><label><input type="checkbox"><span>Таблица title и description всех страниц: все разные, конкретика впереди, бренд в конце.</span></label></li>
+    <li><label><input type="checkbox"><span>На каждой странице один h1, заголовки по порядку, у картинок alt.</span></label></li>
+    <li><label><input type="checkbox"><span>Ссылка на каждую ключевую страницу, отправленная себе в мессенджер, даёт карточку со своим фото.</span></label></li>
+    <li><label><input type="checkbox"><span>og:image полным адресом, 1200×630, с og:image:alt; теги не дублируются.</span></label></li>
+    <li><label><input type="checkbox"><span>Structured data только о видимом; без FAQ и без рейтинга, если нет отзывов; Rich Results Test без ошибок.</span></label></li>
+    <li><label><input type="checkbox"><span>Один хост: http и второй вариант www перенаправляются; на каждой странице canonical.</span></label></li>
+    <li><label><input type="checkbox"><span>sitemap.xml содержит только канонические адреса и указан в robots.txt.</span></label></li>
+    <li><label><input type="checkbox"><span>Просмотр кода страницы показывает текст, а не пустую заготовку.</span></label></li>
+    <li><label><input type="checkbox"><span>Search Console подключён, sitemap отправлен.</span></label></li>
+  </ul>
+</section>
+
+<section class="sec" id="quiz" data-short="Тест">
+  <h2>Проверь себя</h2>
+  <div class="quiz" data-quiz="l6">
+    <script type="application/json">
+[
+ {"q":"Что Google ставит выше: удобство страницы или подходящее содержимое?","opts":["Удобство и скорость","Подходящее содержимое, даже при слабом удобстве","Количество ключевых слов","Возраст домена"],"a":1,"why":"Google пишет прямо: поиск старается показать самое подходящее содержимое, даже если удобство страницы слабее."},
+ {"q":"Meta description на странице есть, но Google показывает под ссылкой другой текст. Это ошибка?","opts":["Да, нужно написать description длиннее","Нет: description это подсказка, Google часто берёт текст из самой страницы","Да, Google заблокировал сайт","Нужно удалить description"],"a":1,"why":"По справке Google сниппет в основном строится из содержимого страницы. Description используется, если хорошо её описывает."},
+ {"q":"Модель поставила один title «Home | Bali Tours» во все страницы. Чем плохо?","opts":["Ничем","Вкладки, закладки и выдача неразличимы, и поиску сложнее понять, о чём каждая страница","Это замедляет сайт","Это нарушает WCAG"],"a":1,"why":"Google просит свой описательный title у каждой страницы."},
+ {"q":"Какие свойства Open Graph обязательны по спецификации?","opts":["title, description, image, url","title, type, image, url","только image","title и description"],"a":1,"why":"ogp.me называет четыре обязательных: og:title, og:type, og:image, og:url. Description необязателен, но его всё равно стоит добавить."},
+ {"q":"Поменял картинку для карточки, а в мессенджере старая. Что делать?","opts":["Ждать месяц","Переименовать сайт","Перечитать страницу инструментом сервиса, например Sharing Debugger у Meta","Удалить og:image"],"a":2,"why":"Сервисы запоминают карточку. У Meta для этого есть Sharing Debugger."},
+ {"q":"В разметке JSON-LD рейтинг 4,9 из 5, а отзывов на странице нет. Что не так?","opts":["Всё нормально, это хороший рейтинг","Разметка должна описывать только видимое на странице; это нарушение правил Google","Нужно поставить 5,0","Нужно спрятать отзывы"],"a":1,"why":"Правило Google: не размечать то, что не видно читателю, и давать только актуальные данные."},
+ {"q":"Стоит ли добавлять FAQPage разметку ради показа вопросов в выдаче?","opts":["Да, это главный приём","Нет: с мая 2026 Google больше не показывает FAQ-результаты","Только на главной","Только на английском"],"a":1,"why":"Это прямо написано на странице Google о FAQPage. Модели вставляют её по старым статьям."},
+ {"q":"Какой сигнал для выбора главного адреса Google называет слабым?","opts":["Redirect","rel=\"canonical\"","Включение в sitemap","Все одинаковые"],"a":2,"why":"Redirect и canonical сильные сигналы, sitemap слабый."},
+ {"q":"«Google не видит сайты, где текст вставляет JavaScript». Верно?","opts":["Да, совсем не видит","Устарело: Google отрисовывает такие страницы, но с задержкой; для визитки проще отдавать готовый HTML","Верно только для мобильных","Google видит только скрипты"],"a":1,"why":"Google документирует три этапа: сканирование, отрисовка, индексирование. Роботы мессенджеров в подборке не проверены, поэтому готовый HTML надёжнее."},
+ {"q":"Что честно обещать клиенту про поиск?","opts":["Первое место за месяц","Что сайт технически не мешает поиску: свои title, разметка, скорость, один адрес, Search Console","Рост трафика в два раза","Ничего, SEO не работает"],"a":1,"why":"Позиция зависит от содержимого и конкурентов. Техническая чистота это то, что зависит от сайта."}
+]
+    </script>
+  </div>
+</section>
+
+<section class="sec" id="sources" data-short="Источники">
+  <h2>Откуда это взято</h2>
+  <ul>
+    <li>◆ Google Search Central: page experience, title links, snippets, SEO Starter Guide, consolidate duplicate URLs, JavaScript SEO basics, intro to structured data, structured data policies, FAQPage, LocalBusiness. Справка Search Console. Всё проверено по тексту.</li>
+    <li>◆ ogp.me (обязательные свойства, og:image:alt), Meta for Developers (размеры картинок), schema.org (типы TravelAgency и TouristTrip).</li>
+    <li>◈ Видео: Google Search Central (два, считаются одним голосом), Jaume Ros, ProgrammingPercy, Le Référenceur Local (fr), Fireship, курс midudev (es, машинный перевод субтитров), Chrome for Developers.</li>
+    <li>◇ Ориентир ширины заголовка в выдаче: практика, Google его не публикует.</li>
+    <li>◇ Flux, «Fable 5 VS Web Designer», август 2026: один тест, в котором модель забыла favicon.</li>
+  </ul>
+  <p class="small">Видео Meta 2013 года почти целиком устарело и использовано только для одного факта: карточка строится по настоящему адресу, который отдаёт HTML. Не исследовано: местный поиск, Business Profile, многоязычные сайты и hreflang.</p>
+  <p class="small">В блоках «Где ошибаются нейронки» стоит только то, что видели в выдаче моделей 2025–2026 годов, с моделью и датой. Реальные ошибки без такого подтверждения собраны в блоках «Частые ошибки: у людей и у нейронок», и метка там подтверждает правило, а не привычку моделей. Разбор по каждому утверждению: PROVENANCE_ERRORS.md, AUDIT_INDEPENDENT.md, EXTERNAL_CHECK.md.</p>
+</section>
+</main>
+</div>
+
+<footer class="foot">
+  <nav aria-label="Навигация по курсу"><a href="05-forms.html">Урок 5. Формы и путь к заявке</a><a href="07-security.html">Урок 7. Безопасность, чужие скрипты и приватность</a><a href="index.html">Все уроки</a></nav>
+</footer>
+
+<script src="assets/course.js?v=6"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const { $, $$ } = Course;
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const ctx = document.createElement('canvas').getContext('2d');
+  const width = (txt, font) => { ctx.font = font; return ctx.measureText(txt).width; };
+  function clip(txt, font, max) {
+    if (width(txt, font) <= max) return { t: txt, cut: false };
+    let lo = 0; let hi = txt.length;
+    while (lo < hi) { const m = (lo + hi + 1) >> 1; if (width(txt.slice(0, m) + ' …', font) <= max) lo = m; else hi = m - 1; }
+    return { t: txt.slice(0, lo).replace(/\s+\S*$/, '') + ' …', cut: true };
+  }
+
+  /* 1. SERP preview */
+  const EX = {
+    ai: ['Home | Bali Tours', 'Welcome to our website. We offer the best tours in Bali. Contact us for more information.'],
+    long: ['Nusa Penida Day Trip From Sanur With Snorkelling, Kelingking Beach, Broken Beach, Angel Billabong, Lunch and Hotel Pick-up Included', 'Join our amazing, unforgettable, best-rated Nusa Penida day trip from Sanur, Bali, with snorkelling at Crystal Bay and Manta Point, visits to Kelingking Beach, Broken Beach and Angel Billabong, lunch, drinks, insurance and hotel pick-up all included for one low price.'],
+    good: ['Nusa Penida day trip from Sanur | 1000 Islands', 'Small boat, six guests, local captain. Kelingking before the crowds and snorkelling at Crystal Bay. Back in Sanur by 5 pm. From $95.']
+  };
+  const snT = $('#snT'); const snD = $('#snD');
+  function snRender() {
+    const t = snT.value.trim(); const d = snD.value.trim();
+    const ct = clip(t || 'nusa-penida', '20px system-ui', 600); const cd = clip(d, '14px system-ui', 1150);
+    $('#snOutT').textContent = ct.t; $('#snOutD').textContent = d ? cd.t : 'Google сам вырежет фрагмент текста со страницы…';
+    $('#snTc').textContent = `${t.length} знаков, около ${Math.round(width(t, '20px system-ui'))} px`;
+    $('#snDc').textContent = `${d.length} знаков`;
+    const notes = [];
+    if (!t) notes.push('<span class="verdict no">Нет title:</span> Google подставит что-то сам, часто адрес или первый заголовок.');
+    else if (/^home\b|welcome/i.test(t)) notes.push('<span class="verdict no">Title ничего не говорит о странице.</span> «Home» и название сайта годятся только для главной, и то в конце.');
+    if (ct.cut) notes.push('<span class="verdict mid">Title обрезан:</span> самое важное должно стоять в начале.');
+    if (d && cd.cut) notes.push('<span class="verdict mid">Description обрезан</span> и перегружен прилагательными.');
+    if (d && /welcome|best tours|for more information/i.test(d)) notes.push('<span class="verdict no">Description общий:</span> он подходит любому сайту туров и не даёт повода нажать.');
+    if (!notes.length) notes.push('<span class="verdict ok">Конкретно и помещается:</span> что, откуда, чем отличается, сколько стоит. Бренд в конце.');
+    $('#snOut').innerHTML = notes.join(' ');
+  }
+  $$('#sn [data-ex]').forEach((b) => b.addEventListener('click', () => {
+    [snT.value, snD.value] = EX[b.dataset.ex];
+    $$('#sn [data-ex]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    snRender();
+  }));
+  snT.addEventListener('input', snRender); snD.addEventListener('input', snRender);
+  [snT.value, snD.value] = EX.ai; $('#sn [data-ex="ai"]').setAttribute('aria-pressed', 'true'); snRender();
+
+  /* 2. Duplicate titles in tabs */
+  const PAGES = [
+    ['/', 'Bali day trips and island tours | 1000 Islands'],
+    ['/tours/nusa-penida', 'Nusa Penida day trip from Sanur | 1000 Islands'],
+    ['/tours/batur-sunrise', 'Mount Batur sunrise hike | 1000 Islands'],
+    ['/tours/ubud', 'Ubud rice terraces and temples | 1000 Islands'],
+    ['/about', 'About our guides and boats | 1000 Islands'],
+    ['/contact', 'Contact and booking questions | 1000 Islands']
+  ];
+  const tb = $('#tb');
+  function tbRender() {
+    const bad = tb.dataset.ver === 'bad';
+    const titles = PAGES.map(([u, t]) => (bad ? 'Bali Tours | Home' : t));
+    $('#tbBar').innerHTML = titles.map((t) => `<span class="${bad ? 'dup' : ''}">${esc(t)}</span>`).join('');
+    $('#tbList').innerHTML = PAGES.map(([u], i) => `<li><code>${u}</code><span class="${bad ? 'dup' : ''}">${esc(titles[i])}</span></li>`).join('');
+    $('#tbOut').innerHTML = bad ? '<span class="verdict no">Шесть одинаковых вкладок и шесть одинаковых строк в выдаче.</span> Человек не найдёт нужную вкладку, а Google не поймёт, чем страницы отличаются.' : '<span class="verdict ok">Каждую вкладку можно узнать по первым словам.</span> Конкретика впереди, бренд в конце, поэтому при обрезке теряется бренд, а не смысл.';
+  }
+  tb.addEventListener('statechange', tbRender); tbRender();
+
+  /* 3. Open Graph preview */
+  const og = $('#og');
+  function ogRender() {
+    const s = og.dataset; const on = (k) => s[k] === 'on';
+    const title = on('title') ? 'Nusa Penida day trip from Sanur' : '';
+    const desc = on('desc') ? 'Small boat, six guests, back by 5 pm. From $95.' : '';
+    let card = '';
+    if (!title && !desc && s.img === 'none') card = '';
+    else if (s.img === 'wide') card = `<div class="prev"><div class="img wide"><span>1200×630</span></div><div class="tx"><b>${esc(title || 'Nusa Penida day trip from Sanur | 1000 Islands')}</b>${desc ? `<p>${esc(desc)}</p>` : ''}<small>${on('url') ? '1000islands.travel' : '1000islands.travel/tours/nusa-penida?utm_source=ig'}</small></div></div>`;
+    else card = `<div class="prev"><div class="row">${s.img === 'small' ? '<div class="img sq"></div>' : ''}<div class="tx"><b>${esc(title || 'Nusa Penida day trip from Sanur | 1000 Islands')}</b>${desc ? `<p>${esc(desc)}</p>` : ''}<small>1000islands.travel</small></div></div></div>`;
+    $('#ogCard').innerHTML = card;
+    const lines = ['<meta property="og:type" content="website">'];
+    if (on('title')) lines.push('<meta property="og:title"\n  content="Nusa Penida day trip from Sanur">');
+    if (on('desc')) lines.push('<meta property="og:description"\n  content="Small boat, six guests…">');
+    if (on('url')) lines.push('<meta property="og:url"\n  content="https://1000islands.travel/tours/nusa-penida">');
+    if (s.img !== 'none') lines.push(`<meta property="og:image"\n  content="https://1000islands.travel/og/penida-${s.img === 'wide' ? '1200x630' : '400'}.jpg">`);
+    $('#ogCode').textContent = lines.join('\n');
+    const notes = [];
+    if (s.img === 'none') notes.push('<span class="verdict no">Без картинки карточка теряется в переписке.</span>');
+    if (s.img === 'small') notes.push('<span class="verdict mid">Картинка маленькая:</span> многие сервисы покажут её крошечным квадратом сбоку.');
+    if (s.img === 'wide') notes.push('<span class="verdict ok">Большая картинка 1200×630</span> даёт крупную карточку.');
+    if (!on('title')) notes.push('Без og:title сервис взял обычный title страницы, вместе с брендом.');
+    if (!on('desc')) notes.push('Без описания карточка короче: это допустимо, свойство необязательное.');
+    if (!on('url')) notes.push('<span class="verdict mid">Без og:url</span> в карточку и в подсчёт репостов может попасть адрес с рекламными метками.');
+    if (!card) notes.unshift('<span class="verdict no">Карточки нет совсем,</span> только голая ссылка.');
+    $('#ogOut').innerHTML = notes.join(' ');
+  }
+  og.addEventListener('statechange', ogRender); ogRender();
+
+  /* 4. Structured data check */
+  const LD = [
+    { id: 'type', label: '"@type": "FAQPage" (отдельный блок)', ai: 1, good: 0, issue: ['no', 'FAQPage: Google больше не показывает FAQ-результаты (май 2026), а вопросов на странице и нет.'] },
+    { id: 'rating', label: '"aggregateRating": 4.9 из 128 отзывов', ai: 1, good: 0, issue: ['no', 'Рейтинга и отзывов на странице нет. Это разметка того, что не видно читателю: нарушение правил Google.'] },
+    { id: 'price', label: '"priceRange": "$" (у самого дешёвого конкурента)', ai: 1, good: 0, issue: ['mid', 'Ценовой категории на странице нет. Даже если она правдива, сначала покажи её людям.'] },
+    { id: 'addr', label: '"address" с улицей и индексом', ai: 0, good: 1, missing: ['no', 'Нет адреса: для LocalBusiness это обязательное поле, без него расширенного результата не будет.'], ok: 'Адрес совпадает с видимым на странице.' },
+    { id: 'tel', label: '"telephone"', ai: 1, good: 1, ok: 'Телефон совпадает с видимым.' },
+    { id: 'hours', label: '"openingHours": "Mo-Su 08:00-20:00"', ai: 0, good: 1, ok: 'Часы работы совпадают с видимыми.' }
+  ];
+  $('#ldOpts').innerHTML = LD.map((r) => `<label class="field"><input type="checkbox" data-ld="${r.id}"> ${esc(r.label)}</label>`).join('');
+  function ldRender() {
+    const on = (id) => $(`[data-ld="${id}"]`).checked;
+    const obj = { '@context': 'https://schema.org', '@type': 'TravelAgency', name: '1000 Islands Travel' };
+    if (on('addr')) obj.address = { '@type': 'PostalAddress', streetAddress: 'Jl. Danau Tamblingan 12', addressLocality: 'Sanur', postalCode: '80228', addressCountry: 'ID' };
+    if (on('tel')) obj.telephone = '+62 812 0000 0000';
+    if (on('hours')) obj.openingHours = 'Mo-Su 08:00-20:00';
+    if (on('price')) obj.priceRange = '$';
+    if (on('rating')) obj.aggregateRating = { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '128' };
+    let code = '<script type="application/ld+json">\n' + JSON.stringify(obj, null, 2) + '\n<\/script>';
+    if (on('type')) code += '\n<script type="application/ld+json">\n{ "@type": "FAQPage", "mainEntity": [ … ] }\n<\/script>';
+    $('#ldCode').textContent = code;
+    const items = [];
+    LD.forEach((r) => {
+      if (on(r.id) && r.issue) items.push(r.issue);
+      if (!on(r.id) && r.missing) items.push(r.missing);
+      if (on(r.id) && r.ok) items.push(['ok', r.ok]);
+    });
+    const bad = items.filter((i) => i[0] !== 'ok').length;
+    items.unshift(bad ? ['no', `Проблем: ${bad}.`] : ['ok', 'Разметка описывает только то, что видно на странице, обязательные поля на месте.']);
+    $('#ldIssues').innerHTML = items.map(([c, t]) => `<li class="${c}">${esc(t)}</li>`).join('');
+  }
+  function ldPreset(which) {
+    LD.forEach((r) => { $(`[data-ld="${r.id}"]`).checked = !!r[which]; });
+    $$('#ldStage [data-ldex]').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.ldex === which)));
+    ldRender();
+  }
+  $('#ldOpts').addEventListener('change', () => { $$('#ldStage [data-ldex]').forEach((x) => x.setAttribute('aria-pressed', 'false')); ldRender(); });
+  $$('#ldStage [data-ldex]').forEach((b) => b.addEventListener('click', () => ldPreset(b.dataset.ldex)));
+  ldPreset('ai');
+
+  /* 5. Canonical URLs */
+  const URLS = ['https://1000islands.travel/tours/nusa-penida', 'https://www.1000islands.travel/tours/nusa-penida', 'http://1000islands.travel/tours/nusa-penida', 'https://1000islands.travel/tours/nusa-penida/', 'https://1000islands.travel/tours/nusa-penida?utm_source=instagram'];
+  const cn = $('#cn');
+  function cnRender() {
+    const f = cn.dataset.fix;
+    $('#cnList').innerHTML = URLS.map((u, i) => {
+      if (i === 0) return `<li class="main">${esc(u)}<b>${f === 'none' ? 'один из пяти' : 'главный адрес'}</b></li>`;
+      let cls = 'sep'; let lbl = 'отдельная копия';
+      if (f === 'sitemap') lbl = 'копия; sitemap лишь намекает';
+      if (f === 'canon') { cls = 'red'; lbl = 'canonical указывает на главный'; }
+      if (f === 'both') { cls = 'red'; lbl = i === 4 ? 'canonical на главный' : '301 на главный'; }
+      return `<li class="${cls}">${esc(u)}<b>${lbl}</b></li>`;
+    }).join('');
+    const MSG = {
+      none: '<span class="verdict no">Пять адресов с одинаковым содержимым.</span> Google сам выберет главный, и ссылки, которые люди ставят на разные варианты, делятся между копиями.',
+      sitemap: '<span class="verdict mid">Sitemap это слабый сигнал.</span> Google его учтёт, но может выбрать другой адрес.',
+      canon: '<span class="verdict mid">Canonical сильный сигнал,</span> но люди и сервисы всё ещё открывают разные адреса, и все варианты остаются рабочими.',
+      both: '<span class="verdict ok">Варианты хоста и протокола перенаправляются,</span> а адрес с меткой рекламы указывает на главный через canonical. Метки нельзя перенаправлять, иначе аналитика их потеряет.'
+    };
+    $('#cnOut').innerHTML = MSG[f];
+  }
+  cn.addEventListener('statechange', cnRender); cnRender();
+
+  /* 6. Rendering */
+  const rd = $('#rd');
+  const RD = {
+    csr: { code: '<!doctype html>\n<html>\n<head>\n  <title>Bali Tours</title>\n  <script src="/app.js" defer><\/script>\n</head>\n<body>\n  <div id="root"></div>\n</body>\n</html>', see: '<p class="small" style="margin:0">Пустая страница. Заголовок «Bali Tours», и всё.</p>', out: '<span class="verdict no">Сервер отдал пустую заготовку.</span> Текст, ссылки и мета-теги появятся только после выполнения app.js. Робот без скриптов увидит пустоту, Google увидит позже, после очереди на отрисовку.' },
+    static: { code: '<!doctype html>\n<html lang="en">\n<head>\n  <title>Nusa Penida day trip | 1000 Islands</title>\n  <meta name="description" content="Small boat…">\n  <meta property="og:image" content="https://…">\n</head>\n<body>\n  <h1>Nusa Penida day trip from Sanur</h1>\n  <p>Small boat, six guests, local captain…</p>\n  <a href="/contact">Ask about this trip</a>\n</body>\n</html>', see: '<div class="mh" style="font-size:1.15rem">Nusa Penida day trip from Sanur</div><p style="margin:.3rem 0 0;color:var(--ink-2)">Small boat, six guests, local captain…</p><p style="margin:.3rem 0 0"><u>Ask about this trip</u></p>', out: '<span class="verdict ok">Всё в первом ответе сервера:</span> заголовок, текст, ссылка и теги для карточки. Робот любого сервиса увидит страницу сразу.' }
+  };
+  function rdRender() { const r = RD[rd.dataset.mode]; $('#rdCode').textContent = r.code; $('#rdSee').innerHTML = r.see; $('#rdOut').innerHTML = r.out; }
+  rd.addEventListener('statechange', rdRender); rdRender();
+});
+</script>
+</body>
+</html>

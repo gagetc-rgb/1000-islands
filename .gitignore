@@ -1,0 +1,22 @@
+# videos stay on the local disk (too large for GitHub)
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.webm
+*.m4v
+*.avi
+*.mkv
+# browser profiles hold login cookies: never publish
+**/.chrome-profile*/
+# dependencies, secrets, local junk
+node_modules/
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.pyc
+desktop.ini
+Thumbs.db
+~$*

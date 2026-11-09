@@ -1,0 +1,111 @@
+1 / 19
+1000 Islands Travel
+Сайт на компьютере (1440 px)
+Этап 1: структура и переходы · v5 · 7 октября 2026
+Start: первый экран →
+10 страниц сайта
+Во всю длину, в масштабе. Нажми на страницу, чтобы открыть её.
+Home
+01
+Raja Ampat
+02
+North
+Sulawesi
+03
+Yacht
+charters
+04
+Guest stories
+05
+About us
+06
+Travel agents
+07
+Plan your trip
+08
+Thank you ·
+traveller
+09
+Thank you ·
+agent
+10
+Служебные страницы и состояния: 8
+Privacy &
+cookies
+11
+Booking
+terms
+12
+404 page
+13
+Maintenance
+14
+Cookie
+banner
+S1
+Cookie
+settings
+S2
+Form errors
+S3
+Sending
+failed
+S4
+Ещё в этом файле: 20 экранов для телефона, 3 автоматических письма, превью ссылок и
+админка
+Они открываются из меню страниц вверху слева.
+20
+экранов
+Телефон
+Автоответ
+путешественнику
+E1
+Автоответ
+турагенту
+E2
+Новая заявка
+владельцу
+E3
+Превью ссылок
+P1
+Admin ·
+Enquiries
+A1
+Admin ·
+Reviews
+A2
+Admin · Photos
+& video
+A3
+Admin · Prices
+A4
+Как читать макет
+Серый прямоугольник с крестом: здесь будет фото или
+видео
+Серые полосы: здесь будет текст
+Подписи вроде «01 · Hero»: номера блоков, ссылайся на них
+в комментариях
+Цветов, шрифтов и финальных текстов пока нет: это этап 2,
+дизайн
+Эта страница
+Нажми Start и кликай, как по настоящему сайту, или нажми
+любую страницу выше, чтобы сразу перейти к ней.
+Стрелки по краям экрана переключают все 19 экранов по
+порядку.
+Другие страницы файла (меню вверху слева): Mobile · Emails
+& previews · Admin.
+Не нажимаются специально: WhatsApp, почта, Instagram,
+скачивание PDF, «View all photos» и переходы внутри
+страницы. Ползунок дней работает в живом прототипе,
+здесь он стоит на 7 днях.
+1000 ISLANDS
+1000 Islands · Wireframes v5 · 7 Oct 2026 / Desktop
+/
+00 Cover · Desktop
+Interactions
+100%
+Log in or sign up
+This website uses first-party and third-party cookies to enhance navigation, analyze traffic, and personalize content. You can accept all, reject them, or customize their use. Cookie Policy.
+Accept all
+Reject all
+Customize cookies

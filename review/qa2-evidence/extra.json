@@ -1,0 +1,41 @@
+{
+  "register": "Create an account\nGoogle\nGitHub\nGitLab\nFULL NAME\nWORK EMAIL\nPASSWORD\nAt least 8 characters\nI agree to the terms of service and privacy policy.\nSend me product updates (new features, releases, fixes...).\nCREATE AN ACCOUNT\nAlready have an account?\nLogin here.\nTerms of service\nand\nPrivacy policy\nThis website uses first-party and third-party cookies to enhance navigation, analyze traffic, and personalize content. You can accept all, reject them, or customize their use. Cookie Policy.\nAccept all\nReject all\nCustomize cookies",
+  "labels": [],
+  "photoBefore": [
+    "none",
+    "none",
+    "none",
+    "none"
+  ],
+  "notes": "notes",
+  "admin": [
+    {
+      "id": "t-leads",
+      "selected": "true",
+      "visible": [
+        "p-leads"
+      ]
+    },
+    {
+      "id": "t-reviews",
+      "selected": "true",
+      "visible": [
+        "p-reviews"
+      ]
+    },
+    {
+      "id": "t-photos",
+      "selected": "true",
+      "visible": [
+        "p-photos"
+      ]
+    },
+    {
+      "id": "t-prices",
+      "selected": "true",
+      "visible": [
+        "p-prices"
+      ]
+    }
+  ]
+}

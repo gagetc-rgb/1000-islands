@@ -1,0 +1,160 @@
+
+== home @ 1440x790: 4.5 screens (3571px) | sections 7 (labels 6) | boxes 11 {"ph":5,"card":3,"review":3} | .card 3 | inputs 0
+   pills static 8 ["tag:Central","tag:Misool","tag:+ Triton Bay","tag:Bunaken","tag:Sangihe & Siau","tag:+ Halmahera & Widi","tag:Phinisi","tag:Whole boat"] | pills interactive 0 []
+   font sizes all 11 [64,40,22,18,17,16,15,14,13,12,11] | excl. annotations 10 [64,40,22,18,17,16,15,14,13,11]
+   buttons 1st screen 4 (cta 3): cta:Plan your trip | utility:❚❚ | cta:See destinations | cta:Plan your trip
+   content boxes 6 + image placeholders 5
+   hero 74% (586px, top 73 bottom 659, media 586px) header 73px subnav null
+   bottom edge sections: 02 · Where we go | next: {"label":"02 · Where we go","top":659,"peekPx":131,"h2":{"text":"Where we go","top":738,"bottom":783}}
+   bottom text: h2 "Where we go" [738–783]
+   mbar: {"display":"none","cls":"mbar is-armed","top":0,"visiblePx":0}
+
+== raja-ampat @ 1440x790: 5.7 screens (4498px) | sections 5 (labels 6) | boxes 18 {"ph":9,"card":6,"days-picker":1,"review":2} | .card 6 | inputs 0
+   pills static 1 ["tag:Add-on"] | pills interactive 0 []
+   font sizes all 12 [64,40,24,22,18,17,16,15,14,13,12,11] | excl. annotations 12 [64,40,24,22,18,17,16,15,14,13,12,11]
+   buttons 1st screen 4 (cta 3): cta:Plan your trip | utility:❚❚ | cta:See trips and prices | cta:Plan a Raja Ampat trip
+   content boxes 9 + image placeholders 9
+   hero 84% (665px, top 73 bottom 738, media 585px) header 73px subnav {"top":738,"bottom":791}
+   bottom edge sections: ? | next: {"label":"03 · Why go + areas","top":791,"peekPx":0,"h2":{"text":"Why go to Raja Ampat","top":894,"bottom":938}}
+   bottom text: a.on "Why go" [738–790] ; a "Trips and prices" [738–790] ; a "Reviews" [738–790] ; a "FAQ" [738–790]
+   mbar: {"display":"none","cls":"mbar is-armed","top":0,"visiblePx":0}
+
+== north-sulawesi @ 1440x790: 5.5 screens (4371px) | sections 5 (labels 6) | boxes 18 {"ph":9,"card":6,"days-picker":1,"review":2} | .card 6 | inputs 0
+   pills static 1 ["tag:Add-on"] | pills interactive 0 []
+   font sizes all 12 [64,40,24,22,18,17,16,15,14,13,12,11] | excl. annotations 12 [64,40,24,22,18,17,16,15,14,13,12,11]
+   buttons 1st screen 4 (cta 3): cta:Plan your trip | utility:❚❚ | cta:See trips and prices | cta:Plan a North Sulawesi 
+   content boxes 9 + image placeholders 9
+   hero 84% (665px, top 73 bottom 738, media 556px) header 73px subnav {"top":738,"bottom":791}
+   bottom edge sections: ? | next: {"label":"03 · Why go + areas","top":791,"peekPx":0,"h2":{"text":"Why go to North Sulawesi","top":894,"bottom":938}}
+   bottom text: a.on "Why go" [738–790] ; a "Trips and prices" [738–790] ; a "Reviews" [738–790] ; a "FAQ" [738–790]
+   mbar: {"display":"none","cls":"mbar is-armed","top":0,"visiblePx":0}
+
+== yachts @ 1440x790: 6.8 screens (5406px) | sections 6 (labels 7) | boxes 10 {"ph":3,"days-picker":1,"card":6} | .card 6 | inputs 0
+   pills static 12 ["tag:X cabins, en-suite","tag:Air-con","tag:Chef","tag:Dive guide"] | pills interactive 0 []
+   font sizes all 13 [64,48,40,24,22,18,17,16,15,14,13,12,11] | excl. annotations 13 [64,48,40,24,22,18,17,16,15,14,13,12,11]
+   buttons 1st screen 4 (cta 3): cta:Plan your trip | utility:❚❚ | cta:See boats and prices | cta:Plan a yacht trip
+   content boxes 7 + image placeholders 3
+   hero 84% (665px, top 73 bottom 738, media 585px) header 73px subnav {"top":738,"bottom":791}
+   bottom edge sections: ? | next: {"label":"03 · Why a yacht","top":791,"peekPx":0,"h2":{"text":"Why a yacht","top":1116,"bottom":1171}}
+   bottom text: a.on "Why a yacht" [738–790] ; a "Boats and prices" [738–790] ; a "Where we sail" [738–790] ; a "FAQ" [738–790]
+   mbar: {"display":"none","cls":"mbar is-armed","top":0,"visiblePx":0}
+
+== stories @ 1440x790: 4.9 screens (3855px) | sections 5 (labels 5) | boxes 7 {"ph":5,"card":2} | .card 2 | inputs 0
+   pills static 2 ["tag:Yacht charter","tag:North Sulawesi"] | pills interactive 0 []
+   font sizes all 10 [52,40,22,18,16,15,14,13,12,11] | excl. annotations 9 [52,40,22,18,16,15,14,13,11]
+   buttons 1st screen 3 (cta 2): cta:Plan your trip | utility:❚❚ | cta:Plan a trip like this
+   content boxes 2 + image placeholders 5
+   hero null% (nullpx, top null bottom null, media nullpx) header 73px subnav null
+   bottom edge sections: 02 · Story 1 | next: {"label":"02 · Story 1","top":265,"peekPx":525,"h2":{"text":"Nine days in Raja Ampat","top":602,"bottom":647}}
+   bottom text: button.pause "❚❚" [719–767]
+   mbar: {"display":"none","cls":"mbar is-armed","top":0,"visiblePx":0}
+
+== about @ 1440x790: 4 screens (3131px) | sections 4 (labels 4) | boxes 6 {"ph":6} | .card 0 | inputs 0
+   pills static 0 [] | pills interactive 0 []
+   font sizes all 9 [52,40,18,16,15,14,13,12,11] | excl. annotations 8 [52,40,18,16,15,14,13,11]
+   buttons 1st screen 1 (cta 1): cta:Plan your trip
+   content boxes 0 + image placeholders 6
+   hero null% (nullpx, top null bottom null, media nullpx) header 73px subnav null
+   bottom edge sections: 02 · How we travel | next: {"label":"02 · How we travel","top":778,"peekPx":12,"h2":{"text":"How we travel","top":1108,"bottom":1153}}
+   bottom text: 
+   mbar: {"display":"none","cls":"mbar is-armed","top":0,"visiblePx":0}
+
+== advisors @ 1440x790: 7.8 screens (6128px) | sections 8 (labels 9) | boxes 33 {"ph":8,"tile":12,"icon":6,"review":2,"card":4,"form-box":1} | .card 4 | inputs 5
+   pills static 0 [] | pills interactive 0 []
+   font sizes all 11 [64,40,22,18,17,16,15,14,13,12,11] | excl. annotations 11 [64,40,22,18,17,16,15,14,13,12,11]
+   buttons 1st screen 2 (cta 2): cta:Plan your trip | cta:Get trade rates
+   content boxes 25 + image placeholders 8
+   hero 84% (665px, top 73 bottom 738, media 585px) header 73px subnav {"top":738,"bottom":791}
+   bottom edge sections: ? | next: {"label":"03 · How we work with you","top":791,"peekPx":0,"h2":{"text":"How we work with you","top":894,"bottom":938}}
+   bottom text: a.on "How we work" [738–790] ; a "What we handle" [738–790] ; a "Proof" [738–790] ; a "What you can sell" [738–790] ; a "Booking" [738–790] ; a "FAQ" [738–790] ; a "Get trade rates" [738–790]
+   mbar: {"display":"none","cls":"mbar is-armed","top":0,"visiblePx":0}
+
+== plan @ 1440x790: 2.2 screens (1723px) | sections 1 (labels 1) | boxes 2 {"ph":1,"form-box":1} | .card 0 | inputs 6
+   pills static 0 [] | pills interactive 0 []
+   font sizes all 9 [52,22,18,16,15,14,13,12,11] | excl. annotations 9 [52,22,18,16,15,14,13,12,11]
+   buttons 1st screen 6 (cta 2): cta:Plan your trip | cta:WhatsApp us | control:Raja Ampat | control:North Sulawesi | control:Yacht charter | control:Not sure yet
+   content boxes 1 + image placeholders 1
+   hero null% (nullpx, top null bottom null, media nullpx) header 73px subnav null
+   bottom edge sections: 01 · Plan your trip | next: null
+   bottom text: span.chip "Yacht charter" [741–785] ; span.chip "Not sure yet" [741–785]
+   mbar: null
+
+== home @ 390x664: 7 screens (4655px) | sections 7 (labels 6) | boxes 11 {"ph":5,"card":3,"review":3} | .card 3 | inputs 0
+   pills static 8 ["tag:Central","tag:Misool","tag:+ Triton Bay","tag:Bunaken","tag:Sangihe & Siau","tag:+ Halmahera & Widi","tag:Phinisi","tag:Whole boat"] | pills interactive 0 []
+   font sizes all 13 [40,30,20,19,18,17,16,15,14,13.3,13,12,11] | excl. annotations 12 [40,30,20,19,18,17,16,15,14,13.3,13,11]
+   buttons 1st screen 4 (cta 2): utility:☰ | utility:❚❚ | cta:See destinations | cta:Plan your trip
+   content boxes 6 + image placeholders 5
+   hero 76% (502px, top 65 bottom 567, media 502px) header 65px subnav null
+   bottom edge sections: 02 · Where we go | next: {"label":"02 · Where we go","top":567,"peekPx":97,"h2":{"text":"Where we go","top":623,"bottom":657}}
+   bottom text: h2 "Where we go" [623–657]
+   mbar: {"display":"grid","cls":"mbar is-armed","top":664,"visiblePx":0}
+
+== raja-ampat @ 390x664: 8.9 screens (5894px) | sections 5 (labels 6) | boxes 16 {"ph":7,"card":6,"days-picker":1,"review":2} | .card 6 | inputs 0
+   pills static 1 ["tag:Add-on"] | pills interactive 0 []
+   font sizes all 14 [40,30,24,20,19,18,17,16,15,14,13.3,13,12,11] | excl. annotations 13 [40,30,24,20,19,18,17,16,15,14,13.3,13,11]
+   buttons 1st screen 4 (cta 2): utility:☰ | utility:❚❚ | cta:See trips and prices | cta:Plan a Raja Ampat trip
+   content boxes 9 + image placeholders 7
+   hero 82% (547px, top 65 bottom 612, media 378px) header 65px subnav {"top":612,"bottom":665}
+   bottom edge sections: ? | next: {"label":"03 · Why go + areas","top":665,"peekPx":0,"h2":{"text":"Why go to Raja Ampat","top":737,"bottom":771}}
+   bottom text: a.on "Why go" [612–664] ; a "Trips and prices" [612–664] ; a "Reviews" [612–664] ; a "FAQ" [612–664]
+   mbar: {"display":"grid","cls":"mbar is-armed","top":664,"visiblePx":0}
+
+== north-sulawesi @ 390x664: 8.9 screens (5906px) | sections 5 (labels 6) | boxes 16 {"ph":7,"card":6,"days-picker":1,"review":2} | .card 6 | inputs 0
+   pills static 1 ["tag:Add-on"] | pills interactive 0 []
+   font sizes all 14 [40,30,24,20,19,18,17,16,15,14,13.3,13,12,11] | excl. annotations 13 [40,30,24,20,19,18,17,16,15,14,13.3,13,11]
+   buttons 1st screen 4 (cta 2): utility:☰ | utility:❚❚ | cta:See trips and prices | cta:Plan a North Sulawesi 
+   content boxes 9 + image placeholders 7
+   hero 82% (547px, top 65 bottom 612, media 351px) header 65px subnav {"top":612,"bottom":665}
+   bottom edge sections: ? | next: {"label":"03 · Why go + areas","top":665,"peekPx":0,"h2":{"text":"Why go to North Sulawesi","top":737,"bottom":804}}
+   bottom text: a.on "Why go" [612–664] ; a "Trips and prices" [612–664] ; a "Reviews" [612–664] ; a "FAQ" [612–664]
+   mbar: {"display":"grid","cls":"mbar is-armed","top":664,"visiblePx":0}
+
+== yachts @ 390x664: 9 screens (5948px) | sections 6 (labels 7) | boxes 10 {"ph":3,"days-picker":1,"card":6} | .card 6 | inputs 0
+   pills static 12 ["tag:X cabins, en-suite","tag:Air-con","tag:Chef","tag:Dive guide"] | pills interactive 0 []
+   font sizes all 14 [40,30,24,20,19,18,17,16,15,14,13.3,13,12,11] | excl. annotations 13 [40,30,24,20,19,18,17,16,15,14,13.3,13,11]
+   buttons 1st screen 4 (cta 2): utility:☰ | utility:❚❚ | cta:See boats and prices | cta:Plan a yacht trip
+   content boxes 7 + image placeholders 3
+   hero 82% (547px, top 65 bottom 612, media 378px) header 65px subnav {"top":612,"bottom":665}
+   bottom edge sections: ? | next: {"label":"03 · Why a yacht","top":665,"peekPx":0,"h2":{"text":"Why a yacht","top":737,"bottom":772}}
+   bottom text: a.on "Why a yacht" [612–664] ; a "Boats and prices" [612–664] ; a "Where we sail" [612–664]
+   mbar: {"display":"grid","cls":"mbar is-armed","top":664,"visiblePx":0}
+
+== stories @ 390x664: 7.2 screens (4808px) | sections 5 (labels 5) | boxes 7 {"ph":5,"card":2} | .card 2 | inputs 0
+   pills static 2 ["tag:Yacht charter","tag:North Sulawesi"] | pills interactive 0 []
+   font sizes all 12 [36,30,20,19,18,17,16,15,14,13,12,11] | excl. annotations 11 [36,30,20,19,18,17,16,15,14,13,11]
+   buttons 1st screen 3 (cta 1): utility:☰ | utility:❚❚ | cta:Plan a trip like this
+   content boxes 2 + image placeholders 5
+   hero null% (nullpx, top null bottom null, media nullpx) header 65px subnav null
+   bottom edge sections: 02 · Story 1 | next: {"label":"02 · Story 1","top":254,"peekPx":410,"h2":{"text":"Nine days in Raja Ampat","top":511,"bottom":545}}
+   bottom text: a.btn "Plan a trip like this" [577–625]
+   mbar: {"display":"grid","cls":"mbar is-armed","top":664,"visiblePx":0}
+
+== about @ 390x664: 5.2 screens (3484px) | sections 4 (labels 4) | boxes 6 {"ph":6} | .card 0 | inputs 0
+   pills static 0 [] | pills interactive 0 []
+   font sizes all 11 [36,30,20,18,17,16,15,14,13,12,11] | excl. annotations 10 [36,30,20,18,17,16,15,14,13,11]
+   buttons 1st screen 1 (cta 0): utility:☰
+   content boxes 0 + image placeholders 6
+   hero null% (nullpx, top null bottom null, media nullpx) header 65px subnav null
+   bottom edge sections: 01 · Our story + team | next: {"label":"02 · How we travel","top":804,"peekPx":0,"h2":{"text":"How we travel","top":876,"bottom":909}}
+   bottom text: span "Photo" [622–647]
+   mbar: {"display":"grid","cls":"mbar is-armed","top":664,"visiblePx":0}
+
+== advisors @ 390x664: 14.2 screens (9411px) | sections 8 (labels 9) | boxes 33 {"ph":8,"tile":12,"icon":6,"review":2,"card":4,"form-box":1} | .card 4 | inputs 5
+   pills static 0 [] | pills interactive 0 []
+   font sizes all 12 [40,30,20,19,18,17,16,15,14,13,12,11] | excl. annotations 11 [40,30,20,19,18,17,16,15,14,13,11]
+   buttons 1st screen 2 (cta 1): utility:☰ | cta:Get trade rates
+   content boxes 25 + image placeholders 8
+   hero 82% (547px, top 65 bottom 612, media 378px) header 65px subnav {"top":612,"bottom":665}
+   bottom edge sections: ? | next: {"label":"03 · How we work with you","top":665,"peekPx":0,"h2":{"text":"How we work with you","top":737,"bottom":771}}
+   bottom text: a.on "How we work" [612–664] ; a "What we handle" [612–664] ; a "Proof" [612–664] ; a "What you can sell" [612–664]
+   mbar: {"display":"grid","cls":"mbar is-armed","top":664,"visiblePx":0}
+
+== plan @ 390x664: 4 screens (2664px) | sections 1 (labels 1) | boxes 2 {"ph":1,"form-box":1} | .card 0 | inputs 6
+   pills static 0 [] | pills interactive 0 []
+   font sizes all 11 [36,20,19,18,17,16,15,14,13,12,11] | excl. annotations 11 [36,20,19,18,17,16,15,14,13,12,11]
+   buttons 1st screen 1 (cta 0): utility:☰
+   content boxes 1 + image placeholders 1
+   hero null% (nullpx, top null bottom null, media nullpx) header 65px subnav null
+   bottom edge sections: 01 · Plan your trip | next: null
+   bottom text: label "Travellers" [594–618]
+   mbar: null

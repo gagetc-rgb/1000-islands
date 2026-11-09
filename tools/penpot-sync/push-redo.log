@@ -1,0 +1,29 @@
+01 Home · Desktop                              shapes 202 links 29 now [202,29] OK
+02 Raja Ampat · Desktop                        shapes 280 links 29 now [280,29] OK
+03 North Sulawesi · Desktop                    shapes 280 links 29 now [280,29] OK
+04 Yacht charters · Desktop                    shapes 259 links 30 now [259,30] OK
+05 Guest stories · Desktop                     shapes 157 links 27 now [157,27] OK
+07 Travel agents · Desktop                     shapes 339 links 27 now [339,27] OK
+01 Home · Mobile                               shapes 190 links 23 now [190,23] OK
+02 Raja Ampat · Mobile                         shapes 261 links 23 now [261,23] OK
+03 North Sulawesi · Mobile                     shapes 265 links 23 now [265,23] OK
+04 Yacht charters · Mobile                     shapes 236 links 24 now [236,24] OK
+05 Guest stories · Mobile                      shapes 157 links 22 now [157,22] OK
+06 About · Mobile                              shapes 125 links 18 now [125,18] OK
+07 Travel agents · Mobile                      shapes 342 links 21 now [342,21] OK
+08 Plan your trip · Mobile                     shapes 98 links 18 now [98,18] OK
+09 Thank-you · traveller · Mobile              shapes 47 links 17 now [47,17] OK
+10 Thank-you · agent · Mobile                  shapes 46 links 16 now [46,16] OK
+11 Privacy & cookies · Mobile                  shapes 90 links 15 now [90,15] OK
+12 Booking terms · Mobile                      shapes 103 links 15 now [103,15] OK
+  ! 13 404 · Page not found · Mobile #2: Tool execution failed: Error: Task 8d4c4427-e4f3-4216-8d6c-6a257f9cd93e timed out after 30 seconds
+file:///C:/Users/Kirill/Desktop/1000%20islands/tools/penpot-sync/push.mjs:20
+async function ping() { for (let i = 0; i < 60; i++) { try { if (await run("return 1;") === 1) return; } catch { } await sleep(5000); } throw new Error("plugin not responding"); }
+                                                                                                                                              ^
+
+Error: plugin not responding
+    at ping (file:///C:/Users/Kirill/Desktop/1000%20islands/tools/penpot-sync/push.mjs:20:143)
+    at async safe (file:///C:/Users/Kirill/Desktop/1000%20islands/tools/penpot-sync/push.mjs:21:145)
+    at async file:///C:/Users/Kirill/Desktop/1000%20islands/tools/penpot-sync/push.mjs:283:62
+
+Node.js v24.19.0

@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1000 Islands Travel · Remote Indonesia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* Reference world: an admiralty chart of eastern Indonesia.
+     Water names in italic serif, data in mono, the planned route in chart magenta. */
+  :root {
+    --paper: #f6f8f8;
+    --shoal: #dfeaee;
+    --ink: #0e2231;
+    --ink-2: #3c5260;
+    --rule: #b9c8cf;
+    --route: #a3175f;
+    --route-dark: #84104b;
+    --route-light: #e05a9a;
+    --deep: #0e2231;
+    --on-deep: #e8eff2;
+    --on-deep-2: #a9bcc6;
+    --pad: 32px;
+    --gutter: 88px;
+    --line-x: 60px;
+    --header-h: 88px;
+    --wrap: 1280px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "IBM Plex Sans", system-ui, sans-serif; font-size: 17px; line-height: 1.6; color: var(--ink); background: var(--paper); }
+  h1, h2, h3 { font-family: "Newsreader", Georgia, serif; font-weight: 400; line-height: 1.12; text-wrap: balance; letter-spacing: -0.01em; }
+  h1 { font-size: clamp(48px, 7.4vw, 112px); }
+  h2 { font-size: clamp(36px, 4.6vw, 64px); }
+  h3 { font-size: clamp(26px, 2.4vw, 34px); line-height: 1.25; }
+  .water { font-style: italic; }
+  p { text-wrap: pretty; }
+  a { color: inherit; }
+  .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 14px; letter-spacing: 0.02em; }
+  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--pad) 0 calc(var(--pad) + var(--gutter)); position: relative; }
+
+  /* The route: each section draws its own leg of one dashed magenta line in the left gutter.
+     Waypoints sit on the line, level with the first line of the heading they mark. */
+  main > section { position: relative; }
+  main > section::before { content: ""; position: absolute; top: 0; bottom: 0; left: calc(max(0px, 50% - var(--wrap) / 2) + var(--line-x) - 1px); border-left: 2px dashed var(--route); pointer-events: none; z-index: 1; }
+  main > .hero::before { top: var(--header-h); border-color: var(--route-light); }
+  main > .proof::before { border-color: var(--route-light); }
+  main > .start::before { bottom: auto; height: calc(128px + 0.56 * clamp(36px, 4.6vw, 64px)); }
+  .wp { position: absolute; left: calc(var(--line-x) - 8px); margin-top: calc(0.56em - 8px); width: 16px; height: 16px; border: 2px solid var(--route); background: var(--paper); border-radius: 50%; z-index: 2; }
+  .wp.minor { left: calc(var(--line-x) - 5px); margin-top: calc(0.625em - 5px); width: 10px; height: 10px; border: 0; background: var(--route); }
+  .wp.end { background: var(--route); box-shadow: 0 0 0 5px var(--paper), 0 0 0 7px var(--route); }
+  .hero .wp { background: transparent; border-color: var(--route-light); }
+  .proof .wp { background: var(--deep); border-color: var(--route-light); }
+  .shoal-bg .wp { background: var(--shoal); }
+
+  .btn { display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; border-radius: 2px; font-weight: 600; font-size: 16px; text-decoration: none; border: 1.5px solid transparent; transition: background-color .2s ease, color .2s ease, border-color .2s ease; }
+  .btn-route { background: var(--route); color: #fff; }
+  .btn-route:hover { background: var(--route-dark); }
+  .btn-line { border-color: currentColor; }
+  .btn-line:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .btn-ghost-light { color: #fff; border-color: rgba(255,255,255,.75); }
+  .btn-ghost-light:hover { background: #fff; color: var(--ink); border-color: #fff; }
+  .text-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; text-decoration: underline; text-decoration-color: var(--route); text-decoration-thickness: 2px; text-underline-offset: 5px; }
+  .text-link:hover { color: var(--route); }
+
+  /* Photo slots: chart-grid placeholders until the owner's photos arrive. */
+  .photo { position: relative; background-color: #23394a; background-image: linear-gradient(rgba(255,255,255,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.07) 1px, transparent 1px); background-size: 64px 64px; color: #dce6eb; overflow: hidden; }
+  .photo .slot { position: absolute; right: 14px; bottom: 12px; font-family: "IBM Plex Mono", monospace; font-size: 12px; background: rgba(10,22,32,.7); padding: 4px 8px; }
+
+  /* Header: logo on the content column, so the route runs clear of it. */
+  .site-header { position: absolute; inset: 0 0 auto 0; z-index: 10; color: #fff; }
+  .site-header .bar { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--pad) 0 calc(var(--pad) + var(--gutter)); height: var(--header-h); display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+  .logo { text-decoration: none; line-height: 1.15; }
+  .logo b { display: block; font-family: "Newsreader", serif; font-weight: 500; font-size: 25px; }
+  .logo span { font-size: 13px; color: #d5e0e6; }
+  .nav { display: flex; align-items: center; gap: 28px; font-size: 15px; }
+  .nav a { text-decoration: none; }
+  .nav a:not(.btn):hover { text-decoration: underline; text-underline-offset: 6px; }
+  .nav .trade { padding-left: 28px; border-left: 1px solid rgba(255,255,255,.4); }
+  .menu { display: none; }
+  .quickbar { position: fixed; inset: 0 0 auto 0; z-index: 20; background: var(--paper); border-bottom: 1px solid var(--rule); transform: translateY(-100%); visibility: hidden; }
+  .quickbar.show { transform: none; visibility: visible; }
+  .quickbar .bar { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--pad) 0 calc(var(--pad) + var(--gutter)); height: 64px; display: flex; align-items: center; gap: 28px; }
+  .quickbar .logo { margin-right: auto; color: var(--ink); }
+  .quickbar .logo b { font-size: 21px; }
+  .quickbar .agents { display: inline-flex; align-items: center; min-height: 44px; font-weight: 500; text-decoration: none; }
+  .quickbar .agents:hover { text-decoration: underline; text-underline-offset: 6px; }
+  @media (prefers-reduced-motion: no-preference) { .quickbar { transition: transform .25s ease, visibility .25s; } }
+
+  /* Hero */
+  .hero { min-height: 100svh; display: flex; align-items: flex-end; color: #fff; }
+  .hero .photo { position: absolute; inset: 0; }
+  .hero .photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,18,26,.55) 0%, rgba(8,18,26,0) 30%, rgba(8,18,26,0) 45%, rgba(8,18,26,.8) 100%); }
+  .hero .photo .slot { top: 104px; bottom: auto; right: max(var(--pad), calc(50% - var(--wrap) / 2 + var(--pad))); }
+  .hero-copy { position: relative; z-index: 3; width: 100%; padding-bottom: 72px; }
+  .hero .coords { position: absolute; z-index: 3; right: max(var(--pad), calc(50% - var(--wrap) / 2 + var(--pad))); bottom: 80px; text-align: right; color: #d5e0e6; }
+  .hero .coords span { display: block; }
+  .hero .coords .sep { display: none; }
+  .hero h1 .wp { margin-top: calc(0.56em - 8px); }
+  .hero-lead { font-size: 20px; color: #eef3f5; max-width: 560px; margin-top: 28px; }
+  .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; margin-top: 32px; }
+  .hero-actions .trade-line { font-size: 16px; color: #dfe8ec; }
+  .hero-actions .trade-line .text-link { color: #fff; text-decoration-color: var(--route-light); }
+
+  /* Destinations: schematic chart, then editorial spreads */
+  .dest { padding: 128px 0 0; }
+  .dest-intro { display: grid; grid-template-columns: 5fr 7fr; gap: 56px; align-items: end; padding-bottom: 40px; }
+  .dest-intro p { font-size: 19px; color: var(--ink-2); margin-top: 16px; max-width: 30em; }
+  .chart { border: 1px solid var(--rule); background: #fff; margin-bottom: 112px; }
+  .chart .phone-chart { display: none; }
+  .chart svg { display: block; width: 100%; height: auto; }
+  .chart figcaption { font-size: 14px; color: var(--ink-2); padding: 10px 14px; border-top: 1px solid var(--rule); }
+  .flagship { position: relative; margin-bottom: 112px; }
+  .flagship .photo { width: 100%; aspect-ratio: 16/9; max-height: 92vh; }
+  .flagship .panel { position: absolute; z-index: 2; right: max(var(--pad), calc(50% - var(--wrap) / 2 + var(--pad))); bottom: 56px; width: 460px; background: var(--paper); padding: 36px 36px 24px; }
+  .flagship .panel h3 { font-size: clamp(44px, 5vw, 76px); line-height: 1.05; font-style: italic; }
+  .flagship .panel .coords { display: block; color: var(--ink-2); margin: 12px 0 22px; }
+  .flagship .photo .slot { right: auto; left: calc(max(0px, 50% - var(--wrap) / 2) + var(--line-x) + 24px); bottom: auto; top: 16px; }
+  .spread { display: grid; grid-template-columns: 7fr 5fr; gap: 56px; align-items: end; padding-bottom: 112px; }
+  .spread.flip { grid-template-columns: 5fr 7fr; }
+  .spread.flip .photo { order: 2; }
+  .spread .photo { aspect-ratio: 4/3; width: 100%; }
+  .spread-copy h3 { font-size: clamp(40px, 4vw, 60px); line-height: 1.05; font-style: italic; }
+  .spread-copy .coords { display: block; color: var(--ink-2); margin: 14px 0 26px; }
+  .facts { list-style: none; border-top: 1px solid var(--rule); margin-bottom: 16px; }
+  .facts li { display: grid; grid-template-columns: 112px 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--rule); font-size: 16px; }
+  .facts .k { color: var(--ink-2); }
+  .facts .price { font-weight: 600; }
+
+  /* Yachts */
+  .yachts { background: var(--shoal); padding: 112px 0; }
+  .yachts .photo { aspect-ratio: 21/8; width: 100%; }
+  .yacht-row { display: grid; grid-template-columns: 5fr 4fr 3fr; gap: 48px; align-items: end; margin-top: 40px; }
+  .yacht-row p { color: var(--ink-2); }
+  .yacht-row .price { color: var(--ink); font-weight: 600; }
+
+  /* Made easy: the trip as an itinerary along the route */
+  .easy { padding: 128px 0; }
+  .easy-head { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: end; margin-bottom: 56px; }
+  .easy-head p { font-family: "Newsreader", serif; font-style: italic; font-size: clamp(22px, 2vw, 28px); line-height: 1.35; color: var(--ink-2); }
+  .legs { list-style: none; border-top: 2px solid var(--ink); }
+  .legs li { display: grid; grid-template-columns: 200px 340px minmax(0, 1fr); gap: 32px; align-items: baseline; padding: 28px 0; border-bottom: 1px solid var(--rule); }
+  .legs .data { white-space: nowrap; }
+  .legs .data { color: var(--route); }
+  .legs p { color: var(--ink-2); max-width: 26em; }
+
+  /* Proof: story + quote + rating as one block */
+  .proof { background: var(--deep); color: var(--on-deep); padding: 128px 0; }
+  .proof-grid { display: grid; grid-template-columns: 6fr 5fr; gap: 64px; align-items: stretch; }
+  .proof .photo { min-height: 440px; background-color: #1a3242; }
+  .proof h2 { margin-bottom: 14px; }
+  .proof .trip { color: var(--on-deep-2); margin-bottom: 28px; }
+  .proof blockquote { font-family: "Newsreader", serif; font-style: italic; font-size: clamp(24px, 2.2vw, 30px); line-height: 1.35; border-left: 2px solid var(--route-light); padding-left: 24px; margin: 40px 0 16px; }
+  .proof cite { display: block; font-style: normal; color: var(--on-deep-2); font-size: 15px; padding-left: 26px; }
+  .proof .rating { margin-top: 36px; padding-top: 20px; border-top: 1px solid rgba(232,239,242,.2); color: var(--on-deep-2); }
+  .proof .btn-line { margin-top: 32px; color: var(--on-deep); }
+  .proof .btn-line:hover { background: var(--on-deep); color: var(--deep); border-color: var(--on-deep); }
+
+  /* Trade */
+  .trade-band { padding: 128px 0; border-bottom: 1px solid var(--rule); }
+  .trade-grid { display: grid; grid-template-columns: 7fr 5fr; gap: 64px; align-items: start; }
+  .trade-grid .owner-line { font-family: "Newsreader", serif; font-size: clamp(28px, 2.8vw, 40px); line-height: 1.3; margin-top: 24px; }
+  .trade-points { list-style: none; counter-reset: t; border-top: 1px solid var(--rule); margin-bottom: 32px; }
+  .trade-points li { counter-increment: t; display: grid; grid-template-columns: 40px 1fr; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+  .trade-points li::before { content: counter(t, decimal-leading-zero); font-family: "IBM Plex Mono", monospace; font-size: 14px; color: var(--route); padding-top: 3px; }
+
+  /* Start */
+  .start { padding: 128px 0 144px; }
+  .start-grid { display: grid; grid-template-columns: 7fr 5fr; gap: 64px; align-items: end; }
+  .start p { font-size: 20px; color: var(--ink-2); margin: 20px 0 36px; max-width: 30em; }
+  .log { border-top: 2px solid var(--ink); }
+  .log div { display: grid; grid-template-columns: 140px 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+  .log dt { color: var(--ink-2); }
+  .log dd { font-weight: 500; }
+  .start-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+
+  footer { background: var(--deep); color: var(--on-deep-2); padding: 72px 0 40px; font-size: 15px; }
+  .foot-grid { display: grid; grid-template-columns: 2fr repeat(4, 1fr); gap: 32px; }
+  .foot-grid b { font-family: "Newsreader", serif; font-weight: 500; font-size: 24px; color: var(--on-deep); }
+  footer h2 { font-family: "IBM Plex Sans", sans-serif; font-size: 15px; font-weight: 600; color: var(--on-deep); margin-bottom: 10px; letter-spacing: 0; }
+  footer ul { list-style: none; }
+  footer li a, .legal a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; }
+  footer a:hover { color: var(--on-deep); text-decoration: underline; }
+  .legal { margin-top: 40px; padding-top: 12px; border-top: 1px solid rgba(232,239,242,.15); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 4px 24px; font-size: 14px; }
+
+  :focus-visible { outline: 2px solid var(--route); outline-offset: 3px; }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+  @media (max-width: 1000px) {
+    :root { --pad: 20px; --gutter: 36px; --line-x: 22px; --header-h: 72px; }
+    .wp { left: calc(var(--line-x) - 7px); width: 14px; height: 14px; margin-top: calc(0.56em - 7px); }
+    .wp.minor { left: calc(var(--line-x) - 5px); }
+    .hero .wp { margin-top: calc(0.8em - 7px); }
+    main > .start::before { height: calc(88px + 0.56 * clamp(36px, 4.6vw, 64px)); }
+    .nav { display: none; }
+    .menu { display: block; position: relative; }
+    .menu summary { list-style: none; cursor: pointer; min-height: 44px; padding: 0 16px; display: inline-flex; align-items: center; border: 1.5px solid rgba(255,255,255,.7); border-radius: 2px; font-weight: 500; }
+    .menu summary::-webkit-details-marker { display: none; }
+    .menu-panel { position: absolute; right: 0; top: 56px; width: min(300px, calc(100vw - 40px)); background: var(--paper); color: var(--ink); padding: 8px 20px 20px; box-shadow: 0 16px 40px rgba(8,18,26,.3); }
+    .menu-panel a { display: flex; align-items: center; min-height: 48px; text-decoration: none; border-bottom: 1px solid var(--rule); }
+    .menu-panel .trade-group { margin-top: 16px; padding-top: 4px; border-top: 2px solid var(--ink); }
+    .menu-panel .btn { margin-top: 16px; justify-content: center; border: 0; color: #fff; }
+    .hero .coords { position: static; text-align: left; margin-top: 28px; }
+    .chart { margin-bottom: 72px; }
+    .chart .desk-chart { display: none; }
+    .chart .phone-chart { display: block; }
+    .flagship { margin-bottom: 80px; }
+    .flagship .photo { aspect-ratio: 4/5; max-height: none; }
+    .flagship .panel { position: static; width: auto; padding: 28px var(--pad) 0 calc(var(--pad) + var(--gutter)); }
+    .flagship .photo .slot { left: auto; right: 14px; }
+    .photo .slot { max-width: calc(100% - 28px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .quickbar .bar { padding: 0 var(--pad) 0 calc(var(--pad) + var(--gutter)); gap: 16px; }
+    .quickbar .logo { display: none; }
+    .quickbar .agents { margin-right: auto; }
+    .start-grid { grid-template-columns: 1fr; gap: 40px; }
+    .hero-lead { font-size: 18px; }
+    .dest { padding-top: 88px; }
+    .dest-intro { grid-template-columns: 1fr; gap: 32px; padding-bottom: 64px; }
+    .spread, .spread.flip { grid-template-columns: 1fr; gap: 28px; padding-bottom: 80px; }
+    .spread.flip .photo { order: 0; }
+    /* Photos bleed edge to edge on phone; the route runs over them. */
+    .proof .photo { min-height: 0; aspect-ratio: 4/3; }
+    .spread .photo, .yachts .photo, .proof .photo { width: calc(100% + 2 * var(--pad) + var(--gutter)); margin-left: calc(-1 * (var(--pad) + var(--gutter))); max-height: none; }
+    .yachts, .easy, .proof, .trade-band { padding: 88px 0; }
+    .yachts .photo { aspect-ratio: 4/3; }
+    .yacht-row, .easy-head, .proof-grid, .trade-grid { grid-template-columns: 1fr; gap: 24px; }
+    .legs li { grid-template-columns: 1fr; gap: 6px; padding: 22px 0; }
+    .legs .data { order: 3; }
+    .legs h3 { order: 1; }
+    .legs p { order: 2; }
+    .start { padding: 88px 0 104px; }
+    .foot-grid { grid-template-columns: 1fr 1fr; }
+    .foot-grid > div:first-child { grid-column: 1 / -1; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="bar">
+    <a class="logo" href="#top"><b>1000 Islands Travel</b><span>Remote Indonesia</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#raja-ampat">Raja Ampat</a>
+      <a href="#north-sulawesi">North Sulawesi</a>
+      <a href="#yachts">Yacht charters</a>
+      <a href="#proof">Guest stories</a>
+      <a href="stub.html?p=About%20us">About us</a>
+      <a class="trade" href="#trade">Travel agents</a>
+      <a class="btn btn-ghost-light" href="#start">Plan your trip</a>
+    </nav>
+    <details class="menu">
+      <summary>Menu</summary>
+      <nav class="menu-panel" aria-label="Main">
+        <a href="#raja-ampat">Raja Ampat</a>
+        <a href="#north-sulawesi">North Sulawesi</a>
+        <a href="#yachts">Yacht charters</a>
+        <a href="#proof">Guest stories</a>
+        <a href="stub.html?p=About%20us">About us</a>
+        <div class="trade-group"><a href="#trade">Travel agents · trade rates</a></div>
+        <a class="btn btn-route" href="#start">Plan your trip</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<div class="quickbar" id="quickbar">
+  <div class="bar">
+    <a class="logo" href="#top"><b>1000 Islands Travel</b></a>
+    <a class="agents" href="#trade">Travel agents</a>
+    <a class="btn btn-route" href="#start">Plan your trip</a>
+  </div>
+</div>
+
+<main id="top">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="photo"><span class="slot">Photo slot · hero video, above and under water</span></div>
+  <div class="wrap hero-copy">
+    <h1 id="hero-title"><span class="wp" aria-hidden="true"></span>Remote Indonesia.<br><span class="water">Off the map.</span></h1>
+    <p class="hero-lead">Private, tailor-made trips to Raja Ampat and North Sulawesi, run by our own people on the ground for X&nbsp;years.</p>
+    <div class="hero-actions">
+      <a class="btn btn-route" href="#start">Plan your trip</a>
+      <span class="trade-line">Travel agent? <a class="text-link" href="#trade">Trade rates</a></span>
+    </div>
+    <p class="coords mono"><span>Raja Ampat 0°30′S 130°30′E</span><span class="sep"> · </span><span>North Sulawesi 1°30′N 124°50′E</span></p>
+  </div>
+</section>
+
+<section class="dest" aria-labelledby="where-title">
+  <div class="wrap">
+    <div class="dest-intro">
+      <h2 id="where-title"><span class="wp" aria-hidden="true"></span>Where we go</h2>
+      <p>Two of the most remote corners of eastern Indonesia, without the headache of getting there.</p>
+    </div>
+    <figure class="chart">
+      <svg class="desk-chart" viewBox="0 0 1100 560" role="img" aria-labelledby="chart-title">
+        <title id="chart-title">Schematic chart of eastern Indonesia: Bali in the south-west, Manado for North Sulawesi in the north, Sorong for Raja Ampat in the east</title>
+        <g stroke="#c9d6dc" stroke-width="1">
+          <line x1="20" y1="98" x2="1080" y2="98"/><line x1="20" y1="176" x2="1080" y2="176"/><line x1="20" y1="254" x2="1080" y2="254"/><line x1="20" y1="332" x2="1080" y2="332"/><line x1="20" y1="410" x2="1080" y2="410"/><line x1="20" y1="488" x2="1080" y2="488"/>
+          <line x1="193" y1="20" x2="193" y2="540"/><line x1="397" y1="20" x2="397" y2="540"/><line x1="601" y1="20" x2="601" y2="540"/><line x1="805" y1="20" x2="805" y2="540"/><line x1="1009" y1="20" x2="1009" y2="540"/>
+        </g>
+        <g font-family="IBM Plex Mono, monospace" font-size="14" fill="#3c5260">
+          <text x="26" y="92">2°N</text><text x="26" y="170">0°</text><text x="26" y="248">2°S</text><text x="26" y="326">4°S</text><text x="26" y="404">6°S</text><text x="26" y="482">8°S</text>
+          <text x="199" y="534">116°E</text><text x="403" y="534">120°E</text><text x="607" y="534">124°E</text><text x="811" y="534">128°E</text><text x="1015" y="534">132°E</text>
+        </g>
+        <g font-family="Newsreader, Georgia, serif" font-style="italic" font-size="26" fill="#3c5260">
+          <text x="470" y="62">Celebes Sea</text><text x="720" y="392">Banda Sea</text><text x="350" y="462">Flores Sea</text><text x="60" y="372">Java Sea</text>
+        </g>
+        <g fill="#0e2231" font-family="IBM Plex Sans, sans-serif" font-size="20">
+          <circle cx="152" cy="495" r="7"/><text x="168" y="502">Bali</text>
+          <circle cx="644" cy="118" r="9" fill="#a3175f"/><text x="662" y="112" font-weight="600">Manado</text><text x="662" y="138" font-size="17" fill="#3c5260">gateway to North Sulawesi</text>
+          <circle cx="971" cy="210" r="9" fill="#a3175f"/><text x="953" y="204" text-anchor="end" font-weight="600">Sorong</text><text x="953" y="230" text-anchor="end" font-size="17" fill="#3c5260">gateway to Raja Ampat</text>
+        </g>
+      </svg>
+      <svg class="phone-chart" viewBox="0 0 360 300" role="img" aria-labelledby="chart-title-m">
+        <title id="chart-title-m">Schematic chart: Bali, Manado for North Sulawesi, Sorong for Raja Ampat</title>
+        <g stroke="#c9d6dc" stroke-width="1"><line x1="0" y1="80" x2="360" y2="80"/><line x1="0" y1="160" x2="360" y2="160"/><line x1="0" y1="240" x2="360" y2="240"/><line x1="90" y1="0" x2="90" y2="300"/><line x1="180" y1="0" x2="180" y2="300"/><line x1="270" y1="0" x2="270" y2="300"/></g>
+        <g font-family="Newsreader, Georgia, serif" font-style="italic" font-size="17" fill="#3c5260"><text x="120" y="30">Celebes Sea</text><text x="200" y="215">Banda Sea</text></g>
+        <g fill="#0e2231" font-family="IBM Plex Sans, sans-serif" font-size="16">
+          <circle cx="30" cy="270" r="5"/><text x="42" y="276">Bali</text>
+          <circle cx="205" cy="62" r="7" fill="#a3175f"/><text x="217" y="58" font-weight="600">Manado</text><text x="217" y="78" font-size="13" fill="#3c5260">North Sulawesi</text>
+          <circle cx="340" cy="115" r="7" fill="#a3175f"/><text x="326" y="111" text-anchor="end" font-weight="600">Sorong</text><text x="326" y="132" text-anchor="end" font-size="13" fill="#3c5260">Raja Ampat</text>
+        </g>
+      </svg>
+      <figcaption>Schematic, positions only. Line-art map with coastlines to be drawn.</figcaption>
+    </figure>
+  </div>
+
+  <article class="flagship" id="raja-ampat" aria-labelledby="ra-title">
+    <div class="photo"><span class="slot">Photo slot · Raja Ampat aerial, karst islets with our speedboat</span></div>
+    <div class="panel">
+      <h3 id="ra-title">Raja Ampat</h3>
+      <span class="coords mono">0°30′S 130°30′E · our flagship</span>
+      <ul class="facts">
+        <li><span class="k">Areas</span><span>Central, Misool, plus Triton Bay</span></li>
+        <li><span class="k">Gateway</span><span>Sorong</span></li>
+        <li><span class="k">Private trip</span><span class="price">from $X,XXX pp</span></li>
+      </ul>
+      <a class="text-link" href="stub.html?p=Raja%20Ampat">Explore Raja Ampat</a>
+    </div>
+  </article>
+
+  <div class="wrap">
+    <article class="spread flip" id="north-sulawesi" aria-labelledby="ns-title">
+      <div class="photo"><span class="slot">Photo slot · Siau volcano from the water</span></div>
+      <div class="spread-copy">
+        <h3 id="ns-title"><span class="wp minor" aria-hidden="true"></span>North Sulawesi</h3>
+        <span class="coords mono">1°30′N 124°50′E</span>
+        <ul class="facts">
+          <li><span class="k">Areas</span><span>Bunaken, Sangihe and Siau, plus Halmahera and Widi</span></li>
+          <li><span class="k">Gateway</span><span>Manado</span></li>
+          <li><span class="k">Private trip</span><span class="price">from $X,XXX pp</span></li>
+        </ul>
+        <a class="text-link" href="stub.html?p=North%20Sulawesi">Explore North Sulawesi</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="yachts shoal-bg" id="yachts" aria-labelledby="yacht-title">
+  <div class="wrap">
+    <div class="photo"><span class="slot">Photo slot · phinisi under sail between islets</span></div>
+    <div class="yacht-row">
+      <h2 id="yacht-title"><span class="wp" aria-hidden="true"></span>Yacht charters</h2>
+      <p>A whole traditional phinisi for your group, sailing Raja Ampat and North Sulawesi.</p>
+      <div>
+        <p class="price">from $X,XXX per day</p>
+        <a class="text-link" href="stub.html?p=Yacht%20charters">See yacht charters</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="easy" aria-labelledby="easy-title">
+  <div class="wrap">
+    <div class="easy-head">
+      <h2 id="easy-title"><span class="wp" aria-hidden="true"></span>Remote, made easy</h2>
+      <p>Indonesia is easy. Until it isn't. That is where we&nbsp;come&nbsp;in.</p>
+    </div>
+    <ol class="legs">
+      <li><span class="data mono"><span class="wp minor" aria-hidden="true"></span>Leg 1 · reply &lt; 24 h</span><h3>Tell us</h3><p>Your dates, who is coming and what you hope to see.</p></li>
+      <li><span class="data mono"><span class="wp minor" aria-hidden="true"></span>Leg 2 · route in X days</span><h3>We design it</h3><p>A private route built around you, with a clear price.</p></li>
+      <li><span class="data mono"><span class="wp minor" aria-hidden="true"></span>Leg 3 · airport → boat</span><h3>We handle everything</h3><p>Flights, boats, permits and transfers, arranged by our team.</p></li>
+      <li><span class="data mono"><span class="wp minor" aria-hidden="true"></span>Leg 4 · on call 24/7</span><h3>You travel</h3><p>Our people meet you on the ground and stay reachable 24/7.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="proof" id="proof" aria-labelledby="story-title">
+  <div class="wrap proof-grid">
+    <div class="photo"><span class="slot">Photo slot · guest story, Raja Ampat</span></div>
+    <div>
+      <h2 id="story-title"><span class="wp" aria-hidden="true"></span>Nine days in <span class="water">Raja Ampat</span></h2>
+      <p class="trip">A real guest trip at Comfort level, written up with the guests. Story to be supplied by the owner.</p>
+      <blockquote>Guest review placeholder, one strong quote from a real guest.</blockquote>
+      <cite>Name, country</cite>
+      <p class="rating mono">Google rating X.X · XX reviews</p>
+      <a class="btn btn-line" href="stub.html?p=Guest%20stories">Read guest stories</a>
+    </div>
+  </div>
+</section>
+
+<section class="trade-band" id="trade" aria-labelledby="trade-title">
+  <div class="wrap trade-grid">
+    <div>
+      <h2 id="trade-title"><span class="wp" aria-hidden="true"></span>For travel agents</h2>
+      <p class="owner-line">Your client remains your client. We&nbsp;handle Indonesia on the&nbsp;ground.</p>
+    </div>
+    <div>
+      <ul class="trade-points">
+        <li>Trade rates after a short registration</li>
+        <li>Replies within 24 hours, 7&nbsp;days a&nbsp;week</li>
+        <li>Our own team in Raja Ampat and North Sulawesi</li>
+      </ul>
+      <a class="btn btn-route" href="stub.html?p=Travel%20agents">Get trade rates</a>
+    </div>
+  </div>
+</section>
+
+<section class="start" id="start" aria-labelledby="cta-title">
+  <div class="wrap start-grid">
+    <div>
+      <h2 id="cta-title"><span class="wp end" aria-hidden="true"></span>Start with an idea</h2>
+      <p>Tell us roughly when and who. A real person replies within 24 hours.</p>
+      <div class="start-actions">
+        <a class="btn btn-route" href="stub.html?p=Plan%20your%20trip">Plan your trip</a>
+        <a class="btn btn-line" href="stub.html?p=WhatsApp">WhatsApp us</a>
+      </div>
+    </div>
+    <dl class="log mono">
+      <div><dt>Reply</dt><dd>&lt; 24 h, 7 days a week</dd></div>
+      <div><dt>Who answers</dt><dd>A person on our team, not a bot</dd></div>
+      <div><dt>WhatsApp</dt><dd>+62 XXX XXXX XXXX</dd></div>
+      <div><dt>Trip form</dt><dd>When · Who · Where</dd></div>
+    </dl>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><b>1000 Islands Travel</b><p>Remote Indonesia</p></div>
+      <div><h2>Where we go</h2><ul><li><a href="#raja-ampat">Raja Ampat</a></li><li><a href="#north-sulawesi">North Sulawesi</a></li><li><a href="#yachts">Yacht charters</a></li></ul></div>
+      <div><h2>Travel</h2><ul><li><a href="#proof">Guest stories</a></li><li><a href="#start">Plan your trip</a></li></ul></div>
+      <div><h2>Company</h2><ul><li><a href="stub.html?p=About%20us">About us</a></li><li><a href="stub.html?p=FAQ">FAQ</a></li><li><a href="#trade">Travel agents</a></li></ul></div>
+      <div><h2>Contact</h2><ul><li><a href="stub.html?p=WhatsApp">WhatsApp</a></li><li><a href="stub.html?p=Email">Email</a></li><li><a href="stub.html?p=Instagram">Instagram</a></li></ul></div>
+    </div>
+    <div class="legal"><span>© 2026 1000 Islands Travel</span><span><a href="stub.html?p=Privacy">Privacy and cookies</a> · <a href="stub.html?p=Booking%20terms">Booking terms</a></span></div>
+  </div>
+</footer>
+
+<script>
+  // Close the phone menu after a link is tapped.
+  document.querySelectorAll(".menu-panel a").forEach(a => a.addEventListener("click", () => a.closest("details").removeAttribute("open")));
+  // Compact bar: appears when scrolling back up anywhere below the hero.
+  const bar = document.getElementById("quickbar"), hero = document.querySelector(".hero");
+  let lastY = scrollY;
+  addEventListener("scroll", () => {
+    const y = scrollY, below = y > hero.offsetHeight - 64;
+    bar.classList.toggle("show", below && y < lastY);
+    lastY = y;
+  }, { passive: true });
+</script>
+</body>
+</html>

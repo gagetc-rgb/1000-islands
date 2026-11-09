@@ -1,0 +1,776 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.234 --> 00:00:05.239
+(upbeat music)
+
+00:00:05.572 --> 00:00:07.774
+- Hi everyone, 
+and welcome to our session
+
+00:00:07.774 --> 00:00:12.279
+on Core Web Vitals and Search
+Engine Optimization, SEO.
+
+00:00:12.279 --> 00:00:15.182
+Today, we’ll be talking 
+about what SEO is,
+
+00:00:15.182 --> 00:00:17.484
+how the Core Web Vitals 
+play a role there,
+
+00:00:17.484 --> 00:00:19.987
+and how you can use Search Console
+
+00:00:19.987 --> 00:00:23.190
+to help track and improve
+your site's metrics.
+
+00:00:23.190 --> 00:00:28.195
+For many, SEO is a weird
+collection of black magic spells,
+
+00:00:28.562 --> 00:00:33.133
+but once you dig in a bit
+more, it's not at all that.
+
+00:00:33.133 --> 00:00:35.168
+We've heard that Google is pretty good
+
+00:00:35.168 --> 00:00:36.870
+at figuring websites out,
+
+00:00:36.870 --> 00:00:38.472
+and it's tempting to assume
+
+00:00:38.472 --> 00:00:40.340
+that having a clean website means
+
+00:00:40.340 --> 00:00:45.145
+you don't need to think about
+SEO, but it's not that simple.
+
+00:00:45.145 --> 00:00:49.182
+SEO is all about improving
+the quality and quantity
+
+00:00:49.182 --> 00:00:52.920
+of the traffic a website gets
+from normal search results,
+
+00:00:52.920 --> 00:00:55.756
+so excluding things like ads.
+
+00:00:55.756 --> 00:00:58.692
+There are multiple things a
+website can do to achieve that.
+
+00:00:58.692 --> 00:01:00.727
+It differs a bit by search engine,
+
+00:01:00.727 --> 00:01:02.863
+and I can only speak for Google.
+
+00:01:02.863 --> 00:01:06.900
+In general, the main aspects
+are the same everywhere though.
+
+00:01:06.900 --> 00:01:08.535
+Make relevant content.
+
+00:01:08.535 --> 00:01:11.471
+Users go to search
+engines to find out more,
+
+00:01:11.471 --> 00:01:13.440
+and your pages might be the resource
+
+00:01:13.440 --> 00:01:15.275
+that they're looking for.
+
+00:01:15.275 --> 00:01:17.244
+This is more than just writing well.
+
+00:01:17.244 --> 00:01:18.946
+It's also about picking topics
+
+00:01:18.946 --> 00:01:22.182
+and phrasing that’s 
+used by your audience.
+
+00:01:22.182 --> 00:01:24.885
+Make the content accessible
+to search engines.
+
+00:01:24.885 --> 00:01:27.788
+If search engines can't
+understand your content,
+
+00:01:27.788 --> 00:01:29.990
+it'll be hard for them to recommend it.
+
+00:01:30.891 --> 00:01:32.659
+Show why your site is awesome
+
+00:01:32.659 --> 00:01:36.063
+using the various signals
+that flow into SEO.
+
+00:01:36.063 --> 00:01:38.198
+There's a lot that plays in here.
+
+00:01:38.198 --> 00:01:39.766
+A good way to think about this
+
+00:01:39.766 --> 00:01:42.836
+is given there are multiple
+good and relevant results,
+
+00:01:42.836 --> 00:01:45.005
+how can you show search engines
+
+00:01:45.005 --> 00:01:47.608
+that yours is particularly good
+
+00:01:47.608 --> 00:01:50.544
+and useful answer for users right now?
+
+00:01:50.544 --> 00:01:53.580
+The Core Web Vitals flow
+into that last group.
+
+00:01:54.581 --> 00:01:56.416
+For the other aspects of SEO,
+
+00:01:56.416 --> 00:01:58.352
+I strongly recommend checking out
+
+00:01:58.352 --> 00:02:00.220
+some of the SEO starter guides
+
+00:02:00.220 --> 00:02:03.190
+and getting help from experienced SEOs.
+
+00:02:03.190 --> 00:02:06.994
+It's useful to think of
+SEO a bit like usability.
+
+00:02:06.994 --> 00:02:09.396
+A little bit of information is helpful
+
+00:02:09.396 --> 00:02:10.697
+but when it gets serious,
+
+00:02:10.697 --> 00:02:13.800
+you want to get the help from experts.
+
+00:02:13.800 --> 00:02:15.836
+Over to the Core Web Vitals.
+
+00:02:15.836 --> 00:02:18.939
+You've heard a lot about the
+Core Web Vitals today already.
+
+00:02:18.939 --> 00:02:21.975
+So this is really just
+a super short overview
+
+00:02:21.975 --> 00:02:23.944
+to help get you started.
+
+00:02:23.944 --> 00:02:27.314
+The Core Web Vitals
+focus on three aspects.
+
+00:02:27.314 --> 00:02:30.717
+First, how quickly the page loads;
+
+00:02:30.717 --> 00:02:34.354
+second, how soon you can
+interact with the page;
+
+00:02:34.354 --> 00:02:37.024
+and third, how stable the page is
+
+00:02:37.024 --> 00:02:40.994
+as it's loading and as the
+user is interacting with it.
+
+00:02:40.994 --> 00:02:43.497
+If you're curious about
+more details there,
+
+00:02:43.497 --> 00:02:45.599
+be sure to check out the other sessions
+
+00:02:45.599 --> 00:02:47.934
+and our documentation.
+
+00:02:47.934 --> 00:02:49.670
+When it comes to data sources,
+
+00:02:49.670 --> 00:02:54.675
+we differentiate between
+field data and lab test data.
+
+00:02:55.375 --> 00:03:00.347
+Field data also called Real
+User Metrics or RUM data
+
+00:03:00.347 --> 00:03:04.384
+is collected from users over
+the course of about a month
+
+00:03:04.384 --> 00:03:08.588
+and is based on what they
+experience when viewing your site.
+
+00:03:08.588 --> 00:03:11.692
+This is a part of the Chrome
+User Experience Report,
+
+00:03:11.692 --> 00:03:13.560
+in short, CrUX.
+
+00:03:13.560 --> 00:03:15.495
+Lab tests, on the other hand,
+
+00:03:15.495 --> 00:03:19.299
+are generated on demand with
+testing tools in your browser
+
+00:03:19.299 --> 00:03:23.136
+or on a server using settings
+that try to approximate
+
+00:03:23.136 --> 00:03:25.272
+what users would see.
+
+00:03:25.272 --> 00:03:26.506
+For search rankings,
+
+00:03:26.506 --> 00:03:27.774
+we use field data
+
+00:03:27.774 --> 00:03:32.245
+as this is what your site's
+users have experienced over time
+
+00:03:32.245 --> 00:03:35.182
+This makes the data more
+representative for your site
+
+00:03:35.182 --> 00:03:38.585
+taking into account where
+your users are located
+
+00:03:38.585 --> 00:03:41.621
+and how they access your website.
+
+00:03:41.621 --> 00:03:43.557
+The Core Web Vitals metrics
+
+00:03:43.557 --> 00:03:47.094
+are then combined with
+other signals for search.
+
+00:03:47.094 --> 00:03:48.528
+We call this combination
+
+00:03:48.528 --> 00:03:51.031
+the page experience ranking factor.
+
+00:03:51.865 --> 00:03:54.968
+The additional signals
+are mobile-friendliness,
+
+00:03:54.968 --> 00:03:58.271
+Safe-Browsing, HTTPS security
+
+00:03:58.271 --> 00:04:02.809
+and compliance with our intrusive
+interstitial guidelines.
+
+00:04:02.809 --> 00:04:04.811
+These have all been around for a while
+
+00:04:04.811 --> 00:04:06.646
+and there's much written up about them
+
+00:04:06.646 --> 00:04:09.082
+so I won't go into much detail here.
+
+00:04:10.350 --> 00:04:12.853
+We plan to adjust 
+these signals over time
+
+00:04:12.853 --> 00:04:16.723
+to best reflect a good
+user experience for users.
+
+00:04:16.723 --> 00:04:20.994
+We'll give a six months
+heads up before any change.
+
+00:04:20.994 --> 00:04:23.764
+The data is split by mobile and desktop
+
+00:04:23.764 --> 00:04:27.634
+and applied appropriately
+for search ranking.
+
+00:04:27.634 --> 00:04:31.538
+When a mobile page is shown as
+a separate AMP URL to users,
+
+00:04:31.538 --> 00:04:33.607
+that's what will be used then.
+
+00:04:33.607 --> 00:04:35.976
+In other words, if
+you're on a mobile page,
+
+00:04:35.976 --> 00:04:39.112
+the ranking is only
+affected by mobile data
+
+00:04:39.112 --> 00:04:41.314
+and the same for desktop.
+
+00:04:41.314 --> 00:04:43.583
+So in short, for search rankings,
+
+00:04:43.583 --> 00:04:47.354
+we use a page experience set of metrics.
+
+00:04:47.354 --> 00:04:50.023
+These include a few existing signals
+
+00:04:50.023 --> 00:04:53.126
+as well as the Core Web Vitals.
+
+00:04:53.126 --> 00:04:54.261
+We track these based
+
+00:04:54.261 --> 00:04:57.264
+on what users would 
+see separating mobile
+
+00:04:57.264 --> 00:04:59.666
+and desktop experiences.
+
+00:04:59.666 --> 00:05:02.135
+Cool. We looked at page experience,
+
+00:05:02.135 --> 00:05:03.336
+the Core Web Vitals
+
+00:05:03.336 --> 00:05:05.539
+and how they're used in Search.
+
+00:05:05.539 --> 00:05:08.608
+Let's take a look at Search Console now.
+
+00:05:08.608 --> 00:05:11.611
+Search Console is a free
+tool for site owners
+
+00:05:11.611 --> 00:05:15.315
+that gives insights into
+Google Search for your website.
+
+00:05:16.149 --> 00:05:17.851
+Once you've verified ownership
+
+00:05:17.851 --> 00:05:22.022
+and given the tool a bit of
+time to collect all the metrics,
+
+00:05:22.022 --> 00:05:26.660
+it's time to head over to
+the Core Web Vitals Report.
+
+00:05:26.660 --> 00:05:27.694
+In this report,
+
+00:05:27.694 --> 00:05:31.198
+you'll see graphs for mobile
+and desktop showing how
+
+00:05:31.198 --> 00:05:34.935
+a relevant sample of
+your site's pages score.
+
+00:05:34.935 --> 00:05:36.736
+This sample and the scoring
+
+00:05:36.736 --> 00:05:40.207
+is based on the Chrome user
+experience report data.
+
+00:05:40.207 --> 00:05:43.476
+That’s the field data 
+collected over time.
+
+00:05:43.476 --> 00:05:44.578
+Because of that,
+
+00:05:44.578 --> 00:05:46.813
+any changes that 
+you make on your website
+
+00:05:46.813 --> 00:05:50.684
+will take about a month
+to be reflected here.
+
+00:05:50.684 --> 00:05:53.320
+Clicking through 
+to one of these reports,
+
+00:05:53.320 --> 00:05:56.590
+you see a graph of the
+total number of URLs tracked
+
+00:05:56.590 --> 00:06:00.727
+and can see the individual
+issues flagged below.
+
+00:06:00.727 --> 00:06:02.829
+Going to one of these issues,
+
+00:06:02.829 --> 00:06:05.465
+you'll see a similar graph on top
+
+00:06:05.465 --> 00:06:07.701
+together with a list of sample URLs
+
+00:06:07.701 --> 00:06:10.670
+for its issue type below.
+
+00:06:10.670 --> 00:06:14.541
+Keep in mind that these reports
+are based on the field data,
+
+00:06:14.541 --> 00:06:18.812
+so not all of your site's
+URLs will be available here.
+
+00:06:18.812 --> 00:06:22.082
+It's often useful to focus on
+the bigger buckets of issues
+
+00:06:22.082 --> 00:06:26.686
+across both the poor and
+needs improvement categories.
+
+00:06:26.686 --> 00:06:30.457
+We try to recognize patterns
+such as shared templates
+
+00:06:30.457 --> 00:06:32.692
+and group those URLs together,
+
+00:06:32.692 --> 00:06:34.594
+as fixing the issue once
+
+00:06:34.594 --> 00:06:36.830
+can improve large parts of your website,
+
+00:06:36.830 --> 00:06:38.698
+which is pretty awesome.
+
+00:06:38.698 --> 00:06:41.001
+A good approach 
+to improving these issues
+
+00:06:41.001 --> 00:06:45.438
+is to take a bigger issue type
+and to work to resolve it.
+
+00:06:45.438 --> 00:06:47.274
+After recognizing the issue,
+
+00:06:47.274 --> 00:06:49.609
+the first step is usually trying
+
+00:06:49.609 --> 00:06:54.614
+to reproduce the issue locally
+or within a testing tool.
+
+00:06:54.648 --> 00:06:56.883
+If that’s not possible, 
+for bigger issues,
+
+00:06:56.883 --> 00:07:00.353
+it's worth narrowing things
+down using the various tools
+
+00:07:00.353 --> 00:07:02.355
+and scripts available elsewhere.
+
+00:07:03.189 --> 00:07:05.125
+Once you've reproduced the issue,
+
+00:07:05.125 --> 00:07:07.494
+you can work to improve the vitals.
+
+00:07:07.494 --> 00:07:09.262
+I won't go into details here,
+
+00:07:09.262 --> 00:07:11.798
+but be sure to check
+out the other sessions
+
+00:07:11.798 --> 00:07:13.033
+for more information.
+
+00:07:14.534 --> 00:07:15.902
+As an aside,
+
+00:07:15.902 --> 00:07:19.139
+sometimes you may notice
+that other Google products
+
+00:07:19.139 --> 00:07:22.309
+or services are slowing down your pages.
+
+00:07:22.309 --> 00:07:24.978
+Google Search doesn't
+give any special treatment
+
+00:07:24.978 --> 00:07:28.315
+to these just like users
+generally won't care
+
+00:07:28.315 --> 00:07:31.918
+why your pages offer
+a bad user experience.
+
+00:07:31.918 --> 00:07:33.553
+Treat embeds from Google,
+
+00:07:33.553 --> 00:07:36.556
+just like you would treat
+any other embedded resource.
+
+00:07:37.857 --> 00:07:39.859
+Once your live website is updated,
+
+00:07:39.859 --> 00:07:43.196
+you can tell Search Console
+that the issue is fixed.
+
+00:07:43.196 --> 00:07:46.066
+This is done in the
+appropriate drill-down report
+
+00:07:46.066 --> 00:07:47.167
+that we saw before
+
+00:07:47.167 --> 00:07:50.603
+by clicking the Validate
+Fix button on top.
+
+00:07:50.603 --> 00:07:54.474
+Search Console will then start
+a review of the URLs flag
+
+00:07:54.474 --> 00:07:55.475
+and let you know
+
+00:07:55.475 --> 00:07:58.078
+how your improvements
+turned out over time.
+
+00:07:59.045 --> 00:08:01.848
+Let's get back to SEO.
+
+00:08:01.848 --> 00:08:03.516
+As mentioned in the beginning,
+
+00:08:03.516 --> 00:08:06.953
+there's more to SEO than
+just page experience.
+
+00:08:06.953 --> 00:08:09.589
+Some of the factors are listed here.
+
+00:08:09.589 --> 00:08:11.257
+When determining the rankings,
+
+00:08:11.257 --> 00:08:14.694
+we have to weigh these
+factors appropriately.
+
+00:08:14.694 --> 00:08:16.863
+In general, we prioritize pages
+
+00:08:16.863 --> 00:08:19.299
+with the best information overall,
+
+00:08:19.299 --> 00:08:23.436
+even if some aspects of
+page experience are subpar.
+
+00:08:23.436 --> 00:08:24.904
+A good page experience
+
+00:08:24.904 --> 00:08:28.408
+doesn't override having
+great relevant content.
+
+00:08:28.408 --> 00:08:29.476
+For example,
+
+00:08:29.476 --> 00:08:31.945
+if someone is searching
+for your company's name,
+
+00:08:31.945 --> 00:08:35.415
+it would be expected to
+show your company's website,
+
+00:08:35.415 --> 00:08:36.616
+even if it's slow
+
+00:08:36.616 --> 00:08:40.553
+or otherwise provides a
+subpar page experience.
+
+00:08:40.553 --> 00:08:42.722
+In cases where there are multiple pages
+
+00:08:42.722 --> 00:08:44.491
+that have similar content,
+
+00:08:44.491 --> 00:08:47.127
+page experience becomes
+much more important
+
+00:08:47.127 --> 00:08:49.462
+for visibility in Search.
+
+00:08:49.462 --> 00:08:51.064
+It's not the only factor.
+
+00:08:51.064 --> 00:08:54.267
+And of course there's
+much more to a website
+
+00:08:54.267 --> 00:08:55.668
+than just Search.
+
+00:08:56.536 --> 00:09:00.206
+We found that when a site
+provides a good page experience,
+
+00:09:00.206 --> 00:09:03.777
+it generally performs 
+well with users too.
+
+00:09:03.777 --> 00:09:04.778
+For example,
+
+00:09:04.778 --> 00:09:08.381
+we found users are 24% less likely
+
+00:09:08.381 --> 00:09:10.884
+to abandon page loads overall.
+
+00:09:10.884 --> 00:09:15.722
+In particular, we saw 22%
+less abandonment for new sites
+
+00:09:15.722 --> 00:09:19.826
+and 24% less abandonment
+for shopping sites.
+
+00:09:19.826 --> 00:09:20.960
+There are a few changes
+
+00:09:20.960 --> 00:09:22.962
+that can show this level of improvement
+
+00:09:22.962 --> 00:09:26.232
+for online businesses,
+and results like these
+
+00:09:26.232 --> 00:09:30.136
+are part of the reason we
+prioritize the web vitals metrics.
+
+00:09:31.337 --> 00:09:32.639
+The search ranking change
+
+00:09:32.639 --> 00:09:36.843
+is currently planned for
+the first half of 2021.
+
+00:09:36.843 --> 00:09:38.311
+With this change,
+
+00:09:38.311 --> 00:09:40.413
+we're also making all pages eligible
+
+00:09:40.413 --> 00:09:43.083
+to be featured in 
+the top stories carousel
+
+00:09:43.083 --> 00:09:47.387
+of the search results using
+page experience as a guide.
+
+00:09:47.387 --> 00:09:49.022
+If you're curious about the details,
+
+00:09:49.022 --> 00:09:52.158
+be sure to check out our blog post.
+
+00:09:52.158 --> 00:09:53.726
+Well, that was it,
+
+00:09:53.726 --> 00:09:54.994
+our short excursion
+
+00:09:54.994 --> 00:09:58.498
+into the world 
+of Core Web Vitals and SEO.
+
+00:09:58.498 --> 00:10:01.267
+In short, while there's
+more to page experience
+
+00:10:01.267 --> 00:10:02.535
+than just SEO
+
+00:10:02.535 --> 00:10:06.139
+and there's more to SEO
+than just page experience,
+
+00:10:06.139 --> 00:10:08.508
+SEO is also definitely a good reason
+
+00:10:08.508 --> 00:10:11.478
+to work on improving your
+site's page experience.
+
+00:10:12.612 --> 00:10:15.682
+I hope you found this session
+useful and insightful.
+
+00:10:15.682 --> 00:10:18.485
+Don't forget to check out
+the other sessions here
+
+00:10:18.485 --> 00:10:23.356
+to find out more ways to
+improve your website for users.
+
+00:10:23.356 --> 00:10:24.357
+Bye.
+
+00:10:24.357 --> 00:10:26.893
+(upbeat music)
+

@@ -1,0 +1,4723 @@
+[
+  {
+    "key": "404",
+    "status": 200,
+    "localMatch": true,
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ],
+    "dom": {
+      "title": "WF · 404 · Page not found — 1000 Islands Travel",
+      "text": "1000 Islands Travel\nREMOTE INDONESIA\nMenu\n\nError 404\n\nThis page is off the map\nBack to home\nPlan your trip\nRaja Ampat\nNorth Sulawesi\nYacht charters\nPlan your trip\nTravel agents\n1000 Islands Travel\nREMOTE INDONESIA\nWHERE WE GO\nRaja Ampat\nNorth Sulawesi\nYacht charters\nTRAVEL\nGuest stories\nPlan your trip\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Back to home",
+          "href": "home.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "about",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · 06 About us — 1000 Islands Travel",
+      "text": "Skip to content\n1000 Islands Travel\nREMOTE INDONESIA\nMenu\nAbout us\nPortrait\n\nName\nRole\n\nPortrait\n\nName\nRole\n\nPortrait\n\nName\nRole\n\nPortrait\n\nName\nRole\n\nHow we travel\nOn the ground · a guide briefing guests\nFAQ\nAre your trips private?\nCan the itinerary be changed?\nWhat level of accommodation should I expect?\nHow do deposit and payment work?\nPlan your trip\nPlan your trip\nWhatsApp us\n\nTravel agent? Get trade rates\n\nName, the person who answers you\nRole · replies within 24 hours, 7 days a week\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp us",
+          "href": "#"
+        },
+        {
+          "text": "Get trade rates",
+          "href": "advisors.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "admin-simple",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · Admin — 1000 Islands Travel",
+      "text": "1000 Islands · Admin\nOpen the site ↗\nEnquiries\n3 new\nReviews\n12 on the site\nPhotos & video\nby page\nPrices\nday by day\nEnquiries\nNew\nAll\nTravellers\nAgents\nClient name\nRaja Ampat\nComfort · 10 days\nOct · 2 people\nToday 09:14\nNew\nContacted\nProposal\nWon\nLost\nWhatsApp\nEmail\nCame from: Google · Raja Ampat page\n\nTheir message: two lines of what the client wrote.\n\nYour notes\nAgency name\nAgent\nYacht charters\nMar · 6 people\nToday 07:02\nClient name\nNorth Sulawesi\nEssential · 7 days\nJul · 4 people\nYesterday\nSaved",
+      "links": [
+        {
+          "text": "Open the site ↗",
+          "href": "home.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Enquiries3 new",
+          "type": "submit"
+        },
+        {
+          "text": "Reviews12 on the site",
+          "type": "submit"
+        },
+        {
+          "text": "Photos & videoby page",
+          "type": "submit"
+        },
+        {
+          "text": "Pricesday by day",
+          "type": "submit"
+        },
+        {
+          "text": "New",
+          "type": "submit"
+        },
+        {
+          "text": "All",
+          "type": "submit"
+        },
+        {
+          "text": "Travellers",
+          "type": "submit"
+        },
+        {
+          "text": "Agents",
+          "type": "submit"
+        },
+        {
+          "text": "New",
+          "type": "submit"
+        },
+        {
+          "text": "Contacted",
+          "type": "submit"
+        },
+        {
+          "text": "Proposal",
+          "type": "submit"
+        },
+        {
+          "text": "Won",
+          "type": "submit"
+        },
+        {
+          "text": "Lost",
+          "type": "submit"
+        },
+        {
+          "text": "New",
+          "type": "submit"
+        },
+        {
+          "text": "Contacted",
+          "type": "submit"
+        },
+        {
+          "text": "Proposal",
+          "type": "submit"
+        },
+        {
+          "text": "Won",
+          "type": "submit"
+        },
+        {
+          "text": "Lost",
+          "type": "submit"
+        },
+        {
+          "text": "New",
+          "type": "submit"
+        },
+        {
+          "text": "Contacted",
+          "type": "submit"
+        },
+        {
+          "text": "Proposal",
+          "type": "submit"
+        },
+        {
+          "text": "Won",
+          "type": "submit"
+        },
+        {
+          "text": "Lost",
+          "type": "submit"
+        },
+        {
+          "text": "+ Add review",
+          "type": "submit"
+        },
+        {
+          "text": "Raja Ampat",
+          "type": "button"
+        },
+        {
+          "text": "North Sulawesi",
+          "type": "button"
+        },
+        {
+          "text": "Yacht charters",
+          "type": "button"
+        },
+        {
+          "text": "+ Guest photo (optional)",
+          "type": "button"
+        },
+        {
+          "text": "Publish",
+          "type": "button"
+        },
+        {
+          "text": "All",
+          "type": "submit"
+        },
+        {
+          "text": "Raja Ampat",
+          "type": "submit"
+        },
+        {
+          "text": "North Sulawesi",
+          "type": "submit"
+        },
+        {
+          "text": "Yacht charters",
+          "type": "submit"
+        },
+        {
+          "text": "Delete",
+          "type": "submit"
+        },
+        {
+          "text": "Delete",
+          "type": "submit"
+        },
+        {
+          "text": "Delete",
+          "type": "submit"
+        },
+        {
+          "text": "Home",
+          "type": "submit"
+        },
+        {
+          "text": "Raja Ampat",
+          "type": "submit"
+        },
+        {
+          "text": "North Sulawesi",
+          "type": "submit"
+        },
+        {
+          "text": "Yacht charters",
+          "type": "submit"
+        },
+        {
+          "text": "Guest stories",
+          "type": "submit"
+        },
+        {
+          "text": "×",
+          "type": "submit"
+        },
+        {
+          "text": "×",
+          "type": "submit"
+        },
+        {
+          "text": "×",
+          "type": "submit"
+        },
+        {
+          "text": "×",
+          "type": "submit"
+        },
+        {
+          "text": "+ Add photos",
+          "type": "submit"
+        },
+        {
+          "text": "Essential",
+          "type": "submit"
+        },
+        {
+          "text": "Comfort",
+          "type": "submit"
+        },
+        {
+          "text": "Premium",
+          "type": "submit"
+        },
+        {
+          "text": "Raja Ampat",
+          "type": "submit"
+        },
+        {
+          "text": "North Sulawesi",
+          "type": "submit"
+        },
+        {
+          "text": "Yacht charters",
+          "type": "submit"
+        },
+        {
+          "text": "Essential",
+          "type": "submit"
+        },
+        {
+          "text": "Comfort",
+          "type": "submit"
+        },
+        {
+          "text": "Premium",
+          "type": "submit"
+        },
+        {
+          "text": "Use for every day",
+          "type": "submit"
+        },
+        {
+          "text": "1",
+          "type": "button"
+        },
+        {
+          "text": "2",
+          "type": "button"
+        },
+        {
+          "text": "3",
+          "type": "button"
+        },
+        {
+          "text": "4",
+          "type": "button"
+        },
+        {
+          "text": "5",
+          "type": "button"
+        },
+        {
+          "text": "6",
+          "type": "button"
+        },
+        {
+          "text": "7",
+          "type": "button"
+        },
+        {
+          "text": "8",
+          "type": "button"
+        },
+        {
+          "text": "9",
+          "type": "button"
+        },
+        {
+          "text": "10",
+          "type": "button"
+        },
+        {
+          "text": "11",
+          "type": "button"
+        },
+        {
+          "text": "12",
+          "type": "button"
+        },
+        {
+          "text": "13",
+          "type": "button"
+        },
+        {
+          "text": "14",
+          "type": "button"
+        },
+        {
+          "text": "15",
+          "type": "button"
+        },
+        {
+          "text": "16",
+          "type": "button"
+        },
+        {
+          "text": "17",
+          "type": "button"
+        },
+        {
+          "text": "18",
+          "type": "button"
+        },
+        {
+          "text": "19",
+          "type": "button"
+        },
+        {
+          "text": "20",
+          "type": "button"
+        },
+        {
+          "text": "21",
+          "type": "button"
+        },
+        {
+          "text": "Save prices",
+          "type": "submit"
+        }
+      ],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "advisors",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · 07 Travel agents — 1000 Islands Travel",
+      "text": "Skip to content\n1000 Islands Travel\nREMOTE INDONESIA\nMenu\nHero · the team at work with guests at the dock\nTravel agents\nGet trade rates\nName, your contact\nRole · direct email · WhatsApp\nOPERATING\nX years\nREGIONS\nRaja Ampat · North Sulawesi\nTRIPS\nPrivate, 3+ days\nTrack record\nHow we work\nWhat you can sell\nFAQ\nGet trade rates\nTrack record\nCase study · the yacht + helicopter trip\nCase study: ten days by yacht, Misool to Wayag\n\nRead the story\n\nAgent name\nAgency · country\nAgent name\nAgency · country\nLicence\nRegistration\nInsurance\nMembership\nIndonesia is easy. Until it isn't.\nCommission or net rate\nOne public price, everywhere\nYour client stays your client\nWhite-label on request\nReply within 24 hours, 7 days a week\nPayment terms\nWhat we handle\n\nHow a booking works:\nRequest\nProposal\nConfirmation\nTrip\n\nWhat you can sell\nRaja Ampat · aerial, karst islets\nRaja Ampat\n\nCentral · Misool · + Triton Bay\n\nfrom $X,XXX pp\n\nNorth Sulawesi · Siau volcano\nNorth Sulawesi\n\nBunaken · Sangihe & Siau · + Halmahera & Widi\n\nfrom $X,XXX pp\n\nYacht charters · phinisi under sail\nYacht charters\n\nPhinisi · whole boat\n\nfrom $X,XXX per day\n\nAgent FAQ\nQuestion 1\nQuestion 2\nQuestion 3\nQuestion 4\nGet trade rates\n\nRates are sent by email. No registration, no login.\n\nName, your contact\nRole · direct email · WhatsApp\nI want to\nGet trade rates\nSend a client request\nName\nYour name\nAgency\nAgency name\nEmail\nyou@agency.com\nCountry\nCountry\nMessage (optional)\nClient, dates, travellers\nSend\n\nWe reply within 24 hours, 7 days a week.\n\nBy sending, you agree to our Privacy policy.\n\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Get trade rates",
+          "href": "#partner-form"
+        },
+        {
+          "text": "Send a client request",
+          "href": "#partner-form"
+        },
+        {
+          "text": "Track record",
+          "href": "#proof"
+        },
+        {
+          "text": "How we work",
+          "href": "#terms"
+        },
+        {
+          "text": "What you can sell",
+          "href": "#sell"
+        },
+        {
+          "text": "FAQ",
+          "href": "#faq"
+        },
+        {
+          "text": "Get trade rates",
+          "href": "#partner-form"
+        },
+        {
+          "text": "Read the story",
+          "href": "stories.html#story-2"
+        },
+        {
+          "text": "Raja Ampat · aerial, karst isletsreuses the home panel photo, 4:5Raja AmpatCentral · Misool · + Triton Bayfrom $X,XXX pp",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi · Siau volcanoreuses the home panel photo, 4:5North SulawesiBunaken · Sangihe & Siau · + Halmahera & Widifrom $X,XXX pp",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters · phinisi under sailreuses the home panel photo, 4:5Yacht chartersPhinisi · whole boatfrom $X,XXX per day",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Send",
+          "href": "thank-you-advisor.html"
+        },
+        {
+          "text": "Privacy policy",
+          "href": "privacy.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        },
+        {
+          "text": "Get trade rates",
+          "href": "#partner-form"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "FAQ",
+            "right": 424.59375
+          },
+          {
+            "tag": "A",
+            "cls": "tab-cta",
+            "text": "Get trade rates",
+            "right": 553.5625
+          }
+        ]
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "What you can sell",
+            "right": 372.03125
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "FAQ",
+            "right": 424.59375
+          },
+          {
+            "tag": "A",
+            "cls": "tab-cta",
+            "text": "Get trade rates",
+            "right": 553.5625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "email-advisor",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · Email · Auto-reply to travel agent — 1000 Islands Travel",
+      "text": "From: 1000 Islands Travel\nSubject: Thanks, we've got your trade rates request\nSent: right after the form\n1000 Islands Travel\nREMOTE INDONESIA\nThanks, we've got your request\nCompany\nAgency name\nRequest\nTrade rates\nClient trip\nRaja Ampat · dates · 4 travellers\nWhat happens next\nWE REPLY · WITHIN 24 HOURS\nTRADE RATES BY EMAIL\nReply by email\nWhatsApp\n1000 Islands Travel · company address · Privacy\nYou get this email because you sent a request on 1000islands.travel.",
+      "links": [
+        {
+          "text": "Reply by email",
+          "href": "#"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Privacy",
+          "href": "privacy.html"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "email-owner",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · Email · New enquiry alert to the owner — 1000 Islands Travel",
+      "text": "To: owner and team\nSubject: New enquiry · Traveller · Raja Ampat\nSent: the moment a form arrives\n1000 Islands Travel\nREMOTE INDONESIA\nNew enquiry · Traveller\nName\nClient name\nContact\nemail · WhatsApp\nWhere\nRaja Ampat\nDates\nApproximate dates\nTravellers\n2\nSource\nGoogle · campaign code\nTrip\nRaja Ampat · Comfort · 10 days\nPage\nRaja Ampat\nMessage\nOpen in Enquiries\nReply by email\nWhatsApp\n1000 Islands Travel · company address · Privacy\nInternal alert: sent only to the owner and the team.",
+      "links": [
+        {
+          "text": "Open in Enquiries",
+          "href": "admin-simple.html"
+        },
+        {
+          "text": "Reply by email",
+          "href": "#"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Privacy",
+          "href": "privacy.html"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "email-traveller",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · Email · Auto-reply to traveller — 1000 Islands Travel",
+      "text": "From: 1000 Islands Travel\nSubject: We've got your idea\nSent: right after the form\n1000 Islands Travel\nREMOTE INDONESIA\nWe've got your idea\nTrip\nRaja Ampat · Comfort · 10 days\nDates\nApproximate dates\nTravellers\n2\nMessage\nYour message, quoted\nWhat happens next\nWE DESIGN IT · WITHIN 24 HOURS\nWE HANDLE EVERYTHING\nName, the person who answers you\nRole\nReply on WhatsApp\n1000 Islands Travel · company address · Privacy\nYou get this email because you sent a request on 1000islands.travel.",
+      "links": [
+        {
+          "text": "Reply on WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Privacy",
+          "href": "privacy.html"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "home",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · 01 Home — 1000 Islands Travel",
+      "text": "Skip to content\n1000 Islands Travel\nREMOTE INDONESIA\nMenu\nHero video · above and under water, one loop\nPause\nRemote Indonesia.\nOff the map.\n\nPrivate trips to Raja Ampat and North Sulawesi · X years on the ground\n\nPlan your trip\nWhere we go\nWhere we go\nRaja Ampat · aerial, karst islets with our speedboat\nRaja Ampat\n\nCentral · Misool · + Triton Bay\n\nvia Sorong\n\nfrom $X,XXX pp\n\nNorth Sulawesi · Siau volcano from the water\nNorth Sulawesi\n\nBunaken · Sangihe & Siau · + Halmahera & Widi\n\nvia Manado\n\nfrom $X,XXX pp\n\nYacht charters · phinisi under sail between islets\nYacht charters\n\nPhinisi · whole boat · Raja Ampat and North Sulawesi\n\nfrom $X,XXX per day\n\nSee yacht charters\nRemote, made easy\n1\nTell us\n2\nWe design it\n3\nWe handle everything\n4\nYou travel\nGuest story · guests on deck at dusk, muted loop\nPause\nNine days in Raja Ampat\n\nGuest story · Comfort · 9 days · month, year\n\nRead the story\nAll guest stories\nWhat guests say\n\nGoogle rating X.X · XX reviews\n\nRead on Google\nGuest name\nCountry · Raja Ampat · Month, year\nGuest name\nCountry · North Sulawesi · Month, year\nGuest name\nCountry · Raja Ampat · Month, year\nFor travel agents\nGet trade rates\nStart with an idea\nPlan your trip\nWhatsApp us\nName, the person who answers you\nRole · replies within 24 hours, 7 days a week\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Where we go",
+          "href": "#where"
+        },
+        {
+          "text": "Raja Ampat · aerial, karst islets with our speedboat4:5 master 2400×3000 · shows 3:4–4:5 · subject in the centre, calm lower third for text\n        \n        \n          Raja Ampat\n          Central · Misool · + Triton Bay\n          via Sorong\n          from $X,XXX pp",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi · Siau volcano from the water4:5 master 2400×3000 · shows 3:4–4:5 · calm lower third for text\n        \n        \n          North Sulawesi\n          Bunaken · Sangihe & Siau · + Halmahera & Widi\n          via Manado\n          from $X,XXX pp",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters · phinisi under sail between isletspanorama 3:1, master 3600×1200 · phone: own 4:3 cut 1600×1200",
+          "href": "yachts.html"
+        },
+        {
+          "text": "See yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Read the story",
+          "href": "stories.html#story-1"
+        },
+        {
+          "text": "All guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Read on Google",
+          "href": "#"
+        },
+        {
+          "text": "Get trade rates",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp us",
+          "href": "#"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Pause",
+          "type": "button"
+        },
+        {
+          "text": "Pause",
+          "type": "button"
+        }
+      ],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "1000 Islands Travel · карта прототипа",
+      "text": "Карта прототипа 1000 Islands Travel\n\nСерый черновик сайта. Здесь проверяем структуру и переходы; цвета, фото и тексты будут на следующем этапе. Открой любую страницу и дальше ходи по сайту как обычный посетитель.\n\nОткрыть главную\nПоказать номера блоков\nКак читать макет\nRaja Ampat · aerial, karst islets\nСерое поле\n\nФото или видео. Подпись в углу говорит, что будет в кадре.\n\nСерые полосы\n\nТекст, который напишем позже. Сейчас важно, где он стоит и сколько его.\n\n01 · Hero\nНомера блоков\n\nПо ним удобно писать комментарии. Включаются кнопкой выше (на компьютере ещё клавишей N) и остаются включёнными на всех страницах.\n\nСтраницы сайта\n\nТо, что увидит посетитель. Номера совпадают с макетом в Penpot.\n\n01 Home\nглавная: куда едем, яхты, истории гостей, заявка\nНаправления\n02\nRaja Ampat\nлендинг · поездки и цены\n03\nNorth Sulawesi\nлендинг · поездки и цены\n04\nYacht charters\nлендинг · три лодки\n07\nTravel agents\nлендинг для турагентов\nО нас\n05\nGuest stories\nистории гостей\n06\nAbout us\nкоманда · как путешествуем · FAQ\nЗаявка\n08\nPlan your trip\nформа заявки\n09\nThank-you\nпосле заявки путешественника\n10\nThank-you\nпосле заявки агента\nСлужебное\n\nЭкраны, которые посетитель видит редко, и то, что видишь только ты.\n\nЮридическое и сбои\n11\nPrivacy & cookies\n12\nBooking terms\n13\n404\nстраница не найдена\n14\nTemporarily unavailable\nтехработы\nСостояния\nS1\nCookie banner\nпервый визит\nS2\nCookie settings\nокно настроек\nS3\nForm errors\nошибки в форме\nS4\nSending failed\nзаявка не ушла\nПисьма и ссылки\nE1\nAuto-reply\nписьмо путешественнику\nE2\nAuto-reply\nписьмо агенту\nE3\nNew enquiry alert\nписьмо тебе о новой заявке\nP1\nLink previews\nкак ссылка выглядит в WhatsApp, соцсетях, Google\nАдминка\nA\nAdmin\nзаявки · отзывы · фото и видео · цены, всё на одном экране\n\nКомментарии удобнее оставлять в макете Penpot: версия для компьютера, версия для телефона.",
+      "links": [
+        {
+          "text": "Открыть главную",
+          "href": "home.html"
+        },
+        {
+          "text": "01 Homeглавная: куда едем, яхты, истории гостей, заявка",
+          "href": "home.html"
+        },
+        {
+          "text": "02Raja Ampatлендинг · поездки и цены",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "03North Sulawesiлендинг · поездки и цены",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "04Yacht chartersлендинг · три лодки",
+          "href": "yachts.html"
+        },
+        {
+          "text": "07Travel agentsлендинг для турагентов",
+          "href": "advisors.html"
+        },
+        {
+          "text": "05Guest storiesистории гостей",
+          "href": "stories.html"
+        },
+        {
+          "text": "06About usкоманда · как путешествуем · FAQ",
+          "href": "about.html"
+        },
+        {
+          "text": "08Plan your tripформа заявки",
+          "href": "plan.html"
+        },
+        {
+          "text": "09Thank-youпосле заявки путешественника",
+          "href": "thank-you.html"
+        },
+        {
+          "text": "10Thank-youпосле заявки агента",
+          "href": "thank-you-advisor.html"
+        },
+        {
+          "text": "11Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "12Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "13404страница не найдена",
+          "href": "404.html"
+        },
+        {
+          "text": "14Temporarily unavailableтехработы",
+          "href": "unavailable.html"
+        },
+        {
+          "text": "S1Cookie bannerпервый визит",
+          "href": "state-cookies.html"
+        },
+        {
+          "text": "S2Cookie settingsокно настроек",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "S3Form errorsошибки в форме",
+          "href": "state-form-errors.html"
+        },
+        {
+          "text": "S4Sending failedзаявка не ушла",
+          "href": "state-form-failed.html"
+        },
+        {
+          "text": "E1Auto-replyписьмо путешественнику",
+          "href": "email-traveller.html"
+        },
+        {
+          "text": "E2Auto-replyписьмо агенту",
+          "href": "email-advisor.html"
+        },
+        {
+          "text": "E3New enquiry alertписьмо тебе о новой заявке",
+          "href": "email-owner.html"
+        },
+        {
+          "text": "P1Link previewsкак ссылка выглядит в WhatsApp, соцсетях, Google",
+          "href": "link-preview.html"
+        },
+        {
+          "text": "AAdminзаявки · отзывы · фото и видео · цены, всё на одном экране",
+          "href": "admin-simple.html"
+        },
+        {
+          "text": "версия для компьютера",
+          "href": "https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&page-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ad&share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&section=interactions&index=0"
+        },
+        {
+          "text": "версия для телефона",
+          "href": "https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&page-id=998cb9f0-5ded-8044-8008-bce251986e65&share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&section=interactions&index=0"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Показать номера блоков",
+          "type": "button"
+        }
+      ],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "link-preview",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · Link previews — 1000 Islands Travel",
+      "text": "1000 Islands Travel\nREMOTE INDONESIA\nMenu\nLink previews\n\nOne share image, title and short description per page. Set in the content editor.\n\nWhatsApp: home page\nShare image 1200 × 630\nRemote Indonesia. Off the map.\nPrivate trips to Raja Ampat and North Sulawesi\n1000islands.travel\nhttps://1000islands.travel\nWhatsApp: a trip\nShare image 1200 × 630\nRaja Ampat & Misool by private phinisi\nX days · from $X,XXX per person\n1000islands.travel\nhttps://1000islands.travel/raja-ampat/\nFacebook, LinkedIn, Instagram DM\nShare image 1200 × 630\nTravel agents · 1000 Islands Travel\nYour local partner for remote Indonesia\n1000islands.travel\nGoogle search result\n1000islands.travel › raja-ampat\nRaja Ampat private trips · 1000 Islands Travel\n\nPage description, about 150 characters, written for each page.\n\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "north-sulawesi",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · 03 North Sulawesi — 1000 Islands Travel",
+      "text": "Skip to content\n1000 Islands Travel\nREMOTE INDONESIA\nMenu\nHero video · Bunaken wall from above, Siau volcano from the boat\nPause\nNorth Sulawesi\nSee trips and prices\nBEST MONTHS\nMonth–month\nDIVING\nOptional\nFROM\n$X,XXX pp\nWhy go\nTrips and prices\nReviews\nFAQ\nWhy go to North Sulawesi\nVideo · underwater, the reef up close\nPhoto · guests in the water or on a beach\nPhoto · a detail: village, macro, local boat\nLocator map · Manado and the areas\nBunaken\nSangihe & Siau\nHalmahera & Widi\nAdd-on\nPrivate trips in North Sulawesi\nHow many days?\n7 days\nEssential\n\nDive resort + private boat · resort name\n\nfrom $1,820 pp\n\nPlan this trip\nComfort\n\nBoutique resort + private boat · resort name\n\nfrom $2,940 pp\n\nPlan this trip\nPremium\n\nPremium resort + private boat · resort name\n\nfrom $6,300 pp\n\nPlan this trip\n\nPrefer your own boat? Yacht charters\n\nWhat a trip looks like: a real 9-day trip\n\nDeposit X% to confirm\nOur team on the ground 24/7\nMedical evacuation plan\nDive safety standards\nGoogle rating X.X\nDetails in FAQ\nReviews\n\nGoogle rating X.X · Read on Google\n\nGuest name\nCountry · North Sulawesi · Month, year\nGuest name\nCountry · North Sulawesi · Month, year\nFAQ\nWhen is the best time to travel?\nHow do I get to North Sulawesi?\nDo I need to be a diver?\nWhat if someone gets sick or hurt?\n\nMore questions\n\nPlan your North Sulawesi trip\nPlan your trip\nWhatsApp us\n\nTravel agent? Get trade rates\n\nName, the person who answers you\nRole · replies within 24 hours, 7 days a week\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "See trips and prices",
+          "href": "#trips"
+        },
+        {
+          "text": "Plan a North Sulawesi trip",
+          "href": "plan.html?region=North+Sulawesi"
+        },
+        {
+          "text": "Why go",
+          "href": "#why"
+        },
+        {
+          "text": "Trips and prices",
+          "href": "#trips"
+        },
+        {
+          "text": "Reviews",
+          "href": "#reviews"
+        },
+        {
+          "text": "FAQ",
+          "href": "#faq"
+        },
+        {
+          "text": "Plan this trip",
+          "href": "plan.html?region=North+Sulawesi&level=Essential&days=7"
+        },
+        {
+          "text": "Plan this trip",
+          "href": "plan.html?region=North+Sulawesi&level=Comfort&days=7"
+        },
+        {
+          "text": "Plan this trip",
+          "href": "plan.html?region=North+Sulawesi&level=Premium&days=7"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "a real 9-day trip",
+          "href": "stories.html#story-1"
+        },
+        {
+          "text": "Details in FAQ",
+          "href": "#faq"
+        },
+        {
+          "text": "Read on Google",
+          "href": "#"
+        },
+        {
+          "text": "More questions",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp us",
+          "href": "#"
+        },
+        {
+          "text": "Get trade rates",
+          "href": "advisors.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html?region=North+Sulawesi&days=7"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Pause",
+          "type": "button"
+        }
+      ],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "plan",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · 08 Plan your trip — 1000 Islands Travel",
+      "text": "Skip to content\n1000 Islands Travel\nREMOTE INDONESIA\nMenu\nPlan your trip\nWhat happens next\n1\nWe design it · within 24 hours\n2\nWe handle everything\n3\nYou travel\nName, the person who answers you\nRole · replies within 24 hours, 7 days a week\nWhatsApp us\n\nTravel agent? Get trade rates\n\nName replies within 24 hours, 7 days a week. Free, no obligation. Prefer WhatsApp?\n\nName\nYour name\nEmail\nyou@example.com\nWhatsApp (optional)\n+61 …\nTravellers\n2\nDates\nApproximate dates\nWhere\nRaja Ampat\nNorth Sulawesi\nYacht charter\nNot sure yet\nMessage (optional)\nTell us your idea\nSend request\n\nWe reply within 24 hours, 7 days a week.\n\nBy sending, you agree to our Privacy policy.\n\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "WhatsApp us",
+          "href": "#"
+        },
+        {
+          "text": "Get trade rates",
+          "href": "advisors.html#partner-form"
+        },
+        {
+          "text": "Prefer WhatsApp?",
+          "href": "#"
+        },
+        {
+          "text": "Send request",
+          "href": "thank-you.html"
+        },
+        {
+          "text": "Privacy policy",
+          "href": "privacy.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "privacy",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · Privacy & cookies — 1000 Islands Travel",
+      "text": "1000 Islands Travel\nREMOTE INDONESIA\nMenu\nPrivacy & cookies\n\nLast updated: date\n\nWho we are\nWhat we collect\nWhy we use it\nCookies and analytics\nWho we share it with\nHow long we keep it\nYour rights\nContact us\nWho we are\nWhat we collect\nWhy we use it\nCookies and analytics\nWho we share it with\nHow long we keep it\nYour rights\nContact us\n\nOwner: company name, address and contact go here. Template text, not legal advice; check it for your markets before launch.\n\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Who we are",
+          "href": "#s1"
+        },
+        {
+          "text": "What we collect",
+          "href": "#s2"
+        },
+        {
+          "text": "Why we use it",
+          "href": "#s3"
+        },
+        {
+          "text": "Cookies and analytics",
+          "href": "#s4"
+        },
+        {
+          "text": "Who we share it with",
+          "href": "#s5"
+        },
+        {
+          "text": "How long we keep it",
+          "href": "#s6"
+        },
+        {
+          "text": "Your rights",
+          "href": "#s7"
+        },
+        {
+          "text": "Contact us",
+          "href": "#s8"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "raja-ampat",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · 02 Raja Ampat — 1000 Islands Travel",
+      "text": "Skip to content\n1000 Islands Travel\nREMOTE INDONESIA\nMenu\nHero video · drone over karst islands with our speedboat\nPause\nRaja Ampat\nSee trips and prices\nBEST MONTHS\nMonth–month\nDIVING\nOptional\nFROM\n$X,XXX pp\nWhy go\nTrips and prices\nReviews\nFAQ\nWhy go to Raja Ampat\nVideo · underwater, the reef up close\nPhoto · guests in the water or on a beach\nPhoto · a detail: village, macro, local boat\nLocator map · Sorong and the areas\nCentral Raja Ampat\nMisool\nTriton Bay\nAdd-on\nPrivate trips in Raja Ampat\nHow many days?\n7 days\nEssential\n\nGuesthouse + private boat · guesthouse name\n\nfrom $2,100 pp\n\nPlan this trip\nComfort\n\nIsland lodge + private speedboat · lodge name\n\nfrom $3,500 pp\n\nPlan this trip\nPremium\n\nEco resort + private boat · resort name\n\nfrom $7,000 pp\n\nPlan this trip\n\nPrefer your own boat? Yacht charters\n\nWhat a trip looks like: a real 9-day trip\n\nDeposit X% to confirm\nOur team on the ground 24/7\nMedical evacuation plan\nDive safety standards\nGoogle rating X.X\nDetails in FAQ\nReviews\n\nGoogle rating X.X · Read on Google\n\nGuest name\nCountry · Raja Ampat · Month, year\nGuest name\nCountry · Raja Ampat · Month, year\nFAQ\nWhen is the best time to travel?\nHow do I get to Raja Ampat?\nDo I need to be a diver?\nWhat if someone gets sick or hurt?\n\nMore questions\n\nPlan your Raja Ampat trip\nPlan your trip\nWhatsApp us\n\nTravel agent? Get trade rates\n\nName, the person who answers you\nRole · replies within 24 hours, 7 days a week\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "See trips and prices",
+          "href": "#trips"
+        },
+        {
+          "text": "Plan a Raja Ampat trip",
+          "href": "plan.html?region=Raja+Ampat"
+        },
+        {
+          "text": "Why go",
+          "href": "#why"
+        },
+        {
+          "text": "Trips and prices",
+          "href": "#trips"
+        },
+        {
+          "text": "Reviews",
+          "href": "#reviews"
+        },
+        {
+          "text": "FAQ",
+          "href": "#faq"
+        },
+        {
+          "text": "Plan this trip",
+          "href": "plan.html?region=Raja+Ampat&level=Essential&days=7"
+        },
+        {
+          "text": "Plan this trip",
+          "href": "plan.html?region=Raja+Ampat&level=Comfort&days=7"
+        },
+        {
+          "text": "Plan this trip",
+          "href": "plan.html?region=Raja+Ampat&level=Premium&days=7"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "a real 9-day trip",
+          "href": "stories.html#story-1"
+        },
+        {
+          "text": "Details in FAQ",
+          "href": "#faq"
+        },
+        {
+          "text": "Read on Google",
+          "href": "#"
+        },
+        {
+          "text": "More questions",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp us",
+          "href": "#"
+        },
+        {
+          "text": "Get trade rates",
+          "href": "advisors.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html?region=Raja+Ampat&days=7"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Pause",
+          "type": "button"
+        }
+      ],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "state-cookie-settings",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · State · Cookie settings — 1000 Islands Travel",
+      "text": "1000 Islands Travel\nREMOTE INDONESIA\nMenu\nHero video · above and under water, one loop\nRemote Indonesia.\nOff the map.\n\nPrivate trips to Raja Ampat and North Sulawesi · X years on the ground\n\nPlan your trip\nWhere we go\nCookie settings\nNecessary\n\nAlways on\n\nAnalytics\nMarketing\nSave choices\nAccept all",
+      "links": [
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Where we go",
+          "href": "home.html#where"
+        },
+        {
+          "text": "Save choices",
+          "href": "home.html"
+        },
+        {
+          "text": "Accept all",
+          "href": "home.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "state-cookies",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · State · Cookie banner (first visit) — 1000 Islands Travel",
+      "text": "1000 Islands Travel\nREMOTE INDONESIA\nMenu\nHero video · above and under water, one loop\nRemote Indonesia.\nOff the map.\n\nPrivate trips to Raja Ampat and North Sulawesi · X years on the ground\n\nPlan your trip\nWhere we go\nWe use cookies\n\nPrivacy & cookies\n\nCookie settings\nReject all\nAccept all",
+      "links": [
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Where we go",
+          "href": "home.html#where"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Reject all",
+          "href": "home.html"
+        },
+        {
+          "text": "Accept all",
+          "href": "home.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "state-form-errors",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · State · Form errors — 1000 Islands Travel",
+      "text": "1000 Islands Travel\nREMOTE INDONESIA\nMenu\nPlan your trip\n!\nPlease check 2 fields\nYour idea is still here, nothing is lost.\nName\nEnter your name\nEmail\nyou@example\nCheck the email address\nWhatsApp (optional)\n+61 …\nTravellers\n2\nDates\nApproximate dates\nSend request\n\nBy sending, you agree to our Privacy policy.\n\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Send request",
+          "href": "thank-you.html"
+        },
+        {
+          "text": "Privacy policy",
+          "href": "privacy.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "state-form-failed",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · State · Sending failed — 1000 Islands Travel",
+      "text": "1000 Islands Travel\nREMOTE INDONESIA\nMenu\nPlan your trip\n!\nYour idea didn't send\nNothing is lost: try again, or send it straight to us.\nTry again\nSend on WhatsApp\nEmail us\n\nWe reply within 24 hours, 7 days a week.\n\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Try again",
+          "href": "thank-you.html"
+        },
+        {
+          "text": "Send on WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email us",
+          "href": "#"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "stories",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · 05 Guest stories — 1000 Islands Travel",
+      "text": "Skip to content\n1000 Islands Travel\nREMOTE INDONESIA\nMenu\nGuest stories\nMuted video loop · the guests' Raja Ampat trip\nPause\nNine days in Raja Ampat\n\nComfort · 9 days · from $X,XXX pp · month, year\n\nPlan a trip like this\nThe route\nDay 1 · arrival\nDAY 1 · ARRIVAL\nDay X · an anchorage\nDAY X · ANCHORAGE\nDay X · the last evening\nDAY X · LAST EVENING\nGuest name\nCountry · Comfort · Month, year\nPlan a trip like this\nView all photos\nMore stories\nStory photos · yacht, Misool to Wayag\nTen days by yacht, Misool to Wayag\n\nYacht charter · whole boat · 10 days · month, year\n\nRead the story\nStory photos · North Sulawesi\nStory 3\n\nNorth Sulawesi · Essential · X days · from $X,XXX pp\n\nRead the story\nPlan your trip\nPlan your trip\nWhatsApp us\n\nTravel agent? Get trade rates\n\nName, the person who answers you\nRole · replies within 24 hours, 7 days a week\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Plan a trip like this",
+          "href": "plan.html?region=Raja+Ampat&level=Comfort&days=9"
+        },
+        {
+          "text": "Plan a trip like this",
+          "href": "plan.html?region=Raja+Ampat&level=Comfort&days=9"
+        },
+        {
+          "text": "View all photos",
+          "href": "#"
+        },
+        {
+          "text": "Plan a similar trip",
+          "href": "plan.html?region=Yacht+charter&days=10"
+        },
+        {
+          "text": "Plan a similar trip",
+          "href": "plan.html?region=North+Sulawesi&level=Essential"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp us",
+          "href": "#"
+        },
+        {
+          "text": "Get trade rates",
+          "href": "advisors.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Pause",
+          "type": "button"
+        }
+      ],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "terms",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · Booking terms — 1000 Islands Travel",
+      "text": "1000 Islands Travel\nREMOTE INDONESIA\nMenu\nBooking terms\n\nFor travellers booking direct. Travel agents receive separate trade terms.\n\nHow a booking works\nPrices and currency\nDeposit and payment\nChanges you make\nCancellations\nWeather, safety and changes on the ground\nTravel and dive insurance\nOur responsibility\nComplaints\nContact us\nHow a booking works\nPrices and currency\nDeposit and payment\nChanges you make\nCancellations\nWeather, safety and changes on the ground\nTravel and dive insurance\nOur responsibility\nComplaints\nContact us\n\nOwner: these terms come from you (deposit %, payment dates, cancellation scale, currency). Legal review recommended before launch.\n\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "How a booking works",
+          "href": "#s1"
+        },
+        {
+          "text": "Prices and currency",
+          "href": "#s2"
+        },
+        {
+          "text": "Deposit and payment",
+          "href": "#s3"
+        },
+        {
+          "text": "Changes you make",
+          "href": "#s4"
+        },
+        {
+          "text": "Cancellations",
+          "href": "#s5"
+        },
+        {
+          "text": "Weather, safety and changes on the ground",
+          "href": "#s6"
+        },
+        {
+          "text": "Travel and dive insurance",
+          "href": "#s7"
+        },
+        {
+          "text": "Our responsibility",
+          "href": "#s8"
+        },
+        {
+          "text": "Complaints",
+          "href": "#s9"
+        },
+        {
+          "text": "Contact us",
+          "href": "#s10"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "thank-you-advisor",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · Thank-you (agent) — 1000 Islands Travel",
+      "text": "Skip to content\n1000 Islands Travel\nREMOTE INDONESIA\nMenu\nThank you\nName will reply within 24 hours, 7 days a week\nRole · direct email · WhatsApp\nWant an answer sooner?\nMessage us on WhatsApp\nBack to Travel agents\n\nBack to home\n\nPhoto · the team at work\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Message us on WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Back to Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Back to home",
+          "href": "home.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "thank-you",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · Thank-you (traveller) — 1000 Islands Travel",
+      "text": "Skip to content\n1000 Islands Travel\nREMOTE INDONESIA\nMenu\nThank you\n\nRaja Ampat · Comfort · 9 days · 2 travellers\n\nName will reply within 24 hours, 7 days a week\nRole · direct email · WhatsApp\nWant an answer sooner?\nMessage us on WhatsApp\nWhile you wait: guest stories\n\nBack to home\n\nPhoto · the place they asked about\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Message us on WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "While you wait: guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Back to home",
+          "href": "home.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "unavailable",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · Temporarily unavailable — 1000 Islands Travel",
+      "text": "1000 Islands Travel\nREMOTE INDONESIA\n\nBack shortly\n\nWe're updating the site\n\nYou can still reach us right now:\n\nWhatsApp us\nEmail us\n\nWe reply within 24 hours, 7 days a week.",
+      "links": [
+        {
+          "text": "WhatsApp us",
+          "href": "#"
+        },
+        {
+          "text": "Email us",
+          "href": "#"
+        }
+      ],
+      "buttons": [],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": []
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": []
+      }
+    ]
+  },
+  {
+    "key": "yachts",
+    "status": 200,
+    "localMatch": true,
+    "errors": [],
+    "dom": {
+      "title": "WF · 04 Yacht charters — 1000 Islands Travel",
+      "text": "Skip to content\n1000 Islands Travel\nREMOTE INDONESIA\nMenu\nHero video · phinisi at anchor in a lagoon, then life on deck\nPause\nYacht charters\nSee boats and prices\nBOATS\nX boats\nTRIP LENGTH\n3+ days\nFROM\n$X,XXX / day\nWhy a yacht\nBoats and prices\nWhere we sail\nFAQ\nWhy a yacht\nLife on board · guests on deck, crew serving, sails\nBoats and prices\nHow many days?\n7 days\nBoat 1\n\nX cabins, en-suite · air-con · chef · dive guide\n\nfrom $31,500\n\nPlan this trip\nBoat 2\n\nX cabins, en-suite · air-con · chef · dive guide\n\nfrom $45,500\n\nPlan this trip\nBoat 3\n\nX cabins, en-suite · air-con · chef · dive guide\n\nfrom $84,000\n\nPlan this trip\nVideo · helicopter alongside the boat\nHelicopter transfers on request\n\nGuest story · whole boat · 10 days · Misool to Wayag\n\nRead the story\n\nIncluded\nNot included\nMap · yacht routes, Raja Ampat and North Sulawesi\nWhere we sail\nRaja Ampat\nNorth Sulawesi\nYacht FAQ\nWhole boat or a single cabin?\nHow many guests can a boat take?\nWhat is a day on board like?\nCan we start and end anywhere?\nCan you add helicopter transfers?\nPlan your yacht trip\nPlan your trip\nWhatsApp us\n\nTravel agent? Get trade rates\n\nName, the person who answers you\nRole · replies within 24 hours, 7 days a week\n1000 Islands Travel\nREMOTE INDONESIA\nCOMPANY\nAbout us\nHow we travel\nFAQ\nTravel agents\nCONTACT\nWhatsApp\nEmail\nInstagram\n© 1000 Islands Travel · 1000islands.travel\nPrivacy & cookies · Booking terms · Cookie settings · Design notes\nPT company name · registered address, Indonesia · licence no. … · since 20XX",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "See boats and prices",
+          "href": "#boats"
+        },
+        {
+          "text": "Plan a yacht trip",
+          "href": "plan.html?region=Yacht+charter"
+        },
+        {
+          "text": "Why a yacht",
+          "href": "#why"
+        },
+        {
+          "text": "Boats and prices",
+          "href": "#boats"
+        },
+        {
+          "text": "Where we sail",
+          "href": "#where"
+        },
+        {
+          "text": "FAQ",
+          "href": "#faq"
+        },
+        {
+          "text": "Plan this trip",
+          "href": "plan.html?region=Yacht+charter&level=Boat+1&days=7"
+        },
+        {
+          "text": "Plan this trip",
+          "href": "plan.html?region=Yacht+charter&level=Boat+2&days=7"
+        },
+        {
+          "text": "Plan this trip",
+          "href": "plan.html?region=Yacht+charter&level=Boat+3&days=7"
+        },
+        {
+          "text": "Read the story",
+          "href": "stories.html#story-2"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "WhatsApp us",
+          "href": "#"
+        },
+        {
+          "text": "Get trade rates",
+          "href": "advisors.html"
+        },
+        {
+          "text": "1000 Islands TravelRemote Indonesia",
+          "href": "home.html"
+        },
+        {
+          "text": "Raja Ampat",
+          "href": "raja-ampat.html"
+        },
+        {
+          "text": "North Sulawesi",
+          "href": "north-sulawesi.html"
+        },
+        {
+          "text": "Yacht charters",
+          "href": "yachts.html"
+        },
+        {
+          "text": "Guest stories",
+          "href": "stories.html"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html"
+        },
+        {
+          "text": "About us",
+          "href": "about.html"
+        },
+        {
+          "text": "How we travel",
+          "href": "about.html#how"
+        },
+        {
+          "text": "FAQ",
+          "href": "about.html#faq"
+        },
+        {
+          "text": "Travel agents",
+          "href": "advisors.html"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        },
+        {
+          "text": "Email",
+          "href": "#"
+        },
+        {
+          "text": "Instagram",
+          "href": "#"
+        },
+        {
+          "text": "Privacy & cookies",
+          "href": "privacy.html"
+        },
+        {
+          "text": "Booking terms",
+          "href": "terms.html"
+        },
+        {
+          "text": "Cookie settings",
+          "href": "state-cookie-settings.html"
+        },
+        {
+          "text": "Design notes",
+          "href": "#"
+        },
+        {
+          "text": "Plan your trip",
+          "href": "plan.html?region=Yacht+charter&days=7"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "#"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Pause",
+          "type": "button"
+        }
+      ],
+      "badAnchors": []
+    },
+    "sizes": [
+      {
+        "w": 1440,
+        "h": 640,
+        "sw": 1440,
+        "off": []
+      },
+      {
+        "w": 1280,
+        "h": 620,
+        "sw": 1280,
+        "off": []
+      },
+      {
+        "w": 1024,
+        "h": 690,
+        "sw": 1024,
+        "off": []
+      },
+      {
+        "w": 768,
+        "h": 950,
+        "sw": 768,
+        "off": []
+      },
+      {
+        "w": 390,
+        "h": 660,
+        "sw": 390,
+        "off": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "FAQ",
+            "right": 418.671875
+          }
+        ]
+      },
+      {
+        "w": 360,
+        "h": 640,
+        "sw": 360,
+        "off": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Where we sail",
+            "right": 366.109375
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "FAQ",
+            "right": 418.671875
+          }
+        ]
+      }
+    ]
+  }
+]

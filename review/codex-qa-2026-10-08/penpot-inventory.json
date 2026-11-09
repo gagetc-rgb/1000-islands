@@ -1,0 +1,282 @@
+[
+  {
+    "group": "desktop",
+    "boards": [
+      {
+        "name": "00 Cover · Desktop",
+        "texts": 94,
+        "rects": 210
+      },
+      {
+        "name": "01 Home · Desktop",
+        "texts": 99,
+        "rects": 242
+      },
+      {
+        "name": "02 Raja Ampat · Desktop",
+        "texts": 122,
+        "rects": 295
+      },
+      {
+        "name": "03 North Sulawesi · Desktop",
+        "texts": 122,
+        "rects": 295
+      },
+      {
+        "name": "04 Yacht charters · Desktop",
+        "texts": 108,
+        "rects": 272
+      },
+      {
+        "name": "05 Guest stories · Desktop",
+        "texts": 71,
+        "rects": 174
+      },
+      {
+        "name": "06 About us · Desktop",
+        "texts": 66,
+        "rects": 159
+      },
+      {
+        "name": "07 Travel agents · Desktop",
+        "texts": 123,
+        "rects": 309
+      },
+      {
+        "name": "08 Plan your trip · Desktop",
+        "texts": 74,
+        "rects": 150
+      },
+      {
+        "name": "09 Thank-you · traveller · Desktop",
+        "texts": 46,
+        "rects": 93
+      },
+      {
+        "name": "10 Thank-you · agent · Desktop",
+        "texts": 45,
+        "rects": 92
+      },
+      {
+        "name": "11 Privacy & cookies · Desktop",
+        "texts": 56,
+        "rects": 121
+      },
+      {
+        "name": "12 Booking terms · Desktop",
+        "texts": 61,
+        "rects": 133
+      },
+      {
+        "name": "13 404 · Page not found · Desktop",
+        "texts": 45,
+        "rects": 92
+      },
+      {
+        "name": "14 Temporarily unavailable · Desktop",
+        "texts": 8,
+        "rects": 17
+      },
+      {
+        "name": "S1 State · Cookie banner · Desktop",
+        "texts": 21,
+        "rects": 60
+      },
+      {
+        "name": "S2 State · Cookie settings · Desktop",
+        "texts": 23,
+        "rects": 72
+      },
+      {
+        "name": "S3 State · Form errors · Desktop",
+        "texts": 58,
+        "rects": 114
+      },
+      {
+        "name": "S4 State · Sending failed · Desktop",
+        "texts": 44,
+        "rects": 91
+      }
+    ]
+  },
+  {
+    "group": "mobile",
+    "boards": [
+      {
+        "name": "00 Cover · Mobile",
+        "texts": 79,
+        "rects": 170
+      },
+      {
+        "name": "01 Home · Mobile",
+        "texts": 84,
+        "rects": 217
+      },
+      {
+        "name": "02 Raja Ampat · Mobile",
+        "texts": 107,
+        "rects": 267
+      },
+      {
+        "name": "03 North Sulawesi · Mobile",
+        "texts": 108,
+        "rects": 268
+      },
+      {
+        "name": "04 Yacht charters · Mobile",
+        "texts": 85,
+        "rects": 234
+      },
+      {
+        "name": "05 Guest stories · Mobile",
+        "texts": 60,
+        "rects": 154
+      },
+      {
+        "name": "06 About us · Mobile",
+        "texts": 56,
+        "rects": 140
+      },
+      {
+        "name": "07 Travel agents · Mobile",
+        "texts": 112,
+        "rects": 286
+      },
+      {
+        "name": "08 Plan your trip · Mobile",
+        "texts": 67,
+        "rects": 133
+      },
+      {
+        "name": "09 Thank-you · traveller · Mobile",
+        "texts": 34,
+        "rects": 67
+      },
+      {
+        "name": "10 Thank-you · agent · Mobile",
+        "texts": 33,
+        "rects": 66
+      },
+      {
+        "name": "11 Privacy & cookies · Mobile",
+        "texts": 44,
+        "rects": 95
+      },
+      {
+        "name": "12 Booking terms · Mobile",
+        "texts": 50,
+        "rects": 108
+      },
+      {
+        "name": "13 404 · Page not found · Mobile",
+        "texts": 33,
+        "rects": 66
+      },
+      {
+        "name": "14 Temporarily unavailable · Mobile",
+        "texts": 9,
+        "rects": 18
+      },
+      {
+        "name": "S1 State · Cookie banner · Mobile",
+        "texts": 14,
+        "rects": 46
+      },
+      {
+        "name": "S2 State · Cookie settings · Mobile",
+        "texts": 16,
+        "rects": 58
+      },
+      {
+        "name": "S3 State · Form errors · Mobile",
+        "texts": 45,
+        "rects": 87
+      },
+      {
+        "name": "S4 State · Sending failed · Mobile",
+        "texts": 32,
+        "rects": 65
+      },
+      {
+        "name": "M1 Mobile menu (open) · Mobile",
+        "texts": 18,
+        "rects": 77
+      }
+    ]
+  },
+  {
+    "group": "emails",
+    "boards": [
+      {
+        "name": "00 Cover · Emails & previews",
+        "texts": 21,
+        "rects": 26
+      },
+      {
+        "name": "E1 Email · Auto-reply to traveller · Desktop",
+        "texts": 23,
+        "rects": 51
+      },
+      {
+        "name": "E2 Email · Auto-reply to agent · Desktop",
+        "texts": 20,
+        "rects": 46
+      },
+      {
+        "name": "E3 Email · New enquiry alert (owner) · Desktop",
+        "texts": 29,
+        "rects": 63
+      },
+      {
+        "name": "E1 Email · Auto-reply to traveller · Mobile",
+        "texts": 26,
+        "rects": 54
+      },
+      {
+        "name": "E2 Email · Auto-reply to agent · Mobile",
+        "texts": 23,
+        "rects": 49
+      },
+      {
+        "name": "E3 Email · New enquiry alert (owner) · Mobile",
+        "texts": 30,
+        "rects": 64
+      },
+      {
+        "name": "P1 Link previews",
+        "texts": 59,
+        "rects": 87
+      }
+    ]
+  },
+  {
+    "group": "admin",
+    "boards": [
+      {
+        "name": "00 Cover · Admin",
+        "texts": 23,
+        "rects": 28
+      },
+      {
+        "name": "A1 Admin · Enquiries",
+        "texts": 41,
+        "rects": 93
+      },
+      {
+        "name": "A2 Admin · Reviews",
+        "texts": 44,
+        "rects": 109
+      },
+      {
+        "name": "A3 Admin · Photos & video",
+        "texts": 34,
+        "rects": 84
+      },
+      {
+        "name": "A4 Admin · Prices",
+        "texts": 59,
+        "rects": 134
+      }
+    ]
+  }
+]

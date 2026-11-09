@@ -1,0 +1,37 @@
+shot approach
+shot beachboat
+shot boat
+shot boat2p
+shot canoe
+shot cape
+shot coast
+shot corridor
+shot dronie3
+shot fan
+shot fanmacro
+shot fish
+shot garden3
+shot jelly
+shot jelly2
+shot lagoon3
+shot mushroom
+shot palms3
+shot profile
+shot reefsun
+shot reflect
+shot rock
+shot tables
+shot turtle
+shot turtle2
+p03  30.5 s  20.6 MiB  Islands and reef, alternating
+p01  30.0 s  19.9 MiB  Raja Ampat saga, with the reef
+p02  31.0 s  21.4 MiB  Reef first, refined
+p06  25.0 s  17.1 MiB  Above and below in pairs
+p05  27.0 s  18.3 MiB  Red and turquoise, second take
+p04  29.0 s  20.5 MiB  Raja Ampat, above water
+p09  25.0 s  17.3 MiB  North Sulawesi coast and the reef
+p07  26.0 s  18.4 MiB  Reef life
+p08  29.5 s  20.9 MiB  By boat to the rock
+p11  15.0 s  11.0 MiB  Fast, 15 s
+p10  28.6 s  18.9 MiB  Slow, with dissolves
+p12  28.0 s  20.3 MiB  Beach and reef

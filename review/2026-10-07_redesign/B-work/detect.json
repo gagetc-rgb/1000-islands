@@ -1,0 +1,35 @@
+[
+  {
+    "antipattern": "numbered-section-labels",
+    "name": "Tiny numbered section labels",
+    "description": "Small numeric index labels riding next to section headings, repeated section after section, are AI editorial scaffolding — a page numbering its own chapters instead of earning structure. Let hierarchy, content, and rhythm carry the sequence.",
+    "severity": "advisory",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\home.html",
+    "line": 0,
+    "snippet": "tiny numbered label \"03 · Remote, made easy\" beside h2 \"Remote, made easy\" (3 on page)",
+    "advisory": true
+  },
+  {
+    "antipattern": "numbered-section-labels",
+    "name": "Tiny numbered section labels",
+    "description": "Small numeric index labels riding next to section headings, repeated section after section, are AI editorial scaffolding — a page numbering its own chapters instead of earning structure. Let hierarchy, content, and rhythm carry the sequence.",
+    "severity": "advisory",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\home.html",
+    "line": 0,
+    "snippet": "tiny numbered label \"05 · For travel agents\" beside h2 \"For travel agents\" (3 on page)",
+    "advisory": true
+  },
+  {
+    "antipattern": "numbered-section-labels",
+    "name": "Tiny numbered section labels",
+    "description": "Small numeric index labels riding next to section headings, repeated section after section, are AI editorial scaffolding — a page numbering its own chapters instead of earning structure. Let hierarchy, content, and rhythm carry the sequence.",
+    "severity": "advisory",
+    "category": "slop",
+    "file": "C:\\Users\\Kirill\\Desktop\\1000 islands\\wireframes\\home.html",
+    "line": 0,
+    "snippet": "tiny numbered label \"06 · Start with an idea\" beside h2 \"Start with an idea\" (3 on page)",
+    "advisory": true
+  }
+]

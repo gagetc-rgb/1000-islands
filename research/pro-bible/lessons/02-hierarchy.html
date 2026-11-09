@@ -1,0 +1,1044 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Урок 2. Иерархия, отступы, шрифт, цвет</title>
+<meta name="description" content="Визуальная иерархия, отступы, типографика, контраст и признаки работы нейронки. Интерактивный урок.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2314171c%27/%3E%3Crect x=%277%27 y=%2718%27 width=%2718%27 height=%276%27 fill=%27%23ffe14d%27/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/GolosText-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/course.css?v=6">
+<style>
+/* lesson 2: demo-only styles. The "flat" and "loud" states are bad on purpose. */
+.tour{max-width:23rem;margin-inline:auto;background:#fff;border:1px solid var(--line);border-radius:12px;filter:blur(var(--b,0)) grayscale(var(--g,0))}
+.tour-img{height:8.5rem;border-radius:11px 11px 0 0;background:linear-gradient(165deg,#8ccbee 0%,#cfe9f6 38%,#f3dfa0 62%,#e29a62 100%)}
+.tour-body{padding:1rem 1.1rem 1.2rem}
+.tour-body > *{margin:0}
+#hier[data-blur=on]{--b:5px}
+#hier[data-gray=on]{--g:1}
+.t-btn{display:inline-block;border-radius:8px}
+/* flat: every element has the same size, weight and colour */
+#hier[data-mode=flat] .tour-body > *,#hier[data-mode=flat] .t-price span{font-size:1rem;font-weight:400;color:var(--ink);line-height:1.5}
+#hier[data-mode=flat] .t-btn{border:1px solid var(--ink);padding:.3rem .7rem;margin:.3rem .4rem 0 0}
+/* loud: every element is emphasised */
+#hier[data-mode=loud] .tour-body > *{font-weight:800;line-height:1.3;margin-bottom:.3rem}
+#hier[data-mode=loud] .t-tag{display:inline-block;background:#d81b60;color:#fff;padding:.2rem .6rem;font-size:1.05rem}
+#hier[data-mode=loud] .t-title{font-size:1.5rem;color:#b3261e}
+#hier[data-mode=loud] .t-meta{font-size:1.15rem;color:#0b57d0}
+#hier[data-mode=loud] .t-rate{font-size:1.15rem;color:#9a5b00}
+#hier[data-mode=loud] .t-desc{font-size:1.05rem;color:var(--ink)}
+#hier[data-mode=loud] .t-price{font-size:1.6rem;color:#0a7a3d}
+#hier[data-mode=loud] .t-btn{padding:.6rem 1rem;color:#fff;font-size:1.05rem;margin:.3rem .4rem 0 0}
+#hier[data-mode=loud] .t-btn.main{background:#b3261e}
+#hier[data-mode=loud] .t-btn.sec{background:#0b57d0}
+/* clear: one or two things lead, the rest steps back */
+#hier[data-mode=clear] .t-tag{font-size:.8rem;font-weight:600;color:var(--ink-2)}
+#hier[data-mode=clear] .t-title{font-size:1.4rem;font-weight:700;line-height:1.15;margin-top:.2rem}
+#hier[data-mode=clear] .t-meta,#hier[data-mode=clear] .t-rate{font-size:.9rem;color:var(--ink-3)}
+#hier[data-mode=clear] .t-meta{margin-top:.45rem}
+#hier[data-mode=clear] .t-desc{font-size:.97rem;color:var(--ink-2);margin-top:.7rem;line-height:1.5}
+#hier[data-mode=clear] .t-price{font-size:1.5rem;font-weight:700;margin-top:1rem}
+#hier[data-mode=clear] .t-price span{font-size:.9rem;font-weight:400;color:var(--ink-3)}
+#hier[data-mode=clear] .t-acts{margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.5rem 1.1rem;align-items:center}
+#hier[data-mode=clear] .t-btn.main{background:var(--ink);color:#fff;font-weight:600;padding:.6rem 1.1rem}
+#hier[data-mode=clear] .t-btn.sec{font-weight:600;text-decoration:underline;text-underline-offset:.2em}
+
+#lvCard{max-width:24rem;margin-inline:auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:.6rem;display:grid;gap:.15rem}
+.lv{font:inherit;text-align:left;display:flex;gap:.75rem;align-items:center;justify-content:space-between;background:none;border:1px solid transparent;border-radius:8px;padding:.4rem .6rem;cursor:pointer;color:var(--ink);min-height:2.75rem}
+.lv:hover{border-color:var(--line);background:#f9fafb}
+.lv b{flex:none;width:1.6rem;height:1.6rem;border-radius:50%;display:grid;place-items:center;font-size:.8rem;font-weight:700;border:1px solid var(--ink-3);color:var(--ink-2)}
+.lv[data-lv="1"] span{font-size:1.3rem;font-weight:700;line-height:1.2}
+.lv[data-lv="1"] b{background:var(--ink);color:#fff;border-color:var(--ink)}
+.lv[data-lv="2"] span{font-size:1rem;font-weight:500;color:var(--ink-2)}
+.lv[data-lv="3"] span{font-size:.86rem;color:var(--ink-3)}
+
+.act{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.4rem}
+.act .mh{font-size:1.4rem}
+.act p{margin:.4rem 0 1rem;color:var(--ink-2)}
+.act-row{display:flex;flex-wrap:wrap;gap:.6rem 1rem;align-items:center}
+.act-row span{display:inline-block;font-weight:600;border-radius:8px}
+#action[data-mode=three] .act-row span{padding:.65rem 1.1rem;color:#fff}
+#action[data-mode=three] .a1{background:#b3261e}
+#action[data-mode=three] .a2{background:#0b57d0}
+#action[data-mode=three] .a3{background:#0a7a3d}
+#action[data-mode=one] .a1{background:var(--ink);color:#fff;padding:.65rem 1.1rem}
+#action[data-mode=one] .a2{border:1px solid var(--ink-3);padding:.6rem 1.05rem}
+#action[data-mode=one] .a3{text-decoration:underline;text-underline-offset:.2em}
+
+.pf{max-width:21rem;margin-inline:auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.25rem}
+.pf label{display:block;font-size:.92rem;font-weight:600;margin-bottom:calc(var(--in) * 1px)}
+.pf input{display:block;width:100%;font:inherit;padding:.5rem .65rem;border:1px solid var(--ink-3);border-radius:8px;background:#fff;color:var(--ink)}
+.pf .row + .row{margin-top:calc(var(--out) * 1px)}
+
+.sc{max-width:24rem;margin-inline:auto;background:#fff;border:1px solid var(--line);border-radius:12px}
+.sc > *{margin:0}
+.sc ul{padding-left:1.1rem;color:var(--ink-2)}
+.sc p{color:var(--ink-2)}
+.sc span{display:inline-block;background:var(--ink);color:#fff;font-weight:600;border-radius:8px;padding:.55rem 1rem}
+#scale[data-mode=eye] .sc{padding:13px 22px 37px 9px}
+#scale[data-mode=eye] .sc .mh{margin-bottom:19px}
+#scale[data-mode=eye] .sc p{margin-bottom:5px}
+#scale[data-mode=eye] .sc ul{margin-bottom:41px}
+#scale[data-mode=sys] .sc{padding:24px}
+#scale[data-mode=sys] .sc .mh{margin-bottom:8px}
+#scale[data-mode=sys] .sc p{margin-bottom:16px}
+#scale[data-mode=sys] .sc ul{margin-bottom:24px}
+
+.hd{max-width:30rem;margin-inline:auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.25rem 1.4rem}
+.hd > *{margin:0}
+.hd p{color:var(--ink-2);font-size:.97rem}
+.hd .mh{font-size:1.1rem}
+#head[data-mode=mid] .hd .mh{margin-block:1.1rem}
+#head[data-mode=near] .hd .mh{margin-top:1.9rem;margin-bottom:.35rem}
+
+.al{max-width:34rem;margin-inline:auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.5rem;background-repeat:no-repeat}
+.al > *{margin:0}
+.al .mh{font-size:1.35rem}
+.al p{margin-top:.6rem;color:var(--ink-2)}
+.al ul{margin-top:.8rem;padding-left:1.1rem;color:var(--ink-2)}
+.al span{display:inline-block;margin-top:1rem;background:var(--ink);color:#fff;font-weight:600;border-radius:8px;padding:.55rem 1rem}
+#align[data-mode=center] .al{text-align:center}
+#align[data-mode=center] .al ul{display:inline-block;text-align:left}
+#align[data-guides=on] .al{background-image:linear-gradient(#d0452f,#d0452f);background-size:1.5px 100%;background-position:1.5rem 0}
+
+.ts{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.25rem;overflow-x:auto}
+.ts div{display:flex;gap:1rem;align-items:baseline;padding:.3rem 0;border-top:1px solid var(--line-2);line-height:1.15}
+.ts div:first-child{border-top:0}
+.ts small{flex:none;width:6.5rem;font-size:.8rem;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.ts span{font-weight:700;white-space:nowrap}
+.ts .t-b span,.ts .t-s span{font-weight:400}
+
+#mBox{width:calc(var(--mw) * 1px);max-width:100%;margin-inline:auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.2rem 1.3rem}
+#mText{margin:0;font-size:calc(var(--fs) * 1px);line-height:var(--lh);color:var(--ink)}
+
+.cx-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(16rem,100%),1fr));gap:1rem;align-items:start}
+#cxSample{border:1px solid var(--line);border-radius:12px;padding:1.2rem 1.3rem}
+#cxSample p{margin:0}
+#cxSample .big{font-size:1.5rem;font-weight:700;line-height:1.2}
+#cxSample .norm{margin-top:.5rem}
+#cxSample .tiny{margin-top:.5rem;font-size:.8rem}
+#cxRatio{font-size:2rem;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.cx-rows{list-style:none;padding:0;margin:.7rem 0 0}
+.cx-rows li{display:flex;gap:.5rem;align-items:baseline;padding:.3rem 0;border-top:1px solid var(--line-2);font-size:.95rem}
+.cx-presets{display:flex;flex-wrap:wrap;gap:.5rem}
+
+#phFrame{display:block;width:100%;height:17.5rem;border:0;background:var(--sunk)}
+
+.acc{max-width:30rem;margin-inline:auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.25rem}
+.acc > *{margin:0}
+.acc-nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;font-size:.9rem;padding-bottom:.8rem;border-bottom:1px solid var(--line-2)}
+.acc-nav strong{margin-right:auto}
+.acc-pill{font-size:.8rem;border:1px solid var(--line);border-radius:6px;padding:.1rem .5rem}
+.acc .mh{font-size:1.3rem;margin-top:1rem}
+.acc p{margin-top:.4rem;color:var(--ink-2)}
+.acc ul{margin-top:.7rem;padding-left:1.1rem;color:var(--ink-2)}
+.acc-acts{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1rem}
+.acc-btn{display:inline-block;font-weight:600;border-radius:8px;padding:.55rem 1rem;border:1px solid var(--ink-3)}
+.acc-btn.p{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+.acc-link{text-decoration:underline;text-decoration-color:var(--acc);text-decoration-thickness:2px;text-underline-offset:.2em;font-weight:600;color:var(--ink)}
+#accent[data-mode=all] .acc{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 8%,#fff)}
+#accent[data-mode=all] .acc-nav{border-color:var(--acc)}
+#accent[data-mode=all] .acc-pill{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+#accent[data-mode=all] .acc .mh,#accent[data-mode=all] .acc-link{color:var(--acc)}
+#accent[data-mode=all] .acc li::marker{color:var(--acc)}
+#accent[data-mode=all] .acc-btn.s{background:color-mix(in srgb,var(--acc) 26%,#fff);border-color:var(--acc)}
+#accProbe{position:absolute;width:0;height:0;overflow:hidden;visibility:hidden}
+
+#tellFrame{display:block;width:100%;border:0;background:#fff;height:34rem}
+#tellList{list-style:none;padding:0;margin:.6rem 0 0;display:grid;gap:.5rem}
+#tellList li{margin:0;padding:.6rem .8rem;border:1px solid var(--good-line);background:var(--good-bg);border-radius:8px;font-size:.95rem}
+#tellList li strong{display:block}
+.tell-bar{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+
+.copy-t{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(15rem,100%),1fr));gap:.75rem;margin-top:1.4rem;list-style:none;padding:0}
+.copy-t li{margin:0;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.85rem 1rem}
+.copy-t s{color:var(--bad);text-decoration-thickness:1px;display:block}
+.copy-t b{display:block;margin-top:.2rem;font-weight:650}
+.copy-t small{display:block;margin-top:.35rem;color:var(--ink-3);font-size:.86rem}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="index.html">Матчасть</a>
+    <span class="top-here">Урок 2 из 9: иерархия, отступы, шрифт, цвет</span>
+    <a class="top-next" href="03-speed.html">Следующий урок</a>
+  </div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+</header>
+
+<div class="shell">
+<nav aria-label="Содержание урока"><details class="toc"><summary>Содержание</summary><ol></ol></details></nav>
+
+<main>
+<div class="hero">
+  <h1>Урок 2. Иерархия, отступы, шрифт, цвет</h1>
+  <p class="lead">Почему одна страница выглядит дорого, а другая дёшево при том же тексте и тех же фото. И как за десять секунд узнать работу нейронки.</p>
+  <p>Примерно час. Двенадцать интерактивов, игра на внимательность и тест. Здесь нет вкусовщины: только то, на чём сошлись несколько авторов, и то, что записано в стандартах.</p>
+  <p class="small">Пометки: ◆ стандарт или первичный источник, ◈ согласие нескольких авторов или общая практика, ◇ мнение одного автора.</p>
+</div>
+
+<section class="sec" id="hier-sec" data-short="Иерархия">
+  <h2>Глаз читает по порядку важности</h2>
+  <p>Человек не читает страницу, он её просматривает. За пару секунд глаз должен понять три вещи: что это, для кого и что нажать. <mark>Визуальная иерархия</mark> это порядок, в котором элементы привлекают внимание. Её строят пятью инструментами: размер, насыщенность шрифта, цвет и контраст, пустое место вокруг, положение. <span class="ev">◈ Schoger, Showalter, Sajid, Polito</span></p>
+  <p>Главный приём звучит парадоксально: чтобы выделить важное, не усиливай его, а приглуши остальное. Белее белого сделать нельзя, зато второстепенное всегда можно сделать светлее и мельче. <span class="ev">◈ Schoger, Sajid</span></p>
+
+  <div class="stage" id="hier" data-mode="flat" data-blur="off" data-gray="off">
+    <div class="stage-head">
+      <span class="stage-title">Одна карточка тура, три способа её оформить</span>
+      <div class="seg" role="group" aria-label="Оформление">
+        <button type="button" class="is-bad" data-set="mode=flat" aria-pressed="true">Всё одинаково</button>
+        <button type="button" class="is-bad" data-set="mode=loud" aria-pressed="false">Всё громко</button>
+        <button type="button" class="is-good" data-set="mode=clear" aria-pressed="false">Есть иерархия</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button type="button" class="btn ghost" data-toggle="blur" aria-pressed="false">Прищуриться</button>
+      <button type="button" class="btn ghost" data-toggle="gray" aria-pressed="false">Чёрно-белый режим</button>
+    </div>
+    <div class="stage-body sunk">
+      <article class="tour" aria-label="Пример карточки тура">
+        <div class="tour-img" aria-hidden="true"></div>
+        <div class="tour-body">
+          <p class="t-tag">Bestseller</p>
+          <p class="t-title">Nusa Penida in three days</p>
+          <p class="t-meta">3 days, up to 6 guests</p>
+          <p class="t-rate">4.9 from 212 reviews</p>
+          <p class="t-desc">Small boat, local captain, three snorkelling stops and the cliff walk before the buses arrive.</p>
+          <p class="t-price">$240 <span>per person</span></p>
+          <p class="t-acts"><span class="t-btn main">Book this tour</span><span class="t-btn sec">See the route</span></p>
+        </div>
+      </article>
+    </div>
+    <div class="stage-foot"><p>Включи «Прищуриться» в каждом режиме. В первом остаётся серая каша, во втором цветная каша. В третьем даже в размытии видно: название, цена, кнопка. Чёрно-белый режим проверяет, держится ли иерархия без цвета.</p></div>
+  </div>
+
+  <h3>Упражнение: расставь уровни сам</h3>
+  <p>Нажимай на строки, чтобы переключать уровень: 1 главное, 2 обычное, 3 приглушённое. Единственно верного ответа нет, но есть ограничение, которое и создаёт иерархию.</p>
+
+  <div class="stage" id="lvStage">
+    <div class="stage-head">
+      <span class="stage-title">Семь элементов карточки</span>
+      <button type="button" class="btn" id="lvCheck">Проверить</button>
+    </div>
+    <div class="stage-body sunk">
+      <div id="lvCard">
+        <button type="button" class="lv" data-lv="2" data-k="tag"><span>Bestseller</span><b>2</b></button>
+        <button type="button" class="lv" data-lv="2" data-k="title"><span>Nusa Penida in three days</span><b>2</b></button>
+        <button type="button" class="lv" data-lv="2" data-k="meta"><span>3 days, up to 6 guests</span><b>2</b></button>
+        <button type="button" class="lv" data-lv="2" data-k="rate"><span>4.9 from 212 reviews</span><b>2</b></button>
+        <button type="button" class="lv" data-lv="2" data-k="desc"><span>Small boat, local captain, three snorkelling stops.</span><b>2</b></button>
+        <button type="button" class="lv" data-lv="2" data-k="price"><span>$240 per person</span><b>2</b></button>
+        <button type="button" class="lv" data-lv="2" data-k="cta"><span>Book this tour</span><b>2</b></button>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="lvOut" aria-live="polite">Сейчас всё на втором уровне: это режим «всё одинаково».</p></div>
+  </div>
+
+  <div class="note human">
+    <p class="nt">Где ошибаются люди</p>
+    <ul>
+      <li>Выделяют всё, что кажется важным заказчику: жирным, цветом, капсом, рамкой. В итоге не выделено ничего.</li>
+      <li>Пользуются только размером. Вес и цвет работают тоньше: мелкий жирный тёмный текст заметнее крупного светлого.</li>
+    </ul>
+  </div>
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <ul>
+      <li>Делают равномерно аккуратно: все блоки одного веса и размера. Страница опрятная и при этом никакая, «не на чем задержаться». <span class="ev">◈ пять голосов: Flux, Anthropic, Brad Frost, Malewicz, DesignCourse (Claude, Sonnet 4.5, Fable, 2025–2026)</span></li>
+      <li>Ставят на первый экран шаблон «большая цифра, мелкая подпись, три показателя рядом». Anthropic называет его стандартным решением модели. <span class="ev">◈ Anthropic frontend-design, Impeccable</span></li>
+      <li>Украшения (метки, значки, плашки «статуса») получают больше внимания, чем суть. <span class="ev">◈ Anthropic, Impeccable, DesignCode (Opus 4.8, GPT-5.5, июнь 2026)</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Each section has one primary element. De-emphasize everything else with lighter colour and smaller size instead of making the primary louder.</li>
+      <li>Build hierarchy with weight and colour before reaching for size. Three text levels are enough: primary, secondary, tertiary.</li>
+      <li>The page must pass a squint test: with the screenshot blurred, the heading, the price and the main button are still identifiable.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="action" data-short="Одно главное действие" data-mode="three">
+  <h2>Одно главное действие на экран</h2>
+  <p>На каждом экране есть одно действие, ради которого он сделан. Его кнопка должна быть единственной залитой. Второе по важности действие получает кнопку с рамкой, третье становится текстовой ссылкой. <span class="ev">◈ Schoger, Sajid, Polito</span></p>
+
+  <div class="stage" data-mode="three" id="actStage">
+    <div class="stage-head">
+      <span class="stage-title">Три кнопки в первом экране</span>
+      <div class="seg" role="group" aria-label="Оформление кнопок">
+        <button type="button" class="is-bad" data-set="mode=three" data-for="#action" aria-pressed="true">Три главные</button>
+        <button type="button" class="is-good" data-set="mode=one" data-for="#action" aria-pressed="false">Одна главная</button>
+      </div>
+    </div>
+    <div class="stage-body sunk">
+      <div class="act">
+        <div class="mh">Three days around Nusa Penida</div>
+        <p>Six guests, a local captain, and the cliffs before the buses arrive.</p>
+        <p class="act-row"><span class="a1">Check dates</span><span class="a2">See the route</span><span class="a3">Ask a question</span></p>
+      </div>
+    </div>
+    <div class="stage-foot"><p>Три разных цвета заставляют человека выбирать между равными вариантами. Один залитый вариант говорит: обычно нажимают сюда.</p></div>
+  </div>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <ul>
+      <li>Градиентная кнопка с мягкой тенью и стрелкой «→» в конце надписи там, где достаточно спокойной залитой. <span class="ev">◈ Anthropic, Flux (Claude, 2026), Impeccable</span></li>
+      <li>Надписи на кнопках и ссылках ничего не говорят: «Get Started», «Learn more», «Submit». В рецензируемом исследовании это две самые частые ошибки в страницах моделей, вместе больше половины. <span class="ev">◆ CHI 2026 (claude-sonnet-4, gemini-2.5-flash, gpt-4o); ◇ Malewicz</span></li>
+    </ul>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <p>Две равные залитые кнопки рядом. Принцип «одно главное действие на экран» общий для дизайн-систем и исследователей юзабилити. <span class="ev">◈ Schoger, Sajid, Polito; Microsoft Fluent, Baymard</span></p>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>One primary (filled) button per screen. Secondary actions are outlined, tertiary actions are text links.</li>
+      <li>The primary action is the same everywhere on the site and has the same label.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="space" data-short="Отступы">
+  <h2>Отступы объясняют, что к чему относится</h2>
+  <p>Пустое место это не «воздух для красоты», а грамматика страницы. Правило одно: чем сильнее связаны два элемента, тем они ближе. Заголовок ближе к своему тексту, чем к предыдущему блоку. Подпись ближе к своему полю, чем к соседнему. <span class="ev">◈ закон близости: Chainlift, Showalter, Sajid, Todaro, Polito</span></p>
+
+  <div class="stage" id="prox">
+    <div class="stage-head"><span class="stage-title">К какому полю относится подпись?</span></div>
+    <div class="controls">
+      <label class="field">от подписи до своего поля <input type="range" min="2" max="26" value="14" data-var="--in" data-show=" px"><output></output></label>
+      <label class="field">между полями <input type="range" min="4" max="44" value="14" data-var="--out" data-show=" px"><output></output></label>
+    </div>
+    <div class="stage-body sunk">
+      <form class="pf" onsubmit="return false">
+        <div class="row"><label for="pf1">Name</label><input id="pf1" type="text" autocomplete="off" placeholder="Maria Keller…"></div>
+        <div class="row"><label for="pf2">Email</label><input id="pf2" type="email" autocomplete="off" spellcheck="false" placeholder="maria@example.com…"></div>
+        <div class="row"><label for="pf3">Dates</label><input id="pf3" type="text" autocomplete="off" placeholder="12 to 15 March…"></div>
+      </form>
+    </div>
+    <div class="stage-foot"><p id="proxOut" aria-live="polite"></p></div>
+  </div>
+
+  <p>Второе правило: отступы берут из заранее заданной шкалы, а не подбирают на глаз. Chainlift формулирует жёстко: не на глаз, а из набора значений. Шкала обычно растёт всё более крупными шагами: 4, 8, 12, 16, 24, 32, 48, 64, 96. <span class="ev">◈ Chainlift, Schoger; ◆ Impeccable: «tight groups, generous separation»</span></p>
+
+  <div class="stage" id="scale" data-mode="eye">
+    <div class="stage-head">
+      <span class="stage-title">Отступы на глаз и отступы из шкалы</span>
+      <div class="seg" role="group" aria-label="Откуда взяты отступы">
+        <button type="button" class="is-bad" data-set="mode=eye" aria-pressed="true">На глаз</button>
+        <button type="button" class="is-good" data-set="mode=sys" aria-pressed="false">Из шкалы</button>
+      </div>
+    </div>
+    <div class="stage-body sunk">
+      <div class="sc">
+        <div class="mh">What is included</div>
+        <p>Everything you need for a day on the water.</p>
+        <ul><li>Hotel pickup</li><li>Lunch and gear</li><li>Insurance</li></ul>
+        <span>Check dates</span>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="scaleOut" aria-live="polite"></p></div>
+  </div>
+
+  <div class="stage" id="head" data-mode="mid">
+    <div class="stage-head">
+      <span class="stage-title">Заголовок посреди текста</span>
+      <div class="seg" role="group" aria-label="Положение заголовка">
+        <button type="button" class="is-bad" data-set="mode=mid" aria-pressed="true">Ровно посередине</button>
+        <button type="button" class="is-good" data-set="mode=near" aria-pressed="false">Ближе к своему тексту</button>
+      </div>
+    </div>
+    <div class="stage-body sunk">
+      <div class="hd">
+        <p>The boat leaves Sanur harbour at 7:30, before the day-trip buses reach the island.</p>
+        <div class="mh">What to bring</div>
+        <p>Swimwear, a towel and a light jacket for the ride back. We provide masks, fins and reef-safe sunscreen.</p>
+      </div>
+    </div>
+    <div class="stage-foot"><p>Над заголовком места больше, чем под ним: он открывает следующий кусок, а не закрывает предыдущий. <span class="ev">◆ Impeccable</span></p></div>
+  </div>
+
+  <p class="small">Спорное место: Chainlift показывает, что математически равные отступы иногда выглядят неравными и требуют оптической поправки, а другие авторы настаивают на строгой сетке. Для первой версии страницы достаточно шкалы; поправки делают в конце, глазами. <span class="ev">◇</span></p>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <p>Отступы неровные: сверху у блока одно расстояние, слева другое. После нескольких правок в коде появляются случайные значения вроде 13, 22, 37. Каждое выглядит нормально, вместе они дают ощущение неряшливости. <span class="ev">◈ DesignCode (Opus 4.8, GPT-5.5, июнь 2026), Anthropic</span></p>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Один и тот же отступ везде: 24 пикселя внутри карточки, между карточками и между секциями. Группы не читаются. <span class="ev">◈ Impeccable, Schoger</span></li>
+      <li>На телефоне отступы остаются десктопными: по 80 пикселей пустоты между блоками на экране высотой 700. Material Design прямо требует менять отступы в зависимости от экрана. <span class="ev">◆ Material Design 3</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Define a spacing scale as CSS custom properties (4, 8, 12, 16, 24, 32, 48, 64, 96 px in rem) and use only those values.</li>
+      <li>Space inside a group must be clearly smaller than space between groups. More space above a heading than below it.</li>
+      <li>Section padding scales with the viewport: clamp() between a mobile and a desktop value.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="align-sec" data-short="Выравнивание">
+  <h2>Выравнивание: глазу нужен край</h2>
+  <p>Когда элементы начинаются с одной вертикали, глаз возвращается к ней после каждой строки и скользит вниз. Когда у каждой строки своё начало, глаз каждый раз ищет заново. Schoger называет это якорем: выровненное по левому краю стоит на месте, выровненное по центру «плавает». <span class="ev">◈ практика; у нас один автор, Schoger</span></p>
+
+  <div class="stage" id="align" data-mode="center" data-guides="off">
+    <div class="stage-head">
+      <span class="stage-title">Тот же блок, два выравнивания</span>
+      <div class="seg" role="group" aria-label="Выравнивание">
+        <button type="button" class="is-bad" data-set="mode=center" aria-pressed="true">Всё по центру</button>
+        <button type="button" class="is-good" data-set="mode=left" aria-pressed="false">По левому краю</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button type="button" class="btn ghost" data-toggle="guides" aria-pressed="false">Показать линию края</button>
+    </div>
+    <div class="stage-body sunk">
+      <div class="al">
+        <div class="mh">A day on the water, start to finish</div>
+        <p>We leave Sanur at 7:30 and reach Manta Point while the water is still calm. After two snorkelling stops there is lunch above Crystal Bay, then the cliff walk before the buses arrive.</p>
+        <ul><li>Hotel pickup from Sanur, Kuta or Seminyak</li><li>Lunch, masks and fins</li><li>Back by 17:00</li></ul>
+        <span>Check dates</span>
+      </div>
+    </div>
+    <div class="stage-foot"><p>По центру хорошо стоит короткое: заголовок и одна строка под ним. Абзацы и списки по центру читать трудно.</p></div>
+  </div>
+
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Центрируют всё подряд, включая абзацы на пять строк. У каждой строки свой левый край, и глаз ищет начало заново. <span class="ev">◈ Pamental; исследования чтения NN/g</span></li>
+      <li>Смешивают на одной странице несколько вертикалей: шапка по краю экрана, текст по центру, карточки со своим отступом. <span class="ev">◇ Impeccable</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Left-align body text and lists. Center only short headings with at most one supporting line.</li>
+      <li>One container width and one left edge for all sections of the page.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="type" data-short="Шрифт">
+  <h2>Шрифт: размеры, длина строки, воздух</h2>
+  <p>Большая часть любой страницы это текст, поэтому типографика даёт больше всего результата на единицу усилий. Для начала хватает четырёх решений: шкала размеров, длина строки, межстрочный интервал и число шрифтов.</p>
+
+  <h3>Шкала размеров</h3>
+  <p>Размеры не придумывают по одному, а получают умножением базового на один и тот же коэффициент. Получается лесенка, в которой ступени видны. Размеров нужно мало: Sajid показывает интерфейсы, где весь текст одного размера, а иерархию держат вес и цвет. <span class="ev">◇ Sajid; ◆ Impeccable: «obvious scale and weight steps»</span></p>
+
+  <div class="stage" id="tscale">
+    <div class="stage-head">
+      <span class="stage-title">Собери шкалу</span>
+      <div class="seg" role="group" aria-label="Коэффициент шкалы">
+        <button type="button" data-ratio="1.125" aria-pressed="false">1.125</button>
+        <button type="button" data-ratio="1.2" aria-pressed="false">1.2</button>
+        <button type="button" data-ratio="1.25" aria-pressed="true">1.25</button>
+        <button type="button" data-ratio="1.333" aria-pressed="false">1.333</button>
+        <button type="button" data-ratio="1.5" aria-pressed="false">1.5</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">базовый размер <input type="range" min="14" max="20" value="16" id="tsBase"><output id="tsBaseOut">16 px</output></label>
+    </div>
+    <div class="stage-body sunk"><div class="ts" id="tsOut"></div></div>
+    <div class="stage-foot"><p id="tsNote" aria-live="polite"></p></div>
+  </div>
+
+  <h3>Длина строки и межстрочный интервал</h3>
+  <p>Слишком длинную строку трудно читать: глаз теряет начало следующей. Слишком короткая рвёт фразы. Ориентиры из разных источников сходятся: Impeccable просит 65–75 знаков, скилл Anthropic меньше 80, классическая типографика называет удобным диапазон 45–75. <span class="ev">◆ тексты скиллов; ◈ Bringhurst, по памяти, не сверял сегодня</span></p>
+
+  <div class="stage" id="measure">
+    <div class="stage-head"><span class="stage-title">Сколько знаков в строке</span></div>
+    <div class="controls">
+      <label class="field">ширина колонки <input type="range" min="220" max="900" value="820" step="10" data-var="--mw" data-show=" px"><output></output></label>
+      <label class="field">размер шрифта <input type="range" min="13" max="22" value="16" data-var="--fs" data-show=" px"><output></output></label>
+      <label class="field">line-height <input type="range" min="1" max="2" value="1.2" step="0.05" data-var="--lh"><output></output></label>
+    </div>
+    <div class="stage-body sunk">
+      <div id="mBox"><p id="mText">We leave Sanur harbour at half past seven and reach Manta Point while the water is still calm and the day boats are an hour behind us. After two snorkelling stops there is lunch in a family warung above Crystal Bay, and in the afternoon we walk the cliff path to Kelingking before the buses arrive from the port.</p></div>
+    </div>
+    <div class="stage-foot"><p id="mOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>Про межстрочный интервал: для основного текста обычно берут около 1.5, для крупных заголовков меньше, 1.05–1.2, иначе строки заголовка разваливаются. <span class="ev">◈ практика</span> И про число шрифтов: одно семейство или два, причём два должны быть явно разными. <span class="ev">◆ Anthropic frontend-design; ◇ Polito</span></p>
+
+  <div class="note human">
+    <p class="nt">Где ошибаются люди</p>
+    <ul>
+      <li>Растягивают текст на всю ширину монитора: 150 знаков в строке.</li>
+      <li>Берут пять размеров, которые отличаются на 1–2 пикселя. Разницу не видно, а порядка нет.</li>
+      <li>Для сайта на русском выбирают шрифт без кириллицы. Латиница красивая, русский текст выводится запасным шрифтом.</li>
+    </ul>
+  </div>
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <ul>
+      <li>Один и тот же шрифт во всех проектах. Чаще всего называют Inter, Roboto и Montserrat. <span class="ev">◈ четыре голоса: DesignCode (Opus 4.8, GPT-5.5, июнь 2026), Flux (апрель и август 2026, эпоха Fable 5), Meng To, Anthropic</span> У новых моделей список шире: детектор Impeccable ловит также Fraunces, Geist, Plus Jakarta Sans и Space Grotesk. <span class="ev">◈ Impeccable</span></li>
+      <li>Моноширинный шрифт для мелких подписей, чтобы выглядело «технологично». <span class="ev">◈ Anthropic, Impeccable</span></li>
+    </ul>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Гигантский заголовок на десктопе, который на телефоне занимает весь экран или не помещается. Текст должен читаться на ширине 320 пикселей без прокрутки вбок. <span class="ev">◆ WCAG 1.4.10</span></li>
+      <li>Заголовок с одинокой последней строкой из одного слова. Лечится <code>text-wrap: balance</code>. <span class="ev">◆ Vercel</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Type scale from one ratio, defined as CSS custom properties. At most two font families.</li>
+      <li>Body text: max-width 65ch, line-height about 1.5. Large headings: line-height 1.05 to 1.2, text-wrap: balance.</li>
+      <li>Headings use clamp() so they fit a 320 px screen without breaking words.</li>
+      <li>Check that the chosen font includes every script the site uses (Latin, Cyrillic).</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="contrast" data-short="Контраст">
+  <h2>Контраст: читается или нет</h2>
+  <p>Здесь нет места вкусу, есть формула и порог. WCAG требует для обычного текста контраст не меньше <mark>4.5 : 1</mark>, для крупного не меньше <mark>3 : 1</mark>. <span class="ev">◆ WCAG 2.2, критерий 1.4.3, проверено по тексту</span> Крупным считается текст примерно от 24 пикселей или от 18.7 пикселя жирным. <span class="ev">◆ определение WCAG: 18 пунктов или 14 пунктов жирным</span> Логотипы и чисто декоративный текст из требования исключены.</p>
+
+  <div class="stage" id="cx">
+    <div class="stage-head"><span class="stage-title">Проверка контраста по формуле WCAG</span></div>
+    <div class="controls">
+      <label class="field">текст <input type="color" id="cxFg" value="#9ca3af"></label>
+      <label class="field">фон <input type="color" id="cxBg" value="#ffffff"></label>
+      <span class="cx-presets">
+        <button type="button" class="btn ghost" data-fg="#9ca3af" data-bg="#ffffff">Серый от нейронки</button>
+        <button type="button" class="btn ghost" data-fg="#ffffff" data-bg="#f5b301">Белый на жёлтой кнопке</button>
+        <button type="button" class="btn ghost" data-fg="#6b7280" data-bg="#dbeafe">Серый на голубом</button>
+        <button type="button" class="btn ghost" data-fg="#5a6170" data-bg="#f5f6f8">Вторичный текст этого курса</button>
+      </span>
+    </div>
+    <div class="stage-body">
+      <div class="cx-grid">
+        <div id="cxSample">
+          <p class="big">Nusa Penida in three days</p>
+          <p class="norm">Small boat, local captain, three snorkelling stops.</p>
+          <p class="tiny">From $240 per person, lunch included.</p>
+        </div>
+        <div>
+          <div id="cxRatio" aria-live="polite"></div>
+          <ul class="cx-rows" id="cxRows"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p>Попробуй свои цвета. Серый <code>#9ca3af</code> на белом это стандартный «вторичный текст» из популярных наборов стилей. Он не проходит ни один порог.</p></div>
+  </div>
+
+  <h3>Текст поверх фотографии</h3>
+  <p>На фото-сайте заголовок часто лежит на снимке. У снимка нет одного цвета: где-то тёмная вода, где-то белое облако. Поэтому под текст кладут подложку.</p>
+
+  <div class="stage" id="photo" data-mode="none">
+    <div class="stage-head">
+      <span class="stage-title">Белый текст на светлом фото</span>
+      <div class="seg" role="group" aria-label="Подложка под текст">
+        <button type="button" class="is-bad" data-set="mode=none" aria-pressed="true">Без подложки</button>
+        <button type="button" data-set="mode=shade" aria-pressed="false">Затемнить всё фото</button>
+        <button type="button" class="is-good" data-set="mode=grad" aria-pressed="false">Градиент снизу</button>
+        <button type="button" class="is-good" data-set="mode=plate" aria-pressed="false">Плашка</button>
+      </div>
+    </div>
+    <iframe id="phFrame" title="Заголовок поверх фотографии"></iframe>
+    <div class="stage-foot"><p>Затемнение всего кадра спасает текст и убивает фото. Градиент только под текстом сохраняет снимок. Плашка самая надёжная, когда фотографии меняются и заранее неизвестно, что окажется под текстом.</p></div>
+  </div>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <ul>
+      <li>Низкий контраст текста. Это самая частая измеренная ошибка моделей: в бенчмарке AIMAC она есть на 87% сгенерированных страниц, у Opus 5.5 и Fable 5.1 тоже на первом месте. Обычно это светло-серый вторичный текст и ещё более светлые подсказки в полях. <span class="ev">◈ AIMAC, 70 моделей, октябрь 2026; ◇ Brad Frost (Sonnet 4.5)</span></li>
+      <li>Серый текст на цветном фоне, который не сочетается с цветом. На цветной поверхности вторичный текст получают из оттенка самого фона, а не из серого. <span class="ev">◇ DesignCode (Opus 4.8, GPT-5.5); правило: ◈ Impeccable, Schoger</span></li>
+      <li>Ссылки отличаются от текста только цветом. <span class="ev">◈ AIMAC, Fable 5.1</span></li>
+    </ul>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Белый текст прямо на фото без подложки: на картинке из макета читается, на реальных снимках клиента нет. <span class="ev">◆ WCAG 1.4.3; ◆ NN/g</span></li>
+      <li>Состояние считывается только по цвету: красная рамка у поля без текста ошибки. <span class="ev">◆ WCAG 1.4.1; ◈ Osmani</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>All text meets WCAG AA: 4.5:1 for body and placeholder text, 3:1 for large text, on every background it sits on.</li>
+      <li>Text over photos always gets a gradient scrim or a solid plate; assume the photo can be any brightness.</li>
+      <li>Never signal state by colour alone; add text or an icon.</li>
+    </ul>
+  </div>
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <p>Inspect на тексте, во вкладке Styles нажми на цветной квадратик рядом с <code>color</code>. В открывшейся палитре есть строка Contrast ratio с галочками порогов. <span class="ev">◆ Chrome DevTools</span></p>
+  </div>
+</section>
+
+<section class="sec" id="color" data-short="Цвет">
+  <h2>Цвет: роли вместо палитры</h2>
+  <p>Рабочая схема для сайта простая. Нейтральная основа занимает почти всё: фон и текст. Один акцентный цвет отвечает за действие: главная кнопка, ссылки, рамка фокуса. Служебные цвета сообщают состояние: успех, ошибка, предупреждение. Акцент работает, пока его мало. Schoger показывает это на меню: одна тонкая цветная полоска у активного пункта привлекает внимание сильнее, чем заливка всего вокруг. <span class="ev">◈ Schoger, Todaro, Polito: эффект изоляции</span></p>
+
+  <div class="stage" id="accent" data-mode="all">
+    <div class="stage-head">
+      <span class="stage-title">Один цвет, два способа им пользоваться</span>
+      <div class="seg" role="group" aria-label="Где используется акцент">
+        <button type="button" class="is-bad" data-set="mode=all" aria-pressed="true">Везде</button>
+        <button type="button" class="is-good" data-set="mode=focus" aria-pressed="false">Только на действии</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">оттенок <input type="range" min="0" max="360" value="265" id="accHue"><output id="accHueOut"></output></label>
+    </div>
+    <div class="stage-body sunk">
+      <div class="acc" id="accBox">
+        <div class="acc-nav"><strong>Nusa Trips</strong><span>Tours</span><span>Reviews</span><span class="acc-pill">Summer dates open</span></div>
+        <div class="mh">Three days around Nusa Penida</div>
+        <p>Six guests, a local captain, and the cliffs before the buses arrive. <span class="acc-link">See the route</span></p>
+        <ul><li>Hotel pickup</li><li>Lunch and gear</li><li>Insurance</li></ul>
+        <div class="acc-acts"><span class="acc-btn p">Check dates</span><span class="acc-btn s">Ask a question</span></div>
+      </div>
+      <span id="accProbe" aria-hidden="true"></span>
+    </div>
+    <div class="stage-foot"><p id="accOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>Покрути оттенок до жёлтого или оранжевого и посмотри на текст кнопки. На светлом цвете белый текст не проходит по контрасту, и демо само переключает его на тёмный. Это приём Schoger: если цвет бренда светлый, текст на нём делают тёмным, а не затемняют бренд до коричневого. <span class="ev">◇ Schoger</span></p>
+  <p class="small">Правило «60 на 30 на 10» встречается часто, но в нашей проверенной подборке его нет. Относись к нему как к удобной подсказке, не как к закону. <span class="ev">◇</span></p>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <ul>
+      <li>Фиолетовый или сине-фиолетовый градиент со светящимися пятнами. Это признак моделей середины 2026 года (Opus 4.8, GPT-5.5). Сам DesignCode называет его «очень 2025», а у новейших моделей шаблоны уже другие, они перечислены в разделе «Как узнать работу нейронки». <span class="ev">◈ DesignCode, Flux, Malewicz, Impeccable</span></li>
+      <li>Градиентный текст в заголовке. Выделение дают вес и размер. <span class="ev">◈ Impeccable; аудит страницы Claude у Flux, май 2026</span></li>
+      <li>Три-четыре акцента сразу: у каждой карточки свой цвет иконки. <span class="ev">◈ DesignCode (Opus 4.8), DesignCourse (Fable)</span></li>
+    </ul>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <p>Разные серые в одном интерфейсе: тёплые, холодные и синеватые вперемешку. Schoger обходится тремя. <span class="ev">◇ Schoger</span></p>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Palette: neutrals for surfaces and text, one accent reserved for the primary action, links and focus ring, plus semantic colours for states.</li>
+      <li>No gradient text, no decorative glow, no purple-to-blue gradients unless the brand asks for them.</li>
+      <li>One family of greys, tinted toward the brand hue. Define all colours as CSS custom properties.</li>
+      <li>If the accent is light, put dark text on it instead of darkening the accent.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="tells" data-short="Признаки нейронки">
+  <h2>Как узнать работу нейронки с первого взгляда</h2>
+  <p>Модели сходятся к одним и тем же решениям, потому что видели одни и те же сайты. Эти решения сами по себе не ошибки. Скилл Anthropic говорит о них так: каждое уместно в каком-то проекте, но это значения по умолчанию, а не выбор, и они появляются независимо от темы. <span class="ev">◆ Anthropic frontend-design</span> Клиент, который видел десять таких страниц, одиннадцатую узнаёт мгновенно.</p>
+  <p>Ниже первый экран, собранный из типичных решений по умолчанию. Нажимай на всё, что кажется шаблонным. Признаков десять.</p>
+
+  <div class="stage" id="tellStage" data-ver="slop">
+    <div class="stage-head">
+      <span class="stage-title" id="tellCount">Найдено 0 из 10</span>
+      <div class="tell-bar">
+        <button type="button" class="btn ghost" id="tellHint">Показать, где ещё искать</button>
+        <div class="seg" role="group" aria-label="Версия экрана">
+          <button type="button" class="is-bad" data-set="ver=slop" aria-pressed="true">Шаблон</button>
+          <button type="button" class="is-good" data-set="ver=fixed" aria-pressed="false">После правки</button>
+        </div>
+      </div>
+    </div>
+    <iframe id="tellFrame" title="Первый экран, собранный из типичных решений нейронки"></iframe>
+    <div class="stage-foot">
+      <p id="tellOut" aria-live="polite">Нажми на любой элемент экрана.</p>
+      <ul id="tellList"></ul>
+    </div>
+  </div>
+
+  <p>Переключись на «После правки». Тот же объём, но вместо общих слов конкретный тур, одна главная кнопка, выравнивание по краю, место под настоящее фото. Нумерация осталась, потому что расписание дня и правда последовательность: в этом вся разница между выбором и привычкой.</p>
+
+  <div class="note ai">
+    <p class="nt">Шаблоны, описанные для моделей 2026 года</p>
+    <p>Признаки устаревают вместе с моделями. Вот что источники описывают сейчас.</p>
+    <ul>
+      <li>Кремовый фон, контрастный серифный шрифт в заголовках и терракотовый акцент. Anthropic прямо называет это шаблоном своих моделей. В тесте Fable 5 сама модель предсказала именно такую «типичную» страницу. <span class="ev">◈ Anthropic, Flux (Fable 5, август 2026), DesignCourse (Fable)</span></li>
+      <li>Почти чёрный фон с одним кислотно-зелёным или ярко-красным акцентом. <span class="ev">◇ Anthropic</span></li>
+      <li>Одинаковые скруглённые карточки с одной и той же мягкой серой тенью. <span class="ev">◈ Anthropic, Flux</span></li>
+      <li>Цветная полоса по левому краю каждой карточки. Детектор Impeccable называет её самым узнаваемым признаком. <span class="ev">◈ Impeccable, Flux (апрель 2026)</span></li>
+      <li>Нумерация 01 / 02 / 03 там, где содержимое не последовательность. <span class="ev">◈ Anthropic, Impeccable</span></li>
+      <li>Строки через точку посередине («A · B · C») и стрелка «→» в конце каждой ссылки. <span class="ev">◇ Anthropic</span></li>
+      <li>Эмодзи вместо иконок. <span class="ev">◈ Flux (дважды), Impeccable</span></li>
+      <li>Иконки Lucide по умолчанию. <span class="ev">◇ DesignCode</span></li>
+      <li>Иллюстрации, нарисованные самим HTML и SVG, там, где нужна фотография или настоящая графика. <span class="ev">◇ DesignCode (июнь 2026 и Opus 5.5, сентябрь 2026)</span></li>
+      <li>Нетронутые части браузера: цвет выделения текста, полосы прокрутки, кольцо фокуса. Impeccable пишет, что модели пропускают это надёжнее всего. <span class="ev">◇ Impeccable</span></li>
+    </ul>
+    <p class="small">Все эти наблюдения визуальные и сделаны практиками, у большинства есть коммерческий интерес (курсы, свои инструменты, спонсоры). Структурных тестов с несколькими запросами на модель в источниках нет.</p>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Do not put eyebrow labels, status chips or badges above headings.</li>
+      <li>No gradient or italic accent on a single word in a headline.</li>
+      <li>Avoid identical icon-heading-text card rows as page structure, emoji used as icons, and 01/02/03 numbering on content that is not a real sequence.</li>
+      <li>Do not append arrow glyphs to links and buttons or join meta strings with middle dots.</li>
+      <li>Before coding, write a short design plan (palette, type, layout) and revise any part you would produce for any similar page.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="copy" data-short="Текст в интерфейсе">
+  <h2>Текст в интерфейсе это тоже дизайн</h2>
+  <p>Шаблонным страницу делают не только карточки, но и слова. Скилл Anthropic: текст может выдать шаблон так же, как вёрстка. Правила совпадают у Anthropic и Vercel. <span class="ev">◆ тексты обоих скиллов</span></p>
+  <ul class="copy-t wide">
+    <li><s>Submit</s><b>Send request</b><small>Кнопка называет то, что произойдёт.</small></li>
+    <li><s>Learn more</s><b>See the 3-day route</b><small>Ссылка понятна без соседнего текста.</small></li>
+    <li><s>Elevate your journey</s><b>Three days around Nusa Penida by small boat</b><small>Конкретное вместо общего.</small></li>
+    <li><s>An error occurred</s><b>Card declined. Try another card or pay on arrival.</b><small>Ошибка говорит, что случилось и что делать.</small></li>
+    <li><s>No data</s><b>No tours on these dates. Try a week later.</b><small>Пустой экран подсказывает следующий шаг.</small></li>
+    <li><s>eight tours</s><b>8 tours</b><small>Количество цифрой.</small></li>
+  </ul>
+
+  <div class="quiz" data-quiz="l2-copy">
+    <script type="application/json">
+[
+ {"q":"Кнопка под формой бронирования. Какая подпись лучше?","opts":["Submit","Request these dates"],"a":1,"why":"Подпись называет действие и его результат. Человек понимает, что будет после нажатия."},
+ {"q":"Ссылка под описанием тура.","opts":["See what is included","Click here"],"a":0,"why":"Программы экранного доступа читают список ссылок без окружающего текста. «Click here» в таком списке ничего не значит."},
+ {"q":"Сообщение, когда поле почты заполнено неверно.","opts":["Invalid input","Add the part after @, for example name@gmail.com"],"a":1,"why":"Хорошая ошибка называет проблему и способ её исправить, без извинений и общих слов."},
+ {"q":"Заголовок первого экрана сайта туров.","opts":["Unlock unforgettable experiences","Snorkel with manta rays before the day boats arrive"],"a":1,"why":"Первая фраза подошла бы любому сайту в мире. Вторая подходит только этому."}
+]
+    </script>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Button labels name the action and its result. The same action keeps the same name through the whole flow.</li>
+      <li>Error messages say what happened and how to fix it. Empty states suggest the next step.</li>
+      <li>Write from the visitor's side in active voice with plain verbs, and leave out filler words such as elevate, seamless, unlock, tailored.</li>
+      <li>Use only facts from the brief. Mark anything invented (prices, numbers, reviews) as placeholder.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="selfcheck" data-short="Пять проверок">
+  <h2>Пять проверок без инструментов</h2>
+  <ol>
+    <li><strong>Прищур.</strong> Отодвинься и прищурься, или размой скриншот. Что осталось видно, то и есть главное на странице. Совпадает с тем, что должно быть главным?</li>
+    <li><strong>Чёрно-белый режим.</strong> Если без цвета пропала разница между главной и второстепенной кнопкой, иерархия держалась только на цвете.</li>
+    <li><strong>Отъезд.</strong> Уменьши масштаб страницы до 25–33% (<code>Ctrl</code> и минус). Видны ли блоки и ритм, или сплошная полоса?</li>
+    <li><strong>Пять секунд.</strong> Покажи первый экран человеку на пять секунд и спроси: что это, для кого, что тут нажать. Это стандартный приём юзабилити-тестирования. <span class="ev">◈</span></li>
+    <li><strong>Чужое содержимое.</strong> Подставь самое длинное название и самое неудачное фото клиента. Дизайн, который держится только на идеальном контенте, не готов.</li>
+  </ol>
+</section>
+
+<section class="sec" id="accept" data-short="Чек-лист приёмки">
+  <h2>Чек-лист приёмки внешнего вида</h2>
+  <ul class="checklist" data-id="l2">
+    <li><label><input type="checkbox"><span>На каждом экране понятно, что главное: проверил прищуром.</span></label></li>
+    <li><label><input type="checkbox"><span>Одна залитая кнопка на экран, у главного действия везде одно название.</span></label></li>
+    <li><label><input type="checkbox"><span>Отступы только из шкалы; внутри групп меньше, чем между группами.</span></label></li>
+    <li><label><input type="checkbox"><span>Абзацы и списки по левому краю, у всех секций один край.</span></label></li>
+    <li><label><input type="checkbox"><span>Строка основного текста не длиннее 75–80 знаков.</span></label></li>
+    <li><label><input type="checkbox"><span>Не больше двух шрифтов; размеры из одной шкалы.</span></label></li>
+    <li><label><input type="checkbox"><span>Весь текст проходит 4.5 : 1, включая серый и подсказки в полях.</span></label></li>
+    <li><label><input type="checkbox"><span>Под текстом на фото есть подложка.</span></label></li>
+    <li><label><input type="checkbox"><span>Акцентный цвет только на действии; серые из одного семейства.</span></label></li>
+    <li><label><input type="checkbox"><span>Нет надзаголовков, плашек, градиентных слов, эмодзи-иконок и нумерации без причины.</span></label></li>
+    <li><label><input type="checkbox"><span>Кнопки и ошибки говорят конкретно; выдуманных фактов нет.</span></label></li>
+  </ul>
+</section>
+
+<section class="sec" id="quiz" data-short="Тест">
+  <h2>Проверь себя</h2>
+  <div class="quiz" data-quiz="l2">
+    <script type="application/json">
+[
+ {"q":"На карточке нужно выделить название и цену. Что надёжнее всего?","opts":["Сделать их ярко-красными","Приглушить всё остальное: светлее и мельче","Добавить рамку вокруг названия","Написать название капсом"],"a":1,"why":"Выделение относительно. Проще и чище опустить второстепенное, чем перекрикивать его."},
+ {"q":"В первом экране три залитые кнопки разных цветов. Что попросить?","opts":["Сделать их одного цвета","Оставить одну залитую, вторую с рамкой, третью ссылкой","Увеличить главную кнопку","Добавить к каждой иконку"],"a":1,"why":"Одно главное действие на экран. Остальные получают более тихое оформление."},
+ {"q":"Подпись стоит ровно посередине между двумя полями формы. В чём проблема?","opts":["Форма выглядит слишком плотной","Непонятно, к какому полю подпись относится","Подпись должна быть справа","Проблемы нет"],"a":1,"why":"Расстояние показывает связь. До своего поля должно быть заметно ближе, чем до чужого."},
+ {"q":"Абзац на десктопе растянут на 140 знаков в строке. Что сказать модели?","opts":["Уменьшить шрифт","Увеличить line-height до 2","Ограничить колонку: max-width около 65ch","Выровнять по центру"],"a":2,"why":"Длинную строку трудно читать: глаз теряет начало следующей. Ориентир 45–75 знаков."},
+ {"q":"Какой контраст требует WCAG AA для обычного текста?","opts":["3 : 1","4.5 : 1","7 : 1","Достаточно, чтобы дизайнеру нравилось"],"a":1,"why":"4.5 : 1 для обычного текста и 3 : 1 для крупного. 7 : 1 это более строгий уровень AAA."},
+ {"q":"Описание тура набрано цветом #9ca3af на белом. Вывод?","opts":["Нормально, это вторичный текст","Не проходит: контраст около 2.5 : 1","Проходит для мелкого текста","Нужно сделать жирным"],"a":1,"why":"Вторичный текст всё равно текст. Порог тот же, 4.5 : 1."},
+ {"q":"Над каждым заголовком секции стоит мелкая надпись капсом с разрядкой. Что с ней делать?","opts":["Оставить, это стильно","Убрать, а смысл перенести в сам заголовок","Сделать крупнее","Покрасить в акцентный цвет"],"a":1,"why":"Надзаголовок один из самых узнаваемых признаков шаблона. Заголовок должен справляться сам."},
+ {"q":"Фирменный цвет клиента светло-жёлтый, белый текст на кнопке не читается. Решение?","opts":["Затемнить жёлтый до коричневого","Сделать текст на кнопке тёмным","Добавить тексту тень","Увеличить кнопку"],"a":1,"why":"На светлом акценте текст делают тёмным. Бренд остаётся собой, контраст проходит."},
+ {"q":"Длинный абзац и список из трёх пунктов выровнены по центру. Что не так?","opts":["Ничего","У строк нет общего начала, глаз каждый раз ищет заново","Нужно выровнять по правому краю","По центру можно только списки"],"a":1,"why":"Центр подходит для короткого: заголовок и одна строка. Всё длинное выравнивают по левому краю."},
+ {"q":"Нумерация 01, 02, 03 у трёх преимуществ компании. Когда она уместна?","opts":["Всегда, так аккуратнее","Когда пункты и правда идут по порядку: шаги, расписание","Когда карточек больше пяти","Никогда"],"a":1,"why":"Структурные элементы должны нести информацию. Номера оправданы только у настоящей последовательности."}
+]
+    </script>
+  </div>
+</section>
+
+<section class="sec" id="sources" data-short="Источники">
+  <h2>Откуда это взято</h2>
+  <ul>
+    <li>◆ WCAG 2.2, критерий 1.4.3 Contrast (Minimum): пороги 4.5 : 1 и 3 : 1 проверены по тексту W3C.</li>
+    <li>◆ Anthropic frontend-design, Impeccable (craft-floor) и Vercel Web Interface Guidelines: тексты прочитаны в исходниках.</li>
+    <li>◈ Steve Schoger, «Refactoring UI: Bad About»; Chainlift, «The Secret Science of Perfect Spacing»; Sajid, «The 80% of UI Design: Typography».</li>
+    <li>◈ Перекрёстная проверка одиннадцати видео по UX и UI на четырёх языках: Todaro, Soy Dalto, Polito, Nielsen, UPROCK, Showalter и другие.</li>
+    <li>◈ DesignCode, «How to Avoid AI Slop in Vibe-Coded Landing Pages» (у автора есть коммерческий интерес к своему продукту).</li>
+    <li>◈ Наблюдения за выдачей моделей 2025–2026: Flux Academy (пять видео, в том числе тест Fable 5), DesignCourse (Claude Design на Fable), Brad Frost (Sonnet 4.5), Malewicz. Почти у всех коммерческий интерес.</li>
+    <li>◈ AIMAC, aimac.ai: бенчмарк доступности 70 моделей, axe-core, WCAG 2.2 AA, данные на октябрь 2026.</li>
+    <li>◆ «Measuring the Semantic Accessibility Gap in LLM-Generated Web UIs», CHI 2026: 300 страниц трёх моделей (claude-sonnet-4, gemini-2.5-flash, gpt-4o).</li>
+    <li>◆ Material Design 3, раздел Spacing; NN/g, «Ensure High Contrast for Text Over Images».</li>
+  </ul>
+  <p class="small">В блоках «Где ошибаются нейронки» стоит только то, что видели в выдаче моделей. Реальные ошибки без такого подтверждения собраны в блоках «Частые ошибки». Разбор по каждому утверждению: PROVENANCE_ERRORS.md и AUDIT_INDEPENDENT.md.</p>
+  <p class="small">Чего здесь нет: подбора шрифтов, фотографии и глубокой работы с цветом. По ним у нас пока мало независимых источников, это тема девятого урока.</p>
+</section>
+</main>
+</div>
+
+<footer class="foot">
+  <nav aria-label="Навигация по курсу"><a href="01-layout.html">Урок 1. Как устроена страница</a><a href="index.html">Все уроки</a><a href="03-speed.html">Урок 3. Скорость и картинки</a></nav>
+</footer>
+
+<script src="assets/course.js?v=5"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const { $, $$ } = Course;
+
+  /* WCAG 2.x contrast */
+  const lum = (rgb) => {
+    const f = (v) => { const c = v / 255; return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4); };
+    return 0.2126 * f(rgb[0]) + 0.7152 * f(rgb[1]) + 0.0722 * f(rgb[2]);
+  };
+  const ratio = (a, b) => { const x = lum(a); const y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); };
+  const hex2rgb = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+  const css2rgb = (c) => c.match(/[\d.]+/g).slice(0, 3).map(Number);
+  const fmt = (r) => (Math.floor(r * 100) / 100).toFixed(2).replace('.', ',');
+
+  /* 1b. Levels exercise */
+  const lvOut = $('#lvOut');
+  $$('#lvCard .lv').forEach((b) => b.addEventListener('click', () => {
+    const n = (Number(b.dataset.lv) % 3) + 1;
+    b.dataset.lv = n; $('b', b).textContent = n;
+    lvOut.textContent = 'Нажми «Проверить», когда расставишь.';
+  }));
+  $('#lvCheck').addEventListener('click', () => {
+    const lv = {}; $$('#lvCard .lv').forEach((b) => { lv[b.dataset.k] = Number(b.dataset.lv); });
+    const ones = Object.keys(lv).filter((k) => lv[k] === 1);
+    const threes = Object.keys(lv).filter((k) => lv[k] === 3);
+    let msg; let cls = 'no';
+    if (!ones.length) msg = 'Ничего не выделено. Глазу не за что зацепиться.';
+    else if (ones.length > 2) msg = `Главных элементов ${ones.length}. Когда главное всё, главного нет. Оставь один или два.`;
+    else if (lv.tag === 1) msg = 'Метка «Bestseller» стала главнее названия тура. Это украшение, а не суть.';
+    else if (threes.length < 2) msg = 'Почти всё на первом и втором уровне. Найди хотя бы два элемента, которые можно приглушить.';
+    else if (lv.cta === 3) msg = 'Кнопка брони ушла на третий уровень. Действие, ради которого сделана карточка, теперь труднее всего найти.';
+    else { cls = 'ok'; msg = 'Работает. Один или два элемента ведут, остальное отступило назад. Вариантов много: главным может быть название, цена или кнопка, это зависит от задачи карточки.'; }
+    lvOut.innerHTML = `<span class="verdict ${cls}">${cls === 'ok' ? 'Иерархия есть.' : 'Пока нет.'}</span> ${msg}`;
+  });
+
+  /* 3. Proximity */
+  const prox = $('#prox');
+  const renderProx = () => {
+    const cs = getComputedStyle(prox);
+    const a = Number(cs.getPropertyValue('--in')); const b = Number(cs.getPropertyValue('--out'));
+    let cls; let msg;
+    if (b <= a) { cls = 'no'; msg = `До своего поля ${a} px, до чужого ${b} px. Подпись ближе к чужому полю или на равном расстоянии: связь не читается.`; }
+    else if (b < a * 2) { cls = 'mid'; msg = `До своего поля ${a} px, до чужого ${b} px. Связь читается слабо. Разница должна быть заметной, примерно вдвое.`; }
+    else { cls = 'ok'; msg = `До своего поля ${a} px, между полями ${b} px. Подпись явно принадлежит своему полю.`; }
+    $('#proxOut').innerHTML = `<span class="verdict ${cls}">${cls === 'ok' ? 'Ясно.' : cls === 'mid' ? 'Слабо.' : 'Неясно.'}</span> ${msg}`;
+  };
+  prox.addEventListener('statechange', renderProx); renderProx();
+
+  const scale = $('#scale');
+  const renderScale = () => {
+    $('#scaleOut').innerHTML = scale.dataset.mode === 'eye'
+      ? 'Использованные значения: <strong>13, 22, 37, 9, 19, 5, 41</strong>. Семь разных чисел, ни одно не повторяется, поля карточки с четырёх сторон разные.'
+      : 'Использованные значения: <strong>8, 16, 24</strong>. Три ступени шкалы: тесно внутри пары, свободнее между группами, поля одинаковые.';
+  };
+  scale.addEventListener('statechange', renderScale); renderScale();
+
+  /* 5. Type scale */
+  const ts = $('#tscale'); let tsRatio = 1.25;
+  const ROWS = [['h1', 3, 't-h', 'Three days at sea'], ['h2', 2, 't-h', 'What is included'], ['h3', 1, 't-h', 'Before you book'], ['текст', 0, 't-b', 'Small boat, local captain.'], ['мелкий', -1, 't-s', 'From $240 per person']];
+  const renderTs = () => {
+    const base = Number($('#tsBase').value);
+    $('#tsBaseOut').textContent = base + ' px';
+    $('#tsOut').innerHTML = ROWS.map(([name, pow, cls, txt]) => {
+      const px = Math.round(base * Math.pow(tsRatio, pow) * 10) / 10;
+      return `<div class="${cls}"><small>${name}, ${String(px).replace('.', ',')} px</small><span style="font-size:${px}px">${txt}</span></div>`;
+    }).join('');
+    const k = Math.pow(tsRatio, 3);
+    const h1 = Math.round(base * k);
+    let note = `Самый крупный заголовок в ${k.toFixed(2).replace('.', ',')} раза больше основного текста (${h1} px). `;
+    if (tsRatio <= 1.125) note += 'Шкала плоская: уровни почти не отличаются, разницу придётся добирать весом и цветом.';
+    else if (tsRatio >= 1.5) note += 'Шкала резкая: эффектно на десктопе, но на телефоне такой заголовок нужно уменьшать через clamp().';
+    else note += 'Спокойная рабочая шкала: ступени видны, заголовок помещается на телефоне.';
+    $('#tsNote').textContent = note;
+  };
+  $$('[data-ratio]', ts).forEach((b) => b.addEventListener('click', () => {
+    tsRatio = Number(b.dataset.ratio);
+    $$('[data-ratio]', ts).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    renderTs();
+  }));
+  $('#tsBase').addEventListener('input', renderTs); renderTs();
+
+  /* 5b. Measure: count characters on full lines with a Range */
+  const measure = $('#measure'); const mText = $('#mText');
+  const renderMeasure = () => {
+    const node = mText.firstChild; const len = node.length;
+    const range = document.createRange();
+    const lines = []; let top = null; let count = 0;
+    for (let i = 0; i < len; i += 1) {
+      range.setStart(node, i); range.setEnd(node, i + 1);
+      const r = range.getClientRects()[0];
+      if (!r) { count += 1; continue; }
+      if (top === null) top = r.top;
+      if (r.top - top > 2) { lines.push(count); count = 0; top = r.top; }
+      count += 1;
+    }
+    lines.push(count);
+    const full = lines.length > 1 ? lines.slice(0, -1) : lines;
+    const avg = Math.round(full.reduce((a, b) => a + b, 0) / full.length);
+    const lh = Number(getComputedStyle(measure).getPropertyValue('--lh'));
+    let cls = 'ok'; let word = 'Удобно читать.';
+    if (avg > 80) { cls = 'no'; word = 'Слишком длинно: глаз теряет начало следующей строки.'; }
+    else if (avg > 75) { cls = 'mid'; word = 'На границе.'; }
+    else if (avg < 45) { cls = 'mid'; word = 'Узко: фразы рвутся, много переносов. Для телефона это нормально.'; }
+    let lhWord = '';
+    if (lh < 1.35) lhWord = ' Строки стоят тесно: для абзаца нужен line-height около 1.5.';
+    else if (lh > 1.8) lhWord = ' Строки разъехались: абзац перестал быть единым блоком.';
+    $('#mOut').innerHTML = `В строке в среднем <strong>${avg} знаков</strong>, строк ${lines.length}. <span class="verdict ${cls}">${word}</span>${lhWord}`;
+  };
+  measure.addEventListener('statechange', renderMeasure);
+  new ResizeObserver(renderMeasure).observe($('#mBox'));
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(renderMeasure);
+
+  /* 6. Contrast checker */
+  const cxFg = $('#cxFg'); const cxBg = $('#cxBg');
+  const renderCx = () => {
+    const r = ratio(hex2rgb(cxFg.value), hex2rgb(cxBg.value));
+    const s = $('#cxSample'); s.style.color = cxFg.value; s.style.background = cxBg.value;
+    $('#cxRatio').textContent = fmt(r) + ' : 1';
+    const row = (ok, text) => `<li>${Course.icon(ok ? 'check' : 'x')}<span class="verdict ${ok ? 'ok' : 'no'}">${ok ? 'проходит' : 'не проходит'}</span><span>${text}</span></li>`;
+    $('#cxRows').innerHTML = row(r >= 4.5, 'обычный текст, нужно 4,5 : 1') + row(r >= 3, 'крупный текст, нужно 3 : 1') + row(r >= 7, 'строгий уровень AAA, нужно 7 : 1');
+  };
+  cxFg.addEventListener('input', renderCx); cxBg.addEventListener('input', renderCx);
+  $$('#cx [data-fg]').forEach((b) => b.addEventListener('click', () => { cxFg.value = b.dataset.fg; cxBg.value = b.dataset.bg; renderCx(); }));
+  renderCx();
+
+  /* 6b. Text over a photo. Isolated in an iframe: white text on a bright image is the point of the demo. */
+  const PH_BG = 'radial-gradient(ellipse at 30% 78%,rgba(255,255,255,.95) 0 16%,transparent 40%),radial-gradient(ellipse at 78% 70%,rgba(255,255,255,.9) 0 12%,transparent 36%),linear-gradient(170deg,#3f93c9 0%,#9fd3f0 45%,#f4ecd0 78%,#f1c98c 100%)';
+  const PH_DOC = '<!doctype html><html lang="en"><head><meta charset="utf-8"><style>body{margin:0;padding:16px;background:#eceff3;font-family:system-ui,sans-serif}.ph{max-width:34rem;margin:0 auto;height:15rem;border-radius:12px;display:flex;align-items:flex-end;padding:1.2rem;box-sizing:border-box;background-image:' + PH_BG + '}.ph div{color:#fff;border-radius:8px}.t{font-size:1.5rem;font-weight:700;line-height:1.2}.s{margin-top:.2rem}' +
+    'body[data-mode=shade] .ph{background-image:linear-gradient(rgba(10,14,20,.5),rgba(10,14,20,.5)),' + PH_BG + '}' +
+    'body[data-mode=grad] .ph{background-image:linear-gradient(to top,rgba(10,14,20,.82) 0,rgba(10,14,20,.55) 34%,transparent 62%),' + PH_BG + '}' +
+    'body[data-mode=plate] .ph div{background:rgba(10,14,20,.86);padding:.7rem .9rem}' +
+    '</style></head><body data-mode="none"><div class="ph"><div><div class="t">Kelingking at sunrise</div><div class="s">Before the buses, with six guests.</div></div></div></body></html>';
+  const photo = $('#photo'); const phFrame = $('#phFrame');
+  const applyPhoto = () => { const d = phFrame.contentDocument; if (d && d.body) d.body.dataset.mode = photo.dataset.mode; };
+  phFrame.addEventListener('load', applyPhoto);
+  photo.addEventListener('statechange', applyPhoto);
+  phFrame.srcdoc = PH_DOC;
+
+  /* 7. Accent */
+  const accent = $('#accent'); const hue = $('#accHue'); const probe = $('#accProbe');
+  const renderAcc = () => {
+    const col = `hsl(${hue.value} 72% 46%)`;
+    probe.style.color = col;
+    const rgb = css2rgb(getComputedStyle(probe).color);
+    const onWhite = ratio(rgb, [255, 255, 255]); const onInk = ratio(rgb, [20, 23, 28]);
+    const useWhite = onWhite >= 4.5 || onWhite >= onInk;
+    const box = $('#accBox');
+    box.style.setProperty('--acc', col);
+    box.style.setProperty('--acc-ink', useWhite ? '#ffffff' : '#14171c');
+    $('#accHueOut').textContent = hue.value + '°';
+    const places = accent.dataset.mode === 'all' ? 'в восьми местах: рамка, фон, меню, метка, заголовок, ссылка, маркеры списка, обе кнопки' : 'в двух местах: главная кнопка и ссылка';
+    $('#accOut').innerHTML = `Цвет использован ${places}. Белый текст на этом цвете даёт <strong>${fmt(onWhite)} : 1</strong>, ` +
+      (useWhite ? '<span class="verdict ok">проходит</span>, текст кнопки белый.' : `<span class="verdict no">не проходит</span>, поэтому текст кнопки тёмный (${fmt(onInk)} : 1).`);
+  };
+  hue.addEventListener('input', renderAcc); accent.addEventListener('statechange', renderAcc); renderAcc();
+
+  /* 8. Spot the defaults. The template screen lives in an iframe so its deliberately generic CSS stays isolated. */
+  const TELLS = {
+    purple: ['Фиолетовый градиент и светящиеся пятна', 'Признак моделей середины 2026 года. DesignCode уже называет его «очень 2025»: у новейших моделей шаблоны другие.'],
+    chip: ['Плашка-анонс над заголовком', 'Статусная метка, которая ничего не сообщает. В списке признаков у DesignCode.'],
+    eyebrow: ['Надзаголовок капсом с разрядкой', 'Есть в списках Anthropic, Impeccable и DesignCode сразу. В Impeccable это прямой запрет.'],
+    gradword: ['Одно слово заголовка градиентом и курсивом', 'Anthropic: выделение одного слова цветом или курсивом. Impeccable: градиентный текст.'],
+    copy: ['Текст ни о чём', 'Elevate, unlock, seamless, tailored: фраза подошла бы любому сайту. Anthropic: текст выдаёт шаблон так же, как вёрстка.'],
+    twocta: ['Две равные кнопки и стрелка на каждой', 'Одно главное действие на экран. Стрелка в конце текста кнопки есть в списке Anthropic.'],
+    dots: ['Строка через точки', '«Trusted · Curated · Sustainable». Мета-строки через точку посередине, список Anthropic.'],
+    cards: ['Три одинаковые карточки', 'Иконка, заголовок, текст, три раза. Impeccable называет карточки ленивым контейнером, Anthropic описывает это как SaaS-набор.'],
+    emoji: ['Эмодзи вместо иконок', 'Impeccable: иконки рисуют или берут из одной библиотеки, в одном стиле.'],
+    nums: ['Нумерация 01, 02, 03 без последовательности', 'Преимущества не шаги. Номера уместны только там, где порядок несёт смысл.']
+  };
+  const SLOP = '<!doctype html><html lang="en"><head><meta charset="utf-8"><style>' +
+    '*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;color:#fff;background:#0d0b1f}[data-tell]{cursor:pointer}' +
+    '.hero{position:relative;text-align:center;padding:44px 20px 36px;background:linear-gradient(135deg,#2a1463 0%,#4f2bd0 50%,#1d4fd8 100%)}' +
+    '.blob{position:absolute;border-radius:50%;filter:blur(46px);opacity:.55;pointer-events:none}.b1{width:240px;height:240px;background:#c148ff;top:-70px;left:6%}.b2{width:200px;height:200px;background:#29d3ff;bottom:-60px;right:8%}' +
+    '.hero>*:not(.blob){position:relative}.chip{display:inline-block;font-size:12px;padding:5px 12px;border-radius:99px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3)}' +
+    '.eyebrow{margin:18px 0 0;font-size:11px;letter-spacing:.3em;color:#c9b8ff}h1{margin:8px 0 0;font-size:clamp(28px,6vw,46px);line-height:1.08}' +
+    'h1 em{background:linear-gradient(90deg,#ff7ad9,#7ad7ff);-webkit-background-clip:text;background-clip:text;color:transparent}' +
+    '.sub{margin:12px auto 0;max-width:440px;color:#d7d0f5}.acts{display:inline-flex;gap:10px;margin-top:20px;flex-wrap:wrap;justify-content:center}' +
+    '.b{padding:11px 20px;border-radius:99px;font-weight:600;font-size:14px}.p{background:linear-gradient(90deg,#ff7ad9,#7a5cff)}.s{background:linear-gradient(90deg,#29d3ff,#4f6bff)}' +
+    '.meta{margin:18px 0 0;font-size:12px;color:#bdb3e6}.feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;padding:22px 20px 28px;text-align:center}' +
+    '.card{background:#17133a;border:1px solid #2c2760;border-radius:16px;padding:18px 14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}.ico{font-size:26px;display:inline-block}.num{display:block;margin-top:6px;font:600 11px ui-monospace,monospace;color:#8f85c9}' +
+    '.card h3{margin:6px 0 4px;font-size:15px}.card p{margin:0;font-size:13px;color:#b9b1e0}' +
+    '.found{outline:3px solid #46e08a !important;outline-offset:2px}.hero.found{outline-offset:-5px}.flash{outline:3px dashed #ffe14d !important;outline-offset:2px}.hero.flash{outline-offset:-5px}' +
+    '</style></head><body>' +
+    '<section class="hero" data-tell="purple"><div class="blob b1"></div><div class="blob b2"></div>' +
+    '<span class="chip" data-tell="chip">New: AI-powered trip planner</span>' +
+    '<p class="eyebrow" data-tell="eyebrow">WELCOME TO PARADISE</p>' +
+    '<h1 data-tell="gradword">Elevate your <em>journey</em> today</h1>' +
+    '<p class="sub" data-tell="copy">Unlock seamless, unforgettable experiences tailored just for you.</p>' +
+    '<div class="acts" data-tell="twocta"><span class="b p">Get Started →</span><span class="b s">Learn More →</span></div>' +
+    '<p class="meta" data-tell="dots">Trusted · Curated · Sustainable</p></section>' +
+    '<section class="feats">' +
+    [['🚀', '01', 'Seamless Booking', 'Book in seconds with our intuitive platform.'], ['🌴', '02', 'Curated Tours', 'Handpicked adventures for every traveller.'], ['💎', '03', 'Premium Support', 'We are here for you around the clock.']]
+      .map((c) => '<div class="card" data-tell="cards"><span class="ico" data-tell="emoji">' + c[0] + '</span><span class="num" data-tell="nums">' + c[1] + '</span><h3>' + c[2] + '</h3><p>' + c[3] + '</p></div>').join('') +
+    '</section></body></html>';
+  const FIXED = '<!doctype html><html lang="en"><head><meta charset="utf-8"><style>' +
+    '*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;color:#14171c;background:#fff;line-height:1.5}' +
+    '.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:24px;padding:32px 24px;align-items:center}' +
+    'h1{margin:0;font-size:clamp(26px,5vw,38px);line-height:1.08;letter-spacing:-.01em}.sub{margin:12px 0 0;color:#3d4350;max-width:46ch}' +
+    '.acts{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;margin-top:20px}.b{padding:11px 18px;border-radius:8px;font-weight:600;background:#14171c;color:#fff}.l{font-weight:600;text-decoration:underline;text-underline-offset:3px}' +
+    '.photo{aspect-ratio:4/3;border-radius:12px;background:linear-gradient(165deg,#3f93c9,#9fd3f0 45%,#f4ecd0 78%,#f1c98c);display:grid;place-items:center;color:#14171c;font-weight:600}' +
+    '.day{padding:8px 24px 32px}.day h2{margin:0 0 10px;font-size:20px}ol{margin:0;padding:0;list-style:none;display:grid;gap:8px;max-width:520px}' +
+    'li{display:grid;grid-template-columns:4.2em 1fr;gap:12px;padding-top:8px;border-top:1px solid #e4e8ee}li b{font-variant-numeric:tabular-nums}' +
+    '</style></head><body><section class="hero"><div><h1>Three days around Nusa Penida by small boat</h1>' +
+    '<p class="sub">Six guests, a local captain, and the cliffs before the buses arrive. From $240 per person, lunch and gear included.</p>' +
+    '<div class="acts"><span class="b">Check dates</span><span class="l">See the route</span></div></div><div class="photo">photo of the boat</div></section>' +
+    '<section class="day"><h2>What a day looks like</h2><ol><li><b>7:30</b><span>Boat from Sanur harbour</span></li><li><b>9:00</b><span>Manta Point, first snorkelling stop</span></li><li><b>12:30</b><span>Lunch above Crystal Bay</span></li><li><b>15:00</b><span>Cliff walk to Kelingking</span></li></ol></section></body></html>';
+  const tellStage = $('#tellStage'); const tellFrame = $('#tellFrame'); const tellList = $('#tellList'); const tellOut = $('#tellOut');
+  const found = new Set();
+  const total = Object.keys(TELLS).length;
+  const fitFrame = () => { const d = tellFrame.contentDocument; if (d && d.body) tellFrame.style.height = Math.ceil(d.body.getBoundingClientRect().height) + 'px'; };
+  const markFound = (doc) => found.forEach((k) => doc.querySelectorAll('[data-tell="' + k + '"]').forEach((n) => n.classList.add('found')));
+  tellFrame.addEventListener('load', () => {
+    const doc = tellFrame.contentDocument;
+    fitFrame();
+    if (tellStage.dataset.ver !== 'slop') return;
+    markFound(doc);
+    doc.addEventListener('click', (e) => {
+      const el = e.target.closest('[data-tell]');
+      if (!el) return;
+      const k = el.dataset.tell;
+      if (found.has(k)) { tellOut.textContent = 'Это уже найдено: ' + TELLS[k][0].toLowerCase() + '.'; return; }
+      found.add(k); markFound(doc);
+      const li = document.createElement('li');
+      li.innerHTML = '<strong>' + TELLS[k][0] + '</strong>' + TELLS[k][1];
+      tellList.prepend(li);
+      $('#tellCount').textContent = 'Найдено ' + found.size + ' из ' + total;
+      tellOut.innerHTML = found.size === total ? '<span class="verdict ok">Все десять.</span> Теперь переключись на «После правки».' : 'Есть. Ищи дальше.';
+    });
+  });
+  const renderTell = () => { tellFrame.srcdoc = tellStage.dataset.ver === 'slop' ? SLOP : FIXED; };
+  tellStage.addEventListener('statechange', renderTell);
+  new ResizeObserver(fitFrame).observe(tellFrame);
+  $('#tellHint').addEventListener('click', () => {
+    const doc = tellFrame.contentDocument;
+    if (tellStage.dataset.ver !== 'slop' || !doc) return;
+    const left = Object.keys(TELLS).filter((k) => !found.has(k));
+    if (!left.length) { tellOut.textContent = 'Всё найдено.'; return; }
+    const nodes = [...doc.querySelectorAll('[data-tell="' + left[0] + '"]')];
+    nodes.forEach((n) => n.classList.add('flash'));
+    tellOut.textContent = 'Осталось ' + left.length + '. Одно из мест обведено пунктиром.';
+    setTimeout(() => nodes.forEach((n) => n.classList.remove('flash')), 2200);
+  });
+  renderTell();
+});
+</script>
+</body>
+</html>

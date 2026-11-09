@@ -1,0 +1,402 @@
+[
+ {
+  "id": "01",
+  "src": "DJI_0824.MP4",
+  "start": 6.0,
+  "end": 14.0,
+  "slow": false,
+  "group": "Bali, volcano",
+  "note": "Drift over the cloud towers",
+  "secs": 8.0
+ },
+ {
+  "id": "02",
+  "src": "DJI_0824.MP4",
+  "start": 14.0,
+  "end": 22.0,
+  "slow": false,
+  "group": "Bali, volcano",
+  "note": "Clouds open onto the Batur caldera",
+  "secs": 8.0
+ },
+ {
+  "id": "03",
+  "src": "DJI_0824.MP4",
+  "start": 30.0,
+  "end": 38.0,
+  "slow": false,
+  "group": "Bali, volcano",
+  "note": "Approach to the crater",
+  "secs": 8.0
+ },
+ {
+  "id": "04",
+  "src": "DJI_0824.MP4",
+  "start": 61.5,
+  "end": 69.5,
+  "slow": false,
+  "group": "Bali, volcano",
+  "note": "Batur panorama with the round rainbow (glory)",
+  "secs": 8.0
+ },
+ {
+  "id": "05",
+  "src": "DJI_0829.MP4",
+  "start": 4.0,
+  "end": 11.0,
+  "slow": true,
+  "group": "Bali, volcano",
+  "note": "Gold morning light on the ridge, cloud sea below",
+  "secs": 14.0
+ },
+ {
+  "id": "06",
+  "src": "DJI_0069.MP4",
+  "start": 1.5,
+  "end": 9.5,
+  "slow": false,
+  "group": "Volcanic coast",
+  "note": "Wide: reef surf, sandbar, two volcano cones",
+  "secs": 8.0
+ },
+ {
+  "id": "07",
+  "src": "DJI_0079.MP4",
+  "start": 10.5,
+  "end": 18.5,
+  "slow": false,
+  "group": "Volcanic coast",
+  "note": "Low over the red-roof boat on the reef edge",
+  "secs": 8.0
+ },
+ {
+  "id": "08",
+  "src": "DJI_0079.MP4",
+  "start": 25.0,
+  "end": 33.0,
+  "slow": false,
+  "group": "Volcanic coast",
+  "note": "Over the hill: deep blue bay, smoking volcano",
+  "secs": 8.0
+ },
+ {
+  "id": "09",
+  "src": "DJI_0080.MP4",
+  "start": 8.0,
+  "end": 16.0,
+  "slow": false,
+  "group": "Volcanic coast",
+  "note": "Skimming the white beach and the boat",
+  "secs": 8.0
+ },
+ {
+  "id": "10",
+  "src": "DJI_0080.MP4",
+  "start": 14.0,
+  "end": 21.5,
+  "slow": false,
+  "group": "Volcanic coast",
+  "note": "Along the sandbar towards the surf",
+  "secs": 7.5
+ },
+ {
+  "id": "11",
+  "src": "DJI_0618.MP4",
+  "start": 1.0,
+  "end": 5.0,
+  "slow": true,
+  "group": "Palms and atoll",
+  "note": "Between palm trunks to the beach and volcano",
+  "secs": 8.0
+ },
+ {
+  "id": "12",
+  "src": "DJI_0616.MP4",
+  "start": 0.0,
+  "end": 5.0,
+  "slow": false,
+  "group": "Palms and atoll",
+  "note": "Tropical cape, volcano on the horizon",
+  "secs": 5.0
+ },
+ {
+  "id": "13",
+  "src": "DJI_0616.MP4",
+  "start": 7.0,
+  "end": 15.0,
+  "slow": false,
+  "group": "Palms and atoll",
+  "note": "Top-down: fringing reef geometry",
+  "secs": 8.0
+ },
+ {
+  "id": "14",
+  "src": "DJI_0832.MP4",
+  "start": 0.0,
+  "end": 6.0,
+  "slow": false,
+  "group": "Palms and atoll",
+  "note": "Over the jungle ridge",
+  "secs": 6.0
+ },
+ {
+  "id": "15",
+  "src": "DJI_0832.MP4",
+  "start": 6.5,
+  "end": 12.8,
+  "slow": false,
+  "group": "Palms and atoll",
+  "note": "Past the lone palm, lagoon opens",
+  "secs": 6.3
+ },
+ {
+  "id": "16",
+  "src": "DJI_0531.MOV",
+  "start": 87.5,
+  "end": 96.0,
+  "slow": false,
+  "group": "Raja Ampat",
+  "note": "Dronie: karst tower over neon reef",
+  "secs": 8.5
+ },
+ {
+  "id": "17",
+  "src": "DJI_0531.MOV",
+  "start": 73.0,
+  "end": 81.0,
+  "slow": false,
+  "group": "Raja Ampat",
+  "note": "Low into the coral garden between towers",
+  "secs": 8.0
+ },
+ {
+  "id": "18",
+  "src": "MVI_5333.MOV",
+  "start": 20.0,
+  "end": 29.5,
+  "slow": false,
+  "group": "Raja Ampat",
+  "note": "Boat bow between coral heads",
+  "secs": 9.5
+ },
+ {
+  "id": "19",
+  "src": "MVI_5333.MOV",
+  "start": 32.0,
+  "end": 40.0,
+  "slow": false,
+  "group": "Raja Ampat",
+  "note": "Out into the strait, mountain ahead",
+  "secs": 8.0
+ },
+ {
+  "id": "20",
+  "src": "2O4A1230.MOV",
+  "start": 10.0,
+  "end": 20.0,
+  "slow": false,
+  "group": "Raja Ampat",
+  "note": "Boat up to the mushroom rock",
+  "secs": 10.0
+ },
+ {
+  "id": "21",
+  "src": "DJI_20241005090030_0068_D.MP4",
+  "start": 0.0,
+  "end": 7.0,
+  "slow": false,
+  "group": "Raja Ampat",
+  "note": "Top-down: sun glitter on corals",
+  "secs": 7.0
+ },
+ {
+  "id": "22",
+  "src": "DJI_20241005090030_0068_D.MP4",
+  "start": 20.0,
+  "end": 28.0,
+  "slow": false,
+  "group": "Raja Ampat",
+  "note": "Low over the moored boat to the reef",
+  "secs": 8.0
+ },
+ {
+  "id": "23",
+  "src": "DJI_0759.MP4",
+  "start": 14.5,
+  "end": 23.0,
+  "slow": false,
+  "group": "Whale sharks",
+  "note": "Close: whale shark feeding by the bagan, swimmers",
+  "secs": 8.5
+ },
+ {
+  "id": "24",
+  "src": "DJI_0759.MP4",
+  "start": 36.0,
+  "end": 46.0,
+  "slow": false,
+  "group": "Whale sharks",
+  "note": "Rising: four or five sharks in the blue",
+  "secs": 10.0
+ },
+ {
+  "id": "25",
+  "src": "2O4A0721.MOV",
+  "start": 2.0,
+  "end": 8.0,
+  "slow": false,
+  "group": "Underwater",
+  "note": "Red sea fan, macro",
+  "secs": 6.0
+ },
+ {
+  "id": "26",
+  "src": "2O4A0721.MOV",
+  "start": 14.0,
+  "end": 21.0,
+  "slow": false,
+  "group": "Underwater",
+  "note": "Glide along the red sea fan",
+  "secs": 7.0
+ },
+ {
+  "id": "27",
+  "src": "2O4A8813.MOV",
+  "start": 0.0,
+  "end": 9.0,
+  "slow": false,
+  "group": "Underwater",
+  "note": "Sunlit bommie, clouds of reef fish",
+  "secs": 9.0
+ },
+ {
+  "id": "28",
+  "src": "dji_mimo_20261009_105812_20261009105811_1791515923150_video.MP4",
+  "start": 50.0,
+  "end": 58.5,
+  "slow": false,
+  "group": "Underwater",
+  "note": "Two jellyfish side by side, close",
+  "secs": 8.5
+ },
+ {
+  "id": "29",
+  "src": "dji_mimo_20261009_105812_20261009105811_1791515923150_video.MP4",
+  "start": 12.0,
+  "end": 22.0,
+  "slow": false,
+  "group": "Underwater",
+  "note": "Jellyfish constellation",
+  "secs": 10.0
+ },
+ {
+  "id": "30",
+  "src": "dji_mimo_20261009_105812_20261009105811_1791515923150_video.MP4",
+  "start": 64.0,
+  "end": 71.0,
+  "slow": false,
+  "group": "Underwater",
+  "note": "Single spotted jellyfish under the surface",
+  "secs": 7.0
+ },
+ {
+  "id": "31",
+  "src": "DJI_0824.MP4",
+  "start": 46.0,
+  "end": 53.0,
+  "slow": false,
+  "group": "Own pick",
+  "note": "Out of the clouds onto green highlands",
+  "secs": 7.0
+ },
+ {
+  "id": "32",
+  "src": "DJI_0531.MOV",
+  "start": 23.0,
+  "end": 29.5,
+  "slow": false,
+  "group": "Own pick",
+  "note": "Sunlit corridor between karst walls",
+  "secs": 6.5
+ },
+ {
+  "id": "33",
+  "src": "DJI_0832.MP4",
+  "start": 9.0,
+  "end": 16.5,
+  "slow": false,
+  "group": "Own pick",
+  "note": "Past the palm into the full lagoon",
+  "secs": 7.5
+ },
+ {
+  "id": "34",
+  "src": "MVI_5333.MOV",
+  "start": 0.0,
+  "end": 7.0,
+  "slow": false,
+  "group": "Own pick",
+  "note": "Boat bow: glass-clear water, karst islands, clouds",
+  "secs": 7.0
+ },
+ {
+  "id": "35",
+  "src": "2O4A0721.MOV",
+  "start": 19.0,
+  "end": 26.0,
+  "slow": false,
+  "group": "Own pick",
+  "note": "Red sea fan against open blue",
+  "secs": 7.0
+ },
+ {
+  "id": "36",
+  "src": "2O4A9405.MOV",
+  "start": 52.0,
+  "end": 62.0,
+  "slow": false,
+  "group": "Own pick",
+  "note": "Hawksbill turtle swims up past the camera",
+  "secs": 10.0
+ },
+ {
+  "id": "37",
+  "src": "2O4A9405.MOV",
+  "start": 19.0,
+  "end": 26.0,
+  "slow": false,
+  "group": "Own pick",
+  "note": "Coral pinnacle with table corals into the blue",
+  "secs": 7.0
+ },
+ {
+  "id": "38",
+  "src": "dji_mimo_20261009_105812_20261009105811_1791515923150_video.MP4",
+  "start": 52.0,
+  "end": 60.5,
+  "slow": false,
+  "group": "Own pick",
+  "note": "Jellyfish drifts in until it fills the frame",
+  "secs": 8.5
+ },
+ {
+  "id": "39",
+  "src": "2O4A1230.MOV",
+  "start": 22.0,
+  "end": 31.0,
+  "slow": false,
+  "group": "Own pick",
+  "note": "Under the overhanging orange rock",
+  "secs": 9.0
+ },
+ {
+  "id": "40",
+  "src": "DJI_20241005090030_0068_D.MP4",
+  "start": 9.5,
+  "end": 14.0,
+  "slow": false,
+  "group": "Own pick",
+  "note": "Outrigger canoe on the white beach, people",
+  "secs": 4.5
+ }
+]

@@ -1,0 +1,6092 @@
+{
+  "results": [
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27c1f05e9",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27c4643ef",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27c6be6d4",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27c8dd5ab",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27cb427f5",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27cda72a7",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27cf49d49",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27d182848",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27d3edc97",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27d6536ef",
+      "want": "09 Thank-you · traveller · Desktop",
+      "actual": "09 Thank-you · traveller · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27d8df3c1",
+      "want": "10 Thank-you · agent · Desktop",
+      "actual": "10 Thank-you · agent · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27db20ead",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27dd1d96f",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27df33f49",
+      "want": "13 404 · Page not found · Desktop",
+      "actual": "13 404 · Page not found · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27e138933",
+      "want": "14 Temporarily unavailable · Desktop",
+      "actual": "14 Temporarily unavailable · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27e3b908e",
+      "want": "S1 State · Cookie banner · Desktop",
+      "actual": "S1 State · Cookie banner · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27e618317",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27e82840b",
+      "want": "S3 State · Form errors · Desktop",
+      "actual": "S3 State · Form errors · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Desktop",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f27ea77a46",
+      "want": "S4 State · Sending failed · Desktop",
+      "actual": "S4 State · Sending failed · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98e26bb72",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98e4a88b9",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98e686e0c",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98e891d37",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98eab252b",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98ece9a69",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98ef2976e",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98f18e8e3",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98f401b18",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98f6c265b",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98f88a6ac",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98fa5eda7",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98fccc3e2",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b98fefa299",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b99008843a",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9902231f3",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b990371e05",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9904f667e",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b99068c816",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b99083fe83",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9909dfe00",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b990b5c53a",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b990cced8d",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b990e66b05",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b990ff26e2",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9911827ee",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b99132fbe9",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b991508bbb",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9916f587e",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9918f6743",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9b8ddb283",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9b8fef3e2",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9b91db665",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9b9397d02",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9b957f1ed",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9b9755782",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9b99003e8",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9b9af7fcc",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9b9d0730f",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9b9ef08c1",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9ba0c05ee",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9ba266550",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9ba4456a0",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9ba61cd43",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9ba80a0d3",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9baa27ddb",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9babe7d59",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bade5bba",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bafd1beb",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bb1db5ba",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bb40f17f",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bb6063bd",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bb80f926",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bba10e48",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bbbd173b",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bbd63e14",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bbf2c40f",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bc0b48b7",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bc26ea7d",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9bc490a9f",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e42241cf",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e44a80e0",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e46c214c",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e48dd2ab",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e4b01aa4",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e4d20a7e",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e4ef1245",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e50fddc3",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e5332265",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e552506a",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e570bf2a",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e58ccbea",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e5a8e141",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e5c872a1",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e5e79f4a",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e60457f6",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e6233fac",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e642bca5",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e660ec86",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e67db222",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e69a67bb",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e6b48f1a",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e6d0a985",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e6ee15c0",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e70d54af",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e728844f",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e7479417",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e765bb4c",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e785a927",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1b9e7a48969",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba0f4bf261",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba0f68c971",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba0f8337a2",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba0f9fa292",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba0fbd14de",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba0fdb5ece",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba0ffb46fe",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba1014d396",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba1032e6cc",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba104786ee",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba10609bbd",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba10797139",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba109742bb",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba10b69678",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba10d53ea7",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba10f0fa3d",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba110e4b55",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba11276bba",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba1143be64",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba115f6560",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba11788a8a",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba119715d2",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba11b27270",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba11cd9094",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba11e8742d",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba120545e6",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba122162f3",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba1242973f",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba125de29e",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba1276e3dc",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2d93b876",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2db70b65",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2dd8dbe4",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2df73006",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2e15b5d5",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2e361948",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2e578ea0",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2e759e6b",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2e90c3a2",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2eae1fe9",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2ececcf7",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2ee6ac2c",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2eff3966",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2f1b8eff",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2f32fe56",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2f4e484b",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2f6c4f34",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2f87c4ff",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2fa6574f",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2fc1c943",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2fdbdc8f",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba2ffa3b2f",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba30177d29",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba303228ae",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba304e532a",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba488e45ca",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba48ac17d8",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba48c9f704",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba48e2f45f",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba48fd9929",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba491ef229",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba493d8e3e",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba495cdb5b",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba497b7519",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4997e42c",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba49b56edd",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba49d0455c",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba49f0687f",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4a0be17d",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4a289aac",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4a4117d4",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4a5e8ba5",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4a79e454",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4a8e75c8",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4aabb6f2",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4acb2e17",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4af4c4e8",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba4b142074",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba788c39ea",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba78a92aef",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba78ceb683",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba78f0b959",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7910d1cb",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba79325b5b",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7954e4ed",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba79779041",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba799a7d31",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba79bbd6dc",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba79d9f1ac",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba79f77177",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7a16e010",
+      "want": "10 Thank-you · agent · Desktop",
+      "actual": "10 Thank-you · agent · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7a2cdac9",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7a481d32",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7a648105",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7a7f5a96",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7a9d9580",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7abae3d2",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7adb6de9",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7afd5912",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7b1f4c48",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7b3da24d",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7b5c3dda",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7b7c2ffa",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7b996a06",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba7bbd4393",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba971937bd",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba9750325c",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba97741ef6",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba97950e9b",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba97b5d21f",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba97d736b0",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba97f8a379",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba981aa69d",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba983e6bde",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba9862f3e8",
+      "want": "09 Thank-you · traveller · Desktop",
+      "actual": "09 Thank-you · traveller · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba98852f86",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba98a5bec6",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba98c6de48",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba98ef1a34",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba9917b824",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba993a09c9",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba995f3274",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba99824ace",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba99a3015c",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba99c42d1c",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba99e96848",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba9a1aed01",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba9a3f2aab",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1ba9a650b28",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baab0d3a71",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baab2d47a4",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baab4d4d01",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baab71e5f3",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baab9694c6",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baabb8a35a",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baabd7cb14",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baabfa1222",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baac23f0b0",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baac45b3cd",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baac68b90d",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baac8fd5c8",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baacb7bade",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baacdfee6a",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baacfa93c0",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baad1659cf",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baad335463",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baad4ed59c",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baad6dee33",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baad88148b",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baada415d4",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baadbc0647",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baadd79838",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babc9a30ea",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babcbfea2e",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babce59ddc",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babd09151c",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babd2e4c51",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babd513c89",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babd72e0b2",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babd9485b3",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babdb4e550",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babdd3ebfc",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babdf1a585",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babe104701",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babe31b9b4",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babe53b6ab",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babe73d0a4",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babe968d8a",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babeb8d60c",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babed95c33",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babef6afe6",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babf15f88d",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babf365569",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babf5817e7",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1babf7778b7",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad4a31242",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad4c62836",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad4e98bb3",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad510aaa3",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad5390737",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad562d244",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad5886d8c",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad5a6fb95",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad5c99092",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad5ea08e2",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad60ae534",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad62d15a9",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad64e8b8f",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad67206b0",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad695cad6",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad6b77c17",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad6d9ea6f",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad6fb2391",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad71ba0c4",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad743a047",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bad7687904",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf02279a7",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf04397d9",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf0670f7e",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf08a9c57",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf0ab57c3",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf0cd7e92",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf0ee1a57",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf10deed5",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf12fd393",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf14f1b74",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf16ee881",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf18b07ab",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf1a73ed1",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf1c499c6",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf1e27fbc",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf200bd1b",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf21f1cc5",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf23c7d3b",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf25976e4",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf277bcbd",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1baf294585f",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb015ffbc1",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0184c035",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb01ac2109",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb01d06208",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb01f6e4fe",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb021c9675",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb024331eb",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb02659fdf",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb02863d9e",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb02a807fe",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb02c1fe5a",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb02d91fd4",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb02effd77",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb03057c25",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0321535d",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb03410024",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb035b6768",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0373bfd9",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb03921e84",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb03afc180",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb03c6450f",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb03e2b041",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb04040617",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb04211e59",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb043be7c7",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0453faa5",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb046c3516",
+      "want": "12 Booking terms · Desktop",
+      "actual": "12 Booking terms · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb048781d2",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0f330ded",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0f56dc16",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0f7b6cca",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0f9710ab",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0fb72ce8",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0fd5ba06",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb0ff138d1",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb10108523",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb1072651e",
+      "want": "11 Privacy & cookies · Desktop",
+      "actual": "11 Privacy & cookies · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb1090a400",
+      "want": "S2 State · Cookie settings · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb10aee2c5",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb10d1235d",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb1033b44b",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "S1 State · Cookie banner · Desktop",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb104fdae2",
+      "want": "01 Home · Desktop",
+      "actual": "S1 State · Cookie banner · Desktop",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb1f416c9e",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb1f5aff55",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb1f7fd8e0",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb1fa1e1e9",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb1fcf5e19",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb1ff2a66c",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb200fd3b8",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb202d8ef5",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb2095e5b5",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb20bc5b24",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb204fcc0b",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb2072b5c1",
+      "want": "01 Home · Desktop",
+      "actual": "S2 State · Cookie settings · Desktop",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb345c9a7e",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb347e4968",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb349b3964",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb34bad07c",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb34d5f677",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb34fecdd9",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb352c73fc",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb354fe12f",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "thank-you"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "privacy"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "home"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "raja-ampat"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "north-sulawesi"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "yachts"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "stories"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "plan"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "advisors"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "privacy"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "terms"
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "state-cookie-settings"
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb49a92354",
+      "want": "01 Home · Desktop",
+      "actual": "01 Home · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb49ce61f9",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "02 Raja Ampat · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb49f6ac5c",
+      "want": "03 North Sulawesi · Desktop",
+      "actual": "03 North Sulawesi · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb4a1533b8",
+      "want": "04 Yacht charters · Desktop",
+      "actual": "04 Yacht charters · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb4a3f55cb",
+      "want": "05 Guest stories · Desktop",
+      "actual": "05 Guest stories · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb4a719c4b",
+      "want": "06 About us · Desktop",
+      "actual": "06 About us · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb4a9713c2",
+      "want": "07 Travel agents · Desktop",
+      "actual": "07 Travel agents · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb4abe4c27",
+      "want": "08 Plan your trip · Desktop",
+      "actual": "08 Plan your trip · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb4ae326af",
+      "want": "09 Thank-you · traveller · Desktop",
+      "actual": "09 Thank-you · traveller · Desktop",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb4b0847df",
+      "want": "01 Home · Desktop",
+      "actual": "S4 State · Sending failed · Desktop",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb4b2c7dc9",
+      "want": "02 Raja Ampat · Desktop",
+      "actual": "S4 State · Sending failed · Desktop",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "north-sulawesi"
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "yachts"
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb4b97e99c",
+      "want": "05 Guest stories · Desktop",
+      "actual": "S4 State · Sending failed · Desktop",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "plan"
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb4be83936",
+      "want": "06 About us · Desktop",
+      "actual": "S4 State · Sending failed · Desktop",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "advisors"
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "privacy"
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "terms"
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "state-cookie-settings"
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a75daaa0",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a7873069",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a7ac0d1f",
+      "want": "02 Raja Ampat · Mobile",
+      "actual": "02 Raja Ampat · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a7d5b66d",
+      "want": "03 North Sulawesi · Mobile",
+      "actual": "03 North Sulawesi · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a7f9a975",
+      "want": "04 Yacht charters · Mobile",
+      "actual": "04 Yacht charters · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a823ca23",
+      "want": "05 Guest stories · Mobile",
+      "actual": "05 Guest stories · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a850defa",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a87e898e",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a8a7832d",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a8d29348",
+      "want": "09 Thank-you · traveller · Mobile",
+      "actual": "09 Thank-you · traveller · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a8f47bd5",
+      "want": "10 Thank-you · agent · Mobile",
+      "actual": "10 Thank-you · agent · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a91e9cae",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a94eb368",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a97a038e",
+      "want": "13 404 · Page not found · Mobile",
+      "actual": "13 404 · Page not found · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a9a0a224",
+      "want": "14 Temporarily unavailable · Mobile",
+      "actual": "14 Temporarily unavailable · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a9c2a3f6",
+      "want": "S1 State · Cookie banner · Mobile",
+      "actual": "S1 State · Cookie banner · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2a9e53b1b",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2aa0a36af",
+      "want": "S3 State · Form errors · Mobile",
+      "actual": "S3 State · Form errors · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2aa312090",
+      "want": "S4 State · Sending failed · Mobile",
+      "actual": "S4 State · Sending failed · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f2aa5c6afb",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7dcc93aa",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7def1172",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb80359688",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7e101780",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7e31f479",
+      "want": "02 Raja Ampat · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7e54c91e",
+      "want": "03 North Sulawesi · Mobile",
+      "actual": "03 North Sulawesi · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7e76bd47",
+      "want": "04 Yacht charters · Mobile",
+      "actual": "04 Yacht charters · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7e934b2b",
+      "want": "04 Yacht charters · Mobile",
+      "actual": "04 Yacht charters · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7eb4395c",
+      "want": "05 Guest stories · Mobile",
+      "actual": "05 Guest stories · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7ed0db9b",
+      "want": "05 Guest stories · Mobile",
+      "actual": "05 Guest stories · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7ef4525f",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7f1314df",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7f31aac0",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7f549462",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7f751a57",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7f989484",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7fb849cb",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7fd74c84",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb7ff75f97",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "01 Home · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bb80169e14",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbb87a7e0",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbbaeac67",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbdf87f3a",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbbd570a7",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbbf99926",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbc1dc774",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbc416ad1",
+      "want": "04 Yacht charters · Mobile",
+      "actual": "04 Yacht charters · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbc631152",
+      "want": "05 Guest stories · Mobile",
+      "actual": "05 Guest stories · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbc84136c",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbca43c83",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbcc548fe",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbce9eb19",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbd0ce87d",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbd2f5172",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbd52d3ad",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbd72dae8",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbd944f21",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbdb7eb30",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bbbdd9779d",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc02249261",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc024f7a4a",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc04b07678",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc02778b32",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc029e5954",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc02c33784",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc02ebc8a4",
+      "want": "04 Yacht charters · Mobile",
+      "actual": "04 Yacht charters · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc03115a2c",
+      "want": "05 Guest stories · Mobile",
+      "actual": "05 Guest stories · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc033286f4",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc0356a2ad",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc03783d47",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc039b779b",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc03bcbaec",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc03de12a7",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc0401d0a1",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc042575d2",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc04496f69",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc046b378b",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc048d3960",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc41eb3f56",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc42141c8c",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc447e8223",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc423d48b6",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc425f7d35",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc42849e42",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc42a98bcf",
+      "want": "05 Guest stories · Mobile",
+      "actual": "05 Guest stories · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc42cfee8c",
+      "want": "02 Raja Ampat · Mobile",
+      "actual": "02 Raja Ampat · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc42f416bf",
+      "want": "03 North Sulawesi · Mobile",
+      "actual": "03 North Sulawesi · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc4318ee0a",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc433abcce",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc435f0b36",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc438162b7",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc43a5c8c7",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc43c93d7e",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc43eb6fa8",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc440eab04",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc44332f87",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc4459dbea",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc717d303f",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc719c6fa1",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc737f3a68",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc71c64655",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc71ecbccc",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc720f6390",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc722d3984",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc7252ccfb",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc7279a85a",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc72a4af03",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc72ccbbb8",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc72f02ae5",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc7314b0cb",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc733b926f",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc7358d3ee",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bc9fe9ac45",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca016ffcc",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca1f001e5",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca04c0b59",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca0765797",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca098db05",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca0c5d45c",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca0f24f71",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca1259485",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca1544ade",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca17b25de",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca19f5009",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "06 About us · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bca1c27ac2",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bce8c0adb5",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bce8e55dac",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bce90680f0",
+      "want": "05 Guest stories · Mobile",
+      "actual": "05 Guest stories · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bce9266336",
+      "want": "02 Raja Ampat · Mobile",
+      "actual": "02 Raja Ampat · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bce94865ec",
+      "want": "03 North Sulawesi · Mobile",
+      "actual": "03 North Sulawesi · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bce969b51f",
+      "want": "04 Yacht charters · Mobile",
+      "actual": "04 Yacht charters · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bce991e5fb",
+      "want": "10 Thank-you · agent · Mobile",
+      "actual": "10 Thank-you · agent · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bce9b39647",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bce9db07cb",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bcea044f31",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bcea2cca20",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bcea52599a",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bcea78a030",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bceaa61f22",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bcead3f8cb",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bceafdfdc0",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0c263025",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0c53610f",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0c80d232",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0cac1888",
+      "want": "09 Thank-you · traveller · Mobile",
+      "actual": "09 Thank-you · traveller · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0cd31204",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0cfa81b6",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0d24505e",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0d4b31a8",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0d734b11",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0d957e44",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0dafc6f6",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0dd252d6",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd0df83618",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd1ed68a16",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd1f04e10d",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd1f393940",
+      "want": "05 Guest stories · Mobile",
+      "actual": "05 Guest stories · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd1f64bd5d",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd1f901ba7",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd1fbe022d",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd1fe633e4",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd20121ef7",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd203cf9da",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd206bc85b",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd2099b514",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd20c45d17",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd32b48132",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd32e7ada0",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd3312b5ac",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd333848a6",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd335d6526",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd33829e06",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd33a74e6b",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd33d0380f",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd33f7b13d",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd342379f3",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd34488448",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd346d076b",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd4ea018ce",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd4ec73d62",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd4eefdf39",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd4f183111",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd4f3c1cd2",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd4f60ef56",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd4f8a759f",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd4fb4adbf",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd4fe3ed36",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd50152b96",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd6d84921c",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd6daf89c7",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd6ddfd947",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd6e0ad350",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd6e382105",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd6e632f4d",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd6e9415c6",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd6ec1bb32",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd6ee91eeb",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd6f0fcd4a",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd7f45c102",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd7f73693e",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd7f9df002",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd7fc36704",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd7feee98f",
+      "want": "02 Raja Ampat · Mobile",
+      "actual": "02 Raja Ampat · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd80149193",
+      "want": "03 North Sulawesi · Mobile",
+      "actual": "03 North Sulawesi · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd803dc545",
+      "want": "04 Yacht charters · Mobile",
+      "actual": "04 Yacht charters · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd8064846a",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd808c6311",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd80b44c31",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd80d7783d",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd80fc4756",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd81260aa2",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd814bb803",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd81770647",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd819f4570",
+      "want": "12 Booking terms · Mobile",
+      "actual": "12 Booking terms · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd81c070bb",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd8f8ba372",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd8fbc10b7",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd90374067",
+      "want": "11 Privacy & cookies · Mobile",
+      "actual": "11 Privacy & cookies · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd906620b2",
+      "want": "S2 State · Cookie settings · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd908ec8e0",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd90aea78a",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd8feacbe7",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S1 State · Cookie banner · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bd9014e022",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bda01c950c",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bda0488318",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bda0b9a246",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bda0e5bbca",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bda07225ab",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S2 State · Cookie settings · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bda0944d73",
+      "want": "01 Home · Mobile",
+      "actual": "S2 State · Cookie settings · Mobile",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdb60a756d",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdb62e9c94",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "thank-you"
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "privacy"
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "home"
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "advisors"
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "privacy"
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "terms"
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "state-cookie-settings"
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdc963489b",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdc995e4e7",
+      "want": "M1 Mobile menu (open) · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdc9c1115e",
+      "want": "09 Thank-you · traveller · Mobile",
+      "actual": "09 Thank-you · traveller · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "home"
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "about"
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "advisors"
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "privacy"
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "terms"
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "error": "Error: Node is either not clickable or not an Element",
+      "want": "state-cookie-settings"
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bddd41aeac",
+      "want": "01 Home · Mobile",
+      "actual": "01 Home · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bddd68d996",
+      "want": "__back",
+      "actual": "01 Home · Mobile",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bddd9463e4",
+      "want": "02 Raja Ampat · Mobile",
+      "actual": "02 Raja Ampat · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdddbc3be6",
+      "want": "03 North Sulawesi · Mobile",
+      "actual": "03 North Sulawesi · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bddde92114",
+      "want": "04 Yacht charters · Mobile",
+      "actual": "04 Yacht charters · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdde171e48",
+      "want": "05 Guest stories · Mobile",
+      "actual": "05 Guest stories · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdde3ccc33",
+      "want": "06 About us · Mobile",
+      "actual": "06 About us · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdde6ccdf5",
+      "want": "07 Travel agents · Mobile",
+      "actual": "07 Travel agents · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdde9398f5",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "08 Plan your trip · Mobile",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bddebff09f",
+      "want": "08 Plan your trip · Mobile",
+      "actual": "M1 Mobile menu (open) · Mobile",
+      "ok": false,
+      "geometryMatched": true
+    },
+    {
+      "board": "00 Cover · Emails & previews",
+      "shape": "shape-ba615006-a26e-80c7-8008-be2a5b730546",
+      "actual": "E1 Email · Auto-reply to traveller · Desktop",
+      "ok": false,
+      "geometryMatched": false
+    },
+    {
+      "board": "00 Cover · Emails & previews",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f0af33695c",
+      "actual": "E1 Email · Auto-reply to traveller · Desktop",
+      "ok": false,
+      "geometryMatched": false
+    },
+    {
+      "board": "00 Cover · Admin",
+      "shape": "shape-ba615006-a26e-80c7-8008-be2a7d09ceae",
+      "actual": "A1 Admin · Enquiries",
+      "ok": false,
+      "geometryMatched": false
+    },
+    {
+      "board": "00 Cover · Admin",
+      "shape": "shape-3329423a-1e09-8034-8008-c1f0d0a0c5dc",
+      "actual": "A1 Admin · Enquiries",
+      "ok": false,
+      "geometryMatched": false
+    },
+    {
+      "board": "A1 Admin · Enquiries",
+      "shape": "shape-326cb790-4168-80fe-8008-c138b500e1c0",
+      "want": "A1 Admin · Enquiries",
+      "actual": "A1 Admin · Enquiries",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A1 Admin · Enquiries",
+      "shape": "shape-326cb790-4168-80fe-8008-c138b508fe88",
+      "want": "A2 Admin · Reviews",
+      "actual": "A2 Admin · Reviews",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A1 Admin · Enquiries",
+      "shape": "shape-326cb790-4168-80fe-8008-c138b50f000b",
+      "want": "A3 Admin · Photos & video",
+      "actual": "A3 Admin · Photos & video",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A1 Admin · Enquiries",
+      "shape": "shape-326cb790-4168-80fe-8008-c138b516e947",
+      "want": "A4 Admin · Prices",
+      "actual": "A4 Admin · Prices",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A2 Admin · Reviews",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdfb819c04",
+      "want": "A1 Admin · Enquiries",
+      "actual": "A1 Admin · Enquiries",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A2 Admin · Reviews",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdfb8a225f",
+      "want": "A2 Admin · Reviews",
+      "actual": "A2 Admin · Reviews",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A2 Admin · Reviews",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdfb966ef1",
+      "want": "A3 Admin · Photos & video",
+      "actual": "A3 Admin · Photos & video",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A2 Admin · Reviews",
+      "shape": "shape-a03059c3-351a-80c4-8008-c1bdfba18e83",
+      "want": "A4 Admin · Prices",
+      "actual": "A4 Admin · Prices",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A3 Admin · Photos & video",
+      "shape": "shape-326cb790-4168-80fe-8008-c138b8c6f2d6",
+      "want": "A1 Admin · Enquiries",
+      "actual": "A1 Admin · Enquiries",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A3 Admin · Photos & video",
+      "shape": "shape-326cb790-4168-80fe-8008-c138b8cc4ca4",
+      "want": "A2 Admin · Reviews",
+      "actual": "A2 Admin · Reviews",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A3 Admin · Photos & video",
+      "shape": "shape-326cb790-4168-80fe-8008-c138b8d29023",
+      "want": "A3 Admin · Photos & video",
+      "actual": "A3 Admin · Photos & video",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A3 Admin · Photos & video",
+      "shape": "shape-326cb790-4168-80fe-8008-c138b8d75370",
+      "want": "A4 Admin · Prices",
+      "actual": "A4 Admin · Prices",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A4 Admin · Prices",
+      "shape": "shape-030969fd-f419-8019-8008-c0dc8b111ce3",
+      "want": "A1 Admin · Enquiries",
+      "actual": "A1 Admin · Enquiries",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A4 Admin · Prices",
+      "shape": "shape-030969fd-f419-8019-8008-c0dc8b2cd196",
+      "want": "A2 Admin · Reviews",
+      "actual": "A2 Admin · Reviews",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A4 Admin · Prices",
+      "shape": "shape-030969fd-f419-8019-8008-c0dc8b49489e",
+      "want": "A3 Admin · Photos & video",
+      "actual": "A3 Admin · Photos & video",
+      "ok": true,
+      "geometryMatched": true
+    },
+    {
+      "board": "A4 Admin · Prices",
+      "shape": "shape-030969fd-f419-8019-8008-c0dc8b63159c",
+      "want": "A4 Admin · Prices",
+      "actual": "A4 Admin · Prices",
+      "ok": true,
+      "geometryMatched": true
+    }
+  ],
+  "sizes": [
+    {
+      "board": "00 Cover · Desktop",
+      "expected": null,
+      "actual": [
+        1440,
+        2361
+      ]
+    },
+    {
+      "board": "01 Home · Desktop",
+      "expected": [
+        1440,
+        4148
+      ],
+      "actual": [
+        1440,
+        4148
+      ]
+    },
+    {
+      "board": "02 Raja Ampat · Desktop",
+      "expected": [
+        1440,
+        3923
+      ],
+      "actual": [
+        1440,
+        3923
+      ]
+    },
+    {
+      "board": "03 North Sulawesi · Desktop",
+      "expected": [
+        1440,
+        3923
+      ],
+      "actual": [
+        1440,
+        3923
+      ]
+    },
+    {
+      "board": "04 Yacht charters · Desktop",
+      "expected": [
+        1440,
+        4621
+      ],
+      "actual": [
+        1440,
+        4621
+      ]
+    },
+    {
+      "board": "05 Guest stories · Desktop",
+      "expected": [
+        1440,
+        3356
+      ],
+      "actual": [
+        1440,
+        3356
+      ]
+    },
+    {
+      "board": "06 About us · Desktop",
+      "expected": [
+        1440,
+        2715
+      ],
+      "actual": [
+        1440,
+        2715
+      ]
+    },
+    {
+      "board": "07 Travel agents · Desktop",
+      "expected": [
+        1440,
+        4564
+      ],
+      "actual": [
+        1440,
+        4564
+      ]
+    },
+    {
+      "board": "08 Plan your trip · Desktop",
+      "expected": [
+        1440,
+        1885
+      ],
+      "actual": [
+        1440,
+        1885
+      ]
+    },
+    {
+      "board": "09 Thank-you · traveller · Desktop",
+      "expected": [
+        1440,
+        1175
+      ],
+      "actual": [
+        1440,
+        1175
+      ]
+    },
+    {
+      "board": "10 Thank-you · agent · Desktop",
+      "expected": [
+        1440,
+        1175
+      ],
+      "actual": [
+        1440,
+        1175
+      ]
+    },
+    {
+      "board": "11 Privacy & cookies · Desktop",
+      "expected": [
+        1440,
+        2096
+      ],
+      "actual": [
+        1440,
+        2096
+      ]
+    },
+    {
+      "board": "12 Booking terms · Desktop",
+      "expected": [
+        1440,
+        2403
+      ],
+      "actual": [
+        1440,
+        2403
+      ]
+    },
+    {
+      "board": "13 404 · Page not found · Desktop",
+      "expected": [
+        1440,
+        1098
+      ],
+      "actual": [
+        1440,
+        1098
+      ]
+    },
+    {
+      "board": "14 Temporarily unavailable · Desktop",
+      "expected": [
+        1440,
+        640
+      ],
+      "actual": [
+        1440,
+        640
+      ]
+    },
+    {
+      "board": "S1 State · Cookie banner · Desktop",
+      "expected": [
+        1440,
+        640
+      ],
+      "actual": [
+        1440,
+        640
+      ]
+    },
+    {
+      "board": "S2 State · Cookie settings · Desktop",
+      "expected": [
+        1440,
+        640
+      ],
+      "actual": [
+        1440,
+        640
+      ]
+    },
+    {
+      "board": "S3 State · Form errors · Desktop",
+      "expected": [
+        1440,
+        640
+      ],
+      "actual": [
+        1440,
+        640
+      ]
+    },
+    {
+      "board": "S4 State · Sending failed · Desktop",
+      "expected": [
+        1440,
+        640
+      ],
+      "actual": [
+        1440,
+        640
+      ]
+    },
+    {
+      "board": "00 Cover · Mobile",
+      "expected": null,
+      "actual": [
+        390,
+        3376
+      ]
+    },
+    {
+      "board": "01 Home · Mobile",
+      "expected": [
+        390,
+        5669
+      ],
+      "actual": [
+        390,
+        5669
+      ]
+    },
+    {
+      "board": "02 Raja Ampat · Mobile",
+      "expected": [
+        390,
+        5165
+      ],
+      "actual": [
+        390,
+        5165
+      ]
+    },
+    {
+      "board": "03 North Sulawesi · Mobile",
+      "expected": [
+        390,
+        5196
+      ],
+      "actual": [
+        390,
+        5196
+      ]
+    },
+    {
+      "board": "04 Yacht charters · Mobile",
+      "expected": [
+        390,
+        5080
+      ],
+      "actual": [
+        390,
+        5080
+      ]
+    },
+    {
+      "board": "05 Guest stories · Mobile",
+      "expected": [
+        390,
+        4276
+      ],
+      "actual": [
+        390,
+        4276
+      ]
+    },
+    {
+      "board": "06 About us · Mobile",
+      "expected": [
+        390,
+        3439
+      ],
+      "actual": [
+        390,
+        3439
+      ]
+    },
+    {
+      "board": "07 Travel agents · Mobile",
+      "expected": [
+        390,
+        6121
+      ],
+      "actual": [
+        390,
+        6121
+      ]
+    },
+    {
+      "board": "08 Plan your trip · Mobile",
+      "expected": [
+        390,
+        2621
+      ],
+      "actual": [
+        390,
+        2621
+      ]
+    },
+    {
+      "board": "09 Thank-you · traveller · Mobile",
+      "expected": [
+        390,
+        1723
+      ],
+      "actual": [
+        390,
+        1723
+      ]
+    },
+    {
+      "board": "10 Thank-you · agent · Mobile",
+      "expected": [
+        390,
+        1691
+      ],
+      "actual": [
+        390,
+        1691
+      ]
+    },
+    {
+      "board": "11 Privacy & cookies · Mobile",
+      "expected": [
+        390,
+        2553
+      ],
+      "actual": [
+        390,
+        2553
+      ]
+    },
+    {
+      "board": "12 Booking terms · Mobile",
+      "expected": [
+        390,
+        2989
+      ],
+      "actual": [
+        390,
+        2989
+      ]
+    },
+    {
+      "board": "13 404 · Page not found · Mobile",
+      "expected": [
+        390,
+        1235
+      ],
+      "actual": [
+        390,
+        1235
+      ]
+    },
+    {
+      "board": "14 Temporarily unavailable · Mobile",
+      "expected": [
+        390,
+        660
+      ],
+      "actual": [
+        390,
+        660
+      ]
+    },
+    {
+      "board": "S1 State · Cookie banner · Mobile",
+      "expected": [
+        390,
+        660
+      ],
+      "actual": [
+        390,
+        660
+      ]
+    },
+    {
+      "board": "S2 State · Cookie settings · Mobile",
+      "expected": [
+        390,
+        660
+      ],
+      "actual": [
+        390,
+        660
+      ]
+    },
+    {
+      "board": "S3 State · Form errors · Mobile",
+      "expected": [
+        390,
+        660
+      ],
+      "actual": [
+        390,
+        660
+      ]
+    },
+    {
+      "board": "S4 State · Sending failed · Mobile",
+      "expected": [
+        390,
+        660
+      ],
+      "actual": [
+        390,
+        660
+      ]
+    },
+    {
+      "board": "M1 Mobile menu (open) · Mobile",
+      "expected": [
+        390,
+        660
+      ],
+      "actual": [
+        390,
+        660
+      ]
+    },
+    {
+      "board": "00 Cover · Emails & previews",
+      "expected": null,
+      "actual": [
+        1440,
+        900
+      ]
+    },
+    {
+      "board": "E1 Email · Auto-reply to traveller · Desktop",
+      "expected": [
+        760,
+        987
+      ],
+      "actual": [
+        760,
+        987
+      ]
+    },
+    {
+      "board": "E2 Email · Auto-reply to agent · Desktop",
+      "expected": [
+        760,
+        862
+      ],
+      "actual": [
+        760,
+        862
+      ]
+    },
+    {
+      "board": "E3 Email · New enquiry alert (owner) · Desktop",
+      "expected": [
+        760,
+        993
+      ],
+      "actual": [
+        760,
+        993
+      ]
+    },
+    {
+      "board": "E1 Email · Auto-reply to traveller · Mobile",
+      "expected": [
+        390,
+        1052
+      ],
+      "actual": [
+        390,
+        1052
+      ]
+    },
+    {
+      "board": "E2 Email · Auto-reply to agent · Mobile",
+      "expected": [
+        390,
+        940
+      ],
+      "actual": [
+        390,
+        940
+      ]
+    },
+    {
+      "board": "E3 Email · New enquiry alert (owner) · Mobile",
+      "expected": [
+        390,
+        1077
+      ],
+      "actual": [
+        390,
+        1077
+      ]
+    },
+    {
+      "board": "P1 Link previews",
+      "expected": [
+        1440,
+        1649
+      ],
+      "actual": [
+        1440,
+        1649
+      ]
+    },
+    {
+      "board": "00 Cover · Admin",
+      "expected": null,
+      "actual": [
+        1440,
+        900
+      ]
+    },
+    {
+      "board": "A1 Admin · Enquiries",
+      "expected": [
+        1440,
+        736
+      ],
+      "actual": [
+        1440,
+        736
+      ]
+    },
+    {
+      "board": "A2 Admin · Reviews",
+      "expected": [
+        1440,
+        695
+      ],
+      "actual": [
+        1440,
+        695
+      ]
+    },
+    {
+      "board": "A3 Admin · Photos & video",
+      "expected": [
+        1440,
+        894
+      ],
+      "actual": [
+        1440,
+        894
+      ]
+    },
+    {
+      "board": "A4 Admin · Prices",
+      "expected": [
+        1440,
+        1068
+      ],
+      "actual": [
+        1440,
+        1068
+      ]
+    }
+  ]
+}

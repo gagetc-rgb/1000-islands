@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<title>For travel agents · раунд 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;800&family=Red+Hat+Text:wght@400;500&display=swap">
+<style>
+/* Round 3 of the "For travel agents" block: motion. Not part of the designs yet.
+   User, 2 Nov: the block must catch an agent's eye; add motion and effects that read as expensive.
+   1-3 are the user's ideas (aerial photo cut by diagonals with copy sliding in; copy sliding in from the side with
+   accents; text only, blocks dropping in and a frame drawing itself). 4-8 are mine. 4 reuses the WebGL water ripple
+   from the user's Playing at Freedom pitch (jquery.ripples 0.5.3), which he called beautiful and expensive.
+   Palette and type from round 2 (ivory, bronze hairlines, Red Hat). Copy: the owner's B2B text, condensed.
+   Motion: transform/opacity/clip-path only, expo-out easing, one play when the block reaches the viewport,
+   "Ещё раз" in the dark bar replays it. prefers-reduced-motion shows the final state with no movement.
+   2 Nov, user review: the swimmer frame is off-topic; the user then picked whole owner photos 8 (2O4A3267, yacht in the
+   Raja Ampat lagoon) and 18 (IMG_9812, karst lagoon) from trade-options/photos/, switchable in the bars of 1 and 4. In 4 the
+   ripple runs only on the water: a still copy of the photo sits underneath and the WebGL layer shows through a water mask
+   (assets/img/waterN-mask.png, built from colour + connected regions for 8, everything below the shoreline for 18); 1 and 7 must fit one screen; 2 looked cheap (marker, dots), redone;
+   8 gets the Triton Bay whale-shark clip as an alternative; 3 goes into design 5. */
+:root{--ink:#15130f;--muted:#58524a;--ivory:#f6f1e8;--bronze:#8b6a3e;--hair:rgb(139 106 62 / .38);
+  --gutter:clamp(16px,4vw,48px);--max:1320px;--display:"Red Hat Display",system-ui,sans-serif;--text:"Red Hat Text",system-ui,sans-serif;
+  --out:cubic-bezier(.16,1,.3,1);--io:cubic-bezier(.77,0,.175,1);--pen:cubic-bezier(.45,0,.55,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#fff;color:var(--ink);font:400 17px/1.6 var(--text);-webkit-font-smoothing:antialiased;overflow-x:clip}
+ul{list-style:none}
+a{color:inherit}
+img,video{display:block;max-width:100%}
+:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.wrap{width:min(100% - 2*var(--gutter),var(--max));margin-inline:auto}
+h1,h2,h3{font-family:var(--display);letter-spacing:-.01em}
+h2{font-weight:300;font-size:clamp(44px,4.8vw,74px);line-height:1.02}
+h3{font-weight:500;font-size:20px;line-height:1.3}
+.lead{font-family:var(--display);font-weight:400;font-size:clamp(20px,1.6vw,23px);line-height:1.4;margin-top:20px;max-width:26ch}
+.note{font-size:16px;color:var(--muted)}
+.muted{color:var(--muted)}
+.ic{width:32px;height:32px;flex:none;color:var(--bronze);fill:none;stroke:currentColor;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;border-radius:10px;
+  font:500 16px/1 var(--display);letter-spacing:.01em;text-decoration:none;border:1px solid var(--ink);background:var(--ink);color:var(--ivory);
+  transition:background-color .25s,color .25s,border-color .25s}
+.btn:hover{background:transparent;color:var(--ink)}
+.actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px;margin-top:40px}
+section{position:relative}
+.pad{padding:clamp(88px,10vw,152px) 0}
+.ivory{background:var(--ivory)}
+
+/* page chrome: the user's notes between variants (Russian, not site copy) */
+.intro{padding:48px 0 32px}
+.intro h1{font-size:clamp(28px,3vw,40px);font-weight:500}
+.intro p{max-width:60ch;margin-top:12px;color:var(--muted)}
+.tag{background:#1b1b1b;color:#fff;padding:16px 0}
+.tag .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px 28px}
+.tag p{font-size:16px;line-height:1.45;max-width:60ch}
+.tag b{font-family:var(--display);font-weight:600;font-size:18px;margin-right:10px}
+.replay{flex:none;display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px;border-radius:999px;cursor:pointer;
+  font:500 16px/1 var(--display);color:#fff;background:transparent;border:1px solid rgb(255 255 255 / .45);transition:background-color .2s,color .2s}
+.replay:hover{background:#fff;color:#1b1b1b}
+.pick{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:10px}
+.pick span{font-size:16px;color:#cfcfcf;margin-right:4px}
+.pick button{min-height:36px;padding:0 14px;border-radius:999px;cursor:pointer;font:500 16px/1 var(--display);color:#fff;background:transparent;
+  border:1px solid rgb(255 255 255 / .35);transition:background-color .2s,color .2s}
+.pick button:hover{border-color:#fff}
+.pick button[aria-pressed="true"]{background:#fff;color:#1b1b1b;border-color:#fff}
+.replay svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.above{height:56px;background:#f3f3f1;border-bottom:1px solid #e4e4e0}   /* end of the reviews block above */
+.ctx{height:72px;background:linear-gradient(180deg,#2b2433,#5a3a3c 60%,#b0634a)}   /* the sunset CTA that follows */
+
+/* reveal plumbing: a block is .armed (hidden) only just before it reaches the viewport, so nothing sits hidden
+   that is not about to play; .in plays it. Reduced motion never arms. */
+.reset,.reset *,.reset *::before,.reset *::after{transition:none!important}
+.up{transition:opacity .9s var(--out) var(--d,0ms),translate 1.1s var(--out) var(--d,0ms)}
+.rv.armed:not(.in) .up{opacity:0;translate:0 28px}
+
+/* blocks that must fit one laptop screen (user, 2 Nov): padding and media height follow the viewport height */
+.fit{--fitpad:clamp(28px,5vh,56px);--room:calc(100svh - 2 * var(--fitpad) - 90px);padding-block:var(--fitpad)}
+.fit h2{font-size:clamp(36px,min(4.8vw,7.5vh),74px)}
+.fit .lead{margin-top:clamp(10px,2vh,20px)}
+.fit .actions{margin-top:clamp(18px,3.5vh,40px)}
+
+/* 1 · three diagonal slices of one open-ocean frame, copy slides in from the right */
+.v1-in{display:grid;grid-template-columns:7fr 5fr;gap:48px clamp(48px,6vw,104px);align-items:center}
+.slices{position:relative;height:min(680px,var(--room))}
+.sl{position:absolute;inset:0;clip-path:var(--cp);
+  transform:translate3d(calc(var(--px,0) * var(--k) * 12px),calc(var(--py,0) * var(--k) * 8px),0);
+  transition:translate 1.5s var(--out) var(--d),opacity 1s var(--out) var(--d),transform 1s var(--out)}
+.sl img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;transition:scale 2.4s var(--out) var(--d)}
+.sl:nth-child(1){--cp:polygon(0 0,26% 0,42% 100%,0 100%);--d:0ms;--from:0 -16%;--k:-1}
+.sl:nth-child(2){--cp:polygon(28.5% 0,60% 0,76% 100%,44.5% 100%);--d:160ms;--from:0 16%;--k:.5}
+.sl:nth-child(3){--cp:polygon(62.5% 0,100% 0,100% 100%,78.5% 100%);--d:320ms;--from:0 -16%;--k:1.4}
+.v1.armed:not(.in) .sl{translate:var(--from);opacity:0}
+.v1.armed:not(.in) .sl img{scale:1.2}
+.v1-list{margin-top:clamp(16px,3vh,32px)}
+.v1-list li{position:relative;padding:clamp(10px,2vh,20px) 0 clamp(12px,2.2vh,22px);transition:opacity .8s var(--out) var(--d),translate 1s var(--out) var(--d)}
+.v1-list li::before{content:"";position:absolute;inset:0 0 auto;height:1px;background:var(--hair);transform-origin:left;transition:scale 1.1s var(--out) var(--d)}
+.v1-list li:last-child{border-bottom:1px solid var(--hair)}
+.v1-list p{color:var(--muted);margin-top:6px;max-width:40ch}
+.v1.armed:not(.in) .v1-list li{opacity:0;translate:96px 0}
+.v1.armed:not(.in) .v1-list li::before{scale:0 1}
+
+/* 2 · redone after "looks cheap": three statements slide in from alternating sides, the key words settle into
+   bronze and a hairline draws under each; no marker, no dots */
+.v2-head{display:grid;grid-template-columns:1fr 1fr;gap:20px 64px;align-items:end}
+.v2-head .lead{justify-self:end;text-align:right;margin-top:0}
+.says{margin-top:clamp(18px,4vh,56px)}
+.says li{position:relative;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:12px 64px;align-items:baseline;padding:clamp(12px,2.6vh,34px) 0;
+  transition:opacity .9s var(--out) var(--d),translate 1.3s var(--out) var(--d)}
+.says li::after{content:"";position:absolute;inset:auto 0 0;height:1px;background:var(--hair);transform-origin:left;transition:scale 1.3s var(--io) calc(var(--d) + 250ms)}
+.says li:nth-child(even)::after{transform-origin:right}   /* one steady grid: statement left, its note right; only the motion alternates */
+.says h3{font-weight:300;font-size:clamp(32px,min(4.2vw,6.4vh),64px);line-height:1.04;letter-spacing:-.02em}
+.says em{font-style:normal;color:#7d5e35;transition:color 1.1s var(--out) calc(var(--d) + 900ms)}
+.says p{color:var(--muted);max-width:34ch;padding-bottom:.4em}
+.v2.armed:not(.in) .says li:nth-child(odd){opacity:0;translate:-140px 0}
+.v2.armed:not(.in) .says li:nth-child(even){opacity:0;translate:140px 0}
+.v2.armed:not(.in) .says li::after{scale:0 1}
+.v2.armed:not(.in) .says em{color:var(--ink)}
+
+/* 3 · text only: blocks drop in out of a blur, a double frame draws itself like a pen on stationery */
+.card3{position:relative;background:var(--ivory);padding:clamp(32px,min(6vw,8vh),96px);display:grid;grid-template-columns:5fr 6fr;gap:48px clamp(48px,6vw,104px);align-items:center}
+.fr{position:absolute;inset:0;pointer-events:none}
+.fr-i{inset:12px}
+.fr i{position:absolute;background:var(--bronze);opacity:.55;transition:scale .55s var(--pen) var(--fd)}
+.fr .t{inset:0 0 auto;height:1px;transform-origin:left;--fd:0ms}
+.fr .r{inset:0 0 0 auto;width:1px;transform-origin:top;--fd:550ms}
+.fr .b{inset:auto 0 0;height:1px;transform-origin:right;--fd:1100ms}
+.fr .l{inset:0 auto 0 0;width:1px;transform-origin:bottom;--fd:1650ms}
+.fr-i i{--fd-shift:280ms}
+.fr-i .t{--fd:280ms}.fr-i .r{--fd:830ms}.fr-i .b{--fd:1380ms}.fr-i .l{--fd:1930ms}
+.v3.armed:not(.in) .fr .t,.v3.armed:not(.in) .fr .b{scale:0 1}
+.v3.armed:not(.in) .fr .r,.v3.armed:not(.in) .fr .l{scale:1 0}
+.drop{transition:opacity 1s var(--out) var(--d),translate 1.2s var(--out) var(--d),filter 1s var(--out) var(--d)}
+.v3.armed:not(.in) .drop{opacity:0;translate:0 -64px;filter:blur(10px)}
+.points3 li{display:grid;grid-template-columns:32px 1fr;gap:4px 22px;padding:clamp(12px,2.4vh,22px) 0;border-bottom:1px solid var(--hair)}
+.points3 li:first-child{border-top:1px solid var(--hair)}
+.points3 .ic{grid-row:1/3;margin-top:2px}
+.points3 p{color:var(--muted)}
+
+/* 4 · water: the Playing at Freedom ripple on the aerial lagoon, copy on frosted ivory glass */
+.stage4{position:relative;height:clamp(480px,var(--room),720px);isolation:isolate;
+  transition:clip-path 1.6s var(--out)}
+.water,.water-base{position:absolute;inset:0;clip-path:inset(0 round 20px);background:#0d4a7a url(../assets/img/water8-2400.webp) 50% 50% / cover no-repeat}
+.water{-webkit-mask:url(../assets/img/water8-mask.png) 50% 50% / cover no-repeat;mask:url(../assets/img/water8-mask.png) 50% 50% / cover no-repeat;cursor:crosshair}
+.card4{position:absolute;z-index:2;top:clamp(14px,3vh,28px);bottom:clamp(14px,3vh,28px);left:28px;width:min(470px,44%);display:flex;flex-direction:column;justify-content:center;
+  padding:clamp(22px,min(3.4vw,4.4vh),48px);border-radius:14px;background:rgb(246 241 232 / .74);border:1px solid rgb(255 255 255 / .55);
+  -webkit-backdrop-filter:blur(18px) saturate(1.2);backdrop-filter:blur(18px) saturate(1.2);
+  transition:opacity 1.1s var(--out) .5s,translate 1.3s var(--out) .5s}
+.card4 h2,.glass h2{font-size:clamp(32px,min(3.8vw,6vh),58px)}
+.card4 .lead{margin-top:clamp(6px,1.4vh,14px)}
+.card4 ul{margin-top:clamp(12px,2.6vh,28px)}
+.card4 li{padding:clamp(7px,1.5vh,14px) 0;border-top:1px solid var(--hair)}
+.card4 li p{color:var(--muted);font-size:16px;margin-top:2px}
+.card4 .actions{margin-top:clamp(14px,2.6vh,28px)}
+.v4.armed:not(.in) .stage4{clip-path:inset(6% 4% round 20px)}
+.v4.in .stage4{clip-path:inset(0 round 20px)}
+.v4.armed:not(.in) .card4{opacity:0;translate:-40px 0}
+
+/* 5 · the heading set huge and heavy, the atoll film playing inside the letters (white plate, screen blend) */
+.v5{background:#fff}
+.vt{position:relative}
+.vt-media{position:relative;isolation:isolate;clip-path:inset(0)}
+.vt video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:var(--vx,50%) var(--vy,78%);transition:object-position 1.4s var(--out)}   /* pans inside its own box, so nothing overflows */
+.vt-plate{position:relative;background:#fff;mix-blend-mode:screen}
+.vt h2{color:#000;font-weight:800;font-size:clamp(56px,min(13.4vw,21vh),206px);line-height:.86;letter-spacing:-.04em}
+.vt .ln{display:block;overflow:hidden;padding:.02em 0 .22em}
+.vt .ln+.ln{margin-top:-.22em}
+.vt .ln>span{display:inline-block;transition:translate 1.4s var(--out) var(--d)}
+.v5.armed:not(.in) .vt .ln>span{translate:0 112%}
+.vt-side{position:absolute;z-index:1;right:0;bottom:9%;width:min(460px,38%)}
+.vt-side .lead{margin-top:0}
+.vt-side .actions{margin-top:28px}
+.cols5{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:clamp(24px,5vh,72px)}
+.cols5 li{position:relative;padding-top:22px}
+.cols5 li::before{content:"";position:absolute;inset:0 0 auto;height:1px;background:var(--bronze);opacity:.5;transform-origin:left;transition:scale 1.1s var(--out) var(--d)}
+.cols5 p{color:var(--muted);margin-top:8px}
+.v5.armed:not(.in) .cols5 li::before{scale:0 1}
+
+/* 7 · three photos as slanted shutters; hover opens one and shows its answer */
+.v7{background:var(--ivory)}
+.v7-head{display:grid;grid-template-columns:1fr auto;gap:24px 64px;align-items:end}
+.v7-head .actions{margin-top:0}
+.panes-wrap{margin-top:clamp(20px,4vh,56px)}
+.panes{display:flex;height:clamp(280px,calc(var(--room) - 170px),540px)}   /* the heading row above takes ~170px */
+.pane{--s:56px;position:relative;flex:1 1 0;min-width:0;cursor:pointer;outline-offset:-8px;background:#1d2a2c;
+  clip-path:polygon(var(--s) 0,100% 0,calc(100% - var(--s)) 100%,0 100%);
+  transition:flex-grow 1s var(--out),opacity 1s var(--out) var(--d),translate 1.3s var(--out) var(--d)}
+.pane:first-child{clip-path:polygon(0 0,100% 0,calc(100% - var(--s)) 100%,0 100%)}
+.pane:last-child{clip-path:polygon(var(--s) 0,100% 0,100% 100%,0 100%)}
+.pane+.pane{margin-left:calc(14px - var(--s))}   /* leaves a 14px gap along the slant */
+.pane.is-on{flex-grow:2.4}
+.pane-in{position:absolute;inset:0}
+.pane-in img{width:100%;height:100%;object-fit:cover;scale:1.12;transition:scale 1.6s var(--out)}
+.pane.is-on .pane-in img{scale:1}
+.pane::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgb(8 14 16 / .86),rgb(8 14 16 / .5) 34%,rgb(8 14 16 / 0) 62%);pointer-events:none}
+.pane-copy{position:absolute;z-index:1;left:0;right:0;bottom:0;padding:0 calc(var(--s) + 24px) 36px 40px;color:#fff}
+.pane-copy h3{font-weight:400;font-size:clamp(22px,1.9vw,28px);line-height:1.2;max-width:16ch}
+.pane-copy p{margin-top:10px;max-width:34ch;color:#ebe7df;opacity:0;translate:0 12px;transition:opacity .5s var(--out),translate .8s var(--out)}
+.pane.is-on .pane-copy p{opacity:1;translate:0 0;transition-delay:.25s}
+.v7.armed:not(.in) .pane{opacity:0;translate:0 90px}
+
+/* 8 · the lagoon film opens like a window, smoked glass on top tilts after the pointer with a moving sheen */
+.stage8{position:relative;height:clamp(480px,var(--room),720px);border-radius:20px;background:#10282b;isolation:isolate;transition:clip-path 1.6s var(--io)}
+.stage8 video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:20px;transition:scale 2.6s var(--out)}
+.v8.armed:not(.in) .stage8{clip-path:inset(18% 22% round 20px)}
+.v8.in .stage8{clip-path:inset(0 round 20px)}
+.v8.armed:not(.in) .stage8 video{scale:1.25}
+.glass{position:absolute;z-index:2;top:clamp(14px,3vh,32px);bottom:clamp(14px,3vh,32px);right:32px;width:min(480px,44%);display:flex;flex-direction:column;justify-content:center;
+  padding:clamp(22px,min(3.4vw,4.4vh),48px);border-radius:16px;color:#f5f2ec;
+  background:rgb(9 24 27 / .66);border:1px solid rgb(255 255 255 / .2);box-shadow:inset 0 1px 0 rgb(255 255 255 / .25);
+  -webkit-backdrop-filter:blur(22px) saturate(1.4);backdrop-filter:blur(22px) saturate(1.4);
+  transform:perspective(1200px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));
+  transition:transform .9s var(--out),opacity 1.1s var(--out) .9s,translate 1.3s var(--out) .9s}
+.glass::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:var(--so,0);transition:opacity .6s;
+  background:radial-gradient(460px circle at var(--sx,50%) var(--sy,30%),rgb(255 255 255 / .22),transparent 62%)}
+.glass>*{position:relative}
+.glass .lead{margin-top:clamp(6px,1.4vh,14px)}
+.glass ul{margin-top:clamp(12px,2.6vh,28px)}
+.glass li{padding:clamp(7px,1.5vh,14px) 0;border-top:1px solid rgb(255 255 255 / .22)}
+.glass li p{color:#d9d5cc;font-size:16px;margin-top:2px}
+.glass .actions{margin-top:clamp(14px,2.6vh,28px)}
+.glass .note{color:#d9d5cc}
+.glass .btn{background:#f5f2ec;color:#0d1c1f;border-color:#f5f2ec}
+.glass .btn:hover{background:transparent;color:#f5f2ec}
+.v8.armed:not(.in) .glass{opacity:0;translate:0 36px}
+
+@media (max-width:980px){
+  .v1-in,.v2-head,.card3,.v5-row{grid-template-columns:1fr}
+  .fit{padding-block:clamp(72px,10vw,120px)}
+  .stage4,.stage8{height:auto}
+  .slices{height:auto;aspect-ratio:1/1}
+  .vt-side{position:static;width:auto;margin-top:28px}
+  .vt h2{font-size:clamp(56px,21.5vw,140px)}
+  .cols5{grid-template-columns:1fr;gap:0}
+  .cols5 li{padding:20px 0 22px}
+  .v7-head{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .tag .wrap{flex-direction:column;align-items:flex-start}
+  .actions .btn{flex:1 1 auto}
+  /* shorter travel on a phone, so nothing slides in from beyond the screen edge */
+  .v1.armed:not(.in) .v1-list li{translate:40px 0}
+  .v2.armed:not(.in) .says li:nth-child(odd){translate:-40px 0}
+  .v2.armed:not(.in) .says li:nth-child(even){translate:40px 0}
+  .v2-head .lead{justify-self:start;text-align:left}
+  .says li{grid-template-columns:1fr}
+  .fr-i{inset:7px}
+  /* 4 and 8: the media sits on top, the glass overlaps its lower edge */
+  .stage4,.stage8{height:auto;border-radius:0;background:none}
+  .v4.armed:not(.in) .stage4,.v4.in .stage4,.v8.armed:not(.in) .stage8,.v8.in .stage8{clip-path:none}
+  .water,.stage8 video{position:relative;inset:auto;height:420px;border-radius:16px}
+  .water,.water-base{clip-path:inset(0 round 16px)}
+  .water-base{position:absolute;inset:0 0 auto;height:420px}
+  .stage8 video{width:100%}
+  .card4,.glass{position:relative;inset:auto;width:auto;margin:-96px 12px 0;transform:none}
+  .glass{background:rgb(9 24 27 / .82)}
+  /* 7: shutters stack, every answer visible */
+  .panes{flex-direction:column;height:auto;gap:10px}
+  .panes>.pane,.panes>.pane.is-on{flex:none;height:280px;margin:0;clip-path:polygon(0 0,100% 28px,100% 100%,0 calc(100% - 28px))}
+  .pane-copy{padding:0 24px 44px}
+  .pane-copy p,.pane.is-on .pane-copy p{opacity:1;translate:0 0}
+}
+</style>
+</head>
+<body>
+
+<header class="intro"><div class="wrap">
+  <h1>Блок «For travel agents»: раунд 3, с движением</h1>
+  <p>Варианты 1–8 (6 убран). 1–3 по твоим идеям, 4–8 мои. Движение запускается, когда блок доезжает до экрана; кнопка «Ещё раз» в чёрной полосе повторяет его. Тексты те же, слова хозяина.</p>
+</div></header>
+
+<!-- 1 -->
+<div class="tag"><div class="wrap"><div><p><b>1 · Три среза одного кадра</b>Фото 8 или 18 вместо пловчихи, разрезано на три полосы, они съезжаются в один кадр. Блок теперь целиком влезает в экран ноутбука. Поводи мышкой по фото: полосы расходятся по глубине.</p><div class="pick" data-pick="ocean"><span>Фото:</span><button type="button" data-v="8" aria-pressed="true">8 · яхта в лагуне</button><button type="button" data-v="18" aria-pressed="false">18 · бирюзовая лагуна</button></div></div><button class="replay" type="button" data-replay="v1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>Ещё раз</button></div></div>
+<div class="above" aria-hidden="true"></div>
+<section class="v1 rv ivory fit" id="v1" aria-labelledby="t1">
+  <div class="wrap v1-in">
+    <div class="slices">
+      <div class="sl"><img data-ocean src="../assets/img/water8-2400.webp" alt="A sailing yacht in a turquoise lagoon among green karst islands"></div>
+      <div class="sl" aria-hidden="true"><img data-ocean src="../assets/img/water8-2400.webp" alt=""></div>
+      <div class="sl" aria-hidden="true"><img data-ocean src="../assets/img/water8-2400.webp" alt=""></div>
+    </div>
+    <div>
+      <h2 id="t1" class="up" style="--d:250ms">For travel agents</h2>
+      <p class="lead up" style="--d:380ms">Your partner in remote Indonesia.</p>
+      <ul class="v1-list">
+        <li style="--d:720ms"><h3>Your client stays yours</h3><p>We can work entirely behind the scenes and speak through your company.</p></li>
+        <li style="--d:940ms"><h3>All of it, or one part</h3><p>Complete ground handling, or single parts of a journey.</p></li>
+        <li style="--d:1160ms"><h3>Under your brand</h3><p>Complete itineraries to offer as your own Indonesian product.</p></li>
+      </ul>
+      <div class="actions up" style="--d:1450ms"><a class="btn" href="#">Get trade rates</a><span class="note">For registered travel companies</span></div>
+    </div>
+  </div>
+</section>
+<div class="ctx" aria-hidden="true"></div>
+
+<!-- 2 -->
+<div class="tag"><div class="wrap"><p><b>2 · Выезд сбоку и акценты, заново</b>Без маркера и точек. Три крупные фразы выезжают по очереди слева и справа, ключевые слова плавно становятся бронзовыми, под каждой фразой прорисовывается тонкая линия.</p><button class="replay" type="button" data-replay="v2"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>Ещё раз</button></div></div>
+<div class="above" aria-hidden="true"></div>
+<section class="v2 rv ivory fit" id="v2" aria-labelledby="t2">
+  <div class="wrap">
+    <div class="v2-head">
+      <h2 id="t2" class="up">For travel agents</h2>
+      <p class="lead up" style="--d:120ms">Your partner in remote Indonesia.</p>
+    </div>
+    <ul class="says">
+      <li style="--d:260ms"><h3>Your client <em>stays yours</em></h3><p>We can work entirely behind the scenes and speak through your company.</p></li>
+      <li style="--d:520ms"><h3>All of it, <em>or one part</em></h3><p>Complete ground handling, or single parts of a journey.</p></li>
+      <li style="--d:780ms"><h3>Under <em>your brand</em></h3><p>Complete itineraries to offer as your own Indonesian product.</p></li>
+    </ul>
+    <div class="actions up" style="--d:1400ms"><a class="btn" href="#">Get trade rates</a><span class="note">For registered travel companies</span></div>
+  </div>
+</section>
+<div class="ctx" aria-hidden="true"></div>
+
+<!-- 3 -->
+<div class="tag"><div class="wrap"><p><b>3 · Только текст, рамка рисуется</b>Без фото. Блоки падают сверху из лёгкого размытия, двойная рамка обводится по контуру. Этот вариант перенесён в дизайн 5 в его цветах.</p><button class="replay" type="button" data-replay="v3"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>Ещё раз</button></div></div>
+<div class="above" aria-hidden="true"></div>
+<section class="v3 rv fit" id="v3" aria-labelledby="t3">
+  <div class="wrap">
+    <div class="card3">
+      <span class="fr fr-o" aria-hidden="true"><i class="t"></i><i class="r"></i><i class="b"></i><i class="l"></i></span>
+      <span class="fr fr-i" aria-hidden="true"><i class="t"></i><i class="r"></i><i class="b"></i><i class="l"></i></span>
+      <div>
+        <h2 id="t3" class="drop" style="--d:200ms">For travel agents</h2>
+        <p class="lead drop" style="--d:380ms">Your partner in remote Indonesia.</p>
+        <div class="actions drop" style="--d:1250ms"><a class="btn" href="#">Get trade rates</a><span class="note">For registered travel companies</span></div>
+      </div>
+      <ul class="points3">
+        <li class="drop" style="--d:560ms"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></svg><h3>Your client stays yours</h3><p>We work behind the scenes when you need it.</p></li>
+        <li class="drop" style="--d:760ms"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg><h3>All of it, or one part</h3><p>Complete ground handling, or single parts.</p></li>
+        <li class="drop" style="--d:960ms"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg><h3>Under your brand</h3><p>Itineraries to offer as your own product.</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<div class="ctx" aria-hidden="true"></div>
+
+<!-- 4 -->
+<div class="tag"><div class="wrap"><div><p><b>4 · Вода, как в Playing at Freedom</b>Та же WebGL-рябь, но только по воде: острова и небо стоят. Проведи мышкой или пальцем по воде. На появлении падают три капли, сбоку выезжает матовое стекло.</p><div class="pick" data-pick="ocean"><span>Фото:</span><button type="button" data-v="8" aria-pressed="true">8 · яхта в лагуне</button><button type="button" data-v="18" aria-pressed="false">18 · бирюзовая лагуна</button></div></div><button class="replay" type="button" data-replay="v4"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>Ещё раз</button></div></div>
+<div class="above" aria-hidden="true"></div>
+<section class="v4 rv ivory fit" id="v4" aria-labelledby="t4">
+  <div class="wrap">
+    <div class="stage4">
+      <div class="water-base" role="img" aria-label="A sailing yacht in a turquoise lagoon among green karst islands"></div>
+      <div class="water" aria-hidden="true"></div>
+      <div class="card4">
+        <h2 id="t4">For travel agents</h2>
+        <p class="lead">Your partner in remote Indonesia.</p>
+        <ul>
+          <li><h3>Your client stays yours</h3><p>We work behind the scenes when you need it.</p></li>
+          <li><h3>All of it, or one part</h3><p>Complete ground handling, or single parts.</p></li>
+          <li><h3>Under your brand</h3><p>Itineraries to offer as your own product.</p></li>
+        </ul>
+        <div class="actions"><a class="btn" href="#">Get trade rates</a><span class="note">For registered travel companies</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="ctx" aria-hidden="true"></div>
+
+<!-- 5 -->
+<div class="tag"><div class="wrap"><p><b>5 · Видео внутри букв</b>Заголовок огромным жирным шрифтом, внутри букв пролёт над синей лагуной (DJI_0832). Строки поднимаются из-под маски, ниже проступают три ответа. Видео в буквах чуть смещается за мышкой.</p><button class="replay" type="button" data-replay="v5"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>Ещё раз</button></div></div>
+<div class="above" aria-hidden="true"></div>
+<section class="v5 rv fit" id="v5" aria-labelledby="t5">
+  <div class="wrap">
+    <div class="vt">
+      <div class="vt-media"><video muted loop playsinline preload="none" poster="../assets/video/bluelagoon.webp" aria-hidden="true" data-src="../assets/video/bluelagoon.mp4" data-src-m="../assets/video/bluelagoon-m.mp4"></video>
+      <div class="vt-plate"><h2 id="t5"><span class="ln"><span style="--d:0ms">For travel</span></span><span class="ln"><span style="--d:160ms">agents</span></span></h2></div></div>
+      <div class="vt-side">
+        <p class="lead up" style="--d:600ms">Your partner in remote Indonesia.</p>
+        <div class="actions up" style="--d:760ms"><a class="btn" href="#">Get trade rates</a><span class="note">For registered travel companies</span></div>
+      </div>
+    </div>
+    <ul class="cols5">
+      <li class="up" style="--d:900ms"><h3>Your client stays yours</h3><p>We can work entirely behind the scenes and speak through your company.</p></li>
+      <li class="up" style="--d:1050ms"><h3>All of it, or one part</h3><p>Complete ground handling, or single parts of a journey.</p></li>
+      <li class="up" style="--d:1200ms"><h3>Under your brand</h3><p>Complete itineraries to offer as your own Indonesian product.</p></li>
+    </ul>
+  </div>
+</section>
+<div class="ctx" aria-hidden="true"></div>
+
+<!-- 7 -->
+<div class="tag"><div class="wrap"><p><b>7 · Три фото, косые створки</b>Фото 8, 23 и 28. Наводишь на створку: она раскрывается и показывает ответ. Теперь влезает в один экран ноутбука. На телефоне створки идут столбиком.</p><button class="replay" type="button" data-replay="v7"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>Ещё раз</button></div></div>
+<div class="above" aria-hidden="true"></div>
+<section class="v7 rv fit" id="v7" aria-labelledby="t7">
+  <div class="wrap">
+    <div class="v7-head">
+      <div>
+        <h2 id="t7" class="up">For travel agents</h2>
+        <p class="lead up" style="--d:150ms">Your partner in remote Indonesia.</p>
+      </div>
+      <div class="actions up" style="--d:300ms"><a class="btn" href="#">Get trade rates</a><span class="note">For registered travel companies</span></div>
+    </div>
+    <div class="panes-wrap">
+      <ul class="panes">
+        <li class="pane is-on" tabindex="0" style="--d:250ms"><div class="pane-in"><img src="../assets/img/water8-2400.webp" alt="A sailing yacht in a turquoise lagoon among green karst islands" loading="lazy"></div>
+          <div class="pane-copy"><h3>Your client stays yours</h3><p>We can work entirely behind the scenes and speak through your company.</p></div></li>
+        <li class="pane" tabindex="0" style="--d:400ms"><div class="pane-in"><img src="../assets/img/_RBE2063-1800.webp" alt="Limestone cliffs over clear emerald water" loading="lazy"></div>
+          <div class="pane-copy"><h3>All of it, or one part</h3><p>Complete ground handling, or single parts of a journey.</p></div></li>
+        <li class="pane" tabindex="0" style="--d:550ms"><div class="pane-in"><img src="../assets/img/lagoon28-2400.webp" alt="A blue lagoon among karst islands in Raja Ampat" loading="lazy"></div>
+          <div class="pane-copy"><h3>Under your brand</h3><p>Complete itineraries to offer as your own Indonesian product.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<div class="ctx" aria-hidden="true"></div>
+
+<!-- 8 -->
+<div class="tag"><div class="wrap"><div><p><b>8 · Стекло над видео</b>Окно с видео раскрывается из центра, поверх выезжает тёмное матовое стекло; оно наклоняется за мышкой, по нему скользит блик. Видео: солнечный пролёт над лагуной Raja Ampat (DJI_0832), второе — китовая акула.</p><div class="pick" data-pick="film"><span>Видео:</span><button type="button" data-v="bluelagoon" aria-pressed="true">Лагуна, солнце</button><button type="button" data-v="whaleshark" aria-pressed="false">Китовая акула</button></div></div><button class="replay" type="button" data-replay="v8"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>Ещё раз</button></div></div>
+<div class="above" aria-hidden="true"></div>
+<section class="v8 rv ivory fit" id="v8" aria-labelledby="t8">
+  <div class="wrap">
+    <div class="stage8">
+      <video muted loop playsinline preload="none" poster="../assets/video/bluelagoon.webp" aria-hidden="true" data-src="../assets/video/bluelagoon.mp4" data-src-m="../assets/video/bluelagoon-m.mp4"></video>
+      <div class="glass">
+        <h2 id="t8">For travel agents</h2>
+        <p class="lead">Your partner in remote Indonesia.</p>
+        <ul>
+          <li><h3>Your client stays yours</h3><p>We work behind the scenes when you need it.</p></li>
+          <li><h3>All of it, or one part</h3><p>Complete ground handling, or single parts.</p></li>
+          <li><h3>Under your brand</h3><p>Itineraries to offer as your own product.</p></li>
+        </ul>
+        <div class="actions"><a class="btn" href="#">Get trade rates</a><span class="note">For registered travel companies</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="ctx" aria-hidden="true"></div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+<script>
+(() => {
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const fine = matchMedia("(hover: hover) and (pointer: fine)").matches;
+  const phone = () => innerWidth <= 760;
+  const hooks = {};
+
+  // one play per block when it reaches the viewport; "Ещё раз" snaps it back and plays again
+  const arm = s => { s.classList.add("reset", "armed"); void s.offsetWidth; s.classList.remove("reset"); };
+  const play = s => { s.classList.add("in"); hooks[s.id]?.(); };
+  const armIO = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    armIO.unobserve(e.target);
+    if (e.boundingClientRect.bottom > 0 && !e.target.classList.contains("in")) arm(e.target);   // one already scrolled past stays as it is
+  }), { rootMargin: "0px 0px 50% 0px" });
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    const s = e.target;
+    io.unobserve(s);
+    if (!s.classList.contains("armed")) { armIO.unobserve(s); arm(s); }   // whichever observer reports first, hide before playing
+    requestAnimationFrame(() => play(s));
+  }), { rootMargin: "0px 0px -28% 0px" });
+  document.querySelectorAll(".rv").forEach(s => { if (reduce) play(s); else { armIO.observe(s); io.observe(s); } });
+  document.querySelectorAll("[data-replay]").forEach(b => b.addEventListener("click", () => {
+    const s = document.getElementById(b.dataset.replay);
+    io.unobserve(s); armIO.unobserve(s);
+    s.classList.remove("in");
+    if (!reduce) arm(s);
+    b.closest(".tag").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+    setTimeout(() => play(s), 650);
+  }));
+
+  // videos load near the viewport and only run while visible
+  const vids = [...document.querySelectorAll("video[data-src]")];
+  const vio = new IntersectionObserver(es => es.forEach(e => {
+    const v = e.target;
+    if (e.isIntersecting && !v.src) { v.src = phone() ? v.dataset.srcM : v.dataset.src; }
+    if (reduce) return;
+    if (e.isIntersecting && e.intersectionRatio > 0) v.play().catch(() => {}); else v.pause();
+  }), { rootMargin: "300px 0px" });
+  vids.forEach(v => vio.observe(v));
+
+  // frame pickers in the dark bars: the ocean frame (blocks 1 and 4, kept in step) and the film under the glass (8)
+  const oceanUrl = k => `../assets/img/water${k}-2400.webp`;
+  const maskUrl = k => `url(../assets/img/water${k}-mask.png)`;
+  const ALT = { 8: "A sailing yacht in a turquoise lagoon among green karst islands", 18: "Clear turquoise water below green karst islands" };
+  let waterKey = "8";
+  const press = (name, v) => document.querySelectorAll(`[data-pick="${name}"] button`).forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === v)));
+  const setOcean = k => {
+    press("ocean", k);
+    waterKey = k;
+    document.querySelectorAll("img[data-ocean]").forEach((i, n) => { i.src = oceanUrl(k); if (!n) i.alt = ALT[k]; });
+    const w = document.querySelector(".water"), base = document.querySelector(".water-base");
+    if ($water) { try { $water.ripples("destroy"); } catch (err) {} }
+    base.style.backgroundImage = w.style.backgroundImage = `url(${oceanUrl(k)})`;
+    base.setAttribute("aria-label", ALT[k]);
+    w.style.webkitMaskImage = w.style.maskImage = maskUrl(k);
+    if ($water) { try { $water.ripples(RIPPLES); } catch (err) { $water = null; } }
+  };
+  const setFilm = k => {
+    press("film", k);
+    const v = document.querySelector(".stage8 video");
+    v.poster = `../assets/video/${k}.webp`; v.dataset.src = `../assets/video/${k}.mp4`; v.dataset.srcM = `../assets/video/${k}-m.mp4`;
+    v.src = phone() ? v.dataset.srcM : v.dataset.src; if (!reduce) v.play().catch(() => {});
+  };
+  document.querySelectorAll("[data-pick] button").forEach(b => b.addEventListener("click", () => {
+    if (b.closest("[data-pick]").dataset.pick === "ocean") setOcean(b.dataset.v); else setFilm(b.dataset.v);
+  }));
+
+  // 1: the slices drift apart in depth under the pointer
+  const sl = document.querySelector(".slices");
+  if (fine && !reduce) {
+    sl.addEventListener("pointermove", e => {
+      const r = sl.getBoundingClientRect();
+      sl.style.setProperty("--px", ((e.clientX - r.left) / r.width - .5) * 2);
+      sl.style.setProperty("--py", ((e.clientY - r.top) / r.height - .5) * 2);
+    });
+    sl.addEventListener("pointerleave", () => { sl.style.setProperty("--px", 0); sl.style.setProperty("--py", 0); });
+  }
+
+  // 4: WebGL water ripple (jquery.ripples, as in the Playing at Freedom pitch); three drops when the block plays
+  const $ = window.jQuery;
+  const RIPPLES = { resolution: innerWidth > 768 ? 512 : 256, dropRadius: 22, perturbance: .04 };
+  let $water = null;
+  if ($ && $.fn.ripples) {
+    try { $water = $(".water"); $water.ripples(RIPPLES); }
+    catch (err) { $water = null; }
+  }
+  hooks.v4 = () => {
+    if (!$water || reduce) return;
+    // drops land on the open water, right of the glass card on desktop
+    const w = $water.width(), h = $water.height();
+    const DROPS = { 8: [[.6, .62], [.5, .5], [.9, .6]], 18: [[.6, .76], [.82, .86], [.7, .93]] };
+    DROPS[waterKey].forEach(([x, y], i) => setTimeout(() => {
+      try { $water.ripples("drop", x * w, y * h, 30, .07); } catch (err) {}
+    }, 700 + i * 420));
+  };
+
+  // 5: the film inside the letters leans after the pointer
+  const vt = document.querySelector(".vt");
+  if (fine && !reduce) {
+    vt.addEventListener("pointermove", e => {
+      const r = vt.getBoundingClientRect();
+      vt.style.setProperty("--vx", (50 - ((e.clientX - r.left) / r.width - .5) * 30).toFixed(1) + "%");
+      vt.style.setProperty("--vy", (78 - ((e.clientY - r.top) / r.height - .5) * 24).toFixed(1) + "%");
+    });
+    vt.addEventListener("pointerleave", () => { vt.style.setProperty("--vx", "50%"); vt.style.setProperty("--vy", "78%"); });
+  }
+
+  // 7: hover, focus or tap opens a shutter
+  const panes = [...document.querySelectorAll(".pane")];
+  const open = p => panes.forEach(q => q.classList.toggle("is-on", q === p));
+  panes.forEach(p => {
+    p.addEventListener("pointerenter", () => { if (fine) open(p); });
+    p.addEventListener("focus", () => open(p));
+    p.addEventListener("click", () => open(p));
+  });
+
+  // 8: the glass tilts toward the pointer, a soft sheen follows it
+  const st8 = document.querySelector(".stage8"), gl = st8.querySelector(".glass");
+  if (fine && !reduce) {
+    st8.addEventListener("pointermove", e => {
+      const r = gl.getBoundingClientRect();
+      const px = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)), py = Math.max(0, Math.min(1, (e.clientY - r.top) / r.height));
+      gl.style.setProperty("--rx", ((.5 - py) * 6).toFixed(2) + "deg");
+      gl.style.setProperty("--ry", ((px - .5) * 8).toFixed(2) + "deg");
+      gl.style.setProperty("--sx", (px * 100).toFixed(1) + "%");
+      gl.style.setProperty("--sy", (py * 100).toFixed(1) + "%");
+      gl.style.setProperty("--so", 1);
+    });
+    st8.addEventListener("pointerleave", () => {
+      ["--rx", "--ry"].forEach(k => gl.style.setProperty(k, "0deg"));
+      gl.style.setProperty("--so", 0);
+    });
+  }
+})();
+</script>
+</body>
+</html>

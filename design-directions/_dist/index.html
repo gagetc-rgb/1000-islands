@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<title>Пять направлений · 1000 Islands Travel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f4f3ef;--ink:#1c1c1a;--muted:#55534e;--line:#dcdad3;--gutter:clamp(16px,4vw,48px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Golos Text",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,p,ul{margin:0}
+.wrap{width:min(100% - 2*var(--gutter),1240px);margin-inline:auto}
+header{padding:56px 0 40px}
+h1{font-size:clamp(30px,4vw,48px);line-height:1.1;font-weight:700;max-width:22ch}
+.intro{color:var(--muted);max-width:62ch;margin-top:18px;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px;padding-bottom:72px}
+.card{background:#fff;border:1px solid var(--line);display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgb(0 0 0 / .08)}
+.shot{aspect-ratio:16/10;overflow:hidden;background:#ddd}
+.shot img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.body{padding:22px 22px 24px;display:flex;flex-direction:column;gap:12px;flex:1}
+.card h2{font-size:22px;font-weight:700}
+.from{color:var(--muted);font-size:16px}
+.sw{display:flex;gap:6px}
+.sw i{width:28px;height:28px;border-radius:50%;box-shadow:inset 0 0 0 1px rgb(0 0 0 / .12)}
+.type{font-size:16px;color:var(--muted)}
+.go{margin-top:auto;font-weight:500;text-decoration:underline;text-underline-offset:4px}
+.note{border-top:1px solid var(--line);padding:28px 0 56px;color:var(--muted);font-size:16px;max-width:72ch}
+.note p+p{margin-top:10px}
+@media (max-width:420px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <h1>Главная страница в пяти стилях</h1>
+  <p class="intro">Структура и тексты у всех пяти одинаковые, из утверждённого прототипа. Видео и фото твои. Меняются только шрифты, цвета и подача. Выбери одно направление или назови, что взять из разных: дальше по выбранному стилю собираем весь сайт.</p>
+</header>
+<main class="wrap grid">
+  <a class="card" href="v1.html">
+    <div class="shot"><img src="shots/v1.webp" width="1440" height="900" loading="lazy" decoding="async" alt="Первый экран направления Expedition"></div>
+    <div class="body">
+      <h2>1 · Expedition</h2>
+      <p class="from">По мотивам explora.com, который ты прислал. Чёрное и белое, широкий геометрический шрифт, чёрная шапка над видео, кнопка из матового стекла.</p>
+      <div class="sw" aria-hidden="true"><i style="background:#0d0d0d"></i><i style="background:#fff"></i><i style="background:#f3f3f1"></i></div>
+      <p class="type">Шрифты: Red Hat Display, Red Hat Text</p>
+      <span class="go">Открыть</span>
+    </div>
+  </a>
+  <a class="card" href="v2.html">
+    <div class="shot"><img src="shots/v2.webp" width="1440" height="900" loading="lazy" decoding="async" alt="Первый экран направления Field kit"></div>
+    <div class="body">
+      <h2>2 · Field kit</h2>
+      <p class="from">По мотивам bndcarhire.com. Сигнальный жёлтый на графите, тяжёлый узкий шрифт, всё скруглённое. Видео во весь экран под прозрачной шапкой. Самый «экспедиционный».</p>
+      <div class="sw" aria-hidden="true"><i style="background:#f2b630"></i><i style="background:#202327"></i><i style="background:#efefec"></i></div>
+      <p class="type">Шрифты: Saira Condensed, Saira</p>
+      <span class="go">Открыть</span>
+    </div>
+  </a>
+  <a class="card" href="v3.html">
+    <div class="shot"><img src="shots/v3.webp" width="1440" height="900" loading="lazy" decoding="async" alt="Первый экран направления Quiet"></div>
+    <div class="body">
+      <h2>3 · Quiet</h2>
+      <p class="from">По мотивам aman.com, нашего выбора. Светлый камень, тонкая антиква, видео во весь экран под прозрачной шапкой, много воздуха. Спокойный дорогой тон.</p>
+      <div class="sw" aria-hidden="true"><i style="background:#ebebe8"></i><i style="background:#2f2d2a"></i><i style="background:#e1e1db"></i></div>
+      <p class="type">Шрифты: Source Serif 4, Hanken Grotesk</p>
+      <span class="go">Открыть</span>
+    </div>
+  </a>
+  <a class="card" href="v4.html">
+    <div class="shot"><img src="shots/v4.webp" width="1440" height="900" loading="lazy" decoding="async" alt="Первый экран направления Reef"></div>
+    <div class="body">
+      <h2>4 · Reef</h2>
+      <p class="from">Наш вариант. Глубокий синий океана и коралловый цвет горгонарии из твоего видео, крупный выразительный шрифт, скруглённые фото, контурные иконки. Самый яркий.</p>
+      <div class="sw" aria-hidden="true"><i style="background:#06202c"></i><i style="background:#ff6a3d"></i><i style="background:#8fe6d8"></i><i style="background:#eaf2f0"></i></div>
+      <p class="type">Шрифт: Bricolage Grotesque</p>
+      <span class="go">Открыть</span>
+    </div>
+  </a>
+  <a class="card" href="v5.html">
+    <div class="shot"><img src="shots/v5.webp" width="1440" height="900" loading="lazy" decoding="async" alt="Первый экран направления Chart"></div>
+    <div class="body">
+      <h2>5 · Chart</h2>
+      <p class="from">Наш вариант. Морская карта: тёмно-синие линии и рамки, пометки моноширинным шрифтом, широкий заголовочный шрифт. Обыгрывает «Off the map».</p>
+      <div class="sw" aria-hidden="true"><i style="background:#edefe8"></i><i style="background:#13294a"></i><i style="background:#c4412a"></i></div>
+      <p class="type">Шрифты: Archivo, Martian Mono</p>
+      <span class="go">Открыть</span>
+    </div>
+  </a>
+</main>
+<footer class="wrap note">
+  <p>Цены, рейтинг, отзывы и история гостей пока заглушки: подставим настоящие, когда пришлёшь. Логотипа нет, поэтому название набрано шрифтом каждого направления.</p>
+  <p>Кнопки ведут по разделам этой же страницы: остальные страницы соберём после выбора стиля.</p>
+</footer>
+</body>
+</html>

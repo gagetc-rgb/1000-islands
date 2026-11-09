@@ -1,0 +1,27 @@
+shot boat
+shot canoe
+shot cape
+shot coast
+shot corridor
+shot dronie
+shot fan
+shot fish
+shot garden
+shot jellies
+shot jelly
+shot lagoon
+shot mushroom
+shot palms
+shot phinisi
+shot rock
+shot turtle
+m01  30.5 s  20.5 MiB  Reef first: the v4 cut, fixed
+m03  28.5 s  19.9 MiB  Raja Ampat by boat
+m02  31.5 s  23.0 MiB  Above and below, alternating
+m05  29.0 s  19.1 MiB  Underwater only
+m06  27.6 s  19.5 MiB  Quiet: long shots, dissolves
+m04  30.5 s  21.2 MiB  Islands from the air
+m07  16.0 s  11.7 MiB  Short and fast, 16 s
+m09  27.0 s  17.9 MiB  North Sulawesi coast and reef
+m08  30.0 s  21.9 MiB  Beach and boats
+m10  30.5 s  21.7 MiB  A day: morning to sunset

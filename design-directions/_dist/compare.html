@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<title>Пять дизайнов · 1000 Islands</title>
+<!-- One page for the five home-page directions (1 Nov 2026): v1..v5.html in a frame, switch by tabs or keys 1-5,
+     the choice lives in the URL hash so browser Back returns to the previous design. -->
+<style>
+  :root { --bg: #111213; --panel: #1b1c1e; --line: #34373b; --ink: #ececea; --muted: #a9adb2; --accent: #4cc2b8; --accent-ink: #062523; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 8px 16px; border-bottom: 1px solid var(--line); }
+  h1 { font-size: 16px; margin: 0 8px 0 0; }
+  .tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+  button, a.out { font: inherit; color: inherit; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 7px 12px; cursor: pointer; text-decoration: none; }
+  button:hover, a.out:hover { border-color: var(--muted); }
+  button:focus-visible, a.out:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .tabs button[aria-current="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 650; }
+  .right { margin-left: auto; display: flex; gap: 6px; align-items: center; }
+  .hint { color: var(--muted); }
+  /* the frame is exactly one screen tall, like a real browser window; the bar above it scrolls away (1 Nov) */
+  .stage { height: 100vh; display: flex; justify-content: center; background: #000; }
+  iframe { border: 0; width: 100%; height: 100%; background: #fff; }
+  .phone .stage { padding: 16px 0; background: var(--bg); }
+  .phone iframe { width: 390px; height: min(844px, 100%); border-radius: 24px; box-shadow: 0 0 0 8px #2a2c2f; }
+  @media (max-width: 700px) { .hint, #mode { display: none; } }
+</style>
+</head>
+<body>
+<nav>
+  <h1>Пять дизайнов</h1>
+  <div class="tabs" id="tabs">
+    <button data-v="1">1 · Expedition</button>
+    <button data-v="2">2 · Field kit</button>
+    <button data-v="3">3 · Quiet</button>
+    <button data-v="4">4 · Reef</button>
+    <button data-v="5">5 · Chart</button>
+  </div>
+  <div class="right">
+    <span class="hint">клавиши 1–5</span>
+    <button id="mode">Телефон</button>
+    <a class="out" id="out" target="_blank" rel="noopener">Открыть отдельно</a>
+  </div>
+</nav>
+<div class="stage"><iframe id="f" title="Дизайн главной страницы"></iframe></div>
+<script>
+const f = document.getElementById("f"), tabs = [...document.querySelectorAll("#tabs button")], bar = document.querySelector("nav");
+// As soon as the design is scrolled, the bar scrolls out of view and the design fills the whole window;
+// back at the top of the design, the bar returns. Wheel over the bar scrolls the page itself.
+let barOut = false;
+const syncBar = () => {
+  let y = 0; try { y = f.contentWindow.scrollY; } catch (e) {}
+  const out = y > 4;
+  if (out !== barOut) { barOut = out; scrollTo({ top: out ? bar.offsetHeight : 0, behavior: "smooth" }); }
+};
+// The first wheel turn down only hides the bar (the design does not move, so no strip of the next section shows);
+// at the top of the design, a wheel turn up brings the bar back.
+const onWheel = e => {
+  let y = 0; try { y = f.contentWindow.scrollY; } catch (err) {}
+  if (y > 0) return;
+  if (e.deltaY > 0 && !barOut) { e.preventDefault(); barOut = true; scrollTo({ top: bar.offsetHeight, behavior: "smooth" }); }
+  else if (e.deltaY < 0 && barOut) { e.preventDefault(); barOut = false; scrollTo({ top: 0, behavior: "smooth" }); }
+};
+f.addEventListener("load", () => {
+  barOut = false; scrollTo(0, 0);
+  try { const w = f.contentWindow; w.addEventListener("scroll", syncBar, { passive: true }); w.addEventListener("wheel", onWheel, { passive: false }); } catch (e) {}
+});
+function show() {
+  const v = /^#[1-5]$/.test(location.hash) ? location.hash.slice(1) : "1";
+  const src = `v${v}.html`;
+  // replace(), not src=: a changed iframe src adds its own history entry and Back would rewind the frame, not the tab
+  if (f.dataset.v !== v) {
+    f.dataset.v = v;
+    if (f.getAttribute("src")) f.contentWindow.location.replace(new URL(src, location.href).href); else f.src = src;
+  }
+  document.getElementById("out").href = src;
+  tabs.forEach(b => b.setAttribute("aria-current", b.dataset.v === v));
+  document.title = `${tabs[v - 1].textContent} · Пять дизайнов`;
+}
+const go = v => { if (location.hash !== "#" + v) location.hash = v; };   // a new history entry, so Back works
+tabs.forEach(b => b.onclick = () => go(b.dataset.v));
+addEventListener("hashchange", show);
+addEventListener("keydown", e => { if (/^[1-5]$/.test(e.key)) go(e.key); });
+// keys also work while the focus is inside the design
+f.addEventListener("load", () => { try { f.contentWindow.addEventListener("keydown", e => { if (/^[1-5]$/.test(e.key)) go(e.key); }); } catch (e) {} });
+const mode = document.getElementById("mode");
+mode.onclick = () => { const on = document.body.classList.toggle("phone"); mode.textContent = on ? "Компьютер" : "Телефон"; };
+show();
+</script>
+</body>
+</html>

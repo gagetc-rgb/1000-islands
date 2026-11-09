@@ -1,0 +1,49 @@
+[
+  {
+    "test": "penpot-plan-navigation",
+    "text": "Plan your trip",
+    "before": "https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&page-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ad&share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&section=interactions&index=1",
+    "after": "https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&page-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ad&share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&section=interactions&index=8"
+  },
+  {
+    "test": "penpot-owner-dead-link",
+    "error": "text not found",
+    "texts": [
+      "To: owner and team",
+      "Subject: New enquiry · Traveller · Raja Ampat",
+      "Sent: the moment a form arrives",
+      "1000 Islands Travel",
+      "REMOTE INDONESIA",
+      "New enquiry · Traveller",
+      "Name",
+      "Client name",
+      "Contact",
+      "email · WhatsApp",
+      "Where",
+      "Raja Ampat",
+      "Dates",
+      "Approximate dates",
+      "Travellers",
+      "2",
+      "Source",
+      "Google · campaign code",
+      "Trip",
+      "Raja Ampat · Comfort · 10 days",
+      "Page",
+      "Raja Ampat",
+      "Message",
+      "Open in Enquiries",
+      "Reply by email",
+      "WhatsApp",
+      "1000 Islands Travel · company address ·",
+      "Internal alert: sent only to the owner and the team.",
+      "Privacy"
+    ]
+  },
+  {
+    "test": "penpot-admin-dead-link",
+    "text": "Open the site",
+    "before": "https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&page-id=998cb9f0-5ded-8044-8008-bce2565ba647&share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&section=interactions&index=1",
+    "after": "https://design.penpot.app/#/view?file-id=19c47d73-0a5d-8067-8008-bcac4ff9f2ac&page-id=998cb9f0-5ded-8044-8008-bce2565ba647&share-id=b69977d8-2db0-4b3f-abec-8297a130fb3f&section=interactions&index=1"
+  }
+]

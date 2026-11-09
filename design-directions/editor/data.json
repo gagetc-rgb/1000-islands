@@ -1,0 +1,980 @@
+{
+ "shots": [
+  {
+   "id": "reefsun",
+   "ru": "Блики солнца на кораллах, сверху",
+   "en": "Top-down: sun glitter on corals (21)",
+   "num": "21",
+   "under": false,
+   "grades": {
+    "w": "reefsun"
+   },
+   "dur": 6.0
+  },
+  {
+   "id": "karstwall",
+   "ru": "Вдоль карстовых стен над лагуной",
+   "en": "Row of karst walls over the lagoon",
+   "num": "",
+   "under": false,
+   "grades": {
+    "w": "karstwall"
+   },
+   "dur": 6.033
+  },
+  {
+   "id": "dronie3",
+   "ru": "Взлёт над карстовой башней",
+   "en": "Rise over the karst tower (16, start trimmed)",
+   "num": "16",
+   "under": false,
+   "grades": {
+    "w": "dronie3",
+    "l": "dronie3_l",
+    "o": "dronie3_o"
+   },
+   "dur": 8.133
+  },
+  {
+   "id": "profile",
+   "ru": "Вокруг скалы: лицо в утёсе",
+   "en": "Round the rock: the face in the cliff",
+   "num": "",
+   "under": false,
+   "grades": {
+    "w": "profile"
+   },
+   "dur": 8.033
+  },
+  {
+   "id": "coast",
+   "ru": "Вулканическое побережье, Сулавеси",
+   "en": "Volcanic coast, North Sulawesi (06)",
+   "num": "06",
+   "under": false,
+   "grades": {
+    "w": "coast"
+   },
+   "dur": 6.0
+  },
+  {
+   "id": "lagoonfull",
+   "ru": "Джунгли, разлом и лагуна одним дублем (в конце тормоз, режь на ~14 с)",
+   "en": "Jungle ridge to the open lagoon, one take",
+   "num": "",
+   "under": false,
+   "grades": {
+    "w": "lagoonfull"
+   },
+   "dur": 20.667
+  },
+  {
+   "id": "canoe",
+   "ru": "Каноэ на белом пляже",
+   "en": "Canoe on the white beach, longer (40)",
+   "num": "40",
+   "under": false,
+   "grades": {
+    "w": "canoe"
+   },
+   "dur": 7.0
+  },
+  {
+   "id": "corridor",
+   "ru": "Коридор между скалами",
+   "en": "Karst corridor, turns trimmed (32)",
+   "num": "32",
+   "under": false,
+   "grades": {
+    "w": "corridor",
+    "l": "corridor_l",
+    "o": "corridor_o"
+   },
+   "dur": 6.033
+  },
+  {
+   "id": "boatlagoon",
+   "ru": "Лодка пересекает лагуну, сверху",
+   "en": "Boat crossing the lagoon from above",
+   "num": "",
+   "under": false,
+   "grades": {
+    "w": "boatlagoon"
+   },
+   "dur": 6.033
+  },
+  {
+   "id": "palms3",
+   "ru": "Между стволами пальм, Сулавеси",
+   "en": "Between palm trunks (11, before the shake)",
+   "num": "11",
+   "under": false,
+   "grades": {
+    "w": "palms3"
+   },
+   "dur": 5.667
+  },
+  {
+   "id": "lagoon3",
+   "ru": "Мимо пальмы в лагуну",
+   "en": "Past the palm into the lagoon (33, ends before the brake)",
+   "num": "33",
+   "under": false,
+   "grades": {
+    "w": "lagoon3",
+    "l": "lagoon3_l"
+   },
+   "dur": 7.833
+  },
+  {
+   "id": "mushroom",
+   "ru": "На лодке к скале-грибу",
+   "en": "Boat to the mushroom rock (20)",
+   "num": "20",
+   "under": false,
+   "grades": {
+    "w": "mushroom"
+   },
+   "dur": 7.033
+  },
+  {
+   "id": "garden2",
+   "ru": "Неоновая бирюза между башнями",
+   "en": "Neon turquoise between karst towers",
+   "num": "",
+   "under": false,
+   "grades": {
+    "w": "garden2"
+   },
+   "dur": 7.033
+  },
+  {
+   "id": "garden3",
+   "ru": "Низко и быстро над коралловым садом",
+   "en": "Low and fast over the coral garden (17, before the turn)",
+   "num": "17",
+   "under": false,
+   "grades": {
+    "w": "garden3"
+   },
+   "dur": 4.266
+  },
+  {
+   "id": "beachboat",
+   "ru": "Низко над лодкой у берега к рифу",
+   "en": "Low over the moored boat to the reef (22)",
+   "num": "22",
+   "under": false,
+   "grades": {
+    "w": "beachboat"
+   },
+   "dur": 7.0
+  },
+  {
+   "id": "boat2p",
+   "ru": "Нос лодки между коралловыми головами",
+   "en": "Boat bow between coral heads (18, more contrast)",
+   "num": "18",
+   "under": false,
+   "grades": {
+    "w": "boat2p"
+   },
+   "dur": 5.0
+  },
+  {
+   "id": "rock",
+   "ru": "Под оранжевой скалой",
+   "en": "Under the orange rock (39)",
+   "num": "39",
+   "under": false,
+   "grades": {
+    "w": "rock"
+   },
+   "dur": 8.033
+  },
+  {
+   "id": "approach9",
+   "ru": "Подлёт к башням и низко над садом, один пролёт",
+   "en": "Towards the karst towers and low over the coral garden (17)",
+   "num": "17",
+   "under": false,
+   "grades": {
+    "w": "approach9"
+   },
+   "dur": 10.433
+  },
+  {
+   "id": "approach",
+   "ru": "Подлёт к ряду карстовых башен",
+   "en": "Towards the row of karst towers",
+   "num": "",
+   "under": false,
+   "grades": {
+    "w": "approach",
+    "l": "approach_l",
+    "o": "approach_o"
+   },
+   "dur": 6.167
+  },
+  {
+   "id": "boat",
+   "ru": "С носа лодки, горизонт выровнен",
+   "en": "Boat bow, horizon kept level (34)",
+   "num": "34",
+   "under": false,
+   "grades": {
+    "w": "boat"
+   },
+   "dur": 7.033
+  },
+  {
+   "id": "reflect",
+   "ru": "Скала-гриб в зеркальной воде",
+   "en": "Mushroom rock mirrored in still water",
+   "num": "",
+   "under": false,
+   "grades": {
+    "w": "reflect"
+   },
+   "dur": 8.033
+  },
+  {
+   "id": "cape",
+   "ru": "Тропический мыс, Сулавеси",
+   "en": "Tropical cape (12)",
+   "num": "12",
+   "under": false,
+   "grades": {
+    "w": "cape"
+   },
+   "dur": 6.667
+  },
+  {
+   "id": "jelly2",
+   "ru": "Золотая медуза у поверхности",
+   "en": "Golden jellyfish passing near the surface",
+   "num": "",
+   "under": true,
+   "grades": {
+    "w": "jelly2"
+   },
+   "dur": 6.0
+  },
+  {
+   "id": "fish",
+   "ru": "Коралловая голова с рыбами",
+   "en": "Bommie with reef fish (27)",
+   "num": "27",
+   "under": true,
+   "grades": {
+    "w": "fish"
+   },
+   "dur": 6.0
+  },
+  {
+   "id": "fan",
+   "ru": "Красный веер на синем",
+   "en": "Red sea fan against the blue (35)",
+   "num": "35",
+   "under": true,
+   "grades": {
+    "w": "fan"
+   },
+   "dur": 6.0
+  },
+  {
+   "id": "jelly",
+   "ru": "Медуза вплывает в кадр",
+   "en": "Jellyfish drifts into the frame (38)",
+   "num": "38",
+   "under": true,
+   "grades": {
+    "w": "jelly"
+   },
+   "dur": 7.5
+  },
+  {
+   "id": "fanmacro",
+   "ru": "Оранжевый веер крупно",
+   "en": "Orange sea fan, close (25)",
+   "num": "25",
+   "under": true,
+   "grades": {
+    "w": "fanmacro"
+   },
+   "dur": 6.0
+  },
+  {
+   "id": "jellies",
+   "ru": "Созвездие медуз",
+   "en": "Jellyfish constellation (29)",
+   "num": "29",
+   "under": true,
+   "grades": {
+    "w": "jellies"
+   },
+   "dur": 7.0
+  },
+  {
+   "id": "tables",
+   "ru": "Столовые кораллы на стене рифа",
+   "en": "Table corals on the reef wall",
+   "num": "",
+   "under": true,
+   "grades": {
+    "w": "tables"
+   },
+   "dur": 5.5
+  },
+  {
+   "id": "turtle2",
+   "ru": "Черепаха над рифом, близко",
+   "en": "Turtle over the reef, close",
+   "num": "",
+   "under": true,
+   "grades": {
+    "w": "turtle2"
+   },
+   "dur": 6.0
+  },
+  {
+   "id": "turtle",
+   "ru": "Черепаха проплывает мимо камеры",
+   "en": "Turtle swims past the camera (36)",
+   "num": "36",
+   "under": true,
+   "grades": {
+    "w": "turtle"
+   },
+   "dur": 8.0
+  },
+  {
+   "id": "turtlelong",
+   "ru": "Черепаха, длинный дубль",
+   "en": "Turtle, one long take",
+   "num": "",
+   "under": true,
+   "grades": {
+    "w": "turtlelong"
+   },
+   "dur": 16.0
+  }
+ ],
+ "presets": [
+  {
+   "id": "p01",
+   "title": "Raja Ampat saga, with the reef",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "dronie3",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "approach",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "corridor",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "turtle",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "jelly",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    }
+   ]
+  },
+  {
+   "id": "p01o",
+   "title": "Raja Ampat saga, drone as shot",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "dronie3",
+     "grade": "o",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "approach",
+     "grade": "o",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "corridor",
+     "grade": "o",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "turtle",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "jelly",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    }
+   ]
+  },
+  {
+   "id": "p01l",
+   "title": "Raja Ampat saga, drone light grade",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "dronie3",
+     "grade": "l",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "approach",
+     "grade": "l",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "corridor",
+     "grade": "l",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "turtle",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "jelly",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    }
+   ]
+  },
+  {
+   "id": "p11l",
+   "title": "Fast, 15 s, drone light grade",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 3
+    },
+    {
+     "id": "lagoon3",
+     "grade": "l",
+     "a": 0,
+     "b": 3
+    },
+    {
+     "id": "turtle",
+     "grade": "w",
+     "a": 0,
+     "b": 3
+    },
+    {
+     "id": "approach",
+     "grade": "l",
+     "a": 0,
+     "b": 3
+    },
+    {
+     "id": "rock",
+     "grade": "w",
+     "a": 0,
+     "b": 3
+    }
+   ]
+  },
+  {
+   "id": "p02",
+   "title": "Reef first, refined",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "lagoon3",
+     "grade": "w",
+     "a": 0,
+     "b": 6
+    },
+    {
+     "id": "turtle",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "cape",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "jelly",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "rock",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    }
+   ]
+  },
+  {
+   "id": "p03",
+   "title": "Islands and reef, alternating",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "lagoon3",
+     "grade": "w",
+     "a": 0,
+     "b": 6
+    },
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 4.5
+    },
+    {
+     "id": "dronie3",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "turtle",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "mushroom",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "jelly",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    }
+   ]
+  },
+  {
+   "id": "p04",
+   "title": "Raja Ampat, above water",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "dronie3",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "approach9",
+     "grade": "w",
+     "a": 0,
+     "b": 9
+    },
+    {
+     "id": "corridor",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "reflect",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "rock",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    }
+   ]
+  },
+  {
+   "id": "p05",
+   "title": "Red and turquoise, second take",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "fanmacro",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "garden3",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "corridor",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "boat2p",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "jelly",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    }
+   ]
+  },
+  {
+   "id": "p06",
+   "title": "Above and below in pairs",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "approach",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "tables",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "lagoon3",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "fish",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "rock",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "jelly2",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    }
+   ]
+  },
+  {
+   "id": "p07",
+   "title": "Reef life",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "turtle",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "fish",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "jelly",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "turtle2",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "fanmacro",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    }
+   ]
+  },
+  {
+   "id": "p08",
+   "title": "By boat to the rock",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "boat",
+     "grade": "w",
+     "a": 0,
+     "b": 4.5
+    },
+    {
+     "id": "mushroom",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "reflect",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "rock",
+     "grade": "w",
+     "a": 0,
+     "b": 6
+    },
+    {
+     "id": "profile",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "dronie3",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    }
+   ]
+  },
+  {
+   "id": "p09",
+   "title": "North Sulawesi coast and the reef",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "coast",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "palms3",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "cape",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "turtle",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "title": "Slow, with dissolves",
+   "fade": 0.6,
+   "seq": [
+    {
+     "id": "dronie3",
+     "grade": "w",
+     "a": 0,
+     "b": 6
+    },
+    {
+     "id": "lagoon3",
+     "grade": "w",
+     "a": 0,
+     "b": 7
+    },
+    {
+     "id": "rock",
+     "grade": "w",
+     "a": 0,
+     "b": 6
+    },
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 6
+    },
+    {
+     "id": "jelly",
+     "grade": "w",
+     "a": 0,
+     "b": 6
+    }
+   ]
+  },
+  {
+   "id": "p11",
+   "title": "Fast, 15 s",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 3
+    },
+    {
+     "id": "lagoon3",
+     "grade": "w",
+     "a": 0,
+     "b": 3
+    },
+    {
+     "id": "turtle",
+     "grade": "w",
+     "a": 0,
+     "b": 3
+    },
+    {
+     "id": "approach",
+     "grade": "w",
+     "a": 0,
+     "b": 3
+    },
+    {
+     "id": "rock",
+     "grade": "w",
+     "a": 0,
+     "b": 3
+    }
+   ]
+  },
+  {
+   "id": "p12",
+   "title": "Beach and reef",
+   "fade": 0,
+   "seq": [
+    {
+     "id": "reefsun",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "canoe",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "beachboat",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "mushroom",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    },
+    {
+     "id": "fan",
+     "grade": "w",
+     "a": 0,
+     "b": 4
+    },
+    {
+     "id": "turtle",
+     "grade": "w",
+     "a": 0,
+     "b": 5
+    }
+   ]
+  }
+ ]
+}

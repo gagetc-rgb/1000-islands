@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Урок 9. Типографика и фото</title>
+<meta name="description" content="Алфавиты шрифта, число семейств, текст при увеличении, интервалы WCAG, кадрирование фото под телефон, бриф фотографу и лицензии. Интерактивный урок.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2314171c%27/%3E%3Crect x=%277%27 y=%2718%27 width=%2718%27 height=%276%27 fill=%27%23ffe14d%27/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/GolosText-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/course.css?v=6">
+<style>
+/* lesson 9: demo-only styles */
+@font-face{font-family:'Golos Latin Only';font-style:normal;font-weight:400 700;font-display:swap;src:url(assets/fonts/GolosText-latin.woff2) format('woff2');unicode-range:U+0000-00FF}
+.gl-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.25rem;max-width:36rem;margin-inline:auto}
+.gl-card .h{font-size:1.7rem;font-weight:700;line-height:1.15}
+.gl-card p{margin:.5rem 0 0;color:var(--ink-2)}
+#glyph[data-font=full] .gl-card{font-family:var(--font)}
+#glyph[data-font=latin] .gl-card{font-family:'Golos Latin Only',Georgia,'Times New Roman',serif}
+#glyph[data-font=system] .gl-card{font-family:system-ui,'Segoe UI',Roboto,sans-serif}
+
+.fam-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.25rem;max-width:36rem;margin-inline:auto}
+.fam-card .k{font-size:.9rem;color:var(--ink-2);margin-top:.25rem}
+.fam-card .h{font-size:1.75rem;font-weight:700;line-height:1.12}
+.fam-card p{margin:.5rem 0 0;color:var(--ink-2)}
+.fam-card .pr{margin-top:.6rem;font-weight:700;font-size:1.1rem}
+.fam-card .b{display:inline-block;margin-top:.8rem;background:var(--ink);color:#fff;font-weight:650;border-radius:8px;padding:.5rem 1rem}
+#fam .fam-card *{font-family:var(--font)}
+#fam[data-n="2"] .fam-card .h{font-family:Georgia,'Times New Roman',serif;font-weight:700}
+#fam[data-n="4"] .fam-card .h{font-family:Georgia,'Times New Roman',serif}
+#fam[data-n="4"] .fam-card .k{font-family:'Courier New',Courier,monospace}
+#fam[data-n="4"] .fam-card .pr{font-family:Impact,'Arial Black',sans-serif;font-weight:400}
+#fam[data-n="4"] .fam-card .b{font-family:'Trebuchet MS',Verdana,sans-serif}
+
+.zoom-view{background:#fff;border:1px solid var(--line);border-radius:10px;padding:1rem;min-height:9rem;overflow:hidden}
+.zoom-view .h{font-weight:700;line-height:1.1;font-family:var(--font);overflow-wrap:anywhere}
+.zoom-rows{list-style:none;padding:0;margin:.8rem 0 0;display:grid;gap:.35rem;font-size:.92rem}
+.zoom-rows li{margin:0;display:flex;justify-content:space-between;gap:1rem;border-top:1px solid var(--line-2);padding-top:.35rem}
+.zoom-rows b{font-variant-numeric:tabular-nums}
+
+.sp-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(16rem,100%),1fr));gap:1rem}
+.sp-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem .9rem;font-family:var(--font);font-size:.95rem;line-height:1.35}
+.sp-card .h{font-weight:700;font-size:1.05rem}
+.sp-card p{margin:.3rem 0 0;color:var(--ink-2)}
+.sp-card.fixed{height:9.5rem;overflow:hidden}
+.sp-card.fluid{min-height:9.5rem}
+#spc[data-wcag=on] .sp-card,#spc[data-wcag=on] .sp-card *{line-height:1.5!important;letter-spacing:.12em!important;word-spacing:.16em!important}
+#spc[data-wcag=on] .sp-card p{margin-bottom:2em!important}
+.sp-cap{font-size:.85rem;font-weight:650;margin-bottom:.35rem}
+
+.crop-stage{background:var(--sunk);padding:1rem;overflow:hidden}
+.crop-view{margin-inline:auto;position:relative}
+.crop-box{position:absolute;left:0;top:0;transform-origin:0 0;border:2px solid var(--ink);border-radius:12px;overflow:hidden;background:#1f5f86}
+.crop-box img{display:block;width:100%;height:100%;object-fit:cover;max-width:none}
+.crop-box .hl{position:absolute;left:6%;top:9%;max-width:60%;color:#fff;font-family:var(--font);font-weight:700;line-height:1.05;text-shadow:0 1px 10px rgba(0,0,0,.35)}
+
+.brief-opts{display:grid;gap:.3rem}
+.brief-opts label{display:flex;gap:.55rem;align-items:flex-start;font-size:.94rem;cursor:pointer}
+.brief-opts input{width:1.1rem;height:1.1rem;margin:.18rem 0 0;accent-color:var(--ink);flex:none}
+.bf{display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem;align-items:start}
+@media (min-width:56rem){.bf{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="index.html">Матчасть</a>
+    <span class="top-here">Урок 9 из 9: типографика и фото</span>
+    <a class="top-next" href="index.html">Все уроки</a>
+  </div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+</header>
+
+<div class="shell">
+<nav aria-label="Содержание урока"><details class="toc"><summary>Содержание</summary><ol></ol></details></nav>
+
+<main>
+<div class="hero">
+  <h1>Урок 9. Типографика и фото</h1>
+  <p class="lead">Шрифт и фотографии делают travel-сайт узнаваемым. Здесь то, что не вошло в уроки 2 и 3: как выбрать шрифт, который не подведёт на двух языках и при увеличении, и как получить фото, которое выдержит и телефон, и широкий экран.</p>
+  <p>Около 40 минут. Шесть интерактивов. Это самая тонкая тема курса по источникам: по типографике почти все правила держатся на трёх-четырёх авторах, по фото для туристических сайтов источников не нашлось вовсе. Где опоры нет, это сказано.</p>
+  <p class="small">Пометки: ◆ стандарт или первичный источник, ◈ согласие нескольких авторов или общая практика, ◇ мнение одного автора или моё рассуждение. Шкала шрифта, длина строки и контраст разобраны в <a href="02-hierarchy.html#type">уроке 2</a>; форматы, размеры и загрузка картинок и шрифтов в <a href="03-speed.html#images">уроке 3</a>.</p>
+</div>
+
+<section class="sec" id="glyphs" data-short="Алфавиты шрифта">
+  <h2>Есть ли в шрифте нужные буквы</h2>
+  <p>Сайт может быть на английском, а имена гостей, отзывы, подписи и вторая языковая версия на русском. Если в шрифте нет кириллицы, браузер не покажет квадратики: он молча возьмёт недостающие буквы из другого шрифта. Получается текст, собранный из двух шрифтов. <span class="ev">◈ три автора; ◆ механизм unicode-range, MDN</span></p>
+
+  <div class="stage" id="glyph" data-font="latin">
+    <div class="stage-head">
+      <span class="stage-title">Один текст, три шрифта</span>
+      <div class="seg" role="group" aria-label="Шрифт">
+        <button type="button" class="is-bad" data-set="font=latin" aria-pressed="true">Только латиница</button>
+        <button type="button" class="is-good" data-set="font=full" aria-pressed="false">Латиница и кириллица</button>
+        <button type="button" data-set="font=system" aria-pressed="false">Системный</button>
+      </div>
+    </div>
+    <div class="stage-body sunk">
+      <div class="gl-card">
+        <div class="h">Nusa Penida · Нуса Пенида</div>
+        <p>Small boat, six guests. Маленькая лодка, шесть гостей. Café in Sanur, Señor Wayan, Ölüdeniz.</p>
+        <p>«Лучший день за всю поездку» — Мария, Москва</p>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="glOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>Пример в рамке настоящий: в первом режиме подключён тот же шрифт курса, но только его латинский файл, и русские буквы браузер берёт из Georgia. Так выглядит любой красивый шрифт без кириллицы. Пример из одного видео 2016 года (у Oswald нет кириллицы) устарел: сейчас она у Oswald есть, это я проверил на Google Fonts. Принцип верный, конкретные шрифты нужно проверять в момент выбора. <span class="ev">◆ проверено на Google Fonts 11 октября 2026</span></p>
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <p>На Google Fonts включи фильтр языка (Language: Cyrillic) до того, как выбирать. На готовом сайте вставь в любой заголовок русское слово через <code>F12</code> (двойной щелчок по тексту во вкладке Elements) и посмотри, не сменился ли шрифт.</p>
+  </div>
+</section>
+
+<section class="sec" id="families" data-short="Сколько шрифтов">
+  <h2>Два семейства, и хватит</h2>
+  <p>Три независимых автора сходятся на простом правиле: не больше двух гарнитур, одна для заголовков и одна для текста, и между ними должен быть заметный контраст. Это практика, стандарта нет. <span class="ev">◈ три автора</span> Каждое начертание это файл и задержка, это было в <a href="03-speed.html#fonts">уроке 3</a>.</p>
+
+  <div class="stage" id="fam" data-n="4">
+    <div class="stage-head">
+      <span class="stage-title">Карточка тура</span>
+      <div class="seg" role="group" aria-label="Число семейств">
+        <button type="button" data-set="n=1" aria-pressed="false">Одно семейство</button>
+        <button type="button" class="is-good" data-set="n=2" aria-pressed="false">Два с контрастом</button>
+        <button type="button" class="is-bad" data-set="n=4" aria-pressed="true">Четыре</button>
+      </div>
+    </div>
+    <div class="stage-body sunk">
+      <div class="fam-card">
+        <div class="h">Nusa Penida before the crowds</div>
+        <div class="k">Day trip from Sanur · 8 hours</div>
+        <p>Small boat, six guests, a local captain. Back in Sanur by five.</p>
+        <div class="pr">From $95</div>
+        <span class="b">Check dates</span>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="famOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <h3>Как выбирать</h3>
+  <p>Теории подбора пар в подборке нет: авторы ограничиваются «ограничь число и сделай контраст». Совет одного автора: брать пару от одного дизайнера или из одного большого семейства, где есть и антиква, и гротеск. <span class="ev">◇</span> Спор «засечки на экране или нет» не решён: один автор считает мелкий текст с засечками плохим для экрана, другой считает Georgia красивой и читаемой на телефоне. Это вкус, проверяй на целевых устройствах. <span class="ev">◇ спор</span></p>
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <ul>
+      <li>Ставят один и тот же шрифт по умолчанию: Inter, Roboto, Montserrat, системный стек. Это один из самых частых признаков, детектор Impeccable в этом проекте ловит его отдельным правилом. <span class="ev">◈ четыре голоса, подробнее в уроке 2</span> У новейших моделей набор шире: Fraunces, Geist, Plus Jakarta Sans, Space Grotesk, контрастные антиквы в заголовках. <span class="ev">◈ Impeccable, Anthropic</span></li>
+      <li>Делают надписи капслоком с разрядкой над каждым заголовком. Anthropic описывает это почти дословно, в этом проекте это запрещено отдельно. <span class="ev">◈ Anthropic, Impeccable, DesignCode</span></li>
+    </ul>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Модный шрифт без проверки кириллицы. <span class="ev">◈ перекрёстная проверка по типографике</span></li>
+      <li>Третий и четвёртый шрифт «для акцента»: цена одним, кнопка другим. Одного-двух семейств хватает. <span class="ev">◈ перекрёстная проверка; Anthropic</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>At most two type families: one for headings, one for body, with clear contrast; at most three weights in total.</li>
+      <li>Both families must cover Latin and Cyrillic, including Latin Extended; show me a test line in Russian and with accented Latin names.</li>
+      <li>Do not default to Inter or Roboto; propose three options with reasons and wait for my choice.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="zoom" data-short="Текст при увеличении">
+  <h2>Резиновый шрифт и увеличение</h2>
+  <p>Модели любят «резиновые» заголовки, размер которых зависит от ширины окна: <code>font-size: 5vw</code>. На широком экране крупно, на узком мелко. Ловушка в том, что при увеличении страницы такой текст не растёт: увеличение уменьшает ширину окна в CSS-пикселях ровно во столько раз, во сколько растёт всё остальное. Стандарт требует, чтобы текст увеличивался до 200%. <span class="ev">◆ WCAG 1.4.4; ◇ про vw прямо говорит один автор, Pamental</span> Обычный выход: <code>clamp()</code>, где к ширине окна добавлены <code>rem</code>. Такой заголовок при увеличении растёт, хотя не всегда вдвое: насколько это достаточно для крупных заголовков, в моих источниках не разобрано, поэтому проверяй результат при 200%. <span class="ev">◇</span></p>
+
+  <div class="stage" id="zm" data-mode="vw" data-zoom="1">
+    <div class="stage-head">
+      <span class="stage-title">Заголовок первого экрана</span>
+      <div class="seg" role="group" aria-label="Способ задать размер">
+        <button type="button" class="is-bad" data-set="mode=vw" aria-pressed="true">5vw</button>
+        <button type="button" data-set="mode=rem" aria-pressed="false">3rem</button>
+        <button type="button" class="is-good" data-set="mode=clamp" aria-pressed="false">clamp(2rem, 1.2rem + 3vw, 4rem)</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">ширина окна <input type="range" min="320" max="1600" step="10" value="1280" id="zmW"><output id="zmWOut"></output></label>
+      <span class="field">увеличение
+        <span class="seg" role="group" aria-label="Увеличение браузера">
+          <button type="button" data-set="zoom=1" aria-pressed="true">100%</button>
+          <button type="button" data-set="zoom=2" aria-pressed="false">200%</button>
+        </span>
+      </span>
+    </div>
+    <div class="stage-body">
+      <div class="zoom-view"><div class="h" id="zmH">Nusa Penida before the crowds</div></div>
+      <ul class="zoom-rows" id="zmRows"></ul>
+    </div>
+    <div class="stage-foot"><p id="zmOut" class="readout" aria-live="polite"></p><p class="small">Расчёт настоящий, по правилам CSS: при увеличении 200% окно 1280 пикселей становится 640 CSS-пикселями, а 1rem остаётся 16 CSS-пикселями, но рисуется вдвое крупнее. Заголовок показан в реальном размере на экране, без масштабирования рамки.</p></div>
+  </div>
+</section>
+
+<section class="sec" id="spacing" data-short="Тест интервалов">
+  <h2>Тест интервалов: текст не должен обрезаться</h2>
+  <p>Люди с дислексией и слабым зрением увеличивают межстрочный и межбуквенный интервал своими настройками или расширениями. Стандарт требует, чтобы при этом ничего не пропадало: высота строки 1,5 размера шрифта, отступ после абзаца 2 размера, межбуквенный 0,12, между словами 0,16. Это проверка «выдержит ли вёрстка», а не совет так верстать. <span class="ev">◆ WCAG 1.4.12</span></p>
+
+  <div class="stage" id="spc" data-wcag="off">
+    <div class="stage-head">
+      <span class="stage-title">Две карточки: с жёсткой высотой и без</span>
+      <label class="field"><input type="checkbox" data-flag="wcag"> Применить интервалы из WCAG 1.4.12</label>
+    </div>
+    <div class="stage-body sunk">
+      <div class="sp-wrap">
+        <div><div class="sp-cap">height: 9.5rem; overflow: hidden</div><div class="sp-card fixed" id="spA"><div class="h">Mount Batur sunrise</div><p>Start at 2 am, reach the crater rim before dawn, breakfast cooked on volcanic steam.</p><p>Back at your hotel by noon.</p></div></div>
+        <div><div class="sp-cap">min-height: 9.5rem</div><div class="sp-card fluid" id="spB"><div class="h">Mount Batur sunrise</div><p>Start at 2 am, reach the crater rim before dawn, breakfast cooked on volcanic steam.</p><p>Back at your hotel by noon.</p></div></div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="spOut" class="readout" aria-live="polite"></p></div>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Text sizes in rem from a 100% root; fluid headings use clamp() with a rem part, never vw alone.</li>
+      <li>No fixed heights on anything that contains text; use min-height. Test with 200% zoom and with the WCAG 1.4.12 text-spacing overrides.</li>
+      <li>Body text left-aligned, not justified, lines around 60-80 characters.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="crop" data-short="Кадр под телефон">
+  <h2>Одно фото, два экрана</h2>
+  <p>Широкий кадр на телефоне превращается в узкую вертикальную полосу из середины. Если лодка стоит справа, на телефоне её нет. Свойство <code>object-fit: cover</code> заполняет блок и обрезает лишнее, а по умолчанию оставляет центр. <span class="ev">◆ MDN object-fit и object-position</span> Есть два способа это исправить: сказать браузеру, где главное (<code>object-position</code>), или дать телефону отдельный кадр через <code>&lt;picture&gt;</code>. Второе называется art direction: не та же картинка меньшего размера, а другой кадр. <span class="ev">◆ MDN; ◈ два автора с разных сторон, верстальщик и фотограф</span></p>
+
+  <div class="stage" id="cr" data-mode="center">
+    <div class="stage-head">
+      <span class="stage-title">Главное фото страницы тура</span>
+      <div class="seg" role="group" aria-label="Способ кадрирования">
+        <button type="button" class="is-bad" data-set="mode=center" aria-pressed="true">cover, центр</button>
+        <button type="button" data-set="mode=pos" aria-pressed="false">object-position на лодку</button>
+        <button type="button" class="is-good" data-set="mode=pic" aria-pressed="false">picture: свой кадр для телефона</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">ширина экрана <input type="range" min="320" max="1600" step="10" value="390" id="crW"><output id="crWOut"></output></label>
+    </div>
+    <div class="crop-stage"><div class="crop-view" id="crView"><div class="crop-box" id="crBox"><img id="crImg" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 9%27%3E%3Crect width=%2716%27 height=%279%27 fill=%27%231f5f86%27/%3E%3C/svg%3E" alt="Small boat in a turquoise bay below green cliffs" width="1600" height="900"><div class="hl" id="crHl">Nusa Penida before the crowds</div></div></div></div>
+    <div class="stage-foot"><p id="crOut" class="readout" aria-live="polite"></p><p class="small">Рисунок вместо фото, но обрезка настоящая: это обычный img с object-fit: cover. Высота первого экрана взята 560 пикселей.</p></div>
+  </div>
+
+  <p>Отсюда главное требование к съёмке. В беседе фотографа и дизайнера оно звучит так: каждую сцену снимать и горизонтально, и вертикально, и оставлять свободное место сбоку под заголовок. <span class="ev">◈ два человека в одном разговоре; ◈ ещё один автор про свободное место</span> Совет одного из докладчиков: дать редактору отметить на фото главное (focal point), чтобы автоматическая обрезка его не резала. <span class="ev">◇</span></p>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>The hero uses picture with a separate portrait crop for screens under 700 px; both crops keep the subject and leave free space for the headline.</li>
+      <li>Every cropped image slot sets object-position to the subject, not the default centre. Show me screenshots at 390 and 1440 px.</li>
+      <li>Text over a photo must reach 4.5:1 contrast against the pixels actually behind it.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="brief" data-short="Бриф фотографу">
+  <h2>Бриф фотографу или подборка своих фото</h2>
+  <p>Лучшее фото для сайта туров это своё фото настоящего места. Три автора сходятся: свои снимки лучше стоковых, а сток делает сайт похожим на чужие сайты, потому что ту же картинку купили многие. <span class="ev">◈ три автора</span> Ниже конструктор брифа: отметь, что нужно, и скопируй английский текст для фотографа или для себя, если снимаешь сам.</p>
+
+  <div class="stage" id="bfStage">
+    <div class="stage-head"><span class="stage-title">Бриф на съёмку тура</span></div>
+    <div class="stage-body">
+      <div class="bf">
+        <div class="brief-opts" id="bfOpts"></div>
+        <div>
+          <pre class="code" id="bfText" style="margin-top:0"></pre>
+          <button type="button" class="btn" data-copy="#bfText" style="margin-top:.7rem"><span>Скопировать бриф</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="bfOut" class="readout" aria-live="polite"></p><p class="small">Пункты про оба формата и свободное место опираются на источники, остальные моё рассуждение для туристического сайта: источников по съёмке для туризма не нашлось. <span class="ev">◇</span></p></div>
+  </div>
+
+  <h3>Лицензии и сгенерированные картинки</h3>
+  <ul>
+    <li><strong>Условия у каждого фотостока свои.</strong> Например, у Pexels: бесплатно, подпись автора не обязательна, но узнаваемых людей нельзя показывать в плохом или оскорбительном свете, и нельзя продавать неизменённые копии. Условия Pixabay я проверить не смог. <span class="ev">◆ лицензия Pexels</span></li>
+    <li><strong>Нельзя брать картинки из поиска Google</strong> и с чужих сайтов. <span class="ev">◈ два автора</span></li>
+    <li><strong>Люди в кадре.</strong> Нужно ли письменное согласие узнаваемых людей на фото для рекламы, зависит от страны; в подборке это не исследовано. Спроси юриста, прежде чем ставить гостей на главную.</li>
+    <li><strong>Сгенерированные картинки реальных мест.</strong> Мнение: для туроператора это обещание, которое место не выполнит. Гость сравнит фото с тем, что увидел. Источников про это нет. <span class="ev">◇ моё рассуждение</span></li>
+    <li><strong>Alt для атмосферных фото</strong> (закат, вода, джунгли) в подборке не разобран. Рабочее правило из урока 4: что картинка сообщает в этом месте страницы.</li>
+  </ul>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <ul>
+      <li>Вставляют фото по прямым ссылкам на Unsplash и другие стоки: чужой сервер, чужая лицензия, ссылка может пропасть. <span class="ev">◈ Flux (Claude, май 2026), DesignCode</span></li>
+      <li>Берут общие сцены («девушка с поднятыми руками на пляже») вместо конкретного места тура. DesignCode: такие картинки «в каждом сгенерированном сайте». <span class="ev">◈ DesignCode, Flux, Malewicz</span></li>
+      <li>Рисуют иллюстрации кодом там, где нужна фотография. <span class="ev">◇ DesignCode, в том числе Opus 5.5</span></li>
+    </ul>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <p>Заголовок лежит на самой пёстрой части снимка. Сначала выбери кадр со свободным местом под текст. <span class="ev">◈ перекрёстная проверка по фото</span> Если кадр менять нельзя, тень под буквами работает: в исследовании читаемости текста на сложном фоне тень помогла лучше обводки, а полупрозрачная подложка около 30% лучше размытия. <span class="ev">◆ рецензируемое исследование, PubMed 32425139; ◆ NN/g</span></p>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Use only photos from /photos supplied by the owner; where a photo is missing, show a grey placeholder with the required crop and size written on it.</li>
+      <li>Never hotlink or download images from stock sites or search results.</li>
+      <li>List every image with its source and licence in the report.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="errors" data-short="10 типичных ошибок">
+  <h2>Десять типичных ошибок</h2>
+  <ol class="cases">
+    <li><div class="mh">1. Шрифт без кириллицы</div><p>Русские слова другим шрифтом.</p><p><code>Check Cyrillic before choosing.</code></p></li>
+    <li><div class="mh">2. Inter по умолчанию</div><p>Сайт похож на тысячи других.</p><p><code>Propose three options.</code></p></li>
+    <li><div class="mh">3. Четыре семейства</div><p>Каждый элемент своим шрифтом.</p><p><code>Two families, three weights.</code></p></li>
+    <li><div class="mh">4. Размер в vw</div><p>Текст не увеличивается.</p><p><code>clamp() with rem.</code></p></li>
+    <li><div class="mh">5. Жёсткая высота с текстом</div><p>Текст обрезается при увеличении.</p><p><code>min-height, not height.</code></p></li>
+    <li><div class="mh">6. Центр широкого кадра на телефоне</div><p>Главное отрезано.</p><p><code>object-position or picture.</code></p></li>
+    <li><div class="mh">7. Один кадр на все экраны</div><p>Нет вертикальной версии сцены.</p><p><code>Brief: landscape and portrait.</code></p></li>
+    <li><div class="mh">8. Заголовок на пёстром фоне</div><p>Не читается.</p><p><code>Free space, 4.5:1 contrast.</code></p></li>
+    <li><div class="mh">9. Сток по прямой ссылке</div><p>Чужая лицензия и чужой сервер.</p><p><code>Own files, licences listed.</code></p></li>
+    <li><div class="mh">10. Общие фото вместо места</div><p>Не видно, что продаётся.</p><p><code>Real place of this tour.</code></p></li>
+  </ol>
+</section>
+
+<section class="sec" id="accept" data-short="Чек-лист приёмки">
+  <h2>Чек-лист приёмки</h2>
+  <ul class="checklist" data-id="l9">
+    <li><label><input type="checkbox"><span>Не больше двух семейств и трёх начертаний; выбор шрифта объяснён, не по умолчанию.</span></label></li>
+    <li><label><input type="checkbox"><span>Русские слова и латиница с диакритикой показаны тем же шрифтом.</span></label></li>
+    <li><label><input type="checkbox"><span>При увеличении 200% заголовки растут, ничего не обрезано.</span></label></li>
+    <li><label><input type="checkbox"><span>У блоков с текстом нет жёсткой высоты; тест интервалов WCAG проходит.</span></label></li>
+    <li><label><input type="checkbox"><span>Главное фото на ширине 390 и 1440 показывает предмет тура; на телефоне свой кадр.</span></label></li>
+    <li><label><input type="checkbox"><span>Заголовок поверх фото на свободном месте, контраст 4,5:1.</span></label></li>
+    <li><label><input type="checkbox"><span>Все фото из папки владельца, у каждого известен источник и лицензия.</span></label></li>
+    <li><label><input type="checkbox"><span>Нет сгенерированных картинок реальных мест и чужих фото по ссылкам.</span></label></li>
+  </ul>
+</section>
+
+<section class="sec" id="quiz" data-short="Тест">
+  <h2>Проверь себя</h2>
+  <div class="quiz" data-quiz="l9">
+    <script type="application/json">
+[
+ {"q":"В красивом шрифте нет кириллицы. Что увидит человек на русской странице?","opts":["Квадратики вместо букв","Русские буквы из другого, запасного шрифта: текст из двух шрифтов","Пустое место","Страница не откроется"],"a":1,"why":"Браузер молча берёт недостающие буквы из следующего шрифта в списке. Поэтому кириллицу проверяют до выбора."},
+ {"q":"Сколько семейств шрифтов советуют авторы?","opts":["Одно, всегда","Не больше двух, с заметным контрастом между ними","Столько, сколько блоков","Минимум четыре для богатства"],"a":1,"why":"Три автора сходятся на двух: одно для заголовков, одно для текста. Стандарта нет, это практика."},
+ {"q":"Заголовок задан как font-size: 5vw. Что будет при увеличении страницы до 200%?","opts":["Заголовок вырастет вдвое","Заголовок почти не изменится, потому что увеличение уменьшает ширину окна в CSS-пикселях","Заголовок исчезнет","Заголовок станет меньше вдвое"],"a":1,"why":"vw зависит только от ширины окна. Для увеличения нужен rem: clamp(2rem, 1.2rem + 3vw, 4rem)."},
+ {"q":"Что проверяет WCAG 1.4.12 «Text Spacing»?","opts":["Что текст свёрстан с интервалом 1,5","Что при увеличении интервалов пользователем ничего не пропадает и не обрезается","Что между словами два пробела","Что шрифт с засечками"],"a":1,"why":"Это проверка устойчивости вёрстки. Типичная причина провала: жёсткая высота блока с текстом."},
+ {"q":"На телефоне лодка с главного фото пропала. Почему?","opts":["Фото не загрузилось","object-fit: cover по умолчанию оставляет центр широкого кадра, а лодка сбоку","Телефон не поддерживает фото","Фото слишком маленькое"],"a":1,"why":"Решения: object-position на главное или отдельный вертикальный кадр через picture."},
+ {"q":"Чем art direction отличается от srcset?","opts":["Ничем","srcset даёт ту же картинку в разных размерах, а art direction другой кадр для другого экрана через picture","art direction это фильтры","srcset только для иконок"],"a":1,"why":"MDN различает resolution switching и art direction. Для героя на телефоне часто нужен именно другой кадр."},
+ {"q":"Что важнее всего попросить у фотографа для сайта?","opts":["Только горизонтальные кадры","Каждую сцену и горизонтально, и вертикально, со свободным местом под заголовок","Чёрно-белые снимки","Водяной знак"],"a":1,"why":"Так одну сцену можно поставить и на широкий экран, и на телефон."},
+ {"q":"Модель вставила фото по прямым ссылкам на сток. Что не так?","opts":["Ничего","Чужой сервер, чужая лицензия и ссылка может пропасть; фото должны быть свои, с известной лицензией","Это медленнее только в Safari","Нужно добавить alt"],"a":1,"why":"Условия у каждого стока свои, а картинки из поиска брать нельзя вовсе."}
+]
+    </script>
+  </div>
+</section>
+
+<section class="sec" id="sources" data-short="Источники">
+  <h2>Откуда это взято</h2>
+  <ul>
+    <li>◆ WCAG 2.2: 1.4.3, 1.4.4, 1.4.8 (AAA), 1.4.12. MDN: font-display, unicode-range, object-fit, object-position, picture, responsive images. web.dev: шрифты, картинки. Лицензия Pexels. Живая проверка наборов символов на Google Fonts.</li>
+    <li>◈ Типографика: Jason Pamental (три видео, один голос), Zach Leatherman, Easyweb Academy (fr, 2016), Joan Morci (es, 2018), Photofox (ru). Видео LIG CH (ja) не использовано: машинный перевод не читается.</li>
+    <li>◈ Фото: Vicky Gray и ведущий (разговор фотографа и дизайнера), Ran Segall (Flux Academy, продаёт курс), доклад DrupalCon 2017, Justin Mott (сайты фотографов), Luis R. Silva (es), Sean Gallagher (композиция).</li>
+    <li>◆ «Glanceable, legible typography over complex backgrounds», PubMed 32425139; NN/g, «Ensure High Contrast for Text Over Images».</li>
+    <li>◈ Наблюдения за выдачей моделей: DesignCode, Flux, Malewicz; детектор Impeccable; Anthropic frontend-design.</li>
+  </ul>
+  <p class="small">Не найдено ни одного источника о съёмке для туристических сайтов, о числе фото на странице тура, о видео на первом экране, о согласии людей в кадре и о Cyrillic-типографике глубже наличия букв. Пункты брифа, помеченные ◇, моё рассуждение.</p>
+  <p class="small">В блоках «Где ошибаются нейронки» стоит только то, что видели в выдаче моделей 2025–2026 годов, с моделью и датой. Реальные ошибки без такого подтверждения собраны в блоках «Частые ошибки: у людей и у нейронок», и метка там подтверждает правило, а не привычку моделей. Разбор по каждому утверждению: PROVENANCE_ERRORS.md, AUDIT_INDEPENDENT.md, EXTERNAL_CHECK.md.</p>
+</section>
+</main>
+</div>
+
+<footer class="foot">
+  <nav aria-label="Навигация по курсу"><a href="08-accept.html">Урок 8. Приёмка работы нейронки</a><a href="index.html">Все уроки</a></nav>
+</footer>
+
+<script src="assets/course.js?v=6"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const { $, $$ } = Course;
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  /* 1. Glyph coverage */
+  const glyph = $('#glyph');
+  const GL = {
+    latin: '<span class="verdict no">Русские слова набраны другим шрифтом,</span> с засечками и другой высотой букв. Латиница, в том числе é, ñ и ö, в порядке: они есть в латинском наборе.',
+    full: '<span class="verdict ok">Всё одним шрифтом:</span> латиница с диакритикой и кириллица из одного семейства. Браузер скачивает только нужные наборы, благодаря unicode-range.',
+    system: 'Системный шрифт: кириллица есть почти всегда и ничего не скачивается, но на Windows, Mac и Android он разный. Это бесплатно и быстро, но без характера.'
+  };
+  const glRender = () => { $('#glOut').innerHTML = GL[glyph.dataset.font]; };
+  glyph.addEventListener('statechange', glRender); glRender();
+
+  /* 2. Families */
+  const fam = $('#fam');
+  const FM = {
+    1: 'Одно семейство: аккуратно и цельно, иерархия держится на размере и жирности. Безопасный выбор, но заголовку не хватает характера.',
+    2: '<span class="verdict ok">Два семейства с контрастом:</span> заголовок с засечками, всё остальное гротеском. Разница видна сразу, и она одна.',
+    4: '<span class="verdict no">Четыре семейства в одной карточке:</span> заголовок, подпись, цена и кнопка спорят друг с другом. Плюс четыре и больше файлов шрифтов.'
+  };
+  const famRender = () => { $('#famOut').innerHTML = FM[fam.dataset.n]; };
+  fam.addEventListener('statechange', famRender); famRender();
+
+  /* 3. Fluid type and zoom */
+  const zm = $('#zm'); const zmW = $('#zmW');
+  function cssPx(mode, vwCss) {
+    const rem = 16; const vw = vwCss / 100;
+    if (mode === 'vw') return 5 * vw;
+    if (mode === 'rem') return 3 * rem;
+    return Math.min(4 * rem, Math.max(2 * rem, 1.2 * rem + 3 * vw));
+  }
+  function zmRender() {
+    const W = Number(zmW.value); const z = Number(zm.dataset.zoom); const mode = zm.dataset.mode;
+    $('#zmWOut').textContent = W + ' px';
+    const css1 = cssPx(mode, W); const shown1 = css1;
+    const css = cssPx(mode, W / z); const shown = css * z;
+    $('#zmH').style.fontSize = Math.min(shown, 160) + 'px';
+    $('#zmRows').innerHTML = `<li><span>Окно в CSS-пикселях</span><b>${Math.round(W / z)} px</b></li><li><span>Размер заголовка в CSS</span><b>${css.toFixed(1)} px</b></li><li><span>На экране при ${z * 100}%</span><b>${shown.toFixed(1)} px</b></li>`;
+    const grow = shown / shown1;
+    let out;
+    if (z === 1) out = mode === 'vw' && W < 520 ? `<span class="verdict no">На узком экране заголовок всего ${shown.toFixed(0)} px</span>, мельче основного текста.` : 'Включи увеличение 200% и сравни способы.';
+    else if (grow < 1.3) out = `<span class="verdict no">Увеличение 200%, а заголовок вырос в ${grow.toFixed(2).replace('.', ',')} раза.</span> Человек, которому нужен крупный текст, его не получит.`;
+    else if (grow < 1.9) out = `<span class="verdict mid">Заголовок вырос в ${grow.toFixed(2).replace('.', ',')} раза:</span> заметно, но не вдвое. Часть размера держится на ширине окна. Основной текст в rem при этом вырастет ровно вдвое, так что заголовок останется крупнее него. Подвигай ширину: на узком окне clamp упирается в минимум и растёт сильнее.`;
+    else out = `<span class="verdict ok">Заголовок вырос в ${grow.toFixed(2).replace('.', ',')} раза</span> вместе с увеличением.` + (mode === 'rem' ? ' Но на телефоне 3rem может быть крупноват: попробуй ширину 320.' : '');
+    $('#zmOut').innerHTML = out;
+  }
+  zm.addEventListener('statechange', zmRender); zmW.addEventListener('input', zmRender); zmRender();
+
+  /* 4. Text spacing */
+  const spc = $('#spc');
+  function spRender() {
+    const a = $('#spA'); const clipped = a.scrollHeight > a.clientHeight + 1;
+    $('#spOut').innerHTML = spc.dataset.wcag !== 'on' ? 'Обе карточки выглядят одинаково. Включи интервалы из стандарта.' : clipped ? `<span class="verdict no">Левая карточка обрезала текст:</span> скрыто около ${Math.round(a.scrollHeight - a.clientHeight)} px, последней строки про возвращение не видно. <span class="verdict ok">Правая просто стала выше.</span>` : 'При этой ширине левая карточка пока помещается: сузь окно, и она обрежется.';
+  }
+  spc.addEventListener('statechange', () => requestAnimationFrame(spRender)); window.addEventListener('resize', spRender); spRender();
+
+  /* 5. Crop */
+  const LAND = "data:image/svg+xml," + encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'><defs><linearGradient id='s' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3f93c9'/><stop offset='1' stop-color='#bfe3f5'/></linearGradient></defs><rect width='1600' height='900' fill='url(#s)'/><path d='M0 520 L180 300 L330 420 L520 250 L700 470 L760 900 L0 900Z' fill='#17633a'/><path d='M0 900V600h1600v300z' fill='#1f9fc9'/><path d='M0 900V700h1600v200z' fill='#2bb3c0' opacity='.6'/><g transform='translate(1248 610)'><path d='M-90 0h180l-28 34h-124z' fill='#fff'/><path d='M-10 0v-70l46 58z' fill='#f4ecd0'/><rect x='-60' y='-14' width='30' height='14' fill='#a1261d'/></g></svg>");
+  const PORT = "data:image/svg+xml," + encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 1600'><defs><linearGradient id='s' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3f93c9'/><stop offset='1' stop-color='#bfe3f5'/></linearGradient></defs><rect width='900' height='1600' fill='url(#s)'/><path d='M0 1020 L150 760 L300 900 L360 1600 L0 1600Z' fill='#17633a'/><path d='M0 1600V1080h900v520z' fill='#1f9fc9'/><g transform='translate(560 1150)'><path d='M-110 0h220l-34 42h-152z' fill='#fff'/><path d='M-12 0v-86l56 70z' fill='#f4ecd0'/><rect x='-74' y='-18' width='36' height='18' fill='#a1261d'/></g></svg>");
+  const cr = $('#cr'); const crW = $('#crW'); const box = $('#crBox'); const img = $('#crImg'); const view = $('#crView');
+  const H = 560; const BOAT = { x: 0.78, y: 0.7, r: 0.06 };
+  function crRender() {
+    const W = Number(crW.value); const mode = cr.dataset.mode;
+    const portrait = mode === 'pic' && W < 700;
+    img.src = portrait ? PORT : LAND;
+    img.style.objectPosition = mode === 'pos' || (mode === 'pic' && !portrait) ? '78% 70%' : '50% 50%';
+    if (portrait) img.style.objectPosition = '62% 72%';
+    const avail = view.parentElement.clientWidth - 32; const scale = Math.min(1, avail / W);
+    box.style.width = W + 'px'; box.style.height = H + 'px'; box.style.transform = `scale(${scale})`;
+    view.style.width = W * scale + 'px'; view.style.height = H * scale + 'px';
+    $('#crHl').style.fontSize = (W < 600 ? 34 : 54) + 'px';
+    $('#crWOut').textContent = W + ' px' + (scale < 1 ? ` (показано в ${Math.round(scale * 100)}%)` : '');
+    let visible = true;
+    if (!portrait) {
+      const ac = W / H; const ai = 1600 / 900;
+      const [px, py] = (img.style.objectPosition || '50% 50%').split(' ').map((v) => parseFloat(v) / 100);
+      if (ac < ai) { const f = ac / ai; const left = px * (1 - f); visible = BOAT.x - BOAT.r >= left - 0.001 && BOAT.x + BOAT.r <= left + f + 0.001; }
+      else { const f = ai / ac; const top = py * (1 - f); visible = BOAT.y - 0.05 >= top && BOAT.y + 0.05 <= top + f; }
+    }
+    let out;
+    if (portrait) out = '<span class="verdict ok">Телефон получил отдельный вертикальный кадр:</span> лодка в кадре, сверху свободное небо под заголовок. Это и есть art direction.';
+    else if (!visible) out = `<span class="verdict no">Лодки на экране нет.</span> При ширине ${W} px видна только середина снимка: зелёный склон и вода. Человек не видит, что продаётся.`;
+    else if (mode === 'pos' && W < 520) out = '<span class="verdict mid">Лодка в кадре, но заголовок лёг на воду и склон,</span> а свободного места в узком куске широкого снимка нет. Отдельный кадр для телефона решает обе задачи.';
+    else out = '<span class="verdict ok">Лодка в кадре.</span>' + (mode === 'center' ? ' На этой ширине повезло: двигай ползунок к телефону.' : '');
+    $('#crOut').innerHTML = out;
+  }
+  cr.addEventListener('statechange', crRender); crW.addEventListener('input', crRender);
+  new ResizeObserver(crRender).observe(view.parentElement); crRender();
+
+  /* 6. Photographer brief */
+  const BF = [
+    { l: 'Каждая сцена горизонтально и вертикально', t: 'Shoot every scene in both landscape and portrait.', src: 1, on: 1 },
+    { l: 'Свободное место сбоку под заголовок', t: 'For hero candidates, keep one side calm (sky, water, plain wall) for a headline.', src: 1, on: 1 },
+    { l: 'Настоящее место этого тура', t: 'Real locations of this tour only: the boat, the captain, the beach stops. No generic stock-style scenes.', src: 1, on: 1 },
+    { l: 'Люди в процессе, а не позируют', t: 'People in action (boarding, snorkelling, eating), not posing for the camera.', src: 1, on: 1 },
+    { l: 'Детали для карточек', t: 'Close details for cards: rope, lunch, mask and fins, the boat name.', src: 0, on: 1 },
+    { l: 'Утренний свет, как на самом туре', t: 'Shoot at the times the tour actually runs, so the light matches what guests will see.', src: 0, on: 0 },
+    { l: 'Согласие людей в кадре', t: 'Get written consent from every identifiable person; note names and consent in a spreadsheet.', src: 0, on: 0 },
+    { l: 'Формат сдачи', t: 'Deliver full-resolution JPEGs with descriptive file names (nusa-penida-boat-kelingking-01.jpg) and a list of what each shows.', src: 1, on: 1 }
+  ];
+  $('#bfOpts').innerHTML = BF.map((b, i) => `<label><input type="checkbox" data-bf="${i}" ${b.on ? 'checked' : ''}><span>${esc(b.l)}${b.src ? '' : ' <span class="ev">◇</span>'}</span></label>`).join('');
+  function bfRender() {
+    const on = BF.filter((_, i) => $(`[data-bf="${i}"]`).checked);
+    $('#bfText').textContent = ['Photo brief: Nusa Penida day trip', ''].concat(on.map((b) => '- ' + b.t)).join('\n');
+    const missing = [];
+    if (!$('[data-bf="0"]').checked) missing.push('без вертикальных кадров на телефоне останется полоса из середины');
+    if (!$('[data-bf="1"]').checked) missing.push('без свободного места заголовок ляжет на пёстрое');
+    if (!$('[data-bf="2"]').checked) missing.push('без настоящего места сайт станет похож на чужие');
+    $('#bfOut').innerHTML = missing.length ? `<span class="verdict no">Риски:</span> ${missing.join('; ')}.` : `<span class="verdict ok">Пунктов в брифе: ${on.length}.</span> Главные три на месте.`;
+  }
+  $('#bfOpts').addEventListener('change', bfRender); bfRender();
+});
+</script>
+</body>
+</html>

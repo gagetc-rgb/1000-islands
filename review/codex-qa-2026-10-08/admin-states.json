@@ -1,0 +1,304 @@
+[
+  {
+    "size": "1440x640",
+    "tab": "t-leads",
+    "w": 1440,
+    "scroll": 1440,
+    "off": []
+  },
+  {
+    "size": "1440x640",
+    "tab": "t-reviews",
+    "w": 1440,
+    "scroll": 1440,
+    "off": []
+  },
+  {
+    "size": "1440x640",
+    "tab": "t-photos",
+    "w": 1440,
+    "scroll": 1440,
+    "off": []
+  },
+  {
+    "size": "1440x640",
+    "tab": "t-prices",
+    "w": 1440,
+    "scroll": 1440,
+    "off": []
+  },
+  {
+    "size": "1280x620",
+    "tab": "t-leads",
+    "w": 1280,
+    "scroll": 1280,
+    "off": []
+  },
+  {
+    "size": "1280x620",
+    "tab": "t-reviews",
+    "w": 1280,
+    "scroll": 1280,
+    "off": []
+  },
+  {
+    "size": "1280x620",
+    "tab": "t-photos",
+    "w": 1280,
+    "scroll": 1280,
+    "off": []
+  },
+  {
+    "size": "1280x620",
+    "tab": "t-prices",
+    "w": 1280,
+    "scroll": 1280,
+    "off": []
+  },
+  {
+    "size": "1366x657",
+    "tab": "t-leads",
+    "w": 1366,
+    "scroll": 1366,
+    "off": []
+  },
+  {
+    "size": "1366x657",
+    "tab": "t-reviews",
+    "w": 1366,
+    "scroll": 1366,
+    "off": []
+  },
+  {
+    "size": "1366x657",
+    "tab": "t-photos",
+    "w": 1366,
+    "scroll": 1366,
+    "off": []
+  },
+  {
+    "size": "1366x657",
+    "tab": "t-prices",
+    "w": 1366,
+    "scroll": 1366,
+    "off": []
+  },
+  {
+    "size": "1536x730",
+    "tab": "t-leads",
+    "w": 1536,
+    "scroll": 1536,
+    "off": []
+  },
+  {
+    "size": "1536x730",
+    "tab": "t-reviews",
+    "w": 1536,
+    "scroll": 1536,
+    "off": []
+  },
+  {
+    "size": "1536x730",
+    "tab": "t-photos",
+    "w": 1536,
+    "scroll": 1536,
+    "off": []
+  },
+  {
+    "size": "1536x730",
+    "tab": "t-prices",
+    "w": 1536,
+    "scroll": 1536,
+    "off": []
+  },
+  {
+    "size": "1920x950",
+    "tab": "t-leads",
+    "w": 1920,
+    "scroll": 1920,
+    "off": []
+  },
+  {
+    "size": "1920x950",
+    "tab": "t-reviews",
+    "w": 1920,
+    "scroll": 1920,
+    "off": []
+  },
+  {
+    "size": "1920x950",
+    "tab": "t-photos",
+    "w": 1920,
+    "scroll": 1920,
+    "off": []
+  },
+  {
+    "size": "1920x950",
+    "tab": "t-prices",
+    "w": 1920,
+    "scroll": 1920,
+    "off": []
+  },
+  {
+    "size": "1024x690",
+    "tab": "t-leads",
+    "w": 1024,
+    "scroll": 1024,
+    "off": []
+  },
+  {
+    "size": "1024x690",
+    "tab": "t-reviews",
+    "w": 1024,
+    "scroll": 1024,
+    "off": []
+  },
+  {
+    "size": "1024x690",
+    "tab": "t-photos",
+    "w": 1024,
+    "scroll": 1024,
+    "off": []
+  },
+  {
+    "size": "1024x690",
+    "tab": "t-prices",
+    "w": 1024,
+    "scroll": 1024,
+    "off": []
+  },
+  {
+    "size": "768x950",
+    "tab": "t-leads",
+    "w": 768,
+    "scroll": 768,
+    "off": []
+  },
+  {
+    "size": "768x950",
+    "tab": "t-reviews",
+    "w": 768,
+    "scroll": 768,
+    "off": []
+  },
+  {
+    "size": "768x950",
+    "tab": "t-photos",
+    "w": 768,
+    "scroll": 768,
+    "off": []
+  },
+  {
+    "size": "768x950",
+    "tab": "t-prices",
+    "w": 768,
+    "scroll": 768,
+    "off": []
+  },
+  {
+    "size": "390x660",
+    "tab": "t-leads",
+    "w": 390,
+    "scroll": 390,
+    "off": []
+  },
+  {
+    "size": "390x660",
+    "tab": "t-reviews",
+    "w": 390,
+    "scroll": 390,
+    "off": []
+  },
+  {
+    "size": "390x660",
+    "tab": "t-photos",
+    "w": 390,
+    "scroll": 390,
+    "off": []
+  },
+  {
+    "size": "390x660",
+    "tab": "t-prices",
+    "w": 390,
+    "scroll": 390,
+    "off": []
+  },
+  {
+    "size": "360x640",
+    "tab": "t-leads",
+    "w": 360,
+    "scroll": 360,
+    "off": []
+  },
+  {
+    "size": "360x640",
+    "tab": "t-reviews",
+    "w": 360,
+    "scroll": 360,
+    "off": []
+  },
+  {
+    "size": "360x640",
+    "tab": "t-photos",
+    "w": 360,
+    "scroll": 360,
+    "off": []
+  },
+  {
+    "size": "360x640",
+    "tab": "t-prices",
+    "w": 360,
+    "scroll": 360,
+    "off": []
+  },
+  {
+    "size": "844x340",
+    "tab": "t-leads",
+    "w": 844,
+    "scroll": 844,
+    "off": []
+  },
+  {
+    "size": "844x340",
+    "tab": "t-reviews",
+    "w": 844,
+    "scroll": 844,
+    "off": []
+  },
+  {
+    "size": "844x340",
+    "tab": "t-photos",
+    "w": 844,
+    "scroll": 844,
+    "off": []
+  },
+  {
+    "size": "844x340",
+    "tab": "t-prices",
+    "w": 844,
+    "scroll": 844,
+    "off": []
+  },
+  {
+    "test": "price-preview",
+    "text": "from $2,370"
+  },
+  {
+    "test": "yacht-region",
+    "text": "from $35,700",
+    "unit": "USD, whole boat"
+  },
+  {
+    "test": "all-days",
+    "text": "from $52,000"
+  },
+  {
+    "test": "remove-photo",
+    "before": 4,
+    "after": 3
+  },
+  {
+    "test": "add-guest-photo",
+    "fileChooser": false
+  }
+]

@@ -1,0 +1,1416 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:01.990 align:start position:0%
+ 
+it's<00:00:00.560><c> important</c><00:00:00.960><c> to</c><00:00:01.120><c> ensure</c><00:00:01.520><c> that</c><00:00:01.760><c> your</c>
+
+00:00:01.990 --> 00:00:02.000 align:start position:0%
+it's important to ensure that your
+ 
+
+00:00:02.000 --> 00:00:04.390 align:start position:0%
+it's important to ensure that your
+domain<00:00:02.480><c> is</c><00:00:02.720><c> configured</c><00:00:03.360><c> properly</c><00:00:04.000><c> in</c><00:00:04.160><c> order</c>
+
+00:00:04.390 --> 00:00:04.400 align:start position:0%
+domain is configured properly in order
+ 
+
+00:00:04.400 --> 00:00:06.150 align:start position:0%
+domain is configured properly in order
+for<00:00:04.560><c> your</c><00:00:04.720><c> google</c><00:00:05.040><c> workspace</c><00:00:05.680><c> business</c>
+
+00:00:06.150 --> 00:00:06.160 align:start position:0%
+for your google workspace business
+ 
+
+00:00:06.160 --> 00:00:09.430 align:start position:0%
+for your google workspace business
+emails<00:00:06.879><c> to</c><00:00:07.200><c> function</c><00:00:07.759><c> correctly</c><00:00:08.639><c> to</c><00:00:08.800><c> do</c><00:00:09.040><c> this</c>
+
+00:00:09.430 --> 00:00:09.440 align:start position:0%
+emails to function correctly to do this
+ 
+
+00:00:09.440 --> 00:00:11.910 align:start position:0%
+emails to function correctly to do this
+we<00:00:09.679><c> need</c><00:00:09.840><c> to</c><00:00:10.000><c> set</c><00:00:10.240><c> up</c><00:00:10.559><c> three</c><00:00:10.960><c> authentication</c>
+
+00:00:11.910 --> 00:00:11.920 align:start position:0%
+we need to set up three authentication
+ 
+
+00:00:11.920 --> 00:00:16.070 align:start position:0%
+we need to set up three authentication
+methods<00:00:12.799><c> spf</c><00:00:13.280><c> record</c><00:00:14.080><c> dkim</c><00:00:14.559><c> record</c><00:00:15.280><c> and</c><00:00:15.679><c> d</c>
+
+00:00:16.070 --> 00:00:16.080 align:start position:0%
+methods spf record dkim record and d
+ 
+
+00:00:16.080 --> 00:00:18.070 align:start position:0%
+methods spf record dkim record and d
+mark<00:00:16.400><c> for</c><00:00:16.560><c> your</c><00:00:16.800><c> domain</c><00:00:17.520><c> this</c><00:00:17.760><c> will</c>
+
+00:00:18.070 --> 00:00:18.080 align:start position:0%
+mark for your domain this will
+ 
+
+00:00:18.080 --> 00:00:20.470 align:start position:0%
+mark for your domain this will
+ultimately<00:00:18.560><c> enhance</c><00:00:19.039><c> the</c><00:00:19.199><c> deliverability</c><00:00:20.240><c> of</c>
+
+00:00:20.470 --> 00:00:20.480 align:start position:0%
+ultimately enhance the deliverability of
+ 
+
+00:00:20.480 --> 00:00:22.710 align:start position:0%
+ultimately enhance the deliverability of
+your<00:00:20.640><c> emails</c><00:00:21.359><c> and</c><00:00:21.520><c> stop</c><00:00:21.840><c> your</c><00:00:22.080><c> emails</c><00:00:22.480><c> from</c>
+
+00:00:22.710 --> 00:00:22.720 align:start position:0%
+your emails and stop your emails from
+ 
+
+00:00:22.720 --> 00:00:25.109 align:start position:0%
+your emails and stop your emails from
+arriving<00:00:23.359><c> inside</c><00:00:23.840><c> your</c><00:00:24.000><c> recipients</c><00:00:24.720><c> spam</c>
+
+00:00:25.109 --> 00:00:25.119 align:start position:0%
+arriving inside your recipients spam
+ 
+
+00:00:25.119 --> 00:00:26.070 align:start position:0%
+arriving inside your recipients spam
+folders
+
+00:00:26.070 --> 00:00:26.080 align:start position:0%
+folders
+ 
+
+00:00:26.080 --> 00:00:27.830 align:start position:0%
+folders
+hey<00:00:26.320><c> guys</c><00:00:26.560><c> stuart</c><00:00:26.880><c> here</c><00:00:27.039><c> welcome</c><00:00:27.359><c> along</c><00:00:27.680><c> to</c>
+
+00:00:27.830 --> 00:00:27.840 align:start position:0%
+hey guys stuart here welcome along to
+ 
+
+00:00:27.840 --> 00:00:29.990 align:start position:0%
+hey guys stuart here welcome along to
+this<00:00:28.080><c> brief</c><00:00:28.400><c> google</c><00:00:28.720><c> workspace</c><00:00:29.279><c> tutorial</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+this brief google workspace tutorial
+ 
+
+00:00:30.000 --> 00:00:31.429 align:start position:0%
+this brief google workspace tutorial
+today<00:00:30.400><c> i'm</c><00:00:30.640><c> going</c><00:00:30.800><c> to</c><00:00:31.039><c> share</c><00:00:31.279><c> the</c>
+
+00:00:31.429 --> 00:00:31.439 align:start position:0%
+today i'm going to share the
+ 
+
+00:00:31.439 --> 00:00:33.270 align:start position:0%
+today i'm going to share the
+step-by-step<00:00:32.160><c> process</c><00:00:32.640><c> of</c><00:00:32.800><c> how</c><00:00:33.040><c> you</c><00:00:33.120><c> can</c>
+
+00:00:33.270 --> 00:00:33.280 align:start position:0%
+step-by-step process of how you can
+ 
+
+00:00:33.280 --> 00:00:35.830 align:start position:0%
+step-by-step process of how you can
+properly<00:00:33.760><c> set</c><00:00:33.920><c> up</c><00:00:34.079><c> google</c><00:00:34.399><c> workspace</c><00:00:35.440><c> with</c>
+
+00:00:35.830 --> 00:00:35.840 align:start position:0%
+properly set up google workspace with
+ 
+
+00:00:35.840 --> 00:00:39.750 align:start position:0%
+properly set up google workspace with
+spf<00:00:37.040><c> dkim</c><00:00:37.920><c> and</c><00:00:38.320><c> dmarc</c><00:00:38.800><c> to</c><00:00:38.960><c> ensure</c><00:00:39.280><c> that</c><00:00:39.520><c> your</c>
+
+00:00:39.750 --> 00:00:39.760 align:start position:0%
+spf dkim and dmarc to ensure that your
+ 
+
+00:00:39.760 --> 00:00:42.150 align:start position:0%
+spf dkim and dmarc to ensure that your
+emails<00:00:40.239><c> are</c><00:00:40.480><c> working</c><00:00:40.960><c> properly</c>
+
+00:00:42.150 --> 00:00:42.160 align:start position:0%
+emails are working properly
+ 
+
+00:00:42.160 --> 00:00:44.229 align:start position:0%
+emails are working properly
+okay<00:00:42.640><c> so</c><00:00:42.800><c> before</c><00:00:43.040><c> we</c><00:00:43.120><c> go</c><00:00:43.280><c> ahead</c><00:00:43.600><c> and</c><00:00:43.840><c> launch</c>
+
+00:00:44.229 --> 00:00:44.239 align:start position:0%
+okay so before we go ahead and launch
+ 
+
+00:00:44.239 --> 00:00:46.069 align:start position:0%
+okay so before we go ahead and launch
+into<00:00:44.480><c> this</c><00:00:44.719><c> brief</c><00:00:44.960><c> tutorial</c><00:00:45.520><c> consider</c>
+
+00:00:46.069 --> 00:00:46.079 align:start position:0%
+into this brief tutorial consider
+ 
+
+00:00:46.079 --> 00:00:47.750 align:start position:0%
+into this brief tutorial consider
+subscribing<00:00:46.800><c> if</c><00:00:46.960><c> you</c><00:00:47.039><c> haven't</c><00:00:47.280><c> done</c><00:00:47.520><c> so</c>
+
+00:00:47.750 --> 00:00:47.760 align:start position:0%
+subscribing if you haven't done so
+ 
+
+00:00:47.760 --> 00:00:49.910 align:start position:0%
+subscribing if you haven't done so
+already<00:00:48.160><c> or</c><00:00:48.399><c> if</c><00:00:48.480><c> you're</c><00:00:48.719><c> new</c><00:00:48.879><c> to</c><00:00:49.039><c> this</c><00:00:49.280><c> channel</c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+already or if you're new to this channel
+ 
+
+00:00:49.920 --> 00:00:51.670 align:start position:0%
+already or if you're new to this channel
+and<00:00:50.239><c> that</c><00:00:50.399><c> way</c><00:00:50.559><c> you'll</c><00:00:50.800><c> stay</c><00:00:50.960><c> updated</c><00:00:51.440><c> with</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+and that way you'll stay updated with
+ 
+
+00:00:51.680 --> 00:00:54.069 align:start position:0%
+and that way you'll stay updated with
+actionable<00:00:52.239><c> videos</c><00:00:52.719><c> and</c><00:00:52.879><c> tutorials</c><00:00:53.680><c> designed</c>
+
+00:00:54.069 --> 00:00:54.079 align:start position:0%
+actionable videos and tutorials designed
+ 
+
+00:00:54.079 --> 00:00:56.150 align:start position:0%
+actionable videos and tutorials designed
+to<00:00:54.320><c> equip</c><00:00:54.640><c> you</c><00:00:54.879><c> with</c><00:00:55.039><c> the</c><00:00:55.199><c> skills</c><00:00:55.680><c> knowledge</c>
+
+00:00:56.150 --> 00:00:56.160 align:start position:0%
+to equip you with the skills knowledge
+ 
+
+00:00:56.160 --> 00:00:58.709 align:start position:0%
+to equip you with the skills knowledge
+and<00:00:56.320><c> tools</c><00:00:57.039><c> to</c><00:00:57.199><c> help</c><00:00:57.440><c> your</c><00:00:57.680><c> small</c><00:00:58.000><c> business</c>
+
+00:00:58.709 --> 00:00:58.719 align:start position:0%
+and tools to help your small business
+ 
+
+00:00:58.719 --> 00:01:00.869 align:start position:0%
+and tools to help your small business
+thrive<00:00:59.199><c> online</c><00:00:59.920><c> and</c><00:01:00.000><c> with</c><00:01:00.160><c> that</c><00:01:00.399><c> quick</c><00:01:00.559><c> note</c>
+
+00:01:00.869 --> 00:01:00.879 align:start position:0%
+thrive online and with that quick note
+ 
+
+00:01:00.879 --> 00:01:02.869 align:start position:0%
+thrive online and with that quick note
+out<00:01:01.039><c> the</c><00:01:01.120><c> way</c><00:01:01.359><c> let's</c><00:01:01.680><c> go</c><00:01:01.840><c> ahead</c><00:01:02.239><c> and</c><00:01:02.480><c> properly</c>
+
+00:01:02.869 --> 00:01:02.879 align:start position:0%
+out the way let's go ahead and properly
+ 
+
+00:01:02.879 --> 00:01:06.860 align:start position:0%
+out the way let's go ahead and properly
+set<00:01:03.120><c> up</c><00:01:03.280><c> your</c><00:01:03.440><c> domain</c><00:01:04.080><c> with</c><00:01:04.479><c> google</c><00:01:04.799><c> workspace</c>
+
+00:01:06.860 --> 00:01:06.870 align:start position:0%
+set up your domain with google workspace
+ 
+
+00:01:06.870 --> 00:01:18.230 align:start position:0%
+set up your domain with google workspace
+[Music]
+
+00:01:18.230 --> 00:01:18.240 align:start position:0%
+[Music]
+ 
+
+00:01:18.240 --> 00:01:20.789 align:start position:0%
+[Music]
+okay<00:01:18.799><c> so</c><00:01:18.960><c> getting</c><00:01:19.360><c> started</c><00:01:19.840><c> in</c><00:01:20.080><c> order</c><00:01:20.320><c> for</c><00:01:20.560><c> us</c>
+
+00:01:20.789 --> 00:01:20.799 align:start position:0%
+okay so getting started in order for us
+ 
+
+00:01:20.799 --> 00:01:24.789 align:start position:0%
+okay so getting started in order for us
+to<00:01:21.439><c> set</c><00:01:21.840><c> up</c><00:01:22.080><c> and</c><00:01:22.240><c> properly</c><00:01:22.640><c> configure</c><00:01:23.439><c> our</c><00:01:23.759><c> spf</c>
+
+00:01:24.789 --> 00:01:24.799 align:start position:0%
+to set up and properly configure our spf
+ 
+
+00:01:24.799 --> 00:01:28.469 align:start position:0%
+to set up and properly configure our spf
+d<00:01:25.119><c> kim</c><00:01:25.520><c> and</c><00:01:25.759><c> d</c><00:01:26.000><c> mark</c><00:01:26.479><c> records</c><00:01:27.200><c> for</c><00:01:27.439><c> our</c><00:01:27.680><c> domain</c>
+
+00:01:28.469 --> 00:01:28.479 align:start position:0%
+d kim and d mark records for our domain
+ 
+
+00:01:28.479 --> 00:01:30.789 align:start position:0%
+d kim and d mark records for our domain
+we<00:01:28.720><c> first</c><00:01:29.040><c> need</c><00:01:29.200><c> to</c><00:01:29.439><c> log</c><00:01:29.680><c> into</c><00:01:30.079><c> our</c><00:01:30.320><c> hosting</c>
+
+00:01:30.789 --> 00:01:30.799 align:start position:0%
+we first need to log into our hosting
+ 
+
+00:01:30.799 --> 00:01:35.109 align:start position:0%
+we first need to log into our hosting
+provider<00:01:31.600><c> and</c><00:01:31.759><c> then</c><00:01:32.000><c> locate</c><00:01:32.799><c> dns</c><00:01:33.840><c> records</c><00:01:34.799><c> now</c>
+
+00:01:35.109 --> 00:01:35.119 align:start position:0%
+provider and then locate dns records now
+ 
+
+00:01:35.119 --> 00:01:37.109 align:start position:0%
+provider and then locate dns records now
+every<00:01:35.520><c> domain</c><00:01:35.920><c> provider</c><00:01:36.400><c> and</c><00:01:36.560><c> the</c><00:01:36.720><c> user</c>
+
+00:01:37.109 --> 00:01:37.119 align:start position:0%
+every domain provider and the user
+ 
+
+00:01:37.119 --> 00:01:39.429 align:start position:0%
+every domain provider and the user
+experience<00:01:37.759><c> will</c><00:01:38.000><c> look</c><00:01:38.400><c> slightly</c><00:01:38.880><c> different</c>
+
+00:01:39.429 --> 00:01:39.439 align:start position:0%
+experience will look slightly different
+ 
+
+00:01:39.439 --> 00:01:41.429 align:start position:0%
+experience will look slightly different
+so<00:01:39.600><c> go</c><00:01:39.840><c> ahead</c><00:01:40.159><c> and</c><00:01:40.400><c> locate</c><00:01:40.799><c> your</c><00:01:40.960><c> domain</c>
+
+00:01:41.429 --> 00:01:41.439 align:start position:0%
+so go ahead and locate your domain
+ 
+
+00:01:41.439 --> 00:01:45.429 align:start position:0%
+so go ahead and locate your domain
+provider<00:01:42.079><c> login</c><00:01:42.720><c> and</c><00:01:42.880><c> then</c><00:01:43.200><c> locate</c><00:01:43.759><c> the</c><00:01:44.000><c> dns</c>
+
+00:01:45.429 --> 00:01:45.439 align:start position:0%
+provider login and then locate the dns
+ 
+
+00:01:45.439 --> 00:01:48.389 align:start position:0%
+provider login and then locate the dns
+so<00:01:45.759><c> i'm</c><00:01:46.079><c> using</c><00:01:46.479><c> cloudflare</c><00:01:47.200><c> for</c><00:01:47.360><c> my</c><00:01:47.680><c> dns</c>
+
+00:01:48.389 --> 00:01:48.399 align:start position:0%
+so i'm using cloudflare for my dns
+ 
+
+00:01:48.399 --> 00:01:50.950 align:start position:0%
+so i'm using cloudflare for my dns
+record<00:01:48.880><c> so</c><00:01:49.040><c> this</c><00:01:49.280><c> is</c><00:01:49.360><c> where</c><00:01:49.680><c> i</c><00:01:49.840><c> would</c><00:01:50.079><c> go</c><00:01:50.320><c> ahead</c>
+
+00:01:50.950 --> 00:01:50.960 align:start position:0%
+record so this is where i would go ahead
+ 
+
+00:01:50.960 --> 00:01:54.469 align:start position:0%
+record so this is where i would go ahead
+and<00:01:51.280><c> change</c><00:01:51.680><c> all</c><00:01:51.840><c> my</c><00:01:52.159><c> dns</c><00:01:52.799><c> records</c><00:01:53.759><c> okay</c><00:01:54.320><c> so</c>
+
+00:01:54.469 --> 00:01:54.479 align:start position:0%
+and change all my dns records okay so
+ 
+
+00:01:54.479 --> 00:01:56.789 align:start position:0%
+and change all my dns records okay so
+the<00:01:54.640><c> first</c><00:01:54.880><c> step</c><00:01:55.200><c> for</c><00:01:55.360><c> us</c><00:01:55.600><c> to</c><00:01:55.920><c> enhance</c><00:01:56.479><c> our</c>
+
+00:01:56.789 --> 00:01:56.799 align:start position:0%
+the first step for us to enhance our
+ 
+
+00:01:56.799 --> 00:01:59.030 align:start position:0%
+the first step for us to enhance our
+email<00:01:57.200><c> deliverability</c><00:01:58.399><c> for</c><00:01:58.640><c> google</c>
+
+00:01:59.030 --> 00:01:59.040 align:start position:0%
+email deliverability for google
+ 
+
+00:01:59.040 --> 00:02:03.510 align:start position:0%
+email deliverability for google
+workspace<00:02:00.000><c> is</c><00:02:00.240><c> to</c><00:02:00.560><c> add</c><00:02:01.040><c> the</c><00:02:01.360><c> spf</c><00:02:02.479><c> record</c><00:02:03.280><c> and</c>
+
+00:02:03.510 --> 00:02:03.520 align:start position:0%
+workspace is to add the spf record and
+ 
+
+00:02:03.520 --> 00:02:05.590 align:start position:0%
+workspace is to add the spf record and
+this<00:02:03.840><c> record</c><00:02:04.320><c> basically</c><00:02:04.880><c> prevents</c><00:02:05.439><c> our</c>
+
+00:02:05.590 --> 00:02:05.600 align:start position:0%
+this record basically prevents our
+ 
+
+00:02:05.600 --> 00:02:08.389 align:start position:0%
+this record basically prevents our
+messages<00:02:06.159><c> from</c><00:02:06.399><c> being</c><00:02:06.719><c> labeled</c><00:02:07.280><c> as</c><00:02:07.520><c> spam</c><00:02:08.160><c> when</c>
+
+00:02:08.389 --> 00:02:08.399 align:start position:0%
+messages from being labeled as spam when
+ 
+
+00:02:08.399 --> 00:02:11.510 align:start position:0%
+messages from being labeled as spam when
+they<00:02:08.640><c> arrive</c><00:02:09.039><c> in</c><00:02:09.200><c> our</c><00:02:09.360><c> recipients</c><00:02:10.160><c> inbox</c><00:02:11.039><c> okay</c>
+
+00:02:11.510 --> 00:02:11.520 align:start position:0%
+they arrive in our recipients inbox okay
+ 
+
+00:02:11.520 --> 00:02:14.150 align:start position:0%
+they arrive in our recipients inbox okay
+so<00:02:11.680><c> go</c><00:02:11.840><c> ahead</c><00:02:12.239><c> and</c><00:02:12.400><c> locate</c><00:02:12.879><c> add</c><00:02:13.280><c> record</c><00:02:13.680><c> within</c>
+
+00:02:14.150 --> 00:02:14.160 align:start position:0%
+so go ahead and locate add record within
+ 
+
+00:02:14.160 --> 00:02:16.309 align:start position:0%
+so go ahead and locate add record within
+your<00:02:14.480><c> dns</c>
+
+00:02:16.309 --> 00:02:16.319 align:start position:0%
+your dns
+ 
+
+00:02:16.319 --> 00:02:19.030 align:start position:0%
+your dns
+and<00:02:16.640><c> then</c><00:02:16.959><c> simply</c><00:02:17.280><c> navigate</c><00:02:17.840><c> over</c><00:02:18.080><c> to</c><00:02:18.480><c> type</c>
+
+00:02:19.030 --> 00:02:19.040 align:start position:0%
+and then simply navigate over to type
+ 
+
+00:02:19.040 --> 00:02:23.190 align:start position:0%
+and then simply navigate over to type
+and<00:02:19.280><c> locate</c><00:02:20.000><c> txt</c><00:02:21.200><c> record</c><00:02:22.239><c> then</c><00:02:22.480><c> under</c><00:02:22.800><c> name</c>
+
+00:02:23.190 --> 00:02:23.200 align:start position:0%
+and locate txt record then under name
+ 
+
+00:02:23.200 --> 00:02:26.070 align:start position:0%
+and locate txt record then under name
+simply<00:02:23.680><c> add</c><00:02:24.160><c> at</c><00:02:24.800><c> and</c><00:02:24.959><c> once</c><00:02:25.200><c> you've</c><00:02:25.440><c> added</c><00:02:25.680><c> that</c>
+
+00:02:26.070 --> 00:02:26.080 align:start position:0%
+simply add at and once you've added that
+ 
+
+00:02:26.080 --> 00:02:28.630 align:start position:0%
+simply add at and once you've added that
+symbol<00:02:26.480><c> simply</c><00:02:26.800><c> come</c><00:02:27.040><c> down</c><00:02:27.200><c> to</c><00:02:27.520><c> content</c><00:02:28.400><c> or</c>
+
+00:02:28.630 --> 00:02:28.640 align:start position:0%
+symbol simply come down to content or
+ 
+
+00:02:28.640 --> 00:02:31.030 align:start position:0%
+symbol simply come down to content or
+you<00:02:28.800><c> might</c><00:02:29.120><c> see</c><00:02:29.440><c> value</c><00:02:30.080><c> and</c><00:02:30.160><c> we</c><00:02:30.400><c> want</c><00:02:30.560><c> to</c><00:02:30.800><c> add</c>
+
+00:02:31.030 --> 00:02:31.040 align:start position:0%
+you might see value and we want to add
+ 
+
+00:02:31.040 --> 00:02:33.670 align:start position:0%
+you might see value and we want to add
+this<00:02:31.440><c> information</c><00:02:32.239><c> in</c><00:02:32.480><c> here</c><00:02:33.200><c> and</c><00:02:33.360><c> this</c>
+
+00:02:33.670 --> 00:02:33.680 align:start position:0%
+this information in here and this
+ 
+
+00:02:33.680 --> 00:02:36.070 align:start position:0%
+this information in here and this
+information<00:02:34.319><c> here</c><00:02:34.560><c> this</c><00:02:34.879><c> content</c><00:02:35.599><c> can</c><00:02:35.760><c> be</c>
+
+00:02:36.070 --> 00:02:36.080 align:start position:0%
+information here this content can be
+ 
+
+00:02:36.080 --> 00:02:38.869 align:start position:0%
+information here this content can be
+found<00:02:36.400><c> publicly</c><00:02:37.120><c> online</c><00:02:37.920><c> so</c><00:02:38.080><c> what</c><00:02:38.319><c> i'll</c><00:02:38.480><c> do</c><00:02:38.720><c> is</c>
+
+00:02:38.869 --> 00:02:38.879 align:start position:0%
+found publicly online so what i'll do is
+ 
+
+00:02:38.879 --> 00:02:41.110 align:start position:0%
+found publicly online so what i'll do is
+add<00:02:39.200><c> a</c><00:02:39.440><c> link</c><00:02:39.840><c> down</c><00:02:40.000><c> below</c><00:02:40.319><c> that</c><00:02:40.480><c> will</c><00:02:40.720><c> take</c><00:02:40.879><c> you</c>
+
+00:02:41.110 --> 00:02:41.120 align:start position:0%
+add a link down below that will take you
+ 
+
+00:02:41.120 --> 00:02:43.589 align:start position:0%
+add a link down below that will take you
+to<00:02:41.440><c> this</c><00:02:41.760><c> information</c><00:02:42.560><c> that</c><00:02:42.800><c> you</c><00:02:42.879><c> can</c><00:02:43.120><c> simply</c>
+
+00:02:43.589 --> 00:02:43.599 align:start position:0%
+to this information that you can simply
+ 
+
+00:02:43.599 --> 00:02:46.790 align:start position:0%
+to this information that you can simply
+copy<00:02:44.239><c> and</c><00:02:44.480><c> then</c><00:02:44.720><c> paste</c><00:02:45.200><c> within</c><00:02:45.840><c> content</c><00:02:46.640><c> then</c>
+
+00:02:46.790 --> 00:02:46.800 align:start position:0%
+copy and then paste within content then
+ 
+
+00:02:46.800 --> 00:02:48.470 align:start position:0%
+copy and then paste within content then
+once<00:02:47.040><c> you've</c><00:02:47.200><c> done</c><00:02:47.360><c> that</c><00:02:47.680><c> simply</c><00:02:48.000><c> navigate</c>
+
+00:02:48.470 --> 00:02:48.480 align:start position:0%
+once you've done that simply navigate
+ 
+
+00:02:48.480 --> 00:02:52.070 align:start position:0%
+once you've done that simply navigate
+over<00:02:48.720><c> to</c><00:02:49.360><c> save</c><00:02:49.760><c> and</c><00:02:50.080><c> click</c><00:02:50.720><c> save</c><00:02:51.599><c> now</c><00:02:51.840><c> for</c><00:02:52.000><c> the</c>
+
+00:02:52.070 --> 00:02:52.080 align:start position:0%
+over to save and click save now for the
+ 
+
+00:02:52.080 --> 00:02:54.150 align:start position:0%
+over to save and click save now for the
+purpose<00:02:52.560><c> of</c><00:02:52.720><c> this</c><00:02:52.959><c> tutorial</c><00:02:53.519><c> i'm</c><00:02:53.760><c> just</c><00:02:53.920><c> going</c>
+
+00:02:54.150 --> 00:02:54.160 align:start position:0%
+purpose of this tutorial i'm just going
+ 
+
+00:02:54.160 --> 00:02:56.710 align:start position:0%
+purpose of this tutorial i'm just going
+to<00:02:54.400><c> simply</c><00:02:54.800><c> click</c><00:02:55.280><c> cancel</c><00:02:56.000><c> because</c><00:02:56.400><c> i've</c>
+
+00:02:56.710 --> 00:02:56.720 align:start position:0%
+to simply click cancel because i've
+ 
+
+00:02:56.720 --> 00:02:59.350 align:start position:0%
+to simply click cancel because i've
+already<00:02:57.040><c> added</c><00:02:57.680><c> this</c><00:02:58.000><c> record</c><00:02:58.720><c> however</c><00:02:59.200><c> you</c>
+
+00:02:59.350 --> 00:02:59.360 align:start position:0%
+already added this record however you
+ 
+
+00:02:59.360 --> 00:03:01.190 align:start position:0%
+already added this record however you
+want<00:02:59.440><c> to</c><00:02:59.519><c> make</c><00:02:59.760><c> sure</c><00:03:00.080><c> that</c><00:03:00.239><c> you've</c><00:03:00.560><c> clicked</c>
+
+00:03:01.190 --> 00:03:01.200 align:start position:0%
+want to make sure that you've clicked
+ 
+
+00:03:01.200 --> 00:03:03.509 align:start position:0%
+want to make sure that you've clicked
+save<00:03:02.080><c> okay</c><00:03:02.560><c> so</c><00:03:02.800><c> now</c><00:03:03.040><c> that</c><00:03:03.200><c> you've</c>
+
+00:03:03.509 --> 00:03:03.519 align:start position:0%
+save okay so now that you've
+ 
+
+00:03:03.519 --> 00:03:06.550 align:start position:0%
+save okay so now that you've
+successfully<00:03:04.239><c> added</c><00:03:04.560><c> the</c><00:03:04.720><c> spf</c><00:03:05.440><c> record</c><00:03:06.239><c> now</c>
+
+00:03:06.550 --> 00:03:06.560 align:start position:0%
+successfully added the spf record now
+ 
+
+00:03:06.560 --> 00:03:09.350 align:start position:0%
+successfully added the spf record now
+what<00:03:06.720><c> we</c><00:03:06.800><c> need</c><00:03:06.959><c> to</c><00:03:07.120><c> do</c><00:03:07.440><c> is</c><00:03:07.760><c> add</c><00:03:08.239><c> the</c><00:03:08.480><c> d</c><00:03:08.800><c> kim</c>
+
+00:03:09.350 --> 00:03:09.360 align:start position:0%
+what we need to do is add the d kim
+ 
+
+00:03:09.360 --> 00:03:12.229 align:start position:0%
+what we need to do is add the d kim
+record<00:03:10.239><c> and</c><00:03:10.480><c> this</c><00:03:10.800><c> basically</c><00:03:11.360><c> helps</c><00:03:11.760><c> prevent</c>
+
+00:03:12.229 --> 00:03:12.239 align:start position:0%
+record and this basically helps prevent
+ 
+
+00:03:12.239 --> 00:03:15.509 align:start position:0%
+record and this basically helps prevent
+us<00:03:12.560><c> from</c><00:03:12.720><c> being</c><00:03:13.040><c> identified</c><00:03:14.000><c> as</c><00:03:14.319><c> a</c><00:03:14.560><c> spammer</c>
+
+00:03:15.509 --> 00:03:15.519 align:start position:0%
+us from being identified as a spammer
+ 
+
+00:03:15.519 --> 00:03:17.750 align:start position:0%
+us from being identified as a spammer
+okay<00:03:16.080><c> so</c><00:03:16.239><c> the</c><00:03:16.480><c> first</c><00:03:16.879><c> thing</c><00:03:17.200><c> that</c><00:03:17.360><c> we</c><00:03:17.519><c> need</c><00:03:17.680><c> to</c>
+
+00:03:17.750 --> 00:03:17.760 align:start position:0%
+okay so the first thing that we need to
+ 
+
+00:03:17.760 --> 00:03:20.390 align:start position:0%
+okay so the first thing that we need to
+do<00:03:18.080><c> is</c><00:03:18.239><c> log</c><00:03:18.560><c> into</c><00:03:18.879><c> our</c><00:03:19.200><c> google</c><00:03:19.680><c> workspace</c>
+
+00:03:20.390 --> 00:03:20.400 align:start position:0%
+do is log into our google workspace
+ 
+
+00:03:20.400 --> 00:03:21.910 align:start position:0%
+do is log into our google workspace
+admin<00:03:20.879><c> account</c>
+
+00:03:21.910 --> 00:03:21.920 align:start position:0%
+admin account
+ 
+
+00:03:21.920 --> 00:03:23.509 align:start position:0%
+admin account
+and<00:03:22.080><c> then</c><00:03:22.239><c> once</c><00:03:22.480><c> you've</c><00:03:22.720><c> arrived</c><00:03:23.200><c> in</c><00:03:23.280><c> your</c>
+
+00:03:23.509 --> 00:03:23.519 align:start position:0%
+and then once you've arrived in your
+ 
+
+00:03:23.519 --> 00:03:25.910 align:start position:0%
+and then once you've arrived in your
+google<00:03:23.840><c> workspace</c><00:03:24.560><c> admin</c><00:03:25.040><c> account</c><00:03:25.519><c> simply</c>
+
+00:03:25.910 --> 00:03:25.920 align:start position:0%
+google workspace admin account simply
+ 
+
+00:03:25.920 --> 00:03:28.949 align:start position:0%
+google workspace admin account simply
+navigate<00:03:26.400><c> up</c><00:03:26.560><c> to</c><00:03:26.879><c> apps</c><00:03:27.680><c> and</c><00:03:27.920><c> then</c><00:03:28.159><c> locate</c>
+
+00:03:28.949 --> 00:03:28.959 align:start position:0%
+navigate up to apps and then locate
+ 
+
+00:03:28.959 --> 00:03:30.789 align:start position:0%
+navigate up to apps and then locate
+gmail
+
+00:03:30.789 --> 00:03:30.799 align:start position:0%
+gmail
+ 
+
+00:03:30.799 --> 00:03:34.550 align:start position:0%
+gmail
+then<00:03:31.200><c> navigate</c><00:03:31.680><c> over</c><00:03:32.000><c> to</c><00:03:32.319><c> authenticate</c><00:03:33.200><c> email</c>
+
+00:03:34.550 --> 00:03:34.560 align:start position:0%
+then navigate over to authenticate email
+ 
+
+00:03:34.560 --> 00:03:37.190 align:start position:0%
+then navigate over to authenticate email
+then<00:03:34.799><c> make</c><00:03:35.040><c> sure</c><00:03:35.360><c> under</c><00:03:35.760><c> dkim</c><00:03:36.319><c> authentication</c>
+
+00:03:37.190 --> 00:03:37.200 align:start position:0%
+then make sure under dkim authentication
+ 
+
+00:03:37.200 --> 00:03:40.229 align:start position:0%
+then make sure under dkim authentication
+that<00:03:37.440><c> you</c><00:03:37.599><c> have</c><00:03:38.239><c> your</c><00:03:38.480><c> domain</c><00:03:39.200><c> selected</c><00:03:40.080><c> then</c>
+
+00:03:40.229 --> 00:03:40.239 align:start position:0%
+that you have your domain selected then
+ 
+
+00:03:40.239 --> 00:03:43.030 align:start position:0%
+that you have your domain selected then
+come<00:03:40.480><c> down</c><00:03:41.040><c> and</c><00:03:41.280><c> click</c><00:03:41.519><c> on</c><00:03:41.840><c> generate</c><00:03:42.480><c> new</c>
+
+00:03:43.030 --> 00:03:43.040 align:start position:0%
+come down and click on generate new
+ 
+
+00:03:43.040 --> 00:03:44.710 align:start position:0%
+come down and click on generate new
+record
+
+00:03:44.710 --> 00:03:44.720 align:start position:0%
+record
+ 
+
+00:03:44.720 --> 00:03:46.869 align:start position:0%
+record
+and<00:03:44.959><c> then</c><00:03:45.200><c> if</c><00:03:45.360><c> we</c><00:03:45.440><c> navigate</c><00:03:45.920><c> up</c><00:03:46.080><c> to</c><00:03:46.239><c> new</c><00:03:46.480><c> record</c>
+
+00:03:46.869 --> 00:03:46.879 align:start position:0%
+and then if we navigate up to new record
+ 
+
+00:03:46.879 --> 00:03:49.030 align:start position:0%
+and then if we navigate up to new record
+we<00:03:47.040><c> first</c><00:03:47.360><c> have</c><00:03:47.519><c> the</c><00:03:47.680><c> option</c><00:03:48.080><c> to</c><00:03:48.319><c> select</c><00:03:48.799><c> the</c>
+
+00:03:49.030 --> 00:03:49.040 align:start position:0%
+we first have the option to select the
+ 
+
+00:03:49.040 --> 00:03:52.229 align:start position:0%
+we first have the option to select the
+length<00:03:49.760><c> of</c><00:03:50.000><c> our</c><00:03:50.319><c> dcm</c><00:03:50.959><c> key</c><00:03:51.440><c> so</c><00:03:51.680><c> the</c><00:03:51.760><c> moment</c><00:03:52.080><c> we</c>
+
+00:03:52.229 --> 00:03:52.239 align:start position:0%
+length of our dcm key so the moment we
+ 
+
+00:03:52.239 --> 00:03:54.470 align:start position:0%
+length of our dcm key so the moment we
+have<00:03:52.480><c> two</c><00:03:52.720><c> zero</c><00:03:53.040><c> four</c><00:03:53.280><c> eight</c><00:03:53.519><c> selected</c><00:03:54.159><c> we</c><00:03:54.319><c> can</c>
+
+00:03:54.470 --> 00:03:54.480 align:start position:0%
+have two zero four eight selected we can
+ 
+
+00:03:54.480 --> 00:03:57.670 align:start position:0%
+have two zero four eight selected we can
+also<00:03:54.799><c> select</c><00:03:55.280><c> one</c><00:03:55.519><c> zero</c><00:03:56.000><c> two</c><00:03:56.560><c> four</c><00:03:57.280><c> now</c><00:03:57.519><c> it's</c>
+
+00:03:57.670 --> 00:03:57.680 align:start position:0%
+also select one zero two four now it's
+ 
+
+00:03:57.680 --> 00:04:00.869 align:start position:0%
+also select one zero two four now it's
+recommended<00:03:58.159><c> that</c><00:03:58.319><c> you</c><00:03:58.560><c> keep</c><00:03:59.159><c> 2048</c><00:04:00.239><c> selected</c>
+
+00:04:00.869 --> 00:04:00.879 align:start position:0%
+recommended that you keep 2048 selected
+ 
+
+00:04:00.879 --> 00:04:03.750 align:start position:0%
+recommended that you keep 2048 selected
+which<00:04:01.120><c> is</c><00:04:01.360><c> more</c><00:04:01.599><c> secure</c><00:04:02.480><c> then</c><00:04:02.720><c> keep</c><00:04:03.040><c> google</c>
+
+00:04:03.750 --> 00:04:03.760 align:start position:0%
+which is more secure then keep google
+ 
+
+00:04:03.760 --> 00:04:06.309 align:start position:0%
+which is more secure then keep google
+down<00:04:04.000><c> here</c><00:04:04.239><c> for</c><00:04:04.400><c> the</c><00:04:04.560><c> prefix</c><00:04:05.439><c> and</c><00:04:05.599><c> then</c><00:04:05.840><c> click</c>
+
+00:04:06.309 --> 00:04:06.319 align:start position:0%
+down here for the prefix and then click
+ 
+
+00:04:06.319 --> 00:04:07.509 align:start position:0%
+down here for the prefix and then click
+generate
+
+00:04:07.509 --> 00:04:07.519 align:start position:0%
+generate
+ 
+
+00:04:07.519 --> 00:04:09.429 align:start position:0%
+generate
+then<00:04:07.840><c> first</c><00:04:08.080><c> we</c><00:04:08.239><c> need</c><00:04:08.400><c> to</c><00:04:08.560><c> navigate</c><00:04:09.040><c> up</c><00:04:09.200><c> to</c><00:04:09.360><c> the</c>
+
+00:04:09.429 --> 00:04:09.439 align:start position:0%
+then first we need to navigate up to the
+ 
+
+00:04:09.439 --> 00:04:12.869 align:start position:0%
+then first we need to navigate up to the
+dns<00:04:10.080><c> host</c><00:04:10.560><c> name</c><00:04:11.120><c> text</c><00:04:11.599><c> record</c><00:04:12.000><c> name</c><00:04:12.640><c> and</c>
+
+00:04:12.869 --> 00:04:12.879 align:start position:0%
+dns host name text record name and
+ 
+
+00:04:12.879 --> 00:04:15.990 align:start position:0%
+dns host name text record name and
+simply<00:04:13.439><c> copy</c><00:04:14.000><c> this</c><00:04:14.239><c> section</c><00:04:14.799><c> up</c><00:04:15.040><c> here</c><00:04:15.760><c> then</c>
+
+00:04:15.990 --> 00:04:16.000 align:start position:0%
+simply copy this section up here then
+ 
+
+00:04:16.000 --> 00:04:17.670 align:start position:0%
+simply copy this section up here then
+once<00:04:16.239><c> you've</c><00:04:16.400><c> done</c><00:04:16.639><c> that</c><00:04:16.880><c> simply</c><00:04:17.199><c> head</c><00:04:17.440><c> back</c>
+
+00:04:17.670 --> 00:04:17.680 align:start position:0%
+once you've done that simply head back
+ 
+
+00:04:17.680 --> 00:04:21.030 align:start position:0%
+once you've done that simply head back
+to<00:04:18.000><c> your</c><00:04:18.239><c> domain</c><00:04:18.799><c> provider</c><00:04:19.280><c> your</c><00:04:19.519><c> dns</c><00:04:20.079><c> records</c>
+
+00:04:21.030 --> 00:04:21.040 align:start position:0%
+to your domain provider your dns records
+ 
+
+00:04:21.040 --> 00:04:23.990 align:start position:0%
+to your domain provider your dns records
+and<00:04:21.199><c> then</c><00:04:21.359><c> go</c><00:04:21.519><c> ahead</c><00:04:21.919><c> and</c><00:04:22.160><c> add</c><00:04:22.479><c> a</c><00:04:22.720><c> new</c><00:04:22.960><c> record</c>
+
+00:04:23.990 --> 00:04:24.000 align:start position:0%
+and then go ahead and add a new record
+ 
+
+00:04:24.000 --> 00:04:25.350 align:start position:0%
+and then go ahead and add a new record
+and<00:04:24.160><c> again</c><00:04:24.479><c> what</c><00:04:24.639><c> we're</c><00:04:24.800><c> going</c><00:04:24.880><c> to</c><00:04:24.960><c> do</c><00:04:25.199><c> is</c>
+
+00:04:25.350 --> 00:04:25.360 align:start position:0%
+and again what we're going to do is
+ 
+
+00:04:25.360 --> 00:04:27.510 align:start position:0%
+and again what we're going to do is
+navigate<00:04:25.840><c> over</c><00:04:26.080><c> to</c><00:04:26.400><c> type</c><00:04:26.800><c> and</c><00:04:26.960><c> make</c><00:04:27.199><c> sure</c><00:04:27.360><c> that</c>
+
+00:04:27.510 --> 00:04:27.520 align:start position:0%
+navigate over to type and make sure that
+ 
+
+00:04:27.520 --> 00:04:28.390 align:start position:0%
+navigate over to type and make sure that
+you<00:04:27.680><c> have</c>
+
+00:04:28.390 --> 00:04:28.400 align:start position:0%
+you have
+ 
+
+00:04:28.400 --> 00:04:32.150 align:start position:0%
+you have
+txt<00:04:29.280><c> text</c><00:04:29.919><c> records</c><00:04:30.720><c> selected</c><00:04:31.600><c> then</c><00:04:31.840><c> under</c>
+
+00:04:32.150 --> 00:04:32.160 align:start position:0%
+txt text records selected then under
+ 
+
+00:04:32.160 --> 00:04:34.629 align:start position:0%
+txt text records selected then under
+name<00:04:32.560><c> all</c><00:04:32.800><c> you</c><00:04:32.880><c> need</c><00:04:33.040><c> to</c><00:04:33.120><c> do</c><00:04:33.360><c> is</c><00:04:33.759><c> paste</c><00:04:34.080><c> in</c><00:04:34.400><c> that</c>
+
+00:04:34.629 --> 00:04:34.639 align:start position:0%
+name all you need to do is paste in that
+ 
+
+00:04:34.639 --> 00:04:37.430 align:start position:0%
+name all you need to do is paste in that
+bit<00:04:34.800><c> of</c><00:04:35.120><c> text</c><00:04:35.600><c> that</c><00:04:35.759><c> we</c><00:04:36.000><c> copied</c><00:04:36.479><c> earlier</c><00:04:37.280><c> and</c>
+
+00:04:37.430 --> 00:04:37.440 align:start position:0%
+bit of text that we copied earlier and
+ 
+
+00:04:37.440 --> 00:04:40.230 align:start position:0%
+bit of text that we copied earlier and
+then<00:04:37.759><c> simply</c><00:04:38.080><c> navigate</c><00:04:38.560><c> down</c><00:04:38.720><c> to</c><00:04:39.040><c> content</c><00:04:39.680><c> or</c>
+
+00:04:40.230 --> 00:04:40.240 align:start position:0%
+then simply navigate down to content or
+ 
+
+00:04:40.240 --> 00:04:42.550 align:start position:0%
+then simply navigate down to content or
+value<00:04:41.040><c> and</c><00:04:41.199><c> then</c><00:04:41.440><c> head</c><00:04:41.680><c> back</c><00:04:41.919><c> to</c><00:04:42.080><c> your</c><00:04:42.240><c> google</c>
+
+00:04:42.550 --> 00:04:42.560 align:start position:0%
+value and then head back to your google
+ 
+
+00:04:42.560 --> 00:04:44.230 align:start position:0%
+value and then head back to your google
+workspace<00:04:43.280><c> admin</c>
+
+00:04:44.230 --> 00:04:44.240 align:start position:0%
+workspace admin
+ 
+
+00:04:44.240 --> 00:04:47.350 align:start position:0%
+workspace admin
+and<00:04:44.479><c> this</c><00:04:44.720><c> time</c><00:04:45.199><c> simply</c><00:04:45.680><c> copy</c><00:04:46.240><c> this</c><00:04:46.560><c> entire</c>
+
+00:04:47.350 --> 00:04:47.360 align:start position:0%
+and this time simply copy this entire
+ 
+
+00:04:47.360 --> 00:04:50.310 align:start position:0%
+and this time simply copy this entire
+text<00:04:47.840><c> record</c><00:04:48.479><c> value</c><00:04:49.440><c> and</c><00:04:49.600><c> then</c><00:04:49.840><c> once</c><00:04:50.080><c> you've</c>
+
+00:04:50.310 --> 00:04:50.320 align:start position:0%
+text record value and then once you've
+ 
+
+00:04:50.320 --> 00:04:52.870 align:start position:0%
+text record value and then once you've
+copied<00:04:50.720><c> this</c><00:04:51.040><c> text</c><00:04:51.440><c> record</c><00:04:51.840><c> value</c><00:04:52.560><c> simply</c>
+
+00:04:52.870 --> 00:04:52.880 align:start position:0%
+copied this text record value simply
+ 
+
+00:04:52.880 --> 00:04:55.909 align:start position:0%
+copied this text record value simply
+head<00:04:53.120><c> back</c><00:04:53.440><c> to</c><00:04:53.680><c> your</c><00:04:53.919><c> dns</c><00:04:54.639><c> records</c><00:04:55.440><c> and</c><00:04:55.680><c> under</c>
+
+00:04:55.909 --> 00:04:55.919 align:start position:0%
+head back to your dns records and under
+ 
+
+00:04:55.919 --> 00:04:58.310 align:start position:0%
+head back to your dns records and under
+content<00:04:56.400><c> all</c><00:04:56.560><c> you</c><00:04:56.720><c> need</c><00:04:56.880><c> to</c><00:04:56.960><c> do</c><00:04:57.280><c> is</c><00:04:57.600><c> paste</c><00:04:57.919><c> in</c>
+
+00:04:58.310 --> 00:04:58.320 align:start position:0%
+content all you need to do is paste in
+ 
+
+00:04:58.320 --> 00:05:00.390 align:start position:0%
+content all you need to do is paste in
+that<00:04:58.639><c> value</c><00:04:59.440><c> and</c><00:04:59.520><c> once</c><00:04:59.759><c> you've</c><00:05:00.000><c> done</c><00:05:00.160><c> that</c>
+
+00:05:00.390 --> 00:05:00.400 align:start position:0%
+that value and once you've done that
+ 
+
+00:05:00.400 --> 00:05:03.270 align:start position:0%
+that value and once you've done that
+simply<00:05:00.720><c> navigate</c><00:05:01.199><c> over</c><00:05:01.440><c> to</c><00:05:01.919><c> save</c><00:05:02.400><c> and</c><00:05:02.720><c> save</c>
+
+00:05:03.270 --> 00:05:03.280 align:start position:0%
+simply navigate over to save and save
+ 
+
+00:05:03.280 --> 00:05:06.310 align:start position:0%
+simply navigate over to save and save
+that<00:05:03.520><c> new</c><00:05:04.080><c> text</c><00:05:04.560><c> record</c><00:05:05.520><c> and</c><00:05:05.759><c> then</c><00:05:06.080><c> once</c>
+
+00:05:06.310 --> 00:05:06.320 align:start position:0%
+that new text record and then once
+ 
+
+00:05:06.320 --> 00:05:08.150 align:start position:0%
+that new text record and then once
+you've<00:05:06.639><c> saved</c><00:05:06.960><c> that</c><00:05:07.199><c> record</c><00:05:07.600><c> simply</c><00:05:07.919><c> head</c>
+
+00:05:08.150 --> 00:05:08.160 align:start position:0%
+you've saved that record simply head
+ 
+
+00:05:08.160 --> 00:05:10.469 align:start position:0%
+you've saved that record simply head
+back<00:05:08.320><c> to</c><00:05:08.479><c> your</c><00:05:08.639><c> google</c><00:05:08.960><c> workspace</c><00:05:09.600><c> admin</c>
+
+00:05:10.469 --> 00:05:10.479 align:start position:0%
+back to your google workspace admin
+ 
+
+00:05:10.479 --> 00:05:12.629 align:start position:0%
+back to your google workspace admin
+and<00:05:10.720><c> then</c><00:05:11.039><c> simply</c><00:05:11.360><c> navigate</c><00:05:11.840><c> down</c><00:05:12.160><c> and</c><00:05:12.320><c> click</c>
+
+00:05:12.629 --> 00:05:12.639 align:start position:0%
+and then simply navigate down and click
+ 
+
+00:05:12.639 --> 00:05:15.110 align:start position:0%
+and then simply navigate down and click
+on<00:05:13.039><c> start</c><00:05:13.560><c> authentication</c>
+
+00:05:15.110 --> 00:05:15.120 align:start position:0%
+on start authentication
+ 
+
+00:05:15.120 --> 00:05:17.590 align:start position:0%
+on start authentication
+now<00:05:15.360><c> it</c><00:05:15.600><c> can</c><00:05:15.840><c> take</c><00:05:16.160><c> up</c><00:05:16.240><c> to</c><00:05:16.479><c> 48</c><00:05:16.880><c> hours</c><00:05:17.199><c> for</c><00:05:17.360><c> the</c>
+
+00:05:17.590 --> 00:05:17.600 align:start position:0%
+now it can take up to 48 hours for the
+ 
+
+00:05:17.600 --> 00:05:20.950 align:start position:0%
+now it can take up to 48 hours for the
+dns<00:05:18.400><c> changes</c><00:05:19.120><c> to</c><00:05:19.440><c> fully</c><00:05:19.840><c> propagate</c>
+
+00:05:20.950 --> 00:05:20.960 align:start position:0%
+dns changes to fully propagate
+ 
+
+00:05:20.960 --> 00:05:23.189 align:start position:0%
+dns changes to fully propagate
+okay<00:05:21.520><c> so</c><00:05:21.680><c> the</c><00:05:21.919><c> last</c><00:05:22.240><c> thing</c><00:05:22.560><c> that</c><00:05:22.720><c> we</c><00:05:22.880><c> need</c><00:05:23.039><c> to</c>
+
+00:05:23.189 --> 00:05:23.199 align:start position:0%
+okay so the last thing that we need to
+ 
+
+00:05:23.199 --> 00:05:26.469 align:start position:0%
+okay so the last thing that we need to
+do<00:05:23.680><c> to</c><00:05:23.919><c> enhance</c><00:05:24.479><c> our</c><00:05:24.720><c> email</c><00:05:25.120><c> deliverability</c>
+
+00:05:26.469 --> 00:05:26.479 align:start position:0%
+do to enhance our email deliverability
+ 
+
+00:05:26.479 --> 00:05:30.230 align:start position:0%
+do to enhance our email deliverability
+is<00:05:26.639><c> to</c><00:05:26.960><c> add</c><00:05:27.360><c> our</c><00:05:27.680><c> d</c><00:05:28.240><c> mark</c><00:05:28.639><c> record</c><00:05:29.600><c> to</c><00:05:29.759><c> do</c><00:05:29.919><c> that</c>
+
+00:05:30.230 --> 00:05:30.240 align:start position:0%
+is to add our d mark record to do that
+ 
+
+00:05:30.240 --> 00:05:32.790 align:start position:0%
+is to add our d mark record to do that
+simply<00:05:30.560><c> head</c><00:05:30.720><c> back</c><00:05:30.960><c> to</c><00:05:31.199><c> your</c><00:05:31.360><c> domain</c><00:05:32.000><c> dns</c>
+
+00:05:32.790 --> 00:05:32.800 align:start position:0%
+simply head back to your domain dns
+ 
+
+00:05:32.800 --> 00:05:35.510 align:start position:0%
+simply head back to your domain dns
+records<00:05:33.759><c> and</c><00:05:34.000><c> then</c><00:05:34.240><c> go</c><00:05:34.400><c> ahead</c><00:05:34.800><c> and</c><00:05:34.960><c> click</c><00:05:35.199><c> on</c>
+
+00:05:35.510 --> 00:05:35.520 align:start position:0%
+records and then go ahead and click on
+ 
+
+00:05:35.520 --> 00:05:38.550 align:start position:0%
+records and then go ahead and click on
+add<00:05:35.919><c> record</c><00:05:36.400><c> again</c><00:05:37.199><c> then</c><00:05:37.440><c> navigate</c><00:05:38.000><c> over</c><00:05:38.240><c> to</c>
+
+00:05:38.550 --> 00:05:38.560 align:start position:0%
+add record again then navigate over to
+ 
+
+00:05:38.560 --> 00:05:42.629 align:start position:0%
+add record again then navigate over to
+type<00:05:38.960><c> and</c><00:05:39.199><c> locate</c><00:05:39.919><c> text</c><00:05:40.400><c> records</c><00:05:41.120><c> again</c>
+
+00:05:42.629 --> 00:05:42.639 align:start position:0%
+type and locate text records again
+ 
+
+00:05:42.639 --> 00:05:44.710 align:start position:0%
+type and locate text records again
+and<00:05:42.960><c> this</c><00:05:43.199><c> time</c><00:05:43.600><c> under</c><00:05:43.840><c> name</c><00:05:44.160><c> what</c><00:05:44.320><c> we</c><00:05:44.479><c> want</c><00:05:44.639><c> to</c>
+
+00:05:44.710 --> 00:05:44.720 align:start position:0%
+and this time under name what we want to
+ 
+
+00:05:44.720 --> 00:05:47.749 align:start position:0%
+and this time under name what we want to
+do<00:05:44.960><c> is</c><00:05:45.199><c> add</c><00:05:45.600><c> underscore</c><00:05:46.400><c> dmarc</c><00:05:47.199><c> and</c><00:05:47.360><c> again</c>
+
+00:05:47.749 --> 00:05:47.759 align:start position:0%
+do is add underscore dmarc and again
+ 
+
+00:05:47.759 --> 00:05:49.749 align:start position:0%
+do is add underscore dmarc and again
+what<00:05:47.919><c> i'll</c><00:05:48.080><c> do</c><00:05:48.320><c> is</c><00:05:48.639><c> leave</c><00:05:48.880><c> this</c><00:05:49.120><c> information</c>
+
+00:05:49.749 --> 00:05:49.759 align:start position:0%
+what i'll do is leave this information
+ 
+
+00:05:49.759 --> 00:05:51.749 align:start position:0%
+what i'll do is leave this information
+in<00:05:49.840><c> the</c><00:05:50.000><c> description</c><00:05:50.639><c> for</c><00:05:50.800><c> you</c><00:05:50.960><c> to</c><00:05:51.120><c> copy</c><00:05:51.520><c> and</c>
+
+00:05:51.749 --> 00:05:51.759 align:start position:0%
+in the description for you to copy and
+ 
+
+00:05:51.759 --> 00:05:52.550 align:start position:0%
+in the description for you to copy and
+paste
+
+00:05:52.550 --> 00:05:52.560 align:start position:0%
+paste
+ 
+
+00:05:52.560 --> 00:05:55.909 align:start position:0%
+paste
+into<00:05:53.280><c> your</c><00:05:53.600><c> dns</c><00:05:54.560><c> and</c><00:05:54.720><c> then</c><00:05:54.960><c> navigate</c><00:05:55.440><c> down</c><00:05:55.600><c> to</c>
+
+00:05:55.909 --> 00:05:55.919 align:start position:0%
+into your dns and then navigate down to
+ 
+
+00:05:55.919 --> 00:05:58.629 align:start position:0%
+into your dns and then navigate down to
+content<00:05:56.479><c> and</c><00:05:56.720><c> paste</c><00:05:57.120><c> in</c><00:05:57.680><c> this</c><00:05:58.000><c> information</c>
+
+00:05:58.629 --> 00:05:58.639 align:start position:0%
+content and paste in this information
+ 
+
+00:05:58.639 --> 00:06:01.350 align:start position:0%
+content and paste in this information
+that<00:05:58.800><c> i've</c><00:05:59.039><c> added</c><00:05:59.440><c> down</c><00:05:59.840><c> in</c><00:06:00.160><c> the</c><00:06:00.319><c> description</c>
+
+00:06:01.350 --> 00:06:01.360 align:start position:0%
+that i've added down in the description
+ 
+
+00:06:01.360 --> 00:06:03.350 align:start position:0%
+that i've added down in the description
+now<00:06:01.600><c> it's</c><00:06:01.759><c> important</c><00:06:02.160><c> that</c><00:06:02.319><c> we</c><00:06:02.560><c> do</c><00:06:02.800><c> need</c><00:06:03.039><c> to</c>
+
+00:06:03.350 --> 00:06:03.360 align:start position:0%
+now it's important that we do need to
+ 
+
+00:06:03.360 --> 00:06:06.629 align:start position:0%
+now it's important that we do need to
+change<00:06:03.919><c> some</c><00:06:04.240><c> of</c><00:06:04.479><c> this</c><00:06:04.800><c> content</c><00:06:05.520><c> so</c><00:06:05.759><c> over</c><00:06:06.080><c> here</c>
+
+00:06:06.629 --> 00:06:06.639 align:start position:0%
+change some of this content so over here
+ 
+
+00:06:06.639 --> 00:06:11.029 align:start position:0%
+change some of this content so over here
+next<00:06:06.960><c> to</c><00:06:07.440><c> mail</c><00:06:08.080><c> 2</c><00:06:08.720><c> we</c><00:06:08.960><c> want</c><00:06:09.120><c> to</c><00:06:09.440><c> add</c><00:06:10.000><c> your</c><00:06:10.400><c> email</c>
+
+00:06:11.029 --> 00:06:11.039 align:start position:0%
+next to mail 2 we want to add your email
+ 
+
+00:06:11.039 --> 00:06:13.990 align:start position:0%
+next to mail 2 we want to add your email
+so<00:06:11.280><c> my</c><00:06:11.520><c> email</c><00:06:12.000><c> is</c><00:06:12.720><c> stewart</c>
+
+00:06:13.990 --> 00:06:14.000 align:start position:0%
+so my email is stewart
+ 
+
+00:06:14.000 --> 00:06:17.350 align:start position:0%
+so my email is stewart
+cindyo.co.nz
+
+00:06:17.350 --> 00:06:17.360 align:start position:0%
+ 
+ 
+
+00:06:17.360 --> 00:06:19.430 align:start position:0%
+ 
+so<00:06:17.600><c> make</c><00:06:17.840><c> sure</c><00:06:18.160><c> that</c><00:06:18.319><c> you've</c><00:06:18.639><c> added</c><00:06:19.120><c> your</c>
+
+00:06:19.430 --> 00:06:19.440 align:start position:0%
+so make sure that you've added your
+ 
+
+00:06:19.440 --> 00:06:22.550 align:start position:0%
+so make sure that you've added your
+email<00:06:20.000><c> in</c><00:06:20.400><c> this</c><00:06:20.800><c> section</c><00:06:21.360><c> of</c><00:06:21.520><c> the</c><00:06:21.680><c> content</c>
+
+00:06:22.550 --> 00:06:22.560 align:start position:0%
+email in this section of the content
+ 
+
+00:06:22.560 --> 00:06:24.070 align:start position:0%
+email in this section of the content
+then<00:06:22.800><c> again</c><00:06:23.120><c> all</c><00:06:23.280><c> you</c><00:06:23.440><c> need</c><00:06:23.600><c> to</c><00:06:23.680><c> do</c><00:06:23.919><c> is</c>
+
+00:06:24.070 --> 00:06:24.080 align:start position:0%
+then again all you need to do is
+ 
+
+00:06:24.080 --> 00:06:27.189 align:start position:0%
+then again all you need to do is
+navigate<00:06:24.639><c> over</c><00:06:24.880><c> to</c><00:06:25.440><c> save</c><00:06:25.919><c> and</c><00:06:26.240><c> save</c><00:06:26.800><c> this</c>
+
+00:06:27.189 --> 00:06:27.199 align:start position:0%
+navigate over to save and save this
+ 
+
+00:06:27.199 --> 00:06:29.029 align:start position:0%
+navigate over to save and save this
+third<00:06:27.759><c> record</c>
+
+00:06:29.029 --> 00:06:29.039 align:start position:0%
+third record
+ 
+
+00:06:29.039 --> 00:06:31.430 align:start position:0%
+third record
+and<00:06:29.319><c> congratulations</c><00:06:30.400><c> just</c><00:06:30.639><c> like</c><00:06:30.880><c> that</c><00:06:31.120><c> guys</c>
+
+00:06:31.430 --> 00:06:31.440 align:start position:0%
+and congratulations just like that guys
+ 
+
+00:06:31.440 --> 00:06:33.990 align:start position:0%
+and congratulations just like that guys
+you've<00:06:31.680><c> updated</c><00:06:32.160><c> your</c><00:06:32.400><c> dns</c><00:06:32.880><c> records</c><00:06:33.520><c> with</c><00:06:33.759><c> the</c>
+
+00:06:33.990 --> 00:06:34.000 align:start position:0%
+you've updated your dns records with the
+ 
+
+00:06:34.000 --> 00:06:39.110 align:start position:0%
+you've updated your dns records with the
+correct<00:06:34.560><c> spf</c><00:06:35.680><c> dkim</c><00:06:36.400><c> and</c><00:06:36.800><c> d</c><00:06:37.360><c> mark</c><00:06:37.759><c> records</c><00:06:38.639><c> okay</c>
+
+00:06:39.110 --> 00:06:39.120 align:start position:0%
+correct spf dkim and d mark records okay
+ 
+
+00:06:39.120 --> 00:06:41.350 align:start position:0%
+correct spf dkim and d mark records okay
+so<00:06:39.440><c> now</c><00:06:39.600><c> we</c><00:06:39.759><c> need</c><00:06:39.919><c> to</c><00:06:40.160><c> confirm</c><00:06:40.880><c> that</c><00:06:41.199><c> our</c>
+
+00:06:41.350 --> 00:06:41.360 align:start position:0%
+so now we need to confirm that our
+ 
+
+00:06:41.360 --> 00:06:44.390 align:start position:0%
+so now we need to confirm that our
+domain<00:06:42.000><c> is</c><00:06:42.240><c> set</c><00:06:42.479><c> up</c><00:06:42.720><c> correctly</c><00:06:43.759><c> to</c><00:06:43.919><c> do</c><00:06:44.080><c> that</c>
+
+00:06:44.390 --> 00:06:44.400 align:start position:0%
+domain is set up correctly to do that
+ 
+
+00:06:44.400 --> 00:06:47.350 align:start position:0%
+domain is set up correctly to do that
+simply<00:06:44.720><c> head</c><00:06:44.960><c> over</c><00:06:45.199><c> to</c><00:06:45.600><c> google</c><00:06:46.000><c> admin</c><00:06:46.479><c> toolbox</c>
+
+00:06:47.350 --> 00:06:47.360 align:start position:0%
+simply head over to google admin toolbox
+ 
+
+00:06:47.360 --> 00:06:49.029 align:start position:0%
+simply head over to google admin toolbox
+check<00:06:47.919><c> mx</c>
+
+00:06:49.029 --> 00:06:49.039 align:start position:0%
+check mx
+ 
+
+00:06:49.039 --> 00:06:50.950 align:start position:0%
+check mx
+and<00:06:49.199><c> again</c><00:06:49.520><c> what</c><00:06:49.680><c> i'll</c><00:06:49.840><c> do</c><00:06:50.080><c> is</c><00:06:50.240><c> add</c><00:06:50.479><c> the</c><00:06:50.639><c> link</c>
+
+00:06:50.950 --> 00:06:50.960 align:start position:0%
+and again what i'll do is add the link
+ 
+
+00:06:50.960 --> 00:06:52.870 align:start position:0%
+and again what i'll do is add the link
+in<00:06:51.039><c> the</c><00:06:51.199><c> description</c><00:06:51.840><c> that</c><00:06:52.000><c> will</c><00:06:52.240><c> take</c><00:06:52.560><c> you</c>
+
+00:06:52.870 --> 00:06:52.880 align:start position:0%
+in the description that will take you
+ 
+
+00:06:52.880 --> 00:06:55.270 align:start position:0%
+in the description that will take you
+here<00:06:53.520><c> then</c><00:06:53.680><c> go</c><00:06:53.840><c> ahead</c><00:06:54.240><c> and</c><00:06:54.400><c> simply</c><00:06:54.720><c> add</c><00:06:55.120><c> your</c>
+
+00:06:55.270 --> 00:06:55.280 align:start position:0%
+here then go ahead and simply add your
+ 
+
+00:06:55.280 --> 00:06:56.790 align:start position:0%
+here then go ahead and simply add your
+domain<00:06:55.759><c> name</c>
+
+00:06:56.790 --> 00:06:56.800 align:start position:0%
+domain name
+ 
+
+00:06:56.800 --> 00:06:59.430 align:start position:0%
+domain name
+and<00:06:57.039><c> then</c><00:06:57.280><c> click</c><00:06:57.840><c> run</c><00:06:58.160><c> checks</c>
+
+00:06:59.430 --> 00:06:59.440 align:start position:0%
+and then click run checks
+ 
+
+00:06:59.440 --> 00:07:01.830 align:start position:0%
+and then click run checks
+and<00:06:59.759><c> just</c><00:07:00.080><c> like</c><00:07:00.240><c> that</c><00:07:00.479><c> you'll</c><00:07:00.720><c> be</c><00:07:00.960><c> able</c><00:07:01.280><c> to</c><00:07:01.440><c> see</c>
+
+00:07:01.830 --> 00:07:01.840 align:start position:0%
+and just like that you'll be able to see
+ 
+
+00:07:01.840 --> 00:07:04.870 align:start position:0%
+and just like that you'll be able to see
+if<00:07:02.080><c> your</c><00:07:02.319><c> domain</c><00:07:02.960><c> was</c><00:07:03.199><c> configured</c><00:07:04.080><c> properly</c>
+
+00:07:04.870 --> 00:07:04.880 align:start position:0%
+if your domain was configured properly
+ 
+
+00:07:04.880 --> 00:07:06.790 align:start position:0%
+if your domain was configured properly
+and<00:07:05.120><c> that</c><00:07:05.440><c> is</c><00:07:05.599><c> how</c><00:07:05.840><c> you</c><00:07:06.080><c> properly</c><00:07:06.479><c> set</c><00:07:06.639><c> up</c>
+
+00:07:06.790 --> 00:07:06.800 align:start position:0%
+and that is how you properly set up
+ 
+
+00:07:06.800 --> 00:07:11.510 align:start position:0%
+and that is how you properly set up
+google<00:07:07.120><c> workspace</c><00:07:07.919><c> with</c><00:07:08.319><c> spf</c><00:07:09.360><c> dkim</c><00:07:10.080><c> and</c><00:07:10.639><c> dmarc</c>
+
+00:07:11.510 --> 00:07:11.520 align:start position:0%
+google workspace with spf dkim and dmarc
+ 
+
+00:07:11.520 --> 00:07:13.110 align:start position:0%
+google workspace with spf dkim and dmarc
+records
+
+00:07:13.110 --> 00:07:13.120 align:start position:0%
+records
+ 
+
+00:07:13.120 --> 00:07:15.189 align:start position:0%
+records
+and<00:07:13.599><c> there</c><00:07:13.759><c> we</c><00:07:13.919><c> have</c><00:07:14.080><c> it</c><00:07:14.160><c> guys</c><00:07:14.479><c> that</c><00:07:14.720><c> is</c><00:07:14.880><c> it</c><00:07:15.039><c> for</c>
+
+00:07:15.189 --> 00:07:15.199 align:start position:0%
+and there we have it guys that is it for
+ 
+
+00:07:15.199 --> 00:07:17.189 align:start position:0%
+and there we have it guys that is it for
+this<00:07:15.360><c> brief</c><00:07:15.599><c> tutorial</c><00:07:16.160><c> helping</c><00:07:16.479><c> you</c><00:07:16.720><c> enhance</c>
+
+00:07:17.189 --> 00:07:17.199 align:start position:0%
+this brief tutorial helping you enhance
+ 
+
+00:07:17.199 --> 00:07:19.510 align:start position:0%
+this brief tutorial helping you enhance
+your<00:07:17.440><c> email</c><00:07:17.840><c> deliverability</c><00:07:19.039><c> now</c><00:07:19.280><c> if</c><00:07:19.440><c> you</c>
+
+00:07:19.510 --> 00:07:19.520 align:start position:0%
+your email deliverability now if you
+ 
+
+00:07:19.520 --> 00:07:21.350 align:start position:0%
+your email deliverability now if you
+have<00:07:19.599><c> any</c><00:07:19.759><c> questions</c><00:07:20.319><c> about</c><00:07:20.639><c> this</c><00:07:20.880><c> process</c>
+
+00:07:21.350 --> 00:07:21.360 align:start position:0%
+have any questions about this process
+ 
+
+00:07:21.360 --> 00:07:23.189 align:start position:0%
+have any questions about this process
+make<00:07:21.520><c> sure</c><00:07:21.680><c> to</c><00:07:21.759><c> pop</c><00:07:22.000><c> them</c><00:07:22.160><c> down</c><00:07:22.319><c> below</c><00:07:23.039><c> and</c>
+
+00:07:23.189 --> 00:07:23.199 align:start position:0%
+make sure to pop them down below and
+ 
+
+00:07:23.199 --> 00:07:24.790 align:start position:0%
+make sure to pop them down below and
+with<00:07:23.360><c> that</c><00:07:23.599><c> said</c><00:07:23.840><c> thank</c><00:07:24.000><c> you</c><00:07:24.240><c> so</c><00:07:24.479><c> much</c><00:07:24.639><c> for</c>
+
+00:07:24.790 --> 00:07:24.800 align:start position:0%
+with that said thank you so much for
+ 
+
+00:07:24.800 --> 00:07:26.150 align:start position:0%
+with that said thank you so much for
+watching<00:07:25.039><c> this</c><00:07:25.199><c> tutorial</c><00:07:25.759><c> all</c><00:07:25.840><c> the</c><00:07:25.919><c> way</c>
+
+00:07:26.150 --> 00:07:26.160 align:start position:0%
+watching this tutorial all the way
+ 
+
+00:07:26.160 --> 00:07:28.150 align:start position:0%
+watching this tutorial all the way
+through<00:07:26.319><c> to</c><00:07:26.479><c> the</c><00:07:26.720><c> end</c><00:07:27.280><c> if</c><00:07:27.440><c> you</c><00:07:27.520><c> got</c><00:07:27.680><c> value</c><00:07:28.000><c> make</c>
+
+00:07:28.150 --> 00:07:28.160 align:start position:0%
+through to the end if you got value make
+ 
+
+00:07:28.160 --> 00:07:30.070 align:start position:0%
+through to the end if you got value make
+sure<00:07:28.240><c> you</c><00:07:28.319><c> leave</c><00:07:28.560><c> a</c><00:07:28.800><c> like</c><00:07:29.199><c> and</c><00:07:29.360><c> subscribe</c><00:07:29.919><c> to</c>
+
+00:07:30.070 --> 00:07:30.080 align:start position:0%
+sure you leave a like and subscribe to
+ 
+
+00:07:30.080 --> 00:07:32.070 align:start position:0%
+sure you leave a like and subscribe to
+this<00:07:30.319><c> channel</c><00:07:30.880><c> and</c><00:07:31.039><c> that</c><00:07:31.280><c> way</c><00:07:31.520><c> i'll</c><00:07:31.680><c> see</c><00:07:31.840><c> you</c>
+
+00:07:32.070 --> 00:07:32.080 align:start position:0%
+this channel and that way i'll see you
+ 
+
+00:07:32.080 --> 00:07:35.640 align:start position:0%
+this channel and that way i'll see you
+in<00:07:32.240><c> the</c><00:07:32.319><c> next</c><00:07:32.720><c> video</c><00:07:33.199><c> take</c><00:07:33.360><c> care</c><00:07:33.599><c> guys</c>
+
+00:07:35.640 --> 00:07:35.650 align:start position:0%
+in the next video take care guys
+ 
+
+00:07:35.650 --> 00:08:00.309 align:start position:0%
+in the next video take care guys
+[Music]
+
+00:08:00.309 --> 00:08:00.319 align:start position:0%
+[Music]
+ 
+
+00:08:00.319 --> 00:08:02.400 align:start position:0%
+[Music]
+you
+

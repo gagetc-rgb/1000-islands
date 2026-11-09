@@ -1,0 +1,2008 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.090 align:start position:0%
+ 
+In <00:00:00.225><c>today's </c><00:00:00.450><c>video, </c><00:00:00.675><c>part </c><00:00:00.900><c>of </c><00:00:01.125><c>a </c><00:00:01.350><c>three-part </c><00:00:01.575><c>series </c><00:00:01.800><c>I</c>
+
+00:00:02.090 --> 00:00:02.100 align:start position:0%
+In today's video, part of a three-part series I
+ 
+
+00:00:02.100 --> 00:00:04.160 align:start position:0%
+In today's video, part of a three-part series I
+intended <00:00:03.570><c>to</c>
+
+00:00:04.160 --> 00:00:04.170 align:start position:0%
+intended to
+ 
+
+00:00:04.170 --> 00:00:06.920 align:start position:0%
+intended to
+publish <00:00:04.777><c>about </c><00:00:05.384><c>DNS, </c><00:00:05.991><c>I'll </c><00:00:06.598><c>explain</c>
+
+00:00:06.920 --> 00:00:06.930 align:start position:0%
+publish about DNS, I'll explain
+ 
+
+00:00:06.930 --> 00:00:09.440 align:start position:0%
+publish about DNS, I'll explain
+what <00:00:07.357><c>NS </c><00:00:07.784><c>records </c><00:00:08.211><c>are, </c><00:00:08.638><c>focusing</c>
+
+00:00:09.440 --> 00:00:09.450 align:start position:0%
+what NS records are, focusing
+ 
+
+00:00:09.450 --> 00:00:11.839 align:start position:0%
+what NS records are, focusing
+on <00:00:09.810><c>the </c><00:00:10.170><c>main, </c><00:00:10.530><c>most </c><00:00:10.890><c>commonly </c><00:00:11.250><c>used </c><00:00:11.610><c>ones.</c>
+
+00:00:11.839 --> 00:00:11.849 align:start position:0%
+on the main, most commonly used ones.
+ 
+
+00:00:11.849 --> 00:00:14.060 align:start position:0%
+on the main, most commonly used ones.
+NS <00:00:13.740><c>records</c>
+
+00:00:14.060 --> 00:00:14.070 align:start position:0%
+NS records
+ 
+
+00:00:14.070 --> 00:00:16.039 align:start position:0%
+NS records
+make <00:00:14.689><c>internet </c><00:00:15.308><c>browsing </c><00:00:15.927><c>work</c>
+
+00:00:16.039 --> 00:00:16.049 align:start position:0%
+make internet browsing work
+ 
+
+00:00:16.049 --> 00:00:17.480 align:start position:0%
+make internet browsing work
+as <00:00:16.479><c>we're </c><00:00:16.909><c>used </c><00:00:17.339><c>to,</c>
+
+00:00:17.480 --> 00:00:17.490 align:start position:0%
+as we're used to,
+ 
+
+00:00:17.490 --> 00:00:18.920 align:start position:0%
+as we're used to,
+using
+
+00:00:18.920 --> 00:00:18.930 align:start position:0%
+using
+ 
+
+00:00:18.930 --> 00:00:20.330 align:start position:0%
+using
+domain <00:00:19.252><c>names, </c><00:00:19.574><c>mail </c><00:00:19.896><c>servers, </c><00:00:20.218><c>and</c>
+
+00:00:20.330 --> 00:00:20.340 align:start position:0%
+domain names, mail servers, and
+ 
+
+00:00:20.340 --> 00:00:22.580 align:start position:0%
+domain names, mail servers, and
+so <00:00:20.631><c>on. </c><00:00:20.922><c>Stay </c><00:00:21.213><c>until </c><00:00:21.504><c>the </c><00:00:21.795><c>end </c><00:00:22.086><c>of </c><00:00:22.377><c>the</c>
+
+00:00:22.580 --> 00:00:22.590 align:start position:0%
+so on. Stay until the end of the
+ 
+
+00:00:22.590 --> 00:00:24.590 align:start position:0%
+so on. Stay until the end of the
+video <00:00:22.829><c>because </c><00:00:23.068><c>I </c><00:00:23.307><c>have </c><00:00:23.546><c>a </c><00:00:23.785><c>little </c><00:00:24.024><c>surprise</c>
+
+00:00:24.590 --> 00:00:24.600 align:start position:0%
+video because I have a little surprise
+ 
+
+00:00:24.600 --> 00:00:26.570 align:start position:0%
+video because I have a little surprise
+related <00:00:25.072><c>to </c><00:00:25.544><c>cybersecurity, </c><00:00:26.016><c>specifically </c><00:00:26.488><c>regarding</c>
+
+00:00:26.570 --> 00:00:28.099 align:start position:0%
+related to cybersecurity, specifically regarding
+ 
+
+00:00:28.099 --> 00:00:28.109 align:start position:0%
+ 
+ 
+
+00:00:28.109 --> 00:00:30.259 align:start position:0%
+ 
+NS <00:00:28.639><c>records </c><00:00:29.169><c>and </c><00:00:29.699><c>email.</c>
+
+00:00:30.259 --> 00:00:30.269 align:start position:0%
+NS records and email.
+ 
+
+00:00:30.269 --> 00:00:32.870 align:start position:0%
+NS records and email.
+With <00:00:31.229><c>this </c><00:00:32.189><c>three-part</c>
+
+00:00:32.870 --> 00:00:32.880 align:start position:0%
+With this three-part
+ 
+
+00:00:32.880 --> 00:00:35.299 align:start position:0%
+With this three-part
+DNS <00:00:33.300><c>series, </c><00:00:33.720><c>I've </c><00:00:34.140><c>moved </c><00:00:34.560><c>beyond </c><00:00:34.980><c>the</c>
+
+00:00:35.299 --> 00:00:35.309 align:start position:0%
+DNS series, I've moved beyond the
+ 
+
+00:00:35.309 --> 00:00:37.250 align:start position:0%
+DNS series, I've moved beyond the
+usual <00:00:35.574><c>approach </c><00:00:35.839><c>of </c><00:00:36.104><c>explaining </c><00:00:36.369><c>a </c><00:00:36.634><c>concept </c><00:00:36.899><c>in </c><00:00:37.164><c>a</c>
+
+00:00:37.250 --> 00:00:37.260 align:start position:0%
+usual approach of explaining a concept in a
+ 
+
+00:00:37.260 --> 00:00:39.380 align:start position:0%
+usual approach of explaining a concept in a
+basic <00:00:37.777><c>and </c><00:00:38.294><c>simplified </c><00:00:38.811><c>way. </c><00:00:39.328><c>I</c>
+
+00:00:39.380 --> 00:00:39.390 align:start position:0%
+basic and simplified way. I
+ 
+
+00:00:39.390 --> 00:00:41.330 align:start position:0%
+basic and simplified way. I
+wanted <00:00:39.612><c>to </c><00:00:39.834><c>go </c><00:00:40.056><c>further </c><00:00:40.278><c>to </c><00:00:40.500><c>see </c><00:00:40.722><c>if </c><00:00:40.944><c>you</c>
+
+00:00:41.330 --> 00:00:41.340 align:start position:0%
+wanted to go further to see if you
+ 
+
+00:00:41.340 --> 00:00:43.010 align:start position:0%
+wanted to go further to see if you
+'re <00:00:41.580><c>interested </c><00:00:41.820><c>in </c><00:00:42.060><c>this </c><00:00:42.300><c>type </c><00:00:42.540><c>of</c>
+
+00:00:43.010 --> 00:00:43.020 align:start position:0%
+'re interested in this type of
+ 
+
+00:00:43.020 --> 00:00:45.139 align:start position:0%
+'re interested in this type of
+video <00:00:43.298><c>and </c><00:00:43.576><c>to </c><00:00:43.854><c>delve </c><00:00:44.132><c>much </c><00:00:44.410><c>deeper </c><00:00:44.688><c>into </c><00:00:44.966><c>certain</c>
+
+00:00:45.139 --> 00:00:45.149 align:start position:0%
+video and to delve much deeper into certain
+ 
+
+00:00:45.149 --> 00:00:47.389 align:start position:0%
+video and to delve much deeper into certain
+concepts. <00:00:45.681><c>If </c><00:00:46.213><c>you're </c><00:00:46.745><c>getting </c><00:00:47.277><c>into</c>
+
+00:00:47.389 --> 00:00:47.399 align:start position:0%
+concepts. If you're getting into
+ 
+
+00:00:47.399 --> 00:00:49.010 align:start position:0%
+concepts. If you're getting into
+the <00:00:47.663><c>world </c><00:00:47.927><c>of </c><00:00:48.191><c>networks, </c><00:00:48.455><c>systems, </c><00:00:48.719><c>or</c>
+
+00:00:49.010 --> 00:00:49.020 align:start position:0%
+the world of networks, systems, or
+ 
+
+00:00:49.020 --> 00:00:51.470 align:start position:0%
+the world of networks, systems, or
+cybersecurity, <00:00:49.680><c>understanding </c><00:00:50.340><c>DNS </c><00:00:51.000><c>is</c>
+
+00:00:51.470 --> 00:00:51.480 align:start position:0%
+cybersecurity, understanding DNS is
+ 
+
+00:00:51.480 --> 00:00:53.720 align:start position:0%
+cybersecurity, understanding DNS is
+essential. <00:00:53.160><c>So</c>
+
+00:00:53.720 --> 00:00:53.730 align:start position:0%
+essential. So
+ 
+
+00:00:53.730 --> 00:00:55.400 align:start position:0%
+essential. So
+don't <00:00:53.928><c>forget </c><00:00:54.126><c>to </c><00:00:54.324><c>give </c><00:00:54.522><c>me </c><00:00:54.720><c>a </c><00:00:54.918><c>like </c><00:00:55.116><c>if </c><00:00:55.314><c>you</c>
+
+00:00:55.400 --> 00:00:55.410 align:start position:0%
+don't forget to give me a like if you
+ 
+
+00:00:55.410 --> 00:00:57.139 align:start position:0%
+don't forget to give me a like if you
+enjoyed <00:00:55.593><c>this </c><00:00:55.776><c>video </c><00:00:55.959><c>or </c><00:00:56.142><c>any </c><00:00:56.325><c>part </c><00:00:56.508><c>of </c><00:00:56.691><c>it, </c><00:00:56.874><c>and</c>
+
+00:00:57.139 --> 00:00:57.149 align:start position:0%
+enjoyed this video or any part of it, and
+ 
+
+00:00:57.149 --> 00:00:59.090 align:start position:0%
+enjoyed this video or any part of it, and
+subscribe <00:00:57.419><c>by </c><00:00:57.689><c>clicking </c><00:00:57.959><c>the </c><00:00:58.229><c>bell </c><00:00:58.499><c>icon </c><00:00:58.769><c>to</c>
+
+00:00:59.090 --> 00:00:59.100 align:start position:0%
+subscribe by clicking the bell icon to
+ 
+
+00:00:59.100 --> 00:01:00.950 align:start position:0%
+subscribe by clicking the bell icon to
+be <00:00:59.375><c>notified </c><00:00:59.650><c>when </c><00:00:59.925><c>I </c><00:01:00.200><c>release </c><00:01:00.475><c>a </c><00:01:00.750><c>new</c>
+
+00:01:00.950 --> 00:01:00.960 align:start position:0%
+be notified when I release a new
+ 
+
+00:01:00.960 --> 00:01:04.820 align:start position:0%
+be notified when I release a new
+video.  <00:01:01.262><c>So, </c><00:01:01.564><c>let's </c><00:01:01.866><c>begin. </c><00:01:02.168><c>Up </c><00:01:02.470><c>here, </c><00:01:02.772><c>I've </c><00:01:03.074><c>included </c><00:01:03.376><c>the </c><00:01:03.678><c>links </c><00:01:03.980><c>to</c>
+
+00:01:04.820 --> 00:01:04.830 align:start position:0%
+video.  So, let's begin. Up here, I've included the links to
+ 
+
+00:01:04.830 --> 00:01:07.120 align:start position:0%
+video.  So, let's begin. Up here, I've included the links to
+the <00:01:05.195><c>two </c><00:01:05.560><c>previous </c><00:01:05.925><c>videos. </c><00:01:06.290><c>The</c>
+
+00:01:07.120 --> 00:01:09.130 align:start position:0%
+the two previous videos. The
+ 
+
+00:01:09.130 --> 00:01:09.140 align:start position:0%
+ 
+ 
+
+00:01:09.140 --> 00:01:11.469 align:start position:0%
+ 
+first <00:01:09.337><c>one </c><00:01:09.534><c>explains </c><00:01:09.731><c>what </c><00:01:09.928><c>DNS </c><00:01:10.125><c>is, </c><00:01:10.322><c>and </c><00:01:10.519><c>the </c><00:01:10.716><c>second </c><00:01:10.913><c>one </c><00:01:11.110><c>explains</c>
+
+00:01:11.469 --> 00:01:11.479 align:start position:0%
+first one explains what DNS is, and the second one explains
+ 
+
+00:01:11.479 --> 00:01:13.300 align:start position:0%
+first one explains what DNS is, and the second one explains
+how <00:01:11.949><c>DNS </c><00:01:12.419><c>queries </c><00:01:12.889><c>and</c>
+
+00:01:13.300 --> 00:01:13.310 align:start position:0%
+how DNS queries and
+ 
+
+00:01:13.310 --> 00:01:15.520 align:start position:0%
+how DNS queries and
+resolutions <00:01:13.729><c>work </c><00:01:14.148><c>on </c><00:01:14.567><c>the </c><00:01:14.986><c>internet. </c><00:01:15.405><c>So,</c>
+
+00:01:15.520 --> 00:01:15.530 align:start position:0%
+resolutions work on the internet. So,
+ 
+
+00:01:15.530 --> 00:01:18.070 align:start position:0%
+resolutions work on the internet. So,
+what <00:01:15.844><c>is </c><00:01:16.158><c>an </c><00:01:16.472><c>NS </c><00:01:16.786><c>record? </c><00:01:17.100><c>Let's </c><00:01:17.414><c>get </c><00:01:17.728><c>to </c><00:01:18.042><c>it.</c>
+
+00:01:18.070 --> 00:01:18.080 align:start position:0%
+what is an NS record? Let's get to it.
+ 
+
+00:01:18.080 --> 00:01:20.530 align:start position:0%
+what is an NS record? Let's get to it.
+Also <00:01:18.440><c>called </c><00:01:18.800><c>a </c><00:01:19.160><c>resource </c><00:01:19.520><c>record </c><00:01:19.880><c>(</c>
+
+00:01:20.530 --> 00:01:20.540 align:start position:0%
+Also called a resource record (
+ 
+
+00:01:20.540 --> 00:01:22.749 align:start position:0%
+Also called a resource record (
+RR), <00:01:20.801><c>what </c><00:01:21.062><c>are </c><00:01:21.323><c>the </c><00:01:21.584><c>common </c><00:01:21.845><c>types </c><00:01:22.106><c>of </c><00:01:22.367><c>records</c>
+
+00:01:22.749 --> 00:01:22.759 align:start position:0%
+RR), what are the common types of records
+ 
+
+00:01:22.759 --> 00:01:24.969 align:start position:0%
+RR), what are the common types of records
+and <00:01:23.063><c>what </c><00:01:23.367><c>are </c><00:01:23.671><c>they </c><00:01:23.975><c>used </c><00:01:24.279><c>for? </c><00:01:24.583><c>Well, </c><00:01:24.887><c>a</c>
+
+00:01:24.969 --> 00:01:24.979 align:start position:0%
+and what are they used for? Well, a
+ 
+
+00:01:24.979 --> 00:01:27.490 align:start position:0%
+and what are they used for? Well, a
+record <00:01:25.453><c>is </c><00:01:25.927><c>an </c><00:01:26.401><c>instruction, </c><00:01:26.875><c>something </c><00:01:27.349><c>like</c>
+
+00:01:27.490 --> 00:01:27.500 align:start position:0%
+record is an instruction, something like
+ 
+
+00:01:27.500 --> 00:01:30.100 align:start position:0%
+record is an instruction, something like
+an <00:01:27.938><c>indication </c><00:01:28.376><c>or </c><00:01:28.814><c>a </c><00:01:29.252><c>parameter </c><00:01:29.690><c>that</c>
+
+00:01:30.100 --> 00:01:30.110 align:start position:0%
+an indication or a parameter that
+ 
+
+00:01:30.110 --> 00:01:31.810 align:start position:0%
+an indication or a parameter that
+is <00:01:30.410><c>stored </c><00:01:30.710><c>in </c><00:01:31.010><c>a </c><00:01:31.310><c>variable </c><00:01:31.610><c>or</c>
+
+00:01:31.810 --> 00:01:31.820 align:start position:0%
+is stored in a variable or
+ 
+
+00:01:31.820 --> 00:01:34.270 align:start position:0%
+is stored in a variable or
+field <00:01:32.359><c>within </c><00:01:32.898><c>the </c><00:01:33.437><c>DNS </c><00:01:33.976><c>ecosystem.</c>
+
+00:01:34.270 --> 00:01:34.280 align:start position:0%
+field within the DNS ecosystem.
+ 
+
+00:01:34.280 --> 00:01:37.270 align:start position:0%
+field within the DNS ecosystem.
+Ultimately, <00:01:34.790><c>it's </c><00:01:35.300><c>a </c><00:01:35.810><c>value </c><00:01:36.320><c>or </c><00:01:36.830><c>values</c>
+
+00:01:37.270 --> 00:01:37.280 align:start position:0%
+Ultimately, it's a value or values
+ 
+
+00:01:37.280 --> 00:01:39.550 align:start position:0%
+Ultimately, it's a value or values
+stored <00:01:37.712><c>in </c><00:01:38.144><c>the </c><00:01:38.576><c>records </c><00:01:39.008><c>that </c><00:01:39.440><c>allow</c>
+
+00:01:39.550 --> 00:01:39.560 align:start position:0%
+stored in the records that allow
+ 
+
+00:01:39.560 --> 00:01:41.230 align:start position:0%
+stored in the records that allow
+the <00:01:39.980><c>DNS </c><00:01:40.400><c>service </c><00:01:40.820><c>to</c>
+
+00:01:41.230 --> 00:01:41.240 align:start position:0%
+the DNS service to
+ 
+
+00:01:41.240 --> 00:01:43.540 align:start position:0%
+the DNS service to
+behave <00:01:41.500><c>in </c><00:01:41.760><c>one </c><00:01:42.020><c>way </c><00:01:42.280><c>or </c><00:01:42.540><c>another. </c><00:01:42.800><c>These</c>
+
+00:01:43.540 --> 00:01:43.550 align:start position:0%
+behave in one way or another. These
+ 
+
+00:01:43.550 --> 00:01:46.029 align:start position:0%
+behave in one way or another. These
+values ​​<00:01:43.897><c>within </c><00:01:44.244><c>each </c><00:01:44.591><c>record, </c><00:01:44.938><c>for </c><00:01:45.285><c>different</c>
+
+00:01:46.029 --> 00:01:46.039 align:start position:0%
+values ​​within each record, for different
+ 
+
+00:01:46.039 --> 00:01:47.800 align:start position:0%
+values ​​within each record, for different
+domains, <00:01:46.909><c>convey</c>
+
+00:01:47.800 --> 00:01:47.810 align:start position:0%
+domains, convey
+ 
+
+00:01:47.810 --> 00:01:50.889 align:start position:0%
+domains, convey
+instructions <00:01:48.043><c>to </c><00:01:48.276><c>the </c><00:01:48.509><c>DNS </c><00:01:48.742><c>servers. </c><00:01:48.975><c>So </c><00:01:49.208><c>far, </c><00:01:49.441><c>so </c><00:01:49.674><c>good, </c><00:01:49.907><c>right?</c>
+
+00:01:50.889 --> 00:01:50.899 align:start position:0%
+instructions to the DNS servers. So far, so good, right?
+ 
+
+00:01:50.899 --> 00:01:53.290 align:start position:0%
+instructions to the DNS servers. So far, so good, right?
+Any <00:01:51.319><c>questions, </c><00:01:51.739><c>leave </c><00:01:52.159><c>them </c><00:01:52.579><c>in</c>
+
+00:01:53.290 --> 00:01:53.300 align:start position:0%
+Any questions, leave them in
+ 
+
+00:01:53.300 --> 00:01:55.240 align:start position:0%
+Any questions, leave them in
+the <00:01:53.719><c>comments. </c><00:01:54.138><c>Well, </c><00:01:54.557><c>that's </c><00:01:54.976><c>what</c>
+
+00:01:55.240 --> 00:01:55.250 align:start position:0%
+the comments. Well, that's what
+ 
+
+00:01:55.250 --> 00:01:56.889 align:start position:0%
+the comments. Well, that's what
+records <00:01:55.750><c>are </c><00:01:56.250><c>for, </c><00:01:56.750><c>essentially.</c>
+
+00:01:56.889 --> 00:01:56.899 align:start position:0%
+records are for, essentially.
+ 
+
+00:01:56.899 --> 00:01:59.020 align:start position:0%
+records are for, essentially.
+The <00:01:57.459><c>values ​​</c><00:01:58.019><c>we </c><00:01:58.579><c>put</c>
+
+00:01:59.020 --> 00:01:59.030 align:start position:0%
+The values ​​we put
+ 
+
+00:01:59.030 --> 00:02:01.090 align:start position:0%
+The values ​​we put
+in <00:01:59.425><c>these </c><00:01:59.820><c>records </c><00:02:00.215><c>are </c><00:02:00.610><c>what </c><00:02:01.005><c>the</c>
+
+00:02:01.090 --> 00:02:01.100 align:start position:0%
+in these records are what the
+ 
+
+00:02:01.100 --> 00:02:03.070 align:start position:0%
+in these records are what the
+NS <00:02:01.422><c>service </c><00:02:01.744><c>will </c><00:02:02.066><c>consider </c><00:02:02.388><c>when</c>
+
+00:02:03.070 --> 00:02:03.080 align:start position:0%
+NS service will consider when
+ 
+
+00:02:03.080 --> 00:02:05.230 align:start position:0%
+NS service will consider when
+managing <00:02:03.507><c>the </c><00:02:03.934><c>DNS </c><00:02:04.361><c>query </c><00:02:04.788><c>and</c>
+
+00:02:05.230 --> 00:02:05.240 align:start position:0%
+managing the DNS query and
+ 
+
+00:02:05.240 --> 00:02:08.259 align:start position:0%
+managing the DNS query and
+resolution <00:02:05.884><c>of </c><00:02:06.528><c>a </c><00:02:07.172><c>specific </c><00:02:07.816><c>domain.</c>
+
+00:02:08.259 --> 00:02:08.269 align:start position:0%
+resolution of a specific domain.
+ 
+
+00:02:08.269 --> 00:02:10.180 align:start position:0%
+resolution of a specific domain.
+NS <00:02:08.869><c>records </c><00:02:09.469><c>provide </c><00:02:10.069><c>the</c>
+
+00:02:10.180 --> 00:02:10.190 align:start position:0%
+NS records provide the
+ 
+
+00:02:10.190 --> 00:02:12.670 align:start position:0%
+NS records provide the
+relevant <00:02:10.722><c>and </c><00:02:11.254><c>necessary </c><00:02:11.786><c>information </c><00:02:12.318><c>to</c>
+
+00:02:12.670 --> 00:02:12.680 align:start position:0%
+relevant and necessary information to
+ 
+
+00:02:12.680 --> 00:02:14.619 align:start position:0%
+relevant and necessary information to
+translate <00:02:13.034><c>a </c><00:02:13.388><c>domain </c><00:02:13.742><c>name.  </c><00:02:14.096><c>to </c><00:02:14.450><c>an</c>
+
+00:02:14.619 --> 00:02:14.629 align:start position:0%
+translate a domain name.  to an
+ 
+
+00:02:14.629 --> 00:02:16.720 align:start position:0%
+translate a domain name.  to an
+IP <00:02:14.916><c>address, </c><00:02:15.203><c>for </c><00:02:15.490><c>example, </c><00:02:15.777><c>as </c><00:02:16.064><c>we </c><00:02:16.351><c>will </c><00:02:16.638><c>see</c>
+
+00:02:16.720 --> 00:02:16.730 align:start position:0%
+IP address, for example, as we will see
+ 
+
+00:02:16.730 --> 00:02:18.520 align:start position:0%
+IP address, for example, as we will see
+below, <00:02:17.067><c>but </c><00:02:17.404><c>also </c><00:02:17.741><c>for </c><00:02:18.078><c>many</c>
+
+00:02:18.520 --> 00:02:18.530 align:start position:0%
+below, but also for many
+ 
+
+00:02:18.530 --> 00:02:20.259 align:start position:0%
+below, but also for many
+other <00:02:18.920><c>requests </c><00:02:19.310><c>that </c><00:02:19.700><c>can </c><00:02:20.090><c>be</c>
+
+00:02:20.259 --> 00:02:20.269 align:start position:0%
+other requests that can be
+ 
+
+00:02:20.269 --> 00:02:22.479 align:start position:0%
+other requests that can be
+referenced <00:02:20.695><c>to </c><00:02:21.121><c>that </c><00:02:21.547><c>domain, </c><00:02:21.973><c>such </c><00:02:22.399><c>as</c>
+
+00:02:22.479 --> 00:02:22.489 align:start position:0%
+referenced to that domain, such as
+ 
+
+00:02:22.489 --> 00:02:24.849 align:start position:0%
+referenced to that domain, such as
+email. <00:02:22.867><c>I </c><00:02:23.245><c>inform </c><00:02:23.623><c>you </c><00:02:24.001><c>that </c><00:02:24.379><c>each</c>
+
+00:02:24.849 --> 00:02:24.859 align:start position:0%
+email. I inform you that each
+ 
+
+00:02:24.859 --> 00:02:26.890 align:start position:0%
+email. I inform you that each
+domain <00:02:25.249><c>we </c><00:02:25.639><c>register </c><00:02:26.029><c>and </c><00:02:26.419><c>configure</c>
+
+00:02:26.890 --> 00:02:26.900 align:start position:0%
+domain we register and configure
+ 
+
+00:02:26.900 --> 00:02:29.530 align:start position:0%
+domain we register and configure
+in <00:02:27.417><c>the </c><00:02:27.934><c>DNS </c><00:02:28.451><c>has </c><00:02:28.968><c>several</c>
+
+00:02:29.530 --> 00:02:29.540 align:start position:0%
+in the DNS has several
+ 
+
+00:02:29.540 --> 00:02:31.089 align:start position:0%
+in the DNS has several
+DNS <00:02:29.832><c>records </c><00:02:30.124><c>linked </c><00:02:30.416><c>with </c><00:02:30.708><c>the</c>
+
+00:02:31.089 --> 00:02:31.099 align:start position:0%
+DNS records linked with the
+ 
+
+00:02:31.099 --> 00:02:33.550 align:start position:0%
+DNS records linked with the
+necessary <00:02:31.543><c>or </c><00:02:31.987><c>related </c><00:02:32.431><c>information </c><00:02:32.875><c>for </c><00:02:33.319><c>that</c>
+
+00:02:33.550 --> 00:02:33.560 align:start position:0%
+necessary or related information for that
+ 
+
+00:02:33.560 --> 00:02:35.410 align:start position:0%
+necessary or related information for that
+domain. <00:02:33.810><c>I </c><00:02:34.060><c>know </c><00:02:34.310><c>I </c><00:02:34.560><c>keep </c><00:02:34.810><c>repeating </c><00:02:35.060><c>myself,</c>
+
+00:02:35.410 --> 00:02:35.420 align:start position:0%
+domain. I know I keep repeating myself,
+ 
+
+00:02:35.420 --> 00:02:37.030 align:start position:0%
+domain. I know I keep repeating myself,
+but <00:02:35.595><c>I </c><00:02:35.770><c>do </c><00:02:35.945><c>want </c><00:02:36.120><c>you </c><00:02:36.295><c>to </c><00:02:36.470><c>understand </c><00:02:36.645><c>this.</c>
+
+00:02:37.030 --> 00:02:37.040 align:start position:0%
+but I do want you to understand this.
+ 
+
+00:02:37.040 --> 00:02:38.920 align:start position:0%
+but I do want you to understand this.
+The
+
+00:02:38.920 --> 00:02:38.930 align:start position:0%
+The
+ 
+
+00:02:38.930 --> 00:02:42.129 align:start position:0%
+The
+DNS <00:02:39.345><c>service </c><00:02:39.760><c>has, </c><00:02:40.175><c>or </c><00:02:40.590><c>had, </c><00:02:41.005><c>around </c><00:02:41.420><c>90 </c><00:02:41.835><c>types</c>
+
+00:02:42.129 --> 00:02:42.139 align:start position:0%
+DNS service has, or had, around 90 types
+ 
+
+00:02:42.139 --> 00:02:44.379 align:start position:0%
+DNS service has, or had, around 90 types
+of <00:02:42.375><c>records, </c><00:02:42.611><c>but </c><00:02:42.847><c>that </c><00:02:43.083><c>number </c><00:02:43.319><c>has </c><00:02:43.555><c>changed </c><00:02:43.791><c>and </c><00:02:44.027><c>will</c>
+
+00:02:44.379 --> 00:02:44.389 align:start position:0%
+of records, but that number has changed and will
+ 
+
+00:02:44.389 --> 00:02:46.000 align:start position:0%
+of records, but that number has changed and will
+continue <00:02:44.689><c>to </c><00:02:44.989><c>change </c><00:02:45.289><c>over </c><00:02:45.589><c>time, </c><00:02:45.889><c>as</c>
+
+00:02:46.000 --> 00:02:46.010 align:start position:0%
+continue to change over time, as
+ 
+
+00:02:46.010 --> 00:02:47.500 align:start position:0%
+continue to change over time, as
+some <00:02:46.265><c>records </c><00:02:46.520><c>have </c><00:02:46.775><c>become </c><00:02:47.030><c>obsolete,</c>
+
+00:02:47.500 --> 00:02:47.510 align:start position:0%
+some records have become obsolete,
+ 
+
+00:02:47.510 --> 00:02:49.509 align:start position:0%
+some records have become obsolete,
+new <00:02:47.882><c>ones </c><00:02:48.254><c>are </c><00:02:48.626><c>created </c><00:02:48.998><c>on </c><00:02:49.370><c>the</c>
+
+00:02:49.509 --> 00:02:49.519 align:start position:0%
+new ones are created on the
+ 
+
+00:02:49.519 --> 00:02:51.339 align:start position:0%
+new ones are created on the
+fly <00:02:49.814><c>according </c><00:02:50.109><c>to </c><00:02:50.404><c>needs, </c><00:02:50.699><c>and </c><00:02:50.994><c>so </c><00:02:51.289><c>on.</c>
+
+00:02:51.339 --> 00:02:51.349 align:start position:0%
+fly according to needs, and so on.
+ 
+
+00:02:51.349 --> 00:02:53.050 align:start position:0%
+fly according to needs, and so on.
+Therefore, <00:02:51.567><c>take </c><00:02:51.785><c>this </c><00:02:52.003><c>number </c><00:02:52.221><c>I </c><00:02:52.439><c>just </c><00:02:52.657><c>gave </c><00:02:52.875><c>you</c>
+
+00:02:53.050 --> 00:02:53.060 align:start position:0%
+Therefore, take this number I just gave you
+ 
+
+00:02:53.060 --> 00:02:54.819 align:start position:0%
+Therefore, take this number I just gave you
+as <00:02:53.397><c>a </c><00:02:53.734><c>variable </c><00:02:54.071><c>reference </c><00:02:54.408><c>point.</c>
+
+00:02:54.819 --> 00:02:54.829 align:start position:0%
+as a variable reference point.
+ 
+
+00:02:54.829 --> 00:02:57.550 align:start position:0%
+as a variable reference point.
+And <00:02:55.659><c>where </c><00:02:56.489><c>are </c><00:02:57.319><c>these</c>
+
+00:02:57.550 --> 00:02:57.560 align:start position:0%
+And where are these
+ 
+
+00:02:57.560 --> 00:02:59.920 align:start position:0%
+And where are these
+records <00:02:57.847><c>stored? </c><00:02:58.134><c>The </c><00:02:58.421><c>records </c><00:02:58.708><c>with </c><00:02:58.995><c>their </c><00:02:59.282><c>values ​​</c><00:02:59.569><c>and</c>
+
+00:02:59.920 --> 00:02:59.930 align:start position:0%
+records stored? The records with their values ​​and
+ 
+
+00:02:59.930 --> 00:03:01.780 align:start position:0%
+records stored? The records with their values ​​and
+instructions <00:03:00.709><c>for </c><00:03:01.488><c>the</c>
+
+00:03:01.780 --> 00:03:01.790 align:start position:0%
+instructions for the
+ 
+
+00:03:01.790 --> 00:03:04.119 align:start position:0%
+instructions for the
+DNS <00:03:02.052><c>servers </c><00:03:02.314><c>are </c><00:03:02.576><c>stored </c><00:03:02.838><c>in </c><00:03:03.100><c>zone </c><00:03:03.362><c>files. </c><00:03:03.624><c>These </c><00:03:03.886><c>are</c>
+
+00:03:04.119 --> 00:03:04.129 align:start position:0%
+DNS servers are stored in zone files. These are
+ 
+
+00:03:04.129 --> 00:03:05.379 align:start position:0%
+DNS servers are stored in zone files. These are
+called
+
+00:03:05.379 --> 00:03:05.389 align:start position:0%
+called
+ 
+
+00:03:05.389 --> 00:03:07.899 align:start position:0%
+called
+zone <00:03:06.139><c>files, </c><00:03:06.889><c>and </c><00:03:07.639><c>these</c>
+
+00:03:07.899 --> 00:03:07.909 align:start position:0%
+zone files, and these
+ 
+
+00:03:07.909 --> 00:03:09.729 align:start position:0%
+zone files, and these
+files <00:03:08.569><c>are </c><00:03:09.229><c>stored</c>
+
+00:03:09.729 --> 00:03:09.739 align:start position:0%
+files are stored
+ 
+
+00:03:09.739 --> 00:03:11.830 align:start position:0%
+files are stored
+within <00:03:10.289><c>different </c><00:03:10.839><c>DNS </c><00:03:11.389><c>servers.</c>
+
+00:03:11.830 --> 00:03:11.840 align:start position:0%
+within different DNS servers.
+ 
+
+00:03:11.840 --> 00:03:13.750 align:start position:0%
+within different DNS servers.
+Each <00:03:12.312><c>record </c><00:03:12.784><c>fulfills </c><00:03:13.256><c>a </c><00:03:13.728><c>function,</c>
+
+00:03:13.750 --> 00:03:13.760 align:start position:0%
+Each record fulfills a function,
+ 
+
+00:03:13.760 --> 00:03:16.479 align:start position:0%
+Each record fulfills a function,
+as <00:03:14.190><c>it </c><00:03:14.620><c>couldn't </c><00:03:15.050><c>be </c><00:03:15.480><c>otherwise, </c><00:03:15.910><c>and </c><00:03:16.340><c>the</c>
+
+00:03:16.479 --> 00:03:16.489 align:start position:0%
+as it couldn't be otherwise, and the
+ 
+
+00:03:16.489 --> 00:03:19.140 align:start position:0%
+as it couldn't be otherwise, and the
+records—and <00:03:16.801><c>this </c><00:03:17.113><c>is </c><00:03:17.425><c>very </c><00:03:17.737><c>important, </c><00:03:18.049><c>I</c>
+
+00:03:19.140 --> 00:03:19.150 align:start position:0%
+records—and this is very important, I
+ 
+
+00:03:19.150 --> 00:03:21.869 align:start position:0%
+records—and this is very important, I
+know <00:03:19.660><c>I </c><00:03:20.170><c>keep </c><00:03:20.680><c>repeating </c><00:03:21.190><c>myself—are </c><00:03:21.700><c>linked.</c>
+
+00:03:21.869 --> 00:03:21.879 align:start position:0%
+know I keep repeating myself—are linked.
+ 
+
+00:03:21.879 --> 00:03:23.640 align:start position:0%
+know I keep repeating myself—are linked.
+Related <00:03:22.209><c>to </c><00:03:22.539><c>a </c><00:03:22.869><c>domain, </c><00:03:23.199><c>that's </c><00:03:23.529><c>why</c>
+
+00:03:23.640 --> 00:03:23.650 align:start position:0%
+Related to a domain, that's why
+ 
+
+00:03:23.650 --> 00:03:25.470 align:start position:0%
+Related to a domain, that's why
+each <00:03:23.973><c>domain </c><00:03:24.296><c>will </c><00:03:24.619><c>also </c><00:03:24.942><c>have </c><00:03:25.265><c>certain</c>
+
+00:03:25.470 --> 00:03:25.480 align:start position:0%
+each domain will also have certain
+ 
+
+00:03:25.480 --> 00:03:27.660 align:start position:0%
+each domain will also have certain
+NS <00:03:25.809><c>records </c><00:03:26.138><c>linked </c><00:03:26.467><c>to </c><00:03:26.796><c>it. </c><00:03:27.125><c>In </c><00:03:27.454><c>this</c>
+
+00:03:27.660 --> 00:03:27.670 align:start position:0%
+NS records linked to it. In this
+ 
+
+00:03:27.670 --> 00:03:29.490 align:start position:0%
+NS records linked to it. In this
+video, <00:03:27.894><c>I'm </c><00:03:28.118><c>only </c><00:03:28.342><c>going </c><00:03:28.566><c>to </c><00:03:28.790><c>present </c><00:03:29.014><c>the</c>
+
+00:03:29.490 --> 00:03:29.500 align:start position:0%
+video, I'm only going to present the
+ 
+
+00:03:29.500 --> 00:03:31.679 align:start position:0%
+video, I'm only going to present the
+five <00:03:29.770><c>most </c><00:03:30.040><c>well-known </c><00:03:30.310><c>records, </c><00:03:30.580><c>the </c><00:03:30.850><c>ones </c><00:03:31.120><c>most</c>
+
+00:03:31.679 --> 00:03:31.689 align:start position:0%
+five most well-known records, the ones most
+ 
+
+00:03:31.689 --> 00:03:33.420 align:start position:0%
+five most well-known records, the ones most
+used <00:03:31.920><c>on </c><00:03:32.151><c>a </c><00:03:32.382><c>daily </c><00:03:32.613><c>basis. </c><00:03:32.844><c>Let's </c><00:03:33.075><c>get </c><00:03:33.306><c>to</c>
+
+00:03:33.420 --> 00:03:33.430 align:start position:0%
+used on a daily basis. Let's get to
+ 
+
+00:03:33.430 --> 00:03:36.780 align:start position:0%
+used on a daily basis. Let's get to
+them. <00:03:33.766><c>The </c><00:03:34.102><c>A </c><00:03:34.438><c>record </c><00:03:34.774><c>is </c><00:03:35.110><c>the </c><00:03:35.446><c>one </c><00:03:35.782><c>that, </c><00:03:36.118><c>in </c><00:03:36.454><c>English,</c>
+
+00:03:36.780 --> 00:03:36.790 align:start position:0%
+them. The A record is the one that, in English,
+ 
+
+00:03:36.790 --> 00:03:38.729 align:start position:0%
+them. The A record is the one that, in English,
+means <00:03:37.264><c>address. </c><00:03:37.738><c>By</c>
+
+00:03:38.729 --> 00:03:38.739 align:start position:0%
+means address. By
+ 
+
+00:03:38.739 --> 00:03:40.860 align:start position:0%
+means address. By
+anticipating <00:03:39.001><c>the </c><00:03:39.263><c>text, </c><00:03:39.525><c>you'll </c><00:03:39.787><c>have </c><00:03:40.049><c>already </c><00:03:40.311><c>deduced </c><00:03:40.573><c>that </c><00:03:40.835><c>it's</c>
+
+00:03:40.860 --> 00:03:40.870 align:start position:0%
+anticipating the text, you'll have already deduced that it's
+ 
+
+00:03:40.870 --> 00:03:43.530 align:start position:0%
+anticipating the text, you'll have already deduced that it's
+the <00:03:41.640><c>field </c><00:03:42.410><c>where </c><00:03:43.180><c>the</c>
+
+00:03:43.530 --> 00:03:43.540 align:start position:0%
+the field where the
+ 
+
+00:03:43.540 --> 00:03:46.199 align:start position:0%
+the field where the
+IP <00:03:43.980><c>address </c><00:03:44.420><c>of </c><00:03:44.860><c>the </c><00:03:45.300><c>domain </c><00:03:45.740><c>related </c><00:03:46.180><c>to</c>
+
+00:03:46.199 --> 00:03:46.209 align:start position:0%
+IP address of the domain related to
+ 
+
+00:03:46.209 --> 00:03:48.330 align:start position:0%
+IP address of the domain related to
+that <00:03:46.483><c>record </c><00:03:46.757><c>is </c><00:03:47.031><c>written. </c><00:03:47.305><c>This </c><00:03:47.579><c>record </c><00:03:47.853><c>is </c><00:03:48.127><c>what</c>
+
+00:03:48.330 --> 00:03:48.340 align:start position:0%
+that record is written. This record is what
+ 
+
+00:03:48.340 --> 00:03:51.000 align:start position:0%
+that record is written. This record is what
+returns <00:03:48.730><c>the </c><00:03:49.120><c>IP </c><00:03:49.510><c>address </c><00:03:49.900><c>of </c><00:03:50.290><c>a </c><00:03:50.680><c>domain</c>
+
+00:03:51.000 --> 00:03:51.010 align:start position:0%
+returns the IP address of a domain
+ 
+
+00:03:51.010 --> 00:03:53.250 align:start position:0%
+returns the IP address of a domain
+during <00:03:53.139><c>the</c>
+
+00:03:53.250 --> 00:03:53.260 align:start position:0%
+during the
+ 
+
+00:03:53.260 --> 00:03:55.110 align:start position:0%
+during the
+query <00:03:53.626><c>and </c><00:03:53.992><c>resolution </c><00:03:54.358><c>process </c><00:03:54.724><c>that </c><00:03:55.090><c>takes</c>
+
+00:03:55.110 --> 00:03:55.120 align:start position:0%
+query and resolution process that takes
+ 
+
+00:03:55.120 --> 00:03:57.330 align:start position:0%
+query and resolution process that takes
+place <00:03:55.830><c>when </c><00:03:56.540><c>your </c><00:03:57.250><c>browser</c>
+
+00:03:57.330 --> 00:03:57.340 align:start position:0%
+place when your browser
+ 
+
+00:03:57.340 --> 00:03:59.250 align:start position:0%
+place when your browser
+wants <00:03:57.585><c>to </c><00:03:57.830><c>navigate </c><00:03:58.075><c>to </c><00:03:58.320><c>show </c><00:03:58.565><c>you </c><00:03:58.810><c>a</c>
+
+00:03:59.250 --> 00:03:59.260 align:start position:0%
+wants to navigate to show you a
+ 
+
+00:03:59.260 --> 00:04:00.569 align:start position:0%
+wants to navigate to show you a
+web <00:03:59.650><c>page </c><00:04:00.040><c>after </c><00:04:00.430><c>you've</c>
+
+00:04:00.569 --> 00:04:00.579 align:start position:0%
+web page after you've
+ 
+
+00:04:00.579 --> 00:04:03.089 align:start position:0%
+web page after you've
+entered <00:04:00.904><c>the </c><00:04:01.229><c>domain </c><00:04:01.554><c>or </c><00:04:01.879><c>the </c><00:04:02.204><c>URL </c><00:04:02.529><c>in</c>
+
+00:04:03.089 --> 00:04:03.099 align:start position:0%
+entered the domain or the URL in
+ 
+
+00:04:03.099 --> 00:04:05.009 align:start position:0%
+entered the domain or the URL in
+the <00:04:03.453><c>address </c><00:04:03.807><c>bar. </c><00:04:04.161><c>For </c><00:04:04.515><c>example, </c><00:04:04.869><c>if</c>
+
+00:04:05.009 --> 00:04:05.019 align:start position:0%
+the address bar. For example, if
+ 
+
+00:04:05.019 --> 00:04:07.220 align:start position:0%
+the address bar. For example, if
+you <00:04:05.143><c>type </c><00:04:05.267><c>www.youtube.com </c><00:04:05.391><c>in </c><00:04:05.515><c>the </c><00:04:05.639><c>browser's </c><00:04:05.763><c>address </c><00:04:05.887><c>bar,</c>
+
+00:04:07.220 --> 00:04:07.230 align:start position:0%
+you type www.youtube.com in the browser's address bar,
+ 
+
+00:04:07.230 --> 00:04:09.929 align:start position:0%
+you type www.youtube.com in the browser's address bar,
+the <00:04:08.569><c>query </c><00:04:09.908><c>and</c>
+
+00:04:09.929 --> 00:04:09.939 align:start position:0%
+the query and
+ 
+
+00:04:09.939 --> 00:04:12.539 align:start position:0%
+the query and
+resolution <00:04:10.220><c>process </c><00:04:10.501><c>will </c><00:04:10.782><c>deliver </c><00:04:11.063><c>an </c><00:04:11.344><c>IP </c><00:04:11.625><c>address </c><00:04:11.906><c>to </c><00:04:12.187><c>the</c>
+
+00:04:12.539 --> 00:04:12.549 align:start position:0%
+resolution process will deliver an IP address to the
+ 
+
+00:04:12.549 --> 00:04:15.300 align:start position:0%
+resolution process will deliver an IP address to the
+browser, <00:04:12.840><c>and </c><00:04:13.131><c>that </c><00:04:13.422><c>IP </c><00:04:13.713><c>address </c><00:04:14.004><c>is </c><00:04:14.295><c>obtained </c><00:04:14.586><c>from</c>
+
+00:04:15.300 --> 00:04:15.310 align:start position:0%
+browser, and that IP address is obtained from
+ 
+
+00:04:15.310 --> 00:04:17.430 align:start position:0%
+browser, and that IP address is obtained from
+the <00:04:15.717><c>A </c><00:04:16.124><c>record </c><00:04:16.531><c>located </c><00:04:16.938><c>on </c><00:04:17.345><c>the</c>
+
+00:04:17.430 --> 00:04:17.440 align:start position:0%
+the A record located on the
+ 
+
+00:04:17.440 --> 00:04:19.289 align:start position:0%
+the A record located on the
+authoritative <00:04:17.882><c>server. </c><00:04:18.324><c>Remember </c><00:04:18.766><c>that </c><00:04:19.208><c>I</c>
+
+00:04:19.289 --> 00:04:20.849 align:start position:0%
+authoritative server. Remember that I
+ 
+
+00:04:20.849 --> 00:04:20.859 align:start position:0%
+ 
+ 
+
+00:04:20.859 --> 00:04:22.740 align:start position:0%
+ 
+explained <00:04:21.028><c>what </c><00:04:21.197><c>the </c><00:04:21.366><c>authoritative </c><00:04:21.535><c>server </c><00:04:21.704><c>is </c><00:04:21.873><c>in </c><00:04:22.042><c>the </c><00:04:22.211><c>video </c><00:04:22.380><c>before </c><00:04:22.549><c>this </c><00:04:22.718><c>one,</c>
+
+00:04:22.740 --> 00:04:22.750 align:start position:0%
+explained what the authoritative server is in the video before this one,
+ 
+
+00:04:22.750 --> 00:04:24.980 align:start position:0%
+explained what the authoritative server is in the video before this one,
+which <00:04:23.185><c>I </c><00:04:23.620><c>linked </c><00:04:24.055><c>above. </c><00:04:24.490><c>Alberto,</c>
+
+00:04:24.980 --> 00:04:24.990 align:start position:0%
+which I linked above. Alberto,
+ 
+
+00:04:24.990 --> 00:04:28.010 align:start position:0%
+which I linked above. Alberto,
+two <00:04:25.485><c>records </c><00:04:25.980><c>can </c><00:04:26.475><c>be </c><00:04:26.970><c>created </c><00:04:27.465><c>for </c><00:04:27.960><c>the</c>
+
+00:04:28.010 --> 00:04:28.020 align:start position:0%
+two records can be created for the
+ 
+
+00:04:28.020 --> 00:04:30.499 align:start position:0%
+two records can be created for the
+same <00:04:28.458><c>domain. </c><00:04:28.896><c>For </c><00:04:29.334><c>example, </c><00:04:29.772><c>when </c><00:04:30.210><c>that</c>
+
+00:04:30.499 --> 00:04:30.509 align:start position:0%
+same domain. For example, when that
+ 
+
+00:04:30.509 --> 00:04:32.270 align:start position:0%
+same domain. For example, when that
+domain <00:04:30.764><c>has </c><00:04:31.019><c>several </c><00:04:31.274><c>Fruto </c><00:04:31.529><c>Minions, </c><00:04:31.784><c>you </c><00:04:32.039><c>can</c>
+
+00:04:32.270 --> 00:04:32.280 align:start position:0%
+domain has several Fruto Minions, you can
+ 
+
+00:04:32.280 --> 00:04:34.129 align:start position:0%
+domain has several Fruto Minions, you can
+configure <00:04:32.699><c>additional </c><00:04:33.118><c>records.  </c><00:04:33.537><c>Et</c>
+
+00:04:34.129 --> 00:04:34.139 align:start position:0%
+configure additional records.  Et
+ 
+
+00:04:34.139 --> 00:04:36.800 align:start position:0%
+configure additional records.  Et
+cetera, <00:04:34.479><c>and </c><00:04:34.819><c>another </c><00:04:35.159><c>question, </c><00:04:35.499><c>Alberto: </c><00:04:35.839><c>what's </c><00:04:36.179><c>the</c>
+
+00:04:36.800 --> 00:04:36.810 align:start position:0%
+cetera, and another question, Alberto: what's the
+ 
+
+00:04:36.810 --> 00:04:38.540 align:start position:0%
+cetera, and another question, Alberto: what's the
+difference <00:04:37.140><c>between </c><00:04:37.470><c>the </c><00:04:37.800><c>`.cn` </c><00:04:38.130><c>and </c><00:04:38.460><c>`</c>
+
+00:04:38.540 --> 00:04:38.550 align:start position:0%
+difference between the `.cn` and `
+ 
+
+00:04:38.550 --> 00:04:39.650 align:start position:0%
+difference between the `.cn` and `
+
+
+00:04:39.650 --> 00:04:39.660 align:start position:0%
+ 
+ 
+
+00:04:39.660 --> 00:04:42.350 align:start position:0%
+ 
+.cn` <00:04:40.305><c>records? </c><00:04:40.950><c>Both </c><00:04:41.595><c>records </c><00:04:42.240><c>store</c>
+
+00:04:42.350 --> 00:04:42.360 align:start position:0%
+.cn` records? Both records store
+ 
+
+00:04:42.360 --> 00:04:44.570 align:start position:0%
+.cn` records? Both records store
+an <00:04:42.900><c>IP </c><00:04:43.440><c>address </c><00:04:43.980><c>of </c><00:04:44.520><c>a</c>
+
+00:04:44.570 --> 00:04:44.580 align:start position:0%
+an IP address of a
+ 
+
+00:04:44.580 --> 00:04:46.460 align:start position:0%
+an IP address of a
+domain, <00:04:44.874><c>but </c><00:04:45.168><c>the </c><00:04:45.462><c>`.cn` </c><00:04:45.756><c>record </c><00:04:46.050><c>stores </c><00:04:46.344><c>the</c>
+
+00:04:46.460 --> 00:04:46.470 align:start position:0%
+domain, but the `.cn` record stores the
+ 
+
+00:04:46.470 --> 00:04:48.740 align:start position:0%
+domain, but the `.cn` record stores the
+IP <00:04:46.752><c>address </c><00:04:47.034><c>according </c><00:04:47.316><c>to </c><00:04:47.598><c>the </c><00:04:47.880><c>IPv4 </c><00:04:48.162><c>protocol </c><00:04:48.444><c>or</c>
+
+00:04:48.740 --> 00:04:48.750 align:start position:0%
+IP address according to the IPv4 protocol or
+ 
+
+00:04:48.750 --> 00:04:51.550 align:start position:0%
+IP address according to the IPv4 protocol or
+standard, <00:04:49.200><c>while </c><00:04:49.650><c>the </c><00:04:50.100><c>`.cn` </c><00:04:50.550><c>record</c>
+
+00:04:51.550 --> 00:04:51.560 align:start position:0%
+standard, while the `.cn` record
+ 
+
+00:04:51.560 --> 00:04:54.860 align:start position:0%
+standard, while the `.cn` record
+stores <00:04:51.877><c>the </c><00:04:52.194><c>IP </c><00:04:52.511><c>address </c><00:04:52.828><c>according </c><00:04:53.145><c>to </c><00:04:53.462><c>the </c><00:04:53.779><c>IPv6 </c><00:04:54.096><c>standard </c><00:04:54.413><c>or</c>
+
+00:04:54.860 --> 00:04:54.870 align:start position:0%
+stores the IP address according to the IPv6 standard or
+ 
+
+00:04:54.870 --> 00:04:58.460 align:start position:0%
+stores the IP address according to the IPv6 standard or
+protocol. <00:04:55.547><c>The </c><00:04:56.224><c>`.cn` </c><00:04:56.901><c>record, </c><00:04:57.578><c>and </c><00:04:58.255><c>`.cn`,</c>
+
+00:04:58.460 --> 00:04:58.470 align:start position:0%
+protocol. The `.cn` record, and `.cn`,
+ 
+
+00:04:58.470 --> 00:05:00.770 align:start position:0%
+protocol. The `.cn` record, and `.cn`,
+comes <00:04:58.830><c>from </c><00:04:59.190><c>"canonical </c><00:04:59.550><c>main," </c><00:04:59.910><c>meaning </c><00:05:00.270><c>it's </c><00:05:00.630><c>the</c>
+
+00:05:00.770 --> 00:05:00.780 align:start position:0%
+comes from "canonical main," meaning it's the
+ 
+
+00:05:00.780 --> 00:05:02.749 align:start position:0%
+comes from "canonical main," meaning it's the
+record <00:05:01.045><c>where </c><00:05:01.310><c>canonical </c><00:05:01.575><c>names </c><00:05:01.840><c>are </c><00:05:02.105><c>used. </c><00:05:02.370><c>It's</c>
+
+00:05:02.749 --> 00:05:02.759 align:start position:0%
+record where canonical names are used. It's
+ 
+
+00:05:02.759 --> 00:05:04.969 align:start position:0%
+record where canonical names are used. It's
+simple: <00:05:03.114><c>it's </c><00:05:03.469><c>stored </c><00:05:03.824><c>in </c><00:05:04.179><c>the </c><00:05:04.534><c>`.cn` </c><00:05:04.889><c>field.</c>
+
+00:05:04.969 --> 00:05:04.979 align:start position:0%
+simple: it's stored in the `.cn` field.
+ 
+
+00:05:04.979 --> 00:05:06.980 align:start position:0%
+simple: it's stored in the `.cn` field.
+This <00:05:05.864><c>record </c><00:05:06.749><c>doesn't</c>
+
+00:05:06.980 --> 00:05:06.990 align:start position:0%
+This record doesn't
+ 
+
+00:05:06.990 --> 00:05:08.600 align:start position:0%
+This record doesn't
+result <00:05:07.235><c>in </c><00:05:07.480><c>an </c><00:05:07.725><c>IP </c><00:05:07.970><c>address; </c><00:05:08.215><c>rather, </c><00:05:08.460><c>its</c>
+
+00:05:08.600 --> 00:05:08.610 align:start position:0%
+result in an IP address; rather, its
+ 
+
+00:05:08.610 --> 00:05:10.070 align:start position:0%
+result in an IP address; rather, its
+purpose <00:05:09.074><c>is </c><00:05:09.538><c>to</c>
+
+00:05:10.070 --> 00:05:10.080 align:start position:0%
+purpose is to
+ 
+
+00:05:10.080 --> 00:05:12.920 align:start position:0%
+purpose is to
+identify <00:05:10.620><c>another </c><00:05:11.160><c>domain </c><00:05:11.700><c>or </c><00:05:12.240><c>subdomain.</c>
+
+00:05:12.920 --> 00:05:12.930 align:start position:0%
+identify another domain or subdomain.
+ 
+
+00:05:12.930 --> 00:05:15.740 align:start position:0%
+identify another domain or subdomain.
+Imagine <00:05:15.539><c>you</c>
+
+00:05:15.740 --> 00:05:15.750 align:start position:0%
+Imagine you
+ 
+
+00:05:15.750 --> 00:05:17.450 align:start position:0%
+Imagine you
+have <00:05:16.230><c>the </c><00:05:16.710><c>domain </c><00:05:17.190><c>"</c>
+
+00:05:17.450 --> 00:05:17.460 align:start position:0%
+have the domain "
+ 
+
+00:05:17.460 --> 00:05:20.210 align:start position:0%
+have the domain "
+elmejorcanal.com." <00:05:17.963><c>Well, </c><00:05:18.466><c>if </c><00:05:18.969><c>you </c><00:05:19.472><c>have </c><00:05:19.975><c>another</c>
+
+00:05:20.210 --> 00:05:20.220 align:start position:0%
+elmejorcanal.com." Well, if you have another
+ 
+
+00:05:20.220 --> 00:05:22.730 align:start position:0%
+elmejorcanal.com." Well, if you have another
+domain <00:05:20.707><c>with </c><00:05:21.194><c>certain </c><00:05:21.681><c>resources, </c><00:05:22.168><c>like</c>
+
+00:05:22.730 --> 00:05:22.740 align:start position:0%
+domain with certain resources, like
+ 
+
+00:05:22.740 --> 00:05:24.980 align:start position:0%
+domain with certain resources, like
+an <00:05:23.085><c>internet </c><00:05:23.430><c>service </c><00:05:23.775><c>or </c><00:05:24.120><c>an </c><00:05:24.465><c>e-commerce </c><00:05:24.810><c>store</c>
+
+00:05:24.980 --> 00:05:24.990 align:start position:0%
+an internet service or an e-commerce store
+ 
+
+00:05:24.990 --> 00:05:26.629 align:start position:0%
+an internet service or an e-commerce store
+with <00:05:25.440><c>its </c><00:05:25.890><c>own </c><00:05:26.340><c>domain,</c>
+
+00:05:26.629 --> 00:05:26.639 align:start position:0%
+with its own domain,
+ 
+
+00:05:26.639 --> 00:05:28.879 align:start position:0%
+with its own domain,
+and <00:05:26.891><c>you </c><00:05:27.143><c>want </c><00:05:27.395><c>it </c><00:05:27.647><c>to </c><00:05:27.899><c>be </c><00:05:28.151><c>a </c><00:05:28.403><c>subdomain</c>
+
+00:05:28.879 --> 00:05:28.889 align:start position:0%
+and you want it to be a subdomain
+ 
+
+00:05:28.889 --> 00:05:31.250 align:start position:0%
+and you want it to be a subdomain
+of <00:05:29.219><c>your </c><00:05:29.549><c>main </c><00:05:29.879><c>domain,</c>
+
+00:05:31.250 --> 00:05:31.260 align:start position:0%
+of your main domain,
+ 
+
+00:05:31.260 --> 00:05:33.320 align:start position:0%
+of your main domain,
+the <00:05:31.481><c>`.cn` </c><00:05:31.702><c>record </c><00:05:31.923><c>gives </c><00:05:32.144><c>it </c><00:05:32.365><c>an </c><00:05:32.586><c>alias, </c><00:05:32.807><c>like </c><00:05:33.028><c>"</c>
+
+00:05:33.320 --> 00:05:33.330 align:start position:0%
+the `.cn` record gives it an alias, like "
+ 
+
+00:05:33.330 --> 00:05:35.330 align:start position:0%
+the `.cn` record gives it an alias, like "
+Torrejón <00:05:33.726><c>alias," </c><00:05:34.122><c>and </c><00:05:34.518><c>links </c><00:05:34.914><c>it </c><00:05:35.310><c>to</c>
+
+00:05:35.330 --> 00:05:35.340 align:start position:0%
+Torrejón alias," and links it to
+ 
+
+00:05:35.340 --> 00:05:37.160 align:start position:0%
+Torrejón alias," and links it to
+your <00:05:35.760><c>main </c><00:05:36.180><c>domain </c><00:05:36.600><c>as </c><00:05:37.020><c>a</c>
+
+00:05:37.160 --> 00:05:37.170 align:start position:0%
+your main domain as a
+ 
+
+00:05:37.170 --> 00:05:38.870 align:start position:0%
+your main domain as a
+subdomain, <00:05:37.420><c>for </c><00:05:37.670><c>example. </c><00:05:37.920><c>In </c><00:05:38.170><c>other </c><00:05:38.420><c>words, </c><00:05:38.670><c>it's</c>
+
+00:05:38.870 --> 00:05:38.880 align:start position:0%
+subdomain, for example. In other words, it's
+ 
+
+00:05:38.880 --> 00:05:40.970 align:start position:0%
+subdomain, for example. In other words, it's
+not
+
+00:05:40.970 --> 00:05:40.980 align:start position:0%
+not
+ 
+
+00:05:40.980 --> 00:05:44.360 align:start position:0%
+not
+natively <00:05:41.395><c>part </c><00:05:41.810><c>of </c><00:05:42.225><c>your </c><00:05:42.640><c>domain. </c><00:05:43.055><c>This </c><00:05:43.470><c>record, </c><00:05:43.885><c>for</c>
+
+00:05:44.360 --> 00:05:44.370 align:start position:0%
+natively part of your domain. This record, for
+ 
+
+00:05:44.370 --> 00:05:47.000 align:start position:0%
+natively part of your domain. This record, for
+example, <00:05:44.874><c>also </c><00:05:45.378><c>has </c><00:05:45.882><c>the </c><00:05:46.386><c>utility </c><00:05:46.890><c>that</c>
+
+00:05:47.000 --> 00:05:47.010 align:start position:0%
+example, also has the utility that
+ 
+
+00:05:47.010 --> 00:05:48.350 align:start position:0%
+example, also has the utility that
+when <00:05:47.226><c>you </c><00:05:47.442><c>intend </c><00:05:47.658><c>to </c><00:05:47.874><c>change </c><00:05:48.090><c>the</c>
+
+00:05:48.350 --> 00:05:48.360 align:start position:0%
+when you intend to change the
+ 
+
+00:05:48.360 --> 00:05:49.550 align:start position:0%
+when you intend to change the
+IP <00:05:48.585><c>addresses </c><00:05:48.810><c>of </c><00:05:49.035><c>your </c><00:05:49.260><c>services</c>
+
+00:05:49.550 --> 00:05:49.560 align:start position:0%
+IP addresses of your services
+ 
+
+00:05:49.560 --> 00:05:52.400 align:start position:0%
+IP addresses of your services
+regularly, <00:05:50.390><c>this </c><00:05:51.220><c>record </c><00:05:52.050><c>will</c>
+
+00:05:52.400 --> 00:05:52.410 align:start position:0%
+regularly, this record will
+ 
+
+00:05:52.410 --> 00:05:54.470 align:start position:0%
+regularly, this record will
+allow <00:05:52.675><c>you </c><00:05:52.940><c>to...  </c><00:05:53.205><c>To </c><00:05:53.470><c>make </c><00:05:53.735><c>these </c><00:05:54.000><c>changes </c><00:05:54.265><c>without</c>
+
+00:05:54.470 --> 00:05:54.480 align:start position:0%
+allow you to...  To make these changes without
+ 
+
+00:05:54.480 --> 00:05:56.810 align:start position:0%
+allow you to...  To make these changes without
+affecting <00:05:54.840><c>a </c><00:05:55.200><c>user's </c><00:05:55.560><c>favorites </c><00:05:55.920><c>list </c><00:05:56.280><c>or</c>
+
+00:05:56.810 --> 00:05:56.820 align:start position:0%
+affecting a user's favorites list or
+ 
+
+00:05:56.820 --> 00:05:59.270 align:start position:0%
+affecting a user's favorites list or
+bookmark <00:05:57.570><c>where </c><00:05:58.320><c>they </c><00:05:59.070><c>have</c>
+
+00:05:59.270 --> 00:05:59.280 align:start position:0%
+bookmark where they have
+ 
+
+00:05:59.280 --> 00:06:01.250 align:start position:0%
+bookmark where they have
+your <00:06:00.150><c>domain </c><00:06:01.020><c>saved,</c>
+
+00:06:01.250 --> 00:06:01.260 align:start position:0%
+your domain saved,
+ 
+
+00:06:01.260 --> 00:06:03.800 align:start position:0%
+your domain saved,
+let's <00:06:01.656><c>look </c><00:06:02.052><c>at </c><00:06:02.448><c>the </c><00:06:02.844><c>m </c><00:06:03.240><c>record,</c>
+
+00:06:03.800 --> 00:06:03.810 align:start position:0%
+let's look at the m record,
+ 
+
+00:06:03.810 --> 00:06:06.320 align:start position:0%
+let's look at the m record,
+so <00:06:04.215><c>named </c><00:06:04.620><c>because </c><00:06:05.025><c>my </c><00:06:05.430><c>keys </c><00:06:05.835><c>come </c><00:06:06.240><c>from</c>
+
+00:06:06.320 --> 00:06:06.330 align:start position:0%
+so named because my keys come from
+ 
+
+00:06:06.330 --> 00:06:08.870 align:start position:0%
+so named because my keys come from
+the <00:06:06.710><c>words </c><00:06:07.090><c>mail </c><00:06:07.470><c>exchange. </c><00:06:07.850><c>This </c><00:06:08.230><c>refers </c><00:06:08.610><c>to</c>
+
+00:06:08.870 --> 00:06:08.880 align:start position:0%
+the words mail exchange. This refers to
+ 
+
+00:06:08.880 --> 00:06:11.180 align:start position:0%
+the words mail exchange. This refers to
+the <00:06:09.620><c>email </c><00:06:10.360><c>services </c><00:06:11.100><c>and</c>
+
+00:06:11.180 --> 00:06:11.190 align:start position:0%
+the email services and
+ 
+
+00:06:11.190 --> 00:06:12.860 align:start position:0%
+the email services and
+servers <00:06:11.850><c>you </c><00:06:12.510><c>might</c>
+
+00:06:12.860 --> 00:06:12.870 align:start position:0%
+servers you might
+ 
+
+00:06:12.870 --> 00:06:14.960 align:start position:0%
+servers you might
+be <00:06:13.248><c>using, </c><00:06:13.626><c>for </c><00:06:14.004><c>example, </c><00:06:14.382><c>in </c><00:06:14.760><c>your</c>
+
+00:06:14.960 --> 00:06:14.970 align:start position:0%
+be using, for example, in your
+ 
+
+00:06:14.970 --> 00:06:17.240 align:start position:0%
+be using, for example, in your
+company. <00:06:17.160><c>Unlike</c>
+
+00:06:17.240 --> 00:06:17.250 align:start position:0%
+company. Unlike
+ 
+
+00:06:17.250 --> 00:06:19.370 align:start position:0%
+company. Unlike
+the <00:06:17.446><c>previous </c><00:06:17.642><c>records, </c><00:06:17.838><c>this </c><00:06:18.034><c>one </c><00:06:18.230><c>doesn't </c><00:06:18.426><c>link </c><00:06:18.622><c>a </c><00:06:18.818><c>domain </c><00:06:19.014><c>to</c>
+
+00:06:19.370 --> 00:06:19.380 align:start position:0%
+the previous records, this one doesn't link a domain to
+ 
+
+00:06:19.380 --> 00:06:21.260 align:start position:0%
+the previous records, this one doesn't link a domain to
+an <00:06:19.940><c>IP </c><00:06:20.500><c>address. </c><00:06:21.060><c>Here,</c>
+
+00:06:21.260 --> 00:06:21.270 align:start position:0%
+an IP address. Here,
+ 
+
+00:06:21.270 --> 00:06:23.000 align:start position:0%
+an IP address. Here,
+we <00:06:21.594><c>indicate </c><00:06:21.918><c>the </c><00:06:22.242><c>location </c><00:06:22.566><c>of </c><00:06:22.890><c>an</c>
+
+00:06:23.000 --> 00:06:23.010 align:start position:0%
+we indicate the location of an
+ 
+
+00:06:23.010 --> 00:06:25.100 align:start position:0%
+we indicate the location of an
+email <00:06:23.715><c>server—the </c><00:06:24.420><c>location,</c>
+
+00:06:25.100 --> 00:06:25.110 align:start position:0%
+email server—the location,
+ 
+
+00:06:25.110 --> 00:06:26.840 align:start position:0%
+email server—the location,
+in <00:06:25.422><c>digital </c><00:06:25.734><c>terms. </c><00:06:26.046><c>This </c><00:06:26.358><c>record </c><00:06:26.670><c>is</c>
+
+00:06:26.840 --> 00:06:26.850 align:start position:0%
+in digital terms. This record is
+ 
+
+00:06:26.850 --> 00:06:29.600 align:start position:0%
+in digital terms. This record is
+used, <00:06:27.480><c>for </c><00:06:28.110><c>example, </c><00:06:28.740><c>when </c><00:06:29.370><c>sending</c>
+
+00:06:29.600 --> 00:06:29.610 align:start position:0%
+used, for example, when sending
+ 
+
+00:06:29.610 --> 00:06:32.270 align:start position:0%
+used, for example, when sending
+emails <00:06:30.120><c>to </c><00:06:30.630><c>the </c><00:06:31.140><c>personalized </c><00:06:31.650><c>emails </c><00:06:32.160><c>you</c>
+
+00:06:32.270 --> 00:06:32.280 align:start position:0%
+emails to the personalized emails you
+ 
+
+00:06:32.280 --> 00:06:34.100 align:start position:0%
+emails to the personalized emails you
+'ve <00:06:32.505><c>created </c><00:06:32.730><c>for </c><00:06:32.955><c>your </c><00:06:33.180><c>domain </c><00:06:33.405><c>and </c><00:06:33.630><c>company.</c>
+
+00:06:34.100 --> 00:06:34.110 align:start position:0%
+'ve created for your domain and company.
+ 
+
+00:06:34.110 --> 00:06:35.960 align:start position:0%
+'ve created for your domain and company.
+Through <00:06:34.500><c>this </c><00:06:34.890><c>record, </c><00:06:35.280><c>these </c><00:06:35.670><c>emails</c>
+
+00:06:35.960 --> 00:06:35.970 align:start position:0%
+Through this record, these emails
+ 
+
+00:06:35.970 --> 00:06:39.050 align:start position:0%
+Through this record, these emails
+will <00:06:36.318><c>be </c><00:06:36.666><c>directed </c><00:06:37.014><c>to </c><00:06:37.362><c>the </c><00:06:37.710><c>correct </c><00:06:38.058><c>server</c>
+
+00:06:39.050 --> 00:06:39.060 align:start position:0%
+will be directed to the correct server
+ 
+
+00:06:39.060 --> 00:06:41.450 align:start position:0%
+will be directed to the correct server
+in <00:06:39.435><c>your </c><00:06:39.810><c>organization. </c><00:06:40.185><c>The </c><00:06:40.560><c>value </c><00:06:40.935><c>of </c><00:06:41.310><c>this</c>
+
+00:06:41.450 --> 00:06:41.460 align:start position:0%
+in your organization. The value of this
+ 
+
+00:06:41.460 --> 00:06:44.480 align:start position:0%
+in your organization. The value of this
+record <00:06:41.934><c>is </c><00:06:42.408><c>usually </c><00:06:42.882><c>provided </c><00:06:43.356><c>by </c><00:06:43.830><c>your</c>
+
+00:06:44.480 --> 00:06:44.490 align:start position:0%
+record is usually provided by your
+ 
+
+00:06:44.490 --> 00:06:46.700 align:start position:0%
+record is usually provided by your
+email <00:06:44.868><c>provider, </c><00:06:45.246><c>and </c><00:06:45.624><c>you'll </c><00:06:46.002><c>have </c><00:06:46.380><c>to</c>
+
+00:06:46.700 --> 00:06:46.710 align:start position:0%
+email provider, and you'll have to
+ 
+
+00:06:46.710 --> 00:06:48.230 align:start position:0%
+email provider, and you'll have to
+add <00:06:46.915><c>it </c><00:06:47.120><c>and </c><00:06:47.325><c>associate </c><00:06:47.530><c>it </c><00:06:47.735><c>with </c><00:06:47.940><c>your </c><00:06:48.145><c>domain.</c>
+
+00:06:48.230 --> 00:06:48.240 align:start position:0%
+add it and associate it with your domain.
+ 
+
+00:06:48.240 --> 00:06:51.560 align:start position:0%
+add it and associate it with your domain.
+The <00:06:48.882><c>txt </c><00:06:49.524><c>record </c><00:06:50.166><c>is </c><00:06:50.808><c>easy </c><00:06:51.450><c>to</c>
+
+00:06:51.560 --> 00:06:51.570 align:start position:0%
+The txt record is easy to
+ 
+
+00:06:51.570 --> 00:06:53.060 align:start position:0%
+The txt record is easy to
+understand; <00:06:51.980><c>its </c><00:06:52.390><c>name </c><00:06:52.800><c>or</c>
+
+00:06:53.060 --> 00:06:53.070 align:start position:0%
+understand; its name or
+ 
+
+00:06:53.070 --> 00:06:55.760 align:start position:0%
+understand; its name or
+abbreviation, <00:06:53.550><c>txt, </c><00:06:54.030><c>comes </c><00:06:54.510><c>from </c><00:06:54.990><c>text. </c><00:06:55.470><c>It's</c>
+
+00:06:55.760 --> 00:06:55.770 align:start position:0%
+abbreviation, txt, comes from text. It's
+ 
+
+00:06:55.770 --> 00:06:57.620 align:start position:0%
+abbreviation, txt, comes from text. It's
+a <00:06:56.330><c>text </c><00:06:56.890><c>record </c><00:06:57.450><c>so</c>
+
+00:06:57.620 --> 00:06:57.630 align:start position:0%
+a text record so
+ 
+
+00:06:57.630 --> 00:07:00.140 align:start position:0%
+a text record so
+that <00:06:58.044><c>a </c><00:06:58.458><c>DNS </c><00:06:58.872><c>administrator, </c><00:06:59.286><c>for </c><00:06:59.700><c>example,</c>
+
+00:07:00.140 --> 00:07:00.150 align:start position:0%
+that a DNS administrator, for example,
+ 
+
+00:07:00.150 --> 00:07:02.300 align:start position:0%
+that a DNS administrator, for example,
+can <00:07:00.517><c>write </c><00:07:00.884><c>notes </c><00:07:01.251><c>or </c><00:07:01.618><c>comments</c>
+
+00:07:02.300 --> 00:07:02.310 align:start position:0%
+can write notes or comments
+ 
+
+00:07:02.310 --> 00:07:04.130 align:start position:0%
+can write notes or comments
+related <00:07:02.790><c>to </c><00:07:03.270><c>that </c><00:07:03.750><c>domain.</c>
+
+00:07:04.130 --> 00:07:04.140 align:start position:0%
+related to that domain.
+ 
+
+00:07:04.140 --> 00:07:06.290 align:start position:0%
+related to that domain.
+While <00:07:04.397><c>it's </c><00:07:04.654><c>true </c><00:07:04.911><c>that </c><00:07:05.168><c>this </c><00:07:05.425><c>record </c><00:07:05.682><c>has </c><00:07:05.939><c>no</c>
+
+00:07:06.290 --> 00:07:06.300 align:start position:0%
+While it's true that this record has no
+ 
+
+00:07:06.300 --> 00:07:09.080 align:start position:0%
+While it's true that this record has no
+effect <00:07:07.590><c>on </c><00:07:08.880><c>how...</c>
+
+00:07:09.080 --> 00:07:09.090 align:start position:0%
+effect on how...
+ 
+
+00:07:09.090 --> 00:07:11.120 align:start position:0%
+effect on how...
+Your <00:07:09.325><c>domain </c><00:07:09.560><c>will </c><00:07:09.795><c>function </c><00:07:10.030><c>and </c><00:07:10.265><c>behave </c><00:07:10.500><c>as </c><00:07:10.735><c>promised,</c>
+
+00:07:11.120 --> 00:07:11.130 align:start position:0%
+Your domain will function and behave as promised,
+ 
+
+00:07:11.130 --> 00:07:12.650 align:start position:0%
+Your domain will function and behave as promised,
+but <00:07:11.412><c>it </c><00:07:11.694><c>is </c><00:07:11.976><c>very </c><00:07:12.258><c>useful </c><00:07:12.540><c>when</c>
+
+00:07:12.650 --> 00:07:12.660 align:start position:0%
+but it is very useful when
+ 
+
+00:07:12.660 --> 00:07:15.050 align:start position:0%
+but it is very useful when
+searching <00:07:12.985><c>for </c><00:07:13.310><c>and </c><00:07:13.635><c>finding </c><00:07:13.960><c>a </c><00:07:14.285><c>domain </c><00:07:14.610><c>on </c><00:07:14.935><c>the</c>
+
+00:07:15.050 --> 00:07:15.060 align:start position:0%
+searching for and finding a domain on the
+ 
+
+00:07:15.060 --> 00:07:17.360 align:start position:0%
+searching for and finding a domain on the
+internet, <00:07:15.560><c>its </c><00:07:16.060><c>owner, </c><00:07:16.560><c>validations,</c>
+
+00:07:17.360 --> 00:07:17.370 align:start position:0%
+internet, its owner, validations,
+ 
+
+00:07:17.370 --> 00:07:20.330 align:start position:0%
+internet, its owner, validations,
+etc. <00:07:18.240><c>The </c><00:07:19.110><c>record—that </c><00:07:19.980><c>last</c>
+
+00:07:20.330 --> 00:07:20.340 align:start position:0%
+etc. The record—that last
+ 
+
+00:07:20.340 --> 00:07:22.370 align:start position:0%
+etc. The record—that last
+record <00:07:20.805><c>I'll </c><00:07:21.270><c>mention </c><00:07:21.735><c>in </c><00:07:22.200><c>this</c>
+
+00:07:22.370 --> 00:07:22.380 align:start position:0%
+record I'll mention in this
+ 
+
+00:07:22.380 --> 00:07:24.260 align:start position:0%
+record I'll mention in this
+video <00:07:22.660><c>to </c><00:07:22.940><c>avoid </c><00:07:23.220><c>going </c><00:07:23.500><c>on </c><00:07:23.780><c>for </c><00:07:24.060><c>hours—is</c>
+
+00:07:24.260 --> 00:07:24.270 align:start position:0%
+video to avoid going on for hours—is
+ 
+
+00:07:24.270 --> 00:07:27.020 align:start position:0%
+video to avoid going on for hours—is
+the <00:07:24.817><c>main </c><00:07:25.364><c>server </c><00:07:25.911><c>record, </c><00:07:26.458><c>or</c>
+
+00:07:27.020 --> 00:07:27.030 align:start position:0%
+the main server record, or
+ 
+
+00:07:27.030 --> 00:07:28.550 align:start position:0%
+the main server record, or
+server <00:07:27.400><c>name </c><00:07:27.770><c>in </c><00:07:28.140><c>Spanish.</c>
+
+00:07:28.550 --> 00:07:28.560 align:start position:0%
+server name in Spanish.
+ 
+
+00:07:28.560 --> 00:07:30.890 align:start position:0%
+server name in Spanish.
+Basically, <00:07:29.070><c>it </c><00:07:29.580><c>specifies </c><00:07:30.090><c>the </c><00:07:30.600><c>name</c>
+
+00:07:30.890 --> 00:07:30.900 align:start position:0%
+Basically, it specifies the name
+ 
+
+00:07:30.900 --> 00:07:33.530 align:start position:0%
+Basically, it specifies the name
+of <00:07:31.404><c>an </c><00:07:31.908><c>authoritative </c><00:07:32.412><c>server </c><00:07:32.916><c>for </c><00:07:33.420><c>a</c>
+
+00:07:33.530 --> 00:07:33.540 align:start position:0%
+of an authoritative server for a
+ 
+
+00:07:33.540 --> 00:07:35.540 align:start position:0%
+of an authoritative server for a
+specific <00:07:33.864><c>domain </c><00:07:34.188><c>or </c><00:07:34.512><c>subdomain. </c><00:07:34.836><c>It's </c><00:07:35.160><c>as</c>
+
+00:07:35.540 --> 00:07:35.550 align:start position:0%
+specific domain or subdomain. It's as
+ 
+
+00:07:35.550 --> 00:07:37.460 align:start position:0%
+specific domain or subdomain. It's as
+simple <00:07:35.850><c>as </c><00:07:36.150><c>that. </c><00:07:36.450><c>In </c><00:07:36.750><c>other </c><00:07:37.050><c>words, </c><00:07:37.350><c>when</c>
+
+00:07:37.460 --> 00:07:37.470 align:start position:0%
+simple as that. In other words, when
+ 
+
+00:07:37.470 --> 00:07:39.530 align:start position:0%
+simple as that. In other words, when
+performing <00:07:37.848><c>a </c><00:07:38.226><c>DNS </c><00:07:38.604><c>query </c><00:07:38.982><c>and </c><00:07:39.360><c>resolution,</c>
+
+00:07:39.530 --> 00:07:39.540 align:start position:0%
+performing a DNS query and resolution,
+ 
+
+00:07:39.540 --> 00:07:42.410 align:start position:0%
+performing a DNS query and resolution,
+this <00:07:40.110><c>record </c><00:07:40.680><c>will </c><00:07:41.250><c>indicate </c><00:07:41.820><c>the</c>
+
+00:07:42.410 --> 00:07:42.420 align:start position:0%
+this record will indicate the
+ 
+
+00:07:42.420 --> 00:07:44.270 align:start position:0%
+this record will indicate the
+name <00:07:42.635><c>of </c><00:07:42.850><c>the </c><00:07:43.065><c>authoritative </c><00:07:43.280><c>server. </c><00:07:43.495><c>That's </c><00:07:43.710><c>why</c>
+
+00:07:44.270 --> 00:07:44.280 align:start position:0%
+name of the authoritative server. That's why
+ 
+
+00:07:44.280 --> 00:07:47.120 align:start position:0%
+name of the authoritative server. That's why
+I <00:07:44.750><c>specified </c><00:07:45.220><c>that </c><00:07:45.690><c>you're </c><00:07:46.160><c>querying. </c><00:07:46.630><c>And</c>
+
+00:07:47.120 --> 00:07:47.130 align:start position:0%
+I specified that you're querying. And
+ 
+
+00:07:47.130 --> 00:07:49.950 align:start position:0%
+I specified that you're querying. And
+one <00:07:47.541><c>more </c><00:07:47.952><c>record </c><00:07:48.363><c>as </c><00:07:48.774><c>a </c><00:07:49.185><c>bonus </c><00:07:49.596><c>gift,</c>
+
+00:07:49.950 --> 00:07:49.960 align:start position:0%
+one more record as a bonus gift,
+ 
+
+00:07:49.960 --> 00:07:51.720 align:start position:0%
+one more record as a bonus gift,
+as <00:07:50.120><c>I </c><00:07:50.280><c>promised </c><00:07:50.440><c>at </c><00:07:50.600><c>the </c><00:07:50.760><c>beginning </c><00:07:50.920><c>of </c><00:07:51.080><c>the </c><00:07:51.240><c>video: </c><00:07:51.400><c>the</c>
+
+00:07:51.720 --> 00:07:51.730 align:start position:0%
+as I promised at the beginning of the video: the
+ 
+
+00:07:51.730 --> 00:07:54.630 align:start position:0%
+as I promised at the beginning of the video: the
+SPF <00:07:52.190><c>record. </c><00:07:52.650><c>This </c><00:07:53.110><c>is </c><00:07:53.570><c>closely </c><00:07:54.030><c>related </c><00:07:54.490><c>to</c>
+
+00:07:54.630 --> 00:07:54.640 align:start position:0%
+SPF record. This is closely related to
+ 
+
+00:07:54.640 --> 00:07:56.340 align:start position:0%
+SPF record. This is closely related to
+cybersecurity. <00:07:55.375><c>Having </c><00:07:56.110><c>this</c>
+
+00:07:56.340 --> 00:07:56.350 align:start position:0%
+cybersecurity. Having this
+ 
+
+00:07:56.350 --> 00:07:58.320 align:start position:0%
+cybersecurity. Having this
+record <00:07:56.820><c>properly </c><00:07:57.290><c>filled </c><00:07:57.760><c>out</c>
+
+00:07:58.320 --> 00:07:58.330 align:start position:0%
+record properly filled out
+ 
+
+00:07:58.330 --> 00:08:01.680 align:start position:0%
+record properly filled out
+will <00:07:58.894><c>help </c><00:07:59.458><c>prevent </c><00:08:00.022><c>email </c><00:08:00.586><c>spoofing </c><00:08:01.150><c>and</c>
+
+00:08:01.680 --> 00:08:01.690 align:start position:0%
+will help prevent email spoofing and
+ 
+
+00:08:01.690 --> 00:08:04.050 align:start position:0%
+will help prevent email spoofing and
+also <00:08:02.158><c>limit </c><00:08:02.626><c>spam. </c><00:08:03.094><c>This </c><00:08:03.562><c>type </c><00:08:04.030><c>of</c>
+
+00:08:04.050 --> 00:08:04.060 align:start position:0%
+also limit spam. This type of
+ 
+
+00:08:04.060 --> 00:08:06.240 align:start position:0%
+also limit spam. This type of
+record <00:08:04.432><c>is </c><00:08:04.804><c>used </c><00:08:05.176><c>to </c><00:08:05.548><c>verify </c><00:08:05.920><c>the</c>
+
+00:08:06.240 --> 00:08:06.250 align:start position:0%
+record is used to verify the
+ 
+
+00:08:06.250 --> 00:08:08.550 align:start position:0%
+record is used to verify the
+SMTP <00:08:06.694><c>mail </c><00:08:07.138><c>server, </c><00:08:07.582><c>which </c><00:08:08.026><c>is </c><00:08:08.470><c>the</c>
+
+00:08:08.550 --> 00:08:08.560 align:start position:0%
+SMTP mail server, which is the
+ 
+
+00:08:08.560 --> 00:08:10.770 align:start position:0%
+SMTP mail server, which is the
+protocol <00:08:09.230><c>responsible </c><00:08:09.900><c>for </c><00:08:10.570><c>sending</c>
+
+00:08:10.770 --> 00:08:10.780 align:start position:0%
+protocol responsible for sending
+ 
+
+00:08:10.780 --> 00:08:13.350 align:start position:0%
+protocol responsible for sending
+emails. <00:08:11.043><c>That </c><00:08:11.306><c>is, </c><00:08:11.569><c>with </c><00:08:11.832><c>this </c><00:08:12.095><c>SPF </c><00:08:12.358><c>record,</c>
+
+00:08:13.350 --> 00:08:13.360 align:start position:0%
+emails. That is, with this SPF record,
+ 
+
+00:08:13.360 --> 00:08:16.020 align:start position:0%
+emails. That is, with this SPF record,
+I'm <00:08:14.000><c>giving </c><00:08:14.640><c>instructions </c><00:08:15.280><c>so</c>
+
+00:08:16.020 --> 00:08:16.030 align:start position:0%
+I'm giving instructions so
+ 
+
+00:08:16.030 --> 00:08:17.700 align:start position:0%
+I'm giving instructions so
+that <00:08:16.765><c>only </c><00:08:17.500><c>certain</c>
+
+00:08:17.700 --> 00:08:17.710 align:start position:0%
+that only certain
+ 
+
+00:08:17.710 --> 00:08:19.200 align:start position:0%
+that only certain
+specific <00:08:18.002><c>mail </c><00:08:18.294><c>servers </c><00:08:18.586><c>are </c><00:08:18.878><c>authorized</c>
+
+00:08:19.200 --> 00:08:19.210 align:start position:0%
+specific mail servers are authorized
+ 
+
+00:08:19.210 --> 00:08:21.600 align:start position:0%
+specific mail servers are authorized
+to <00:08:19.672><c>send </c><00:08:20.134><c>emails </c><00:08:20.596><c>on </c><00:08:21.058><c>behalf </c><00:08:21.520><c>of</c>
+
+00:08:21.600 --> 00:08:21.610 align:start position:0%
+to send emails on behalf of
+ 
+
+00:08:21.610 --> 00:08:23.159 align:start position:0%
+to send emails on behalf of
+a <00:08:22.900><c>domain.</c>
+
+00:08:23.159 --> 00:08:23.169 align:start position:0%
+a domain.
+ 
+
+00:08:23.169 --> 00:08:25.170 align:start position:0%
+a domain.
+Email <00:08:23.405><c>is </c><00:08:23.641><c>your </c><00:08:23.877><c>goal </c><00:08:24.113><c>because  </c><00:08:24.349><c>As </c><00:08:24.585><c>you </c><00:08:24.821><c>know, </c><00:08:25.057><c>it's</c>
+
+00:08:25.170 --> 00:08:25.180 align:start position:0%
+Email is your goal because  As you know, it's
+ 
+
+00:08:25.180 --> 00:08:26.909 align:start position:0%
+Email is your goal because  As you know, it's
+a <00:08:25.547><c>technique </c><00:08:25.914><c>where </c><00:08:26.281><c>the </c><00:08:26.648><c>attacker</c>
+
+00:08:26.909 --> 00:08:26.919 align:start position:0%
+a technique where the attacker
+ 
+
+00:08:26.919 --> 00:08:29.070 align:start position:0%
+a technique where the attacker
+sends <00:08:27.469><c>emails </c><00:08:28.019><c>with </c><00:08:28.569><c>a</c>
+
+00:08:29.070 --> 00:08:29.080 align:start position:0%
+sends emails with a
+ 
+
+00:08:29.080 --> 00:08:31.350 align:start position:0%
+sends emails with a
+fake <00:08:29.353><c>sender. </c><00:08:29.626><c>This </c><00:08:29.899><c>is </c><00:08:30.172><c>how </c><00:08:30.445><c>I </c><00:08:30.718><c>tried </c><00:08:30.991><c>to </c><00:08:31.264><c>trick</c>
+
+00:08:31.350 --> 00:08:31.360 align:start position:0%
+fake sender. This is how I tried to trick
+ 
+
+00:08:31.360 --> 00:08:32.880 align:start position:0%
+fake sender. This is how I tried to trick
+the <00:08:31.540><c>victim. </c><00:08:31.720><c>If </c><00:08:31.900><c>you </c><00:08:32.080><c>want </c><00:08:32.260><c>to </c><00:08:32.440><c>know </c><00:08:32.620><c>more </c><00:08:32.800><c>about</c>
+
+00:08:32.880 --> 00:08:32.890 align:start position:0%
+the victim. If you want to know more about
+ 
+
+00:08:32.890 --> 00:08:34.589 align:start position:0%
+the victim. If you want to know more about
+this <00:08:33.148><c>technique, </c><00:08:33.406><c>ask </c><00:08:33.664><c>in </c><00:08:33.922><c>the </c><00:08:34.180><c>comments</c>
+
+00:08:34.589 --> 00:08:34.599 align:start position:0%
+this technique, ask in the comments
+ 
+
+00:08:34.599 --> 00:08:36.300 align:start position:0%
+this technique, ask in the comments
+below. <00:08:34.869><c>And </c><00:08:35.139><c>that's </c><00:08:35.409><c>all </c><00:08:35.679><c>for </c><00:08:35.949><c>today's </c><00:08:36.219><c>video,</c>
+
+00:08:36.300 --> 00:08:36.310 align:start position:0%
+below. And that's all for today's video,
+ 
+
+00:08:36.310 --> 00:08:38.250 align:start position:0%
+below. And that's all for today's video,
+but <00:08:36.513><c>before </c><00:08:36.716><c>I </c><00:08:36.919><c>go, </c><00:08:37.122><c>I </c><00:08:37.325><c>want </c><00:08:37.528><c>to </c><00:08:37.731><c>tell </c><00:08:37.934><c>you </c><00:08:38.137><c>that</c>
+
+00:08:38.250 --> 00:08:38.260 align:start position:0%
+but before I go, I want to tell you that
+ 
+
+00:08:38.260 --> 00:08:40.709 align:start position:0%
+but before I go, I want to tell you that
+all <00:08:38.589><c>types </c><00:08:38.918><c>of </c><00:08:39.247><c>DNS </c><00:08:39.576><c>records </c><00:08:39.905><c>are</c>
+
+00:08:40.709 --> 00:08:40.719 align:start position:0%
+all types of DNS records are
+ 
+
+00:08:40.719 --> 00:08:42.750 align:start position:0%
+all types of DNS records are
+properly <00:08:41.191><c>defined </c><00:08:41.663><c>and </c><00:08:42.135><c>documented </c><00:08:42.607><c>in</c>
+
+00:08:42.750 --> 00:08:42.760 align:start position:0%
+properly defined and documented in
+ 
+
+00:08:42.760 --> 00:08:46.920 align:start position:0%
+properly defined and documented in
+RFCs. <00:08:43.735><c>RFCs </c><00:08:44.710><c>are </c><00:08:45.685><c>documents </c><00:08:46.660><c>that</c>
+
+00:08:46.920 --> 00:08:46.930 align:start position:0%
+RFCs. RFCs are documents that
+ 
+
+00:08:46.930 --> 00:08:48.660 align:start position:0%
+RFCs. RFCs are documents that
+detail <00:08:47.530><c>all </c><00:08:48.130><c>these</c>
+
+00:08:48.660 --> 00:08:48.670 align:start position:0%
+detail all these
+ 
+
+00:08:48.670 --> 00:08:50.730 align:start position:0%
+detail all these
+technical <00:08:49.041><c>specifications. </c><00:08:49.412><c>Now, </c><00:08:49.783><c>if </c><00:08:50.154><c>you </c><00:08:50.525><c>enjoyed</c>
+
+00:08:50.730 --> 00:08:50.740 align:start position:0%
+technical specifications. Now, if you enjoyed
+ 
+
+00:08:50.740 --> 00:08:52.820 align:start position:0%
+technical specifications. Now, if you enjoyed
+learning <00:08:51.190><c>from </c><00:08:51.640><c>this </c><00:08:52.090><c>video, </c><00:08:52.540><c>please</c>
+
+00:08:52.820 --> 00:08:54.540 align:start position:0%
+learning from this video, please
+ 
+
+00:08:54.540 --> 00:08:54.550 align:start position:0%
+ 
+ 
+
+00:08:54.550 --> 00:08:57.690 align:start position:0%
+ 
+give <00:08:55.044><c>it </c><00:08:55.538><c>a </c><00:08:56.032><c>like. </c><00:08:56.526><c>And </c><00:08:57.020><c>if </c><00:08:57.514><c>you</c>
+
+00:08:57.690 --> 00:08:57.700 align:start position:0%
+give it a like. And if you
+ 
+
+00:08:57.700 --> 00:08:59.550 align:start position:0%
+give it a like. And if you
+subscribe, <00:08:58.042><c>that </c><00:08:58.384><c>would </c><00:08:58.726><c>be </c><00:08:59.068><c>awesome! </c><00:08:59.410><c>Don't</c>
+
+00:08:59.550 --> 00:08:59.560 align:start position:0%
+subscribe, that would be awesome! Don't
+ 
+
+00:08:59.560 --> 00:09:00.870 align:start position:0%
+subscribe, that would be awesome! Don't
+forget <00:08:59.735><c>to </c><00:08:59.910><c>hit </c><00:09:00.085><c>the </c><00:09:00.260><c>bell </c><00:09:00.435><c>to </c><00:09:00.610><c>be </c><00:09:00.785><c>notified</c>
+
+00:09:00.870 --> 00:09:00.880 align:start position:0%
+forget to hit the bell to be notified
+ 
+
+00:09:00.880 --> 00:09:02.880 align:start position:0%
+forget to hit the bell to be notified
+when <00:09:01.192><c>I </c><00:09:01.504><c>release </c><00:09:01.816><c>a </c><00:09:02.128><c>new </c><00:09:02.440><c>video.</c>
+
+00:09:02.880 --> 00:09:02.890 align:start position:0%
+when I release a new video.
+ 
+
+00:09:02.890 --> 00:09:04.920 align:start position:0%
+when I release a new video.
+Before <00:09:03.118><c>you </c><00:09:03.346><c>close </c><00:09:03.574><c>this </c><00:09:03.802><c>window </c><00:09:04.030><c>or </c><00:09:04.258><c>skip </c><00:09:04.486><c>to </c><00:09:04.714><c>another</c>
+
+00:09:04.920 --> 00:09:04.930 align:start position:0%
+Before you close this window or skip to another
+ 
+
+00:09:04.930 --> 00:09:06.630 align:start position:0%
+Before you close this window or skip to another
+video, <00:09:05.724><c>check </c><00:09:06.518><c>out</c>
+
+00:09:06.630 --> 00:09:06.640 align:start position:0%
+video, check out
+ 
+
+00:09:06.640 --> 00:09:08.280 align:start position:0%
+video, check out
+these <00:09:06.890><c>two </c><00:09:07.140><c>videos </c><00:09:07.390><c>above. </c><00:09:07.640><c>See </c><00:09:07.890><c>you </c><00:09:08.140><c>in</c>
+
+00:09:08.280 --> 00:09:08.290 align:start position:0%
+these two videos above. See you in
+ 
+
+00:09:08.290 --> 00:09:10.430 align:start position:0%
+these two videos above. See you in
+the <00:09:09.025><c>next </c><00:09:09.760><c>video!</c>
+
+00:09:10.430 --> 00:09:10.440 align:start position:0%
+the next video!
+ 
+
+00:09:10.440 --> 00:09:19.230 align:start position:0%
+the next video!
+[Music]
+

@@ -1,0 +1,2056 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.480 --> 00:00:07.670 align:start position:0%
+ 
+Hi<00:00:05.640><c> everyone,</c><00:00:06.160><c> and</c><00:00:06.440><c> welcome</c><00:00:06.960><c> to</c><00:00:07.080><c> our</c><00:00:07.240><c> session</c>
+
+00:00:07.670 --> 00:00:07.680 align:start position:0%
+Hi everyone, and welcome to our session
+ 
+
+00:00:07.680 --> 00:00:10.150 align:start position:0%
+Hi everyone, and welcome to our session
+on<00:00:07.960><c> Core</c><00:00:08.360><c> Web</c><00:00:08.680><c> Vitals</c><00:00:09.280><c> and</c><00:00:09.600><c> search</c><00:00:09.880><c> engine</c>
+
+00:00:10.150 --> 00:00:10.160 align:start position:0%
+on Core Web Vitals and search engine
+ 
+
+00:00:10.160 --> 00:00:12.190 align:start position:0%
+on Core Web Vitals and search engine
+optimization<00:00:11.040><c> SEO.</c>
+
+00:00:12.190 --> 00:00:12.200 align:start position:0%
+optimization SEO.
+ 
+
+00:00:12.200 --> 00:00:14.510 align:start position:0%
+optimization SEO.
+Today,<00:00:12.760><c> we'll</c><00:00:12.920><c> be</c><00:00:13.040><c> talking</c><00:00:13.400><c> about</c><00:00:13.840><c> what</c><00:00:14.120><c> SEO</c>
+
+00:00:14.510 --> 00:00:14.520 align:start position:0%
+Today, we'll be talking about what SEO
+ 
+
+00:00:14.520 --> 00:00:16.990 align:start position:0%
+Today, we'll be talking about what SEO
+is,<00:00:15.120><c> how</c><00:00:15.320><c> the</c><00:00:15.440><c> Core</c><00:00:15.760><c> Web</c><00:00:16.000><c> Vitals</c><00:00:16.440><c> play</c><00:00:16.640><c> a</c><00:00:16.720><c> role</c>
+
+00:00:16.990 --> 00:00:17.000 align:start position:0%
+is, how the Core Web Vitals play a role
+ 
+
+00:00:17.000 --> 00:00:18.950 align:start position:0%
+is, how the Core Web Vitals play a role
+there,<00:00:17.360><c> and</c><00:00:17.640><c> how</c><00:00:17.920><c> you</c><00:00:18.040><c> can</c><00:00:18.240><c> use</c><00:00:18.640><c> Search</c>
+
+00:00:18.950 --> 00:00:18.960 align:start position:0%
+there, and how you can use Search
+ 
+
+00:00:18.960 --> 00:00:21.630 align:start position:0%
+there, and how you can use Search
+Console<00:00:19.880><c> to</c><00:00:20.000><c> help</c><00:00:20.240><c> track</c><00:00:20.760><c> and</c><00:00:20.880><c> improve</c><00:00:21.480><c> your</c>
+
+00:00:21.630 --> 00:00:21.640 align:start position:0%
+Console to help track and improve your
+ 
+
+00:00:21.640 --> 00:00:25.150 align:start position:0%
+Console to help track and improve your
+site's<00:00:21.960><c> metrics.</c><00:00:23.120><c> For</c><00:00:23.240><c> many,</c><00:00:23.840><c> SEO</c><00:00:24.400><c> is</c><00:00:24.560><c> a</c><00:00:24.640><c> weird</c>
+
+00:00:25.150 --> 00:00:25.160 align:start position:0%
+site's metrics. For many, SEO is a weird
+ 
+
+00:00:25.160 --> 00:00:28.470 align:start position:0%
+site's metrics. For many, SEO is a weird
+collection<00:00:25.760><c> of</c><00:00:26.000><c> black</c><00:00:26.520><c> magic</c><00:00:26.920><c> spells.</c>
+
+00:00:28.470 --> 00:00:28.480 align:start position:0%
+collection of black magic spells.
+ 
+
+00:00:28.480 --> 00:00:30.990 align:start position:0%
+collection of black magic spells.
+But,<00:00:29.000><c> once</c><00:00:29.280><c> you</c><00:00:29.400><c> dig</c><00:00:29.640><c> in</c><00:00:30.000><c> a</c><00:00:30.040><c> bit</c><00:00:30.280><c> more,</c><00:00:30.680><c> it's</c>
+
+00:00:30.990 --> 00:00:31.000 align:start position:0%
+But, once you dig in a bit more, it's
+ 
+
+00:00:31.000 --> 00:00:33.030 align:start position:0%
+But, once you dig in a bit more, it's
+not<00:00:31.560><c> at</c><00:00:31.720><c> all</c><00:00:31.920><c> that.</c>
+
+00:00:33.030 --> 00:00:33.040 align:start position:0%
+not at all that.
+ 
+
+00:00:33.040 --> 00:00:35.070 align:start position:0%
+not at all that.
+We've<00:00:33.280><c> heard</c><00:00:33.600><c> that</c><00:00:33.800><c> Google</c><00:00:34.120><c> is</c><00:00:34.400><c> pretty</c><00:00:34.720><c> good</c>
+
+00:00:35.070 --> 00:00:35.080 align:start position:0%
+We've heard that Google is pretty good
+ 
+
+00:00:35.080 --> 00:00:37.150 align:start position:0%
+We've heard that Google is pretty good
+at<00:00:35.200><c> figuring</c><00:00:35.720><c> websites</c><00:00:36.320><c> out,</c><00:00:36.760><c> and</c><00:00:36.920><c> it's</c>
+
+00:00:37.150 --> 00:00:37.160 align:start position:0%
+at figuring websites out, and it's
+ 
+
+00:00:37.160 --> 00:00:39.310 align:start position:0%
+at figuring websites out, and it's
+tempting<00:00:37.640><c> to</c><00:00:37.800><c> assume</c><00:00:38.360><c> that</c><00:00:38.560><c> having</c><00:00:38.800><c> a</c><00:00:38.880><c> clean</c>
+
+00:00:39.310 --> 00:00:39.320 align:start position:0%
+tempting to assume that having a clean
+ 
+
+00:00:39.320 --> 00:00:41.390 align:start position:0%
+tempting to assume that having a clean
+website<00:00:39.920><c> means</c><00:00:40.240><c> you</c><00:00:40.360><c> don't</c><00:00:40.640><c> need</c><00:00:40.920><c> to</c><00:00:41.080><c> think</c>
+
+00:00:41.390 --> 00:00:41.400 align:start position:0%
+website means you don't need to think
+ 
+
+00:00:41.400 --> 00:00:44.950 align:start position:0%
+website means you don't need to think
+about<00:00:41.760><c> SEO,</c><00:00:42.760><c> but</c><00:00:42.920><c> it's</c><00:00:43.120><c> not</c><00:00:43.560><c> that</c><00:00:43.880><c> simple.</c>
+
+00:00:44.950 --> 00:00:44.960 align:start position:0%
+about SEO, but it's not that simple.
+ 
+
+00:00:44.960 --> 00:00:48.070 align:start position:0%
+about SEO, but it's not that simple.
+SEO<00:00:45.640><c> is</c><00:00:45.840><c> all</c><00:00:46.000><c> about</c><00:00:46.400><c> improving</c><00:00:47.040><c> the</c><00:00:47.360><c> quality</c>
+
+00:00:48.070 --> 00:00:48.080 align:start position:0%
+SEO is all about improving the quality
+ 
+
+00:00:48.080 --> 00:00:50.470 align:start position:0%
+SEO is all about improving the quality
+and<00:00:48.320><c> quantity</c><00:00:49.040><c> of</c><00:00:49.160><c> the</c><00:00:49.280><c> traffic</c><00:00:49.840><c> a</c><00:00:49.920><c> website</c>
+
+00:00:50.470 --> 00:00:50.480 align:start position:0%
+and quantity of the traffic a website
+ 
+
+00:00:50.480 --> 00:00:53.150 align:start position:0%
+and quantity of the traffic a website
+gets<00:00:51.000><c> from</c><00:00:51.320><c> normal</c><00:00:51.640><c> search</c><00:00:51.920><c> results,</c><00:00:52.840><c> so</c>
+
+00:00:53.150 --> 00:00:53.160 align:start position:0%
+gets from normal search results, so
+ 
+
+00:00:53.160 --> 00:00:55.670 align:start position:0%
+gets from normal search results, so
+excluding<00:00:53.800><c> things</c><00:00:54.200><c> like</c><00:00:54.480><c> ads.</c>
+
+00:00:55.670 --> 00:00:55.680 align:start position:0%
+excluding things like ads.
+ 
+
+00:00:55.680 --> 00:00:57.310 align:start position:0%
+excluding things like ads.
+There<00:00:55.760><c> are</c><00:00:55.800><c> multiple</c><00:00:56.240><c> things</c><00:00:56.640><c> a</c><00:00:56.720><c> website</c><00:00:57.200><c> can</c>
+
+00:00:57.310 --> 00:00:57.320 align:start position:0%
+There are multiple things a website can
+ 
+
+00:00:57.320 --> 00:00:59.830 align:start position:0%
+There are multiple things a website can
+do<00:00:57.600><c> to</c><00:00:57.760><c> achieve</c><00:00:58.080><c> that.</c><00:00:58.600><c> It</c><00:00:58.760><c> differs</c><00:00:59.160><c> a</c><00:00:59.240><c> bit</c><00:00:59.600><c> by</c>
+
+00:00:59.830 --> 00:00:59.840 align:start position:0%
+do to achieve that. It differs a bit by
+ 
+
+00:00:59.840 --> 00:01:01.710 align:start position:0%
+do to achieve that. It differs a bit by
+search<00:01:00.200><c> engine,</c><00:01:00.640><c> and</c><00:01:00.800><c> I</c><00:01:00.880><c> can</c><00:01:01.040><c> only</c><00:01:01.280><c> speak</c><00:01:01.560><c> for</c>
+
+00:01:01.710 --> 00:01:01.720 align:start position:0%
+search engine, and I can only speak for
+ 
+
+00:01:01.720 --> 00:01:02.750 align:start position:0%
+search engine, and I can only speak for
+Google.
+
+00:01:02.750 --> 00:01:02.760 align:start position:0%
+Google.
+ 
+
+00:01:02.760 --> 00:01:05.030 align:start position:0%
+Google.
+In<00:01:02.920><c> general,</c><00:01:03.760><c> the</c><00:01:03.880><c> main</c><00:01:04.280><c> aspects</c><00:01:04.800><c> are</c><00:01:04.920><c> the</c>
+
+00:01:05.030 --> 00:01:05.040 align:start position:0%
+In general, the main aspects are the
+ 
+
+00:01:05.040 --> 00:01:06.830 align:start position:0%
+In general, the main aspects are the
+same<00:01:05.480><c> everywhere,</c><00:01:05.880><c> though.</c>
+
+00:01:06.830 --> 00:01:06.840 align:start position:0%
+same everywhere, though.
+ 
+
+00:01:06.840 --> 00:01:09.390 align:start position:0%
+same everywhere, though.
+Make<00:01:07.120><c> relevant</c><00:01:07.560><c> content.</c><00:01:08.440><c> Users</c><00:01:09.040><c> go</c><00:01:09.240><c> to</c>
+
+00:01:09.390 --> 00:01:09.400 align:start position:0%
+Make relevant content. Users go to
+ 
+
+00:01:09.400 --> 00:01:11.590 align:start position:0%
+Make relevant content. Users go to
+search<00:01:09.680><c> engines</c><00:01:10.120><c> to</c><00:01:10.280><c> find</c><00:01:10.680><c> out</c><00:01:10.920><c> more,</c><00:01:11.360><c> and</c>
+
+00:01:11.590 --> 00:01:11.600 align:start position:0%
+search engines to find out more, and
+ 
+
+00:01:11.600 --> 00:01:13.550 align:start position:0%
+search engines to find out more, and
+your<00:01:11.800><c> pages</c><00:01:12.280><c> might</c><00:01:12.560><c> be</c><00:01:12.680><c> the</c><00:01:12.840><c> resource</c><00:01:13.280><c> that</c>
+
+00:01:13.550 --> 00:01:13.560 align:start position:0%
+your pages might be the resource that
+ 
+
+00:01:13.560 --> 00:01:15.190 align:start position:0%
+your pages might be the resource that
+they're<00:01:13.840><c> looking</c><00:01:14.160><c> for.</c>
+
+00:01:15.190 --> 00:01:15.200 align:start position:0%
+they're looking for.
+ 
+
+00:01:15.200 --> 00:01:17.110 align:start position:0%
+they're looking for.
+This<00:01:15.320><c> is</c><00:01:15.440><c> more</c><00:01:15.760><c> than</c><00:01:15.920><c> just</c><00:01:16.240><c> writing</c><00:01:16.640><c> well.</c>
+
+00:01:17.110 --> 00:01:17.120 align:start position:0%
+This is more than just writing well.
+ 
+
+00:01:17.120 --> 00:01:18.950 align:start position:0%
+This is more than just writing well.
+It's<00:01:17.360><c> also</c><00:01:17.640><c> about</c><00:01:18.000><c> picking</c><00:01:18.320><c> topics</c><00:01:18.840><c> and</c>
+
+00:01:18.950 --> 00:01:18.960 align:start position:0%
+It's also about picking topics and
+ 
+
+00:01:18.960 --> 00:01:22.070 align:start position:0%
+It's also about picking topics and
+phrasing<00:01:19.480><c> that's</c><00:01:19.840><c> used</c><00:01:20.200><c> by</c><00:01:20.400><c> your</c><00:01:20.680><c> audience.</c>
+
+00:01:22.070 --> 00:01:22.080 align:start position:0%
+phrasing that's used by your audience.
+ 
+
+00:01:22.080 --> 00:01:24.150 align:start position:0%
+phrasing that's used by your audience.
+Make<00:01:22.360><c> the</c><00:01:22.480><c> content</c><00:01:23.000><c> accessible</c><00:01:23.640><c> to</c><00:01:23.840><c> search</c>
+
+00:01:24.150 --> 00:01:24.160 align:start position:0%
+Make the content accessible to search
+ 
+
+00:01:24.160 --> 00:01:26.110 align:start position:0%
+Make the content accessible to search
+engines.<00:01:24.800><c> If</c><00:01:24.960><c> search</c><00:01:25.200><c> engines</c><00:01:25.720><c> can't</c>
+
+00:01:26.110 --> 00:01:26.120 align:start position:0%
+engines. If search engines can't
+ 
+
+00:01:26.120 --> 00:01:28.390 align:start position:0%
+engines. If search engines can't
+understand<00:01:26.680><c> your</c><00:01:26.800><c> content,</c><00:01:27.680><c> it'll</c><00:01:27.920><c> be</c><00:01:28.040><c> hard</c>
+
+00:01:28.390 --> 00:01:28.400 align:start position:0%
+understand your content, it'll be hard
+ 
+
+00:01:28.400 --> 00:01:30.750 align:start position:0%
+understand your content, it'll be hard
+for<00:01:28.520><c> them</c><00:01:28.760><c> to</c><00:01:28.920><c> recommend</c><00:01:29.440><c> it.</c>
+
+00:01:30.750 --> 00:01:30.760 align:start position:0%
+for them to recommend it.
+ 
+
+00:01:30.760 --> 00:01:33.030 align:start position:0%
+for them to recommend it.
+Show<00:01:31.080><c> why</c><00:01:31.320><c> your</c><00:01:31.640><c> site</c><00:01:31.960><c> is</c><00:01:32.120><c> awesome</c><00:01:32.640><c> using</c><00:01:32.920><c> the</c>
+
+00:01:33.030 --> 00:01:33.040 align:start position:0%
+Show why your site is awesome using the
+ 
+
+00:01:33.040 --> 00:01:35.950 align:start position:0%
+Show why your site is awesome using the
+various<00:01:33.520><c> signals</c><00:01:34.000><c> that</c><00:01:34.200><c> flow</c><00:01:34.600><c> into</c><00:01:34.920><c> SEO.</c>
+
+00:01:35.950 --> 00:01:35.960 align:start position:0%
+various signals that flow into SEO.
+ 
+
+00:01:35.960 --> 00:01:38.430 align:start position:0%
+various signals that flow into SEO.
+There's<00:01:36.200><c> a</c><00:01:36.280><c> lot</c><00:01:36.640><c> that</c><00:01:36.800><c> plays</c><00:01:37.160><c> in</c><00:01:37.320><c> here.</c><00:01:38.080><c> A</c><00:01:38.200><c> good</c>
+
+00:01:38.430 --> 00:01:38.440 align:start position:0%
+There's a lot that plays in here. A good
+ 
+
+00:01:38.440 --> 00:01:40.430 align:start position:0%
+There's a lot that plays in here. A good
+way<00:01:38.560><c> to</c><00:01:38.720><c> think</c><00:01:38.960><c> about</c><00:01:39.280><c> this</c><00:01:39.600><c> is</c><00:01:40.000><c> given</c><00:01:40.280><c> there</c>
+
+00:01:40.430 --> 00:01:40.440 align:start position:0%
+way to think about this is given there
+ 
+
+00:01:40.440 --> 00:01:42.710 align:start position:0%
+way to think about this is given there
+are<00:01:40.520><c> multiple</c><00:01:41.160><c> good</c><00:01:41.480><c> and</c><00:01:41.600><c> relevant</c><00:01:42.000><c> results,</c>
+
+00:01:42.710 --> 00:01:42.720 align:start position:0%
+are multiple good and relevant results,
+ 
+
+00:01:42.720 --> 00:01:45.230 align:start position:0%
+are multiple good and relevant results,
+how<00:01:43.120><c> can</c><00:01:43.480><c> you</c><00:01:43.760><c> show</c><00:01:44.120><c> search</c><00:01:44.440><c> engines</c><00:01:44.840><c> that</c>
+
+00:01:45.230 --> 00:01:45.240 align:start position:0%
+how can you show search engines that
+ 
+
+00:01:45.240 --> 00:01:48.110 align:start position:0%
+how can you show search engines that
+yours<00:01:46.160><c> is</c><00:01:46.320><c> particularly</c><00:01:47.040><c> good</c><00:01:47.480><c> and</c><00:01:47.680><c> useful</c>
+
+00:01:48.110 --> 00:01:48.120 align:start position:0%
+yours is particularly good and useful
+ 
+
+00:01:48.120 --> 00:01:50.470 align:start position:0%
+yours is particularly good and useful
+answer<00:01:48.600><c> for</c><00:01:48.840><c> users</c><00:01:49.240><c> right</c><00:01:49.440><c> now?</c>
+
+00:01:50.470 --> 00:01:50.480 align:start position:0%
+answer for users right now?
+ 
+
+00:01:50.480 --> 00:01:52.870 align:start position:0%
+answer for users right now?
+The<00:01:50.560><c> Core</c><00:01:50.840><c> Web</c><00:01:51.040><c> Vitals</c><00:01:51.640><c> flow</c><00:01:52.040><c> into</c><00:01:52.320><c> that</c><00:01:52.560><c> last</c>
+
+00:01:52.870 --> 00:01:52.880 align:start position:0%
+The Core Web Vitals flow into that last
+ 
+
+00:01:52.880 --> 00:01:54.510 align:start position:0%
+The Core Web Vitals flow into that last
+group.
+
+00:01:54.510 --> 00:01:54.520 align:start position:0%
+group.
+ 
+
+00:01:54.520 --> 00:01:57.030 align:start position:0%
+group.
+For<00:01:54.640><c> the</c><00:01:54.840><c> other</c><00:01:55.120><c> aspects</c><00:01:55.600><c> of</c><00:01:55.720><c> SEO,</c><00:01:56.320><c> I</c><00:01:56.480><c> strongly</c>
+
+00:01:57.030 --> 00:01:57.040 align:start position:0%
+For the other aspects of SEO, I strongly
+ 
+
+00:01:57.040 --> 00:01:59.270 align:start position:0%
+For the other aspects of SEO, I strongly
+recommend<00:01:57.640><c> checking</c><00:01:58.080><c> out</c><00:01:58.280><c> some</c><00:01:58.520><c> of</c><00:01:58.640><c> the</c><00:01:58.880><c> SEO</c>
+
+00:01:59.270 --> 00:01:59.280 align:start position:0%
+recommend checking out some of the SEO
+ 
+
+00:01:59.280 --> 00:02:01.230 align:start position:0%
+recommend checking out some of the SEO
+starter<00:01:59.640><c> guides</c><00:02:00.160><c> and</c><00:02:00.320><c> getting</c><00:02:00.600><c> help</c><00:02:01.040><c> from</c>
+
+00:02:01.230 --> 00:02:01.240 align:start position:0%
+starter guides and getting help from
+ 
+
+00:02:01.240 --> 00:02:03.150 align:start position:0%
+starter guides and getting help from
+experienced<00:02:01.880><c> SEOs.</c>
+
+00:02:03.150 --> 00:02:03.160 align:start position:0%
+experienced SEOs.
+ 
+
+00:02:03.160 --> 00:02:05.750 align:start position:0%
+experienced SEOs.
+It's<00:02:03.360><c> useful</c><00:02:03.840><c> to</c><00:02:04.000><c> think</c><00:02:04.320><c> of</c><00:02:04.600><c> SEO</c><00:02:05.120><c> a</c><00:02:05.200><c> bit</c><00:02:05.479><c> like</c>
+
+00:02:05.750 --> 00:02:05.760 align:start position:0%
+It's useful to think of SEO a bit like
+ 
+
+00:02:05.760 --> 00:02:08.350 align:start position:0%
+It's useful to think of SEO a bit like
+usability.<00:02:06.920><c> A</c><00:02:07.040><c> little</c><00:02:07.440><c> bit</c><00:02:07.600><c> of</c><00:02:07.720><c> information</c>
+
+00:02:08.350 --> 00:02:08.360 align:start position:0%
+usability. A little bit of information
+ 
+
+00:02:08.360 --> 00:02:10.630 align:start position:0%
+usability. A little bit of information
+is<00:02:08.560><c> helpful,</c><00:02:09.280><c> but</c><00:02:09.520><c> when</c><00:02:09.640><c> it</c><00:02:09.759><c> gets</c><00:02:10.000><c> serious,</c>
+
+00:02:10.630 --> 00:02:10.640 align:start position:0%
+is helpful, but when it gets serious,
+ 
+
+00:02:10.640 --> 00:02:13.710 align:start position:0%
+is helpful, but when it gets serious,
+you<00:02:11.000><c> want</c><00:02:11.280><c> to</c><00:02:11.360><c> get</c><00:02:11.520><c> the</c><00:02:11.640><c> help</c><00:02:11.959><c> from</c><00:02:12.240><c> experts.</c>
+
+00:02:13.710 --> 00:02:13.720 align:start position:0%
+you want to get the help from experts.
+ 
+
+00:02:13.720 --> 00:02:15.990 align:start position:0%
+you want to get the help from experts.
+Over<00:02:13.959><c> to</c><00:02:14.080><c> the</c><00:02:14.200><c> Core</c><00:02:14.520><c> Web</c><00:02:14.760><c> Vitals.</c><00:02:15.760><c> You've</c>
+
+00:02:15.990 --> 00:02:16.000 align:start position:0%
+Over to the Core Web Vitals. You've
+ 
+
+00:02:16.000 --> 00:02:17.949 align:start position:0%
+Over to the Core Web Vitals. You've
+heard<00:02:16.160><c> a</c><00:02:16.240><c> lot</c><00:02:16.600><c> about</c><00:02:16.920><c> the</c><00:02:17.000><c> Core</c><00:02:17.240><c> Web</c><00:02:17.480><c> Vitals</c>
+
+00:02:17.949 --> 00:02:17.959 align:start position:0%
+heard a lot about the Core Web Vitals
+ 
+
+00:02:17.959 --> 00:02:20.190 align:start position:0%
+heard a lot about the Core Web Vitals
+today<00:02:18.240><c> already.</c><00:02:18.840><c> So,</c><00:02:19.040><c> this</c><00:02:19.280><c> is</c><00:02:19.480><c> really</c><00:02:19.800><c> just</c><00:02:20.120><c> a</c>
+
+00:02:20.190 --> 00:02:20.200 align:start position:0%
+today already. So, this is really just a
+ 
+
+00:02:20.200 --> 00:02:22.590 align:start position:0%
+today already. So, this is really just a
+super<00:02:20.680><c> short</c><00:02:21.040><c> overview</c><00:02:21.880><c> to</c><00:02:22.040><c> help</c><00:02:22.280><c> get</c><00:02:22.480><c> you</c>
+
+00:02:22.590 --> 00:02:22.600 align:start position:0%
+super short overview to help get you
+ 
+
+00:02:22.600 --> 00:02:23.830 align:start position:0%
+super short overview to help get you
+started.
+
+00:02:23.830 --> 00:02:23.840 align:start position:0%
+started.
+ 
+
+00:02:23.840 --> 00:02:26.230 align:start position:0%
+started.
+The<00:02:23.959><c> Core</c><00:02:24.280><c> Web</c><00:02:24.520><c> Vitals</c><00:02:25.200><c> focus</c><00:02:25.640><c> on</c><00:02:25.880><c> three</c>
+
+00:02:26.230 --> 00:02:26.240 align:start position:0%
+The Core Web Vitals focus on three
+ 
+
+00:02:26.240 --> 00:02:29.590 align:start position:0%
+The Core Web Vitals focus on three
+aspects.<00:02:27.280><c> First,</c><00:02:28.280><c> how</c><00:02:28.520><c> quickly</c><00:02:29.200><c> the</c><00:02:29.280><c> page</c>
+
+00:02:29.590 --> 00:02:29.600 align:start position:0%
+aspects. First, how quickly the page
+ 
+
+00:02:29.600 --> 00:02:32.949 align:start position:0%
+aspects. First, how quickly the page
+loads.<00:02:30.680><c> Second,</c><00:02:31.400><c> how</c><00:02:31.640><c> soon</c><00:02:32.120><c> you</c><00:02:32.240><c> can</c><00:02:32.400><c> interact</c>
+
+00:02:32.949 --> 00:02:32.959 align:start position:0%
+loads. Second, how soon you can interact
+ 
+
+00:02:32.959 --> 00:02:36.070 align:start position:0%
+loads. Second, how soon you can interact
+with<00:02:33.080><c> the</c><00:02:33.200><c> page.</c><00:02:34.280><c> And</c><00:02:34.600><c> third,</c><00:02:35.320><c> how</c><00:02:35.560><c> stable</c><00:02:35.959><c> the</c>
+
+00:02:36.070 --> 00:02:36.080 align:start position:0%
+with the page. And third, how stable the
+ 
+
+00:02:36.080 --> 00:02:38.870 align:start position:0%
+with the page. And third, how stable the
+page<00:02:36.440><c> is</c><00:02:36.959><c> as</c><00:02:37.240><c> it's</c><00:02:37.480><c> loading</c><00:02:37.959><c> and</c><00:02:38.240><c> as</c><00:02:38.480><c> the</c><00:02:38.600><c> user</c>
+
+00:02:38.870 --> 00:02:38.880 align:start position:0%
+page is as it's loading and as the user
+ 
+
+00:02:38.880 --> 00:02:40.910 align:start position:0%
+page is as it's loading and as the user
+is<00:02:39.000><c> interacting</c><00:02:39.600><c> with</c><00:02:39.800><c> it.</c>
+
+00:02:40.910 --> 00:02:40.920 align:start position:0%
+is interacting with it.
+ 
+
+00:02:40.920 --> 00:02:42.990 align:start position:0%
+is interacting with it.
+If<00:02:41.080><c> you're</c><00:02:41.200><c> curious</c><00:02:41.920><c> about</c><00:02:42.280><c> more</c><00:02:42.520><c> details</c>
+
+00:02:42.990 --> 00:02:43.000 align:start position:0%
+If you're curious about more details
+ 
+
+00:02:43.000 --> 00:02:44.790 align:start position:0%
+If you're curious about more details
+there,<00:02:43.400><c> be</c><00:02:43.560><c> sure</c><00:02:43.840><c> to</c><00:02:44.000><c> check</c><00:02:44.280><c> out</c><00:02:44.440><c> the</c><00:02:44.600><c> other</c>
+
+00:02:44.790 --> 00:02:44.800 align:start position:0%
+there, be sure to check out the other
+ 
+
+00:02:44.800 --> 00:02:47.790 align:start position:0%
+there, be sure to check out the other
+sessions<00:02:45.520><c> and</c><00:02:45.880><c> our</c><00:02:46.000><c> documentation.</c>
+
+00:02:47.790 --> 00:02:47.800 align:start position:0%
+sessions and our documentation.
+ 
+
+00:02:47.800 --> 00:02:49.750 align:start position:0%
+sessions and our documentation.
+When<00:02:48.080><c> it</c><00:02:48.200><c> comes</c><00:02:48.560><c> to</c><00:02:48.680><c> data</c><00:02:48.959><c> sources,</c><00:02:49.600><c> we</c>
+
+00:02:49.750 --> 00:02:49.760 align:start position:0%
+When it comes to data sources, we
+ 
+
+00:02:49.760 --> 00:02:53.590 align:start position:0%
+When it comes to data sources, we
+differentiate<00:02:50.760><c> between</c><00:02:51.200><c> field</c><00:02:51.680><c> data</c><00:02:52.440><c> and</c><00:02:52.959><c> lab</c>
+
+00:02:53.590 --> 00:02:53.600 align:start position:0%
+differentiate between field data and lab
+ 
+
+00:02:53.600 --> 00:02:55.270 align:start position:0%
+differentiate between field data and lab
+test<00:02:53.959><c> data.</c>
+
+00:02:55.270 --> 00:02:55.280 align:start position:0%
+test data.
+ 
+
+00:02:55.280 --> 00:02:57.949 align:start position:0%
+test data.
+Field<00:02:55.720><c> data,</c><00:02:56.440><c> also</c><00:02:56.760><c> called</c><00:02:57.280><c> real</c><00:02:57.640><c> user</c>
+
+00:02:57.949 --> 00:02:57.959 align:start position:0%
+Field data, also called real user
+ 
+
+00:02:57.959 --> 00:03:01.430 align:start position:0%
+Field data, also called real user
+metrics<00:02:58.720><c> or</c><00:02:59.120><c> rum</c><00:02:59.440><c> data,</c><00:03:00.239><c> is</c><00:03:00.560><c> collected</c><00:03:01.160><c> from</c>
+
+00:03:01.430 --> 00:03:01.440 align:start position:0%
+metrics or rum data, is collected from
+ 
+
+00:03:01.440 --> 00:03:04.270 align:start position:0%
+metrics or rum data, is collected from
+users<00:03:02.080><c> over</c><00:03:02.320><c> the</c><00:03:02.440><c> course</c><00:03:02.920><c> of</c><00:03:03.080><c> about</c><00:03:03.360><c> a</c><00:03:03.440><c> month</c>
+
+00:03:04.270 --> 00:03:04.280 align:start position:0%
+users over the course of about a month
+ 
+
+00:03:04.280 --> 00:03:06.710 align:start position:0%
+users over the course of about a month
+and<00:03:04.640><c> is</c><00:03:04.800><c> based</c><00:03:05.200><c> on</c><00:03:05.440><c> what</c><00:03:05.760><c> they</c><00:03:05.959><c> experience</c>
+
+00:03:06.710 --> 00:03:06.720 align:start position:0%
+and is based on what they experience
+ 
+
+00:03:06.720 --> 00:03:09.270 align:start position:0%
+and is based on what they experience
+when<00:03:06.920><c> viewing</c><00:03:07.360><c> your</c><00:03:07.519><c> site.</c><00:03:08.480><c> This</c><00:03:08.680><c> is</c><00:03:08.840><c> a</c><00:03:08.920><c> part</c>
+
+00:03:09.270 --> 00:03:09.280 align:start position:0%
+when viewing your site. This is a part
+ 
+
+00:03:09.280 --> 00:03:11.710 align:start position:0%
+when viewing your site. This is a part
+of<00:03:09.400><c> the</c><00:03:09.560><c> Chrome</c><00:03:10.080><c> User</c><00:03:10.400><c> Experience</c><00:03:10.959><c> Report,</c><00:03:11.600><c> in</c>
+
+00:03:11.710 --> 00:03:11.720 align:start position:0%
+of the Chrome User Experience Report, in
+ 
+
+00:03:11.720 --> 00:03:13.470 align:start position:0%
+of the Chrome User Experience Report, in
+short<00:03:12.080><c> Crux.</c>
+
+00:03:13.470 --> 00:03:13.480 align:start position:0%
+short Crux.
+ 
+
+00:03:13.480 --> 00:03:15.590 align:start position:0%
+short Crux.
+Lab<00:03:13.840><c> tests,</c><00:03:14.480><c> on</c><00:03:14.640><c> the</c><00:03:14.760><c> other</c><00:03:14.920><c> hand,</c><00:03:15.440><c> are</c>
+
+00:03:15.590 --> 00:03:15.600 align:start position:0%
+Lab tests, on the other hand, are
+ 
+
+00:03:15.600 --> 00:03:18.310 align:start position:0%
+Lab tests, on the other hand, are
+generated<00:03:16.320><c> on</c><00:03:16.519><c> demand</c><00:03:17.200><c> with</c><00:03:17.480><c> testing</c><00:03:17.880><c> tools</c>
+
+00:03:18.310 --> 00:03:18.320 align:start position:0%
+generated on demand with testing tools
+ 
+
+00:03:18.320 --> 00:03:20.990 align:start position:0%
+generated on demand with testing tools
+in<00:03:18.480><c> your</c><00:03:18.640><c> browser</c><00:03:19.200><c> or</c><00:03:19.440><c> on</c><00:03:19.600><c> a</c><00:03:19.640><c> server</c><00:03:20.680><c> using</c>
+
+00:03:20.990 --> 00:03:21.000 align:start position:0%
+in your browser or on a server using
+ 
+
+00:03:21.000 --> 00:03:23.350 align:start position:0%
+in your browser or on a server using
+settings<00:03:21.519><c> that</c><00:03:21.720><c> try</c><00:03:22.000><c> to</c><00:03:22.120><c> approximate</c><00:03:23.080><c> what</c>
+
+00:03:23.350 --> 00:03:23.360 align:start position:0%
+settings that try to approximate what
+ 
+
+00:03:23.360 --> 00:03:25.150 align:start position:0%
+settings that try to approximate what
+users<00:03:23.840><c> would</c><00:03:24.040><c> see.</c>
+
+00:03:25.150 --> 00:03:25.160 align:start position:0%
+users would see.
+ 
+
+00:03:25.160 --> 00:03:27.670 align:start position:0%
+users would see.
+For<00:03:25.400><c> search</c><00:03:25.680><c> rankings,</c><00:03:26.440><c> we</c><00:03:26.640><c> use</c><00:03:26.959><c> field</c><00:03:27.280><c> data</c>
+
+00:03:27.670 --> 00:03:27.680 align:start position:0%
+For search rankings, we use field data
+ 
+
+00:03:27.680 --> 00:03:29.870 align:start position:0%
+For search rankings, we use field data
+as<00:03:27.880><c> this</c><00:03:28.120><c> is</c><00:03:28.280><c> what</c><00:03:28.519><c> your</c><00:03:28.760><c> site's</c><00:03:29.160><c> users</c><00:03:29.640><c> have</c>
+
+00:03:29.870 --> 00:03:29.880 align:start position:0%
+as this is what your site's users have
+ 
+
+00:03:29.880 --> 00:03:32.150 align:start position:0%
+as this is what your site's users have
+experienced<00:03:30.640><c> over</c><00:03:30.880><c> time.</c>
+
+00:03:32.150 --> 00:03:32.160 align:start position:0%
+experienced over time.
+ 
+
+00:03:32.160 --> 00:03:34.150 align:start position:0%
+experienced over time.
+This<00:03:32.360><c> makes</c><00:03:32.600><c> the</c><00:03:32.680><c> data</c><00:03:33.000><c> more</c><00:03:33.320><c> representative</c>
+
+00:03:34.150 --> 00:03:34.160 align:start position:0%
+This makes the data more representative
+ 
+
+00:03:34.160 --> 00:03:36.630 align:start position:0%
+This makes the data more representative
+for<00:03:34.360><c> your</c><00:03:34.480><c> site,</c><00:03:35.080><c> taking</c><00:03:35.480><c> into</c><00:03:35.720><c> account</c><00:03:36.360><c> where</c>
+
+00:03:36.630 --> 00:03:36.640 align:start position:0%
+for your site, taking into account where
+ 
+
+00:03:36.640 --> 00:03:39.430 align:start position:0%
+for your site, taking into account where
+your<00:03:36.880><c> users</c><00:03:37.320><c> are</c><00:03:37.440><c> located</c><00:03:38.519><c> and</c><00:03:39.040><c> how</c><00:03:39.239><c> they</c>
+
+00:03:39.430 --> 00:03:39.440 align:start position:0%
+your users are located and how they
+ 
+
+00:03:39.440 --> 00:03:41.509 align:start position:0%
+your users are located and how they
+access<00:03:39.840><c> your</c><00:03:40.080><c> website.</c>
+
+00:03:41.509 --> 00:03:41.519 align:start position:0%
+access your website.
+ 
+
+00:03:41.519 --> 00:03:44.070 align:start position:0%
+access your website.
+The<00:03:41.680><c> Core</c><00:03:42.040><c> Web</c><00:03:42.320><c> Vitals</c><00:03:42.800><c> metrics</c><00:03:43.480><c> are</c><00:03:43.640><c> then</c>
+
+00:03:44.070 --> 00:03:44.080 align:start position:0%
+The Core Web Vitals metrics are then
+ 
+
+00:03:44.080 --> 00:03:47.030 align:start position:0%
+The Core Web Vitals metrics are then
+combined<00:03:44.600><c> with</c><00:03:44.880><c> other</c><00:03:45.239><c> signals</c><00:03:45.760><c> for</c><00:03:45.959><c> search.</c>
+
+00:03:47.030 --> 00:03:47.040 align:start position:0%
+combined with other signals for search.
+ 
+
+00:03:47.040 --> 00:03:49.030 align:start position:0%
+combined with other signals for search.
+We<00:03:47.200><c> call</c><00:03:47.440><c> this</c><00:03:47.600><c> combination</c><00:03:48.440><c> the</c><00:03:48.600><c> page</c>
+
+00:03:49.030 --> 00:03:49.040 align:start position:0%
+We call this combination the page
+ 
+
+00:03:49.040 --> 00:03:51.790 align:start position:0%
+We call this combination the page
+experience<00:03:49.840><c> ranking</c><00:03:50.200><c> factor.</c>
+
+00:03:51.790 --> 00:03:51.800 align:start position:0%
+experience ranking factor.
+ 
+
+00:03:51.800 --> 00:03:53.550 align:start position:0%
+experience ranking factor.
+The<00:03:51.920><c> additional</c><00:03:52.440><c> signals</c><00:03:52.840><c> are</c>
+
+00:03:53.550 --> 00:03:53.560 align:start position:0%
+The additional signals are
+ 
+
+00:03:53.560 --> 00:03:56.110 align:start position:0%
+The additional signals are
+mobile-friendliness,<00:03:54.880><c> safe</c><00:03:55.200><c> browsing,</c>
+
+00:03:56.110 --> 00:03:56.120 align:start position:0%
+mobile-friendliness, safe browsing,
+ 
+
+00:03:56.120 --> 00:03:59.590 align:start position:0%
+mobile-friendliness, safe browsing,
+HTTPS<00:03:57.040><c> security,</c><00:03:58.200><c> and</c><00:03:58.560><c> compliance</c><00:03:59.200><c> with</c><00:03:59.400><c> our</c>
+
+00:03:59.590 --> 00:03:59.600 align:start position:0%
+HTTPS security, and compliance with our
+ 
+
+00:03:59.600 --> 00:04:02.750 align:start position:0%
+HTTPS security, and compliance with our
+intrusive<00:04:00.320><c> interstitial</c><00:04:01.080><c> guidelines.</c>
+
+00:04:02.750 --> 00:04:02.760 align:start position:0%
+intrusive interstitial guidelines.
+ 
+
+00:04:02.760 --> 00:04:04.710 align:start position:0%
+intrusive interstitial guidelines.
+These<00:04:03.000><c> have</c><00:04:03.160><c> all</c><00:04:03.320><c> been</c><00:04:03.480><c> around</c><00:04:03.920><c> for</c><00:04:04.040><c> a</c><00:04:04.080><c> while,</c>
+
+00:04:04.710 --> 00:04:04.720 align:start position:0%
+These have all been around for a while,
+ 
+
+00:04:04.720 --> 00:04:06.590 align:start position:0%
+These have all been around for a while,
+and<00:04:04.880><c> there's</c><00:04:05.080><c> much</c><00:04:05.520><c> written</c><00:04:05.800><c> up</c><00:04:05.920><c> about</c><00:04:06.240><c> them,</c>
+
+00:04:06.590 --> 00:04:06.600 align:start position:0%
+and there's much written up about them,
+ 
+
+00:04:06.600 --> 00:04:10.310 align:start position:0%
+and there's much written up about them,
+so<00:04:06.920><c> I</c><00:04:07.040><c> won't</c><00:04:07.280><c> go</c><00:04:07.480><c> into</c><00:04:07.720><c> much</c><00:04:08.000><c> detail</c><00:04:08.400><c> here.</c>
+
+00:04:10.310 --> 00:04:10.320 align:start position:0%
+so I won't go into much detail here.
+ 
+
+00:04:10.320 --> 00:04:12.230 align:start position:0%
+so I won't go into much detail here.
+We<00:04:10.440><c> plan</c><00:04:10.880><c> to</c><00:04:11.000><c> adjust</c><00:04:11.360><c> these</c><00:04:11.560><c> signals</c><00:04:12.000><c> over</c>
+
+00:04:12.230 --> 00:04:12.240 align:start position:0%
+We plan to adjust these signals over
+ 
+
+00:04:12.240 --> 00:04:14.510 align:start position:0%
+We plan to adjust these signals over
+time<00:04:12.800><c> to</c><00:04:12.959><c> best</c><00:04:13.280><c> reflect</c><00:04:13.840><c> a</c><00:04:13.920><c> good</c><00:04:14.240><c> user</c>
+
+00:04:14.510 --> 00:04:14.520 align:start position:0%
+time to best reflect a good user
+ 
+
+00:04:14.520 --> 00:04:16.670 align:start position:0%
+time to best reflect a good user
+experience<00:04:15.320><c> for</c><00:04:15.520><c> users.</c>
+
+00:04:16.670 --> 00:04:16.680 align:start position:0%
+experience for users.
+ 
+
+00:04:16.680 --> 00:04:19.390 align:start position:0%
+experience for users.
+We'll<00:04:16.840><c> give</c><00:04:17.000><c> a</c><00:04:17.120><c> 6-month</c><00:04:17.959><c> heads-up</c><00:04:18.680><c> before</c><00:04:19.160><c> any</c>
+
+00:04:19.390 --> 00:04:19.400 align:start position:0%
+We'll give a 6-month heads-up before any
+ 
+
+00:04:19.400 --> 00:04:20.949 align:start position:0%
+We'll give a 6-month heads-up before any
+change.
+
+00:04:20.949 --> 00:04:20.959 align:start position:0%
+change.
+ 
+
+00:04:20.959 --> 00:04:23.710 align:start position:0%
+change.
+The<00:04:21.079><c> data</c><00:04:21.560><c> is</c><00:04:21.720><c> split</c><00:04:22.240><c> by</c><00:04:22.400><c> mobile</c><00:04:22.880><c> and</c><00:04:23.000><c> desktop</c>
+
+00:04:23.710 --> 00:04:23.720 align:start position:0%
+The data is split by mobile and desktop
+ 
+
+00:04:23.720 --> 00:04:26.350 align:start position:0%
+The data is split by mobile and desktop
+and<00:04:24.080><c> applied</c><00:04:24.760><c> appropriately</c><00:04:25.760><c> for</c><00:04:26.040><c> search</c>
+
+00:04:26.350 --> 00:04:26.360 align:start position:0%
+and applied appropriately for search
+ 
+
+00:04:26.360 --> 00:04:27.590 align:start position:0%
+and applied appropriately for search
+ranking.
+
+00:04:27.590 --> 00:04:27.600 align:start position:0%
+ranking.
+ 
+
+00:04:27.600 --> 00:04:29.390 align:start position:0%
+ranking.
+When<00:04:27.760><c> a</c><00:04:27.800><c> mobile</c><00:04:28.200><c> page</c><00:04:28.560><c> is</c><00:04:28.760><c> shown</c><00:04:29.160><c> as</c><00:04:29.320><c> a</c>
+
+00:04:29.390 --> 00:04:29.400 align:start position:0%
+When a mobile page is shown as a
+ 
+
+00:04:29.400 --> 00:04:31.909 align:start position:0%
+When a mobile page is shown as a
+separate<00:04:29.880><c> amp</c><00:04:30.160><c> URL</c><00:04:30.480><c> to</c><00:04:30.640><c> users,</c><00:04:31.480><c> that's</c><00:04:31.760><c> what</c>
+
+00:04:31.909 --> 00:04:31.919 align:start position:0%
+separate amp URL to users, that's what
+ 
+
+00:04:31.919 --> 00:04:33.510 align:start position:0%
+separate amp URL to users, that's what
+will<00:04:32.080><c> be</c><00:04:32.240><c> used</c><00:04:32.560><c> then.</c>
+
+00:04:33.510 --> 00:04:33.520 align:start position:0%
+will be used then.
+ 
+
+00:04:33.520 --> 00:04:35.310 align:start position:0%
+will be used then.
+In<00:04:33.640><c> other</c><00:04:33.840><c> words,</c><00:04:34.560><c> if</c><00:04:34.720><c> you're</c><00:04:34.840><c> on</c><00:04:34.960><c> a</c><00:04:35.000><c> mobile</c>
+
+00:04:35.310 --> 00:04:35.320 align:start position:0%
+In other words, if you're on a mobile
+ 
+
+00:04:35.320 --> 00:04:37.750 align:start position:0%
+In other words, if you're on a mobile
+page,<00:04:35.840><c> the</c><00:04:36.000><c> ranking</c><00:04:36.400><c> is</c><00:04:36.640><c> only</c><00:04:36.919><c> affected</c><00:04:37.560><c> by</c>
+
+00:04:37.750 --> 00:04:37.760 align:start position:0%
+page, the ranking is only affected by
+ 
+
+00:04:37.760 --> 00:04:41.270 align:start position:0%
+page, the ranking is only affected by
+mobile<00:04:38.200><c> data</c><00:04:39.040><c> and</c><00:04:39.360><c> the</c><00:04:39.480><c> same</c><00:04:39.760><c> for</c><00:04:39.880><c> desktop.</c>
+
+00:04:41.270 --> 00:04:41.280 align:start position:0%
+mobile data and the same for desktop.
+ 
+
+00:04:41.280 --> 00:04:43.670 align:start position:0%
+mobile data and the same for desktop.
+So,<00:04:41.520><c> in</c><00:04:41.640><c> short,</c><00:04:42.360><c> for</c><00:04:42.600><c> search</c><00:04:42.880><c> rankings,</c><00:04:43.520><c> we</c>
+
+00:04:43.670 --> 00:04:43.680 align:start position:0%
+So, in short, for search rankings, we
+ 
+
+00:04:43.680 --> 00:04:47.270 align:start position:0%
+So, in short, for search rankings, we
+use<00:04:43.960><c> the</c><00:04:44.120><c> page</c><00:04:44.520><c> experience</c><00:04:45.440><c> set</c><00:04:45.680><c> of</c><00:04:45.800><c> metrics.</c>
+
+00:04:47.270 --> 00:04:47.280 align:start position:0%
+use the page experience set of metrics.
+ 
+
+00:04:47.280 --> 00:04:50.150 align:start position:0%
+use the page experience set of metrics.
+These<00:04:47.560><c> include</c><00:04:48.160><c> a</c><00:04:48.280><c> few</c><00:04:48.760><c> existing</c><00:04:49.240><c> signals</c><00:04:49.960><c> as</c>
+
+00:04:50.150 --> 00:04:50.160 align:start position:0%
+These include a few existing signals as
+ 
+
+00:04:50.160 --> 00:04:53.030 align:start position:0%
+These include a few existing signals as
+well<00:04:50.440><c> as</c><00:04:50.640><c> the</c><00:04:50.800><c> Core</c><00:04:51.200><c> Web</c><00:04:51.400><c> Vitals.</c>
+
+00:04:53.030 --> 00:04:53.040 align:start position:0%
+well as the Core Web Vitals.
+ 
+
+00:04:53.040 --> 00:04:55.270 align:start position:0%
+well as the Core Web Vitals.
+We<00:04:53.160><c> track</c><00:04:53.480><c> these</c><00:04:53.880><c> based</c><00:04:54.160><c> on</c><00:04:54.320><c> what</c><00:04:54.600><c> users</c><00:04:55.080><c> would</c>
+
+00:04:55.270 --> 00:04:55.280 align:start position:0%
+We track these based on what users would
+ 
+
+00:04:55.280 --> 00:04:57.870 align:start position:0%
+We track these based on what users would
+see,<00:04:55.800><c> separating</c><00:04:56.680><c> mobile</c><00:04:57.120><c> and</c><00:04:57.240><c> desktop</c>
+
+00:04:57.870 --> 00:04:57.880 align:start position:0%
+see, separating mobile and desktop
+ 
+
+00:04:57.880 --> 00:04:59.590 align:start position:0%
+see, separating mobile and desktop
+experiences.
+
+00:04:59.590 --> 00:04:59.600 align:start position:0%
+experiences.
+ 
+
+00:04:59.600 --> 00:05:02.190 align:start position:0%
+experiences.
+Cool.<00:05:00.320><c> We</c><00:05:00.480><c> looked</c><00:05:00.760><c> at</c><00:05:00.960><c> page</c><00:05:01.240><c> experience,</c><00:05:02.080><c> the</c>
+
+00:05:02.190 --> 00:05:02.200 align:start position:0%
+Cool. We looked at page experience, the
+ 
+
+00:05:02.200 --> 00:05:04.550 align:start position:0%
+Cool. We looked at page experience, the
+Core<00:05:02.480><c> Web</c><00:05:02.680><c> Vitals,</c><00:05:03.240><c> and</c><00:05:03.640><c> how</c><00:05:03.840><c> they're</c><00:05:04.080><c> used</c><00:05:04.400><c> in</c>
+
+00:05:04.550 --> 00:05:04.560 align:start position:0%
+Core Web Vitals, and how they're used in
+ 
+
+00:05:04.560 --> 00:05:06.870 align:start position:0%
+Core Web Vitals, and how they're used in
+search.<00:05:05.440><c> Let's</c><00:05:05.840><c> take</c><00:05:06.040><c> a</c><00:05:06.080><c> look</c><00:05:06.360><c> at</c><00:05:06.560><c> Search</c>
+
+00:05:06.870 --> 00:05:06.880 align:start position:0%
+search. Let's take a look at Search
+ 
+
+00:05:06.880 --> 00:05:08.590 align:start position:0%
+search. Let's take a look at Search
+Console<00:05:07.400><c> now.</c>
+
+00:05:08.590 --> 00:05:08.600 align:start position:0%
+Console now.
+ 
+
+00:05:08.600 --> 00:05:11.070 align:start position:0%
+Console now.
+Search<00:05:08.840><c> Console</c><00:05:09.400><c> is</c><00:05:09.560><c> a</c><00:05:09.680><c> free</c><00:05:10.040><c> tool</c><00:05:10.560><c> for</c><00:05:10.720><c> site</c>
+
+00:05:11.070 --> 00:05:11.080 align:start position:0%
+Search Console is a free tool for site
+ 
+
+00:05:11.080 --> 00:05:13.350 align:start position:0%
+Search Console is a free tool for site
+owners<00:05:11.480><c> that</c><00:05:11.720><c> gives</c><00:05:12.040><c> insights</c><00:05:12.760><c> into</c><00:05:13.080><c> Google</c>
+
+00:05:13.350 --> 00:05:13.360 align:start position:0%
+owners that gives insights into Google
+ 
+
+00:05:13.360 --> 00:05:16.070 align:start position:0%
+owners that gives insights into Google
+Search<00:05:14.080><c> for</c><00:05:14.360><c> your</c><00:05:14.480><c> website.</c>
+
+00:05:16.070 --> 00:05:16.080 align:start position:0%
+Search for your website.
+ 
+
+00:05:16.080 --> 00:05:18.430 align:start position:0%
+Search for your website.
+Once<00:05:16.360><c> you've</c><00:05:16.520><c> verified</c><00:05:17.080><c> ownership</c><00:05:17.800><c> and</c><00:05:18.200><c> given</c>
+
+00:05:18.430 --> 00:05:18.440 align:start position:0%
+Once you've verified ownership and given
+ 
+
+00:05:18.440 --> 00:05:20.710 align:start position:0%
+Once you've verified ownership and given
+the<00:05:18.560><c> tool</c><00:05:18.960><c> a</c><00:05:19.040><c> bit</c><00:05:19.280><c> of</c><00:05:19.400><c> time</c><00:05:20.000><c> to</c><00:05:20.080><c> collect</c><00:05:20.600><c> all</c>
+
+00:05:20.710 --> 00:05:20.720 align:start position:0%
+the tool a bit of time to collect all
+ 
+
+00:05:20.720 --> 00:05:23.670 align:start position:0%
+the tool a bit of time to collect all
+the<00:05:20.840><c> metrics,</c><00:05:21.919><c> it's</c><00:05:22.200><c> time</c><00:05:22.720><c> to</c><00:05:22.880><c> head</c><00:05:23.120><c> over</c><00:05:23.520><c> to</c>
+
+00:05:23.670 --> 00:05:23.680 align:start position:0%
+the metrics, it's time to head over to
+ 
+
+00:05:23.680 --> 00:05:26.590 align:start position:0%
+the metrics, it's time to head over to
+the<00:05:23.880><c> Core</c><00:05:24.200><c> Web</c><00:05:24.480><c> Vitals</c><00:05:24.960><c> report.</c>
+
+00:05:26.590 --> 00:05:26.600 align:start position:0%
+the Core Web Vitals report.
+ 
+
+00:05:26.600 --> 00:05:28.590 align:start position:0%
+the Core Web Vitals report.
+In<00:05:26.720><c> this</c><00:05:26.919><c> report,</c><00:05:27.600><c> you'll</c><00:05:27.800><c> see</c><00:05:27.919><c> graphs</c><00:05:28.440><c> for</c>
+
+00:05:28.590 --> 00:05:28.600 align:start position:0%
+In this report, you'll see graphs for
+ 
+
+00:05:28.600 --> 00:05:31.230 align:start position:0%
+In this report, you'll see graphs for
+mobile<00:05:29.400><c> and</c><00:05:29.600><c> desktop</c><00:05:30.320><c> showing</c><00:05:30.760><c> how</c><00:05:31.080><c> a</c>
+
+00:05:31.230 --> 00:05:31.240 align:start position:0%
+mobile and desktop showing how a
+ 
+
+00:05:31.240 --> 00:05:33.430 align:start position:0%
+mobile and desktop showing how a
+relevant<00:05:31.760><c> sample</c><00:05:32.200><c> of</c><00:05:32.360><c> your</c><00:05:32.520><c> site's</c><00:05:32.960><c> pages</c>
+
+00:05:33.430 --> 00:05:33.440 align:start position:0%
+relevant sample of your site's pages
+ 
+
+00:05:33.440 --> 00:05:34.870 align:start position:0%
+relevant sample of your site's pages
+score.
+
+00:05:34.870 --> 00:05:34.880 align:start position:0%
+score.
+ 
+
+00:05:34.880 --> 00:05:37.310 align:start position:0%
+score.
+This<00:05:35.040><c> sample</c><00:05:35.760><c> and</c><00:05:35.919><c> the</c><00:05:36.000><c> scoring</c><00:05:36.600><c> is</c><00:05:36.840><c> based</c><00:05:37.200><c> on</c>
+
+00:05:37.310 --> 00:05:37.320 align:start position:0%
+This sample and the scoring is based on
+ 
+
+00:05:37.320 --> 00:05:40.110 align:start position:0%
+This sample and the scoring is based on
+the<00:05:37.480><c> Chrome</c><00:05:38.000><c> User</c><00:05:38.320><c> Experience</c><00:05:38.880><c> Report</c><00:05:39.280><c> data.</c>
+
+00:05:40.110 --> 00:05:40.120 align:start position:0%
+the Chrome User Experience Report data.
+ 
+
+00:05:40.120 --> 00:05:42.270 align:start position:0%
+the Chrome User Experience Report data.
+That's<00:05:40.400><c> the</c><00:05:40.560><c> field</c><00:05:41.000><c> data</c><00:05:41.520><c> collected</c><00:05:42.080><c> over</c>
+
+00:05:42.270 --> 00:05:42.280 align:start position:0%
+That's the field data collected over
+ 
+
+00:05:42.280 --> 00:05:43.430 align:start position:0%
+That's the field data collected over
+time.
+
+00:05:43.430 --> 00:05:43.440 align:start position:0%
+time.
+ 
+
+00:05:43.440 --> 00:05:45.590 align:start position:0%
+time.
+Because<00:05:43.800><c> of</c><00:05:43.880><c> that,</c><00:05:44.520><c> any</c><00:05:44.720><c> changes</c><00:05:45.280><c> that</c><00:05:45.480><c> you</c>
+
+00:05:45.590 --> 00:05:45.600 align:start position:0%
+Because of that, any changes that you
+ 
+
+00:05:45.600 --> 00:05:48.070 align:start position:0%
+Because of that, any changes that you
+make<00:05:46.000><c> on</c><00:05:46.120><c> your</c><00:05:46.240><c> website</c><00:05:46.760><c> will</c><00:05:46.960><c> take</c><00:05:47.720><c> about</c><00:05:48.040><c> a</c>
+
+00:05:48.070 --> 00:05:48.080 align:start position:0%
+make on your website will take about a
+ 
+
+00:05:48.080 --> 00:05:50.630 align:start position:0%
+make on your website will take about a
+month<00:05:48.480><c> to</c><00:05:48.600><c> be</c><00:05:48.720><c> reflected</c><00:05:49.280><c> here.</c>
+
+00:05:50.630 --> 00:05:50.640 align:start position:0%
+month to be reflected here.
+ 
+
+00:05:50.640 --> 00:05:52.230 align:start position:0%
+month to be reflected here.
+Clicking<00:05:51.000><c> through</c><00:05:51.480><c> to</c><00:05:51.720><c> one</c><00:05:51.920><c> of</c><00:05:52.000><c> these</c>
+
+00:05:52.230 --> 00:05:52.240 align:start position:0%
+Clicking through to one of these
+ 
+
+00:05:52.240 --> 00:05:54.990 align:start position:0%
+Clicking through to one of these
+reports,<00:05:53.240><c> you</c><00:05:53.400><c> see</c><00:05:53.600><c> a</c><00:05:53.680><c> graph</c><00:05:54.240><c> of</c><00:05:54.400><c> the</c><00:05:54.560><c> total</c>
+
+00:05:54.990 --> 00:05:55.000 align:start position:0%
+reports, you see a graph of the total
+ 
+
+00:05:55.000 --> 00:05:57.550 align:start position:0%
+reports, you see a graph of the total
+number<00:05:55.240><c> of</c><00:05:55.360><c> URLs</c><00:05:55.760><c> tracked</c><00:05:56.520><c> and</c>
+
+00:05:57.550 --> 00:05:57.560 align:start position:0%
+number of URLs tracked and
+ 
+
+00:05:57.560 --> 00:05:59.510 align:start position:0%
+number of URLs tracked and
+can<00:05:57.760><c> see</c><00:05:57.920><c> the</c><00:05:58.080><c> individual</c><00:05:58.640><c> issues</c><00:05:59.160><c> flagged</c>
+
+00:05:59.510 --> 00:05:59.520 align:start position:0%
+can see the individual issues flagged
+ 
+
+00:05:59.520 --> 00:06:00.630 align:start position:0%
+can see the individual issues flagged
+below.
+
+00:06:00.630 --> 00:06:00.640 align:start position:0%
+below.
+ 
+
+00:06:00.640 --> 00:06:03.310 align:start position:0%
+below.
+Going<00:06:01.240><c> to</c><00:06:01.560><c> one</c><00:06:01.760><c> of</c><00:06:01.840><c> these</c><00:06:02.080><c> issues,</c><00:06:02.760><c> you'll</c><00:06:02.960><c> see</c>
+
+00:06:03.310 --> 00:06:03.320 align:start position:0%
+Going to one of these issues, you'll see
+ 
+
+00:06:03.320 --> 00:06:05.390 align:start position:0%
+Going to one of these issues, you'll see
+a<00:06:03.440><c> similar</c><00:06:03.880><c> graph</c><00:06:04.240><c> on</c><00:06:04.360><c> top</c>
+
+00:06:05.390 --> 00:06:05.400 align:start position:0%
+a similar graph on top
+ 
+
+00:06:05.400 --> 00:06:07.830 align:start position:0%
+a similar graph on top
+together<00:06:05.800><c> with</c><00:06:06.000><c> a</c><00:06:06.080><c> list</c><00:06:06.480><c> of</c><00:06:06.640><c> sample</c><00:06:07.000><c> URLs</c><00:06:07.600><c> for</c>
+
+00:06:07.830 --> 00:06:07.840 align:start position:0%
+together with a list of sample URLs for
+ 
+
+00:06:07.840 --> 00:06:10.550 align:start position:0%
+together with a list of sample URLs for
+that<00:06:08.120><c> issue</c><00:06:08.760><c> type</c><00:06:09.200><c> below.</c>
+
+00:06:10.550 --> 00:06:10.560 align:start position:0%
+that issue type below.
+ 
+
+00:06:10.560 --> 00:06:12.470 align:start position:0%
+that issue type below.
+Keep<00:06:10.800><c> in</c><00:06:10.880><c> mind</c><00:06:11.280><c> that</c><00:06:11.560><c> these</c><00:06:11.800><c> reports</c><00:06:12.320><c> are</c>
+
+00:06:12.470 --> 00:06:12.480 align:start position:0%
+Keep in mind that these reports are
+ 
+
+00:06:12.480 --> 00:06:15.670 align:start position:0%
+Keep in mind that these reports are
+based<00:06:12.960><c> on</c><00:06:13.200><c> the</c><00:06:13.360><c> field</c><00:06:13.800><c> data,</c><00:06:14.480><c> so</c><00:06:15.040><c> not</c><00:06:15.400><c> all</c><00:06:15.600><c> of</c>
+
+00:06:15.670 --> 00:06:15.680 align:start position:0%
+based on the field data, so not all of
+ 
+
+00:06:15.680 --> 00:06:18.750 align:start position:0%
+based on the field data, so not all of
+your<00:06:15.800><c> site's</c><00:06:16.160><c> URLs</c><00:06:16.640><c> will</c><00:06:16.800><c> be</c><00:06:16.920><c> available</c><00:06:17.400><c> here.</c>
+
+00:06:18.750 --> 00:06:18.760 align:start position:0%
+your site's URLs will be available here.
+ 
+
+00:06:18.760 --> 00:06:20.950 align:start position:0%
+your site's URLs will be available here.
+It's<00:06:18.960><c> often</c><00:06:19.320><c> useful</c><00:06:19.760><c> to</c><00:06:19.919><c> focus</c><00:06:20.320><c> on</c><00:06:20.480><c> the</c><00:06:20.640><c> bigger</c>
+
+00:06:20.950 --> 00:06:20.960 align:start position:0%
+It's often useful to focus on the bigger
+ 
+
+00:06:20.960 --> 00:06:23.870 align:start position:0%
+It's often useful to focus on the bigger
+buckets<00:06:21.360><c> of</c><00:06:21.480><c> issues</c><00:06:21.960><c> across</c><00:06:22.600><c> both</c><00:06:23.000><c> the</c><00:06:23.240><c> poor</c>
+
+00:06:23.870 --> 00:06:23.880 align:start position:0%
+buckets of issues across both the poor
+ 
+
+00:06:23.880 --> 00:06:26.590 align:start position:0%
+buckets of issues across both the poor
+and<00:06:24.160><c> needs</c><00:06:24.440><c> improvement</c><00:06:25.040><c> categories.</c>
+
+00:06:26.590 --> 00:06:26.600 align:start position:0%
+and needs improvement categories.
+ 
+
+00:06:26.600 --> 00:06:29.190 align:start position:0%
+and needs improvement categories.
+We<00:06:26.720><c> try</c><00:06:26.919><c> to</c><00:06:27.080><c> recognize</c><00:06:27.640><c> patterns,</c><00:06:28.440><c> such</c><00:06:28.800><c> as</c>
+
+00:06:29.190 --> 00:06:29.200 align:start position:0%
+We try to recognize patterns, such as
+ 
+
+00:06:29.200 --> 00:06:31.710 align:start position:0%
+We try to recognize patterns, such as
+shared<00:06:29.560><c> templates,</c><00:06:30.360><c> and</c><00:06:30.720><c> group</c><00:06:31.080><c> those</c><00:06:31.320><c> URLs</c>
+
+00:06:31.710 --> 00:06:31.720 align:start position:0%
+shared templates, and group those URLs
+ 
+
+00:06:31.720 --> 00:06:34.670 align:start position:0%
+shared templates, and group those URLs
+together<00:06:32.560><c> as</c><00:06:32.760><c> fixing</c><00:06:33.200><c> the</c><00:06:33.360><c> issue</c><00:06:33.760><c> once</c><00:06:34.480><c> can</c>
+
+00:06:34.670 --> 00:06:34.680 align:start position:0%
+together as fixing the issue once can
+ 
+
+00:06:34.680 --> 00:06:36.710 align:start position:0%
+together as fixing the issue once can
+improve<00:06:35.080><c> large</c><00:06:35.440><c> parts</c><00:06:35.760><c> of</c><00:06:35.880><c> your</c><00:06:36.000><c> website,</c>
+
+00:06:36.710 --> 00:06:36.720 align:start position:0%
+improve large parts of your website,
+ 
+
+00:06:36.720 --> 00:06:38.590 align:start position:0%
+improve large parts of your website,
+which<00:06:36.919><c> is</c><00:06:37.040><c> pretty</c><00:06:37.360><c> awesome.</c>
+
+00:06:38.590 --> 00:06:38.600 align:start position:0%
+which is pretty awesome.
+ 
+
+00:06:38.600 --> 00:06:40.310 align:start position:0%
+which is pretty awesome.
+A<00:06:38.720><c> good</c><00:06:38.919><c> approach</c><00:06:39.480><c> to</c><00:06:39.640><c> improving</c><00:06:40.080><c> these</c>
+
+00:06:40.310 --> 00:06:40.320 align:start position:0%
+A good approach to improving these
+ 
+
+00:06:40.320 --> 00:06:42.990 align:start position:0%
+A good approach to improving these
+issues<00:06:40.919><c> is</c><00:06:41.280><c> to</c><00:06:41.440><c> take</c><00:06:41.680><c> a</c><00:06:41.760><c> bigger</c><00:06:42.160><c> issue</c><00:06:42.440><c> type</c>
+
+00:06:42.990 --> 00:06:43.000 align:start position:0%
+issues is to take a bigger issue type
+ 
+
+00:06:43.000 --> 00:06:45.350 align:start position:0%
+issues is to take a bigger issue type
+and<00:06:43.280><c> to</c><00:06:43.480><c> work</c><00:06:43.800><c> to</c><00:06:43.919><c> resolve</c><00:06:44.400><c> it.</c>
+
+00:06:45.350 --> 00:06:45.360 align:start position:0%
+and to work to resolve it.
+ 
+
+00:06:45.360 --> 00:06:47.630 align:start position:0%
+and to work to resolve it.
+After<00:06:45.760><c> recognizing</c><00:06:46.440><c> the</c><00:06:46.560><c> issue,</c><00:06:47.160><c> the</c><00:06:47.280><c> first</c>
+
+00:06:47.630 --> 00:06:47.640 align:start position:0%
+After recognizing the issue, the first
+ 
+
+00:06:47.640 --> 00:06:50.510 align:start position:0%
+After recognizing the issue, the first
+step<00:06:48.160><c> is</c><00:06:48.440><c> usually</c><00:06:48.960><c> trying</c><00:06:49.520><c> to</c><00:06:49.720><c> reproduce</c><00:06:50.360><c> the</c>
+
+00:06:50.510 --> 00:06:50.520 align:start position:0%
+step is usually trying to reproduce the
+ 
+
+00:06:50.520 --> 00:06:52.230 align:start position:0%
+step is usually trying to reproduce the
+issue<00:06:50.840><c> locally</c>
+
+00:06:52.230 --> 00:06:52.240 align:start position:0%
+issue locally
+ 
+
+00:06:52.240 --> 00:06:54.430 align:start position:0%
+issue locally
+or<00:06:52.640><c> within</c><00:06:52.919><c> a</c><00:06:53.000><c> testing</c><00:06:53.400><c> tool.</c>
+
+00:06:54.430 --> 00:06:54.440 align:start position:0%
+or within a testing tool.
+ 
+
+00:06:54.440 --> 00:06:56.270 align:start position:0%
+or within a testing tool.
+If<00:06:54.600><c> that's</c><00:06:54.840><c> not</c><00:06:55.000><c> possible</c><00:06:55.720><c> for</c><00:06:55.919><c> bigger</c>
+
+00:06:56.270 --> 00:06:56.280 align:start position:0%
+If that's not possible for bigger
+ 
+
+00:06:56.280 --> 00:06:58.830 align:start position:0%
+If that's not possible for bigger
+issues,<00:06:56.760><c> it's</c><00:06:57.080><c> worth</c><00:06:57.440><c> narrowing</c><00:06:58.040><c> things</c><00:06:58.360><c> down</c>
+
+00:06:58.830 --> 00:06:58.840 align:start position:0%
+issues, it's worth narrowing things down
+ 
+
+00:06:58.840 --> 00:07:00.990 align:start position:0%
+issues, it's worth narrowing things down
+using<00:06:59.120><c> the</c><00:06:59.240><c> various</c><00:06:59.720><c> tools</c><00:07:00.280><c> and</c><00:07:00.520><c> scripts</c>
+
+00:07:00.990 --> 00:07:01.000 align:start position:0%
+using the various tools and scripts
+ 
+
+00:07:01.000 --> 00:07:03.110 align:start position:0%
+using the various tools and scripts
+available<00:07:01.480><c> elsewhere.</c>
+
+00:07:03.110 --> 00:07:03.120 align:start position:0%
+available elsewhere.
+ 
+
+00:07:03.120 --> 00:07:05.150 align:start position:0%
+available elsewhere.
+Once<00:07:03.400><c> you've</c><00:07:03.600><c> reproduced</c><00:07:04.120><c> the</c><00:07:04.240><c> issue,</c><00:07:05.040><c> you</c>
+
+00:07:05.150 --> 00:07:05.160 align:start position:0%
+Once you've reproduced the issue, you
+ 
+
+00:07:05.160 --> 00:07:07.790 align:start position:0%
+Once you've reproduced the issue, you
+can<00:07:05.440><c> work</c><00:07:05.760><c> to</c><00:07:05.960><c> improve</c><00:07:06.480><c> the</c><00:07:06.600><c> vitals.</c><00:07:07.440><c> I</c><00:07:07.560><c> won't</c>
+
+00:07:07.790 --> 00:07:07.800 align:start position:0%
+can work to improve the vitals. I won't
+ 
+
+00:07:07.800 --> 00:07:10.110 align:start position:0%
+can work to improve the vitals. I won't
+go<00:07:07.960><c> into</c><00:07:08.120><c> details</c><00:07:08.560><c> here,</c><00:07:09.120><c> but</c><00:07:09.560><c> be</c><00:07:09.720><c> sure</c><00:07:09.960><c> to</c>
+
+00:07:10.110 --> 00:07:10.120 align:start position:0%
+go into details here, but be sure to
+ 
+
+00:07:10.120 --> 00:07:12.190 align:start position:0%
+go into details here, but be sure to
+check<00:07:10.440><c> out</c><00:07:10.600><c> the</c><00:07:10.760><c> other</c><00:07:11.040><c> sessions</c><00:07:11.680><c> for</c><00:07:11.840><c> more</c>
+
+00:07:12.190 --> 00:07:12.200 align:start position:0%
+check out the other sessions for more
+ 
+
+00:07:12.200 --> 00:07:14.430 align:start position:0%
+check out the other sessions for more
+information.
+
+00:07:14.430 --> 00:07:14.440 align:start position:0%
+information.
+ 
+
+00:07:14.440 --> 00:07:17.310 align:start position:0%
+information.
+As<00:07:14.680><c> an</c><00:07:14.800><c> aside,</c><00:07:15.840><c> sometimes</c><00:07:16.600><c> you</c><00:07:16.720><c> may</c><00:07:16.840><c> notice</c>
+
+00:07:17.310 --> 00:07:17.320 align:start position:0%
+As an aside, sometimes you may notice
+ 
+
+00:07:17.320 --> 00:07:19.830 align:start position:0%
+As an aside, sometimes you may notice
+that<00:07:17.760><c> other</c><00:07:18.080><c> Google</c><00:07:18.520><c> products</c><00:07:19.040><c> or</c><00:07:19.160><c> services</c>
+
+00:07:19.830 --> 00:07:19.840 align:start position:0%
+that other Google products or services
+ 
+
+00:07:19.840 --> 00:07:22.190 align:start position:0%
+that other Google products or services
+are<00:07:20.000><c> slowing</c><00:07:20.480><c> down</c><00:07:20.800><c> your</c><00:07:20.960><c> pages.</c>
+
+00:07:22.190 --> 00:07:22.200 align:start position:0%
+are slowing down your pages.
+ 
+
+00:07:22.200 --> 00:07:24.470 align:start position:0%
+are slowing down your pages.
+Google<00:07:22.480><c> Search</c><00:07:23.200><c> doesn't</c><00:07:23.480><c> give</c><00:07:23.840><c> any</c><00:07:24.120><c> special</c>
+
+00:07:24.470 --> 00:07:24.480 align:start position:0%
+Google Search doesn't give any special
+ 
+
+00:07:24.480 --> 00:07:26.630 align:start position:0%
+Google Search doesn't give any special
+treatment<00:07:24.880><c> to</c><00:07:24.960><c> these,</c><00:07:25.400><c> just</c><00:07:25.680><c> like</c><00:07:26.040><c> users</c>
+
+00:07:26.630 --> 00:07:26.640 align:start position:0%
+treatment to these, just like users
+ 
+
+00:07:26.640 --> 00:07:29.310 align:start position:0%
+treatment to these, just like users
+generally<00:07:27.120><c> won't</c><00:07:27.440><c> care</c><00:07:28.240><c> why</c><00:07:28.600><c> your</c><00:07:28.760><c> page</c><00:07:29.080><c> is</c>
+
+00:07:29.310 --> 00:07:29.320 align:start position:0%
+generally won't care why your page is
+ 
+
+00:07:29.320 --> 00:07:31.870 align:start position:0%
+generally won't care why your page is
+offer<00:07:29.640><c> a</c><00:07:29.720><c> bad</c><00:07:30.080><c> user</c><00:07:30.360><c> experience.</c>
+
+00:07:31.870 --> 00:07:31.880 align:start position:0%
+offer a bad user experience.
+ 
+
+00:07:31.880 --> 00:07:33.990 align:start position:0%
+offer a bad user experience.
+Treat<00:07:32.160><c> embeds</c><00:07:32.720><c> from</c><00:07:32.960><c> Google</c><00:07:33.440><c> just</c><00:07:33.680><c> like</c><00:07:33.880><c> you</c>
+
+00:07:33.990 --> 00:07:34.000 align:start position:0%
+Treat embeds from Google just like you
+ 
+
+00:07:34.000 --> 00:07:37.750 align:start position:0%
+Treat embeds from Google just like you
+would<00:07:34.200><c> treat</c><00:07:34.760><c> any</c><00:07:35.000><c> other</c><00:07:35.240><c> embedded</c><00:07:35.680><c> resource.</c>
+
+00:07:37.750 --> 00:07:37.760 align:start position:0%
+would treat any other embedded resource.
+ 
+
+00:07:37.760 --> 00:07:39.870 align:start position:0%
+would treat any other embedded resource.
+Once<00:07:38.080><c> your</c><00:07:38.240><c> live</c><00:07:38.600><c> website</c><00:07:39.000><c> is</c><00:07:39.120><c> updated,</c><00:07:39.800><c> you</c>
+
+00:07:39.870 --> 00:07:39.880 align:start position:0%
+Once your live website is updated, you
+ 
+
+00:07:39.880 --> 00:07:42.070 align:start position:0%
+Once your live website is updated, you
+can<00:07:40.040><c> tell</c><00:07:40.320><c> Search</c><00:07:40.640><c> Console</c><00:07:41.320><c> that</c><00:07:41.520><c> the</c><00:07:41.680><c> issue</c>
+
+00:07:42.070 --> 00:07:42.080 align:start position:0%
+can tell Search Console that the issue
+ 
+
+00:07:42.080 --> 00:07:44.150 align:start position:0%
+can tell Search Console that the issue
+is<00:07:42.280><c> fixed.</c><00:07:43.120><c> This</c><00:07:43.320><c> is</c><00:07:43.440><c> done</c><00:07:43.920><c> in</c><00:07:44.040><c> the</c>
+
+00:07:44.150 --> 00:07:44.160 align:start position:0%
+is fixed. This is done in the
+ 
+
+00:07:44.160 --> 00:07:46.230 align:start position:0%
+is fixed. This is done in the
+appropriate<00:07:44.800><c> drill</c><00:07:45.120><c> down</c><00:07:45.400><c> report</c><00:07:45.960><c> that</c><00:07:46.120><c> we</c>
+
+00:07:46.230 --> 00:07:46.240 align:start position:0%
+appropriate drill down report that we
+ 
+
+00:07:46.240 --> 00:07:48.870 align:start position:0%
+appropriate drill down report that we
+saw<00:07:46.480><c> before</c><00:07:47.080><c> by</c><00:07:47.280><c> clicking</c><00:07:47.760><c> the</c><00:07:48.000><c> validate</c><00:07:48.600><c> fix</c>
+
+00:07:48.870 --> 00:07:48.880 align:start position:0%
+saw before by clicking the validate fix
+ 
+
+00:07:48.880 --> 00:07:51.950 align:start position:0%
+saw before by clicking the validate fix
+button<00:07:49.440><c> on</c><00:07:49.600><c> top.</c><00:07:50.560><c> Search</c><00:07:50.840><c> Console</c><00:07:51.400><c> will</c><00:07:51.640><c> then</c>
+
+00:07:51.950 --> 00:07:51.960 align:start position:0%
+button on top. Search Console will then
+ 
+
+00:07:51.960 --> 00:07:54.710 align:start position:0%
+button on top. Search Console will then
+start<00:07:52.280><c> a</c><00:07:52.360><c> review</c><00:07:52.960><c> of</c><00:07:53.080><c> the</c><00:07:53.200><c> URLs</c><00:07:53.680><c> flagged</c><00:07:54.520><c> and</c>
+
+00:07:54.710 --> 00:07:54.720 align:start position:0%
+start a review of the URLs flagged and
+ 
+
+00:07:54.720 --> 00:07:56.550 align:start position:0%
+start a review of the URLs flagged and
+let<00:07:54.920><c> you</c><00:07:55.000><c> know</c><00:07:55.320><c> how</c><00:07:55.560><c> your</c><00:07:55.880><c> improvements</c>
+
+00:07:56.550 --> 00:07:56.560 align:start position:0%
+let you know how your improvements
+ 
+
+00:07:56.560 --> 00:07:58.950 align:start position:0%
+let you know how your improvements
+turned<00:07:56.880><c> out</c><00:07:57.280><c> over</c><00:07:57.520><c> time.</c>
+
+00:07:58.950 --> 00:07:58.960 align:start position:0%
+turned out over time.
+ 
+
+00:07:58.960 --> 00:08:01.750 align:start position:0%
+turned out over time.
+Let's<00:07:59.360><c> get</c><00:07:59.520><c> back</c><00:08:00.040><c> to</c><00:08:00.240><c> SEO.</c>
+
+00:08:01.750 --> 00:08:01.760 align:start position:0%
+Let's get back to SEO.
+ 
+
+00:08:01.760 --> 00:08:03.790 align:start position:0%
+Let's get back to SEO.
+As<00:08:02.040><c> mentioned</c><00:08:02.400><c> in</c><00:08:02.520><c> the</c><00:08:02.640><c> beginning,</c><00:08:03.440><c> there's</c>
+
+00:08:03.790 --> 00:08:03.800 align:start position:0%
+As mentioned in the beginning, there's
+ 
+
+00:08:03.800 --> 00:08:06.910 align:start position:0%
+As mentioned in the beginning, there's
+more<00:08:04.160><c> to</c><00:08:04.320><c> SEO</c><00:08:04.840><c> than</c><00:08:05.040><c> just</c><00:08:05.320><c> page</c><00:08:05.640><c> experience.</c>
+
+00:08:06.910 --> 00:08:06.920 align:start position:0%
+more to SEO than just page experience.
+ 
+
+00:08:06.920 --> 00:08:09.510 align:start position:0%
+more to SEO than just page experience.
+Some<00:08:07.160><c> of</c><00:08:07.240><c> the</c><00:08:07.360><c> factors</c><00:08:07.880><c> are</c><00:08:08.040><c> listed</c><00:08:08.400><c> here.</c>
+
+00:08:09.510 --> 00:08:09.520 align:start position:0%
+Some of the factors are listed here.
+ 
+
+00:08:09.520 --> 00:08:11.670 align:start position:0%
+Some of the factors are listed here.
+When<00:08:09.720><c> determining</c><00:08:10.360><c> the</c><00:08:10.480><c> rankings,</c><00:08:11.240><c> we</c><00:08:11.440><c> have</c>
+
+00:08:11.670 --> 00:08:11.680 align:start position:0%
+When determining the rankings, we have
+ 
+
+00:08:11.680 --> 00:08:14.630 align:start position:0%
+When determining the rankings, we have
+to<00:08:11.800><c> weigh</c><00:08:12.120><c> these</c><00:08:12.400><c> factors</c><00:08:12.960><c> appropriately.</c>
+
+00:08:14.630 --> 00:08:14.640 align:start position:0%
+to weigh these factors appropriately.
+ 
+
+00:08:14.640 --> 00:08:17.110 align:start position:0%
+to weigh these factors appropriately.
+In<00:08:14.800><c> general,</c><00:08:15.400><c> we</c><00:08:15.560><c> prioritize</c><00:08:16.280><c> pages</c><00:08:16.800><c> with</c><00:08:16.960><c> the</c>
+
+00:08:17.110 --> 00:08:17.120 align:start position:0%
+In general, we prioritize pages with the
+ 
+
+00:08:17.120 --> 00:08:19.230 align:start position:0%
+In general, we prioritize pages with the
+best<00:08:17.520><c> information</c><00:08:18.080><c> overall,</c>
+
+00:08:19.230 --> 00:08:19.240 align:start position:0%
+best information overall,
+ 
+
+00:08:19.240 --> 00:08:21.830 align:start position:0%
+best information overall,
+even<00:08:19.560><c> if</c><00:08:19.720><c> some</c><00:08:20.120><c> aspects</c><00:08:20.640><c> of</c><00:08:20.800><c> page</c><00:08:21.120><c> experience</c>
+
+00:08:21.830 --> 00:08:21.840 align:start position:0%
+even if some aspects of page experience
+ 
+
+00:08:21.840 --> 00:08:23.350 align:start position:0%
+even if some aspects of page experience
+are<00:08:22.000><c> sub</c><00:08:22.280><c> par.</c>
+
+00:08:23.350 --> 00:08:23.360 align:start position:0%
+are sub par.
+ 
+
+00:08:23.360 --> 00:08:25.790 align:start position:0%
+are sub par.
+A<00:08:23.480><c> good</c><00:08:23.800><c> page</c><00:08:24.080><c> experience</c><00:08:24.840><c> doesn't</c><00:08:25.160><c> override</c>
+
+00:08:25.790 --> 00:08:25.800 align:start position:0%
+A good page experience doesn't override
+ 
+
+00:08:25.800 --> 00:08:28.430 align:start position:0%
+A good page experience doesn't override
+having<00:08:26.080><c> great</c><00:08:26.640><c> relevant</c><00:08:27.080><c> content.</c>
+
+00:08:28.430 --> 00:08:28.440 align:start position:0%
+having great relevant content.
+ 
+
+00:08:28.440 --> 00:08:30.670 align:start position:0%
+having great relevant content.
+For<00:08:28.680><c> example,</c><00:08:29.360><c> if</c><00:08:29.520><c> someone</c><00:08:29.800><c> is</c><00:08:30.000><c> searching</c><00:08:30.480><c> for</c>
+
+00:08:30.670 --> 00:08:30.680 align:start position:0%
+For example, if someone is searching for
+ 
+
+00:08:30.680 --> 00:08:32.310 align:start position:0%
+For example, if someone is searching for
+your<00:08:30.800><c> company's</c><00:08:31.240><c> name,</c><00:08:31.840><c> it</c><00:08:32.039><c> would</c><00:08:32.159><c> be</c>
+
+00:08:32.310 --> 00:08:32.320 align:start position:0%
+your company's name, it would be
+ 
+
+00:08:32.320 --> 00:08:35.310 align:start position:0%
+your company's name, it would be
+expected<00:08:33.360><c> to</c><00:08:33.520><c> show</c><00:08:33.840><c> your</c><00:08:34.080><c> company's</c><00:08:34.560><c> website,</c>
+
+00:08:35.310 --> 00:08:35.320 align:start position:0%
+expected to show your company's website,
+ 
+
+00:08:35.320 --> 00:08:37.830 align:start position:0%
+expected to show your company's website,
+even<00:08:35.599><c> if</c><00:08:35.680><c> it's</c><00:08:35.880><c> slow</c><00:08:36.520><c> or</c><00:08:36.719><c> otherwise</c><00:08:37.360><c> provides</c>
+
+00:08:37.830 --> 00:08:37.840 align:start position:0%
+even if it's slow or otherwise provides
+ 
+
+00:08:37.840 --> 00:08:40.469 align:start position:0%
+even if it's slow or otherwise provides
+a<00:08:37.919><c> sub</c><00:08:38.240><c> par</c><00:08:38.599><c> page</c><00:08:38.880><c> experience.</c>
+
+00:08:40.469 --> 00:08:40.479 align:start position:0%
+a sub par page experience.
+ 
+
+00:08:40.479 --> 00:08:42.550 align:start position:0%
+a sub par page experience.
+In<00:08:40.599><c> cases</c><00:08:41.159><c> where</c><00:08:41.320><c> there</c><00:08:41.440><c> are</c><00:08:41.520><c> multiple</c><00:08:42.120><c> pages</c>
+
+00:08:42.550 --> 00:08:42.560 align:start position:0%
+In cases where there are multiple pages
+ 
+
+00:08:42.560 --> 00:08:44.670 align:start position:0%
+In cases where there are multiple pages
+that<00:08:42.719><c> have</c><00:08:42.919><c> similar</c><00:08:43.400><c> content,</c><00:08:44.400><c> page</c>
+
+00:08:44.670 --> 00:08:44.680 align:start position:0%
+that have similar content, page
+ 
+
+00:08:44.680 --> 00:08:46.990 align:start position:0%
+that have similar content, page
+experience<00:08:45.240><c> becomes</c><00:08:45.880><c> much</c><00:08:46.280><c> more</c><00:08:46.480><c> important</c>
+
+00:08:46.990 --> 00:08:47.000 align:start position:0%
+experience becomes much more important
+ 
+
+00:08:47.000 --> 00:08:49.390 align:start position:0%
+experience becomes much more important
+for<00:08:47.160><c> visibility</c><00:08:47.960><c> in</c><00:08:48.120><c> search.</c>
+
+00:08:49.390 --> 00:08:49.400 align:start position:0%
+for visibility in search.
+ 
+
+00:08:49.400 --> 00:08:51.870 align:start position:0%
+for visibility in search.
+It's<00:08:49.600><c> not</c><00:08:49.800><c> the</c><00:08:49.960><c> only</c><00:08:50.240><c> factor,</c><00:08:50.960><c> and</c><00:08:51.440><c> of</c><00:08:51.600><c> course,</c>
+
+00:08:51.870 --> 00:08:51.880 align:start position:0%
+It's not the only factor, and of course,
+ 
+
+00:08:51.880 --> 00:08:54.790 align:start position:0%
+It's not the only factor, and of course,
+there's<00:08:52.240><c> much</c><00:08:52.600><c> more</c><00:08:52.960><c> to</c><00:08:53.120><c> a</c><00:08:53.160><c> website</c><00:08:54.280><c> than</c><00:08:54.520><c> just</c>
+
+00:08:54.790 --> 00:08:54.800 align:start position:0%
+there's much more to a website than just
+ 
+
+00:08:54.800 --> 00:08:56.470 align:start position:0%
+there's much more to a website than just
+search.
+
+00:08:56.470 --> 00:08:56.480 align:start position:0%
+search.
+ 
+
+00:08:56.480 --> 00:08:58.550 align:start position:0%
+search.
+We<00:08:56.640><c> found</c><00:08:57.120><c> that</c><00:08:57.320><c> when</c><00:08:57.440><c> a</c><00:08:57.520><c> site</c><00:08:57.880><c> provides</c><00:08:58.440><c> a</c>
+
+00:08:58.550 --> 00:08:58.560 align:start position:0%
+We found that when a site provides a
+ 
+
+00:08:58.560 --> 00:09:00.750 align:start position:0%
+We found that when a site provides a
+good<00:08:59.000><c> page</c><00:08:59.240><c> experience,</c><00:09:00.120><c> it</c><00:09:00.280><c> generally</c>
+
+00:09:00.750 --> 00:09:00.760 align:start position:0%
+good page experience, it generally
+ 
+
+00:09:00.760 --> 00:09:03.790 align:start position:0%
+good page experience, it generally
+performs<00:09:01.440><c> well</c><00:09:01.839><c> with</c><00:09:02.040><c> users,</c><00:09:02.520><c> too.</c>
+
+00:09:03.790 --> 00:09:03.800 align:start position:0%
+performs well with users, too.
+ 
+
+00:09:03.800 --> 00:09:07.670 align:start position:0%
+performs well with users, too.
+For<00:09:04.040><c> example,</c><00:09:04.680><c> we</c><00:09:04.839><c> found</c><00:09:05.480><c> users</c><00:09:06.000><c> are</c><00:09:06.200><c> 24%</c><00:09:07.360><c> less</c>
+
+00:09:07.670 --> 00:09:07.680 align:start position:0%
+For example, we found users are 24% less
+ 
+
+00:09:07.680 --> 00:09:10.829 align:start position:0%
+For example, we found users are 24% less
+likely<00:09:08.320><c> to</c><00:09:08.480><c> abandon</c><00:09:09.040><c> page</c><00:09:09.360><c> loads</c><00:09:09.680><c> overall.</c>
+
+00:09:10.829 --> 00:09:10.839 align:start position:0%
+likely to abandon page loads overall.
+ 
+
+00:09:10.839 --> 00:09:13.510 align:start position:0%
+likely to abandon page loads overall.
+In<00:09:10.960><c> particular,</c><00:09:11.680><c> we</c><00:09:11.839><c> saw</c><00:09:12.080><c> 22%</c><00:09:13.240><c> less</c>
+
+00:09:13.510 --> 00:09:13.520 align:start position:0%
+In particular, we saw 22% less
+ 
+
+00:09:13.520 --> 00:09:17.230 align:start position:0%
+In particular, we saw 22% less
+abandonment<00:09:14.240><c> for</c><00:09:14.400><c> news</c><00:09:14.720><c> sites</c><00:09:15.600><c> and</c><00:09:15.920><c> 24%</c><00:09:17.000><c> less</c>
+
+00:09:17.230 --> 00:09:17.240 align:start position:0%
+abandonment for news sites and 24% less
+ 
+
+00:09:17.240 --> 00:09:19.710 align:start position:0%
+abandonment for news sites and 24% less
+abandonment<00:09:17.960><c> for</c><00:09:18.120><c> shopping</c><00:09:18.560><c> sites.</c>
+
+00:09:19.710 --> 00:09:19.720 align:start position:0%
+abandonment for shopping sites.
+ 
+
+00:09:19.720 --> 00:09:21.829 align:start position:0%
+abandonment for shopping sites.
+There<00:09:19.839><c> are</c><00:09:19.920><c> few</c><00:09:20.200><c> changes</c><00:09:20.800><c> that</c><00:09:20.960><c> can</c><00:09:21.120><c> show</c><00:09:21.400><c> this</c>
+
+00:09:21.829 --> 00:09:21.839 align:start position:0%
+There are few changes that can show this
+ 
+
+00:09:21.839 --> 00:09:23.470 align:start position:0%
+There are few changes that can show this
+level<00:09:22.160><c> of</c><00:09:22.280><c> improvement</c><00:09:22.880><c> for</c><00:09:23.120><c> online</c>
+
+00:09:23.470 --> 00:09:23.480 align:start position:0%
+level of improvement for online
+ 
+
+00:09:23.480 --> 00:09:26.270 align:start position:0%
+level of improvement for online
+businesses,<00:09:24.560><c> and</c><00:09:24.960><c> results</c><00:09:25.400><c> like</c><00:09:25.640><c> these</c><00:09:26.120><c> are</c>
+
+00:09:26.270 --> 00:09:26.280 align:start position:0%
+businesses, and results like these are
+ 
+
+00:09:26.280 --> 00:09:28.710 align:start position:0%
+businesses, and results like these are
+part<00:09:26.560><c> of</c><00:09:26.640><c> the</c><00:09:26.760><c> reason</c><00:09:27.240><c> we</c><00:09:27.400><c> prioritize</c><00:09:28.240><c> the</c><00:09:28.400><c> Web</c>
+
+00:09:28.710 --> 00:09:28.720 align:start position:0%
+part of the reason we prioritize the Web
+ 
+
+00:09:28.720 --> 00:09:31.270 align:start position:0%
+part of the reason we prioritize the Web
+Vitals<00:09:29.200><c> metrics.</c>
+
+00:09:31.270 --> 00:09:31.280 align:start position:0%
+Vitals metrics.
+ 
+
+00:09:31.280 --> 00:09:33.230 align:start position:0%
+Vitals metrics.
+The<00:09:31.400><c> search</c><00:09:31.720><c> ranking</c><00:09:32.040><c> change</c><00:09:32.520><c> is</c><00:09:32.760><c> currently</c>
+
+00:09:33.230 --> 00:09:33.240 align:start position:0%
+The search ranking change is currently
+ 
+
+00:09:33.240 --> 00:09:36.750 align:start position:0%
+The search ranking change is currently
+planned<00:09:33.720><c> for</c><00:09:33.880><c> the</c><00:09:34.040><c> first</c><00:09:34.480><c> half</c><00:09:34.880><c> of</c><00:09:35.040><c> 2021.</c>
+
+00:09:36.750 --> 00:09:36.760 align:start position:0%
+planned for the first half of 2021.
+ 
+
+00:09:36.760 --> 00:09:39.350 align:start position:0%
+planned for the first half of 2021.
+With<00:09:37.120><c> this</c><00:09:37.360><c> change,</c><00:09:38.240><c> we're</c><00:09:38.440><c> also</c><00:09:38.720><c> making</c><00:09:39.120><c> all</c>
+
+00:09:39.350 --> 00:09:39.360 align:start position:0%
+With this change, we're also making all
+ 
+
+00:09:39.360 --> 00:09:41.710 align:start position:0%
+With this change, we're also making all
+pages<00:09:39.760><c> eligible</c><00:09:40.320><c> to</c><00:09:40.440><c> be</c><00:09:40.600><c> featured</c><00:09:41.120><c> in</c><00:09:41.280><c> the</c><00:09:41.400><c> top</c>
+
+00:09:41.710 --> 00:09:41.720 align:start position:0%
+pages eligible to be featured in the top
+ 
+
+00:09:41.720 --> 00:09:44.550 align:start position:0%
+pages eligible to be featured in the top
+stories<00:09:42.160><c> carousel</c><00:09:42.960><c> of</c><00:09:43.120><c> the</c><00:09:43.240><c> search</c><00:09:43.520><c> results</c>
+
+00:09:44.550 --> 00:09:44.560 align:start position:0%
+stories carousel of the search results
+ 
+
+00:09:44.560 --> 00:09:47.430 align:start position:0%
+stories carousel of the search results
+using<00:09:45.000><c> page</c><00:09:45.320><c> experience</c><00:09:46.080><c> as</c><00:09:46.240><c> a</c><00:09:46.280><c> guide.</c><00:09:47.320><c> If</c>
+
+00:09:47.430 --> 00:09:47.440 align:start position:0%
+using page experience as a guide. If
+ 
+
+00:09:47.440 --> 00:09:49.070 align:start position:0%
+using page experience as a guide. If
+you're<00:09:47.560><c> curious</c><00:09:47.960><c> about</c><00:09:48.200><c> the</c><00:09:48.280><c> details,</c><00:09:48.920><c> be</c>
+
+00:09:49.070 --> 00:09:49.080 align:start position:0%
+you're curious about the details, be
+ 
+
+00:09:49.080 --> 00:09:52.070 align:start position:0%
+you're curious about the details, be
+sure<00:09:49.480><c> to</c><00:09:49.720><c> check</c><00:09:50.040><c> out</c><00:09:50.200><c> our</c><00:09:50.320><c> blog</c><00:09:50.600><c> post.</c>
+
+00:09:52.070 --> 00:09:52.080 align:start position:0%
+sure to check out our blog post.
+ 
+
+00:09:52.080 --> 00:09:54.910 align:start position:0%
+sure to check out our blog post.
+Well,<00:09:52.720><c> that</c><00:09:52.920><c> was</c><00:09:53.120><c> it.</c><00:09:53.640><c> Our</c><00:09:53.840><c> short</c><00:09:54.240><c> excursion</c>
+
+00:09:54.910 --> 00:09:54.920 align:start position:0%
+Well, that was it. Our short excursion
+ 
+
+00:09:54.920 --> 00:09:57.270 align:start position:0%
+Well, that was it. Our short excursion
+into<00:09:55.160><c> the</c><00:09:55.280><c> world</c><00:09:55.680><c> of</c><00:09:55.880><c> Core</c><00:09:56.200><c> Web</c><00:09:56.440><c> Vitals</c><00:09:57.040><c> and</c>
+
+00:09:57.270 --> 00:09:57.280 align:start position:0%
+into the world of Core Web Vitals and
+ 
+
+00:09:57.280 --> 00:10:00.030 align:start position:0%
+into the world of Core Web Vitals and
+SEO.<00:09:58.400><c> In</c><00:09:58.560><c> short,</c><00:09:59.160><c> while</c><00:09:59.320><c> there's</c><00:09:59.560><c> more</c><00:09:59.920><c> to</c>
+
+00:10:00.030 --> 00:10:00.040 align:start position:0%
+SEO. In short, while there's more to
+ 
+
+00:10:00.040 --> 00:10:02.830 align:start position:0%
+SEO. In short, while there's more to
+page<00:10:00.280><c> experience</c><00:10:01.040><c> than</c><00:10:01.280><c> just</c><00:10:01.520><c> SEO,</c><00:10:02.440><c> and</c>
+
+00:10:02.830 --> 00:10:02.840 align:start position:0%
+page experience than just SEO, and
+ 
+
+00:10:02.840 --> 00:10:04.750 align:start position:0%
+page experience than just SEO, and
+there's<00:10:03.160><c> more</c><00:10:03.440><c> to</c><00:10:03.560><c> SEO</c><00:10:04.040><c> than</c><00:10:04.240><c> just</c><00:10:04.480><c> page</c>
+
+00:10:04.750 --> 00:10:04.760 align:start position:0%
+there's more to SEO than just page
+ 
+
+00:10:04.760 --> 00:10:07.670 align:start position:0%
+there's more to SEO than just page
+experience,<00:10:05.920><c> SEO</c><00:10:06.480><c> is</c><00:10:06.760><c> also</c><00:10:07.120><c> definitely</c><00:10:07.600><c> a</c>
+
+00:10:07.670 --> 00:10:07.680 align:start position:0%
+experience, SEO is also definitely a
+ 
+
+00:10:07.680 --> 00:10:09.710 align:start position:0%
+experience, SEO is also definitely a
+good<00:10:07.920><c> reason</c><00:10:08.400><c> to</c><00:10:08.640><c> work</c><00:10:08.960><c> on</c><00:10:09.080><c> improving</c><00:10:09.560><c> your</c>
+
+00:10:09.710 --> 00:10:09.720 align:start position:0%
+good reason to work on improving your
+ 
+
+00:10:09.720 --> 00:10:12.510 align:start position:0%
+good reason to work on improving your
+site's<00:10:10.200><c> page</c><00:10:10.440><c> experience.</c>
+
+00:10:12.510 --> 00:10:12.520 align:start position:0%
+site's page experience.
+ 
+
+00:10:12.520 --> 00:10:14.710 align:start position:0%
+site's page experience.
+I<00:10:12.680><c> hope</c><00:10:12.880><c> you</c><00:10:13.000><c> found</c><00:10:13.280><c> this</c><00:10:13.480><c> session</c><00:10:13.960><c> useful</c><00:10:14.520><c> and</c>
+
+00:10:14.710 --> 00:10:14.720 align:start position:0%
+I hope you found this session useful and
+ 
+
+00:10:14.720 --> 00:10:17.110 align:start position:0%
+I hope you found this session useful and
+insightful.<00:10:15.680><c> Don't</c><00:10:15.960><c> forget</c><00:10:16.520><c> to</c><00:10:16.640><c> check</c><00:10:16.920><c> out</c>
+
+00:10:17.110 --> 00:10:17.120 align:start position:0%
+insightful. Don't forget to check out
+ 
+
+00:10:17.120 --> 00:10:19.510 align:start position:0%
+insightful. Don't forget to check out
+the<00:10:17.320><c> other</c><00:10:17.600><c> sessions</c><00:10:18.040><c> here</c><00:10:18.360><c> to</c><00:10:18.560><c> find</c><00:10:19.000><c> out</c><00:10:19.200><c> more</c>
+
+00:10:19.510 --> 00:10:19.520 align:start position:0%
+the other sessions here to find out more
+ 
+
+00:10:19.520 --> 00:10:23.430 align:start position:0%
+the other sessions here to find out more
+ways<00:10:20.320><c> to</c><00:10:20.440><c> improve</c><00:10:20.960><c> your</c><00:10:21.160><c> website</c><00:10:22.000><c> for</c><00:10:22.240><c> users.</c>
+
+00:10:23.430 --> 00:10:23.440 align:start position:0%
+ways to improve your website for users.
+ 
+
+00:10:23.440 --> 00:10:25.960 align:start position:0%
+ways to improve your website for users.
+Bye.
+

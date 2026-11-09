@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Монтажный стол · 1000 Islands</title>
+<!-- Sequence editor for the hero video (1 Nov 2026). Clips and data.json come from _build/editor_prep.py;
+     the copied sequence is rendered at full quality by _build/render_seq.py. -->
+<style>
+  :root {
+    --bg: #111213; --panel: #1b1c1e; --raised: #26282b; --line: #34373b;
+    --ink: #ececea; --muted: #a9adb2; --accent: #4cc2b8; --accent-ink: #062523; --warn: #e8a35a;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  button, select { font: inherit; color: inherit; }
+  button { background: var(--raised); border: 1px solid var(--line); border-radius: 8px; padding: 7px 12px; cursor: pointer; }
+  button:hover { border-color: var(--muted); }
+  button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 650; }
+  select { background: var(--raised); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; max-width: 100%; }
+
+  header { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+  h1 { font-size: 18px; margin: 0 auto 0 0; }
+  .tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+
+  .app { display: grid; grid-template-columns: 380px minmax(0, 1fr); height: calc(100vh - 62px); }
+  aside { border-right: 1px solid var(--line); overflow-y: auto; padding: 0 12px 24px; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+  .libhead { position: sticky; top: 0; z-index: 3; margin: 0 -12px; padding: 12px 18px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .libhead label { display: inline-flex; gap: 10px; align-items: center; cursor: pointer; font-weight: 600; }
+  .libhead input { width: 18px; height: 18px; accent-color: var(--accent); margin: 0; }
+  .libhead input:disabled + span { color: var(--muted); font-weight: 400; }
+  aside h2 { font-size: 13px; margin: 18px 6px 8px; color: var(--muted); font-weight: 600; letter-spacing: .02em; }
+  .shot { display: grid; grid-template-columns: 22px 124px minmax(0, 1fr); gap: 12px; align-items: center; padding: 6px; border-radius: 10px; cursor: pointer; }
+  .shot:hover { background: var(--panel); }
+  .shot.on { background: var(--raised); }
+  .shot input { width: 18px; height: 18px; accent-color: var(--accent); margin: 0; }
+  .th { position: relative; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; background: #000; }
+  .th img, .th video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .th video { opacity: 0; }
+  .th.hot video { opacity: 1; }
+  .ord { position: absolute; left: 4px; top: 4px; min-width: 20px; padding: 0 5px; border-radius: 5px; background: var(--accent); color: var(--accent-ink); font: 700 12px/20px system-ui; text-align: center; font-style: normal; }
+  .shot b { display: block; font-weight: 600; font-size: 13.5px; line-height: 1.3; }
+  .shot small { color: var(--muted); font-size: 12.5px; }
+
+  .stage { display: flex; flex-direction: column; gap: 14px; padding: 16px 20px; overflow-y: auto; min-width: 0; }
+  .stage > * { flex-shrink: 0; }
+  .stage.trimming .screen { height: min(calc(100vh - 470px), calc((100vw - 430px) * 9 / 16)); }
+  .screenwrap { display: flex; justify-content: center; }
+  .screen { position: relative; background: #000; border-radius: 10px; overflow: hidden; aspect-ratio: 16 / 9;
+    height: min(calc(100vh - 350px), calc((100vw - 430px) * 9 / 16)); min-height: 200px; }
+  .screen.phone { aspect-ratio: 9 / 16; }
+  .screen video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; }
+  .screen .empty { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); padding: 24px; text-align: center; }
+  .screen:fullscreen { border-radius: 0; height: 100%; }
+
+  .transport { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+  .btns, .opts { display: flex; gap: 8px; align-items: center; }
+  .btns button { display: inline-flex; gap: 8px; align-items: center; justify-content: center; height: 38px; }
+  .btns .icon { width: 38px; padding: 0; }
+  .btns svg { width: 16px; height: 16px; fill: currentColor; }
+  #play { min-width: 112px; }
+  .now { flex: 1 1 240px; min-width: 0; display: flex; gap: 12px; align-items: baseline; white-space: nowrap; }
+  .now .tc { font-variant-numeric: tabular-nums; font-size: 17px; font-weight: 650; }
+  .now span { color: var(--muted); overflow: hidden; text-overflow: ellipsis; }
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .seg button { border: 0; border-radius: 0; background: transparent; }
+  .seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); font-weight: 650; }
+
+  .tlwrap { position: relative; }
+  .ruler { position: relative; height: 20px; margin-bottom: 4px; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .ruler i { position: absolute; bottom: 0; width: 1px; height: 5px; background: var(--line); }
+  .ruler i.big { height: 9px; background: var(--muted); }
+  .ruler b { position: absolute; top: 0; transform: translateX(-50%); font-weight: 500; }
+  .timeline { position: relative; display: flex; gap: 3px; height: 80px; user-select: none; touch-action: none; }
+  .blk { position: relative; min-width: 40px; border-radius: 7px; overflow: hidden; background: #000 center / cover; cursor: grab; outline: 2px solid transparent; outline-offset: -2px; }
+  .blk:hover { outline-color: var(--muted); }
+  .blk.sel { outline-color: var(--accent); }
+  .blk.drag { opacity: .35; }
+  .blk span { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 8px 5px; font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    background: linear-gradient(transparent, rgba(0,0,0,.85)); color: #fff; }
+  .blk i, .blk em { position: absolute; top: 5px; font: 700 12px/18px system-ui; font-style: normal; background: rgba(0,0,0,.75); color: #fff; padding: 0 6px; border-radius: 4px; }
+  .blk i { left: 5px; }
+  .blk em { right: 5px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .playhead { position: absolute; top: -4px; bottom: -4px; width: 2px; background: #fff; box-shadow: 0 0 0 1px #000; pointer-events: none; z-index: 2; }
+  .ins { position: absolute; top: -6px; bottom: -6px; width: 4px; margin-left: -3px; background: var(--accent); border-radius: 2px; pointer-events: none; display: none; z-index: 2; }
+  .tlempty { color: var(--muted); padding: 28px 0; }
+
+  .trim { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px 16px; }
+  .trim.idle { background: transparent; border-style: dashed; color: var(--muted); padding: 14px 16px; }
+  .trim h2 { font-size: 15px; margin: 0 0 10px; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+  .trim h2 .seg { font-size: 13px; font-weight: 400; }
+  .strip { position: relative; height: 72px; border-radius: 6px; background: #000 0 0 / 100% 100%; touch-action: none; cursor: ew-resize; user-select: none; }
+  .shade { position: absolute; top: 0; bottom: 0; background: rgba(0,0,0,.72); pointer-events: none; }
+  .hd { position: absolute; top: -4px; bottom: -4px; width: 14px; margin-left: -7px; border-radius: 4px; background: var(--accent); pointer-events: none; }
+  .hd::after { content: ""; position: absolute; left: 5px; right: 5px; top: 30px; bottom: 30px; border-left: 2px solid var(--accent-ink); border-right: 2px solid var(--accent-ink); }
+  .cursor { position: absolute; top: 0; bottom: 0; width: 2px; background: #fff; pointer-events: none; }
+  .trimrow { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-top: 12px; }
+  .trimrow .nums { font-variant-numeric: tabular-nums; }
+  .hint { color: var(--muted); font-size: 13px; margin: 10px 0 0; }
+  kbd { font: 600 12px/1 system-ui; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 2px 5px; background: var(--raised); color: var(--ink); }
+
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--accent); color: var(--accent-ink); font-weight: 650; padding: 10px 16px; border-radius: 10px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  .toast.show { opacity: 1; }
+  dialog { background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 12px; width: min(680px, calc(100vw - 32px)); padding: 16px 20px; }
+  dialog textarea { width: 100%; height: 260px; background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; font: 13px/1.4 ui-monospace, Consolas, monospace; }
+
+  @media (max-width: 900px) {
+    .app { grid-template-columns: 1fr; height: auto; }
+    aside { border-right: 0; border-bottom: 1px solid var(--line); max-height: 45vh; order: 2; }
+    .stage { order: 1; overflow: visible; }
+    .screen { height: auto; width: 100%; }
+    .screen.phone { width: auto; height: 70vh; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Монтажный стол: главное видео</h1>
+  <div class="tools">
+    <select id="preset" aria-label="Загрузить вариант"></select>
+    <button id="save">Сохранить вариант</button>
+    <button id="undo" title="Ctrl+Z">Отменить</button>
+    <button id="copy" class="primary">Скопировать для Claude</button>
+  </div>
+</header>
+<div class="app">
+  <aside id="lib"><div class="libhead"><label><input type="checkbox" id="all"><span id="allTxt"></span></label></div></aside>
+  <main class="stage">
+    <div class="screenwrap">
+      <div class="screen" id="screen">
+        <video id="va" muted playsinline preload="auto"></video>
+        <video id="vb" muted playsinline preload="auto"></video>
+        <div class="empty" id="empty" hidden>Поставь галочки слева: кадры встанут в ленту и пойдут по кругу.</div>
+      </div>
+    </div>
+    <div class="transport">
+      <div class="btns">
+        <button id="prev" class="icon" title="Предыдущий кадр (←)" aria-label="Предыдущий кадр"><svg viewBox="0 0 16 16"><path d="M3 2h2v12H3zM14 2v12L6 8z"/></svg></button>
+        <button id="play" class="primary" title="Пробел"></button>
+        <button id="next" class="icon" title="Следующий кадр (→)" aria-label="Следующий кадр"><svg viewBox="0 0 16 16"><path d="M11 2h2v12h-2zM2 2v12l8-6z"/></svg></button>
+      </div>
+      <div class="now" id="now"></div>
+      <div class="opts">
+        <div class="seg" id="fade" role="group" aria-label="Склейка">
+          <button data-v="0">Стык</button><button data-v="0.6">Растворение</button>
+        </div>
+        <div class="seg" id="frame" role="group" aria-label="Кадр">
+          <button data-v="wide">16:9</button><button data-v="phone">Телефон</button>
+        </div>
+        <button id="fs" title="F">На весь экран</button>
+      </div>
+    </div>
+    <div class="tlwrap">
+      <div class="ruler" id="ruler"></div>
+      <div class="timeline" id="tl"><div class="playhead" id="ph"></div><div class="ins" id="ins"></div></div>
+    </div>
+    <section class="trim" id="trim" hidden></section>
+  </main>
+</div>
+<div class="toast" id="toast"></div>
+<dialog id="dlg"><p>Скопируй текст и пришли мне:</p><textarea id="dlgtxt" readonly></textarea><form method="dialog"><button>Закрыть</button></form></dialog>
+<script>
+const $ = s => document.querySelector(s);
+const GR = { w: "тёплый", l: "лёгкий", o: "как снято" };
+const KEY = "hero-editor-v1", MINE = "hero-editor-mine";
+const MIN = 0.5, FPS = 30;
+const fr = t => Math.round(t * FPS) / FPS;
+const s1 = t => t.toFixed(1).replace(".", ",");
+
+let LIB = new Map(), PRESETS = [];
+let S = { seq: [], fade: 0, frame: "wide" };
+let sel = null, hist = [], uidN = 0;
+const uid = () => "c" + (++uidN) + Date.now().toString(36);
+
+const store = {
+  get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+};
+const len = it => it.b - it.a;
+const fileOf = it => LIB.get(it.id).grades[it.grade];
+const urlOf = it => `clips/${fileOf(it)}.mp4`;
+const idx = u => S.seq.findIndex(x => x.uid === u);
+const total = () => S.seq.reduce((t, it) => t + len(it), 0);
+const media = new Map();
+const blobUrl = url => {
+  if (!media.has(url)) media.set(url, fetch(url).then(r => r.blob()).then(b => URL.createObjectURL(b)));
+  return media.get(url);
+};
+
+/* ---------- state changes ---------- */
+function commit(fn, {history = true} = {}) {
+  if (history) { hist.push(JSON.stringify(S.seq)); if (hist.length > 100) hist.shift(); }
+  fn();
+  store.set(KEY, S);
+  render();
+  player.resync();
+}
+function undo() {
+  if (!hist.length) return toast("Отменять нечего");
+  const seq = JSON.parse(hist.pop());
+  S.seq = seq; store.set(KEY, S); render(); player.resync();
+}
+function addShot(id) {
+  const sh = LIB.get(id);
+  const grade = sh.grades.l ? "l" : Object.keys(sh.grades)[0];
+  commit(() => S.seq.push({ uid: uid(), id, grade, a: 0, b: fr(Math.min(sh.dur, 5)) }));
+}
+function removeUid(u) {
+  commit(() => { S.seq = S.seq.filter(x => x.uid !== u); if (sel === u) sel = null; });
+}
+function loadSeq(seq, fade) {
+  commit(() => {
+    S.seq = seq.filter(x => LIB.has(x.id) && LIB.get(x.id).grades[x.grade]).map(x => ({ ...x, uid: uid() }));
+    if (fade !== undefined) S.fade = fade;
+    sel = null;
+  });
+  player.jump(0);
+}
+
+/* ---------- player: two stacked videos, the standby one is cued at the next in-point ---------- */
+const player = (() => {
+  let A = $("#va"), B = $("#vb");
+  let cur = 0, playing = true, cueKey = "", sw = null;
+  const keyOf = it => it.uid + "|" + it.grade + "|" + it.a;
+  // clips play from in-memory blobs: a plain static server (python http.server) has no Range support,
+  // and without it the browser cannot seek inside a file
+  function cue(v, url, t, then) {
+    v.dataset.url = url;
+    const tok = v._tok = {};
+    blobUrl(url).then(src => {
+      if (v._tok !== tok) return;
+      const go = () => { if (v._tok !== tok) return; if (Math.abs(v.currentTime - t) > 0.02) v.currentTime = t; then?.(); };
+      if (v.dataset.src !== src) { v.dataset.src = src; v.src = src; v.addEventListener("loadedmetadata", go, { once: true }); }
+      else go();
+    });
+  }
+  const run = v => () => { if (playing) v.play().catch(() => {}); };
+  function show(v, o, z) { v.style.opacity = o; v.style.zIndex = z; }
+  function prepNext() {
+    if (!S.seq.length) return;
+    const n = S.seq[(cur + 1) % S.seq.length];
+    if (keyOf(n) === cueKey && B.dataset.url === urlOf(n)) return;
+    B.pause(); cue(B, urlOf(n), n.a); cueKey = keyOf(n);
+  }
+  function jump(i, t) {
+    sw = null; B.pause();
+    if (!S.seq.length) { A.pause(); show(A, 0, 1); show(B, 0, 0); return; }
+    cur = Math.max(0, Math.min(i, S.seq.length - 1));
+    const it = S.seq[cur];
+    A.pause(); cue(A, urlOf(it), t ?? it.a, run(A)); show(A, 1, 2); show(B, 0, 1);
+    cueKey = ""; prepNext();
+  }
+  function advance() {
+    const n = (cur + 1) % S.seq.length, nit = S.seq[n];
+    if (keyOf(nit) !== cueKey || B.dataset.url !== urlOf(nit)) cue(B, urlOf(nit), nit.a, run(B));
+    else B.play().catch(() => {});
+    const fade = Math.min(S.fade, len(S.seq[cur]) / 2, len(nit) / 2);
+    if (fade > 0) {
+      show(B, 0, 3);
+      sw = { t0: performance.now(), dur: fade * 1000, next: nit.uid };
+    } else finish(nit.uid);
+  }
+  function finish(nextUid) {
+    sw = null;
+    show(B, 1, 2); A.pause(); show(A, 0, 1);
+    [A, B] = [B, A];
+    const i = idx(nextUid); cur = i < 0 ? 0 : i;
+    cueKey = ""; prepNext();
+  }
+  function tick() {
+    requestAnimationFrame(tick);
+    if (!S.seq.length) return;
+    if (cur >= S.seq.length) cur = 0;
+    const it = S.seq[cur], t = A.currentTime;
+    if (sw) {
+      const k = Math.min(1, (performance.now() - sw.t0) / sw.dur);
+      B.style.opacity = k;
+      if (k >= 1) finish(sw.next);
+    } else if (playing && !A.seeking) {
+      const fade = Math.min(S.fade, len(it) / 2);
+      if (t >= it.b - fade - 0.02) advance();
+      else if (t < it.a - 0.05) A.currentTime = it.a;
+    }
+    ui.tick(cur, Math.max(0, Math.min(len(it), A.currentTime - it.a)));
+  }
+  requestAnimationFrame(tick);
+  return {
+    jump,
+    get cur() { return cur; }, get playing() { return playing; }, get time() { return A.currentTime; },
+    toggle(on = !playing) {
+      playing = on;
+      if (on) { A.play().catch(() => {}); if (sw) B.play().catch(() => {}); }
+      else { A.pause(); B.pause(); }
+      ui.playState(on);
+    },
+    scrub(i, t) {   // show one frame of clip i, paused
+      if (playing) this.toggle(false);
+      if (i !== cur || A.dataset.url !== urlOf(S.seq[i])) jump(i, t); else { sw = null; show(B, 0, 1); A.currentTime = t; }
+    },
+    resync() {   // the sequence changed: keep the clip on screen if it is still there
+      S.seq.forEach(it => blobUrl(urlOf(it)));
+      if (!S.seq.length) return jump(0);
+      const it = S.seq[cur];
+      const was = A.dataset.url;
+      const i = it ? idx(it.uid) : -1;
+      if (!it || i < 0) return jump(Math.min(cur, S.seq.length - 1));
+      cur = i;
+      if (was !== urlOf(it)) return jump(cur, Math.min(Math.max(A.currentTime, it.a), it.b - 0.1));
+      prepNext();
+    },
+    step(d) { jump((cur + d + S.seq.length) % S.seq.length); }
+  };
+})();
+
+/* ---------- rendering ---------- */
+function render() {
+  renderLib(); renderTimeline(); renderTrim();
+  $("#empty").hidden = S.seq.length > 0;
+  $("#ph").hidden = !S.seq.length;
+  if (!S.seq.length) $("#now").innerHTML = `<b class="tc">0 с</b><span>Лента пустая</span>`;
+  document.querySelectorAll("#fade button").forEach(b => b.setAttribute("aria-pressed", +b.dataset.v === S.fade));
+  document.querySelectorAll("#frame button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === S.frame));
+  $("#screen").classList.toggle("phone", S.frame === "phone");
+}
+
+function renderLib() {
+  const host = $("#lib"), all = $("#all");
+  all.checked = S.seq.length > 0; all.disabled = !S.seq.length;
+  $("#allTxt").textContent = S.seq.length ? `Снять все галочки · в ленте ${S.seq.length}` : "Лента пустая: отметь кадры";
+  if (!host.querySelector(".shot")) {
+    for (const [title, under] of [["Над водой", false], ["Под водой", true]]) {
+      const list = [...LIB.values()].filter(s => s.under === under);
+      const h = document.createElement("h2"); h.textContent = `${title} · ${list.length}`; host.append(h);
+      for (const s of list) {
+        const el = document.createElement("label");
+        el.className = "shot"; el.dataset.id = s.id;
+        const g = Object.keys(s.grades).length;
+        el.innerHTML = `<input type="checkbox"><span class="th"><img alt="" loading="lazy" src="clips/${s.grades[s.grades.l ? "l" : Object.keys(s.grades)[0]]}.webp"><video muted loop playsinline preload="none"></video><i class="ord" hidden></i></span>
+          <span><b>${s.ru}</b><small>${s.num ? "№" + s.num + " · " : ""}${s1(s.dur)} с${g > 1 ? " · " + g + " цвета" : ""}</small></span>`;
+        const th = el.querySelector(".th"), v = el.querySelector("video");
+        el.addEventListener("mouseenter", () => {
+          if (!v.src) v.src = `clips/${s.grades[s.grades.l ? "l" : Object.keys(s.grades)[0]]}.mp4`;
+          v.play().then(() => th.classList.add("hot")).catch(() => {});
+        });
+        el.addEventListener("mouseleave", () => { v.pause(); th.classList.remove("hot"); });
+        el.querySelector("input").addEventListener("change", e => {
+          e.target.blur();   // so Space keeps meaning play/pause
+          if (e.target.checked) addShot(s.id);
+          else { const it = S.seq.findLast(x => x.id === s.id); if (it) removeUid(it.uid); }
+        });
+        host.append(el);
+      }
+    }
+  }
+  host.querySelectorAll(".shot").forEach(el => {
+    const nums = S.seq.map((x, i) => x.id === el.dataset.id ? i + 1 : 0).filter(Boolean);
+    el.querySelector("input").checked = nums.length > 0;
+    el.classList.toggle("on", nums.length > 0);
+    const o = el.querySelector(".ord"); o.hidden = !nums.length; o.textContent = nums.join(", ");
+  });
+}
+
+function renderTimeline() {
+  const tl = $("#tl");
+  tl.querySelectorAll(".blk, .tlempty").forEach(e => e.remove());
+  if (!S.seq.length) { const p = document.createElement("div"); p.className = "tlempty"; p.textContent = "Лента пустая."; tl.prepend(p); renderRuler(); return; }
+  S.seq.forEach((it, i) => {
+    const b = document.createElement("div");
+    b.className = "blk" + (it.uid === sel ? " sel" : ""); b.dataset.uid = it.uid;
+    b.style.flex = `${len(it)} 1 0`;
+    b.style.backgroundImage = `url(clips/${fileOf(it)}.webp)`;
+    b.innerHTML = `<i>${i + 1}</i><em>${s1(len(it))} с</em><span>${LIB.get(it.id).ru}</span>`;
+    b.title = LIB.get(it.id).ru + ". Клик: обрезать. Тяни: переставить";
+    tl.insertBefore(b, $("#ph"));
+  });
+  renderRuler();
+}
+// seconds ruler over the timeline: ticks follow the blocks (gaps between blocks are not time)
+function renderRuler() {
+  const r = $("#ruler"); r.innerHTML = "";
+  const blks = [...document.querySelectorAll(".blk")];
+  if (!blks.length) return;
+  const x0 = $("#tl").offsetLeft;
+  let acc = 0, html = "";
+  S.seq.forEach((it, i) => {
+    const b = blks[i], L = len(it);
+    for (let s = Math.ceil(acc); s < acc + L - 1e-6; s++) {
+      const x = x0 + b.offsetLeft + b.offsetWidth * (s - acc) / L;
+      html += `<i class="${s % 5 ? "" : "big"}" style="left:${x}px"></i>` + (s % 5 ? "" : `<b style="left:${x}px${s ? "" : ";transform:none"}">${s}</b>`);
+    }
+    acc += L;
+  });
+  r.innerHTML = html;
+}
+addEventListener("resize", renderRuler);
+
+function renderTrim() {
+  const box = $("#trim"), i = idx(sel);
+  $(".stage").classList.toggle("trimming", i >= 0);
+  box.classList.toggle("idle", i < 0);
+  if (i < 0) {
+    box.hidden = !S.seq.length;
+    box.innerHTML = "Кликни по кадру в ленте, чтобы обрезать его. Тяни кадр мышкой, чтобы переставить.";
+    return;
+  }
+  const it = S.seq[i], sh = LIB.get(it.id), g = Object.keys(sh.grades);
+  box.hidden = false;
+  box.innerHTML = `<h2><span>Кадр ${i + 1}: ${sh.ru}</span>${g.length > 1 ? `<span class="seg" id="grade">${g.map(k => `<button data-v="${k}" aria-pressed="${k === it.grade}">${GR[k]}</button>`).join("")}</span>` : ""}</h2>
+    <div class="strip" id="strip" style="background-image:url(clips/${fileOf(it)}-strip.jpg)">
+      <div class="shade" id="shL"></div><div class="shade" id="shR"></div>
+      <div class="cursor" id="cur" hidden></div><div class="hd" id="hA"></div><div class="hd" id="hB"></div>
+    </div>
+    <div class="trimrow">
+      <span class="nums" id="nums"></span>
+      <button id="tReset">Весь кадр</button>
+      <button id="tDel">Убрать из ленты</button>
+      <button id="tClose">Готово</button>
+    </div>
+    <p class="hint">Тяни бирюзовые ручки: левая начало, правая конец. Или прямо во время просмотра этого кадра жми <kbd>I</kbd> (начало здесь) и <kbd>O</kbd> (конец здесь).</p>`;
+  placeTrim();
+  box.querySelectorAll("#grade button").forEach(b => b.onclick = () => commit(() => it.grade = b.dataset.v));
+  $("#tReset").onclick = () => commit(() => { it.a = 0; it.b = fr(sh.dur); });
+  $("#tDel").onclick = () => removeUid(it.uid);
+  $("#tClose").onclick = () => { sel = null; render(); };
+  trimDrag($("#strip"), it, sh);
+}
+function placeTrim() {
+  const it = S.seq[idx(sel)]; if (!it) return;
+  const d = LIB.get(it.id).dur, pa = it.a / d * 100, pb = it.b / d * 100;
+  $("#hA").style.left = pa + "%"; $("#hB").style.left = pb + "%";
+  $("#shL").style.cssText = `left:0;width:${pa}%`; $("#shR").style.cssText = `left:${pb}%;right:0`;
+  $("#nums").innerHTML = `Начало <b>${s1(it.a)}</b> · Конец <b>${s1(it.b)}</b> · Длина <b>${s1(len(it))} с</b> из ${s1(d)}`;
+}
+function trimDrag(strip, it, sh) {
+  let which = null;
+  const tAt = e => { const r = strip.getBoundingClientRect(); return fr(Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)) * sh.dur); };
+  strip.onpointerdown = e => {
+    const t = tAt(e);
+    which = Math.abs(t - it.a) <= Math.abs(t - it.b) ? "a" : "b";
+    hist.push(JSON.stringify(S.seq));
+    strip.setPointerCapture(e.pointerId);
+    move(e);
+  };
+  const move = e => {
+    if (!which) return;
+    const t = tAt(e);
+    if (which === "a") it.a = Math.min(t, fr(it.b - MIN)); else it.b = Math.max(t, fr(it.a + MIN));
+    placeTrim();
+    player.scrub(idx(it.uid), which === "a" ? it.a : Math.max(it.a, it.b - 1 / FPS));
+  };
+  strip.onpointermove = move;
+  strip.onpointerup = strip.onpointercancel = () => {
+    if (!which) return;
+    const w = which; which = null;
+    store.set(KEY, S); renderTimeline(); renderLib();
+    // replay so the change is seen in context: from the new start, or the last 1.5 s into the next shot
+    player.jump(idx(it.uid), w === "a" ? it.a : Math.max(it.a, it.b - 1.5));
+    player.toggle(true);
+  };
+}
+
+/* ---------- timeline: click selects, drag reorders ---------- */
+(() => {
+  const tl = $("#tl"), ins = $("#ins");
+  let drag = null;
+  tl.addEventListener("pointerdown", e => {
+    const b = e.target.closest(".blk"); if (!b) return;
+    drag = { uid: b.dataset.uid, x: e.clientX, moved: false, el: b, to: -1 };
+    tl.setPointerCapture(e.pointerId);
+  });
+  tl.addEventListener("pointermove", e => {
+    if (!drag) return;
+    if (!drag.moved && Math.abs(e.clientX - drag.x) < 6) return;
+    drag.moved = true; drag.el.classList.add("drag");
+    const blks = [...tl.querySelectorAll(".blk")], r0 = tl.getBoundingClientRect();
+    let to = blks.length, x = blks.length ? blks.at(-1).getBoundingClientRect().right : r0.left;
+    for (let i = 0; i < blks.length; i++) {
+      const r = blks[i].getBoundingClientRect();
+      if (e.clientX < r.left + r.width / 2) { to = i; x = r.left - 1.5; break; }
+    }
+    drag.to = to; ins.style.display = "block"; ins.style.left = (x - r0.left) + "px";
+  });
+  const up = e => {
+    if (!drag) return;
+    const d = drag; drag = null; ins.style.display = "none"; d.el.classList.remove("drag");
+    const from = idx(d.uid);
+    if (!d.moved) {
+      sel = d.uid;
+      player.jump(from);
+      render(); return;
+    }
+    let to = d.to; if (to > from) to--;
+    if (to !== from && to >= 0) commit(() => { const [it] = S.seq.splice(from, 1); S.seq.splice(to, 0, it); });
+  };
+  tl.addEventListener("pointerup", up); tl.addEventListener("pointercancel", up);
+})();
+
+/* ---------- live readouts ---------- */
+const ui = {
+  tick(cur, local) {
+    const it = S.seq[cur]; if (!it) return;
+    const before = S.seq.slice(0, cur).reduce((t, x) => t + len(x), 0);
+    $("#now").innerHTML = `<b class="tc">${s1(before + local)} / ${s1(total())} с</b><span>${cur + 1} из ${S.seq.length} · ${LIB.get(it.id).ru}</span>`;
+    const b = document.querySelector(`.blk[data-uid="${it.uid}"]`), ph = $("#ph");
+    if (b) ph.style.left = (b.offsetLeft + b.offsetWidth * local / len(it)) + "px";
+    const c = document.getElementById("cur");
+    if (c) {
+      const show = it.uid === sel;
+      c.hidden = !show;
+      if (show) c.style.left = ((it.a + local) / LIB.get(it.id).dur * 100) + "%";
+    }
+  },
+  playState(on) {
+    $("#play").innerHTML = (on ? `<svg viewBox="0 0 16 16"><path d="M3 2h4v12H3zM9 2h4v12H9z"/></svg>` : `<svg viewBox="0 0 16 16"><path d="M3 1.5v13L14 8z"/></svg>`) +
+      `<span>${on ? "Пауза" : "Играть"}</span>`;
+  }
+};
+
+/* ---------- export ---------- */
+function exportText() {
+  const lines = S.seq.map((it, i) => `${i + 1}. ${fileOf(it)}  ${it.a.toFixed(2)}-${it.b.toFixed(2)}  (${s1(len(it))} s, ${LIB.get(it.id).en})`);
+  const json = JSON.stringify({ fade: S.fade, seq: S.seq.map(it => ({ k: fileOf(it), a: +it.a.toFixed(3), b: +it.b.toFixed(3) })) });
+  return `Hero sequence from the editor: ${S.seq.length} shots, ${s1(total())} s, ${S.fade ? "dissolves " + S.fade + " s" : "hard cuts"}, frame ${S.frame}\n${lines.join("\n")}\nJSON: ${json}`;
+}
+let tt;
+function toast(m) { const t = $("#toast"); t.textContent = m; t.classList.add("show"); clearTimeout(tt); tt = setTimeout(() => t.classList.remove("show"), 1800); }
+
+/* ---------- presets and own variants ---------- */
+// Own variants live on disk (editor/variants.json via _build/serve.py), so every browser and Claude see them;
+// localStorage only keeps a copy for when the page is served without the save endpoint.
+let DISK = [];
+const allMine = () => { const m = new Map(); for (const v of store.get(MINE, [])) m.set(v.name, v); for (const v of DISK) m.set(v.name, v); return [...m.values()]; };
+function fillPresets() {
+  const mine = allMine();
+  const p = $("#preset");
+  p.innerHTML = `<option value="">Начать с варианта…</option>` +
+    (mine.length ? `<optgroup label="Мои">${mine.map((m, i) => `<option value="m${i}">${m.name}</option>`).join("")}</optgroup>` : "") +
+    `<optgroup label="Из раунда 3">${PRESETS.map((m, i) => `<option value="p${i}">${m.id.slice(1)} · ${m.title}</option>`).join("")}</optgroup>`;
+}
+
+/* ---------- wiring ---------- */
+$("#play").onclick = () => player.toggle();
+$("#prev").onclick = () => player.step(-1);
+$("#next").onclick = () => player.step(1);
+$("#undo").onclick = undo;
+$("#all").onchange = e => {
+  e.target.blur();
+  if (e.target.checked) return;   // ticking it on does nothing: it only clears
+  commit(() => { S.seq = []; sel = null; });
+  toast("Лента очищена. Вернуть: Ctrl+Z");
+};
+$("#fs").onclick = () => $("#screen").requestFullscreen?.();
+$("#fade").onclick = e => { const b = e.target.closest("button"); if (b) { S.fade = +b.dataset.v; store.set(KEY, S); render(); } };
+$("#frame").onclick = e => { const b = e.target.closest("button"); if (b) { S.frame = b.dataset.v; store.set(KEY, S); render(); } };
+$("#copy").onclick = async () => {
+  if (!S.seq.length) return toast("Лента пустая");
+  const txt = exportText();
+  try { await navigator.clipboard.writeText(txt); toast("Скопировано, вставь мне в чат"); }
+  catch (e) { $("#dlgtxt").value = txt; $("#dlg").showModal(); $("#dlgtxt").select(); }
+};
+$("#save").onclick = async () => {
+  if (!S.seq.length) return toast("Лента пустая");
+  const name = prompt("Как назвать вариант?", `Мой вариант ${allMine().length + 1}`);
+  if (!name) return;
+  const v = { name, fade: S.fade, seq: S.seq.map(({ uid, ...x }) => x) };
+  store.set(MINE, [...store.get(MINE, []).filter(x => x.name !== name), v]);
+  let onDisk = false;
+  try { onDisk = (await fetch("variants", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(v) })).ok; } catch (e) {}
+  if (onDisk) DISK = [...DISK.filter(x => x.name !== name), v];
+  fillPresets();
+  toast(onDisk ? `Сохранено в проект: ${name}` : `Сохранено только в этом браузере: ${name}. Нажми «Скопировать для Claude»`);
+};
+$("#preset").onchange = e => {
+  const v = e.target.value; e.target.value = "";
+  if (!v) return;
+  const m = v[0] === "m" ? allMine()[+v.slice(1)] : PRESETS[+v.slice(1)];
+  if (m) { loadSeq(m.seq, m.fade); toast("Загружено. Отменить: Ctrl+Z"); }
+};
+document.addEventListener("keydown", e => {   // e.code: works in the Russian layout too
+  if (e.target.closest?.("textarea, select, dialog")) return;
+  if (e.ctrlKey || e.metaKey) { if (e.code === "KeyZ") { e.preventDefault(); undo(); } return; }
+  const k = e.code;
+  if (k === "Space") { e.preventDefault(); player.toggle(); }
+  else if (k === "ArrowLeft") { e.preventDefault(); player.step(-1); }
+  else if (k === "ArrowRight") { e.preventDefault(); player.step(1); }
+  else if (k === "KeyF") $("#fs").click();
+  else if ((k === "KeyI" || k === "KeyO") && S.seq.length) {
+    const it = S.seq[player.cur], t = fr(player.time);
+    sel = it.uid;
+    if (k === "KeyI") commit(() => it.a = Math.min(t, fr(it.b - MIN)));
+    else commit(() => it.b = Math.max(t, fr(it.a + MIN)));
+    toast(k === "KeyI" ? `Начало: ${s1(it.a)} с` : `Конец: ${s1(it.b)} с`);
+  }
+  else if (k === "Delete" && sel) removeUid(sel);
+});
+// a focused button would also "click" on Space; Space is play/pause only
+document.addEventListener("keyup", e => { if (e.code === "Space" && e.target.closest?.("button")) e.preventDefault(); });
+
+fetch("variants.json", { cache: "no-store" }).then(r => r.ok ? r.json() : []).catch(() => []).then(v => { DISK = v; fillPresets(); });
+fetch("data.json").then(r => r.json()).then(d => {
+  LIB = new Map(d.shots.map(s => [s.id, s]));
+  PRESETS = d.presets;
+  fillPresets();
+  const saved = store.get(KEY, null);
+  if (saved && saved.seq) {
+    S = { fade: 0, frame: "wide", ...saved };
+    S.seq = S.seq.filter(x => LIB.has(x.id) && LIB.get(x.id).grades[x.grade]);
+    render(); player.jump(0);
+  } else {
+    const start = PRESETS.find(p => p.id === "p01l") || PRESETS[0];
+    render(); loadSeq(start.seq, start.fade); hist = [];
+  }
+  ui.playState(true);
+});
+</script>
+</body>
+</html>

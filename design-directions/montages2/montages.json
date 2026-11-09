@@ -1,0 +1,770 @@
+[
+ {
+  "id": "n01",
+  "title": "Raja Ampat karst saga",
+  "secs": 31.5,
+  "transition": "cut",
+  "shots": [
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ],
+   [
+    "garden",
+    "Low into the coral garden (17)"
+   ],
+   [
+    "garden2",
+    "Neon turquoise between karst towers"
+   ],
+   [
+    "corridor",
+    "Karst corridor, turns trimmed (32)"
+   ],
+   [
+    "reflect",
+    "Mushroom rock mirrored in still water"
+   ]
+  ]
+ },
+ {
+  "id": "n02",
+  "title": "One rock, four angles",
+  "secs": 25.2,
+  "transition": "fade",
+  "shots": [
+   [
+    "mushroom",
+    "Boat to the mushroom rock (20)"
+   ],
+   [
+    "reflect",
+    "Mushroom rock mirrored in still water"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "profile",
+    "Round the rock: the face in the cliff"
+   ]
+  ]
+ },
+ {
+  "id": "n03",
+  "title": "Clear water",
+  "secs": 21.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "boat3",
+    "Boat bow over bright shallows"
+   ],
+   [
+    "boat2",
+    "Boat bow between coral heads (18)"
+   ],
+   [
+    "reefsun",
+    "Top-down: sun glitter on corals (21)"
+   ],
+   [
+    "beachboat",
+    "Low over the moored boat to the reef (22)"
+   ]
+  ]
+ },
+ {
+  "id": "n04",
+  "title": "Islands first, then the reef",
+  "secs": 30.5,
+  "transition": "cut",
+  "shots": [
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "n05",
+  "title": "Red and turquoise",
+  "secs": 26.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "fanmacro",
+    "Orange sea fan, close (25)"
+   ],
+   [
+    "garden2",
+    "Neon turquoise between karst towers"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "boat3",
+    "Boat bow over bright shallows"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "n06",
+  "title": "Teaser, 12 s",
+  "secs": 12.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ]
+  ]
+ },
+ {
+  "id": "n07",
+  "title": "Slow cinema, 40 s",
+  "secs": 39.5,
+  "transition": "fade",
+  "shots": [
+   [
+    "reflect",
+    "Mushroom rock mirrored in still water"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "garden",
+    "Low into the coral garden (17)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "n08",
+  "title": "Chapters: dip to black",
+  "secs": 25.7,
+  "transition": "fadeblack",
+  "shots": [
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "n09",
+  "title": "Underwater, second set",
+  "secs": 27.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "fanmacro",
+    "Orange sea fan, close (25)"
+   ],
+   [
+    "tables",
+    "Table corals on the reef wall"
+   ],
+   [
+    "turtle2",
+    "Turtle over the reef, close"
+   ],
+   [
+    "fish",
+    "Bommie with reef fish (27)"
+   ],
+   [
+    "jelly2",
+    "Golden jellyfish passing near the surface"
+   ]
+  ]
+ },
+ {
+  "id": "n10",
+  "title": "Boat journey to sunset",
+  "secs": 30.5,
+  "transition": "cut",
+  "shots": [
+   [
+    "boat",
+    "Boat bow, horizon kept level (34)"
+   ],
+   [
+    "mushroom",
+    "Boat to the mushroom rock (20)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "profile",
+    "Round the rock: the face in the cliff"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "n11",
+  "title": "Drone only, second set",
+  "secs": 30.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "cape",
+    "Tropical cape (12)"
+   ],
+   [
+    "reeftop",
+    "Top-down reef edge, North Sulawesi (13)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "garden2",
+    "Neon turquoise between karst towers"
+   ],
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ]
+  ]
+ },
+ {
+  "id": "n12",
+  "title": "One take: jungle to lagoon",
+  "secs": 20.7,
+  "transition": "cut",
+  "shots": [
+   [
+    "lagoonfull",
+    "Jungle ridge to the open lagoon, one take"
+   ]
+  ]
+ },
+ {
+  "id": "n13",
+  "title": "One take: the turtle",
+  "secs": 16.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "turtlelong",
+    "Turtle, one long take"
+   ]
+  ]
+ },
+ {
+  "id": "n14",
+  "title": "One take: phinisi at sunset",
+  "secs": 12.3,
+  "transition": "cut",
+  "shots": [
+   [
+    "phinisifull",
+    "Phinisi at sunset, whole flight"
+   ]
+  ]
+ },
+ {
+  "id": "n15",
+  "title": "North Sulawesi only (GPS)",
+  "secs": 25.3,
+  "transition": "cut",
+  "shots": [
+   [
+    "coast",
+    "Volcanic coast, North Sulawesi (06)"
+   ],
+   [
+    "palms",
+    "Between palm trunks (11)"
+   ],
+   [
+    "cape",
+    "Tropical cape (12)"
+   ],
+   [
+    "reeftop",
+    "Top-down reef edge, North Sulawesi (13)"
+   ]
+  ]
+ },
+ {
+  "id": "n16",
+  "title": "Raja Ampat only",
+  "secs": 29.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "reefsun",
+    "Top-down: sun glitter on corals (21)"
+   ],
+   [
+    "beachboat",
+    "Low over the moored boat to the reef (22)"
+   ],
+   [
+    "canoe",
+    "Canoe on the white beach, longer (40)"
+   ],
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ],
+   [
+    "garden",
+    "Low into the coral garden (17)"
+   ]
+  ]
+ },
+ {
+  "id": "n17",
+  "title": "Opens with a jellyfish",
+  "secs": 24.5,
+  "transition": "cut",
+  "shots": [
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ]
+  ]
+ },
+ {
+  "id": "n18",
+  "title": "Opens with the turtle",
+  "secs": 22.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "boat3",
+    "Boat bow over bright shallows"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ]
+  ]
+ },
+ {
+  "id": "n19",
+  "title": "Eye level, no drone",
+  "secs": 28.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "boat3",
+    "Boat bow over bright shallows"
+   ],
+   [
+    "reflect",
+    "Mushroom rock mirrored in still water"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "boat2",
+    "Boat bow between coral heads (18)"
+   ],
+   [
+    "mushroom",
+    "Boat to the mushroom rock (20)"
+   ]
+  ]
+ },
+ {
+  "id": "n20",
+  "title": "Above, below, in pairs",
+  "secs": 21.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "garden2",
+    "Neon turquoise between karst towers"
+   ],
+   [
+    "tables",
+    "Table corals on the reef wall"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "fish",
+    "Bommie with reef fish (27)"
+   ],
+   [
+    "reflect",
+    "Mushroom rock mirrored in still water"
+   ],
+   [
+    "jelly2",
+    "Golden jellyfish passing near the surface"
+   ]
+  ]
+ },
+ {
+  "id": "n21",
+  "title": "Blue to gold",
+  "secs": 25.0,
+  "transition": "fade",
+  "shots": [
+   [
+    "jellies",
+    "Jellyfish constellation (29)"
+   ],
+   [
+    "turtle2",
+    "Turtle over the reef, close"
+   ],
+   [
+    "garden",
+    "Low into the coral garden (17)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "n22",
+  "title": "People and boats",
+  "secs": 31.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "canoe",
+    "Canoe on the white beach, longer (40)"
+   ],
+   [
+    "beachboat",
+    "Low over the moored boat to the reef (22)"
+   ],
+   [
+    "boatlagoon",
+    "Boat crossing the lagoon from above"
+   ],
+   [
+    "mushroom",
+    "Boat to the mushroom rock (20)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "n23",
+  "title": "Wildlife",
+  "secs": 26.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "shark",
+    "Whale shark by the bagan (23)"
+   ],
+   [
+    "fish",
+    "Bommie with reef fish (27)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "fanmacro",
+    "Orange sea fan, close (25)"
+   ]
+  ]
+ },
+ {
+  "id": "n24",
+  "title": "Loop that closes on itself",
+  "secs": 26.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "garden2",
+    "Neon turquoise between karst towers"
+   ],
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "fanmacro",
+    "Orange sea fan, close (25)"
+   ]
+  ]
+ },
+ {
+  "id": "n25",
+  "title": "Reef first (01) with dissolves",
+  "secs": 28.5,
+  "transition": "fade",
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "cape",
+    "Tropical cape (12)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "n26",
+  "title": "A day (10), soft loop",
+  "secs": 30.5,
+  "transition": "cut",
+  "shots": [
+   [
+    "cape",
+    "Tropical cape (12)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "n27",
+  "title": "Three shots only",
+  "secs": 18.9,
+  "transition": "fade",
+  "shots": [
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ },
+ {
+  "id": "n28",
+  "title": "Centred subjects, phone-first",
+  "secs": 23.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "mushroom",
+    "Boat to the mushroom rock (20)"
+   ]
+  ]
+ },
+ {
+  "id": "n29",
+  "title": "Karst and clear water",
+  "secs": 21.2,
+  "transition": "fade",
+  "shots": [
+   [
+    "corridor",
+    "Karst corridor, turns trimmed (32)"
+   ],
+   [
+    "karstwall",
+    "Row of karst walls over the lagoon"
+   ],
+   [
+    "boat3",
+    "Boat bow over bright shallows"
+   ],
+   [
+    "reflect",
+    "Mushroom rock mirrored in still water"
+   ]
+  ]
+ },
+ {
+  "id": "n30",
+  "title": "Best of, 36 s",
+  "secs": 36.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "lagoon",
+    "Past the palm into the lagoon (33)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "dronie",
+    "Karst tower dronie, first 1.5 s cut (16)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "garden2",
+    "Neon turquoise between karst towers"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "phinisi",
+    "Phinisi at sunset"
+   ]
+  ]
+ }
+]

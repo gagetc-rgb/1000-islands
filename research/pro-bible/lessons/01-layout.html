@@ -1,0 +1,1041 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Урок 1. Как устроена страница</title>
+<meta name="description" content="Блоки, алгоритмы раскладки, адаптив и типичные ошибки вёрстки у нейронок. Интерактивный урок.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2314171c%27/%3E%3Crect x=%277%27 y=%2718%27 width=%2718%27 height=%276%27 fill=%27%23ffe14d%27/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/GolosText-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/course.css?v=6">
+<style>
+/* lesson 1: demo-only styles */
+.plain-frame{display:block;width:100%;height:23rem;border:0;background:#fff}
+
+#bm .stage-body{overflow-x:auto}
+#bmPhone{width:min(300px,100%);margin-inline:auto;border:2px solid var(--ink);border-bottom:0;border-radius:14px 14px 0 0;min-height:11rem;padding-top:1.9rem;position:relative;background:#fff}
+#bmPhone.over{border-color:var(--bad)}
+#bmPhone::before{content:attr(data-label);position:absolute;top:.3rem;left:0;right:0;text-align:center;font-size:.8rem;color:var(--ink-3)}
+#bmBox{width:calc(var(--w) * 1%);padding:calc(var(--pad) * 1px);border:calc(var(--bor) * 1px) solid var(--ink);background:#bfe3c8}
+#bm[data-sizing=content] #bmBox{box-sizing:content-box}
+#bm[data-sizing=border] #bmBox{box-sizing:border-box}
+#bmBox > span{display:block;background:#bcd6f7;padding:.45rem .5rem;font-size:.86rem;line-height:1.35}
+.bm-key{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;font-size:.86rem;color:var(--ink-2);margin-top:.9rem;justify-content:center}
+.bm-key i{display:inline-block;width:.85rem;height:.85rem;border-radius:3px;margin-right:.35rem;vertical-align:-.1em;border:1px solid var(--ink-3)}
+
+#algoStage .stage-body{overflow-x:auto}
+#algo{width:calc(var(--cw) * 1%);min-width:9rem;min-height:13rem;border:1.5px dashed var(--ink-3);border-radius:8px;padding:10px;position:relative;background:#fff}
+#algo > div{background:var(--mark-soft);border:1px solid var(--mark-line);border-radius:6px;padding:.45rem .7rem;font-size:.92rem}
+#algoStage[data-algo=flow] #algo > div + div{margin-top:6px}
+#algoStage[data-algo=flex] #algo{display:flex;gap:calc(var(--gap) * 1px);align-items:flex-start}
+#algoStage[data-algo=flex][data-dir=column] #algo{flex-direction:column}
+#algoStage[data-algo=flex][data-wrap=on] #algo{flex-wrap:wrap}
+#algoStage[data-algo=flex][data-just=center] #algo{justify-content:center}
+#algoStage[data-algo=flex][data-just=between] #algo{justify-content:space-between}
+#algoStage[data-algo=grid] #algo{display:grid;gap:calc(var(--gap) * 1px);align-content:start}
+#algoStage[data-algo=grid][data-cols=three] #algo{grid-template-columns:repeat(3,1fr)}
+#algoStage[data-algo=grid][data-cols=auto] #algo{grid-template-columns:repeat(auto-fit,minmax(min(calc(var(--min) * 1px),100%),1fr))}
+#algoStage[data-algo=abs] #algo > div{position:absolute}
+#algoStage[data-algo=abs] #algo > div:nth-child(1){left:12px;top:14px}
+#algoStage[data-algo=abs] #algo > div:nth-child(2){left:150px;top:14px}
+#algoStage[data-algo=abs] #algo > div:nth-child(3){left:300px;top:44px}
+#algoStage[data-algo=abs] #algo > div:nth-child(4){left:60px;top:84px}
+#algoStage[data-algo=abs] #algo > div:nth-child(5){left:210px;top:118px}
+#algoStage[data-algo=abs] #algo > div:nth-child(6){left:400px;top:156px}
+.only-flex,.only-grid,.only-fg{display:none}
+#algoStage[data-algo=flex] .only-flex,#algoStage[data-algo=flex] .only-fg,
+#algoStage[data-algo=grid] .only-grid,#algoStage[data-algo=grid] .only-fg{display:inline-flex}
+#algoStage[data-algo=grid][data-cols=three] .only-auto{display:none}
+#algoCode{margin:0;border-radius:0}
+
+#rag .rag-box{display:flex;flex-wrap:wrap;gap:12px}
+#rag .rag-box > div{flex:1 1 220px;background:var(--mark-soft);border:1px solid var(--mark-line);border-radius:8px;padding:.9rem;min-height:4.5rem;font-weight:600}
+#rag[data-mode=grid] .rag-box{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(220px,100%),1fr))}
+
+#stress .stage-body{min-height:21rem}
+.s-card{width:calc(var(--sw) * 1px);max-width:100%;border:1.5px solid var(--ink);border-radius:10px;padding:14px;background:#fff;font-size:.95rem;line-height:1.45}
+.s-card .mh{margin-bottom:.35rem}
+.s-card p{margin:0 0 .6rem;color:var(--ink-2)}
+.s-price{font-weight:700}
+.s-price span{font-weight:400;color:var(--ink-2)}
+#stress[data-h=fixed] .s-card{height:180px}
+#stress[data-h=min] .s-card{min-height:180px}
+#stress[data-h=fixed][data-clip=on] .s-card{overflow:hidden}
+.s-next{margin-top:12px;width:calc(var(--sw) * 1px);max-width:100%;background:var(--ink);color:#fff;border-radius:10px;padding:.8rem 1rem;font-size:.92rem}
+
+.vh-fig{display:flex;flex-wrap:wrap;gap:1.25rem 2rem;align-items:center;margin-top:1.4rem;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1.1rem}
+.vh-phone{width:9.5rem;height:16.25rem;border:2px solid var(--ink);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;background:#fff;flex:none;font-size:.78rem;text-align:center}
+.vh-bar{background:var(--sunk);color:var(--ink-2);padding:.5rem .3rem;height:2.25rem;flex:none}
+.vh-area{flex:1;display:grid;place-items:center;background:var(--mark-soft);color:var(--ink);padding:.4rem}
+.vh-rules{display:flex;gap:1rem;height:16.25rem;flex:none}
+.vh-rule{display:flex;align-items:center;gap:.45rem;font-weight:650;font-size:.86rem;white-space:nowrap}
+.vh-rule::before{content:"";align-self:stretch;width:.8rem;border:2px solid var(--ink);border-right:0}
+.vh-rule.svh{margin-block:2.25rem}
+.vh-fig ul{flex:1 1 15rem;margin:0;font-size:.95rem}
+
+#gamePhone{width:min(320px,100%);height:23rem;margin-inline:auto;border:2px solid var(--ink);border-radius:14px;overflow:auto;overflow-wrap:normal;background:#fff;font-size:.9rem;line-height:1.4}
+#gamePhone [data-el]{cursor:pointer}
+#game[data-outline=on] #gamePhone [data-el]{outline:1.5px solid #d0452f;outline-offset:-1px}
+#gamePhone .g-hit{outline:3px solid var(--bad) !important;outline-offset:-3px;background-color:var(--bad-bg)}
+#gamePhone .g-ok{outline:3px solid var(--good) !important;outline-offset:-3px}
+.g-top{padding:.6rem .8rem;border-bottom:1px solid var(--line);font-weight:700}
+.g-h{font-size:1.25rem;font-weight:700;line-height:1.15;padding:.8rem .8rem 0}
+.g-p{padding:.5rem .8rem 0;color:var(--ink-2)}
+.g-img{height:8.5rem;margin:.8rem 0 0 .8rem;border-radius:8px;background:linear-gradient(160deg,#9fd3f0,#f6e3a1 60%,#e9a56b);display:grid;place-items:center;font-weight:600;color:#14171c}
+.g-tags{display:flex;gap:.4rem;padding:.7rem .8rem 0}
+.g-tags span{flex:none;border:1px solid var(--ink-3);border-radius:99px;padding:.15rem .6rem;font-size:.82rem}
+.g-table{margin:.8rem;border:1px solid var(--ink-3);border-radius:8px;padding:.6rem .7rem;display:grid;grid-template-columns:1fr auto auto;gap:.3rem 1rem;font-size:.85rem}
+.g-btn{margin:.8rem;padding:.55rem .9rem;background:var(--ink);color:#fff;border-radius:8px;font-weight:600;display:inline-block}
+.game-bar{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+
+#zdemo .z-scene{position:relative;isolation:isolate;height:13rem;border:1px solid var(--line);border-radius:8px;background:#fff}
+.z-header{position:relative;z-index:2;background:var(--ink);color:#fff;padding:.9rem 1rem;height:4rem;font-weight:600;border-radius:7px 7px 0 0}
+.z-main{position:relative;z-index:1;padding:1.6rem 1rem 1rem;height:9rem}
+#zdemo[data-fix=on] .z-main{z-index:auto}
+.z-tip{position:absolute;left:1rem;top:-2.1rem;z-index:var(--z);background:var(--mark);border:1.5px solid var(--ink);padding:.4rem .7rem;border-radius:6px;font-size:.9rem;font-weight:600}
+
+#stBox{position:relative;height:16rem;overflow:auto;border:1px solid var(--line);border-radius:8px;background:#fff}
+.st-head{position:sticky;top:0;height:3.5rem;background:var(--ink);color:#fff;display:flex;gap:.5rem;align-items:center;padding:0 .8rem;z-index:1}
+.st-head strong{margin-right:auto}
+.st-head button{font:inherit;font-size:.88rem;color:#fff;background:none;border:1px solid #5a6170;border-radius:6px;padding:.3rem .6rem;cursor:pointer;min-height:2.1rem}
+.st-head button:hover{border-color:#fff}
+.st-body{padding:.5rem 1rem 12rem}
+.st-body .mh{margin-top:1.6rem;padding:.25rem .5rem;background:var(--mark);display:inline-block}
+.st-body p{color:var(--ink-2);font-size:.95rem}
+#stStage[data-fix=on] .st-body .mh{scroll-margin-top:4.25rem}
+
+#sem .sem-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(17rem,100%),1fr));gap:1rem}
+#semFrame{display:block;width:100%;height:17rem;border:1px solid var(--line);border-radius:8px;background:#fff}
+#semOut{background:var(--sunk);border-radius:8px;padding:.9rem 1rem;font-size:.94rem}
+#semOut .mh{margin-bottom:.4rem}
+#semOut ul{margin:.3rem 0 .8rem;padding-left:1.1rem}
+#semOut .lvl2{margin-left:1.1rem}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="index.html">Матчасть</a>
+    <span class="top-here">Урок 1 из 9: как устроена страница</span>
+    <a class="top-next" href="02-hierarchy.html">Следующий урок</a>
+  </div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+</header>
+
+<div class="shell">
+<nav aria-label="Содержание урока"><details class="toc"><summary>Содержание</summary><ol></ol></details></nav>
+
+<main>
+<div class="hero">
+  <h1>Урок 1. Как устроена страница</h1>
+  <p class="lead">После урока ты сможешь прочитать любую вёрстку от нейронки, назвать проблему правильным словом и за минуту проверить, развалится ли страница на телефоне.</p>
+  <p>Примерно 50 минут. Девять интерактивов, в конце чек-лист приёмки и тест. Код писать не нужно: задача в том, чтобы понимать, что просить и как проверять.</p>
+  <p class="small">Пометки у утверждений: ◆ стандарт или первичный источник, ◈ согласие нескольких авторов или общая практика, ◇ мнение одного автора.</p>
+</div>
+
+<section class="sec" id="layers" data-short="Три слоя страницы">
+  <h2>Три слоя: смысл, вид, поведение</h2>
+  <p>Любая страница собрана из трёх языков. <mark>HTML</mark> говорит, что это такое: заголовок, абзац, кнопка, ссылка. <mark>CSS</mark> решает, как это выглядит и где стоит. <mark>JavaScript</mark> отвечает за то, что происходит после загрузки: открыть меню, проверить форму, подгрузить данные.</p>
+  <p>Браузер читает HTML сверху вниз, строит из него дерево элементов (его называют DOM), накладывает CSS и рисует результат. Главная мысль раздела: если убрать CSS и JavaScript, должна остаться понятная страница с текстом и ссылками. Такую страницу прочитают поисковик, программа экранного доступа и человек на плохой связи. <span class="ev">◈ общая практика</span></p>
+
+  <div class="stage" id="layersStage" data-ver="html" data-css="on" data-js="on">
+    <div class="stage-head">
+      <span class="stage-title">Выключи слои и посмотри, что останется</span>
+      <div class="seg" role="group" aria-label="Версия страницы">
+        <button type="button" class="is-good" data-set="ver=html" aria-pressed="true">Текст лежит в HTML</button>
+        <button type="button" class="is-bad" data-set="ver=spa" aria-pressed="false">Всё рисует JavaScript</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field"><input type="checkbox" data-flag="css" checked> CSS включён</label>
+      <label class="field"><input type="checkbox" data-flag="js" checked> JavaScript включён</label>
+    </div>
+    <iframe class="plain-frame" id="layersFrame" title="Пример страницы туров"></iframe>
+    <div class="stage-foot"><p id="layersOut" aria-live="polite"></p></div>
+  </div>
+
+  <p>Попробуй в обеих версиях выключить JavaScript. В первой жёлтый счётчик превратится в обычную строку и кнопка перестанет раскрывать блок, всё остальное на месте. Во второй останется белый лист. Ссылки внутри примера никуда не ведут, это макет.</p>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <ul>
+      <li>Без явного указания собирают обычный лендинг как React-проект с кучей файлов. <span class="ev">◇ DesignCode, Opus 5.5, сентябрь 2026; в другом видео Opus 4.6 сам выбрал обычный HTML (Flux, апрель 2026), так что поведение нестабильно</span></li>
+      <li>Ставят одинаковое появление снизу на каждый блок. <span class="ev">◈ Anthropic, Flux (Claude, май 2026)</span> Если это появление держится на <code>opacity: 0</code> и скрипте, получается ошибка из соседнего блока.</li>
+    </ul>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>В исходном HTML пустой <code>&lt;div id="root"&gt;</code>, весь текст появляется только после выполнения скрипта. <span class="ev">◈ Fireship, Chrome</span></li>
+      <li>Контент спрятан через <code>opacity: 0</code>, пока скрипт не покажет. Скрипт упал, страница пустая. Даже если не упал, Chrome не считает невидимый элемент отрисованным, и метрика LCP ждёт скрипта. <span class="ev">◈ изменение Chromium 2020 по описанию DebugBear и Shopify; Impeccable</span></li>
+      <li>Кнопка с обработчиком там, где нужна обычная ссылка. <span class="ev">◈ Vercel, freeCodeCamp</span></li>
+    </ul>
+    <p class="small">◈ В наших источниках Fireship требует готовый HTML с сервера, а Chrome напоминает, что Googlebot умеет исполнять JavaScript. Безопасный вывод для сайта-визитки: отдавать готовый HTML. Проверка простая: открой исходный код страницы и найди там свой заголовок.</p>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Build this page as static HTML and CSS first. All text, links and images must be present in the HTML source.</li>
+      <li>JavaScript only enhances. If a script fails, content stays visible and links still work.</li>
+      <li>Do not hide content with opacity: 0 while waiting for a script to reveal it.</li>
+    </ul>
+  </div>
+
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <p>Открой страницу, нажми <code>Ctrl+U</code> (View source) и поищи через <code>Ctrl+F</code> фразу с первого экрана. Нашлась: текст лежит в HTML. Не нашлась: его рисует скрипт.</p>
+  </div>
+</section>
+
+<section class="sec" id="box" data-short="Коробки: box model">
+  <h2>Всё на странице состоит из прямоугольников</h2>
+  <p>Каждый элемент браузер считает коробкой из четырёх слоёв: <mark>content</mark> (содержимое), <mark>padding</mark> (внутренний отступ), <mark>border</mark> (рамка) и <mark>margin</mark> (внешний отступ до соседей). Это называется box model. <span class="ev">◆ спецификация CSS</span></p>
+  <p>Тонкость в том, что именно задаёт <code>width</code>. По старому правилу <code>content-box</code> ширина относится только к содержимому, а padding и border прибавляются сверху. По правилу <code>border-box</code> ширина уже включает padding и border. Поэтому почти каждый современный проект начинается со строки <code>* { box-sizing: border-box }</code>. <span class="ev">◈ общая практика</span></p>
+
+  <div class="stage" id="bm" data-sizing="content">
+    <div class="stage-head">
+      <span class="stage-title">Блок с width: 100% внутри экрана телефона</span>
+      <div class="seg" role="group" aria-label="Правило расчёта ширины">
+        <button type="button" class="is-bad" data-set="sizing=content" aria-pressed="true">content-box</button>
+        <button type="button" class="is-good" data-set="sizing=border" aria-pressed="false">border-box</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">width <input type="range" min="50" max="100" value="100" data-var="--w" data-show="%"><output></output></label>
+      <label class="field">padding <input type="range" min="0" max="40" value="24" data-var="--pad" data-show=" px"><output></output></label>
+      <label class="field">border <input type="range" min="0" max="12" value="4" data-var="--bor" data-show=" px"><output></output></label>
+    </div>
+    <div class="stage-body sunk">
+      <div id="bmPhone" data-label="экран">
+        <div id="bmBox"><span>content: текст, картинка, что угодно</span></div>
+      </div>
+      <div class="bm-key" aria-hidden="true">
+        <span><i style="background:#bcd6f7"></i>content</span>
+        <span><i style="background:#bfe3c8"></i>padding</span>
+        <span><i style="background:#14171c"></i>border</span>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="bmOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>У margin есть странность. Вертикальные margin соседних блоков в обычном потоке не складываются, а схлопываются до большего из двух. Во flex и grid этого нет. <span class="ev">◆ спецификация CSS</span> Отсюда практическое правило: расстояние между соседями задают через <code>gap</code> у родителя, а не раздают margin каждому ребёнку. <span class="ev">◈ практика</span></p>
+
+  <div class="note human">
+    <p class="nt">Где ошибаются люди</p>
+    <ul>
+      <li>Ставят <code>width: 100%</code> и добавляют padding. Блок становится шире родителя, страница начинает ездить вбок.</li>
+      <li>Раздают margin каждому элементу по отдельности. Отступы начинают спорить друг с другом, и никто не помнит, откуда взялись лишние 12 пикселей.</li>
+    </ul>
+  </div>
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <p>Отступы получаются неровными: сверху у блока одно расстояние, слева другое, между секциями то больше, то меньше. Anthropic пишет, что модели легко создают CSS-классы, которые гасят друг друга, особенно в отступах между секциями. В одном файле оказываются <code>gap</code>, <code>margin-top</code>, <code>margin-bottom</code> и пустые блоки-распорки, и через пять правок чинить это трудно. <span class="ev">◈ Anthropic; DesignCode (Opus 4.8, GPT-5.5, июнь 2026)</span></p>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Use box-sizing: border-box globally.</li>
+      <li>Space sibling elements with gap on the parent (flex or grid) instead of margins on children or empty spacer elements.</li>
+      <li>Take every spacing value from one scale defined as CSS custom properties.</li>
+    </ul>
+  </div>
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <p>Правый клик по блоку, Inspect, вкладка Computed. Там нарисована схема коробки с числами. При наведении на элемент в дереве Chrome подсвечивает слои прямо на странице: синий content, зелёный padding, оранжевый margin. <span class="ev">◆ Chrome DevTools</span></p>
+  </div>
+</section>
+
+<section class="sec" id="algos" data-short="Четыре алгоритма раскладки">
+  <h2>CSS это четыре разных способа расставлять блоки</h2>
+  <p>Самую полезную модель в голове хорошо формулирует Josh Comeau: CSS не один язык раскладки, а набор отдельных алгоритмов. Одно свойство на родителе переключает алгоритм для всех его детей. <span class="ev">◈ Comeau, 9elements</span></p>
+  <ul>
+    <li><strong>Flow, обычный поток.</strong> Работает по умолчанию. Блоки идут сверху вниз и занимают всю ширину, текст идёт в строку и переносится.</li>
+    <li><strong>Flexbox</strong>, <code>display: flex</code>. Раскладывает детей вдоль одной оси: в ряд или в колонку.</li>
+    <li><strong>Grid</strong>, <code>display: grid</code>. Сетка из строк и колонок, две оси сразу.</li>
+    <li><strong>Positioned</strong>, <code>position: absolute</code>, <code>fixed</code>, <code>sticky</code>. Элемент вынимают из общего порядка и привязывают: к родителю, к окну или к краю при прокрутке.</li>
+  </ul>
+  <p>Одно и то же свойство в разных алгоритмах ведёт себя по-разному. <code>width</code> во flex это пожелание, а не приказ: блок сожмётся, если места нет. <code>z-index</code> в обычном потоке не работает вовсе. Когда «тот же самый код вдруг перестал работать», причина почти всегда в том, что элемент оказался в другом алгоритме.</p>
+
+  <div class="stage" id="algoStage" data-algo="flow" data-dir="row" data-wrap="off" data-just="start" data-cols="three">
+    <div class="stage-head">
+      <span class="stage-title">Один и тот же HTML, четыре алгоритма</span>
+      <div class="seg" role="group" aria-label="Алгоритм раскладки">
+        <button type="button" data-set="algo=flow" aria-pressed="true">Flow</button>
+        <button type="button" data-set="algo=flex" aria-pressed="false">Flex</button>
+        <button type="button" data-set="algo=grid" aria-pressed="false">Grid</button>
+        <button type="button" class="is-bad" data-set="algo=abs" aria-pressed="false">Absolute</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">ширина контейнера <input type="range" min="30" max="100" value="100" data-var="--cw" data-show="%"><output></output></label>
+      <label class="field only-fg">gap <input type="range" min="0" max="32" value="12" data-var="--gap" data-show=" px"><output></output></label>
+      <span class="field only-flex">
+        <span class="seg" role="group" aria-label="Направление">
+          <button type="button" data-set="dir=row" aria-pressed="true">row</button>
+          <button type="button" data-set="dir=column" aria-pressed="false">column</button>
+        </span>
+      </span>
+      <label class="field only-flex"><input type="checkbox" data-flag="wrap"> flex-wrap</label>
+      <span class="field only-flex">
+        <span class="seg" role="group" aria-label="Выравнивание по главной оси">
+          <button type="button" data-set="just=start" aria-pressed="true">start</button>
+          <button type="button" data-set="just=center" aria-pressed="false">center</button>
+          <button type="button" data-set="just=between" aria-pressed="false">space-between</button>
+        </span>
+      </span>
+      <span class="field only-grid">
+        <span class="seg" role="group" aria-label="Колонки сетки">
+          <button type="button" data-set="cols=three" aria-pressed="true">3 равные колонки</button>
+          <button type="button" class="is-good" data-set="cols=auto" aria-pressed="false">auto-fit</button>
+        </span>
+      </span>
+      <label class="field only-grid only-auto">минимум колонки <input type="range" min="100" max="280" value="160" step="10" data-var="--min" data-show=" px"><output></output></label>
+    </div>
+    <div class="stage-body sunk">
+      <div id="algo">
+        <div>Manta Point</div><div>Kelingking</div><div>Crystal Bay snorkelling</div><div>Lunch</div><div>Sunset at Diamond Beach</div><div>Transfer</div>
+      </div>
+    </div>
+    <pre class="code" id="algoCode" aria-live="polite"></pre>
+  </div>
+
+  <p>Что попробовать. Во Flex сузь контейнер без <code>flex-wrap</code>: блоки сначала сожмутся, потом вылезут за край. Включи <code>flex-wrap</code>, и они начнут переноситься сами. В Grid выбери <code>auto-fit</code> и двигай ширину: число колонок меняется без единого условия. В Absolute сузь контейнер: блоки стоят на своих координатах и наезжают друг на друга, им всё равно, сколько места вокруг.</p>
+  <p>Правило выбора, на котором сошлись все пять авторов в нашей подборке: <strong>одна ось, значит Flex; две оси, значит Grid</strong>. Меню, ряд кнопок, иконка с подписью: Flex. Галерея карточек, макет страницы: Grid. <span class="ev">◈ Powell, Chrome, Comeau, midudev, Минин</span></p>
+
+  <div class="stage" id="rag" data-mode="flex">
+    <div class="stage-head">
+      <span class="stage-title">Пять карточек: что происходит с последним рядом</span>
+      <div class="seg" role="group" aria-label="Чем собрана сетка">
+        <button type="button" class="is-bad" data-set="mode=flex" aria-pressed="true">Flex с переносом</button>
+        <button type="button" class="is-good" data-set="mode=grid" aria-pressed="false">Grid</button>
+      </div>
+    </div>
+    <div class="stage-body sunk">
+      <div class="rag-box"><div>Тур 1</div><div>Тур 2</div><div>Тур 3</div><div>Тур 4</div><div>Тур 5</div></div>
+    </div>
+    <div class="stage-foot"><p>Во Flex каждый ряд считается отдельно, поэтому остаток растягивается на всю ширину и карточки получаются разного размера. Grid держит общие колонки для всех рядов. На узком экране разницы не видно: открой на широком.</p></div>
+  </div>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <p>Если отдать модели макет из Figma без auto layout, она видит набор абсолютных координат и повторяет их через <code>position: absolute</code> и фиксированные пиксели. На другой ширине всё наезжает. <span class="ev">◇ Flux, Opus 4.6, апрель 2026, совет, а не показанный результат</span></p>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Сетка карточек на Flex с процентами (<code>width: 33.33%</code>). На средних ширинах ряд ломается некрасиво. MDN прямо говорит: если задаёшь ширину flex-элементам, чтобы ряды совпали, бери Grid. <span class="ev">◆ MDN</span></li>
+      <li><code>position: absolute</code> для обычной раскладки, чтобы «точно попасть в макет». <span class="ev">◈ Comeau</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Use CSS Grid for two-dimensional layouts (page structure, card galleries) and Flexbox for one-dimensional rows (nav, button groups).</li>
+      <li>Card grids: grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)).</li>
+      <li>Never use position: absolute for layout, only for small decorative overlays.</li>
+    </ul>
+  </div>
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <p>В DevTools рядом с элементом в дереве стоят значки <code>flex</code> и <code>grid</code>. Клик по значку рисует линии сетки поверх страницы: сразу видно, сколько колонок и где промежутки. <span class="ev">◆ Chrome DevTools</span></p>
+  </div>
+</section>
+
+<section class="sec" id="sizes" data-short="Ширина и высота">
+  <h2>Ширина смотрит вверх, высота смотрит вниз</h2>
+  <p>В обычном потоке ширину блок берёт у родителя: сколько дали, столько и займу. Высоту он берёт у содержимого: сколько текста внутри, такой я высоты. Это наследство бумажного документа, где у листа фиксированная ширина, а страниц может быть сколько угодно. <span class="ev">◈ Comeau</span></p>
+  <p>Отсюда два правила Kevin Powell, которые снимают большую часть проблем адаптива. <span class="ev">◈ Powell</span></p>
+  <ul>
+    <li>Блокам с текстом не задают <code>height</code>. Если нужна минимальная высота, это <code>min-height</code>.</li>
+    <li>Контейнерам не задают <code>width</code>. Задают <code>max-width</code>, чтобы блок мог сжиматься.</li>
+  </ul>
+  <p>И его же наблюдение: голый HTML адаптивен сам по себе. Если страница ломается на телефоне, значит, её сломал CSS, который мы написали.</p>
+
+  <div class="stage" id="stress" data-h="fixed" data-clip="off">
+    <div class="stage-head">
+      <span class="stage-title">Стресс-тест длинным текстом</span>
+      <div class="seg" role="group" aria-label="Высота карточки">
+        <button type="button" class="is-bad" data-set="h=fixed" aria-pressed="true">height: 180px</button>
+        <button type="button" class="is-good" data-set="h=min" aria-pressed="false">min-height: 180px</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">длина текста <input type="range" min="1" max="4" value="1" id="stressLen"><output id="stressLenOut"></output></label>
+      <label class="field">ширина карточки <input type="range" min="180" max="380" value="300" data-var="--sw" data-show=" px"><output></output></label>
+      <label class="field"><input type="checkbox" data-flag="clip"> overflow: hidden</label>
+    </div>
+    <div class="stage-body sunk">
+      <article class="s-card">
+        <div class="mh" id="stressTitle"></div>
+        <p id="stressText"></p>
+        <div class="s-price">from $240 <span>per person</span></div>
+      </article>
+      <div class="s-next">Следующий блок страницы</div>
+    </div>
+    <div class="stage-foot"><p id="stressOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>Увеличь длину текста при <code>height: 180px</code>. Цена сначала выползает из карточки поверх соседнего блока. Включи <code>overflow: hidden</code>: теперь цена просто исчезла, а это хуже, потому что ошибку не видно. С <code>min-height</code> карточка растёт вместе с текстом.</p>
+
+  <h3>Ловушка 100vh на телефоне</h3>
+  <p>Первый экран часто просят сделать «во всю высоту» и пишут <code>height: 100vh</code>. На телефоне это высота окна без панелей браузера. Пока адресная строка видна, блок получается выше видимой области, и его низ вместе с кнопкой уезжает под панель. Для этого появились новые единицы. <span class="ev">◆ спецификация CSS, ◈ Comeau</span></p>
+
+  <div class="vh-fig">
+    <div class="vh-phone" aria-hidden="true">
+      <div class="vh-bar">адресная строка</div>
+      <div class="vh-area">то, что человек видит сразу</div>
+      <div class="vh-bar">панель браузера</div>
+    </div>
+    <div class="vh-rules" aria-hidden="true">
+      <div class="vh-rule lvh">100vh</div>
+      <div class="vh-rule svh">100svh</div>
+    </div>
+    <ul>
+      <li><code>100vh</code>: вся высота экрана, как будто панели уже спрятаны. Больше, чем видно при открытии.</li>
+      <li><code>100svh</code> (small): высота с показанными панелями. Ровно то, что человек видит сразу.</li>
+      <li><code>100dvh</code> (dynamic): подстраивается, когда панели прячутся при прокрутке.</li>
+    </ul>
+  </div>
+
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Фиксированные высоты у первого экрана и карточек: <code>h-[600px]</code>, <code>height: 100vh</code>. <span class="ev">◈ Powell, midulive</span></li>
+      <li>Одинаковая высота карточек через <code>height</code>, хотя Grid и так растягивает карточки в ряду до самой высокой. <span class="ev">◈ практика</span></li>
+      <li><code>overflow: hidden</code> на блоке фиксированной высоты: длинный текст обрезается молча. Сам <code>line-clamp</code> нормален, Vercel советует его для длинного текста, но только если полный текст можно прочитать где-то ещё. <span class="ev">◆ Vercel</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>No fixed heights on anything that contains text; use min-height.</li>
+      <li>Page containers: max-width plus margin-inline: auto, never a fixed width.</li>
+      <li>Hero: min-height: 100svh, not height: 100vh.</li>
+      <li>The layout must survive headings and labels twice as long as the sample copy.</li>
+    </ul>
+  </div>
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <p>Попроси модель временно подставить заголовок вдвое длиннее и название тура на немецком, потом посмотри страницу на ширине 320. Всё, что вылезло или обрезалось, стояло на фиксированных размерах.</p>
+  </div>
+</section>
+
+<section class="sec" id="units" data-short="Единицы: px, rem, %">
+  <h2>В чём измеряют: px, rem, проценты и остальные</h2>
+  <dl class="gloss">
+    <div><dt><code>px</code></dt><dd>Фиксированный размер. Годится для рамок и мелких деталей.</dd></div>
+    <div><dt><code>rem</code></dt><dd>Доля от базового размера шрифта страницы. По умолчанию 1rem равен 16px. <span class="ev">◆ значение по умолчанию в браузерах</span></dd></div>
+    <div><dt><code>em</code></dt><dd>Доля от размера шрифта самого элемента. Удобно для отступов внутри кнопки.</dd></div>
+    <div><dt><code>%</code></dt><dd>Доля от родителя.</dd></div>
+    <div><dt><code>vw</code>, <code>vh</code></dt><dd>Доля от окна. Применять осторожно.</dd></div>
+    <div><dt><code>ch</code></dt><dd>Ширина символа «0». Удобно для текстовой колонки: <code>max-width: 65ch</code>.</dd></div>
+    <div><dt><code>fr</code></dt><dd>Доля свободного места в Grid.</dd></div>
+  </dl>
+  <p>Согласие авторов: размеры шрифта и отступы в <code>rem</code>, ширины в процентах, <code>fr</code> и через <code>max-width</code>. <span class="ev">◈ Powell, Chrome, Comeau, midudev, Минин</span> Шрифт в пикселях плох тем, что игнорирует настройку человека, который увеличил текст в браузере.</p>
+
+  <div class="stage" id="unitsStage">
+    <div class="stage-head"><span class="stage-title">Человек увеличил шрифт в настройках браузера</span></div>
+    <div class="controls">
+      <label class="field">базовый размер шрифта <input type="range" min="16" max="26" value="16" id="unitsRange"><output id="unitsOut">16 px</output></label>
+    </div>
+    <iframe class="plain-frame" id="unitsFrame" title="Две одинаковые карточки: в px и в rem" style="height:17rem"></iframe>
+    <div class="stage-foot"><p>Левая карточка свёрстана в px и не реагирует: человеку с плохим зрением она так и останется мелкой. Правая в rem: текст, отступы и кнопка растут вместе.</p></div>
+  </div>
+
+  <p>Ещё один инструмент, <code>clamp()</code>. Запись <code>font-size: clamp(2rem, 6vw, 4rem)</code> значит: не меньше 2rem, не больше 4rem, а между ними расти вместе с окном. Заголовок меняется плавно без единого условия. Потрогаешь в следующем разделе.</p>
+
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Размеры шрифта в пикселях: <code>font-size: 14px</code>, <code>text-[13px]</code>. <span class="ev">◈ пять авторов; ◆ WCAG 1.4.4</span></li>
+      <li><code>width: 100vw</code> у секций. На Windows 100vw включает полосу прокрутки, блок выходит шире страницы на её ширину, и появляется горизонтальный скролл. <span class="ev">◈ Powell</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Font sizes and spacing in rem.</li>
+      <li>No 100vw widths; block elements are full width by default.</li>
+      <li>Fluid headings with clamp(min, preferred, max).</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="responsive" data-short="Адаптив">
+  <h2>Адаптив: одна страница на любую ширину</h2>
+  <p>Сайт открывают на экранах шириной от 320 до 2500 пикселей. Отдельных версий никто не делает: один HTML и CSS, который перестраивает блоки. Три приёма по убыванию важности. <span class="ev">◈ Powell, Chrome, Comeau</span></p>
+  <ol>
+    <li><strong>Резиновая основа.</strong> <code>max-width</code>, проценты, <code>flex-wrap</code>, Grid с <code>auto-fit</code>, <code>clamp()</code>. Блоки сами занимают доступное место. Jen Simmons назвала это intrinsic design.</li>
+    <li><strong>Mobile first.</strong> Базовые стили описывают узкий экран, где всё в одну колонку. <code>@media (min-width: …)</code> добавляет сложность там, где появилось место.</li>
+    <li><strong>Точки перелома по содержимому.</strong> Breakpoint ставят там, где контенту стало тесно, а не под конкретную модель телефона.</li>
+  </ol>
+  <p>Одна строка в <code>&lt;head&gt;</code> обязательна: <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</code>. Без неё телефон рисует страницу как на широком мониторе и уменьшает. И никогда не запрещать человеку зум: <code>user-scalable=no</code> и <code>maximum-scale=1</code> в списке запретов. <span class="ev">◆ Vercel Web Interface Guidelines</span></p>
+
+  <div class="stage" id="resp" data-ver="bad">
+    <div class="stage-head">
+      <span class="stage-title">Потяни ширину окна</span>
+      <div class="seg" role="group" aria-label="Версия вёрстки">
+        <button type="button" class="is-bad" data-set="ver=bad" aria-pressed="true">Свёрстано под десктоп</button>
+        <button type="button" class="is-bad" data-set="ver=patch" aria-pressed="false">Заплатка overflow-x: hidden</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Резиновая вёрстка</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">ширина окна <input type="range" min="280" max="1280" value="390" step="10" data-device-width><output></output></label>
+      <span class="seg" role="group" aria-label="Готовые ширины">
+        <button type="button" data-w="320">320</button>
+        <button type="button" data-w="390">390</button>
+        <button type="button" data-w="768">768</button>
+        <button type="button" data-w="1024">1024</button>
+        <button type="button" data-w="1280">1280</button>
+      </span>
+    </div>
+    <div class="device"><div class="device-view"><iframe title="Страница туров в рамке устройства" height="440"></iframe></div></div>
+    <div class="stage-foot"><p id="respOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>В первой версии всё задано в пикселях под монитор: контейнер 1100, заголовок 64, карточки по 340. На 390 страница едет вбок. Вторая версия показывает любимое «лечение»: скролл исчез, но две карточки из трёх стали недоступны. Третья собрана из <code>max-width</code>, <code>auto-fit</code> и <code>clamp()</code>: в ней нет ни одного media query.</p>
+
+  <h3>Найди, кто торчит</h3>
+  <p>Горизонтальный скролл почти всегда даёт один конкретный элемент. Искать его глазами долго. Приём простой: обвести все блоки рамкой и посмотреть, чей край вышел за экран.</p>
+
+  <div class="stage" id="game" data-outline="off">
+    <div class="stage-head">
+      <span class="stage-title" id="gameTitle">Раунд 1 из 4</span>
+      <div class="game-bar">
+        <button type="button" class="btn ghost" data-toggle="outline" aria-pressed="false">Обвести все блоки</button>
+        <button type="button" class="btn ghost" id="gameHint">Подсказка</button>
+        <button type="button" class="btn" id="gameNext" hidden>Следующий раунд</button>
+      </div>
+    </div>
+    <div class="stage-body sunk">
+      <div id="gamePhone" tabindex="0" aria-label="Экран телефона с горизонтальной прокруткой"></div>
+    </div>
+    <div class="stage-foot"><p id="gameOut" aria-live="polite">Прокрути экран телефона вбок, потом нажми на блок, который, по-твоему, шире экрана.</p></div>
+  </div>
+
+  <p>На настоящей странице то же самое делает одна строка в консоли DevTools (<code>F12</code>, вкладка Console). Она выводит все элементы, чей правый край вышел за окно.</p>
+  <pre class="code" id="snip">document.querySelectorAll('*').forEach(el =&gt; {
+  if (el.getBoundingClientRect().right &gt; document.documentElement.clientWidth) console.log(el);
+});</pre>
+  <p><button type="button" class="btn ghost" data-copy="#snip"><i data-ic="copy"></i><span>Скопировать строку</span></button></p>
+
+  <div class="note human">
+    <p class="nt">Где ошибаются люди</p>
+    <ul>
+      <li>Проверяют только на своём ноутбуке и своём телефоне.</li>
+      <li>Ставят breakpoints «под устройства» 375, 768 и 1024 и не смотрят, что происходит между ними.</li>
+    </ul>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Пишут под десктоп и потом чинят десятком условий <code>max-width</code>. <span class="ev">◈ Powell, Impeccable</span></li>
+      <li>Прячут горизонтальный скролл через <code>overflow-x: hidden</code> на <code>body</code> и не ищут, что именно вылезает. Vercel советует сначала найти и исправить переполнение. <span class="ev">◆ Vercel</span></li>
+      <li>Забывают промежуток между 768 и 1024: планшет получает либо растянутый телефон, либо сжатый монитор. <span class="ev">◇ Impeccable</span></li>
+      <li>Наведение мышкой как единственный способ увидеть информацию. На телефоне наведения нет. <span class="ev">◈ Vercel, Impeccable</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Mobile-first CSS: base styles for narrow screens, min-width media queries only add complexity.</li>
+      <li>Prefer intrinsic layout (flex-wrap, grid auto-fit, clamp) over breakpoints.</li>
+      <li>No horizontal scroll at 320, 390, 768, 1024 and 1440 px. Do not use overflow-x: hidden to hide overflow; find and fix the element that causes it.</li>
+      <li>img, video { max-width: 100%; height: auto }</li>
+    </ul>
+  </div>
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <p><code>F12</code>, затем <code>Ctrl+Shift+M</code>: откроется режим устройства. Поставь ширину 320 и попробуй прокрутить вбок. Потом возьми за край и медленно тяни от 320 до 1440, глядя, где что-то ломается. Ломается обычно не на «круглых» ширинах, а между ними.</p>
+  </div>
+</section>
+
+<section class="sec" id="depth" data-short="Слои и z-index">
+  <h2>Что лежит поверх чего</h2>
+  <p>Свойство <code>position</code> вынимает элемент из общего порядка.</p>
+  <ul>
+    <li><code>relative</code>: элемент остаётся на месте, но становится точкой привязки для вложенных <code>absolute</code>.</li>
+    <li><code>absolute</code>: вынут из потока и привязан к ближайшему предку с <code>position</code>. Если такого нет, к странице. <span class="ev">◆ спецификация CSS</span></li>
+    <li><code>fixed</code>: привязан к окну. У Comeau хороший образ: жук на стекле поезда. Пейзаж едет, жук на месте.</li>
+    <li><code>sticky</code>: ведёт себя как обычный блок, пока не доедет до края окна, потом прилипает.</li>
+  </ul>
+  <p>Порядок по глубине задаёт <code>z-index</code>, и здесь главная ловушка. Числа сравниваются не по всей странице, а внутри своего контекста наложения, stacking context. Comeau объясняет через номера версий: если у родителя z-index 1, то ребёнок с 9999 это версия 1.9999. Она всегда меньше, чем 2.0 у соседнего блока. <span class="ev">◈ Comeau</span></p>
+
+  <div class="stage" id="zdemo" data-fix="off">
+    <div class="stage-head">
+      <span class="stage-title">Почему z-index: 9999 не помогает</span>
+      <div class="seg" role="group" aria-label="z-index у родителя">
+        <button type="button" class="is-bad" data-set="fix=off" aria-pressed="true">main с z-index: 1</button>
+        <button type="button" class="is-good" data-set="fix=on" aria-pressed="false">main без z-index</button>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field">z-index подсказки <input type="range" min="1" max="9999" value="10" data-var="--z"><output></output></label>
+    </div>
+    <div class="stage-body sunk">
+      <div class="z-scene">
+        <div class="z-header">Шапка сайта, z-index: 2</div>
+        <div class="z-main">Блок main<div class="z-tip">Подсказка</div></div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="zOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <div class="stage" id="stStage" data-fix="off">
+    <div class="stage-head">
+      <span class="stage-title">Липкая шапка закрывает заголовок, к которому ведёт ссылка</span>
+      <div class="seg" role="group" aria-label="Отступ для якорей">
+        <button type="button" class="is-bad" data-set="fix=off" aria-pressed="true">как есть</button>
+        <button type="button" class="is-good" data-set="fix=on" aria-pressed="false">scroll-margin-top</button>
+      </div>
+    </div>
+    <div class="stage-body sunk">
+      <div id="stBox" tabindex="0" aria-label="Мини-страница с липкой шапкой">
+        <div class="st-head"><strong>Nusa Trips</strong><button type="button" data-go="st1">Туры</button><button type="button" data-go="st2">Цены</button><button type="button" data-go="st3">Отзывы</button></div>
+        <div class="st-body">
+          <p>Нажми на пункт меню в тёмной шапке и посмотри, где окажется жёлтый заголовок.</p>
+          <div class="mh" id="st1">Туры</div><p>Три маршрута вокруг острова, все с местными капитанами. Выход в 7:30, пока нет автобусов.</p>
+          <div class="mh" id="st2">Цены</div><p>От 48 долларов за человека. Обед, снаряжение и страховка включены.</p>
+          <div class="mh" id="st3">Отзывы</div><p>212 отзывов, средняя оценка 4,9. Чаще всего хвалят ранний старт.</p>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p>Шапка с <code>position: sticky</code> не занимает места в расчёте прокрутки, поэтому заголовок приезжает ровно под неё. Свойство <code>scroll-margin-top</code> у заголовка говорит браузеру остановиться чуть раньше. <span class="ev">◆ Vercel Web Interface Guidelines</span></p></div>
+  </div>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <p>Заголовок и подпись наезжают на картинку, на другой ширине декоративные элементы ложатся на текст. Исправлялось отдельной просьбой. <span class="ev">◇ DesignCode (модели в Aura, май–июнь 2026)</span></p>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Фиксированные панели, которые на телефоне закрывают контент и поле, в котором стоит курсор. <span class="ev">◆ Vercel</span></li>
+      <li>Всплывающее окно, под которым продолжает прокручиваться страница. По стандарту всё под модальным окном должно быть неактивно. <span class="ev">◆ W3C WAI-ARIA APG; ◆ Vercel</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Absolute positioning only for decoration that overlaps nothing important at any width.</li>
+      <li>Keep a z-index scale as CSS custom properties (--z-header, --z-overlay, --z-modal) and avoid arbitrary values like 9999.</li>
+      <li>Add scroll-margin-top to anchored headings, equal to the sticky header height.</li>
+      <li>Sticky or fixed bars must never cover content, form fields or the focused element on mobile.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="semantic" data-short="Теги со смыслом">
+  <h2>Теги со смыслом: что видит машина</h2>
+  <p>Два блока могут выглядеть одинаково и при этом быть совсем разными для всех, кто читает страницу не глазами: поисковика, программы экранного доступа, клавиатуры и самой нейронки, когда она вернётся править код. Они читают теги. <span class="ev">◈ все авторы по доступности и SEO</span></p>
+  <ul>
+    <li>Каркас: <code>header</code>, <code>nav</code>, <code>main</code>, <code>footer</code>.</li>
+    <li>Заголовки <code>h1</code>–<code>h6</code>: один <code>h1</code> на страницу, уровни идут по порядку, без пропусков.</li>
+    <li>Действие это <code>&lt;button&gt;</code>. Переход это <code>&lt;a href&gt;</code>. Не <code>div</code> с обработчиком. <span class="ev">◆ Vercel Web Interface Guidelines</span></li>
+  </ul>
+  <p>Частая путаница: уровень заголовка выбирают по структуре, а размер задают стилем. У Sajid это одна фраза: code for document hierarchy, style for visual hierarchy. Заголовок второго уровня может быть мелким, если так нужно дизайну. <span class="ev">◇ Sajid</span></p>
+
+  <div class="stage" id="sem" data-ver="div">
+    <div class="stage-head">
+      <span class="stage-title">На вид одинаково. А для машины?</span>
+      <div class="seg" role="group" aria-label="Разметка">
+        <button type="button" class="is-bad" data-set="ver=div" aria-pressed="true">Всё из div</button>
+        <button type="button" class="is-good" data-set="ver=sem" aria-pressed="false">Теги со смыслом</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="sem-grid">
+        <iframe id="semFrame" title="Пример разметки"></iframe>
+        <div id="semOut" aria-live="polite"></div>
+      </div>
+    </div>
+    <div class="stage-foot"><p>Кликни внутрь примера и понажимай <code>Tab</code>. В версии из div фокус не попадает ни на «ссылки», ни на «кнопку»: с клавиатуры ими воспользоваться нельзя.</p></div>
+  </div>
+
+  <div class="note ai">
+    <p class="nt">Где ошибаются нейронки</p>
+    <ul>
+      <li>Уровни заголовков по размеру шрифта, а не по структуре: проверка axe нашла <code>h4</code> там, где должен быть <code>h2</code>. <span class="ev">◇ Brad Frost, Sonnet 4.5, декабрь 2025; у моделей 2024–2025 то же в рецензируемом исследовании W4A 2025</span></li>
+      <li>Кнопки и картинки без имени: аватары без подписи, звёзды рейтинга без <code>aria-label</code>. Машина видит «кнопка» и ничего больше. <span class="ev">◇ Flux, аудит страницы Claude, май 2026</span></li>
+    </ul>
+    <p class="small">Оба наблюдения сделаны на моделях постарше. В бенчмарке AIMAC (октябрь 2026) пустые кнопки есть только на 4% страниц всех моделей, а порядок заголовков он не меряет. Подробнее в уроке 4.</p>
+  </div>
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li><code>&lt;div onclick&gt;</code> вместо кнопки и ссылки. <span class="ev">◈ Vercel, Osmani</span></li>
+      <li>Три <code>h1</code> на странице. <span class="ev">◈ freeCodeCamp, Web Dev Simplified</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Semantic HTML: one h1, sequential heading levels, landmarks (header, nav, main, footer).</li>
+      <li>Use button for actions and a[href] for navigation, never a div or span with a click handler.</li>
+      <li>Icon-only buttons need an aria-label. Every image needs alt (empty alt for decorative ones).</li>
+    </ul>
+  </div>
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <p>Положи руки на клавиатуру и пройди страницу одним <code>Tab</code>. Всё, на что можно нажать мышкой, должно получать видимую рамку фокуса и срабатывать по <code>Enter</code>.</p>
+  </div>
+</section>
+
+<section class="sec" id="errors" data-short="12 типичных ошибок">
+  <h2>Двенадцать типичных ошибок вёрстки у нейронок</h2>
+  <p>Шпаргалка по разделам выше. По каждой: как это выглядит и какой фразой чинить. <span class="ev">◈ собрано из разделов урока и запретов в скиллах Vercel и Impeccable</span></p>
+  <ol class="cases">
+    <li><div class="mh">1. Фиксированная высота у блока с текстом</div><p>Текст вылезает поверх соседей или обрезается.</p><p><code>Use min-height, never height, on text containers.</code></p></li>
+    <li><div class="mh">2. height: 100vh у первого экрана</div><p>На телефоне кнопка внизу прячется под панель браузера.</p><p><code>Use min-height: 100svh.</code></p></li>
+    <li><div class="mh">3. width: 100vw</div><p>Горизонтальный скролл на Windows.</p><p><code>Remove it; blocks are full width by default.</code></p></li>
+    <li><div class="mh">4. overflow-x: hidden на body</div><p>Скролла нет, но часть контента недоступна. Может сломать sticky.</p><p><code>Find the overflowing element and fix the cause.</code></p></li>
+    <li><div class="mh">5. Раскладка на position: absolute</div><p>На другой ширине блоки наезжают друг на друга.</p><p><code>Use grid or flex for layout.</code></p></li>
+    <li><div class="mh">6. Сетка карточек на процентах</div><p>Рваные ряды, карточки разного размера.</p><p><code>Use grid with auto-fit and minmax.</code></p></li>
+    <li><div class="mh">7. Десять условий max-width</div><p>Каждая правка ломает какую-то ширину.</p><p><code>Rewrite mobile-first with intrinsic layout.</code></p></li>
+    <li><div class="mh">8. Шрифт в пикселях</div><p>Не реагирует на настройку размера текста в браузере.</p><p><code>Font sizes in rem.</code></p></li>
+    <li><div class="mh">9. Картинка без ограничений</div><p>Фото выпирает за экран или сплющено.</p><p><code>max-width: 100%; height: auto; set aspect-ratio and object-fit: cover.</code></p></li>
+    <li><div class="mh">10. Карточка в карточке в карточке</div><p>Рамки внутри рамок, полезного места почти нет. <span class="ev">◆ Impeccable</span></p><p><code>Flatten: no nested cards.</code></p></li>
+    <li><div class="mh">11. z-index: 9999</div><p>Не помогает и плодит новые конфликты.</p><p><code>Use a z-index scale; check stacking contexts.</code></p></li>
+    <li><div class="mh">12. div вместо button и a</div><p>С клавиатуры не работает, машины не понимают.</p><p><code>Use semantic elements for anything clickable.</code></p></li>
+  </ol>
+</section>
+
+<section class="sec" id="dict" data-short="Словарь">
+  <h2>Словарь, чтобы называть вещи точно</h2>
+  <p>Чем точнее слово в запросе, тем меньше модель додумывает. Эти термины встречаются чаще всего.</p>
+  <dl class="gloss">
+    <div><dt>viewport</dt><dd>Видимая область окна браузера.</dd></div>
+    <div><dt>breakpoint</dt><dd>Ширина, на которой раскладка перестраивается.</dd></div>
+    <div><dt>container, wrapper</dt><dd>Блок, который ограничивает ширину контента и центрирует его.</dd></div>
+    <div><dt>gutter</dt><dd>Поле между контентом и краем экрана.</dd></div>
+    <div><dt>gap</dt><dd>Промежуток между соседями во flex и grid.</dd></div>
+    <div><dt>overflow</dt><dd>Содержимое, которое не поместилось в блок.</dd></div>
+    <div><dt>hero</dt><dd>Первый большой блок страницы.</dd></div>
+    <div><dt>above the fold</dt><dd>То, что видно без прокрутки.</dd></div>
+    <div><dt>intrinsic, fluid</dt><dd>Раскладка, которая подстраивается сама, без условий.</dd></div>
+    <div><dt>stacking context</dt><dd>Группа, внутри которой сравниваются z-index.</dd></div>
+    <div><dt>DOM</dt><dd>Дерево элементов, которое браузер строит из HTML.</dd></div>
+    <div><dt>landmark</dt><dd>Смысловая область страницы: шапка, навигация, основная часть, подвал.</dd></div>
+  </dl>
+</section>
+
+<section class="sec" id="accept" data-short="Чек-лист приёмки">
+  <h2>Чек-лист приёмки вёрстки</h2>
+  <p>Пройди по нему, прежде чем показывать страницу клиенту. Галочки сохраняются в этом браузере.</p>
+  <ul class="checklist" data-id="l1">
+    <li><label><input type="checkbox"><span>На 320, 390, 768, 1024 и 1440 нет горизонтальной прокрутки.</span></label></li>
+    <li><label><input type="checkbox"><span>Между этими ширинами тоже ничего не ломается: протянул окно вручную.</span></label></li>
+    <li><label><input type="checkbox"><span>Длинный заголовок и длинное слово не ломают ни один блок.</span></label></li>
+    <li><label><input type="checkbox"><span>У блоков с текстом нет фиксированной высоты, первый экран не на 100vh.</span></label></li>
+    <li><label><input type="checkbox"><span>Картинки не выпирают и не сплющены.</span></label></li>
+    <li><label><input type="checkbox"><span>Липкие и фиксированные панели не закрывают контент и поля формы.</span></label></li>
+    <li><label><input type="checkbox"><span>Ссылки на разделы останавливаются на заголовке, а не под шапкой.</span></label></li>
+    <li><label><input type="checkbox"><span>Текст первого экрана есть в исходном HTML (Ctrl+U).</span></label></li>
+    <li><label><input type="checkbox"><span>Один h1, уровни заголовков по порядку.</span></label></li>
+    <li><label><input type="checkbox"><span>Всё кликабельное доступно по Tab и срабатывает по Enter.</span></label></li>
+    <li><label><input type="checkbox"><span>Тег viewport на месте, зум не запрещён.</span></label></li>
+  </ul>
+</section>
+
+<section class="sec" id="quiz" data-short="Тест">
+  <h2>Проверь себя</h2>
+  <p>Десять вопросов. Объяснение появляется сразу после ответа.</p>
+  <div class="quiz" data-quiz="l1">
+    <script type="application/json">
+[
+ {"q":"Страница на телефоне прокручивается вбок. Что просить у модели в первую очередь?","opts":["Добавить overflow-x: hidden на body","Найти элемент, который шире экрана, и убрать причину","Уменьшить размер шрифта","Добавить ещё один media query"],"a":1,"why":"Скролл даёт один конкретный элемент. overflow-x: hidden прячет симптом и вместе с ним часть контента."},
+ {"q":"Карточки туров должны сами перестраиваться из трёх колонок в одну. Что надёжнее?","opts":["Три media query под телефон, планшет и десктоп","Flex с шириной 33.33%","Grid с repeat(auto-fit, minmax(…))","position: absolute с координатами"],"a":2,"why":"auto-fit с minmax сам решает, сколько колонок помещается, на любой ширине и без условий."},
+ {"q":"На телефоне кнопка внизу первого экрана уезжает под панель браузера. Самая вероятная причина?","opts":["height: 100vh у блока","Слишком крупный шрифт","Нет тега viewport","Кнопка сделана через div"],"a":0,"why":"100vh на телефоне считается без панелей браузера и выходит выше видимой области. Нужен min-height: 100svh."},
+ {"q":"Название тура на немецком вылезло за рамку карточки. Что почти наверняка было в CSS?","opts":["display: grid","Фиксированная height у карточки","rem вместо px","box-sizing: border-box"],"a":1,"why":"Высоту блок должен брать у содержимого. Фиксированная height ломается на первом же длинном тексте."},
+ {"q":"Подсказка с z-index: 9999 всё равно оказывается под шапкой с z-index: 2. Почему?","opts":["9999 слишком большое число","У подсказки нет position","Её родитель создал свой контекст наложения с меньшим z-index","Шапка сделана на flex"],"a":2,"why":"z-index сравнивается внутри stacking context. Ребёнок родителя с z-index 1 это «версия 1.9999», она меньше 2."},
+ {"q":"Что меняет box-sizing: border-box?","opts":["Добавляет рамку всем элементам","Включает padding и border в заданную ширину","Запрещает блоку вылезать за родителя","Делает блок резиновым"],"a":1,"why":"При border-box ширина 100% остаётся 100% вместе с padding и рамкой. При content-box они прибавляются сверху."},
+ {"q":"Шапка: логотип слева, пункты меню справа в один ряд. Какой алгоритм подходит?","opts":["Flexbox","Grid на 12 колонок","position: absolute для меню","Обычный поток"],"a":0,"why":"Одна ось, значит Flex. Grid нужен, когда важны и строки, и колонки."},
+ {"q":"Почему кнопка из div с обработчиком клика это проблема?","opts":["Она медленнее загружается","Её нельзя покрасить","На неё не попадает фокус с клавиатуры, и машины не знают, что это кнопка","Она не работает на телефонах"],"a":2,"why":"button из коробки получает фокус, срабатывает по Enter и пробелу и называется кнопкой для программ экранного доступа."},
+ {"q":"Модель поставила секции width: 100vw. Чем это грозит?","opts":["Ничем, так правильно","Горизонтальным скроллом на Windows из-за полосы прокрутки","Секция станет уже экрана","Сломается grid внутри"],"a":1,"why":"100vw включает ширину полосы прокрутки. Блочный элемент и так занимает всю ширину, свойство лишнее."},
+ {"q":"Где ставить breakpoint?","opts":["На ширине iPhone","На 768 и 1024, это стандарт","Там, где контенту стало тесно","Чем больше breakpoints, тем лучше"],"a":2,"why":"Устройств сотни. Точку перелома определяет содержимое, а резиновая основа сокращает их число до одной-двух."}
+]
+    </script>
+  </div>
+</section>
+
+<section class="sec" id="sources" data-short="Источники">
+  <h2>Откуда это взято</h2>
+  <ul>
+    <li>◆ Спецификация CSS (box model, margin collapsing, positioning, единицы svh и dvh), Chrome DevTools.</li>
+    <li>◆ Vercel Web Interface Guidelines: текст правил прочитан в исходнике скилла.</li>
+    <li>◆ Impeccable, файл craft-floor: запрет на вложенные карточки.</li>
+    <li>◈ Kevin Powell, «A practical guide to responsive web design» (2024).</li>
+    <li>◈ Josh Comeau, «Secret Mechanisms of CSS» (9elements, 2022).</li>
+    <li>◈ Chrome for Developers, «10 modern layouts in 1 line of CSS»; курсы midudev и Владилена Минина: по ним проверено согласие авторов.</li>
+    <li>◇ Sajid, «The 80% of UI Design: Typography» (фраза про два вида иерархии).</li>
+    <li>◆ MDN, «Relationship of grid layout to other layout methods»; W3C WAI-ARIA APG, шаблон Dialog (Modal); изменение Chromium 2020 об элементах с opacity 0 в LCP.</li>
+    <li>◇ Наблюдения за выдачей моделей: DesignCode (Opus 5.5), Flux (Opus 4.6, Claude), Brad Frost (Sonnet 4.5), Anthropic frontend-design.</li>
+  </ul>
+  <p class="small">Имена у пометок ◈ взяты из перекрёстной проверки в NotebookLM. Выборочная сверка показала, что блокнот иногда приписывает мысль не тому автору, поэтому на имена опирайся осторожно. Сами правила стандартные.</p>
+  <p class="small">В блоках «Где ошибаются нейронки» стоит только то, что видели в выдаче моделей 2025–2026 годов, с моделью и датой. Реальные ошибки без такого подтверждения собраны в блоках «Частые ошибки: у людей и у нейронок», и метка там подтверждает правило, а не привычку моделей. Разбор по каждому утверждению: PROVENANCE_ERRORS.md, AUDIT_INDEPENDENT.md, EXTERNAL_CHECK.md.</p>
+</section>
+</main>
+</div>
+
+<footer class="foot">
+  <nav aria-label="Навигация по курсу"><a href="index.html">Все уроки</a><a href="02-hierarchy.html">Урок 2. Иерархия, отступы, шрифт, цвет</a></nav>
+</footer>
+
+<script src="assets/course.js?v=5"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const { $, $$, device } = Course;
+
+  /* 1. Three layers */
+  const TRAVEL_CSS = 'body{margin:0;font:16px/1.5 system-ui,sans-serif;color:#14171c;background:#fff}header{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;padding:14px 20px;border-bottom:1px solid #dde1e7}nav{display:flex;gap:18px}a{color:inherit}main{padding:20px;max-width:720px}h1{font-size:28px;line-height:1.1;margin:0 0 8px}h2{font-size:18px;margin:0 0 4px}.cards{list-style:none;padding:0;margin:20px 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.cards li{border:1px solid #dde1e7;border-radius:10px;padding:12px}.cards p{margin:0;color:#4a5160}button{font:inherit;font-weight:600;padding:10px 16px;border-radius:8px;border:0;background:#14171c;color:#fff;cursor:pointer}#inc{margin-top:10px;padding:10px 12px;background:#eef1f5;border-radius:8px}.live{display:inline-block;margin:10px 0 0;padding:6px 10px;border-radius:8px;background:#eef1f5}.live.on{background:#ffe14d;font-weight:600}';
+  const TOURS = [['Manta Point', 'Snorkelling with manta rays. From $65.'], ['Kelingking Beach', 'The cliff walk, early, before the buses. From $48.'], ['Crystal Bay', 'Calm water, good for a first dive. From $55.']];
+  const PAGE_BODY = '<header><strong>Nusa Trips</strong><nav><a href="#">Tours</a><a href="#">About</a><a href="#">Contact</a></nav></header><main><h1>Three days around Nusa Penida</h1><p>Small boats, local guides, no crowds before 9 am.</p><p id="live" class="live">Boats leave daily at 7:30.</p><ul class="cards">' + TOURS.map((t) => '<li><h2>' + t[0] + '</h2><p>' + t[1] + '</p></li>').join('') + '</ul><button id="more">Show what is included</button><div id="inc" hidden>Hotel pickup, lunch, gear, insurance.</div></main>';
+  const TOGGLE_JS = "(function(){var m=document.getElementById('more'),i=document.getElementById('inc');if(m)m.onclick=function(){i.hidden=!i.hidden};var l=document.getElementById('live');function t(){var n=new Date(),d=new Date(n);d.setHours(7,30,0,0);if(d<=n)d.setDate(d.getDate()+1);var s=Math.floor((d-n)/1000);l.textContent='Next boat leaves in '+Math.floor(s/3600)+' h '+Math.floor(s%3600/60)+' min '+(s%60)+' s';}if(l){l.className='live on';t();setInterval(t,1000);}})();";
+  function layersDoc(s) {
+    const css = s.css !== 'off' ? '<style>' + TRAVEL_CSS + '</style>' : '';
+    const js = s.js !== 'off';
+    const head = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' + css + '</head><body>';
+    if (s.ver === 'spa') {
+      const app = "document.getElementById('root').innerHTML=" + JSON.stringify(PAGE_BODY) + ';' + TOGGLE_JS;
+      return head + '<div id="root"></div>' + (js ? '<script>' + app + '<\/script>' : '') + '</body></html>';
+    }
+    return head + PAGE_BODY + (js ? '<script>' + TOGGLE_JS + '<\/script>' : '') + '</body></html>';
+  }
+  const layersStage = $('#layersStage');
+  const layersState = () => ({ ver: layersStage.dataset.ver, css: layersStage.dataset.css, js: layersStage.dataset.js });
+  function renderLayers() {
+    const s = layersState();
+    $('#layersFrame').srcdoc = layersDoc(s);
+    const d = new DOMParser().parseFromString(layersDoc({ ...s, js: 'off' }), 'text/html');
+    d.querySelectorAll('script,style').forEach((n) => n.remove());
+    const words = d.body.textContent.trim().split(/\s+/).filter(Boolean).length;
+    const links = d.querySelectorAll('a[href]').length;
+    const jsOn = s.js !== 'off';
+    let what;
+    if (s.ver === 'spa') what = jsOn ? 'Выглядит так же, как первая версия, но весь этот текст создан скриптом.' : 'Скрипт выключен, и страница пустая: рисовать её больше некому.';
+    else what = jsOn ? 'Скрипт добавил два улучшения: жёлтый живой счётчик до отправления и кнопку, которая раскрывает блок.' : 'Скрипт выключен: вместо счётчика обычная серая строка, кнопка ничего не раскрывает. Весь текст и ссылки на месте.';
+    if (s.css === 'off') what += ' Без CSS осталась голая структура: заголовки, список, ссылки.';
+    $('#layersOut').innerHTML = what + ' ' + (words
+      ? `В исходном HTML этой версии <strong>${words} слов текста и ${links} ссылки</strong>.`
+      : 'В исходном HTML этой версии <strong class="verdict no">0 слов и 0 ссылок</strong>.');
+  }
+  layersStage.addEventListener('statechange', renderLayers);
+  renderLayers();
+
+  /* 2. Box model */
+  const bm = $('#bm'); const bmBox = $('#bmBox'); const bmPhone = $('#bmPhone');
+  function renderBm() {
+    const screen = bmPhone.clientWidth;
+    const w = Math.round(bmBox.getBoundingClientRect().width);
+    const over = w - screen;
+    bmPhone.dataset.label = 'экран ' + screen + ' px';
+    bmPhone.classList.toggle('over', over > 0);
+    $('#bmOut').innerHTML = over > 0
+      ? `Блок занимает ${w} px при экране ${screen} px. <span class="verdict no">Вылезает на ${over} px</span>: padding и border прибавились к ширине.`
+      : `Блок занимает ${w} px при экране ${screen} px. <span class="verdict ok">Помещается.</span>`;
+  }
+  bm.addEventListener('statechange', renderBm);
+  new ResizeObserver(renderBm).observe(bmPhone);
+  renderBm();
+
+  /* 3. Layout algorithms: show the CSS that is currently applied */
+  const algoStage = $('#algoStage');
+  function renderAlgoCode() {
+    const d = algoStage.dataset;
+    const cs = getComputedStyle(algoStage);
+    const gap = cs.getPropertyValue('--gap').trim() || '12';
+    const min = cs.getPropertyValue('--min').trim() || '160';
+    let css;
+    if (d.algo === 'flow') css = '.list { }  /* ничего не задано: блоки идут сверху вниз */';
+    else if (d.algo === 'flex') {
+      css = '.list {\n  display: flex;\n  gap: ' + gap + 'px;';
+      if (d.dir === 'column') css += '\n  flex-direction: column;';
+      if (d.wrap === 'on') css += '\n  flex-wrap: wrap;';
+      if (d.just === 'center') css += '\n  justify-content: center;';
+      if (d.just === 'between') css += '\n  justify-content: space-between;';
+      css += '\n}';
+    } else if (d.algo === 'grid') {
+      css = '.list {\n  display: grid;\n  gap: ' + gap + 'px;\n  grid-template-columns: ' + (d.cols === 'auto' ? 'repeat(auto-fit, minmax(' + min + 'px, 1fr));' : 'repeat(3, 1fr);') + '\n}';
+    } else css = '.list > div {\n  position: absolute;  /* каждому блоку свои left и top */\n}';
+    $('#algoCode').textContent = css;
+  }
+  algoStage.addEventListener('statechange', renderAlgoCode);
+  renderAlgoCode();
+
+  /* 4. Stress test */
+  const stress = $('#stress');
+  const TITLES = ['Manta Point', 'Manta Point and Crystal Bay', 'Manta Point, Crystal Bay and the cliffs', 'Schnorcheln mit Mantarochen und Sonnenuntergang am Diamond Beach'];
+  const TEXTS = [
+    'Snorkelling with manta rays.',
+    'Snorkelling with manta rays, then lunch in a family warung above the bay.',
+    'Snorkelling with manta rays, then lunch in a family warung above the bay. After lunch we walk the cliff path to Kelingking before the buses arrive.',
+    'Snorkelling with manta rays, then lunch in a family warung above the bay. After lunch we walk the cliff path to Kelingking before the buses arrive, and finish with sunset at Diamond Beach. Hotel pickup, gear and insurance are included in the price.'
+  ];
+  const LEN_NAMES = ['короткий', 'средний', 'длинный', 'очень длинный'];
+  function renderStress() {
+    const n = Number($('#stressLen').value) - 1;
+    $('#stressLenOut').textContent = LEN_NAMES[n];
+    $('#stressTitle').textContent = TITLES[n];
+    $('#stressText').textContent = TEXTS[n];
+    const card = $('.s-card', stress);
+    const extra = card.scrollHeight - card.clientHeight;
+    const fixed = stress.dataset.h === 'fixed';
+    let msg;
+    if (!fixed) msg = `Карточка выросла до ${Math.round(card.getBoundingClientRect().height)} px. <span class="verdict ok">Всё содержимое внутри.</span>`;
+    else if (extra > 1) msg = stress.dataset.clip === 'on'
+      ? `<span class="verdict no">Обрезано ${extra} px содержимого.</span> Ошибки не видно, цена просто пропала.`
+      : `<span class="verdict no">Не поместилось ${extra} px.</span> Содержимое лежит поверх следующего блока.`;
+    else msg = 'Пока помещается. Увеличь длину текста или сузь карточку.';
+    $('#stressOut').innerHTML = msg;
+  }
+  $('#stressLen').addEventListener('input', renderStress);
+  stress.addEventListener('statechange', renderStress);
+  renderStress();
+
+  /* 5. Units: same card in px and rem inside an iframe, the slider changes the root font size */
+  const UNITS_DOC = '<!doctype html><html lang="en"><head><meta charset="utf-8"><style>body{margin:0;padding:14px;font-family:system-ui,sans-serif;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;color:#14171c;align-items:start}.c{border:1px solid #cfd5de;border-radius:10px}small{display:block;font:600 12px system-ui,sans-serif;color:#5a6170;margin-bottom:8px}.px{padding:14px}.px h3{font-size:20px;margin:0 0 6px}.px p{font-size:14px;line-height:20px;margin:0 0 12px}.px b{display:inline-block;font-size:14px;padding:8px 14px;background:#14171c;color:#fff;border-radius:8px}.rem{padding:.875rem}.rem h3{font-size:1.25rem;margin:0 0 .375rem}.rem p{font-size:.875rem;line-height:1.43;margin:0 0 .75rem}.rem b{display:inline-block;font-size:.875rem;padding:.5rem .875rem;background:#14171c;color:#fff;border-radius:.5rem}</style></head><body><div class="c px"><small>Размеры в px</small><h3>Sunset at Diamond Beach</h3><p>Boat leaves at 15:30. Bring water and a light jacket.</p><b>Book this tour</b></div><div class="c rem"><small>Размеры в rem</small><h3>Sunset at Diamond Beach</h3><p>Boat leaves at 15:30. Bring water and a light jacket.</p><b>Book this tour</b></div></body></html>';
+  const unitsFrame = $('#unitsFrame'); const unitsRange = $('#unitsRange');
+  const applyUnits = () => {
+    $('#unitsOut').textContent = unitsRange.value + ' px';
+    const doc = unitsFrame.contentDocument;
+    if (doc && doc.documentElement) doc.documentElement.style.fontSize = unitsRange.value + 'px';
+  };
+  unitsFrame.addEventListener('load', applyUnits);
+  unitsRange.addEventListener('input', applyUnits);
+  unitsFrame.srcdoc = UNITS_DOC;
+
+  /* 6. Responsive device frame */
+  const R_BASE = 'body{margin:0;font-family:system-ui,sans-serif;color:#14171c;line-height:1.5}header{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid #dde1e7}a{color:inherit;text-decoration:none}p{margin:8px 0 0;color:#4a5160}h1{margin:28px 0 0;line-height:1.05}h2{font-size:18px;margin:0}.hero{margin-top:24px;border-radius:12px;background:linear-gradient(160deg,#9fd3f0,#f6e3a1 60%,#e9a56b);display:grid;place-items:center;font-weight:600}.card{border:1px solid #dde1e7;border-radius:12px;padding:16px}.cards{margin:24px 0}';
+  const R_BAD = '.wrap{width:1100px;margin:0 auto;padding:0 40px}nav{display:flex;gap:40px;white-space:nowrap}h1{font-size:64px}.hero{width:900px;height:320px}.cards{display:flex;gap:24px}.card{width:340px;height:120px;flex:none}';
+  const R_GOOD = '.wrap{max-width:1100px;margin-inline:auto;padding-inline:clamp(16px,4vw,40px)}header{flex-wrap:wrap;gap:8px 24px}nav{display:flex;flex-wrap:wrap;gap:6px 24px}h1{font-size:clamp(2rem,6vw,4rem)}.hero{width:100%;aspect-ratio:5/2;min-height:160px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:24px}';
+  const R_BODY = '<div class="wrap"><header><strong>Nusa Trips</strong><nav><a href="#">Tours</a><a href="#">Private boats</a><a href="#">Reviews</a><a href="#">Contact us</a></nav></header><h1>Three days around Nusa Penida</h1><p>Small boats, local guides, no crowds before 9 am.</p><div class="hero">photo</div><div class="cards"><article class="card"><h2>Manta Point</h2><p>Snorkelling with manta rays.</p></article><article class="card"><h2>Kelingking Beach</h2><p>The cliff walk, before the buses.</p></article><article class="card"><h2>Crystal Bay</h2><p>Calm water for a first dive.</p></article></div></div>';
+  const respStage = $('#resp');
+  device(respStage, {
+    build(s) {
+      const css = R_BASE + (s.ver === 'good' ? R_GOOD : R_BAD) + (s.ver === 'patch' ? 'html,body{overflow-x:hidden}' : '');
+      return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>' + css + '</style></head><body>' + R_BODY + '</body></html>';
+    },
+    onReady(doc, w) {
+      const el = doc.documentElement;
+      const content = Math.max(el.scrollWidth, doc.body.scrollWidth);
+      const win = el.clientWidth;
+      const ver = respStage.dataset.ver;
+      const out = $('#respOut');
+      if (content > win + 1) {
+        out.innerHTML = ver === 'patch'
+          ? `Окно ${w} px, контент ${content} px. Скролла нет, но <span class="verdict no">${content - win} px контента обрезано и недоступно.</span>`
+          : `Окно ${w} px, контент ${content} px. <span class="verdict no">Страница едет вбок на ${content - win} px.</span>`;
+      } else out.innerHTML = `Окно ${w} px, контент ${content} px. <span class="verdict ok">Всё помещается.</span>`;
+    }
+  });
+
+  /* 6b. Find the culprit */
+  const ROUNDS = [
+    { html: '<div class="g-top" data-el>Nusa Trips</div><div class="g-h" data-el>Three days around Nusa Penida</div><div class="g-img" data-el data-culprit style="width:460px">фото</div><div class="g-p" data-el>Small boats, local guides, no crowds before 9 am.</div><div class="g-btn" data-el>Book now</div>',
+      fix: (el) => { el.style.maxWidth = 'calc(100% - 1.6rem)'; },
+      why: 'Картинке задали ширину 460 px. Лечится одной строкой для всех картинок: <code>max-width: 100%</code>.' },
+    { html: '<div class="g-top" data-el>Nusa Trips</div><div class="g-h" data-el>How to find us</div><div class="g-p" data-el>The boat leaves from Sanur harbour at 7:30.</div><div class="g-p" data-el data-culprit>Booking code: NUSATRIPS2026PRIVATEBOATTHREEDAYSCONFIRMED00412XK</div><div class="g-btn" data-el>Open the map</div>',
+      fix: (el) => { el.style.overflowWrap = 'anywhere'; },
+      why: 'Длинная строка без пробелов (код брони, ссылка, почта) не переносится сама. Нужно <code>overflow-wrap: anywhere</code>.' },
+    { html: '<div class="g-top" data-el>Nusa Trips</div><div class="g-h" data-el>Manta Point</div><div class="g-tags" data-el data-culprit><span>Snorkelling</span><span>Half day</span><span>Lunch included</span><span>Small group</span><span>Pickup</span></div><div class="g-p" data-el>Calm water in the morning, manta rays most days of the year.</div><div class="g-btn" data-el>Book now</div>',
+      fix: (el) => { el.style.flexWrap = 'wrap'; },
+      why: 'Ряд меток на Flex без переноса. Нужно <code>flex-wrap: wrap</code>.' },
+    { html: '<div class="g-top" data-el>Nusa Trips</div><div class="g-h" data-el>Prices</div><div class="g-p" data-el>Per person, lunch and gear included.</div><div class="g-table" data-el data-culprit style="width:430px"><b>Tour</b><b>Days</b><b>Price</b><span>Manta Point</span><span>1</span><span>$65</span><span>Three islands</span><span>3</span><span>$240</span></div><div class="g-btn" data-el>Ask a question</div>',
+      fix: (el) => { el.style.width = 'auto'; },
+      why: 'Блоку с ценами задали <code>width: 430px</code>. Фиксированную ширину убрать; широкую таблицу завернуть в блок с собственной прокруткой.' }
+  ];
+  const game = $('#game'); const phone = $('#gamePhone'); const gameOut = $('#gameOut'); const gameNext = $('#gameNext');
+  let round = 0; let solved = false;
+  function loadRound() {
+    solved = false;
+    phone.innerHTML = ROUNDS[round].html;
+    phone.scrollLeft = 0;
+    $('#gameTitle').textContent = 'Раунд ' + (round + 1) + ' из ' + ROUNDS.length;
+    gameOut.textContent = 'Прокрути экран телефона вбок, потом нажми на блок, который, по-твоему, шире экрана.';
+    gameNext.hidden = true;
+  }
+  const sticksOut = (el) => el.scrollWidth > el.clientWidth + 1 || el.getBoundingClientRect().right > phone.getBoundingClientRect().left + phone.clientLeft + phone.clientWidth + 1;
+  phone.addEventListener('click', (e) => {
+    const el = e.target.closest('[data-el]');
+    if (!el || solved) return;
+    $$('.g-hit,.g-ok', phone).forEach((n) => n.classList.remove('g-hit', 'g-ok'));
+    if (el.hasAttribute('data-culprit')) {
+      solved = true;
+      ROUNDS[round].fix(el);
+      el.classList.add('g-ok');
+      const still = phone.scrollWidth > phone.clientWidth + 1;
+      gameOut.innerHTML = '<span class="verdict ok">Он.</span> ' + ROUNDS[round].why + (still ? '' : ' Исправление применено: прокрутки вбок больше нет.');
+      if (round < ROUNDS.length - 1) gameNext.hidden = false;
+      else gameOut.innerHTML += ' <strong>Все четыре причины найдены.</strong>';
+    } else {
+      el.classList.add('g-hit');
+      gameOut.innerHTML = '<span class="verdict no">Этот блок помещается:</span> его правый край внутри экрана. Включи «Обвести все блоки» и посмотри, чья рамка уходит за край.';
+      setTimeout(() => el.classList.remove('g-hit'), 1200);
+    }
+  });
+  $('#gameHint').addEventListener('click', () => {
+    if (solved) return;
+    const hit = $$('[data-el]', phone).filter(sticksOut);
+    hit.forEach((n) => n.classList.add('g-hit'));
+    gameOut.textContent = 'Красным выделен блок, у которого содержимое шире экрана. Нажми на него.';
+    setTimeout(() => hit.forEach((n) => n.classList.remove('g-hit')), 2500);
+  });
+  gameNext.addEventListener('click', () => { round += 1; loadRound(); });
+  loadRound();
+
+  /* 7. z-index and sticky header */
+  const zdemo = $('#zdemo');
+  function renderZ() {
+    const z = getComputedStyle(zdemo).getPropertyValue('--z').trim() || '10';
+    $('#zOut').innerHTML = zdemo.dataset.fix === 'on'
+      ? (Number(z) > 2
+        ? `У main нет z-index, поэтому подсказка сравнивается с шапкой напрямую: ${z} больше 2. <span class="verdict ok">Подсказка сверху.</span>`
+        : `Подсказка сравнивается с шапкой напрямую: ${z} не больше 2. Подними значение выше 2.`)
+      : `Подсказка живёт внутри main с z-index 1, её значение читается как 1.${z}. Это меньше, чем 2 у шапки. <span class="verdict no">Подсказка под шапкой при любом числе.</span>`;
+  }
+  zdemo.addEventListener('statechange', renderZ);
+  renderZ();
+
+  const stBox = $('#stBox');
+  const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  stBox.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-go]');
+    if (!b) return;
+    const t = $('#' + b.dataset.go);
+    const m = parseFloat(getComputedStyle(t).scrollMarginTop) || 0;
+    stBox.scrollTo({ top: t.offsetTop - m, behavior: calm ? 'auto' : 'smooth' });
+  });
+
+  /* 8. Semantics: same look, different meaning */
+  const SEM_CSS = 'body{margin:0;font:15px/1.45 system-ui,sans-serif;color:#14171c}.top{display:flex;justify-content:space-between;gap:12px;padding:12px 16px;border-bottom:1px solid #dde1e7}.logo{font-weight:700}.nav{display:flex;gap:14px}.link{color:#14171c;text-decoration:underline;cursor:pointer}.body{padding:16px}.t1{font-size:22px;font-weight:700;line-height:1.15;margin:0 0 10px}.t2{font-size:16px;font-weight:700;margin:0 0 4px}.p{margin:0 0 12px;color:#4a5160}.btn{display:inline-block;font:inherit;font-weight:600;padding:9px 14px;border-radius:8px;border:0;background:#14171c;color:#fff;cursor:pointer}.foot{padding:10px 16px;border-top:1px solid #dde1e7;color:#5a6170;font-size:13px}:focus-visible{outline:3px solid #1f5eff;outline-offset:2px}';
+  const SEM = {
+    div: '<div class="top"><div class="logo">Nusa Trips</div><div class="nav"><span class="link" data-click>Tours</span><span class="link" data-click>Contact</span></div></div><div class="body"><div class="t1">Three days around Nusa Penida</div><div class="t2">What is included</div><div class="p">Hotel pickup, lunch, gear, insurance.</div><div class="btn" data-click>Book now</div></div><div class="foot">Nusa Trips, Sanur harbour</div>',
+    sem: '<header class="top"><div class="logo">Nusa Trips</div><nav class="nav"><a class="link" href="#">Tours</a><a class="link" href="#">Contact</a></nav></header><main class="body"><h1 class="t1">Three days around Nusa Penida</h1><h2 class="t2">What is included</h2><p class="p">Hotel pickup, lunch, gear, insurance.</p><button class="btn" type="button">Book now</button></main><footer class="foot">Nusa Trips, Sanur harbour</footer>'
+  };
+  const sem = $('#sem'); const semFrame = $('#semFrame');
+  const LAND = { header: 'шапка', nav: 'навигация', main: 'основная часть', footer: 'подвал' };
+  function renderSemOut() {
+    const doc = semFrame.contentDocument;
+    if (!doc || !doc.body) return;
+    doc.addEventListener('click', (e) => { if (e.target.closest('a')) e.preventDefault(); });
+    const marks = Object.keys(LAND).filter((t) => doc.querySelector(t));
+    const heads = [...doc.querySelectorAll('h1,h2,h3,h4,h5,h6')];
+    const clickable = doc.querySelectorAll('a[href],button,[data-click]').length;
+    const focusable = doc.querySelectorAll('a[href],button').length;
+    $('#semOut').innerHTML =
+      '<div class="mh">Что видит машина</div>' +
+      '<p><strong>Области страницы:</strong> ' + (marks.length ? marks.map((m) => LAND[m]).join(', ') : '<span class="verdict no">не найдено</span>') + '</p>' +
+      '<p><strong>Заголовки:</strong> ' + (heads.length ? '' : '<span class="verdict no">ни одного</span>') + '</p>' +
+      (heads.length ? '<ul>' + heads.map((h) => '<li class="lvl' + h.tagName[1] + '">' + h.tagName.toLowerCase() + ': ' + h.textContent + '</li>').join('') + '</ul>' : '') +
+      '<p><strong>Доступно с клавиатуры:</strong> <span class="verdict ' + (focusable === clickable ? 'ok' : 'no') + '">' + focusable + ' из ' + clickable + '</span> кликабельных элементов</p>';
+  }
+  semFrame.addEventListener('load', renderSemOut);
+  const renderSem = () => { semFrame.srcdoc = '<!doctype html><html lang="en"><head><meta charset="utf-8"><style>' + SEM_CSS + '</style></head><body>' + SEM[sem.dataset.ver] + '</body></html>'; };
+  sem.addEventListener('statechange', renderSem);
+  renderSem();
+});
+</script>
+</body>
+</html>

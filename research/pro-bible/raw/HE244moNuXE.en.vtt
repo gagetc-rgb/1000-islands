@@ -1,0 +1,3308 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.630 align:start position:0%
+ 
+Hello <00:00:00.253><c>everyone, </c><00:00:00.506><c>in </c><00:00:00.759><c>today's </c><00:00:01.012><c>video </c><00:00:01.265><c>we </c><00:00:01.518><c>will</c>
+
+00:00:01.630 --> 00:00:01.640 align:start position:0%
+Hello everyone, in today's video we will
+ 
+
+00:00:01.640 --> 00:00:04.150 align:start position:0%
+Hello everyone, in today's video we will
+understand <00:00:01.929><c>about </c><00:00:02.218><c>the </c><00:00:02.507><c>OS </c><00:00:02.796><c>Top </c><00:00:03.085><c>10, </c><00:00:03.374><c>that </c><00:00:03.663><c>is, </c><00:00:03.952><c>the</c>
+
+00:00:04.150 --> 00:00:06.190 align:start position:0%
+understand about the OS Top 10, that is, the
+ 
+
+00:00:06.190 --> 00:00:06.200 align:start position:0%
+ 
+ 
+
+00:00:06.200 --> 00:00:08.910 align:start position:0%
+ 
+top <00:00:06.403><c>10 </c><00:00:06.606><c>web </c><00:00:06.809><c>application </c><00:00:07.012><c>vulnerability </c><00:00:07.215><c>of </c><00:00:07.418><c>the </c><00:00:07.621><c>Open </c><00:00:07.824><c>Web </c><00:00:08.027><c>Application </c><00:00:08.230><c>Security </c><00:00:08.433><c>Project.</c>
+
+00:00:08.910 --> 00:00:08.920 align:start position:0%
+top 10 web application vulnerability of the Open Web Application Security Project.
+ 
+
+00:00:08.920 --> 00:00:11.110 align:start position:0%
+top 10 web application vulnerability of the Open Web Application Security Project.
+Today <00:00:09.211><c>we </c><00:00:09.502><c>are </c><00:00:09.793><c>going </c><00:00:10.084><c>to </c><00:00:10.375><c>understand </c><00:00:10.666><c>about </c><00:00:10.957><c>them.</c>
+
+00:00:11.110 --> 00:00:11.120 align:start position:0%
+Today we are going to understand about them.
+ 
+
+00:00:11.120 --> 00:00:13.270 align:start position:0%
+Today we are going to understand about them.
+Why <00:00:11.264><c>is </c><00:00:11.408><c>it </c><00:00:11.552><c>important </c><00:00:11.696><c>to </c><00:00:11.840><c>understand </c><00:00:11.984><c>this? </c><00:00:12.128><c>Because </c><00:00:12.272><c>if </c><00:00:12.416><c>you </c><00:00:12.560><c>want </c><00:00:12.704><c>to </c><00:00:12.848><c>do </c><00:00:12.992><c>web</c>
+
+00:00:13.270 --> 00:00:13.280 align:start position:0%
+Why is it important to understand this? Because if you want to do web
+ 
+
+00:00:13.280 --> 00:00:15.110 align:start position:0%
+Why is it important to understand this? Because if you want to do web
+application <00:00:14.079><c>penetration </c><00:00:14.878><c>testing,</c>
+
+00:00:15.110 --> 00:00:15.120 align:start position:0%
+application penetration testing,
+ 
+
+00:00:15.120 --> 00:00:16.910 align:start position:0%
+application penetration testing,
+want <00:00:15.448><c>to </c><00:00:15.776><c>do </c><00:00:16.104><c>bug </c><00:00:16.432><c>hunting, </c><00:00:16.760><c>or</c>
+
+00:00:16.910 --> 00:00:16.920 align:start position:0%
+want to do bug hunting, or
+ 
+
+00:00:16.920 --> 00:00:19.590 align:start position:0%
+want to do bug hunting, or
+want <00:00:17.182><c>to </c><00:00:17.444><c>become </c><00:00:17.706><c>a </c><00:00:17.968><c>penetration </c><00:00:18.230><c>tester, </c><00:00:18.492><c>learning </c><00:00:18.754><c>the </c><00:00:19.016><c>OS </c><00:00:19.278><c>Top</c>
+
+00:00:19.590 --> 00:00:19.600 align:start position:0%
+want to become a penetration tester, learning the OS Top
+ 
+
+00:00:19.600 --> 00:00:22.109 align:start position:0%
+want to become a penetration tester, learning the OS Top
+10 <00:00:20.160><c>is </c><00:00:20.720><c>very </c><00:00:21.280><c>important </c><00:00:21.840><c>and</c>
+
+00:00:22.109 --> 00:00:22.119 align:start position:0%
+10 is very important and
+ 
+
+00:00:22.119 --> 00:00:24.589 align:start position:0%
+10 is very important and
+mandatory. <00:00:22.450><c>So, </c><00:00:22.781><c>watch </c><00:00:23.112><c>this </c><00:00:23.443><c>video </c><00:00:23.774><c>till </c><00:00:24.105><c>the </c><00:00:24.436><c>end</c>
+
+00:00:24.589 --> 00:00:24.599 align:start position:0%
+mandatory. So, watch this video till the end
+ 
+
+00:00:24.599 --> 00:00:26.509 align:start position:0%
+mandatory. So, watch this video till the end
+because <00:00:24.744><c>I </c><00:00:24.889><c>am </c><00:00:25.034><c>going </c><00:00:25.179><c>to </c><00:00:25.324><c>explain </c><00:00:25.469><c>to </c><00:00:25.614><c>you </c><00:00:25.759><c>in </c><00:00:25.904><c>a </c><00:00:26.049><c>very </c><00:00:26.194><c>easy</c>
+
+00:00:26.509 --> 00:00:26.519 align:start position:0%
+because I am going to explain to you in a very easy
+ 
+
+00:00:26.519 --> 00:00:28.509 align:start position:0%
+because I am going to explain to you in a very easy
+way <00:00:27.132><c>through </c><00:00:27.745><c>track </c><00:00:28.358><c>me,</c>
+
+00:00:28.509 --> 00:00:28.519 align:start position:0%
+way through track me,
+ 
+
+00:00:28.519 --> 00:00:31.630 align:start position:0%
+way through track me,
+how
+
+00:00:31.630 --> 00:00:31.640 align:start position:0%
+how
+ 
+
+00:00:31.640 --> 00:00:33.510 align:start position:0%
+how
+we <00:00:31.891><c>exploit </c><00:00:32.142><c>the </c><00:00:32.393><c>vulnerability </c><00:00:32.644><c>of </c><00:00:32.895><c>OS </c><00:00:33.146><c>and </c><00:00:33.397><c>which</c>
+
+00:00:33.510 --> 00:00:33.520 align:start position:0%
+we exploit the vulnerability of OS and which
+ 
+
+00:00:33.520 --> 00:00:35.830 align:start position:0%
+we exploit the vulnerability of OS and which
+exploits <00:00:34.619><c>we </c><00:00:35.718><c>do,</c>
+
+00:00:35.830 --> 00:00:35.840 align:start position:0%
+exploits we do,
+ 
+
+00:00:35.840 --> 00:00:38.270 align:start position:0%
+exploits we do,
+which <00:00:36.287><c>are </c><00:00:36.734><c>the </c><00:00:37.181><c>actual </c><00:00:37.628><c>vulnerability. </c><00:00:38.075><c>Today</c>
+
+00:00:38.270 --> 00:00:38.280 align:start position:0%
+which are the actual vulnerability. Today
+ 
+
+00:00:38.280 --> 00:00:39.990 align:start position:0%
+which are the actual vulnerability. Today
+we <00:00:38.508><c>are </c><00:00:38.736><c>going </c><00:00:38.964><c>to </c><00:00:39.192><c>understand </c><00:00:39.420><c>about </c><00:00:39.648><c>them, </c><00:00:39.876><c>so</c>
+
+00:00:39.990 --> 00:00:40.000 align:start position:0%
+we are going to understand about them, so
+ 
+
+00:00:40.000 --> 00:00:41.830 align:start position:0%
+we are going to understand about them, so
+watch <00:00:40.240><c>the </c><00:00:40.480><c>video </c><00:00:40.720><c>till </c><00:00:40.960><c>the </c><00:00:41.200><c>end. </c><00:00:41.440><c>Friends, </c><00:00:41.680><c>my</c>
+
+00:00:41.830 --> 00:00:41.840 align:start position:0%
+watch the video till the end. Friends, my
+ 
+
+00:00:41.840 --> 00:00:43.229 align:start position:0%
+watch the video till the end. Friends, my
+name <00:00:42.022><c>is </c><00:00:42.204><c>Rahul </c><00:00:42.386><c>Kumar </c><00:00:42.568><c>and </c><00:00:42.750><c>you </c><00:00:42.932><c>are </c><00:00:43.114><c>watching</c>
+
+00:00:43.229 --> 00:00:43.239 align:start position:0%
+name is Rahul Kumar and you are watching
+ 
+
+00:00:43.239 --> 00:00:44.790 align:start position:0%
+name is Rahul Kumar and you are watching
+Master <00:00:43.535><c>AT. </c><00:00:43.831><c>Let's </c><00:00:44.127><c>start </c><00:00:44.423><c>the </c><00:00:44.719><c>video</c>
+
+00:00:44.790 --> 00:00:44.800 align:start position:0%
+Master AT. Let's start the video
+ 
+
+00:00:44.800 --> 00:00:45.670 align:start position:0%
+Master AT. Let's start the video
+without <00:00:44.920><c>any </c><00:00:45.040><c>further </c><00:00:45.160><c>discussion.</c>
+
+00:00:45.670 --> 00:00:45.680 align:start position:0%
+without any further discussion.
+ 
+
+00:00:45.680 --> 00:00:53.910 align:start position:0%
+without any further discussion.
+[Music]
+
+00:00:53.910 --> 00:00:53.920 align:start position:0%
+ 
+ 
+
+00:00:53.920 --> 00:00:57.310 align:start position:0%
+ 
+What <00:00:54.309><c>is </c><00:00:54.698><c>OS? </c><00:00:55.087><c>Basically, </c><00:00:55.476><c>the </c><00:00:55.865><c>full </c><00:00:56.254><c>form </c><00:00:56.643><c>of </c><00:00:57.032><c>OS</c>
+
+00:00:57.310 --> 00:00:57.320 align:start position:0%
+What is OS? Basically, the full form of OS
+ 
+
+00:00:57.320 --> 00:00:59.069 align:start position:0%
+What is OS? Basically, the full form of OS
+is <00:00:57.650><c>Open </c><00:00:57.980><c>Web </c><00:00:58.310><c>Application </c><00:00:58.640><c>Security</c>
+
+00:00:59.069 --> 00:00:59.079 align:start position:0%
+is Open Web Application Security
+ 
+
+00:00:59.079 --> 00:01:01.990 align:start position:0%
+is Open Web Application Security
+Project. <00:00:59.416><c>This </c><00:00:59.753><c>is </c><00:01:00.090><c>an </c><00:01:00.427><c>organization </c><00:01:00.764><c>which </c><00:01:01.101><c>organizes </c><00:01:01.438><c>the</c>
+
+00:01:01.990 --> 00:01:02.000 align:start position:0%
+Project. This is an organization which organizes the
+ 
+
+00:01:02.000 --> 00:01:05.350 align:start position:0%
+Project. This is an organization which organizes the
+top <00:01:02.493><c>vulnerability </c><00:01:02.986><c>every </c><00:01:03.479><c>three </c><00:01:03.972><c>years.  </c><00:01:04.465><c>10 </c><00:01:04.958><c>Verbit</c>
+
+00:01:05.350 --> 00:01:05.360 align:start position:0%
+top vulnerability every three years.  10 Verbit
+ 
+
+00:01:05.360 --> 00:01:07.510 align:start position:0%
+top vulnerability every three years.  10 Verbit
+publishes <00:01:05.560><c>what </c><00:01:05.760><c>are </c><00:01:05.960><c>the </c><00:01:06.160><c>top </c><00:01:06.360><c>10 </c><00:01:06.560><c>verifiables </c><00:01:06.760><c>of </c><00:01:06.960><c>any </c><00:01:07.160><c>web </c><00:01:07.360><c>application.</c>
+
+00:01:07.510 --> 00:01:09.910 align:start position:0%
+publishes what are the top 10 verifiables of any web application.
+ 
+
+00:01:09.910 --> 00:01:09.920 align:start position:0%
+ 
+ 
+
+00:01:09.920 --> 00:01:12.830 align:start position:0%
+ 
+It <00:01:10.067><c>also </c><00:01:10.214><c>lists </c><00:01:10.361><c>the </c><00:01:10.508><c>verifiables </c><00:01:10.655><c>of </c><00:01:10.802><c>not </c><00:01:10.949><c>only </c><00:01:11.096><c>web </c><00:01:11.243><c>applications </c><00:01:11.390><c>but </c><00:01:11.537><c>also </c><00:01:11.684><c>the </c><00:01:11.831><c>top </c><00:01:11.978><c>10 </c><00:01:12.125><c>APIs </c><00:01:12.272><c>of </c><00:01:12.419><c>OS. </c><00:01:12.566><c>In </c><00:01:12.713><c>the</c>
+
+00:01:12.830 --> 00:01:12.840 align:start position:0%
+It also lists the verifiables of not only web applications but also the top 10 APIs of OS. In the
+ 
+
+00:01:12.840 --> 00:01:14.510 align:start position:0%
+It also lists the verifiables of not only web applications but also the top 10 APIs of OS. In the
+same <00:01:13.540><c>way, </c><00:01:14.240><c>it</c>
+
+00:01:14.510 --> 00:01:14.520 align:start position:0%
+same way, it
+ 
+
+00:01:14.520 --> 00:01:16.550 align:start position:0%
+same way, it
+provides <00:01:14.820><c>information </c><00:01:15.120><c>about </c><00:01:15.420><c>different </c><00:01:15.720><c>verifiables </c><00:01:16.020><c>every </c><00:01:16.320><c>three</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+provides information about different verifiables every three
+ 
+
+00:01:16.560 --> 00:01:19.310 align:start position:0%
+provides information about different verifiables every three
+years. <00:01:16.777><c>So </c><00:01:16.994><c>today </c><00:01:17.211><c>we </c><00:01:17.428><c>are </c><00:01:17.645><c>going </c><00:01:17.862><c>to </c><00:01:18.079><c>talk </c><00:01:18.296><c>about </c><00:01:18.513><c>the</c>
+
+00:01:19.310 --> 00:01:19.320 align:start position:0%
+years. So today we are going to talk about the
+ 
+
+00:01:19.320 --> 00:01:22.510 align:start position:0%
+years. So today we are going to talk about the
+top <00:01:19.599><c>10 </c><00:01:19.878><c>verifiables </c><00:01:20.157><c>of </c><00:01:20.436><c>2021. </c><00:01:20.715><c>So </c><00:01:20.994><c>which </c><00:01:21.273><c>are </c><00:01:21.552><c>these </c><00:01:21.831><c>verifiables? </c><00:01:22.110><c>It</c>
+
+00:01:22.510 --> 00:01:22.520 align:start position:0%
+top 10 verifiables of 2021. So which are these verifiables? It
+ 
+
+00:01:22.520 --> 00:01:24.310 align:start position:0%
+top 10 verifiables of 2021. So which are these verifiables? It
+starts <00:01:23.013><c>with </c><00:01:23.506><c>Broken </c><00:01:23.999><c>Access</c>
+
+00:01:24.310 --> 00:01:24.320 align:start position:0%
+starts with Broken Access
+ 
+
+00:01:24.320 --> 00:01:26.149 align:start position:0%
+starts with Broken Access
+Control <00:01:24.640><c>and </c><00:01:24.960><c>ends </c><00:01:25.280><c>with </c><00:01:25.600><c>Server </c><00:01:25.920><c>Side</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+Control and ends with Server Side
+ 
+
+00:01:26.159 --> 00:01:28.950 align:start position:0%
+Control and ends with Server Side
+Request <00:01:26.439><c>for </c><00:01:26.719><c>Jari. </c><00:01:26.999><c>So </c><00:01:27.279><c>we </c><00:01:27.559><c>will </c><00:01:27.839><c>understand </c><00:01:28.119><c>all </c><00:01:28.399><c>these </c><00:01:28.679><c>10</c>
+
+00:01:28.950 --> 00:01:28.960 align:start position:0%
+Request for Jari. So we will understand all these 10
+ 
+
+00:01:28.960 --> 00:01:31.590 align:start position:0%
+Request for Jari. So we will understand all these 10
+verifiables <00:01:29.746><c>in </c><00:01:30.532><c>detail </c><00:01:31.318><c>and</c>
+
+00:01:31.590 --> 00:01:31.600 align:start position:0%
+verifiables in detail and
+ 
+
+00:01:31.600 --> 00:01:33.109 align:start position:0%
+verifiables in detail and
+in <00:01:31.755><c>very </c><00:01:31.910><c>easy </c><00:01:32.065><c>language, </c><00:01:32.220><c>I </c><00:01:32.375><c>will </c><00:01:32.530><c>explain </c><00:01:32.685><c>to </c><00:01:32.840><c>you</c>
+
+00:01:33.109 --> 00:01:33.119 align:start position:0%
+in very easy language, I will explain to you
+ 
+
+00:01:33.119 --> 00:01:34.350 align:start position:0%
+in very easy language, I will explain to you
+what <00:01:33.273><c>these </c><00:01:33.427><c>verifiables </c><00:01:33.581><c>are </c><00:01:33.735><c>and </c><00:01:33.889><c>how </c><00:01:34.043><c>you </c><00:01:34.197><c>can</c>
+
+00:01:34.350 --> 00:01:34.360 align:start position:0%
+what these verifiables are and how you can
+ 
+
+00:01:34.360 --> 00:01:36.590 align:start position:0%
+what these verifiables are and how you can
+exploit <00:01:34.792><c>them </c><00:01:35.224><c>and </c><00:01:35.656><c>fix </c><00:01:36.088><c>bugs </c><00:01:36.520><c>or</c>
+
+00:01:36.590 --> 00:01:36.600 align:start position:0%
+exploit them and fix bugs or
+ 
+
+00:01:36.600 --> 00:01:38.270 align:start position:0%
+exploit them and fix bugs or
+you <00:01:37.960><c>can</c>
+
+00:01:38.270 --> 00:01:38.280 align:start position:0%
+you can
+ 
+
+00:01:38.280 --> 00:01:40.789 align:start position:0%
+you can
+make <00:01:38.487><c>a </c><00:01:38.694><c>good </c><00:01:38.901><c>career </c><00:01:39.108><c>in </c><00:01:39.315><c>testing </c><00:01:39.522><c>your </c><00:01:39.729><c>web </c><00:01:39.936><c>application. </c><00:01:40.143><c>First </c><00:01:40.350><c>of </c><00:01:40.557><c>all,</c>
+
+00:01:40.789 --> 00:01:40.799 align:start position:0%
+make a good career in testing your web application. First of all,
+ 
+
+00:01:40.799 --> 00:01:42.510 align:start position:0%
+make a good career in testing your web application. First of all,
+we <00:01:41.072><c>will </c><00:01:41.345><c>talk </c><00:01:41.618><c>about </c><00:01:41.891><c>Broken </c><00:01:42.164><c>Access </c><00:01:42.437><c>Control,</c>
+
+00:01:42.510 --> 00:01:42.520 align:start position:0%
+we will talk about Broken Access Control,
+ 
+
+00:01:42.520 --> 00:01:43.910 align:start position:0%
+we will talk about Broken Access Control,
+but <00:01:42.653><c>before </c><00:01:42.786><c>that, </c><00:01:42.919><c>I </c><00:01:43.052><c>want </c><00:01:43.185><c>to </c><00:01:43.318><c>tell </c><00:01:43.451><c>you </c><00:01:43.584><c>that </c><00:01:43.717><c>this</c>
+
+00:01:43.910 --> 00:01:43.920 align:start position:0%
+but before that, I want to tell you that this
+ 
+
+00:01:43.920 --> 00:01:45.429 align:start position:0%
+but before that, I want to tell you that this
+whole <00:01:44.100><c>thing </c><00:01:44.280><c>that </c><00:01:44.460><c>I </c><00:01:44.640><c>am </c><00:01:44.820><c>explaining </c><00:01:45.000><c>to </c><00:01:45.180><c>you </c><00:01:45.360><c>is</c>
+
+00:01:45.429 --> 00:01:45.439 align:start position:0%
+whole thing that I am explaining to you is
+ 
+
+00:01:45.439 --> 00:01:48.510 align:start position:0%
+whole thing that I am explaining to you is
+a <00:01:45.872><c>part </c><00:01:46.305><c>of </c><00:01:46.738><c>the </c><00:01:47.171><c>Top </c><00:01:47.604><c>10 </c><00:01:48.037><c>2021.</c>
+
+00:01:48.510 --> 00:01:48.520 align:start position:0%
+a part of the Top 10 2021.
+ 
+
+00:01:48.520 --> 00:01:50.350 align:start position:0%
+a part of the Top 10 2021.
+If <00:01:48.692><c>you </c><00:01:48.864><c>want </c><00:01:49.036><c>the </c><00:01:49.208><c>practical </c><00:01:49.380><c>part </c><00:01:49.552><c>of </c><00:01:49.724><c>it, </c><00:01:49.896><c>then </c><00:01:50.068><c>I </c><00:01:50.240><c>will</c>
+
+00:01:50.350 --> 00:01:50.360 align:start position:0%
+If you want the practical part of it, then I will
+ 
+
+00:01:50.360 --> 00:01:52.190 align:start position:0%
+If you want the practical part of it, then I will
+tell <00:01:50.565><c>you </c><00:01:50.770><c>about </c><00:01:50.975><c>that </c><00:01:51.180><c>too.  </c><00:01:51.385><c>You </c><00:01:51.590><c>will </c><00:01:51.795><c>have </c><00:01:52.000><c>to</c>
+
+00:01:52.190 --> 00:01:52.200 align:start position:0%
+tell you about that too.  You will have to
+ 
+
+00:01:52.200 --> 00:01:54.590 align:start position:0%
+tell you about that too.  You will have to
+tell <00:01:52.513><c>me </c><00:01:52.826><c>in </c><00:01:53.139><c>the </c><00:01:53.452><c>comments </c><00:01:53.765><c>whether </c><00:01:54.078><c>you</c>
+
+00:01:54.590 --> 00:01:54.600 align:start position:0%
+tell me in the comments whether you
+ 
+
+00:01:54.600 --> 00:01:56.350 align:start position:0%
+tell me in the comments whether you
+are <00:01:54.846><c>interested </c><00:01:55.092><c>or </c><00:01:55.338><c>not. </c><00:01:55.584><c>Otherwise, </c><00:01:55.830><c>if </c><00:01:56.076><c>I</c>
+
+00:01:56.350 --> 00:01:56.360 align:start position:0%
+are interested or not. Otherwise, if I
+ 
+
+00:01:56.360 --> 00:01:57.789 align:start position:0%
+are interested or not. Otherwise, if I
+still <00:01:56.531><c>explain </c><00:01:56.702><c>the </c><00:01:56.873><c>practical, </c><00:01:57.044><c>then </c><00:01:57.215><c>the </c><00:01:57.386><c>video </c><00:01:57.557><c>becomes</c>
+
+00:01:57.789 --> 00:01:57.799 align:start position:0%
+still explain the practical, then the video becomes
+ 
+
+00:01:57.799 --> 00:01:59.990 align:start position:0%
+still explain the practical, then the video becomes
+very <00:01:58.659><c>long, </c><00:01:59.519><c>so</c>
+
+00:01:59.990 --> 00:02:00.000 align:start position:0%
+very long, so
+ 
+
+00:02:00.000 --> 00:02:01.749 align:start position:0%
+very long, so
+tell <00:02:00.130><c>me </c><00:02:00.260><c>in </c><00:02:00.390><c>the </c><00:02:00.520><c>comments </c><00:02:00.650><c>if </c><00:02:00.780><c>you </c><00:02:00.910><c>are </c><00:02:01.040><c>interested, </c><00:02:01.170><c>even </c><00:02:01.300><c>if </c><00:02:01.430><c>I </c><00:02:01.560><c>get</c>
+
+00:02:01.749 --> 00:02:01.759 align:start position:0%
+tell me in the comments if you are interested, even if I get
+ 
+
+00:02:01.759 --> 00:02:04.350 align:start position:0%
+tell me in the comments if you are interested, even if I get
+comments <00:02:02.369><c>from </c><00:02:02.979><c>100 </c><00:02:03.589><c>people, </c><00:02:04.199><c>then</c>
+
+00:02:04.350 --> 00:02:04.360 align:start position:0%
+comments from 100 people, then
+ 
+
+00:02:04.360 --> 00:02:06.270 align:start position:0%
+comments from 100 people, then
+I <00:02:04.546><c>will </c><00:02:04.732><c>definitely </c><00:02:04.918><c>show </c><00:02:05.104><c>you </c><00:02:05.290><c>the </c><00:02:05.476><c>practical </c><00:02:05.662><c>part </c><00:02:05.848><c>of </c><00:02:06.034><c>it.</c>
+
+00:02:06.270 --> 00:02:06.280 align:start position:0%
+I will definitely show you the practical part of it.
+ 
+
+00:02:06.280 --> 00:02:08.469 align:start position:0%
+I will definitely show you the practical part of it.
+For <00:02:06.760><c>now, </c><00:02:07.240><c>let </c><00:02:07.720><c>us </c><00:02:08.200><c>understand</c>
+
+00:02:08.469 --> 00:02:08.479 align:start position:0%
+For now, let us understand
+ 
+
+00:02:08.479 --> 00:02:10.309 align:start position:0%
+For now, let us understand
+broken <00:02:08.791><c>access </c><00:02:09.103><c>control, </c><00:02:09.415><c>which </c><00:02:09.727><c>is </c><00:02:10.039><c>our</c>
+
+00:02:10.309 --> 00:02:10.319 align:start position:0%
+broken access control, which is our
+ 
+
+00:02:10.319 --> 00:02:12.550 align:start position:0%
+broken access control, which is our
+first <00:02:11.399><c>one-time </c><00:02:12.479><c>bill.</c>
+
+00:02:12.550 --> 00:02:12.560 align:start position:0%
+first one-time bill.
+ 
+
+00:02:12.560 --> 00:02:14.229 align:start position:0%
+first one-time bill.
+Before <00:02:12.733><c>understanding </c><00:02:12.906><c>broken </c><00:02:13.079><c>access </c><00:02:13.252><c>control, </c><00:02:13.425><c>we </c><00:02:13.598><c>have </c><00:02:13.771><c>to </c><00:02:13.944><c>understand </c><00:02:14.117><c>what</c>
+
+00:02:14.229 --> 00:02:14.239 align:start position:0%
+Before understanding broken access control, we have to understand what
+ 
+
+00:02:14.239 --> 00:02:17.190 align:start position:0%
+Before understanding broken access control, we have to understand what
+access <00:02:15.132><c>control </c><00:02:16.025><c>is. </c><00:02:16.918><c>Any</c>
+
+00:02:17.190 --> 00:02:17.200 align:start position:0%
+access control is. Any
+ 
+
+00:02:17.200 --> 00:02:18.790 align:start position:0%
+access control is. Any
+company <00:02:17.586><c>has </c><00:02:17.972><c>many </c><00:02:18.358><c>computer</c>
+
+00:02:18.790 --> 00:02:18.800 align:start position:0%
+company has many computer
+ 
+
+00:02:18.800 --> 00:02:20.830 align:start position:0%
+company has many computer
+systems. <00:02:19.000><c>Different </c><00:02:19.200><c>users </c><00:02:19.400><c>have </c><00:02:19.600><c>rights </c><00:02:19.800><c>on </c><00:02:20.000><c>those </c><00:02:20.200><c>computer </c><00:02:20.400><c>systems.</c>
+
+00:02:20.830 --> 00:02:23.350 align:start position:0%
+systems. Different users have rights on those computer systems.
+ 
+
+00:02:23.350 --> 00:02:23.360 align:start position:0%
+ 
+ 
+
+00:02:23.360 --> 00:02:25.350 align:start position:0%
+ 
+Now, <00:02:23.620><c>for </c><00:02:23.880><c>example, </c><00:02:24.140><c>there </c><00:02:24.400><c>is </c><00:02:24.660><c>a </c><00:02:24.920><c>standard</c>
+
+00:02:25.350 --> 00:02:25.360 align:start position:0%
+Now, for example, there is a standard
+ 
+
+00:02:25.360 --> 00:02:27.270 align:start position:0%
+Now, for example, there is a standard
+user. <00:02:25.536><c>Suppose </c><00:02:25.712><c>you </c><00:02:25.888><c>are </c><00:02:26.064><c>working </c><00:02:26.240><c>in </c><00:02:26.416><c>a </c><00:02:26.592><c>company </c><00:02:26.768><c>as </c><00:02:26.944><c>an </c><00:02:27.120><c>employee</c>
+
+00:02:27.270 --> 00:02:27.280 align:start position:0%
+user. Suppose you are working in a company as an employee
+ 
+
+00:02:27.280 --> 00:02:29.790 align:start position:0%
+user. Suppose you are working in a company as an employee
+and <00:02:29.120><c>your</c>
+
+00:02:29.790 --> 00:02:29.800 align:start position:0%
+and your
+ 
+
+00:02:29.800 --> 00:02:31.869 align:start position:0%
+and your
+permission <00:02:30.200><c>is </c><00:02:30.600><c>only </c><00:02:31.000><c>that </c><00:02:31.400><c>you </c><00:02:31.800><c>can</c>
+
+00:02:31.869 --> 00:02:31.879 align:start position:0%
+permission is only that you can
+ 
+
+00:02:31.879 --> 00:02:33.470 align:start position:0%
+permission is only that you can
+create <00:02:32.175><c>a </c><00:02:32.471><c>normal </c><00:02:32.767><c>account </c><00:02:33.063><c>there </c><00:02:33.359><c>and</c>
+
+00:02:33.470 --> 00:02:35.430 align:start position:0%
+create a normal account there and
+ 
+
+00:02:35.430 --> 00:02:35.440 align:start position:0%
+ 
+ 
+
+00:02:35.440 --> 00:02:38.150 align:start position:0%
+ 
+can <00:02:35.574><c>edit </c><00:02:35.708><c>or </c><00:02:35.842><c>delete </c><00:02:35.976><c>any </c><00:02:36.110><c>normal </c><00:02:36.244><c>file, </c><00:02:36.378><c>but </c><00:02:36.512><c>now </c><00:02:36.646><c>you </c><00:02:36.780><c>do </c><00:02:36.914><c>not </c><00:02:37.048><c>have </c><00:02:37.182><c>the </c><00:02:37.316><c>permission </c><00:02:37.450><c>to </c><00:02:37.584><c>make</c>
+
+00:02:38.150 --> 00:02:40.390 align:start position:0%
+can edit or delete any normal file, but now you do not have the permission to make
+ 
+
+00:02:40.390 --> 00:02:40.400 align:start position:0%
+ 
+ 
+
+00:02:40.400 --> 00:02:42.309 align:start position:0%
+ 
+changes <00:02:40.629><c>to </c><00:02:40.858><c>an </c><00:02:41.087><c>administrator </c><00:02:41.316><c>account </c><00:02:41.545><c>from </c><00:02:41.774><c>that </c><00:02:42.003><c>standard </c><00:02:42.232><c>account</c>
+
+00:02:42.309 --> 00:02:42.319 align:start position:0%
+changes to an administrator account from that standard account
+ 
+
+00:02:42.319 --> 00:02:43.949 align:start position:0%
+changes to an administrator account from that standard account
+or <00:02:43.099><c>you </c><00:02:43.879><c>can</c>
+
+00:02:43.949 --> 00:02:43.959 align:start position:0%
+or you can
+ 
+
+00:02:43.959 --> 00:02:46.149 align:start position:0%
+or you can
+change <00:02:44.151><c>the </c><00:02:44.343><c>password </c><00:02:44.535><c>of </c><00:02:44.727><c>the </c><00:02:44.919><c>administrator </c><00:02:45.111><c>account.  </c><00:02:45.303><c>You </c><00:02:45.495><c>can </c><00:02:45.687><c>do </c><00:02:45.879><c>this,</c>
+
+00:02:46.149 --> 00:02:46.159 align:start position:0%
+change the password of the administrator account.  You can do this,
+ 
+
+00:02:46.159 --> 00:02:49.190 align:start position:0%
+change the password of the administrator account.  You can do this,
+you <00:02:46.504><c>do </c><00:02:46.849><c>not </c><00:02:47.194><c>have </c><00:02:47.539><c>any </c><00:02:47.884><c>such </c><00:02:48.229><c>permission, </c><00:02:48.574><c>but </c><00:02:48.919><c>if</c>
+
+00:02:49.190 --> 00:02:49.200 align:start position:0%
+you do not have any such permission, but if
+ 
+
+00:02:49.200 --> 00:02:51.790 align:start position:0%
+you do not have any such permission, but if
+under <00:02:49.515><c>any </c><00:02:49.830><c>such </c><00:02:50.145><c>verb </c><00:02:50.460><c>or </c><00:02:50.775><c>if </c><00:02:51.090><c>there </c><00:02:51.405><c>is </c><00:02:51.720><c>any</c>
+
+00:02:51.790 --> 00:02:51.800 align:start position:0%
+under any such verb or if there is any
+ 
+
+00:02:51.800 --> 00:02:53.869 align:start position:0%
+under any such verb or if there is any
+such <00:02:52.249><c>weakness </c><00:02:52.698><c>in </c><00:02:53.147><c>any </c><00:02:53.596><c>system,</c>
+
+00:02:53.869 --> 00:02:53.879 align:start position:0%
+such weakness in any system,
+ 
+
+00:02:53.879 --> 00:02:56.790 align:start position:0%
+such weakness in any system,
+due <00:02:54.256><c>to </c><00:02:54.633><c>any </c><00:02:55.010><c>human </c><00:02:55.387><c>error, </c><00:02:55.764><c>if </c><00:02:56.141><c>you </c><00:02:56.518><c>are</c>
+
+00:02:56.790 --> 00:02:56.800 align:start position:0%
+due to any human error, if you are
+ 
+
+00:02:56.800 --> 00:02:59.550 align:start position:0%
+due to any human error, if you are
+able <00:02:57.064><c>to </c><00:02:57.328><c>do </c><00:02:57.592><c>something </c><00:02:57.856><c>which </c><00:02:58.120><c>is </c><00:02:58.384><c>not </c><00:02:58.648><c>authorized </c><00:02:58.912><c>to </c><00:02:59.176><c>you, </c><00:02:59.440><c>then</c>
+
+00:02:59.550 --> 00:02:59.560 align:start position:0%
+able to do something which is not authorized to you, then
+ 
+
+00:02:59.560 --> 00:03:01.750 align:start position:0%
+able to do something which is not authorized to you, then
+we <00:02:59.951><c>call </c><00:03:00.342><c>it </c><00:03:00.733><c>broken </c><00:03:01.124><c>access </c><00:03:01.515><c>control.</c>
+
+00:03:01.750 --> 00:03:01.760 align:start position:0%
+we call it broken access control.
+ 
+
+00:03:01.760 --> 00:03:03.949 align:start position:0%
+we call it broken access control.
+If <00:03:02.183><c>we </c><00:03:02.606><c>understand </c><00:03:03.029><c>this </c><00:03:03.452><c>a </c><00:03:03.875><c>little</c>
+
+00:03:03.949 --> 00:03:03.959 align:start position:0%
+If we understand this a little
+ 
+
+00:03:03.959 --> 00:03:05.910 align:start position:0%
+If we understand this a little
+from <00:03:04.143><c>the </c><00:03:04.327><c>perspective </c><00:03:04.511><c>of </c><00:03:04.695><c>web </c><00:03:04.879><c>applications, </c><00:03:05.063><c>then </c><00:03:05.247><c>in </c><00:03:05.431><c>web </c><00:03:05.615><c>applications </c><00:03:05.799><c>or</c>
+
+00:03:05.910 --> 00:03:05.920 align:start position:0%
+from the perspective of web applications, then in web applications or
+ 
+
+00:03:05.920 --> 00:03:08.270 align:start position:0%
+from the perspective of web applications, then in web applications or
+any <00:03:06.626><c>websites, </c><00:03:07.332><c>normally </c><00:03:08.038><c>you</c>
+
+00:03:08.270 --> 00:03:08.280 align:start position:0%
+any websites, normally you
+ 
+
+00:03:08.280 --> 00:03:29.869 align:start position:0%
+any websites, normally you
+create <00:03:08.599><c>any </c><00:03:08.918><c>account, </c><00:03:09.237><c>as </c><00:03:09.556><c>we </c><00:03:09.875><c>have</c>
+
+00:03:29.869 --> 00:03:29.879 align:start position:0%
+ 
+ 
+
+00:03:29.879 --> 00:03:32.110 align:start position:0%
+ 
+control <00:03:30.170><c>over </c><00:03:30.461><c>it, </c><00:03:30.752><c>that </c><00:03:31.043><c>facility </c><00:03:31.334><c>is </c><00:03:31.625><c>called </c><00:03:31.916><c>broken</c>
+
+00:03:32.110 --> 00:03:32.120 align:start position:0%
+control over it, that facility is called broken
+ 
+
+00:03:32.120 --> 00:03:33.910 align:start position:0%
+control over it, that facility is called broken
+access <00:03:32.679><c>control. </c><00:03:33.238><c>So, </c><00:03:33.797><c>as</c>
+
+00:03:33.910 --> 00:03:33.920 align:start position:0%
+access control. So, as
+ 
+
+00:03:33.920 --> 00:03:35.789 align:start position:0%
+access control. So, as
+I <00:03:34.255><c>told </c><00:03:34.590><c>you, </c><00:03:34.925><c>if </c><00:03:35.260><c>any </c><00:03:35.595><c>resource</c>
+
+00:03:35.789 --> 00:03:35.799 align:start position:0%
+I told you, if any resource
+ 
+
+00:03:35.799 --> 00:03:38.149 align:start position:0%
+I told you, if any resource
+is <00:03:36.008><c>not </c><00:03:36.217><c>available </c><00:03:36.426><c>to </c><00:03:36.635><c>you, </c><00:03:36.844><c>then </c><00:03:37.053><c>if </c><00:03:37.262><c>you </c><00:03:37.471><c>are </c><00:03:37.680><c>still</c>
+
+00:03:38.149 --> 00:03:38.159 align:start position:0%
+is not available to you, then if you are still
+ 
+
+00:03:38.159 --> 00:03:39.630 align:start position:0%
+is not available to you, then if you are still
+able <00:03:38.352><c>to </c><00:03:38.545><c>access </c><00:03:38.738><c>that </c><00:03:38.931><c>resource, </c><00:03:39.124><c>then </c><00:03:39.317><c>we</c>
+
+00:03:39.630 --> 00:03:39.640 align:start position:0%
+able to access that resource, then we
+ 
+
+00:03:39.640 --> 00:03:42.710 align:start position:0%
+able to access that resource, then we
+call <00:03:39.995><c>it </c><00:03:40.350><c>broken </c><00:03:40.705><c>access </c><00:03:41.060><c>control. </c><00:03:41.415><c>I </c><00:03:41.770><c>hope </c><00:03:42.125><c>you </c><00:03:42.480><c>have</c>
+
+00:03:42.710 --> 00:03:42.720 align:start position:0%
+call it broken access control. I hope you have
+ 
+
+00:03:42.720 --> 00:03:44.350 align:start position:0%
+call it broken access control. I hope you have
+understood <00:03:43.199><c>broken </c><00:03:43.678><c>access </c><00:03:44.157><c>control.</c>
+
+00:03:44.350 --> 00:03:44.360 align:start position:0%
+understood broken access control.
+ 
+
+00:03:44.360 --> 00:03:46.229 align:start position:0%
+understood broken access control.
+A <00:03:44.551><c>challenge </c><00:03:44.742><c>for </c><00:03:44.933><c>this </c><00:03:45.124><c>has </c><00:03:45.315><c>also </c><00:03:45.506><c>been </c><00:03:45.697><c>given </c><00:03:45.888><c>here. </c><00:03:46.079><c>If</c>
+
+00:03:46.229 --> 00:03:46.239 align:start position:0%
+A challenge for this has also been given here. If
+ 
+
+00:03:46.239 --> 00:03:47.830 align:start position:0%
+A challenge for this has also been given here. If
+you <00:03:46.472><c>want </c><00:03:46.705><c>to </c><00:03:46.938><c>try </c><00:03:47.171><c>it </c><00:03:47.404><c>yourself, </c><00:03:47.637><c>then</c>
+
+00:03:47.830 --> 00:03:47.840 align:start position:0%
+you want to try it yourself, then
+ 
+
+00:03:47.840 --> 00:03:50.190 align:start position:0%
+you want to try it yourself, then
+you <00:03:48.084><c>can </c><00:03:48.328><c>obviously </c><00:03:48.572><c>go </c><00:03:48.816><c>here </c><00:03:49.060><c>and </c><00:03:49.304><c>try </c><00:03:49.548><c>this </c><00:03:49.792><c>challenge,</c>
+
+00:03:50.190 --> 00:03:50.200 align:start position:0%
+you can obviously go here and try this challenge,
+ 
+
+00:03:50.200 --> 00:03:51.949 align:start position:0%
+you can obviously go here and try this challenge,
+but <00:03:50.528><c>for </c><00:03:50.856><c>now, </c><00:03:51.184><c>let </c><00:03:51.512><c>me </c><00:03:51.840><c>take</c>
+
+00:03:51.949 --> 00:03:51.959 align:start position:0%
+but for now, let me take
+ 
+
+00:03:51.959 --> 00:03:53.830 align:start position:0%
+but for now, let me take
+you to the
+
+00:03:53.830 --> 00:03:53.840 align:start position:0%
+you to the
+ 
+
+00:03:53.840 --> 00:03:56.630 align:start position:0%
+you to the
+principles. <00:03:54.509><c>So, </c><00:03:55.178><c>let </c><00:03:55.847><c>us </c><00:03:56.516><c>move</c>
+
+00:03:56.630 --> 00:03:56.640 align:start position:0%
+principles. So, let us move
+ 
+
+00:03:56.640 --> 00:03:58.710 align:start position:0%
+principles. So, let us move
+towards <00:03:57.031><c>our </c><00:03:57.422><c>second </c><00:03:57.813><c>weakness, </c><00:03:58.204><c>which </c><00:03:58.595><c>is</c>
+
+00:03:58.710 --> 00:03:58.720 align:start position:0%
+towards our second weakness, which is
+ 
+
+00:03:58.720 --> 00:04:00.390 align:start position:0%
+towards our second weakness, which is
+cryptographic <00:03:59.879><c>failure.</c>
+
+00:04:00.390 --> 00:04:00.400 align:start position:0%
+cryptographic failure.
+ 
+
+00:04:00.400 --> 00:04:01.949 align:start position:0%
+cryptographic failure.
+Before <00:04:00.516><c>understanding </c><00:04:00.632><c>cryptographic </c><00:04:00.748><c>failure, </c><00:04:00.864><c>we </c><00:04:00.980><c>need </c><00:04:01.096><c>to </c><00:04:01.212><c>understand </c><00:04:01.328><c>it.  </c><00:04:01.444><c>You </c><00:04:01.560><c>will </c><00:04:01.676><c>learn</c>
+
+00:04:01.949 --> 00:04:01.959 align:start position:0%
+Before understanding cryptographic failure, we need to understand it.  You will learn
+ 
+
+00:04:01.959 --> 00:04:03.750 align:start position:0%
+Before understanding cryptographic failure, we need to understand it.  You will learn
+what <00:04:02.639><c>cryptography </c><00:04:03.319><c>is.</c>
+
+00:04:03.750 --> 00:04:03.760 align:start position:0%
+what cryptography is.
+ 
+
+00:04:03.760 --> 00:04:05.990 align:start position:0%
+what cryptography is.
+Cryptography <00:04:04.439><c>is </c><00:04:05.118><c>an </c><00:04:05.797><c>art,</c>
+
+00:04:05.990 --> 00:04:06.000 align:start position:0%
+Cryptography is an art,
+ 
+
+00:04:06.000 --> 00:04:08.149 align:start position:0%
+Cryptography is an art,
+a <00:04:06.920><c>mechanism </c><00:04:07.840><c>where</c>
+
+00:04:08.149 --> 00:04:08.159 align:start position:0%
+a mechanism where
+ 
+
+00:04:08.159 --> 00:04:10.630 align:start position:0%
+a mechanism where
+we <00:04:08.499><c>convert </c><00:04:08.839><c>a </c><00:04:09.179><c>normal </c><00:04:09.519><c>text, </c><00:04:09.859><c>a </c><00:04:10.199><c>plain</c>
+
+00:04:10.630 --> 00:04:10.640 align:start position:0%
+we convert a normal text, a plain
+ 
+
+00:04:10.640 --> 00:04:12.589 align:start position:0%
+we convert a normal text, a plain
+text <00:04:11.100><c>into </c><00:04:11.560><c>an </c><00:04:12.020><c>encrypted </c><00:04:12.480><c>text.</c>
+
+00:04:12.589 --> 00:04:12.599 align:start position:0%
+text into an encrypted text.
+ 
+
+00:04:12.599 --> 00:04:14.710 align:start position:0%
+text into an encrypted text.
+We <00:04:13.052><c>call </c><00:04:13.505><c>it </c><00:04:13.958><c>cryptography.</c>
+
+00:04:14.710 --> 00:04:14.720 align:start position:0%
+We call it cryptography.
+ 
+
+00:04:14.720 --> 00:04:17.069 align:start position:0%
+We call it cryptography.
+Why <00:04:15.086><c>do </c><00:04:15.452><c>we </c><00:04:15.818><c>do </c><00:04:16.184><c>this </c><00:04:16.550><c>so </c><00:04:16.916><c>that</c>
+
+00:04:17.069 --> 00:04:17.079 align:start position:0%
+Why do we do this so that
+ 
+
+00:04:17.079 --> 00:04:18.830 align:start position:0%
+Why do we do this so that
+our <00:04:17.612><c>private </c><00:04:18.145><c>information, </c><00:04:18.678><c>our</c>
+
+00:04:18.830 --> 00:04:18.840 align:start position:0%
+our private information, our
+ 
+
+00:04:18.840 --> 00:04:21.229 align:start position:0%
+our private information, our
+confidential <00:04:19.520><c>information, </c><00:04:20.200><c>cannot </c><00:04:20.880><c>be</c>
+
+00:04:21.229 --> 00:04:21.239 align:start position:0%
+confidential information, cannot be
+ 
+
+00:04:21.239 --> 00:04:23.990 align:start position:0%
+confidential information, cannot be
+read, <00:04:21.559><c>accessed </c><00:04:21.879><c>or </c><00:04:22.199><c>modified </c><00:04:22.519><c>by </c><00:04:22.839><c>any </c><00:04:23.159><c>unauthorized </c><00:04:23.479><c>person.</c>
+
+00:04:23.990 --> 00:04:24.000 align:start position:0%
+read, accessed or modified by any unauthorized person.
+ 
+
+00:04:24.000 --> 00:04:26.510 align:start position:0%
+read, accessed or modified by any unauthorized person.
+Cryptographic <00:04:24.464><c>failure </c><00:04:24.928><c>is </c><00:04:25.392><c>said </c><00:04:25.856><c>to </c><00:04:26.320><c>occur</c>
+
+00:04:26.510 --> 00:04:26.520 align:start position:0%
+Cryptographic failure is said to occur
+ 
+
+00:04:26.520 --> 00:04:29.710 align:start position:0%
+Cryptographic failure is said to occur
+if <00:04:26.936><c>any </c><00:04:27.352><c>of </c><00:04:27.768><c>your </c><00:04:28.184><c>information </c><00:04:28.600><c>is</c>
+
+00:04:29.710 --> 00:04:29.720 align:start position:0%
+if any of your information is
+ 
+
+00:04:29.720 --> 00:04:31.990 align:start position:0%
+if any of your information is
+not <00:04:30.780><c>encrypted </c><00:04:31.840><c>properly</c>
+
+00:04:31.990 --> 00:04:32.000 align:start position:0%
+not encrypted properly
+ 
+
+00:04:32.000 --> 00:04:54.590 align:start position:0%
+not encrypted properly
+when <00:04:32.253><c>you </c><00:04:32.506><c>visit </c><00:04:32.759><c>any </c><00:04:33.012><c>website, </c><00:04:33.265><c>if </c><00:04:33.518><c>you</c>
+
+00:04:54.590 --> 00:04:56.710 align:start position:0%
+ 
+ 
+
+00:04:56.710 --> 00:04:56.720 align:start position:0%
+ 
+ 
+
+00:04:56.720 --> 00:04:58.189 align:start position:0%
+ 
+change <00:04:56.895><c>Facebook's </c><00:04:57.070><c>secret </c><00:04:57.245><c>text </c><00:04:57.420><c>or </c><00:04:57.595><c>encrypted </c><00:04:57.770><c>text, </c><00:04:57.945><c>it </c><00:04:58.120><c>is</c>
+
+00:04:58.189 --> 00:04:58.199 align:start position:0%
+change Facebook's secret text or encrypted text, it is
+ 
+
+00:04:58.199 --> 00:05:00.350 align:start position:0%
+change Facebook's secret text or encrypted text, it is
+called <00:04:58.472><c>encryption, </c><00:04:58.745><c>and </c><00:04:59.018><c>converting </c><00:04:59.291><c>the </c><00:04:59.564><c>same </c><00:04:59.837><c>encrypted</c>
+
+00:05:00.350 --> 00:05:00.360 align:start position:0%
+called encryption, and converting the same encrypted
+ 
+
+00:05:00.360 --> 00:05:02.310 align:start position:0%
+called encryption, and converting the same encrypted
+text <00:05:00.712><c>back </c><00:05:01.064><c>into </c><00:05:01.416><c>plain </c><00:05:01.768><c>text </c><00:05:02.120><c>is</c>
+
+00:05:02.310 --> 00:05:02.320 align:start position:0%
+text back into plain text is
+ 
+
+00:05:02.320 --> 00:05:04.270 align:start position:0%
+text back into plain text is
+called <00:05:03.179><c>decryption. </c><00:05:04.038><c>If</c>
+
+00:05:04.270 --> 00:05:04.280 align:start position:0%
+called decryption. If
+ 
+
+00:05:04.280 --> 00:05:06.629 align:start position:0%
+called decryption. If
+someone <00:05:04.502><c>is </c><00:05:04.724><c>able </c><00:05:04.946><c>to </c><00:05:05.168><c>decrypt </c><00:05:05.390><c>your </c><00:05:05.612><c>encrypted </c><00:05:05.834><c>information, </c><00:05:06.056><c>it </c><00:05:06.278><c>is</c>
+
+00:05:06.629 --> 00:05:08.510 align:start position:0%
+someone is able to decrypt your encrypted information, it is
+ 
+
+00:05:08.510 --> 00:05:08.520 align:start position:0%
+ 
+ 
+
+00:05:08.520 --> 00:05:10.629 align:start position:0%
+ 
+called <00:05:09.160><c>cryptographic </c><00:05:09.800><c>failure. </c><00:05:10.440><c>Now,</c>
+
+00:05:10.629 --> 00:05:10.639 align:start position:0%
+called cryptographic failure. Now,
+ 
+
+00:05:10.639 --> 00:05:12.629 align:start position:0%
+called cryptographic failure. Now,
+cryptographic <00:05:11.079><c>failure </c><00:05:11.519><c>can </c><00:05:11.959><c>occur </c><00:05:12.399><c>anywhere,</c>
+
+00:05:12.629 --> 00:05:12.639 align:start position:0%
+cryptographic failure can occur anywhere,
+ 
+
+00:05:12.639 --> 00:05:15.110 align:start position:0%
+cryptographic failure can occur anywhere,
+if <00:05:13.095><c>your </c><00:05:13.551><c>data </c><00:05:14.007><c>is </c><00:05:14.463><c>traveling, </c><00:05:14.919><c>which</c>
+
+00:05:15.110 --> 00:05:15.120 align:start position:0%
+if your data is traveling, which
+ 
+
+00:05:15.120 --> 00:05:17.350 align:start position:0%
+if your data is traveling, which
+we <00:05:15.453><c>call </c><00:05:15.786><c>data </c><00:05:16.119><c>in </c><00:05:16.452><c>transit, </c><00:05:16.785><c>or </c><00:05:17.118><c>if</c>
+
+00:05:17.350 --> 00:05:17.360 align:start position:0%
+we call data in transit, or if
+ 
+
+00:05:17.360 --> 00:05:19.590 align:start position:0%
+we call data in transit, or if
+your <00:05:17.713><c>data </c><00:05:18.066><c>is </c><00:05:18.419><c>stored </c><00:05:18.772><c>on </c><00:05:19.125><c>a </c><00:05:19.478><c>server,</c>
+
+00:05:19.590 --> 00:05:19.600 align:start position:0%
+your data is stored on a server,
+ 
+
+00:05:19.600 --> 00:05:22.029 align:start position:0%
+your data is stored on a server,
+it <00:05:20.031><c>is </c><00:05:20.462><c>called </c><00:05:20.893><c>data </c><00:05:21.324><c>at </c><00:05:21.755><c>rest.</c>
+
+00:05:22.029 --> 00:05:22.039 align:start position:0%
+it is called data at rest.
+ 
+
+00:05:22.039 --> 00:05:24.790 align:start position:0%
+it is called data at rest.
+Information <00:05:22.569><c>should </c><00:05:23.099><c>always </c><00:05:23.629><c>be </c><00:05:24.159><c>encrypted;</c>
+
+00:05:24.790 --> 00:05:24.800 align:start position:0%
+Information should always be encrypted;
+ 
+
+00:05:24.800 --> 00:05:27.430 align:start position:0%
+Information should always be encrypted;
+it <00:05:25.091><c>should </c><00:05:25.382><c>not </c><00:05:25.673><c>be </c><00:05:25.964><c>decrypted </c><00:05:26.255><c>in </c><00:05:26.546><c>any </c><00:05:26.837><c>way</c>
+
+00:05:27.430 --> 00:05:30.350 align:start position:0%
+it should not be decrypted in any way
+ 
+
+00:05:30.350 --> 00:05:30.360 align:start position:0%
+ 
+ 
+
+00:05:30.360 --> 00:05:33.070 align:start position:0%
+ 
+by <00:05:30.595><c>any </c><00:05:30.830><c>unauthorized </c><00:05:31.065><c>person. </c><00:05:31.300><c>This </c><00:05:31.535><c>is </c><00:05:31.770><c>called </c><00:05:32.005><c>a </c><00:05:32.240><c>cryptographic </c><00:05:32.475><c>failure.</c>
+
+00:05:33.070 --> 00:05:33.080 align:start position:0%
+by any unauthorized person. This is called a cryptographic failure.
+ 
+
+00:05:33.080 --> 00:05:34.710 align:start position:0%
+by any unauthorized person. This is called a cryptographic failure.
+Now, <00:05:33.573><c>here </c><00:05:34.066><c>you </c><00:05:34.559><c>will</c>
+
+00:05:34.710 --> 00:05:34.720 align:start position:0%
+Now, here you will
+ 
+
+00:05:34.720 --> 00:05:37.189 align:start position:0%
+Now, here you will
+also <00:05:35.168><c>find </c><00:05:35.616><c>labs </c><00:05:36.064><c>for </c><00:05:36.512><c>cryptographic </c><00:05:36.960><c>failure,</c>
+
+00:05:37.189 --> 00:05:37.199 align:start position:0%
+also find labs for cryptographic failure,
+ 
+
+00:05:37.199 --> 00:05:39.670 align:start position:0%
+also find labs for cryptographic failure,
+which <00:05:37.495><c>you </c><00:05:37.791><c>can </c><00:05:38.087><c>perform </c><00:05:38.383><c>here. </c><00:05:38.679><c>For</c>
+
+00:05:39.670 --> 00:05:39.680 align:start position:0%
+which you can perform here. For
+ 
+
+00:05:39.680 --> 00:05:41.629 align:start position:0%
+which you can perform here. For
+now, <00:05:39.869><c>let's </c><00:05:40.058><c>move </c><00:05:40.247><c>on </c><00:05:40.436><c>to </c><00:05:40.625><c>our </c><00:05:40.814><c>third </c><00:05:41.003><c>one-way </c><00:05:41.192><c>bill,</c>
+
+00:05:41.629 --> 00:05:41.639 align:start position:0%
+now, let's move on to our third one-way bill,
+ 
+
+00:05:41.639 --> 00:05:44.710 align:start position:0%
+now, let's move on to our third one-way bill,
+which <00:05:42.125><c>is </c><00:05:42.611><c>injection </c><00:05:43.097><c>one-way </c><00:05:43.583><c>bill. </c><00:05:44.069><c>Injection </c><00:05:44.555><c>means</c>
+
+00:05:44.710 --> 00:05:44.720 align:start position:0%
+which is injection one-way bill. Injection means
+ 
+
+00:05:44.720 --> 00:05:47.710 align:start position:0%
+which is injection one-way bill. Injection means
+that <00:05:44.941><c>when </c><00:05:45.162><c>we </c><00:05:45.383><c>input </c><00:05:45.604><c>such </c><00:05:45.825><c>data </c><00:05:46.046><c>in </c><00:05:46.267><c>any </c><00:05:46.488><c>such </c><00:05:46.709><c>field, </c><00:05:46.930><c>be </c><00:05:47.151><c>it</c>
+
+00:05:47.710 --> 00:05:47.720 align:start position:0%
+that when we input such data in any such field, be it
+ 
+
+00:05:47.720 --> 00:05:49.909 align:start position:0%
+that when we input such data in any such field, be it
+our <00:05:48.190><c>input </c><00:05:48.660><c>field, </c><00:05:49.130><c>search </c><00:05:49.600><c>field,</c>
+
+00:05:49.909 --> 00:05:49.919 align:start position:0%
+our input field, search field,
+ 
+
+00:05:49.919 --> 00:05:52.629 align:start position:0%
+our input field, search field,
+URL <00:05:51.159><c>parameters, </c><00:05:52.399><c>etc.,</c>
+
+00:05:52.629 --> 00:05:52.639 align:start position:0%
+URL parameters, etc.,
+ 
+
+00:05:52.639 --> 00:05:55.749 align:start position:0%
+URL parameters, etc.,
+our
+
+00:05:55.749 --> 00:05:55.759 align:start position:0%
+our
+ 
+
+00:05:55.759 --> 00:05:58.990 align:start position:0%
+our
+server <00:05:56.272><c>accepts </c><00:05:56.785><c>it </c><00:05:57.298><c>without </c><00:05:57.811><c>sanitizing </c><00:05:58.324><c>it </c><00:05:58.837><c>or</c>
+
+00:05:58.990 --> 00:05:59.000 align:start position:0%
+server accepts it without sanitizing it or
+ 
+
+00:05:59.000 --> 00:06:01.070 align:start position:0%
+server accepts it without sanitizing it or
+verifying <00:05:59.470><c>it, </c><00:05:59.940><c>and </c><00:06:00.410><c>then </c><00:06:00.880><c>we</c>
+
+00:06:01.070 --> 00:06:03.390 align:start position:0%
+verifying it, and then we
+ 
+
+00:06:03.390 --> 00:06:03.400 align:start position:0%
+ 
+ 
+
+00:06:03.400 --> 00:06:05.790 align:start position:0%
+ 
+call <00:06:03.569><c>it </c><00:06:03.738><c>the </c><00:06:03.907><c>verb </c><00:06:04.076><c>of </c><00:06:04.245><c>injection. </c><00:06:04.414><c>Now, </c><00:06:04.583><c>there </c><00:06:04.752><c>are </c><00:06:04.921><c>many </c><00:06:05.090><c>one-way </c><00:06:05.259><c>bills </c><00:06:05.428><c>in </c><00:06:05.597><c>injection,</c>
+
+00:06:05.790 --> 00:06:05.800 align:start position:0%
+call it the verb of injection. Now, there are many one-way bills in injection,
+ 
+
+00:06:05.800 --> 00:06:07.589 align:start position:0%
+call it the verb of injection. Now, there are many one-way bills in injection,
+such <00:06:06.520><c>as </c><00:06:07.240><c>the</c>
+
+00:06:07.589 --> 00:06:07.599 align:start position:0%
+such as the
+ 
+
+00:06:07.599 --> 00:06:09.469 align:start position:0%
+such as the
+one-way <00:06:07.862><c>bill </c><00:06:08.125><c>of </c><00:06:08.388><c>ASCAL </c><00:06:08.651><c>injection, </c><00:06:08.914><c>there </c><00:06:09.177><c>are </c><00:06:09.440><c>one-way</c>
+
+00:06:09.469 --> 00:06:09.479 align:start position:0%
+one-way bill of ASCAL injection, there are one-way
+ 
+
+00:06:09.479 --> 00:06:12.110 align:start position:0%
+one-way bill of ASCAL injection, there are one-way
+bills <00:06:09.668><c>of </c><00:06:09.857><c>command </c><00:06:10.046><c>injection, </c><00:06:10.235><c>we </c><00:06:10.424><c>have </c><00:06:10.613><c>different </c><00:06:10.802><c>types </c><00:06:10.991><c>of </c><00:06:11.180><c>one-way </c><00:06:11.369><c>bills </c><00:06:11.558><c>here.</c>
+
+00:06:12.110 --> 00:06:12.120 align:start position:0%
+bills of command injection, we have different types of one-way bills here.
+ 
+
+00:06:12.120 --> 00:06:14.189 align:start position:0%
+bills of command injection, we have different types of one-way bills here.
+Now, <00:06:12.786><c>normally, </c><00:06:13.452><c>when </c><00:06:14.118><c>you</c>
+
+00:06:14.189 --> 00:06:14.199 align:start position:0%
+Now, normally, when you
+ 
+
+00:06:14.199 --> 00:06:15.950 align:start position:0%
+Now, normally, when you
+go <00:06:14.706><c>to </c><00:06:15.213><c>a </c><00:06:15.720><c>doctor,</c>
+
+00:06:15.950 --> 00:06:15.960 align:start position:0%
+go to a doctor,
+ 
+
+00:06:15.960 --> 00:06:17.430 align:start position:0%
+go to a doctor,
+if <00:06:16.186><c>you </c><00:06:16.412><c>are </c><00:06:16.638><c>seriously </c><00:06:16.864><c>unwell, </c><00:06:17.090><c>the </c><00:06:17.316><c>doctor</c>
+
+00:06:17.430 --> 00:06:17.440 align:start position:0%
+if you are seriously unwell, the doctor
+ 
+
+00:06:17.440 --> 00:06:18.909 align:start position:0%
+if you are seriously unwell, the doctor
+gives <00:06:17.688><c>you </c><00:06:17.936><c>an </c><00:06:18.184><c>injection, </c><00:06:18.432><c>that </c><00:06:18.680><c>is,</c>
+
+00:06:18.909 --> 00:06:18.919 align:start position:0%
+gives you an injection, that is,
+ 
+
+00:06:18.919 --> 00:06:21.350 align:start position:0%
+gives you an injection, that is,
+what <00:06:19.250><c>is </c><00:06:19.581><c>inside </c><00:06:19.912><c>that </c><00:06:20.243><c>injection, </c><00:06:20.574><c>you </c><00:06:20.905><c>have </c><00:06:21.236><c>a</c>
+
+00:06:21.350 --> 00:06:21.360 align:start position:0%
+what is inside that injection, you have a
+ 
+
+00:06:21.360 --> 00:06:24.029 align:start position:0%
+what is inside that injection, you have a
+payload <00:06:22.639><c>which </c><00:06:23.918><c>is</c>
+
+00:06:24.029 --> 00:06:24.039 align:start position:0%
+payload which is
+ 
+
+00:06:24.039 --> 00:06:26.469 align:start position:0%
+payload which is
+toxins <00:06:24.503><c>inside </c><00:06:24.967><c>your </c><00:06:25.431><c>body.  </c><00:06:25.895><c>Then </c><00:06:26.359><c>whatever</c>
+
+00:06:26.469 --> 00:06:26.479 align:start position:0%
+toxins inside your body.  Then whatever
+ 
+
+00:06:26.479 --> 00:06:28.710 align:start position:0%
+toxins inside your body.  Then whatever
+type <00:06:26.730><c>of </c><00:06:26.981><c>injection </c><00:06:27.232><c>you </c><00:06:27.483><c>are </c><00:06:27.734><c>getting, </c><00:06:27.985><c>that </c><00:06:28.236><c>payload</c>
+
+00:06:28.710 --> 00:06:28.720 align:start position:0%
+type of injection you are getting, that payload
+ 
+
+00:06:28.720 --> 00:06:30.510 align:start position:0%
+type of injection you are getting, that payload
+is <00:06:28.960><c>injected </c><00:06:29.200><c>into </c><00:06:29.440><c>your </c><00:06:29.680><c>body </c><00:06:29.920><c>so </c><00:06:30.160><c>that</c>
+
+00:06:30.510 --> 00:06:30.520 align:start position:0%
+is injected into your body so that
+ 
+
+00:06:30.520 --> 00:06:32.430 align:start position:0%
+is injected into your body so that
+your <00:06:30.777><c>body </c><00:06:31.034><c>gets </c><00:06:31.291><c>cured </c><00:06:31.548><c>from </c><00:06:31.805><c>that </c><00:06:32.062><c>particular </c><00:06:32.319><c>disease.</c>
+
+00:06:32.430 --> 00:06:32.440 align:start position:0%
+your body gets cured from that particular disease.
+ 
+
+00:06:32.440 --> 00:06:34.950 align:start position:0%
+your body gets cured from that particular disease.
+Similarly, <00:06:33.186><c>in </c><00:06:33.932><c>website </c><00:06:34.678><c>web</c>
+
+00:06:34.950 --> 00:06:34.960 align:start position:0%
+Similarly, in website web
+ 
+
+00:06:34.960 --> 00:06:37.550 align:start position:0%
+Similarly, in website web
+applications <00:06:35.286><c>also, </c><00:06:35.612><c>we </c><00:06:35.938><c>inject </c><00:06:36.264><c>some </c><00:06:36.590><c>such </c><00:06:36.916><c>payloads</c>
+
+00:06:37.550 --> 00:06:39.390 align:start position:0%
+applications also, we inject some such payloads
+ 
+
+00:06:39.390 --> 00:06:39.400 align:start position:0%
+ 
+ 
+
+00:06:39.400 --> 00:06:41.589 align:start position:0%
+ 
+which <00:06:39.685><c>are </c><00:06:39.970><c>the </c><00:06:40.255><c>input </c><00:06:40.540><c>parameters </c><00:06:40.825><c>of </c><00:06:41.110><c>the </c><00:06:41.395><c>website,</c>
+
+00:06:41.589 --> 00:06:41.599 align:start position:0%
+which are the input parameters of the website,
+ 
+
+00:06:41.599 --> 00:06:43.189 align:start position:0%
+which are the input parameters of the website,
+where <00:06:41.903><c>you </c><00:06:42.207><c>might </c><00:06:42.511><c>have </c><00:06:42.815><c>seen </c><00:06:43.119><c>that</c>
+
+00:06:43.189 --> 00:06:43.199 align:start position:0%
+where you might have seen that
+ 
+
+00:06:43.199 --> 00:06:45.189 align:start position:0%
+where you might have seen that
+somewhere <00:06:43.366><c>on </c><00:06:43.533><c>the </c><00:06:43.700><c>website </c><00:06:43.867><c>you </c><00:06:44.034><c>get </c><00:06:44.201><c>the </c><00:06:44.368><c>search </c><00:06:44.535><c>option </c><00:06:44.702><c>or </c><00:06:44.869><c>by </c><00:06:45.036><c>making</c>
+
+00:06:45.189 --> 00:06:46.870 align:start position:0%
+somewhere on the website you get the search option or by making
+ 
+
+00:06:46.870 --> 00:06:46.880 align:start position:0%
+ 
+ 
+
+00:06:46.880 --> 00:06:49.390 align:start position:0%
+ 
+changes <00:06:47.222><c>in </c><00:06:47.564><c>its </c><00:06:47.906><c>URL, </c><00:06:48.248><c>in </c><00:06:48.590><c>this </c><00:06:48.932><c>way, </c><00:06:49.274><c>the</c>
+
+00:06:49.390 --> 00:06:49.400 align:start position:0%
+changes in its URL, in this way, the
+ 
+
+00:06:49.400 --> 00:06:51.589 align:start position:0%
+changes in its URL, in this way, the
+different <00:06:49.645><c>parameters </c><00:06:49.890><c>of </c><00:06:50.135><c>the </c><00:06:50.380><c>website </c><00:06:50.625><c>are </c><00:06:50.870><c>your </c><00:06:51.115><c>different </c><00:06:51.360><c>search</c>
+
+00:06:51.589 --> 00:06:51.599 align:start position:0%
+different parameters of the website are your different search
+ 
+
+00:06:51.599 --> 00:06:53.430 align:start position:0%
+different parameters of the website are your different search
+boxes, <00:06:52.359><c>when </c><00:06:53.119><c>we</c>
+
+00:06:53.430 --> 00:06:53.440 align:start position:0%
+boxes, when we
+ 
+
+00:06:53.440 --> 00:06:56.830 align:start position:0%
+boxes, when we
+enter <00:06:53.706><c>such </c><00:06:53.972><c>a </c><00:06:54.238><c>payload </c><00:06:54.504><c>there </c><00:06:54.770><c>so </c><00:06:55.036><c>that </c><00:06:55.302><c>after </c><00:06:55.568><c>going </c><00:06:55.834><c>to </c><00:06:56.100><c>the </c><00:06:56.366><c>server, </c><00:06:56.632><c>that</c>
+
+00:06:56.830 --> 00:06:56.840 align:start position:0%
+enter such a payload there so that after going to the server, that
+ 
+
+00:06:56.840 --> 00:06:59.469 align:start position:0%
+enter such a payload there so that after going to the server, that
+payload <00:06:57.479><c>gets </c><00:06:58.118><c>executed </c><00:06:58.757><c>and</c>
+
+00:06:59.469 --> 00:06:59.479 align:start position:0%
+payload gets executed and
+ 
+
+00:06:59.479 --> 00:07:01.230 align:start position:0%
+payload gets executed and
+after <00:06:59.701><c>executing </c><00:06:59.923><c>it, </c><00:07:00.145><c>we </c><00:07:00.367><c>can </c><00:07:00.589><c>do </c><00:07:00.811><c>what </c><00:07:01.033><c>we</c>
+
+00:07:01.230 --> 00:07:01.240 align:start position:0%
+after executing it, we can do what we
+ 
+
+00:07:01.240 --> 00:07:02.869 align:start position:0%
+after executing it, we can do what we
+want <00:07:01.356><c>to </c><00:07:01.472><c>do, </c><00:07:01.588><c>then </c><00:07:01.704><c>for </c><00:07:01.820><c>which </c><00:07:01.936><c>we </c><00:07:02.052><c>have </c><00:07:02.168><c>created </c><00:07:02.284><c>that </c><00:07:02.400><c>payload, </c><00:07:02.516><c>we</c>
+
+00:07:02.869 --> 00:07:04.670 align:start position:0%
+want to do, then for which we have created that payload, we
+ 
+
+00:07:04.670 --> 00:07:04.680 align:start position:0%
+ 
+ 
+
+00:07:04.680 --> 00:07:06.869 align:start position:0%
+ 
+call <00:07:04.971><c>it </c><00:07:05.262><c>vulnerable </c><00:07:05.553><c>to </c><00:07:05.844><c>injection. </c><00:07:06.135><c>Now, </c><00:07:06.426><c>as </c><00:07:06.717><c>I</c>
+
+00:07:06.869 --> 00:07:06.879 align:start position:0%
+call it vulnerable to injection. Now, as I
+ 
+
+00:07:06.879 --> 00:07:08.390 align:start position:0%
+call it vulnerable to injection. Now, as I
+told <00:07:07.105><c>you, </c><00:07:07.331><c>injections </c><00:07:07.557><c>happen </c><00:07:07.783><c>in </c><00:07:08.009><c>two </c><00:07:08.235><c>ways:</c>
+
+00:07:08.390 --> 00:07:08.400 align:start position:0%
+told you, injections happen in two ways:
+ 
+
+00:07:08.400 --> 00:07:10.189 align:start position:0%
+told you, injections happen in two ways:
+SQL <00:07:08.699><c>injection </c><00:07:08.998><c>and </c><00:07:09.297><c>command </c><00:07:09.596><c>injection.</c>
+
+00:07:10.189 --> 00:07:10.199 align:start position:0%
+SQL injection and command injection.
+ 
+
+00:07:10.199 --> 00:07:12.309 align:start position:0%
+SQL injection and command injection.
+What <00:07:10.591><c>is </c><00:07:10.983><c>SQL </c><00:07:11.375><c>injection? </c><00:07:11.767><c>When </c><00:07:12.159><c>we</c>
+
+00:07:12.309 --> 00:07:15.510 align:start position:0%
+What is SQL injection? When we
+ 
+
+00:07:15.510 --> 00:07:15.520 align:start position:0%
+ 
+ 
+
+00:07:15.520 --> 00:07:18.230 align:start position:0%
+ 
+give <00:07:15.749><c>mail </c><00:07:15.978><c>as </c><00:07:16.207><c>SQL </c><00:07:16.436><c>query </c><00:07:16.665><c>input </c><00:07:16.894><c>to </c><00:07:17.123><c>any </c><00:07:17.352><c>SQL </c><00:07:17.581><c>database </c><00:07:17.810><c>and </c><00:07:18.039><c>the</c>
+
+00:07:18.230 --> 00:07:18.240 align:start position:0%
+give mail as SQL query input to any SQL database and the
+ 
+
+00:07:18.240 --> 00:07:20.670 align:start position:0%
+give mail as SQL query input to any SQL database and the
+server <00:07:20.000><c>accepts</c>
+
+00:07:20.670 --> 00:07:20.680 align:start position:0%
+server accepts
+ 
+
+00:07:20.680 --> 00:07:23.150 align:start position:0%
+server accepts
+that <00:07:20.980><c>input </c><00:07:21.280><c>without </c><00:07:21.580><c>sanitizing </c><00:07:21.880><c>and </c><00:07:22.180><c>verifying </c><00:07:22.480><c>it </c><00:07:22.780><c>and </c><00:07:23.080><c>then</c>
+
+00:07:23.150 --> 00:07:23.160 align:start position:0%
+that input without sanitizing and verifying it and then
+ 
+
+00:07:23.160 --> 00:07:24.909 align:start position:0%
+that input without sanitizing and verifying it and then
+He <00:07:23.479><c>executes </c><00:07:23.798><c>it </c><00:07:24.117><c>on </c><00:07:24.436><c>his </c><00:07:24.755><c>server.</c>
+
+00:07:24.909 --> 00:07:24.919 align:start position:0%
+He executes it on his server.
+ 
+
+00:07:24.919 --> 00:07:26.629 align:start position:0%
+He executes it on his server.
+Now <00:07:25.119><c>what </c><00:07:25.319><c>can </c><00:07:25.519><c>be </c><00:07:25.719><c>done </c><00:07:25.919><c>with </c><00:07:26.119><c>this? </c><00:07:26.319><c>With </c><00:07:26.519><c>the</c>
+
+00:07:26.629 --> 00:07:26.639 align:start position:0%
+Now what can be done with this? With the
+ 
+
+00:07:26.639 --> 00:07:29.710 align:start position:0%
+Now what can be done with this? With the
+help <00:07:27.349><c>of </c><00:07:28.059><c>SQL </c><00:07:28.769><c>injection, </c><00:07:29.479><c>you</c>
+
+00:07:29.710 --> 00:07:29.720 align:start position:0%
+help of SQL injection, you
+ 
+
+00:07:29.720 --> 00:07:31.869 align:start position:0%
+help of SQL injection, you
+can <00:07:30.386><c>access </c><00:07:31.052><c>any </c><00:07:31.718><c>database,</c>
+
+00:07:31.869 --> 00:07:31.879 align:start position:0%
+can access any database,
+ 
+
+00:07:31.879 --> 00:07:33.550 align:start position:0%
+can access any database,
+create <00:07:32.399><c>it, </c><00:07:32.919><c>delete </c><00:07:33.439><c>it,</c>
+
+00:07:33.550 --> 00:07:33.560 align:start position:0%
+create it, delete it,
+ 
+
+00:07:33.560 --> 00:07:36.029 align:start position:0%
+create it, delete it,
+modify <00:07:33.926><c>it </c><00:07:34.292><c>and </c><00:07:34.658><c>many </c><00:07:35.024><c>other </c><00:07:35.390><c>things. </c><00:07:35.756><c>Similarly,</c>
+
+00:07:36.029 --> 00:07:36.039 align:start position:0%
+modify it and many other things. Similarly,
+ 
+
+00:07:36.039 --> 00:07:37.790 align:start position:0%
+modify it and many other things. Similarly,
+we <00:07:36.279><c>also </c><00:07:36.519><c>have </c><00:07:36.759><c>the </c><00:07:36.999><c>vulnerability </c><00:07:37.239><c>of </c><00:07:37.479><c>command </c><00:07:37.719><c>injection,</c>
+
+00:07:37.790 --> 00:07:37.800 align:start position:0%
+we also have the vulnerability of command injection,
+ 
+
+00:07:37.800 --> 00:07:40.749 align:start position:0%
+we also have the vulnerability of command injection,
+where <00:07:39.919><c>we</c>
+
+00:07:40.749 --> 00:07:40.759 align:start position:0%
+where we
+ 
+
+00:07:40.759 --> 00:07:42.629 align:start position:0%
+where we
+execute <00:07:41.149><c>arbitrary </c><00:07:41.539><c>system </c><00:07:41.929><c>commands </c><00:07:42.319><c>on</c>
+
+00:07:42.629 --> 00:07:42.639 align:start position:0%
+execute arbitrary system commands on
+ 
+
+00:07:42.639 --> 00:07:45.110 align:start position:0%
+execute arbitrary system commands on
+our <00:07:42.999><c>target. </c><00:07:43.359><c>Now, </c><00:07:43.719><c>all </c><00:07:44.079><c>the </c><00:07:44.439><c>things </c><00:07:44.799><c>that</c>
+
+00:07:45.110 --> 00:07:45.120 align:start position:0%
+our target. Now, all the things that
+ 
+
+00:07:45.120 --> 00:07:46.510 align:start position:0%
+our target. Now, all the things that
+I <00:07:45.340><c>am </c><00:07:45.560><c>telling </c><00:07:45.780><c>you </c><00:07:46.000><c>are </c><00:07:46.220><c>SQL </c><00:07:46.440><c>injection,</c>
+
+00:07:46.510 --> 00:07:46.520 align:start position:0%
+I am telling you are SQL injection,
+ 
+
+00:07:46.520 --> 00:07:47.790 align:start position:0%
+I am telling you are SQL injection,
+command <00:07:46.735><c>injection. </c><00:07:46.950><c>If </c><00:07:47.165><c>you </c><00:07:47.380><c>want </c><00:07:47.595><c>to</c>
+
+00:07:47.790 --> 00:07:47.800 align:start position:0%
+command injection. If you want to
+ 
+
+00:07:47.800 --> 00:07:49.550 align:start position:0%
+command injection. If you want to
+see <00:07:47.980><c>its </c><00:07:48.160><c>practical </c><00:07:48.340><c>application, </c><00:07:48.520><c>then </c><00:07:48.700><c>tell </c><00:07:48.880><c>me </c><00:07:49.060><c>by </c><00:07:49.240><c>commenting.</c>
+
+00:07:49.550 --> 00:07:49.560 align:start position:0%
+see its practical application, then tell me by commenting.
+ 
+
+00:07:49.560 --> 00:07:51.710 align:start position:0%
+see its practical application, then tell me by commenting.
+As <00:07:49.786><c>I </c><00:07:50.012><c>told </c><00:07:50.238><c>you, </c><00:07:50.464><c>after </c><00:07:50.690><c>getting </c><00:07:50.916><c>100 </c><00:07:51.142><c>comments, </c><00:07:51.368><c>I </c><00:07:51.594><c>will</c>
+
+00:07:51.710 --> 00:07:51.720 align:start position:0%
+As I told you, after getting 100 comments, I will
+ 
+
+00:07:51.720 --> 00:07:52.909 align:start position:0%
+As I told you, after getting 100 comments, I will
+definitely <00:07:52.093><c>bring </c><00:07:52.466><c>you </c><00:07:52.839><c>a</c>
+
+00:07:52.909 --> 00:07:52.919 align:start position:0%
+definitely bring you a
+ 
+
+00:07:52.919 --> 00:07:55.390 align:start position:0%
+definitely bring you a
+practical <00:07:53.383><c>video </c><00:07:53.847><c>on </c><00:07:54.311><c>this. </c><00:07:54.775><c>Now </c><00:07:55.239><c>let</c>
+
+00:07:55.390 --> 00:07:55.400 align:start position:0%
+practical video on this. Now let
+ 
+
+00:07:55.400 --> 00:07:57.309 align:start position:0%
+practical video on this. Now let
+us <00:07:55.830><c>talk </c><00:07:56.260><c>about </c><00:07:56.690><c>insecure </c><00:07:57.120><c>design.</c>
+
+00:07:57.309 --> 00:07:57.319 align:start position:0%
+us talk about insecure design.
+ 
+
+00:07:57.319 --> 00:08:00.309 align:start position:0%
+us talk about insecure design.
+Insecure <00:07:57.724><c>design </c><00:07:58.129><c>is </c><00:07:58.534><c>such </c><00:07:58.939><c>a </c><00:07:59.344><c>vulnerability </c><00:07:59.749><c>which </c><00:08:00.154><c>is</c>
+
+00:08:00.309 --> 00:08:00.319 align:start position:0%
+Insecure design is such a vulnerability which is
+ 
+
+00:08:00.319 --> 00:08:02.589 align:start position:0%
+Insecure design is such a vulnerability which is
+generally <00:08:00.985><c>seen </c><00:08:01.651><c>when </c><00:08:02.317><c>any</c>
+
+00:08:02.589 --> 00:08:02.599 align:start position:0%
+generally seen when any
+ 
+
+00:08:02.599 --> 00:08:04.629 align:start position:0%
+generally seen when any
+new <00:08:02.919><c>product </c><00:08:03.239><c>is </c><00:08:03.559><c>in </c><00:08:03.879><c>the </c><00:08:04.199><c>development </c><00:08:04.519><c>phase.</c>
+
+00:08:04.629 --> 00:08:04.639 align:start position:0%
+new product is in the development phase.
+ 
+
+00:08:04.639 --> 00:08:06.629 align:start position:0%
+new product is in the development phase.
+Suppose <00:08:05.031><c>you </c><00:08:05.423><c>are </c><00:08:05.815><c>developing </c><00:08:06.207><c>a </c><00:08:06.599><c>software.</c>
+
+00:08:06.629 --> 00:08:08.550 align:start position:0%
+Suppose you are developing a software.
+ 
+
+00:08:08.550 --> 00:08:08.560 align:start position:0%
+ 
+ 
+
+00:08:08.560 --> 00:08:10.550 align:start position:0%
+ 
+While <00:08:08.872><c>developing </c><00:08:09.184><c>the </c><00:08:09.496><c>software, </c><00:08:09.808><c>you </c><00:08:10.120><c>are</c>
+
+00:08:10.550 --> 00:08:10.560 align:start position:0%
+While developing the software, you are
+ 
+
+00:08:10.560 --> 00:08:12.670 align:start position:0%
+While developing the software, you are
+turning <00:08:10.928><c>off </c><00:08:11.296><c>its </c><00:08:11.664><c>security </c><00:08:12.032><c>parameters. </c><00:08:12.400><c>For</c>
+
+00:08:12.670 --> 00:08:12.680 align:start position:0%
+turning off its security parameters. For
+ 
+
+00:08:12.680 --> 00:08:14.869 align:start position:0%
+turning off its security parameters. For
+example, <00:08:12.884><c>you </c><00:08:13.088><c>have </c><00:08:13.292><c>inserted </c><00:08:13.496><c>such </c><00:08:13.700><c>a </c><00:08:13.904><c>vulnerability </c><00:08:14.108><c>in </c><00:08:14.312><c>your </c><00:08:14.516><c>software </c><00:08:14.720><c>that</c>
+
+00:08:14.869 --> 00:08:14.879 align:start position:0%
+example, you have inserted such a vulnerability in your software that
+ 
+
+00:08:14.879 --> 00:08:17.189 align:start position:0%
+example, you have inserted such a vulnerability in your software that
+when <00:08:15.170><c>anyone </c><00:08:15.461><c>logs </c><00:08:15.752><c>in </c><00:08:16.043><c>for </c><00:08:16.334><c>the </c><00:08:16.625><c>first </c><00:08:16.916><c>time,</c>
+
+00:08:17.189 --> 00:08:17.199 align:start position:0%
+when anyone logs in for the first time,
+ 
+
+00:08:17.199 --> 00:08:19.909 align:start position:0%
+when anyone logs in for the first time,
+So <00:08:17.559><c>he </c><00:08:17.919><c>will </c><00:08:18.279><c>get </c><00:08:18.639><c>the </c><00:08:18.999><c>OTP </c><00:08:19.359><c>but </c><00:08:19.719><c>now</c>
+
+00:08:19.909 --> 00:08:19.919 align:start position:0%
+So he will get the OTP but now
+ 
+
+00:08:19.919 --> 00:08:21.869 align:start position:0%
+So he will get the OTP but now
+you <00:08:20.287><c>are </c><00:08:20.655><c>currently </c><00:08:21.023><c>testing </c><00:08:21.391><c>here, </c><00:08:21.759><c>it</c>
+
+00:08:21.869 --> 00:08:21.879 align:start position:0%
+you are currently testing here, it
+ 
+
+00:08:21.879 --> 00:08:24.110 align:start position:0%
+you are currently testing here, it
+is <00:08:22.170><c>in </c><00:08:22.461><c>a </c><00:08:22.752><c>testing </c><00:08:23.043><c>phase </c><00:08:23.334><c>and </c><00:08:23.625><c>you </c><00:08:23.916><c>are</c>
+
+00:08:24.110 --> 00:08:24.120 align:start position:0%
+is in a testing phase and you are
+ 
+
+00:08:24.120 --> 00:08:25.790 align:start position:0%
+is in a testing phase and you are
+testing <00:08:24.342><c>your </c><00:08:24.564><c>login </c><00:08:24.786><c>page </c><00:08:25.008><c>in </c><00:08:25.230><c>it, </c><00:08:25.452><c>so </c><00:08:25.674><c>when</c>
+
+00:08:25.790 --> 00:08:25.800 align:start position:0%
+testing your login page in it, so when
+ 
+
+00:08:25.800 --> 00:08:27.110 align:start position:0%
+testing your login page in it, so when
+you <00:08:26.100><c>test </c><00:08:26.400><c>the </c><00:08:26.700><c>login </c><00:08:27.000><c>page,</c>
+
+00:08:27.110 --> 00:08:27.120 align:start position:0%
+you test the login page,
+ 
+
+00:08:27.120 --> 00:08:28.710 align:start position:0%
+you test the login page,
+you <00:08:27.258><c>will </c><00:08:27.396><c>get </c><00:08:27.534><c>the </c><00:08:27.672><c>OTP </c><00:08:27.810><c>again </c><00:08:27.948><c>and </c><00:08:28.086><c>again, </c><00:08:28.224><c>you </c><00:08:28.362><c>will </c><00:08:28.500><c>have </c><00:08:28.638><c>to</c>
+
+00:08:28.710 --> 00:08:28.720 align:start position:0%
+you will get the OTP again and again, you will have to
+ 
+
+00:08:28.720 --> 00:08:30.909 align:start position:0%
+you will get the OTP again and again, you will have to
+enter <00:08:28.994><c>it </c><00:08:29.268><c>there, </c><00:08:29.542><c>so </c><00:08:29.816><c>what </c><00:08:30.090><c>did </c><00:08:30.364><c>you </c><00:08:30.638><c>do,</c>
+
+00:08:30.909 --> 00:08:30.919 align:start position:0%
+enter it there, so what did you do,
+ 
+
+00:08:30.919 --> 00:08:33.070 align:start position:0%
+enter it there, so what did you do,
+what <00:08:31.164><c>did </c><00:08:31.409><c>you </c><00:08:31.654><c>do, </c><00:08:31.899><c>you </c><00:08:32.144><c>disabled </c><00:08:32.389><c>the </c><00:08:32.634><c>OTP </c><00:08:32.879><c>mechanism,</c>
+
+00:08:33.070 --> 00:08:33.080 align:start position:0%
+what did you do, you disabled the OTP mechanism,
+ 
+
+00:08:33.080 --> 00:08:36.029 align:start position:0%
+what did you do, you disabled the OTP mechanism,
+but <00:08:33.567><c>what </c><00:08:34.054><c>happens </c><00:08:34.541><c>is </c><00:08:35.028><c>that </c><00:08:35.515><c>generally</c>
+
+00:08:36.029 --> 00:08:36.039 align:start position:0%
+but what happens is that generally
+ 
+
+00:08:36.039 --> 00:08:37.630 align:start position:0%
+but what happens is that generally
+when <00:08:36.546><c>your </c><00:08:37.053><c>product </c><00:08:37.560><c>goes</c>
+
+00:08:37.630 --> 00:08:37.640 align:start position:0%
+when your product goes
+ 
+
+00:08:37.640 --> 00:08:39.829 align:start position:0%
+when your product goes
+into <00:08:38.040><c>the </c><00:08:38.440><c>production </c><00:08:38.840><c>environment, </c><00:08:39.240><c>it </c><00:08:39.640><c>is</c>
+
+00:08:39.829 --> 00:08:39.839 align:start position:0%
+into the production environment, it is
+ 
+
+00:08:39.839 --> 00:08:42.110 align:start position:0%
+into the production environment, it is
+possible <00:08:40.059><c>that </c><00:08:40.279><c>if </c><00:08:40.499><c>you </c><00:08:40.719><c>forget </c><00:08:40.939><c>to </c><00:08:41.159><c>enable </c><00:08:41.379><c>the </c><00:08:41.599><c>security</c>
+
+00:08:42.110 --> 00:08:42.120 align:start position:0%
+possible that if you forget to enable the security
+ 
+
+00:08:42.120 --> 00:08:44.149 align:start position:0%
+possible that if you forget to enable the security
+parameters <00:08:42.479><c>which </c><00:08:42.838><c>you </c><00:08:43.197><c>had </c><00:08:43.556><c>disabled </c><00:08:43.915><c>there</c>
+
+00:08:44.149 --> 00:08:44.159 align:start position:0%
+parameters which you had disabled there
+ 
+
+00:08:44.159 --> 00:08:47.150 align:start position:0%
+parameters which you had disabled there
+and <00:08:44.719><c>then </c><00:08:45.279><c>it </c><00:08:45.839><c>goes </c><00:08:46.399><c>into </c><00:08:46.959><c>the</c>
+
+00:08:47.150 --> 00:08:47.160 align:start position:0%
+and then it goes into the
+ 
+
+00:08:47.160 --> 00:08:48.990 align:start position:0%
+and then it goes into the
+production <00:08:47.504><c>environment </c><00:08:47.848><c>and </c><00:08:48.192><c>gets </c><00:08:48.536><c>launched, </c><00:08:48.880><c>then</c>
+
+00:08:48.990 --> 00:08:49.000 align:start position:0%
+production environment and gets launched, then
+ 
+
+00:08:49.000 --> 00:08:51.070 align:start position:0%
+production environment and gets launched, then
+it <00:08:49.178><c>can </c><00:08:49.356><c>prove </c><00:08:49.534><c>to </c><00:08:49.712><c>be </c><00:08:49.890><c>a </c><00:08:50.068><c>big </c><00:08:50.246><c>vulnerability </c><00:08:50.424><c>for </c><00:08:50.602><c>a </c><00:08:50.780><c>company, </c><00:08:50.958><c>an</c>
+
+00:08:51.070 --> 00:08:51.080 align:start position:0%
+it can prove to be a big vulnerability for a company, an
+ 
+
+00:08:51.080 --> 00:08:52.870 align:start position:0%
+it can prove to be a big vulnerability for a company, an
+organization, <00:08:51.900><c>a </c><00:08:52.720><c>network,</c>
+
+00:08:52.870 --> 00:08:54.670 align:start position:0%
+organization, a network,
+ 
+
+00:08:54.670 --> 00:08:54.680 align:start position:0%
+ 
+ 
+
+00:08:54.680 --> 00:08:57.509 align:start position:0%
+ 
+we <00:08:55.133><c>call </c><00:08:55.586><c>it </c><00:08:56.039><c>insecure </c><00:08:56.492><c>design, </c><00:08:56.945><c>when </c><00:08:57.398><c>the</c>
+
+00:08:57.509 --> 00:08:57.519 align:start position:0%
+we call it insecure design, when the
+ 
+
+00:08:57.519 --> 00:08:59.150 align:start position:0%
+we call it insecure design, when the
+design <00:08:57.735><c>of </c><00:08:57.951><c>your </c><00:08:58.167><c>product, </c><00:08:58.383><c>the </c><00:08:58.599><c>software</c>
+
+00:08:59.150 --> 00:08:59.160 align:start position:0%
+design of your product, the software
+ 
+
+00:08:59.160 --> 00:09:01.310 align:start position:0%
+design of your product, the software
+design <00:08:59.650><c>is </c><00:09:00.140><c>not </c><00:09:00.630><c>properly </c><00:09:01.120><c>secure,</c>
+
+00:09:01.310 --> 00:09:01.320 align:start position:0%
+design is not properly secure,
+ 
+
+00:09:01.320 --> 00:09:03.870 align:start position:0%
+design is not properly secure,
+we <00:09:01.830><c>call </c><00:09:02.340><c>it </c><00:09:02.850><c>insecure </c><00:09:03.360><c>design,</c>
+
+00:09:03.870 --> 00:09:03.880 align:start position:0%
+we call it insecure design,
+ 
+
+00:09:03.880 --> 00:09:06.990 align:start position:0%
+we call it insecure design,
+so <00:09:04.340><c>here </c><00:09:04.800><c>this </c><00:09:05.260><c>was </c><00:09:05.720><c>our </c><00:09:06.180><c>fourth </c><00:09:06.640><c>wordon</c>
+
+00:09:06.990 --> 00:09:07.000 align:start position:0%
+so here this was our fourth wordon
+ 
+
+00:09:07.000 --> 00:09:09.110 align:start position:0%
+so here this was our fourth wordon
+liability, <00:09:07.250><c>let </c><00:09:07.500><c>us </c><00:09:07.750><c>talk </c><00:09:08.000><c>about </c><00:09:08.250><c>the </c><00:09:08.500><c>fifth </c><00:09:08.750><c>wordon </c><00:09:09.000><c>liability,</c>
+
+00:09:09.110 --> 00:09:09.120 align:start position:0%
+liability, let us talk about the fifth wordon liability,
+ 
+
+00:09:09.120 --> 00:09:11.150 align:start position:0%
+liability, let us talk about the fifth wordon liability,
+that <00:09:09.440><c>is </c><00:09:09.760><c>security </c><00:09:10.080><c>misconfine, </c><00:09:10.400><c>security </c><00:09:10.720><c>misconfine,</c>
+
+00:09:11.150 --> 00:09:11.160 align:start position:0%
+that is security misconfine, security misconfine,
+ 
+
+00:09:11.160 --> 00:09:13.990 align:start position:0%
+that is security misconfine, security misconfine,
+mostly <00:09:11.973><c>if </c><00:09:12.786><c>we  </c><00:09:13.599><c>See,</c>
+
+00:09:13.990 --> 00:09:14.000 align:start position:0%
+mostly if we  See,
+ 
+
+00:09:14.000 --> 00:09:15.630 align:start position:0%
+mostly if we  See,
+we <00:09:14.506><c>often </c><00:09:15.012><c>see </c><00:09:15.518><c>this</c>
+
+00:09:15.630 --> 00:09:15.640 align:start position:0%
+we often see this
+ 
+
+00:09:15.640 --> 00:09:18.509 align:start position:0%
+we often see this
+because <00:09:15.808><c>many </c><00:09:15.976><c>times </c><00:09:16.144><c>we </c><00:09:16.312><c>do </c><00:09:16.480><c>not </c><00:09:16.648><c>properly </c><00:09:16.816><c>configure </c><00:09:16.984><c>the </c><00:09:17.152><c>security </c><00:09:17.320><c>of </c><00:09:17.488><c>your </c><00:09:17.656><c>network </c><00:09:17.824><c>devices </c><00:09:17.992><c>and</c>
+
+00:09:18.509 --> 00:09:18.519 align:start position:0%
+because many times we do not properly configure the security of your network devices and
+ 
+
+00:09:18.519 --> 00:09:20.110 align:start position:0%
+because many times we do not properly configure the security of your network devices and
+software,
+
+00:09:20.110 --> 00:09:22.190 align:start position:0%
+software,
+ 
+
+00:09:22.190 --> 00:09:22.200 align:start position:0%
+ 
+ 
+
+00:09:22.200 --> 00:09:24.550 align:start position:0%
+ 
+such <00:09:22.770><c>as </c><00:09:23.340><c>enabling </c><00:09:23.910><c>unnecessary </c><00:09:24.480><c>features,</c>
+
+00:09:24.550 --> 00:09:24.560 align:start position:0%
+such as enabling unnecessary features,
+ 
+
+00:09:24.560 --> 00:09:26.990 align:start position:0%
+such as enabling unnecessary features,
+using <00:09:26.680><c>protocols</c>
+
+00:09:26.990 --> 00:09:27.000 align:start position:0%
+using protocols
+ 
+
+00:09:27.000 --> 00:09:29.630 align:start position:0%
+using protocols
+that <00:09:27.299><c>are </c><00:09:27.598><c>not </c><00:09:27.897><c>secure </c><00:09:28.196><c>for </c><00:09:28.495><c>you, </c><00:09:28.794><c>such </c><00:09:29.093><c>as </c><00:09:29.392><c>the</c>
+
+00:09:29.630 --> 00:09:29.640 align:start position:0%
+that are not secure for you, such as the
+ 
+
+00:09:29.640 --> 00:09:31.710 align:start position:0%
+that are not secure for you, such as the
+FTP <00:09:30.600><c>protocol, </c><00:09:31.560><c>Telnet</c>
+
+00:09:31.710 --> 00:09:31.720 align:start position:0%
+FTP protocol, Telnet
+ 
+
+00:09:31.720 --> 00:09:33.190 align:start position:0%
+FTP protocol, Telnet
+protocol, <00:09:32.106><c>this </c><00:09:32.492><c>protocol </c><00:09:32.878><c>is</c>
+
+00:09:33.190 --> 00:09:33.200 align:start position:0%
+protocol, this protocol is
+ 
+
+00:09:33.200 --> 00:09:36.069 align:start position:0%
+protocol, this protocol is
+not <00:09:33.620><c>a </c><00:09:34.040><c>secure </c><00:09:34.460><c>protocol, </c><00:09:34.880><c>using </c><00:09:35.300><c>STTP </c><00:09:35.720><c>instead</c>
+
+00:09:36.069 --> 00:09:36.079 align:start position:0%
+not a secure protocol, using STTP instead
+ 
+
+00:09:36.079 --> 00:09:39.269 align:start position:0%
+not a secure protocol, using STTP instead
+of <00:09:36.592><c>STTP, </c><00:09:37.105><c>etc. </c><00:09:37.618><c>Complex </c><00:09:38.131><c>misconfigurations </c><00:09:38.644><c>in </c><00:09:39.157><c>your</c>
+
+00:09:39.269 --> 00:09:39.279 align:start position:0%
+of STTP, etc. Complex misconfigurations in your
+ 
+
+00:09:39.279 --> 00:09:43.269 align:start position:0%
+of STTP, etc. Complex misconfigurations in your
+passwords <00:09:40.480><c>can</c>
+
+00:09:43.269 --> 00:09:47.710 align:start position:0%
+ 
+ 
+
+00:09:47.710 --> 00:09:50.269 align:start position:0%
+ 
+ 
+
+00:09:50.269 --> 00:09:50.279 align:start position:0%
+ 
+ 
+
+00:09:50.279 --> 00:09:52.750 align:start position:0%
+ 
+cause <00:09:50.536><c>huge </c><00:09:50.793><c>damage </c><00:09:51.050><c>to </c><00:09:51.307><c>your </c><00:09:51.564><c>infrastructure. </c><00:09:51.821><c>So </c><00:09:52.078><c>this </c><00:09:52.335><c>was </c><00:09:52.592><c>our</c>
+
+00:09:52.750 --> 00:09:52.760 align:start position:0%
+cause huge damage to your infrastructure. So this was our
+ 
+
+00:09:52.760 --> 00:09:55.269 align:start position:0%
+cause huge damage to your infrastructure. So this was our
+fifth <00:09:53.102><c>vulnerability </c><00:09:53.444><c>of </c><00:09:53.786><c>our </c><00:09:54.128><c>top </c><00:09:54.470><c>10. </c><00:09:54.812><c>Now </c><00:09:55.154><c>we</c>
+
+00:09:55.269 --> 00:09:55.279 align:start position:0%
+fifth vulnerability of our top 10. Now we
+ 
+
+00:09:55.279 --> 00:09:56.790 align:start position:0%
+fifth vulnerability of our top 10. Now we
+understand <00:09:55.589><c>our </c><00:09:55.899><c>sixth </c><00:09:56.209><c>vulnerability </c><00:09:56.519><c>is</c>
+
+00:09:56.790 --> 00:09:56.800 align:start position:0%
+understand our sixth vulnerability is
+ 
+
+00:09:56.800 --> 00:09:59.150 align:start position:0%
+understand our sixth vulnerability is
+Vulnerability <00:09:57.293><c>and </c><00:09:57.786><c>Outdated </c><00:09:58.279><c>Components.</c>
+
+00:09:59.150 --> 00:09:59.160 align:start position:0%
+Vulnerability and Outdated Components.
+ 
+
+00:09:59.160 --> 00:10:01.350 align:start position:0%
+Vulnerability and Outdated Components.
+Vulnerability <00:09:59.543><c>and </c><00:09:59.926><c>Outdated </c><00:10:00.309><c>Components </c><00:10:00.692><c>means </c><00:10:01.075><c>that</c>
+
+00:10:01.350 --> 00:10:03.710 align:start position:0%
+Vulnerability and Outdated Components means that
+ 
+
+00:10:03.710 --> 00:10:03.720 align:start position:0%
+ 
+ 
+
+00:10:03.720 --> 00:10:05.550 align:start position:0%
+ 
+when <00:10:03.856><c>we </c><00:10:03.992><c>use </c><00:10:04.128><c>any </c><00:10:04.264><c>software, </c><00:10:04.400><c>any </c><00:10:04.536><c>operating </c><00:10:04.672><c>system, </c><00:10:04.808><c>any </c><00:10:04.944><c>firmware, </c><00:10:05.080><c>it </c><00:10:05.216><c>is </c><00:10:05.352><c>very</c>
+
+00:10:05.550 --> 00:10:07.190 align:start position:0%
+when we use any software, any operating system, any firmware, it is very
+ 
+
+00:10:07.190 --> 00:10:07.200 align:start position:0%
+ 
+ 
+
+00:10:07.200 --> 00:10:09.190 align:start position:0%
+ 
+important <00:10:07.560><c>to </c><00:10:07.920><c>update </c><00:10:08.280><c>those </c><00:10:08.640><c>firmware</c>
+
+00:10:09.190 --> 00:10:09.200 align:start position:0%
+important to update those firmware
+ 
+
+00:10:09.200 --> 00:10:11.230 align:start position:0%
+important to update those firmware
+softwares <00:10:09.434><c>and </c><00:10:09.668><c>whatever </c><00:10:09.902><c>platform </c><00:10:10.136><c>you </c><00:10:10.370><c>are </c><00:10:10.604><c>using, </c><00:10:10.838><c>it </c><00:10:11.072><c>is</c>
+
+00:10:11.230 --> 00:10:11.240 align:start position:0%
+softwares and whatever platform you are using, it is
+ 
+
+00:10:11.240 --> 00:10:13.430 align:start position:0%
+softwares and whatever platform you are using, it is
+very <00:10:11.560><c>important </c><00:10:11.880><c>for </c><00:10:12.200><c>us </c><00:10:12.520><c>to </c><00:10:12.840><c>update </c><00:10:13.160><c>them.</c>
+
+00:10:13.430 --> 00:10:13.440 align:start position:0%
+very important for us to update them.
+ 
+
+00:10:13.440 --> 00:10:16.030 align:start position:0%
+very important for us to update them.
+Otherwise,
+
+00:10:16.030 --> 00:10:16.040 align:start position:0%
+Otherwise,
+ 
+
+00:10:16.040 --> 00:10:18.150 align:start position:0%
+Otherwise,
+if <00:10:16.199><c>we </c><00:10:16.358><c>do </c><00:10:16.517><c>not </c><00:10:16.676><c>update </c><00:10:16.835><c>them, </c><00:10:16.994><c>it </c><00:10:17.153><c>may </c><00:10:17.312><c>happen </c><00:10:17.471><c>that  </c><00:10:17.630><c>If </c><00:10:17.789><c>there </c><00:10:17.948><c>is</c>
+
+00:10:18.150 --> 00:10:18.160 align:start position:0%
+if we do not update them, it may happen that  If there is
+ 
+
+00:10:18.160 --> 00:10:20.710 align:start position:0%
+if we do not update them, it may happen that  If there is
+a <00:10:18.600><c>vulnerability </c><00:10:19.040><c>in </c><00:10:19.480><c>that </c><00:10:19.920><c>software </c><00:10:20.360><c>and</c>
+
+00:10:20.710 --> 00:10:20.720 align:start position:0%
+a vulnerability in that software and
+ 
+
+00:10:20.720 --> 00:10:23.150 align:start position:0%
+a vulnerability in that software and
+we <00:10:20.909><c>have </c><00:10:21.098><c>not </c><00:10:21.287><c>updated </c><00:10:21.476><c>it, </c><00:10:21.665><c>then </c><00:10:21.854><c>that </c><00:10:22.043><c>vulnerability </c><00:10:22.232><c>is </c><00:10:22.421><c>existing </c><00:10:22.610><c>there, </c><00:10:22.799><c>then</c>
+
+00:10:23.150 --> 00:10:25.350 align:start position:0%
+we have not updated it, then that vulnerability is existing there, then
+ 
+
+00:10:25.350 --> 00:10:25.360 align:start position:0%
+ 
+ 
+
+00:10:25.360 --> 00:10:27.790 align:start position:0%
+ 
+you <00:10:25.604><c>get </c><00:10:25.848><c>to </c><00:10:26.092><c>see </c><00:10:26.336><c>such </c><00:10:26.580><c>vulnerable </c><00:10:26.824><c>and </c><00:10:27.068><c>outdated </c><00:10:27.312><c>components </c><00:10:27.556><c>very</c>
+
+00:10:27.790 --> 00:10:27.800 align:start position:0%
+you get to see such vulnerable and outdated components very
+ 
+
+00:10:27.800 --> 00:10:29.750 align:start position:0%
+you get to see such vulnerable and outdated components very
+often, <00:10:28.210><c>that </c><00:10:28.620><c>is </c><00:10:29.030><c>why </c><00:10:29.440><c>at</c>
+
+00:10:29.750 --> 00:10:29.760 align:start position:0%
+often, that is why at
+ 
+
+00:10:29.760 --> 00:10:31.949 align:start position:0%
+often, that is why at
+number <00:10:30.011><c>six </c><00:10:30.262><c>in </c><00:10:30.513><c>our </c><00:10:30.764><c>top </c><00:10:31.015><c>10 </c><00:10:31.266><c>we </c><00:10:31.517><c>have</c>
+
+00:10:31.949 --> 00:10:31.959 align:start position:0%
+number six in our top 10 we have
+ 
+
+00:10:31.959 --> 00:10:35.389 align:start position:0%
+number six in our top 10 we have
+vulnerable <00:10:32.499><c>and </c><00:10:33.039><c>outdated </c><00:10:33.579><c>components, </c><00:10:34.119><c>so </c><00:10:34.659><c>many </c><00:10:35.199><c>times</c>
+
+00:10:35.389 --> 00:10:35.399 align:start position:0%
+vulnerable and outdated components, so many times
+ 
+
+00:10:35.399 --> 00:10:38.590 align:start position:0%
+vulnerable and outdated components, so many times
+companies <00:10:36.019><c>use </c><00:10:36.639><c>such </c><00:10:37.259><c>plugins, </c><00:10:37.879><c>such</c>
+
+00:10:38.590 --> 00:10:38.600 align:start position:0%
+companies use such plugins, such
+ 
+
+00:10:38.600 --> 00:10:40.150 align:start position:0%
+companies use such plugins, such
+applications <00:10:39.339><c>which </c><00:10:40.078><c>are</c>
+
+00:10:40.150 --> 00:10:40.160 align:start position:0%
+applications which are
+ 
+
+00:10:40.160 --> 00:10:42.509 align:start position:0%
+applications which are
+outdated, <00:10:40.607><c>so </c><00:10:41.054><c>this </c><00:10:41.501><c>is </c><00:10:41.948><c>a </c><00:10:42.395><c>big</c>
+
+00:10:42.509 --> 00:10:42.519 align:start position:0%
+outdated, so this is a big
+ 
+
+00:10:42.519 --> 00:10:44.470 align:start position:0%
+outdated, so this is a big
+problem <00:10:42.805><c>which </c><00:10:43.091><c>we </c><00:10:43.377><c>should </c><00:10:43.663><c>keep </c><00:10:43.949><c>updated </c><00:10:44.235><c>in</c>
+
+00:10:44.470 --> 00:10:44.480 align:start position:0%
+problem which we should keep updated in
+ 
+
+00:10:44.480 --> 00:10:47.670 align:start position:0%
+problem which we should keep updated in
+all <00:10:45.056><c>types </c><00:10:45.632><c>of </c><00:10:46.208><c>applications, </c><00:10:46.784><c>if </c><00:10:47.360><c>I</c>
+
+00:10:47.670 --> 00:10:47.680 align:start position:0%
+all types of applications, if I
+ 
+
+00:10:47.680 --> 00:10:48.670 align:start position:0%
+all types of applications, if I
+talk <00:10:47.811><c>about </c><00:10:47.942><c>the </c><00:10:48.073><c>seventh </c><00:10:48.204><c>vulnerability </c><00:10:48.335><c>then </c><00:10:48.466><c>it </c><00:10:48.597><c>is</c>
+
+00:10:48.670 --> 00:10:48.680 align:start position:0%
+talk about the seventh vulnerability then it is
+ 
+
+00:10:48.680 --> 00:10:51.670 align:start position:0%
+talk about the seventh vulnerability then it is
+identification <00:10:49.146><c>and </c><00:10:49.612><c>authentication </c><00:10:50.078><c>failure, </c><00:10:50.544><c>so </c><00:10:51.010><c>what </c><00:10:51.476><c>happens</c>
+
+00:10:51.670 --> 00:10:51.680 align:start position:0%
+identification and authentication failure, so what happens
+ 
+
+00:10:51.680 --> 00:10:53.430 align:start position:0%
+identification and authentication failure, so what happens
+many <00:10:52.070><c>times </c><00:10:52.460><c>is </c><00:10:52.850><c>that </c><00:10:53.240><c>when</c>
+
+00:10:53.430 --> 00:10:53.440 align:start position:0%
+many times is that when
+ 
+
+00:10:53.440 --> 00:10:55.269 align:start position:0%
+many times is that when
+you <00:10:53.603><c>log </c><00:10:53.766><c>in </c><00:10:53.929><c>to </c><00:10:54.092><c>any </c><00:10:54.255><c>web </c><00:10:54.418><c>application </c><00:10:54.581><c>for </c><00:10:54.744><c>the </c><00:10:54.907><c>first </c><00:10:55.070><c>time</c>
+
+00:10:55.269 --> 00:10:55.279 align:start position:0%
+you log in to any web application for the first time
+ 
+
+00:10:55.279 --> 00:10:57.470 align:start position:0%
+you log in to any web application for the first time
+or <00:10:55.450><c>if </c><00:10:55.621><c>you </c><00:10:55.792><c>have </c><00:10:55.963><c>checked </c><00:10:56.134><c>the </c><00:10:56.305><c>option </c><00:10:56.476><c>of </c><00:10:56.647><c>safe </c><00:10:56.818><c>password </c><00:10:56.989><c>there, </c><00:10:57.160><c>then</c>
+
+00:10:57.470 --> 00:11:00.150 align:start position:0%
+or if you have checked the option of safe password there, then
+ 
+
+00:11:00.150 --> 00:11:02.870 align:start position:0%
+ 
+ 
+
+00:11:02.870 --> 00:11:02.880 align:start position:0%
+ 
+ 
+
+00:11:02.880 --> 00:11:05.350 align:start position:0%
+ 
+some <00:11:03.205><c>cookies </c><00:11:03.530><c>are </c><00:11:03.855><c>stored </c><00:11:04.180><c>in </c><00:11:04.505><c>your </c><00:11:04.830><c>system </c><00:11:05.155><c>and</c>
+
+00:11:05.350 --> 00:11:05.360 align:start position:0%
+some cookies are stored in your system and
+ 
+
+00:11:05.360 --> 00:11:08.069 align:start position:0%
+some cookies are stored in your system and
+your <00:11:05.655><c>session </c><00:11:05.950><c>ID </c><00:11:06.245><c>is </c><00:11:06.540><c>present </c><00:11:06.835><c>inside </c><00:11:07.130><c>those </c><00:11:07.425><c>cookies, </c><00:11:07.720><c>so</c>
+
+00:11:08.069 --> 00:11:08.079 align:start position:0%
+your session ID is present inside those cookies, so
+ 
+
+00:11:08.079 --> 00:11:11.030 align:start position:0%
+your session ID is present inside those cookies, so
+if <00:11:08.719><c>someone </c><00:11:09.359><c>steals </c><00:11:09.999><c>your </c><00:11:10.639><c>cookie</c>
+
+00:11:11.030 --> 00:11:11.040 align:start position:0%
+if someone steals your cookie
+ 
+
+00:11:11.040 --> 00:11:13.790 align:start position:0%
+if someone steals your cookie
+and <00:11:11.394><c>if </c><00:11:11.748><c>I </c><00:11:12.102><c>put </c><00:11:12.456><c>that </c><00:11:12.810><c>stolen </c><00:11:13.164><c>cookie </c><00:11:13.518><c>in</c>
+
+00:11:13.790 --> 00:11:13.800 align:start position:0%
+and if I put that stolen cookie in
+ 
+
+00:11:13.800 --> 00:11:16.430 align:start position:0%
+and if I put that stolen cookie in
+my <00:11:14.573><c>browser  </c><00:11:15.346><c>If </c><00:11:16.119><c>I</c>
+
+00:11:16.430 --> 00:11:16.440 align:start position:0%
+my browser  If I
+ 
+
+00:11:16.440 --> 00:11:18.870 align:start position:0%
+my browser  If I
+load <00:11:16.697><c>it </c><00:11:16.954><c>there, </c><00:11:17.211><c>I </c><00:11:17.468><c>can </c><00:11:17.725><c>get </c><00:11:17.982><c>access </c><00:11:18.239><c>to </c><00:11:18.496><c>your </c><00:11:18.753><c>account</c>
+
+00:11:18.870 --> 00:11:18.880 align:start position:0%
+load it there, I can get access to your account
+ 
+
+00:11:18.880 --> 00:11:20.750 align:start position:0%
+load it there, I can get access to your account
+without <00:11:19.699><c>any </c><00:11:20.518><c>username</c>
+
+00:11:20.750 --> 00:11:20.760 align:start position:0%
+without any username
+ 
+
+00:11:20.760 --> 00:11:23.430 align:start position:0%
+without any username
+and <00:11:21.179><c>password. </c><00:11:21.598><c>This </c><00:11:22.017><c>is </c><00:11:22.436><c>practically </c><00:11:22.855><c>possible, </c><00:11:23.274><c>and</c>
+
+00:11:23.430 --> 00:11:23.440 align:start position:0%
+and password. This is practically possible, and
+ 
+
+00:11:23.440 --> 00:11:25.030 align:start position:0%
+and password. This is practically possible, and
+I <00:11:23.634><c>demonstrated </c><00:11:23.828><c>it </c><00:11:24.022><c>in </c><00:11:24.216><c>an </c><00:11:24.410><c>earlier </c><00:11:24.604><c>video. </c><00:11:24.798><c>However,</c>
+
+00:11:25.030 --> 00:11:29.150 align:start position:0%
+I demonstrated it in an earlier video. However,
+ 
+
+00:11:29.150 --> 00:11:29.160 align:start position:0%
+ 
+ 
+
+00:11:29.160 --> 00:11:31.829 align:start position:0%
+ 
+if <00:11:29.508><c>there </c><00:11:29.856><c>is </c><00:11:30.204><c>such </c><00:11:30.552><c>a </c><00:11:30.900><c>vulnerability </c><00:11:31.248><c>where </c><00:11:31.596><c>the</c>
+
+00:11:31.829 --> 00:11:31.839 align:start position:0%
+if there is such a vulnerability where the
+ 
+
+00:11:31.839 --> 00:11:33.629 align:start position:0%
+if there is such a vulnerability where the
+server <00:11:32.346><c>in </c><00:11:32.853><c>front </c><00:11:33.360><c>is</c>
+
+00:11:33.629 --> 00:11:33.639 align:start position:0%
+server in front is
+ 
+
+00:11:33.639 --> 00:11:35.790 align:start position:0%
+server in front is
+unable <00:11:33.896><c>to </c><00:11:34.153><c>properly </c><00:11:34.410><c>authenticate </c><00:11:34.667><c>you. </c><00:11:34.924><c>The </c><00:11:35.181><c>cookies </c><00:11:35.438><c>that</c>
+
+00:11:35.790 --> 00:11:35.800 align:start position:0%
+unable to properly authenticate you. The cookies that
+ 
+
+00:11:35.800 --> 00:11:38.790 align:start position:0%
+unable to properly authenticate you. The cookies that
+you <00:11:36.043><c>have </c><00:11:36.286><c>loaded </c><00:11:36.529><c>in </c><00:11:36.772><c>your </c><00:11:37.015><c>browser </c><00:11:37.258><c>by </c><00:11:37.501><c>storing </c><00:11:37.744><c>cookies </c><00:11:37.987><c>here, </c><00:11:38.230><c>by </c><00:11:38.473><c>making</c>
+
+00:11:38.790 --> 00:11:38.800 align:start position:0%
+you have loaded in your browser by storing cookies here, by making
+ 
+
+00:11:38.800 --> 00:11:41.269 align:start position:0%
+you have loaded in your browser by storing cookies here, by making
+some <00:11:39.533><c>modifications </c><00:11:40.266><c>there, </c><00:11:40.999><c>are</c>
+
+00:11:41.269 --> 00:11:41.279 align:start position:0%
+some modifications there, are
+ 
+
+00:11:41.279 --> 00:11:43.230 align:start position:0%
+some modifications there, are
+they
+
+00:11:43.230 --> 00:11:43.240 align:start position:0%
+they
+ 
+
+00:11:43.240 --> 00:11:45.389 align:start position:0%
+they
+originally <00:11:43.573><c>your </c><00:11:43.906><c>own </c><00:11:44.239><c>cookies </c><00:11:44.572><c>or </c><00:11:44.905><c>have </c><00:11:45.238><c>you</c>
+
+00:11:45.389 --> 00:11:45.399 align:start position:0%
+originally your own cookies or have you
+ 
+
+00:11:45.399 --> 00:11:48.030 align:start position:0%
+originally your own cookies or have you
+stored <00:11:46.029><c>someone </c><00:11:46.659><c>else's? </c><00:11:47.289><c>When </c><00:11:47.919><c>the</c>
+
+00:11:48.030 --> 00:11:48.040 align:start position:0%
+stored someone else's? When the
+ 
+
+00:11:48.040 --> 00:11:49.949 align:start position:0%
+stored someone else's? When the
+server <00:11:48.250><c>is </c><00:11:48.460><c>unable </c><00:11:48.670><c>to </c><00:11:48.880><c>properly </c><00:11:49.090><c>authenticate </c><00:11:49.300><c>in </c><00:11:49.510><c>this </c><00:11:49.720><c>way,</c>
+
+00:11:49.949 --> 00:11:49.959 align:start position:0%
+server is unable to properly authenticate in this way,
+ 
+
+00:11:49.959 --> 00:11:51.509 align:start position:0%
+server is unable to properly authenticate in this way,
+we <00:11:50.167><c>call </c><00:11:50.375><c>it </c><00:11:50.583><c>an </c><00:11:50.791><c>identification </c><00:11:50.999><c>and</c>
+
+00:11:51.509 --> 00:11:51.519 align:start position:0%
+we call it an identification and
+ 
+
+00:11:51.519 --> 00:11:54.470 align:start position:0%
+we call it an identification and
+authentication <00:11:52.839><c>failure. </c><00:11:54.159><c>Similarly,</c>
+
+00:11:54.470 --> 00:11:54.480 align:start position:0%
+authentication failure. Similarly,
+ 
+
+00:11:54.480 --> 00:11:56.230 align:start position:0%
+authentication failure. Similarly,
+we <00:11:54.664><c>have </c><00:11:54.848><c>a </c><00:11:55.032><c>brute </c><00:11:55.216><c>force </c><00:11:55.400><c>attack. </c><00:11:55.584><c>Here, </c><00:11:55.768><c>it </c><00:11:55.952><c>has</c>
+
+00:11:56.230 --> 00:11:56.240 align:start position:0%
+we have a brute force attack. Here, it has
+ 
+
+00:11:56.240 --> 00:11:58.910 align:start position:0%
+we have a brute force attack. Here, it has
+explained <00:11:56.451><c>what </c><00:11:56.662><c>you </c><00:11:56.873><c>are </c><00:11:57.084><c>doing, </c><00:11:57.295><c>you </c><00:11:57.506><c>have </c><00:11:57.717><c>to</c>
+
+00:11:58.910 --> 00:11:58.920 align:start position:0%
+explained what you are doing, you have to
+ 
+
+00:11:58.920 --> 00:12:00.990 align:start position:0%
+explained what you are doing, you have to
+login, <00:11:59.140><c>and </c><00:11:59.360><c>with </c><00:11:59.580><c>the </c><00:11:59.800><c>help </c><00:12:00.020><c>of </c><00:12:00.240><c>a </c><00:12:00.460><c>brute </c><00:12:00.680><c>force</c>
+
+00:12:00.990 --> 00:12:01.000 align:start position:0%
+login, and with the help of a brute force
+ 
+
+00:12:01.000 --> 00:12:02.949 align:start position:0%
+login, and with the help of a brute force
+attack, <00:12:01.376><c>you </c><00:12:01.752><c>are </c><00:12:02.128><c>making </c><00:12:02.504><c>multiple </c><00:12:02.880><c>logins.</c>
+
+00:12:02.949 --> 00:12:02.959 align:start position:0%
+attack, you are making multiple logins.
+ 
+
+00:12:02.959 --> 00:12:05.190 align:start position:0%
+attack, you are making multiple logins.
+If <00:12:03.199><c>there </c><00:12:03.439><c>is </c><00:12:03.679><c>no </c><00:12:03.919><c>such </c><00:12:04.159><c>functionality </c><00:12:04.399><c>there</c>
+
+00:12:05.190 --> 00:12:05.200 align:start position:0%
+If there is no such functionality there
+ 
+
+00:12:05.200 --> 00:12:07.310 align:start position:0%
+If there is no such functionality there
+that <00:12:05.486><c>after </c><00:12:05.772><c>a </c><00:12:06.058><c>certain </c><00:12:06.344><c>amount, </c><00:12:06.630><c>a </c><00:12:06.916><c>certain</c>
+
+00:12:07.310 --> 00:12:07.320 align:start position:0%
+that after a certain amount, a certain
+ 
+
+00:12:07.320 --> 00:12:09.590 align:start position:0%
+that after a certain amount, a certain
+period, <00:12:07.750><c>after </c><00:12:08.180><c>a </c><00:12:08.610><c>certain </c><00:12:09.040><c>limit,</c>
+
+00:12:09.590 --> 00:12:09.600 align:start position:0%
+period, after a certain limit,
+ 
+
+00:12:09.600 --> 00:12:11.629 align:start position:0%
+period, after a certain limit,
+your <00:12:09.857><c>account </c><00:12:10.114><c>is </c><00:12:10.371><c>locked, </c><00:12:10.628><c>then </c><00:12:10.885><c>it </c><00:12:11.142><c>can </c><00:12:11.399><c>happen.</c>
+
+00:12:11.629 --> 00:12:11.639 align:start position:0%
+your account is locked, then it can happen.
+ 
+
+00:12:11.639 --> 00:12:13.629 align:start position:0%
+your account is locked, then it can happen.
+That
+
+00:12:13.629 --> 00:12:13.639 align:start position:0%
+That
+ 
+
+00:12:13.639 --> 00:12:16.030 align:start position:0%
+That
+someone <00:12:13.799><c>steals </c><00:12:13.959><c>your </c><00:12:14.119><c>name </c><00:12:14.279><c>and </c><00:12:14.439><c>password </c><00:12:14.599><c>by </c><00:12:14.759><c>root </c><00:12:14.919><c>brute </c><00:12:15.079><c>forcing </c><00:12:15.239><c>your </c><00:12:15.399><c>account,</c>
+
+00:12:16.030 --> 00:12:16.040 align:start position:0%
+someone steals your name and password by root brute forcing your account,
+ 
+
+00:12:16.040 --> 00:12:18.230 align:start position:0%
+someone steals your name and password by root brute forcing your account,
+then <00:12:16.719><c>such </c><00:12:17.398><c>things </c><00:12:18.077><c>are</c>
+
+00:12:18.230 --> 00:12:19.829 align:start position:0%
+then such things are
+ 
+
+00:12:19.829 --> 00:12:19.839 align:start position:0%
+ 
+ 
+
+00:12:19.839 --> 00:12:22.150 align:start position:0%
+ 
+called <00:12:20.096><c>identification </c><00:12:20.353><c>and </c><00:12:20.610><c>authentication </c><00:12:20.867><c>failure, </c><00:12:21.124><c>then </c><00:12:21.381><c>comes </c><00:12:21.638><c>software</c>
+
+00:12:22.150 --> 00:12:22.160 align:start position:0%
+called identification and authentication failure, then comes software
+ 
+
+00:12:22.160 --> 00:12:24.110 align:start position:0%
+called identification and authentication failure, then comes software
+and <00:12:22.653><c>data </c><00:12:23.146><c>integrity </c><00:12:23.639><c>failure.</c>
+
+00:12:24.110 --> 00:12:24.120 align:start position:0%
+and data integrity failure.
+ 
+
+00:12:24.120 --> 00:12:25.750 align:start position:0%
+and data integrity failure.
+What <00:12:24.366><c>does </c><00:12:24.612><c>software </c><00:12:24.858><c>data </c><00:12:25.104><c>integrity </c><00:12:25.350><c>failure </c><00:12:25.596><c>mean?</c>
+
+00:12:25.750 --> 00:12:25.760 align:start position:0%
+What does software data integrity failure mean?
+ 
+
+00:12:25.760 --> 00:12:27.790 align:start position:0%
+What does software data integrity failure mean?
+Integrity <00:12:26.000><c>means </c><00:12:26.240><c>that </c><00:12:26.480><c>the </c><00:12:26.720><c>data </c><00:12:26.960><c>which </c><00:12:27.200><c>has </c><00:12:27.440><c>been</c>
+
+00:12:27.790 --> 00:12:27.800 align:start position:0%
+Integrity means that the data which has been
+ 
+
+00:12:27.800 --> 00:12:30.750 align:start position:0%
+Integrity means that the data which has been
+created <00:12:30.279><c>should</c>
+
+00:12:30.750 --> 00:12:30.760 align:start position:0%
+created should
+ 
+
+00:12:30.760 --> 00:12:32.230 align:start position:0%
+created should
+remain <00:12:30.887><c>in </c><00:12:31.014><c>its </c><00:12:31.141><c>original </c><00:12:31.268><c>form, </c><00:12:31.395><c>there </c><00:12:31.522><c>should </c><00:12:31.649><c>not </c><00:12:31.776><c>be </c><00:12:31.903><c>any </c><00:12:32.030><c>kind </c><00:12:32.157><c>of</c>
+
+00:12:32.230 --> 00:12:32.240 align:start position:0%
+remain in its original form, there should not be any kind of
+ 
+
+00:12:32.240 --> 00:12:34.710 align:start position:0%
+remain in its original form, there should not be any kind of
+changes <00:12:32.613><c>in </c><00:12:32.986><c>it, </c><00:12:33.359><c>we </c><00:12:33.732><c>call </c><00:12:34.105><c>it </c><00:12:34.478><c>integrity,</c>
+
+00:12:34.710 --> 00:12:34.720 align:start position:0%
+changes in it, we call it integrity,
+ 
+
+00:12:34.720 --> 00:12:36.150 align:start position:0%
+changes in it, we call it integrity,
+so <00:12:35.059><c>software </c><00:12:35.398><c>and </c><00:12:35.737><c>data </c><00:12:36.076><c>integrity</c>
+
+00:12:36.150 --> 00:12:36.160 align:start position:0%
+so software and data integrity
+ 
+
+00:12:36.160 --> 00:12:38.069 align:start position:0%
+so software and data integrity
+failure <00:12:36.439><c>means </c><00:12:36.718><c>that </c><00:12:36.997><c>if </c><00:12:37.276><c>you </c><00:12:37.555><c>are </c><00:12:37.834><c>hosting</c>
+
+00:12:38.069 --> 00:12:38.079 align:start position:0%
+failure means that if you are hosting
+ 
+
+00:12:38.079 --> 00:12:39.870 align:start position:0%
+failure means that if you are hosting
+any <00:12:38.365><c>of </c><00:12:38.651><c>your </c><00:12:38.937><c>web </c><00:12:39.223><c>applications </c><00:12:39.509><c>for </c><00:12:39.795><c>example</c>
+
+00:12:39.870 --> 00:12:39.880 align:start position:0%
+any of your web applications for example
+ 
+
+00:12:39.880 --> 00:12:42.150 align:start position:0%
+any of your web applications for example
+and <00:12:40.420><c>inside </c><00:12:40.960><c>that </c><00:12:41.500><c>web </c><00:12:42.040><c>application</c>
+
+00:12:42.150 --> 00:12:42.160 align:start position:0%
+and inside that web application
+ 
+
+00:12:42.160 --> 00:12:44.350 align:start position:0%
+and inside that web application
+you <00:12:42.462><c>are </c><00:12:42.764><c>using </c><00:12:43.066><c>any </c><00:12:43.368><c>third </c><00:12:43.670><c>party </c><00:12:43.972><c>plugins </c><00:12:44.274><c>or</c>
+
+00:12:44.350 --> 00:12:44.360 align:start position:0%
+you are using any third party plugins or
+ 
+
+00:12:44.360 --> 00:12:45.990 align:start position:0%
+you are using any third party plugins or
+any <00:12:45.920><c>resources</c>
+
+00:12:45.990 --> 00:12:46.000 align:start position:0%
+any resources
+ 
+
+00:12:46.000 --> 00:12:47.509 align:start position:0%
+any resources
+which <00:12:46.134><c>you </c><00:12:46.268><c>take </c><00:12:46.402><c>from </c><00:12:46.536><c>any </c><00:12:46.670><c>third </c><00:12:46.804><c>party </c><00:12:46.938><c>software </c><00:12:47.072><c>and</c>
+
+00:12:47.509 --> 00:12:47.519 align:start position:0%
+which you take from any third party software and
+ 
+
+00:12:47.519 --> 00:12:50.189 align:start position:0%
+which you take from any third party software and
+enable <00:12:48.031><c>or </c><00:12:48.543><c>install </c><00:12:49.055><c>on </c><00:12:49.567><c>your </c><00:12:50.079><c>system</c>
+
+00:12:50.189 --> 00:12:50.199 align:start position:0%
+enable or install on your system
+ 
+
+00:12:50.199 --> 00:12:51.949 align:start position:0%
+enable or install on your system
+or <00:12:50.503><c>you </c><00:12:50.807><c>are </c><00:12:51.111><c>using </c><00:12:51.415><c>that </c><00:12:51.719><c>third</c>
+
+00:12:51.949 --> 00:12:51.959 align:start position:0%
+or you are using that third
+ 
+
+00:12:51.959 --> 00:12:53.629 align:start position:0%
+or you are using that third
+party <00:12:52.185><c>software </c><00:12:52.411><c>on </c><00:12:52.637><c>your </c><00:12:52.863><c>system </c><00:12:53.089><c>to </c><00:12:53.315><c>increase</c>
+
+00:12:53.629 --> 00:12:53.639 align:start position:0%
+party software on your system to increase
+ 
+
+00:12:53.639 --> 00:12:56.350 align:start position:0%
+party software on your system to increase
+its <00:12:56.040><c>functionalities,</c>
+
+00:12:56.350 --> 00:12:56.360 align:start position:0%
+its functionalities,
+ 
+
+00:12:56.360 --> 00:12:58.310 align:start position:0%
+its functionalities,
+then <00:12:56.700><c>to </c><00:12:57.040><c>improve </c><00:12:57.380><c>its </c><00:12:57.720><c>functionality</c>
+
+00:12:58.310 --> 00:12:58.320 align:start position:0%
+then to improve its functionality
+ 
+
+00:12:58.320 --> 00:13:00.430 align:start position:0%
+then to improve its functionality
+further, <00:12:59.280><c>then </c><00:13:00.240><c>if</c>
+
+00:13:00.430 --> 00:13:00.440 align:start position:0%
+further, then if
+ 
+
+00:13:00.440 --> 00:13:02.870 align:start position:0%
+further, then if
+your <00:13:01.160><c>web </c><00:13:01.880><c>application </c><00:13:02.600><c>is</c>
+
+00:13:02.870 --> 00:13:02.880 align:start position:0%
+your web application is
+ 
+
+00:13:02.880 --> 00:13:04.629 align:start position:0%
+your web application is
+fetching <00:13:03.062><c>data </c><00:13:03.244><c>from </c><00:13:03.426><c>such </c><00:13:03.608><c>a </c><00:13:03.790><c>website </c><00:13:03.972><c>and </c><00:13:04.154><c>there </c><00:13:04.336><c>it </c><00:13:04.518><c>is</c>
+
+00:13:04.629 --> 00:13:04.639 align:start position:0%
+fetching data from such a website and there it is
+ 
+
+00:13:04.639 --> 00:13:06.550 align:start position:0%
+fetching data from such a website and there it is
+not <00:13:04.789><c>checking </c><00:13:04.939><c>that </c><00:13:05.089><c>the  </c><00:13:05.239><c>Whether </c><00:13:05.389><c>the </c><00:13:05.539><c>data </c><00:13:05.689><c>I </c><00:13:05.839><c>am </c><00:13:05.989><c>fetching </c><00:13:06.139><c>from </c><00:13:06.289><c>there </c><00:13:06.439><c>is</c>
+
+00:13:06.550 --> 00:13:06.560 align:start position:0%
+not checking that the  Whether the data I am fetching from there is
+ 
+
+00:13:06.560 --> 00:13:09.389 align:start position:0%
+not checking that the  Whether the data I am fetching from there is
+integrated <00:13:07.919><c>data </c><00:13:09.278><c>or</c>
+
+00:13:09.389 --> 00:13:09.399 align:start position:0%
+integrated data or
+ 
+
+00:13:09.399 --> 00:13:11.470 align:start position:0%
+integrated data or
+not, <00:13:09.619><c>then </c><00:13:09.839><c>it </c><00:13:10.059><c>is </c><00:13:10.279><c>possible </c><00:13:10.499><c>that </c><00:13:10.719><c>he </c><00:13:10.939><c>might </c><00:13:11.159><c>have</c>
+
+00:13:11.470 --> 00:13:11.480 align:start position:0%
+not, then it is possible that he might have
+ 
+
+00:13:11.480 --> 00:13:14.150 align:start position:0%
+not, then it is possible that he might have
+downloaded <00:13:11.828><c>some </c><00:13:12.176><c>such </c><00:13:12.524><c>data </c><00:13:12.872><c>from </c><00:13:13.220><c>there </c><00:13:13.568><c>which </c><00:13:13.916><c>the</c>
+
+00:13:14.150 --> 00:13:14.160 align:start position:0%
+downloaded some such data from there which the
+ 
+
+00:13:14.160 --> 00:13:16.829 align:start position:0%
+downloaded some such data from there which the
+hacker <00:13:14.480><c>has </c><00:13:14.800><c>already </c><00:13:15.120><c>accessed </c><00:13:15.440><c>and </c><00:13:15.760><c>changed, </c><00:13:16.080><c>that </c><00:13:16.400><c>is </c><00:13:16.720><c>why</c>
+
+00:13:16.829 --> 00:13:16.839 align:start position:0%
+hacker has already accessed and changed, that is why
+ 
+
+00:13:16.839 --> 00:13:19.870 align:start position:0%
+hacker has already accessed and changed, that is why
+many <00:13:17.679><c>times </c><00:13:18.519><c>if </c><00:13:19.359><c>you</c>
+
+00:13:19.870 --> 00:13:21.509 align:start position:0%
+many times if you
+ 
+
+00:13:21.509 --> 00:13:21.519 align:start position:0%
+ 
+ 
+
+00:13:21.519 --> 00:13:23.430 align:start position:0%
+ 
+download <00:13:21.633><c>any </c><00:13:21.747><c>software </c><00:13:21.861><c>from </c><00:13:21.975><c>a </c><00:13:22.089><c>good </c><00:13:22.203><c>website, </c><00:13:22.317><c>then </c><00:13:22.431><c>you </c><00:13:22.545><c>get </c><00:13:22.659><c>to </c><00:13:22.773><c>see </c><00:13:22.887><c>its </c><00:13:23.001><c>hash </c><00:13:23.115><c>there,</c>
+
+00:13:23.430 --> 00:13:23.440 align:start position:0%
+download any software from a good website, then you get to see its hash there,
+ 
+
+00:13:23.440 --> 00:13:25.710 align:start position:0%
+download any software from a good website, then you get to see its hash there,
+like <00:13:24.460><c>it </c><00:13:25.480><c>is</c>
+
+00:13:25.710 --> 00:13:25.720 align:start position:0%
+like it is
+ 
+
+00:13:25.720 --> 00:13:28.150 align:start position:0%
+like it is
+written <00:13:25.986><c>here </c><00:13:26.252><c>in </c><00:13:26.518><c>the </c><00:13:26.784><c>Source </c><00:13:27.050><c>Force </c><00:13:27.316><c>Repository,</c>
+
+00:13:28.150 --> 00:13:28.160 align:start position:0%
+written here in the Source Force Repository,
+ 
+
+00:13:28.160 --> 00:13:31.389 align:start position:0%
+written here in the Source Force Repository,
+if <00:13:28.783><c>you </c><00:13:29.406><c>install </c><00:13:30.029><c>any </c><00:13:30.652><c>application </c><00:13:31.275><c>here,</c>
+
+00:13:31.389 --> 00:13:31.399 align:start position:0%
+if you install any application here,
+ 
+
+00:13:31.399 --> 00:13:33.590 align:start position:0%
+if you install any application here,
+if <00:13:31.791><c>you </c><00:13:32.183><c>install </c><00:13:32.575><c>any </c><00:13:32.967><c>kind </c><00:13:33.359><c>of</c>
+
+00:13:33.590 --> 00:13:33.600 align:start position:0%
+if you install any kind of
+ 
+
+00:13:33.600 --> 00:13:35.310 align:start position:0%
+if you install any kind of
+software, <00:13:33.904><c>then </c><00:13:34.208><c>here </c><00:13:34.512><c>you </c><00:13:34.816><c>get </c><00:13:35.120><c>to</c>
+
+00:13:35.310 --> 00:13:35.320 align:start position:0%
+software, then here you get to
+ 
+
+00:13:35.320 --> 00:13:37.590 align:start position:0%
+software, then here you get to
+see <00:13:36.013><c>their </c><00:13:36.706><c>hashes, </c><00:13:37.399><c>if</c>
+
+00:13:37.590 --> 00:13:37.600 align:start position:0%
+see their hashes, if
+ 
+
+00:13:37.600 --> 00:13:39.110 align:start position:0%
+see their hashes, if
+you <00:13:37.820><c>go </c><00:13:38.040><c>here, </c><00:13:38.260><c>then </c><00:13:38.480><c>here </c><00:13:38.700><c>you </c><00:13:38.920><c>will</c>
+
+00:13:39.110 --> 00:13:39.120 align:start position:0%
+you go here, then here you will
+ 
+
+00:13:39.120 --> 00:13:41.470 align:start position:0%
+you go here, then here you will
+get <00:13:39.364><c>to </c><00:13:39.608><c>see </c><00:13:39.852><c>their </c><00:13:40.096><c>hashes, </c><00:13:40.340><c>what </c><00:13:40.584><c>is </c><00:13:40.828><c>their </c><00:13:41.072><c>hash,</c>
+
+00:13:41.470 --> 00:13:41.480 align:start position:0%
+get to see their hashes, what is their hash,
+ 
+
+00:13:41.480 --> 00:13:44.910 align:start position:0%
+get to see their hashes, what is their hash,
+so <00:13:42.087><c>if </c><00:13:42.694><c>this </c><00:13:43.301><c>hash </c><00:13:43.908><c>and </c><00:13:44.515><c>the</c>
+
+00:13:44.910 --> 00:13:44.920 align:start position:0%
+so if this hash and the
+ 
+
+00:13:44.920 --> 00:13:47.110 align:start position:0%
+so if this hash and the
+hash <00:13:45.222><c>you </c><00:13:45.524><c>have </c><00:13:45.826><c>are </c><00:13:46.128><c>the </c><00:13:46.430><c>same, </c><00:13:46.732><c>it </c><00:13:47.034><c>means</c>
+
+00:13:47.110 --> 00:13:47.120 align:start position:0%
+hash you have are the same, it means
+ 
+
+00:13:47.120 --> 00:13:49.069 align:start position:0%
+hash you have are the same, it means
+its <00:13:47.499><c>integrity </c><00:13:47.878><c>is </c><00:13:48.257><c>maintained, </c><00:13:48.636><c>but</c>
+
+00:13:49.069 --> 00:13:49.079 align:start position:0%
+its integrity is maintained, but
+ 
+
+00:13:49.079 --> 00:13:51.990 align:start position:0%
+its integrity is maintained, but
+if <00:13:49.354><c>the </c><00:13:49.629><c>hash </c><00:13:49.904><c>of </c><00:13:50.179><c>that </c><00:13:50.454><c>software </c><00:13:50.729><c>and </c><00:13:51.004><c>your </c><00:13:51.279><c>hash </c><00:13:51.554><c>are</c>
+
+00:13:51.990 --> 00:13:52.000 align:start position:0%
+if the hash of that software and your hash are
+ 
+
+00:13:52.000 --> 00:13:54.150 align:start position:0%
+if the hash of that software and your hash are
+not <00:13:52.489><c>matching, </c><00:13:52.978><c>it </c><00:13:53.467><c>means </c><00:13:53.956><c>the</c>
+
+00:13:54.150 --> 00:13:54.160 align:start position:0%
+not matching, it means the
+ 
+
+00:13:54.160 --> 00:13:57.110 align:start position:0%
+not matching, it means the
+integrity <00:13:54.650><c>there </c><00:13:55.140><c>has </c><00:13:55.630><c>been </c><00:13:56.120><c>damaged,</c>
+
+00:13:57.110 --> 00:13:57.120 align:start position:0%
+integrity there has been damaged,
+ 
+
+00:13:57.120 --> 00:13:59.069 align:start position:0%
+integrity there has been damaged,
+we <00:13:57.496><c>can </c><00:13:57.872><c>also </c><00:13:58.248><c>see </c><00:13:58.624><c>this </c><00:13:59.000><c>practically</c>
+
+00:13:59.069 --> 00:13:59.079 align:start position:0%
+we can also see this practically
+ 
+
+00:13:59.079 --> 00:14:00.470 align:start position:0%
+we can also see this practically
+in <00:13:59.180><c>Kale </c><00:13:59.281><c>Linux </c><00:13:59.382><c>because </c><00:13:59.483><c>there </c><00:13:59.584><c>are </c><00:13:59.685><c>some </c><00:13:59.786><c>such </c><00:13:59.887><c>commands </c><00:13:59.988><c>in </c><00:14:00.089><c>Kale </c><00:14:00.190><c>Linux </c><00:14:00.291><c>with </c><00:14:00.392><c>the</c>
+
+00:14:00.470 --> 00:14:00.480 align:start position:0%
+in Kale Linux because there are some such commands in Kale Linux with the
+ 
+
+00:14:00.480 --> 00:14:02.790 align:start position:0%
+in Kale Linux because there are some such commands in Kale Linux with the
+help <00:14:00.904><c>of </c><00:14:01.328><c>which </c><00:14:01.752><c>we </c><00:14:02.176><c>can  </c><00:14:02.600><c>You</c>
+
+00:14:02.790 --> 00:14:02.800 align:start position:0%
+help of which we can  You
+ 
+
+00:14:02.800 --> 00:14:04.949 align:start position:0%
+help of which we can  You
+can <00:14:03.060><c>also </c><00:14:03.320><c>know </c><00:14:03.580><c>the </c><00:14:03.840><c>hash </c><00:14:04.100><c>of </c><00:14:04.360><c>the </c><00:14:04.620><c>software </c><00:14:04.880><c>like</c>
+
+00:14:04.949 --> 00:14:04.959 align:start position:0%
+can also know the hash of the software like
+ 
+
+00:14:04.959 --> 00:14:08.430 align:start position:0%
+can also know the hash of the software like
+md5 <00:14:05.370><c>or </c><00:14:05.781><c>sh256, </c><00:14:06.192><c>all </c><00:14:06.603><c>these </c><00:14:07.014><c>are </c><00:14:07.425><c>hash </c><00:14:07.836><c>algorithms.</c>
+
+00:14:08.430 --> 00:14:08.440 align:start position:0%
+md5 or sh256, all these are hash algorithms.
+ 
+
+00:14:08.440 --> 00:14:10.430 align:start position:0%
+md5 or sh256, all these are hash algorithms.
+If <00:14:08.849><c>you </c><00:14:09.258><c>download </c><00:14:09.667><c>any </c><00:14:10.076><c>software,</c>
+
+00:14:10.430 --> 00:14:10.440 align:start position:0%
+If you download any software,
+ 
+
+00:14:10.440 --> 00:14:12.590 align:start position:0%
+If you download any software,
+go <00:14:10.695><c>to </c><00:14:10.950><c>Kaliks. </c><00:14:11.205><c>If </c><00:14:11.460><c>it </c><00:14:11.715><c>is </c><00:14:11.970><c>in </c><00:14:12.225><c>md5, </c><00:14:12.480><c>then</c>
+
+00:14:12.590 --> 00:14:12.600 align:start position:0%
+go to Kaliks. If it is in md5, then
+ 
+
+00:14:12.600 --> 00:14:14.430 align:start position:0%
+go to Kaliks. If it is in md5, then
+write <00:14:12.756><c>md5, </c><00:14:12.912><c>leave </c><00:14:13.068><c>a </c><00:14:13.224><c>space, </c><00:14:13.380><c>take </c><00:14:13.536><c>the </c><00:14:13.692><c>name </c><00:14:13.848><c>of </c><00:14:14.004><c>the </c><00:14:14.160><c>software </c><00:14:14.316><c>and</c>
+
+00:14:14.430 --> 00:14:14.440 align:start position:0%
+write md5, leave a space, take the name of the software and
+ 
+
+00:14:14.440 --> 00:14:16.670 align:start position:0%
+write md5, leave a space, take the name of the software and
+press <00:14:14.752><c>enter. </c><00:14:15.064><c>Its </c><00:14:15.376><c>hash </c><00:14:15.688><c>will </c><00:14:16.000><c>come.</c>
+
+00:14:16.670 --> 00:14:16.680 align:start position:0%
+press enter. Its hash will come.
+ 
+
+00:14:16.680 --> 00:14:18.629 align:start position:0%
+press enter. Its hash will come.
+Match <00:14:16.900><c>that </c><00:14:17.120><c>hash </c><00:14:17.340><c>with </c><00:14:17.560><c>the </c><00:14:17.780><c>hash </c><00:14:18.000><c>of </c><00:14:18.220><c>that </c><00:14:18.440><c>website.</c>
+
+00:14:18.629 --> 00:14:18.639 align:start position:0%
+Match that hash with the hash of that website.
+ 
+
+00:14:18.639 --> 00:14:20.629 align:start position:0%
+Match that hash with the hash of that website.
+If <00:14:18.854><c>it </c><00:14:19.069><c>is </c><00:14:19.284><c>the </c><00:14:19.499><c>same, </c><00:14:19.714><c>it </c><00:14:19.929><c>means </c><00:14:20.144><c>that </c><00:14:20.359><c>the</c>
+
+00:14:20.629 --> 00:14:20.639 align:start position:0%
+If it is the same, it means that the
+ 
+
+00:14:20.639 --> 00:14:22.230 align:start position:0%
+If it is the same, it means that the
+integrity <00:14:20.943><c>of </c><00:14:21.247><c>the </c><00:14:21.551><c>data </c><00:14:21.855><c>is </c><00:14:22.159><c>maintained.</c>
+
+00:14:22.230 --> 00:14:22.240 align:start position:0%
+integrity of the data is maintained.
+ 
+
+00:14:22.240 --> 00:14:24.030 align:start position:0%
+integrity of the data is maintained.
+But <00:14:22.500><c>if </c><00:14:22.760><c>it </c><00:14:23.020><c>is </c><00:14:23.280><c>not </c><00:14:23.540><c>so, </c><00:14:23.800><c>we</c>
+
+00:14:24.030 --> 00:14:24.040 align:start position:0%
+But if it is not so, we
+ 
+
+00:14:24.040 --> 00:14:26.269 align:start position:0%
+But if it is not so, we
+call <00:14:24.373><c>it </c><00:14:24.706><c>software </c><00:14:25.039><c>and </c><00:14:25.372><c>data </c><00:14:25.705><c>integrity </c><00:14:26.038><c>failure.</c>
+
+00:14:26.269 --> 00:14:26.279 align:start position:0%
+call it software and data integrity failure.
+ 
+
+00:14:26.279 --> 00:14:28.189 align:start position:0%
+call it software and data integrity failure.
+So <00:14:26.892><c>here </c><00:14:27.505><c>it </c><00:14:28.118><c>has</c>
+
+00:14:28.189 --> 00:14:28.199 align:start position:0%
+So here it has
+ 
+
+00:14:28.199 --> 00:14:29.990 align:start position:0%
+So here it has
+told <00:14:28.409><c>us </c><00:14:28.619><c>by </c><00:14:28.829><c>looking </c><00:14:29.039><c>at </c><00:14:29.249><c>the </c><00:14:29.459><c>example, </c><00:14:29.669><c>how </c><00:14:29.879><c>we</c>
+
+00:14:29.990 --> 00:14:30.000 align:start position:0%
+told us by looking at the example, how we
+ 
+
+00:14:30.000 --> 00:14:32.470 align:start position:0%
+told us by looking at the example, how we
+can <00:14:30.399><c>check </c><00:14:30.798><c>it </c><00:14:31.197><c>in </c><00:14:31.596><c>Kaliks. </c><00:14:31.995><c>Let </c><00:14:32.394><c>us</c>
+
+00:14:32.470 --> 00:14:32.480 align:start position:0%
+can check it in Kaliks. Let us
+ 
+
+00:14:32.480 --> 00:14:34.030 align:start position:0%
+can check it in Kaliks. Let us
+talk <00:14:32.849><c>about </c><00:14:33.218><c>our </c><00:14:33.587><c>next </c><00:14:33.956><c>capability,</c>
+
+00:14:34.030 --> 00:14:34.040 align:start position:0%
+talk about our next capability,
+ 
+
+00:14:34.040 --> 00:14:35.670 align:start position:0%
+talk about our next capability,
+which <00:14:34.600><c>is </c><00:14:35.160><c>security</c>
+
+00:14:35.670 --> 00:14:35.680 align:start position:0%
+which is security
+ 
+
+00:14:35.680 --> 00:14:38.069 align:start position:0%
+which is security
+logging <00:14:36.039><c>and </c><00:14:36.398><c>monitoring </c><00:14:36.757><c>failure. </c><00:14:37.116><c>It </c><00:14:37.475><c>is </c><00:14:37.834><c>very</c>
+
+00:14:38.069 --> 00:14:38.079 align:start position:0%
+logging and monitoring failure. It is very
+ 
+
+00:14:38.079 --> 00:14:40.110 align:start position:0%
+logging and monitoring failure. It is very
+important <00:14:38.211><c>because </c><00:14:38.343><c>many </c><00:14:38.475><c>times </c><00:14:38.607><c>we </c><00:14:38.739><c>use </c><00:14:38.871><c>security </c><00:14:39.003><c>logging </c><00:14:39.135><c>and </c><00:14:39.267><c>monitoring </c><00:14:39.399><c>failure </c><00:14:39.531><c>in </c><00:14:39.663><c>our </c><00:14:39.795><c>web</c>
+
+00:14:40.110 --> 00:14:40.120 align:start position:0%
+important because many times we use security logging and monitoring failure in our web
+ 
+
+00:14:40.120 --> 00:14:42.990 align:start position:0%
+important because many times we use security logging and monitoring failure in our web
+application <00:14:40.710><c>to </c><00:14:41.300><c>see </c><00:14:41.890><c>who </c><00:14:42.480><c>is</c>
+
+00:14:42.990 --> 00:14:43.000 align:start position:0%
+application to see who is
+ 
+
+00:14:43.000 --> 00:14:44.949 align:start position:0%
+application to see who is
+logging <00:14:43.286><c>here </c><00:14:43.572><c>at </c><00:14:43.858><c>what </c><00:14:44.144><c>time, </c><00:14:44.430><c>who </c><00:14:44.716><c>has</c>
+
+00:14:44.949 --> 00:14:44.959 align:start position:0%
+logging here at what time, who has
+ 
+
+00:14:44.959 --> 00:14:47.350 align:start position:0%
+logging here at what time, who has
+given <00:14:45.285><c>an </c><00:14:45.611><c>incorrect </c><00:14:45.937><c>login, </c><00:14:46.263><c>from </c><00:14:46.589><c>which </c><00:14:46.915><c>IP</c>
+
+00:14:47.350 --> 00:14:47.360 align:start position:0%
+given an incorrect login, from which IP
+ 
+
+00:14:47.360 --> 00:14:49.910 align:start position:0%
+given an incorrect login, from which IP
+address <00:14:47.644><c>the </c><00:14:47.928><c>request </c><00:14:48.212><c>is </c><00:14:48.496><c>coming </c><00:14:48.780><c>again </c><00:14:49.064><c>and </c><00:14:49.348><c>again. </c><00:14:49.632><c>If</c>
+
+00:14:49.910 --> 00:14:49.920 align:start position:0%
+address the request is coming again and again. If
+ 
+
+00:14:49.920 --> 00:14:51.829 align:start position:0%
+address the request is coming again and again. If
+you <00:14:50.072><c>want </c><00:14:50.224><c>to </c><00:14:50.376><c>see </c><00:14:50.528><c>or </c><00:14:50.680><c>monitor </c><00:14:50.832><c>such </c><00:14:50.984><c>things, </c><00:14:51.136><c>then </c><00:14:51.288><c>for </c><00:14:51.440><c>that</c>
+
+00:14:51.829 --> 00:14:51.839 align:start position:0%
+you want to see or monitor such things, then for that
+ 
+
+00:14:51.839 --> 00:14:53.910 align:start position:0%
+you want to see or monitor such things, then for that
+you <00:14:52.003><c>need </c><00:14:52.167><c>to </c><00:14:52.331><c>do </c><00:14:52.495><c>logging.  </c><00:14:52.659><c>It </c><00:14:52.823><c>has </c><00:14:52.987><c>to </c><00:14:53.151><c>be </c><00:14:53.315><c>enabled</c>
+
+00:14:53.910 --> 00:14:53.920 align:start position:0%
+you need to do logging.  It has to be enabled
+ 
+
+00:14:53.920 --> 00:14:56.509 align:start position:0%
+you need to do logging.  It has to be enabled
+but <00:14:56.360><c>if</c>
+
+00:14:56.509 --> 00:14:56.519 align:start position:0%
+but if
+ 
+
+00:14:56.519 --> 00:14:58.749 align:start position:0%
+but if
+logging <00:14:57.219><c>and </c><00:14:57.919><c>monitoring</c>
+
+00:14:58.749 --> 00:14:58.759 align:start position:0%
+logging and monitoring
+ 
+
+00:14:58.759 --> 00:15:01.110 align:start position:0%
+logging and monitoring
+is <00:14:58.913><c>not </c><00:14:59.067><c>enabled </c><00:14:59.221><c>in </c><00:14:59.375><c>your </c><00:14:59.529><c>system's </c><00:14:59.683><c>infrastructure </c><00:14:59.837><c>then </c><00:14:59.991><c>you </c><00:15:00.145><c>will </c><00:15:00.299><c>not </c><00:15:00.453><c>be </c><00:15:00.607><c>able </c><00:15:00.761><c>to </c><00:15:00.915><c>see</c>
+
+00:15:01.110 --> 00:15:01.120 align:start position:0%
+is not enabled in your system's infrastructure then you will not be able to see
+ 
+
+00:15:01.120 --> 00:15:03.430 align:start position:0%
+is not enabled in your system's infrastructure then you will not be able to see
+who <00:15:01.364><c>did </c><00:15:01.608><c>an </c><00:15:01.852><c>incorrect </c><00:15:02.096><c>login </c><00:15:02.340><c>on </c><00:15:02.584><c>your </c><00:15:02.828><c>system </c><00:15:03.072><c>and</c>
+
+00:15:03.430 --> 00:15:03.440 align:start position:0%
+who did an incorrect login on your system and
+ 
+
+00:15:03.440 --> 00:15:05.590 align:start position:0%
+who did an incorrect login on your system and
+when, <00:15:03.644><c>who </c><00:15:03.848><c>did </c><00:15:04.052><c>a </c><00:15:04.256><c>brute </c><00:15:04.460><c>force </c><00:15:04.664><c>on </c><00:15:04.868><c>your </c><00:15:05.072><c>system, </c><00:15:05.276><c>from </c><00:15:05.480><c>which</c>
+
+00:15:05.590 --> 00:15:05.600 align:start position:0%
+when, who did a brute force on your system, from which
+ 
+
+00:15:05.600 --> 00:15:08.389 align:start position:0%
+when, who did a brute force on your system, from which
+ID <00:15:05.980><c>multiple </c><00:15:06.360><c>times, </c><00:15:06.740><c>from </c><00:15:07.120><c>which </c><00:15:07.500><c>IP </c><00:15:07.880><c>multiple</c>
+
+00:15:08.389 --> 00:15:08.399 align:start position:0%
+ID multiple times, from which IP multiple
+ 
+
+00:15:08.399 --> 00:15:10.949 align:start position:0%
+ID multiple times, from which IP multiple
+times <00:15:08.689><c>requests </c><00:15:08.979><c>were </c><00:15:09.269><c>coming </c><00:15:09.559><c>to </c><00:15:09.849><c>your </c><00:15:10.139><c>system, </c><00:15:10.429><c>who </c><00:15:10.719><c>was</c>
+
+00:15:10.949 --> 00:15:10.959 align:start position:0%
+times requests were coming to your system, who was
+ 
+
+00:15:10.959 --> 00:15:12.749 align:start position:0%
+times requests were coming to your system, who was
+trying <00:15:11.519><c>to </c><00:15:12.079><c>attack </c><00:15:12.639><c>here,</c>
+
+00:15:12.749 --> 00:15:12.759 align:start position:0%
+trying to attack here,
+ 
+
+00:15:12.759 --> 00:15:15.189 align:start position:0%
+trying to attack here,
+you <00:15:12.937><c>will </c><00:15:13.115><c>not </c><00:15:13.293><c>be </c><00:15:13.471><c>able </c><00:15:13.649><c>to </c><00:15:13.827><c>see </c><00:15:14.005><c>this, </c><00:15:14.183><c>so </c><00:15:14.361><c>if </c><00:15:14.539><c>there </c><00:15:14.717><c>is </c><00:15:14.895><c>any </c><00:15:15.073><c>such</c>
+
+00:15:15.189 --> 00:15:15.199 align:start position:0%
+you will not be able to see this, so if there is any such
+ 
+
+00:15:15.199 --> 00:15:17.030 align:start position:0%
+you will not be able to see this, so if there is any such
+vulnerability <00:15:15.859><c>then </c><00:15:16.519><c>we</c>
+
+00:15:17.030 --> 00:15:17.040 align:start position:0%
+vulnerability then we
+ 
+
+00:15:17.040 --> 00:15:18.949 align:start position:0%
+vulnerability then we
+call <00:15:17.285><c>it </c><00:15:17.530><c>Security </c><00:15:17.775><c>Locking </c><00:15:18.020><c>and </c><00:15:18.265><c>Monitoring </c><00:15:18.510><c>Failure, </c><00:15:18.755><c>next</c>
+
+00:15:18.949 --> 00:15:18.959 align:start position:0%
+call it Security Locking and Monitoring Failure, next
+ 
+
+00:15:18.959 --> 00:15:21.470 align:start position:0%
+call it Security Locking and Monitoring Failure, next
+and <00:15:19.529><c>last </c><00:15:20.099><c>we </c><00:15:20.669><c>talk </c><00:15:21.239><c>about</c>
+
+00:15:21.470 --> 00:15:21.480 align:start position:0%
+and last we talk about
+ 
+
+00:15:21.480 --> 00:15:23.710 align:start position:0%
+and last we talk about
+Server <00:15:21.940><c>Side </c><00:15:22.400><c>Request </c><00:15:22.860><c>for </c><00:15:23.320><c>Jari</c>
+
+00:15:23.710 --> 00:15:23.720 align:start position:0%
+Server Side Request for Jari
+ 
+
+00:15:23.720 --> 00:15:26.509 align:start position:0%
+Server Side Request for Jari
+which <00:15:24.240><c>is </c><00:15:24.760><c>also </c><00:15:25.280><c>called </c><00:15:25.800><c>SSRF, </c><00:15:26.320><c>so</c>
+
+00:15:26.509 --> 00:15:26.519 align:start position:0%
+which is also called SSRF, so
+ 
+
+00:15:26.519 --> 00:15:28.269 align:start position:0%
+which is also called SSRF, so
+Server <00:15:26.823><c>Side </c><00:15:27.127><c>Request </c><00:15:27.431><c>for </c><00:15:27.735><c>Jari </c><00:15:28.039><c>means</c>
+
+00:15:28.269 --> 00:15:28.279 align:start position:0%
+Server Side Request for Jari means
+ 
+
+00:15:28.279 --> 00:15:30.670 align:start position:0%
+Server Side Request for Jari means
+when <00:15:28.735><c>on </c><00:15:29.191><c>any </c><00:15:29.647><c>web </c><00:15:30.103><c>application, </c><00:15:30.559><c>suppose</c>
+
+00:15:30.670 --> 00:15:30.680 align:start position:0%
+when on any web application, suppose
+ 
+
+00:15:30.680 --> 00:15:58.629 align:start position:0%
+when on any web application, suppose
+we
+
+00:15:58.629 --> 00:15:59.710 align:start position:0%
+ 
+ 
+
+00:15:59.710 --> 00:15:59.720 align:start position:0%
+ 
+ 
+
+00:15:59.720 --> 00:16:01.629 align:start position:0%
+ 
+
+
+00:16:01.629 --> 00:16:01.639 align:start position:0%
+ 
+ 
+
+00:16:01.639 --> 00:16:04.509 align:start position:0%
+ 
+go <00:16:01.987><c>back </c><00:16:02.335><c>inside </c><00:16:02.683><c>the </c><00:16:03.031><c>root </c><00:16:03.379><c>directory </c><00:16:03.727><c>and </c><00:16:04.075><c>bring</c>
+
+00:16:04.509 --> 00:16:04.519 align:start position:0%
+go back inside the root directory and bring
+ 
+
+00:16:04.519 --> 00:16:06.670 align:start position:0%
+go back inside the root directory and bring
+me <00:16:04.744><c>the </c><00:16:04.969><c>password </c><00:16:05.194><c>or </c><00:16:05.419><c>any </c><00:16:05.644><c>file </c><00:16:05.869><c>saved </c><00:16:06.094><c>in </c><00:16:06.319><c>it,</c>
+
+00:16:06.670 --> 00:16:06.680 align:start position:0%
+me the password or any file saved in it,
+ 
+
+00:16:06.680 --> 00:16:28.509 align:start position:0%
+me the password or any file saved in it,
+you <00:16:07.000><c>have </c><00:16:07.320><c>any </c><00:16:07.640><c>such </c><00:16:07.960><c>URL </c><00:16:08.280><c>which </c><00:16:08.600><c>is</c>
+
+00:16:28.509 --> 00:16:28.519 align:start position:0%
+ 
+ 
+
+00:16:28.519 --> 00:16:31.389 align:start position:0%
+ 
+not <00:16:28.849><c>available </c><00:16:29.179><c>to </c><00:16:29.509><c>you, </c><00:16:29.839><c>we </c><00:16:30.169><c>call </c><00:16:30.499><c>it </c><00:16:30.829><c>Server </c><00:16:31.159><c>Side</c>
+
+00:16:31.389 --> 00:16:31.399 align:start position:0%
+not available to you, we call it Server Side
+ 
+
+00:16:31.399 --> 00:16:34.030 align:start position:0%
+not available to you, we call it Server Side
+Request <00:16:31.999><c>for </c><00:16:32.599><c>Jari, </c><00:16:33.199><c>that </c><00:16:33.799><c>is</c>
+
+00:16:34.030 --> 00:16:34.040 align:start position:0%
+Request for Jari, that is
+ 
+
+00:16:34.040 --> 00:16:37.710 align:start position:0%
+Request for Jari, that is
+serving <00:16:34.920><c>an </c><00:16:35.800><c>unintended </c><00:16:36.680><c>request, </c><00:16:37.560><c>then</c>
+
+00:16:37.710 --> 00:16:37.720 align:start position:0%
+serving an unintended request, then
+ 
+
+00:16:37.720 --> 00:16:40.350 align:start position:0%
+serving an unintended request, then
+we <00:16:38.051><c>call </c><00:16:38.382><c>it </c><00:16:38.713><c>SSRF </c><00:16:39.044><c>attack, </c><00:16:39.375><c>in </c><00:16:39.706><c>the </c><00:16:40.037><c>same</c>
+
+00:16:40.350 --> 00:16:40.360 align:start position:0%
+we call it SSRF attack, in the same
+ 
+
+00:16:40.360 --> 00:16:42.230 align:start position:0%
+we call it SSRF attack, in the same
+way <00:16:40.492><c>if </c><00:16:40.624><c>you </c><00:16:40.756><c>know </c><00:16:40.888><c>about </c><00:16:41.020><c>its </c><00:16:41.152><c>practicals  </c><00:16:41.284><c>If </c><00:16:41.416><c>you </c><00:16:41.548><c>want </c><00:16:41.680><c>to</c>
+
+00:16:42.230 --> 00:16:42.240 align:start position:0%
+way if you know about its practicals  If you want to
+ 
+
+00:16:42.240 --> 00:16:44.590 align:start position:0%
+way if you know about its practicals  If you want to
+know <00:16:42.560><c>then </c><00:16:42.880><c>please </c><00:16:43.200><c>tell </c><00:16:43.520><c>me </c><00:16:43.840><c>by </c><00:16:44.160><c>commenting,</c>
+
+00:16:44.590 --> 00:16:44.600 align:start position:0%
+know then please tell me by commenting,
+ 
+
+00:16:44.600 --> 00:16:46.150 align:start position:0%
+know then please tell me by commenting,
+I <00:16:44.793><c>will </c><00:16:44.986><c>definitely </c><00:16:45.179><c>tell </c><00:16:45.372><c>you </c><00:16:45.565><c>its </c><00:16:45.758><c>practical</c>
+
+00:16:46.150 --> 00:16:46.160 align:start position:0%
+I will definitely tell you its practical
+ 
+
+00:16:46.160 --> 00:16:48.590 align:start position:0%
+I will definitely tell you its practical
+which <00:16:46.450><c>will </c><00:16:46.740><c>make </c><00:16:47.030><c>it </c><00:16:47.320><c>more </c><00:16:47.610><c>clear </c><00:16:47.900><c>to </c><00:16:48.190><c>you, </c><00:16:48.480><c>so</c>
+
+00:16:48.590 --> 00:16:48.600 align:start position:0%
+which will make it more clear to you, so
+ 
+
+00:16:48.600 --> 00:16:51.710 align:start position:0%
+which will make it more clear to you, so
+these <00:16:48.872><c>were </c><00:16:49.144><c>the </c><00:16:49.416><c>top </c><00:16:49.688><c>10 </c><00:16:49.960><c>vanbills </c><00:16:50.232><c>of </c><00:16:50.504><c>OS, </c><00:16:50.776><c>I </c><00:16:51.048><c>hope </c><00:16:51.320><c>you </c><00:16:51.592><c>have</c>
+
+00:16:51.710 --> 00:16:51.720 align:start position:0%
+these were the top 10 vanbills of OS, I hope you have
+ 
+
+00:16:51.720 --> 00:16:53.629 align:start position:0%
+these were the top 10 vanbills of OS, I hope you have
+understood <00:16:52.266><c>it, </c><00:16:52.812><c>I </c><00:16:53.358><c>have</c>
+
+00:16:53.629 --> 00:16:53.639 align:start position:0%
+understood it, I have
+ 
+
+00:16:53.639 --> 00:16:55.710 align:start position:0%
+understood it, I have
+tried <00:16:53.821><c>to </c><00:16:54.003><c>explain </c><00:16:54.185><c>it </c><00:16:54.367><c>to </c><00:16:54.549><c>you </c><00:16:54.731><c>in </c><00:16:54.913><c>very </c><00:16:55.095><c>easy </c><00:16:55.277><c>language,</c>
+
+00:16:55.710 --> 00:16:55.720 align:start position:0%
+tried to explain it to you in very easy language,
+ 
+
+00:16:55.720 --> 00:16:57.949 align:start position:0%
+tried to explain it to you in very easy language,
+if <00:16:56.026><c>you </c><00:16:56.332><c>have </c><00:16:56.638><c>understood </c><00:16:56.944><c>even </c><00:16:57.250><c>a </c><00:16:57.556><c>little</c>
+
+00:16:57.949 --> 00:16:57.959 align:start position:0%
+if you have understood even a little
+ 
+
+00:16:57.959 --> 00:16:59.829 align:start position:0%
+if you have understood even a little
+about <00:16:58.239><c>the </c><00:16:58.519><c>top </c><00:16:58.799><c>10 </c><00:16:59.079><c>then </c><00:16:59.359><c>please </c><00:16:59.639><c>do</c>
+
+00:16:59.829 --> 00:16:59.839 align:start position:0%
+about the top 10 then please do
+ 
+
+00:16:59.839 --> 00:17:02.030 align:start position:0%
+about the top 10 then please do
+tell <00:17:00.020><c>me </c><00:17:00.201><c>by </c><00:17:00.382><c>commenting </c><00:17:00.563><c>because </c><00:17:00.744><c>only </c><00:17:00.925><c>through </c><00:17:01.106><c>this </c><00:17:01.287><c>I </c><00:17:01.468><c>come </c><00:17:01.649><c>to </c><00:17:01.830><c>know</c>
+
+00:17:02.030 --> 00:17:02.040 align:start position:0%
+tell me by commenting because only through this I come to know
+ 
+
+00:17:02.040 --> 00:17:03.829 align:start position:0%
+tell me by commenting because only through this I come to know
+that <00:17:02.359><c>you </c><00:17:02.678><c>are </c><00:17:02.997><c>liking </c><00:17:03.316><c>my </c><00:17:03.635><c>video</c>
+
+00:17:03.829 --> 00:17:03.839 align:start position:0%
+that you are liking my video
+ 
+
+00:17:03.839 --> 00:17:05.590 align:start position:0%
+that you are liking my video
+and <00:17:04.012><c>I </c><00:17:04.185><c>should </c><00:17:04.358><c>continue </c><00:17:04.531><c>making </c><00:17:04.704><c>videos </c><00:17:04.877><c>because </c><00:17:05.050><c>only </c><00:17:05.223><c>through </c><00:17:05.396><c>this</c>
+
+00:17:05.590 --> 00:17:05.600 align:start position:0%
+and I should continue making videos because only through this
+ 
+
+00:17:05.600 --> 00:17:06.909 align:start position:0%
+and I should continue making videos because only through this
+I <00:17:05.730><c>will </c><00:17:05.860><c>know </c><00:17:05.990><c>whether </c><00:17:06.120><c>I </c><00:17:06.250><c>should </c><00:17:06.380><c>continue </c><00:17:06.510><c>making </c><00:17:06.640><c>videos</c>
+
+00:17:06.909 --> 00:17:06.919 align:start position:0%
+I will know whether I should continue making videos
+ 
+
+00:17:06.919 --> 00:17:09.150 align:start position:0%
+I will know whether I should continue making videos
+or <00:17:07.919><c>not, </c><00:17:08.919><c>so</c>
+
+00:17:09.150 --> 00:17:09.160 align:start position:0%
+or not, so
+ 
+
+00:17:09.160 --> 00:17:11.350 align:start position:0%
+or not, so
+please <00:17:09.382><c>comment </c><00:17:09.604><c>down </c><00:17:09.826><c>below, </c><00:17:10.048><c>if </c><00:17:10.270><c>you </c><00:17:10.492><c>liked </c><00:17:10.714><c>the </c><00:17:10.936><c>video </c><00:17:11.158><c>then</c>
+
+00:17:11.350 --> 00:17:11.360 align:start position:0%
+please comment down below, if you liked the video then
+ 
+
+00:17:11.360 --> 00:17:13.270 align:start position:0%
+please comment down below, if you liked the video then
+like, <00:17:11.679><c>share </c><00:17:11.998><c>and </c><00:17:12.317><c>subscribe, </c><00:17:12.636><c>see </c><00:17:12.955><c>you</c>
+
+00:17:13.270 --> 00:17:13.280 align:start position:0%
+like, share and subscribe, see you
+ 
+
+00:17:13.280 --> 00:17:20.390 align:start position:0%
+like, share and subscribe, see you
+in <00:17:13.493><c>the </c><00:17:13.706><c>next </c><00:17:13.919><c>video, </c><00:17:14.132><c>till </c><00:17:14.345><c>then </c><00:17:14.558><c>goodbye</c>
+
+00:17:20.390 --> 00:17:20.400 align:start position:0%
+ 
+ 
+
+00:17:20.400 --> 00:17:23.400 align:start position:0%
+ 
+
+

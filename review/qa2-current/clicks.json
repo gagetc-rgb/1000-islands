@@ -1,0 +1,40 @@
+[
+  {
+    "group": "Desktop",
+    "action": "Start",
+    "actual": "01 Home · Desktop"
+  },
+  {
+    "group": "Mobile",
+    "action": "Start",
+    "actual": "01 Home · Mobile"
+  },
+  {
+    "board": "01 Home · Mobile",
+    "shape": "shape-0bfd160f-7257-8021-8008-c223ccd694b7",
+    "h": 48,
+    "actual": "02 Raja Ampat · Mobile"
+  },
+  {
+    "board": "01 Home · Mobile",
+    "shape": "shape-0bfd160f-7257-8021-8008-c223cce93393",
+    "h": 48,
+    "actual": "03 North Sulawesi · Mobile"
+  },
+  {
+    "board": "07 Travel agents · Mobile",
+    "shape": "shape-0bfd160f-7257-8021-8008-c2246a0eddd1",
+    "h": 44,
+    "actual": "05 Guest stories · Mobile"
+  },
+  {
+    "group": "Emails & previews",
+    "action": "Start",
+    "actual": "E1 Email · Auto-reply to traveller · Desktop"
+  },
+  {
+    "group": "Admin",
+    "action": "Start",
+    "actual": "A1 Admin · Enquiries"
+  }
+]

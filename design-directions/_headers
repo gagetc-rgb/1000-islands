@@ -1,0 +1,13 @@
+/*
+  X-Robots-Tag: noindex, nofollow
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/assets/*
+  Cache-Control: public, max-age=86400
+
+/_build/*
+  X-Robots-Tag: noindex
+
+/assets/video/*
+  Accept-Ranges: bytes

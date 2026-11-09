@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Урок 5. Формы и путь к заявке</title>
+<meta name="description" content="Подписи, лишние поля, ошибки, клавиатура телефона, двойная отправка и что происходит после заявки. Интерактивный урок.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2314171c%27/%3E%3Crect x=%277%27 y=%2718%27 width=%2718%27 height=%276%27 fill=%27%23ffe14d%27/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/GolosText-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/course.css?v=6">
+<style>
+/* lesson 5: demo-only styles */
+.demo-frame{display:block;width:100%;max-width:30rem;margin-inline:auto;height:22rem;border:2px solid var(--ink);border-radius:12px;background:#fff}
+
+.bld{display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem;align-items:start}
+@media (min-width:56rem){.bld{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.bld-opts{display:grid;gap:.15rem}
+.bld-opts label{display:flex;gap:.55rem;align-items:flex-start;font-size:.94rem;padding:.3rem .2rem;border-radius:6px;cursor:pointer}
+.bld-opts label:hover{background:var(--sunk)}
+.bld-opts input{width:1.1rem;height:1.1rem;margin:.18rem 0 0;accent-color:var(--ink);flex:none}
+.bld-opts .tg{margin-left:auto;font-size:.78rem;font-weight:650;padding:0 .4rem;border-radius:5px;white-space:nowrap;align-self:center}
+.tg.need{color:var(--good);background:var(--good-bg)}
+.tg.opt{color:#6b4a00;background:var(--mark-soft)}
+.tg.no{color:var(--bad);background:var(--bad-bg)}
+.pv{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem}
+.pv .mh{font-size:1.15rem;margin-bottom:.4rem}
+.pv-f{margin-top:.6rem}
+.pv-f span{display:block;font-size:.84rem;font-weight:600}
+.pv-f i{display:block;height:2.1rem;border:1px solid var(--ink-3);border-radius:7px;margin-top:.2rem;background:#fff}
+.pv-f i.tall{height:4rem}
+.pv-f.no span{color:var(--bad)}
+.pv-f.no i{border-color:var(--bad-line);background:var(--bad-bg)}
+.pv-f.ck{display:flex;gap:.5rem;align-items:center}
+.pv-f.ck i{width:1rem;height:1rem;margin:0;border-radius:3px;flex:none}
+.pv-btn{margin-top:.9rem;display:inline-block;background:var(--ink);color:#fff;font-weight:650;border-radius:8px;padding:.5rem 1rem;font-size:.92rem}
+
+.tm-field{max-width:24rem}
+.tm-field label{display:block;font-weight:650}
+.tm-field input{display:block;width:100%;font:inherit;padding:.55rem .7rem;margin-top:.3rem;border:1.5px solid var(--ink-3);border-radius:8px;background:#fff;color:var(--ink)}
+.tm-field input[aria-invalid=true]{border-color:var(--bad);background:var(--bad-bg)}
+.tm-err{color:var(--bad);font-size:.9rem;font-weight:600;min-height:1.4rem;margin-top:.3rem}
+.tm-row{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:.6rem}
+
+.kb-wrap{display:flex;flex-wrap:wrap;gap:1.25rem 2rem;align-items:flex-start;justify-content:center}
+.phone{width:15.5rem;border:2px solid var(--ink);border-radius:22px;background:#fff;padding:.8rem .6rem .9rem;flex:none}
+.ph-field{border:1.5px solid var(--focus);border-radius:7px;padding:.4rem .55rem;font-size:.86rem;color:var(--ink-2);margin:.2rem .2rem .7rem;min-height:2rem}
+.ph-lab{font-size:.78rem;font-weight:650;margin:0 .2rem}
+.kbd{background:#d5dae1;border-radius:10px;padding:.35rem;display:grid;gap:.3rem}
+.kbd .r{display:grid;gap:.25rem}
+.kbd b{background:#fff;border-radius:5px;font-weight:500;font-size:.78rem;text-align:center;padding:.38rem 0;box-shadow:0 1px 0 #9aa2ae}
+.kbd b.w{background:#b9c0cc}
+.kbd b.hl{background:var(--mark)}
+.kb-key{max-width:24rem}
+
+.dbl-box{display:flex;flex-wrap:wrap;gap:1rem 1.5rem;align-items:center}
+#dblBtn{font:inherit;font-weight:650;padding:.65rem 1.2rem;min-height:2.9rem;border-radius:8px;border:0;background:var(--ink);color:#fff;cursor:pointer;min-width:11rem}
+#dblBtn:disabled{background:#5a6170;cursor:progress}
+#dblInbox{list-style:none;padding:0;margin:.6rem 0 0;display:grid;gap:.3rem;font-size:.9rem}
+#dblInbox li{margin:0;padding:.3rem .6rem;border-radius:6px;background:var(--sunk);border:1px solid var(--line)}
+#dblInbox li.dup{background:var(--bad-bg);border-color:var(--bad-line)}
+
+.after{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(16rem,100%),1fr));gap:1rem;margin-top:1.4rem}
+.after > div{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1rem}
+.after .mh{margin-bottom:.4rem}
+.after p{margin-top:.35rem;font-size:.95rem}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="index.html">Матчасть</a>
+    <span class="top-here">Урок 5 из 9: формы и путь к заявке</span>
+    <a class="top-next" href="06-search.html">Следующий урок</a>
+  </div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+</header>
+
+<div class="shell">
+<nav aria-label="Содержание урока"><details class="toc"><summary>Содержание</summary><ol></ol></details></nav>
+
+<main>
+<div class="hero">
+  <h1>Урок 5. Формы и путь к заявке</h1>
+  <p class="lead">Форма это место, где сайт приносит деньги или теряет их. Человек уже решил написать, и всё, что ему мешает на последних метрах, стоит заявки.</p>
+  <p>Около 50 минут. Шесть интерактивов: подписи, лишние поля, время показа ошибки, плохая и хорошая ошибка, клавиатура телефона, двойная отправка. Почти всё здесь настоящие поля, в которые можно печатать.</p>
+  <p class="small">Пометки: ◆ стандарт или первичный источник, ◈ согласие нескольких авторов или общая практика, ◇ мнение одного автора. Источников именно по формам бронирования туров не нашлось: правила здесь общие для любых форм.</p>
+</div>
+
+<section class="sec" id="labels" data-short="Подпись, а не подсказка">
+  <h2>Подпись над полем, а не подсказка внутри</h2>
+  <p>Самая частая ошибка форм выглядит аккуратно: серое слово внутри поля вместо подписи над ним. У моделей поля без подписи есть на 15% сгенерированных страниц. <span class="ev">◈ AIMAC, октябрь 2026</span> Это <mark>placeholder</mark>. Он исчезает, как только человек начинает печатать, и дальше поле остаётся без имени. Против этого все шесть авторов в подборке и три первичных источника. <span class="ev">◆ GOV.UK Design System, MDN, WCAG 3.3.2; ◈ шесть авторов</span></p>
+
+  <div class="stage" id="ph" data-ver="bad">
+    <div class="stage-head">
+      <span class="stage-title">Начни заполнять форму</span>
+      <div class="seg" role="group" aria-label="Версия формы">
+        <button type="button" class="is-bad" data-set="ver=bad" aria-pressed="true">Подсказки внутри</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Подписи над полями</button>
+      </div>
+    </div>
+    <div class="controls"><button type="button" class="btn ghost" id="phFill">Заполнить за меня</button></div>
+    <div class="stage-body sunk"><iframe class="demo-frame" id="phFrame" title="Форма заявки на тур"></iframe></div>
+    <div class="stage-foot"><p id="phOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>GOV.UK перечисляет причины прямо: подсказка исчезает при вводе, и людям с проблемами памяти и всем, кто перепроверяет ответы, становится трудно; не все программы экранного доступа её читают; серый цвет подсказки по умолчанию обычно не проходит по контрасту. <span class="ev">◆ GOV.UK, проверено по тексту</span> Отсюда же правило для подсказок вроде «DD/MM»: они живут под подписью отдельной строкой, а не внутри поля.</p>
+  <p>Подписи ставят над полем, форма идёт в одну колонку. На телефоне по-другому и не получится, а на компьютере так быстрее заполнять. <span class="ev">◆ GOV.UK; ◈ четыре автора</span></p>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Every field has a visible label element above it. Never use placeholder as a label or for hints; hints go in a separate line under the label, tied with aria-describedby.</li>
+      <li>One column. Labels above fields.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="fields" data-short="Сколько полей">
+  <h2>Каждое поле должно заработать своё место</h2>
+  <p>Baymard Institute годами тестирует оформление заказов в интернет-магазинах. Их вывод: большинству сайтов нужно 8 полей на весь заказ, а в среднем в 2024 году их было 11,3. И важно не число шагов, а число полей, над которыми человек должен подумать. <span class="ev">◆ Baymard, страница 2024 года</span> Это данные по корзинам магазинов, а не по заявкам на тур, но принцип тот же, и с ним согласны все авторы про формы. <span class="ev">◈ четыре автора</span></p>
+
+  <div class="stage" id="bld">
+    <div class="stage-head">
+      <span class="stage-title">Собери форму заявки на тур</span>
+      <div class="seg" role="group" aria-label="Примеры">
+        <button type="button" data-preset="ai">Типичная ошибка</button>
+        <button type="button" data-preset="min">Минимум</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="bld">
+        <div class="bld-opts" id="bldOpts"></div>
+        <div class="pv" aria-hidden="true"><div class="mh">Ask about this trip</div><div id="bldPv"></div><span class="pv-btn">Send enquiry</span></div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="bldOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>Пометки «нужно», «по желанию», «лишнее» это не закон, а разумное правило для первой заявки. Паспорт, дата рождения и адрес понадобятся, когда человек уже бронирует, и спросить их можно позже, в письме. Чем меньше данных собираешь, тем меньше отвечаешь за их хранение: об этом в уроке 7.</p>
+  <ul>
+    <li><strong>Одно поле для имени.</strong> «Имя» и «Фамилия» раздельно ломаются на именах из других культур и добавляют поле. <span class="ev">◇ Baymard и Friedman</span></li>
+    <li><strong>Не просить ввести email дважды.</strong> Это мнение авторов, а не запрет стандарта: WCAG разрешает повтор там, где он нужен для безопасности. <span class="ev">◆ WCAG 3.3.7; ◇ два автора</span></li>
+    <li><strong>Помечать необязательные поля словом «(optional)»</strong>, а не обязательные звёздочкой. <span class="ev">◆ GOV.UK; ◈ два автора, третий не выбирает</span></li>
+    <li><strong>Никакой кнопки «Очистить».</strong> Её нажимают случайно вместо «Отправить». <span class="ev">◇ два автора</span></li>
+  </ul>
+
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>«Полная» форма по шаблону: обращение, имя и фамилия раздельно, страна, «откуда вы о нас узнали», подтверждение email, капча. <span class="ev">◈ Baymard, Friedman, GOV.UK</span></li>
+      <li>Галочка «подписаться на рассылку» уже отмечена. Это не только раздражает, но и не считается согласием: подробнее в уроке 7. <span class="ev">◆ GDPR, пункт 32 преамбулы</span></li>
+      <li>Все поля обязательные. <span class="ev">◈ Grundy</span></li>
+    </ul>
+    <p class="small">Ошибки в формах, которые делают именно нынешние модели, в наших источниках никто не разбирал. Единственное измерение: в бенчмарке AIMAC поля без подписи есть на 15% страниц, которые сделали модели (подробнее в уроке 4).</p>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Enquiry form fields: full name, email, phone or WhatsApp (optional), approximate dates, number of guests, message (optional). The tour is prefilled from the page. Nothing else.</li>
+      <li>Mark optional fields with "(optional)" in the label. No reset button. No confirm-email field. No pre-ticked boxes.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="timing" data-short="Когда показывать ошибку">
+  <h2>Когда показывать ошибку</h2>
+  <p>Проверка «на лету» звучит заботливо. Но если проверять каждую букву, человек видит «неверный email» с первого символа и до последнего, хотя ничего неверного ещё не сделал. Три автора сходятся: ошибку показывают, когда человек ушёл из поля или нажал «Отправить», а не пока он печатает. <span class="ev">◈ Grundy, Sabot, Friedman; стандарта на это нет</span></p>
+
+  <div class="stage" id="tm" data-mode="key">
+    <div class="stage-head">
+      <span class="stage-title">Введи email</span>
+      <div class="seg" role="group" aria-label="Когда проверять">
+        <button type="button" class="is-bad" data-set="mode=key" aria-pressed="true">На каждую букву</button>
+        <button type="button" class="is-good" data-set="mode=blur" aria-pressed="false">При уходе из поля</button>
+        <button type="button" data-set="mode=submit" aria-pressed="false">Только при отправке</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="tm-field">
+        <label for="tmEmail">Email</label>
+        <input id="tmEmail" type="email" autocomplete="off" spellcheck="false" aria-describedby="tmErr">
+        <p class="tm-err" id="tmErr"></p>
+        <div class="tm-row">
+          <button type="button" class="btn ghost" id="tmType">Напечатать за меня</button>
+          <button type="button" class="btn ghost" id="tmSubmit">Отправить</button>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="tmOut" class="readout" aria-live="polite"></p></div>
+  </div>
+
+  <p>Третий вариант тоже рабочий, особенно для коротких форм. Хуже всего первый. Есть и более тонкая схема: хвалить сразу, ругать поздно, то есть показывать галочку, как только поле стало верным, а ошибку только при уходе. <span class="ev">◇ Friedman</span></p>
+</section>
+
+<section class="sec" id="errors-ui" data-short="Как выглядит ошибка">
+  <h2>Как выглядит хорошая ошибка</h2>
+  <p>Правило из стандарта: поле с ошибкой названо, а сама ошибка описана текстом. <span class="ev">◆ WCAG 3.3.1</span> Практика сверху: сообщение стоит рядом с полем и говорит, как исправить; для длинной формы сверху добавляют сводку со ссылками на поля; введённое не стирается. <span class="ev">◆ GOV.UK; ◈ пять авторов</span></p>
+
+  <div class="stage" id="err" data-ver="bad">
+    <div class="stage-head">
+      <span class="stage-title">Нажми «Send enquiry» в форме, заполненной с ошибками</span>
+      <div class="seg" role="group" aria-label="Версия">
+        <button type="button" class="is-bad" data-set="ver=bad" aria-pressed="true">Типичная ошибка</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Как надо</button>
+      </div>
+    </div>
+    <div class="stage-body sunk"><iframe class="demo-frame" id="errFrame" title="Форма с ошибками" style="height:30rem"></iframe></div>
+    <div class="stage-foot"><p id="errOut" class="readout" aria-live="polite">В форме уже введено имя и email с ошибкой, число гостей пустое. Нажми кнопку отправки внутри рамки.</p></div>
+  </div>
+
+  <div class="pair">
+    <div>
+      <p><span class="tag bad">Плохие тексты ошибок</span></p>
+      <ul>
+        <li>Invalid input.</li>
+        <li>Error 422.</li>
+        <li>Something went wrong. Please try again.</li>
+        <li>This field is required. (у пяти полей подряд)</li>
+      </ul>
+    </div>
+    <div>
+      <p><span class="tag good">Хорошие</span></p>
+      <ul>
+        <li>Enter an email address in the format name@example.com</li>
+        <li>Enter the number of guests, from 1 to 12</li>
+        <li>Choose a date after today</li>
+        <li>We could not send your enquiry. Your answers are saved: try again, or message us on WhatsApp.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="small">Формат «Enter … in the format …» взят из стиля GOV.UK. Ошибку там подписывают скрытым словом «Error:» для программ экранного доступа, а красный цвет сопровождают рамкой и текстом, чтобы смысл не держался на одном цвете. <span class="ev">◆ GOV.UK</span></p>
+
+  <h3>Проверка браузера или своя</h3>
+  <p>Здесь авторы расходятся честно. Один советует пользоваться встроенной проверкой браузера (<code>required</code>, <code>type="email"</code>): это бесплатно и доступно. GOV.UK прямо говорит её не использовать, потому что вид и текст пузырей браузера нельзя сделать единообразными, и ставит формам <code>novalidate</code>. <span class="ev">◆ GOV.UK против ◇ Silktide</span> Практичный вывод: встроенная проверка допустима как минимум, но если модель сделала свои сообщения, они должны быть не хуже описанных выше.</p>
+
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Одно общее сообщение сверху «Please fix the errors» без указания, где. <span class="ev">◈ Friedman, Silktide</span></li>
+      <li>Все поля стираются после неудачной отправки. <span class="ev">◇ Friedman</span></li>
+      <li>Ошибка показана только красной рамкой, без текста. <span class="ev">◆ WCAG 1.4.1; ◈ Osmani</span></li>
+      <li>Каждая ошибка объявляется через <code>role="alert"</code>: программа экранного доступа выкрикивает их все разом. Достаточно одного объявления на сводку. <span class="ev">◈ Weakley, Silktide</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Validate when the user leaves a field and on submit, never on each keystroke and never on focus.</li>
+      <li>Error messages sit under the label, say what is wrong and how to fix it, are linked with aria-describedby, and the field gets aria-invalid="true". Red border plus text, not colour alone.</li>
+      <li>On submit with errors: show an error summary at the top with links to each field, move focus to it, keep everything the user typed.</li>
+      <li>Write error texts in the form "Enter … in the format …"; show me all of them in a list.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="mobile" data-short="Клавиатура телефона">
+  <h2>Правильная клавиатура и автозаполнение</h2>
+  <p>Атрибут <code>type</code> у поля говорит телефону, какую клавиатуру показать. <code>autocomplete</code> говорит браузеру, что подставить из сохранённого: имя, email, телефон. Это бесплатные секунды для человека, и про них согласны все авторы. <span class="ev">◆ web.dev; ◆ WCAG 1.3.5; ◈ четыре автора</span></p>
+
+  <div class="stage" id="kb" data-type="text">
+    <div class="stage-head">
+      <span class="stage-title">Какую клавиатуру увидит человек</span>
+      <div class="seg" role="group" aria-label="Тип поля">
+        <button type="button" class="is-bad" data-set="type=text" aria-pressed="true">type="text" для всего</button>
+        <button type="button" data-set="type=email" aria-pressed="false">email</button>
+        <button type="button" data-set="type=tel" aria-pressed="false">tel</button>
+        <button type="button" data-set="type=numeric" aria-pressed="false">inputmode="numeric"</button>
+      </div>
+    </div>
+    <div class="stage-body sunk">
+      <div class="kb-wrap">
+        <div class="phone" aria-hidden="true">
+          <p class="ph-lab" id="kbLab">Email</p>
+          <div class="ph-field" id="kbVal"></div>
+          <div class="kbd" id="kbKeys"></div>
+        </div>
+        <div class="kb-key">
+          <pre class="code" id="kbCode"></pre>
+          <p id="kbOut" class="readout" aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p class="small">Схема: вид клавиатур упрощён, на iPhone и Android они выглядят по-разному, но набор клавиш именно такой.</p></div>
+  </div>
+
+  <p>Для числа гостей <code>type="number"</code> кажется очевидным, но у него есть неприятности: стрелки в поле, прокрутка колесом меняет значение. Для количества людей проще обычное поле с <code>inputmode="numeric"</code> или кнопки «минус» и «плюс». <span class="ev">◇ общая практика, источника в подборке нет</span></p>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Use the right type and autocomplete on every field: name autocomplete="name", email type="email" autocomplete="email", phone type="tel" autocomplete="tel".</li>
+      <li>Number of guests: inputmode="numeric" or a stepper with minus and plus buttons, not type="number".</li>
+      <li>Dates: a native date input unless I approve a custom picker; a custom picker must work with the keyboard.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="submit" data-short="Кнопка и отправка">
+  <h2>Кнопка отправки и двойная заявка</h2>
+  <p>Кнопка называется тем, что она делает: «Send enquiry», «Check availability», а не «Submit» и не «OK». <span class="ev">◈ два автора; ◈ общая практика</span> После нажатия она сразу показывает, что работа идёт. Иначе на медленной сети человек нажимает ещё раз, и менеджер получает две одинаковые заявки.</p>
+
+  <div class="stage" id="dbl" data-ver="bad">
+    <div class="stage-head">
+      <span class="stage-title">Медленная сеть: ответ сервера через 2,5 секунды</span>
+      <div class="seg" role="group" aria-label="Версия кнопки">
+        <button type="button" class="is-bad" data-set="ver=bad" aria-pressed="true">Без реакции</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Блокируется после нажатия</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="dbl-box">
+        <button type="button" id="dblBtn">Send enquiry</button>
+        <button type="button" class="btn ghost" id="dblReset">Сбросить</button>
+      </div>
+      <p id="dblMsg" class="readout" aria-live="polite">Нажми кнопку несколько раз подряд, как человек, который не уверен, сработало ли.</p>
+      <ul id="dblInbox" aria-label="Почта менеджера"></ul>
+    </div>
+    <div class="stage-foot"><p class="small">Симуляция сервера: заявка «приходит» через 2,5 секунды после каждого нажатия.</p></div>
+  </div>
+
+  <p>Здесь авторы спорят только про момент. Friedman против кнопки, заблокированной до отправки: если скрипт не загрузится, форма не отправится никогда. Sabot за блокировку после нажатия с индикатором. Одно другому не мешает: до нажатия кнопка всегда активна, после нажатия блокируется. <span class="ev">◇ два автора с разными позициями</span></p>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>The submit button says what it does ("Send enquiry"). It is never disabled before submit.</li>
+      <li>After a click it immediately shows "Sending…" and ignores further clicks until the request finishes. On success, replace the form with a confirmation; on failure, keep the data and show what to do.</li>
+      <li>Protect against spam with a honeypot field and server-side checks, not a CAPTCHA, unless spam becomes a real problem.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="after" data-short="После отправки">
+  <h2>Что происходит после «Отправить»</h2>
+  <p>Форма в прототипе может только выглядеть рабочей. Кнопка показывает «Thank you», а заявка никуда не уходит. У статичного сайта нет своего сервера, поэтому для формы нужен обработчик: функция на хостинге или внешний сервис форм. Это первое, что нужно спросить у модели. <span class="ev">◈ общая практика</span> Как часто модели оставляют такую заглушку, никто не измерял. <span class="ev">◇</span></p>
+
+  <div class="after">
+    <div><div class="mh">Куда уходит заявка</div><p>На почту менеджеру, в таблицу, в CRM. Модель должна назвать точный адрес и сервис. Ответ «форма готова» без этого не принимается.</p></div>
+    <div><div class="mh">Что видит человек</div><p>Подтверждение на месте формы: что получено, когда ответят и как ещё можно связаться. Обещание «ответим в течение суток» только если это правда.</p></div>
+    <div><div class="mh">Что приходит на почту</div><p>Копия заявки клиенту. Письма с домена сайта без настроенных SPF, DKIM и DMARC часто попадают в спам: это урок 8. <span class="ev">◆ правила Gmail для отправителей</span></p></div>
+    <div><div class="mh">Как это посчитать</div><p>Успешная отправка это событие аналитики. Google рекомендует для форм имя <code>generate_lead</code> и называет главные события key events. Отмечают успешную отправку, а не просмотр страницы. <span class="ev">◆ справка Google Analytics; ◈ три автора</span></p></div>
+  </div>
+
+  <div class="note human">
+    <p class="nt">Где ошибаются люди</p>
+    <ul>
+      <li>Не отправляют пробную заявку с настоящего адреса после публикации. Через месяц выясняется, что все письма лежали в спаме. <span class="ev">◈ Gauld; перекрёстная проверка по аналитике</span></li>
+      <li>Считают заявкой общий просмотр любой страницы вместо отдельного события. Большинство авторов принимают событие на странице «Спасибо». <span class="ev">◈ восемь видео по аналитике</span> Надёжнее событие на успешный ответ сервера: страницу «Спасибо» можно открыть повторно, обновить или найти в поиске. <span class="ev">◇ наша позиция строже источников</span></li>
+      <li>Не дают второго канала. Если форма сломалась, человек должен видеть телефон или мессенджер. <span class="ev">◇ наш совет, в источниках этого нет</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Tell me exactly where form submissions go (service, address, storage) and how I can test it. A form that does not send is not done.</li>
+      <li>After success, replace the form with a confirmation that says what happens next; send the visitor a copy.</li>
+      <li>Fire a generate_lead analytics event only on a successful server response, not on button click or page view.</li>
+      <li>Show a phone or WhatsApp link near the form as a fallback.</li>
+    </ul>
+  </div>
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <ul>
+      <li>Открой форму на телефоне. Начни печатать: подписи видны? Клавиатура подходящая?</li>
+      <li>Нажми «Отправить» на пустой форме. Ошибки текстом у каждого поля? Введённое не стёрлось?</li>
+      <li>Пройди форму клавишей Tab и отправь с клавиатуры.</li>
+      <li>Отправь настоящую заявку на свой адрес. Дошла? Не в спаме? Пришла ли копия?</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="errors" data-short="10 типичных ошибок">
+  <h2>Десять типичных ошибок форм</h2>
+  <ol class="cases">
+    <li><div class="mh">1. Placeholder вместо подписи</div><p>Подпись исчезает при вводе.</p><p><code>Visible label above the field.</code></p></li>
+    <li><div class="mh">2. Лишние поля</div><p>Обращение, страна, «откуда узнали», капча.</p><p><code>Only what the first reply needs.</code></p></li>
+    <li><div class="mh">3. Ошибка на каждую букву</div><p>Человека ругают, пока он ещё печатает.</p><p><code>Validate on blur and submit.</code></p></li>
+    <li><div class="mh">4. «Invalid input»</div><p>Не сказано, что не так и как исправить.</p><p><code>Say how to fix it.</code></p></li>
+    <li><div class="mh">5. Стёртые поля после ошибки</div><p>Человек вводит всё заново или уходит.</p><p><code>Keep all input.</code></p></li>
+    <li><div class="mh">6. Ошибка только цветом</div><p>Красная рамка без текста.</p><p><code>Text plus border, aria-invalid.</code></p></li>
+    <li><div class="mh">7. type="text" везде</div><p>Неудобная клавиатура, нет автозаполнения.</p><p><code>type and autocomplete per field.</code></p></li>
+    <li><div class="mh">8. Кнопка «Submit» без реакции</div><p>Двойные заявки на медленной сети.</p><p><code>"Sending…" and ignore repeat clicks.</code></p></li>
+    <li><div class="mh">9. Форма, которая никуда не отправляет</div><p>«Thank you» есть, письма нет.</p><p><code>Name the handler; test with a real submit.</code></p></li>
+    <li><div class="mh">10. Отмеченная галочка рассылки</div><p>Раздражает и не считается согласием.</p><p><code>Unticked, separate, optional.</code></p></li>
+  </ol>
+</section>
+
+<section class="sec" id="accept" data-short="Чек-лист приёмки">
+  <h2>Чек-лист приёмки формы</h2>
+  <ul class="checklist" data-id="l5">
+    <li><label><input type="checkbox"><span>У каждого поля видимая подпись над ним; подсказки отдельной строкой.</span></label></li>
+    <li><label><input type="checkbox"><span>Одна колонка; полей только столько, сколько нужно для первого ответа; необязательные помечены «(optional)».</span></label></li>
+    <li><label><input type="checkbox"><span>Правильные type и autocomplete; на телефоне подходящая клавиатура.</span></label></li>
+    <li><label><input type="checkbox"><span>Ошибки появляются при уходе из поля или при отправке, не во время ввода.</span></label></li>
+    <li><label><input type="checkbox"><span>Тексты ошибок говорят, как исправить; рядом с полем; не только цветом.</span></label></li>
+    <li><label><input type="checkbox"><span>При ошибке введённое сохраняется, фокус переходит к сводке.</span></label></li>
+    <li><label><input type="checkbox"><span>Кнопка названа действием и после нажатия показывает отправку; двойной заявки не получается.</span></label></li>
+    <li><label><input type="checkbox"><span>Нет отмеченных заранее галочек и кнопки «Очистить».</span></label></li>
+    <li><label><input type="checkbox"><span>Форма проходится и отправляется клавиатурой.</span></label></li>
+    <li><label><input type="checkbox"><span>Я знаю, куда уходит заявка, и отправил настоящую пробную: письмо дошло не в спам.</span></label></li>
+    <li><label><input type="checkbox"><span>После отправки видно, что будет дальше; рядом есть запасной канал связи.</span></label></li>
+    <li><label><input type="checkbox"><span>Событие generate_lead срабатывает только на успешную отправку.</span></label></li>
+  </ul>
+</section>
+
+<section class="sec" id="quiz" data-short="Тест">
+  <h2>Проверь себя</h2>
+  <div class="quiz" data-quiz="l5">
+    <script type="application/json">
+[
+ {"q":"Модель сделала поля только с серыми подсказками внутри, без подписей. Главная проблема?","opts":["Это некрасиво","Подсказка исчезает при вводе, и поле остаётся без имени; её не все программы читают и у неё слабый контраст","Подсказки медленно грузятся","Так нельзя на телефоне по закону"],"a":1,"why":"GOV.UK и MDN прямо советуют не заменять подпись подсказкой. Нужна видимая подпись над полем."},
+ {"q":"Что важнее для удобства длинной формы по данным Baymard?","opts":["Число шагов","Число полей, над которыми надо подумать","Цвет кнопки","Наличие капчи"],"a":1,"why":"Baymard: важны поля, а не шаги. Большинству магазинов хватает 8 полей, в среднем их 11,3."},
+ {"q":"Когда лучше показывать ошибку в поле email?","opts":["С первой буквы","Когда человек ушёл из поля или нажал «Отправить»","Когда поле получило фокус","Никогда, пусть сервер разберётся"],"a":1,"why":"Три автора сходятся: не ругать, пока человек печатает. Стандарта на момент нет, это практика."},
+ {"q":"Какой текст ошибки лучше?","opts":["Invalid input","Error 422","Enter an email address in the format name@example.com","Something went wrong"],"a":2,"why":"Хорошая ошибка говорит, что не так и как исправить."},
+ {"q":"После отправки с ошибкой форма очистилась. Что сказать модели?","opts":["Так и надо, для безопасности","Keep everything the user typed; show errors next to fields and a summary on top","Добавить капчу","Сделать форму короче"],"a":1,"why":"Стёртые поля заставляют вводить всё заново, многие просто уходят."},
+ {"q":"Зачем у поля email атрибут autocomplete=\"email\"?","opts":["Чтобы проверить адрес на сервере","Чтобы браузер предложил подставить сохранённый адрес; это и удобство, и требование WCAG 1.3.5","Для SEO","Чтобы скрыть адрес"],"a":1,"why":"autocomplete даёт автозаполнение и позволяет программам понять назначение поля."},
+ {"q":"На медленной сети менеджер получает по две одинаковые заявки. Что не так?","opts":["Сервер дублирует письма","Кнопка не реагирует на нажатие, и человек жмёт второй раз","Слишком длинная форма","Неверный email"],"a":1,"why":"После нажатия кнопка должна сразу показать «Sending…» и игнорировать повторные нажатия."},
+ {"q":"Модель говорит: «Форма готова, показывает Thank you». Что спросить в первую очередь?","opts":["Какой шрифт у кнопки","Куда уходит заявка и как это проверить","Можно ли добавить анимацию","Сколько строк кода"],"a":1,"why":"У статичного сайта нет своего сервера. Без обработчика форма только делает вид, что работает."},
+ {"q":"Как правильно считать заявки в аналитике?","opts":["По просмотрам страницы «Спасибо»","Событием generate_lead на успешный ответ сервера, отмеченным как key event","По нажатиям кнопки","Не считать"],"a":1,"why":"Нажатие не значит, что заявка ушла. Событие на странице «Спасибо» большинство авторов считают допустимым, но её можно открыть повторно и найти в поиске, поэтому успешный ответ сервера надёжнее."},
+ {"q":"Галочка «Subscribe to our newsletter» стоит заранее. Это нормально?","opts":["Да, так больше подписчиков","Нет: отмеченная заранее галочка не считается согласием и раздражает","Да, если она внизу формы","Нормально, если шрифт мелкий"],"a":1,"why":"Суд ЕС (Planet49) и правила GDPR: заранее отмеченная галочка не согласие. Подробнее в уроке 7."}
+]
+    </script>
+  </div>
+</section>
+
+<section class="sec" id="sources" data-short="Источники">
+  <h2>Откуда это взято</h2>
+  <ul>
+    <li>◆ GOV.UK Design System: text input, question pages, error message, error summary, validation. Проверено по тексту.</li>
+    <li>◆ MDN (placeholder), web.dev (payment and address forms: label, type, autocomplete), WCAG 2.2: 1.3.5, 1.4.11, 3.3.1, 3.3.2, 3.3.7.</li>
+    <li>◆ Baymard Institute: средние числа полей и шагов 2024 года. Компания продаёт исследования, учитывай это.</li>
+    <li>◆ Справка Google Analytics: key event, рекомендованное событие generate_lead. Правила Gmail для отправителей.</li>
+    <li>◈ Видео: Russ Weakley (A11y Bytes), Julie Grundy, Bruno Sabot (fr), Christian Holst (Baymard), Vitaly Friedman, Silktide. Grundy, Friedman и Sabot опираются на одну и ту же литературу о формах, поэтому их согласие весит меньше, чем кажется.</li>
+  </ul>
+  <p class="small">Не проверено и в урок не вошло: история о том, как Expedia заработала 12 миллионов долларов на одном удалённом поле, и цифры про долю людей, которые копируют email. Источников по формам бронирования туров (выбор дат, число гостей, оплата) в подборке нет.</p>
+  <p class="small">В блоках «Где ошибаются нейронки» стоит только то, что видели в выдаче моделей 2025–2026 годов, с моделью и датой. Реальные ошибки без такого подтверждения собраны в блоках «Частые ошибки: у людей и у нейронок», и метка там подтверждает правило, а не привычку моделей. Разбор по каждому утверждению: PROVENANCE_ERRORS.md, AUDIT_INDEPENDENT.md, EXTERNAL_CHECK.md.</p>
+</section>
+</main>
+</div>
+
+<footer class="foot">
+  <nav aria-label="Навигация по курсу"><a href="04-access.html">Урок 4. Доступность</a><a href="06-search.html">Урок 6. Поиск и шаринг</a><a href="index.html">Все уроки</a></nav>
+</footer>
+
+<script src="assets/course.js?v=6"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const { $, $$ } = Course;
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const FCSS = `<style>*{box-sizing:border-box}body{margin:0;padding:16px;font:15px/1.45 system-ui,'Segoe UI',sans-serif;color:#14171c;background:#fff}
+  h2{font-size:19px;margin:0 0 10px}.f{margin-bottom:12px}label{display:block;font-weight:650;font-size:14px}.hint{font-size:13px;color:#4a515e;margin-top:1px}
+  input,textarea{display:block;width:100%;font:inherit;padding:9px 10px;border:1.5px solid #6b7280;border-radius:8px;margin-top:4px;background:#fff;color:#14171c}
+  input::placeholder,textarea::placeholder{color:#a3a9b3}
+  .btn{background:#14171c;color:#fff;border:0;border-radius:8px;padding:10px 16px;font:650 15px system-ui,sans-serif;cursor:pointer}
+  .err{color:#a1261d;font-weight:650;font-size:13.5px;margin-top:3px}.bad{border-color:#a1261d;background:#fbe7e4}
+  .sum{border:3px solid #a1261d;border-radius:8px;padding:10px 12px;margin-bottom:12px}.sum p{margin:0 0 4px;font-weight:700}.sum a{display:block;color:#a1261d;font-weight:600}
+  .banner{background:#a1261d;color:#fff;padding:10px 12px;border-radius:8px;margin-bottom:12px;font-weight:650}
+  input:focus-visible,textarea:focus-visible,a:focus-visible,.sum:focus-visible{outline:3px solid #1f5eff;outline-offset:2px}</style>`;
+
+  /* 1. Placeholder vs label */
+  const PH_BAD = FCSS + `<h2>Ask about this trip</h2>
+  <div class="f"><input id="a" placeholder="Full name"></div>
+  <div class="f"><input id="b" placeholder="Preferred date (DD/MM)"></div>
+  <div class="f"><input id="c" placeholder="Number of guests (children under 5 free)"></div>
+  <div class="f"><input id="d" placeholder="Email we will reply to"></div>`;
+  const PH_GOOD = FCSS + `<h2>Ask about this trip</h2>
+  <div class="f"><label for="a">Full name</label><input id="a" autocomplete="name"></div>
+  <div class="f"><label for="b">Preferred date</label><div class="hint" id="bh">For example, 14/03</div><input id="b" aria-describedby="bh"></div>
+  <div class="f"><label for="c">Number of guests</label><div class="hint" id="ch">Children under 5 travel free</div><input id="c" inputmode="numeric" aria-describedby="ch"></div>
+  <div class="f"><label for="d">Email</label><div class="hint" id="dh">We reply to this address</div><input id="d" type="email" autocomplete="email" aria-describedby="dh"></div>`;
+  const ph = $('#ph'); const phFrame = $('#phFrame');
+  function phReport() {
+    const d = phFrame.contentDocument; if (!d || !d.body) return;
+    const filled = [...d.querySelectorAll('input')].filter((i) => i.value);
+    if (!filled.length) { $('#phOut').innerHTML = 'Щёлкни в любое поле и начни печатать, или нажми «Заполнить за меня».'; return; }
+    if (ph.dataset.ver === 'bad') {
+      $('#phOut').innerHTML = `<span class="verdict no">Заполнено ${filled.length} из 4, и у этих полей больше нет подписи.</span> Видно только «${filled.map((i) => esc(i.value)).join('», «')}». Что из этого дата, а что число гостей? И про бесплатных детей подсказка тоже исчезла.`;
+    } else {
+      $('#phOut').innerHTML = `<span class="verdict ok">Заполнено ${filled.length} из 4, и над каждым значением видно, что это.</span> Подсказки остались на месте, их можно перечитать.`;
+    }
+  }
+  phFrame.addEventListener('load', () => { phFrame.contentDocument.addEventListener('input', phReport); phReport(); });
+  ph.addEventListener('statechange', () => { phFrame.srcdoc = ph.dataset.ver === 'bad' ? PH_BAD : PH_GOOD; });
+  $('#phFill').addEventListener('click', () => {
+    const d = phFrame.contentDocument; const v = ['Maria Lopez', '14/03', '3', 'maria@example.com'];
+    d.querySelectorAll('input').forEach((i, k) => { i.value = v[k]; });
+    phReport();
+  });
+  phFrame.srcdoc = PH_BAD;
+
+  /* 2. Field builder */
+  const F = [
+    { id: 'name', l: 'Full name', t: 'need', why: 'нужно, чтобы обратиться к человеку', on: 0, min: 1 },
+    { id: 'split', s: 'First name + Last name', l: 'First name + Last name, раздельно', t: 'no', why: 'лишнее поле; одного «Full name» хватает', on: 1, parts: ['First name', 'Last name'] },
+    { id: 'title', s: 'Title', l: 'Title (Mr, Mrs, Ms)', t: 'no', why: 'ничего не даёт для ответа', on: 1 },
+    { id: 'email', l: 'Email', t: 'need', why: 'куда отвечать', on: 1, min: 1 },
+    { id: 'email2', l: 'Confirm email', t: 'no', why: 'повторный ввод; ошибку в адресе лучше показать при уходе из поля', on: 1 },
+    { id: 'phone', l: 'Phone or WhatsApp (optional)', t: 'opt', why: 'многим удобнее мессенджер; помечено как необязательное', on: 1, min: 1 },
+    { id: 'country', l: 'Country', t: 'no', why: 'для первого ответа не нужно', on: 1 },
+    { id: 'dates', l: 'Approximate dates', t: 'need', why: 'без дат нельзя ответить про наличие мест', on: 1, min: 1 },
+    { id: 'guests', l: 'Number of guests', t: 'need', why: 'от этого зависит цена', on: 1, min: 1 },
+    { id: 'msg', l: 'Message (optional)', t: 'opt', why: 'для особых пожеланий; необязательное', on: 1, min: 1, tall: 1 },
+    { id: 'hear', l: 'How did you hear about us?', t: 'no', why: 'это знает аналитика, человека спрашивать незачем', on: 1 },
+    { id: 'dob', l: 'Date of birth and passport number', t: 'no', why: 'понадобится только при бронировании; лишние персональные данные это лишняя ответственность', on: 1, parts: ['Date of birth', 'Passport number'] },
+    { id: 'news', s: 'Newsletter', l: 'Newsletter, галочка стоит заранее', t: 'no', why: 'заранее отмеченная галочка не считается согласием', on: 1, ck: 1 },
+    { id: 'captcha', l: 'CAPTCHA', t: 'no', why: 'отсекает и людей; сначала скрытое поле-ловушка и проверки на сервере', on: 1 }
+  ];
+  const TAG = { need: 'нужно', opt: 'по желанию', no: 'лишнее' };
+  $('#bldOpts').innerHTML = F.map((f) => `<label><input type="checkbox" data-f="${f.id}" ${f.on ? 'checked' : ''}><span>${esc(f.l)}</span><span class="tg ${f.t}">${TAG[f.t]}</span></label>`).join('');
+  function bldRender() {
+    const on = F.filter((f) => $(`[data-f="${f.id}"]`).checked);
+    $('#bldPv').innerHTML = on.map((f) => {
+      if (f.ck) return `<div class="pv-f ck no"><i></i><span>Subscribe me ✓</span></div>`;
+      return (f.parts || [f.l]).map((l) => `<div class="pv-f ${f.t === 'no' ? 'no' : ''}"><span>${esc(l)}</span><i class="${f.tall ? 'tall' : ''}"></i></div>`).join('');
+    }).join('');
+    const count = on.reduce((a, f) => a + (f.parts ? f.parts.length : 1), 0);
+    const extra = on.filter((f) => f.t === 'no');
+    const missing = F.filter((f) => f.t === 'need' && !on.includes(f) && !(f.id === 'name' && on.some((x) => x.id === 'split')));
+    let out = `Полей в форме: <strong>${count}</strong>. `;
+    if (missing.length) out += `<span class="verdict no">Не хватает нужного: ${missing.map((f) => esc(f.l)).join(', ')}.</span> `;
+    if (extra.length) out += `<span class="verdict no">Лишних: ${extra.length}.</span> ` + extra.map((f) => `${esc(f.s || f.l)}: ${f.why}`).join('; ') + '.';
+    if (!extra.length && !missing.length) out += '<span class="verdict ok">Только то, что нужно для первого ответа.</span> Красные пункты можно спросить позже, в переписке.';
+    $('#bldOut').innerHTML = out;
+  }
+  $('#bldOpts').addEventListener('change', bldRender);
+  $$('#bld [data-preset]').forEach((b) => b.addEventListener('click', () => {
+    F.forEach((f) => { $(`[data-f="${f.id}"]`).checked = b.dataset.preset === 'ai' ? !!f.on : !!f.min; });
+    $$('#bld [data-preset]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    bldRender();
+  }));
+  bldRender();
+
+  /* 3. Validation timing */
+  const tm = $('#tm'); const tmIn = $('#tmEmail'); let flashes = 0; let shown = false; let typing = null; let keys = 0; let redKeys = 0;
+  const valid = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+  function setErr(on) {
+    if (on && !shown) flashes += 1;
+    shown = on;
+    tmIn.setAttribute('aria-invalid', String(on));
+    $('#tmErr').textContent = on ? 'Enter an email address in the format name@example.com' : '';
+  }
+  function tmReport(final) {
+    const m = tm.dataset.mode; const v = tmIn.value;
+    let out;
+    if (m === 'key') out = redKeys > 1 ? `<span class="verdict no">Поле было красным на ${redKeys} из ${keys} букв.</span> Почти всё время ввода человек видел «ошибку», хотя ничего неправильного не сделал.` : 'Печатай адрес по буквам и следи за полем.';
+    else if (m === 'blur') out = final ? (valid(v) ? '<span class="verdict ok">Ошибка ни разу не мешала вводу.</span> Проверка прошла, когда ты вышел из поля.' : '<span class="verdict ok">Ошибка появилась один раз, когда ты закончил.</span> Это честный момент: человек уже считает, что ввёл адрес.') : 'Печатай: пока ты в поле, ошибки не будет. Потом нажми Tab или щёлкни мимо.';
+    else out = final ? (valid(v) ? '<span class="verdict ok">Адрес верный, отправка прошла бы.</span>' : '<span class="verdict mid">Ошибка только после нажатия «Отправить».</span> Для короткой формы нормально, в длинной человек узнает о проблеме поздно.') : 'Печатай и нажми «Отправить».';
+    $('#tmOut').innerHTML = out;
+  }
+  tmIn.addEventListener('input', () => {
+    keys += 1;
+    if (tm.dataset.mode === 'key') { setErr(!valid(tmIn.value)); if (shown) redKeys += 1; }
+    else if (shown && valid(tmIn.value)) setErr(false);
+    tmReport(false);
+  });
+  tmIn.addEventListener('blur', () => { if (tm.dataset.mode !== 'submit' && tmIn.value) { setErr(!valid(tmIn.value)); tmReport(true); } });
+  $('#tmSubmit').addEventListener('click', () => { setErr(!valid(tmIn.value)); tmReport(true); });
+  $('#tmType').addEventListener('click', () => {
+    clearInterval(typing); tmIn.value = ''; setErr(false); flashes = 0; keys = 0; redKeys = 0;
+    const word = 'maria.lopez@gmail.com'; let i = 0; tmIn.focus();
+    typing = setInterval(() => {
+      tmIn.value = word.slice(0, ++i); tmIn.dispatchEvent(new Event('input'));
+      if (i >= word.length) { clearInterval(typing); setTimeout(() => { if (tm.dataset.mode !== 'submit') tmIn.blur(); else tmReport(false); }, 500); }
+    }, 110);
+  });
+  tm.addEventListener('statechange', () => { clearInterval(typing); tmIn.value = ''; setErr(false); flashes = 0; keys = 0; redKeys = 0; tmReport(false); });
+  tmReport(false);
+
+  /* 4. Error display */
+  const ERR_FORM = (bad) => FCSS + `<form novalidate><h2>Ask about this trip</h2><div id="top"></div>
+  <div class="f" id="f-name">${bad ? '' : '<label for="name">Full name</label>'}<input id="name" autocomplete="name" value="Maria Lopez" ${bad ? 'placeholder="Full name"' : ''}></div>
+  <div class="f" id="f-email">${bad ? '' : '<label for="email">Email</label>'}<input id="email" type="email" autocomplete="email" value="maria@gmail" ${bad ? 'placeholder="Email"' : ''}></div>
+  <div class="f" id="f-guests">${bad ? '' : '<label for="guests">Number of guests</label>'}<input id="guests" inputmode="numeric" ${bad ? 'placeholder="Guests"' : ''}></div>
+  <button class="btn" type="submit">Send enquiry</button></form>`;
+  const err = $('#err'); const errFrame = $('#errFrame');
+  errFrame.addEventListener('load', () => {
+    const d = errFrame.contentDocument; const f = d.querySelector('form'); if (!f) return;
+    f.addEventListener('submit', (ev) => {
+      ev.preventDefault();
+      const email = d.getElementById('email'); const guests = d.getElementById('guests');
+      const problems = [];
+      if (!valid(email.value)) problems.push(['email', 'Enter an email address in the format name@example.com']);
+      if (!/^\d+$/.test(guests.value) || +guests.value < 1 || +guests.value > 12) problems.push(['guests', 'Enter the number of guests, from 1 to 12']);
+      d.querySelectorAll('.err').forEach((n) => n.remove());
+      d.querySelectorAll('input').forEach((i) => { i.classList.remove('bad'); i.removeAttribute('aria-invalid'); });
+      if (!problems.length) { d.getElementById('top').innerHTML = '<p style="color:#17633a;font-weight:700">Thanks! We reply within one working day.</p>'; $('#errOut').innerHTML = '<span class="verdict ok">Ошибок нет, заявка ушла бы.</span> Нажми «Как надо» или «Типичная ошибка», чтобы начать заново.'; return; }
+      if (err.dataset.ver === 'bad') {
+        d.getElementById('top').innerHTML = '<div class="banner">Error! Please check the form.</div>';
+        d.querySelectorAll('input').forEach((i) => { i.value = ''; });
+        problems.forEach(([id]) => d.getElementById(id).classList.add('bad'));
+        $('#errOut').innerHTML = '<span class="verdict no">Все поля стёрты, включая правильное имя.</span> Сообщение не говорит, что именно не так, красные рамки без текста, а подписи исчезли вместе с введёнными значениями.';
+      } else {
+        d.getElementById('top').innerHTML = `<div class="sum" tabindex="-1" role="alert"><p>There is a problem</p>${problems.map(([id, m]) => `<a href="#${id}" data-to="${id}">${m}</a>`).join('')}</div>`;
+        problems.forEach(([id, m]) => {
+          const i = d.getElementById(id); i.classList.add('bad'); i.setAttribute('aria-invalid', 'true'); i.setAttribute('aria-describedby', id + '-e');
+          i.insertAdjacentHTML('beforebegin', `<div class="err" id="${id}-e"><span style="position:absolute;left:-9999px">Error: </span>${m}</div>`);
+        });
+        d.querySelector('.sum').focus();
+        d.querySelectorAll('[data-to]').forEach((a) => a.addEventListener('click', (e2) => { e2.preventDefault(); d.getElementById(a.dataset.to).focus(); }));
+        $('#errOut').innerHTML = `<span class="verdict ok">Введённое сохранено, ошибок ${problems.length}, у каждой текст рядом с полем.</span> Сверху сводка со ссылками: щёлкни по ссылке, и фокус перейдёт в нужное поле. Фокус уже стоит на сводке, поэтому программа экранного доступа прочитает её сразу.`;
+      }
+    });
+  });
+  err.addEventListener('statechange', () => { errFrame.srcdoc = ERR_FORM(err.dataset.ver === 'bad'); $('#errOut').textContent = 'В форме уже введено имя и email с ошибкой, число гостей пустое. Нажми кнопку отправки внутри рамки.'; });
+  errFrame.srcdoc = ERR_FORM(true);
+
+  /* 5. Mobile keyboards */
+  const KB = {
+    text: { lab: 'Email', val: 'maria', rows: [['q','w','e','r','t','y','u','i','o','p'], ['a','s','d','f','g','h','j','k','l'], ['⇧','z','x','c','v','b','n','m','⌫'], ['123','space','return']], hl: [], code: '<input type="text">', msg: '<span class="verdict no">Для email обычная клавиатура:</span> чтобы набрать @ и точку, нужно переключиться на цифры и символы. Автозаполнения нет.' },
+    email: { lab: 'Email', val: 'maria@', rows: [['q','w','e','r','t','y','u','i','o','p'], ['a','s','d','f','g','h','j','k','l'], ['⇧','z','x','c','v','b','n','m','⌫'], ['123','@','space','.','return']], hl: ['@', '.'], code: '<input type="email"\n  autocomplete="email">', msg: '<span class="verdict ok">@ и точка вынесены на основную раскладку,</span> а autocomplete позволяет подставить сохранённый адрес одним касанием.' },
+    tel: { lab: 'Phone or WhatsApp (optional)', val: '+62 812', rows: [['1','2','3'], ['4','5','6'], ['7','8','9'], ['+*#','0','⌫']], hl: ['+*#'], code: '<input type="tel"\n  autocomplete="tel">', msg: '<span class="verdict ok">Цифровая панель с плюсом</span> для международного номера. type="tel" не проверяет формат, номера по миру слишком разные, и это хорошо.' },
+    numeric: { lab: 'Number of guests', val: '3', rows: [['1','2','3'], ['4','5','6'], ['7','8','9'], ['','0','⌫']], hl: [], code: '<input inputmode="numeric">', msg: '<span class="verdict ok">Только цифры</span> и никаких стрелок и прокрутки колесом, которые есть у type="number".' }
+  };
+  const kb = $('#kb');
+  function kbRender() {
+    const k = KB[kb.dataset.type];
+    $('#kbLab').textContent = k.lab; $('#kbVal').textContent = k.val + '|';
+    $('#kbKeys').innerHTML = k.rows.map((r) => `<div class="r" style="grid-template-columns:${r.map((x) => (x === 'space' ? '3fr' : x === 'return' || x === '123' ? '1.6fr' : '1fr')).join(' ')}">${r.map((x) => `<b class="${k.hl.includes(x) ? 'hl' : /^(⇧|⌫|123|return)$/.test(x) ? 'w' : ''}">${x === 'space' ? ' ' : esc(x)}</b>`).join('')}</div>`).join('');
+    $('#kbCode').textContent = k.code; $('#kbOut').innerHTML = k.msg;
+  }
+  kb.addEventListener('statechange', kbRender); kbRender();
+
+  /* 6. Double submission */
+  const dbl = $('#dbl'); const dblBtn = $('#dblBtn'); let sent = 0; let busy = false;
+  function dblReset() { sent = 0; busy = false; dblBtn.disabled = false; dblBtn.textContent = 'Send enquiry'; dblBtn.removeAttribute('aria-busy'); $('#dblInbox').innerHTML = ''; $('#dblMsg').textContent = 'Нажми кнопку несколько раз подряд, как человек, который не уверен, сработало ли.'; }
+  dblBtn.addEventListener('click', () => {
+    if (dbl.dataset.ver === 'good') {
+      if (busy) return;
+      busy = true; dblBtn.disabled = true; dblBtn.textContent = 'Sending…'; dblBtn.setAttribute('aria-busy', 'true');
+      $('#dblMsg').textContent = 'Кнопка сразу показала отправку и больше не принимает нажатия.';
+    }
+    sent += 1; const n = sent;
+    setTimeout(() => {
+      const li = document.createElement('li'); li.textContent = `Новая заявка №${n}: Maria Lopez, Nusa Penida, 3 guests`;
+      if (n > 1) li.className = 'dup'; $('#dblInbox').appendChild(li);
+      if (dbl.dataset.ver === 'good') { dblBtn.textContent = 'Sent ✓'; $('#dblMsg').innerHTML = '<span class="verdict ok">Одна заявка, одно письмо.</span> На месте формы теперь было бы подтверждение: «Thanks, Maria. We reply within one working day.»'; }
+      else { const c = $('#dblInbox').children.length; $('#dblMsg').innerHTML = c > 1 ? `<span class="verdict no">Менеджер получил ${c} одинаковых заявки.</span> Клиент получит столько же подтверждений и решит, что что-то сломалось.` : 'Заявка пришла. Кнопка всё это время выглядела так же, будто ничего не произошло.'; }
+    }, 2500);
+  });
+  $('#dblReset').addEventListener('click', dblReset);
+  dbl.addEventListener('statechange', dblReset);
+});
+</script>
+</body>
+</html>

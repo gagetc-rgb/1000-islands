@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concept C · Off the map · Home · 1000 Islands Travel</title>
+<link rel="stylesheet" href="map.css?v=1">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="home.html"><b>1000 Islands Travel</b><small>Remote Indonesia</small></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/wireframes/raja-ampat.html">Raja Ampat</a>
+      <a href="/wireframes/north-sulawesi.html">North Sulawesi</a>
+      <a href="/wireframes/yachts.html">Yacht charters</a>
+      <a href="/wireframes/stories.html">Guest stories</a>
+      <a href="/wireframes/about.html">About</a>
+      <a class="secondary" href="/wireframes/advisors.html">Travel agents</a>
+      <a class="btn primary" href="/wireframes/plan.html">Plan your trip</a>
+    </nav>
+    <details class="menu">
+      <summary class="burger" aria-label="Menu"><svg viewBox="0 0 20 14" width="20" height="14" aria-hidden="true"><path d="M0 1h20M0 7h20M0 13h20"/></svg></summary>
+      <nav class="menu-panel" aria-label="Main">
+        <a href="/wireframes/raja-ampat.html">Raja Ampat</a>
+        <a href="/wireframes/north-sulawesi.html">North Sulawesi</a>
+        <a href="/wireframes/yachts.html">Yacht charters</a>
+        <a href="/wireframes/stories.html">Guest stories</a>
+        <a href="/wireframes/about.html">About</a>
+        <a href="/wireframes/advisors.html">Travel agents</a>
+        <a class="btn primary" href="/wireframes/plan.html">Plan your trip</a>
+        <a class="btn ghost" href="#">WhatsApp</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main>
+
+<!-- 01 · Hero: exactly one screen under the header. The only thing pointing at the next block is the index row on its bottom edge. -->
+<section class="hero">
+  <span class="label">01 · Hero</span>
+  <div class="hero-media" role="img" aria-label="Hero video placeholder"></div>
+  <span class="cap cap-hero">Hero video · above- &amp; underwater · 16:9, master 3840×2160 · phone: own 9:16 cut, 1080×1920</span>
+  <div class="wrap hero-copy">
+    <h1>Remote<br class="m"> Indonesia.<br>Off the map.</h1>
+    <p class="hero-lead">Private trips to Raja Ampat and North Sulawesi</p>
+    <div class="btns"><a class="btn light" href="/wireframes/plan.html">Plan your trip</a></div>
+    <div class="hero-foot">
+      <a class="hero-cue" href="#where">Where we go <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v11M3.5 8.5 8 13l4.5-4.5"/></svg></a>
+      <nav class="hero-index" aria-label="Destinations on the map">
+        <a href="#where" data-go="ra">Raja Ampat</a>
+        <a href="#where" data-go="ns">North Sulawesi</a>
+        <a href="#where" data-go="yacht">Yacht charters</a>
+      </nav>
+      <button class="pause" type="button" aria-label="Pause video"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3v10M11 3v10"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- 02 · Where we go: one screen. The map is the index; the list beside it is the legend and the way in. -->
+<section class="where" id="where" aria-labelledby="where-h">
+  <span class="label">02 · Where we go · map + index</span>
+  <div class="where-col">
+    <div class="where-head">
+      <h2 id="where-h">Where we go</h2>
+      <div class="skel lead" aria-hidden="true"><i></i><i></i></div>
+    </div>
+    <ul class="dest-list">
+      <li>
+        <a class="dest is-on" href="/wireframes/raja-ampat.html" data-region="ra">
+          <span class="dest-photo"><span class="cap">Raja Ampat photo · phone crop 3:2 of the 4:5 master</span></span>
+          <span class="dest-row"><span class="dot" aria-hidden="true"></span><h3>Raja Ampat</h3><span class="price">from $X,XXX pp</span><svg class="ico go" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8.5 3.5 13 8l-4.5 4.5"/></svg></span>
+          <span class="places">Central · Misool · + Triton Bay</span>
+          <span class="getting"><svg class="ico rt" viewBox="0 0 24 12" aria-hidden="true"><path d="M1 6h15"/><circle cx="20" cy="6" r="2.5"/></svg><span class="tbc" title="Placeholder: owner to confirm">via Sorong · 1 flight from Bali</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="dest" href="/wireframes/north-sulawesi.html" data-region="ns">
+          <span class="dest-photo"><span class="cap">North Sulawesi photo · phone crop 3:2 of the 4:5 master</span></span>
+          <span class="dest-row"><span class="dot" aria-hidden="true"></span><h3>North Sulawesi</h3><span class="price">from $X,XXX pp</span><svg class="ico go" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8.5 3.5 13 8l-4.5 4.5"/></svg></span>
+          <span class="places">Bunaken · Sangihe &amp; Siau · + Halmahera &amp; Widi</span>
+          <span class="getting"><svg class="ico rt" viewBox="0 0 24 12" aria-hidden="true"><path d="M1 6h15"/><circle cx="20" cy="6" r="2.5"/></svg><span class="tbc" title="Placeholder: owner to confirm">via Manado · 1 flight from Bali or Jakarta</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="dest" href="/wireframes/yachts.html" data-region="yacht">
+          <span class="dest-photo"><span class="cap">Yacht photo · phone crop 3:2 of the 4:5 master</span></span>
+          <span class="dest-row"><span class="dot" aria-hidden="true"></span><h3>Yacht charters</h3><span class="price">from $X,XXX per day</span><svg class="ico go" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8.5 3.5 13 8l-4.5 4.5"/></svg></span>
+          <span class="places">Phinisi · whole boat · Raja Ampat and North Sulawesi</span>
+          <span class="getting"><svg class="ico rt" viewBox="0 0 24 12" aria-hidden="true"><path d="M1 6h15"/><circle cx="20" cy="6" r="2.5"/></svg><span class="tbc" title="Placeholder: owner to confirm">board in Sorong or Manado</span></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <figure class="map" data-active="ra">
+    <svg viewBox="0 0 1060 860" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">
+      <defs>
+        <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="34"/></filter>
+        <mask id="fade" maskUnits="userSpaceOnUse" x="-240" y="-240" width="1540" height="1340"><rect x="34" y="34" width="992" height="792" fill="#fff" filter="url(#soft)"/></mask>
+        <filter id="lift" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity=".16"/></filter>
+        <linearGradient id="photo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c4c4c4"/><stop offset=".55" stop-color="#b3b3b3"/><stop offset="1" stop-color="#9e9e9e"/></linearGradient>
+      </defs>
+
+      <!-- land: a hand-drawn placeholder silhouette, not cartography -->
+      <g class="land" mask="url(#fade)">
+        <path d="M-40 330 L0 316 L60 292 L100 244 L140 220 L184 180 L212 144 L236 164 L264 188 L312 220 L284 240 L244 288 L252 320 L300 378 L262 386 L240 402 L214 466 L196 578 L160 576 L124 556 L60 552 L0 540 L-40 540 Z"/>
+        <path d="M560 24 L600 80 L606 140 L580 150 L566 140 L556 196 L532 176 L508 134 L470 150 L420 144 L430 124 L462 80 L508 92 L528 76 Z"/>
+        <path d="M-20 676 L50 708 L116 730 L126 758 L100 766 L40 756 L-20 748 Z"/>
+        <path d="M52 698 L100 694 L102 704 L56 708 Z"/>
+        <path d="M120 750 L140 742 L168 756 L160 772 L140 768 L124 758 Z"/>
+        <path d="M180 752 L206 748 L210 770 L184 776 Z"/>
+        <path d="M214 748 L262 742 L306 752 L300 768 L250 772 L216 770 Z"/>
+        <path d="M330 752 L400 746 L462 752 L458 770 L390 774 L334 770 Z"/>
+        <path d="M300 800 L360 796 L372 812 L330 830 L304 818 Z"/>
+        <path d="M486 830 L560 790 L630 752 L636 764 L580 806 L500 846 L480 842 Z"/>
+        <path d="M580 728 L622 726 L620 736 L582 738 Z"/>
+        <path d="M548 356 L520 356 L470 384 L420 378 L372 374 L346 388 L352 412 L330 444 L300 500 L296 532 L320 580 L312 622 L322 648 L350 642 L354 580 L350 544 L366 528 L384 560 L406 588 L420 630 L448 612 L446 580 L462 550 L436 510 L446 476 L478 458 L454 448 L414 450 L378 466 L366 446 L382 418 L420 406 L470 404 L510 388 L548 370 Z"/>
+        <path d="M450 616 L462 614 L466 642 L454 646 Z"/>
+        <path d="M476 476 L492 474 L490 486 L478 486 Z"/>
+        <path d="M538 492 L580 488 L582 498 L540 500 Z"/>
+        <path d="M556 268 L564 266 L566 286 L558 288 Z"/>
+        <path d="M553 306 L560 305 L561 313 L554 314 Z"/>
+        <path d="M608 246 L616 244 L618 258 L610 260 Z"/>
+        <path d="M527 349 L532 348 L533 353 L528 354 Z"/>
+        <path d="M660 328 L672 336 L664 370 L690 362 L698 374 L676 392 L696 408 L690 418 L666 412 L660 450 L650 454 L646 412 L636 382 L648 356 Z"/>
+        <path d="M678 312 L692 310 L692 324 L680 326 Z"/>
+        <path d="M634 440 L646 438 L648 450 L636 452 Z"/>
+        <path d="M668 440 L676 438 L678 446 L670 448 Z"/>
+        <path d="M640 476 L664 474 L662 484 L642 486 Z"/>
+        <path d="M580 548 L624 544 L628 568 L592 572 Z"/>
+        <path d="M660 540 L720 530 L776 538 L772 556 L720 560 L664 556 Z"/>
+        <path d="M664 566 L674 564 L676 572 L666 574 Z"/>
+        <path d="M754 428 L770 420 L792 424 L788 436 L772 440 L760 438 Z"/>
+        <path d="M736 408 L744 406 L746 414 L738 416 Z"/>
+        <path d="M760 450 L778 448 L778 456 L762 458 Z"/>
+        <path d="M770 460 L786 458 L790 470 L774 474 Z"/>
+        <path d="M718 466 L726 465 L726 470 L719 471 Z"/>
+        <path d="M728 494 L744 490 L758 494 L754 504 L734 504 Z"/>
+        <path d="M790 452 L820 434 L860 446 L904 452 L922 478 L916 520 L950 544 L984 552 L1000 520 L1020 504 L1100 500 L1100 660 L1020 608 L960 590 L920 580 L896 568 L878 558 L860 544 L832 540 L812 522 L830 504 L856 516 L864 500 L836 488 L812 482 L794 472 Z"/>
+        <path d="M966 484 L1012 482 L1010 492 L968 494 Z"/>
+        <path d="M972 452 L996 448 L998 464 L976 466 Z"/>
+        <path d="M846 636 L856 634 L858 660 L848 662 Z"/>
+        <path d="M916 650 L940 646 L944 696 L920 700 Z"/>
+        <path d="M790 712 L806 706 L810 744 L794 748 Z"/>
+      </g>
+
+      <!-- regions: lit by the index -->
+      <ellipse class="halo h-ra" cx="764" cy="462" rx="60" ry="68"/>
+      <ellipse class="halo h-ns" cx="546" cy="318" rx="40" ry="72"/>
+      <circle class="halo addon x-ra" cx="900" cy="572" r="22"/>
+      <ellipse class="halo addon x-ns" cx="664" cy="404" rx="36" ry="82"/>
+
+      <!-- routes: placeholders, owner to confirm -->
+      <path class="rt rt-ra" d="M148 764 Q560 700 788 456"/>
+      <path class="rt rt-ns" d="M148 764 Q330 470 532 362"/>
+      <path class="rt rt-ns" d="M-186 668 Q210 360 532 362"/>
+
+      <!-- pins -->
+      <g class="pins">
+        <path class="pin p-ra" d="M776 432h.01M742 498h.01M900 572h.01"/>
+        <path class="pin p-ns" d="M530 351h.01M560 277h.01M664 404h.01"/>
+        <path class="hub" d="M148 764h.01M790 455h.01M534 362h.01"/>
+        <path class="hub-in" d="M148 764h.01M790 455h.01M534 362h.01"/>
+      </g>
+
+      <!-- labels -->
+      <g class="labels">
+        <text class="t-region l-ra" x="764" y="384" text-anchor="middle">Raja Ampat</text>
+        <text class="t-region l-ns" x="502" y="296" text-anchor="end">North Sulawesi</text>
+        <text class="t-hub" x="148" y="798" text-anchor="middle">Bali</text>
+        <text class="t-hub" x="800" y="476">Sorong</text>
+        <text class="t-hub" x="548" y="388">Manado</text>
+        <text class="t-hub only-wide" x="10" y="522">Jakarta</text>
+        <text class="t-hub only-compact" x="88" y="478">Jakarta</text>
+        <text class="t-place pl-ra" x="800" y="430">Central</text>
+        <text class="t-place pl-ra" x="724" y="508" text-anchor="end">Misool</text>
+        <text class="t-place pl-ra" x="900" y="616" text-anchor="middle">+ Triton Bay</text>
+        <text class="t-place pl-ns" x="520" y="344" text-anchor="end">Bunaken</text>
+        <text class="t-place pl-ns" x="572" y="282">Sangihe &amp; Siau</text>
+        <text class="t-place pl-ns" x="630" y="434" text-anchor="end">+ Halmahera &amp; Widi</text>
+      </g>
+
+      <!-- one photograph of the lit region, pinned in the open Pacific where nothing else happens -->
+      <g class="postcards">
+        <g class="pc pc-ra"><rect x="792" y="22" width="256" height="320"/><text x="806" y="36"><tspan x="806" dy="1em">Raja Ampat photo</tspan><tspan x="806" dy="1.4em">4:5 · 2400×3000</tspan></text></g>
+        <g class="pc pc-ns"><rect x="792" y="22" width="256" height="320"/><text x="806" y="36"><tspan x="806" dy="1em">North Sulawesi photo</tspan><tspan x="806" dy="1.4em">4:5 · 2400×3000</tspan></text></g>
+        <g class="pc pc-yacht"><rect x="792" y="22" width="256" height="320"/><text x="806" y="36"><tspan x="806" dy="1em">Phinisi under sail</tspan><tspan x="806" dy="1.4em">4:5 · 2400×3000</tspan></text></g>
+      </g>
+    </svg>
+    <figcaption class="map-cap">Map illustration · eastern Indonesia · to be drawn. <br>Routes and travel info (dotted underline) are placeholders.</figcaption>
+  </figure>
+</section>
+
+<!-- 03 · Remote, made easy: the four steps drawn as the same route line as the map -->
+<section class="steps-sec">
+  <span class="label">03 · Remote, made easy</span>
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Remote, made easy</h2>
+      <div class="skel" aria-hidden="true"><i></i><i></i></div>
+    </div>
+    <ol class="route-steps">
+      <li><span class="stop" aria-hidden="true"></span><h3>Tell us</h3><div class="skel" aria-hidden="true"><i></i><i></i></div></li>
+      <li><span class="stop" aria-hidden="true"></span><h3>We design it</h3><div class="skel" aria-hidden="true"><i></i><i></i></div></li>
+      <li><span class="stop" aria-hidden="true"></span><h3>We handle everything</h3><div class="skel" aria-hidden="true"><i></i><i></i></div></li>
+      <li><span class="stop end" aria-hidden="true"></span><h3>You travel</h3><div class="skel" aria-hidden="true"><i></i><i></i></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 04 · One guest story -->
+<section class="story">
+  <span class="label">04 · Guest story</span>
+  <div class="wrap story-grid">
+    <div class="photo story-photo"><span class="cap">Guest story photo · 4:5 · master 2400×3000 · phone: same 4:5, full width</span></div>
+    <div class="story-text">
+      <h2>Nine days in Raja Ampat</h2>
+      <p class="meta">Guest story · Comfort · X days · month, year</p>
+      <div class="skel quote" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="btns"><a class="btn ghost" href="/wireframes/stories.html#story-1">Read the story</a><a class="link" href="/wireframes/stories.html">All guest stories</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 · Reviews -->
+<section class="reviews">
+  <span class="label">05 · Reviews</span>
+  <div class="wrap">
+    <div class="rev-head">
+      <h2>What guests say</h2>
+      <p class="rating">★ 4.9 on Google · 48 reviews · <a class="link" href="#">Read on Google<svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></a></p>
+    </div>
+    <ul class="rev-list">
+      <li><div class="skel" aria-hidden="true"><i></i><i></i><i></i><i></i></div><p class="who"><b>Guest name</b><span>Country · Raja Ampat · Month, year</span></p></li>
+      <li><div class="skel" aria-hidden="true"><i></i><i></i><i></i><i></i></div><p class="who"><b>Guest name</b><span>Country · Yacht charters · Month, year</span></p></li>
+      <li><div class="skel" aria-hidden="true"><i></i><i></i><i></i><i></i></div><p class="who"><b>Guest name</b><span>Country · North Sulawesi · Month, year</span></p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 06 · For travel agents (B2B, strategy priority #1: a full band, not a footnote) -->
+<section class="trade">
+  <span class="label">06 · For travel agents</span>
+  <div class="wrap trade-row">
+    <div><h2>For travel agents</h2><div class="skel" aria-hidden="true"><i></i></div></div>
+    <a class="btn primary" href="/wireframes/advisors.html">Trade rates</a>
+  </div>
+</section>
+
+<!-- 07 · Start with an idea -->
+<section class="cta">
+  <span class="label">07 · Start with an idea</span>
+  <div class="wrap cta-grid">
+    <div class="cta-text">
+      <h2>Start with an idea</h2>
+      <div class="skel lead" aria-hidden="true"><i></i><i></i></div>
+      <div class="btns"><a class="btn light" href="/wireframes/plan.html">Plan your trip</a><a class="btn outline-light" href="#">WhatsApp us</a></div>
+    </div>
+    <div class="person">
+      <div class="photo portrait"><span class="cap">Portrait 4:5 · 1200×1500</span></div>
+      <p><b>Name, the person who answers you</b><span>Role · replies within 24 hours, 7 days a week</span></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div><a class="logo" href="home.html"><b>1000 Islands Travel</b><small>Remote Indonesia</small></a><div class="skel" aria-hidden="true"><i></i><i></i></div></div>
+      <div><h2>Regions</h2><ul><li><a href="/wireframes/raja-ampat.html">Raja Ampat</a></li><li><a href="/wireframes/north-sulawesi.html">North Sulawesi</a></li><li><a href="/wireframes/yachts.html">Yacht charters</a></li></ul></div>
+      <div><h2>Travel</h2><ul><li><a href="/wireframes/stories.html">Guest stories</a></li><li><a href="/wireframes/plan.html">Plan your trip</a></li></ul></div>
+      <div><h2>Company</h2><ul><li><a href="/wireframes/about.html">About</a></li><li><a href="/wireframes/about.html#how">How we travel</a></li><li><a href="/wireframes/about.html#faq">FAQ</a></li><li><a href="/wireframes/advisors.html">Travel agents</a></li></ul></div>
+      <div><h2>Contact</h2><ul><li><a href="#">WhatsApp</a></li><li><a href="#">Email</a></li><li><a href="#">Instagram</a></li></ul></div>
+    </div>
+    <div class="bottom"><span>© 1000 Islands Travel · 1000islands.travel</span><span class="footer-links"><a href="/wireframes/privacy.html">Privacy &amp; cookies</a> · <a href="/wireframes/terms.html">Booking terms</a> · <a href="/wireframes/state-cookie-settings.html">Cookie settings</a></span></div>
+  </div>
+</footer>
+
+<div class="mbar"><a class="btn primary" href="/wireframes/plan.html">Plan your trip</a><a class="btn ghost" href="#">WhatsApp</a></div>
+
+<script src="wf.js" defer></script>
+<script src="concept.js" defer></script>
+</body>
+</html>

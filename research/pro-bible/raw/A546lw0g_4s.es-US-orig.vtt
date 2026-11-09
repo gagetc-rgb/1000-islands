@@ -1,0 +1,2528 @@
+WEBVTT
+Kind: captions
+Language: es-US
+
+00:00:00.100 --> 00:00:02.755 align:start position:0%
+ 
+En<00:00:00.304><c> este</c><00:00:00.644><c> video</c><00:00:00.985><c>,</c><00:00:01.121><c> aprenderás</c><00:00:01.938><c> a</c><00:00:02.074><c> configurar</c>
+
+00:00:02.755 --> 00:00:02.824 align:start position:0%
+En este video, aprenderás a configurar
+ 
+
+00:00:02.824 --> 00:00:05.479 align:start position:0%
+En este video, aprenderás a configurar
+ conversiones<00:00:03.709><c> en</c><00:00:03.913><c> GA4</c><00:00:04.117><c>,</c><00:00:04.254><c> Google</c><00:00:04.730><c> Analytics</c><00:00:05.411><c> 4</c>
+
+00:00:05.479 --> 00:00:07.689 align:start position:0%
+ conversiones en GA4, Google Analytics 4
+.<00:00:05.753><c> Es</c><00:00:05.914><c> importante</c><00:00:06.505><c> tomarse</c><00:00:06.936><c> el</c><00:00:07.097><c> tiempo</c><00:00:07.473><c> para</c>
+
+00:00:07.689 --> 00:00:07.742 align:start position:0%
+. Es importante tomarse el tiempo para
+ 
+
+00:00:07.742 --> 00:00:09.840 align:start position:0%
+. Es importante tomarse el tiempo para
+ hacerlo<00:00:08.119><c>,</c><00:00:08.226><c> ya</c><00:00:08.388><c> que</c><00:00:08.603><c> las</c><00:00:08.818><c> conversiones</c><00:00:09.517><c> sirven</c>
+
+00:00:09.840 --> 00:00:09.894 align:start position:0%
+ hacerlo, ya que las conversiones sirven
+ 
+
+00:00:09.894 --> 00:00:11.399 align:start position:0%
+ hacerlo, ya que las conversiones sirven
+ para<00:00:10.163><c> medir</c><00:00:10.485><c> las</c><00:00:10.700><c> acciones</c><00:00:11.184><c> más</c>
+
+00:00:11.399 --> 00:00:11.453 align:start position:0%
+ para medir las acciones más
+ 
+
+00:00:11.453 --> 00:00:13.551 align:start position:0%
+ para medir las acciones más
+ importantes<00:00:12.099><c> que</c><00:00:12.314><c> ocurren</c><00:00:12.744><c> en</c><00:00:12.905><c> tu</c><00:00:13.067><c> sitio</c><00:00:13.389><c> web</c>
+
+00:00:13.551 --> 00:00:15.751 align:start position:0%
+ importantes que ocurren en tu sitio web
+.<00:00:13.769><c> Por</c><00:00:13.983><c> ejemplo</c><00:00:14.358><c>,</c><00:00:14.465><c> tal</c><00:00:14.679><c> vez</c><00:00:14.894><c> quieras</c><00:00:15.322><c> hacer</c><00:00:15.644><c> un</c>
+
+00:00:15.751 --> 00:00:15.804 align:start position:0%
+. Por ejemplo, tal vez quieras hacer un
+ 
+
+00:00:15.804 --> 00:00:17.786 align:start position:0%
+. Por ejemplo, tal vez quieras hacer un
+ seguimiento<00:00:16.447><c> de</c><00:00:16.608><c> usuarios</c><00:00:17.090><c> que</c><00:00:17.304><c> completan</c>
+
+00:00:17.786 --> 00:00:17.840 align:start position:0%
+ seguimiento de usuarios que completan
+ 
+
+00:00:17.840 --> 00:00:19.554 align:start position:0%
+ seguimiento de usuarios que completan
+ un<00:00:18.001><c> formulario</c><00:00:18.536><c>,</c><00:00:18.644><c> se</c><00:00:18.804><c> suscriben</c><00:00:19.340><c> a</c><00:00:19.447><c> un</c>
+
+00:00:19.554 --> 00:00:19.608 align:start position:0%
+ un formulario, se suscriben a un
+ 
+
+00:00:19.608 --> 00:00:25.799 align:start position:0%
+ un formulario, se suscriben a un
+ boletín<00:00:20.090><c> o</c><00:00:20.197><c> realizan</c><00:00:20.679><c> una</c><00:00:20.894><c> compra</c><00:00:21.215><c>.</c><00:00:25.404><c> En</c><00:00:25.573><c> este</c>
+
+00:00:25.799 --> 00:00:25.855 align:start position:0%
+ boletín o realizan una compra. En este
+ 
+
+00:00:25.855 --> 00:00:28.057 align:start position:0%
+ boletín o realizan una compra. En este
+ video<00:00:26.138><c>,</c><00:00:26.250><c> veremos</c><00:00:26.702><c> dos</c><00:00:26.928><c> formas</c><00:00:27.323><c> de</c><00:00:27.493><c> configurar</c>
+
+00:00:28.057 --> 00:00:28.114 align:start position:0%
+ video, veremos dos formas de configurar
+ 
+
+00:00:28.114 --> 00:00:31.375 align:start position:0%
+ video, veremos dos formas de configurar
+ las<00:00:28.340><c> conversiones</c><00:00:29.017><c>.</c><00:00:30.201><c> Repasaremos</c><00:00:30.871><c> los</c><00:00:31.095><c> pasos</c>
+
+00:00:31.375 --> 00:00:31.431 align:start position:0%
+ las conversiones. Repasaremos los pasos
+ 
+
+00:00:31.431 --> 00:00:33.108 align:start position:0%
+ las conversiones. Repasaremos los pasos
+ para<00:00:31.710><c> crear</c><00:00:32.046><c> un</c><00:00:32.213><c> evento</c><00:00:32.605><c> en</c><00:00:32.772><c> Google</c>
+
+00:00:33.108 --> 00:00:33.164 align:start position:0%
+ para crear un evento en Google
+ 
+
+00:00:33.164 --> 00:00:35.232 align:start position:0%
+ para crear un evento en Google
+ Analytics<00:00:33.723><c> y</c><00:00:33.835><c> también</c><00:00:34.338><c> cubriremos</c><00:00:34.953><c> cómo</c>
+
+00:00:35.232 --> 00:00:35.288 align:start position:0%
+ Analytics y también cubriremos cómo
+ 
+
+00:00:35.288 --> 00:00:38.151 align:start position:0%
+ Analytics y también cubriremos cómo
+ podemos<00:00:35.736><c> usar</c><00:00:36.015><c> Google</c><00:00:36.407><c> Tag</c><00:00:36.630><c> Manager</c><00:00:37.022><c>.</c><00:00:38.047><c> Es</c>
+
+00:00:38.151 --> 00:00:38.203 align:start position:0%
+ podemos usar Google Tag Manager. Es
+ 
+
+00:00:38.203 --> 00:00:40.182 align:start position:0%
+ podemos usar Google Tag Manager. Es
+ importante<00:00:38.776><c> destacar</c><00:00:39.245><c> que</c><00:00:39.453><c> rastreamos</c><00:00:40.026><c> las</c>
+
+00:00:40.182 --> 00:00:40.234 align:start position:0%
+ importante destacar que rastreamos las
+ 
+
+00:00:40.234 --> 00:00:42.214 align:start position:0%
+ importante destacar que rastreamos las
+ conversiones<00:00:40.912><c> mediante</c><00:00:41.380><c> eventos</c><00:00:41.797><c> clave</c><00:00:42.110><c> en</c>
+
+00:00:42.214 --> 00:00:42.266 align:start position:0%
+ conversiones mediante eventos clave en
+ 
+
+00:00:42.266 --> 00:00:44.434 align:start position:0%
+ conversiones mediante eventos clave en
+ Google<00:00:42.631><c> Analytics</c><00:00:43.099><c>.</c><00:00:43.265><c> Así</c><00:00:43.557><c> que</c><00:00:43.732><c>,</c><00:00:43.849><c> al</c><00:00:44.025><c> revisar</c>
+
+00:00:44.434 --> 00:00:44.493 align:start position:0%
+ Google Analytics. Así que, al revisar
+ 
+
+00:00:44.493 --> 00:00:46.540 align:start position:0%
+ Google Analytics. Así que, al revisar
+ tus<00:00:44.727><c> informes</c><00:00:45.195><c>,</c><00:00:45.312><c> usarás</c><00:00:45.780><c> eventos</c><00:00:46.248><c> clave</c>
+
+00:00:46.540 --> 00:00:46.599 align:start position:0%
+ tus informes, usarás eventos clave
+ 
+
+00:00:46.599 --> 00:00:48.295 align:start position:0%
+ tus informes, usarás eventos clave
+ para<00:00:46.891><c> entender</c><00:00:47.417><c> si</c><00:00:47.593><c> los</c><00:00:47.827><c> usuarios</c>
+
+00:00:48.295 --> 00:00:48.353 align:start position:0%
+ para entender si los usuarios
+ 
+
+00:00:48.353 --> 00:00:51.005 align:start position:0%
+ para entender si los usuarios
+ convierten<00:00:48.997><c> en</c><00:00:49.172><c> tu</c><00:00:49.348><c> sitio</c><00:00:49.699><c> web</c><00:00:49.874><c>.</c><00:00:50.323><c> Muy</c><00:00:50.626><c> bien</c><00:00:50.929><c>,</c>
+
+00:00:51.005 --> 00:00:51.081 align:start position:0%
+ convierten en tu sitio web. Muy bien,
+ 
+
+00:00:51.081 --> 00:00:54.494 align:start position:0%
+ convierten en tu sitio web. Muy bien,
+ comencemos<00:00:51.839><c>.</c><00:00:52.995><c> Estamos</c><00:00:53.439><c> viendo</c><00:00:53.827><c> mi</c><00:00:53.994><c> propiedad</c>
+
+00:00:54.494 --> 00:00:54.549 align:start position:0%
+ comencemos. Estamos viendo mi propiedad
+ 
+
+00:00:54.549 --> 00:00:56.682 align:start position:0%
+ comencemos. Estamos viendo mi propiedad
+ de<00:00:54.716><c> demostración</c><00:00:55.493><c> de</c><00:00:55.659><c> GA4</c><00:00:55.826><c>.</c><00:00:56.135><c> Entonces</c><00:00:56.621><c>,</c>
+
+00:00:56.682 --> 00:00:56.743 align:start position:0%
+ de demostración de GA4. Entonces,
+ 
+
+00:00:56.743 --> 00:01:01.635 align:start position:0%
+ de demostración de GA4. Entonces,
+ naveguemos<00:00:57.411><c> a</c><00:00:57.533><c> Administrar</c><00:00:58.202><c>.</c><00:01:01.284><c> Luego</c><00:01:01.576><c>,</c>
+
+00:01:01.635 --> 00:01:01.694 align:start position:0%
+ naveguemos a Administrar. Luego,
+ 
+
+00:01:01.694 --> 00:01:03.979 align:start position:0%
+ naveguemos a Administrar. Luego,
+ seleccionemos<00:01:02.514><c> Visualización</c><00:01:03.393><c> de</c><00:01:03.569><c> datos</c><00:01:03.920><c> y</c>
+
+00:01:03.979 --> 00:01:04.037 align:start position:0%
+ seleccionemos Visualización de datos y
+ 
+
+00:01:04.037 --> 00:01:07.545 align:start position:0%
+ seleccionemos Visualización de datos y
+ elijamos<00:01:04.565><c> Eventos</c><00:01:04.975><c>.</c><00:01:06.587><c> Actualmente</c><00:01:07.192><c> estamos</c>
+
+00:01:07.545 --> 00:01:07.595 align:start position:0%
+ elijamos Eventos. Actualmente estamos
+ 
+
+00:01:07.595 --> 00:01:09.411 align:start position:0%
+ elijamos Eventos. Actualmente estamos
+ viendo<00:01:07.948><c> la</c><00:01:08.099><c> pestaña</c><00:01:08.553><c> de</c><00:01:08.705><c> eventos</c><00:01:09.108><c> clave</c><00:01:09.360><c>.</c>
+
+00:01:09.411 --> 00:01:10.697 align:start position:0%
+ viendo la pestaña de eventos clave.
+ 
+
+00:01:10.697 --> 00:01:12.667 align:start position:0%
+ 
+ Esto<00:01:10.956><c> nos</c><00:01:11.163><c> muestra</c><00:01:11.578><c> todos</c><00:01:11.889><c> los</c><00:01:12.096><c> eventos</c><00:01:12.511><c> que</c>
+
+00:01:12.667 --> 00:01:12.719 align:start position:0%
+ Esto nos muestra todos los eventos que
+ 
+
+00:01:12.719 --> 00:01:14.741 align:start position:0%
+ Esto nos muestra todos los eventos que
+ ya<00:01:12.874><c> se</c><00:01:13.030><c> han</c><00:01:13.237><c> configurado</c><00:01:13.859><c> para</c><00:01:14.119><c> rastrear</c><00:01:14.585><c> las</c>
+
+00:01:14.741 --> 00:01:14.793 align:start position:0%
+ ya se han configurado para rastrear las
+ 
+
+00:01:14.793 --> 00:01:16.763 align:start position:0%
+ ya se han configurado para rastrear las
+ acciones<00:01:15.259><c> de</c><00:01:15.415><c> conversión</c><00:01:16.037><c> que</c><00:01:16.244><c> ocurren</c><00:01:16.659><c> en</c>
+
+00:01:16.763 --> 00:01:16.815 align:start position:0%
+ acciones de conversión que ocurren en
+ 
+
+00:01:16.815 --> 00:01:19.754 align:start position:0%
+ acciones de conversión que ocurren en
+ nuestro<00:01:17.229><c> sitio</c><00:01:17.489><c>.</c><00:01:18.619><c> Si</c><00:01:18.789><c> deseas</c><00:01:19.186><c> configurar</c>
+
+00:01:19.754 --> 00:01:19.811 align:start position:0%
+ nuestro sitio. Si deseas configurar
+ 
+
+00:01:19.811 --> 00:01:21.967 align:start position:0%
+ nuestro sitio. Si deseas configurar
+ otro<00:01:20.094><c> evento</c><00:01:20.492><c> como</c><00:01:20.775><c> evento</c><00:01:21.173><c> clave</c><00:01:21.457><c>,</c><00:01:21.570><c> podemos</c>
+
+00:01:21.967 --> 00:01:22.024 align:start position:0%
+ otro evento como evento clave, podemos
+ 
+
+00:01:22.024 --> 00:01:23.954 align:start position:0%
+ otro evento como evento clave, podemos
+ seleccionar<00:01:22.705><c> la</c><00:01:22.876><c> pestaña</c><00:01:23.387><c> de</c><00:01:23.557><c> eventos</c>
+
+00:01:23.954 --> 00:01:24.011 align:start position:0%
+ seleccionar la pestaña de eventos
+ 
+
+00:01:24.011 --> 00:01:27.123 align:start position:0%
+ seleccionar la pestaña de eventos
+ recientes<00:01:24.522><c>.</c><00:01:25.659><c> Ahora</c><00:01:25.996><c> estamos</c><00:01:26.447><c> viendo</c><00:01:26.841><c> todos</c>
+
+00:01:27.123 --> 00:01:27.179 align:start position:0%
+ recientes. Ahora estamos viendo todos
+ 
+
+00:01:27.179 --> 00:01:29.038 align:start position:0%
+ recientes. Ahora estamos viendo todos
+ los<00:01:27.404><c> eventos</c><00:01:27.855><c> que</c><00:01:28.080><c> se</c><00:01:28.249><c> han</c><00:01:28.475><c> recopilado</c>
+
+00:01:29.038 --> 00:01:29.094 align:start position:0%
+ los eventos que se han recopilado
+ 
+
+00:01:29.094 --> 00:01:31.178 align:start position:0%
+ los eventos que se han recopilado
+ recientemente<00:01:29.883><c> en</c><00:01:30.051><c> nuestra</c><00:01:30.502><c> propiedad</c><00:01:31.065><c> de</c>
+
+00:01:31.178 --> 00:01:31.234 align:start position:0%
+ recientemente en nuestra propiedad de
+ 
+
+00:01:31.234 --> 00:01:33.878 align:start position:0%
+ recientemente en nuestra propiedad de
+ GA4<00:01:31.403><c>.</c><00:01:32.130><c> Y</c><00:01:32.235><c> a</c><00:01:32.341><c> la</c><00:01:32.500><c> izquierda</c><00:01:32.977><c>,</c><00:01:33.083><c> podemos</c><00:01:33.507><c> ver</c><00:01:33.719><c> que</c>
+
+00:01:33.878 --> 00:01:33.931 align:start position:0%
+ GA4. Y a la izquierda, podemos ver que
+ 
+
+00:01:33.931 --> 00:01:38.008 align:start position:0%
+ GA4. Y a la izquierda, podemos ver que
+ hay<00:01:34.143><c> una</c><00:01:34.355><c> columna</c><00:01:34.779><c> de</c><00:01:34.938><c> estrellas</c><00:01:35.415><c>.</c><00:01:37.666><c> Cuando</c>
+
+00:01:38.008 --> 00:01:38.065 align:start position:0%
+ hay una columna de estrellas. Cuando
+ 
+
+00:01:38.065 --> 00:01:40.235 align:start position:0%
+ hay una columna de estrellas. Cuando
+ una<00:01:38.294><c> estrella</c><00:01:38.807><c> es</c><00:01:38.979><c> gris</c><00:01:39.264><c> sólido</c><00:01:39.721><c> y</c><00:01:39.835><c> no</c><00:01:40.006><c> solo</c>
+
+00:01:40.235 --> 00:01:40.292 align:start position:0%
+ una estrella es gris sólido y no solo
+ 
+
+00:01:40.292 --> 00:01:42.404 align:start position:0%
+ una estrella es gris sólido y no solo
+ un<00:01:40.463><c> contorno</c><00:01:40.920><c>,</c><00:01:41.034><c> nos</c><00:01:41.262><c> indica</c><00:01:41.662><c> que</c><00:01:41.890><c> el</c><00:01:42.062><c> evento</c>
+
+00:01:42.404 --> 00:01:42.461 align:start position:0%
+ un contorno, nos indica que el evento
+ 
+
+00:01:42.461 --> 00:01:44.517 align:start position:0%
+ un contorno, nos indica que el evento
+ se<00:01:42.633><c> ha</c><00:01:42.804><c> marcado</c><00:01:43.261><c> como</c><00:01:43.546><c> evento</c><00:01:43.946><c> clave</c><00:01:44.288><c> para</c>
+
+00:01:44.517 --> 00:01:44.574 align:start position:0%
+ se ha marcado como evento clave para
+ 
+
+00:01:44.574 --> 00:01:48.532 align:start position:0%
+ se ha marcado como evento clave para
+ informar<00:01:45.088><c> sobre</c><00:01:45.430><c> conversiones</c><00:01:46.115><c>.</c><00:01:47.976><c> Entonces</c><00:01:48.470><c>,</c>
+
+00:01:48.532 --> 00:01:48.593 align:start position:0%
+ informar sobre conversiones. Entonces,
+ 
+
+00:01:48.593 --> 00:01:50.447 align:start position:0%
+ informar sobre conversiones. Entonces,
+ si<00:01:48.779><c> revisas</c><00:01:49.273><c> la</c><00:01:49.458><c> lista</c><00:01:49.829><c> de</c><00:01:50.014><c> eventos</c>
+
+00:01:50.447 --> 00:01:50.509 align:start position:0%
+ si revisas la lista de eventos
+ 
+
+00:01:50.509 --> 00:01:52.733 align:start position:0%
+ si revisas la lista de eventos
+ recientes<00:01:51.126><c> y</c><00:01:51.250><c> ves</c><00:01:51.497><c> el</c><00:01:51.682><c> evento</c><00:01:52.115><c> que</c><00:01:52.362><c> deseas</c>
+
+00:01:52.733 --> 00:01:52.795 align:start position:0%
+ recientes y ves el evento que deseas
+ 
+
+00:01:52.795 --> 00:01:54.772 align:start position:0%
+ recientes y ves el evento que deseas
+ usar<00:01:53.103><c> para</c><00:01:53.412><c> tu</c><00:01:53.598><c> conversión</c><00:01:54.277><c>,</c><00:01:54.401><c> puedes</c>
+
+00:01:54.772 --> 00:01:54.833 align:start position:0%
+ usar para tu conversión, puedes
+ 
+
+00:01:54.833 --> 00:01:57.319 align:start position:0%
+ usar para tu conversión, puedes
+ marcarlo<00:01:55.389><c> como</c><00:01:55.698><c> evento</c><00:01:56.131><c> clave</c><00:01:56.440><c>.</c><00:01:56.779><c> Para</c><00:01:57.049><c> hacer</c>
+
+00:01:57.319 --> 00:01:57.373 align:start position:0%
+ marcarlo como evento clave. Para hacer
+ 
+
+00:01:57.373 --> 00:01:59.479 align:start position:0%
+ marcarlo como evento clave. Para hacer
+ esto<00:01:57.589><c>,</c><00:01:57.697><c> solo</c><00:01:57.967><c> necesitamos</c><00:01:58.615><c> hacer</c><00:01:58.939><c> clic</c><00:01:59.209><c> en</c><00:01:59.371><c> la</c>
+
+00:01:59.479 --> 00:01:59.533 align:start position:0%
+ esto, solo necesitamos hacer clic en la
+ 
+
+00:01:59.533 --> 00:02:03.868 align:start position:0%
+ esto, solo necesitamos hacer clic en la
+ estrella<00:01:59.965><c>.</c><00:02:02.493><c> Para</c><00:02:02.768><c> poder</c><00:02:03.098><c> marcar</c><00:02:03.483><c> eventos</c>
+
+00:02:03.868 --> 00:02:03.923 align:start position:0%
+ estrella. Para poder marcar eventos
+ 
+
+00:02:03.923 --> 00:02:05.684 align:start position:0%
+ estrella. Para poder marcar eventos
+ como<00:02:04.198><c> eventos</c><00:02:04.638><c> clave</c><00:02:04.913><c>,</c><00:02:05.023><c> necesitarás</c>
+
+00:02:05.684 --> 00:02:05.739 align:start position:0%
+ como eventos clave, necesitarás
+ 
+
+00:02:05.739 --> 00:02:07.774 align:start position:0%
+ como eventos clave, necesitarás
+ permisos<00:02:06.234><c> de</c><00:02:06.399><c> editor</c><00:02:06.784><c> o</c><00:02:06.894><c> administrador</c><00:02:07.664><c> en</c>
+
+00:02:07.774 --> 00:02:07.829 align:start position:0%
+ permisos de editor o administrador en
+ 
+
+00:02:07.829 --> 00:02:11.748 align:start position:0%
+ permisos de editor o administrador en
+ la<00:02:07.994><c> propiedad</c><00:02:08.489><c>.</c><00:02:10.435><c> Si</c><00:02:10.606><c> no</c><00:02:10.777><c> tienes</c><00:02:11.177><c> el</c><00:02:11.349><c> permiso</c>
+
+00:02:11.748 --> 00:02:11.806 align:start position:0%
+ la propiedad. Si no tienes el permiso
+ 
+
+00:02:11.806 --> 00:02:13.862 align:start position:0%
+ la propiedad. Si no tienes el permiso
+ correcto<00:02:12.263><c>,</c><00:02:12.377><c> deberás</c><00:02:12.891><c> pedirle</c><00:02:13.348><c> a</c><00:02:13.462><c> alguien</c>
+
+00:02:13.862 --> 00:02:13.919 align:start position:0%
+ correcto, deberás pedirle a alguien
+ 
+
+00:02:13.919 --> 00:02:15.976 align:start position:0%
+ correcto, deberás pedirle a alguien
+ que<00:02:14.148><c> lo</c><00:02:14.319><c> tenga</c><00:02:14.662><c> que</c><00:02:14.890><c> configure</c><00:02:15.462><c> las</c><00:02:15.690><c> cosas</c>
+
+00:02:15.976 --> 00:02:16.033 align:start position:0%
+ que lo tenga que configure las cosas
+ 
+
+00:02:16.033 --> 00:02:18.032 align:start position:0%
+ que lo tenga que configure las cosas
+ por<00:02:16.261><c> ti</c><00:02:16.433><c> o</c><00:02:16.547><c> solicitar</c><00:02:17.118><c> que</c><00:02:17.347><c> aumenten</c><00:02:17.861><c> tus</c>
+
+00:02:18.032 --> 00:02:18.089 align:start position:0%
+ por ti o solicitar que aumenten tus
+ 
+
+00:02:18.089 --> 00:02:21.351 align:start position:0%
+ por ti o solicitar que aumenten tus
+ permisos<00:02:18.546><c>.</c><00:02:19.860><c> Como</c><00:02:20.146><c> yo</c><00:02:20.318><c> sí</c><00:02:20.548><c> tengo</c><00:02:20.892><c> el</c><00:02:21.064><c> nivel</c>
+
+00:02:21.351 --> 00:02:21.409 align:start position:0%
+ permisos. Como yo sí tengo el nivel
+ 
+
+00:02:21.409 --> 00:02:23.646 align:start position:0%
+ permisos. Como yo sí tengo el nivel
+ correcto<00:02:21.925><c> de</c><00:02:22.097><c> permiso</c><00:02:22.556><c> para</c><00:02:22.843><c> esta</c><00:02:23.130><c> propiedad</c>
+
+00:02:23.646 --> 00:02:25.654 align:start position:0%
+ correcto de permiso para esta propiedad
+,<00:02:23.761><c> este</c><00:02:24.048><c> evento</c><00:02:24.449><c> ya</c><00:02:24.622><c> está</c><00:02:24.966><c> marcado</c><00:02:25.425><c> como</c>
+
+00:02:25.654 --> 00:02:25.712 align:start position:0%
+, este evento ya está marcado como
+ 
+
+00:02:25.712 --> 00:02:28.949 align:start position:0%
+, este evento ya está marcado como
+ evento<00:02:26.113><c> clave</c><00:02:26.400><c>.</c><00:02:27.824><c> Ahora</c><00:02:28.136><c>,</c><00:02:28.261><c> de</c><00:02:28.449><c> aquí</c><00:02:28.824><c> en</c>
+
+00:02:28.949 --> 00:02:29.011 align:start position:0%
+ evento clave. Ahora, de aquí en
+ 
+
+00:02:29.011 --> 00:02:31.387 align:start position:0%
+ evento clave. Ahora, de aquí en
+ adelante<00:02:29.512><c>,</c><00:02:29.637><c> siempre</c><00:02:30.137><c> que</c><00:02:30.387><c> se</c><00:02:30.575><c> recopile</c><00:02:31.137><c> este</c>
+
+00:02:31.387 --> 00:02:31.450 align:start position:0%
+ adelante, siempre que se recopile este
+ 
+
+00:02:31.450 --> 00:02:33.576 align:start position:0%
+ adelante, siempre que se recopile este
+ evento<00:02:31.825><c>,</c><00:02:31.950><c> se</c><00:02:32.138><c> contará</c><00:02:32.700><c> como</c><00:02:33.013><c> un</c><00:02:33.201><c> evento</c>
+
+00:02:33.576 --> 00:02:33.638 align:start position:0%
+ evento, se contará como un evento
+ 
+
+00:02:33.638 --> 00:02:36.878 align:start position:0%
+ evento, se contará como un evento
+ clave<00:02:33.951><c>.</c><00:02:35.325><c> Si</c><00:02:35.491><c> ves</c><00:02:35.713><c> el</c><00:02:35.879><c> evento</c><00:02:36.268><c> que</c><00:02:36.490><c> quieres</c>
+
+00:02:36.878 --> 00:02:36.933 align:start position:0%
+ clave. Si ves el evento que quieres
+ 
+
+00:02:36.933 --> 00:02:39.042 align:start position:0%
+ clave. Si ves el evento que quieres
+ rastrear<00:02:37.433><c> como</c><00:02:37.710><c> conversión</c><00:02:38.320><c>,</c><00:02:38.431><c> está</c><00:02:38.764><c> bien</c><00:02:38.986><c>,</c>
+
+00:02:39.042 --> 00:02:39.097 align:start position:0%
+ rastrear como conversión, está bien,
+ 
+
+00:02:39.097 --> 00:02:41.039 align:start position:0%
+ rastrear como conversión, está bien,
+ pero<00:02:39.375><c> habrá</c><00:02:39.763><c> ocasiones</c><00:02:40.318><c> en</c><00:02:40.484><c> las</c><00:02:40.706><c> que</c><00:02:40.928><c> no</c>
+
+00:02:41.039 --> 00:02:41.095 align:start position:0%
+ pero habrá ocasiones en las que no
+ 
+
+00:02:41.095 --> 00:02:43.964 align:start position:0%
+ pero habrá ocasiones en las que no
+ veas<00:02:41.372><c> el</c><00:02:41.538><c> evento</c><00:02:41.927><c> en</c><00:02:42.093><c> la</c><00:02:42.260><c> lista</c><00:02:42.537><c>.</c><00:02:43.551><c> ¿</c><00:02:43.654><c>O</c><00:02:43.757><c> qué</c>
+
+00:02:43.964 --> 00:02:44.015 align:start position:0%
+ veas el evento en la lista. ¿O qué
+ 
+
+00:02:44.015 --> 00:02:46.030 align:start position:0%
+ veas el evento en la lista. ¿O qué
+ pasa<00:02:44.274><c> si</c><00:02:44.429><c> quieres</c><00:02:44.842><c> rastrear</c><00:02:45.307><c> una</c><00:02:45.514><c> página</c><00:02:45.927><c> en</c>
+
+00:02:46.030 --> 00:02:46.082 align:start position:0%
+ pasa si quieres rastrear una página en
+ 
+
+00:02:46.082 --> 00:02:47.683 align:start position:0%
+ pasa si quieres rastrear una página en
+ particular<00:02:46.599><c>,</c><00:02:46.702><c> como</c><00:02:46.960><c> una</c><00:02:47.167><c> página</c><00:02:47.580><c> de</c>
+
+00:02:47.683 --> 00:02:47.735 align:start position:0%
+ particular, como una página de
+ 
+
+00:02:47.735 --> 00:02:49.647 align:start position:0%
+ particular, como una página de
+ agradecimiento<00:02:48.458><c>,</c><00:02:48.562><c> como</c><00:02:48.820><c> una</c><00:02:49.027><c> conversión</c><00:02:49.595><c>?</c>
+
+00:02:49.647 --> 00:02:49.921 align:start position:0%
+ agradecimiento, como una conversión?
+ 
+
+00:02:49.921 --> 00:02:51.900 align:start position:0%
+ agradecimiento, como una conversión?
+ En<00:02:50.085><c> este</c><00:02:50.360><c> caso</c><00:02:50.580><c>,</c><00:02:50.690><c> no</c><00:02:50.855><c> podemos</c><00:02:51.295><c> simplemente</c>
+
+00:02:51.900 --> 00:02:51.955 align:start position:0%
+ En este caso, no podemos simplemente
+ 
+
+00:02:51.955 --> 00:02:53.934 align:start position:0%
+ En este caso, no podemos simplemente
+ marcar<00:02:52.340><c> el</c><00:02:52.505><c> evento</c><00:02:52.890><c> de</c><00:02:53.055><c> vista</c><00:02:53.385><c> de</c><00:02:53.550><c> página</c>
+
+00:02:53.934 --> 00:02:53.989 align:start position:0%
+ marcar el evento de vista de página
+ 
+
+00:02:53.989 --> 00:02:55.639 align:start position:0%
+ marcar el evento de vista de página
+ como<00:02:54.264><c> evento</c><00:02:54.649><c> clave</c><00:02:54.924><c>,</c><00:02:55.034><c> porque</c><00:02:55.419><c> esto</c>
+
+00:02:55.639 --> 00:02:55.694 align:start position:0%
+ como evento clave, porque esto
+ 
+
+00:02:55.694 --> 00:02:57.783 align:start position:0%
+ como evento clave, porque esto
+ significaría<00:02:56.464><c> que</c><00:02:56.684><c> cada</c><00:02:56.959><c> página</c><00:02:57.399><c> que</c><00:02:57.618><c> los</c>
+
+00:02:57.783 --> 00:02:57.838 align:start position:0%
+ significaría que cada página que los
+ 
+
+00:02:57.838 --> 00:02:59.598 align:start position:0%
+ significaría que cada página que los
+ usuarios<00:02:58.333><c> ven</c><00:02:58.553><c> en</c><00:02:58.718><c> nuestro</c><00:02:59.158><c> sitio</c><00:02:59.488><c> se</c>
+
+00:02:59.598 --> 00:02:59.653 align:start position:0%
+ usuarios ven en nuestro sitio se
+ 
+
+00:02:59.653 --> 00:03:01.931 align:start position:0%
+ usuarios ven en nuestro sitio se
+ contaría<00:03:00.203><c> como</c><00:03:00.478><c> una</c><00:03:00.698><c> conversión</c><00:03:01.303><c>.</c><00:03:01.720><c> Esto</c>
+
+00:03:01.931 --> 00:03:01.984 align:start position:0%
+ contaría como una conversión. Esto
+ 
+
+00:03:01.984 --> 00:03:03.786 align:start position:0%
+ contaría como una conversión. Esto
+ significa<00:03:02.514><c> que</c><00:03:02.726><c> si</c><00:03:02.885><c> desea</c><00:03:03.203><c> realizar</c><00:03:03.680><c> un</c>
+
+00:03:03.786 --> 00:03:03.839 align:start position:0%
+ significa que si desea realizar un
+ 
+
+00:03:03.839 --> 00:03:05.641 align:start position:0%
+ significa que si desea realizar un
+ seguimiento<00:03:04.475><c> más</c><00:03:04.740><c> específico</c><00:03:05.323><c>,</c><00:03:05.429><c> como</c>
+
+00:03:05.641 --> 00:03:05.694 align:start position:0%
+ seguimiento más específico, como
+ 
+
+00:03:05.694 --> 00:03:07.284 align:start position:0%
+ seguimiento más específico, como
+ personas<00:03:06.171><c> viendo</c><00:03:06.542><c> una</c><00:03:06.754><c> página</c><00:03:07.178><c> de</c>
+
+00:03:07.284 --> 00:03:07.337 align:start position:0%
+ personas viendo una página de
+ 
+
+00:03:07.337 --> 00:03:09.298 align:start position:0%
+ personas viendo una página de
+ agradecimiento<00:03:08.079><c>,</c><00:03:08.185><c> primero</c><00:03:08.609><c> debemos</c><00:03:09.033><c> crear</c>
+
+00:03:09.298 --> 00:03:09.351 align:start position:0%
+ agradecimiento, primero debemos crear
+ 
+
+00:03:09.351 --> 00:03:12.367 align:start position:0%
+ agradecimiento, primero debemos crear
+ un<00:03:09.510><c> nuevo</c><00:03:09.828><c> evento</c><00:03:10.146><c>.</c><00:03:11.194><c> Ahora</c><00:03:11.473><c>,</c><00:03:11.585><c> vamos</c><00:03:11.920><c> a</c><00:03:12.032><c> cubrir</c>
+
+00:03:12.367 --> 00:03:12.423 align:start position:0%
+ un nuevo evento. Ahora, vamos a cubrir
+ 
+
+00:03:12.423 --> 00:03:14.434 align:start position:0%
+ un nuevo evento. Ahora, vamos a cubrir
+ los<00:03:12.646><c> pasos</c><00:03:12.981><c> para</c><00:03:13.261><c> crear</c><00:03:13.596><c> un</c><00:03:13.763><c> nuevo</c><00:03:14.099><c> evento</c>
+
+00:03:14.434 --> 00:03:14.490 align:start position:0%
+ los pasos para crear un nuevo evento
+ 
+
+00:03:14.490 --> 00:03:16.669 align:start position:0%
+ los pasos para crear un nuevo evento
+ directamente<00:03:15.216><c> dentro</c><00:03:15.607><c> de</c><00:03:15.775><c> Google</c><00:03:16.166><c> Analytics</c>
+
+00:03:16.669 --> 00:03:18.907 align:start position:0%
+ directamente dentro de Google Analytics
+.<00:03:17.340><c> Esto</c><00:03:17.584><c> nos</c><00:03:17.780><c> permite</c><00:03:18.172><c> crear</c><00:03:18.466><c> un</c><00:03:18.613><c> evento</c>
+
+00:03:18.907 --> 00:03:18.956 align:start position:0%
+. Esto nos permite crear un evento
+ 
+
+00:03:18.956 --> 00:03:20.818 align:start position:0%
+. Esto nos permite crear un evento
+ basado<00:03:19.299><c> en</c><00:03:19.446><c> uno</c><00:03:19.642><c> que</c><00:03:19.838><c> ya</c><00:03:19.985><c> se</c><00:03:20.132><c> ha</c><00:03:20.279><c> recopilado</c><00:03:20.769><c>.</c>
+
+00:03:20.818 --> 00:03:21.251 align:start position:0%
+ basado en uno que ya se ha recopilado.
+ 
+
+00:03:21.251 --> 00:03:22.862 align:start position:0%
+ basado en uno que ya se ha recopilado.
+ Y<00:03:21.345><c> esta</c><00:03:21.582><c> es</c><00:03:21.725><c> una</c><00:03:21.914><c> excelente</c><00:03:22.388><c> opción</c><00:03:22.767><c> si</c>
+
+00:03:22.862 --> 00:03:22.910 align:start position:0%
+ Y esta es una excelente opción si
+ 
+
+00:03:22.910 --> 00:03:24.427 align:start position:0%
+ Y esta es una excelente opción si
+ desea<00:03:23.194><c> realizar</c><00:03:23.621><c> un</c><00:03:23.763><c> seguimiento</c><00:03:24.332><c> de</c>
+
+00:03:24.427 --> 00:03:24.474 align:start position:0%
+ desea realizar un seguimiento de
+ 
+
+00:03:24.474 --> 00:03:25.944 align:start position:0%
+ desea realizar un seguimiento de
+ personas<00:03:24.901><c> que</c><00:03:25.090><c> ven</c><00:03:25.280><c> una</c><00:03:25.470><c> página</c><00:03:25.849><c> de</c>
+
+00:03:25.944 --> 00:03:25.991 align:start position:0%
+ personas que ven una página de
+ 
+
+00:03:25.991 --> 00:03:27.603 align:start position:0%
+ personas que ven una página de
+ agradecimiento<00:03:26.702><c> específica</c><00:03:27.271><c> como</c><00:03:27.508><c> un</c>
+
+00:03:27.603 --> 00:03:27.650 align:start position:0%
+ agradecimiento específica como un
+ 
+
+00:03:27.650 --> 00:03:30.100 align:start position:0%
+ agradecimiento específica como un
+ evento<00:03:27.982><c> clave</c><00:03:28.219><c>.</c><00:03:28.872><c> Todavía</c><00:03:29.352><c> estamos</c><00:03:29.780><c> viendo</c>
+
+00:03:30.100 --> 00:03:30.154 align:start position:0%
+ evento clave. Todavía estamos viendo
+ 
+
+00:03:30.154 --> 00:03:31.970 align:start position:0%
+ evento clave. Todavía estamos viendo
+ la<00:03:30.314><c> configuración</c><00:03:31.115><c> de</c><00:03:31.276><c> eventos</c><00:03:31.703><c> en</c><00:03:31.863><c> la</c>
+
+00:03:31.970 --> 00:03:32.024 align:start position:0%
+ la configuración de eventos en la
+ 
+
+00:03:32.024 --> 00:03:34.054 align:start position:0%
+ la configuración de eventos en la
+ propiedad<00:03:32.558><c> GA4</c><00:03:32.772><c> y</c><00:03:32.878><c> podemos</c><00:03:33.306><c> ver</c><00:03:33.519><c> que</c><00:03:33.733><c> hay</c><00:03:33.947><c> un</c>
+
+00:03:34.054 --> 00:03:34.107 align:start position:0%
+ propiedad GA4 y podemos ver que hay un
+ 
+
+00:03:34.107 --> 00:03:36.137 align:start position:0%
+ propiedad GA4 y podemos ver que hay un
+ botón<00:03:34.481><c> en</c><00:03:34.641><c> la</c><00:03:34.802><c> parte</c><00:03:35.122><c> superior</c><00:03:35.603><c> para</c><00:03:35.870><c> crear</c>
+
+00:03:36.137 --> 00:03:36.191 align:start position:0%
+ botón en la parte superior para crear
+ 
+
+00:03:36.191 --> 00:03:38.923 align:start position:0%
+ botón en la parte superior para crear
+ un<00:03:36.351><c> nuevo</c><00:03:36.672><c> evento</c><00:03:36.992><c>.</c><00:03:37.875><c> Hagamos</c><00:03:38.316><c> clic</c><00:03:38.592><c> aquí</c><00:03:38.867><c>.</c>
+
+00:03:38.923 --> 00:03:39.942 align:start position:0%
+ un nuevo evento. Hagamos clic aquí.
+ 
+
+00:03:39.942 --> 00:03:41.808 align:start position:0%
+ 
+ Para<00:03:40.216><c> comenzar</c><00:03:40.655><c>,</c><00:03:40.765><c> necesitamos</c><00:03:41.424><c> nombrar</c>
+
+00:03:41.808 --> 00:03:41.863 align:start position:0%
+ Para comenzar, necesitamos nombrar
+ 
+
+00:03:41.863 --> 00:03:44.905 align:start position:0%
+ Para comenzar, necesitamos nombrar
+ nuestro<00:03:42.303><c> nuevo</c><00:03:42.632><c> evento</c><00:03:42.962><c>.</c><00:03:43.729><c> Voy</c><00:03:44.005><c> a</c><00:03:44.144><c> llamar</c><00:03:44.629><c> a</c><00:03:44.767><c> mi</c>
+
+00:03:44.905 --> 00:03:44.975 align:start position:0%
+ nuestro nuevo evento. Voy a llamar a mi
+ 
+
+00:03:44.975 --> 00:03:48.668 align:start position:0%
+ nuestro nuevo evento. Voy a llamar a mi
+ evento<00:03:45.459><c> generate_lead</c><00:03:46.359><c>.</c><00:03:47.954><c> Este</c><00:03:48.209><c> es</c><00:03:48.362><c> uno</c><00:03:48.566><c> de</c>
+
+00:03:48.668 --> 00:03:48.719 align:start position:0%
+ evento generate_lead. Este es uno de
+ 
+
+00:03:48.719 --> 00:03:50.711 align:start position:0%
+ evento generate_lead. Este es uno de
+ los<00:03:48.924><c> nombres</c><00:03:49.332><c> de</c><00:03:49.485><c> eventos</c><00:03:49.894><c> recomendados</c><00:03:50.557><c> por</c>
+
+00:03:50.711 --> 00:03:50.762 align:start position:0%
+ los nombres de eventos recomendados por
+ 
+
+00:03:50.762 --> 00:03:52.498 align:start position:0%
+ los nombres de eventos recomendados por
+ Google<00:03:51.119><c> y</c><00:03:51.221><c> es</c><00:03:51.374><c> perfecto</c><00:03:51.834><c> para</c><00:03:52.089><c> rastrear</c>
+
+00:03:52.498 --> 00:03:52.549 align:start position:0%
+ Google y es perfecto para rastrear
+ 
+
+00:03:52.549 --> 00:03:54.132 align:start position:0%
+ Google y es perfecto para rastrear
+ cuando<00:03:52.906><c> las</c><00:03:53.110><c> personas</c><00:03:53.570><c> han</c><00:03:53.774><c> enviado</c>
+
+00:03:54.132 --> 00:03:54.183 align:start position:0%
+ cuando las personas han enviado
+ 
+
+00:03:54.183 --> 00:03:56.123 align:start position:0%
+ cuando las personas han enviado
+ correctamente<00:03:54.897><c> un</c><00:03:55.051><c> formulario</c><00:03:55.612><c> en</c><00:03:55.765><c> nuestro</c>
+
+00:03:56.123 --> 00:03:56.174 align:start position:0%
+ correctamente un formulario en nuestro
+ 
+
+00:03:56.174 --> 00:03:58.604 align:start position:0%
+ correctamente un formulario en nuestro
+ sitio<00:03:56.480><c> web</c><00:03:56.633><c>.</c><00:03:57.364><c> A</c><00:03:57.467><c> continuación</c><00:03:58.139><c>,</c><00:03:58.242><c> podemos</c>
+
+00:03:58.604 --> 00:03:58.656 align:start position:0%
+ sitio web. A continuación, podemos
+ 
+
+00:03:58.656 --> 00:04:00.672 align:start position:0%
+ sitio web. A continuación, podemos
+ habilitar<00:03:59.173><c> la</c><00:03:59.328><c> opción</c><00:03:59.741><c> marcar</c><00:04:00.103><c> como</c><00:04:00.362><c> evento</c>
+
+00:04:00.672 --> 00:04:00.723 align:start position:0%
+ habilitar la opción marcar como evento
+ 
+
+00:04:00.723 --> 00:04:03.627 align:start position:0%
+ habilitar la opción marcar como evento
+ clave<00:04:00.982><c>.</c><00:04:01.835><c> Esto</c><00:04:02.115><c> significará</c><00:04:02.843><c> que</c><00:04:03.067><c> tan</c><00:04:03.291><c> pronto</c>
+
+00:04:03.627 --> 00:04:03.683 align:start position:0%
+ clave. Esto significará que tan pronto
+ 
+
+00:04:03.683 --> 00:04:05.867 align:start position:0%
+ clave. Esto significará que tan pronto
+ como<00:04:03.963><c> se</c><00:04:04.131><c> active</c><00:04:04.523><c> nuestro</c><00:04:04.971><c> nuevo</c><00:04:05.307><c> evento</c><00:04:05.643><c>,</c><00:04:05.755><c> se</c>
+
+00:04:05.867 --> 00:04:05.923 align:start position:0%
+ como se active nuestro nuevo evento, se
+ 
+
+00:04:05.923 --> 00:04:08.659 align:start position:0%
+ como se active nuestro nuevo evento, se
+ contará<00:04:06.427><c> como</c><00:04:06.707><c> un</c><00:04:06.875><c> evento</c><00:04:07.267><c> clave</c><00:04:07.547><c>.</c><00:04:08.417><c> Ahora</c>
+
+00:04:08.659 --> 00:04:08.707 align:start position:0%
+ contará como un evento clave. Ahora
+ 
+
+00:04:08.707 --> 00:04:10.502 align:start position:0%
+ contará como un evento clave. Ahora
+ podemos<00:04:09.095><c> definir</c><00:04:09.483><c> un</c><00:04:09.629><c> valor</c><00:04:09.920><c> para</c><00:04:10.162><c> nuestro</c>
+
+00:04:10.502 --> 00:04:10.550 align:start position:0%
+ podemos definir un valor para nuestro
+ 
+
+00:04:10.550 --> 00:04:13.497 align:start position:0%
+ podemos definir un valor para nuestro
+ evento<00:04:10.890><c> clave</c><00:04:11.132><c>.</c><00:04:12.041><c> Para</c><00:04:12.332><c> mi</c><00:04:12.507><c> evento</c><00:04:12.914><c> clave</c><00:04:13.206><c>,</c><00:04:13.322><c> voy</c>
+
+00:04:13.497 --> 00:04:13.555 align:start position:0%
+ evento clave. Para mi evento clave, voy
+ 
+
+00:04:13.555 --> 00:04:15.536 align:start position:0%
+ evento clave. Para mi evento clave, voy
+ a<00:04:13.672><c> dejar</c><00:04:14.021><c> seleccionados</c><00:04:14.837><c> los</c><00:04:15.070><c> dólares</c>
+
+00:04:15.536 --> 00:04:15.595 align:start position:0%
+ a dejar seleccionados los dólares
+ 
+
+00:04:15.595 --> 00:04:17.750 align:start position:0%
+ a dejar seleccionados los dólares
+ estadounidenses<00:04:16.527><c> y</c><00:04:16.643><c> voy</c><00:04:16.876><c> a</c><00:04:16.993><c> establecer</c><00:04:17.634><c> el</c>
+
+00:04:17.750 --> 00:04:17.809 align:start position:0%
+ estadounidenses y voy a establecer el
+ 
+
+00:04:17.809 --> 00:04:20.780 align:start position:0%
+ estadounidenses y voy a establecer el
+ valor<00:04:18.158><c> de</c><00:04:18.333><c> la</c><00:04:18.508><c> conversión</c><00:04:19.207><c> en</c><00:04:19.382><c> 50</c><00:04:19.498><c>.</c><00:04:20.569><c> Esto</c>
+
+00:04:20.780 --> 00:04:20.833 align:start position:0%
+ valor de la conversión en 50. Esto
+ 
+
+00:04:20.833 --> 00:04:22.893 align:start position:0%
+ valor de la conversión en 50. Esto
+ significa<00:04:21.361><c> que</c><00:04:21.572><c> al</c><00:04:21.731><c> evento</c><00:04:22.100><c> se</c><00:04:22.259><c> le</c><00:04:22.417><c> asignará</c>
+
+00:04:22.893 --> 00:04:22.946 align:start position:0%
+ significa que al evento se le asignará
+ 
+
+00:04:22.946 --> 00:04:25.006 align:start position:0%
+ significa que al evento se le asignará
+ un<00:04:23.104><c> valor</c><00:04:23.421><c> de</c><00:04:23.580><c> 50</c><00:04:23.738><c> dólares</c><00:04:24.214><c> cada</c><00:04:24.478><c> vez</c><00:04:24.689><c> que</c><00:04:24.900><c> se</c>
+
+00:04:25.006 --> 00:04:25.059 align:start position:0%
+ un valor de 50 dólares cada vez que se
+ 
+
+00:04:25.059 --> 00:04:27.344 align:start position:0%
+ un valor de 50 dólares cada vez que se
+ active<00:04:25.376><c>.</c><00:04:26.060><c> Debajo</c><00:04:26.451><c> de</c><00:04:26.618><c> esto</c><00:04:26.842><c>,</c><00:04:26.953><c> podemos</c>
+
+00:04:27.344 --> 00:04:27.400 align:start position:0%
+ active. Debajo de esto, podemos
+ 
+
+00:04:27.400 --> 00:04:29.467 align:start position:0%
+ active. Debajo de esto, podemos
+ controlar<00:04:27.959><c> cómo</c><00:04:28.294><c> se</c><00:04:28.462><c> contará</c><00:04:28.965><c> el</c><00:04:29.132><c> evento</c>
+
+00:04:29.467 --> 00:04:29.523 align:start position:0%
+ controlar cómo se contará el evento
+ 
+
+00:04:29.523 --> 00:04:32.487 align:start position:0%
+ controlar cómo se contará el evento
+ clave<00:04:29.803><c>.</c><00:04:30.798><c> El</c><00:04:30.966><c> valor</c><00:04:31.304><c> predeterminado</c><00:04:32.149><c> es</c><00:04:32.318><c> una</c>
+
+00:04:32.487 --> 00:04:32.543 align:start position:0%
+ clave. El valor predeterminado es una
+ 
+
+00:04:32.543 --> 00:04:34.570 align:start position:0%
+ clave. El valor predeterminado es una
+ vez<00:04:32.768><c> por</c><00:04:32.994><c> evento</c><00:04:33.332><c>,</c><00:04:33.444><c> lo</c><00:04:33.613><c> que</c><00:04:33.838><c> significa</c><00:04:34.401><c> que</c>
+
+00:04:34.570 --> 00:04:34.627 align:start position:0%
+ vez por evento, lo que significa que
+ 
+
+00:04:34.627 --> 00:04:36.654 align:start position:0%
+ vez por evento, lo que significa que
+ cada<00:04:34.908><c> vez</c><00:04:35.133><c> que</c><00:04:35.359><c> se</c><00:04:35.528><c> activa</c><00:04:35.922><c> el</c><00:04:36.091><c> evento</c><00:04:36.429><c>,</c><00:04:36.541><c> se</c>
+
+00:04:36.654 --> 00:04:36.710 align:start position:0%
+ cada vez que se activa el evento, se
+ 
+
+00:04:36.710 --> 00:04:40.586 align:start position:0%
+ cada vez que se activa el evento, se
+ contará<00:04:37.217><c> como</c><00:04:37.499><c> un</c><00:04:37.667><c> evento</c><00:04:38.062><c> clave</c><00:04:38.343><c>.</c><00:04:40.410><c> Sin</c>
+
+00:04:40.586 --> 00:04:40.645 align:start position:0%
+ contará como un evento clave. Sin
+ 
+
+00:04:40.645 --> 00:04:42.939 align:start position:0%
+ contará como un evento clave. Sin
+ embargo<00:04:41.057><c>,</c><00:04:41.174><c> podemos</c><00:04:41.645><c> cambiar</c><00:04:42.115><c> esto</c><00:04:42.409><c> a</c><00:04:42.527><c> una</c><00:04:42.762><c> vez</c>
+
+00:04:42.939 --> 00:04:42.998 align:start position:0%
+ embargo, podemos cambiar esto a una vez
+ 
+
+00:04:42.998 --> 00:04:45.292 align:start position:0%
+ embargo, podemos cambiar esto a una vez
+ por<00:04:43.233><c> sesión</c><00:04:43.645><c>,</c><00:04:43.762><c> lo</c><00:04:43.939><c> cual</c><00:04:44.233><c> es</c><00:04:44.409><c> útil</c><00:04:44.762><c> si</c><00:04:44.939><c> espera</c>
+
+00:04:45.292 --> 00:04:45.350 align:start position:0%
+ por sesión, lo cual es útil si espera
+ 
+
+00:04:45.350 --> 00:04:47.409 align:start position:0%
+ por sesión, lo cual es útil si espera
+ que<00:04:45.586><c> las</c><00:04:45.821><c> personas</c><00:04:46.350><c> completen</c><00:04:46.938><c> la</c><00:04:47.115><c> misma</c>
+
+00:04:47.409 --> 00:04:47.468 align:start position:0%
+ que las personas completen la misma
+ 
+
+00:04:47.468 --> 00:04:49.644 align:start position:0%
+ que las personas completen la misma
+ acción<00:04:47.938><c> varias</c><00:04:48.350><c> veces</c><00:04:48.644><c>,</c><00:04:48.762><c> pero</c><00:04:49.056><c> no</c><00:04:49.232><c> aumenta</c>
+
+00:04:49.644 --> 00:04:49.703 align:start position:0%
+ acción varias veces, pero no aumenta
+ 
+
+00:04:49.703 --> 00:04:51.585 align:start position:0%
+ acción varias veces, pero no aumenta
+ el<00:04:49.879><c> valor</c><00:04:50.232><c> total</c><00:04:50.585><c> para</c><00:04:50.879><c> su</c><00:04:51.056><c> negocio</c><00:04:51.526><c> u</c>
+
+00:04:51.585 --> 00:04:51.644 align:start position:0%
+ el valor total para su negocio u
+ 
+
+00:04:51.644 --> 00:04:55.539 align:start position:0%
+ el valor total para su negocio u
+ organización<00:04:52.409><c>.</c><00:04:54.494><c> Voy</c><00:04:54.703><c> a</c><00:04:54.807><c> dejar</c><00:04:55.121><c> el</c><00:04:55.278><c> valor</c>
+
+00:04:55.539 --> 00:04:55.591 align:start position:0%
+ organización. Voy a dejar el valor
+ 
+
+00:04:55.591 --> 00:04:57.421 align:start position:0%
+ organización. Voy a dejar el valor
+ predeterminado<00:04:56.376><c> para</c><00:04:56.637><c> mi</c><00:04:56.794><c> evento</c><00:04:57.107><c>,</c><00:04:57.212><c> pero</c>
+
+00:04:57.421 --> 00:04:57.473 align:start position:0%
+ predeterminado para mi evento, pero
+ 
+
+00:04:57.473 --> 00:05:00.220 align:start position:0%
+ predeterminado para mi evento, pero
+ usted<00:04:57.787><c> puede</c><00:04:58.101><c> cambiarlo</c><00:04:58.571><c>.</c><00:04:59.375><c> Desplazándonos</c>
+
+00:05:00.220 --> 00:05:00.276 align:start position:0%
+ usted puede cambiarlo. Desplazándonos
+ 
+
+00:05:00.276 --> 00:05:02.304 align:start position:0%
+ usted puede cambiarlo. Desplazándonos
+ hacia<00:05:00.614><c> abajo</c><00:05:00.896><c>,</c><00:05:01.008><c> asegurémonos</c><00:05:01.797><c> de</c><00:05:01.966><c> que</c><00:05:02.191><c> la</c>
+
+00:05:02.304 --> 00:05:02.360 align:start position:0%
+ hacia abajo, asegurémonos de que la
+ 
+
+00:05:02.360 --> 00:05:04.107 align:start position:0%
+ hacia abajo, asegurémonos de que la
+ opción<00:05:02.811><c> crear</c><00:05:03.149><c> sin</c><00:05:03.374><c> código</c><00:05:03.825><c> esté</c>
+
+00:05:04.107 --> 00:05:04.163 align:start position:0%
+ opción crear sin código esté
+ 
+
+00:05:04.163 --> 00:05:06.834 align:start position:0%
+ opción crear sin código esté
+ habilitada<00:05:04.726><c>.</c><00:05:05.577><c> También</c><00:05:06.012><c> debemos</c><00:05:06.399><c> verificar</c>
+
+00:05:06.834 --> 00:05:06.883 align:start position:0%
+ habilitada. También debemos verificar
+ 
+
+00:05:06.883 --> 00:05:08.527 align:start position:0%
+ habilitada. También debemos verificar
+ que<00:05:07.076><c> esté</c><00:05:07.366><c> seleccionado</c><00:05:07.995><c> el</c><00:05:08.140><c> flujo</c><00:05:08.431><c> de</c>
+
+00:05:08.527 --> 00:05:08.576 align:start position:0%
+ que esté seleccionado el flujo de
+ 
+
+00:05:08.576 --> 00:05:11.157 align:start position:0%
+ que esté seleccionado el flujo de
+ datos<00:05:08.866><c> correcto</c><00:05:09.253><c>.</c><00:05:09.917><c> En</c><00:05:10.094><c> la</c><00:05:10.271><c> mayoría</c><00:05:10.803><c> de</c><00:05:10.980><c> los</c>
+
+00:05:11.157 --> 00:05:11.217 align:start position:0%
+ datos correcto. En la mayoría de los
+ 
+
+00:05:11.217 --> 00:05:13.403 align:start position:0%
+ datos correcto. En la mayoría de los
+ casos<00:05:11.512><c>,</c><00:05:11.630><c> solo</c><00:05:11.926><c> tendrá</c><00:05:12.398><c> un</c><00:05:12.576><c> flujo</c><00:05:12.930><c> de</c><00:05:13.108><c> datos</c>
+
+00:05:13.403 --> 00:05:13.462 align:start position:0%
+ casos, solo tendrá un flujo de datos
+ 
+
+00:05:13.462 --> 00:05:15.708 align:start position:0%
+ casos, solo tendrá un flujo de datos
+ si<00:05:13.639><c> solo</c><00:05:13.935><c> está</c><00:05:14.289><c> rastreando</c><00:05:14.939><c> su</c><00:05:15.117><c> sitio</c><00:05:15.471><c> web</c><00:05:15.649><c>,</c>
+
+00:05:15.708 --> 00:05:15.767 align:start position:0%
+ si solo está rastreando su sitio web,
+ 
+
+00:05:15.767 --> 00:05:17.894 align:start position:0%
+ si solo está rastreando su sitio web,
+ por<00:05:16.003><c> lo</c><00:05:16.180><c> que</c><00:05:16.417><c> probablemente</c><00:05:17.244><c> no</c><00:05:17.421><c> necesite</c>
+
+00:05:17.894 --> 00:05:17.953 align:start position:0%
+ por lo que probablemente no necesite
+ 
+
+00:05:17.953 --> 00:05:20.729 align:start position:0%
+ por lo que probablemente no necesite
+ cambiar<00:05:18.426><c> esto</c><00:05:18.662><c>.</c><00:05:19.469><c> A</c><00:05:19.574><c> continuación</c><00:05:20.256><c>,</c><00:05:20.361><c> debemos</c>
+
+00:05:20.729 --> 00:05:20.781 align:start position:0%
+ cambiar esto. A continuación, debemos
+ 
+
+00:05:20.781 --> 00:05:22.566 align:start position:0%
+ cambiar esto. A continuación, debemos
+ definir<00:05:21.201><c> las</c><00:05:21.411><c> condiciones</c><00:05:22.041><c> de</c><00:05:22.199><c> cuándo</c>
+
+00:05:22.566 --> 00:05:22.619 align:start position:0%
+ definir las condiciones de cuándo
+ 
+
+00:05:22.619 --> 00:05:24.509 align:start position:0%
+ definir las condiciones de cuándo
+ queremos<00:05:23.091><c> que</c><00:05:23.301><c> se</c><00:05:23.459><c> active</c><00:05:23.826><c> nuestro</c><00:05:24.246><c> nuevo</c>
+
+00:05:24.509 --> 00:05:24.561 align:start position:0%
+ queremos que se active nuestro nuevo
+ 
+
+00:05:24.561 --> 00:05:26.661 align:start position:0%
+ queremos que se active nuestro nuevo
+ evento<00:05:24.876><c>.</c><00:05:25.294><c> Google</c><00:05:25.648><c> nos</c><00:05:25.851><c> ha</c><00:05:26.003><c> facilitado</c><00:05:26.560><c> la</c>
+
+00:05:26.661 --> 00:05:26.712 align:start position:0%
+ evento. Google nos ha facilitado la
+ 
+
+00:05:26.712 --> 00:05:28.637 align:start position:0%
+ evento. Google nos ha facilitado la
+ creación<00:05:27.219><c> de</c><00:05:27.371><c> un</c><00:05:27.523><c> nuevo</c><00:05:27.827><c> evento</c><00:05:28.181><c> basado</c><00:05:28.536><c> en</c>
+
+00:05:28.637 --> 00:05:28.688 align:start position:0%
+ creación de un nuevo evento basado en
+ 
+
+00:05:28.688 --> 00:05:30.461 align:start position:0%
+ creación de un nuevo evento basado en
+ la<00:05:28.840><c> visualización</c><00:05:29.600><c> de</c><00:05:29.752><c> una</c><00:05:29.954><c> página</c><00:05:30.360><c> en</c>
+
+00:05:30.461 --> 00:05:30.512 align:start position:0%
+ la visualización de una página en
+ 
+
+00:05:30.512 --> 00:05:32.506 align:start position:0%
+ la visualización de una página en
+ nuestro<00:05:30.917><c> sitio</c><00:05:31.221><c> web</c><00:05:31.373><c>.</c><00:05:31.621><c> Podemos</c><00:05:32.014><c> ver</c><00:05:32.211><c> que</c><00:05:32.408><c> el</c>
+
+00:05:32.506 --> 00:05:32.556 align:start position:0%
+ nuestro sitio web. Podemos ver que el
+ 
+
+00:05:32.556 --> 00:05:34.278 align:start position:0%
+ nuestro sitio web. Podemos ver que el
+ evento<00:05:32.900><c> de</c><00:05:33.048><c> vista</c><00:05:33.343><c> de</c><00:05:33.491><c> página</c><00:05:33.885><c> ya</c><00:05:34.032><c> está</c>
+
+00:05:34.278 --> 00:05:34.328 align:start position:0%
+ evento de vista de página ya está
+ 
+
+00:05:34.328 --> 00:05:37.299 align:start position:0%
+ evento de vista de página ya está
+ seleccionado<00:05:34.967><c> para</c><00:05:35.214><c> nosotros</c><00:05:35.607><c>.</c><00:05:36.613><c> Usando</c><00:05:37.049><c> esta</c>
+
+00:05:37.299 --> 00:05:37.361 align:start position:0%
+ seleccionado para nosotros. Usando esta
+ 
+
+00:05:37.361 --> 00:05:39.606 align:start position:0%
+ seleccionado para nosotros. Usando esta
+ configuración<00:05:38.296><c> simplificada</c><00:05:39.045><c>,</c><00:05:39.169><c> podemos</c>
+
+00:05:39.606 --> 00:05:39.668 align:start position:0%
+ configuración simplificada, podemos
+ 
+
+00:05:39.668 --> 00:05:41.602 align:start position:0%
+ configuración simplificada, podemos
+ ver<00:05:39.918><c> que</c><00:05:40.167><c> solo</c><00:05:40.479><c> hay</c><00:05:40.729><c> una</c><00:05:40.978><c> opción</c><00:05:41.477><c> de</c>
+
+00:05:41.602 --> 00:05:41.664 align:start position:0%
+ ver que solo hay una opción de
+ 
+
+00:05:41.664 --> 00:05:44.450 align:start position:0%
+ ver que solo hay una opción de
+ coincidencia<00:05:42.412><c>,</c><00:05:42.537><c> que</c><00:05:42.787><c> es</c><00:05:42.974><c> URL</c><00:05:43.223><c> contiene</c><00:05:43.722><c>.</c><00:05:44.196><c> Así</c>
+
+00:05:44.450 --> 00:05:44.514 align:start position:0%
+ coincidencia, que es URL contiene. Así
+ 
+
+00:05:44.514 --> 00:05:46.999 align:start position:0%
+ coincidencia, que es URL contiene. Así
+ que<00:05:44.769><c> puede</c><00:05:45.151><c> ingresar</c><00:05:45.725><c> la</c><00:05:45.916><c> URL</c><00:05:46.171><c> o</c><00:05:46.298><c> la</c><00:05:46.489><c> parte</c><00:05:46.872><c> de</c>
+
+00:05:46.999 --> 00:05:47.063 align:start position:0%
+ que puede ingresar la URL o la parte de
+ 
+
+00:05:47.063 --> 00:05:49.548 align:start position:0%
+ que puede ingresar la URL o la parte de
+ la<00:05:47.254><c> URL</c><00:05:47.509><c> que</c><00:05:47.764><c> queremos</c><00:05:48.337><c> que</c><00:05:48.592><c> coincida</c><00:05:49.166><c> debajo</c>
+
+00:05:49.548 --> 00:05:49.612 align:start position:0%
+ la URL que queremos que coincida debajo
+ 
+
+00:05:49.612 --> 00:05:54.045 align:start position:0%
+ la URL que queremos que coincida debajo
+ de<00:05:49.803><c> esto</c><00:05:50.058><c>.</c><00:05:51.180><c> Ingresemos</c><00:05:51.829><c> thank-you</c><00:05:52.360><c>.</c><00:05:53.812><c> Esto</c>
+
+00:05:54.045 --> 00:05:54.103 align:start position:0%
+ de esto. Ingresemos thank-you. Esto
+ 
+
+00:05:54.103 --> 00:05:56.259 align:start position:0%
+ de esto. Ingresemos thank-you. Esto
+ significa<00:05:54.685><c> que</c><00:05:54.918><c> nuestro</c><00:05:55.385><c> nuevo</c><00:05:55.734><c> evento</c><00:05:56.142><c> se</c>
+
+00:05:56.259 --> 00:05:56.317 align:start position:0%
+ significa que nuestro nuevo evento se
+ 
+
+00:05:56.317 --> 00:05:58.531 align:start position:0%
+ significa que nuestro nuevo evento se
+ activará<00:05:56.899><c> cada</c><00:05:57.191><c> vez</c><00:05:57.424><c> que</c><00:05:57.657><c> alguien</c><00:05:58.123><c> vea</c><00:05:58.356><c> una</c>
+
+00:05:58.531 --> 00:05:58.589 align:start position:0%
+ activará cada vez que alguien vea una
+ 
+
+00:05:58.589 --> 00:06:00.745 align:start position:0%
+ activará cada vez que alguien vea una
+ página<00:05:59.055><c> en</c><00:05:59.230><c> nuestro</c><00:05:59.696><c> sitio</c><00:06:00.046><c> web</c><00:06:00.279><c> cuya</c><00:06:00.570><c> URL</c>
+
+00:06:00.745 --> 00:06:00.803 align:start position:0%
+ página en nuestro sitio web cuya URL
+ 
+
+00:06:00.803 --> 00:06:03.492 align:start position:0%
+ página en nuestro sitio web cuya URL
+ contenga<00:06:01.327><c> "</c><00:06:01.386><c>thank</c><00:06:01.735><c> you</c><00:06:01.910><c>"</c><00:06:01.968><c>.</c><00:06:02.809><c> Estoy</c><00:06:03.102><c> conforme</c>
+
+00:06:03.492 --> 00:06:03.541 align:start position:0%
+ contenga "thank you". Estoy conforme
+ 
+
+00:06:03.541 --> 00:06:05.349 align:start position:0%
+ contenga "thank you". Estoy conforme
+ con<00:06:03.737><c> la</c><00:06:03.883><c> configuración</c><00:06:04.616><c> de</c><00:06:04.762><c> este</c><00:06:05.007><c> evento</c><00:06:05.300><c>.</c>
+
+00:06:05.349 --> 00:06:05.684 align:start position:0%
+ con la configuración de este evento.
+ 
+
+00:06:05.684 --> 00:06:07.394 align:start position:0%
+ con la configuración de este evento.
+ Así<00:06:05.921><c> que</c><00:06:06.111><c> hagamos</c><00:06:06.491><c> clic</c><00:06:06.729><c> en</c><00:06:06.871><c> crear</c><00:06:07.156><c> en</c><00:06:07.299><c> la</c>
+
+00:06:07.394 --> 00:06:07.441 align:start position:0%
+ Así que hagamos clic en crear en la
+ 
+
+00:06:07.441 --> 00:06:11.842 align:start position:0%
+ Así que hagamos clic en crear en la
+ parte<00:06:07.726><c> superior</c><00:06:08.106><c>.</c><00:06:10.815><c> Ahora</c><00:06:11.108><c> hemos</c><00:06:11.402><c> creado</c><00:06:11.744><c> un</c>
+
+00:06:11.842 --> 00:06:11.891 align:start position:0%
+ parte superior. Ahora hemos creado un
+ 
+
+00:06:11.891 --> 00:06:13.652 align:start position:0%
+ parte superior. Ahora hemos creado un
+ nuevo<00:06:12.184><c> evento</c><00:06:12.527><c> que</c><00:06:12.722><c> se</c><00:06:12.869><c> activará</c><00:06:13.358><c> cuando</c>
+
+00:06:13.652 --> 00:06:13.701 align:start position:0%
+ nuevo evento que se activará cuando
+ 
+
+00:06:13.701 --> 00:06:14.973 align:start position:0%
+ nuevo evento que se activará cuando
+ alguien<00:06:14.092><c> vea</c><00:06:14.288><c> una</c><00:06:14.483><c> página</c><00:06:14.875><c> de</c>
+
+00:06:14.973 --> 00:06:15.021 align:start position:0%
+ alguien vea una página de
+ 
+
+00:06:15.021 --> 00:06:16.783 align:start position:0%
+ alguien vea una página de
+ agradecimiento<00:06:15.755><c> en</c><00:06:15.902><c> nuestro</c><00:06:16.293><c> sitio</c><00:06:16.587><c> web</c><00:06:16.734><c>.</c>
+
+00:06:16.783 --> 00:06:17.953 align:start position:0%
+ agradecimiento en nuestro sitio web.
+ 
+
+00:06:17.953 --> 00:06:20.044 align:start position:0%
+ 
+ Una<00:06:18.167><c> vez</c><00:06:18.381><c> que</c><00:06:18.596><c> alguien</c><00:06:19.025><c> vea</c><00:06:19.239><c> una</c><00:06:19.454><c> página</c><00:06:19.883><c> que</c>
+
+00:06:20.044 --> 00:06:20.097 align:start position:0%
+ Una vez que alguien vea una página que
+ 
+
+00:06:20.097 --> 00:06:22.081 align:start position:0%
+ Una vez que alguien vea una página que
+ cumpla<00:06:20.473><c> con</c><00:06:20.687><c> nuestra</c><00:06:21.116><c> condición</c><00:06:21.652><c>,</c><00:06:21.759><c> podrá</c>
+
+00:06:22.081 --> 00:06:22.135 align:start position:0%
+ cumpla con nuestra condición, podrá
+ 
+
+00:06:22.135 --> 00:06:24.226 align:start position:0%
+ cumpla con nuestra condición, podrá
+ ver<00:06:22.349><c> el</c><00:06:22.510><c> evento</c><00:06:22.885><c> en</c><00:06:23.046><c> los</c><00:06:23.261><c> informes</c><00:06:23.743><c> en</c><00:06:23.904><c> tiempo</c>
+
+00:06:24.226 --> 00:06:24.279 align:start position:0%
+ ver el evento en los informes en tiempo
+ 
+
+00:06:24.279 --> 00:06:26.986 align:start position:0%
+ ver el evento en los informes en tiempo
+ real<00:06:24.547><c> de</c><00:06:24.708><c> inmediato</c><00:06:25.191><c>.</c><00:06:25.869><c> Sin</c><00:06:26.104><c> embargo</c><00:06:26.516><c>,</c><00:06:26.633><c> pueden</c>
+
+00:06:26.986 --> 00:06:27.045 align:start position:0%
+ real de inmediato. Sin embargo, pueden
+ 
+
+00:06:27.045 --> 00:06:29.105 align:start position:0%
+ real de inmediato. Sin embargo, pueden
+ pasar<00:06:27.398><c> de</c><00:06:27.575><c> 12</c><00:06:27.751><c> a</c><00:06:27.869><c> 24</c><00:06:28.046><c> horas</c><00:06:28.399><c> para</c><00:06:28.693><c> que</c><00:06:28.928><c> los</c>
+
+00:06:29.105 --> 00:06:29.164 align:start position:0%
+ pasar de 12 a 24 horas para que los
+ 
+
+00:06:29.164 --> 00:06:31.458 align:start position:0%
+ pasar de 12 a 24 horas para que los
+ eventos<00:06:29.634><c> clave</c><00:06:29.987><c> aparezcan</c><00:06:30.576><c> en</c><00:06:30.752><c> los</c><00:06:30.988><c> informes</c>
+
+00:06:31.458 --> 00:06:31.517 align:start position:0%
+ eventos clave aparezcan en los informes
+ 
+
+00:06:31.517 --> 00:06:33.648 align:start position:0%
+ eventos clave aparezcan en los informes
+ estándar<00:06:32.047><c>.</c><00:06:32.206><c> Por</c><00:06:32.427><c> eso</c><00:06:32.594><c>,</c><00:06:32.705><c> si</c><00:06:32.871><c> alguien</c><00:06:33.315><c> visita</c>
+
+00:06:33.648 --> 00:06:33.703 align:start position:0%
+ estándar. Por eso, si alguien visita
+ 
+
+00:06:33.703 --> 00:06:35.645 align:start position:0%
+ estándar. Por eso, si alguien visita
+ la<00:06:33.870><c> página</c><00:06:34.313><c> de</c><00:06:34.480><c> agradecimiento</c><00:06:35.312><c> ahora</c><00:06:35.589><c>,</c>
+
+00:06:35.645 --> 00:06:35.700 align:start position:0%
+ la página de agradecimiento ahora,
+ 
+
+00:06:35.700 --> 00:06:37.753 align:start position:0%
+ la página de agradecimiento ahora,
+ recomiendo<00:06:36.310><c> revisar</c><00:06:36.754><c> mañana</c><00:06:37.198><c> para</c><00:06:37.475><c> verlo</c>
+
+00:06:37.753 --> 00:06:37.808 align:start position:0%
+ recomiendo revisar mañana para verlo
+ 
+
+00:06:37.808 --> 00:06:40.684 align:start position:0%
+ recomiendo revisar mañana para verlo
+ en<00:06:37.974><c> sus</c><00:06:38.196><c> informes</c><00:06:38.640><c>.</c><00:06:39.422><c> Y</c><00:06:39.548><c> si</c><00:06:39.737><c> se</c><00:06:39.926><c> lo</c><00:06:40.116><c> pregunta</c><00:06:40.621><c>,</c>
+
+00:06:40.684 --> 00:06:40.747 align:start position:0%
+ en sus informes. Y si se lo pregunta,
+ 
+
+00:06:40.747 --> 00:06:42.767 align:start position:0%
+ en sus informes. Y si se lo pregunta,
+ puede<00:06:41.126><c> habilitar</c><00:06:41.757><c> hasta</c><00:06:42.135><c> 30</c><00:06:42.325><c> eventos</c>
+
+00:06:42.767 --> 00:06:42.830 align:start position:0%
+ puede habilitar hasta 30 eventos
+ 
+
+00:06:42.830 --> 00:06:46.361 align:start position:0%
+ puede habilitar hasta 30 eventos
+ únicos<00:06:43.335><c> como</c><00:06:43.650><c> eventos</c><00:06:44.155><c> clave</c><00:06:44.534><c> en</c><00:06:44.723><c> GA4</c><00:06:44.912><c>.</c><00:06:46.159><c> Así</c>
+
+00:06:46.361 --> 00:06:46.411 align:start position:0%
+ únicos como eventos clave en GA4. Así
+ 
+
+00:06:46.411 --> 00:06:48.232 align:start position:0%
+ únicos como eventos clave en GA4. Así
+ que<00:06:46.614><c> debería</c><00:06:47.069><c> tener</c><00:06:47.372><c> margen</c><00:06:47.726><c> suficiente</c>
+
+00:06:48.232 --> 00:06:48.282 align:start position:0%
+ que debería tener margen suficiente
+ 
+
+00:06:48.282 --> 00:06:49.951 align:start position:0%
+ que debería tener margen suficiente
+ para<00:06:48.535><c> rastrear</c><00:06:48.990><c> todas</c><00:06:49.294><c> esas</c><00:06:49.546><c> acciones</c>
+
+00:06:49.951 --> 00:06:50.002 align:start position:0%
+ para rastrear todas esas acciones
+ 
+
+00:06:50.002 --> 00:06:52.428 align:start position:0%
+ para rastrear todas esas acciones
+ importantes<00:06:50.608><c> como</c><00:06:50.861><c> conversiones</c><00:06:51.468><c>.</c><00:06:52.223><c> Para</c>
+
+00:06:52.428 --> 00:06:52.480 align:start position:0%
+ importantes como conversiones. Para
+ 
+
+00:06:52.480 --> 00:06:54.435 align:start position:0%
+ importantes como conversiones. Para
+ verificar<00:06:52.994><c> esto</c><00:06:53.200><c>,</c><00:06:53.303><c> puede</c><00:06:53.612><c> hacer</c><00:06:53.921><c> clic</c><00:06:54.178><c> en</c><00:06:54.333><c> la</c>
+
+00:06:54.435 --> 00:06:54.487 align:start position:0%
+ verificar esto, puede hacer clic en la
+ 
+
+00:06:54.487 --> 00:06:56.288 align:start position:0%
+ verificar esto, puede hacer clic en la
+ información<00:06:55.156><c> de</c><00:06:55.310><c> cuota</c><00:06:55.619><c> en</c><00:06:55.774><c> la</c><00:06:55.928><c> esquina</c>
+
+00:06:56.288 --> 00:06:56.340 align:start position:0%
+ información de cuota en la esquina
+ 
+
+00:06:56.340 --> 00:06:59.013 align:start position:0%
+ información de cuota en la esquina
+ superior<00:06:56.803><c> derecha</c><00:06:57.163><c>.</c><00:06:58.162><c> Y</c><00:06:58.262><c> esto</c><00:06:58.512><c> le</c><00:06:58.662><c> muestra</c>
+
+00:06:59.013 --> 00:06:59.063 align:start position:0%
+ superior derecha. Y esto le muestra
+ 
+
+00:06:59.063 --> 00:07:02.145 align:start position:0%
+ superior derecha. Y esto le muestra
+ cuántos<00:06:59.514><c> eventos</c><00:06:59.914><c> clave</c><00:07:00.215><c> ha</c><00:07:00.365><c> creado</c><00:07:00.665><c>.</c><00:07:01.772><c> Bien</c><00:07:02.070><c>,</c>
+
+00:07:02.145 --> 00:07:02.220 align:start position:0%
+ cuántos eventos clave ha creado. Bien,
+ 
+
+00:07:02.220 --> 00:07:05.022 align:start position:0%
+ cuántos eventos clave ha creado. Bien,
+ cerremos<00:07:02.892><c> esto</c><00:07:03.191><c>.</c><00:07:03.885><c> Y</c><00:07:03.993><c> ahora</c><00:07:04.318><c> veamos</c><00:07:04.697><c> dónde</c>
+
+00:07:05.022 --> 00:07:05.076 align:start position:0%
+ cerremos esto. Y ahora veamos dónde
+ 
+
+00:07:05.076 --> 00:07:07.135 align:start position:0%
+ cerremos esto. Y ahora veamos dónde
+ puede<00:07:05.401><c> ver</c><00:07:05.618><c> los</c><00:07:05.835><c> eventos</c><00:07:06.268><c> clave</c><00:07:06.593><c> reportados</c>
+
+00:07:07.135 --> 00:07:07.189 align:start position:0%
+ puede ver los eventos clave reportados
+ 
+
+00:07:07.189 --> 00:07:10.345 align:start position:0%
+ puede ver los eventos clave reportados
+ en<00:07:07.352><c> Google</c><00:07:07.731><c> Analytics</c><00:07:08.218><c>.</c><00:07:09.174><c> Vayamos</c><00:07:09.694><c> a</c><00:07:09.824><c> informes</c>
+
+00:07:10.345 --> 00:07:14.328 align:start position:0%
+ en Google Analytics. Vayamos a informes
+ 
+
+00:07:14.328 --> 00:07:16.214 align:start position:0%
+ 
+ y<00:07:14.424><c> seleccionemos</c><00:07:15.102><c> adquisición</c><00:07:15.731><c> para</c><00:07:15.972><c> abrir</c>
+
+00:07:16.214 --> 00:07:16.263 align:start position:0%
+ y seleccionemos adquisición para abrir
+ 
+
+00:07:16.263 --> 00:07:18.150 align:start position:0%
+ y seleccionemos adquisición para abrir
+ el<00:07:16.408><c> informe</c><00:07:16.795><c> de</c><00:07:16.940><c> adquisición</c><00:07:17.569><c> de</c><00:07:17.714><c> tráfico</c><00:07:18.101><c>.</c>
+
+00:07:18.150 --> 00:07:19.978 align:start position:0%
+ el informe de adquisición de tráfico.
+ 
+
+00:07:19.978 --> 00:07:22.213 align:start position:0%
+ 
+ Previamente<00:07:20.665><c> configuré</c><00:07:21.296><c> eventos</c><00:07:21.755><c> clave</c><00:07:22.099><c> en</c>
+
+00:07:22.213 --> 00:07:22.270 align:start position:0%
+ Previamente configuré eventos clave en
+ 
+
+00:07:22.270 --> 00:07:24.506 align:start position:0%
+ Previamente configuré eventos clave en
+ mi<00:07:22.442><c> propiedad</c><00:07:23.016><c> de</c><00:07:23.188><c> demostración</c><00:07:23.933><c>,</c><00:07:24.048><c> así</c><00:07:24.334><c> que</c>
+
+00:07:24.506 --> 00:07:24.563 align:start position:0%
+ mi propiedad de demostración, así que
+ 
+
+00:07:24.563 --> 00:07:27.519 align:start position:0%
+ mi propiedad de demostración, así que
+ ya<00:07:24.735><c> tengo</c><00:07:25.079><c> datos</c><00:07:25.423><c> en</c><00:07:25.595><c> mis</c><00:07:25.825><c> informes</c><00:07:26.283><c>.</c><00:07:27.408><c> Si</c>
+
+00:07:27.519 --> 00:07:27.575 align:start position:0%
+ ya tengo datos en mis informes. Si
+ 
+
+00:07:27.575 --> 00:07:29.698 align:start position:0%
+ ya tengo datos en mis informes. Si
+ acaba<00:07:27.910><c> de</c><00:07:28.078><c> configurar</c><00:07:28.692><c> los</c><00:07:28.916><c> eventos</c><00:07:29.363><c> clave</c><00:07:29.642><c>,</c>
+
+00:07:29.698 --> 00:07:29.754 align:start position:0%
+ acaba de configurar los eventos clave,
+ 
+
+00:07:29.754 --> 00:07:31.876 align:start position:0%
+ acaba de configurar los eventos clave,
+ deberá<00:07:30.201><c> esperar</c><00:07:30.647><c> hasta</c><00:07:30.983><c> que</c><00:07:31.206><c> el</c><00:07:31.374><c> evento</c><00:07:31.765><c> se</c>
+
+00:07:31.876 --> 00:07:31.932 align:start position:0%
+ deberá esperar hasta que el evento se
+ 
+
+00:07:31.932 --> 00:07:34.111 align:start position:0%
+ deberá esperar hasta que el evento se
+ active<00:07:32.323><c> antes</c><00:07:32.658><c> de</c><00:07:32.826><c> comenzar</c><00:07:33.329><c> a</c><00:07:33.441><c> verlo</c><00:07:33.776><c> en</c><00:07:33.943><c> sus</c>
+
+00:07:34.111 --> 00:07:34.167 align:start position:0%
+ active antes de comenzar a verlo en sus
+ 
+
+00:07:34.167 --> 00:07:38.201 align:start position:0%
+ active antes de comenzar a verlo en sus
+ informes<00:07:34.614><c>.</c><00:07:36.858><c> Si</c><00:07:37.033><c> nos</c><00:07:37.267><c> desplazamos</c><00:07:37.968><c> a</c><00:07:38.085><c> la</c>
+
+00:07:38.201 --> 00:07:38.260 align:start position:0%
+ informes. Si nos desplazamos a la
+ 
+
+00:07:38.260 --> 00:07:40.305 align:start position:0%
+ informes. Si nos desplazamos a la
+ derecha<00:07:38.727><c> de</c><00:07:38.903><c> la</c><00:07:39.078><c> tabla</c><00:07:39.370><c>,</c><00:07:39.487><c> podemos</c><00:07:39.954><c> ver</c><00:07:40.188><c> el</c>
+
+00:07:40.305 --> 00:07:40.363 align:start position:0%
+ derecha de la tabla, podemos ver el
+ 
+
+00:07:40.363 --> 00:07:42.116 align:start position:0%
+ derecha de la tabla, podemos ver el
+ número<00:07:40.831><c> total</c><00:07:41.181><c> de</c><00:07:41.357><c> eventos</c><00:07:41.824><c> clave</c>
+
+00:07:42.116 --> 00:07:42.175 align:start position:0%
+ número total de eventos clave
+ 
+
+00:07:42.175 --> 00:07:44.454 align:start position:0%
+ número total de eventos clave
+ activados<00:07:42.759><c> y</c><00:07:42.876><c> la</c><00:07:43.051><c> tasa</c><00:07:43.343><c> de</c><00:07:43.519><c> eventos</c><00:07:43.986><c> clave</c><00:07:44.337><c> de</c>
+
+00:07:44.454 --> 00:07:44.512 align:start position:0%
+ activados y la tasa de eventos clave de
+ 
+
+00:07:44.512 --> 00:07:48.003 align:start position:0%
+ activados y la tasa de eventos clave de
+ sesión<00:07:44.921><c>.</c><00:07:46.647><c> También</c><00:07:47.082><c> puede</c><00:07:47.373><c> usar</c><00:07:47.615><c> el</c><00:07:47.761><c> menú</c>
+
+00:07:48.003 --> 00:07:48.051 align:start position:0%
+ sesión. También puede usar el menú
+ 
+
+00:07:48.051 --> 00:07:49.892 align:start position:0%
+ sesión. También puede usar el menú
+ desplegable<00:07:48.632><c> para</c><00:07:48.875><c> seleccionar</c><00:07:49.456><c> un</c><00:07:49.601><c> evento</c>
+
+00:07:49.892 --> 00:07:49.940 align:start position:0%
+ desplegable para seleccionar un evento
+ 
+
+00:07:49.940 --> 00:07:51.539 align:start position:0%
+ desplegable para seleccionar un evento
+ clave<00:07:50.231><c> individual</c><00:07:50.764><c> y</c><00:07:50.861><c> actualizar</c><00:07:51.393><c> las</c>
+
+00:07:51.539 --> 00:07:51.587 align:start position:0%
+ clave individual y actualizar las
+ 
+
+00:07:51.587 --> 00:07:55.939 align:start position:0%
+ clave individual y actualizar las
+ métricas<00:07:52.023><c>.</c><00:07:54.410><c> Además</c><00:07:54.863><c> de</c><00:07:55.033><c> este</c><00:07:55.316><c> informe</c><00:07:55.769><c> que</c>
+
+00:07:55.939 --> 00:07:55.996 align:start position:0%
+ métricas. Además de este informe que
+ 
+
+00:07:55.996 --> 00:07:57.922 align:start position:0%
+ métricas. Además de este informe que
+ incluye<00:07:56.449><c> eventos</c><00:07:56.902><c> clave</c><00:07:57.242><c> por</c><00:07:57.469><c> defecto</c><00:07:57.865><c>,</c>
+
+00:07:57.922 --> 00:07:57.979 align:start position:0%
+ incluye eventos clave por defecto,
+ 
+
+00:07:57.979 --> 00:08:00.132 align:start position:0%
+ incluye eventos clave por defecto,
+ puede<00:07:58.319><c> añadir</c><00:07:58.772><c> las</c><00:07:58.999><c> métricas</c><00:07:59.565><c> de</c><00:07:59.735><c> eventos</c>
+
+00:08:00.132 --> 00:08:00.188 align:start position:0%
+ puede añadir las métricas de eventos
+ 
+
+00:08:00.188 --> 00:08:02.114 align:start position:0%
+ puede añadir las métricas de eventos
+ clave<00:08:00.528><c> a</c><00:08:00.641><c> sus</c><00:08:00.868><c> otros</c><00:08:01.208><c> informes</c><00:08:01.718><c> y</c><00:08:01.831><c> a</c><00:08:01.945><c> los</c>
+
+00:08:02.114 --> 00:08:02.171 align:start position:0%
+ clave a sus otros informes y a los
+ 
+
+00:08:02.171 --> 00:08:06.791 align:start position:0%
+ clave a sus otros informes y a los
+ informes<00:08:02.681><c> de</c><00:08:02.851><c> exploración</c><00:08:03.531><c>.</c><00:08:06.518><c> Hemos</c>
+
+00:08:06.791 --> 00:08:06.846 align:start position:0%
+ informes de exploración. Hemos
+ 
+
+00:08:06.846 --> 00:08:08.927 align:start position:0%
+ informes de exploración. Hemos
+ cubierto<00:08:07.339><c> los</c><00:08:07.558><c> pasos</c><00:08:07.887><c> para</c><00:08:08.161><c> crear</c><00:08:08.489><c> un</c><00:08:08.653><c> nuevo</c>
+
+00:08:08.927 --> 00:08:08.982 align:start position:0%
+ cubierto los pasos para crear un nuevo
+ 
+
+00:08:08.982 --> 00:08:11.118 align:start position:0%
+ cubierto los pasos para crear un nuevo
+ evento<00:08:09.365><c> clave</c><00:08:09.694><c> en</c><00:08:09.858><c> GA4</c><00:08:10.077><c> basado</c><00:08:10.461><c> en</c><00:08:10.625><c> un</c><00:08:10.789><c> evento</c>
+
+00:08:11.118 --> 00:08:11.173 align:start position:0%
+ evento clave en GA4 basado en un evento
+ 
+
+00:08:11.173 --> 00:08:13.313 align:start position:0%
+ evento clave en GA4 basado en un evento
+ existente<00:08:11.666><c>.</c><00:08:12.067><c> ¿</c><00:08:12.159><c>Pero</c><00:08:12.390><c> qué</c><00:08:12.620><c> sucede</c><00:08:12.944><c> si</c><00:08:13.082><c> desea</c>
+
+00:08:13.313 --> 00:08:13.359 align:start position:0%
+ existente. ¿Pero qué sucede si desea
+ 
+
+00:08:13.359 --> 00:08:15.159 align:start position:0%
+ existente. ¿Pero qué sucede si desea
+ rastrear<00:08:13.774><c> una</c><00:08:13.959><c> acción</c><00:08:14.328><c> personalizada</c><00:08:14.975><c> como</c>
+
+00:08:15.159 --> 00:08:15.205 align:start position:0%
+ rastrear una acción personalizada como
+ 
+
+00:08:15.205 --> 00:08:17.426 align:start position:0%
+ rastrear una acción personalizada como
+ evento<00:08:15.529><c> clave</c><00:08:15.759><c>?</c><00:08:15.906><c> En</c><00:08:16.088><c> este</c><00:08:16.392><c> caso</c><00:08:16.635><c>,</c><00:08:16.757><c> usar</c><00:08:17.061><c> Google</c>
+
+00:08:17.426 --> 00:08:17.486 align:start position:0%
+ evento clave? En este caso, usar Google
+ 
+
+00:08:17.486 --> 00:08:19.797 align:start position:0%
+ evento clave? En este caso, usar Google
+ Tag<00:08:17.730><c> Manager</c><00:08:18.216><c> es</c><00:08:18.399><c> una</c><00:08:18.642><c> excelente</c><00:08:19.250><c> manera</c><00:08:19.676><c> de</c>
+
+00:08:19.797 --> 00:08:19.858 align:start position:0%
+ Tag Manager es una excelente manera de
+ 
+
+00:08:19.858 --> 00:08:23.344 align:start position:0%
+ Tag Manager es una excelente manera de
+ enviar<00:08:20.284><c> el</c><00:08:20.466><c> evento</c><00:08:20.892><c> a</c><00:08:21.013><c> GA4</c><00:08:21.196><c>.</c><00:08:22.532><c> Dirijámonos</c><00:08:23.286><c> a</c>
+
+00:08:23.344 --> 00:08:23.402 align:start position:0%
+ enviar el evento a GA4. Dirijámonos a
+ 
+
+00:08:23.402 --> 00:08:26.347 align:start position:0%
+ enviar el evento a GA4. Dirijámonos a
+ Google<00:08:23.809><c> Tag</c><00:08:24.041><c> Manager</c><00:08:24.447><c>.</c><00:08:25.299><c> Podemos</c><00:08:25.740><c> ver</c><00:08:25.961><c> que</c><00:08:26.182><c> hay</c>
+
+00:08:26.347 --> 00:08:26.402 align:start position:0%
+ Google Tag Manager. Podemos ver que hay
+ 
+
+00:08:26.402 --> 00:08:28.334 align:start position:0%
+ Google Tag Manager. Podemos ver que hay
+ una<00:08:26.623><c> etiqueta</c><00:08:27.120><c> de</c><00:08:27.285><c> Google</c><00:08:27.672><c> existente</c><00:08:28.224><c> en</c>
+
+00:08:28.334 --> 00:08:28.389 align:start position:0%
+ una etiqueta de Google existente en
+ 
+
+00:08:28.389 --> 00:08:30.542 align:start position:0%
+ una etiqueta de Google existente en
+ este<00:08:28.665><c> contenedor</c><00:08:29.272><c> de</c><00:08:29.438><c> GTM</c><00:08:29.603><c>.</c><00:08:29.788><c> Esta</c><00:08:30.078><c> etiqueta</c>
+
+00:08:30.542 --> 00:08:30.600 align:start position:0%
+ este contenedor de GTM. Esta etiqueta
+ 
+
+00:08:30.600 --> 00:08:32.573 align:start position:0%
+ este contenedor de GTM. Esta etiqueta
+ enviará<00:08:31.122><c> automáticamente</c><00:08:32.109><c> eventos</c><00:08:32.515><c>,</c>
+
+00:08:32.573 --> 00:08:32.631 align:start position:0%
+ enviará automáticamente eventos,
+ 
+
+00:08:32.631 --> 00:08:34.605 align:start position:0%
+ enviará automáticamente eventos,
+ incluidas<00:08:33.212><c> las</c><00:08:33.444><c> vistas</c><00:08:33.850><c> de</c><00:08:34.024><c> página</c><00:08:34.431><c>,</c><00:08:34.547><c> a</c>
+
+00:08:34.605 --> 00:08:34.663 align:start position:0%
+ incluidas las vistas de página, a
+ 
+
+00:08:34.663 --> 00:08:36.712 align:start position:0%
+ incluidas las vistas de página, a
+ Google<00:08:35.069><c> Analytics</c><00:08:35.591><c>.</c><00:08:36.013><c> Así</c><00:08:36.262><c> que</c><00:08:36.462><c> ahora</c>
+
+00:08:36.712 --> 00:08:36.762 align:start position:0%
+ Google Analytics. Así que ahora
+ 
+
+00:08:36.762 --> 00:08:38.560 align:start position:0%
+ Google Analytics. Así que ahora
+ necesitamos<00:08:37.361><c> crear</c><00:08:37.661><c> una</c><00:08:37.860><c> nueva</c><00:08:38.160><c> etiqueta</c>
+
+00:08:38.560 --> 00:08:38.610 align:start position:0%
+ necesitamos crear una nueva etiqueta
+ 
+
+00:08:38.610 --> 00:08:40.557 align:start position:0%
+ necesitamos crear una nueva etiqueta
+ para<00:08:38.859><c> enviar</c><00:08:39.209><c> un</c><00:08:39.359><c> evento</c><00:08:39.708><c> adicional</c><00:08:40.208><c> para</c><00:08:40.458><c> la</c>
+
+00:08:40.557 --> 00:08:40.607 align:start position:0%
+ para enviar un evento adicional para la
+ 
+
+00:08:40.607 --> 00:08:42.759 align:start position:0%
+ para enviar un evento adicional para la
+ conversión<00:08:41.207><c> que</c><00:08:41.407><c> queremos</c><00:08:41.856><c> rastrear</c><00:08:42.256><c>.</c><00:08:42.537><c> Para</c>
+
+00:08:42.759 --> 00:08:42.814 align:start position:0%
+ conversión que queremos rastrear. Para
+ 
+
+00:08:42.814 --> 00:08:44.982 align:start position:0%
+ conversión que queremos rastrear. Para
+ hacer<00:08:43.148><c> esto</c><00:08:43.370><c>,</c><00:08:43.481><c> creemos</c><00:08:43.926><c> una</c><00:08:44.148><c> nueva</c><00:08:44.481><c> etiqueta</c><00:08:44.926><c>.</c>
+
+00:08:44.982 --> 00:08:46.823 align:start position:0%
+ hacer esto, creemos una nueva etiqueta.
+ 
+
+00:08:46.823 --> 00:08:49.298 align:start position:0%
+ 
+ Llamemos<00:08:47.394><c> a</c><00:08:47.521><c> la</c><00:08:47.711><c> etiqueta</c><00:08:48.282><c> Google</c><00:08:48.726><c> Analytics</c>
+
+00:08:49.298 --> 00:08:49.361 align:start position:0%
+ Llamemos a la etiqueta Google Analytics
+ 
+
+00:08:49.361 --> 00:08:57.306 align:start position:0%
+ Llamemos a la etiqueta Google Analytics
+ GA4<00:08:49.615><c> conversión</c><00:08:50.313><c>.</c><00:08:55.913><c> Ahora</c><00:08:56.293><c> seleccionemos</c><00:08:57.180><c> la</c>
+
+00:08:57.306 --> 00:08:57.370 align:start position:0%
+ GA4 conversión. Ahora seleccionemos la
+ 
+
+00:08:57.370 --> 00:08:59.841 align:start position:0%
+ GA4 conversión. Ahora seleccionemos la
+ configuración<00:08:58.320><c> de</c><00:08:58.510><c> la</c><00:08:58.700><c> etiqueta</c><00:08:59.207><c>,</c><00:08:59.334><c> elijamos</c>
+
+00:08:59.841 --> 00:08:59.904 align:start position:0%
+ configuración de la etiqueta, elijamos
+ 
+
+00:08:59.904 --> 00:09:02.375 align:start position:0%
+ configuración de la etiqueta, elijamos
+ Google<00:09:00.347><c> Analytics</c><00:09:00.981><c> y</c><00:09:01.108><c> seleccionemos</c><00:09:01.995><c> evento</c>
+
+00:09:02.375 --> 00:09:02.438 align:start position:0%
+ Google Analytics y seleccionemos evento
+ 
+
+00:09:02.438 --> 00:09:06.366 align:start position:0%
+ Google Analytics y seleccionemos evento
+ GA4<00:09:02.692><c> como</c><00:09:03.008><c> tipo</c><00:09:03.325><c> de</c><00:09:03.515><c> etiqueta</c><00:09:04.022><c>.</c><00:09:05.776><c> Necesitamos</c>
+
+00:09:06.366 --> 00:09:06.419 align:start position:0%
+ GA4 como tipo de etiqueta. Necesitamos
+ 
+
+00:09:06.419 --> 00:09:08.297 align:start position:0%
+ GA4 como tipo de etiqueta. Necesitamos
+ ingresar<00:09:06.902><c> nuestro</c><00:09:07.331><c> ID</c><00:09:07.492><c> de</c><00:09:07.653><c> medición</c><00:09:08.190><c> de</c>
+
+00:09:08.297 --> 00:09:08.351 align:start position:0%
+ ingresar nuestro ID de medición de
+ 
+
+00:09:08.351 --> 00:09:11.292 align:start position:0%
+ ingresar nuestro ID de medición de
+ Google<00:09:08.726><c> Analytics</c><00:09:09.209><c>.</c><00:09:10.439><c> Ya</c><00:09:10.599><c> he</c><00:09:10.759><c> creado</c><00:09:11.132><c> una</c>
+
+00:09:11.292 --> 00:09:11.345 align:start position:0%
+ Google Analytics. Ya he creado una
+ 
+
+00:09:11.345 --> 00:09:13.373 align:start position:0%
+ Google Analytics. Ya he creado una
+ variable<00:09:11.825><c> para</c><00:09:12.092><c> mi</c><00:09:12.252><c> ID</c><00:09:12.412><c> de</c><00:09:12.572><c> medición</c><00:09:13.052><c>,</c><00:09:13.159><c> así</c>
+
+00:09:13.373 --> 00:09:13.426 align:start position:0%
+ variable para mi ID de medición, así
+ 
+
+00:09:13.426 --> 00:09:17.988 align:start position:0%
+ variable para mi ID de medición, así
+ que<00:09:13.639><c> la</c><00:09:13.799><c> voy</c><00:09:14.013><c> a</c><00:09:14.119><c> seleccionar</c><00:09:14.706><c>.</c><00:09:17.412><c> Si</c><00:09:17.584><c> quieres</c>
+
+00:09:17.988 --> 00:09:18.046 align:start position:0%
+ que la voy a seleccionar. Si quieres
+ 
+
+00:09:18.046 --> 00:09:20.295 align:start position:0%
+ que la voy a seleccionar. Si quieres
+ aprender<00:09:18.565><c> los</c><00:09:18.795><c> pasos</c><00:09:19.141><c> para</c><00:09:19.430><c> crear</c><00:09:19.776><c> tu</c><00:09:19.949><c> propia</c>
+
+00:09:20.295 --> 00:09:20.352 align:start position:0%
+ aprender los pasos para crear tu propia
+ 
+
+00:09:20.352 --> 00:09:22.140 align:start position:0%
+ aprender los pasos para crear tu propia
+ variable<00:09:20.814><c>,</c><00:09:20.929><c> consulta</c><00:09:21.448><c> los</c><00:09:21.679><c> recursos</c>
+
+00:09:22.140 --> 00:09:22.197 align:start position:0%
+ variable, consulta los recursos
+ 
+
+00:09:22.197 --> 00:09:23.927 align:start position:0%
+ variable, consulta los recursos
+ adicionales<00:09:22.889><c> y</c><00:09:23.005><c> mis</c><00:09:23.235><c> cursos</c><00:09:23.639><c> en</c><00:09:23.812><c> la</c>
+
+00:09:23.927 --> 00:09:23.985 align:start position:0%
+ adicionales y mis cursos en la
+ 
+
+00:09:23.985 --> 00:09:27.243 align:start position:0%
+ adicionales y mis cursos en la
+ descripción<00:09:24.735><c> debajo</c><00:09:25.138><c> de</c><00:09:25.311><c> este</c><00:09:25.600><c> video</c><00:09:25.888><c>.</c><00:09:27.018><c> Muy</c>
+
+00:09:27.243 --> 00:09:27.318 align:start position:0%
+ descripción debajo de este video. Muy
+ 
+
+00:09:27.318 --> 00:09:29.705 align:start position:0%
+ descripción debajo de este video. Muy
+ bien<00:09:27.619><c>.</c><00:09:27.795><c> Ahora</c><00:09:28.177><c>,</c><00:09:28.329><c> llamemos</c><00:09:29.017><c> al</c><00:09:29.246><c> evento</c>
+
+00:09:29.705 --> 00:09:29.781 align:start position:0%
+ bien. Ahora, llamemos al evento
+ 
+
+00:09:29.781 --> 00:09:32.428 align:start position:0%
+ bien. Ahora, llamemos al evento
+ generate_lead<00:09:30.774><c>.</c><00:09:31.767><c> Puedes</c><00:09:32.097><c> añadir</c>
+
+00:09:32.428 --> 00:09:32.475 align:start position:0%
+ generate_lead. Puedes añadir
+ 
+
+00:09:32.475 --> 00:09:34.035 align:start position:0%
+ generate_lead. Puedes añadir
+ parámetros<00:09:33.042><c> de</c><00:09:33.184><c> evento</c><00:09:33.515><c> para</c><00:09:33.751><c> enviar</c>
+
+00:09:34.035 --> 00:09:34.082 align:start position:0%
+ parámetros de evento para enviar
+ 
+
+00:09:34.082 --> 00:09:35.831 align:start position:0%
+ parámetros de evento para enviar
+ información<00:09:34.696><c> adicional</c><00:09:35.169><c> con</c><00:09:35.358><c> tu</c><00:09:35.500><c> evento</c><00:09:35.783><c>.</c>
+
+00:09:35.831 --> 00:09:36.550 align:start position:0%
+ información adicional con tu evento.
+ 
+
+00:09:36.550 --> 00:09:38.759 align:start position:0%
+ información adicional con tu evento.
+ Por<00:09:36.795><c> ejemplo</c><00:09:37.225><c>,</c><00:09:37.347><c> si</c><00:09:37.532><c> quisieras</c><00:09:38.145><c> distinguir</c>
+
+00:09:38.759 --> 00:09:38.821 align:start position:0%
+ Por ejemplo, si quisieras distinguir
+ 
+
+00:09:38.821 --> 00:09:41.030 align:start position:0%
+ Por ejemplo, si quisieras distinguir
+ diferentes<00:09:39.496><c> tipos</c><00:09:39.864><c> de</c><00:09:40.048><c> leads</c><00:09:40.355><c>,</c><00:09:40.478><c> pero</c><00:09:40.785><c> para</c>
+
+00:09:41.030 --> 00:09:41.092 align:start position:0%
+ diferentes tipos de leads, pero para
+ 
+
+00:09:41.092 --> 00:09:43.363 align:start position:0%
+ diferentes tipos de leads, pero para
+ este<00:09:41.399><c> evento</c><00:09:41.767><c>,</c><00:09:41.890><c> voy</c><00:09:42.135><c> a</c><00:09:42.258><c> mantener</c><00:09:42.810><c> las</c><00:09:43.056><c> cosas</c>
+
+00:09:43.363 --> 00:09:43.424 align:start position:0%
+ este evento, voy a mantener las cosas
+ 
+
+00:09:43.424 --> 00:09:45.204 align:start position:0%
+ este evento, voy a mantener las cosas
+ simples<00:09:43.915><c> y</c><00:09:44.038><c> dejaré</c><00:09:44.529><c> los</c><00:09:44.774><c> valores</c>
+
+00:09:45.204 --> 00:09:45.265 align:start position:0%
+ simples y dejaré los valores
+ 
+
+00:09:45.265 --> 00:09:47.457 align:start position:0%
+ simples y dejaré los valores
+ predeterminados<00:09:46.186><c>.</c><00:09:46.924><c> Entonces</c><00:09:47.397><c>,</c>
+
+00:09:47.457 --> 00:09:47.516 align:start position:0%
+ predeterminados. Entonces,
+ 
+
+00:09:47.516 --> 00:09:50.272 align:start position:0%
+ predeterminados. Entonces,
+ seleccionemos<00:09:48.345><c> la</c><00:09:48.523><c> activación</c><00:09:49.174><c>.</c><00:09:49.909><c> Y</c><00:09:50.012><c> ahora</c>
+
+00:09:50.272 --> 00:09:50.324 align:start position:0%
+ seleccionemos la activación. Y ahora
+ 
+
+00:09:50.324 --> 00:09:52.196 align:start position:0%
+ seleccionemos la activación. Y ahora
+ debemos<00:09:50.740><c> crear</c><00:09:51.052><c> un</c><00:09:51.208><c> nuevo</c><00:09:51.520><c> activador</c><00:09:52.040><c> que</c>
+
+00:09:52.196 --> 00:09:52.248 align:start position:0%
+ debemos crear un nuevo activador que
+ 
+
+00:09:52.248 --> 00:09:54.275 align:start position:0%
+ debemos crear un nuevo activador que
+ solo<00:09:52.508><c> dispare</c><00:09:52.923><c> nuestra</c><00:09:53.339><c> etiqueta</c><00:09:53.807><c> de</c><00:09:53.963><c> evento</c>
+
+00:09:54.275 --> 00:09:54.327 align:start position:0%
+ solo dispare nuestra etiqueta de evento
+ 
+
+00:09:54.327 --> 00:09:56.250 align:start position:0%
+ solo dispare nuestra etiqueta de evento
+ de<00:09:54.483><c> GA4</c><00:09:54.691><c> cuando</c><00:09:55.055><c> alguien</c><00:09:55.471><c> vea</c><00:09:55.678><c> una</c><00:09:55.886><c> página</c>
+
+00:09:56.250 --> 00:09:56.302 align:start position:0%
+ de GA4 cuando alguien vea una página
+ 
+
+00:09:56.302 --> 00:09:58.330 align:start position:0%
+ de GA4 cuando alguien vea una página
+ de<00:09:56.458><c> agradecimiento</c><00:09:57.238><c> en</c><00:09:57.394><c> nuestro</c><00:09:57.810><c> sitio</c><00:09:58.122><c> web</c><00:09:58.278><c>.</c>
+
+00:09:58.330 --> 00:09:58.755 align:start position:0%
+ de agradecimiento en nuestro sitio web.
+ 
+
+00:09:58.755 --> 00:10:00.604 align:start position:0%
+ de agradecimiento en nuestro sitio web.
+ Hagamos<00:09:59.177><c> clic</c><00:09:59.441><c> en</c><00:09:59.600><c> el</c><00:09:59.758><c> signo</c><00:10:00.075><c> más</c><00:10:00.339><c> azul</c><00:10:00.551><c>.</c>
+
+00:10:00.604 --> 00:10:03.186 align:start position:0%
+ Hagamos clic en el signo más azul.
+ 
+
+00:10:03.186 --> 00:10:05.250 align:start position:0%
+ 
+ Llamemos<00:10:03.662><c> a</c><00:10:03.768><c> nuestro</c><00:10:04.191><c> activador</c><00:10:04.721><c> "</c><00:10:04.774><c>cualquier</c>
+
+00:10:05.250 --> 00:10:05.303 align:start position:0%
+ Llamemos a nuestro activador "cualquier
+ 
+
+00:10:05.303 --> 00:10:09.734 align:start position:0%
+ Llamemos a nuestro activador "cualquier
+ página<00:10:05.727><c> de</c><00:10:05.885><c> agradecimiento</c><00:10:06.627><c>"</c><00:10:06.680><c>.</c><00:10:09.685><c> y</c>
+
+00:10:09.734 --> 00:10:09.784 align:start position:0%
+ página de agradecimiento". y
+ 
+
+00:10:09.784 --> 00:10:11.525 align:start position:0%
+ página de agradecimiento". y
+ seleccionemos<00:10:10.481><c> la</c><00:10:10.630><c> configuración</c><00:10:11.376><c> del</c>
+
+00:10:11.525 --> 00:10:11.575 align:start position:0%
+ seleccionemos la configuración del
+ 
+
+00:10:11.575 --> 00:10:15.303 align:start position:0%
+ seleccionemos la configuración del
+ activador<00:10:12.023><c>.</c><00:10:13.904><c> Puedes</c><00:10:14.312><c> crear</c><00:10:14.662><c> activadores</c>
+
+00:10:15.303 --> 00:10:15.362 align:start position:0%
+ activador. Puedes crear activadores
+ 
+
+00:10:15.362 --> 00:10:17.636 align:start position:0%
+ activador. Puedes crear activadores
+ para<00:10:15.653><c> cualquier</c><00:10:16.236><c> acción</c><00:10:16.703><c> que</c><00:10:16.936><c> desees</c><00:10:17.286><c>,</c><00:10:17.403><c> pero</c>
+
+00:10:17.636 --> 00:10:17.694 align:start position:0%
+ para cualquier acción que desees, pero
+ 
+
+00:10:17.694 --> 00:10:19.561 align:start position:0%
+ para cualquier acción que desees, pero
+ vamos<00:10:18.044><c> a</c><00:10:18.161><c> crear</c><00:10:18.511><c> uno</c><00:10:18.744><c> que</c><00:10:18.978><c> dispare</c><00:10:19.444><c> la</c>
+
+00:10:19.561 --> 00:10:19.619 align:start position:0%
+ vamos a crear uno que dispare la
+ 
+
+00:10:19.619 --> 00:10:21.660 align:start position:0%
+ vamos a crear uno que dispare la
+ etiqueta<00:10:20.144><c> basándose</c><00:10:20.786><c> en</c><00:10:20.961><c> la</c><00:10:21.136><c> URL</c><00:10:21.369><c> de</c><00:10:21.544><c> la</c>
+
+00:10:21.660 --> 00:10:21.719 align:start position:0%
+ etiqueta basándose en la URL de la
+ 
+
+00:10:21.719 --> 00:10:25.002 align:start position:0%
+ etiqueta basándose en la URL de la
+ página<00:10:22.185><c> que</c><00:10:22.419><c> alguien</c><00:10:22.885><c> visita</c><00:10:23.235><c>.</c><00:10:24.422><c> Entonces</c><00:10:24.937><c>,</c>
+
+00:10:25.002 --> 00:10:25.066 align:start position:0%
+ página que alguien visita. Entonces,
+ 
+
+00:10:25.066 --> 00:10:28.907 align:start position:0%
+ página que alguien visita. Entonces,
+ seleccionemos<00:10:25.969><c> inicialización</c><00:10:28.554><c> y</c><00:10:28.654><c> luego</c>
+
+00:10:28.907 --> 00:10:28.957 align:start position:0%
+ seleccionemos inicialización y luego
+ 
+
+00:10:28.957 --> 00:10:30.725 align:start position:0%
+ seleccionemos inicialización y luego
+ algunos<00:10:29.361><c> eventos</c><00:10:29.765><c> de</c><00:10:29.917><c> inicialización</c><00:10:30.674><c>.</c>
+
+00:10:30.725 --> 00:10:32.553 align:start position:0%
+ algunos eventos de inicialización.
+ 
+
+00:10:32.553 --> 00:10:35.173 align:start position:0%
+ 
+ Ahora<00:10:32.938><c>,</c><00:10:33.092><c> seleccionaré</c><00:10:34.171><c> "</c><00:10:34.248><c>la</c><00:10:34.479><c> URL</c><00:10:34.788><c> de</c><00:10:35.019><c> la</c>
+
+00:10:35.173 --> 00:10:35.250 align:start position:0%
+ Ahora, seleccionaré "la URL de la
+ 
+
+00:10:35.250 --> 00:10:38.102 align:start position:0%
+ Ahora, seleccionaré "la URL de la
+ página<00:10:35.867><c> contiene</c><00:10:36.483><c>"</c><00:10:36.638><c> e</c><00:10:36.792><c> ingresaré</c><00:10:37.640><c> "</c><00:10:37.717><c>thank</c>
+
+00:10:38.102 --> 00:10:38.179 align:start position:0%
+ página contiene" e ingresaré "thank
+ 
+
+00:10:38.179 --> 00:10:41.990 align:start position:0%
+ página contiene" e ingresaré "thank
+ you<00:10:38.410><c>"</c><00:10:38.487><c>.</c><00:10:40.455><c> Esto</c><00:10:40.750><c> significa</c><00:10:41.341><c> que</c><00:10:41.577><c> nuestra</c>
+
+00:10:41.990 --> 00:10:42.050 align:start position:0%
+ you". Esto significa que nuestra
+ 
+
+00:10:42.050 --> 00:10:43.999 align:start position:0%
+ you". Esto significa que nuestra
+ etiqueta<00:10:42.581><c> se</c><00:10:42.758><c> activará</c><00:10:43.349><c> siempre</c><00:10:43.822><c> que</c>
+
+00:10:43.999 --> 00:10:44.058 align:start position:0%
+ etiqueta se activará siempre que
+ 
+
+00:10:44.058 --> 00:10:46.303 align:start position:0%
+ etiqueta se activará siempre que
+ alguien<00:10:44.531><c> vea</c><00:10:44.767><c> una</c><00:10:45.003><c> página</c><00:10:45.476><c> que</c><00:10:45.712><c> contenga</c><00:10:46.244><c> "</c>
+
+00:10:46.303 --> 00:10:48.600 align:start position:0%
+ alguien vea una página que contenga "
+thank<00:10:46.657><c> you</c><00:10:46.835><c>"</c><00:10:46.953><c> en</c><00:10:47.130><c> la</c><00:10:47.307><c> URL</c><00:10:47.484><c>.</c><00:10:47.922><c> Ahora</c><00:10:48.235><c> hagamos</c>
+
+00:10:48.600 --> 00:10:48.652 align:start position:0%
+thank you" en la URL. Ahora hagamos
+ 
+
+00:10:48.652 --> 00:10:54.042 align:start position:0%
+thank you" en la URL. Ahora hagamos
+ clic<00:10:48.913><c> en</c><00:10:49.070><c> guardar</c><00:10:52.781><c> y</c><00:10:52.890><c> guardemos</c><00:10:53.439><c> la</c><00:10:53.603><c> etiqueta</c>
+
+00:10:54.042 --> 00:10:59.074 align:start position:0%
+ clic en guardar y guardemos la etiqueta
+.<00:10:57.334><c> Ya</c><00:10:57.483><c> puedes</c><00:10:57.831><c> previsualizar</c><00:10:58.527><c> los</c><00:10:58.726><c> cambios</c>
+
+00:10:59.074 --> 00:10:59.123 align:start position:0%
+. Ya puedes previsualizar los cambios
+ 
+
+00:10:59.123 --> 00:11:01.601 align:start position:0%
+. Ya puedes previsualizar los cambios
+ para<00:10:59.372><c> probarlos</c><00:10:59.869><c> en</c><00:11:00.018><c> tu</c><00:11:00.167><c> sitio</c><00:11:00.466><c> web</c><00:11:00.615><c>.</c><00:11:01.387><c> Pero</c>
+
+00:11:01.601 --> 00:11:01.654 align:start position:0%
+ para probarlos en tu sitio web. Pero
+ 
+
+00:11:01.654 --> 00:11:03.745 align:start position:0%
+ para probarlos en tu sitio web. Pero
+ estoy<00:11:01.976><c> satisfecho</c><00:11:02.566><c> con</c><00:11:02.780><c> la</c><00:11:02.941><c> nueva</c><00:11:03.262><c> etiqueta</c><00:11:03.691><c>,</c>
+
+00:11:03.745 --> 00:11:03.798 align:start position:0%
+ estoy satisfecho con la nueva etiqueta,
+ 
+
+00:11:03.798 --> 00:11:05.835 align:start position:0%
+ estoy satisfecho con la nueva etiqueta,
+ así<00:11:04.066><c> que</c><00:11:04.280><c> voy</c><00:11:04.495><c> a</c><00:11:04.602><c> publicar</c><00:11:05.084><c> los</c><00:11:05.299><c> cambios</c><00:11:05.727><c> en</c>
+
+00:11:05.835 --> 00:11:05.888 align:start position:0%
+ así que voy a publicar los cambios en
+ 
+
+00:11:05.888 --> 00:11:08.347 align:start position:0%
+ así que voy a publicar los cambios en
+ mi<00:11:06.049><c> sitio</c><00:11:06.317><c>.</c><00:11:06.711><c> Para</c><00:11:06.993><c> hacer</c><00:11:07.331><c> esto</c><00:11:07.557><c>,</c><00:11:07.670><c> hacemos</c><00:11:08.121><c> clic</c>
+
+00:11:08.347 --> 00:11:08.403 align:start position:0%
+ mi sitio. Para hacer esto, hacemos clic
+ 
+
+00:11:08.403 --> 00:11:11.892 align:start position:0%
+ mi sitio. Para hacer esto, hacemos clic
+ en<00:11:08.573><c> enviar</c><00:11:08.911><c>.</c><00:11:10.726><c> Le</c><00:11:10.865><c> damos</c><00:11:11.145><c> nombre</c><00:11:11.472><c> a</c><00:11:11.565><c> nuestra</c>
+
+00:11:11.892 --> 00:11:11.938 align:start position:0%
+ en enviar. Le damos nombre a nuestra
+ 
+
+00:11:11.938 --> 00:11:20.686 align:start position:0%
+ en enviar. Le damos nombre a nuestra
+ versión<00:11:19.233><c> y</c><00:11:19.340><c> hacemos</c><00:11:19.771><c> clic</c><00:11:20.040><c> en</c><00:11:20.201><c> publicar</c><00:11:20.632><c>.</c>
+
+00:11:20.686 --> 00:11:28.437 align:start position:0%
+ versión y hacemos clic en publicar.
+ 
+
+00:11:28.437 --> 00:11:30.220 align:start position:0%
+ 
+ Puedes<00:11:28.804><c> aplicar</c><00:11:29.223><c> la</c><00:11:29.381><c> misma</c><00:11:29.695><c> técnica</c><00:11:30.167><c> a</c>
+
+00:11:30.220 --> 00:11:30.272 align:start position:0%
+ Puedes aplicar la misma técnica a
+ 
+
+00:11:30.272 --> 00:11:32.003 align:start position:0%
+ Puedes aplicar la misma técnica a
+ cualquier<00:11:30.797><c> otra</c><00:11:31.059><c> acción</c><00:11:31.479><c> que</c><00:11:31.688><c> desees</c>
+
+00:11:32.003 --> 00:11:32.055 align:start position:0%
+ cualquier otra acción que desees
+ 
+
+00:11:32.055 --> 00:11:33.944 align:start position:0%
+ cualquier otra acción que desees
+ rastrear<00:11:32.527><c> como</c><00:11:32.790><c> evento</c><00:11:33.157><c> clave</c><00:11:33.472><c> en</c><00:11:33.629><c> Google</c>
+
+00:11:33.944 --> 00:11:33.996 align:start position:0%
+ rastrear como evento clave en Google
+ 
+
+00:11:33.996 --> 00:11:36.783 align:start position:0%
+ rastrear como evento clave en Google
+ Analytics<00:11:34.468><c>.</c><00:11:35.456><c> Lo</c><00:11:35.621><c> principal</c><00:11:36.175><c> es</c><00:11:36.341><c> crear</c><00:11:36.673><c> un</c>
+
+00:11:36.783 --> 00:11:36.839 align:start position:0%
+ Analytics. Lo principal es crear un
+ 
+
+00:11:36.839 --> 00:11:38.830 align:start position:0%
+ Analytics. Lo principal es crear un
+ activador<00:11:37.392><c> que</c><00:11:37.613><c> dispare</c><00:11:38.056><c> la</c><00:11:38.222><c> etiqueta</c><00:11:38.719><c> de</c>
+
+00:11:38.830 --> 00:11:38.885 align:start position:0%
+ activador que dispare la etiqueta de
+ 
+
+00:11:38.885 --> 00:11:40.988 align:start position:0%
+ activador que dispare la etiqueta de
+ evento<00:11:39.273><c> de</c><00:11:39.439><c> GA4</c><00:11:39.660><c> una</c><00:11:39.881><c> vez</c><00:11:40.102><c> que</c><00:11:40.324><c> alguien</c><00:11:40.766><c> haya</c>
+
+00:11:40.988 --> 00:11:41.043 align:start position:0%
+ evento de GA4 una vez que alguien haya
+ 
+
+00:11:41.043 --> 00:11:43.691 align:start position:0%
+ evento de GA4 una vez que alguien haya
+ completado<00:11:41.651><c> la</c><00:11:41.817><c> acción</c><00:11:42.260><c> deseada</c><00:11:42.647><c>.</c><00:11:43.452><c> Esto</c>
+
+00:11:43.691 --> 00:11:43.750 align:start position:0%
+ completado la acción deseada. Esto
+ 
+
+00:11:43.750 --> 00:11:46.082 align:start position:0%
+ completado la acción deseada. Esto
+ podría<00:11:44.229><c> ser</c><00:11:44.468><c> enviar</c><00:11:44.886><c> un</c><00:11:45.066><c> formulario</c><00:11:45.664><c>,</c><00:11:45.783><c> hacer</c>
+
+00:11:46.082 --> 00:11:46.142 align:start position:0%
+ podría ser enviar un formulario, hacer
+ 
+
+00:11:46.142 --> 00:11:48.294 align:start position:0%
+ podría ser enviar un formulario, hacer
+ clic<00:11:46.441><c> en</c><00:11:46.620><c> un</c><00:11:46.799><c> botón</c><00:11:47.158><c>,</c><00:11:47.278><c> ver</c><00:11:47.517><c> una</c><00:11:47.756><c> página</c><00:11:48.234><c> o</c>
+
+00:11:48.294 --> 00:11:48.354 align:start position:0%
+ clic en un botón, ver una página o
+ 
+
+00:11:48.354 --> 00:11:50.387 align:start position:0%
+ clic en un botón, ver una página o
+ cualquier<00:11:48.952><c> otra</c><00:11:49.251><c> acción</c><00:11:49.729><c> que</c><00:11:49.968><c> elijas</c><00:11:50.327><c>.</c>
+
+00:11:50.387 --> 00:11:51.477 align:start position:0%
+ cualquier otra acción que elijas.
+ 
+
+00:11:51.477 --> 00:11:53.382 align:start position:0%
+ 
+ Ahora<00:11:51.813><c> que</c><00:11:52.037><c> hemos</c><00:11:52.373><c> publicado</c><00:11:52.934><c> nuestros</c>
+
+00:11:53.382 --> 00:11:53.438 align:start position:0%
+ Ahora que hemos publicado nuestros
+ 
+
+00:11:53.438 --> 00:11:55.568 align:start position:0%
+ Ahora que hemos publicado nuestros
+ cambios<00:11:53.887><c> en</c><00:11:54.055><c> Google</c><00:11:54.447><c> Tag</c><00:11:54.671><c> Manager</c><00:11:55.064><c>,</c><00:11:55.176><c> podemos</c>
+
+00:11:55.568 --> 00:11:55.624 align:start position:0%
+ cambios en Google Tag Manager, podemos
+ 
+
+00:11:55.624 --> 00:11:58.859 align:start position:0%
+ cambios en Google Tag Manager, podemos
+ volver<00:11:56.017><c> a</c><00:11:56.129><c> Google</c><00:11:56.521><c> Analytics</c><00:11:57.025><c>.</c><00:11:58.509><c> Y</c><00:11:58.609><c> luego</c>
+
+00:11:58.859 --> 00:11:58.909 align:start position:0%
+ volver a Google Analytics. Y luego
+ 
+
+00:11:58.909 --> 00:12:00.709 align:start position:0%
+ volver a Google Analytics. Y luego
+ deberás<00:11:59.359><c> habilitar</c><00:11:59.859><c> el</c><00:12:00.009><c> evento</c><00:12:00.359><c> como</c><00:12:00.609><c> un</c>
+
+00:12:00.709 --> 00:12:00.759 align:start position:0%
+ deberás habilitar el evento como un
+ 
+
+00:12:00.759 --> 00:12:03.571 align:start position:0%
+ deberás habilitar el evento como un
+ evento<00:12:01.109><c> clave</c><00:12:01.359><c>.</c><00:12:02.236><c> Para</c><00:12:02.503><c> ello</c><00:12:02.716><c>,</c><00:12:02.823><c> podemos</c><00:12:03.251><c> seguir</c>
+
+00:12:03.571 --> 00:12:03.625 align:start position:0%
+ evento clave. Para ello, podemos seguir
+ 
+
+00:12:03.625 --> 00:12:05.602 align:start position:0%
+ evento clave. Para ello, podemos seguir
+ los<00:12:03.838><c> pasos</c><00:12:04.159><c> que</c><00:12:04.373><c> cubrimos</c><00:12:04.854><c> anteriormente</c><00:12:05.548><c>.</c>
+
+00:12:05.602 --> 00:12:05.934 align:start position:0%
+ los pasos que cubrimos anteriormente.
+ 
+
+00:12:05.934 --> 00:12:08.065 align:start position:0%
+ los pasos que cubrimos anteriormente.
+ Entonces<00:12:06.435><c>,</c><00:12:06.560><c> navegamos</c><00:12:07.187><c> a</c><00:12:07.312><c> administrar</c><00:12:08.002><c>.</c>
+
+00:12:08.065 --> 00:12:10.399 align:start position:0%
+ Entonces, navegamos a administrar.
+ 
+
+00:12:10.399 --> 00:12:12.421 align:start position:0%
+ 
+ Seleccionamos<00:12:11.124><c> visualización</c><00:12:11.902><c> de</c><00:12:12.058><c> datos</c><00:12:12.369><c> y</c>
+
+00:12:12.421 --> 00:12:12.473 align:start position:0%
+ Seleccionamos visualización de datos y
+ 
+
+00:12:12.473 --> 00:12:15.909 align:start position:0%
+ Seleccionamos visualización de datos y
+ luego<00:12:12.784><c> eventos</c><00:12:13.147><c>.</c><00:12:14.591><c> Si</c><00:12:14.755><c> tu</c><00:12:14.920><c> evento</c><00:12:15.305><c> clave</c><00:12:15.635><c> ya</c><00:12:15.800><c> se</c>
+
+00:12:15.909 --> 00:12:15.964 align:start position:0%
+ luego eventos. Si tu evento clave ya se
+ 
+
+00:12:15.964 --> 00:12:17.943 align:start position:0%
+ luego eventos. Si tu evento clave ya se
+ ha<00:12:16.129><c> recopilado</c><00:12:16.679><c>,</c><00:12:16.789><c> lo</c><00:12:16.954><c> encontrarás</c><00:12:17.668><c> en</c><00:12:17.833><c> la</c>
+
+00:12:17.943 --> 00:12:17.998 align:start position:0%
+ ha recopilado, lo encontrarás en la
+ 
+
+00:12:17.998 --> 00:12:21.643 align:start position:0%
+ ha recopilado, lo encontrarás en la
+ pestaña<00:12:18.492><c> de</c><00:12:18.657><c> eventos</c><00:12:19.097><c> recientes</c><00:12:19.592><c>.</c><00:12:21.267><c> Si</c><00:12:21.428><c> aún</c>
+
+00:12:21.643 --> 00:12:21.697 align:start position:0%
+ pestaña de eventos recientes. Si aún
+ 
+
+00:12:21.697 --> 00:12:23.794 align:start position:0%
+ pestaña de eventos recientes. Si aún
+ no<00:12:21.858><c> se</c><00:12:22.019><c> ha</c><00:12:22.181><c> recopilado</c><00:12:22.719><c>,</c><00:12:22.826><c> no</c><00:12:22.987><c> lo</c><00:12:23.149><c> encontrarás</c>
+
+00:12:23.794 --> 00:12:23.848 align:start position:0%
+ no se ha recopilado, no lo encontrarás
+ 
+
+00:12:23.848 --> 00:12:26.386 align:start position:0%
+ no se ha recopilado, no lo encontrarás
+ aquí<00:12:24.117><c>.</c><00:12:24.708><c> Así</c><00:12:24.997><c> que</c><00:12:25.171><c>,</c><00:12:25.286><c> en</c><00:12:25.460><c> su</c><00:12:25.634><c> lugar</c><00:12:25.923><c>,</c><00:12:26.039><c> puedes</c>
+
+00:12:26.386 --> 00:12:26.444 align:start position:0%
+ aquí. Así que, en su lugar, puedes
+ 
+
+00:12:26.444 --> 00:12:28.644 align:start position:0%
+ aquí. Así que, en su lugar, puedes
+ preconfigurar<00:12:27.255><c> el</c><00:12:27.428><c> evento</c><00:12:27.834><c> como</c><00:12:28.123><c> un</c><00:12:28.297><c> evento</c>
+
+00:12:28.644 --> 00:12:28.702 align:start position:0%
+ preconfigurar el evento como un evento
+ 
+
+00:12:28.702 --> 00:12:31.043 align:start position:0%
+ preconfigurar el evento como un evento
+ clave<00:12:28.992><c>.</c><00:12:29.427><c> Para</c><00:12:29.715><c> hacer</c><00:12:30.061><c> esto</c><00:12:30.292><c>,</c><00:12:30.408><c> haz</c><00:12:30.639><c> clic</c><00:12:30.927><c> en</c>
+
+00:12:31.043 --> 00:12:31.100 align:start position:0%
+ clave. Para hacer esto, haz clic en
+ 
+
+00:12:31.100 --> 00:12:34.344 align:start position:0%
+ clave. Para hacer esto, haz clic en
+ crear<00:12:31.447><c> evento</c><00:12:31.793><c>.</c><00:12:33.269><c> Ingrese</c><00:12:33.678><c> el</c><00:12:33.832><c> nombre</c><00:12:34.190><c> del</c>
+
+00:12:34.344 --> 00:12:34.395 align:start position:0%
+ crear evento. Ingrese el nombre del
+ 
+
+00:12:34.395 --> 00:12:36.289 align:start position:0%
+ crear evento. Ingrese el nombre del
+ evento<00:12:34.753><c> exactamente</c><00:12:35.367><c> como</c><00:12:35.623><c> se</c><00:12:35.777><c> enviará</c><00:12:36.238><c> a</c>
+
+00:12:36.289 --> 00:12:36.340 align:start position:0%
+ evento exactamente como se enviará a
+ 
+
+00:12:36.340 --> 00:12:39.417 align:start position:0%
+ evento exactamente como se enviará a
+ Google<00:12:36.699><c> Analytics</c><00:12:37.159><c>.</c><00:12:38.311><c> Es</c><00:12:38.485><c> decir</c><00:12:38.776><c>,</c><00:12:38.893><c> el</c><00:12:39.068><c> nombre</c>
+
+00:12:39.417 --> 00:12:39.475 align:start position:0%
+ Google Analytics. Es decir, el nombre
+ 
+
+00:12:39.475 --> 00:12:41.571 align:start position:0%
+ Google Analytics. Es decir, el nombre
+ exacto<00:12:39.883><c> del</c><00:12:40.116><c> evento</c><00:12:40.523><c> que</c><00:12:40.756><c> usó</c><00:12:41.047><c> en</c><00:12:41.222><c> Google</c>
+
+00:12:41.571 --> 00:12:41.630 align:start position:0%
+ exacto del evento que usó en Google
+ 
+
+00:12:41.630 --> 00:12:44.397 align:start position:0%
+ exacto del evento que usó en Google
+ Tag<00:12:41.863><c> Manager</c><00:12:42.270><c>.</c><00:12:42.979><c> Luego</c><00:12:43.251><c>,</c><00:12:43.360><c> habilite</c><00:12:43.851><c> la</c><00:12:44.015><c> opción</c>
+
+00:12:44.397 --> 00:12:44.451 align:start position:0%
+ Tag Manager. Luego, habilite la opción
+ 
+
+00:12:44.451 --> 00:12:45.979 align:start position:0%
+ Tag Manager. Luego, habilite la opción
+ de<00:12:44.615><c> marcar</c><00:12:44.997><c> como</c><00:12:45.269><c> evento</c><00:12:45.651><c> clave</c><00:12:45.924><c>.</c>
+
+00:12:45.979 --> 00:12:47.195 align:start position:0%
+ de marcar como evento clave.
+ 
+
+00:12:47.195 --> 00:12:49.085 align:start position:0%
+ 
+ Desplácese<00:12:47.825><c> hacia</c><00:12:48.140><c> abajo</c><00:12:48.455><c> y</c><00:12:48.560><c> seleccione</c>
+
+00:12:49.085 --> 00:12:49.138 align:start position:0%
+ Desplácese hacia abajo y seleccione
+ 
+
+00:12:49.138 --> 00:12:52.529 align:start position:0%
+ Desplácese hacia abajo y seleccione
+ crear<00:12:49.453><c> con</c><00:12:49.663><c> código</c><00:12:50.031><c>.</c><00:12:51.676><c> Ahora</c><00:12:51.977><c> puede</c><00:12:52.278><c> hacer</c>
+
+00:12:52.529 --> 00:12:52.579 align:start position:0%
+ crear con código. Ahora puede hacer
+ 
+
+00:12:52.579 --> 00:12:56.035 align:start position:0%
+ crear con código. Ahora puede hacer
+ clic<00:12:52.830><c> en</c><00:12:52.980><c> crear</c><00:12:53.231><c>.</c><00:12:54.785><c> Una</c><00:12:55.002><c> vez</c><00:12:55.219><c> que</c><00:12:55.437><c> se</c><00:12:55.600><c> recopile</c>
+
+00:12:56.035 --> 00:12:56.089 align:start position:0%
+ clic en crear. Una vez que se recopile
+ 
+
+00:12:56.089 --> 00:12:58.209 align:start position:0%
+ clic en crear. Una vez que se recopile
+ el<00:12:56.252><c> evento</c><00:12:56.578><c>,</c><00:12:56.687><c> aparecerá</c><00:12:57.285><c> como</c><00:12:57.557><c> evento</c><00:12:57.938><c> clave</c>
+
+00:12:58.209 --> 00:12:58.264 align:start position:0%
+ el evento, aparecerá como evento clave
+ 
+
+00:12:58.264 --> 00:13:02.097 align:start position:0%
+ el evento, aparecerá como evento clave
+ en<00:12:58.427><c> sus</c><00:12:58.644><c> informes</c><00:12:59.079><c>.</c><00:13:00.860><c> Hemos</c><00:13:01.197><c> visto</c><00:13:01.535><c> dos</c><00:13:01.760><c> formas</c>
+
+00:13:02.097 --> 00:13:02.154 align:start position:0%
+ en sus informes. Hemos visto dos formas
+ 
+
+00:13:02.154 --> 00:13:04.179 align:start position:0%
+ en sus informes. Hemos visto dos formas
+ de<00:13:02.322><c> crear</c><00:13:02.660><c> eventos</c><00:13:03.110><c> clave</c><00:13:03.448><c> para</c><00:13:03.729><c> informar</c>
+
+00:13:04.179 --> 00:13:04.236 align:start position:0%
+ de crear eventos clave para informar
+ 
+
+00:13:04.236 --> 00:13:06.867 align:start position:0%
+ de crear eventos clave para informar
+ sobre<00:13:04.573><c> conversiones</c><00:13:05.305><c> en</c><00:13:05.473><c> GA4</c><00:13:05.642><c>.</c><00:13:06.605><c> Hemos</c>
+
+00:13:06.867 --> 00:13:06.919 align:start position:0%
+ sobre conversiones en GA4. Hemos
+ 
+
+00:13:06.919 --> 00:13:08.597 align:start position:0%
+ sobre conversiones en GA4. Hemos
+ cubierto<00:13:07.391><c> la</c><00:13:07.548><c> creación</c><00:13:08.073><c> de</c><00:13:08.230><c> eventos</c>
+
+00:13:08.597 --> 00:13:08.650 align:start position:0%
+ cubierto la creación de eventos
+ 
+
+00:13:08.650 --> 00:13:10.433 align:start position:0%
+ cubierto la creación de eventos
+ directamente<00:13:09.331><c> en</c><00:13:09.489><c> Google</c><00:13:09.856><c> Analytics</c><00:13:10.380><c> y</c>
+
+00:13:10.433 --> 00:13:10.485 align:start position:0%
+ directamente en Google Analytics y
+ 
+
+00:13:10.485 --> 00:13:12.832 align:start position:0%
+ directamente en Google Analytics y
+ mediante<00:13:10.957><c> Google</c><00:13:11.324><c> Tag</c><00:13:11.534><c> Manager</c><00:13:11.901><c>.</c><00:13:12.314><c> Para</c><00:13:12.601><c> cada</c>
+
+00:13:12.832 --> 00:13:12.889 align:start position:0%
+ mediante Google Tag Manager. Para cada
+ 
+
+00:13:12.889 --> 00:13:14.905 align:start position:0%
+ mediante Google Tag Manager. Para cada
+ conversión<00:13:13.580><c> que</c><00:13:13.811><c> desee</c><00:13:14.156><c> rastrear</c><00:13:14.674><c> como</c>
+
+00:13:14.905 --> 00:13:14.962 align:start position:0%
+ conversión que desee rastrear como
+ 
+
+00:13:14.962 --> 00:13:17.150 align:start position:0%
+ conversión que desee rastrear como
+ evento<00:13:15.365><c> clave</c><00:13:15.653><c>,</c><00:13:15.768><c> solo</c><00:13:16.056><c> necesita</c><00:13:16.575><c> elegir</c><00:13:16.978><c> uno</c>
+
+00:13:17.150 --> 00:13:17.208 align:start position:0%
+ evento clave, solo necesita elegir uno
+ 
+
+00:13:17.208 --> 00:13:19.838 align:start position:0%
+ evento clave, solo necesita elegir uno
+ de<00:13:17.381><c> estos</c><00:13:17.726><c> métodos</c><00:13:18.187><c>.</c><00:13:18.922><c> ¿</c><00:13:19.018><c>Qué</c><00:13:19.259><c> conversiones</c>
+
+00:13:19.838 --> 00:13:19.886 align:start position:0%
+ de estos métodos. ¿Qué conversiones
+ 
+
+00:13:19.886 --> 00:13:21.732 align:start position:0%
+ de estos métodos. ¿Qué conversiones
+ va<00:13:20.031><c> a</c><00:13:20.127><c> rastrear</c><00:13:20.561><c> en</c><00:13:20.706><c> Google</c><00:13:21.043><c> Analytics</c><00:13:21.477><c>?</c><00:13:21.626><c> Me</c>
+
+00:13:21.732 --> 00:13:21.785 align:start position:0%
+ va a rastrear en Google Analytics? Me
+ 
+
+00:13:21.785 --> 00:13:23.710 align:start position:0%
+ va a rastrear en Google Analytics? Me
+ encantaría<00:13:22.424><c> saberlo</c><00:13:22.797><c>.</c><00:13:22.951><c> Hágamelo</c><00:13:23.373><c> saber</c><00:13:23.626><c> en</c>
+
+00:13:23.710 --> 00:13:23.753 align:start position:0%
+ encantaría saberlo. Hágamelo saber en
+ 
+
+00:13:23.753 --> 00:13:25.404 align:start position:0%
+ encantaría saberlo. Hágamelo saber en
+ los<00:13:23.921><c> comentarios</c><00:13:24.428><c> a</c><00:13:24.512><c> continuación</c><00:13:25.061><c>.</c><00:13:25.204><c> Y</c><00:13:25.304><c> si</c>
+
+00:13:25.404 --> 00:13:25.454 align:start position:0%
+ los comentarios a continuación. Y si
+ 
+
+00:13:25.454 --> 00:13:27.410 align:start position:0%
+ los comentarios a continuación. Y si
+ este<00:13:25.705><c> video</c><00:13:26.006><c> le</c><00:13:26.156><c> resultó</c><00:13:26.607><c> útil</c><00:13:26.858><c>,</c><00:13:26.958><c> por</c><00:13:27.159><c> favor</c>
+
+00:13:27.410 --> 00:13:27.460 align:start position:0%
+ este video le resultó útil, por favor
+ 
+
+00:13:27.460 --> 00:13:29.365 align:start position:0%
+ este video le resultó útil, por favor
+ dele<00:13:27.711><c> un</c><00:13:27.861><c> "</c><00:13:27.911><c>me</c><00:13:28.062><c> gusta</c><00:13:28.312><c>"</c><00:13:28.413><c> para</c><00:13:28.663><c> que</c><00:13:28.864><c> sepa</c><00:13:29.115><c> hacer</c>
+
+00:13:29.365 --> 00:13:29.415 align:start position:0%
+ dele un "me gusta" para que sepa hacer
+ 
+
+00:13:29.415 --> 00:13:31.118 align:start position:0%
+ dele un "me gusta" para que sepa hacer
+ más<00:13:29.666><c> videos</c><00:13:30.017><c> como</c><00:13:30.268><c> este</c><00:13:30.468><c>.</c><00:13:30.619><c> Gracias</c><00:13:30.982><c> por</c>
+
+00:13:31.118 --> 00:13:31.164 align:start position:0%
+ más videos como este. Gracias por
+ 
+
+00:13:31.164 --> 00:13:33.754 align:start position:0%
+ más videos como este. Gracias por
+ vernos<00:13:31.482><c> y</c><00:13:31.572><c> nos</c><00:13:31.754><c> vemos</c><00:13:32.027><c> en</c><00:13:32.163><c> el</c><00:13:32.299><c> siguiente</c><00:13:32.708><c>.</c>
+

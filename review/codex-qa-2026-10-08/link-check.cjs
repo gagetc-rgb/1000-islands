@@ -1,0 +1,9 @@
+const fs=require('fs');const boards=require('./penpot-shapes.json'),fresh=require('./html-fresh.json');
+function decode(v){if(v===null||typeof v!=='object')return v;if(v.uuid)return v.uuid;if(v.$fqn$)return v.$fqn$;if(v.$tail$)return v.$tail$.map(decode);const arr=v.$arr$;if(arr){const o={};for(let i=0;i<arr.length;i+=2)if(arr[i])o[decode(arr[i])]=decode(arr[i+1]);return o;}if(v.root){const o={};const walk=n=>{const a=n?.$arr$||[];for(let i=0;i<a.length;i+=2)if(a[i])o[decode(a[i])]=decode(a[i+1]);else if(a[i+1])walk(a[i+1]);};walk(v.root);return o;}return v;}
+let count=0;const report=[];
+for(const b of boards){const links=b.shapes.filter(s=>s.interactions).map(s=>{const a=decode(s.interactions)[0];count++;return {name:s.name,id:s.id,x:s.x,y:s.y,w:s.w,h:s.h,action:a['action-type'],dest:a.destination,target:boards.find(b=>b.id===a.destination)?.name,url:a.url};});
+const h=fresh.find(f=>f.name===b.name);const expected=h?h.links.filter(l=>l.to.startsWith('__')||fresh.some(f=>f.group===b.group&&f.key===l.to)):[];
+const missing=expected.filter(l=>!links.some(p=>Math.abs(p.x-l.x)<3&&Math.abs(p.y-l.y)<3));const bad=links.filter(l=>l.action==='navigate'&&!l.target);
+const wrong=expected.flatMap(l=>{const p=links.find(p=>Math.abs(p.x-l.x)<3&&Math.abs(p.y-l.y)<3);if(!p||l.to.startsWith('__'))return [];const target=fresh.find(f=>f.name===p.target);return target?.key===l.to?[]:[{html:l,pen:p}];});
+report.push({name:b.name,links,missing,bad,wrong});if(missing.length||bad.length||wrong.length)console.log(b.name,JSON.stringify({missing,bad,wrong}));}
+fs.writeFileSync(__dirname+'/links.json',JSON.stringify(report,null,2));console.log('TOTAL',count,'hotspots');console.log('COVERS',JSON.stringify(report.filter(b=>b.name.startsWith('00')).map(b=>({name:b.name,links:b.links.map(l=>({name:l.name,action:l.action,target:l.target,url:l.url}))})),null,2));

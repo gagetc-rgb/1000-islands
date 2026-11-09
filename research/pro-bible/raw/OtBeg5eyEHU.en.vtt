@@ -1,0 +1,1912 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.000 --> 00:00:04.940
+[Kate:] Welcome to the keynote session!
+
+00:00:04.940 --> 00:00:10.320
+My name is Kate Moran and I'm a UX specialist
+with Nielsen Norman Group.
+
+00:00:10.320 --> 00:00:18.580
+You may not be aware of this, but 2018 is
+actually Nielsen Norman Group's 20 year anniversary.
+
+00:00:18.580 --> 00:00:27.430
+That is 20 years of research-based UX guidance.
+
+00:00:27.430 --> 00:00:32.910
+We are so happy that you could be here with
+us this week to help us celebrate and also
+
+00:00:32.910 --> 00:00:36.420
+to be a part of this milestone with us.
+
+00:00:36.420 --> 00:00:45.600
+Now I hope you'll join me in welcoming the
+UX guru himself, Dr. Jakob Nielsen.
+
+00:00:51.139 --> 00:00:52.519
+[Jakob:] Thank you very much, Kate.
+
+00:00:52.519 --> 00:00:56.979
+And thank you everybody for spending the beginning
+of the evening with us.
+
+00:00:56.979 --> 00:01:01.829
+I want to talk not about what I think people
+often talk about in these types of presentations,
+
+00:01:01.829 --> 00:01:07.060
+which is what's new, what's leading edge
+and what is the latest fad.
+
+00:01:07.060 --> 00:01:09.930
+We do that a little bit at the conference
+here as well.
+
+00:01:09.930 --> 00:01:11.310
+But that's not a lot.
+
+00:01:11.310 --> 00:01:14.219
+I actually want to talk about what's not new.
+
+00:01:14.219 --> 00:01:21.100
+What are the things that really keep being
+long-lasting in our field?
+
+00:01:21.100 --> 00:01:22.740
+That's what I want to focus on.
+
+00:01:22.740 --> 00:01:28.649
+This means I'm not going to talk about these
+things like particular screenshots, particular
+
+00:01:28.649 --> 00:01:35.560
+devices, particular services, dialog boxes,
+interface designs, or things like that.
+
+00:01:35.560 --> 00:01:42.399
+Here are some of the older ones that I've
+worked on or analyzed over the years.
+
+00:01:42.399 --> 00:01:45.270
+I just wanted to point out a few that are
+interesting, historically speaking.
+
+00:01:45.270 --> 00:01:51.299
+The upper left was Apple's eWorld, which
+was their attempt to make their own version
+
+00:01:51.299 --> 00:01:54.289
+of the internet or the web which didn't last
+very long.
+
+00:01:54.289 --> 00:01:57.680
+Has anyone here actually used or had an eWorld account? Anybody?
+
+00:01:57.680 --> 00:02:03.540
+I'm the only one. Okay! That shows you why it failed.
+
+00:02:03.540 --> 00:02:08.170
+Lower left is a Japanese device from NTT called
+the Eggy.
+
+00:02:08.170 --> 00:02:15.280
+I really used to love when I went to 
+Tokyo and could go into the Docomo stores and look at all the fancy mobile devices they had.
+
+00:02:15.280 --> 00:02:20.709
+They had a lot of very specialized things
+that you couldn't buy in the rest of the world.
+
+00:02:20.709 --> 00:02:23.959
+Today all the mobile phones are the same,
+they all look like a little brick, so that
+
+00:02:23.959 --> 00:02:27.560
+part is not as exciting anymore.
+
+00:02:27.560 --> 00:02:31.260
+But what's interesting to look about this
+device from 2001, this was a specialized device
+
+00:02:31.260 --> 00:02:32.830
+for taking selfies.
+
+00:02:32.830 --> 00:02:36.659
+It then could transmit to your friends.
+
+00:02:36.659 --> 00:02:41.069
+That is no longer a special device, it's just
+a feature on your smartphone.
+
+00:02:41.069 --> 00:02:46.640
+What's interesting to look if you look closely
+at the photo on this old device...
+
+00:02:46.640 --> 00:02:50.939
+This shows you one of these immutable facts,
+which is that people love to put little emojis
+
+00:02:50.939 --> 00:02:54.549
+or stickies on their selfie photos.
+
+00:02:54.549 --> 00:02:59.020
+That was true in 2001, it's true now, it's
+probably going to be true for another 20 years or forever.
+
+00:02:59.020 --> 00:03:02.860
+That's the human nature and that's a lot of
+what this is about.
+
+00:03:02.860 --> 00:03:08.320
+So I want to start talking about one of the
+early examples of a successful user experience project.
+
+00:03:08.320 --> 00:03:14.340
+This was from 1984, the Olympic Message System
+developed by IBM for the Olympic Games that year.
+
+00:03:14.340 --> 00:03:22.000
+It was kiosks that were scattered around the
+Olympic village with what we today would call voicemail.
+
+00:03:22.000 --> 00:03:25.540
+Back then, most people didn't have that.
+
+00:03:25.549 --> 00:03:29.930
+Particularly most of these athletes that came
+from all over the world didn't have that.
+
+00:03:29.930 --> 00:03:34.230
+So it was a special development project that
+had to have this very easy, walk up and use
+
+00:03:34.230 --> 00:03:38.860
+type of functionality because the athletes
+were focused on their competitions and not
+
+00:03:38.860 --> 00:03:40.500
+on learning an IBM system.
+
+00:03:40.500 --> 00:03:43.480
+It had to be really easy to use.
+
+00:03:43.480 --> 00:03:48.060
+Some of the design challenges that they had
+back then were that many had never used a
+
+00:03:48.060 --> 00:03:54.090
+push-button telephone before, and it was a
+very international system because the athletes
+
+00:03:54.090 --> 00:03:56.290
+came from all different countries.
+
+00:03:56.290 --> 00:04:01.640
+They delivered this user interface in twelve
+different languages, which even today is quite
+
+00:04:01.640 --> 00:04:05.320
+impressive, very few designs ship in that
+many languages from the beginning.
+
+00:04:05.320 --> 00:04:10.409
+It also had to be supportive of a lot of different
+issues -- I'll highlight one which is
+
+00:04:10.409 --> 00:04:14.691
+people coming from different countries, many
+did not use the Latin character set, so they
+
+00:04:14.691 --> 00:04:18.740
+didn't know how to spell their names.
+
+00:04:18.740 --> 00:04:23.150
+They knew their own name in their local language
+and character set, but not in this alphabet.
+
+00:04:23.150 --> 00:04:25.950
+Passwords were also in the Latin alphabet.
+
+00:04:25.950 --> 00:04:31.800
+So the solution to several of these problems was
+that they recorded a video with a mime, which
+
+00:04:31.800 --> 00:04:35.000
+takes care of the language problem right there.
+
+00:04:35.000 --> 00:04:39.280
+You can see this screenshot from the video
+where the mime is showing you where on your
+
+00:04:39.280 --> 00:04:45.100
+ID badge you can see your name spelled in
+the character set used at the Games.
+
+00:04:45.100 --> 00:04:49.340
+So, some of these design challenges are certainly
+not with us anymore.
+
+00:04:49.340 --> 00:04:53.470
+We don't really have to face users who have
+never seen a push-button telephone before.
+
+00:04:53.470 --> 00:05:00.680
+But others are with us, like for example how
+to deal with a truly multi-national, international project.
+
+00:05:00.680 --> 00:05:05.370
+Those things are still very difficult to do
+today and have not actually been solved.
+
+00:05:05.370 --> 00:05:10.730
+Three things that they did for their project
+are the reasons why it was very successful.
+
+00:05:10.730 --> 00:05:15.050
+A lot of athletes used this despite often
+coming from very low-tech countries.
+
+00:05:15.050 --> 00:05:19.230
+Remember, this was 1984 so it was very low-tech
+at the time.
+
+00:05:19.230 --> 00:05:21.870
+They had three design principles.
+
+00:05:21.870 --> 00:05:24.970
+First was early focus on users.
+
+00:05:24.970 --> 00:05:26.740
+Find out the users' characteristics.
+
+00:05:26.740 --> 00:05:30.530
+Now, today we might call this persona development.
+
+00:05:30.530 --> 00:05:33.450
+We have an entire day on that, today actually.
+
+00:05:33.450 --> 00:05:36.480
+So they didn't use that word but they had
+the same general idea.
+
+00:05:36.480 --> 00:05:40.590
+Observe users doing their normal tasks; field
+studies are what we call this now.
+
+00:05:40.590 --> 00:05:46.260
+Empirical measurements, test with real users,
+start by testing what they called printed scenarios.
+
+00:05:46.260 --> 00:05:50.400
+Maybe today we would call that paper prototyping,
+but it was the same idea.
+
+00:05:50.400 --> 00:05:54.940
+It evolved to ever more elaborate prototypes
+after that.
+
+00:05:54.940 --> 00:05:57.780
+The third principle was iterative design.
+
+00:05:57.780 --> 00:06:02.090
+You can never make the perfect user interface
+the first time you try no matter how good
+
+00:06:02.090 --> 00:06:03.090
+a designer you are.
+
+00:06:03.090 --> 00:06:07.230
+You have to go through this cycle: design,
+test, measure, redesign.
+
+00:06:07.230 --> 00:06:14.140
+The more times you do that, the more times
+you can drive up the quality of the final design.
+
+00:06:14.150 --> 00:06:19.060
+In fact they went through 200 design iterations
+for parts of their design.
+
+00:06:19.060 --> 00:06:22.480
+Even today, this is a very impressive number.
+
+00:06:22.480 --> 00:06:27.500
+But these three principles are essentially
+what we teach today.
+
+00:06:27.500 --> 00:06:31.389
+We use slightly different vocabulary but that's
+the same thing we do today.
+
+00:06:31.389 --> 00:06:36.970
+So that's what I mean when I talk about immutable
+characteristics of user experience.
+
+00:06:36.970 --> 00:06:39.560
+These things keep being the same.
+
+00:06:39.560 --> 00:06:45.430
+Now, despite these three principles being
+really the foundation for quality design,
+
+00:06:45.430 --> 00:06:46.650
+people didn't know about them.
+
+00:06:46.650 --> 00:06:53.230
+They did a study while they were working on
+the project where they asked several designers
+
+00:06:53.230 --> 00:06:59.600
+and program managers to list what they called
+the "main steps" to design systems.
+
+00:06:59.600 --> 00:07:05.890
+Only 16% mentioned all these three principles
+despite them being so basic.
+
+00:07:05.890 --> 00:07:10.320
+Early focus on users, empirical measurement,
+and iterative design.
+
+00:07:10.320 --> 00:07:13.490
+Only 16% mentioned all three.
+
+00:07:13.490 --> 00:07:19.900
+In fact, more people -- 26% -- mentioned none
+of these very basic things.
+
+00:07:19.900 --> 00:07:24.820
+Now I would hope that if somebody were to
+do this study again today they would get a
+
+00:07:24.820 --> 00:07:26.950
+bigger percentage of people mentioning these
+principles.
+
+00:07:26.950 --> 00:07:31.780
+But I actually think even today that it's
+not the case that everybody actually would
+
+00:07:31.780 --> 00:07:32.780
+mention all three.
+
+00:07:32.780 --> 00:07:38.760
+And it's even more the case that not all projects
+would follow all three principles, despite them
+
+00:07:38.760 --> 00:07:44.000
+actually being truly basic, fundamental and required
+for quality design.
+
+00:07:44.000 --> 00:07:50.670
+So we'll find that a lot of immutable rules
+fall into this realm of user experience process.
+
+00:07:50.670 --> 00:07:56.730
+Advice for good process tends to be the same
+year after year.
+
+00:07:56.730 --> 00:08:00.670
+One of them is this point about testing with
+real users.
+
+00:08:00.670 --> 00:08:07.980
+Here are two photos of a usability lab that
+I used when I worked at Sun Microsystems in 1994.
+
+00:08:07.980 --> 00:08:14.210
+But it could have been a photo of today. It's
+the same idea: you put a computer, you put
+
+00:08:14.210 --> 00:08:18.150
+a person with that computer, you have some
+cameras, you have a one-way mirror, you have
+
+00:08:18.150 --> 00:08:21.680
+a green plant in the corner.
+
+00:08:21.680 --> 00:08:26.300
+Every usability lab has to have a green plant
+in the corner!
+
+00:08:26.300 --> 00:08:29.750
+And you have the back room where all of the
+project team members sit there.
+
+00:08:29.750 --> 00:08:34.140
+They are isolated from the user by the one-way
+mirror so that the people on the team can
+
+00:08:34.140 --> 00:08:38.960
+go "Oh NO! Why did they click the wrong button?"
+
+00:08:38.969 --> 00:08:41.479
+This happens year after year.
+
+00:08:41.479 --> 00:08:45.881
+The only way that you can tell that this is
+an old photo is the computer itself.
+
+00:08:45.881 --> 00:08:49.129
+It's big and clunky because that's how they
+looked back then.
+
+00:08:49.129 --> 00:08:52.260
+Here's a photo from a study that we did more
+recently.
+
+00:08:52.260 --> 00:08:56.000
+See, thinner computers, smaller cameras, but
+the same basic idea.
+
+00:08:56.000 --> 00:08:58.830
+You sit next to the user and you observe what
+they do.
+
+00:08:58.830 --> 00:09:00.970
+You film it and you can look at the video
+later.
+
+00:09:00.970 --> 00:09:06.450
+A few more years later, even thinner computers
+and even smaller cameras but the same setup.
+
+00:09:06.450 --> 00:09:10.829
+I can keep taking these photos every year
+and they will keep looking about the same.
+
+00:09:10.829 --> 00:09:16.810
+That said, there are certainly some things
+that change the basic process of user testing.
+
+00:09:16.810 --> 00:09:19.370
+So I'll show you a photo from a more recent
+study we did.
+
+00:09:19.370 --> 00:09:23.660
+This is a study that we did with eye-tracking
+and mobile devices.
+
+00:09:23.660 --> 00:09:26.930
+I should point out, first of all, that this
+is not a real user.
+
+00:09:26.930 --> 00:09:33.930
+This is one of our own experts who is playing
+the user to try out the equipment.
+
+00:09:33.930 --> 00:09:38.889
+Our study facilitator here who just gave the
+intro - all of our test facilitators are too
+
+00:09:38.889 --> 00:09:41.360
+professional to actually laugh at the users.
+
+00:09:41.360 --> 00:09:42.720
+We don't do that!
+
+00:09:42.720 --> 00:09:45.500
+But we can laugh at each other.
+
+00:09:45.500 --> 00:09:51.889
+This looked like a torture device, this thing,
+but it was eye-tracking for mobile devices.
+
+00:09:51.889 --> 00:09:53.959
+This was one thing that we were trying out
+at the time.
+
+00:09:53.959 --> 00:09:56.889
+So some things like that you do a little bit
+differently.
+
+00:09:56.889 --> 00:09:59.600
+But basically, things remain the same year
+after year after year.
+
+00:09:59.600 --> 00:10:05.990
+I want to go back even further to the year 1628.
+
+00:10:05.990 --> 00:10:09.990
+This is a photograph of the ship the Vasa,
+which is a Swedish warship and it is in a
+
+00:10:09.990 --> 00:10:10.990
+museum in Stockholm.
+
+00:10:10.990 --> 00:10:16.220
+You can go and see it today, it is a really
+great museum and well worth seeing if you're in Stockholm.
+
+00:10:16.220 --> 00:10:20.630
+But in 1628 this was the biggest ship in the
+Swedish navy and the biggest ship that had
+
+00:10:20.630 --> 00:10:23.360
+ever been built in Sweden.
+
+00:10:23.360 --> 00:10:27.720
+So when they had just finished constructing
+the ship and it had never been out sailing
+
+00:10:27.720 --> 00:10:33.040
+yet, the newly appointed captain came aboard
+the ship and said "We have got to test
+
+00:10:33.040 --> 00:10:34.569
+the stability of this ship."
+
+00:10:34.569 --> 00:10:39.019
+He got all of the sailors on the deck and
+got them to run back and forth.
+
+00:10:39.019 --> 00:10:42.550
+All of the sailors run to one side of the
+ship and then all of the sailors run to the
+
+00:10:42.550 --> 00:10:43.829
+other side of the ship.
+
+00:10:43.829 --> 00:10:50.670
+And as these guys run back and forth, the
+ship started leaning more and more.
+
+00:10:50.670 --> 00:10:57.649
+At this exact moment the admiral of the Swedish
+navy comes down to the dock and orders the
+
+00:10:57.649 --> 00:11:02.950
+captain to stop the stability test because
+this is the flagship of the navy.
+
+00:11:02.950 --> 00:11:07.740
+It has to get out on the water - that's why
+they built this ship!
+
+00:11:07.740 --> 00:11:10.389
+Not to have the sailors run back and forth.
+
+00:11:10.389 --> 00:11:14.389
+So, the captain does as he's told and they
+set sail.
+
+00:11:14.389 --> 00:11:21.440
+They sail out, leave the dock and reach the
+middle of Stockholm harbor.
+
+00:11:21.440 --> 00:11:25.930
+There's a gust of wind and the 
+ship keels over.
+
+00:11:25.930 --> 00:11:29.350
+It sinks on the spot in the middle of the harbor.
+
+00:11:29.350 --> 00:11:32.009
+This is why they have later recovered this
+ship and it's in a museum.
+
+00:11:32.009 --> 00:11:34.810
+It's good for us, maybe, but it was bad for them.
+
+00:11:34.810 --> 00:11:38.020
+It was that unstable that it didn't even get
+out of the harbor.
+
+00:11:38.020 --> 00:11:40.519
+It was that unstable a ship!
+
+00:11:40.519 --> 00:11:47.050
+This story proves two things: the first thing
+it proves is that Star Trek was right, captains
+
+00:11:47.050 --> 00:11:51.339
+are smarter than admirals.
+
+00:11:51.339 --> 00:11:57.689
+The second thing may be more relevant for
+us which is: test before you launch.
+
+00:11:57.689 --> 00:12:00.209
+This is such a basic, basic point.
+
+00:12:00.209 --> 00:12:07.839
+But if you don't test and you just launch,
+your ship or your product it has a big chance
+
+00:12:07.839 --> 00:12:11.709
+of catastrophe or failure in the marketplace.
+
+00:12:11.709 --> 00:12:19.820
+It's kind of like, right now there is a popular K-Pop
+song says "You've got two choices, yes or yes."
+
+00:12:19.829 --> 00:12:21.980
+You can test or you can test.
+
+00:12:21.980 --> 00:12:27.490
+Your design will be tested by users, either
+before you launch or after you launch.
+
+00:12:27.490 --> 00:12:31.880
+That's your only choice: yes or yes. Test or test.
+
+00:12:31.900 --> 00:12:34.570
+So that was the story about The Vasa.
+
+00:12:34.570 --> 00:12:39.999
+We have a lot of constants in the user experience
+process because we are dealing with people,
+
+00:12:39.999 --> 00:12:42.629
+because we are dealing with some of the inherent
+things about design.
+
+00:12:42.629 --> 00:12:48.079
+User-centered design works better than system-centered design or internally-focused design.
+
+00:12:48.079 --> 00:12:50.759
+Early focus on users works better than late
+focus on users.
+
+00:12:50.759 --> 00:12:53.029
+This has been the same decade after decade.
+
+00:12:53.029 --> 00:12:56.509
+I predict that if I were going to do a talk
+in ten years that I would say the exact same
+
+00:12:56.509 --> 00:13:00.470
+points because this is a fundamental, immutable rule.
+
+00:13:00.470 --> 00:13:01.541
+More iterations are better.
+
+00:13:01.541 --> 00:13:05.149
+You can never design the perfect interface
+the first time you try.
+
+00:13:05.149 --> 00:13:09.400
+Every single iteration you do of the design,
+you improve the quality.
+
+00:13:09.400 --> 00:13:15.910
+It's better to have low-commitment, discount
+usability methods and prototypes for the early
+
+00:13:15.910 --> 00:13:20.180
+iterations because you will discover design flaws.
+
+00:13:20.180 --> 00:13:24.709
+In fact, there's only one rule about usability
+testing which is that if you do a usability
+
+00:13:24.709 --> 00:13:31.890
+study and you discover nothing wrong with
+the design, it proves you did the test wrong.
+
+00:13:31.890 --> 00:13:35.269
+Not that your design was perfect, because
+that does not exist.
+
+00:13:35.269 --> 00:13:39.220
+So you will always discover ways of getting
+it better, better, better and even better
+
+00:13:39.220 --> 00:13:41.839
+the more times you can do it.
+
+00:13:41.839 --> 00:13:43.920
+So you have to make those changes.
+
+00:13:43.920 --> 00:13:50.850
+And it is easier to make that happen in a
+company or an organization, given human nature,
+
+00:13:50.850 --> 00:13:56.589
+if you haven't invested a lot -- both in terms
+of resources but even more so in terms of
+
+00:13:56.589 --> 00:14:02.369
+commitment or emotional attachment to your
+wonderful design idea -- if you've slaved
+
+00:14:02.369 --> 00:14:06.750
+over this for weeks, it's hard to be told
+that no, it's wrong go and change it.
+
+00:14:06.750 --> 00:14:11.800
+If you've worked on it for a day, that message
+is more easily received and it's more likely
+
+00:14:11.800 --> 00:14:13.399
+that the changes are made.
+
+00:14:13.399 --> 00:14:21.069
+And last, we have to look at both the experience
+architecture (the big picture) and the details
+
+00:14:21.069 --> 00:14:23.379
+of the user interface on every screen.
+
+00:14:23.379 --> 00:14:24.730
+Both matter.
+
+00:14:24.730 --> 00:14:33.079
+I've seen many cases where an otherwise wonderful
+design sank to the bottom of the harbor because
+
+00:14:33.079 --> 00:14:38.509
+one button, one word was wrong and people
+clicked the wrong button because these details
+
+00:14:38.509 --> 00:14:42.899
+matter so much for users' ability to use an
+interface correctly.
+
+00:14:42.899 --> 00:14:48.540
+So that's why, one of the many reasons that
+UX design is hard, is that you have got to
+
+00:14:48.540 --> 00:14:54.080
+get both the architecture right and all the
+details right as well or you will fail.
+
+00:14:54.080 --> 00:15:01.490
+I want to show you, as a little experiment, this piece of art and ask you what is this a picture of.
+
+00:15:01.490 --> 00:15:07.949
+I think most people would say this is a picture
+of two boats or ships at sea.
+
+00:15:07.949 --> 00:15:12.879
+In fact, it's a Japanese artwork and the title
+is The Torch Shrine in Oki Province.
+
+00:15:12.879 --> 00:15:16.670
+Now, where's the shrine?
+
+00:15:16.670 --> 00:15:20.959
+You may well think that this is a picture
+of two boats but it is a picture of a shrine.
+
+00:15:20.959 --> 00:15:21.959
+Now, here's the shrine.
+
+00:15:21.959 --> 00:15:27.839
+If you look closely... very closely... you
+can see the gate into that religious place.
+
+00:15:27.839 --> 00:15:32.899
+This is an artwork and the artist is playing with us.
+
+00:15:32.899 --> 00:15:37.209
+We start to think and get the wrong impression
+of what this is supposed to be a picture of.
+
+00:15:37.209 --> 00:15:40.059
+This is acceptable if it's art.
+
+00:15:40.059 --> 00:15:43.189
+If it's design, it's not acceptable.
+
+00:15:43.189 --> 00:15:45.679
+There's a difference between art and design.
+
+00:15:45.679 --> 00:15:49.929
+Design has to have a functionality and you
+have to be able to use it easily.
+
+00:15:49.929 --> 00:15:56.340
+Art you can ponder and think about and chuckle
+over and be inspired by and all of these other things.
+
+00:15:56.350 --> 00:15:58.040
+Design has to work.
+
+00:15:58.040 --> 00:16:00.880
+So why is this the case? These are immutable rules.
+
+00:16:00.889 --> 00:16:05.620
+Things that are big and colorful and in the
+foreground are more notable than things that
+
+00:16:05.629 --> 00:16:08.749
+are small and in the background and in muted colors.
+
+00:16:08.749 --> 00:16:15.870
+Honestly, those rules were true back in 1853
+and they are true now and they will be true
+
+00:16:15.870 --> 00:16:18.260
+in another hundred years. These are immutable rules.
+
+00:16:18.260 --> 00:16:20.750
+I want to go back even more in history.
+
+00:16:20.750 --> 00:16:25.459
+We'll go back to the year 750 BC to Athens, Greece.
+
+00:16:25.459 --> 00:16:33.810
+Here is a grave memorial -- a small section
+of a bigger memorial -- and it shows the funeral.
+
+00:16:33.810 --> 00:16:43.120
+You can see the dead person lying there, you
+see all the relatives tearing out their hair.
+
+00:16:43.120 --> 00:16:48.340
+Oh no! It's so terrible! And you feel that.
+
+00:16:48.350 --> 00:16:53.690
+If you look closely you will see that just
+to the right of that dead person you will
+
+00:16:53.690 --> 00:16:55.720
+see a smaller person, probably their child.
+
+00:16:55.720 --> 00:16:57.679
+This is a person who lost one of their parents.
+
+00:16:57.679 --> 00:17:01.959
+This is a child who lost one of their parents.
+
+00:17:01.959 --> 00:17:04.429
+It's really a sad scene.
+
+00:17:04.429 --> 00:17:08.890
+Another thing to notice about that is that
+if you look at the artistic style it is a
+
+00:17:08.890 --> 00:17:10.330
+primitive drawing style.
+
+00:17:10.330 --> 00:17:15.180
+This is a type of art style that makes some
+people say that "Well, my seven-year-old nephew
+
+00:17:15.180 --> 00:17:17.200
+could have drawn something better."
+
+00:17:17.200 --> 00:17:23.700
+It turns out that most people's nephews are
+not actually Picasso, but people think so anyway.
+
+00:17:23.709 --> 00:17:26.580
+It is a very primitive, simplistic drawing style.
+
+00:17:26.580 --> 00:17:30.310
+Let's go forward a few hundred years, still
+staying in Athens, Greece.
+
+00:17:30.310 --> 00:17:31.760
+Here is another grave memorial.
+
+00:17:31.760 --> 00:17:36.160
+It is still old but it's not as old. It's from 400 BC.
+
+00:17:36.170 --> 00:17:38.900
+So we move from the Archaic Era to the Classic Era.
+
+00:17:38.900 --> 00:17:43.290
+This is exactly why it's called the Classic
+Era because this is classic art.
+
+00:17:43.290 --> 00:17:47.130
+This is the type of sculpture that has made
+for thousands of years people say that the
+
+00:17:47.130 --> 00:17:51.560
+Greeks were an artistic peak and knew how
+to make great statues.
+
+00:17:51.560 --> 00:17:56.170
+It's a beautifully done, artistically done
+marble piece.
+
+00:17:56.170 --> 00:17:59.250
+But what does it actually show?
+
+00:17:59.250 --> 00:18:04.680
+It's a grave memorial, but it shows the deceased
+person as a young woman sitting there looking
+
+00:18:04.680 --> 00:18:08.790
+in her jewelry chest that her maid is presenting.
+
+00:18:08.790 --> 00:18:12.950
+She is pondering what earrings to wear for
+the party tonight.
+
+00:18:12.950 --> 00:18:20.670
+That's not a sad scene of death: it's refuting
+the reality of what actually happened.
+
+00:18:20.670 --> 00:18:24.020
+We can analyze these two grave scenes at two
+different levels.
+
+00:18:24.020 --> 00:18:30.021
+We can look at the surface design; the artistic
+appearance of the picture and say that the
+
+00:18:30.021 --> 00:18:33.530
+previous one, the Archaic one was very primitive
+in its drawing style.
+
+00:18:33.530 --> 00:18:37.130
+This is a very sophisticated depiction of a scene.
+
+00:18:37.130 --> 00:18:45.400
+Or we can look at the deep design and say
+what is being shown in the old design is the
+
+00:18:45.400 --> 00:18:52.200
+reality of death and this is rejecting reality.
+
+00:18:52.200 --> 00:18:54.572
+There's surface design and there is deep design.
+
+00:18:54.572 --> 00:18:58.220
+This was true more than 2,000 years ago and
+it's true today as well.
+
+00:18:58.220 --> 00:19:01.200
+We have got to consider both.
+
+00:19:01.200 --> 00:19:07.951
+Another thing that is annoying to me about
+today's world is that I think in the user
+
+00:19:07.951 --> 00:19:13.590
+experience field we have what I call vocabulary
+inflation, which is people coming up with new
+
+00:19:13.590 --> 00:19:17.520
+words for the same thing constantly.
+
+00:19:17.520 --> 00:19:22.190
+It's super annoying, not just annoying but
+it's also detrimental to the field because
+
+00:19:22.190 --> 00:19:28.130
+it leads to a lot of miscommunication of people
+not understanding each other, people thinking
+
+00:19:28.130 --> 00:19:30.600
+that there are two different terms for two
+different things.
+
+00:19:30.600 --> 00:19:33.060
+No, it's the same thing with two different names.
+
+00:19:33.060 --> 00:19:41.710
+I'll show you some of the phrases used for
+the general field throughout my career.
+
+00:19:41.710 --> 00:19:45.340
+We've used all of these different things to
+refer to basically the same thing.
+
+00:19:45.340 --> 00:19:50.190
+There are little tweaks on them but this is
+basically the same thing.
+
+00:19:50.190 --> 00:19:53.600
+This is true for a lot of more detailed elements as well.
+
+00:19:53.600 --> 00:19:58.800
+What you often find is that there will be
+something that is 98% the same as the old
+
+00:19:58.800 --> 00:20:04.260
+thing and perhaps 2% different but it will
+get a completely new name.
+
+00:20:04.260 --> 00:20:09.990
+I would rather say that "This is that old,
+well-known thing that you already know about,
+
+00:20:09.990 --> 00:20:13.020
+but I would recommend that you change this
+2% of it a little bit.
+
+00:20:13.020 --> 00:20:14.990
+That would probably be better for your project."
+
+00:20:14.990 --> 00:20:16.160
+But no, that's not what people do.
+
+00:20:16.160 --> 00:20:21.170
+They come up with a completely new, fanciful
+term for what is basically the same thing
+
+00:20:21.170 --> 00:20:22.170
+over and over again.
+
+00:20:22.170 --> 00:20:25.410
+They keep re-inventing terms for the same thing.
+
+00:20:25.410 --> 00:20:28.150
+I think that there are many different reasons for that.
+
+00:20:28.150 --> 00:20:33.680
+One of them is that some people are ignorant
+of the field and the history of the field
+
+00:20:33.680 --> 00:20:37.861
+and they genuinely think that they have come
+up with something new even though they are
+
+00:20:37.861 --> 00:20:41.990
+coming up with a small tweak on something
+that is well-known that has been done for thirty years already.
+
+00:20:41.990 --> 00:20:46.040
+That's one reason for the new words, that
+people don't know that they exist already.
+
+00:20:46.040 --> 00:20:47.040
+That's ignorance.
+
+00:20:47.040 --> 00:20:54.430
+Another reason is that the user experience
+field is still a somewhat oppressed field.
+
+00:20:54.430 --> 00:20:55.830
+Not as much as it used to be.
+
+00:20:55.830 --> 00:20:58.560
+We have come a long way.
+
+00:20:58.560 --> 00:21:06.920
+But still, in most companies, it is not the
+most prestigious or the most well-funded discipline.
+
+00:21:06.920 --> 00:21:13.560
+So some people have the feeling that if they
+just use a more fanciful vocabulary, if you
+
+00:21:13.560 --> 00:21:22.780
+don't use the old, well-known words, but instead this new, fancy thing then that must be more important.
+
+00:21:22.780 --> 00:21:29.410
+The solution to a lack of respect is to come
+up with a new fanciful vocabulary — but no.
+
+00:21:29.410 --> 00:21:32.330
+Using fancy words will not get you respect.
+
+00:21:32.330 --> 00:21:35.060
+Producing results will get you respect.
+
+00:21:35.060 --> 00:21:40.150
+That's what we should focus on rather than
+always changing the names for the same things.
+
+00:21:40.150 --> 00:21:45.460
+A last reason for this vocabulary inflation
+is that some people deliberately do it.
+
+00:21:45.460 --> 00:21:51.990
+They deliberately set out to make their own
+name for something that is actually quite
+
+00:21:51.990 --> 00:21:52.990
+common.
+
+00:21:52.990 --> 00:21:56.110
+But they make a little tweak on it and now
+it's a proprietary process.
+
+00:21:56.110 --> 00:22:04.020
+And if you only use Brand X name for something,
+now your product will be successful even though
+
+00:22:04.020 --> 00:22:06.920
+it is the same as always.
+
+00:22:06.920 --> 00:22:11.930
+I would much rather than companies would promote
+themselves by saying that "We are more insightful,
+
+00:22:11.930 --> 00:22:18.940
+or deeper, or better at doing the things that
+we have known for 30, 40 years."
+
+00:22:18.950 --> 00:22:21.500
+But that is often not the way that it is done.
+
+00:22:21.500 --> 00:22:25.430
+People like to have vocabulary inflation and
+to invent their own terms, their own proprietary
+
+00:22:25.430 --> 00:22:30.690
+terms, leading to ever more confusion in our
+sorry little field.
+
+00:22:30.690 --> 00:22:32.000
+That, I think, is sad.
+
+00:22:32.000 --> 00:22:38.870
+Let's get rid of this vocabulary inflation
+and keep a simple vocabulary instead.
+
+00:22:38.870 --> 00:22:40.680
+That would be much nicer.
+
+00:22:40.680 --> 00:22:48.140
+We also have a lot of immutables in the web
+-- not just in the process but in the web itself.
+
+00:22:48.140 --> 00:22:51.200
+One of the big characteristics of the web
+is that it's just big.
+
+00:22:51.200 --> 00:22:55.880
+The web is for all practical purposes infinitely
+big in terms of the amount of information.
+
+00:22:55.880 --> 00:23:01.930
+There is about fifty billion pages on the
+web, which means that if you were going to
+
+00:23:01.930 --> 00:23:09.800
+assign to yourself as your full-time job to
+read the web that would take more than half a million years.
+
+00:23:09.800 --> 00:23:12.860
+Which is clearly not happening.
+
+00:23:12.860 --> 00:23:13.860
+People know that.
+
+00:23:13.860 --> 00:23:15.330
+Users know that.
+
+00:23:15.330 --> 00:23:20.430
+That's one of the reasons that they have developed
+this very ruthless approach to screening information
+
+00:23:20.430 --> 00:23:25.110
+online: scanning rather than reading in-depth,
+jumping between pages and this is also why
+
+00:23:25.110 --> 00:23:26.110
+they use search so much.
+
+00:23:26.110 --> 00:23:32.010
+It dives straight to where they want to go,
+not where the company would like them to see.
+
+00:23:32.010 --> 00:23:36.880
+Not only is there so much stuff, but most
+of it is bad.
+
+00:23:36.880 --> 00:23:42.600
+Most information is wrong or boring or it
+is going to take you forever to dig out a
+
+00:23:42.600 --> 00:23:45.770
+small nugget of good stuff in there.
+
+00:23:45.770 --> 00:23:46.890
+Users know this also.
+
+00:23:46.890 --> 00:23:54.180
+This is one of the reasons why they're so
+quick to leave a website at the smallest provocation.
+
+00:23:54.180 --> 00:24:00.750
+That's why it's so important to pay attention
+to credibility, trust and persuasion guidelines.
+
+00:24:00.750 --> 00:24:06.260
+By the way, that's why we have a full day of that at
+this conference.
+
+00:24:06.260 --> 00:24:11.860
+People are inherently skeptical of things
+that they see on the web, they are not inherently very trusting.
+
+00:24:11.870 --> 00:24:16.020
+Because there is so much, it's easy to get
+lost, which is why we have so many guidelines
+
+00:24:16.020 --> 00:24:20.230
+on helping people find their way and establish
+their context.
+
+00:24:20.230 --> 00:24:24.470
+This is also why we have to reduce demands
+on their short-term memory, which is also
+
+00:24:24.470 --> 00:24:27.180
+one of these immutable facts.
+
+00:24:27.180 --> 00:24:32.550
+People have a very limited amount of brain
+capacity and it's not getting any bigger.
+
+00:24:32.550 --> 00:24:35.800
+People ten years from now will have about
+the same short-term memory as today and we
+
+00:24:35.800 --> 00:24:42.480
+will have to retain all of the many design
+guidelines that follow from these principles.
+
+00:24:42.480 --> 00:24:47.231
+There has been a nice study done by Microsoft
+Research where they analyzed two billion page
+
+00:24:47.231 --> 00:24:52.580
+views and looked at how long time people
+stayed on the page and therefore what is the
+
+00:24:52.580 --> 00:24:58.550
+probability of someone leaving a webpage after
+a certain duration of a visit.
+
+00:24:58.550 --> 00:25:02.140
+What you can see is that the probability
+of leaving is extremely high in the first
+
+00:25:02.140 --> 00:25:08.190
+few seconds. If you are one of the few webpages
+where people actually stay for two minutes,
+
+00:25:08.190 --> 00:25:15.100
+two minutes is like eternity on the web, but if people stay on your webpage for
+
+00:25:15.100 --> 00:25:20.550
+two minutes then the probability of them leaving
+right then is fairly low.
+
+00:25:20.550 --> 00:25:24.250
+The first twenty seconds or so are key.
+
+00:25:24.250 --> 00:25:25.900
+This is where the curve bends.
+
+00:25:25.900 --> 00:25:32.860
+In the first twenty seconds, you have to capture
+people there, convince them that this is a
+
+00:25:32.860 --> 00:25:37.600
+credible, useful site to them or they are
+going to be out of there.
+
+00:25:37.600 --> 00:25:41.640
+People cannot read a very large number of
+word count in twenty seconds so you have really
+
+00:25:41.640 --> 00:25:43.880
+got to be concise in your communication.
+
+00:25:43.880 --> 00:25:53.580
+We have two gaps in User Experience relative
+to delivering what we should do.
+
+00:25:53.580 --> 00:25:57.790
+Sites and designs in general often fail on that.
+
+00:25:57.790 --> 00:25:59.160
+What we want is usefulness.
+
+00:25:59.160 --> 00:26:02.300
+That is to say, we want to actually do something
+for our users.
+
+00:26:02.300 --> 00:26:11.410
+For a design to be useful it has to have two
+quality parameters: utility and usability.
+
+00:26:11.410 --> 00:26:15.640
+Utility is a question of "Do you do something
+that people need and want?"
+
+00:26:15.640 --> 00:26:17.520
+Usability is a question of "Can they use it?"
+
+00:26:17.520 --> 00:26:24.210
+The point is we need both.
+
+00:26:24.210 --> 00:26:28.870
+Bad utility means that you have something
+that people people don't need.
+
+00:26:28.870 --> 00:26:34.730
+You could have the most wonderful user interface
+design, but if the interface is designed to
+
+00:26:34.730 --> 00:26:37.810
+the wrong features, people are not going to use it.
+
+00:26:37.810 --> 00:26:38.940
+Why should they bother?
+
+00:26:38.940 --> 00:26:43.320
+Even if it's a great design, if it does the
+wrong thing it's for nothing.
+
+00:26:43.320 --> 00:26:48.910
+But at the same time, if you have great utility
+you have all the right feature but people
+
+00:26:48.910 --> 00:26:53.400
+can't figure out how to use them, it's also
+all for nothing.
+
+00:26:53.400 --> 00:26:59.580
+That feature that people can't figure out
+how to use might as well not exist because
+
+00:26:59.580 --> 00:27:02.780
+you're not going to use it if you can't figure
+out how to use it.
+
+00:27:02.780 --> 00:27:06.100
+That means that we need to satisfy both of
+these two.
+
+00:27:06.100 --> 00:27:13.750
+This is why in design projects we often have
+these two different gaps to overcome to deliver
+
+00:27:13.750 --> 00:27:17.150
+that goal of usefulness.
+
+00:27:17.150 --> 00:27:20.830
+The gap can be a utility gap or it can be
+a usability gap.
+
+00:27:20.830 --> 00:27:24.860
+To illustrate that, I'm going to show you an example from a research project that we recently did.
+
+00:27:24.870 --> 00:27:27.160
+The details are published on
+our website.
+
+00:27:27.160 --> 00:27:33.120
+We studied intelligent assistants: some of
+the current AI assistants and voice assistants.
+
+00:27:33.120 --> 00:27:40.140
+These are things like Amazon's Alexa or Apple's
+Siri where you can ask the assistant to do
+
+00:27:40.140 --> 00:27:43.850
+something and maybe it will give you a good answer.
+
+00:27:43.850 --> 00:27:50.660
+What we did is a study where the users were
+all users of those types of systems and they
+
+00:27:50.660 --> 00:27:55.190
+were asked to record every time that they
+had a need that they would like to get help
+
+00:27:55.190 --> 00:27:57.390
+on from their assistant.
+
+00:27:57.390 --> 00:27:59.610
+There was a long list of different user needs.
+
+00:27:59.610 --> 00:28:07.610
+We discovered that only in 7% of those cases did people actually get their problem solved by that assistant.
+
+00:28:07.610 --> 00:28:11.260
+This is terribly low!
+
+00:28:11.260 --> 00:28:12.700
+We had two other categories.
+
+00:28:12.700 --> 00:28:20.570
+In about a third of the cases, 34% of the
+cases, is that gold area where AI can do it,
+
+00:28:20.570 --> 00:28:23.360
+however people did not choose to use it.
+
+00:28:23.360 --> 00:28:28.020
+Then we have a big category, which is 59%
+where the current artificial intelligence
+
+00:28:28.020 --> 00:28:32.000
+is not up to the task and can't do 
+what people want it to do.
+
+00:28:32.000 --> 00:28:34.510
+This is where I talk about those gaps.
+
+00:28:34.510 --> 00:28:43.060
+The utility gap, which is that top box, is where the tasks can't be done at all -- the utility is just not there.
+
+00:28:43.060 --> 00:28:50.380
+The middle area, the usability gap, the computer
+could do it but users do not do it because
+
+00:28:50.380 --> 00:28:54.631
+it is too difficult to do, too cumbersome
+to use, or some other usability problem explains
+
+00:28:54.631 --> 00:28:55.980
+why people don't do it.
+
+00:28:55.980 --> 00:29:01.030
+If you look at these two, you might think that it looks like the utility gap is the most serious.
+
+00:29:01.030 --> 00:29:05.240
+It's the biggest for sure and so that is where
+we should focus our investments on building
+
+00:29:05.240 --> 00:29:06.800
+better artificial intelligence.
+
+00:29:06.800 --> 00:29:09.750
+But let's look at this a little more carefully.
+
+00:29:09.750 --> 00:29:15.300
+Let's look right now at things that are possible
+to do with today's technology.
+
+00:29:15.300 --> 00:29:18.190
+That's what was the two bottom boxes on the previous bar chart.
+
+00:29:18.190 --> 00:29:22.860
+I used the same color coding so green is the
+tasks that people actually did and that was
+
+00:29:22.860 --> 00:29:24.740
+7% as the percent of all tasks.
+
+00:29:24.740 --> 00:29:31.430
+Let's look at only what's possible with today's
+artificial intelligence technology: it's 17% of those tasks.
+
+00:29:31.430 --> 00:29:40.720
+And what's possible but not done is 34% of
+all tasks but 83% of the possible tasks, things
+
+00:29:40.720 --> 00:29:44.920
+that could already hypothetically be done. That's huge.
+
+00:29:44.920 --> 00:29:49.640
+The usability gap is actually a huge percentage
+of what's possible.
+
+00:29:49.640 --> 00:29:54.700
+Now I want to do an exercise where we'll do
+a hypothetical projection into the future.
+
+00:29:54.700 --> 00:29:59.960
+This is the data from the current state of
+the art based on the study that we just did this year.
+
+00:29:59.970 --> 00:30:02.760
+Let's assume we had perfect artificial intelligence.
+
+00:30:02.760 --> 00:30:10.060
+We have done so much work in AI that now the
+computer can do every possible thing that users want.
+
+00:30:10.060 --> 00:30:13.150
+This of course will take some time, but let's
+assume that that is done.
+
+00:30:13.150 --> 00:30:19.130
+Let's make one more assumption which is that
+the usability of the new features is the same
+
+00:30:19.130 --> 00:30:21.630
+as the usability of the old features.
+
+00:30:21.630 --> 00:30:25.110
+I'll admit that this is just an assumption
+because we are just doing a scenario for the
+
+00:30:25.110 --> 00:30:29.530
+future, but I think that this is a realistic
+assumption that usability of the new features
+
+00:30:29.530 --> 00:30:32.110
+is the same as usability of the old features.
+
+00:30:32.110 --> 00:30:35.220
+This means that the chart will now look like this.
+
+00:30:35.220 --> 00:30:43.130
+New features that become possible are now
+colored either green or gold in the same proportion
+
+00:30:43.130 --> 00:30:45.110
+as the old features.
+
+00:30:45.110 --> 00:30:54.940
+Now we can re-organize the groups together
+and we will see that the area that represents tasks actually done has
+
+00:30:54.940 --> 00:30:57.460
+now grown to 17%.
+
+00:30:57.460 --> 00:31:02.260
+This means that we have had an increase in
+tasks done by 10 percentage points.
+
+00:31:02.260 --> 00:31:05.270
+We go from 7 to 17.
+
+00:31:05.270 --> 00:31:06.730
+This is actually great!
+
+00:31:06.730 --> 00:31:10.120
+We more than double so this is worth doing.
+
+00:31:10.120 --> 00:31:18.900
+But at the same time we see 83% not done because
+of that usability gap if we assume that new
+
+00:31:18.900 --> 00:31:22.470
+features have the same bad usability as today's systems.
+
+00:31:22.470 --> 00:31:31.950
+That's what leads me to say that the usability
+gap is enormously serious for getting these
+
+00:31:31.950 --> 00:31:34.990
+types of products really used more in the future.
+
+00:31:34.990 --> 00:31:44.630
+We have to make artificial intelligence more
+suited for human behavior so that people will
+
+00:31:44.630 --> 00:31:49.300
+both be able to do the tasks and want to do
+the tasks with their assistant.
+
+00:31:49.300 --> 00:31:50.930
+That is crucial!
+
+00:31:50.930 --> 00:31:53.240
+Crucial to make that happen.
+
+00:31:53.240 --> 00:31:58.610
+I want to show you a longitudinal data chart, which is very rare that people do this,
+
+00:31:58.610 --> 00:32:06.460
+but for many years we collected user satisfaction
+data where every time we studied a website
+
+00:32:06.460 --> 00:32:12.610
+we would ask the test users to rate on a 1
+to 7 scale their satisfaction.
+
+00:32:12.610 --> 00:32:19.350
+It was subjective satisfaction, with 7 being
+very satisfied and 1 being very dissatisfied.
+
+00:32:19.350 --> 00:32:27.740
+On this chart here each dot represents one
+test of one website and they are sorted by years
+
+00:32:27.740 --> 00:32:32.440
+from the very old studies to the more recent studies. What does this data show?
+
+00:32:32.440 --> 00:32:35.080
+It shows that there is no trend.
+
+00:32:35.080 --> 00:32:39.590
+I can't do any data analysis that shows that
+by X percent per year there's a change...
+
+00:32:39.590 --> 00:32:41.570
+There's no change.
+
+00:32:41.570 --> 00:32:44.620
+There's no change in user satisfaction year over year.
+
+00:32:44.620 --> 00:32:53.740
+Let me first ask you: is it the case that
+websites today are just as bad as websites
+
+00:32:53.740 --> 00:32:55.490
+were during the dot-com bubble?
+
+00:32:55.490 --> 00:32:57.580
+No, this is not right.
+
+00:32:57.580 --> 00:32:58.580
+This is not the case.
+
+00:32:58.580 --> 00:33:02.950
+Websites today definitely are much better
+than they used to be.
+
+00:33:02.950 --> 00:33:08.930
+I worked on these things back then and they were terrible!
+
+00:33:08.930 --> 00:33:14.220
+Today's websites still have their problems
+but they were really terrible, really bad.
+
+00:33:14.220 --> 00:33:18.010
+There was only one good thing about websites
+back during the dot-com bubble and that's
+
+00:33:18.010 --> 00:33:21.110
+that it was very easy to be a usability consultant.
+
+00:33:21.110 --> 00:33:30.160
+They were so bad that being a usability consultant
+in those days was like shooting fish in a barrel.
+
+00:33:30.160 --> 00:33:33.275
+You just had to look at them for a very short amount
+of time and then you would be able to say
+
+00:33:33.275 --> 00:33:37.190
+"Oh, you can double your business by stopping
+these five stupidities that you are doing
+
+00:33:37.190 --> 00:33:39.400
+that are preventing people from using your website!"
+
+00:33:39.400 --> 00:33:43.100
+Sites are definitely better today.
+
+00:33:43.100 --> 00:33:49.170
+So why is satisfaction not up when quality
+is honestly up a lot?
+
+00:33:49.170 --> 00:33:55.210
+That's because subjective satisfaction is
+not a matter of the quality of the delivered
+
+00:33:55.210 --> 00:33:57.700
+product or experience.
+
+00:33:57.700 --> 00:34:04.120
+Satisfaction is a matter of the relationship
+between what you get relative to what you expect.
+
+00:34:04.120 --> 00:34:11.230
+It's very expectation-driven and what happens
+is that users' expectation for the quality
+
+00:34:11.230 --> 00:34:18.549
+of your website is based on their collective experience
+of all the other websites they use.
+
+00:34:18.549 --> 00:34:20.859
+That's what forms people's expectations.
+
+00:34:20.859 --> 00:34:25.759
+What happens is websites are getting much
+better and that means that people's experiences
+
+00:34:25.759 --> 00:34:28.700
+using these other websites are much better.
+
+00:34:28.700 --> 00:34:32.990
+That means that their expectations of 
+your website are now much higher which means
+
+00:34:32.990 --> 00:34:37.389
+that their satisfaction is not going to get
+any better even if you improve the site.
+
+00:34:37.389 --> 00:34:42.339
+In fact, if you are one of those companies
+that does collect customer satisfaction data
+
+00:34:42.339 --> 00:34:46.700
+year after year and your satisfaction score
+this year is the same as your satisfaction
+
+00:34:46.700 --> 00:34:51.409
+score last year, this proves that you did a good job.
+
+00:34:51.409 --> 00:34:55.839
+Stagnant customer satisfaction data means
+that you have done a good job in improving
+
+00:34:55.839 --> 00:34:59.640
+the quality of your design to keep up with
+user expectations.
+
+00:34:59.640 --> 00:35:04.950
+Now, if you have a higher customer satisfaction
+score then that doesn't indicate a good job
+
+00:35:04.950 --> 00:35:07.279
+but a great, exceptional job.
+
+00:35:07.279 --> 00:35:11.799
+You've improved enormously, not just improved
+like other people.
+
+00:35:11.799 --> 00:35:17.640
+But this is one of those immutable rules of
+user experience: user satisfaction is not
+
+00:35:17.640 --> 00:35:25.529
+really going to go up because demands or expectations
+are going to increase comparatively with what
+
+00:35:25.529 --> 00:35:27.920
+the entire rest of the world is doing.
+
+00:35:27.920 --> 00:35:34.269
+That means that we constantly have that job
+of continuous improvement, continuous quality
+
+00:35:34.269 --> 00:35:38.250
+improvement is one of those immutable rules
+of user experience.
+
+00:35:38.250 --> 00:35:43.249
+We have to keep getting better because the
+customers are demanding that we get better
+
+00:35:43.249 --> 00:35:47.339
+or they will just abandon doing business with
+our website.
+
+00:35:47.339 --> 00:35:48.339
+That's another immutable rule.
+
+00:35:48.339 --> 00:35:50.720
+A lot of these things just keep being very,
+very constant.
+
+00:35:50.720 --> 00:35:59.180
+I want to close with what I think is the biggest
+constant of them all which is that UX is people.
+
+00:35:59.180 --> 00:36:05.390
+It's not technology, it's not really about
+computers, it's about people.
+
+00:36:05.390 --> 00:36:08.090
+It's about people in two ways.
+
+00:36:08.090 --> 00:36:11.680
+It's about people in terms of the users.
+
+00:36:11.680 --> 00:36:15.480
+It's about the people who are actually using
+our design and we have to design for them,
+
+00:36:15.480 --> 00:36:18.830
+for their characteristics, which often are
+not changing very much.
+
+00:36:18.830 --> 00:36:20.660
+That's one way in which UX is people.
+
+00:36:20.660 --> 00:36:24.910
+There's another way which is not talked about
+quite as much which is that it's people in
+
+00:36:24.910 --> 00:36:27.200
+the sense of the design team of us.
+
+00:36:27.200 --> 00:36:31.330
+It's the people who are working on these projects.
+
+00:36:31.330 --> 00:36:37.849
+That's why these process issues are both very important
+but also tend to be about the same because
+
+00:36:37.849 --> 00:36:43.840
+all of these criteria for how you go about
+designing a good user experience.
+
+00:36:43.840 --> 00:36:49.500
+They tend to be about the same because UX
+design is incredibly complicated.
+
+00:36:49.500 --> 00:36:52.920
+There are so many different details that combine
+in so many different ways.
+
+00:36:52.920 --> 00:36:57.270
+You've got to get them all right and this
+is not something that you can do by just sitting
+
+00:36:57.270 --> 00:36:59.059
+there waiting for inspiration to strike.
+
+00:36:59.059 --> 00:37:01.040
+And then it springs out of your brain!
+
+00:37:01.040 --> 00:37:07.650
+And then here is a wonderful website or artificially
+intelligent agent or whatever...
+
+00:37:07.650 --> 00:37:10.640
+The first idea is never going to be the best design.
+
+00:37:10.640 --> 00:37:20.099
+This is why we have to think about the human
+characteristics of us, of our inability to
+
+00:37:20.099 --> 00:37:22.549
+be perfect, our humanity as well.
+
+00:37:22.549 --> 00:37:24.410
+So that's how UX is about people.
+
+00:37:24.410 --> 00:37:29.440
+We have that duality in many, many ways, and
+I've hinted at some of them throughout this talk.
+
+00:37:29.450 --> 00:37:33.440
+We have to talk about utility and usability.
+
+00:37:33.450 --> 00:37:40.250
+We have to consider the surface design -- is
+it beautiful? -- and the deep design, the
+
+00:37:40.250 --> 00:37:42.789
+more true experience.
+
+00:37:42.789 --> 00:37:47.769
+All of these things have to be done, 
+the architecture and the user interface, tiny
+
+00:37:47.769 --> 00:37:50.599
+details about the buttons and so forth; all
+of these things.
+
+00:37:50.599 --> 00:37:57.680
+There's a lot of duality to user experience
+products, which is why we have to have good,
+
+00:37:57.680 --> 00:38:01.960
+solid processes in place to make sure that
+we cover that gamut and that we do good work
+
+00:38:01.960 --> 00:38:04.090
+on multiple levels at the same time.
+
+00:38:04.090 --> 00:38:08.529
+That's why it's a complicated thing to do.
+
+00:38:08.529 --> 00:38:13.109
+The only good news about it is that it's such a complicated thing to get right so that we certainly will
+
+00:38:13.109 --> 00:38:16.910
+have job security forever.
+
+00:38:16.910 --> 00:38:21.680
+I don't think that I'll ever give a speech
+that says "User experience problems are solved
+
+00:38:21.680 --> 00:38:23.840
+and we can all go home!"
+
+00:38:23.840 --> 00:38:26.900
+But it's a long-term project.
+
+00:38:26.900 --> 00:38:29.730
+We've come a long way but there is an even
+further long way to go.
+
+00:38:29.730 --> 00:38:34.630
+But if you just remember one thing, take away
+one thing back and hammer it in to your teammates
+
+00:38:34.630 --> 00:38:37.950
+and the rest of your company it's this one message.
+
+00:38:37.950 --> 00:38:39.290
+UX is people.
+
+00:38:39.290 --> 00:38:40.480
+Thank you very much!
+

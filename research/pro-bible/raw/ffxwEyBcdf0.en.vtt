@@ -1,0 +1,4714 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.120 --> 00:00:05.839
+My name's Oliver Emberton I'm the
+
+00:00:03.120 --> 00:00:07.839
+Managing Director of Silktide and today
+
+00:00:05.839 --> 00:00:09.920
+I'm going to be giving you a
+
+00:00:07.839 --> 00:00:11.920
+roughly 50 minute talk on making
+
+00:00:09.920 --> 00:00:13.200
+accessible web forms hopefully we'll
+
+00:00:11.920 --> 00:00:14.480
+have a little time at the end for
+
+00:00:13.200 --> 00:00:16.880
+questions maybe we skip that off but
+
+00:00:14.480 --> 00:00:19.680
+we'll see how we do
+
+00:00:16.880 --> 00:00:21.920
+so what are we going to cover today I'm
+
+00:00:19.680 --> 00:00:23.680
+going to break it out into three key
+
+00:00:21.920 --> 00:00:25.359
+areas for forms
+
+00:00:23.680 --> 00:00:27.199
+the first section is going to be the
+
+00:00:25.359 --> 00:00:28.240
+appearance of forms
+
+00:00:27.199 --> 00:00:30.480
+the
+
+00:00:28.240 --> 00:00:31.599
+design aspect if you will semantics
+
+00:00:30.480 --> 00:00:33.360
+which is going to be looking a little
+
+00:00:31.599 --> 00:00:34.480
+bit into the code we're going to spend
+
+00:00:33.360 --> 00:00:35.840
+quite a bit of time there we're going to
+
+00:00:34.480 --> 00:00:37.840
+go through some of the technical details
+
+00:00:35.840 --> 00:00:39.360
+of accessible forms and then finally
+
+00:00:37.840 --> 00:00:42.320
+we're going to look at the flow so the
+
+00:00:39.360 --> 00:00:44.160
+flow is going to be the way that forms
+
+00:00:42.320 --> 00:00:45.520
+actually operate kind of from start to
+
+00:00:44.160 --> 00:00:48.320
+finish
+
+00:00:45.520 --> 00:00:49.360
+so let's get started with appearance
+
+00:00:48.320 --> 00:00:52.320
+so the first thing we're going to look
+
+00:00:49.360 --> 00:00:56.239
+at is boundaries so this is a new
+
+00:00:52.320 --> 00:00:57.440
+concept in wcag 2.1 that refers to the
+
+00:00:56.239 --> 00:00:59.600
+contrast
+
+00:00:57.440 --> 00:01:02.000
+of form elements and specifically kind
+
+00:00:59.600 --> 00:01:04.080
+of the whether or not you can
+
+00:01:02.000 --> 00:01:05.920
+understand the boundary of a form
+
+00:01:04.080 --> 00:01:08.479
+element and kind of identify where that
+
+00:01:05.920 --> 00:01:09.920
+form element is and what what it is
+
+00:01:08.479 --> 00:01:13.040
+so what we see here on the left-hand
+
+00:01:09.920 --> 00:01:15.360
+side is a standard form field
+
+00:01:13.040 --> 00:01:18.159
+for a name and this has relatively high
+
+00:01:15.360 --> 00:01:19.840
+contrast this has a fairly thick black
+
+00:01:18.159 --> 00:01:21.600
+border and on the right hand side we
+
+00:01:19.840 --> 00:01:24.960
+have the same control but with a
+
+00:01:21.600 --> 00:01:28.640
+slightly trendier softer edge sort of
+
+00:01:24.960 --> 00:01:30.640
+shadow effect quite common nowadays
+
+00:01:28.640 --> 00:01:33.920
+now under this requirement the the
+
+00:01:30.640 --> 00:01:36.560
+second control would not be classed as
+
+00:01:33.920 --> 00:01:38.640
+accessible because although you and i
+
+00:01:36.560 --> 00:01:42.479
+may be able to perceive the edge of that
+
+00:01:38.640 --> 00:01:43.840
+field not everyone can as we'll see
+
+00:01:42.479 --> 00:01:45.439
+now one
+
+00:01:43.840 --> 00:01:47.200
+key aspect of this
+
+00:01:45.439 --> 00:01:48.880
+requirement is it's not all about adding
+
+00:01:47.200 --> 00:01:51.040
+thick black borders to everything it's
+
+00:01:48.880 --> 00:01:52.079
+just about making sure elements are
+
+00:01:51.040 --> 00:01:54.320
+clear
+
+00:01:52.079 --> 00:01:56.799
+so for example you might add a
+
+00:01:54.320 --> 00:01:58.799
+background color around a field and that
+
+00:01:56.799 --> 00:02:01.040
+would achieve the same requirement that
+
+00:01:58.799 --> 00:02:02.560
+would make it apparent that there is a
+
+00:02:01.040 --> 00:02:05.840
+field there
+
+00:02:02.560 --> 00:02:07.680
+and that you can use it unfortunately in
+
+00:02:05.840 --> 00:02:10.239
+this case i've actually tricked you
+
+00:02:07.680 --> 00:02:11.840
+because that color green isn't quite
+
+00:02:10.239 --> 00:02:12.959
+contrasting enough it looks like it is
+
+00:02:11.840 --> 00:02:15.760
+but it isn't
+
+00:02:12.959 --> 00:02:18.480
+under wcag that color is actually not
+
+00:02:15.760 --> 00:02:20.239
+sufficiently differentiated from
+
+00:02:18.480 --> 00:02:22.400
+white which it's adjacent to so you
+
+00:02:20.239 --> 00:02:23.200
+would actually fail wk even though that
+
+00:02:22.400 --> 00:02:24.800
+looks
+
+00:02:23.200 --> 00:02:26.959
+i think to most people that might look
+
+00:02:24.800 --> 00:02:28.640
+like oh yes that's really really clear
+
+00:02:26.959 --> 00:02:29.840
+it wouldn't be and this is one of the
+
+00:02:28.640 --> 00:02:31.360
+reasons why you actually need to get
+
+00:02:29.840 --> 00:02:33.120
+into the detail and sometimes check
+
+00:02:31.360 --> 00:02:34.640
+these things
+
+00:02:33.120 --> 00:02:36.480
+so let's let's go for a few more
+
+00:02:34.640 --> 00:02:38.160
+fields so quickly i've got a drop menu
+
+00:02:36.480 --> 00:02:40.480
+i've got a check box i've got some kind
+
+00:02:38.160 --> 00:02:42.800
+of five star rating widget and i've got
+
+00:02:40.480 --> 00:02:45.280
+a toggle button at the bottom and all
+
+00:02:42.800 --> 00:02:47.760
+four of those would actually fail under
+
+00:02:45.280 --> 00:02:49.840
+this requirement purely down to their
+
+00:02:47.760 --> 00:02:51.760
+contrast the green you saw on the
+
+00:02:49.840 --> 00:02:53.360
+previous screen is not
+
+00:02:51.760 --> 00:02:55.200
+contrasting sufficiently with the
+
+00:02:53.360 --> 00:02:56.720
+white or the the kind of eggshell gray
+
+00:02:55.200 --> 00:02:58.720
+around it
+
+00:02:56.720 --> 00:03:00.879
+and if you were to compare this with say
+
+00:02:58.720 --> 00:03:02.720
+a more accessible variant
+
+00:03:00.879 --> 00:03:04.480
+here i've used a stronger more
+
+00:03:02.720 --> 00:03:07.120
+differentiated color
+
+00:03:04.480 --> 00:03:09.360
+i've used a sharper border and the
+
+00:03:07.120 --> 00:03:12.080
+kind of the caray if you will on the the
+
+00:03:09.360 --> 00:03:13.760
+drop down menu is clearer
+
+00:03:12.080 --> 00:03:16.080
+and in particular things like the
+
+00:03:13.760 --> 00:03:17.920
+text on I know this this distinction may
+
+00:03:16.080 --> 00:03:21.040
+seem subtle like those two may look the
+
+00:03:17.920 --> 00:03:22.959
+same to like a casual observer the
+
+00:03:21.040 --> 00:03:24.159
+one on the right is substantially more
+
+00:03:22.959 --> 00:03:25.519
+legible
+
+00:03:24.159 --> 00:03:28.000
+and I can show you this if I was to
+
+00:03:25.519 --> 00:03:30.560
+simulate some form of visual disability
+
+00:03:28.000 --> 00:03:32.080
+so here what you're doing is we're
+
+00:03:30.560 --> 00:03:34.799
+essentially just lowering the visual
+
+00:03:32.080 --> 00:03:36.879
+contrast and blurring but
+
+00:03:34.799 --> 00:03:39.519
+a lot of information is is completely
+
+00:03:36.879 --> 00:03:41.120
+lost when this happens and many people
+
+00:03:39.519 --> 00:03:42.560
+have vision that
+
+00:03:41.120 --> 00:03:43.760
+from a functional perspective it may not
+
+00:03:42.560 --> 00:03:45.120
+look like this but from a functional
+
+00:03:43.760 --> 00:03:47.280
+perspective is equivalent to what you're
+
+00:03:45.120 --> 00:03:48.720
+seeing here so
+
+00:03:47.280 --> 00:03:50.319
+things like those toggle buttons being
+
+00:03:48.720 --> 00:03:53.599
+completely lost you just have no idea
+
+00:03:50.319 --> 00:03:57.680
+what's going on the final star on the
+
+00:03:53.599 --> 00:04:00.000
+star rating is basically invisible
+
+00:03:57.680 --> 00:04:01.280
+and even that checkbox surprisingly may
+
+00:04:00.000 --> 00:04:03.680
+may be
+
+00:04:01.280 --> 00:04:05.920
+difficult or impossible to discern
+
+00:04:03.680 --> 00:04:08.159
+there's actually a subtle
+
+00:04:05.920 --> 00:04:10.400
+additional like double check here
+
+00:04:08.159 --> 00:04:12.080
+which is was not apparent if I go back
+
+00:04:10.400 --> 00:04:13.920
+the the stars
+
+00:04:12.080 --> 00:04:16.799
+that you're seeing on the left actually
+
+00:04:13.920 --> 00:04:18.400
+have to contrast twice so for most of
+
+00:04:16.799 --> 00:04:19.759
+these things you're just worried about
+
+00:04:18.400 --> 00:04:21.120
+you know like the checkbox does it
+
+00:04:19.759 --> 00:04:24.000
+contrast with the surroundings but with
+
+00:04:21.120 --> 00:04:26.800
+the stars the star needs to contrast
+
+00:04:24.000 --> 00:04:29.600
+with the background if it's filled
+
+00:04:26.800 --> 00:04:32.160
+but the unfilled star also needs to
+
+00:04:29.600 --> 00:04:34.080
+contrast with the background and
+
+00:04:32.160 --> 00:04:35.680
+with the filled star
+
+00:04:34.080 --> 00:04:38.000
+so that's why you've got this kind of
+
+00:04:35.680 --> 00:04:40.800
+thick border here it's not enough just
+
+00:04:38.000 --> 00:04:42.720
+to make sure that this star is different
+
+00:04:40.800 --> 00:04:44.400
+is you know sharp against the background
+
+00:04:42.720 --> 00:04:46.639
+it also needs to be different against
+
+00:04:44.400 --> 00:04:47.759
+the star next to it this is surprisingly
+
+00:04:46.639 --> 00:04:50.160
+tricky it's one of the reasons why these
+
+00:04:47.759 --> 00:04:51.600
+kind of controls are hard to pull off
+
+00:04:50.160 --> 00:04:53.600
+um
+
+00:04:51.600 --> 00:04:55.840
+so why do we care about all of this
+
+00:04:53.600 --> 00:04:57.759
+well insufficient contrast prevents
+
+00:04:55.840 --> 00:04:59.520
+people with low vision from using forms
+
+00:04:57.759 --> 00:05:02.000
+completely right so if you have a visual
+
+00:04:59.520 --> 00:05:03.840
+impairment a large
+
+00:05:02.000 --> 00:05:05.759
+number of visual impairments will affect
+
+00:05:03.840 --> 00:05:06.880
+you in a way that
+
+00:05:05.759 --> 00:05:08.639
+makes forms like this completely
+
+00:05:06.880 --> 00:05:10.800
+unusable
+
+00:05:08.639 --> 00:05:13.360
+and you can literally just discern it
+
+00:05:10.800 --> 00:05:14.639
+from sight you can look at a form or a
+
+00:05:13.360 --> 00:05:16.800
+tool can look at a form and can just
+
+00:05:14.639 --> 00:05:18.080
+tell you yeah that's not gonna work so
+
+00:05:16.800 --> 00:05:21.520
+a formula like the one you see here
+
+00:05:18.080 --> 00:05:23.759
+on the left quite trendy quite tasty
+
+00:05:21.520 --> 00:05:27.039
+quite fashionable unfortunately would
+
+00:05:23.759 --> 00:05:27.039
+fail in all manner of ways
+
+00:05:27.280 --> 00:05:32.080
+so moving on to labels now anyone who's
+
+00:05:30.560 --> 00:05:33.680
+worked with accessible forms is probably
+
+00:05:32.080 --> 00:05:36.400
+sick of this word but let's talk a
+
+00:05:33.680 --> 00:05:38.400
+little bit about it so what is a
+
+00:05:36.400 --> 00:05:41.039
+label and why do we care
+
+00:05:38.400 --> 00:05:44.320
+well if we take a form like this one
+
+00:05:41.039 --> 00:05:47.440
+we've got a clear label at the top
+
+00:05:44.320 --> 00:05:49.520
+so the label is basically telling you
+
+00:05:47.440 --> 00:05:51.120
+what needs to go in the field right so
+
+00:05:49.520 --> 00:05:53.280
+in this case I'm after your email
+
+00:05:51.120 --> 00:05:54.720
+address or maybe I'm after your name or
+
+00:05:53.280 --> 00:05:58.000
+whatever
+
+00:05:54.720 --> 00:06:00.880
+the placeholder is distinctly is text
+
+00:05:58.000 --> 00:06:03.520
+that is inside the field and that when
+
+00:06:00.880 --> 00:06:04.639
+you type inside the field that text goes
+
+00:06:03.520 --> 00:06:06.880
+away
+
+00:06:04.639 --> 00:06:08.080
+so it's a relatively modern invention i
+
+00:06:06.880 --> 00:06:10.960
+mean I think it's like eight years old
+
+00:06:08.080 --> 00:06:13.680
+now or something but placeholders
+
+00:06:10.960 --> 00:06:15.199
+typically are a sort of fainter shade
+
+00:06:13.680 --> 00:06:17.360
+of gray or something so they're like
+
+00:06:15.199 --> 00:06:19.600
+more subtle and they can provide
+
+00:06:17.360 --> 00:06:21.520
+things like examples like you see here
+
+00:06:19.600 --> 00:06:23.360
+an example of an email address
+
+00:06:21.520 --> 00:06:24.639
+that at least in theory is what they
+
+00:06:23.360 --> 00:06:25.919
+are and that's what you should be doing
+
+00:06:24.639 --> 00:06:27.919
+but unfortunately a lot of people kind
+
+00:06:25.919 --> 00:06:30.400
+of get them mixed up so
+
+00:06:27.919 --> 00:06:31.440
+it's quite common to see a form like
+
+00:06:30.400 --> 00:06:35.120
+this
+
+00:06:31.440 --> 00:06:37.600
+where someone uses a placeholder in
+
+00:06:35.120 --> 00:06:39.759
+order to do what a label should be doing
+
+00:06:37.600 --> 00:06:41.199
+so in this case they put what you're
+
+00:06:39.759 --> 00:06:43.120
+supposed to be typing in you know you
+
+00:06:41.199 --> 00:06:45.039
+need to type in an email they put that
+
+00:06:43.120 --> 00:06:46.880
+inside as a placeholder
+
+00:06:45.039 --> 00:06:49.120
+and there's a few problems here as you
+
+00:06:46.880 --> 00:06:51.759
+saw a moment ago that kind of gray
+
+00:06:49.120 --> 00:06:52.800
+text is basically invisible to a number
+
+00:06:51.759 --> 00:06:55.280
+of people
+
+00:06:52.800 --> 00:06:57.360
+and so they literally won't even see
+
+00:06:55.280 --> 00:06:59.840
+it but also you've got the problem that
+
+00:06:57.360 --> 00:07:02.000
+when you start typing in that field you
+
+00:06:59.840 --> 00:07:03.759
+don't know what you're asked for anymore
+
+00:07:02.000 --> 00:07:05.120
+so all right this was an email address
+
+00:07:03.759 --> 00:07:06.800
+but as soon as I start typing in an
+
+00:07:05.120 --> 00:07:08.560
+email address i've
+
+00:07:06.800 --> 00:07:10.880
+lost that information I don't know I'm
+
+00:07:08.560 --> 00:07:13.840
+being asked for an email address
+
+00:07:10.880 --> 00:07:16.160
+in this case it may seem slightly
+
+00:07:13.840 --> 00:07:17.919
+like pedantic like why would you care
+
+00:07:16.160 --> 00:07:20.160
+but consider a slightly more elaborate
+
+00:07:17.919 --> 00:07:23.680
+form like this so this form doesn't have
+
+00:07:20.160 --> 00:07:25.440
+labels it just has placeholders and
+
+00:07:23.680 --> 00:07:27.120
+because i've filled in some of that form
+
+00:07:25.440 --> 00:07:29.440
+or maybe the form is automatically
+
+00:07:27.120 --> 00:07:30.400
+filled in for me I can't see what the
+
+00:07:29.440 --> 00:07:31.919
+labels are
+
+00:07:30.400 --> 00:07:33.520
+so I can guess
+
+00:07:31.919 --> 00:07:36.160
+maybe that's asking me for the first
+
+00:07:33.520 --> 00:07:38.800
+line of an address maybe a street name a
+
+00:07:36.160 --> 00:07:39.680
+city but I don't actually know the only
+
+00:07:38.800 --> 00:07:41.520
+way I could actually know what those
+
+00:07:39.680 --> 00:07:43.680
+fields are is if I deleted the text
+
+00:07:41.520 --> 00:07:46.400
+inside each one which is crazy and that
+
+00:07:43.680 --> 00:07:49.039
+last four field I have no idea I mean is
+
+00:07:46.400 --> 00:07:52.240
+that like the house number is that the
+
+00:07:49.039 --> 00:07:53.199
+the area code it's like that is it
+
+00:07:52.240 --> 00:07:54.720
+happens that's actually the
+
+00:07:53.199 --> 00:07:56.560
+international dialing code for the phone
+
+00:07:54.720 --> 00:07:58.800
+number but how could you possibly know
+
+00:07:56.560 --> 00:08:00.800
+that so
+
+00:07:58.800 --> 00:08:02.720
+for all of those reasons labels really
+
+00:08:00.800 --> 00:08:06.160
+important design affordance you should
+
+00:08:02.720 --> 00:08:08.319
+actually be making visible on the page
+
+00:08:06.160 --> 00:08:10.400
+and there are many ways to present them
+
+00:08:08.319 --> 00:08:12.479
+but these are the three most common very
+
+00:08:10.400 --> 00:08:14.960
+quickly the first approach you put
+
+00:08:12.479 --> 00:08:16.319
+the the label on the top left the
+
+00:08:14.960 --> 00:08:18.479
+second you tend to put it on the left
+
+00:08:16.319 --> 00:08:21.199
+hand side and the third you kind of
+
+00:08:18.479 --> 00:08:24.240
+inline it so this is often known as a
+
+00:08:21.199 --> 00:08:26.639
+like a floating label this is quite
+
+00:08:24.240 --> 00:08:28.720
+trendy and modern at the moment
+
+00:08:26.639 --> 00:08:29.840
+so let's just do a very quick comparison
+
+00:08:28.720 --> 00:08:33.279
+um
+
+00:08:29.840 --> 00:08:35.360
+so the first approach has an obvious
+
+00:08:33.279 --> 00:08:36.399
+advantage which is if you're on a small
+
+00:08:35.360 --> 00:08:39.519
+display
+
+00:08:36.399 --> 00:08:42.159
+it tends to fit it uses less space
+
+00:08:39.519 --> 00:08:44.720
+basically or less width I should say so
+
+00:08:42.159 --> 00:08:46.160
+just if you this isn't necessarily
+
+00:08:44.720 --> 00:08:47.680
+saying it has to go off the edge but it
+
+00:08:46.160 --> 00:08:51.440
+gives you more room
+
+00:08:47.680 --> 00:08:53.600
+if you imagine a wide field so
+
+00:08:51.440 --> 00:08:55.600
+email is not very wide piece of text but
+
+00:08:53.600 --> 00:08:58.000
+say you had something like postal
+
+00:08:55.600 --> 00:08:59.440
+address or home address or whatever
+
+00:08:58.000 --> 00:09:02.720
+that's a lot of text to fit on the left
+
+00:08:59.440 --> 00:09:04.880
+hand side of the field so it's generally
+
+00:09:02.720 --> 00:09:07.120
+better I would recommend to stick with
+
+00:09:04.880 --> 00:09:09.279
+the label on the top left
+
+00:09:07.120 --> 00:09:11.279
+that is not a w requirement just better
+
+00:09:09.279 --> 00:09:12.880
+practice it's also slightly less
+
+00:09:11.279 --> 00:09:14.640
+scrolling for people if they do have to
+
+00:09:12.880 --> 00:09:16.640
+zoom in and scroll it's slightly easier
+
+00:09:14.640 --> 00:09:17.360
+to use the first one
+
+00:09:16.640 --> 00:09:18.959
+the
+
+00:09:17.360 --> 00:09:20.640
+other design option which is the kind of
+
+00:09:18.959 --> 00:09:22.480
+the floating label very trendy at the
+
+00:09:20.640 --> 00:09:23.920
+moment like I said it's a bit of a
+
+00:09:22.480 --> 00:09:25.360
+religious debate over whether or not
+
+00:09:23.920 --> 00:09:26.480
+these are good or bad
+
+00:09:25.360 --> 00:09:28.240
+um
+
+00:09:26.480 --> 00:09:30.000
+generally they're treated with
+
+00:09:28.240 --> 00:09:32.640
+skepticism in the accessibility
+
+00:09:30.000 --> 00:09:35.519
+community the main problem with them is
+
+00:09:32.640 --> 00:09:37.760
+it's typical that this the label text
+
+00:09:35.519 --> 00:09:39.440
+is smaller and harder to read
+
+00:09:37.760 --> 00:09:41.519
+but I do think it is sometimes possible
+
+00:09:39.440 --> 00:09:42.959
+to make it work like you've got here i
+
+00:09:41.519 --> 00:09:45.600
+think that that email could be clear
+
+00:09:42.959 --> 00:09:47.440
+enough so
+
+00:09:45.600 --> 00:09:49.200
+really matter of personal preference i
+
+00:09:47.440 --> 00:09:52.320
+would say but just make sure people can
+
+00:09:49.200 --> 00:09:52.320
+still read the label
+
+00:09:52.720 --> 00:09:56.240
+why do we care well if you don't have a
+
+00:09:54.640 --> 00:09:58.399
+label at all forms are completely
+
+00:09:56.240 --> 00:10:00.000
+inaccessible I mean consider that
+
+00:09:58.399 --> 00:10:02.839
+yeah this form on the left-hand side you
+
+00:10:00.000 --> 00:10:05.600
+wouldn't know what you're doing now
+
+00:10:02.839 --> 00:10:07.360
+without
+
+00:10:05.600 --> 00:10:08.880
+visible labels there are ways to add
+
+00:10:07.360 --> 00:10:09.760
+hidden labels which we'll look at in a
+
+00:10:08.880 --> 00:10:10.800
+moment
+
+00:10:09.760 --> 00:10:12.480
+but
+
+00:10:10.800 --> 00:10:14.079
+generally it's kind of discouraged the
+
+00:10:12.480 --> 00:10:15.360
+problem is labels are useful for
+
+00:10:14.079 --> 00:10:16.959
+everyone
+
+00:10:15.360 --> 00:10:19.040
+so unless you've got something like a
+
+00:10:16.959 --> 00:10:20.240
+one field search form or something i
+
+00:10:19.040 --> 00:10:21.920
+would generally recommend adding a
+
+00:10:20.240 --> 00:10:24.800
+visible label
+
+00:10:21.920 --> 00:10:26.399
+and they are required for wkag so you
+
+00:10:24.800 --> 00:10:29.440
+have to have a label in there somewhere
+
+00:10:26.399 --> 00:10:31.519
+even if it's an invisible one
+
+00:10:29.440 --> 00:10:33.120
+right so moving on to something called
+
+00:10:31.519 --> 00:10:35.519
+focus so again this will be familiar for
+
+00:10:33.120 --> 00:10:37.760
+the webs in the room
+
+00:10:35.519 --> 00:10:40.399
+this is a very simple form
+
+00:10:37.760 --> 00:10:42.560
+and we have something called a focus
+
+00:10:40.399 --> 00:10:44.800
+state for all of these controls and what
+
+00:10:42.560 --> 00:10:47.200
+that is is something like this where i
+
+00:10:44.800 --> 00:10:49.040
+say select that first field maybe i
+
+00:10:47.200 --> 00:10:50.959
+click inside it
+
+00:10:49.040 --> 00:10:52.560
+or I go to the next field or I go to the
+
+00:10:50.959 --> 00:10:54.000
+next field and so you can you've seen
+
+00:10:52.560 --> 00:10:55.200
+this no doubt
+
+00:10:54.000 --> 00:10:57.040
+where you can kind of go between
+
+00:10:55.200 --> 00:10:58.959
+controls and see what's selected
+
+00:10:57.040 --> 00:11:02.320
+now
+
+00:10:58.959 --> 00:11:03.519
+this is often overlooked so people maybe
+
+00:11:02.320 --> 00:11:05.360
+think about the first one they think
+
+00:11:03.519 --> 00:11:07.279
+about the text field changing when you
+
+00:11:05.360 --> 00:11:09.680
+click inside it they often don't think
+
+00:11:07.279 --> 00:11:12.240
+about things like radio buttons or check
+
+00:11:09.680 --> 00:11:13.200
+boxes or even buttons
+
+00:11:12.240 --> 00:11:15.440
+and that's because they're used to
+
+00:11:13.200 --> 00:11:16.800
+clicking on them or tapping on them
+
+00:11:15.440 --> 00:11:19.360
+but if you're using accessible
+
+00:11:16.800 --> 00:11:21.200
+technology there's a good chance you're
+
+00:11:19.360 --> 00:11:23.040
+selecting them through another means so
+
+00:11:21.200 --> 00:11:24.000
+for example you might have an accessible
+
+00:11:23.040 --> 00:11:26.880
+switch
+
+00:11:24.000 --> 00:11:28.560
+which is something akin to a
+
+00:11:26.880 --> 00:11:30.800
+um
+
+00:11:28.560 --> 00:11:32.160
+using the keyboard right in fact you
+
+00:11:30.800 --> 00:11:33.600
+can try this with a keyboard just go
+
+00:11:32.160 --> 00:11:35.120
+into a form and use the tab key to
+
+00:11:33.600 --> 00:11:37.279
+select the various controls and you
+
+00:11:35.120 --> 00:11:39.519
+should see them light up like this
+
+00:11:37.279 --> 00:11:42.399
+but too often people don't design for it
+
+00:11:39.519 --> 00:11:43.680
+they don't think about it it's not clear
+
+00:11:42.399 --> 00:11:47.200
+it's completely missing and if that's
+
+00:11:43.680 --> 00:11:49.360
+the case the form is totally unusable
+
+00:11:47.200 --> 00:11:52.639
+there's actually a proposal in the next
+
+00:11:49.360 --> 00:11:55.600
+version of wcag which is under draft 2.2
+
+00:11:52.639 --> 00:11:57.920
+to mandate just how much contrast there
+
+00:11:55.600 --> 00:12:00.160
+should be between these two states that
+
+00:11:57.920 --> 00:12:01.519
+hasn't been finalized right now but if
+
+00:12:00.160 --> 00:12:02.880
+you're curious they're looking at
+
+00:12:01.519 --> 00:12:05.839
+something like
+
+00:12:02.880 --> 00:12:07.920
+take the maximum
+
+00:12:05.839 --> 00:12:10.240
+width or heights or whichever is longest
+
+00:12:07.920 --> 00:12:13.279
+and then require twice that many pixels
+
+00:12:10.240 --> 00:12:15.519
+to change which is potentially
+
+00:12:13.279 --> 00:12:17.519
+confusing but there you go so that
+
+00:12:15.519 --> 00:12:19.279
+would allow for things like a thick
+
+00:12:17.519 --> 00:12:22.240
+underline or a border or something to
+
+00:12:19.279 --> 00:12:22.240
+distinguish these two
+
+00:12:22.399 --> 00:12:27.279
+why do we care well without focus your
+
+00:12:25.120 --> 00:12:28.560
+forms are unusable via the keyboard
+
+00:12:27.279 --> 00:12:30.160
+that's all like you can't see what
+
+00:12:28.560 --> 00:12:32.240
+you've selected right and that
+
+00:12:30.160 --> 00:12:33.519
+corresponds to many common assistive
+
+00:12:32.240 --> 00:12:35.360
+technologies that you also need to
+
+00:12:33.519 --> 00:12:38.240
+support and it is again it's a
+
+00:12:35.360 --> 00:12:40.959
+requirement for wcag so pretty important
+
+00:12:38.240 --> 00:12:40.959
+pretty fundamental
+
+00:12:41.040 --> 00:12:44.720
+and then
+
+00:12:42.000 --> 00:12:46.480
+let's take a quick look at valid and
+
+00:12:44.720 --> 00:12:50.160
+invalid states so this is when you have
+
+00:12:46.480 --> 00:12:52.480
+a field in a form and you want to
+
+00:12:50.160 --> 00:12:54.160
+signal that the field is incorrect
+
+00:12:52.480 --> 00:12:55.839
+or in some cases you want to signal that
+
+00:12:54.160 --> 00:12:56.880
+the field is correct
+
+00:12:55.839 --> 00:12:58.480
+um
+
+00:12:56.880 --> 00:13:00.160
+particularly the left-hand side is very
+
+00:12:58.480 --> 00:13:03.519
+common and
+
+00:13:00.160 --> 00:13:05.440
+a common problem people have is that
+
+00:13:03.519 --> 00:13:06.480
+they signal this information exclusively
+
+00:13:05.440 --> 00:13:08.800
+through color
+
+00:13:06.480 --> 00:13:10.959
+so what you're seeing here is a red
+
+00:13:08.800 --> 00:13:12.639
+field on the left where
+
+00:13:10.959 --> 00:13:15.920
+this is incorrect and a green field on
+
+00:13:12.639 --> 00:13:17.839
+the right but if I were color blind or
+
+00:13:15.920 --> 00:13:19.920
+had some visual impairment that affected
+
+00:13:17.839 --> 00:13:22.079
+my perception of that color I might not
+
+00:13:19.920 --> 00:13:24.959
+notice this information and so all i
+
+00:13:22.079 --> 00:13:26.240
+know is well nothing I just know
+
+00:13:24.959 --> 00:13:28.079
+the form didn't work and I don't know
+
+00:13:26.240 --> 00:13:29.440
+why so
+
+00:13:28.079 --> 00:13:32.079
+there are several standard things to do
+
+00:13:29.440 --> 00:13:34.480
+here one is to add some kind of visual
+
+00:13:32.079 --> 00:13:36.480
+indicator that is not subject to the
+
+00:13:34.480 --> 00:13:38.480
+color so for example here i've added an
+
+00:13:36.480 --> 00:13:40.160
+icon a little cross
+
+00:13:38.480 --> 00:13:41.040
+a little tick
+
+00:13:40.160 --> 00:13:42.800
+so
+
+00:13:41.040 --> 00:13:45.519
+that could be perceived without the
+
+00:13:42.800 --> 00:13:47.440
+specific color and also adding a text
+
+00:13:45.519 --> 00:13:49.279
+importance here is is useful so we've
+
+00:13:47.440 --> 00:13:51.360
+got not a valid email address or looks
+
+00:13:49.279 --> 00:13:53.120
+good some indication like that makes it
+
+00:13:51.360 --> 00:13:54.240
+clearer for people and again if you pull
+
+00:13:53.120 --> 00:13:56.240
+the color out
+
+00:13:54.240 --> 00:13:57.120
+nice and clear super simple works for
+
+00:13:56.240 --> 00:13:58.000
+everyone
+
+00:13:57.120 --> 00:14:00.240
+so
+
+00:13:58.000 --> 00:14:02.240
+again not everyone can see color clearly
+
+00:14:00.240 --> 00:14:04.079
+and without an alternative that
+
+00:14:02.240 --> 00:14:06.480
+information is inaccessible so nice
+
+00:14:04.079 --> 00:14:07.600
+simple fix there
+
+00:14:06.480 --> 00:14:09.199
+right so that's enough about the
+
+00:14:07.600 --> 00:14:11.199
+appearance we're going to spend most of
+
+00:14:09.199 --> 00:14:13.040
+our time today diving into semantics so
+
+00:14:11.199 --> 00:14:14.480
+I'm going to talk a little bit of code
+
+00:14:13.040 --> 00:14:16.000
+hopefully that doesn't put anyone up too
+
+00:14:14.480 --> 00:14:17.519
+far off it's not going to be crazy
+
+00:14:16.000 --> 00:14:20.959
+complicated but it'll certainly help if
+
+00:14:17.519 --> 00:14:23.279
+you know a little bit of html
+
+00:14:20.959 --> 00:14:24.480
+so the first thing I want to look at is
+
+00:14:23.279 --> 00:14:28.240
+built-in
+
+00:14:24.480 --> 00:14:31.040
+field types and validations so
+
+00:14:28.240 --> 00:14:33.680
+html is a fluid thing and it has a
+
+00:14:31.040 --> 00:14:35.839
+tendency to change all the time it's
+
+00:14:33.680 --> 00:14:37.440
+regularly updated there's new concept
+
+00:14:35.839 --> 00:14:39.360
+introduced and in my experience it's
+
+00:14:37.440 --> 00:14:42.240
+quite common for people including myself
+
+00:14:39.360 --> 00:14:43.760
+to fall out of touch with some subtle
+
+00:14:42.240 --> 00:14:45.440
+new thing they've introduced that you
+
+00:14:43.760 --> 00:14:47.279
+can start using so I'm just going to
+
+00:14:45.440 --> 00:14:48.959
+recap a few of those where we're
+
+00:14:47.279 --> 00:14:51.199
+currently currently at because it often
+
+00:14:48.959 --> 00:14:53.600
+surprises people
+
+00:14:51.199 --> 00:14:56.000
+so hopefully you already know buttons
+
+00:14:53.600 --> 00:14:57.279
+and checkboxes and file uploads and text
+
+00:14:56.000 --> 00:14:58.639
+and radio and all that stuff that's kind
+
+00:14:57.279 --> 00:15:00.639
+of boring and I'm going to assume
+
+00:14:58.639 --> 00:15:03.279
+everyone here knows that but there are a
+
+00:15:00.639 --> 00:15:04.800
+few you may not be familiar with
+
+00:15:03.279 --> 00:15:08.639
+these were introduced with
+
+00:15:04.800 --> 00:15:10.000
+parts of html5 a long time ago now
+
+00:15:08.639 --> 00:15:11.680
+and
+
+00:15:10.000 --> 00:15:13.360
+some of these are definitely ready for
+
+00:15:11.680 --> 00:15:14.480
+prime time and a couple of these maybe
+
+00:15:13.360 --> 00:15:16.240
+not so much
+
+00:15:14.480 --> 00:15:20.320
+but the
+
+00:15:16.240 --> 00:15:23.199
+the idea is there are progressively more
+
+00:15:20.320 --> 00:15:25.440
+native field types that are available to
+
+00:15:23.199 --> 00:15:26.639
+you and one of the advantages of these
+
+00:15:25.440 --> 00:15:28.480
+in theory
+
+00:15:26.639 --> 00:15:30.560
+is they take care of a lot of
+
+00:15:28.480 --> 00:15:34.639
+accessibility problems for you
+
+00:15:30.560 --> 00:15:37.120
+and they offer a better
+
+00:15:34.639 --> 00:15:39.279
+user experience for everyone including
+
+00:15:37.120 --> 00:15:40.480
+users of accessible tech
+
+00:15:39.279 --> 00:15:42.320
+so
+
+00:15:40.480 --> 00:15:43.600
+you can see some examples there's a
+
+00:15:42.320 --> 00:15:45.120
+date picker on the left there's a color
+
+00:15:43.600 --> 00:15:47.199
+picker in the middle and so on these
+
+00:15:45.120 --> 00:15:49.199
+change depending on the device and the
+
+00:15:47.199 --> 00:15:51.600
+browser you have
+
+00:15:49.199 --> 00:15:54.240
+but the idea is in theory they've
+
+00:15:51.600 --> 00:15:56.000
+actually been optimized for that device
+
+00:15:54.240 --> 00:15:58.240
+so for example a mobile phone might have
+
+00:15:56.000 --> 00:16:01.600
+a a date picker that resembles the one
+
+00:15:58.240 --> 00:16:01.600
+you're used to using on that phone
+
+00:16:01.839 --> 00:16:05.040
+unfortunately the one that we all want
+
+00:16:03.199 --> 00:16:07.279
+to use which is the date picker is still
+
+00:16:05.040 --> 00:16:08.880
+not quite ready and I really hope I can
+
+00:16:07.279 --> 00:16:10.079
+change the slide next year
+
+00:16:08.880 --> 00:16:11.279
+um
+
+00:16:10.079 --> 00:16:14.000
+so
+
+00:16:11.279 --> 00:16:15.680
+it's very very painfully close this is
+
+00:16:14.000 --> 00:16:18.240
+the the field you see here on the
+
+00:16:15.680 --> 00:16:20.880
+bottom left so this is great it's a a
+
+00:16:18.240 --> 00:16:23.839
+built-in date picker it works on almost
+
+00:16:20.880 --> 00:16:26.800
+everything except for desktop safari
+
+00:16:23.839 --> 00:16:27.680
+which it has just been added to
+
+00:16:26.800 --> 00:16:29.519
+um
+
+00:16:27.680 --> 00:16:31.920
+because desktop safari is the internet
+
+00:16:29.519 --> 00:16:34.240
+explorer of 2021
+
+00:16:31.920 --> 00:16:35.759
+and so yeah
+
+00:16:34.240 --> 00:16:37.279
+it's not quite there for safari and
+
+00:16:35.759 --> 00:16:38.560
+there's a couple of edge case issues
+
+00:16:37.279 --> 00:16:41.759
+with some screen readers and some
+
+00:16:38.560 --> 00:16:43.519
+browsers which are slowly fading away
+
+00:16:41.759 --> 00:16:46.000
+but
+
+00:16:43.519 --> 00:16:47.600
+unfortunately at this moment in time
+
+00:16:46.000 --> 00:16:50.639
+probably the best thing to do for a date
+
+00:16:47.600 --> 00:16:52.480
+still is to have what gds does which is
+
+00:16:50.639 --> 00:16:54.000
+three separate fields and give an
+
+00:16:52.480 --> 00:16:55.440
+explanation like this
+
+00:16:54.000 --> 00:16:57.360
+which kind of sucks to be honest i
+
+00:16:55.440 --> 00:16:58.880
+wish there was a better way but yeah but
+
+00:16:57.360 --> 00:17:00.160
+most of the other controls are actually
+
+00:16:58.880 --> 00:17:02.079
+quite usable and there are things you
+
+00:17:00.160 --> 00:17:04.799
+can do with them and others that you may
+
+00:17:02.079 --> 00:17:07.280
+not be familiar with so this is a
+
+00:17:04.799 --> 00:17:09.360
+data list this is a handy accessibility
+
+00:17:07.280 --> 00:17:12.720
+aid where you can actually
+
+00:17:09.360 --> 00:17:15.039
+allow people to select preset options
+
+00:17:12.720 --> 00:17:18.000
+these are not forced so they can type in
+
+00:17:15.039 --> 00:17:19.280
+whatever they want but if you've got
+
+00:17:18.000 --> 00:17:20.799
+text and you're using some kind of
+
+00:17:19.280 --> 00:17:22.559
+javascript widget whatever to do list
+
+00:17:20.799 --> 00:17:24.400
+you may not know it as a native solution
+
+00:17:22.559 --> 00:17:26.400
+and it's pretty great it works all the
+
+00:17:24.400 --> 00:17:29.360
+major browsers it's super accessible
+
+00:17:26.400 --> 00:17:30.640
+it's well thought out etc
+
+00:17:29.360 --> 00:17:32.720
+and you can do that with crazy stuff you
+
+00:17:30.640 --> 00:17:34.320
+can go into things like this is a month
+
+00:17:32.720 --> 00:17:36.799
+picker so you may not notice a there's a
+
+00:17:34.320 --> 00:17:39.200
+month component in html and you can
+
+00:17:36.799 --> 00:17:40.640
+actually you can label your your
+
+00:17:39.200 --> 00:17:42.480
+dates and give them presets like their
+
+00:17:40.640 --> 00:17:44.080
+birthday and all sorts it's crazy things
+
+00:17:42.480 --> 00:17:46.160
+you can do here and this these work with
+
+00:17:44.080 --> 00:17:48.160
+colors and times and sliders and so on
+
+00:17:46.160 --> 00:17:51.120
+but again browser support is
+
+00:17:48.160 --> 00:17:52.640
+quite 100 so you can use these as an
+
+00:17:51.120 --> 00:17:53.760
+enhancement
+
+00:17:52.640 --> 00:17:56.640
+but I wouldn't
+
+00:17:53.760 --> 00:17:58.880
+like like you're going to get like 97
+
+00:17:56.640 --> 00:18:00.400
+98 coverage on most of these things but
+
+00:17:58.880 --> 00:18:03.840
+it's not quite enough that you could
+
+00:18:00.400 --> 00:18:05.919
+rely on it for every single user
+
+00:18:03.840 --> 00:18:07.919
+what you can rely on for every single
+
+00:18:05.919 --> 00:18:09.840
+user however is built-in
+
+00:18:07.919 --> 00:18:11.919
+validation and there's quite a lot of
+
+00:18:09.840 --> 00:18:13.440
+this in html now and some of it gets
+
+00:18:11.919 --> 00:18:14.480
+missed so it's worth looking at a few of
+
+00:18:13.440 --> 00:18:16.960
+these things
+
+00:18:14.480 --> 00:18:19.440
+so the first thing is requiring a field
+
+00:18:16.960 --> 00:18:20.720
+believe it or not some people
+
+00:18:19.440 --> 00:18:22.400
+somehow don't know this I'm just going
+
+00:18:20.720 --> 00:18:24.000
+to make sure you do
+
+00:18:22.400 --> 00:18:25.919
+this is
+
+00:18:24.000 --> 00:18:28.880
+a simple attribute required which
+
+00:18:25.919 --> 00:18:31.919
+indicates that a field is surprisingly
+
+00:18:28.880 --> 00:18:33.760
+required and by doing so
+
+00:18:31.919 --> 00:18:35.760
+you do two things you you get the
+
+00:18:33.760 --> 00:18:37.120
+browser to make sure they they you know
+
+00:18:35.760 --> 00:18:39.679
+fill it in and they'll tell them if they
+
+00:18:37.120 --> 00:18:42.320
+don't but you also tell accessible
+
+00:18:39.679 --> 00:18:44.080
+technology that the field is required so
+
+00:18:42.320 --> 00:18:46.480
+when this is read out by say a screen
+
+00:18:44.080 --> 00:18:47.760
+reader the screen reader will understand
+
+00:18:46.480 --> 00:18:49.840
+that that is a required field and it
+
+00:18:47.760 --> 00:18:53.280
+will tell the user for you
+
+00:18:49.840 --> 00:18:55.039
+now again some old form technologies
+
+00:18:53.280 --> 00:18:57.200
+or development practices maybe you'd
+
+00:18:55.039 --> 00:18:59.039
+write this your own way
+
+00:18:57.200 --> 00:19:01.280
+but doing it with a single field like
+
+00:18:59.039 --> 00:19:03.919
+this gets you a lot of stuff for free
+
+00:19:01.280 --> 00:19:06.640
+it's easier and it's more reliable
+
+00:19:03.919 --> 00:19:08.320
+this is basically 100 browser coverage
+
+00:19:06.640 --> 00:19:11.600
+at this point
+
+00:19:08.320 --> 00:19:13.600
+a few people use aria required which
+
+00:19:11.600 --> 00:19:15.280
+is an old throwback thing you don't need
+
+00:19:13.600 --> 00:19:16.960
+it just use required it does the same
+
+00:19:15.280 --> 00:19:18.240
+thing
+
+00:19:16.960 --> 00:19:19.280
+and then there's there's more like this
+
+00:19:18.240 --> 00:19:21.360
+I'm not going to go through a million of
+
+00:19:19.280 --> 00:19:23.039
+these but just to give you a feel if
+
+00:19:21.360 --> 00:19:24.799
+you've got say a number field so number
+
+00:19:23.039 --> 00:19:26.880
+just which types of numbers you can give
+
+00:19:24.799 --> 00:19:28.720
+it minimmaximyou can have sliders
+
+00:19:26.880 --> 00:19:30.480
+they can have minimmaximums
+
+00:19:28.720 --> 00:19:32.880
+again these are basically 100 browser
+
+00:19:30.480 --> 00:19:34.720
+coverage so it's just built in for you
+
+00:19:32.880 --> 00:19:36.640
+it just means the user is going to get
+
+00:19:34.720 --> 00:19:38.080
+feedback right away rather than
+
+00:19:36.640 --> 00:19:39.440
+submitting a form and you're doing all
+
+00:19:38.080 --> 00:19:41.360
+this extra work and giving them a
+
+00:19:39.440 --> 00:19:42.960
+message to wait for you can even do it
+
+00:19:41.360 --> 00:19:45.679
+without date picker you can do minimum
+
+00:19:42.960 --> 00:19:48.000
+maximdates which is kind of crazy
+
+00:19:45.679 --> 00:19:49.679
+and validating by patterns so if
+
+00:19:48.000 --> 00:19:52.960
+you've got something complicated like
+
+00:19:49.679 --> 00:19:54.799
+say a postcode it's possible to write
+
+00:19:52.960 --> 00:19:56.160
+what's called a regular expression which
+
+00:19:54.799 --> 00:19:59.440
+looks a little bit like this gibberish
+
+00:19:56.160 --> 00:20:00.960
+here in the pattern string here and
+
+00:19:59.440 --> 00:20:02.400
+this will
+
+00:20:00.960 --> 00:20:03.760
+this allows you to
+
+00:20:02.400 --> 00:20:05.520
+define
+
+00:20:03.760 --> 00:20:07.440
+some kind of rule right so this one is
+
+00:20:05.520 --> 00:20:09.600
+just saying it must be between the
+
+00:20:07.440 --> 00:20:11.120
+letters a to z and there must be four to
+
+00:20:09.600 --> 00:20:12.080
+eight characters
+
+00:20:11.120 --> 00:20:14.159
+and
+
+00:20:12.080 --> 00:20:15.679
+those kind of rules again traditionally
+
+00:20:14.159 --> 00:20:17.520
+you would write lots of your own pesky
+
+00:20:15.679 --> 00:20:19.200
+javascript for it maybe you write some
+
+00:20:17.520 --> 00:20:20.960
+server-side code for it it's kind of a
+
+00:20:19.200 --> 00:20:23.280
+pain
+
+00:20:20.960 --> 00:20:24.880
+you do still need to check what's going
+
+00:20:23.280 --> 00:20:26.640
+to the server unfortunately because
+
+00:20:24.880 --> 00:20:28.880
+someone can hack it and if you're really
+
+00:20:26.640 --> 00:20:32.559
+unlucky someone's got a browser from
+
+00:20:28.880 --> 00:20:34.559
+1995 that doesn't support this but
+
+00:20:32.559 --> 00:20:37.039
+the advantage of doing this
+
+00:20:34.559 --> 00:20:38.320
+is you get a ton of built-in validation
+
+00:20:37.039 --> 00:20:40.960
+and accessible
+
+00:20:38.320 --> 00:20:43.120
+tech for free so these messages will
+
+00:20:40.960 --> 00:20:46.000
+be passed to accessible technologies in
+
+00:20:43.120 --> 00:20:48.240
+a way that they can relate to and you
+
+00:20:46.000 --> 00:20:50.080
+don't have to then worry about adding
+
+00:20:48.240 --> 00:20:51.600
+all of this extra code to your code to
+
+00:20:50.080 --> 00:20:52.880
+handle it
+
+00:20:51.600 --> 00:20:55.360
+the
+
+00:20:52.880 --> 00:20:57.039
+one subtlety with the the pattern
+
+00:20:55.360 --> 00:20:58.080
+validation is you want to specify a
+
+00:20:57.039 --> 00:21:00.559
+title
+
+00:20:58.080 --> 00:21:02.400
+normally the title attribute is
+
+00:21:00.559 --> 00:21:03.600
+something you avoid like the plague with
+
+00:21:02.400 --> 00:21:05.039
+accessibility
+
+00:21:03.600 --> 00:21:07.360
+it's often
+
+00:21:05.039 --> 00:21:09.280
+mistaken is something you should use
+
+00:21:07.360 --> 00:21:11.440
+for accessibility so people for example
+
+00:21:09.280 --> 00:21:13.039
+do links and they put title attributes
+
+00:21:11.440 --> 00:21:15.200
+on it and it's completely useless it
+
+00:21:13.039 --> 00:21:16.880
+actually does nothing for accessibility
+
+00:21:15.200 --> 00:21:18.640
+except give you the false impression
+
+00:21:16.880 --> 00:21:20.240
+that you're making something accessible
+
+00:21:18.640 --> 00:21:22.159
+so normally you avoid title and you just
+
+00:21:20.240 --> 00:21:23.280
+don't touch it but this is the one rare
+
+00:21:22.159 --> 00:21:24.799
+exception
+
+00:21:23.280 --> 00:21:27.360
+where you actually do want the title
+
+00:21:24.799 --> 00:21:30.240
+attribute because it tells the user what
+
+00:21:27.360 --> 00:21:33.760
+has gone wrong if they don't type it
+
+00:21:30.240 --> 00:21:34.880
+in incorrectly so useful there
+
+00:21:33.760 --> 00:21:37.120
+so why do you care about all these
+
+00:21:34.880 --> 00:21:39.120
+built-in things well they're robust
+
+00:21:37.120 --> 00:21:40.320
+right so most of these the main
+
+00:21:39.120 --> 00:21:42.240
+problem you might have is they're not
+
+00:21:40.320 --> 00:21:44.400
+fully supported but virtually everything
+
+00:21:42.240 --> 00:21:48.320
+i showed you here is 99 point
+
+00:21:44.400 --> 00:21:49.440
+something percent supported and
+
+00:21:48.320 --> 00:21:51.520
+when they're covered by the major
+
+00:21:49.440 --> 00:21:54.320
+browsers those implementations have been
+
+00:21:51.520 --> 00:21:56.799
+tested for accessibility they they
+
+00:21:54.320 --> 00:21:58.720
+will support keyboards they will support
+
+00:21:56.799 --> 00:22:00.559
+various native controls in the
+
+00:21:58.720 --> 00:22:01.840
+operating system so they they're
+
+00:22:00.559 --> 00:22:03.440
+probably going to be better built than
+
+00:22:01.840 --> 00:22:05.679
+anything you can make and they're going
+
+00:22:03.440 --> 00:22:09.360
+to be familiar to users
+
+00:22:05.679 --> 00:22:11.600
+they are not guaranteed to be accessible
+
+00:22:09.360 --> 00:22:13.120
+the main issues are you can still do
+
+00:22:11.600 --> 00:22:16.000
+stupid things right you could miss out
+
+00:22:13.120 --> 00:22:18.480
+labels or you could set the colors to be
+
+00:22:16.000 --> 00:22:20.000
+illegible so you still have to
+
+00:22:18.480 --> 00:22:22.799
+exercise some care with them but it just
+
+00:22:20.000 --> 00:22:24.799
+makes your life a lot easier
+
+00:22:22.799 --> 00:22:26.400
+and to give a contrasting point this is
+
+00:22:24.799 --> 00:22:28.159
+a very common experience
+
+00:22:26.400 --> 00:22:31.600
+apple here has a little drop down
+
+00:22:28.159 --> 00:22:32.799
+menu at the top of their website and
+
+00:22:31.600 --> 00:22:34.000
+this is the sort of thing a lot of web
+
+00:22:32.799 --> 00:22:35.679
+developers spend their time doing you
+
+00:22:34.000 --> 00:22:36.559
+know let's make a nice looking drop down
+
+00:22:35.679 --> 00:22:39.039
+menu
+
+00:22:36.559 --> 00:22:40.880
+and it's really hard to make a nice
+
+00:22:39.039 --> 00:22:43.440
+looking drop down menu that is actually
+
+00:22:40.880 --> 00:22:45.280
+accessible you have so many things you
+
+00:22:43.440 --> 00:22:47.039
+have to think about and apple in their
+
+00:22:45.280 --> 00:22:50.080
+case well they did so they actually went
+
+00:22:47.039 --> 00:22:52.080
+through all of the area expanded and
+
+00:22:50.080 --> 00:22:53.520
+considering like the nested options and
+
+00:22:52.080 --> 00:22:55.600
+like the keyboard fallbacks and the
+
+00:22:53.520 --> 00:22:58.400
+different browser supports and so and
+
+00:22:55.600 --> 00:23:00.880
+you can do it it is possible it's almost
+
+00:22:58.400 --> 00:23:02.559
+never worth the effort it's a crazy
+
+00:23:00.880 --> 00:23:05.200
+difficult proposition you have to update
+
+00:23:02.559 --> 00:23:06.480
+it maintain it test it it's it's hard
+
+00:23:05.200 --> 00:23:08.400
+and native controls are pretty good
+
+00:23:06.480 --> 00:23:10.960
+nowadays
+
+00:23:08.400 --> 00:23:13.120
+so anyway that's that let's
+
+00:23:10.960 --> 00:23:16.400
+move on to something new again in wcag
+
+00:23:13.120 --> 00:23:18.799
+2.1 this is a concept that you should
+
+00:23:16.400 --> 00:23:21.200
+basically be minimizing the amount of
+
+00:23:18.799 --> 00:23:23.360
+typing or input that your your users
+
+00:23:21.200 --> 00:23:25.120
+need through
+
+00:23:23.360 --> 00:23:27.360
+something that we've often overlooked
+
+00:23:25.120 --> 00:23:30.080
+which is autocomplete
+
+00:23:27.360 --> 00:23:31.919
+so the autocomplete attribute for
+
+00:23:30.080 --> 00:23:34.080
+those who who've come across it before
+
+00:23:31.919 --> 00:23:36.240
+is something historically used to
+
+00:23:34.080 --> 00:23:38.880
+just go oh just turn that thing off
+
+00:23:36.240 --> 00:23:41.200
+it would cause problems with forms
+
+00:23:38.880 --> 00:23:42.400
+maybe it would misfire it would you know
+
+00:23:41.200 --> 00:23:44.000
+fill in the wrong thing in the wrong
+
+00:23:42.400 --> 00:23:45.279
+field and so a lot of web developers
+
+00:23:44.000 --> 00:23:47.440
+just look at as this thing that supports
+
+00:23:45.279 --> 00:23:49.440
+an option off and that's it
+
+00:23:47.440 --> 00:23:52.400
+but actually autocomplete is an
+
+00:23:49.440 --> 00:23:55.200
+essential requirement of wcag 2.1 and
+
+00:23:52.400 --> 00:23:57.760
+there's a ton of options available now
+
+00:23:55.200 --> 00:24:00.320
+to auto complete like literally pages
+
+00:23:57.760 --> 00:24:02.000
+and pages of them
+
+00:24:00.320 --> 00:24:03.279
+and essentially autocomplete allows you
+
+00:24:02.000 --> 00:24:06.480
+to say
+
+00:24:03.279 --> 00:24:08.320
+what a field is supposed to contain
+
+00:24:06.480 --> 00:24:11.120
+in a standard way
+
+00:24:08.320 --> 00:24:12.640
+so if possible the browser will fill
+
+00:24:11.120 --> 00:24:14.080
+that information in for the user
+
+00:24:12.640 --> 00:24:15.840
+automatically
+
+00:24:14.080 --> 00:24:17.279
+so the classic example you've probably
+
+00:24:15.840 --> 00:24:19.039
+seen is something like this form here in
+
+00:24:17.279 --> 00:24:21.919
+the bottom right where you've got a name
+
+00:24:19.039 --> 00:24:23.840
+field and it's like oh do you mean and
+
+00:24:21.919 --> 00:24:24.640
+then your name right and you can select
+
+00:24:23.840 --> 00:24:28.000
+that
+
+00:24:24.640 --> 00:24:29.440
+but every browser every computing
+
+00:24:28.000 --> 00:24:30.880
+device tends to have their own version
+
+00:24:29.440 --> 00:24:32.880
+of this you know your phone will do
+
+00:24:30.880 --> 00:24:35.840
+something similar
+
+00:24:32.880 --> 00:24:38.720
+the key thing is you need to tell
+
+00:24:35.840 --> 00:24:40.960
+the browser what the information
+
+00:24:38.720 --> 00:24:43.039
+you're asking for is in a standards
+
+00:24:40.960 --> 00:24:44.320
+compliant way and then it can provide
+
+00:24:43.039 --> 00:24:45.279
+this for them
+
+00:24:44.320 --> 00:24:47.360
+so
+
+00:24:45.279 --> 00:24:49.120
+here's an example
+
+00:24:47.360 --> 00:24:52.640
+got a whole bunch of fields telephone
+
+00:24:49.120 --> 00:24:54.799
+numbers emails etc and this autocomplete
+
+00:24:52.640 --> 00:24:57.120
+attribute can be set to different
+
+00:24:54.799 --> 00:24:59.279
+values and these values basically say
+
+00:24:57.120 --> 00:25:01.120
+look I want say a shipping address
+
+00:24:59.279 --> 00:25:03.279
+country name or whatever and it's able
+
+00:25:01.120 --> 00:25:04.000
+to kind of combine these values in order
+
+00:25:03.279 --> 00:25:06.000
+to
+
+00:25:04.000 --> 00:25:08.640
+both look things up and remember them
+
+00:25:06.000 --> 00:25:11.039
+for future use
+
+00:25:08.640 --> 00:25:13.200
+another related technology is input mode
+
+00:25:11.039 --> 00:25:17.440
+often overlooked input mode allows you
+
+00:25:13.200 --> 00:25:20.000
+to tell a browser what kind of input you
+
+00:25:17.440 --> 00:25:22.640
+want to accept and then it will optimize
+
+00:25:20.000 --> 00:25:25.279
+the experience for the user so
+
+00:25:22.640 --> 00:25:28.080
+this is an example of a numeric field
+
+00:25:25.279 --> 00:25:30.640
+which surprisingly accepts numbers and
+
+00:25:28.080 --> 00:25:32.240
+so if you use this on a say android
+
+00:25:30.640 --> 00:25:35.279
+phone on the left or an iphone on the
+
+00:25:32.240 --> 00:25:37.760
+right you'll get a keyboard that is
+
+00:25:35.279 --> 00:25:39.520
+designed just to type in those values
+
+00:25:37.760 --> 00:25:41.279
+now that's a really useful thing for
+
+00:25:39.520 --> 00:25:43.279
+just any user right that's just more
+
+00:25:41.279 --> 00:25:45.919
+user friendly but
+
+00:25:43.279 --> 00:25:48.080
+if you have a physical
+
+00:25:45.919 --> 00:25:50.559
+disability and so let's say you're
+
+00:25:48.080 --> 00:25:51.760
+you're relying on technology to select
+
+00:25:50.559 --> 00:25:53.039
+these buttons
+
+00:25:51.760 --> 00:25:54.480
+that could be
+
+00:25:53.039 --> 00:25:56.640
+quite laborious
+
+00:25:54.480 --> 00:25:58.000
+so maybe for example you may you may not
+
+00:25:56.640 --> 00:26:00.400
+have seen this there's a technology you
+
+00:25:58.000 --> 00:26:03.039
+can use a phone with where you can push
+
+00:26:00.400 --> 00:26:04.799
+a single button to use the whole thing
+
+00:26:03.039 --> 00:26:06.480
+so you can push a button
+
+00:26:04.799 --> 00:26:08.480
+and it will kind of start scanning a
+
+00:26:06.480 --> 00:26:10.640
+line up and down the screen and then you
+
+00:26:08.480 --> 00:26:12.640
+push the button to say you know stop and
+
+00:26:10.640 --> 00:26:14.640
+then it will scan the screen from the
+
+00:26:12.640 --> 00:26:15.840
+left to the right besides the screen and
+
+00:26:14.640 --> 00:26:18.080
+then you'll push a button to stop and
+
+00:26:15.840 --> 00:26:19.840
+then wherever those two lines cross over
+
+00:26:18.080 --> 00:26:21.760
+is where you will click
+
+00:26:19.840 --> 00:26:24.159
+and that is an extremely time consuming
+
+00:26:21.760 --> 00:26:26.000
+process there's many variations of that
+
+00:26:24.159 --> 00:26:27.760
+but imagine you're trying to do that
+
+00:26:26.000 --> 00:26:29.760
+with a normal keyboard and just typing
+
+00:26:27.760 --> 00:26:31.440
+in some numbers having the right
+
+00:26:29.760 --> 00:26:34.400
+keyboard selected
+
+00:26:31.440 --> 00:26:36.400
+saves you a ton of effort it's so much
+
+00:26:34.400 --> 00:26:39.679
+faster it's unbelievable and it's so
+
+00:26:36.400 --> 00:26:42.080
+easy to add so literally just you know a
+
+00:26:39.679 --> 00:26:43.200
+few characters in in your fields
+
+00:26:42.080 --> 00:26:44.880
+you've got the same kind of thing for
+
+00:26:43.200 --> 00:26:46.799
+things like phone numbers exactly the
+
+00:26:44.880 --> 00:26:50.640
+same just a slightly different keyboard
+
+00:26:46.799 --> 00:26:51.679
+and I ios I think recognizes oh
+
+00:26:50.640 --> 00:26:53.120
+you want a phone number here's some
+
+00:26:51.679 --> 00:26:56.080
+phone numbers I know
+
+00:26:53.120 --> 00:26:57.520
+and likewise email addresses urls
+
+00:26:56.080 --> 00:26:58.960
+pretty much everything you can think of
+
+00:26:57.520 --> 00:27:00.880
+there's some kind of input mode so it's
+
+00:26:58.960 --> 00:27:02.000
+worth worth adding those
+
+00:27:00.880 --> 00:27:04.159
+um
+
+00:27:02.000 --> 00:27:07.039
+why does any of it matter well it's
+
+00:27:04.159 --> 00:27:09.120
+reducing the cognitive burden for one so
+
+00:27:07.039 --> 00:27:10.400
+it gives people less to think about they
+
+00:27:09.120 --> 00:27:12.720
+don't have to go
+
+00:27:10.400 --> 00:27:14.000
+wait a minute what is my address I mean
+
+00:27:12.720 --> 00:27:15.760
+you may not think of that as a hard
+
+00:27:14.000 --> 00:27:18.480
+problem but it is actually a challenge
+
+00:27:15.760 --> 00:27:20.320
+for some and when you get into more
+
+00:27:18.480 --> 00:27:22.000
+difficult areas like what's your credit
+
+00:27:20.320 --> 00:27:24.080
+card number I think we can all
+
+00:27:22.000 --> 00:27:26.000
+appreciate that we don't
+
+00:27:24.080 --> 00:27:29.360
+usually remember all of that information
+
+00:27:26.000 --> 00:27:31.279
+and automating it is better
+
+00:27:29.360 --> 00:27:33.440
+if you're working with accessible tech
+
+00:27:31.279 --> 00:27:35.200
+it's literally saving you physical labor
+
+00:27:33.440 --> 00:27:38.320
+to type this information in it's just
+
+00:27:35.200 --> 00:27:40.320
+good for everyone and in wk 2.1 this is
+
+00:27:38.320 --> 00:27:42.799
+actually required so you really should
+
+00:27:40.320 --> 00:27:42.799
+be doing this
+
+00:27:43.360 --> 00:27:47.360
+right let's talk about accessible labels
+
+00:27:45.520 --> 00:27:48.399
+so hopefully you already know this this
+
+00:27:47.360 --> 00:27:49.520
+is kind of
+
+00:27:48.399 --> 00:27:51.279
+bread and butter stuff but let's get
+
+00:27:49.520 --> 00:27:53.679
+started with the basics so
+
+00:27:51.279 --> 00:27:54.960
+all fields as you saw earlier must have
+
+00:27:53.679 --> 00:27:56.159
+a label
+
+00:27:54.960 --> 00:27:58.960
+and the reason you need a label is
+
+00:27:56.159 --> 00:28:00.480
+because you need something to read out
+
+00:27:58.960 --> 00:28:01.600
+in accessible tech you need to be able
+
+00:28:00.480 --> 00:28:03.840
+to say
+
+00:28:01.600 --> 00:28:05.600
+this field is
+
+00:28:03.840 --> 00:28:06.399
+i don't know in this case full name
+
+00:28:05.600 --> 00:28:07.760
+right
+
+00:28:06.399 --> 00:28:10.880
+so you typically have code where you
+
+00:28:07.760 --> 00:28:13.760
+have a label tag that says I'm a label i
+
+00:28:10.880 --> 00:28:16.399
+am for this other thing this is my text
+
+00:28:13.760 --> 00:28:19.200
+and then you have the field and that
+
+00:28:16.399 --> 00:28:21.279
+says I am in this my id full name so
+
+00:28:19.200 --> 00:28:24.240
+that just links this label with this
+
+00:28:21.279 --> 00:28:25.840
+input nice and straightforward hopefully
+
+00:28:24.240 --> 00:28:27.279
+that's obvious and you're already doing
+
+00:28:25.840 --> 00:28:29.679
+that
+
+00:28:27.279 --> 00:28:31.279
+buttons as an example have implied
+
+00:28:29.679 --> 00:28:33.279
+labels so that means the label doesn't
+
+00:28:31.279 --> 00:28:35.120
+need to be stated you just put it inside
+
+00:28:33.279 --> 00:28:36.720
+the button so you have a button launch
+
+00:28:35.120 --> 00:28:39.440
+rocket and then that gets read out as
+
+00:28:36.720 --> 00:28:41.520
+something like launch rocket button
+
+00:28:39.440 --> 00:28:42.960
+again nice and simple
+
+00:28:41.520 --> 00:28:45.440
+but then we have problems
+
+00:28:42.960 --> 00:28:48.480
+so sometimes we have a form like this so
+
+00:28:45.440 --> 00:28:51.279
+you've got a search field say and you
+
+00:28:48.480 --> 00:28:54.080
+either don't want to put in a visual
+
+00:28:51.279 --> 00:28:55.679
+label or you you can't afford space
+
+00:28:54.080 --> 00:28:57.279
+an argument it's a bit of a debate but
+
+00:28:55.679 --> 00:28:58.799
+an argument can be made that this does
+
+00:28:57.279 --> 00:29:00.159
+not require
+
+00:28:58.799 --> 00:29:01.120
+a label
+
+00:29:00.159 --> 00:29:03.919
+um
+
+00:29:01.120 --> 00:29:05.760
+for sighted users because you could
+
+00:29:03.919 --> 00:29:07.840
+say well look there's a clear search
+
+00:29:05.760 --> 00:29:09.360
+button to the right this is a search
+
+00:29:07.840 --> 00:29:11.039
+field so it's not magnifying glass and
+
+00:29:09.360 --> 00:29:12.640
+stuff it's it's it's pretty clear that
+
+00:29:11.039 --> 00:29:14.480
+that is a search it's in the top right
+
+00:29:12.640 --> 00:29:16.320
+corner of the site people are used to it
+
+00:29:14.480 --> 00:29:17.440
+you could make that argument and so you
+
+00:29:16.320 --> 00:29:19.120
+could say
+
+00:29:17.440 --> 00:29:21.039
+in this case you would use
+
+00:29:19.120 --> 00:29:23.039
+arya label and you would actually
+
+00:29:21.039 --> 00:29:25.200
+specify what you would normally have put
+
+00:29:23.039 --> 00:29:26.399
+in a label you would put that inside the
+
+00:29:25.200 --> 00:29:28.640
+form itself
+
+00:29:26.399 --> 00:29:31.440
+so if you did that it would be read out
+
+00:29:28.640 --> 00:29:33.520
+as search example field oh sorry search
+
+00:29:31.440 --> 00:29:36.080
+example dot com field or some equivalent
+
+00:29:33.520 --> 00:29:38.320
+depending on their screen reader
+
+00:29:36.080 --> 00:29:42.000
+so you gain the label without having to
+
+00:29:38.320 --> 00:29:44.159
+have a label alternatively you can
+
+00:29:42.000 --> 00:29:46.320
+add a label and hide it so you know
+
+00:29:44.159 --> 00:29:47.760
+something like style display none
+
+00:29:46.320 --> 00:29:49.120
+that works it's exactly the same
+
+00:29:47.760 --> 00:29:51.120
+basically it's just a little bit more
+
+00:29:49.120 --> 00:29:52.840
+code so probably wouldn't bother but
+
+00:29:51.120 --> 00:29:55.520
+whatever works
+
+00:29:52.840 --> 00:29:57.600
+aria label is also useful when you
+
+00:29:55.520 --> 00:29:59.120
+have things like buttons which don't
+
+00:29:57.600 --> 00:29:59.840
+contain text
+
+00:29:59.120 --> 00:30:01.200
+so
+
+00:29:59.840 --> 00:30:02.720
+like this button does not contain
+
+00:30:01.200 --> 00:30:05.200
+anything you could read out aloud it
+
+00:30:02.720 --> 00:30:06.880
+just contains a graphic right so
+
+00:30:05.200 --> 00:30:09.120
+you can use aria label to say this is a
+
+00:30:06.880 --> 00:30:10.799
+close button
+
+00:30:09.120 --> 00:30:13.039
+there's also something called aria
+
+00:30:10.799 --> 00:30:16.000
+labelled by which is usually total
+
+00:30:13.039 --> 00:30:18.399
+overkill it's essentially allows you
+
+00:30:16.000 --> 00:30:20.880
+to do it the other way around so you say
+
+00:30:18.399 --> 00:30:22.880
+a field is labeled by something else
+
+00:30:20.880 --> 00:30:25.600
+that already exists and you can actually
+
+00:30:22.880 --> 00:30:27.679
+combine multiple labels so this example
+
+00:30:25.600 --> 00:30:30.000
+if you try and follow along is aria
+
+00:30:27.679 --> 00:30:31.120
+labeled by billing which is this header
+
+00:30:30.000 --> 00:30:33.440
+two at the top
+
+00:30:31.120 --> 00:30:35.279
+and then it's followed by name which is
+
+00:30:33.440 --> 00:30:36.960
+this div above it
+
+00:30:35.279 --> 00:30:38.720
+which confusingly isn't the label
+
+00:30:36.960 --> 00:30:40.640
+because this well because it's combining
+
+00:30:38.720 --> 00:30:42.000
+two of them and so you end up with
+
+00:30:40.640 --> 00:30:43.919
+this weird situation but what it'll do
+
+00:30:42.000 --> 00:30:45.360
+is it'll read out billing at the top and
+
+00:30:43.919 --> 00:30:47.120
+then name
+
+00:30:45.360 --> 00:30:48.640
+now there can be reasons to do this
+
+00:30:47.120 --> 00:30:49.919
+they're pretty esoteric we're gonna look
+
+00:30:48.640 --> 00:30:52.320
+at a better approach later on I wouldn't
+
+00:30:49.919 --> 00:30:55.200
+worry about it basically but it's
+
+00:30:52.320 --> 00:30:55.200
+useful to know what it does
+
+00:30:55.279 --> 00:30:59.360
+why do we even care about these labels
+
+00:30:57.279 --> 00:31:01.519
+well if you don't have
+
+00:30:59.360 --> 00:31:03.360
+labels then your screen reader is
+
+00:31:01.519 --> 00:31:05.279
+completely dead in the water it doesn't
+
+00:31:03.360 --> 00:31:07.600
+know what to say
+
+00:31:05.279 --> 00:31:10.320
+and things like voice control
+
+00:31:07.600 --> 00:31:12.559
+accessibility aids are also stuck
+
+00:31:10.320 --> 00:31:15.120
+because someone you may not notice
+
+00:31:12.559 --> 00:31:18.080
+people can say things like
+
+00:31:15.120 --> 00:31:20.240
+select the email field or press the
+
+00:31:18.080 --> 00:31:22.240
+launch rockets button or whatever they
+
+00:31:20.240 --> 00:31:23.600
+can say those things to some accessible
+
+00:31:22.240 --> 00:31:24.799
+technology so that their voice is
+
+00:31:23.600 --> 00:31:26.480
+understood
+
+00:31:24.799 --> 00:31:28.559
+and those technologies rely upon these
+
+00:31:26.480 --> 00:31:30.080
+labels so if you have no labels the
+
+00:31:28.559 --> 00:31:32.799
+whole thing falls apart it's completely
+
+00:31:30.080 --> 00:31:35.600
+inaccessible
+
+00:31:32.799 --> 00:31:35.600
+right so
+
+00:31:35.840 --> 00:31:41.039
+next up help and feedback
+
+00:31:38.559 --> 00:31:42.960
+so this may be surprising to many of you
+
+00:31:41.039 --> 00:31:45.440
+who have not spent a lot of time playing
+
+00:31:42.960 --> 00:31:47.760
+with screen readers so allow me to blow
+
+00:31:45.440 --> 00:31:49.600
+your mind maybe
+
+00:31:47.760 --> 00:31:51.600
+there is something called form mode this
+
+00:31:49.600 --> 00:31:54.320
+is in jaws it's in a few other screen
+
+00:31:51.600 --> 00:31:56.320
+readers and jaws is usually considered
+
+00:31:54.320 --> 00:31:57.440
+the most popular screen reader
+
+00:31:56.320 --> 00:31:58.880
+um
+
+00:31:57.440 --> 00:32:00.320
+and
+
+00:31:58.880 --> 00:32:01.279
+it's worth explaining what this is so
+
+00:32:00.320 --> 00:32:02.799
+you understand what's going to happen
+
+00:32:01.279 --> 00:32:06.000
+here because this is a really big deal
+
+00:32:02.799 --> 00:32:07.120
+and it's so easily overlooked
+
+00:32:06.000 --> 00:32:09.200
+normally when you're using a screen
+
+00:32:07.120 --> 00:32:11.679
+reader on a computer you are using the
+
+00:32:09.200 --> 00:32:13.600
+keyboard to step through the page so
+
+00:32:11.679 --> 00:32:16.159
+you're using various keyboard shortcuts
+
+00:32:13.600 --> 00:32:18.480
+to go you know go to the next link or go
+
+00:32:16.159 --> 00:32:20.320
+to the next word or sentence or whatever
+
+00:32:18.480 --> 00:32:21.519
+step back go to headings all that
+
+00:32:20.320 --> 00:32:24.000
+kind of things using the keyboard to
+
+00:32:21.519 --> 00:32:25.919
+navigate but then when you get into a
+
+00:32:24.000 --> 00:32:27.919
+form you have a problem because you need
+
+00:32:25.919 --> 00:32:29.279
+to be able to type so you can't use
+
+00:32:27.919 --> 00:32:30.559
+those keyboard shortcuts you have to be
+
+00:32:29.279 --> 00:32:32.240
+able to type
+
+00:32:30.559 --> 00:32:34.080
+into a field right
+
+00:32:32.240 --> 00:32:36.399
+so what typically happens is when you go
+
+00:32:34.080 --> 00:32:38.960
+inside a form
+
+00:32:36.399 --> 00:32:40.799
+one or two screen readers will change
+
+00:32:38.960 --> 00:32:42.480
+and they change into full mode and form
+
+00:32:40.799 --> 00:32:44.559
+mode doesn't
+
+00:32:42.480 --> 00:32:46.240
+use the same shortcuts and it doesn't
+
+00:32:44.559 --> 00:32:48.720
+work in the same way
+
+00:32:46.240 --> 00:32:50.559
+and this is the the crucial subtle part
+
+00:32:48.720 --> 00:32:51.840
+imagine you have a form like this
+
+00:32:50.559 --> 00:32:53.039
+right so you're asking someone for a
+
+00:32:51.840 --> 00:32:55.039
+password
+
+00:32:53.039 --> 00:32:56.720
+and you're telling them at the start
+
+00:32:55.039 --> 00:32:59.360
+before you get started you need to have
+
+00:32:56.720 --> 00:33:01.200
+five numbers 13 capital letters and one
+
+00:32:59.360 --> 00:33:02.559
+unusual emoji if you tell them it's
+
+00:33:01.200 --> 00:33:04.000
+really important information and you go
+
+00:33:02.559 --> 00:33:05.760
+into a screen reader
+
+00:33:04.000 --> 00:33:07.919
+and it doesn't read any of it it will
+
+00:33:05.760 --> 00:33:09.200
+completely skip it and they will not
+
+00:33:07.919 --> 00:33:10.960
+hear it at all
+
+00:33:09.200 --> 00:33:12.640
+instead they'll just get password
+
+00:33:10.960 --> 00:33:14.799
+field and you might be like wait what
+
+00:33:12.640 --> 00:33:16.640
+what's going on how what what how's that
+
+00:33:14.799 --> 00:33:17.919
+possible
+
+00:33:16.640 --> 00:33:19.600
+well
+
+00:33:17.919 --> 00:33:21.519
+let's have a look at the code
+
+00:33:19.600 --> 00:33:25.120
+in full mode
+
+00:33:21.519 --> 00:33:28.640
+once you go inside a form tag
+
+00:33:25.120 --> 00:33:32.320
+all of this text just gets ignored
+
+00:33:28.640 --> 00:33:34.559
+the navigation changes to step between
+
+00:33:32.320 --> 00:33:38.480
+the fields the interactive parts and
+
+00:33:34.559 --> 00:33:39.760
+everything else is skipped usually so
+
+00:33:38.480 --> 00:33:41.760
+what that means
+
+00:33:39.760 --> 00:33:43.120
+is literally all of this text is is
+
+00:33:41.760 --> 00:33:45.200
+never even heard and there's no way to
+
+00:33:43.120 --> 00:33:47.279
+hear it in fact you their their
+
+00:33:45.200 --> 00:33:48.320
+controls are just gonna go password and
+
+00:33:47.279 --> 00:33:50.240
+that's it
+
+00:33:48.320 --> 00:33:51.120
+this is obviously very bad
+
+00:33:50.240 --> 00:33:52.559
+um
+
+00:33:51.120 --> 00:33:54.399
+amazingly enough if you were to take the
+
+00:33:52.559 --> 00:33:57.200
+same form and just move that paragraph
+
+00:33:54.399 --> 00:33:58.399
+outside of the form it would be fine
+
+00:33:57.200 --> 00:34:01.760
+that is one way of dealing with this
+
+00:33:58.399 --> 00:34:03.279
+problem it's not a very scalable
+
+00:34:01.760 --> 00:34:04.960
+solution because you're gonna probably
+
+00:34:03.279 --> 00:34:07.279
+want a lot more text inside your form
+
+00:34:04.960 --> 00:34:08.800
+but that is one thing that you could you
+
+00:34:07.279 --> 00:34:11.839
+could do to handle this situation so
+
+00:34:08.800 --> 00:34:13.760
+let's let's look at a better way
+
+00:34:11.839 --> 00:34:15.119
+and this is field descriptions so you
+
+00:34:13.760 --> 00:34:17.839
+know the label
+
+00:34:15.119 --> 00:34:20.399
+so that's something like username here
+
+00:34:17.839 --> 00:34:22.079
+we've also got description
+
+00:34:20.399 --> 00:34:23.839
+so this is some text it's often
+
+00:34:22.079 --> 00:34:26.000
+displayed somewhere like at the bottom
+
+00:34:23.839 --> 00:34:27.440
+underneath the field something like this
+
+00:34:26.000 --> 00:34:31.119
+and this is information that kind of
+
+00:34:27.440 --> 00:34:33.359
+adds information to that field
+
+00:34:31.119 --> 00:34:36.000
+now if this was being read out
+
+00:34:33.359 --> 00:34:37.760
+because that that extra text is ignored
+
+00:34:36.000 --> 00:34:40.720
+the user of a screen reader might just
+
+00:34:37.760 --> 00:34:42.639
+hear something like username text field
+
+00:34:40.720 --> 00:34:43.919
+and that description is is not apparent
+
+00:34:42.639 --> 00:34:45.200
+to them
+
+00:34:43.919 --> 00:34:46.800
+what we need to do is we need to add a
+
+00:34:45.200 --> 00:34:49.440
+little bit of extra code and there's
+
+00:34:46.800 --> 00:34:51.839
+something called aria described by
+
+00:34:49.440 --> 00:34:54.399
+where what you do is you attach
+
+00:34:51.839 --> 00:34:56.480
+information that describes something
+
+00:34:54.399 --> 00:34:57.359
+to a control so in this case you would
+
+00:34:56.480 --> 00:34:58.800
+take
+
+00:34:57.359 --> 00:35:00.800
+the
+
+00:34:58.800 --> 00:35:03.200
+paragraph of
+
+00:35:00.800 --> 00:35:05.040
+the description at the bottom so this
+
+00:35:03.200 --> 00:35:06.960
+must contain at least five characters
+
+00:35:05.040 --> 00:35:09.599
+and you would attach this
+
+00:35:06.960 --> 00:35:12.320
+to the input above it right so you go
+
+00:35:09.599 --> 00:35:14.960
+aria described by username help and then
+
+00:35:12.320 --> 00:35:16.640
+below it id username help
+
+00:35:14.960 --> 00:35:19.680
+and by doing this you're actually saying
+
+00:35:16.640 --> 00:35:23.920
+that when I select this control
+
+00:35:19.680 --> 00:35:25.760
+i want this information read out as well
+
+00:35:23.920 --> 00:35:27.680
+so in this case you would get user name
+
+00:35:25.760 --> 00:35:28.720
+text field must contain at least five
+
+00:35:27.680 --> 00:35:30.400
+characters
+
+00:35:28.720 --> 00:35:32.000
+the crucial thing is if you're not doing
+
+00:35:30.400 --> 00:35:34.000
+already described by you're not getting
+
+00:35:32.000 --> 00:35:35.520
+that text okay and that's really
+
+00:35:34.000 --> 00:35:37.040
+surprising I think to most developers
+
+00:35:35.520 --> 00:35:38.000
+it's like wait what how is that even
+
+00:35:37.040 --> 00:35:39.520
+possible
+
+00:35:38.000 --> 00:35:41.520
+in particular it's often surprising
+
+00:35:39.520 --> 00:35:43.920
+because it depends on the screen reader
+
+00:35:41.520 --> 00:35:45.680
+if you're a mac user like me and you use
+
+00:35:43.920 --> 00:35:46.800
+voiceover this doesn't happen so you
+
+00:35:45.680 --> 00:35:50.079
+don't worry about this problem but if
+
+00:35:46.800 --> 00:35:52.240
+you say jaws on windows it does and jaws
+
+00:35:50.079 --> 00:35:53.839
+is more common so you you really need to
+
+00:35:52.240 --> 00:35:54.960
+be aware of it it's an easy thing to
+
+00:35:53.839 --> 00:35:57.040
+miss unless you're testing a lot of
+
+00:35:54.960 --> 00:35:58.320
+screen readers
+
+00:35:57.040 --> 00:36:00.960
+it's also useful for things like
+
+00:35:58.320 --> 00:36:03.440
+errors so you saw an error earlier on
+
+00:36:00.960 --> 00:36:07.200
+if you have error text and you don't
+
+00:36:03.440 --> 00:36:08.720
+link it this way you won't hear it so
+
+00:36:07.200 --> 00:36:09.680
+by doing something like this you could
+
+00:36:08.720 --> 00:36:12.480
+have
+
+00:36:09.680 --> 00:36:13.920
+the username is taken attached to that
+
+00:36:12.480 --> 00:36:17.359
+field and then that information will be
+
+00:36:13.920 --> 00:36:19.520
+read out when the field is selected
+
+00:36:17.359 --> 00:36:22.960
+okay and then last of all for semantics
+
+00:36:19.520 --> 00:36:25.359
+we're going to look at grouping fields
+
+00:36:22.960 --> 00:36:28.560
+so what on earth does that mean well
+
+00:36:25.359 --> 00:36:29.839
+there is a concept in html known as a
+
+00:36:28.560 --> 00:36:32.480
+field set
+
+00:36:29.839 --> 00:36:35.119
+and this is basically a collection of
+
+00:36:32.480 --> 00:36:37.680
+fields I guess it's a set of fields
+
+00:36:35.119 --> 00:36:39.599
+and inside a field set you have a legend
+
+00:36:37.680 --> 00:36:40.720
+which is kind of like a heading for the
+
+00:36:39.599 --> 00:36:42.640
+field set
+
+00:36:40.720 --> 00:36:45.040
+typically appears at the top like this
+
+00:36:42.640 --> 00:36:46.720
+here we have one called languages spoken
+
+00:36:45.040 --> 00:36:48.960
+and then you have whatever contents you
+
+00:36:46.720 --> 00:36:51.440
+need so whatever fields you want inside
+
+00:36:48.960 --> 00:36:53.119
+the field set and that's it nice and
+
+00:36:51.440 --> 00:36:54.640
+simple
+
+00:36:53.119 --> 00:36:56.400
+why on earth does this matter why do we
+
+00:36:54.640 --> 00:36:58.720
+care well
+
+00:36:56.400 --> 00:37:00.160
+let's look at some radio buttons without
+
+00:36:58.720 --> 00:37:03.680
+a field set
+
+00:37:00.160 --> 00:37:06.800
+you may remember that
+
+00:37:03.680 --> 00:37:09.520
+the text that is not directly linked to
+
+00:37:06.800 --> 00:37:11.440
+a field is going to be ignored right so
+
+00:37:09.520 --> 00:37:13.119
+this header two you have here choose
+
+00:37:11.440 --> 00:37:14.960
+your favorite monster
+
+00:37:13.119 --> 00:37:16.000
+that is going to be ignored
+
+00:37:14.960 --> 00:37:18.160
+amazingly enough because you're in a
+
+00:37:16.000 --> 00:37:20.160
+form so you're just you're not gonna
+
+00:37:18.160 --> 00:37:21.520
+hear that you're just gonna hear
+
+00:37:20.160 --> 00:37:24.079
+something like
+
+00:37:21.520 --> 00:37:26.960
+kraken radio button sasquatch radio
+
+00:37:24.079 --> 00:37:28.400
+button mothman radio button that's it
+
+00:37:26.960 --> 00:37:30.320
+and you can select one you don't
+
+00:37:28.400 --> 00:37:32.640
+actually know what the question is
+
+00:37:30.320 --> 00:37:35.040
+and normally for a field you would add a
+
+00:37:32.640 --> 00:37:36.320
+label to the field to say this is what
+
+00:37:35.040 --> 00:37:38.560
+the question is but you can't do that
+
+00:37:36.320 --> 00:37:41.200
+with a radio button because radio button
+
+00:37:38.560 --> 00:37:43.440
+the label is the value right so you need
+
+00:37:41.200 --> 00:37:45.359
+a way of grouping all these together so
+
+00:37:43.440 --> 00:37:46.800
+you really have to for radio buttons you
+
+00:37:45.359 --> 00:37:49.119
+have to use
+
+00:37:46.800 --> 00:37:50.960
+a field set and so you do a field set
+
+00:37:49.119 --> 00:37:54.240
+you add a legend which is now your your
+
+00:37:50.960 --> 00:37:55.680
+title and then it's exactly the same
+
+00:37:54.240 --> 00:37:57.040
+right but the the difference is when
+
+00:37:55.680 --> 00:37:58.560
+this is being read out you're going to
+
+00:37:57.040 --> 00:38:00.480
+hear something like
+
+00:37:58.560 --> 00:38:01.680
+choose your favorite monster mothman
+
+00:38:00.480 --> 00:38:04.800
+radio button choose your favorite
+
+00:38:01.680 --> 00:38:06.720
+monster kraken radio button and so on so
+
+00:38:04.800 --> 00:38:08.480
+it becomes quite apparent what you're
+
+00:38:06.720 --> 00:38:11.520
+being asked and what your answers are
+
+00:38:08.480 --> 00:38:11.520
+and it's easy to work with
+
+00:38:12.160 --> 00:38:15.520
+where else would you do this well it's
+
+00:38:14.160 --> 00:38:17.119
+the same for checkboxes if you've got a
+
+00:38:15.520 --> 00:38:19.920
+whole set of check boxes exactly the
+
+00:38:17.119 --> 00:38:21.599
+same problem applies so same thing
+
+00:38:19.920 --> 00:38:24.320
+also if you've got related sets of
+
+00:38:21.599 --> 00:38:27.520
+fields so things like addresses here
+
+00:38:24.320 --> 00:38:27.520
+these addresses are
+
+00:38:28.000 --> 00:38:31.359
+related and they're all a home address
+
+00:38:30.079 --> 00:38:33.599
+but you don't really want to say home
+
+00:38:31.359 --> 00:38:36.000
+address street home address city home
+
+00:38:33.599 --> 00:38:39.359
+address postcode for each label
+
+00:38:36.000 --> 00:38:41.359
+and again they won't hear the heading
+
+00:38:39.359 --> 00:38:42.800
+or the text or whatever above your field
+
+00:38:41.359 --> 00:38:44.839
+so you have to link them so doing a
+
+00:38:42.800 --> 00:38:47.359
+field set is a good solution
+
+00:38:44.839 --> 00:38:50.320
+here and yeah without that the
+
+00:38:47.359 --> 00:38:52.079
+context is not otherwise apparent
+
+00:38:50.320 --> 00:38:53.599
+okay and then last of all I know we're
+
+00:38:52.079 --> 00:38:55.520
+running a little low on time so I'm
+
+00:38:53.599 --> 00:38:56.400
+doing my best to to speed through
+
+00:38:55.520 --> 00:38:58.400
+this
+
+00:38:56.400 --> 00:39:00.320
+flow
+
+00:38:58.400 --> 00:39:03.040
+so this is like looking at how your
+
+00:39:00.320 --> 00:39:04.320
+forms kind of go from start to finish
+
+00:39:03.040 --> 00:39:05.760
+so the first
+
+00:39:04.320 --> 00:39:08.000
+big question you might want to ask
+
+00:39:05.760 --> 00:39:09.440
+yourself is do you want a single or a
+
+00:39:08.000 --> 00:39:10.480
+multi-page
+
+00:39:09.440 --> 00:39:12.320
+form
+
+00:39:10.480 --> 00:39:14.079
+in fact most people are so ingrained to
+
+00:39:12.320 --> 00:39:15.200
+this they only do single page forms but
+
+00:39:14.079 --> 00:39:16.320
+it's definitely worth considering the
+
+00:39:15.200 --> 00:39:17.280
+alternative
+
+00:39:16.320 --> 00:39:19.760
+so
+
+00:39:17.280 --> 00:39:21.839
+gov uk which is done by gds and they
+
+00:39:19.760 --> 00:39:23.200
+really know what they're doing
+
+00:39:21.839 --> 00:39:26.640
+they
+
+00:39:23.200 --> 00:39:28.160
+are strong advocates of multi-page forms
+
+00:39:26.640 --> 00:39:31.760
+so chances are you've actually used one
+
+00:39:28.160 --> 00:39:34.320
+of these what they do is they have
+
+00:39:31.760 --> 00:39:36.720
+a form like this is to register to vote
+
+00:39:34.320 --> 00:39:38.400
+where every single page
+
+00:39:36.720 --> 00:39:40.800
+gets a single
+
+00:39:38.400 --> 00:39:42.160
+question right so literally they have a
+
+00:39:40.800 --> 00:39:44.400
+header one at the top there you know
+
+00:39:42.160 --> 00:39:46.320
+where do you live and then there's just
+
+00:39:44.400 --> 00:39:47.839
+the answers and then continue that's it
+
+00:39:46.320 --> 00:39:49.760
+right
+
+00:39:47.839 --> 00:39:51.200
+but it doesn't mean they have one field
+
+00:39:49.760 --> 00:39:52.960
+per question they might have several
+
+00:39:51.200 --> 00:39:55.280
+fields they might you know say what is
+
+00:39:52.960 --> 00:39:57.440
+your date of birth and you've got three
+
+00:39:55.280 --> 00:39:59.200
+fields to type in or maybe
+
+00:39:57.440 --> 00:40:01.440
+something else to select to say I don't
+
+00:39:59.200 --> 00:40:03.760
+know I guess that's a weird question but
+
+00:40:01.440 --> 00:40:06.160
+pretend
+
+00:40:03.760 --> 00:40:08.720
+and but they keep it focused right it's
+
+00:40:06.160 --> 00:40:10.800
+a single question per page very direct
+
+00:40:08.720 --> 00:40:12.240
+very simple there are a lot of benefits
+
+00:40:10.800 --> 00:40:13.760
+to this approach
+
+00:40:12.240 --> 00:40:15.520
+it worth considering
+
+00:40:13.760 --> 00:40:17.839
+one is that you can retain progress
+
+00:40:15.520 --> 00:40:19.520
+because every time they submit the form
+
+00:40:17.839 --> 00:40:21.920
+you could save what they've done so far
+
+00:40:19.520 --> 00:40:24.000
+and keep it for later which is great
+
+00:40:21.920 --> 00:40:25.520
+you're lowering the amount of cognition
+
+00:40:24.000 --> 00:40:26.880
+required so they don't really need to
+
+00:40:25.520 --> 00:40:29.440
+think about it much which is good for
+
+00:40:26.880 --> 00:40:31.119
+everyone it's nice to just have an
+
+00:40:29.440 --> 00:40:32.240
+interface we're not really trying to
+
+00:40:31.119 --> 00:40:34.480
+think about it but for some people
+
+00:40:32.240 --> 00:40:37.680
+that's a real barrier to their
+
+00:40:34.480 --> 00:40:39.200
+accessibility so good to keep in mind
+
+00:40:37.680 --> 00:40:40.640
+generally this approach is super super
+
+00:40:39.200 --> 00:40:42.480
+accessible you'll see a little bit more
+
+00:40:40.640 --> 00:40:45.200
+detail in a minute but it's great for
+
+00:40:42.480 --> 00:40:46.400
+things like validation and so on and
+
+00:40:45.200 --> 00:40:48.400
+just generally works really well screen
+
+00:40:46.400 --> 00:40:50.480
+readers you're not hearing unnecessary
+
+00:40:48.400 --> 00:40:52.160
+stuff every time you load a page
+
+00:40:50.480 --> 00:40:55.280
+and it's just yeah really really user
+
+00:40:52.160 --> 00:40:57.599
+friendly the only real cons and it's
+
+00:40:55.280 --> 00:40:59.359
+unfortunate that they exist
+
+00:40:57.599 --> 00:41:01.040
+a lot of existing technology for things
+
+00:40:59.359 --> 00:41:02.079
+like forms doesn't
+
+00:41:01.040 --> 00:41:03.839
+you know
+
+00:41:02.079 --> 00:41:05.280
+allow for this like if you've got an
+
+00:41:03.839 --> 00:41:07.440
+existing cms or whatever maybe it
+
+00:41:05.280 --> 00:41:10.079
+doesn't let you build them and for
+
+00:41:07.440 --> 00:41:12.160
+some forms it can be harder to go back
+
+00:41:10.079 --> 00:41:14.400
+than just like scrolling up the form and
+
+00:41:12.160 --> 00:41:15.920
+changing a field but in almost every
+
+00:41:14.400 --> 00:41:17.280
+other possible way these are generally
+
+00:41:15.920 --> 00:41:20.160
+better especially if you've got a lot of
+
+00:41:17.280 --> 00:41:22.480
+questions being asked
+
+00:41:20.160 --> 00:41:24.400
+so we just look at validation there's
+
+00:41:22.480 --> 00:41:26.480
+two things you can do validation there's
+
+00:41:24.400 --> 00:41:28.000
+validating before you submit a form and
+
+00:41:26.480 --> 00:41:30.160
+then there's validating
+
+00:41:28.000 --> 00:41:32.000
+after you submit form so
+
+00:41:30.160 --> 00:41:34.480
+before is when you're like typing stuff
+
+00:41:32.000 --> 00:41:36.079
+in and you get feedback straight away so
+
+00:41:34.480 --> 00:41:39.200
+let's look at that
+
+00:41:36.079 --> 00:41:41.359
+so imagine you're writing some kind
+
+00:41:39.200 --> 00:41:42.720
+of messaging system
+
+00:41:41.359 --> 00:41:44.400
+this looks obviously distinctly similar
+
+00:41:42.720 --> 00:41:46.079
+to twitter
+
+00:41:44.400 --> 00:41:47.920
+and you want to write a message and
+
+00:41:46.079 --> 00:41:49.599
+you're going to have some indicator that
+
+00:41:47.920 --> 00:41:51.599
+you can only type in a certain number of
+
+00:41:49.599 --> 00:41:52.960
+characters now this is something you're
+
+00:41:51.599 --> 00:41:56.160
+used to seeing
+
+00:41:52.960 --> 00:41:57.920
+quite often in forms but it's not
+
+00:41:56.160 --> 00:42:00.160
+obvious how you would make this
+
+00:41:57.920 --> 00:42:02.800
+accessible because that information at
+
+00:42:00.160 --> 00:42:04.480
+200 characters left unless you you
+
+00:42:02.800 --> 00:42:06.720
+know if you're having it read out to you
+
+00:42:04.480 --> 00:42:08.480
+you're typing but then
+
+00:42:06.720 --> 00:42:10.160
+you'd have to like go to the next part
+
+00:42:08.480 --> 00:42:12.160
+of the form or something or like how how
+
+00:42:10.160 --> 00:42:13.920
+would you know that it says 200
+
+00:42:12.160 --> 00:42:14.880
+characters left it's not it's not
+
+00:42:13.920 --> 00:42:16.079
+obvious
+
+00:42:14.880 --> 00:42:17.680
+and it turns out there's a technology
+
+00:42:16.079 --> 00:42:19.119
+for this which is kind of amazing called
+
+00:42:17.680 --> 00:42:20.400
+aria live
+
+00:42:19.119 --> 00:42:21.599
+um
+
+00:42:20.400 --> 00:42:23.920
+I'm going to simplify it a little bit
+
+00:42:21.599 --> 00:42:26.160
+here but the basic idea is
+
+00:42:23.920 --> 00:42:28.319
+you mark part of the page
+
+00:42:26.160 --> 00:42:31.119
+with this aria live tag so this is
+
+00:42:28.319 --> 00:42:33.200
+the bottom span here and this one is
+
+00:42:31.119 --> 00:42:34.480
+marked as polite
+
+00:42:33.200 --> 00:42:36.480
+which is what I normally recommend you
+
+00:42:34.480 --> 00:42:39.119
+use so basically that means
+
+00:42:36.480 --> 00:42:41.040
+i want to read out what's in here
+
+00:42:39.119 --> 00:42:43.200
+but don't interrupt anything right so
+
+00:42:41.040 --> 00:42:44.960
+that's the polite part there's also
+
+00:42:43.200 --> 00:42:46.640
+assertive which means I want you to read
+
+00:42:44.960 --> 00:42:48.160
+out what's in here and I don't care what
+
+00:42:46.640 --> 00:42:50.240
+you're saying at the moment stop and
+
+00:42:48.160 --> 00:42:52.319
+read this first so you can use that for
+
+00:42:50.240 --> 00:42:54.319
+really really urgent information but
+
+00:42:52.319 --> 00:42:56.000
+generally aria life polite what that
+
+00:42:54.319 --> 00:42:58.720
+will do is it will read this information
+
+00:42:56.000 --> 00:43:00.000
+out if it changes
+
+00:42:58.720 --> 00:43:02.000
+so what that means is you could take
+
+00:43:00.000 --> 00:43:03.119
+your existing little form system you had
+
+00:43:02.000 --> 00:43:05.599
+here
+
+00:43:03.119 --> 00:43:07.920
+and it will say 200 characters left
+
+00:43:05.599 --> 00:43:09.680
+but if you change that text so let's say
+
+00:43:07.920 --> 00:43:11.040
+the user types in some characters and
+
+00:43:09.680 --> 00:43:12.400
+they're typing away and remember they're
+
+00:43:11.040 --> 00:43:14.960
+using a screen reader so they just hear
+
+00:43:12.400 --> 00:43:17.680
+what they're typing you know h-e-l-l
+
+00:43:14.960 --> 00:43:19.200
+whatever as they they're typing in words
+
+00:43:17.680 --> 00:43:21.440
+they'll hear them read out to them but
+
+00:43:19.200 --> 00:43:24.079
+when they stop for a minute when they
+
+00:43:21.440 --> 00:43:26.960
+take a pause
+
+00:43:24.079 --> 00:43:28.400
+your the aria live means the browser
+
+00:43:26.960 --> 00:43:30.040
+will go all right let me look at this
+
+00:43:28.400 --> 00:43:32.720
+text oh it says
+
+00:43:30.040 --> 00:43:34.720
+160 characters left and it will speak
+
+00:43:32.720 --> 00:43:38.079
+that out to them so this is a really
+
+00:43:34.720 --> 00:43:39.200
+useful way to give someone auditory
+
+00:43:38.079 --> 00:43:42.000
+feedback
+
+00:43:39.200 --> 00:43:44.720
+on a control even when they they have no
+
+00:43:42.000 --> 00:43:46.560
+you know other way of perceiving it
+
+00:43:44.720 --> 00:43:48.640
+and actually not getting in their way it
+
+00:43:46.560 --> 00:43:51.200
+kind of you know only bugs them when
+
+00:43:48.640 --> 00:43:54.240
+there's like a gap in what they're doing
+
+00:43:51.200 --> 00:43:56.400
+so it's super super handy for that
+
+00:43:54.240 --> 00:43:58.079
+okay and then the opposite side of
+
+00:43:56.400 --> 00:43:59.440
+that is validating forms that have just
+
+00:43:58.079 --> 00:44:00.880
+been fully submitted so that's when you
+
+00:43:59.440 --> 00:44:02.240
+like you know press a button and you
+
+00:44:00.880 --> 00:44:03.599
+save it or whatever
+
+00:44:02.240 --> 00:44:05.680
+so I'm just going to give you one
+
+00:44:03.599 --> 00:44:07.680
+example but it's a really really good
+
+00:44:05.680 --> 00:44:09.200
+one this is
+
+00:44:07.680 --> 00:44:10.079
+gds again because they know what they're
+
+00:44:09.200 --> 00:44:13.839
+doing
+
+00:44:10.079 --> 00:44:16.319
+they have a fantastic user
+
+00:44:13.839 --> 00:44:18.160
+experience for validating forms so let's
+
+00:44:16.319 --> 00:44:20.560
+break it down and see what we can learn
+
+00:44:18.160 --> 00:44:22.640
+the three key components
+
+00:44:20.560 --> 00:44:25.200
+the first is when you submit a form
+
+00:44:22.640 --> 00:44:26.240
+they put feedback in the title of the
+
+00:44:25.200 --> 00:44:28.160
+page
+
+00:44:26.240 --> 00:44:31.200
+so as you can see in this the the
+
+00:44:28.160 --> 00:44:33.200
+heading of the like the the tab here
+
+00:44:31.200 --> 00:44:34.400
+they don't just have some generic title
+
+00:44:33.200 --> 00:44:36.480
+they will actually say something like
+
+00:44:34.400 --> 00:44:38.960
+error where do you live which is telling
+
+00:44:36.480 --> 00:44:41.040
+you that field you typed in is wrong
+
+00:44:38.960 --> 00:44:42.319
+or they might say you know
+
+00:44:41.040 --> 00:44:44.240
+thank you for
+
+00:44:42.319 --> 00:44:45.119
+completing your passport application or
+
+00:44:44.240 --> 00:44:45.920
+whatever
+
+00:44:45.119 --> 00:44:46.640
+um
+
+00:44:45.920 --> 00:44:48.319
+so
+
+00:44:46.640 --> 00:44:49.839
+the reason why that matters is because a
+
+00:44:48.319 --> 00:44:52.160
+screen reader will read out the title
+
+00:44:49.839 --> 00:44:53.280
+first so it gives them immediate
+
+00:44:52.160 --> 00:44:55.920
+feedback that what they've just
+
+00:44:53.280 --> 00:44:58.160
+submitted did or did not work and that's
+
+00:44:55.920 --> 00:44:59.599
+not usually obvious if they don't get
+
+00:44:58.160 --> 00:45:02.079
+that they have to kind of go for the
+
+00:44:59.599 --> 00:45:03.680
+page and next next next next until they
+
+00:45:02.079 --> 00:45:05.359
+get to where the form was and then they
+
+00:45:03.680 --> 00:45:07.280
+hear all of the bits about the form and
+
+00:45:05.359 --> 00:45:09.440
+they hopefully guess that the form was
+
+00:45:07.280 --> 00:45:11.680
+submitted correctly you know what if the
+
+00:45:09.440 --> 00:45:13.760
+form is still there and nothing changed
+
+00:45:11.680 --> 00:45:17.520
+they wouldn't know so this this tells
+
+00:45:13.760 --> 00:45:19.119
+them what did or did work or didn't work
+
+00:45:17.520 --> 00:45:21.200
+then they provide an error summary so
+
+00:45:19.119 --> 00:45:22.880
+this is useful also for screen reader
+
+00:45:21.200 --> 00:45:26.560
+users but it's useful for just basically
+
+00:45:22.880 --> 00:45:28.000
+everyone imagine you're not an
+
+00:45:26.560 --> 00:45:30.480
+especially technical user you're not
+
+00:45:28.000 --> 00:45:32.319
+very comfortable with computers you
+
+00:45:30.480 --> 00:45:34.720
+may not even really know what to look
+
+00:45:32.319 --> 00:45:36.960
+for maybe you have a cognitive
+
+00:45:34.720 --> 00:45:38.000
+impairment or similar this makes it
+
+00:45:36.960 --> 00:45:40.400
+really
+
+00:45:38.000 --> 00:45:43.119
+screamingly obvious that something did
+
+00:45:40.400 --> 00:45:44.640
+not work with what you just did it's
+
+00:45:43.119 --> 00:45:47.520
+literally stated there is a problem it's
+
+00:45:44.640 --> 00:45:50.240
+got a big red yellow border and
+
+00:45:47.520 --> 00:45:52.240
+there's a link crucially to where the
+
+00:45:50.240 --> 00:45:54.079
+specific problem is that you can click
+
+00:45:52.240 --> 00:45:55.839
+on and that will that takes you down to
+
+00:45:54.079 --> 00:45:56.880
+the field where the actual error
+
+00:45:55.839 --> 00:45:58.400
+occurred
+
+00:45:56.880 --> 00:46:00.160
+there's also a few other subtle things
+
+00:45:58.400 --> 00:46:01.040
+they're doing correctly here they've
+
+00:46:00.160 --> 00:46:03.359
+got
+
+00:46:01.040 --> 00:46:06.240
+a roll of alerts that is another way
+
+00:46:03.359 --> 00:46:10.079
+of doing aria live equals assertive it's
+
+00:46:06.240 --> 00:46:11.359
+the same basically so that is go it's
+
+00:46:10.079 --> 00:46:12.800
+going to interrupt the user it's
+
+00:46:11.359 --> 00:46:14.640
+literally going to say well there was a
+
+00:46:12.800 --> 00:46:15.839
+problem I need to say this right away
+
+00:46:14.640 --> 00:46:17.359
+so as soon as the title's read out
+
+00:46:15.839 --> 00:46:19.440
+they're going to hear that
+
+00:46:17.359 --> 00:46:21.040
+and then this tab index actually allows
+
+00:46:19.440 --> 00:46:22.880
+the user to select
+
+00:46:21.040 --> 00:46:24.880
+this div which is not normally the case
+
+00:46:22.880 --> 00:46:26.880
+so they can like tab to it and we even
+
+00:46:24.880 --> 00:46:28.400
+auto focus it and the reason why that's
+
+00:46:26.880 --> 00:46:29.920
+done is so that it doesn't matter if
+
+00:46:28.400 --> 00:46:33.040
+there's navigation or whatever above the
+
+00:46:29.920 --> 00:46:34.560
+page we skip all the way down to this so
+
+00:46:33.040 --> 00:46:37.599
+the user get you know go straight to
+
+00:46:34.560 --> 00:46:39.599
+where their attention needs to go to
+
+00:46:37.599 --> 00:46:42.319
+and then the last thing we do is what
+
+00:46:39.599 --> 00:46:43.920
+you saw earlier is they add a aria
+
+00:46:42.319 --> 00:46:45.760
+described by
+
+00:46:43.920 --> 00:46:48.400
+to point to an error message and they
+
+00:46:45.760 --> 00:46:49.520
+put that next to the specific field that
+
+00:46:48.400 --> 00:46:51.280
+has a problem
+
+00:46:49.520 --> 00:46:53.599
+and this is exactly what you saw
+
+00:46:51.280 --> 00:46:55.440
+earlier the only subtle distinction here
+
+00:46:53.599 --> 00:46:57.520
+they've got a field set so that's
+
+00:46:55.440 --> 00:46:58.480
+because they've got a series of radio
+
+00:46:57.520 --> 00:47:00.480
+buttons
+
+00:46:58.480 --> 00:47:02.640
+and so they attach the aria described
+
+00:47:00.480 --> 00:47:04.240
+by to the field set not
+
+00:47:02.640 --> 00:47:05.760
+to the individual value because that
+
+00:47:04.240 --> 00:47:07.760
+wouldn't make any sense you know you
+
+00:47:05.760 --> 00:47:09.520
+couldn't say england is an error or
+
+00:47:07.760 --> 00:47:10.720
+scotland's an error but you could say
+
+00:47:09.520 --> 00:47:13.359
+the whole
+
+00:47:10.720 --> 00:47:14.560
+set of these radio buttons is has a
+
+00:47:13.359 --> 00:47:15.680
+problem
+
+00:47:14.560 --> 00:47:17.440
+and that's it it's pretty
+
+00:47:15.680 --> 00:47:18.880
+straightforward they do an incredibly
+
+00:47:17.440 --> 00:47:20.800
+good job this stuff is not easy to pull
+
+00:47:18.880 --> 00:47:22.160
+off and it's basically the gold standard
+
+00:47:20.800 --> 00:47:25.359
+so I recommend you spend some time
+
+00:47:22.160 --> 00:47:27.599
+looking at that and then my last point
+
+00:47:25.359 --> 00:47:29.440
+is just going to be quickly on login
+
+00:47:27.599 --> 00:47:31.520
+which is just worth knowing about it's
+
+00:47:29.440 --> 00:47:33.520
+often one of the biggest barriers to
+
+00:47:31.520 --> 00:47:36.319
+accessibility that people have
+
+00:47:33.520 --> 00:47:39.440
+and you may not know this but the
+
+00:47:36.319 --> 00:47:42.880
+next version of wcag 2.2 which is still
+
+00:47:39.440 --> 00:47:45.599
+in draft is proposing that you basically
+
+00:47:42.880 --> 00:47:47.920
+get rid of passwords or at least you
+
+00:47:45.599 --> 00:47:49.920
+provide a password less
+
+00:47:47.920 --> 00:47:50.640
+option
+
+00:47:49.920 --> 00:47:52.480
+the
+
+00:47:50.640 --> 00:47:53.920
+if you haven't seen this before the idea
+
+00:47:52.480 --> 00:47:57.040
+like you can see here on the right hand
+
+00:47:53.920 --> 00:47:59.839
+side with sign into slack
+
+00:47:57.040 --> 00:48:01.200
+is that instead of logging in as normal
+
+00:47:59.839 --> 00:48:03.119
+you could type in something like an
+
+00:48:01.200 --> 00:48:04.000
+email address and then they will email
+
+00:48:03.119 --> 00:48:06.480
+you
+
+00:48:04.000 --> 00:48:07.839
+a link which when you click on it will
+
+00:48:06.480 --> 00:48:10.000
+log you in
+
+00:48:07.839 --> 00:48:11.760
+and the the reason why that's better for
+
+00:48:10.000 --> 00:48:14.400
+a lot of people is because it doesn't
+
+00:48:11.760 --> 00:48:15.920
+require them to remember a password
+
+00:48:14.400 --> 00:48:17.920
+it's
+
+00:48:15.920 --> 00:48:20.319
+so there's no there's no
+
+00:48:17.920 --> 00:48:21.680
+barrier to remembering a password typing
+
+00:48:20.319 --> 00:48:23.599
+in all these weird characters that could
+
+00:48:21.680 --> 00:48:26.079
+be very slow and laborious removes all
+
+00:48:23.599 --> 00:48:28.640
+of that and a lot of users prefer this
+
+00:48:26.079 --> 00:48:31.359
+anyway it's just good ux so
+
+00:48:28.640 --> 00:48:33.040
+another thing is showing passwords if
+
+00:48:31.359 --> 00:48:34.720
+you have to have passwords have a little
+
+00:48:33.040 --> 00:48:36.240
+button that lets people
+
+00:48:34.720 --> 00:48:37.520
+view them again this is really helpful
+
+00:48:36.240 --> 00:48:39.760
+for people with
+
+00:48:37.520 --> 00:48:42.079
+a variety of disabilities one of the
+
+00:48:39.760 --> 00:48:43.760
+less obvious is motor disability so you
+
+00:48:42.079 --> 00:48:45.760
+have tremors and you might tend to
+
+00:48:43.760 --> 00:48:47.200
+double type characters
+
+00:48:45.760 --> 00:48:48.800
+if you're typing in a 12 character
+
+00:48:47.200 --> 00:48:51.440
+password from memory and you don't know
+
+00:48:48.800 --> 00:48:55.680
+what you typed in wrong it's a nightmare
+
+00:48:51.440 --> 00:48:55.680
+this removes that makes it a lot easier
+
+00:48:56.000 --> 00:49:00.240
+right okay so somehow I managed to
+
+00:48:57.599 --> 00:49:02.640
+compress that in 52 minutes which is
+
+00:49:00.240 --> 00:49:05.440
+actually no 50 minutes so that was
+
+00:49:02.640 --> 00:49:07.760
+pretty crazy so no more
+
+00:49:05.440 --> 00:49:10.160
+you'll be pleased to hear
+
+00:49:07.760 --> 00:49:12.400
+but hopefully that gives you a broad
+
+00:49:10.160 --> 00:49:14.400
+overview of
+
+00:49:12.400 --> 00:49:15.520
+form accessibility from start to
+
+00:49:14.400 --> 00:49:17.359
+finish
+
+00:49:15.520 --> 00:49:19.599
+I'm just gonna talk about one last thing
+
+00:49:17.359 --> 00:49:21.920
+which is how do you test it
+
+00:49:19.599 --> 00:49:23.040
+and there's just a few basic
+
+00:49:21.920 --> 00:49:26.079
+approaches
+
+00:49:23.040 --> 00:49:27.839
+the first is use your forms through a
+
+00:49:26.079 --> 00:49:30.240
+keyboard right just
+
+00:49:27.839 --> 00:49:31.839
+make sure you can tab through the
+
+00:49:30.240 --> 00:49:33.599
+various fields so you can see when
+
+00:49:31.839 --> 00:49:35.839
+you're doing it you can fill them in you
+
+00:49:33.599 --> 00:49:37.520
+can select menus with arrow keys that
+
+00:49:35.839 --> 00:49:39.920
+kind of thing if you if you don't do
+
+00:49:37.520 --> 00:49:41.599
+that you're missing like I mean you're
+
+00:49:39.920 --> 00:49:42.960
+not accessible period and it's a really
+
+00:49:41.599 --> 00:49:44.319
+easy thing to do
+
+00:49:42.960 --> 00:49:46.400
+you should test with screen readers i
+
+00:49:44.319 --> 00:49:48.079
+always say this there's a screen reader
+
+00:49:46.400 --> 00:49:50.319
+that is freely available on every
+
+00:49:48.079 --> 00:49:52.800
+computer you have whether it's ios
+
+00:49:50.319 --> 00:49:54.880
+android mac pc doesn't matter they all
+
+00:49:52.800 --> 00:49:56.960
+support a free screen reader they're
+
+00:49:54.880 --> 00:49:59.760
+usually good you should just learn one
+
+00:49:56.960 --> 00:50:01.839
+and then try it of course you should
+
+00:49:59.760 --> 00:50:03.359
+talk to disabled users and you should
+
+00:50:01.839 --> 00:50:05.520
+get them to use
+
+00:50:03.359 --> 00:50:08.319
+your website and you should listen to
+
+00:50:05.520 --> 00:50:09.200
+them and also please pay them for it as
+
+00:50:08.319 --> 00:50:11.040
+well
+
+00:50:09.200 --> 00:50:12.640
+their experience is valuable
+
+00:50:11.040 --> 00:50:14.400
+and then lastly and I am of course
+
+00:50:12.640 --> 00:50:16.000
+biased here because I run Silktide
+
+00:50:14.400 --> 00:50:18.559
+and we do this for a living but there
+
+00:50:16.000 --> 00:50:21.359
+are automated tools there are
+
+00:50:18.559 --> 00:50:23.760
+platforms like ours which will look at
+
+00:50:21.359 --> 00:50:26.880
+all of the content and pages in your
+
+00:50:23.760 --> 00:50:28.559
+website and we will profile the most
+
+00:50:26.880 --> 00:50:30.720
+common and significant issues and we
+
+00:50:28.559 --> 00:50:31.839
+will raise them to your attention so
+
+00:50:30.720 --> 00:50:33.680
+you're seeing a little hint of that
+
+00:50:31.839 --> 00:50:35.920
+there on the right hand side
+
+00:50:33.680 --> 00:50:38.800
+of course all automated tools
+
+00:50:35.920 --> 00:50:41.040
+are not capable of testing everything
+
+00:50:38.800 --> 00:50:43.440
+that manual users will detect the main
+
+00:50:41.040 --> 00:50:45.599
+advantage of both approaches
+
+00:50:43.440 --> 00:50:48.640
+manual checks we'll look at things in
+
+00:50:45.599 --> 00:50:49.839
+great detail and we'll find
+
+00:50:48.640 --> 00:50:50.880
+nuances that a computer cannot
+
+00:50:49.839 --> 00:50:53.680
+appreciate
+
+00:50:50.880 --> 00:50:55.440
+but it's quite slow and expensive to do
+
+00:50:53.680 --> 00:50:57.359
+and you can only do it so often
+
+00:50:55.440 --> 00:50:58.640
+whereas automated tools
+
+00:50:57.359 --> 00:51:00.480
+are kind of the opposite right so
+
+00:50:58.640 --> 00:51:02.400
+automated tools will miss some things
+
+00:51:00.480 --> 00:51:04.079
+that only a person can see but they can
+
+00:51:02.400 --> 00:51:06.000
+test all of your content and they can do
+
+00:51:04.079 --> 00:51:07.520
+it really quickly and because they can
+
+00:51:06.000 --> 00:51:08.960
+do it quickly they can do it regularly
+
+00:51:07.520 --> 00:51:12.079
+so they can automatically check your
+
+00:51:08.960 --> 00:51:13.599
+things for accessibility and the
+
+00:51:12.079 --> 00:51:15.599
+the basically the only approach that
+
+00:51:13.599 --> 00:51:17.040
+works I think is to use both you you
+
+00:51:15.599 --> 00:51:17.920
+needed some combination of both all the
+
+00:51:17.040 --> 00:51:18.720
+time
+
+00:51:17.920 --> 00:51:20.480
+um
+
+00:51:18.720 --> 00:51:23.200
+we do things like you know highlight
+
+00:51:20.480 --> 00:51:24.960
+pages show you where the issues are
+
+00:51:23.200 --> 00:51:26.880
+preview them in mobile devices and
+
+00:51:24.960 --> 00:51:29.040
+actually indicate you know issues with
+
+00:51:26.880 --> 00:51:30.640
+all of the areas i've shown you today
+
+00:51:29.040 --> 00:51:33.359
+in an automated platform so if that's of
+
+00:51:30.640 --> 00:51:35.760
+interest to you you should check us out
+
+00:51:33.359 --> 00:51:38.000
+but that's enough for me today i
+
+00:51:35.760 --> 00:51:39.119
+appreciate we did shoot over by five
+
+00:51:38.000 --> 00:51:41.200
+minutes
+
+00:51:39.119 --> 00:51:42.800
+so I don't know if we really have
+
+00:51:41.200 --> 00:51:45.680
+time for questions but if anyone wants
+
+00:51:42.800 --> 00:51:48.480
+to throw them in I will do my best let's
+
+00:51:45.680 --> 00:51:51.359
+come out of here
+
+00:51:48.480 --> 00:51:55.280
+so
+
+00:51:51.359 --> 00:51:55.280
+oh goodness there we go
+
+00:51:58.400 --> 00:52:01.760
+i hope there are people still on the
+
+00:52:00.160 --> 00:52:04.000
+call
+
+00:52:01.760 --> 00:52:06.559
+we don't have anything in chat I can't
+
+00:52:04.000 --> 00:52:08.559
+see anything but I'm happy to
+
+00:52:06.559 --> 00:52:11.359
+just be a little bit longer if anyone
+
+00:52:08.559 --> 00:52:11.359
+has any questions
+
+00:52:13.040 --> 00:52:17.680
+in the absence of questions i'll assume
+
+00:52:14.960 --> 00:52:19.839
+i literally answered everything
+
+00:52:17.680 --> 00:52:22.079
+perfectly and there are no gaps in
+
+00:52:19.839 --> 00:52:23.359
+anyone's knowledge excellent
+
+00:52:22.079 --> 00:52:25.040
+um
+
+00:52:23.359 --> 00:52:27.760
+will you be running this workshop again
+
+00:52:25.040 --> 00:52:29.680
+okay so martin asked will we be
+
+00:52:27.760 --> 00:52:31.839
+running his workshop again probably
+
+00:52:29.680 --> 00:52:33.839
+not but it is recorded and we will share
+
+00:52:31.839 --> 00:52:34.960
+it on our respective websites there will
+
+00:52:33.839 --> 00:52:36.800
+be a
+
+00:52:34.960 --> 00:52:39.280
+transcribed version
+
+00:52:36.800 --> 00:52:40.240
+we will also provide all the usual
+
+00:52:39.280 --> 00:52:41.520
+you know
+
+00:52:40.240 --> 00:52:44.160
+basically there'll be more accessible
+
+00:52:41.520 --> 00:52:45.440
+versions of this talk provided online so
+
+00:52:44.160 --> 00:52:47.839
+yeah you'll probably have to wait a
+
+00:52:45.440 --> 00:52:47.839
+week or two
+
+00:52:48.640 --> 00:52:52.640
+okay
+
+00:52:50.720 --> 00:52:54.480
+well it seems all I'm getting right now
+
+00:52:52.640 --> 00:52:56.240
+is thank yous and
+
+00:52:54.480 --> 00:52:58.240
+so
+
+00:52:56.240 --> 00:53:01.359
+okay I think we'll probably wrap up
+
+00:52:58.240 --> 00:53:02.880
+there but yeah thanks guys for your
+
+00:53:01.359 --> 00:53:06.160
+time really appreciate it I hope that
+
+00:53:02.880 --> 00:53:07.440
+was useful again you can
+
+00:53:06.160 --> 00:53:09.040
+you can go on a website there's a
+
+00:53:07.440 --> 00:53:11.280
+webinar section you'll you'll find the
+
+00:53:09.040 --> 00:53:13.040
+recording of this in the near future
+
+00:53:11.280 --> 00:53:15.200
+thank you very much guys
+
+00:53:13.040 --> 00:53:19.480
+all right thanks a lot thank you
+
+00:53:15.200 --> 00:53:19.480
+cheers bye bye
+

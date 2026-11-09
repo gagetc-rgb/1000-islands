@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Mutant elephant takes</title>
+<style>
+@font-face{font-family:'Pangolin';font-weight:400;font-display:swap;src:url(../fonts/Pangolin-latin.woff2) format('woff2'),url(../fonts/Pangolin-cyrillic.woff2) format('woff2')}
+@font-face{font-family:'Golos Text';font-weight:400 700;font-display:swap;src:url(../fonts/GolosText-latin.woff2) format('woff2')}
+@font-face{font-family:'Caveat';font-weight:600 700;font-display:swap;src:url(../fonts/Caveat-latin.woff2) format('woff2')}
+:root{
+  --paper:#FBFBF6; --ink:#141414; --ink-2:#45453F; --yellow:#FFE14D; --pink:#FF7AB6; --pink-soft:#FFD3E6;
+  --mark:'Pangolin','Comic Sans MS',cursive; --hand:'Caveat','Segoe Print',cursive; --text:'Golos Text',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background-color:var(--paper);background-image:radial-gradient(circle at 1px 1px,#DEDED4 1px,transparent 1.4px);background-size:22px 22px;color:var(--ink);font:400 1rem/1.55 var(--text);-webkit-font-smoothing:antialiased}
+.page{max-width:1560px;margin:0 auto;padding:36px 24px 96px}
+.intro{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:36px;align-items:start;margin-bottom:36px}
+h1{font-family:var(--mark);font-weight:400;font-size:3rem;line-height:1.02;text-transform:uppercase;margin:0 0 14px}
+.lead{max-width:60ch;margin:0 0 18px;color:var(--ink-2)}
+.rules{max-width:66ch;margin:0;padding:16px 20px 16px 18px;background:#fff;border:2px solid var(--ink);border-radius:16px 11px 18px 10px}
+.rules h2{font-family:var(--mark);font-weight:400;font-size:1.35rem;line-height:1.2;margin:0 0 6px}
+.rules ol{margin:0;padding-left:1.25em}
+.rules li{margin:2px 0}
+.ref{margin:0}
+.ref img{display:block;width:100%;height:auto;background:#fff;border:2px solid var(--ink);border-radius:14px}
+.ref figcaption{font:700 1.3rem/1.2 var(--hand);color:var(--ink-2);text-align:center;margin-top:6px}
+.bar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin:0 0 22px}
+.btn{font:400 1rem/1 var(--mark);text-transform:uppercase;color:var(--ink);background:var(--yellow);border:2px solid var(--ink);border-radius:12px;padding:10px 16px;box-shadow:3px 3px 0 var(--ink);cursor:pointer}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.hint{font:700 1.3rem/1.2 var(--hand);color:var(--ink-2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,700px),1fr));gap:28px}
+.card{background:#fff;border:2px solid var(--ink);border-radius:20px 13px 22px 12px;padding:22px 22px 18px;display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:8px 20px}
+.card header{grid-column:1/-1}
+.card h2{font:400 1.7rem/1.1 var(--mark);margin:0 0 4px}
+.card header p{margin:0;color:var(--ink-2);max-width:62ch}
+.card header p b{color:var(--ink)}
+.stage{position:relative;border-radius:14px;touch-action:none;cursor:grab;width:100%;max-width:440px;justify-self:center}
+.stage svg{display:block;width:100%;height:auto;overflow:visible}
+.minis{display:flex;flex-direction:column;gap:14px;padding-top:6px}
+.mini{position:relative;border-radius:12px;overflow:hidden;background-color:var(--paper);background-image:radial-gradient(circle at 1px 1px,#DEDED4 1px,transparent 1.4px);background-size:22px 22px;padding:10px 0 0;display:flex;justify-content:flex-end}
+.mini svg{display:block;overflow:visible;margin-right:10px}
+.mini .lbl{position:absolute;left:10px;bottom:6px;font:700 1.15rem/1 var(--hand);color:var(--ink-2)}
+@media (max-width:760px){
+  h1{font-size:2.1rem}
+  .intro{grid-template-columns:1fr}
+  .ref{max-width:220px}
+  .card{grid-template-columns:1fr}
+  .minis{flex-direction:row}
+  .mini{flex:1}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <section class="intro">
+    <div>
+      <h1>Mutant elephant, six takes</h1>
+      <p class="lead">Same anatomy as your drawing, six different hands. Legs are longer than on the site now, and every take gets its own slider character. Drag the slider up and down on a big drawing, or tap the elephant to swing the trunk. The two small ones on the right are real size: desktop and phone.</p>
+      <div class="rules">
+        <h2>Anatomy kept in every take</h2>
+        <ol>
+          <li>Faces left. The real trunk is raised and curled, with a flared tip. Open smiling mouth, eye with a brow, big ear, tail with a tuft.</li>
+          <li>The second trunk grows from the groin: the very end of the belly, right in front of the hind legs.</li>
+          <li>It hangs in front of the far hind leg and covers part of it.</li>
+          <li>It is a real trunk: even tube, wrinkles in groups, a tip with a lip that points forward.</li>
+          <li>It hangs far below the feet (on the page, down to the bottom of the screen) and leans a little forward.</li>
+        </ol>
+      </div>
+    </div>
+    <figure class="ref"><img src="ref.jpg" width="1254" height="1254" alt="Your reference drawing of the two-trunk elephant"><figcaption>your drawing</figcaption></figure>
+  </section>
+  <div class="bar"><button class="btn" type="button" id="swingAll">Swing them all</button><span class="hint">or drag any slider</span></div>
+  <main class="grid" id="grid"></main>
+</div>
+
+<script src="../elephant.js"></script>
+<script>
+(function () {
+'use strict';
+var E = window.Elephant, VB = E.VB, ATT = E.ATT, TW = E.TW, TAKES = E.TAKES, rng = E.rng, trunkGeo = E.trunkGeo, f1 = E.f1;
+var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- one drawing: elephant + swinging second trunk + slider ---------- */
+var uid = 0, all = [];
+function Drawing(host, take, size, trunkPx, opts) {
+  this.host = host; this.take = take; this.size = size; this.opts = opts || {};
+  this.id = 'e' + (uid++) + '_';
+  var s = size / VB.w;
+  var c = this.c = { s: s, size: size, lvl: size >= 230 ? 2 : size >= 110 ? 1 : 0, W: Math.max(TW, 7.5 / s) };
+  c.Lu = trunkPx / s;
+  var asp = take.sliderAspect || 1;
+  this.sw = Math.max((take.sliderK || 2.1) * c.W, (take.sliderMin || 26) / s); this.sh = this.sw * asp;
+  this.travel0 = this.sh * 0.5 + c.W * 0.3; this.travel1 = c.Lu - 1.6 * c.W - this.sh * 0.6;
+  this.rest = 4; this.th = 0; this.om = 0; this.p = this.opts.p == null ? 0.38 : this.opts.p; this.raf = 0; this.prevT = 0;
+  var r = rng(1234 + size), g = trunkGeo(c);
+  var H = (ATT[1] - VB.y) + c.Lu + 30 / s;
+  var vbH = Math.max(VB.h, H);
+  var defs = take.defs ? take.defs(c, this.id) : '';
+  var svg = '<svg viewBox="' + VB.x + ' ' + VB.y + ' ' + VB.w + ' ' + f1(vbH) + '" width="' + size + '" height="' + f1(vbH * s) + '" role="img" aria-label="' + take.name + ' at ' + size + ' pixels">' +
+    '<defs>' + defs + '</defs>' + take.body(c, r, this.id) +
+    '<g class="hang"><g transform="translate(' + ATT[0] + ' ' + ATT[1] + ')">' + take.trunk(c, r, g, this.id) +
+    '<g class="sl">' + take.slider(c, r, this.sw, this.sh, this.id) + '</g></g></g></svg>';
+  host.innerHTML = svg;
+  this.svg = host.querySelector('svg'); this.hang = host.querySelector('.hang'); this.sl = host.querySelector('.sl');
+  this.apply();
+  all.push(this);
+}
+Drawing.prototype.apply = function () {
+  this.hang.setAttribute('transform', 'rotate(' + (this.rest + this.th).toFixed(3) + ' ' + ATT[0] + ' ' + ATT[1] + ')');
+  this.sl.setAttribute('transform', 'translate(0 ' + f1(this.travel0 + this.p * (this.travel1 - this.travel0)) + ')');
+};
+Drawing.prototype.kick = function (v) {
+  this.om += v; if (reduce || this.raf) return;
+  var self = this;
+  this.raf = requestAnimationFrame(function step(t) {
+    var dt = self.prevT ? Math.min(0.033, (t - self.prevT) / 1000) : 0.016; self.prevT = t;
+    self.om += (-16 * self.th - 1.25 * self.om) * dt; self.th += self.om * dt;
+    if (Math.abs(self.th) < 0.05 && Math.abs(self.om) < 0.12) { self.th = self.om = 0; self.apply(); self.raf = 0; self.prevT = 0; return; }
+    self.apply(); self.raf = requestAnimationFrame(step);
+  });
+};
+Drawing.prototype.setP = function (p) {
+  p = Math.max(0, Math.min(1, p)); var v = p - this.p; this.p = p; this.apply();
+  var acc = v - (this.lastV || 0); this.lastV = v;
+  if (Math.abs(acc) > 0.012) this.kick(Math.max(-14, Math.min(14, acc * 420)));
+};
+/* drag the slider; a tap anywhere else swings the trunk */
+Drawing.prototype.interactive = function () {
+  var self = this, drag = null;
+  this.host.addEventListener('pointerdown', function (e) {
+    var b = self.sl.getBoundingClientRect(), pad = 14, onSl = e.clientX > b.left - pad && e.clientX < b.right + pad && e.clientY > b.top - pad && e.clientY < b.bottom + pad;
+    drag = { y: e.clientY, x: e.clientX, p: self.p, sl: onSl, moved: false };
+    self.host.setPointerCapture(e.pointerId);
+  });
+  this.host.addEventListener('pointermove', function (e) {
+    if (!drag) return;
+    if (!drag.moved && Math.abs(e.clientY - drag.y) + Math.abs(e.clientX - drag.x) > 4) drag.moved = true;
+    if (drag.sl && drag.moved) { var px = (self.travel1 - self.travel0) * self.c.s * (self.svg.getBoundingClientRect().width / self.size); self.setP(drag.p + (e.clientY - drag.y) / px); }
+  });
+  this.host.addEventListener('pointerup', function (e) {
+    if (drag && !drag.moved) { var b = self.svg.getBoundingClientRect(), ax = b.left + (ATT[0] - VB.x) / VB.w * b.width; self.kick(e.clientX < ax ? 36 : -36); }
+    drag = null;
+  });
+  this.host.addEventListener('pointercancel', function () { drag = null; });
+};
+
+/* ---------- build the cards ---------- */
+var grid = document.getElementById('grid');
+TAKES.forEach(function (t, i) {
+  var card = document.createElement('article'); card.className = 'card';
+  card.innerHTML = '<header><h2>' + t.name + '</h2><p>' + t.idea + '</p></header><div class="stage"></div>' +
+    '<div class="minis"><div class="mini"><div></div><span class="lbl">desktop, real size</span></div><div class="mini"><div></div><span class="lbl">phone, real size</span></div></div>';
+  grid.appendChild(card);
+  var stage = card.querySelector('.stage'), w = Math.min(430, stage.clientWidth || 430);
+  var big = new Drawing(stage, t, w, w * 0.62, { p: 0.36 });
+  big.interactive();
+  var m = card.querySelectorAll('.mini > div');
+  var d1 = new Drawing(m[0], t, 132, 230, { p: 0.2 }), d2 = new Drawing(m[1], t, 78, 190, { p: 0.6 });
+  d1.demo = 0.0 + i * 0.7; d2.demo = 1.3 + i * 0.5;
+});
+
+/* the small real-size ones glide up and down, like a page being scrolled */
+if (!reduce) {
+  var t0 = performance.now();
+  (function loop(now) {
+    var t = (now - t0) / 1000;
+    all.forEach(function (d) { if (d.demo != null) d.setP(0.5 + 0.45 * Math.sin(t * 0.55 + d.demo) * Math.min(1, t / 2)); });
+    requestAnimationFrame(loop);
+  })(t0);
+}
+document.getElementById('swingAll').addEventListener('click', function () { all.forEach(function (d, i) { d.kick(i % 2 ? -38 : 38); }); });
+})();
+</script>
+</body>
+</html>

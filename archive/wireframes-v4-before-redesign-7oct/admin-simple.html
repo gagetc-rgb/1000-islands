@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WF · Admin — 1000 Islands Travel</title>
+<link rel="stylesheet" href="wf.css?v=21">
+<style>
+  body { background: var(--fill-2); font-size: 1rem; }
+  .a-top { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 24px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .a-top b { font-size: 1rem; }
+  .a-top a { font-size: 0.9375rem; color: var(--ink-2); }
+  .a-wrap { max-width: 960px; margin: 0 auto; padding: 24px; display: grid; gap: 24px; }
+  .tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .tab { display: grid; gap: 4px; justify-items: start; padding: 16px; min-height: 80px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--bg); font: inherit; font-weight: 600; font-size: 1.0625rem; color: var(--ink); cursor: pointer; text-align: left; }
+  .tab small { font-weight: 400; font-size: 0.875rem; color: var(--ink-3); }
+  .tab[aria-selected="true"] { border-color: var(--dark); background: var(--dark); color: #fff; }
+  .tab[aria-selected="true"] small { color: #e0e0e0; }
+  .panel { display: grid; gap: 16px; padding: 0; }
+  .panel > .bar h2 { font-size: 1.5rem; }
+  .panel[hidden] { display: none; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 12px; }
+  .row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+  .row .grow { flex: 1 1 200px; }
+  .muted { color: var(--ink-3); font-size: 0.9375rem; }
+  .tag { display: inline-flex; align-items: center; min-height: 28px; padding: 0 12px; border-radius: 99px; background: var(--fill); font-size: 0.875rem; font-weight: 600; }
+  .tag.dark { background: var(--dark); color: #fff; }
+  button.chip { font: inherit; cursor: pointer; }
+  .steps { display: flex; flex-wrap: wrap; gap: 4px; }
+  .steps button { font: inherit; font-size: 0.875rem; min-height: 40px; padding: 0 12px; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; cursor: pointer; color: var(--ink-2); }
+  .steps button.on { background: var(--dark); border-color: var(--dark); color: #fff; font-weight: 600; }
+  details.card summary { cursor: pointer; list-style: none; }
+  details.card summary::-webkit-details-marker { display: none; }
+  .check { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-size: 0.9375rem; white-space: nowrap; flex: none; }
+  .check input { width: 20px; height: 20px; margin: 0; accent-color: var(--dark); }
+  .icon-btn { font: inherit; font-size: 0.9375rem; min-height: 40px; padding: 0 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); cursor: pointer; color: var(--ink-2); }
+  .field { display: grid; gap: 6px; }
+  .field span { font-size: 0.875rem; font-weight: 600; }
+  .field input, .field textarea { font: inherit; padding: 10px 12px; border: 1.5px solid #858585; border-radius: 8px; background: var(--bg); }
+  .grid-photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+  .ph { position: relative; aspect-ratio: 4 / 3; border-radius: 8px; background: var(--skel); display: grid; place-items: center; font-size: 0.875rem; color: var(--ink-2); }
+  .ph .x { position: absolute; top: 6px; right: 6px; width: 32px; height: 32px; border-radius: 99px; border: 0; background: var(--bg); cursor: pointer; font-size: 1rem; }
+  .ph.add { background: var(--bg); border: 1.5px dashed #858585; cursor: pointer; font-weight: 600; color: var(--ink); }
+  .prices { width: 100%; border-collapse: collapse; }
+  .prices th, .prices td { padding: 10px 8px; text-align: left; border-bottom: 1px solid var(--fill); }
+  .prices th { font-size: 0.875rem; color: var(--ink-3); font-weight: 600; }
+  .prices input { width: 100%; max-width: 120px; font: inherit; padding: 8px 10px; border: 1.5px solid #858585; border-radius: 8px; }
+  .prices .pd { display: block; margin-top: 4px; font-size: 0.8125rem; color: var(--ink-3); }
+  .bars { display: grid; grid-template-columns: repeat(21, 1fr); align-items: end; gap: 4px; height: 140px; }
+  .bars button { position: relative; min-height: 24px; border: 0; border-radius: 4px 4px 0 0; background: var(--skel); cursor: pointer; padding: 0; }
+  .bars button.on { background: var(--dark); }
+  .bars span { position: absolute; bottom: -22px; left: 0; right: 0; font-size: 0.75rem; color: var(--ink-3); text-align: center; }
+  #pr-day { margin-top: 16px; }
+  .mini { width: 64px; font: inherit; padding: 8px; border: 1.5px solid #858585; border-radius: 8px; }
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--dark); color: #fff; padding: 12px 20px; border-radius: 8px; font-weight: 600; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  .toast.show { opacity: 1; }
+  .note { background: var(--note); border-radius: 8px; padding: 12px 16px; font-size: 0.9375rem; }
+  @media (max-width: 700px) {
+    .a-top { padding: 12px 16px; }
+    .a-wrap { padding: 16px; gap: 16px; }
+    .tabs { grid-template-columns: repeat(2, 1fr); }
+    .prices th, .prices td { padding: 8px 4px; }
+    .prices input { padding: 8px 6px; }
+  }
+  @media (max-width: 700px) { .bars span { display: none; } .bars button:nth-child(5n+1) span, .bars button:last-child span { display: block; } }
+  @media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
+</style>
+</head>
+<body>
+
+<header class="a-top"><h1 style="font-size:1rem">1000 Islands · Admin</h1><a href="home.html">Open the site ↗</a></header>
+
+<main class="a-wrap">
+
+  <div class="tabs" role="tablist" aria-label="Admin sections">
+    <button class="tab" role="tab" aria-selected="true" aria-controls="p-leads" id="t-leads">Enquiries<small>3 new</small></button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="p-reviews" id="t-reviews">Reviews<small>12 on the site</small></button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="p-photos" id="t-photos">Photos &amp; video<small>by page</small></button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="p-prices" id="t-prices">Prices<small>day by day</small></button>
+  </div>
+
+  <!-- ENQUIRIES -->
+  <section class="panel" id="p-leads" role="tabpanel" aria-labelledby="t-leads">
+    <div class="bar">
+      <h2 class="h3">Enquiries</h2>
+      <div class="chips"><button class="chip on">New</button><button class="chip">All</button><button class="chip">Travellers</button><button class="chip">Agents</button></div>
+    </div>
+
+    <details class="card" open>
+      <summary class="row">
+        <b class="grow">Client name</b><span class="tag">Raja Ampat</span><span class="tag">Comfort · 10 days</span><span class="muted">Oct · 2 people</span><span class="muted">Today 09:14</span>
+      </summary>
+      <div class="steps" aria-label="Stage"><button class="on">New</button><button>Contacted</button><button>Proposal</button><button>Won</button><button>Lost</button></div>
+      <div class="row"><a class="btn primary" href="#">WhatsApp</a><a class="btn ghost" href="#">Email</a><span class="muted">Came from: Google · Raja Ampat page</span></div>
+      <p class="muted">Their message: two lines of what the client wrote.</p>
+      <label class="field"><span>Your notes</span><textarea rows="2" placeholder="e.g. sent proposal, call on Friday"></textarea></label>
+    </details>
+
+    <details class="card">
+      <summary class="row">
+        <b class="grow">Agency name</b><span class="tag dark">Agent</span><span class="tag">Yacht charters</span><span class="muted">Mar · 6 people</span><span class="muted">Today 07:02</span>
+      </summary>
+      <div class="steps" aria-label="Stage"><button class="on">New</button><button>Contacted</button><button>Proposal</button><button>Won</button><button>Lost</button></div>
+      <div class="row"><a class="btn primary" href="#">WhatsApp</a><a class="btn ghost" href="#">Email</a><span class="muted">Came from: agent outreach link</span></div>
+      <label class="field"><span>Your notes</span><textarea rows="2"></textarea></label>
+    </details>
+
+    <details class="card">
+      <summary class="row">
+        <b class="grow">Client name</b><span class="tag">North Sulawesi</span><span class="tag">Basic · 7 days</span><span class="muted">Jul · 4 people</span><span class="muted">Yesterday</span>
+      </summary>
+      <div class="steps" aria-label="Stage"><button class="on">New</button><button>Contacted</button><button>Proposal</button><button>Won</button><button>Lost</button></div>
+      <div class="row"><a class="btn primary" href="#">WhatsApp</a><a class="btn ghost" href="#">Email</a><span class="muted">Came from: Instagram</span></div>
+      <label class="field"><span>Your notes</span><textarea rows="2"></textarea></label>
+    </details>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="panel" id="p-reviews" role="tabpanel" aria-labelledby="t-reviews" hidden>
+    <div class="bar">
+      <h2 class="h3">Reviews</h2>
+      <button class="btn primary" id="add-review">+ Add review</button>
+    </div>
+
+    <form class="card" id="review-form" hidden>
+      <div class="row">
+        <label class="field grow"><span>Guest name</span><input placeholder="Anna"></label>
+        <label class="field grow"><span>Country</span><input placeholder="Australia"></label>
+      </div>
+      <label class="field"><span>What they said</span><textarea rows="3"></textarea></label>
+      <div class="field"><span>Show on</span><div class="chips"><button type="button" class="chip on">Raja Ampat</button><button type="button" class="chip">North Sulawesi</button><button type="button" class="chip">Yacht charters</button></div></div>
+      <div class="row"><button type="button" class="btn ghost">+ Guest photo (optional)</button><button type="button" class="btn primary" data-save>Publish</button></div>
+    </form>
+
+    <div class="chips"><button class="chip on">All</button><button class="chip">Raja Ampat</button><button class="chip">North Sulawesi</button><button class="chip">Yacht charters</button></div>
+
+    <div class="card">
+      <div class="row"><b class="grow">Anna · Australia</b><span class="tag">Raja Ampat</span><label class="check"><input type="checkbox" checked> On the site</label><button class="icon-btn">Delete</button></div>
+      <p class="muted">Review text, two or three lines.</p>
+    </div>
+    <div class="card">
+      <div class="row"><b class="grow">Mark · UK</b><span class="tag">Yacht charters</span><label class="check"><input type="checkbox" checked> On the site</label><button class="icon-btn">Delete</button></div>
+      <p class="muted">Review text, two or three lines.</p>
+    </div>
+    <div class="card">
+      <div class="row"><b class="grow">Lena · Germany</b><span class="tag">North Sulawesi</span><label class="check"><input type="checkbox"> On the site</label><button class="icon-btn">Delete</button></div>
+      <p class="muted">Review text, two or three lines.</p>
+    </div>
+  </section>
+
+  <!-- PHOTOS -->
+  <section class="panel" id="p-photos" role="tabpanel" aria-labelledby="t-photos" hidden>
+    <div class="bar"><h2 class="h3">Photos &amp; video</h2></div>
+    <div class="chips"><button class="chip">Home</button><button class="chip on">Raja Ampat</button><button class="chip">North Sulawesi</button><button class="chip">Yacht charters</button><button class="chip">Guest stories</button></div>
+
+    <div class="card">
+      <div class="row"><b class="grow">Top video</b></div>
+      <label class="field"><span>YouTube or Vimeo link</span><input value="https://vimeo.com/…"></label>
+    </div>
+
+    <div class="card">
+      <div class="row"><b class="grow">Gallery</b><span class="muted">Drag to reorder</span></div>
+      <div class="grid-photos">
+        <div class="ph">Photo 1<button class="x" aria-label="Remove photo 1">×</button></div>
+        <div class="ph">Photo 2<button class="x" aria-label="Remove photo 2">×</button></div>
+        <div class="ph">Photo 3<button class="x" aria-label="Remove photo 3">×</button></div>
+        <div class="ph">Photo 4<button class="x" aria-label="Remove photo 4">×</button></div>
+        <button class="ph add">+ Add photos</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row"><b class="grow">Trip photos</b></div>
+      <div class="grid-photos">
+        <button class="ph add">Basic</button>
+        <button class="ph add">Comfort</button>
+        <button class="ph add">Premium</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICES -->
+  <section class="panel" id="p-prices" role="tabpanel" aria-labelledby="t-prices" hidden>
+    <div class="bar"><h2 class="h3">Prices</h2><span class="muted" id="pr-unit">USD per person</span></div>
+    <div class="chips" id="pr-region"><button class="chip on">Raja Ampat</button><button class="chip">North Sulawesi</button><button class="chip">Yacht charters</button></div>
+    <div class="chips" id="pr-level"><button class="chip on">Basic</button><button class="chip">Comfort</button><button class="chip">Premium</button></div>
+
+    <div class="card">
+      <div class="row">
+        <label class="field"><span>Price per day</span><input id="pr-base" inputmode="numeric" value="300" style="max-width:140px"></label>
+        <button class="icon-btn" id="pr-all" style="align-self:end">Use for every day</button>
+      </div>
+
+      <div class="field"><span>Change one day</span></div>
+      <div class="bars" id="pr-bars" aria-hidden="true"></div>
+      <input id="pr-day" type="range" min="1" max="21" value="8" aria-label="Day" style="width:100%;accent-color:var(--dark)">
+      <div class="row">
+        <label class="field"><span id="pr-day-label">Day 8 costs</span><input id="pr-rate" inputmode="numeric" style="max-width:140px"></label>
+        <label class="check" style="align-self:end"><input type="checkbox" id="pr-after" checked> and every day after it</label>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row"><b class="grow">What a visitor sees</b></div>
+      <input id="pr-preview" type="range" min="3" max="21" value="7" aria-label="Trip length preview" style="width:100%;accent-color:var(--dark)">
+      <p><span id="pr-preview-days">7 days</span>: <b id="pr-preview-total">from $X</b> <span id="pr-preview-unit">per person</span> <span class="muted" id="pr-preview-avg"></span></p>
+      <div class="row"><span class="muted">Trip length on the site: from</span><input value="3" inputmode="numeric" class="mini" aria-label="Shortest trip"><span class="muted">to</span><input value="21" inputmode="numeric" class="mini" aria-label="Longest trip"><span class="muted">days</span></div>
+      <div class="row"><button class="btn primary" data-save>Save prices</button></div>
+    </div>
+  </section>
+</main>
+
+<div class="toast" role="status" aria-live="polite" id="toast">Saved</div>
+
+<script>
+  // tabs
+  const tabs = document.querySelectorAll('.tab');
+  tabs.forEach(t => t.addEventListener('click', () => {
+    tabs.forEach(x => { x.setAttribute('aria-selected', x === t); document.getElementById(x.getAttribute('aria-controls')).hidden = x !== t; });
+  }));
+  // single-choice chips inside one group
+  document.querySelectorAll('.chips').forEach(g => g.addEventListener('click', e => {
+    const c = e.target.closest('.chip'); if (!c) return;
+    g.querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === c));
+  }));
+  // lead stage
+  document.querySelectorAll('.steps').forEach(g => g.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    g.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
+    toast('Stage: ' + b.textContent);
+  }));
+  // add review form
+  const form = document.getElementById('review-form');
+  document.getElementById('add-review').addEventListener('click', () => { form.hidden = !form.hidden; });
+  // remove photo
+  document.querySelectorAll('.ph .x').forEach(b => b.addEventListener('click', () => b.parentElement.remove()));
+  // prices: one rate per day; the site price for N days = sum of days 1..N
+  const MAXD = 21;
+  const seed = { 'Raja Ampat': { Basic: [300, 270, 240], Comfort: [500, 450, 400], Premium: [1000, 900, 800] },
+                 'North Sulawesi': { Basic: [260, 230, 210], Comfort: [420, 380, 340], Premium: [900, 810, 720] },
+                 'Yacht charters': { 'Boat 1': [4500, 4200, 3900], 'Boat 2': [6500, 6000, 5600], 'Boat 3': [12000, 11000, 10000] } };
+  const rates = {};
+  for (const r in seed) { rates[r] = {}; for (const l in seed[r]) { const [a, b, c] = seed[r][l]; rates[r][l] = Array.from({ length: MAXD }, (_, i) => i + 1 >= 12 ? c : i + 1 >= 8 ? b : a); } }
+  const $ = id => document.getElementById(id);
+  const cur = () => rates[document.querySelector('#pr-region .on').textContent][document.querySelector('#pr-level .on').textContent];
+  const money = n => '$' + n.toLocaleString('en-US');
+  function drawPrices() {
+    const arr = cur(), day = +$('pr-day').value, max = Math.max(...arr);
+    $('pr-bars').innerHTML = arr.map((v, i) => `<button type="button" data-d="${i + 1}" class="${i + 1 === day ? 'on' : ''}" style="height:${Math.round(v / max * 100)}%" title="Day ${i + 1}: ${money(v)}"><span>${i + 1}</span></button>`).join('');
+    $('pr-day-label').textContent = 'Day ' + day + ' costs';
+    $('pr-rate').value = arr[day - 1];
+    const n = +$('pr-preview').value, total = arr.slice(0, n).reduce((s, v) => s + v, 0);
+    $('pr-preview-days').textContent = n + ' days';
+    $('pr-preview-total').textContent = 'from ' + money(total);
+    $('pr-preview-avg').textContent = '(' + money(Math.round(total / n)) + ' / day)';
+    const yacht = document.querySelector('#pr-region .on').textContent === 'Yacht charters';
+    $('pr-preview-unit').textContent = yacht ? 'whole boat' : 'per person';
+    $('pr-unit').textContent = yacht ? 'USD, whole boat' : 'USD per person';
+  }
+  $('pr-bars').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { $('pr-day').value = b.dataset.d; drawPrices(); } });
+  $('pr-day').addEventListener('input', drawPrices);
+  $('pr-preview').addEventListener('input', drawPrices);
+  $('pr-rate').addEventListener('change', () => {
+    const arr = cur(), day = +$('pr-day').value, v = parseInt($('pr-rate').value, 10) || 0;
+    for (let i = day - 1; i < ($('pr-after').checked ? MAXD : day); i++) arr[i] = v;
+    drawPrices();
+  });
+  $('pr-all').addEventListener('click', () => { const v = parseInt($('pr-base').value, 10) || 0; cur().fill(v); drawPrices(); toast('Every day: ' + money(v)); });
+  $('pr-region').addEventListener('click', () => setTimeout(() => {
+    const names = Object.keys(rates[document.querySelector('#pr-region .on').textContent]);
+    $('pr-level').innerHTML = names.map((n, i) => `<button class="chip${i ? '' : ' on'}">${n}</button>`).join('');
+    $('pr-base').value = cur()[0]; drawPrices();
+  }));
+  $('pr-level').addEventListener('click', () => setTimeout(() => { $('pr-base').value = cur()[0]; drawPrices(); }));
+  drawPrices();
+  // save feedback
+  const t = document.getElementById('toast'); let h;
+  function toast(msg) { t.textContent = msg; t.classList.add('show'); clearTimeout(h); h = setTimeout(() => t.classList.remove('show'), 1600); }
+  document.querySelectorAll('[data-save]').forEach(b => b.addEventListener('click', () => { toast('Saved'); if (form.contains(b)) form.hidden = true; }));
+</script>
+</body>
+</html>

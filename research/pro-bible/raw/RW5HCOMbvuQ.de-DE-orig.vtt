@@ -1,0 +1,1864 @@
+WEBVTT
+Kind: captions
+Language: de-DE
+
+00:00:03.228 --> 00:00:05.137 align:start position:0%
+ 
+Hallo<00:00:03.546><c> und</c><00:00:03.758><c> willkommen</c><00:00:04.341><c> bei</c><00:00:04.554><c> Programming</c>
+
+00:00:05.137 --> 00:00:05.190 align:start position:0%
+Hallo und willkommen bei Programming
+ 
+
+00:00:05.190 --> 00:00:07.662 align:start position:0%
+Hallo und willkommen bei Programming
+ Percy<00:00:05.455><c>.</c><00:00:05.961><c> Heute</c><00:00:06.325><c> sprechen</c><00:00:06.872><c> wir</c><00:00:07.115><c> über</c><00:00:07.480><c> das</c>
+
+00:00:07.662 --> 00:00:07.723 align:start position:0%
+ Percy. Heute sprechen wir über das
+ 
+
+00:00:07.723 --> 00:00:10.757 align:start position:0%
+ Percy. Heute sprechen wir über das
+ Open-Graph-Protokoll<00:00:08.939><c>.</c><00:00:10.259><c> Wir</c><00:00:10.458><c> werden</c>
+
+00:00:10.757 --> 00:00:10.807 align:start position:0%
+ Open-Graph-Protokoll. Wir werden
+ 
+
+00:00:10.807 --> 00:00:12.750 align:start position:0%
+ Open-Graph-Protokoll. Wir werden
+ darüber<00:00:11.255><c> sprechen</c><00:00:11.654><c>,</c><00:00:11.754><c> wie</c><00:00:11.953><c> und</c><00:00:12.152><c> warum</c><00:00:12.451><c> Sie</c><00:00:12.651><c> es</c>
+
+00:00:12.750 --> 00:00:12.800 align:start position:0%
+ darüber sprechen, wie und warum Sie es
+ 
+
+00:00:12.800 --> 00:00:14.744 align:start position:0%
+ darüber sprechen, wie und warum Sie es
+ auf<00:00:13.000><c> Ihrer</c><00:00:13.299><c> Website</c><00:00:13.697><c> einsetzen</c><00:00:14.196><c> sollten</c><00:00:14.545><c>,</c><00:00:14.644><c> um</c>
+
+00:00:14.744 --> 00:00:14.794 align:start position:0%
+ auf Ihrer Website einsetzen sollten, um
+ 
+
+00:00:14.794 --> 00:00:18.022 align:start position:0%
+ auf Ihrer Website einsetzen sollten, um
+ sie<00:00:14.993><c> deutlich</c><00:00:15.442><c> zu</c><00:00:15.591><c> verbessern</c><00:00:16.090><c>.</c><00:00:17.600><c> Ich</c><00:00:17.787><c> hatte</c>
+
+00:00:18.022 --> 00:00:18.069 align:start position:0%
+ sie deutlich zu verbessern. Ich hatte
+ 
+
+00:00:18.069 --> 00:00:19.759 align:start position:0%
+ sie deutlich zu verbessern. Ich hatte
+ zuvor<00:00:18.350><c> noch</c><00:00:18.585><c> nie</c><00:00:18.773><c> darüber</c><00:00:19.195><c> nachgedacht</c><00:00:19.712><c>.</c>
+
+00:00:19.759 --> 00:00:20.219 align:start position:0%
+ zuvor noch nie darüber nachgedacht.
+ 
+
+00:00:20.219 --> 00:00:21.796 align:start position:0%
+ zuvor noch nie darüber nachgedacht.
+ Woher<00:00:20.497><c> wissen</c><00:00:20.822><c> Twitter</c><00:00:21.146><c>,</c><00:00:21.239><c> Facebook</c><00:00:21.657><c> und</c>
+
+00:00:21.796 --> 00:00:21.842 align:start position:0%
+ Woher wissen Twitter, Facebook und
+ 
+
+00:00:21.842 --> 00:00:23.559 align:start position:0%
+ Woher wissen Twitter, Facebook und
+ andere<00:00:22.167><c> soziale</c><00:00:22.538><c> Medien</c><00:00:22.863><c> eigentlich</c><00:00:23.327><c>,</c><00:00:23.420><c> wie</c>
+
+00:00:23.559 --> 00:00:23.605 align:start position:0%
+ andere soziale Medien eigentlich, wie
+ 
+
+00:00:23.605 --> 00:00:25.415 align:start position:0%
+ andere soziale Medien eigentlich, wie
+ sie<00:00:23.791><c> meine</c><00:00:24.069><c> Website</c><00:00:24.441><c> anzeigen</c><00:00:24.858><c> sollen</c><00:00:25.136><c>,</c><00:00:25.229><c> wenn</c>
+
+00:00:25.415 --> 00:00:25.461 align:start position:0%
+ sie meine Website anzeigen sollen, wenn
+ 
+
+00:00:25.461 --> 00:00:28.353 align:start position:0%
+ sie meine Website anzeigen sollen, wenn
+ ich<00:00:25.647><c> sie</c><00:00:25.832><c> in</c><00:00:25.972><c> einem</c><00:00:26.250><c> Beitrag</c><00:00:26.621><c> teile</c><00:00:26.853><c>?</c><00:00:28.239><c> Das</c>
+
+00:00:28.353 --> 00:00:28.391 align:start position:0%
+ ich sie in einem Beitrag teile? Das
+ 
+
+00:00:28.391 --> 00:00:29.880 align:start position:0%
+ ich sie in einem Beitrag teile? Das
+ habe<00:00:28.582><c> ich</c><00:00:28.735><c> vorher</c><00:00:29.002><c> nie</c><00:00:29.155><c> in</c><00:00:29.269><c> Betracht</c><00:00:29.613><c> gezogen</c>
+
+00:00:29.880 --> 00:00:33.117 align:start position:0%
+ habe ich vorher nie in Betracht gezogen
+.<00:00:31.059><c> Aber</c><00:00:31.361><c> dann</c><00:00:31.664><c> begann</c><00:00:32.088><c> ich</c><00:00:32.270><c>,</c><00:00:32.391><c> meine</c><00:00:32.754><c> eigene</c>
+
+00:00:33.117 --> 00:00:33.178 align:start position:0%
+. Aber dann begann ich, meine eigene
+ 
+
+00:00:33.178 --> 00:00:35.419 align:start position:0%
+. Aber dann begann ich, meine eigene
+ Website<00:00:33.662><c> mit</c><00:00:33.905><c> SvelteKit</c><00:00:34.510><c> neu</c><00:00:34.752><c> aufzubauen</c><00:00:35.358><c>.</c>
+
+00:00:35.419 --> 00:00:36.759 align:start position:0%
+ Website mit SvelteKit neu aufzubauen.
+ 
+
+00:00:36.759 --> 00:00:38.570 align:start position:0%
+ 
+ Als<00:00:36.966><c> ich</c><00:00:37.173><c> fertig</c><00:00:37.535><c> war</c><00:00:37.690><c>,</c><00:00:37.794><c> freute</c><00:00:38.156><c> ich</c><00:00:38.363><c> mich</c>
+
+00:00:38.570 --> 00:00:38.622 align:start position:0%
+ Als ich fertig war, freute ich mich
+ 
+
+00:00:38.622 --> 00:00:40.589 align:start position:0%
+ Als ich fertig war, freute ich mich
+ riesig<00:00:38.984><c> darauf</c><00:00:39.295><c>,</c><00:00:39.399><c> meine</c><00:00:39.709><c> Seite</c><00:00:40.020><c> auf</c><00:00:40.227><c> Twitter</c>
+
+00:00:40.589 --> 00:00:40.641 align:start position:0%
+ riesig darauf, meine Seite auf Twitter
+ 
+
+00:00:40.641 --> 00:00:44.164 align:start position:0%
+ riesig darauf, meine Seite auf Twitter
+ zu<00:00:40.796><c> teilen</c><00:00:41.107><c>.</c><00:00:42.999><c> Man</c><00:00:43.193><c> kann</c><00:00:43.436><c> sich</c><00:00:43.679><c> also</c><00:00:43.921><c> meine</c>
+
+00:00:44.164 --> 00:00:44.213 align:start position:0%
+ zu teilen. Man kann sich also meine
+ 
+
+00:00:44.213 --> 00:00:46.010 align:start position:0%
+ zu teilen. Man kann sich also meine
+ Enttäuschung<00:00:44.893><c> vorstellen</c><00:00:45.379><c>,</c><00:00:45.476><c> als</c><00:00:45.670><c> ich</c><00:00:45.864><c> den</c>
+
+00:00:46.010 --> 00:00:46.059 align:start position:0%
+ Enttäuschung vorstellen, als ich den
+ 
+
+00:00:46.059 --> 00:00:47.856 align:start position:0%
+ Enttäuschung vorstellen, als ich den
+ Link<00:00:46.301><c> in</c><00:00:46.447><c> meinen</c><00:00:46.787><c> Tweet</c><00:00:47.079><c> kopierte</c><00:00:47.516><c> und</c><00:00:47.710><c> die</c>
+
+00:00:47.856 --> 00:00:47.904 align:start position:0%
+ Link in meinen Tweet kopierte und die
+ 
+
+00:00:47.904 --> 00:00:49.799 align:start position:0%
+ Link in meinen Tweet kopierte und die
+ Tweet-Vorschau<00:00:48.633><c> etwas</c><00:00:48.924><c> langweilig</c><00:00:49.459><c> aussah</c><00:00:49.750><c>.</c>
+
+00:00:49.799 --> 00:00:51.199 align:start position:0%
+ Tweet-Vorschau etwas langweilig aussah.
+ 
+
+00:00:51.199 --> 00:00:53.738 align:start position:0%
+ 
+ Also<00:00:51.487><c> ungefähr</c><00:00:52.065><c> so</c><00:00:52.181><c>.</c><00:00:52.879><c> Ich</c><00:00:53.081><c> fing</c><00:00:53.334><c> also</c><00:00:53.587><c> an</c><00:00:53.688><c>,</c>
+
+00:00:53.738 --> 00:00:53.789 align:start position:0%
+ Also ungefähr so. Ich fing also an,
+ 
+
+00:00:53.789 --> 00:00:55.610 align:start position:0%
+ Also ungefähr so. Ich fing also an,
+ nach<00:00:54.042><c> dem</c><00:00:54.244><c> Grund</c><00:00:54.547><c> zu</c><00:00:54.699><c> suchen</c><00:00:55.003><c>,</c><00:00:55.104><c> und</c><00:00:55.306><c> lernte</c>
+
+00:00:55.610 --> 00:00:55.660 align:start position:0%
+ nach dem Grund zu suchen, und lernte
+ 
+
+00:00:55.660 --> 00:00:58.481 align:start position:0%
+ nach dem Grund zu suchen, und lernte
+ das<00:00:55.862><c> Open-Graph-Protokoll</c><00:00:56.924><c> kennen</c><00:00:57.228><c>.</c><00:00:58.339><c> Das</c>
+
+00:00:58.481 --> 00:00:58.528 align:start position:0%
+ das Open-Graph-Protokoll kennen. Das
+ 
+
+00:00:58.528 --> 00:00:59.901 align:start position:0%
+ das Open-Graph-Protokoll kennen. Das
+ Open-Graph-Protokoll<00:00:59.522><c> ist</c><00:00:59.711><c> eine</c>
+
+00:00:59.901 --> 00:00:59.948 align:start position:0%
+ Open-Graph-Protokoll ist eine
+ 
+
+00:00:59.948 --> 00:01:01.463 align:start position:0%
+ Open-Graph-Protokoll ist eine
+ standardisierte<00:01:00.705><c> Art</c><00:01:00.847><c>,</c><00:01:00.942><c> Daten</c><00:01:01.226><c> Ihrer</c>
+
+00:01:01.463 --> 00:01:01.510 align:start position:0%
+ standardisierte Art, Daten Ihrer
+ 
+
+00:01:01.510 --> 00:01:02.836 align:start position:0%
+ standardisierte Art, Daten Ihrer
+ Website<00:01:01.889><c> auf</c><00:01:02.078><c> anderen</c><00:01:02.457><c> Websites</c>
+
+00:01:02.836 --> 00:01:02.883 align:start position:0%
+ Website auf anderen Websites
+ 
+
+00:01:02.883 --> 00:01:05.848 align:start position:0%
+ Website auf anderen Websites
+ darzustellen<00:01:03.451><c>.</c><00:01:04.900><c> Betrachten</c><00:01:05.396><c> Sie</c><00:01:05.577><c> es</c><00:01:05.712><c> als</c>
+
+00:01:05.848 --> 00:01:05.893 align:start position:0%
+ darzustellen. Betrachten Sie es als
+ 
+
+00:01:05.893 --> 00:01:07.473 align:start position:0%
+ darzustellen. Betrachten Sie es als
+ eine<00:01:06.119><c> Visitenkarte</c><00:01:06.706><c> für</c><00:01:06.931><c> Ihre</c><00:01:07.157><c> Website</c>
+
+00:01:07.473 --> 00:01:07.518 align:start position:0%
+ eine Visitenkarte für Ihre Website
+ 
+
+00:01:07.518 --> 00:01:09.994 align:start position:0%
+ eine Visitenkarte für Ihre Website
+ oder<00:01:07.744><c> sogar</c><00:01:08.015><c> für</c><00:01:08.241><c> einzelne</c><00:01:08.647><c> Webseiten</c><00:01:09.053><c>.</c><00:01:09.920><c> So</c>
+
+00:01:09.994 --> 00:01:10.031 align:start position:0%
+ oder sogar für einzelne Webseiten. So
+ 
+
+00:01:10.031 --> 00:01:11.487 align:start position:0%
+ oder sogar für einzelne Webseiten. So
+ können<00:01:10.330><c> Sie</c><00:01:10.479><c> unterschiedliche</c><00:01:11.114><c> Vorschauen</c>
+
+00:01:11.487 --> 00:01:11.524 align:start position:0%
+ können Sie unterschiedliche Vorschauen
+ 
+
+00:01:11.524 --> 00:01:12.644 align:start position:0%
+ können Sie unterschiedliche Vorschauen
+ für<00:01:11.711><c> verschiedene</c><00:01:12.196><c> Seiten</c><00:01:12.457><c> Ihres</c>
+
+00:01:12.644 --> 00:01:12.681 align:start position:0%
+ für verschiedene Seiten Ihres
+ 
+
+00:01:12.681 --> 00:01:15.669 align:start position:0%
+ für verschiedene Seiten Ihres
+ Auftritts<00:01:13.055><c> haben</c><00:01:13.241><c>.</c><00:01:14.879><c> Nachdem</c><00:01:15.300><c> ich</c><00:01:15.511><c> das</c>
+
+00:01:15.669 --> 00:01:15.722 align:start position:0%
+ Auftritts haben. Nachdem ich das
+ 
+
+00:01:15.722 --> 00:01:17.724 align:start position:0%
+ Auftritts haben. Nachdem ich das
+ Protokoll<00:01:16.249><c> auf</c><00:01:16.459><c> meine</c><00:01:16.775><c> Website</c><00:01:17.197><c> angewendet</c>
+
+00:01:17.724 --> 00:01:17.777 align:start position:0%
+ Protokoll auf meine Website angewendet
+ 
+
+00:01:17.777 --> 00:01:19.463 align:start position:0%
+ Protokoll auf meine Website angewendet
+ hatte<00:01:18.040><c>,</c><00:01:18.145><c> sah</c><00:01:18.356><c> mein</c><00:01:18.620><c> Tweet</c><00:01:18.936><c> wesentlich</c>
+
+00:01:19.463 --> 00:01:19.515 align:start position:0%
+ hatte, sah mein Tweet wesentlich
+ 
+
+00:01:19.515 --> 00:01:21.518 align:start position:0%
+ hatte, sah mein Tweet wesentlich
+ ansprechender<00:01:20.253><c> aus</c><00:01:20.464><c> und</c><00:01:20.675><c> die</c><00:01:20.885><c> Leute</c><00:01:21.202><c> werden</c>
+
+00:01:21.518 --> 00:01:21.570 align:start position:0%
+ ansprechender aus und die Leute werden
+ 
+
+00:01:21.570 --> 00:01:23.362 align:start position:0%
+ ansprechender aus und die Leute werden
+ wahrscheinlich<00:01:22.361><c> viel</c><00:01:22.624><c> mehr</c><00:01:22.888><c> an</c><00:01:23.046><c> meiner</c>
+
+00:01:23.362 --> 00:01:23.415 align:start position:0%
+ wahrscheinlich viel mehr an meiner
+ 
+
+00:01:23.415 --> 00:01:25.312 align:start position:0%
+ wahrscheinlich viel mehr an meiner
+ Seite<00:01:23.731><c> interessiert</c><00:01:24.416><c> sein</c><00:01:24.627><c>,</c><00:01:24.732><c> wenn</c><00:01:24.995><c> sie</c><00:01:25.206><c> so</c>
+
+00:01:25.312 --> 00:01:25.364 align:start position:0%
+ Seite interessiert sein, wenn sie so
+ 
+
+00:01:25.364 --> 00:01:28.773 align:start position:0%
+ Seite interessiert sein, wenn sie so
+ aussieht<00:01:25.786><c>.</c><00:01:27.819><c> Das</c><00:01:28.043><c> Protokoll</c><00:01:28.604><c> ist</c>
+
+00:01:28.773 --> 00:01:28.829 align:start position:0%
+ aussieht. Das Protokoll ist
+ 
+
+00:01:28.829 --> 00:01:30.400 align:start position:0%
+ aussieht. Das Protokoll ist
+ tatsächlich<00:01:29.559><c> sehr</c><00:01:29.839><c> einfach</c><00:01:30.288><c> zu</c>
+
+00:01:30.400 --> 00:01:30.457 align:start position:0%
+ tatsächlich sehr einfach zu
+ 
+
+00:01:30.457 --> 00:01:33.034 align:start position:0%
+ tatsächlich sehr einfach zu
+ implementieren<00:01:31.242><c>.</c><00:01:32.339><c> Es</c><00:01:32.499><c> gibt</c><00:01:32.766><c> viele</c>
+
+00:01:33.034 --> 00:01:33.087 align:start position:0%
+ implementieren. Es gibt viele
+ 
+
+00:01:33.087 --> 00:01:35.119 align:start position:0%
+ implementieren. Es gibt viele
+ verschiedene<00:01:33.782><c> Tags</c><00:01:34.050><c> zu</c><00:01:34.210><c> lernen</c><00:01:34.531><c>,</c><00:01:34.638><c> aber</c><00:01:34.905><c> für</c>
+
+00:01:35.119 --> 00:01:35.172 align:start position:0%
+ verschiedene Tags zu lernen, aber für
+ 
+
+00:01:35.172 --> 00:01:37.151 align:start position:0%
+ verschiedene Tags zu lernen, aber für
+ den<00:01:35.386><c> Anfang</c><00:01:35.761><c> müssen</c><00:01:36.188><c> Sie</c><00:01:36.402><c> nur</c><00:01:36.616><c> vier</c><00:01:36.883><c> davon</c>
+
+00:01:37.151 --> 00:01:37.204 align:start position:0%
+ den Anfang müssen Sie nur vier davon
+ 
+
+00:01:37.204 --> 00:01:40.173 align:start position:0%
+ den Anfang müssen Sie nur vier davon
+ kennen<00:01:37.525><c>.</c><00:01:38.959><c> Das</c><00:01:39.153><c> Protokoll</c><00:01:39.639><c> basiert</c><00:01:40.027><c> auf</c>
+
+00:01:40.173 --> 00:01:40.222 align:start position:0%
+ kennen. Das Protokoll basiert auf
+ 
+
+00:01:40.222 --> 00:01:41.728 align:start position:0%
+ kennen. Das Protokoll basiert auf
+ Meta-Tags<00:01:40.708><c> im</c><00:01:40.853><c> Head-Bereich</c><00:01:41.485><c> Ihrer</c>
+
+00:01:41.728 --> 00:01:41.777 align:start position:0%
+ Meta-Tags im Head-Bereich Ihrer
+ 
+
+00:01:41.777 --> 00:01:43.672 align:start position:0%
+ Meta-Tags im Head-Bereich Ihrer
+ Webseite<00:01:42.165><c>,</c><00:01:42.263><c> die</c><00:01:42.457><c> andere</c><00:01:42.797><c> Websites</c><00:01:43.234><c> lesen</c><00:01:43.526><c> und</c>
+
+00:01:43.672 --> 00:01:43.720 align:start position:0%
+ Webseite, die andere Websites lesen und
+ 
+
+00:01:43.720 --> 00:01:45.469 align:start position:0%
+ Webseite, die andere Websites lesen und
+ verstehen<00:01:44.206><c> können</c><00:01:44.546><c>,</c><00:01:44.643><c> um</c><00:01:44.789><c> zu</c><00:01:44.935><c> wissen</c><00:01:45.226><c>,</c><00:01:45.324><c> wie</c>
+
+00:01:45.469 --> 00:01:45.518 align:start position:0%
+ verstehen können, um zu wissen, wie
+ 
+
+00:01:45.518 --> 00:01:48.097 align:start position:0%
+ verstehen können, um zu wissen, wie
+ eine<00:01:45.761><c> Vorschau</c><00:01:46.198><c> aussehen</c><00:01:46.636><c> soll</c><00:01:46.830><c>.</c><00:01:47.619><c> Lassen</c><00:01:47.954><c> Sie</c>
+
+00:01:48.097 --> 00:01:48.145 align:start position:0%
+ eine Vorschau aussehen soll. Lassen Sie
+ 
+
+00:01:48.145 --> 00:01:49.294 align:start position:0%
+ eine Vorschau aussehen soll. Lassen Sie
+ uns<00:01:48.337><c> also</c><00:01:48.576><c> ein</c><00:01:48.768><c> wenig</c><00:01:49.055><c> über</c>
+
+00:01:49.294 --> 00:01:49.342 align:start position:0%
+ uns also ein wenig über
+ 
+
+00:01:49.342 --> 00:01:50.779 align:start position:0%
+ uns also ein wenig über
+ Open-Graph-Meta-Tags<00:01:50.348><c> sprechen</c><00:01:50.731><c>.</c>
+
+00:01:50.779 --> 00:01:52.659 align:start position:0%
+ Open-Graph-Meta-Tags sprechen.
+ 
+
+00:01:52.659 --> 00:01:54.437 align:start position:0%
+ 
+ Open-Graph-Meta-Tags<00:01:53.696><c> sind</c><00:01:53.943><c> eine</c><00:01:54.190><c> Reihe</c>
+
+00:01:54.437 --> 00:01:54.486 align:start position:0%
+ Open-Graph-Meta-Tags sind eine Reihe
+ 
+
+00:01:54.486 --> 00:01:56.215 align:start position:0%
+ Open-Graph-Meta-Tags sind eine Reihe
+ von<00:01:54.683><c> Meta-Tags</c><00:01:55.128><c>,</c><00:01:55.227><c> die</c><00:01:55.424><c> dem</c><00:01:55.622><c> Head-Bereich</c>
+
+00:01:56.215 --> 00:01:56.264 align:start position:0%
+ von Meta-Tags, die dem Head-Bereich
+ 
+
+00:01:56.264 --> 00:01:57.894 align:start position:0%
+ von Meta-Tags, die dem Head-Bereich
+ eines<00:01:56.560><c> HTML-Dokuments</c><00:01:57.301><c> hinzugefügt</c>
+
+00:01:57.894 --> 00:01:57.943 align:start position:0%
+ eines HTML-Dokuments hinzugefügt
+ 
+
+00:01:57.943 --> 00:01:59.474 align:start position:0%
+ eines HTML-Dokuments hinzugefügt
+ werden<00:01:58.289><c> können</c><00:01:58.635><c>,</c><00:01:58.733><c> um</c><00:01:58.882><c> zusätzliche</c>
+
+00:01:59.474 --> 00:01:59.524 align:start position:0%
+ werden können, um zusätzliche
+ 
+
+00:01:59.524 --> 00:02:01.450 align:start position:0%
+ werden können, um zusätzliche
+ Informationen<00:02:00.215><c> darüber</c><00:02:00.660><c> bereitzustellen</c><00:02:01.400><c>,</c>
+
+00:02:01.450 --> 00:02:01.499 align:start position:0%
+ Informationen darüber bereitzustellen,
+ 
+
+00:02:01.499 --> 00:02:03.179 align:start position:0%
+ Informationen darüber bereitzustellen,
+ wie<00:02:01.697><c> der</c><00:02:01.894><c> Inhalt</c><00:02:02.240><c> der</c><00:02:02.438><c> Seite</c><00:02:02.734><c> aussieht</c><00:02:03.129><c>.</c>
+
+00:02:03.179 --> 00:02:04.559 align:start position:0%
+ wie der Inhalt der Seite aussieht.
+ 
+
+00:02:04.559 --> 00:02:06.867 align:start position:0%
+ 
+ Diese<00:02:04.943><c> Informationen</c><00:02:05.841><c> können</c><00:02:06.354><c> dann</c><00:02:06.675><c> von</c>
+
+00:02:06.867 --> 00:02:06.932 align:start position:0%
+ Diese Informationen können dann von
+ 
+
+00:02:06.932 --> 00:02:09.305 align:start position:0%
+ Diese Informationen können dann von
+ sozialen<00:02:07.509><c> Medien</c><00:02:07.958><c> oder</c><00:02:08.279><c> anderen</c><00:02:08.792><c> Websites</c>
+
+00:02:09.305 --> 00:02:09.369 align:start position:0%
+ sozialen Medien oder anderen Websites
+ 
+
+00:02:09.369 --> 00:02:11.806 align:start position:0%
+ sozialen Medien oder anderen Websites
+ genutzt<00:02:09.882><c> werden</c><00:02:10.267><c>,</c><00:02:10.395><c> um</c><00:02:10.587><c> eine</c><00:02:10.908><c> reichhaltigere</c>
+
+00:02:11.806 --> 00:02:11.870 align:start position:0%
+ genutzt werden, um eine reichhaltigere
+ 
+
+00:02:11.870 --> 00:02:14.243 align:start position:0%
+ genutzt werden, um eine reichhaltigere
+ Vorschau<00:02:12.447><c> der</c><00:02:12.704><c> Seite</c><00:02:13.089><c> zu</c><00:02:13.281><c> erstellen</c><00:02:13.859><c>,</c><00:02:13.987><c> wenn</c>
+
+00:02:14.243 --> 00:02:14.307 align:start position:0%
+ Vorschau der Seite zu erstellen, wenn
+ 
+
+00:02:14.307 --> 00:02:16.424 align:start position:0%
+ Vorschau der Seite zu erstellen, wenn
+ sie<00:02:14.564><c> geteilt</c><00:02:15.077><c> wird</c><00:02:15.334><c>,</c><00:02:15.462><c> wie</c><00:02:15.719><c> etwa</c><00:02:16.039><c> Titel</c><00:02:16.360><c>,</c>
+
+00:02:16.424 --> 00:02:16.488 align:start position:0%
+ sie geteilt wird, wie etwa Titel,
+ 
+
+00:02:16.488 --> 00:02:18.861 align:start position:0%
+ sie geteilt wird, wie etwa Titel,
+ Beschreibung<00:02:17.258><c>,</c><00:02:17.386><c> Bild</c><00:02:17.643><c>,</c><00:02:17.771><c> Video</c><00:02:18.156><c> oder</c><00:02:18.476><c> andere</c>
+
+00:02:18.861 --> 00:02:18.925 align:start position:0%
+ Beschreibung, Bild, Video oder andere
+ 
+
+00:02:18.925 --> 00:02:22.967 align:start position:0%
+ Beschreibung, Bild, Video oder andere
+ Details<00:02:19.374><c>.</c><00:02:21.579><c> Um</c><00:02:21.739><c> mit</c><00:02:21.952><c> dem</c><00:02:22.166><c> Hinzufügen</c><00:02:22.807><c> von</c>
+
+00:02:22.967 --> 00:02:23.021 align:start position:0%
+ Details. Um mit dem Hinzufügen von
+ 
+
+00:02:23.021 --> 00:02:24.570 align:start position:0%
+ Details. Um mit dem Hinzufügen von
+ Open-Graph-Meta-Tags<00:02:24.143><c> zu</c><00:02:24.303><c> Ihrem</c>
+
+00:02:24.570 --> 00:02:24.624 align:start position:0%
+ Open-Graph-Meta-Tags zu Ihrem
+ 
+
+00:02:24.624 --> 00:02:26.654 align:start position:0%
+ Open-Graph-Meta-Tags zu Ihrem
+ HTML-Dokument<00:02:25.372><c> zu</c><00:02:25.532><c> beginnen</c><00:02:25.959><c>,</c><00:02:26.066><c> können</c><00:02:26.493><c> Sie</c>
+
+00:02:26.654 --> 00:02:26.707 align:start position:0%
+ HTML-Dokument zu beginnen, können Sie
+ 
+
+00:02:26.707 --> 00:02:27.989 align:start position:0%
+ HTML-Dokument zu beginnen, können Sie
+ das<00:02:26.921><c> Meta-Element</c><00:02:27.615><c> mit</c><00:02:27.829><c> dem</c>
+
+00:02:27.989 --> 00:02:28.043 align:start position:0%
+ das Meta-Element mit dem
+ 
+
+00:02:28.043 --> 00:02:32.725 align:start position:0%
+ das Meta-Element mit dem
+ Property-Attribut<00:02:29.004><c> verwenden</c><00:02:29.485><c>.</c><00:02:32.019><c> Sie</c><00:02:32.301><c> setzen</c>
+
+00:02:32.725 --> 00:02:32.796 align:start position:0%
+ Property-Attribut verwenden. Sie setzen
+ 
+
+00:02:32.796 --> 00:02:35.339 align:start position:0%
+ Property-Attribut verwenden. Sie setzen
+ also<00:02:33.149><c> das</c><00:02:33.431><c> Property-Attribut</c><00:02:34.703><c> auf</c><00:02:34.986><c> "</c><00:02:35.056><c>og</c><00:02:35.198><c>"</c><00:02:35.268><c>,</c>
+
+00:02:35.339 --> 00:02:35.409 align:start position:0%
+ also das Property-Attribut auf "og",
+ 
+
+00:02:35.409 --> 00:02:37.953 align:start position:0%
+ also das Property-Attribut auf "og",
+ kurz<00:02:35.763><c> für</c><00:02:36.116><c> Open</c><00:02:36.469><c> Graph</c><00:02:36.822><c>,</c><00:02:36.964><c> und</c><00:02:37.246><c> legen</c><00:02:37.670><c> dann</c>
+
+00:02:37.953 --> 00:02:38.023 align:start position:0%
+ kurz für Open Graph, und legen dann
+ 
+
+00:02:38.023 --> 00:02:40.355 align:start position:0%
+ kurz für Open Graph, und legen dann
+ den<00:02:38.306><c> Inhaltstyp</c><00:02:39.083><c> für</c><00:02:39.436><c> das</c><00:02:39.719><c> fest</c><00:02:40.001><c>,</c><00:02:40.143><c> was</c>
+
+00:02:40.355 --> 00:02:40.425 align:start position:0%
+ den Inhaltstyp für das fest, was
+ 
+
+00:02:40.425 --> 00:02:43.907 align:start position:0%
+ den Inhaltstyp für das fest, was
+ angezeigt<00:02:41.132><c> werden</c><00:02:41.626><c> soll</c><00:02:41.909><c>.</c><00:02:43.059><c> Dieser</c><00:02:43.455><c> Meta-Tag</c>
+
+00:02:43.907 --> 00:02:43.964 align:start position:0%
+ angezeigt werden soll. Dieser Meta-Tag
+ 
+
+00:02:43.964 --> 00:02:45.718 align:start position:0%
+ angezeigt werden soll. Dieser Meta-Tag
+ hier<00:02:44.247><c> verwendet</c><00:02:44.813><c> die</c><00:02:45.039><c> "</c><00:02:45.096><c>og</c><00:02:45.209><c>:</c><00:02:45.322><c> title</c><00:02:45.605><c>"</c><00:02:45.662><c>-</c>
+
+00:02:45.718 --> 00:02:47.869 align:start position:0%
+ hier verwendet die "og: title"-
+Eigenschaft<00:02:46.341><c>,</c><00:02:46.454><c> um</c><00:02:46.624><c> den</c><00:02:46.850><c> Titel</c><00:02:47.190><c> der</c><00:02:47.416><c> Webseite</c>
+
+00:02:47.869 --> 00:02:47.925 align:start position:0%
+Eigenschaft, um den Titel der Webseite
+ 
+
+00:02:47.925 --> 00:02:49.397 align:start position:0%
+Eigenschaft, um den Titel der Webseite
+ festzulegen<00:02:48.548><c>,</c><00:02:48.661><c> und</c><00:02:48.887><c> nutzt</c><00:02:49.227><c> das</c>
+
+00:02:49.397 --> 00:02:49.453 align:start position:0%
+ festzulegen, und nutzt das
+ 
+
+00:02:49.453 --> 00:02:51.377 align:start position:0%
+ festzulegen, und nutzt das
+ Content-Attribut<00:02:50.359><c>,</c><00:02:50.472><c> um</c><00:02:50.642><c> den</c><00:02:50.868><c> Wert</c><00:02:51.151><c> für</c>
+
+00:02:51.377 --> 00:02:51.434 align:start position:0%
+ Content-Attribut, um den Wert für
+ 
+
+00:02:51.434 --> 00:02:54.382 align:start position:0%
+ Content-Attribut, um den Wert für
+ diese<00:02:51.774><c> Eigenschaft</c><00:02:52.453><c> anzugeben</c><00:02:52.962><c>.</c><00:02:54.240><c> Sie</c>
+
+00:02:54.382 --> 00:02:54.430 align:start position:0%
+ diese Eigenschaft anzugeben. Sie
+ 
+
+00:02:54.430 --> 00:02:56.142 align:start position:0%
+ diese Eigenschaft anzugeben. Sie
+ können<00:02:54.810><c> Ihrem</c><00:02:55.096><c> HTML-Dokument</c><00:02:55.762><c> so</c><00:02:55.904><c> viele</c>
+
+00:02:56.142 --> 00:02:56.190 align:start position:0%
+ können Ihrem HTML-Dokument so viele
+ 
+
+00:02:56.190 --> 00:02:57.950 align:start position:0%
+ können Ihrem HTML-Dokument so viele
+ Open-Graph-Meta-Tags<00:02:57.189><c> hinzufügen</c><00:02:57.712><c>,</c><00:02:57.807><c> wie</c>
+
+00:02:57.950 --> 00:02:57.997 align:start position:0%
+ Open-Graph-Meta-Tags hinzufügen, wie
+ 
+
+00:02:57.997 --> 00:02:59.805 align:start position:0%
+ Open-Graph-Meta-Tags hinzufügen, wie
+ Sie<00:02:58.188><c> möchten</c><00:02:58.568><c>;</c><00:02:58.663><c> verwendet</c><00:02:59.139><c> wird</c><00:02:59.377><c> immer</c><00:02:59.662><c> der</c>
+
+00:02:59.805 --> 00:02:59.852 align:start position:0%
+ Sie möchten; verwendet wird immer der
+ 
+
+00:02:59.852 --> 00:03:02.181 align:start position:0%
+ Sie möchten; verwendet wird immer der
+ letzte<00:03:00.185><c> Tag</c><00:03:00.328><c>,</c><00:03:00.423><c> der</c><00:03:00.614><c> gefunden</c><00:03:01.042><c> wird</c><00:03:01.232><c>.</c><00:03:02.080><c> Sie</c>
+
+00:03:02.181 --> 00:03:02.215 align:start position:0%
+ letzte Tag, der gefunden wird. Sie
+ 
+
+00:03:02.215 --> 00:03:04.019 align:start position:0%
+ letzte Tag, der gefunden wird. Sie
+ können<00:03:02.486><c> also</c><00:03:02.656><c> Duplikate</c><00:03:02.995><c> haben</c><00:03:03.165><c>.</c><00:03:03.699><c> Es</c><00:03:03.836><c> gibt</c>
+
+00:03:04.019 --> 00:03:04.065 align:start position:0%
+ können also Duplikate haben. Es gibt
+ 
+
+00:03:04.065 --> 00:03:05.758 align:start position:0%
+ können also Duplikate haben. Es gibt
+ kaum<00:03:04.294><c> einen</c><00:03:04.568><c> Grund</c><00:03:04.843><c> für</c><00:03:05.072><c> Duplikate</c><00:03:05.484><c>,</c><00:03:05.575><c> aber</c>
+
+00:03:05.758 --> 00:03:05.804 align:start position:0%
+ kaum einen Grund für Duplikate, aber
+ 
+
+00:03:05.804 --> 00:03:07.497 align:start position:0%
+ kaum einen Grund für Duplikate, aber
+ damit<00:03:06.079><c> du</c><00:03:06.216><c> es</c><00:03:06.353><c> weißt</c><00:03:06.628><c>:</c><00:03:06.719><c> Es</c><00:03:06.857><c> wird</c><00:03:07.085><c> immer</c><00:03:07.360><c> das</c>
+
+00:03:07.497 --> 00:03:07.543 align:start position:0%
+ damit du es weißt: Es wird immer das
+ 
+
+00:03:07.543 --> 00:03:11.536 align:start position:0%
+ damit du es weißt: Es wird immer das
+ neueste<00:03:07.909><c> ausgewählt</c><00:03:08.413><c>.</c><00:03:10.859><c> Hier</c><00:03:11.119><c> ist</c><00:03:11.327><c> eine</c>
+
+00:03:11.536 --> 00:03:11.588 align:start position:0%
+ neueste ausgewählt. Hier ist eine
+ 
+
+00:03:11.588 --> 00:03:13.464 align:start position:0%
+ neueste ausgewählt. Hier ist eine
+ Liste<00:03:11.901><c> der</c><00:03:12.109><c> am</c><00:03:12.265><c> häufigsten</c><00:03:12.891><c> verwendeten</c>
+
+00:03:13.464 --> 00:03:13.516 align:start position:0%
+ Liste der am häufigsten verwendeten
+ 
+
+00:03:13.516 --> 00:03:16.593 align:start position:0%
+ Liste der am häufigsten verwendeten
+ Open-Graph-Eigenschaften<00:03:14.766><c>.</c><00:03:16.019><c> Wir</c><00:03:16.195><c> haben</c><00:03:16.461><c> den</c>
+
+00:03:16.593 --> 00:03:16.637 align:start position:0%
+ Open-Graph-Eigenschaften. Wir haben den
+ 
+
+00:03:16.637 --> 00:03:18.229 align:start position:0%
+ Open-Graph-Eigenschaften. Wir haben den
+ Open-Graph-Titel<00:03:17.345><c>,</c><00:03:17.433><c> also</c><00:03:17.654><c> den</c><00:03:17.831><c> Titel</c><00:03:18.096><c> der</c>
+
+00:03:18.229 --> 00:03:18.273 align:start position:0%
+ Open-Graph-Titel, also den Titel der
+ 
+
+00:03:18.273 --> 00:03:20.598 align:start position:0%
+ Open-Graph-Titel, also den Titel der
+ Seite<00:03:18.494><c>.</c><00:03:19.239><c> Dies</c><00:03:19.458><c> sollte</c><00:03:19.765><c> ein</c><00:03:19.940><c> wirklich</c><00:03:20.335><c> kurzer</c>
+
+00:03:20.598 --> 00:03:20.642 align:start position:0%
+ Seite. Dies sollte ein wirklich kurzer
+ 
+
+00:03:20.642 --> 00:03:22.264 align:start position:0%
+ Seite. Dies sollte ein wirklich kurzer
+ und<00:03:20.817><c> aussagekräftiger</c><00:03:21.606><c> Titel</c><00:03:21.869><c> sein</c><00:03:22.045><c>,</c><00:03:22.132><c> der</c>
+
+00:03:22.264 --> 00:03:22.308 align:start position:0%
+ und aussagekräftiger Titel sein, der
+ 
+
+00:03:22.308 --> 00:03:25.384 align:start position:0%
+ und aussagekräftiger Titel sein, der
+ den<00:03:22.483><c> gesamten</c><00:03:22.878><c> Inhalt</c><00:03:23.185><c> zusammenfasst</c><00:03:23.755><c>.</c><00:03:25.259><c> Wir</c>
+
+00:03:25.384 --> 00:03:25.426 align:start position:0%
+ den gesamten Inhalt zusammenfasst. Wir
+ 
+
+00:03:25.426 --> 00:03:27.060 align:start position:0%
+ den gesamten Inhalt zusammenfasst. Wir
+ haben<00:03:25.677><c> die</c><00:03:25.845><c> Open-Graph-Beschreibung</c><00:03:26.809><c>,</c><00:03:26.892><c> eine</c>
+
+00:03:27.060 --> 00:03:27.102 align:start position:0%
+ haben die Open-Graph-Beschreibung, eine
+ 
+
+00:03:27.102 --> 00:03:28.526 align:start position:0%
+ haben die Open-Graph-Beschreibung, eine
+ kurze<00:03:27.353><c> Zusammenfassung</c><00:03:28.024><c> der</c><00:03:28.191><c> gesamten</c>
+
+00:03:28.526 --> 00:03:28.568 align:start position:0%
+ kurze Zusammenfassung der gesamten
+ 
+
+00:03:28.568 --> 00:03:31.421 align:start position:0%
+ kurze Zusammenfassung der gesamten
+ Seite<00:03:28.778><c>.</c><00:03:29.979><c> Sie</c><00:03:30.165><c> sollte</c><00:03:30.490><c> aus</c><00:03:30.677><c> ein</c><00:03:30.863><c> paar</c><00:03:31.095><c> Sätzen</c>
+
+00:03:31.421 --> 00:03:31.468 align:start position:0%
+ Seite. Sie sollte aus ein paar Sätzen
+ 
+
+00:03:31.468 --> 00:03:32.957 align:start position:0%
+ Seite. Sie sollte aus ein paar Sätzen
+ bestehen<00:03:31.887><c> und</c><00:03:32.073><c> viel</c><00:03:32.305><c> detailliertere</c>
+
+00:03:32.957 --> 00:03:33.004 align:start position:0%
+ bestehen und viel detailliertere
+ 
+
+00:03:33.004 --> 00:03:34.819 align:start position:0%
+ bestehen und viel detailliertere
+ Informationen<00:03:33.655><c> zum</c><00:03:33.841><c> Seiteninhalt</c><00:03:34.446><c> liefern</c><00:03:34.772><c>.</c>
+
+00:03:34.819 --> 00:03:36.699 align:start position:0%
+ Informationen zum Seiteninhalt liefern.
+ 
+
+00:03:36.699 --> 00:03:39.450 align:start position:0%
+ 
+ Wir<00:03:36.988><c> haben</c><00:03:37.422><c> das</c><00:03:37.712><c> OG-Image</c><00:03:38.291><c>,</c><00:03:38.436><c> das</c><00:03:38.726><c> natürlich</c>
+
+00:03:39.450 --> 00:03:39.522 align:start position:0%
+ Wir haben das OG-Image, das natürlich
+ 
+
+00:03:39.522 --> 00:03:42.345 align:start position:0%
+ Wir haben das OG-Image, das natürlich
+ das<00:03:39.812><c> Bild</c><00:03:40.174><c> zur</c><00:03:40.463><c> Darstellung</c><00:03:41.332><c> der</c><00:03:41.621><c> Seite</c><00:03:42.056><c> ist</c><00:03:42.273><c>,</c>
+
+00:03:42.345 --> 00:03:42.418 align:start position:0%
+ das Bild zur Darstellung der Seite ist,
+ 
+
+00:03:42.418 --> 00:03:44.735 align:start position:0%
+ das Bild zur Darstellung der Seite ist,
+ und<00:03:42.707><c> die</c><00:03:42.997><c> URL</c><00:03:43.214><c>,</c><00:03:43.359><c> die</c><00:03:43.649><c> auf</c><00:03:43.938><c> diese</c><00:03:44.373><c> Seite</c>
+
+00:03:44.735 --> 00:03:44.807 align:start position:0%
+ und die URL, die auf diese Seite
+ 
+
+00:03:44.807 --> 00:03:52.180 align:start position:0%
+ und die URL, die auf diese Seite
+ verlinkt<00:03:45.386><c>.</c><00:03:47.379><c> Ziemlich</c><00:03:47.891><c> selbsterklärend</c><00:03:48.802><c>.</c><00:03:52.079><c> Um</c>
+
+00:03:52.180 --> 00:03:52.231 align:start position:0%
+ verlinkt. Ziemlich selbsterklärend. Um
+ 
+
+00:03:52.231 --> 00:03:54.217 align:start position:0%
+ verlinkt. Ziemlich selbsterklärend. Um
+ zu<00:03:52.384><c> verstehen</c><00:03:52.842><c>,</c><00:03:52.944><c> welches</c><00:03:53.352><c> Tag</c><00:03:53.555><c> wofür</c><00:03:53.912><c> steht</c><00:03:54.166><c>,</c>
+
+00:03:54.217 --> 00:03:54.268 align:start position:0%
+ zu verstehen, welches Tag wofür steht,
+ 
+
+00:03:54.268 --> 00:03:56.050 align:start position:0%
+ zu verstehen, welches Tag wofür steht,
+ schauen<00:03:54.675><c> wir</c><00:03:54.879><c> uns</c><00:03:55.083><c> meinen</c><00:03:55.439><c> verbesserten</c>
+
+00:03:56.050 --> 00:03:56.101 align:start position:0%
+ schauen wir uns meinen verbesserten
+ 
+
+00:03:56.101 --> 00:04:00.911 align:start position:0%
+ schauen wir uns meinen verbesserten
+ Tweet<00:03:56.407><c> an</c><00:03:56.509><c>.</c><00:03:59.199><c> Wie</c><00:03:59.510><c> man</c><00:03:59.821><c> sieht</c><00:04:00.211><c>,</c><00:04:00.366><c> ist</c><00:04:00.678><c> das</c>
+
+00:04:00.911 --> 00:04:00.989 align:start position:0%
+ Tweet an. Wie man sieht, ist das
+ 
+
+00:04:00.989 --> 00:04:03.558 align:start position:0%
+ Tweet an. Wie man sieht, ist das
+ OG-Image<00:04:01.690><c> natürlich</c><00:04:02.546><c> das</c><00:04:02.858><c> Bild</c><00:04:03.169><c>,</c><00:04:03.325><c> die</c>
+
+00:04:03.558 --> 00:04:03.636 align:start position:0%
+ OG-Image natürlich das Bild, die
+ 
+
+00:04:03.636 --> 00:04:06.672 align:start position:0%
+ OG-Image natürlich das Bild, die
+ OG-Beschreibung<00:04:04.882><c> hat</c><00:04:05.193><c> mehr</c><00:04:05.582><c> Platz</c><00:04:06.050><c> und</c><00:04:06.361><c> kann</c>
+
+00:04:06.672 --> 00:04:06.750 align:start position:0%
+ OG-Beschreibung hat mehr Platz und kann
+ 
+
+00:04:06.750 --> 00:04:09.319 align:start position:0%
+ OG-Beschreibung hat mehr Platz und kann
+ daher<00:04:07.217><c> etwas</c><00:04:07.684><c> länger</c><00:04:08.307><c> sein</c><00:04:08.619><c>,</c><00:04:08.774><c> und</c><00:04:09.086><c> der</c>
+
+00:04:09.319 --> 00:04:09.397 align:start position:0%
+ daher etwas länger sein, und der
+ 
+
+00:04:09.397 --> 00:04:12.994 align:start position:0%
+ daher etwas länger sein, und der
+ OG-Titel<00:04:10.098><c> ist</c><00:04:10.409><c> kurz</c><00:04:10.721><c>.</c><00:04:11.719><c> Die</c><00:04:12.059><c> OG-URL</c><00:04:12.654><c> wird</c>
+
+00:04:12.994 --> 00:04:13.079 align:start position:0%
+ OG-Titel ist kurz. Die OG-URL wird
+ 
+
+00:04:13.079 --> 00:04:16.224 align:start position:0%
+ OG-Titel ist kurz. Die OG-URL wird
+ unter<00:04:13.589><c> dem</c><00:04:13.929><c> Bild</c><00:04:14.354><c> angezeigt</c><00:04:15.204><c> und</c><00:04:15.544><c> befindet</c>
+
+00:04:16.224 --> 00:04:16.309 align:start position:0%
+ unter dem Bild angezeigt und befindet
+ 
+
+00:04:16.309 --> 00:04:20.154 align:start position:0%
+ unter dem Bild angezeigt und befindet
+ sich<00:04:16.734><c> hier</c><00:04:17.074><c>.</c><00:04:18.999><c> Zusätzlich</c><00:04:19.659><c> zu</c><00:04:19.824><c> diesen</c>
+
+00:04:20.154 --> 00:04:20.209 align:start position:0%
+ sich hier. Zusätzlich zu diesen
+ 
+
+00:04:20.209 --> 00:04:22.134 align:start position:0%
+ sich hier. Zusätzlich zu diesen
+ Eigenschaften<00:04:20.979><c> gibt</c><00:04:21.254><c> es</c><00:04:21.419><c> viele</c><00:04:21.749><c> weitere</c>
+
+00:04:22.134 --> 00:04:22.189 align:start position:0%
+ Eigenschaften gibt es viele weitere
+ 
+
+00:04:22.189 --> 00:04:24.279 align:start position:0%
+ Eigenschaften gibt es viele weitere
+ Open-Graph-Eigenschaften<00:04:23.509><c>,</c><00:04:23.619><c> mit</c><00:04:23.839><c> denen</c><00:04:24.169><c> du</c>
+
+00:04:24.279 --> 00:04:24.334 align:start position:0%
+ Open-Graph-Eigenschaften, mit denen du
+ 
+
+00:04:24.334 --> 00:04:26.369 align:start position:0%
+ Open-Graph-Eigenschaften, mit denen du
+ weitere<00:04:24.774><c> Informationen</c><00:04:25.544><c> zu</c><00:04:25.709><c> deiner</c><00:04:26.094><c> Seite</c>
+
+00:04:26.369 --> 00:04:26.424 align:start position:0%
+ weitere Informationen zu deiner Seite
+ 
+
+00:04:26.424 --> 00:04:28.074 align:start position:0%
+ weitere Informationen zu deiner Seite
+ festlegen<00:04:26.974><c> kannst</c><00:04:27.304><c>,</c><00:04:27.414><c> wie</c><00:04:27.634><c> etwa</c><00:04:27.909><c> den</c>
+
+00:04:28.074 --> 00:04:28.129 align:start position:0%
+ festlegen kannst, wie etwa den
+ 
+
+00:04:28.129 --> 00:04:30.884 align:start position:0%
+ festlegen kannst, wie etwa den
+ Seitentyp<00:04:28.624><c>.</c><00:04:29.740><c> Handelt</c><00:04:30.066><c> es</c><00:04:30.189><c> sich</c><00:04:30.393><c> zum</c><00:04:30.557><c> Beispiel</c>
+
+00:04:30.884 --> 00:04:30.925 align:start position:0%
+ Seitentyp. Handelt es sich zum Beispiel
+ 
+
+00:04:30.925 --> 00:04:33.361 align:start position:0%
+ Seitentyp. Handelt es sich zum Beispiel
+ um<00:04:31.047><c> einen</c><00:04:31.293><c> Artikel</c><00:04:31.579><c>?</c><00:04:32.179><c> Oder</c><00:04:32.507><c> den</c><00:04:32.770><c> Autor</c><00:04:33.164><c> der</c>
+
+00:04:33.361 --> 00:04:33.427 align:start position:0%
+ um einen Artikel? Oder den Autor der
+ 
+
+00:04:33.427 --> 00:04:35.989 align:start position:0%
+ um einen Artikel? Oder den Autor der
+ Seite<00:04:33.821><c> oder</c><00:04:34.149><c> das</c><00:04:34.412><c> Veröffentlichungsdatum</c><00:04:35.923><c>,</c>
+
+00:04:35.989 --> 00:04:36.055 align:start position:0%
+ Seite oder das Veröffentlichungsdatum,
+ 
+
+00:04:36.055 --> 00:04:37.828 align:start position:0%
+ Seite oder das Veröffentlichungsdatum,
+ also<00:04:36.383><c> wann</c><00:04:36.712><c> es</c><00:04:36.909><c> beispielsweise</c>
+
+00:04:37.828 --> 00:04:37.894 align:start position:0%
+ also wann es beispielsweise
+ 
+
+00:04:37.894 --> 00:04:40.387 align:start position:0%
+ also wann es beispielsweise
+ veröffentlicht<00:04:38.945><c> wurde</c><00:04:39.274><c>.</c><00:04:40.199><c> Eine</c>
+
+00:04:40.387 --> 00:04:40.434 align:start position:0%
+ veröffentlicht wurde. Eine
+ 
+
+00:04:40.434 --> 00:04:42.227 align:start position:0%
+ veröffentlicht wurde. Eine
+ vollständige<00:04:41.095><c> Liste</c><00:04:41.378><c> findest</c><00:04:41.755><c> du</c><00:04:41.897><c> auf</c><00:04:42.086><c> der</c>
+
+00:04:42.227 --> 00:04:42.274 align:start position:0%
+ vollständige Liste findest du auf der
+ 
+
+00:04:42.274 --> 00:04:45.624 align:start position:0%
+ vollständige Liste findest du auf der
+ Website<00:04:42.652><c> des</c><00:04:42.841><c> Open-Graph-Protokolls</c><00:04:43.831><c>.</c><00:04:45.419><c> Wie</c>
+
+00:04:45.624 --> 00:04:45.693 align:start position:0%
+ Website des Open-Graph-Protokolls. Wie
+ 
+
+00:04:45.693 --> 00:04:48.163 align:start position:0%
+ Website des Open-Graph-Protokolls. Wie
+ du<00:04:45.899><c> sehen</c><00:04:46.310><c> kannst</c><00:04:46.722><c>,</c><00:04:46.859><c> zeigen</c><00:04:47.340><c> sie</c><00:04:47.614><c> auch</c><00:04:47.957><c> die</c>
+
+00:04:48.163 --> 00:04:48.231 align:start position:0%
+ du sehen kannst, zeigen sie auch die
+ 
+
+00:04:48.231 --> 00:04:50.839 align:start position:0%
+ du sehen kannst, zeigen sie auch die
+ ersten<00:04:48.712><c> vier</c><00:04:48.986><c>,</c><00:04:49.123><c> die</c><00:04:49.398><c> wir</c><00:04:49.672><c> besprochen</c><00:04:50.427><c> haben</c><00:04:50.770><c>;</c>
+
+00:04:50.839 --> 00:04:50.907 align:start position:0%
+ ersten vier, die wir besprochen haben;
+ 
+
+00:04:50.907 --> 00:04:53.377 align:start position:0%
+ ersten vier, die wir besprochen haben;
+ es<00:04:51.113><c> gibt</c><00:04:51.456><c> noch</c><00:04:51.799><c> viel</c><00:04:52.142><c> mehr</c><00:04:52.485><c> Meta-Tags</c><00:04:53.171><c> und</c>
+
+00:04:53.377 --> 00:04:53.446 align:start position:0%
+ es gibt noch viel mehr Meta-Tags und
+ 
+
+00:04:53.446 --> 00:04:55.915 align:start position:0%
+ es gibt noch viel mehr Meta-Tags und
+ man<00:04:53.720><c> kann</c><00:04:54.063><c> damit</c><00:04:54.475><c> eine</c><00:04:54.818><c> Menge</c><00:04:55.229><c> anstellen</c><00:04:55.847><c>,</c>
+
+00:04:55.915 --> 00:04:55.984 align:start position:0%
+ man kann damit eine Menge anstellen,
+ 
+
+00:04:55.984 --> 00:05:00.597 align:start position:0%
+ man kann damit eine Menge anstellen,
+ aber<00:04:59.379><c> die</c><00:04:59.590><c> ersten</c><00:04:59.961><c> vier</c><00:05:00.226><c> sind</c><00:05:00.491><c> am</c>
+
+00:05:00.597 --> 00:05:00.650 align:start position:0%
+ aber die ersten vier sind am
+ 
+
+00:05:00.650 --> 00:05:02.558 align:start position:0%
+ aber die ersten vier sind am
+ wichtigsten<00:05:01.233><c>,</c><00:05:01.339><c> damit</c><00:05:01.657><c> man</c><00:05:01.869><c> eine</c><00:05:02.134><c> wirklich</c>
+
+00:05:02.558 --> 00:05:02.611 align:start position:0%
+ wichtigsten, damit man eine wirklich
+ 
+
+00:05:02.611 --> 00:05:04.572 align:start position:0%
+ wichtigsten, damit man eine wirklich
+ schöne<00:05:03.035><c> Vorschau</c><00:05:03.512><c> erhält</c><00:05:03.883><c>,</c><00:05:03.989><c> wenn</c><00:05:04.254><c> jemand</c>
+
+00:05:04.572 --> 00:05:04.625 align:start position:0%
+ schöne Vorschau erhält, wenn jemand
+ 
+
+00:05:04.625 --> 00:05:09.026 align:start position:0%
+ schöne Vorschau erhält, wenn jemand
+ deinen<00:05:04.996><c> Link</c><00:05:05.261><c> teilt</c><00:05:05.526><c>.</c><00:05:08.259><c> Wir</c><00:05:08.420><c> können</c><00:05:08.743><c> uns</c><00:05:08.905><c> zum</c>
+
+00:05:09.026 --> 00:05:09.066 align:start position:0%
+ deinen Link teilt. Wir können uns zum
+ 
+
+00:05:09.066 --> 00:05:10.561 align:start position:0%
+ deinen Link teilt. Wir können uns zum
+ Beispiel<00:05:09.430><c> die</c><00:05:09.591><c> Open-Graph-Meta-Tags</c><00:05:10.440><c> auf</c>
+
+00:05:10.561 --> 00:05:10.601 align:start position:0%
+ Beispiel die Open-Graph-Meta-Tags auf
+ 
+
+00:05:10.601 --> 00:05:12.177 align:start position:0%
+ Beispiel die Open-Graph-Meta-Tags auf
+ meiner<00:05:10.884><c> Website</c><00:05:11.207><c> ansehen</c><00:05:11.490><c>,</c><00:05:11.571><c> wenn</c><00:05:11.773><c> ich</c><00:05:11.934><c> fertig</c>
+
+00:05:12.177 --> 00:05:12.217 align:start position:0%
+ meiner Website ansehen, wenn ich fertig
+ 
+
+00:05:12.217 --> 00:05:15.855 align:start position:0%
+ meiner Website ansehen, wenn ich fertig
+ bin<00:05:12.338><c>.</c><00:05:13.159><c> Und</c><00:05:13.402><c> die</c><00:05:13.646><c> sehen</c><00:05:14.012><c> so</c><00:05:14.195><c> aus</c><00:05:14.378><c>.</c><00:05:15.299><c> Du</c><00:05:15.484><c> kannst</c>
+
+00:05:15.855 --> 00:05:15.917 align:start position:0%
+ bin. Und die sehen so aus. Du kannst
+ 
+
+00:05:15.917 --> 00:05:17.712 align:start position:0%
+ bin. Und die sehen so aus. Du kannst
+ sie<00:05:16.165><c> dir</c><00:05:16.412><c> ansehen</c><00:05:16.846><c>,</c><00:05:16.969><c> indem</c><00:05:17.341><c> du</c><00:05:17.526><c> die</c>
+
+00:05:17.712 --> 00:05:17.774 align:start position:0%
+ sie dir ansehen, indem du die
+ 
+
+00:05:17.774 --> 00:05:20.187 align:start position:0%
+ sie dir ansehen, indem du die
+ Entwicklertools<00:05:18.764><c> öffnest</c><00:05:19.259><c>–</c><00:05:19.445><c>entweder</c><00:05:20.002><c> per</c>
+
+00:05:20.187 --> 00:05:20.249 align:start position:0%
+ Entwicklertools öffnest–entweder per
+ 
+
+00:05:20.249 --> 00:05:22.539 align:start position:0%
+ Entwicklertools öffnest–entweder per
+ Rechtsklick<00:05:20.992><c> und</c><00:05:21.239><c> „</c><00:05:21.425><c>Untersuchen</c><00:05:22.106><c>“</c><00:05:22.353><c> auf</c>
+
+00:05:22.539 --> 00:05:22.601 align:start position:0%
+ Rechtsklick und „Untersuchen“ auf
+ 
+
+00:05:22.601 --> 00:05:24.828 align:start position:0%
+ Rechtsklick und „Untersuchen“ auf
+ der<00:05:22.848><c> Website</c><00:05:23.343><c> oder</c><00:05:23.653><c> du</c><00:05:23.838><c> drückst</c><00:05:24.395><c> F12</c><00:05:24.581><c>,</c><00:05:24.705><c> um</c>
+
+00:05:24.828 --> 00:05:24.890 align:start position:0%
+ der Website oder du drückst F12, um
+ 
+
+00:05:24.890 --> 00:05:28.204 align:start position:0%
+ der Website oder du drückst F12, um
+ sie<00:05:25.138><c> aufzurufen</c><00:05:25.757><c>.</c><00:05:27.159><c> Ich</c><00:05:27.379><c> habe</c><00:05:27.654><c> eine</c><00:05:27.929><c> ganze</c>
+
+00:05:28.204 --> 00:05:28.259 align:start position:0%
+ sie aufzurufen. Ich habe eine ganze
+ 
+
+00:05:28.259 --> 00:05:32.211 align:start position:0%
+ sie aufzurufen. Ich habe eine ganze
+ Menge<00:05:28.589><c> davon</c><00:05:28.864><c>.</c><00:05:30.339><c> Das</c><00:05:30.679><c> Wichtigste</c><00:05:31.530><c>,</c><00:05:31.701><c> was</c><00:05:32.041><c> du</c>
+
+00:05:32.211 --> 00:05:32.296 align:start position:0%
+ Menge davon. Das Wichtigste, was du
+ 
+
+00:05:32.296 --> 00:05:35.276 align:start position:0%
+ Menge davon. Das Wichtigste, was du
+ bemerken<00:05:33.063><c> solltest</c><00:05:33.744><c>,</c><00:05:33.914><c> ist</c><00:05:34.169><c>,</c><00:05:34.340><c> dass</c><00:05:34.765><c> einige</c>
+
+00:05:35.276 --> 00:05:35.361 align:start position:0%
+ bemerken solltest, ist, dass einige
+ 
+
+00:05:35.361 --> 00:05:38.681 align:start position:0%
+ bemerken solltest, ist, dass einige
+ davon<00:05:35.872><c> OG-Tags</c><00:05:36.553><c> (</c><00:05:36.638><c>Open</c><00:05:37.064><c> Graph</c><00:05:37.489><c>)</c><00:05:37.660><c> sind</c><00:05:38.000><c>,</c><00:05:38.170><c> andere</c>
+
+00:05:38.681 --> 00:05:38.766 align:start position:0%
+ davon OG-Tags (Open Graph) sind, andere
+ 
+
+00:05:38.766 --> 00:05:42.876 align:start position:0%
+ davon OG-Tags (Open Graph) sind, andere
+ aber<00:05:39.192><c> Twitter-Tags</c><00:05:40.213><c>.</c><00:05:41.979><c> Twitter</c><00:05:42.457><c> hat</c><00:05:42.697><c> zum</c>
+
+00:05:42.876 --> 00:05:42.936 align:start position:0%
+ aber Twitter-Tags. Twitter hat zum
+ 
+
+00:05:42.936 --> 00:05:45.270 align:start position:0%
+ aber Twitter-Tags. Twitter hat zum
+ Beispiel<00:05:43.475><c> eigene</c><00:05:43.894><c> Meta-Tags</c><00:05:44.432><c>,</c><00:05:44.552><c> die</c><00:05:44.791><c> speziell</c>
+
+00:05:45.270 --> 00:05:45.330 align:start position:0%
+ Beispiel eigene Meta-Tags, die speziell
+ 
+
+00:05:45.330 --> 00:05:47.545 align:start position:0%
+ Beispiel eigene Meta-Tags, die speziell
+ für<00:05:45.629><c> ihre</c><00:05:45.929><c> Website</c><00:05:46.407><c> sind</c><00:05:46.707><c> und</c><00:05:46.946><c> festlegen</c><00:05:47.485><c>,</c>
+
+00:05:47.545 --> 00:05:47.604 align:start position:0%
+ für ihre Website sind und festlegen,
+ 
+
+00:05:47.604 --> 00:05:49.939 align:start position:0%
+ für ihre Website sind und festlegen,
+ wie<00:05:47.844><c> dort</c><00:05:48.143><c> mit</c><00:05:48.382><c> Meta-Tags</c><00:05:48.981><c> umgegangen</c><00:05:49.639><c> wird</c><00:05:49.879><c>.</c>
+
+00:05:49.939 --> 00:05:51.399 align:start position:0%
+ wie dort mit Meta-Tags umgegangen wird.
+ 
+
+00:05:51.399 --> 00:05:53.257 align:start position:0%
+ 
+ Das<00:05:51.589><c> ist</c><00:05:51.780><c> etwas</c><00:05:52.018><c>,</c><00:05:52.113><c> das</c><00:05:52.304><c> man</c><00:05:52.495><c> berücksichtigen</c>
+
+00:05:53.257 --> 00:05:53.305 align:start position:0%
+ Das ist etwas, das man berücksichtigen
+ 
+
+00:05:53.305 --> 00:05:56.901 align:start position:0%
+ Das ist etwas, das man berücksichtigen
+ sollte<00:05:53.591><c>.</c><00:05:55.199><c> Verschiedene</c><00:05:56.018><c> soziale</c><00:05:56.522><c> Medien</c>
+
+00:05:56.901 --> 00:05:56.964 align:start position:0%
+ sollte. Verschiedene soziale Medien
+ 
+
+00:05:56.964 --> 00:05:59.360 align:start position:0%
+ sollte. Verschiedene soziale Medien
+ verwenden<00:05:57.594><c> sogenannte</c><00:05:58.288><c> alternative</c><00:05:59.044><c> Tags</c><00:05:59.296><c>.</c>
+
+00:05:59.360 --> 00:06:00.699 align:start position:0%
+ verwenden sogenannte alternative Tags.
+ 
+
+00:06:00.699 --> 00:06:02.989 align:start position:0%
+ 
+ Sie<00:06:00.839><c> haben</c><00:06:01.050><c> ihre</c><00:06:01.226><c> ganz</c><00:06:01.402><c> eigenen</c><00:06:01.683><c> Tags</c><00:06:01.823><c>.</c><00:06:02.800><c> Ich</c>
+
+00:06:02.989 --> 00:06:03.053 align:start position:0%
+ Sie haben ihre ganz eigenen Tags. Ich
+ 
+
+00:06:03.053 --> 00:06:05.204 align:start position:0%
+ Sie haben ihre ganz eigenen Tags. Ich
+ denke<00:06:03.369><c>,</c><00:06:03.496><c> die</c><00:06:03.749><c> meisten</c><00:06:04.255><c> greifen</c><00:06:04.761><c> auf</c><00:06:05.015><c> das</c>
+
+00:06:05.204 --> 00:06:05.268 align:start position:0%
+ denke, die meisten greifen auf das
+ 
+
+00:06:05.268 --> 00:06:07.609 align:start position:0%
+ denke, die meisten greifen auf das
+ OG-Tag<00:06:05.711><c> zurück</c><00:06:06.154><c>,</c><00:06:06.280><c> wenn</c><00:06:06.597><c> kein</c><00:06:06.913><c> anderes</c><00:06:07.419><c> Tag</c>
+
+00:06:07.609 --> 00:06:07.673 align:start position:0%
+ OG-Tag zurück, wenn kein anderes Tag
+ 
+
+00:06:07.673 --> 00:06:11.959 align:start position:0%
+ OG-Tag zurück, wenn kein anderes Tag
+ vorhanden<00:06:08.305><c> ist</c><00:06:08.495><c>.</c><00:06:10.479><c> Ähm</c><00:06:10.736><c>,</c><00:06:10.865><c> aber</c><00:06:11.187><c> zum</c><00:06:11.444><c> Beispiel</c>
+
+00:06:11.959 --> 00:06:12.023 align:start position:0%
+ vorhanden ist. Ähm, aber zum Beispiel
+ 
+
+00:06:12.023 --> 00:06:14.341 align:start position:0%
+ vorhanden ist. Ähm, aber zum Beispiel
+ bei<00:06:12.281><c> Twitter</c><00:06:12.732><c>:</c><00:06:12.860><c> Wenn</c><00:06:13.182><c> du</c><00:06:13.375><c> möchtest</c><00:06:13.955><c>,</c><00:06:14.083><c> dass</c>
+
+00:06:14.341 --> 00:06:14.405 align:start position:0%
+ bei Twitter: Wenn du möchtest, dass
+ 
+
+00:06:14.405 --> 00:06:16.787 align:start position:0%
+ bei Twitter: Wenn du möchtest, dass
+ das<00:06:14.663><c> Bild</c><00:06:14.920><c>,</c><00:06:15.049><c> dein</c><00:06:15.371><c> Bild</c><00:06:15.628><c>,</c><00:06:15.757><c> den</c><00:06:16.015><c> ganzen</c><00:06:16.465><c> Tweet</c>
+
+00:06:16.787 --> 00:06:16.851 align:start position:0%
+ das Bild, dein Bild, den ganzen Tweet
+ 
+
+00:06:16.851 --> 00:06:19.298 align:start position:0%
+ das Bild, dein Bild, den ganzen Tweet
+ ausfüllt<00:06:17.431><c>,</c><00:06:17.560><c> wie</c><00:06:17.817><c> es</c><00:06:18.010><c> auf</c><00:06:18.268><c> meiner</c><00:06:18.718><c> Seite</c><00:06:19.105><c> der</c>
+
+00:06:19.298 --> 00:06:19.362 align:start position:0%
+ ausfüllt, wie es auf meiner Seite der
+ 
+
+00:06:19.362 --> 00:06:21.808 align:start position:0%
+ ausfüllt, wie es auf meiner Seite der
+ Fall<00:06:19.684><c> ist</c><00:06:19.877><c>,</c><00:06:20.006><c> anstatt</c><00:06:20.521><c> nur</c><00:06:20.778><c> ein</c><00:06:21.036><c> kleines</c><00:06:21.551><c> Bild</c>
+
+00:06:21.808 --> 00:06:21.873 align:start position:0%
+ Fall ist, anstatt nur ein kleines Bild
+ 
+
+00:06:21.873 --> 00:06:23.997 align:start position:0%
+ Fall ist, anstatt nur ein kleines Bild
+ in<00:06:22.066><c> der</c><00:06:22.323><c> Ecke</c><00:06:22.645><c> zu</c><00:06:22.838><c> sein</c><00:06:23.096><c>,</c><00:06:23.224><c> musst</c><00:06:23.611><c> du</c><00:06:23.804><c> das</c>
+
+00:06:23.997 --> 00:06:24.061 align:start position:0%
+ in der Ecke zu sein, musst du das
+ 
+
+00:06:24.061 --> 00:06:26.572 align:start position:0%
+ in der Ecke zu sein, musst du das
+ Twitter-Card-Tag<00:06:25.156><c> angeben</c><00:06:25.671><c> und</c><00:06:25.928><c> festlegen</c><00:06:26.507><c>,</c>
+
+00:06:26.572 --> 00:06:26.636 align:start position:0%
+ Twitter-Card-Tag angeben und festlegen,
+ 
+
+00:06:26.636 --> 00:06:29.018 align:start position:0%
+ Twitter-Card-Tag angeben und festlegen,
+ dass<00:06:26.958><c> es</c><00:06:27.151><c> ein</c><00:06:27.409><c> „</c><00:06:27.602><c>summary</c><00:06:28.117><c> large</c><00:06:28.503><c> image</c><00:06:28.825><c>“</c>
+
+00:06:29.018 --> 00:06:29.082 align:start position:0%
+ dass es ein „summary large image“
+ 
+
+00:06:29.082 --> 00:06:31.078 align:start position:0%
+ dass es ein „summary large image“
+ sein<00:06:29.404><c> soll</c><00:06:29.662><c>,</c><00:06:29.790><c> wie</c><00:06:30.048><c> ich</c><00:06:30.305><c> es</c><00:06:30.499><c> in</c><00:06:30.692><c> meinem</c>
+
+00:06:31.078 --> 00:06:31.142 align:start position:0%
+ sein soll, wie ich es in meinem
+ 
+
+00:06:31.142 --> 00:06:36.469 align:start position:0%
+ sein soll, wie ich es in meinem
+ Meta-Tag<00:06:31.722><c> gemacht</c><00:06:32.237><c> habe</c><00:06:32.494><c>.</c><00:06:35.554><c> Um</c><00:06:35.725><c> mehr</c><00:06:36.011><c> darüber</c>
+
+00:06:36.469 --> 00:06:36.527 align:start position:0%
+ Meta-Tag gemacht habe. Um mehr darüber
+ 
+
+00:06:36.527 --> 00:06:38.473 align:start position:0%
+ Meta-Tag gemacht habe. Um mehr darüber
+ zu<00:06:36.698><c> erfahren</c><00:06:37.156><c>,</c><00:06:37.271><c> welche</c><00:06:37.671><c> Meta-Tags</c><00:06:38.244><c> für</c>
+
+00:06:38.473 --> 00:06:38.530 align:start position:0%
+ zu erfahren, welche Meta-Tags für
+ 
+
+00:06:38.530 --> 00:06:40.762 align:start position:0%
+ zu erfahren, welche Meta-Tags für
+ Twitter<00:06:38.988><c> usw.</c><00:06:39.274><c> verfügbar</c><00:06:39.903><c> sind</c><00:06:40.132><c>,</c><00:06:40.247><c> kannst</c><00:06:40.647><c> du</c>
+
+00:06:40.762 --> 00:06:40.819 align:start position:0%
+ Twitter usw. verfügbar sind, kannst du
+ 
+
+00:06:40.819 --> 00:06:43.398 align:start position:0%
+ Twitter usw. verfügbar sind, kannst du
+ developer.twitter.com<00:06:42.078><c> besuchen</c><00:06:42.536><c>.</c><00:06:43.146><c> Dort</c>
+
+00:06:43.398 --> 00:06:43.461 align:start position:0%
+ developer.twitter.com besuchen. Dort
+ 
+
+00:06:43.461 --> 00:06:45.792 align:start position:0%
+ developer.twitter.com besuchen. Dort
+ werden<00:06:43.902><c> dir</c><00:06:44.154><c> alle</c><00:06:44.469><c> verfügbaren</c><00:06:45.288><c> Tags</c><00:06:45.603><c> und</c>
+
+00:06:45.792 --> 00:06:45.855 align:start position:0%
+ werden dir alle verfügbaren Tags und
+ 
+
+00:06:45.855 --> 00:06:48.186 align:start position:0%
+ werden dir alle verfügbaren Tags und
+ eine<00:06:46.170><c> kurze</c><00:06:46.548><c> Erklärung</c><00:06:47.241><c> dazu</c><00:06:47.556><c> angezeigt</c><00:06:48.123><c>.</c>
+
+00:06:48.186 --> 00:06:48.499 align:start position:0%
+ eine kurze Erklärung dazu angezeigt.
+ 
+
+00:06:48.499 --> 00:06:50.150 align:start position:0%
+ eine kurze Erklärung dazu angezeigt.
+ Das<00:06:48.693><c> Gleiche</c><00:06:49.081><c> gilt</c><00:06:49.324><c> für</c><00:06:49.567><c> Facebook</c><00:06:50.004><c> und</c>
+
+00:06:50.150 --> 00:06:50.199 align:start position:0%
+ Das Gleiche gilt für Facebook und
+ 
+
+00:06:50.199 --> 00:06:52.639 align:start position:0%
+ Das Gleiche gilt für Facebook und
+ andere<00:06:50.490><c>.</c><00:06:50.839><c> Und</c><00:06:51.079><c> du</c><00:06:51.259><c> findest</c><00:06:51.739><c> Links</c><00:06:52.099><c> innerhalb</c>
+
+00:06:52.639 --> 00:06:52.699 align:start position:0%
+ andere. Und du findest Links innerhalb
+ 
+
+00:06:52.699 --> 00:06:54.919 align:start position:0%
+ andere. Und du findest Links innerhalb
+ des<00:06:52.939><c> Open</c><00:06:53.239><c> Graph-Protokolls</c><00:06:54.259><c> ganz</c><00:06:54.559><c> unten</c><00:06:54.859><c>.</c>
+
+00:06:54.919 --> 00:06:55.959 align:start position:0%
+ des Open Graph-Protokolls ganz unten.
+ 
+
+00:06:55.959 --> 00:06:58.398 align:start position:0%
+ 
+ Dort<00:06:56.394><c> gibt</c><00:06:56.830><c> es</c><00:06:57.091><c> Links</c><00:06:57.614><c> für</c><00:06:58.049><c> alle</c>
+
+00:06:58.398 --> 00:06:58.485 align:start position:0%
+ Dort gibt es Links für alle
+ 
+
+00:06:58.485 --> 00:07:01.882 align:start position:0%
+ Dort gibt es Links für alle
+ zugehörigen<00:06:59.617><c> Quellen</c><00:07:00.227><c>,</c><00:07:00.401><c> zum</c><00:07:00.750><c> Beispiel</c><00:07:01.534><c> für</c>
+
+00:07:01.882 --> 00:07:01.969 align:start position:0%
+ zugehörigen Quellen, zum Beispiel für
+ 
+
+00:07:01.969 --> 00:07:06.052 align:start position:0%
+ zugehörigen Quellen, zum Beispiel für
+ Facebook<00:07:02.753><c> oder</c><00:07:03.189><c> Google</c><00:07:03.711><c>.</c><00:07:05.399><c> Es</c><00:07:05.529><c> könnte</c><00:07:05.878><c> also</c>
+
+00:07:06.052 --> 00:07:06.095 align:start position:0%
+ Facebook oder Google. Es könnte also
+ 
+
+00:07:06.095 --> 00:07:07.751 align:start position:0%
+ Facebook oder Google. Es könnte also
+ gut<00:07:06.270><c> sein</c><00:07:06.444><c>,</c><00:07:06.531><c> sich</c><00:07:06.749><c> anzusehen</c><00:07:07.141><c>,</c><00:07:07.228><c> wie</c><00:07:07.402><c> das</c><00:07:07.576><c> für</c>
+
+00:07:07.751 --> 00:07:07.794 align:start position:0%
+ gut sein, sich anzusehen, wie das für
+ 
+
+00:07:07.794 --> 00:07:09.319 align:start position:0%
+ gut sein, sich anzusehen, wie das für
+ die<00:07:07.968><c> jeweiligen</c><00:07:08.447><c> Medien</c><00:07:08.752><c> funktioniert</c><00:07:09.275><c>.</c>
+
+00:07:09.319 --> 00:07:11.840 align:start position:0%
+ die jeweiligen Medien funktioniert.
+ 
+
+00:07:11.840 --> 00:07:13.839 align:start position:0%
+ 
+ Sobald<00:07:12.218><c> du</c><00:07:12.380><c> diese</c><00:07:12.704><c> Meta-Tags</c><00:07:13.245><c> verwendest</c><00:07:13.785><c>,</c>
+
+00:07:13.839 --> 00:07:13.893 align:start position:0%
+ Sobald du diese Meta-Tags verwendest,
+ 
+
+00:07:13.893 --> 00:07:15.839 align:start position:0%
+ Sobald du diese Meta-Tags verwendest,
+ möchtest<00:07:14.433><c> du</c><00:07:14.596><c> sie</c><00:07:14.812><c> sicher</c><00:07:15.190><c> auch</c><00:07:15.460><c> testen</c><00:07:15.784><c>.</c>
+
+00:07:15.839 --> 00:07:17.099 align:start position:0%
+ möchtest du sie sicher auch testen.
+ 
+
+00:07:17.099 --> 00:07:18.620 align:start position:0%
+ 
+ Und<00:07:17.255><c> das</c><00:07:17.411><c> ist</c><00:07:17.567><c> eigentlich</c><00:07:17.996><c> ziemlich</c><00:07:18.347><c> einfach</c>
+
+00:07:18.620 --> 00:07:21.324 align:start position:0%
+ Und das ist eigentlich ziemlich einfach
+.<00:07:19.119><c> Es</c><00:07:19.297><c> gibt</c><00:07:19.595><c> eine</c><00:07:19.893><c> Reihe</c><00:07:20.251><c> von</c><00:07:20.489><c> Tools</c><00:07:20.788><c>,</c><00:07:20.907><c> die</c><00:07:21.145><c> dir</c>
+
+00:07:21.324 --> 00:07:21.384 align:start position:0%
+. Es gibt eine Reihe von Tools, die dir
+ 
+
+00:07:21.384 --> 00:07:23.505 align:start position:0%
+. Es gibt eine Reihe von Tools, die dir
+ dabei<00:07:21.741><c> helfen</c><00:07:22.099><c>.</c><00:07:22.379><c> Du</c><00:07:22.556><c> kannst</c><00:07:22.971><c> deine</c><00:07:23.327><c> URL</c>
+
+00:07:23.505 --> 00:07:23.564 align:start position:0%
+ dabei helfen. Du kannst deine URL
+ 
+
+00:07:23.564 --> 00:07:25.402 align:start position:0%
+ dabei helfen. Du kannst deine URL
+ eingeben<00:07:24.098><c> und</c><00:07:24.335><c> sie</c><00:07:24.572><c> zeigen</c><00:07:24.987><c> dir</c><00:07:25.224><c> die</c>
+
+00:07:25.402 --> 00:07:25.462 align:start position:0%
+ eingeben und sie zeigen dir die
+ 
+
+00:07:25.462 --> 00:07:28.624 align:start position:0%
+ eingeben und sie zeigen dir die
+ Vorschau<00:07:25.995><c> für</c><00:07:26.292><c> deine</c><00:07:26.647><c> Website</c><00:07:27.122><c> an</c><00:07:27.240><c>.</c><00:07:28.099><c> Twitter</c>
+
+00:07:28.624 --> 00:07:31.263 align:start position:0%
+ Vorschau für deine Website an. Twitter
+.<00:07:29.139><c> Twitter</c><00:07:29.512><c> hat</c><00:07:29.699><c> eines</c><00:07:29.933><c>.</c><00:07:30.151><c> Wie</c><00:07:30.412><c> du</c><00:07:30.609><c> hier</c><00:07:30.936><c> sehen</c>
+
+00:07:31.263 --> 00:07:31.329 align:start position:0%
+. Twitter hat eines. Wie du hier sehen
+ 
+
+00:07:31.329 --> 00:07:33.685 align:start position:0%
+. Twitter hat eines. Wie du hier sehen
+ kannst<00:07:31.721><c>,</c><00:07:31.852><c> geben</c><00:07:32.245><c> wir</c><00:07:32.507><c> unsere</c><00:07:32.965><c> URL</c><00:07:33.227><c> ein</c><00:07:33.489><c> und</c>
+
+00:07:33.685 --> 00:07:33.751 align:start position:0%
+ kannst, geben wir unsere URL ein und
+ 
+
+00:07:33.751 --> 00:07:36.865 align:start position:0%
+ kannst, geben wir unsere URL ein und
+ wählen<00:07:34.274><c> „</c><00:07:34.471><c>Preview</c><00:07:34.929><c>“</c><00:07:35.125><c>.</c><00:07:35.865><c> Es</c><00:07:36.052><c> sagt</c><00:07:36.365><c> uns</c><00:07:36.615><c> dann</c>
+
+00:07:36.865 --> 00:07:39.117 align:start position:0%
+ wählen „Preview“. Es sagt uns dann
+,<00:07:36.991><c> dass</c><00:07:37.303><c> es</c><00:07:37.491><c> 16</c><00:07:37.679><c> Meta-Tags</c><00:07:38.304><c> gefunden</c><00:07:38.867><c> hat</c><00:07:39.055><c>,</c>
+
+00:07:39.117 --> 00:07:39.180 align:start position:0%
+, dass es 16 Meta-Tags gefunden hat,
+ 
+
+00:07:39.180 --> 00:07:41.432 align:start position:0%
+, dass es 16 Meta-Tags gefunden hat,
+ die<00:07:39.430><c> spezifische</c><00:07:40.181><c> Twitter-Card</c><00:07:40.994><c> erkannt</c>
+
+00:07:41.432 --> 00:07:41.495 align:start position:0%
+ die spezifische Twitter-Card erkannt
+ 
+
+00:07:41.495 --> 00:07:43.872 align:start position:0%
+ die spezifische Twitter-Card erkannt
+ wurde<00:07:41.870><c> und</c><00:07:42.120><c> die</c><00:07:42.370><c> Card</c><00:07:42.683><c> erfolgreich</c><00:07:43.434><c> geladen</c>
+
+00:07:43.872 --> 00:07:43.934 align:start position:0%
+ wurde und die Card erfolgreich geladen
+ 
+
+00:07:43.934 --> 00:07:46.344 align:start position:0%
+ wurde und die Card erfolgreich geladen
+ hat<00:07:44.122><c>.</c><00:07:45.219><c> Es</c><00:07:45.331><c> wird</c><00:07:45.519><c> uns</c><00:07:45.669><c> sagen</c><00:07:45.856><c>,</c><00:07:45.931><c> dass</c><00:07:46.119><c> es</c><00:07:46.231><c> die</c>
+
+00:07:46.344 --> 00:07:46.381 align:start position:0%
+ hat. Es wird uns sagen, dass es die
+ 
+
+00:07:46.381 --> 00:07:47.731 align:start position:0%
+ hat. Es wird uns sagen, dass es die
+ Vorschau<00:07:46.719><c> nicht</c><00:07:46.944><c> anzeigen</c><00:07:47.281><c> kann</c><00:07:47.431><c>,</c><00:07:47.506><c> da</c><00:07:47.619><c> sie</c>
+
+00:07:47.731 --> 00:07:47.769 align:start position:0%
+ Vorschau nicht anzeigen kann, da sie
+ 
+
+00:07:47.769 --> 00:07:49.156 align:start position:0%
+ Vorschau nicht anzeigen kann, da sie
+ das<00:07:47.919><c> aus</c><00:07:48.069><c> irgendeinem</c><00:07:48.519><c> Grund</c><00:07:48.744><c> eingestellt</c>
+
+00:07:49.156 --> 00:07:49.194 align:start position:0%
+ das aus irgendeinem Grund eingestellt
+ 
+
+00:07:49.194 --> 00:07:52.084 align:start position:0%
+ das aus irgendeinem Grund eingestellt
+ haben<00:07:49.381><c>.</c><00:07:50.580><c> Aber</c><00:07:50.815><c> es</c><00:07:50.956><c> ist</c><00:07:51.144><c> gut</c><00:07:51.332><c> zu</c><00:07:51.473><c> wissen</c><00:07:51.755><c>,</c><00:07:51.849><c> ob</c><00:07:51.990><c> es</c>
+
+00:07:52.084 --> 00:07:52.131 align:start position:0%
+ haben. Aber es ist gut zu wissen, ob es
+ 
+
+00:07:52.131 --> 00:07:53.871 align:start position:0%
+ haben. Aber es ist gut zu wissen, ob es
+ Fehler<00:07:52.460><c> in</c><00:07:52.601><c> deinem</c><00:07:52.931><c> Tag</c><00:07:53.119><c> gibt</c><00:07:53.307><c>;</c><00:07:53.401><c> das</c><00:07:53.589><c> System</c>
+
+00:07:53.871 --> 00:07:53.918 align:start position:0%
+ Fehler in deinem Tag gibt; das System
+ 
+
+00:07:53.918 --> 00:07:56.862 align:start position:0%
+ Fehler in deinem Tag gibt; das System
+ wird<00:07:54.153><c> sie</c><00:07:54.341><c> dir</c><00:07:54.529><c> melden</c><00:07:54.811><c>.</c><00:07:55.819><c> Das</c><00:07:56.079><c> Gleiche</c><00:07:56.601><c> gilt</c>
+
+00:07:56.862 --> 00:07:56.927 align:start position:0%
+ wird sie dir melden. Das Gleiche gilt
+ 
+
+00:07:56.927 --> 00:07:59.079 align:start position:0%
+ wird sie dir melden. Das Gleiche gilt
+ für<00:07:57.253><c> Facebook</c><00:07:57.775><c>;</c><00:07:57.906><c> die</c><00:07:58.166><c> haben</c><00:07:58.558><c> auch</c><00:07:58.884><c> ihr</c>
+
+00:07:59.079 --> 00:07:59.145 align:start position:0%
+ für Facebook; die haben auch ihr
+ 
+
+00:07:59.145 --> 00:08:01.453 align:start position:0%
+ für Facebook; die haben auch ihr
+ eigenes<00:07:59.666><c> Debugger-Tool</c><00:08:00.514><c>.</c><00:08:00.840><c> Ich</c><00:08:01.003><c> werde</c><00:08:01.249><c> es</c><00:08:01.371><c> in</c>
+
+00:08:01.453 --> 00:08:01.494 align:start position:0%
+ eigenes Debugger-Tool. Ich werde es in
+ 
+
+00:08:01.494 --> 00:08:04.060 align:start position:0%
+ eigenes Debugger-Tool. Ich werde es in
+ der<00:08:01.658><c> Beschreibung</c><00:08:02.189><c> verlinken</c><00:08:02.558><c>.</c><00:08:03.679><c> Wann</c><00:08:03.869><c> immer</c>
+
+00:08:04.060 --> 00:08:04.098 align:start position:0%
+ der Beschreibung verlinken. Wann immer
+ 
+
+00:08:04.098 --> 00:08:05.510 align:start position:0%
+ der Beschreibung verlinken. Wann immer
+ ich<00:08:04.251><c> also</c><00:08:04.442><c> ausprobieren</c><00:08:04.938><c> möchte</c><00:08:05.205><c>,</c><00:08:05.281><c> wie</c><00:08:05.434><c> es</c>
+
+00:08:05.510 --> 00:08:05.548 align:start position:0%
+ ich also ausprobieren möchte, wie es
+ 
+
+00:08:05.548 --> 00:08:06.883 align:start position:0%
+ ich also ausprobieren möchte, wie es
+ zum<00:08:05.701><c> Beispiel</c><00:08:06.044><c> auf</c><00:08:06.197><c> Facebook</c><00:08:06.540><c> aussieht</c><00:08:06.845><c>,</c>
+
+00:08:06.883 --> 00:08:06.922 align:start position:0%
+ zum Beispiel auf Facebook aussieht,
+ 
+
+00:08:06.922 --> 00:08:08.143 align:start position:0%
+ zum Beispiel auf Facebook aussieht,
+ gehe<00:08:07.112><c> ich</c><00:08:07.265><c> hier</c><00:08:07.456><c> auf</c><00:08:07.608><c> den</c><00:08:07.761><c> „</c><00:08:07.875><c>Sharing</c>
+
+00:08:08.143 --> 00:08:08.181 align:start position:0%
+ gehe ich hier auf den „Sharing
+ 
+
+00:08:08.181 --> 00:08:10.218 align:start position:0%
+ gehe ich hier auf den „Sharing
+ Debugger<00:08:08.486><c>“</c><00:08:08.600><c>.</c><00:08:09.061><c> Ich</c><00:08:09.262><c> gebe</c><00:08:09.513><c> meine</c><00:08:09.815><c> URL</c><00:08:10.016><c> ein</c><00:08:10.167><c>.</c>
+
+00:08:10.218 --> 00:08:11.380 align:start position:0%
+ Debugger“. Ich gebe meine URL ein.
+ 
+
+00:08:11.380 --> 00:08:14.049 align:start position:0%
+ 
+ Ich<00:08:11.660><c> drücke</c><00:08:12.222><c> auf</c><00:08:12.503><c> „</c><00:08:12.714><c>Debug</c><00:08:13.065><c>“</c><00:08:13.276><c>,</c><00:08:13.417><c> warte</c><00:08:13.838><c> ein</c>
+
+00:08:14.049 --> 00:08:14.119 align:start position:0%
+ Ich drücke auf „Debug“, warte ein
+ 
+
+00:08:14.119 --> 00:08:16.859 align:start position:0%
+ Ich drücke auf „Debug“, warte ein
+ paar<00:08:14.470><c> Sekunden</c><00:08:15.102><c> und</c><00:08:15.383><c> sehe</c><00:08:15.735><c> dann</c><00:08:16.086><c> alle</c><00:08:16.437><c> Daten</c><00:08:16.788><c>.</c>
+
+00:08:16.859 --> 00:08:18.059 align:start position:0%
+ paar Sekunden und sehe dann alle Daten.
+ 
+
+00:08:18.059 --> 00:08:19.447 align:start position:0%
+ 
+ Du<00:08:18.189><c> kannst</c><00:08:18.492><c> hier</c><00:08:18.709><c> sehen</c><00:08:18.926><c>,</c><00:08:19.013><c> dass</c><00:08:19.230><c> meine</c>
+
+00:08:19.447 --> 00:08:19.491 align:start position:0%
+ Du kannst hier sehen, dass meine
+ 
+
+00:08:19.491 --> 00:08:21.140 align:start position:0%
+ Du kannst hier sehen, dass meine
+ Website<00:08:19.838><c> vor</c><00:08:20.011><c> 51</c><00:08:20.141><c> Minuten</c><00:08:20.489><c> gecrawlt</c><00:08:20.879><c> wurde</c><00:08:21.096><c>.</c>
+
+00:08:21.140 --> 00:08:21.900 align:start position:0%
+ Website vor 51 Minuten gecrawlt wurde.
+ 
+
+00:08:21.900 --> 00:08:24.961 align:start position:0%
+ Website vor 51 Minuten gecrawlt wurde.
+ Du<00:08:22.033><c> kannst</c><00:08:22.345><c> meine</c><00:08:22.613><c> URL</c><00:08:22.791><c> sehen</c><00:08:23.014><c>.</c><00:08:24.079><c> Wir</c><00:08:24.471><c> sehen</c>
+
+00:08:24.961 --> 00:08:25.059 align:start position:0%
+ Du kannst meine URL sehen. Wir sehen
+ 
+
+00:08:25.059 --> 00:08:28.395 align:start position:0%
+ Du kannst meine URL sehen. Wir sehen
+ einige<00:08:25.746><c> umgeleitete</c><00:08:26.923><c> Tags</c><00:08:27.414><c> und</c><00:08:27.806><c> wie</c><00:08:28.199><c> es</c>
+
+00:08:28.395 --> 00:08:28.493 align:start position:0%
+ einige umgeleitete Tags und wie es
+ 
+
+00:08:28.493 --> 00:08:31.926 align:start position:0%
+ einige umgeleitete Tags und wie es
+ aussieht<00:08:29.278><c>,</c><00:08:29.474><c> wenn</c><00:08:29.964><c> jemand</c><00:08:30.651><c> einen</c><00:08:31.239><c> Link</c><00:08:31.730><c> zu</c>
+
+00:08:31.926 --> 00:08:32.024 align:start position:0%
+ aussieht, wenn jemand einen Link zu
+ 
+
+00:08:32.024 --> 00:08:36.204 align:start position:0%
+ aussieht, wenn jemand einen Link zu
+ meiner<00:08:32.711><c> Website</c><00:08:33.496><c> auf</c><00:08:33.888><c> Facebook</c><00:08:34.771><c> teilt</c><00:08:35.261><c>.</c><00:08:36.099><c> So</c>
+
+00:08:36.204 --> 00:08:36.256 align:start position:0%
+ meiner Website auf Facebook teilt. So
+ 
+
+00:08:36.256 --> 00:08:38.278 align:start position:0%
+ meiner Website auf Facebook teilt. So
+ sieht<00:08:36.572><c> es</c><00:08:36.729><c> aus</c><00:08:36.887><c>.</c><00:08:37.220><c> Wir</c><00:08:37.404><c> können</c><00:08:37.772><c> auch</c><00:08:38.002><c> sehen</c><00:08:38.232><c>,</c>
+
+00:08:38.278 --> 00:08:38.324 align:start position:0%
+ sieht es aus. Wir können auch sehen,
+ 
+
+00:08:38.324 --> 00:08:40.028 align:start position:0%
+ sieht es aus. Wir können auch sehen,
+ welche<00:08:38.647><c> Meta-Tags</c><00:08:39.107><c> verwendet</c><00:08:39.567><c> wurden</c><00:08:39.890><c> und</c>
+
+00:08:40.028 --> 00:08:40.074 align:start position:0%
+ welche Meta-Tags verwendet wurden und
+ 
+
+00:08:40.074 --> 00:08:45.224 align:start position:0%
+ welche Meta-Tags verwendet wurden und
+ wie<00:08:40.258><c> sie</c><00:08:40.442><c> gefunden</c><00:08:40.856><c> wurden</c><00:08:41.132><c>.</c><00:08:44.439><c> Meta-Tags</c><00:08:44.999><c> sind</c>
+
+00:08:45.224 --> 00:08:45.280 align:start position:0%
+ wie sie gefunden wurden. Meta-Tags sind
+ 
+
+00:08:45.280 --> 00:08:47.411 align:start position:0%
+ wie sie gefunden wurden. Meta-Tags sind
+ also<00:08:45.560><c> sehr</c><00:08:45.841><c> einfach</c><00:08:46.290><c> zu</c><00:08:46.458><c> verwenden</c><00:08:46.963><c>,</c><00:08:47.075><c> bieten</c>
+
+00:08:47.411 --> 00:08:47.468 align:start position:0%
+ also sehr einfach zu verwenden, bieten
+ 
+
+00:08:47.468 --> 00:08:49.319 align:start position:0%
+ also sehr einfach zu verwenden, bieten
+ deiner<00:08:47.860><c> Website</c><00:08:48.309><c> aber</c><00:08:48.589><c> einen</c><00:08:48.926><c> großen</c>
+
+00:08:49.319 --> 00:08:49.375 align:start position:0%
+ deiner Website aber einen großen
+ 
+
+00:08:49.375 --> 00:08:51.770 align:start position:0%
+ deiner Website aber einen großen
+ Mehrwert<00:08:49.823><c>.</c><00:08:50.240><c> Wenn</c><00:08:50.546><c> jemand</c><00:08:50.974><c> einen</c><00:08:51.342><c> Link</c><00:08:51.648><c> zu</c>
+
+00:08:51.770 --> 00:08:51.831 align:start position:0%
+ Mehrwert. Wenn jemand einen Link zu
+ 
+
+00:08:51.831 --> 00:08:54.158 align:start position:0%
+ Mehrwert. Wenn jemand einen Link zu
+ deiner<00:08:52.260><c> Website</c><00:08:52.750><c> teilt</c><00:08:53.056><c>,</c><00:08:53.178><c> sieht</c><00:08:53.546><c> es</c><00:08:53.729><c> einfach</c>
+
+00:08:54.158 --> 00:08:54.219 align:start position:0%
+ deiner Website teilt, sieht es einfach
+ 
+
+00:08:54.219 --> 00:08:57.045 align:start position:0%
+ deiner Website teilt, sieht es einfach
+ viel<00:08:54.525><c> besser</c><00:08:54.954><c> aus</c><00:08:55.137><c>.</c><00:08:56.019><c> Falls</c><00:08:56.326><c> ihr</c><00:08:56.532><c> Open</c><00:08:56.788><c> Graph</c>
+
+00:08:57.045 --> 00:08:57.096 align:start position:0%
+ viel besser aus. Falls ihr Open Graph
+ 
+
+00:08:57.096 --> 00:08:58.738 align:start position:0%
+ viel besser aus. Falls ihr Open Graph
+ noch<00:08:57.352><c> nicht</c><00:08:57.660><c> nutzt</c><00:08:57.917><c>,</c><00:08:58.019><c> solltet</c><00:08:58.430><c> ihr</c><00:08:58.635><c> es</c>
+
+00:08:58.738 --> 00:08:58.789 align:start position:0%
+ noch nicht nutzt, solltet ihr es
+ 
+
+00:08:58.789 --> 00:09:01.485 align:start position:0%
+ noch nicht nutzt, solltet ihr es
+ wirklich<00:08:59.251><c> sofort</c><00:08:59.610><c> implementieren</c><00:09:00.328><c>.</c><00:09:01.319><c> Ich</c>
+
+00:09:01.485 --> 00:09:01.540 align:start position:0%
+ wirklich sofort implementieren. Ich
+ 
+
+00:09:01.540 --> 00:09:03.647 align:start position:0%
+ wirklich sofort implementieren. Ich
+ empfehle<00:09:02.039><c> euch</c><00:09:02.261><c>,</c><00:09:02.372><c> die</c><00:09:02.593><c> Open</c><00:09:02.871><c> Graph-Webseite</c>
+
+00:09:03.647 --> 00:09:03.702 align:start position:0%
+ empfehle euch, die Open Graph-Webseite
+ 
+
+00:09:03.702 --> 00:09:05.254 align:start position:0%
+ empfehle euch, die Open Graph-Webseite
+ zu<00:09:03.868><c> besuchen</c><00:09:04.312><c>,</c><00:09:04.423><c> um</c><00:09:04.589><c> die</c><00:09:04.811><c> Optionen</c>
+
+00:09:05.254 --> 00:09:05.310 align:start position:0%
+ zu besuchen, um die Optionen
+ 
+
+00:09:05.310 --> 00:09:07.250 align:start position:0%
+ zu besuchen, um die Optionen
+ nachzulesen<00:09:05.975><c> und</c><00:09:06.197><c> zu</c><00:09:06.363><c> sehen</c><00:09:06.640><c>,</c><00:09:06.751><c> was</c><00:09:06.973><c> damit</c>
+
+00:09:07.250 --> 00:09:07.305 align:start position:0%
+ nachzulesen und zu sehen, was damit
+ 
+
+00:09:07.305 --> 00:09:09.528 align:start position:0%
+ nachzulesen und zu sehen, was damit
+ alles<00:09:07.638><c> möglich</c><00:09:08.137><c> ist</c><00:09:08.303><c>.</c><00:09:08.739><c> Wir</c><00:09:08.914><c> haben</c><00:09:09.177><c> hier</c><00:09:09.396><c> nur</c>
+
+00:09:09.528 --> 00:09:09.572 align:start position:0%
+ alles möglich ist. Wir haben hier nur
+ 
+
+00:09:09.572 --> 00:09:11.925 align:start position:0%
+ alles möglich ist. Wir haben hier nur
+ die<00:09:09.747><c> absoluten</c><00:09:10.186><c> Grundlagen</c><00:09:10.669><c> gezeigt</c><00:09:10.976><c>.</c><00:09:11.759><c> Man</c>
+
+00:09:11.925 --> 00:09:11.980 align:start position:0%
+ die absoluten Grundlagen gezeigt. Man
+ 
+
+00:09:11.980 --> 00:09:13.919 align:start position:0%
+ die absoluten Grundlagen gezeigt. Man
+ kann<00:09:12.257><c> zum</c><00:09:12.479><c> Beispiel</c><00:09:12.977><c> ein</c><00:09:13.199><c> Vorschauvideo</c>
+
+00:09:13.919 --> 00:09:13.974 align:start position:0%
+ kann zum Beispiel ein Vorschauvideo
+ 
+
+00:09:13.974 --> 00:09:15.906 align:start position:0%
+ kann zum Beispiel ein Vorschauvideo
+ hinzufügen<00:09:14.583><c>.</c><00:09:14.849><c> Ich</c><00:09:15.071><c> bin</c><00:09:15.294><c> selbst</c><00:09:15.684><c> kein</c>
+
+00:09:15.906 --> 00:09:15.962 align:start position:0%
+ hinzufügen. Ich bin selbst kein
+ 
+
+00:09:15.962 --> 00:09:18.815 align:start position:0%
+ hinzufügen. Ich bin selbst kein
+ primärer<00:09:16.519><c> Front-End-Entwickler</c><00:09:17.632><c>.</c><00:09:18.379><c> Ich</c><00:09:18.628><c> bin</c>
+
+00:09:18.815 --> 00:09:18.878 align:start position:0%
+ primärer Front-End-Entwickler. Ich bin
+ 
+
+00:09:18.878 --> 00:09:20.874 align:start position:0%
+ primärer Front-End-Entwickler. Ich bin
+ neu<00:09:19.127><c> im</c><00:09:19.314><c> Front-End-Bereich</c><00:09:20.437><c> und</c><00:09:20.686><c> war</c>
+
+00:09:20.874 --> 00:09:20.936 align:start position:0%
+ neu im Front-End-Bereich und war
+ 
+
+00:09:20.936 --> 00:09:23.057 align:start position:0%
+ neu im Front-End-Bereich und war
+ wirklich<00:09:21.497><c> erstaunt</c><00:09:21.996><c>,</c><00:09:22.121><c> wie</c><00:09:22.371><c> einfach</c><00:09:22.870><c> das</c>
+
+00:09:23.057 --> 00:09:23.119 align:start position:0%
+ wirklich erstaunt, wie einfach das
+ 
+
+00:09:23.119 --> 00:09:25.427 align:start position:0%
+ wirklich erstaunt, wie einfach das
+ umzusetzen<00:09:23.805><c> ist</c><00:09:23.992><c>;</c><00:09:24.117><c> ich</c><00:09:24.367><c> wusste</c><00:09:24.803><c> vor</c><00:09:25.053><c> diesem</c>
+
+00:09:25.427 --> 00:09:25.489 align:start position:0%
+ umzusetzen ist; ich wusste vor diesem
+ 
+
+00:09:25.489 --> 00:09:27.860 align:start position:0%
+ umzusetzen ist; ich wusste vor diesem
+ Umbau<00:09:25.864><c> absolut</c><00:09:26.363><c> nichts</c><00:09:26.799><c> über</c><00:09:27.173><c> Open</c><00:09:27.485><c> Graph</c><00:09:27.797><c>.</c>
+
+00:09:27.860 --> 00:09:28.839 align:start position:0%
+ Umbau absolut nichts über Open Graph.
+ 
+
+00:09:28.839 --> 00:09:30.009 align:start position:0%
+ Umbau absolut nichts über Open Graph.
+ Das<00:09:28.959><c> war</c><00:09:29.079><c> es</c><00:09:29.169><c> für</c><00:09:29.319><c> heute</c><00:09:29.469><c>,</c><00:09:29.529><c> ein</c><00:09:29.649><c> kurzes</c><00:09:29.859><c> Video</c>
+
+00:09:30.009 --> 00:09:31.459 align:start position:0%
+ Das war es für heute, ein kurzes Video
+.<00:09:30.220><c> Ich</c><00:09:30.374><c> hoffe</c><00:09:30.568><c>,</c><00:09:30.645><c> es</c><00:09:30.762><c> hat</c><00:09:30.916><c> euch</c><00:09:31.110><c> gefallen</c><00:09:31.420><c>.</c>
+
+00:09:31.459 --> 00:09:31.699 align:start position:0%
+. Ich hoffe, es hat euch gefallen.
+ 
+
+00:09:31.699 --> 00:09:33.434 align:start position:0%
+. Ich hoffe, es hat euch gefallen.
+ Meldet<00:09:32.018><c> euch</c><00:09:32.246><c> gerne</c><00:09:32.520><c> über</c><00:09:32.794><c> meine</c><00:09:33.068><c> sozialen</c>
+
+00:09:33.434 --> 00:09:33.479 align:start position:0%
+ Meldet euch gerne über meine sozialen
+ 
+
+00:09:33.479 --> 00:09:35.169 align:start position:0%
+ Meldet euch gerne über meine sozialen
+ Netzwerke<00:09:33.936><c> bei</c><00:09:34.119><c> mir</c><00:09:34.301><c> oder</c><00:09:34.530><c> schreibt</c><00:09:34.941><c> einen</c>
+
+00:09:35.169 --> 00:09:35.215 align:start position:0%
+ Netzwerke bei mir oder schreibt einen
+ 
+
+00:09:35.215 --> 00:09:37.628 align:start position:0%
+ Netzwerke bei mir oder schreibt einen
+ Kommentar<00:09:35.671><c> hier</c><00:09:35.854><c>.</c><00:09:36.760><c> Lasst</c><00:09:37.008><c> mich</c><00:09:37.214><c> wissen</c><00:09:37.463><c>,</c><00:09:37.545><c> ob</c>
+
+00:09:37.628 --> 00:09:37.669 align:start position:0%
+ Kommentar hier. Lasst mich wissen, ob
+ 
+
+00:09:37.669 --> 00:09:39.159 align:start position:0%
+ Kommentar hier. Lasst mich wissen, ob
+ ihr<00:09:37.835><c> bei</c><00:09:38.000><c> irgendetwas</c><00:09:38.497><c> Hilfe</c><00:09:38.745><c> benötigt</c><00:09:39.117><c>.</c>
+
+00:09:39.159 --> 00:09:39.539 align:start position:0%
+ ihr bei irgendetwas Hilfe benötigt.
+ 
+
+00:09:39.539 --> 00:09:40.892 align:start position:0%
+ ihr bei irgendetwas Hilfe benötigt.
+ Und<00:09:39.703><c> wenn</c><00:09:39.908><c> euch</c><00:09:40.113><c> das</c><00:09:40.277><c> Video</c><00:09:40.523><c> gefällt</c><00:09:40.851><c>,</c>
+
+00:09:40.892 --> 00:09:40.933 align:start position:0%
+ Und wenn euch das Video gefällt,
+ 
+
+00:09:40.933 --> 00:09:42.163 align:start position:0%
+ Und wenn euch das Video gefällt,
+ könnt<00:09:41.220><c> ihr</c><00:09:41.384><c> ein</c><00:09:41.548><c> Like</c><00:09:41.753><c> da</c><00:09:41.876><c> lassen</c><00:09:42.122><c>,</c>
+
+00:09:42.163 --> 00:09:42.204 align:start position:0%
+ könnt ihr ein Like da lassen,
+ 
+
+00:09:42.204 --> 00:09:43.803 align:start position:0%
+ könnt ihr ein Like da lassen,
+ abonnieren<00:09:42.655><c> und</c><00:09:42.819><c> euch</c><00:09:43.024><c> gerne</c><00:09:43.270><c> meine</c><00:09:43.516><c> anderen</c>
+
+00:09:43.803 --> 00:09:43.844 align:start position:0%
+ abonnieren und euch gerne meine anderen
+ 
+
+00:09:43.844 --> 00:09:45.460 align:start position:0%
+ abonnieren und euch gerne meine anderen
+ Videos<00:09:44.131><c> ansehen</c><00:09:44.418><c>.</c>
+

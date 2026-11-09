@@ -1,0 +1,95 @@
+01 Home · Desktop                              exported 115589 bytes
+02 Raja Ampat · Desktop                        exported 131832 bytes
+03 North Sulawesi · Desktop                    exported 128090 bytes
+04 Yacht charters · Desktop                    exported 127852 bytes
+05 Guest stories · Desktop                     exported 91158 bytes
+06 About · Desktop                             exists
+07 Travel agents · Desktop                     exported 146605 bytes
+08 Plan your trip · Desktop                    exists
+09 Thank-you · traveller · Desktop             exists
+10 Thank-you · agent · Desktop                 exists
+11 Privacy & cookies · Desktop                 exists
+12 Booking terms · Desktop                     exists
+13 404 · Page not found · Desktop              exists
+14 Temporarily unavailable · Desktop           exists
+S1 State · Cookie banner · Desktop             exists
+S2 State · Cookie settings · Desktop           exists
+S3 State · Form errors · Desktop               exists
+S4 State · Sending failed · Desktop            exists
+00 Cover · Desktop                             exists
+01 Home · Mobile                               exported 81782 bytes
+02 Raja Ampat · Mobile                         exported 98790 bytes
+03 North Sulawesi · Mobile                     exported 101029 bytes
+04 Yacht charters · Mobile                     exported 91369 bytes
+05 Guest stories · Mobile                      exported 70320 bytes
+06 About · Mobile                              exported 48724 bytes
+07 Travel agents · Mobile                      exported 131178 bytes
+08 Plan your trip · Mobile                     exported 40487 bytes
+09 Thank-you · traveller · Mobile              exported 21155 bytes
+10 Thank-you · agent · Mobile                  exported 20249 bytes
+11 Privacy & cookies · Mobile                  exported 38346 bytes
+12 Booking terms · Mobile                      exported 47064 bytes
+13 404 · Page not found · Mobile               exported 23253 bytes
+14 Temporarily unavailable · Mobile            exists
+S1 State · Cookie banner · Mobile              exported 15356 bytes
+S2 State · Cookie settings · Mobile            exported 15256 bytes
+S3 State · Form errors · Mobile                exported 13471 bytes
+S4 State · Sending failed · Mobile             exported 13096 bytes
+M1 Mobile menu (open) · Mobile                 exported 8307 bytes
+00 Cover · Mobile                              exists
+E1 Email · Auto-reply to traveller · Desktop   exported 23682 bytes
+E2 Email · Auto-reply to agent · Desktop       exported 20638 bytes
+E3 Email · New enquiry alert (owner) · Desktop exported 21839 bytes
+E1 Email · Auto-reply to traveller · Mobile    exported 20914 bytes
+E2 Email · Auto-reply to agent · Mobile        exported 19282 bytes
+E3 Email · New enquiry alert (owner) · Mobile  exported 19883 bytes
+P1 Link previews                               exported 54874 bytes
+00 Cover · Emails & previews                   exists
+01 Home · Desktop                              diff %   0.95 size html/penpot 720x2238x720x2238
+02 Raja Ampat · Desktop                        diff %   0.96 size html/penpot 720x2540x720x2540
+03 North Sulawesi · Desktop                    diff %   1.03 size html/penpot 720x2476x720x2476
+04 Yacht charters · Desktop                    diff %   0.73 size html/penpot 720x2994x720x2994
+05 Guest stories · Desktop                     diff %    0.8 size html/penpot 720x2065x720x2065
+06 About · Desktop                             diff %   0.64 size html/penpot 720x1661x720x1661
+07 Travel agents · Desktop                     diff %   0.78 size html/penpot 720x3291x720x3291
+08 Plan your trip · Desktop                    diff %    1.3 size html/penpot 720x801x720x801
+09 Thank-you · traveller · Desktop             diff %   1.14 size html/penpot 720x543x720x543
+10 Thank-you · agent · Desktop                 diff %   1.15 size html/penpot 720x509x720x509
+11 Privacy & cookies · Desktop                 diff %   0.77 size html/penpot 720x1102x720x1102
+12 Booking terms · Desktop                     diff %   1.03 size html/penpot 720x1256x720x1256
+13 404 · Page not found · Desktop              diff %   1.15 size html/penpot 720x694x720x694
+14 Temporarily unavailable · Desktop           diff %   0.66 size html/penpot 720x450x720x450
+S1 State · Cookie banner · Desktop             diff %   0.85 size html/penpot 720x450x720x450
+S2 State · Cookie settings · Desktop           diff %   0.51 size html/penpot 720x450x720x450
+S3 State · Form errors · Desktop               diff %   1.08 size html/penpot 720x450x720x450
+S4 State · Sending failed · Desktop            diff %   1.14 size html/penpot 720x450x720x450
+01 Home · Mobile                               diff %   2.76 size html/penpot 195x2500x195x2500
+02 Raja Ampat · Mobile                         diff %   2.33 size html/penpot 195x3306x195x3306
+03 North Sulawesi · Mobile                     diff %   2.52 size html/penpot 195x3327x195x3327
+04 Yacht charters · Mobile                     diff %   2.43 size html/penpot 195x3238x195x3238
+05 Guest stories · Mobile                      diff %   2.74 size html/penpot 195x2496x195x2496
+06 About · Mobile                              diff %   2.45 size html/penpot 195x1745x195x1745
+07 Travel agents · Mobile                      diff %   1.84 size html/penpot 195x5025x195x5025
+08 Plan your trip · Mobile                     diff %      2 size html/penpot 195x1373x195x1373
+09 Thank-you · traveller · Mobile              diff %    2.4 size html/penpot 195x691x195x691
+10 Thank-you · agent · Mobile                  diff %   2.39 size html/penpot 195x657x195x657
+11 Privacy & cookies · Mobile                  diff %      2 size html/penpot 195x1405x195x1405
+12 Booking terms · Mobile                      diff %   2.25 size html/penpot 195x1624x195x1624
+13 404 · Page not found · Mobile               diff %   2.44 size html/penpot 195x840x195x840
+14 Temporarily unavailable · Mobile            diff %   1.65 size html/penpot 195x422x195x422
+S1 State · Cookie banner · Mobile              diff %   1.59 size html/penpot 195x422x195x422
+S2 State · Cookie settings · Mobile            diff %   0.91 size html/penpot 195x422x195x422
+S3 State · Form errors · Mobile                diff %   2.63 size html/penpot 195x422x195x422
+S4 State · Sending failed · Mobile             diff %   2.04 size html/penpot 195x422x195x422
+M1 Mobile menu (open) · Mobile                 diff %    1.6 size html/penpot 195x422x195x422
+E1 Email · Auto-reply to traveller · Desktop   diff %   1.57 size html/penpot 380x552x380x552
+E2 Email · Auto-reply to agent · Desktop       diff %   1.54 size html/penpot 380x476x380x476
+E3 Email · New enquiry alert (owner) · Desktop diff %   1.82 size html/penpot 380x570x380x570
+E1 Email · Auto-reply to traveller · Mobile    diff %   3.06 size html/penpot 195x574x195x574
+E2 Email · Auto-reply to agent · Mobile        diff %   2.89 size html/penpot 195x515x195x515
+E3 Email · New enquiry alert (owner) · Mobile  diff %   3.43 size html/penpot 195x582x195x582
+P1 Link previews                               diff %   1.39 size html/penpot 720x883x720x883
+A1 Admin · Enquiries                           diff %   1.04 size html/penpot 720x450x720x450
+A2 Admin · Reviews                             diff %   0.96 size html/penpot 720x553x720x553
+A3 Admin · Photos & video                      diff %   0.99 size html/penpot 720x450x720x450
+A4 Admin · Prices                              diff %   1.22 size html/penpot 720x535x720x535

@@ -1,0 +1,89 @@
+
+== home @ 1440x790 | preflight=true inject=ok impeccableScan=function overlayNodes=1 coreError=null
+  [error] Failed to load resource: the server responded with a status of 404 (File not found)
+  [startGroup] [impeccable] 1 anti-pattern found color: oklch(84% 0.19 80.46); font-weight: bold
+  [endGroup] console.groupEnd
+  [log] overused-font Primary font: inter (96% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] numbered-section-labels tiny numbered label "03 · Remote, made easy" beside h2 "Remote, made easy" (3 on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] numbered-section-labels tiny numbered label "05 · For travel agents" beside h2 "For travel agents" (3 on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] numbered-section-labels tiny numbered label "06 · Start with an idea" beside h2 "Start with an idea" (3 on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+
+== raja-ampat @ 1440x790 | preflight=true inject=ok impeccableScan=function overlayNodes=1 coreError=null
+  [startGroup] [impeccable] 1 anti-pattern found color: oklch(84% 0.19 80.46); font-weight: bold
+  [endGroup] console.groupEnd
+  [log] overused-font Primary font: inter (97% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body.landing "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+
+== yachts @ 1440x790 | preflight=true inject=ok impeccableScan=function overlayNodes=1 coreError=null
+  [startGroup] [impeccable] 1 anti-pattern found color: oklch(84% 0.19 80.46); font-weight: bold
+  [endGroup] console.groupEnd
+  [log] overused-font Primary font: inter (97% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body.landing "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+
+== stories @ 1440x790 | preflight=true inject=ok impeccableScan=function overlayNodes=1 coreError=null
+  [startGroup] [impeccable] 1 anti-pattern found color: oklch(84% 0.19 80.46); font-weight: bold
+  [endGroup] console.groupEnd
+  [log] overused-font Primary font: inter (99% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+
+== plan @ 1440x790 | preflight=true inject=ok impeccableScan=function overlayNodes=1 coreError=null
+  [startGroup] [impeccable] 1 anti-pattern found color: oklch(84% 0.19 80.46); font-weight: bold
+  [endGroup] console.groupEnd
+  [log] overused-font Primary font: inter (100% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+
+== home @ 390x664 | preflight=true inject=ok impeccableScan=function overlayNodes=19 coreError=null
+  [startGroup] [impeccable] 10 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold
+  [endGroup] console.groupEnd
+  [log] overused-font Primary font: inter (96% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] numbered-section-labels tiny numbered label "03 · Remote, made easy" beside h2 "Remote, made easy" (3 on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] numbered-section-labels tiny numbered label "05 · For travel agents" beside h2 "For travel agents" (3 on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] numbered-section-labels tiny numbered label "06 · Start with an idea" beside h2 "Start with an idea" (3 on page) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] edge-flush-cards 2 cards flush against the left edge of div.grid.g3.scroll at rest (0px gap, e.g. a.card) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLDivElement]  <- div.grid.g3.scroll "Raja Ampat photoRaja AmpatCentralMisool+ Triton Ba"
+  [log] text-occlusion a "Raja Ampat" is 100% covered by an opaque element (div.ph.media) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Raja Ampat"
+  [log] text-occlusion a "North Sulawesi" is 100% covered by an opaque element (button.pause) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "North Sulawesi"
+  [log] text-occlusion a "Yacht charters" is 100% covered by an opaque element (div.ph.media) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Yacht charters"
+  [log] text-occlusion a "Guest stories" is 100% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Guest stories"
+  [log] text-occlusion a "About" is 75% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "About"
+  [log] text-occlusion a "Travel agents" is 100% covered by overlapping text (p.lead) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Travel agents"
+  [log] text-occlusion a.btn.primary "Plan your trip" is 67% covered by an opaque element (a.btn.light) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a.btn.primary "Plan your trip"
+  [log] text-occlusion a.btn.ghost "WhatsApp" is 67% covered by an opaque element (a.btn.outline-light) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a.btn.ghost "WhatsApp"
+
+== raja-ampat @ 390x664 | preflight=true inject=ok impeccableScan=function overlayNodes=15 coreError=null
+  [startGroup] [impeccable] 8 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold
+  [endGroup] console.groupEnd
+  [log] body-text-viewport-edge <p> with 45-char body bleeds to viewport edge (right -234px) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLParagraphElement]  <- p.small "Island lodge + private speedboat · lodge name"
+  [log] overused-font Primary font: inter (97% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body.landing "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] text-occlusion a "Raja Ampat" is 100% covered by an opaque element (div.ph.media) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Raja Ampat"
+  [log] text-occlusion a "North Sulawesi" is 100% covered by an opaque element (button.pause) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "North Sulawesi"
+  [log] text-occlusion a "Yacht charters" is 100% covered by an opaque element (div.ph.media) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Yacht charters"
+  [log] text-occlusion a "About" is 50% covered by an opaque element (a.btn.light) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "About"
+  [log] text-occlusion a "Travel agents" is 75% covered by an opaque element (a.btn.light) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Travel agents"
+  [log] text-occlusion a.btn.primary "Plan your trip" is 33% covered by an opaque element (a.btn.outline-light) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a.btn.primary "Plan your trip"
+
+== yachts @ 390x664 | preflight=true inject=ok impeccableScan=function overlayNodes=13 coreError=null
+  [startGroup] [impeccable] 7 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold
+  [endGroup] console.groupEnd
+  [log] overused-font Primary font: inter (97% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body.landing "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] text-occlusion a "Raja Ampat" is 100% covered by an opaque element (div.ph.media) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Raja Ampat"
+  [log] text-occlusion a "North Sulawesi" is 100% covered by an opaque element (button.pause) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "North Sulawesi"
+  [log] text-occlusion a "Yacht charters" is 100% covered by an opaque element (div.ph.media) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Yacht charters"
+  [log] text-occlusion a "About" is 50% covered by an opaque element (a.btn.light) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "About"
+  [log] text-occlusion a "Travel agents" is 75% covered by an opaque element (a.btn.light) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Travel agents"
+  [log] text-occlusion a.btn.primary "Plan your trip" is 33% covered by an opaque element (a.btn.outline-light) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a.btn.primary "Plan your trip"
+
+== stories @ 390x664 | preflight=true inject=ok impeccableScan=function overlayNodes=9 coreError=null
+  [startGroup] [impeccable] 5 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold
+  [endGroup] console.groupEnd
+  [log] overused-font Primary font: inter (99% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] text-occlusion a "North Sulawesi" is 75% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "North Sulawesi"
+  [log] text-occlusion a "Guest stories" is 50% covered by an opaque element (div.ph) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Guest stories"
+  [log] text-occlusion a "About" is 100% covered by an opaque element (div.ph) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "About"
+  [log] text-occlusion a "Travel agents" is 100% covered by an opaque element (button.pause) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Travel agents"
+
+== plan @ 390x664 | preflight=true inject=ok impeccableScan=function overlayNodes=13 coreError=null
+  [startGroup] [impeccable] 7 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold
+  [endGroup] console.groupEnd
+  [log] overused-font Primary font: inter (100% of text) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLBodyElement]  <- body "1000 Islands TravelRemote Indonesia Raja Ampat Nor"
+  [log] text-occlusion a "North Sulawesi" is 75% covered by overlapping text (h1) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "North Sulawesi"
+  [log] text-occlusion a "Guest stories" is 75% covered by an opaque element (div.form-box) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Guest stories"
+  [log] text-occlusion a "About" is 96% covered by an opaque element (div.input) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "About"
+  [log] text-occlusion a "Travel agents" is 92% covered by an opaque element (div.input) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a "Travel agents"
+  [log] text-occlusion a.btn.primary "Plan your trip" is 100% covered by an opaque element (div.input) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a.btn.primary "Plan your trip"
+  [log] text-occlusion a.btn.ghost "WhatsApp" is 94% covered by overlapping text (label) color: oklch(84% 0.19 80.46); font-weight: bold color: inherit [node HTMLAnchorElement]  <- a.btn.ghost "WhatsApp"

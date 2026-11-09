@@ -1,0 +1,2416 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.319 --> 00:00:09.629 align:start position:0%
+ 
+what<00:00:07.439><c> I</c><00:00:07.560><c> want</c><00:00:07.680><c> to</c><00:00:07.759><c> do</c><00:00:07.919><c> next</c><00:00:08.559><c> is</c><00:00:08.760><c> just</c><00:00:08.960><c> give</c><00:00:09.120><c> you</c>
+
+00:00:09.629 --> 00:00:09.639 align:start position:0%
+what I want to do next is just give you
+ 
+
+00:00:09.639 --> 00:00:11.990 align:start position:0%
+what I want to do next is just give you
+a<00:00:09.800><c> few</c><00:00:10.200><c> tips</c><00:00:10.840><c> to</c><00:00:11.080><c> think</c><00:00:11.320><c> about</c><00:00:11.679><c> when</c><00:00:11.840><c> you're</c>
+
+00:00:11.990 --> 00:00:12.000 align:start position:0%
+a few tips to think about when you're
+ 
+
+00:00:12.000 --> 00:00:14.629 align:start position:0%
+a few tips to think about when you're
+building<00:00:12.719><c> your</c><00:00:13.080><c> application</c><00:00:14.080><c> against</c><00:00:14.519><c> the</c>
+
+00:00:14.629 --> 00:00:14.639 align:start position:0%
+building your application against the
+ 
+
+00:00:14.639 --> 00:00:15.550 align:start position:0%
+building your application against the
+open
+
+00:00:15.550 --> 00:00:15.560 align:start position:0%
+open
+ 
+
+00:00:15.560 --> 00:00:19.429 align:start position:0%
+open
+graph<00:00:16.560><c> so</c><00:00:16.720><c> the</c><00:00:16.880><c> first</c><00:00:17.119><c> one</c><00:00:17.720><c> is</c><00:00:18.400><c> authentication</c>
+
+00:00:19.429 --> 00:00:19.439 align:start position:0%
+graph so the first one is authentication
+ 
+
+00:00:19.439 --> 00:00:22.750 align:start position:0%
+graph so the first one is authentication
+authentication<00:00:20.439><c> really</c><00:00:21.039><c> really</c><00:00:21.600><c> matters</c><00:00:22.600><c> you</c>
+
+00:00:22.750 --> 00:00:22.760 align:start position:0%
+authentication really really matters you
+ 
+
+00:00:22.760 --> 00:00:25.509 align:start position:0%
+authentication really really matters you
+can't<00:00:23.080><c> publish</c><00:00:23.439><c> actions</c><00:00:24.000><c> unless</c><00:00:24.320><c> a</c><00:00:24.439><c> user</c><00:00:24.680><c> is</c>
+
+00:00:25.509 --> 00:00:25.519 align:start position:0%
+can't publish actions unless a user is
+ 
+
+00:00:25.519 --> 00:00:27.830 align:start position:0%
+can't publish actions unless a user is
+authenticated<00:00:26.519><c> and</c><00:00:27.000><c> a</c><00:00:27.119><c> user</c><00:00:27.400><c> has</c><00:00:27.519><c> given</c><00:00:27.720><c> you</c>
+
+00:00:27.830 --> 00:00:27.840 align:start position:0%
+authenticated and a user has given you
+ 
+
+00:00:27.840 --> 00:00:31.310 align:start position:0%
+authenticated and a user has given you
+the<00:00:28.000><c> publish</c><00:00:28.519><c> actions</c><00:00:29.039><c> permission</c>
+
+00:00:31.310 --> 00:00:31.320 align:start position:0%
+the publish actions permission
+ 
+
+00:00:31.320 --> 00:00:33.709 align:start position:0%
+the publish actions permission
+what's<00:00:31.519><c> important</c><00:00:31.880><c> about</c><00:00:32.160><c> this</c><00:00:32.920><c> is</c><00:00:33.320><c> you</c><00:00:33.480><c> need</c>
+
+00:00:33.709 --> 00:00:33.719 align:start position:0%
+what's important about this is you need
+ 
+
+00:00:33.719 --> 00:00:35.910 align:start position:0%
+what's important about this is you need
+to<00:00:33.920><c> build</c><00:00:34.320><c> authentication</c><00:00:35.200><c> into</c><00:00:35.600><c> every</c>
+
+00:00:35.910 --> 00:00:35.920 align:start position:0%
+to build authentication into every
+ 
+
+00:00:35.920 --> 00:00:39.069 align:start position:0%
+to build authentication into every
+single<00:00:36.280><c> one</c><00:00:36.879><c> of</c><00:00:37.320><c> your</c><00:00:37.879><c> uh</c><00:00:38.120><c> applications</c>
+
+00:00:39.069 --> 00:00:39.079 align:start position:0%
+single one of your uh applications
+ 
+
+00:00:39.079 --> 00:00:41.790 align:start position:0%
+single one of your uh applications
+versions<00:00:40.079><c> in</c><00:00:40.360><c> Native</c><00:00:40.800><c> IOS</c><00:00:41.160><c> and</c><00:00:41.320><c> Android</c><00:00:41.719><c> you</c>
+
+00:00:41.790 --> 00:00:41.800 align:start position:0%
+versions in Native IOS and Android you
+ 
+
+00:00:41.800 --> 00:00:43.430 align:start position:0%
+versions in Native IOS and Android you
+should<00:00:41.960><c> use</c><00:00:42.239><c> Facebook</c><00:00:42.680><c> single</c><00:00:43.000><c> sign</c><00:00:43.200><c> on</c>
+
+00:00:43.430 --> 00:00:43.440 align:start position:0%
+should use Facebook single sign on
+ 
+
+00:00:43.440 --> 00:00:46.270 align:start position:0%
+should use Facebook single sign on
+technology<00:00:44.440><c> on</c><00:00:44.600><c> the</c><00:00:44.760><c> web</c><00:00:45.719><c> I</c><00:00:45.879><c> recommend</c><00:00:46.199><c> you</c>
+
+00:00:46.270 --> 00:00:46.280 align:start position:0%
+technology on the web I recommend you
+ 
+
+00:00:46.280 --> 00:00:48.549 align:start position:0%
+technology on the web I recommend you
+use<00:00:46.399><c> the</c><00:00:46.520><c> JavaScript</c><00:00:47.039><c> TDK</c><00:00:48.039><c> one</c><00:00:48.160><c> of</c><00:00:48.239><c> the</c><00:00:48.360><c> main</c>
+
+00:00:48.549 --> 00:00:48.559 align:start position:0%
+use the JavaScript TDK one of the main
+ 
+
+00:00:48.559 --> 00:00:50.549 align:start position:0%
+use the JavaScript TDK one of the main
+benefits<00:00:48.920><c> of</c><00:00:49.039><c> the</c><00:00:49.160><c> JavaScript</c><00:00:49.640><c> TDK</c><00:00:50.399><c> is</c>
+
+00:00:50.549 --> 00:00:50.559 align:start position:0%
+benefits of the JavaScript TDK is
+ 
+
+00:00:50.559 --> 00:00:53.189 align:start position:0%
+benefits of the JavaScript TDK is
+something<00:00:50.879><c> called</c><00:00:51.160><c> fb.</c><00:00:51.879><c> getet</c><00:00:52.079><c> login</c><00:00:52.399><c> status</c>
+
+00:00:53.189 --> 00:00:53.199 align:start position:0%
+something called fb. getet login status
+ 
+
+00:00:53.199 --> 00:00:54.910 align:start position:0%
+something called fb. getet login status
+this<00:00:53.320><c> is</c><00:00:53.399><c> a</c><00:00:53.559><c> method</c><00:00:53.800><c> that</c><00:00:53.920><c> you</c><00:00:54.039><c> can</c><00:00:54.239><c> call</c><00:00:54.760><c> when</c>
+
+00:00:54.910 --> 00:00:54.920 align:start position:0%
+this is a method that you can call when
+ 
+
+00:00:54.920 --> 00:00:57.389 align:start position:0%
+this is a method that you can call when
+the<00:00:55.079><c> page</c><00:00:55.399><c> loads</c><00:00:56.399><c> and</c><00:00:56.600><c> it</c><00:00:56.719><c> checks</c><00:00:57.000><c> to</c><00:00:57.120><c> see</c><00:00:57.320><c> if</c>
+
+00:00:57.389 --> 00:00:57.399 align:start position:0%
+the page loads and it checks to see if
+ 
+
+00:00:57.399 --> 00:00:58.990 align:start position:0%
+the page loads and it checks to see if
+the<00:00:57.520><c> user</c><00:00:57.760><c> is</c><00:00:57.879><c> logged</c><00:00:58.120><c> into</c><00:00:58.359><c> Facebook</c><00:00:58.719><c> and</c><00:00:58.840><c> has</c>
+
+00:00:58.990 --> 00:00:59.000 align:start position:0%
+the user is logged into Facebook and has
+ 
+
+00:00:59.000 --> 00:01:01.389 align:start position:0%
+the user is logged into Facebook and has
+authorized<00:00:59.480><c> your</c><00:00:59.640><c> app</c><00:01:00.160><c> and</c><00:01:00.280><c> if</c><00:01:00.440><c> they</c><00:01:00.640><c> have</c><00:01:01.120><c> it</c>
+
+00:01:01.389 --> 00:01:01.399 align:start position:0%
+authorized your app and if they have it
+ 
+
+00:01:01.399 --> 00:01:04.429 align:start position:0%
+authorized your app and if they have it
+returns<00:01:01.680><c> their</c><00:01:01.840><c> user</c><00:01:02.120><c> ID</c><00:01:02.840><c> and</c><00:01:03.399><c> a</c><00:01:03.559><c> valid</c><00:01:03.960><c> fresh</c>
+
+00:01:04.429 --> 00:01:04.439 align:start position:0%
+returns their user ID and a valid fresh
+ 
+
+00:01:04.439 --> 00:01:06.310 align:start position:0%
+returns their user ID and a valid fresh
+access<00:01:04.760><c> token</c><00:01:05.159><c> for</c><00:01:05.320><c> that</c><00:01:05.479><c> user</c><00:01:05.840><c> if</c><00:01:05.960><c> that's</c><00:01:06.159><c> the</c>
+
+00:01:06.310 --> 00:01:06.320 align:start position:0%
+access token for that user if that's the
+ 
+
+00:01:06.320 --> 00:01:08.390 align:start position:0%
+access token for that user if that's the
+case<00:01:07.200><c> when</c><00:01:07.320><c> the</c><00:01:07.439><c> user</c><00:01:07.680><c> comes</c><00:01:08.000><c> back</c><00:01:08.119><c> to</c><00:01:08.240><c> your</c>
+
+00:01:08.390 --> 00:01:08.400 align:start position:0%
+case when the user comes back to your
+ 
+
+00:01:08.400 --> 00:01:10.469 align:start position:0%
+case when the user comes back to your
+application<00:01:09.040><c> after</c><00:01:09.520><c> times</c><00:01:09.920><c> maybe</c><00:01:10.159><c> even</c><00:01:10.360><c> if</c>
+
+00:01:10.469 --> 00:01:10.479 align:start position:0%
+application after times maybe even if
+ 
+
+00:01:10.479 --> 00:01:12.670 align:start position:0%
+application after times maybe even if
+they<00:01:10.600><c> haven't</c><00:01:10.880><c> come</c><00:01:11.119><c> from</c><00:01:11.400><c> Facebook</c><00:01:12.400><c> you</c><00:01:12.520><c> can</c>
+
+00:01:12.670 --> 00:01:12.680 align:start position:0%
+they haven't come from Facebook you can
+ 
+
+00:01:12.680 --> 00:01:14.710 align:start position:0%
+they haven't come from Facebook you can
+automatically<00:01:13.240><c> log</c><00:01:13.439><c> them</c><00:01:13.600><c> in</c><00:01:14.080><c> get</c><00:01:14.240><c> an</c><00:01:14.400><c> access</c>
+
+00:01:14.710 --> 00:01:14.720 align:start position:0%
+automatically log them in get an access
+ 
+
+00:01:14.720 --> 00:01:16.070 align:start position:0%
+automatically log them in get an access
+token<00:01:15.200><c> and</c><00:01:15.320><c> then</c><00:01:15.439><c> as</c><00:01:15.600><c> they</c><00:01:15.720><c> use</c><00:01:15.880><c> your</c>
+
+00:01:16.070 --> 00:01:16.080 align:start position:0%
+token and then as they use your
+ 
+
+00:01:16.080 --> 00:01:17.789 align:start position:0%
+token and then as they use your
+application<00:01:16.600><c> you</c><00:01:16.720><c> can</c><00:01:16.880><c> publish</c><00:01:17.240><c> actions</c>
+
+00:01:17.789 --> 00:01:17.799 align:start position:0%
+application you can publish actions
+ 
+
+00:01:17.799 --> 00:01:20.550 align:start position:0%
+application you can publish actions
+against<00:01:18.280><c> them</c><00:01:19.280><c> one</c><00:01:19.479><c> other</c><00:01:19.759><c> thing</c><00:01:20.159><c> that</c><00:01:20.320><c> we've</c>
+
+00:01:20.550 --> 00:01:20.560 align:start position:0%
+against them one other thing that we've
+ 
+
+00:01:20.560 --> 00:01:22.190 align:start position:0%
+against them one other thing that we've
+added<00:01:21.079><c> recently</c><00:01:21.600><c> is</c><00:01:21.759><c> something</c><00:01:22.000><c> called</c>
+
+00:01:22.190 --> 00:01:22.200 align:start position:0%
+added recently is something called
+ 
+
+00:01:22.200 --> 00:01:24.749 align:start position:0%
+added recently is something called
+authenticated<00:01:23.119><c> referrals</c><00:01:24.119><c> authenticated</c>
+
+00:01:24.749 --> 00:01:24.759 align:start position:0%
+authenticated referrals authenticated
+ 
+
+00:01:24.759 --> 00:01:27.670 align:start position:0%
+authenticated referrals authenticated
+referrals<00:01:25.360><c> means</c><00:01:25.680><c> that</c><00:01:26.200><c> when</c><00:01:26.520><c> a</c><00:01:26.680><c> user</c><00:01:27.040><c> sees</c><00:01:27.520><c> a</c>
+
+00:01:27.670 --> 00:01:27.680 align:start position:0%
+referrals means that when a user sees a
+ 
+
+00:01:27.680 --> 00:01:29.469 align:start position:0%
+referrals means that when a user sees a
+story<00:01:28.040><c> in</c><00:01:28.200><c> Newsfeed</c><00:01:28.840><c> posted</c><00:01:29.159><c> by</c><00:01:29.280><c> your</c>
+
+00:01:29.469 --> 00:01:29.479 align:start position:0%
+story in Newsfeed posted by your
+ 
+
+00:01:29.479 --> 00:01:30.630 align:start position:0%
+story in Newsfeed posted by your
+application
+
+00:01:30.630 --> 00:01:30.640 align:start position:0%
+application
+ 
+
+00:01:30.640 --> 00:01:32.310 align:start position:0%
+application
+and<00:01:30.799><c> they</c><00:01:30.920><c> click</c><00:01:31.119><c> on</c><00:01:31.280><c> it</c><00:01:31.600><c> and</c><00:01:31.759><c> they</c><00:01:31.920><c> haven't</c>
+
+00:01:32.310 --> 00:01:32.320 align:start position:0%
+and they click on it and they haven't
+ 
+
+00:01:32.320 --> 00:01:34.670 align:start position:0%
+and they click on it and they haven't
+previously<00:01:32.799><c> authorized</c><00:01:33.280><c> your</c><00:01:33.680><c> application</c>
+
+00:01:34.670 --> 00:01:34.680 align:start position:0%
+previously authorized your application
+ 
+
+00:01:34.680 --> 00:01:36.030 align:start position:0%
+previously authorized your application
+then<00:01:35.119><c> the</c><00:01:35.280><c> user</c><00:01:35.520><c> will</c><00:01:35.680><c> see</c><00:01:35.920><c> the</c>
+
+00:01:36.030 --> 00:01:36.040 align:start position:0%
+then the user will see the
+ 
+
+00:01:36.040 --> 00:01:38.510 align:start position:0%
+then the user will see the
+authentication<00:01:36.720><c> dialogue</c><00:01:37.240><c> in</c><00:01:37.600><c> Facebook</c>
+
+00:01:38.510 --> 00:01:38.520 align:start position:0%
+authentication dialogue in Facebook
+ 
+
+00:01:38.520 --> 00:01:40.749 align:start position:0%
+authentication dialogue in Facebook
+before<00:01:39.240><c> they</c><00:01:39.439><c> arrive</c><00:01:39.720><c> at</c><00:01:39.840><c> your</c><00:01:40.000><c> application</c>
+
+00:01:40.749 --> 00:01:40.759 align:start position:0%
+before they arrive at your application
+ 
+
+00:01:40.759 --> 00:01:44.270 align:start position:0%
+before they arrive at your application
+it<00:01:40.880><c> means</c><00:01:41.399><c> when</c><00:01:41.680><c> once</c><00:01:41.880><c> they</c><00:01:42.000><c> click</c><00:01:42.439><c> add</c><00:01:43.280><c> login</c>
+
+00:01:44.270 --> 00:01:44.280 align:start position:0%
+it means when once they click add login
+ 
+
+00:01:44.280 --> 00:01:46.429 align:start position:0%
+it means when once they click add login
+install<00:01:44.719><c> your</c><00:01:44.920><c> app</c><00:01:45.600><c> the</c><00:01:45.920><c> moment</c><00:01:46.159><c> at</c><00:01:46.280><c> which</c>
+
+00:01:46.429 --> 00:01:46.439 align:start position:0%
+install your app the moment at which
+ 
+
+00:01:46.439 --> 00:01:47.990 align:start position:0%
+install your app the moment at which
+they<00:01:46.560><c> arrive</c><00:01:46.799><c> to</c><00:01:46.920><c> your</c><00:01:47.040><c> application</c><00:01:47.600><c> they</c><00:01:47.759><c> are</c>
+
+00:01:47.990 --> 00:01:48.000 align:start position:0%
+they arrive to your application they are
+ 
+
+00:01:48.000 --> 00:01:49.830 align:start position:0%
+they arrive to your application they are
+already<00:01:48.240><c> logged</c><00:01:48.560><c> in</c><00:01:48.840><c> and</c><00:01:48.960><c> are</c><00:01:49.200><c> immediately</c>
+
+00:01:49.830 --> 00:01:49.840 align:start position:0%
+already logged in and are immediately
+ 
+
+00:01:49.840 --> 00:01:52.630 align:start position:0%
+already logged in and are immediately
+eligible<00:01:50.399><c> to</c><00:01:50.640><c> publish</c><00:01:51.200><c> actions</c><00:01:52.200><c> and</c><00:01:52.320><c> you</c><00:01:52.439><c> turn</c>
+
+00:01:52.630 --> 00:01:52.640 align:start position:0%
+eligible to publish actions and you turn
+ 
+
+00:01:52.640 --> 00:01:54.389 align:start position:0%
+eligible to publish actions and you turn
+on<00:01:52.840><c> authenticated</c><00:01:53.439><c> referrals</c><00:01:53.960><c> I'll</c><00:01:54.119><c> quickly</c>
+
+00:01:54.389 --> 00:01:54.399 align:start position:0%
+on authenticated referrals I'll quickly
+ 
+
+00:01:54.399 --> 00:01:57.230 align:start position:0%
+on authenticated referrals I'll quickly
+show<00:01:54.640><c> you</c><00:01:55.240><c> in</c><00:01:55.520><c> your</c><00:01:55.759><c> applications</c>
+
+00:01:57.230 --> 00:01:57.240 align:start position:0%
+show you in your applications
+ 
+
+00:01:57.240 --> 00:01:59.429 align:start position:0%
+show you in your applications
+settings<00:01:58.240><c> here</c><00:01:58.360><c> we</c><00:01:58.479><c> are</c><00:01:58.759><c> if</c><00:01:58.880><c> we</c><00:01:59.000><c> just</c><00:01:59.159><c> go</c><00:01:59.280><c> to</c>
+
+00:01:59.429 --> 00:01:59.439 align:start position:0%
+settings here we are if we just go to
+ 
+
+00:01:59.439 --> 00:02:00.910 align:start position:0%
+settings here we are if we just go to
+settings
+
+00:02:00.910 --> 00:02:00.920 align:start position:0%
+settings
+ 
+
+00:02:00.920 --> 00:02:03.429 align:start position:0%
+settings
+and<00:02:01.159><c> click</c><00:02:01.439><c> off</c><00:02:01.840><c> dialogue</c><00:02:02.840><c> we</c><00:02:02.920><c> can</c><00:02:03.079><c> scroll</c>
+
+00:02:03.429 --> 00:02:03.439 align:start position:0%
+and click off dialogue we can scroll
+ 
+
+00:02:03.439 --> 00:02:05.270 align:start position:0%
+and click off dialogue we can scroll
+down<00:02:03.840><c> and</c><00:02:03.960><c> we</c><00:02:04.039><c> can</c><00:02:04.200><c> turn</c><00:02:04.399><c> on</c><00:02:04.600><c> authenticated</c>
+
+00:02:05.270 --> 00:02:05.280 align:start position:0%
+down and we can turn on authenticated
+ 
+
+00:02:05.280 --> 00:02:08.109 align:start position:0%
+down and we can turn on authenticated
+referrals<00:02:06.159><c> asking</c><00:02:06.439><c> for</c><00:02:06.719><c> email</c><00:02:07.479><c> and</c><00:02:07.719><c> publish</c>
+
+00:02:08.109 --> 00:02:08.119 align:start position:0%
+referrals asking for email and publish
+ 
+
+00:02:08.119 --> 00:02:11.070 align:start position:0%
+referrals asking for email and publish
+actions<00:02:09.080><c> save</c><00:02:09.440><c> those</c>
+
+00:02:11.070 --> 00:02:11.080 align:start position:0%
+actions save those
+ 
+
+00:02:11.080 --> 00:02:13.309 align:start position:0%
+actions save those
+changes<00:02:12.080><c> simple</c><00:02:12.319><c> as</c><00:02:12.480><c> that</c><00:02:12.640><c> to</c><00:02:12.760><c> turn</c><00:02:12.959><c> on</c>
+
+00:02:13.309 --> 00:02:13.319 align:start position:0%
+changes simple as that to turn on
+ 
+
+00:02:13.319 --> 00:02:14.589 align:start position:0%
+changes simple as that to turn on
+authenticated
+
+00:02:14.589 --> 00:02:14.599 align:start position:0%
+authenticated
+ 
+
+00:02:14.599 --> 00:02:17.790 align:start position:0%
+authenticated
+referrals<00:02:15.599><c> so</c><00:02:15.879><c> Mo</c><00:02:16.360><c> uh</c><00:02:16.680><c> authentication</c><00:02:17.599><c> is</c>
+
+00:02:17.790 --> 00:02:17.800 align:start position:0%
+referrals so Mo uh authentication is
+ 
+
+00:02:17.800 --> 00:02:19.150 align:start position:0%
+referrals so Mo uh authentication is
+absolutely<00:02:18.280><c> critical</c><00:02:18.640><c> to</c><00:02:18.800><c> building</c>
+
+00:02:19.150 --> 00:02:19.160 align:start position:0%
+absolutely critical to building
+ 
+
+00:02:19.160 --> 00:02:21.790 align:start position:0%
+absolutely critical to building
+successful<00:02:19.760><c> open</c><00:02:20.120><c> graph</c>
+
+00:02:21.790 --> 00:02:21.800 align:start position:0%
+successful open graph
+ 
+
+00:02:21.800 --> 00:02:25.150 align:start position:0%
+successful open graph
+apps<00:02:22.800><c> second</c><00:02:23.120><c> thing</c><00:02:23.640><c> is</c>
+
+00:02:25.150 --> 00:02:25.160 align:start position:0%
+apps second thing is
+ 
+
+00:02:25.160 --> 00:02:26.990 align:start position:0%
+apps second thing is
+permissions<00:02:26.160><c> there</c><00:02:26.239><c> are</c><00:02:26.400><c> two</c><00:02:26.560><c> permissions</c>
+
+00:02:26.990 --> 00:02:27.000 align:start position:0%
+permissions there are two permissions
+ 
+
+00:02:27.000 --> 00:02:28.949 align:start position:0%
+permissions there are two permissions
+that<00:02:27.120><c> people</c><00:02:27.440><c> ask</c><00:02:27.680><c> for</c><00:02:28.000><c> regularly</c><00:02:28.720><c> that</c>
+
+00:02:28.949 --> 00:02:28.959 align:start position:0%
+that people ask for regularly that
+ 
+
+00:02:28.959 --> 00:02:30.710 align:start position:0%
+that people ask for regularly that
+aren't<00:02:29.280><c> really</c><00:02:29.480><c> needed</c>
+
+00:02:30.710 --> 00:02:30.720 align:start position:0%
+aren't really needed
+ 
+
+00:02:30.720 --> 00:02:32.710 align:start position:0%
+aren't really needed
+the<00:02:30.879><c> first</c><00:02:31.239><c> is</c><00:02:31.480><c> offline</c><00:02:31.879><c> access</c><00:02:32.480><c> which</c><00:02:32.599><c> is</c>
+
+00:02:32.710 --> 00:02:32.720 align:start position:0%
+the first is offline access which is
+ 
+
+00:02:32.720 --> 00:02:35.309 align:start position:0%
+the first is offline access which is
+being<00:02:33.319><c> deprecated</c><00:02:34.319><c> so</c><00:02:34.680><c> if</c><00:02:34.800><c> you're</c><00:02:35.000><c> already</c>
+
+00:02:35.309 --> 00:02:35.319 align:start position:0%
+being deprecated so if you're already
+ 
+
+00:02:35.319 --> 00:02:38.390 align:start position:0%
+being deprecated so if you're already
+asking<00:02:35.599><c> for</c><00:02:35.840><c> this</c><00:02:36.840><c> uh</c><00:02:37.280><c> what</c><00:02:37.360><c> it</c><00:02:37.519><c> does</c><00:02:37.879><c> it</c><00:02:38.160><c> it</c>
+
+00:02:38.390 --> 00:02:38.400 align:start position:0%
+asking for this uh what it does it it
+ 
+
+00:02:38.400 --> 00:02:39.710 align:start position:0%
+asking for this uh what it does it it
+gives<00:02:38.599><c> you</c><00:02:38.760><c> access</c><00:02:39.040><c> tokens</c><00:02:39.360><c> which</c><00:02:39.519><c> have</c>
+
+00:02:39.710 --> 00:02:39.720 align:start position:0%
+gives you access tokens which have
+ 
+
+00:02:39.720 --> 00:02:41.030 align:start position:0%
+gives you access tokens which have
+infinite
+
+00:02:41.030 --> 00:02:41.040 align:start position:0%
+infinite
+ 
+
+00:02:41.040 --> 00:02:44.790 align:start position:0%
+infinite
+validity<00:02:42.040><c> we're</c><00:02:42.480><c> changing</c><00:02:43.480><c> the</c><00:02:43.800><c> way</c><00:02:44.440><c> uh</c><00:02:44.519><c> long</c>
+
+00:02:44.790 --> 00:02:44.800 align:start position:0%
+validity we're changing the way uh long
+ 
+
+00:02:44.800 --> 00:02:46.830 align:start position:0%
+validity we're changing the way uh long
+lived<00:02:45.080><c> access</c><00:02:45.360><c> tokens</c><00:02:45.640><c> work</c><00:02:46.280><c> so</c><00:02:46.440><c> that</c><00:02:46.599><c> if</c><00:02:46.680><c> you</c>
+
+00:02:46.830 --> 00:02:46.840 align:start position:0%
+lived access tokens work so that if you
+ 
+
+00:02:46.840 --> 00:02:48.830 align:start position:0%
+lived access tokens work so that if you
+get<00:02:47.000><c> an</c><00:02:47.120><c> access</c><00:02:47.440><c> token</c><00:02:47.840><c> via</c><00:02:48.120><c> a</c><00:02:48.239><c> server</c><00:02:48.680><c> side</c>
+
+00:02:48.830 --> 00:02:48.840 align:start position:0%
+get an access token via a server side
+ 
+
+00:02:48.840 --> 00:02:51.030 align:start position:0%
+get an access token via a server side
+authentication<00:02:49.440><c> flow</c><00:02:50.159><c> they'll</c><00:02:50.440><c> have</c><00:02:50.920><c> a</c>
+
+00:02:51.030 --> 00:02:51.040 align:start position:0%
+authentication flow they'll have a
+ 
+
+00:02:51.040 --> 00:02:54.229 align:start position:0%
+authentication flow they'll have a
+validity<00:02:51.760><c> initially</c><00:02:52.120><c> of</c><00:02:52.360><c> 60</c><00:02:52.879><c> days</c><00:02:53.879><c> if</c><00:02:54.000><c> you</c><00:02:54.120><c> get</c>
+
+00:02:54.229 --> 00:02:54.239 align:start position:0%
+validity initially of 60 days if you get
+ 
+
+00:02:54.239 --> 00:02:56.910 align:start position:0%
+validity initially of 60 days if you get
+an<00:02:54.360><c> access</c><00:02:54.680><c> token</c><00:02:55.519><c> through</c><00:02:56.200><c> uh</c><00:02:56.760><c> the</c>
+
+00:02:56.910 --> 00:02:56.920 align:start position:0%
+an access token through uh the
+ 
+
+00:02:56.920 --> 00:02:59.630 align:start position:0%
+an access token through uh the
+JavaScript<00:02:57.599><c> SDK</c><00:02:58.599><c> uh</c><00:02:58.680><c> or</c><00:02:58.840><c> it's</c><00:02:59.000><c> passed</c><00:02:59.280><c> to</c><00:02:59.400><c> you</c>
+
+00:02:59.630 --> 00:02:59.640 align:start position:0%
+JavaScript SDK uh or it's passed to you
+ 
+
+00:02:59.640 --> 00:03:00.990 align:start position:0%
+JavaScript SDK uh or it's passed to you
+when<00:02:59.840><c> when</c><00:02:59.920><c> your</c><00:03:00.040><c> application</c><00:03:00.400><c> is</c><00:03:00.519><c> loaded</c>
+
+00:03:00.990 --> 00:03:01.000 align:start position:0%
+when when your application is loaded
+ 
+
+00:03:01.000 --> 00:03:03.589 align:start position:0%
+when when your application is loaded
+inside<00:03:01.440><c> a</c><00:03:01.640><c> page</c><00:03:01.959><c> tab</c><00:03:02.440><c> or</c><00:03:02.720><c> a</c><00:03:02.879><c> canvas</c><00:03:03.239><c> frame</c>
+
+00:03:03.589 --> 00:03:03.599 align:start position:0%
+inside a page tab or a canvas frame
+ 
+
+00:03:03.599 --> 00:03:05.910 align:start position:0%
+inside a page tab or a canvas frame
+within<00:03:03.920><c> Facebook</c><00:03:04.920><c> then</c><00:03:05.040><c> the</c><00:03:05.159><c> access</c><00:03:05.480><c> token</c>
+
+00:03:05.910 --> 00:03:05.920 align:start position:0%
+within Facebook then the access token
+ 
+
+00:03:05.920 --> 00:03:08.750 align:start position:0%
+within Facebook then the access token
+will<00:03:06.080><c> be</c><00:03:06.280><c> a</c><00:03:06.400><c> shli</c><00:03:06.959><c> token</c><00:03:07.519><c> currently</c><00:03:07.959><c> 2</c><00:03:08.280><c> hours</c>
+
+00:03:08.750 --> 00:03:08.760 align:start position:0%
+will be a shli token currently 2 hours
+ 
+
+00:03:08.760 --> 00:03:10.589 align:start position:0%
+will be a shli token currently 2 hours
+by<00:03:08.920><c> default</c><00:03:09.560><c> but</c><00:03:09.680><c> you'll</c><00:03:09.840><c> be</c><00:03:09.920><c> able</c><00:03:10.120><c> to</c><00:03:10.280><c> pass</c>
+
+00:03:10.589 --> 00:03:10.599 align:start position:0%
+by default but you'll be able to pass
+ 
+
+00:03:10.599 --> 00:03:12.390 align:start position:0%
+by default but you'll be able to pass
+that<00:03:10.760><c> token</c><00:03:11.120><c> back</c><00:03:11.280><c> to</c><00:03:11.400><c> your</c><00:03:11.560><c> server</c><00:03:12.200><c> and</c>
+
+00:03:12.390 --> 00:03:12.400 align:start position:0%
+that token back to your server and
+ 
+
+00:03:12.400 --> 00:03:15.270 align:start position:0%
+that token back to your server and
+exchange<00:03:12.799><c> it</c><00:03:12.959><c> for</c><00:03:13.239><c> Long</c><00:03:13.480><c> Live</c><00:03:13.760><c> token</c><00:03:14.760><c> um</c><00:03:15.120><c> which</c>
+
+00:03:15.270 --> 00:03:15.280 align:start position:0%
+exchange it for Long Live token um which
+ 
+
+00:03:15.280 --> 00:03:17.949 align:start position:0%
+exchange it for Long Live token um which
+will<00:03:15.440><c> last</c><00:03:15.799><c> again</c><00:03:16.080><c> for</c><00:03:16.440><c> 60</c><00:03:16.840><c> days</c><00:03:17.080><c> to</c><00:03:17.239><c> start</c>
+
+00:03:17.949 --> 00:03:17.959 align:start position:0%
+will last again for 60 days to start
+ 
+
+00:03:17.959 --> 00:03:20.869 align:start position:0%
+will last again for 60 days to start
+with<00:03:18.959><c> and</c><00:03:19.080><c> the</c><00:03:19.200><c> second</c><00:03:19.480><c> is</c><00:03:19.680><c> publish</c><00:03:19.959><c> stream</c>
+
+00:03:20.869 --> 00:03:20.879 align:start position:0%
+with and the second is publish stream
+ 
+
+00:03:20.879 --> 00:03:21.990 align:start position:0%
+with and the second is publish stream
+publish<00:03:21.120><c> stream</c><00:03:21.360><c> is</c><00:03:21.480><c> a</c><00:03:21.599><c> permission</c><00:03:21.879><c> that</c>
+
+00:03:21.990 --> 00:03:22.000 align:start position:0%
+publish stream is a permission that
+ 
+
+00:03:22.000 --> 00:03:23.190 align:start position:0%
+publish stream is a permission that
+allows<00:03:22.239><c> you</c><00:03:22.319><c> to</c><00:03:22.480><c> publish</c><00:03:22.720><c> all</c><00:03:22.879><c> kinds</c><00:03:23.080><c> of</c>
+
+00:03:23.190 --> 00:03:23.200 align:start position:0%
+allows you to publish all kinds of
+ 
+
+00:03:23.200 --> 00:03:25.830 align:start position:0%
+allows you to publish all kinds of
+content<00:03:23.480><c> to</c><00:03:24.040><c> Facebook</c><00:03:25.040><c> it's</c><00:03:25.159><c> a</c><00:03:25.400><c> per</c><00:03:25.640><c> it's</c><00:03:25.720><c> a</c>
+
+00:03:25.830 --> 00:03:25.840 align:start position:0%
+content to Facebook it's a per it's a
+ 
+
+00:03:25.840 --> 00:03:28.750 align:start position:0%
+content to Facebook it's a per it's a
+permission<00:03:26.200><c> that's</c><00:03:26.680><c> uh</c><00:03:27.519><c> that</c><00:03:27.720><c> again</c>
+
+00:03:28.750 --> 00:03:28.760 align:start position:0%
+permission that's uh that again
+ 
+
+00:03:28.760 --> 00:03:31.509 align:start position:0%
+permission that's uh that again
+users<00:03:29.799><c> don't</c><00:03:29.959><c> always</c><00:03:30.519><c> understand</c><00:03:31.000><c> why</c><00:03:31.239><c> you're</c>
+
+00:03:31.509 --> 00:03:31.519 align:start position:0%
+users don't always understand why you're
+ 
+
+00:03:31.519 --> 00:03:33.229 align:start position:0%
+users don't always understand why you're
+requesting
+
+00:03:33.229 --> 00:03:33.239 align:start position:0%
+requesting
+ 
+
+00:03:33.239 --> 00:03:35.670 align:start position:0%
+requesting
+it<00:03:34.239><c> and</c><00:03:34.360><c> so</c><00:03:34.560><c> with</c><00:03:34.680><c> the</c><00:03:34.799><c> new</c><00:03:35.040><c> authentication</c>
+
+00:03:35.670 --> 00:03:35.680 align:start position:0%
+it and so with the new authentication
+ 
+
+00:03:35.680 --> 00:03:37.229 align:start position:0%
+it and so with the new authentication
+dialogue<00:03:36.080><c> if</c><00:03:36.159><c> you</c><00:03:36.319><c> ask</c><00:03:36.560><c> for</c><00:03:36.720><c> either</c><00:03:36.920><c> of</c><00:03:37.080><c> these</c>
+
+00:03:37.229 --> 00:03:37.239 align:start position:0%
+dialogue if you ask for either of these
+ 
+
+00:03:37.239 --> 00:03:38.949 align:start position:0%
+dialogue if you ask for either of these
+permissions<00:03:37.799><c> they'll</c><00:03:37.959><c> show</c><00:03:38.200><c> up</c><00:03:38.319><c> on</c><00:03:38.439><c> a</c><00:03:38.599><c> second</c>
+
+00:03:38.949 --> 00:03:38.959 align:start position:0%
+permissions they'll show up on a second
+ 
+
+00:03:38.959 --> 00:03:41.190 align:start position:0%
+permissions they'll show up on a second
+screen<00:03:39.400><c> of</c><00:03:39.519><c> the</c><00:03:39.640><c> authentication</c><00:03:40.239><c> dialogue</c>
+
+00:03:41.190 --> 00:03:41.200 align:start position:0%
+screen of the authentication dialogue
+ 
+
+00:03:41.200 --> 00:03:43.670 align:start position:0%
+screen of the authentication dialogue
+the<00:03:41.439><c> user</c><00:03:41.799><c> can</c><00:03:42.000><c> opt</c><00:03:42.280><c> to</c><00:03:42.480><c> not</c><00:03:42.760><c> Grant</c><00:03:43.040><c> you</c><00:03:43.159><c> those</c>
+
+00:03:43.670 --> 00:03:43.680 align:start position:0%
+the user can opt to not Grant you those
+ 
+
+00:03:43.680 --> 00:03:46.789 align:start position:0%
+the user can opt to not Grant you those
+permissions<00:03:44.680><c> so</c><00:03:45.200><c> this</c><00:03:45.280><c> is</c><00:03:45.400><c> a</c><00:03:45.560><c> view</c><00:03:46.080><c> uh</c><00:03:46.239><c> that</c><00:03:46.439><c> we</c>
+
+00:03:46.789 --> 00:03:46.799 align:start position:0%
+permissions so this is a view uh that we
+ 
+
+00:03:46.799 --> 00:03:47.949 align:start position:0%
+permissions so this is a view uh that we
+basically<00:03:47.159><c> you</c><00:03:47.239><c> shouldn't</c><00:03:47.480><c> need</c><00:03:47.640><c> to</c><00:03:47.720><c> see</c>
+
+00:03:47.949 --> 00:03:47.959 align:start position:0%
+basically you shouldn't need to see
+ 
+
+00:03:47.959 --> 00:03:49.589 align:start position:0%
+basically you shouldn't need to see
+anymore<00:03:48.519><c> posting</c><00:03:48.799><c> to</c><00:03:48.959><c> Facebook</c><00:03:49.239><c> is</c><00:03:49.360><c> me</c><00:03:49.480><c> and</c>
+
+00:03:49.589 --> 00:03:49.599 align:start position:0%
+anymore posting to Facebook is me and
+ 
+
+00:03:49.599 --> 00:03:51.110 align:start position:0%
+anymore posting to Facebook is me and
+accessing<00:03:49.920><c> my</c><00:03:50.040><c> data</c><00:03:50.360><c> any</c>
+
+00:03:51.110 --> 00:03:51.120 align:start position:0%
+accessing my data any
+ 
+
+00:03:51.120 --> 00:03:53.670 align:start position:0%
+accessing my data any
+time<00:03:52.120><c> instead</c><00:03:52.959><c> if</c><00:03:53.079><c> you're</c><00:03:53.200><c> building</c><00:03:53.480><c> for</c><00:03:53.560><c> the</c>
+
+00:03:53.670 --> 00:03:53.680 align:start position:0%
+time instead if you're building for the
+ 
+
+00:03:53.680 --> 00:03:55.710 align:start position:0%
+time instead if you're building for the
+open<00:03:53.959><c> graph</c><00:03:54.560><c> ask</c><00:03:54.760><c> for</c><00:03:54.879><c> the</c><00:03:55.040><c> publish</c><00:03:55.360><c> actions</c>
+
+00:03:55.710 --> 00:03:55.720 align:start position:0%
+open graph ask for the publish actions
+ 
+
+00:03:55.720 --> 00:03:57.710 align:start position:0%
+open graph ask for the publish actions
+permission<00:03:56.680><c> publishing</c><00:03:57.079><c> actions</c><00:03:57.400><c> is</c><00:03:57.519><c> about</c>
+
+00:03:57.710 --> 00:03:57.720 align:start position:0%
+permission publishing actions is about
+ 
+
+00:03:57.720 --> 00:03:59.789 align:start position:0%
+permission publishing actions is about
+publishing<00:03:58.120><c> structured</c><00:03:58.599><c> data</c><00:03:59.079><c> to</c><00:03:59.239><c> users</c>
+
+00:03:59.789 --> 00:03:59.799 align:start position:0%
+publishing structured data to users
+ 
+
+00:03:59.799 --> 00:04:01.949 align:start position:0%
+publishing structured data to users
+timelines<00:04:00.239><c> tickers</c><00:04:00.640><c> and</c><00:04:00.799><c> use</c><00:04:01.079><c> feed</c><00:04:01.840><c> and</c>
+
+00:04:01.949 --> 00:04:01.959 align:start position:0%
+timelines tickers and use feed and
+ 
+
+00:04:01.959 --> 00:04:03.509 align:start position:0%
+timelines tickers and use feed and
+because<00:04:02.159><c> it's</c><00:04:02.319><c> structured</c><00:04:02.760><c> data</c><00:04:03.159><c> and</c><00:04:03.280><c> because</c>
+
+00:04:03.509 --> 00:04:03.519 align:start position:0%
+because it's structured data and because
+ 
+
+00:04:03.519 --> 00:04:05.149 align:start position:0%
+because it's structured data and because
+Facebook<00:04:03.879><c> can</c><00:04:04.319><c> understand</c><00:04:04.840><c> how</c><00:04:04.959><c> to</c>
+
+00:04:05.149 --> 00:04:05.159 align:start position:0%
+Facebook can understand how to
+ 
+
+00:04:05.159 --> 00:04:06.589 align:start position:0%
+Facebook can understand how to
+distribute<00:04:05.599><c> it</c><00:04:05.760><c> effectively</c><00:04:06.280><c> inside</c>
+
+00:04:06.589 --> 00:04:06.599 align:start position:0%
+distribute it effectively inside
+ 
+
+00:04:06.599 --> 00:04:08.630 align:start position:0%
+distribute it effectively inside
+Facebook<00:04:07.400><c> this</c><00:04:07.560><c> permission</c><00:04:08.120><c> if</c><00:04:08.200><c> you</c><00:04:08.360><c> request</c>
+
+00:04:08.630 --> 00:04:08.640 align:start position:0%
+Facebook this permission if you request
+ 
+
+00:04:08.640 --> 00:04:10.149 align:start position:0%
+Facebook this permission if you request
+it<00:04:08.760><c> is</c><00:04:08.879><c> on</c><00:04:09.000><c> the</c><00:04:09.159><c> first</c><00:04:09.439><c> screen</c><00:04:09.879><c> of</c><00:04:10.000><c> the</c>
+
+00:04:10.149 --> 00:04:10.159 align:start position:0%
+it is on the first screen of the
+ 
+
+00:04:10.159 --> 00:04:13.429 align:start position:0%
+it is on the first screen of the
+authentication<00:04:11.319><c> dialogue</c><00:04:12.319><c> number</c><00:04:12.560><c> four</c>
+
+00:04:13.429 --> 00:04:13.439 align:start position:0%
+authentication dialogue number four
+ 
+
+00:04:13.439 --> 00:04:16.310 align:start position:0%
+authentication dialogue number four
+object<00:04:14.480><c> references</c><00:04:15.480><c> object</c><00:04:15.879><c> references</c>
+
+00:04:16.310 --> 00:04:16.320 align:start position:0%
+object references object references
+ 
+
+00:04:16.320 --> 00:04:18.270 align:start position:0%
+object references object references
+allow<00:04:16.560><c> you</c><00:04:16.639><c> to</c><00:04:16.799><c> link</c><00:04:17.120><c> an</c><00:04:17.320><c> object</c><00:04:17.639><c> to</c><00:04:17.959><c> other</c>
+
+00:04:18.270 --> 00:04:18.280 align:start position:0%
+allow you to link an object to other
+ 
+
+00:04:18.280 --> 00:04:21.030 align:start position:0%
+allow you to link an object to other
+objects<00:04:18.959><c> so</c><00:04:19.239><c> here</c><00:04:19.560><c> recipes</c><00:04:20.040><c> to</c><00:04:20.320><c> ingredients</c>
+
+00:04:21.030 --> 00:04:21.040 align:start position:0%
+objects so here recipes to ingredients
+ 
+
+00:04:21.040 --> 00:04:23.870 align:start position:0%
+objects so here recipes to ingredients
+to<00:04:21.199><c> add</c><00:04:21.519><c> context</c><00:04:22.040><c> around</c><00:04:22.520><c> the</c><00:04:22.880><c> application</c>
+
+00:04:23.870 --> 00:04:23.880 align:start position:0%
+to add context around the application
+ 
+
+00:04:23.880 --> 00:04:25.710 align:start position:0%
+to add context around the application
+and<00:04:24.040><c> that</c><00:04:24.160><c> allows</c><00:04:24.440><c> you</c><00:04:24.560><c> to</c><00:04:24.720><c> do</c><00:04:25.280><c> awesome</c>
+
+00:04:25.710 --> 00:04:25.720 align:start position:0%
+and that allows you to do awesome
+ 
+
+00:04:25.720 --> 00:04:28.510 align:start position:0%
+and that allows you to do awesome
+aggregations<00:04:26.639><c> like</c><00:04:27.000><c> favorite</c><00:04:27.560><c> ingredients</c>
+
+00:04:28.510 --> 00:04:28.520 align:start position:0%
+aggregations like favorite ingredients
+ 
+
+00:04:28.520 --> 00:04:30.070 align:start position:0%
+aggregations like favorite ingredients
+not<00:04:28.720><c> because</c><00:04:28.880><c> of</c><00:04:29.000><c> the</c><00:04:29.120><c> recipes</c><00:04:29.479><c> I've</c><00:04:29.759><c> cooked</c>
+
+00:04:30.070 --> 00:04:30.080 align:start position:0%
+not because of the recipes I've cooked
+ 
+
+00:04:30.080 --> 00:04:32.390 align:start position:0%
+not because of the recipes I've cooked
+but<00:04:30.240><c> because</c><00:04:30.440><c> of</c><00:04:30.560><c> the</c><00:04:30.720><c> ingredients</c><00:04:31.320><c> in</c><00:04:31.479><c> them</c>
+
+00:04:32.390 --> 00:04:32.400 align:start position:0%
+but because of the ingredients in them
+ 
+
+00:04:32.400 --> 00:04:34.390 align:start position:0%
+but because of the ingredients in them
+again<00:04:32.800><c> that's</c><00:04:33.000><c> how</c><00:04:33.240><c> Spotify</c><00:04:33.759><c> for</c><00:04:33.919><c> example</c>
+
+00:04:34.390 --> 00:04:34.400 align:start position:0%
+again that's how Spotify for example
+ 
+
+00:04:34.400 --> 00:04:36.790 align:start position:0%
+again that's how Spotify for example
+does<00:04:35.160><c> my</c><00:04:35.320><c> favorite</c><00:04:35.680><c> albums</c><00:04:36.280><c> my</c><00:04:36.440><c> favorite</c>
+
+00:04:36.790 --> 00:04:36.800 align:start position:0%
+does my favorite albums my favorite
+ 
+
+00:04:36.800 --> 00:04:39.590 align:start position:0%
+does my favorite albums my favorite
+artists<00:04:37.400><c> my</c><00:04:37.520><c> favorite</c><00:04:38.160><c> playlists</c><00:04:39.160><c> and</c><00:04:39.240><c> you</c><00:04:39.360><c> do</c>
+
+00:04:39.590 --> 00:04:39.600 align:start position:0%
+artists my favorite playlists and you do
+ 
+
+00:04:39.600 --> 00:04:42.310 align:start position:0%
+artists my favorite playlists and you do
+that<00:04:39.800><c> by</c><00:04:40.039><c> adding</c><00:04:40.560><c> additional</c><00:04:40.919><c> markup</c><00:04:41.759><c> to</c><00:04:42.080><c> your</c>
+
+00:04:42.310 --> 00:04:42.320 align:start position:0%
+that by adding additional markup to your
+ 
+
+00:04:42.320 --> 00:04:44.950 align:start position:0%
+that by adding additional markup to your
+objects<00:04:42.759><c> that</c><00:04:42.880><c> link</c><00:04:43.199><c> them</c><00:04:43.479><c> to</c><00:04:43.720><c> other</c>
+
+00:04:44.950 --> 00:04:44.960 align:start position:0%
+objects that link them to other
+ 
+
+00:04:44.960 --> 00:04:48.310 align:start position:0%
+objects that link them to other
+objects<00:04:45.960><c> number</c><00:04:46.280><c> five</c><00:04:46.759><c> is</c><00:04:47.120><c> the</c><00:04:47.280><c> sister</c><00:04:48.039><c> thing</c>
+
+00:04:48.310 --> 00:04:48.320 align:start position:0%
+objects number five is the sister thing
+ 
+
+00:04:48.320 --> 00:04:49.990 align:start position:0%
+objects number five is the sister thing
+to<00:04:48.720><c> object</c><00:04:49.000><c> properties</c><00:04:49.360><c> and</c><00:04:49.479><c> that's</c><00:04:49.680><c> Action</c>
+
+00:04:49.990 --> 00:04:50.000 align:start position:0%
+to object properties and that's Action
+ 
+
+00:04:50.000 --> 00:04:52.469 align:start position:0%
+to object properties and that's Action
+Properties<00:04:50.840><c> and</c><00:04:50.960><c> this</c><00:04:51.080><c> is</c><00:04:51.360><c> adding</c><00:04:51.759><c> context</c><00:04:52.240><c> to</c>
+
+00:04:52.469 --> 00:04:52.479 align:start position:0%
+Properties and this is adding context to
+ 
+
+00:04:52.479 --> 00:04:54.590 align:start position:0%
+Properties and this is adding context to
+the<00:04:52.720><c> action</c><00:04:53.440><c> so</c><00:04:53.680><c> for</c><00:04:53.840><c> example</c><00:04:54.160><c> I</c><00:04:54.280><c> cook</c><00:04:54.440><c> a</c>
+
+00:04:54.590 --> 00:04:54.600 align:start position:0%
+the action so for example I cook a
+ 
+
+00:04:54.600 --> 00:04:57.550 align:start position:0%
+the action so for example I cook a
+recipe<00:04:55.440><c> the</c><00:04:55.600><c> occasion</c><00:04:56.240><c> or</c><00:04:56.479><c> the</c><00:04:56.720><c> place</c><00:04:57.160><c> I</c><00:04:57.320><c> cook</c>
+
+00:04:57.550 --> 00:04:57.560 align:start position:0%
+recipe the occasion or the place I cook
+ 
+
+00:04:57.560 --> 00:05:00.150 align:start position:0%
+recipe the occasion or the place I cook
+it<00:04:58.080><c> is</c><00:04:58.280><c> a</c><00:04:58.400><c> property</c><00:04:58.759><c> of</c><00:04:58.880><c> the</c><00:04:59.000><c> action</c><00:04:59.720><c> not</c><00:05:00.000><c> the</c>
+
+00:05:00.150 --> 00:05:00.160 align:start position:0%
+it is a property of the action not the
+ 
+
+00:05:00.160 --> 00:05:02.390 align:start position:0%
+it is a property of the action not the
+object<00:05:00.880><c> so</c><00:05:01.120><c> Action</c><00:05:01.440><c> Properties</c><00:05:01.840><c> allow</c><00:05:02.120><c> you</c><00:05:02.199><c> to</c>
+
+00:05:02.390 --> 00:05:02.400 align:start position:0%
+object so Action Properties allow you to
+ 
+
+00:05:02.400 --> 00:05:05.310 align:start position:0%
+object so Action Properties allow you to
+add<00:05:02.680><c> context</c><00:05:03.199><c> to</c><00:05:03.440><c> the</c><00:05:03.759><c> action</c><00:05:04.759><c> and</c><00:05:04.960><c> again</c><00:05:05.199><c> you</c>
+
+00:05:05.310 --> 00:05:05.320 align:start position:0%
+add context to the action and again you
+ 
+
+00:05:05.320 --> 00:05:07.909 align:start position:0%
+add context to the action and again you
+do<00:05:05.560><c> this</c><00:05:06.160><c> by</c><00:05:06.639><c> adding</c><00:05:07.000><c> a</c><00:05:07.160><c> property</c><00:05:07.600><c> when</c><00:05:07.759><c> you</c>
+
+00:05:07.909 --> 00:05:07.919 align:start position:0%
+do this by adding a property when you
+ 
+
+00:05:07.919 --> 00:05:10.790 align:start position:0%
+do this by adding a property when you
+post<00:05:08.199><c> the</c><00:05:08.360><c> action</c><00:05:08.639><c> into</c><00:05:08.960><c> Facebook</c>
+
+00:05:10.790 --> 00:05:10.800 align:start position:0%
+post the action into Facebook
+ 
+
+00:05:10.800 --> 00:05:13.870 align:start position:0%
+post the action into Facebook
+itself<00:05:11.800><c> number</c><00:05:12.160><c> five</c><00:05:12.880><c> is</c><00:05:13.120><c> an</c><00:05:13.320><c> extension</c><00:05:13.680><c> of</c>
+
+00:05:13.870 --> 00:05:13.880 align:start position:0%
+itself number five is an extension of
+ 
+
+00:05:13.880 --> 00:05:15.670 align:start position:0%
+itself number five is an extension of
+that<00:05:14.120><c> and</c><00:05:14.240><c> that</c><00:05:14.320><c> is</c><00:05:14.520><c> adding</c><00:05:14.919><c> context</c><00:05:15.360><c> to</c><00:05:15.479><c> your</c>
+
+00:05:15.670 --> 00:05:15.680 align:start position:0%
+that and that is adding context to your
+ 
+
+00:05:15.680 --> 00:05:18.270 align:start position:0%
+that and that is adding context to your
+actions<00:05:16.320><c> through</c><00:05:16.600><c> tagging</c><00:05:17.000><c> places</c><00:05:17.880><c> tagging</c>
+
+00:05:18.270 --> 00:05:18.280 align:start position:0%
+actions through tagging places tagging
+ 
+
+00:05:18.280 --> 00:05:20.309 align:start position:0%
+actions through tagging places tagging
+friends<00:05:19.199><c> and</c>
+
+00:05:20.309 --> 00:05:20.319 align:start position:0%
+friends and
+ 
+
+00:05:20.319 --> 00:05:22.830 align:start position:0%
+friends and
+messages<00:05:21.319><c> now</c><00:05:21.479><c> this</c><00:05:21.680><c> have</c><00:05:21.840><c> to</c><00:05:21.960><c> be</c><00:05:22.120><c> done</c><00:05:22.600><c> uh</c><00:05:22.720><c> in</c>
+
+00:05:22.830 --> 00:05:22.840 align:start position:0%
+messages now this have to be done uh in
+ 
+
+00:05:22.840 --> 00:05:26.309 align:start position:0%
+messages now this have to be done uh in
+a<00:05:23.000><c> valid</c><00:05:23.360><c> way</c><00:05:23.800><c> you</c><00:05:24.600><c> when</c><00:05:25.120><c> I'm</c><00:05:25.319><c> tagging</c><00:05:25.840><c> people</c>
+
+00:05:26.309 --> 00:05:26.319 align:start position:0%
+a valid way you when I'm tagging people
+ 
+
+00:05:26.319 --> 00:05:28.189 align:start position:0%
+a valid way you when I'm tagging people
+it's<00:05:26.560><c> because</c><00:05:26.919><c> they</c><00:05:27.039><c> are</c><00:05:27.319><c> with</c><00:05:27.520><c> me</c><00:05:28.000><c> it's</c>
+
+00:05:28.189 --> 00:05:28.199 align:start position:0%
+it's because they are with me it's
+ 
+
+00:05:28.199 --> 00:05:31.510 align:start position:0%
+it's because they are with me it's
+because<00:05:28.520><c> they</c><00:05:28.639><c> are</c><00:05:28.880><c> doing</c><00:05:29.360><c> the</c><00:05:29.800><c> action</c><00:05:30.520><c> to</c>
+
+00:05:31.510 --> 00:05:31.520 align:start position:0%
+because they are doing the action to
+ 
+
+00:05:31.520 --> 00:05:33.950 align:start position:0%
+because they are doing the action to
+places<00:05:32.160><c> obviously</c><00:05:32.479><c> irrelevant</c><00:05:33.080><c> if</c><00:05:33.280><c> I'm</c><00:05:33.800><c> uh</c>
+
+00:05:33.950 --> 00:05:33.960 align:start position:0%
+places obviously irrelevant if I'm uh
+ 
+
+00:05:33.960 --> 00:05:35.990 align:start position:0%
+places obviously irrelevant if I'm uh
+say<00:05:34.160><c> a</c><00:05:34.280><c> mobile</c><00:05:34.560><c> app</c><00:05:34.720><c> and</c><00:05:34.840><c> I'm</c><00:05:34.960><c> out</c><00:05:35.080><c> and</c><00:05:35.199><c> about</c>
+
+00:05:35.990 --> 00:05:36.000 align:start position:0%
+say a mobile app and I'm out and about
+ 
+
+00:05:36.000 --> 00:05:37.990 align:start position:0%
+say a mobile app and I'm out and about
+and<00:05:36.120><c> then</c><00:05:36.280><c> messages</c><00:05:37.240><c> uh</c><00:05:37.360><c> it's</c><00:05:37.520><c> important</c><00:05:37.880><c> that</c>
+
+00:05:37.990 --> 00:05:38.000 align:start position:0%
+and then messages uh it's important that
+ 
+
+00:05:38.000 --> 00:05:39.790 align:start position:0%
+and then messages uh it's important that
+the<00:05:38.120><c> user</c><00:05:38.520><c> has</c><00:05:38.680><c> to</c><00:05:38.880><c> manually</c><00:05:39.360><c> enter</c><00:05:39.639><c> the</c>
+
+00:05:39.790 --> 00:05:39.800 align:start position:0%
+the user has to manually enter the
+ 
+
+00:05:39.800 --> 00:05:41.710 align:start position:0%
+the user has to manually enter the
+message<00:05:40.160><c> you</c><00:05:40.360><c> can't</c><00:05:40.880><c> pass</c><00:05:41.120><c> a</c><00:05:41.280><c> message</c>
+
+00:05:41.710 --> 00:05:41.720 align:start position:0%
+message you can't pass a message
+ 
+
+00:05:41.720 --> 00:05:43.909 align:start position:0%
+message you can't pass a message
+parameter<00:05:42.280><c> with</c><00:05:42.560><c> with</c><00:05:42.720><c> pre-filled</c><00:05:43.319><c> text</c><00:05:43.800><c> that</c>
+
+00:05:43.909 --> 00:05:43.919 align:start position:0%
+parameter with with pre-filled text that
+ 
+
+00:05:43.919 --> 00:05:46.309 align:start position:0%
+parameter with with pre-filled text that
+you've<00:05:44.160><c> entered</c><00:05:44.520><c> yourself</c><00:05:45.520><c> when</c><00:05:45.759><c> you</c><00:05:45.960><c> use</c><00:05:46.199><c> the</c>
+
+00:05:46.309 --> 00:05:46.319 align:start position:0%
+you've entered yourself when you use the
+ 
+
+00:05:46.319 --> 00:05:48.590 align:start position:0%
+you've entered yourself when you use the
+message<00:05:46.800><c> parameter</c><00:05:47.800><c> um</c><00:05:47.919><c> you</c><00:05:48.039><c> have</c><00:05:48.120><c> to</c><00:05:48.280><c> display</c>
+
+00:05:48.590 --> 00:05:48.600 align:start position:0%
+message parameter um you have to display
+ 
+
+00:05:48.600 --> 00:05:50.550 align:start position:0%
+message parameter um you have to display
+a<00:05:48.759><c> box</c><00:05:49.080><c> to</c><00:05:49.199><c> the</c><00:05:49.319><c> user</c><00:05:49.639><c> that</c><00:05:49.840><c> they</c><00:05:49.960><c> can</c><00:05:50.199><c> type</c><00:05:50.440><c> a</c>
+
+00:05:50.550 --> 00:05:50.560 align:start position:0%
+a box to the user that they can type a
+ 
+
+00:05:50.560 --> 00:05:52.790 align:start position:0%
+a box to the user that they can type a
+message<00:05:50.800><c> in</c><00:05:51.039><c> if</c><00:05:51.240><c> they</c><00:05:51.360><c> want</c><00:05:51.960><c> and</c><00:05:52.120><c> they</c><00:05:52.280><c> click</c>
+
+00:05:52.790 --> 00:05:52.800 align:start position:0%
+message in if they want and they click
+ 
+
+00:05:52.800 --> 00:05:55.950 align:start position:0%
+message in if they want and they click
+post<00:05:53.080><c> to</c><00:05:53.280><c> publish</c><00:05:53.560><c> the</c><00:05:54.080><c> action</c><00:05:55.080><c> number</c><00:05:55.400><c> six</c>
+
+00:05:55.950 --> 00:05:55.960 align:start position:0%
+post to publish the action number six
+ 
+
+00:05:55.960 --> 00:05:58.670 align:start position:0%
+post to publish the action number six
+sorry<00:05:56.199><c> number</c><00:05:56.520><c> seven</c><00:05:57.520><c> interesting</c><00:05:58.000><c> one</c><00:05:58.560><c> one</c>
+
+00:05:58.670 --> 00:05:58.680 align:start position:0%
+sorry number seven interesting one one
+ 
+
+00:05:58.680 --> 00:06:00.230 align:start position:0%
+sorry number seven interesting one one
+of<00:05:58.759><c> the</c><00:05:58.840><c> things</c><00:05:59.000><c> about</c><00:05:59.160><c> open</c><00:05:59.400><c> graph</c><00:05:59.840><c> is</c><00:06:00.039><c> it</c>
+
+00:06:00.230 --> 00:06:00.240 align:start position:0%
+of the things about open graph is it
+ 
+
+00:06:00.240 --> 00:06:04.790 align:start position:0%
+of the things about open graph is it
+requires<00:06:00.880><c> real</c><00:06:02.000><c> URLs</c><00:06:03.120><c> basically</c><00:06:04.120><c> the</c><00:06:04.400><c> URL</c>
+
+00:06:04.790 --> 00:06:04.800 align:start position:0%
+requires real URLs basically the URL
+ 
+
+00:06:04.800 --> 00:06:06.150 align:start position:0%
+requires real URLs basically the URL
+that<00:06:04.960><c> represents</c><00:06:05.360><c> an</c><00:06:05.520><c> object</c><00:06:05.759><c> you</c><00:06:05.840><c> need</c><00:06:05.960><c> to</c><00:06:06.080><c> be</c>
+
+00:06:06.150 --> 00:06:06.160 align:start position:0%
+that represents an object you need to be
+ 
+
+00:06:06.160 --> 00:06:09.510 align:start position:0%
+that represents an object you need to be
+able<00:06:06.319><c> to</c><00:06:06.759><c> to</c><00:06:06.960><c> to</c><00:06:07.080><c> do</c><00:06:07.199><c> an</c><00:06:07.319><c> HTTP</c><00:06:07.960><c> get</c><00:06:08.479><c> on</c><00:06:08.639><c> that</c><00:06:08.800><c> URL</c>
+
+00:06:09.510 --> 00:06:09.520 align:start position:0%
+able to to to do an HTTP get on that URL
+ 
+
+00:06:09.520 --> 00:06:12.150 align:start position:0%
+able to to to do an HTTP get on that URL
+and<00:06:09.720><c> have</c><00:06:10.039><c> HTML</c><00:06:10.720><c> return</c><00:06:11.000><c> that</c><00:06:11.160><c> contains</c><00:06:11.800><c> open</c>
+
+00:06:12.150 --> 00:06:12.160 align:start position:0%
+and have HTML return that contains open
+ 
+
+00:06:12.160 --> 00:06:14.870 align:start position:0%
+and have HTML return that contains open
+graph<00:06:12.520><c> markup</c><00:06:13.520><c> for</c><00:06:13.720><c> this</c><00:06:13.880><c> reason</c><00:06:14.440><c> you</c><00:06:14.599><c> need</c>
+
+00:06:14.870 --> 00:06:14.880 align:start position:0%
+graph markup for this reason you need
+ 
+
+00:06:14.880 --> 00:06:17.270 align:start position:0%
+graph markup for this reason you need
+real<00:06:15.400><c> URLs</c><00:06:16.400><c> there's</c><00:06:16.560><c> a</c><00:06:16.720><c> common</c><00:06:16.960><c> pattern</c><00:06:17.199><c> on</c>
+
+00:06:17.270 --> 00:06:17.280 align:start position:0%
+real URLs there's a common pattern on
+ 
+
+00:06:17.280 --> 00:06:18.909 align:start position:0%
+real URLs there's a common pattern on
+the<00:06:17.360><c> web</c><00:06:17.560><c> now</c><00:06:17.759><c> where</c><00:06:17.960><c> lots</c><00:06:18.120><c> of</c><00:06:18.319><c> sites</c><00:06:18.599><c> are</c>
+
+00:06:18.909 --> 00:06:18.919 align:start position:0%
+the web now where lots of sites are
+ 
+
+00:06:18.919 --> 00:06:21.870 align:start position:0%
+the web now where lots of sites are
+completely<00:06:19.680><c> uh</c><00:06:19.800><c> JavaScript</c><00:06:20.360><c> based</c><00:06:20.880><c> where</c>
+
+00:06:21.870 --> 00:06:21.880 align:start position:0%
+completely uh JavaScript based where
+ 
+
+00:06:21.880 --> 00:06:24.749 align:start position:0%
+completely uh JavaScript based where
+they<00:06:22.080><c> store</c><00:06:22.599><c> the</c><00:06:22.759><c> state</c><00:06:23.360><c> the</c><00:06:24.000><c> the</c><00:06:24.440><c> position</c>
+
+00:06:24.749 --> 00:06:24.759 align:start position:0%
+they store the state the the position
+ 
+
+00:06:24.759 --> 00:06:27.390 align:start position:0%
+they store the state the the position
+where<00:06:24.880><c> the</c><00:06:25.000><c> user</c><00:06:25.280><c> is</c><00:06:25.520><c> in</c><00:06:25.639><c> the</c><00:06:25.800><c> app</c><00:06:26.400><c> using</c><00:06:27.240><c> um</c>
+
+00:06:27.390 --> 00:06:27.400 align:start position:0%
+where the user is in the app using um
+ 
+
+00:06:27.400 --> 00:06:30.990 align:start position:0%
+where the user is in the app using um
+you<00:06:27.479><c> know</c><00:06:27.720><c> the</c><00:06:28.120><c> uh</c><00:06:28.360><c> hashbang</c><00:06:29.360><c> uh</c><00:06:29.639><c> design</c><00:06:30.000><c> Pann</c>
+
+00:06:30.990 --> 00:06:31.000 align:start position:0%
+you know the uh hashbang uh design Pann
+ 
+
+00:06:31.000 --> 00:06:33.150 align:start position:0%
+you know the uh hashbang uh design Pann
+now<00:06:31.199><c> those</c><00:06:31.400><c> URLs</c><00:06:32.080><c> because</c><00:06:32.360><c> the</c><00:06:32.599><c> part</c><00:06:32.840><c> portion</c>
+
+00:06:33.150 --> 00:06:33.160 align:start position:0%
+now those URLs because the part portion
+ 
+
+00:06:33.160 --> 00:06:35.110 align:start position:0%
+now those URLs because the part portion
+after<00:06:33.440><c> the</c><00:06:33.560><c> hash</c><00:06:33.880><c> the</c><00:06:34.000><c> fragment</c><00:06:34.759><c> isn't</c>
+
+00:06:35.110 --> 00:06:35.120 align:start position:0%
+after the hash the fragment isn't
+ 
+
+00:06:35.120 --> 00:06:37.189 align:start position:0%
+after the hash the fragment isn't
+technically<00:06:35.560><c> part</c><00:06:35.720><c> of</c><00:06:35.800><c> the</c><00:06:35.919><c> URL</c><00:06:36.759><c> then</c><00:06:36.919><c> if</c><00:06:37.000><c> you</c>
+
+00:06:37.189 --> 00:06:37.199 align:start position:0%
+technically part of the URL then if you
+ 
+
+00:06:37.199 --> 00:06:39.790 align:start position:0%
+technically part of the URL then if you
+try<00:06:37.360><c> and</c><00:06:37.599><c> post</c><00:06:38.080><c> copy</c><00:06:38.280><c> and</c><00:06:38.440><c> paste</c><00:06:38.680><c> those</c><00:06:38.840><c> URLs</c>
+
+00:06:39.790 --> 00:06:39.800 align:start position:0%
+try and post copy and paste those URLs
+ 
+
+00:06:39.800 --> 00:06:42.589 align:start position:0%
+try and post copy and paste those URLs
+as<00:06:40.039><c> open</c><00:06:40.400><c> graph</c><00:06:40.800><c> objects</c><00:06:41.639><c> they</c><00:06:41.759><c> won't</c><00:06:42.039><c> work</c><00:06:42.319><c> so</c>
+
+00:06:42.589 --> 00:06:42.599 align:start position:0%
+as open graph objects they won't work so
+ 
+
+00:06:42.599 --> 00:06:46.270 align:start position:0%
+as open graph objects they won't work so
+right<00:06:42.800><c> now</c><00:06:43.360><c> you</c><00:06:43.520><c> need</c><00:06:44.039><c> to</c><00:06:44.560><c> have</c><00:06:45.120><c> URLs</c><00:06:45.919><c> full</c>
+
+00:06:46.270 --> 00:06:46.280 align:start position:0%
+right now you need to have URLs full
+ 
+
+00:06:46.280 --> 00:06:48.870 align:start position:0%
+right now you need to have URLs full
+URLs<00:06:46.759><c> that</c><00:06:46.919><c> actually</c><00:06:47.199><c> represent</c><00:06:47.599><c> the</c><00:06:47.880><c> object</c>
+
+00:06:48.870 --> 00:06:48.880 align:start position:0%
+URLs that actually represent the object
+ 
+
+00:06:48.880 --> 00:06:50.670 align:start position:0%
+URLs that actually represent the object
+however<00:06:49.120><c> if</c><00:06:49.240><c> this</c><00:06:49.360><c> is</c><00:06:49.479><c> your</c><00:06:49.639><c> design</c><00:06:50.039><c> pattern</c>
+
+00:06:50.670 --> 00:06:50.680 align:start position:0%
+however if this is your design pattern
+ 
+
+00:06:50.680 --> 00:06:52.070 align:start position:0%
+however if this is your design pattern
+it<00:06:50.759><c> should</c><00:06:50.919><c> be</c><00:06:51.080><c> easy</c><00:06:51.360><c> to</c><00:06:51.560><c> create</c><00:06:51.880><c> those</c>
+
+00:06:52.070 --> 00:06:52.080 align:start position:0%
+it should be easy to create those
+ 
+
+00:06:52.080 --> 00:06:53.870 align:start position:0%
+it should be easy to create those
+objects<00:06:52.400><c> on</c><00:06:52.560><c> the</c><00:06:52.720><c> web</c><00:06:53.199><c> and</c><00:06:53.319><c> make</c><00:06:53.560><c> sure</c><00:06:53.720><c> that</c>
+
+00:06:53.870 --> 00:06:53.880 align:start position:0%
+objects on the web and make sure that
+ 
+
+00:06:53.880 --> 00:06:57.670 align:start position:0%
+objects on the web and make sure that
+they<00:06:54.160><c> return</c><00:06:55.080><c> uh</c><00:06:55.240><c> HTML</c><00:06:55.840><c> with</c><00:06:56.000><c> open</c><00:06:56.319><c> graph</c><00:06:56.680><c> data</c>
+
+00:06:57.670 --> 00:06:57.680 align:start position:0%
+they return uh HTML with open graph data
+ 
+
+00:06:57.680 --> 00:07:01.150 align:start position:0%
+they return uh HTML with open graph data
+and<00:06:57.879><c> then</c><00:06:58.479><c> you</c><00:06:58.639><c> can</c><00:06:58.840><c> use</c><00:06:59.800><c> uh</c><00:07:00.000><c> redirects</c><00:07:01.000><c> so</c>
+
+00:07:01.150 --> 00:07:01.160 align:start position:0%
+and then you can use uh redirects so
+ 
+
+00:07:01.160 --> 00:07:03.230 align:start position:0%
+and then you can use uh redirects so
+that<00:07:01.319><c> if</c><00:07:01.440><c> the</c><00:07:01.599><c> user</c><00:07:02.160><c> comes</c><00:07:02.360><c> to</c><00:07:02.560><c> those</c><00:07:02.759><c> URLs</c>
+
+00:07:03.230 --> 00:07:03.240 align:start position:0%
+that if the user comes to those URLs
+ 
+
+00:07:03.240 --> 00:07:05.589 align:start position:0%
+that if the user comes to those URLs
+when<00:07:03.400><c> they</c><00:07:03.520><c> click</c><00:07:03.720><c> on</c><00:07:03.840><c> them</c><00:07:04.160><c> they</c><00:07:04.280><c> end</c><00:07:04.479><c> up</c><00:07:05.000><c> at</c>
+
+00:07:05.589 --> 00:07:05.599 align:start position:0%
+when they click on them they end up at
+ 
+
+00:07:05.599 --> 00:07:08.390 align:start position:0%
+when they click on them they end up at
+your<00:07:06.120><c> Ajax</c><00:07:06.800><c> URL</c><00:07:07.240><c> design</c><00:07:07.639><c> pattern</c><00:07:08.120><c> and</c><00:07:08.199><c> you</c><00:07:08.280><c> can</c>
+
+00:07:08.390 --> 00:07:08.400 align:start position:0%
+your Ajax URL design pattern and you can
+ 
+
+00:07:08.400 --> 00:07:10.869 align:start position:0%
+your Ajax URL design pattern and you can
+do<00:07:08.560><c> that</c><00:07:08.720><c> two</c><00:07:08.960><c> ways</c><00:07:09.800><c> you</c><00:07:09.919><c> can</c><00:07:10.120><c> either</c><00:07:10.440><c> use</c><00:07:10.720><c> a</c>
+
+00:07:10.869 --> 00:07:10.879 align:start position:0%
+do that two ways you can either use a
+ 
+
+00:07:10.879 --> 00:07:13.150 align:start position:0%
+do that two ways you can either use a
+JavaScript<00:07:11.400><c> redirect</c><00:07:12.160><c> window.location</c>
+
+00:07:13.150 --> 00:07:13.160 align:start position:0%
+JavaScript redirect window.location
+ 
+
+00:07:13.160 --> 00:07:14.909 align:start position:0%
+JavaScript redirect window.location
+because<00:07:13.440><c> Facebook's</c><00:07:14.000><c> crawler</c><00:07:14.440><c> doesn't</c>
+
+00:07:14.909 --> 00:07:14.919 align:start position:0%
+because Facebook's crawler doesn't
+ 
+
+00:07:14.919 --> 00:07:18.150 align:start position:0%
+because Facebook's crawler doesn't
+respect<00:07:15.400><c> JavaScript</c><00:07:16.160><c> redirects</c><00:07:17.160><c> or</c><00:07:18.039><c> you</c>
+
+00:07:18.150 --> 00:07:18.160 align:start position:0%
+respect JavaScript redirects or you
+ 
+
+00:07:18.160 --> 00:07:19.830 align:start position:0%
+respect JavaScript redirects or you
+could<00:07:18.319><c> do</c><00:07:18.479><c> a</c><00:07:18.599><c> server</c><00:07:18.960><c> side</c><00:07:19.080><c> redirect</c><00:07:19.520><c> based</c><00:07:19.759><c> on</c>
+
+00:07:19.830 --> 00:07:19.840 align:start position:0%
+could do a server side redirect based on
+ 
+
+00:07:19.840 --> 00:07:22.749 align:start position:0%
+could do a server side redirect based on
+the<00:07:19.960><c> user</c><00:07:20.440><c> agent</c><00:07:21.440><c> when</c><00:07:21.960><c> uh</c><00:07:22.280><c> Facebook's</c>
+
+00:07:22.749 --> 00:07:22.759 align:start position:0%
+the user agent when uh Facebook's
+ 
+
+00:07:22.759 --> 00:07:26.070 align:start position:0%
+the user agent when uh Facebook's
+scraper<00:07:23.360><c> hits</c><00:07:23.800><c> your</c><00:07:24.479><c> object</c><00:07:24.800><c> URL</c><00:07:25.639><c> if</c><00:07:25.759><c> you</c><00:07:25.840><c> see</c>
+
+00:07:26.070 --> 00:07:26.080 align:start position:0%
+scraper hits your object URL if you see
+ 
+
+00:07:26.080 --> 00:07:28.230 align:start position:0%
+scraper hits your object URL if you see
+the<00:07:26.199><c> user</c><00:07:26.479><c> agent</c><00:07:26.800><c> Facebook</c><00:07:27.240><c> external</c><00:07:27.720><c> hit</c>
+
+00:07:28.230 --> 00:07:28.240 align:start position:0%
+the user agent Facebook external hit
+ 
+
+00:07:28.240 --> 00:07:29.550 align:start position:0%
+the user agent Facebook external hit
+then<00:07:28.360><c> you</c><00:07:28.440><c> know</c><00:07:28.639><c> it's</c><00:07:28.840><c> Facebook</c><00:07:29.280><c> and</c><00:07:29.360><c> you</c><00:07:29.520><c> you</c>
+
+00:07:29.550 --> 00:07:29.560 align:start position:0%
+then you know it's Facebook and you you
+ 
+
+00:07:29.560 --> 00:07:31.670 align:start position:0%
+then you know it's Facebook and you you
+should<00:07:29.879><c> return</c><00:07:30.160><c> HTML</c><00:07:30.800><c> containing</c><00:07:31.160><c> open</c><00:07:31.440><c> graph</c>
+
+00:07:31.670 --> 00:07:31.680 align:start position:0%
+should return HTML containing open graph
+ 
+
+00:07:31.680 --> 00:07:33.790 align:start position:0%
+should return HTML containing open graph
+markup<00:07:32.479><c> but</c><00:07:32.599><c> if</c><00:07:32.759><c> that</c><00:07:32.879><c> user</c><00:07:33.120><c> agent</c><00:07:33.440><c> isn't</c>
+
+00:07:33.790 --> 00:07:33.800 align:start position:0%
+markup but if that user agent isn't
+ 
+
+00:07:33.800 --> 00:07:35.670 align:start position:0%
+markup but if that user agent isn't
+present<00:07:34.400><c> you</c><00:07:34.520><c> could</c><00:07:34.680><c> say</c><00:07:35.000><c> well</c><00:07:35.280><c> this</c><00:07:35.400><c> is</c><00:07:35.520><c> a</c>
+
+00:07:35.670 --> 00:07:35.680 align:start position:0%
+present you could say well this is a
+ 
+
+00:07:35.680 --> 00:07:37.749 align:start position:0%
+present you could say well this is a
+user<00:07:36.000><c> using</c><00:07:36.240><c> a</c><00:07:36.400><c> browser</c><00:07:36.960><c> and</c><00:07:37.080><c> redirect</c><00:07:37.560><c> them</c>
+
+00:07:37.749 --> 00:07:37.759 align:start position:0%
+user using a browser and redirect them
+ 
+
+00:07:37.759 --> 00:07:41.150 align:start position:0%
+user using a browser and redirect them
+to<00:07:38.240><c> you</c><00:07:38.360><c> know</c><00:07:38.520><c> your</c><00:07:39.240><c> app.com</c><00:07:40.240><c> hashbang</c><00:07:41.000><c> and</c>
+
+00:07:41.150 --> 00:07:41.160 align:start position:0%
+to you know your app.com hashbang and
+ 
+
+00:07:41.160 --> 00:07:44.070 align:start position:0%
+to you know your app.com hashbang and
+then<00:07:41.639><c> your</c><00:07:42.120><c> uh</c><00:07:42.240><c> Ajax</c><00:07:42.720><c> based</c><00:07:43.000><c> URL</c><00:07:43.800><c> we</c><00:07:43.919><c> are</c>
+
+00:07:44.070 --> 00:07:44.080 align:start position:0%
+then your uh Ajax based URL we are
+ 
+
+00:07:44.080 --> 00:07:45.749 align:start position:0%
+then your uh Ajax based URL we are
+working<00:07:44.400><c> on</c><00:07:44.560><c> Escape</c><00:07:44.879><c> fragment</c><00:07:45.240><c> support</c><00:07:45.599><c> it's</c>
+
+00:07:45.749 --> 00:07:45.759 align:start position:0%
+working on Escape fragment support it's
+ 
+
+00:07:45.759 --> 00:07:49.589 align:start position:0%
+working on Escape fragment support it's
+not<00:07:45.919><c> quite</c><00:07:46.120><c> there</c><00:07:46.319><c> yet</c><00:07:47.039><c> um</c><00:07:47.199><c> so</c><00:07:47.400><c> stay</c><00:07:47.599><c> tuned</c><00:07:48.000><c> for</c>
+
+00:07:49.589 --> 00:07:49.599 align:start position:0%
+not quite there yet um so stay tuned for
+ 
+
+00:07:49.599 --> 00:07:53.189 align:start position:0%
+not quite there yet um so stay tuned for
+that<00:07:50.599><c> eight</c><00:07:51.199><c> is</c><00:07:51.479><c> how</c><00:07:51.639><c> to</c><00:07:51.840><c> update</c><00:07:52.159><c> your</c><00:07:52.360><c> objects</c>
+
+00:07:53.189 --> 00:07:53.199 align:start position:0%
+that eight is how to update your objects
+ 
+
+00:07:53.199 --> 00:07:54.869 align:start position:0%
+that eight is how to update your objects
+programmatically<00:07:54.199><c> so</c><00:07:54.360><c> the</c><00:07:54.440><c> way</c><00:07:54.560><c> the</c><00:07:54.639><c> open</c>
+
+00:07:54.869 --> 00:07:54.879 align:start position:0%
+programmatically so the way the open
+ 
+
+00:07:54.879 --> 00:07:56.830 align:start position:0%
+programmatically so the way the open
+graph<00:07:55.120><c> works</c><00:07:55.360><c> is</c><00:07:55.560><c> the</c><00:07:55.759><c> first</c><00:07:56.120><c> time</c><00:07:56.400><c> a</c><00:07:56.520><c> user</c>
+
+00:07:56.830 --> 00:07:56.840 align:start position:0%
+graph works is the first time a user
+ 
+
+00:07:56.840 --> 00:07:59.070 align:start position:0%
+graph works is the first time a user
+interacts<00:07:57.560><c> with</c><00:07:57.759><c> an</c><00:07:57.960><c> object</c><00:07:58.599><c> Facebook</c>
+
+00:07:59.070 --> 00:07:59.080 align:start position:0%
+interacts with an object Facebook
+ 
+
+00:07:59.080 --> 00:08:01.550 align:start position:0%
+interacts with an object Facebook
+doesn't<00:07:59.520><c> HTTP</c><00:08:00.000><c> get</c><00:08:00.199><c> on</c><00:08:00.319><c> those</c><00:08:00.520><c> URLs</c><00:08:01.120><c> reads</c><00:08:01.440><c> the</c>
+
+00:08:01.550 --> 00:08:01.560 align:start position:0%
+doesn't HTTP get on those URLs reads the
+ 
+
+00:08:01.560 --> 00:08:04.230 align:start position:0%
+doesn't HTTP get on those URLs reads the
+metadata<00:08:02.080><c> and</c><00:08:02.159><c> we</c><00:08:02.319><c> cach</c><00:08:02.599><c> that</c><00:08:02.720><c> metadata</c><00:08:03.199><c> for</c><00:08:03.440><c> 7</c>
+
+00:08:04.230 --> 00:08:04.240 align:start position:0%
+metadata and we cach that metadata for 7
+ 
+
+00:08:04.240 --> 00:08:06.350 align:start position:0%
+metadata and we cach that metadata for 7
+days<00:08:05.240><c> for</c><00:08:05.400><c> example</c><00:08:05.720><c> if</c><00:08:05.800><c> you're</c><00:08:05.919><c> building</c><00:08:06.240><c> a</c>
+
+00:08:06.350 --> 00:08:06.360 align:start position:0%
+days for example if you're building a
+ 
+
+00:08:06.360 --> 00:08:09.629 align:start position:0%
+days for example if you're building a
+website<00:08:06.919><c> where</c><00:08:07.159><c> the</c><00:08:07.319><c> price</c><00:08:07.680><c> changes</c><00:08:08.680><c> or</c><00:08:09.280><c> um</c>
+
+00:08:09.629 --> 00:08:09.639 align:start position:0%
+website where the price changes or um
+ 
+
+00:08:09.639 --> 00:08:11.830 align:start position:0%
+website where the price changes or um
+it's<00:08:10.120><c> uh</c><00:08:10.400><c> some</c><00:08:10.639><c> some</c><00:08:10.879><c> property</c><00:08:11.280><c> of</c><00:08:11.400><c> the</c><00:08:11.560><c> object</c>
+
+00:08:11.830 --> 00:08:11.840 align:start position:0%
+it's uh some some property of the object
+ 
+
+00:08:11.840 --> 00:08:13.670 align:start position:0%
+it's uh some some property of the object
+changes<00:08:12.319><c> the</c><00:08:12.479><c> title</c><00:08:12.759><c> changes</c><00:08:13.159><c> or</c><00:08:13.280><c> you</c><00:08:13.440><c> have</c><00:08:13.560><c> a</c>
+
+00:08:13.670 --> 00:08:13.680 align:start position:0%
+changes the title changes or you have a
+ 
+
+00:08:13.680 --> 00:08:16.070 align:start position:0%
+changes the title changes or you have a
+new<00:08:13.840><c> image</c><00:08:14.080><c> for</c><00:08:14.240><c> it</c><00:08:14.520><c> say</c><00:08:15.120><c> and</c><00:08:15.240><c> you</c><00:08:15.360><c> want</c><00:08:15.919><c> that</c>
+
+00:08:16.070 --> 00:08:16.080 align:start position:0%
+new image for it say and you want that
+ 
+
+00:08:16.080 --> 00:08:18.869 align:start position:0%
+new image for it say and you want that
+new<00:08:16.280><c> image</c><00:08:16.840><c> or</c><00:08:17.039><c> that</c><00:08:17.240><c> new</c><00:08:17.599><c> data</c><00:08:18.039><c> to</c><00:08:18.199><c> be</c><00:08:18.479><c> shown</c>
+
+00:08:18.869 --> 00:08:18.879 align:start position:0%
+new image or that new data to be shown
+ 
+
+00:08:18.879 --> 00:08:21.230 align:start position:0%
+new image or that new data to be shown
+inside<00:08:19.400><c> Facebook</c><00:08:20.400><c> well</c><00:08:20.560><c> you</c><00:08:20.639><c> can</c><00:08:20.800><c> either</c><00:08:21.000><c> wait</c>
+
+00:08:21.230 --> 00:08:21.240 align:start position:0%
+inside Facebook well you can either wait
+ 
+
+00:08:21.240 --> 00:08:23.629 align:start position:0%
+inside Facebook well you can either wait
+seven<00:08:21.599><c> days</c><00:08:22.199><c> and</c><00:08:22.400><c> after</c><00:08:22.639><c> that</c><00:08:22.840><c> the</c><00:08:23.000><c> next</c><00:08:23.280><c> time</c>
+
+00:08:23.629 --> 00:08:23.639 align:start position:0%
+seven days and after that the next time
+ 
+
+00:08:23.639 --> 00:08:26.110 align:start position:0%
+seven days and after that the next time
+a<00:08:23.720><c> user</c><00:08:24.080><c> performs</c><00:08:24.520><c> an</c><00:08:24.680><c> action</c><00:08:24.879><c> on</c><00:08:25.000><c> the</c><00:08:25.159><c> object</c>
+
+00:08:26.110 --> 00:08:26.120 align:start position:0%
+a user performs an action on the object
+ 
+
+00:08:26.120 --> 00:08:27.830 align:start position:0%
+a user performs an action on the object
+uh<00:08:26.280><c> Facebook</c><00:08:26.639><c> will</c><00:08:26.800><c> res</c><00:08:27.120><c> scrape</c><00:08:27.400><c> that</c><00:08:27.520><c> data</c>
+
+00:08:27.830 --> 00:08:27.840 align:start position:0%
+uh Facebook will res scrape that data
+ 
+
+00:08:27.840 --> 00:08:30.110 align:start position:0%
+uh Facebook will res scrape that data
+and<00:08:28.000><c> update</c><00:08:28.319><c> its</c><00:08:28.560><c> cache</c><00:08:29.199><c> or</c><00:08:29.520><c> or</c><00:08:29.680><c> you</c><00:08:29.759><c> can</c><00:08:29.879><c> do</c><00:08:30.000><c> it</c>
+
+00:08:30.110 --> 00:08:30.120 align:start position:0%
+and update its cache or or you can do it
+ 
+
+00:08:30.120 --> 00:08:31.909 align:start position:0%
+and update its cache or or you can do it
+programmatically<00:08:31.080><c> and</c><00:08:31.199><c> the</c><00:08:31.280><c> way</c><00:08:31.400><c> to</c><00:08:31.520><c> do</c><00:08:31.720><c> that</c>
+
+00:08:31.909 --> 00:08:31.919 align:start position:0%
+programmatically and the way to do that
+ 
+
+00:08:31.919 --> 00:08:35.110 align:start position:0%
+programmatically and the way to do that
+is<00:08:32.080><c> by</c><00:08:32.399><c> posting</c><00:08:33.320><c> to</c><00:08:33.680><c> graph.</c><00:08:34.200><c> facebook.com</c>
+
+00:08:35.110 --> 00:08:35.120 align:start position:0%
+is by posting to graph. facebook.com
+ 
+
+00:08:35.120 --> 00:08:37.709 align:start position:0%
+is by posting to graph. facebook.com
+question<00:08:35.440><c> mark</c><00:08:35.760><c> ID</c><00:08:36.200><c> equals</c><00:08:36.839><c> and</c><00:08:36.919><c> then</c><00:08:37.080><c> the</c><00:08:37.200><c> URL</c>
+
+00:08:37.709 --> 00:08:37.719 align:start position:0%
+question mark ID equals and then the URL
+ 
+
+00:08:37.719 --> 00:08:39.829 align:start position:0%
+question mark ID equals and then the URL
+of<00:08:37.839><c> your</c><00:08:38.000><c> object</c><00:08:38.800><c> and</c><00:08:38.959><c> pass</c><00:08:39.159><c> in</c><00:08:39.279><c> the</c><00:08:39.399><c> parameter</c>
+
+00:08:39.829 --> 00:08:39.839 align:start position:0%
+of your object and pass in the parameter
+ 
+
+00:08:39.839 --> 00:08:42.709 align:start position:0%
+of your object and pass in the parameter
+scrape<00:08:40.240><c> equals</c><00:08:40.680><c> true</c><00:08:41.680><c> and</c><00:08:41.880><c> that</c><00:08:42.039><c> forces</c>
+
+00:08:42.709 --> 00:08:42.719 align:start position:0%
+scrape equals true and that forces
+ 
+
+00:08:42.719 --> 00:08:44.949 align:start position:0%
+scrape equals true and that forces
+Facebook<00:08:43.240><c> to</c><00:08:43.640><c> Res</c><00:08:43.959><c> scrape</c><00:08:44.200><c> your</c><00:08:44.360><c> object</c><00:08:44.760><c> and</c>
+
+00:08:44.949 --> 00:08:44.959 align:start position:0%
+Facebook to Res scrape your object and
+ 
+
+00:08:44.959 --> 00:08:47.790 align:start position:0%
+Facebook to Res scrape your object and
+update<00:08:45.640><c> the</c><00:08:46.080><c> metadata</c><00:08:47.080><c> one</c><00:08:47.200><c> of</c><00:08:47.279><c> the</c><00:08:47.440><c> things</c>
+
+00:08:47.790 --> 00:08:47.800 align:start position:0%
+update the metadata one of the things
+ 
+
+00:08:47.800 --> 00:08:50.190 align:start position:0%
+update the metadata one of the things
+that<00:08:48.160><c> um</c><00:08:48.760><c> we</c><00:08:48.920><c> don't</c><00:08:49.200><c> have</c><00:08:49.399><c> yet</c><00:08:49.640><c> is</c><00:08:49.760><c> the</c><00:08:49.920><c> ability</c>
+
+00:08:50.190 --> 00:08:50.200 align:start position:0%
+that um we don't have yet is the ability
+ 
+
+00:08:50.200 --> 00:08:52.230 align:start position:0%
+that um we don't have yet is the ability
+to<00:08:50.360><c> do</c><00:08:50.519><c> that</c><00:08:50.640><c> on</c><00:08:50.720><c> a</c><00:08:50.880><c> domain-wide</c><00:08:51.519><c> basis</c><00:08:52.080><c> you</c>
+
+00:08:52.230 --> 00:08:52.240 align:start position:0%
+to do that on a domain-wide basis you
+ 
+
+00:08:52.240 --> 00:08:54.070 align:start position:0%
+to do that on a domain-wide basis you
+have<00:08:52.360><c> to</c><00:08:52.480><c> do</c><00:08:52.640><c> that</c><00:08:52.880><c> right</c><00:08:53.040><c> now</c><00:08:53.480><c> yourself</c><00:08:53.839><c> for</c>
+
+00:08:54.070 --> 00:08:54.080 align:start position:0%
+have to do that right now yourself for
+ 
+
+00:08:54.080 --> 00:08:55.670 align:start position:0%
+have to do that right now yourself for
+every<00:08:54.279><c> single</c><00:08:54.680><c> individual</c><00:08:55.120><c> object</c><00:08:55.480><c> if</c><00:08:55.560><c> you</c>
+
+00:08:55.670 --> 00:08:55.680 align:start position:0%
+every single individual object if you
+ 
+
+00:08:55.680 --> 00:08:57.470 align:start position:0%
+every single individual object if you
+have<00:08:55.800><c> a</c><00:08:55.959><c> thousand</c><00:08:56.360><c> recipes</c><00:08:57.040><c> you'll</c><00:08:57.240><c> need</c><00:08:57.399><c> to</c>
+
+00:08:57.470 --> 00:08:57.480 align:start position:0%
+have a thousand recipes you'll need to
+ 
+
+00:08:57.480 --> 00:09:01.509 align:start position:0%
+have a thousand recipes you'll need to
+make<00:08:57.640><c> that</c><00:08:57.800><c> call</c><00:08:58.279><c> a</c><00:08:58.440><c> thousand</c><00:08:58.839><c> times</c>
+
+00:09:01.509 --> 00:09:01.519 align:start position:0%
+ 
+ 
+
+00:09:01.519 --> 00:09:04.030 align:start position:0%
+ 
+and<00:09:01.680><c> then</c><00:09:01.959><c> the</c><00:09:02.160><c> last</c><00:09:02.360><c> one</c><00:09:03.320><c> we've</c><00:09:03.519><c> talked</c><00:09:03.720><c> a</c><00:09:03.839><c> lot</c>
+
+00:09:04.030 --> 00:09:04.040 align:start position:0%
+and then the last one we've talked a lot
+ 
+
+00:09:04.040 --> 00:09:06.069 align:start position:0%
+and then the last one we've talked a lot
+today<00:09:04.440><c> about</c><00:09:04.760><c> publishing</c><00:09:05.200><c> data</c><00:09:05.519><c> to</c><00:09:05.680><c> the</c><00:09:05.760><c> open</c>
+
+00:09:06.069 --> 00:09:06.079 align:start position:0%
+today about publishing data to the open
+ 
+
+00:09:06.079 --> 00:09:08.790 align:start position:0%
+today about publishing data to the open
+graph<00:09:06.680><c> and</c><00:09:06.800><c> then</c><00:09:06.959><c> that</c><00:09:07.120><c> driving</c><00:09:08.000><c> distribution</c>
+
+00:09:08.790 --> 00:09:08.800 align:start position:0%
+graph and then that driving distribution
+ 
+
+00:09:08.800 --> 00:09:11.190 align:start position:0%
+graph and then that driving distribution
+back<00:09:09.000><c> to</c><00:09:09.160><c> your</c><00:09:09.360><c> applications</c><00:09:10.120><c> on</c><00:09:10.360><c> the</c><00:09:10.519><c> web</c>
+
+00:09:11.190 --> 00:09:11.200 align:start position:0%
+back to your applications on the web
+ 
+
+00:09:11.200 --> 00:09:14.670 align:start position:0%
+back to your applications on the web
+mobile<00:09:11.560><c> web</c><00:09:12.200><c> IOS</c><00:09:12.640><c> and</c><00:09:12.800><c> Android</c><00:09:13.120><c> native</c><00:09:13.680><c> apps</c>
+
+00:09:14.670 --> 00:09:14.680 align:start position:0%
+mobile web IOS and Android native apps
+ 
+
+00:09:14.680 --> 00:09:19.069 align:start position:0%
+mobile web IOS and Android native apps
+but<00:09:15.399><c> the</c><00:09:15.519><c> open</c><00:09:15.839><c> graph</c><00:09:16.760><c> has</c><00:09:17.000><c> a</c><00:09:17.160><c> ton</c><00:09:17.480><c> of</c><00:09:17.880><c> data</c><00:09:18.880><c> and</c>
+
+00:09:19.069 --> 00:09:19.079 align:start position:0%
+but the open graph has a ton of data and
+ 
+
+00:09:19.079 --> 00:09:22.550 align:start position:0%
+but the open graph has a ton of data and
+you<00:09:19.399><c> can</c><00:09:19.640><c> read</c><00:09:20.079><c> that</c><00:09:20.320><c> data</c><00:09:21.120><c> too</c><00:09:22.120><c> obviously</c><00:09:22.480><c> as</c>
+
+00:09:22.550 --> 00:09:22.560 align:start position:0%
+you can read that data too obviously as
+ 
+
+00:09:22.560 --> 00:09:24.030 align:start position:0%
+you can read that data too obviously as
+soon<00:09:22.720><c> as</c><00:09:22.880><c> your</c><00:09:23.240><c> application</c><00:09:23.800><c> has</c><00:09:23.920><c> the</c>
+
+00:09:24.030 --> 00:09:24.040 align:start position:0%
+soon as your application has the
+ 
+
+00:09:24.040 --> 00:09:25.590 align:start position:0%
+soon as your application has the
+permission<00:09:24.360><c> to</c><00:09:24.519><c> publish</c><00:09:24.800><c> actions</c><00:09:25.279><c> you</c><00:09:25.399><c> can</c>
+
+00:09:25.590 --> 00:09:25.600 align:start position:0%
+permission to publish actions you can
+ 
+
+00:09:25.600 --> 00:09:28.069 align:start position:0%
+permission to publish actions you can
+read<00:09:25.959><c> back</c><00:09:26.279><c> any</c><00:09:26.560><c> actions</c><00:09:26.880><c> you</c><00:09:27.079><c> published</c><00:09:27.440><c> in</c>
+
+00:09:28.069 --> 00:09:28.079 align:start position:0%
+read back any actions you published in
+ 
+
+00:09:28.079 --> 00:09:29.750 align:start position:0%
+read back any actions you published in
+but<00:09:28.240><c> you</c><00:09:28.320><c> can</c><00:09:28.519><c> actually</c><00:09:28.760><c> read</c><00:09:29.040><c> back</c><00:09:29.440><c> actions</c>
+
+00:09:29.750 --> 00:09:29.760 align:start position:0%
+but you can actually read back actions
+ 
+
+00:09:29.760 --> 00:09:33.230 align:start position:0%
+but you can actually read back actions
+in<00:09:30.040><c> posted</c><00:09:30.440><c> by</c><00:09:30.640><c> other</c><00:09:30.959><c> applications</c><00:09:32.040><c> too</c><00:09:33.040><c> now</c>
+
+00:09:33.230 --> 00:09:33.240 align:start position:0%
+in posted by other applications too now
+ 
+
+00:09:33.240 --> 00:09:36.069 align:start position:0%
+in posted by other applications too now
+there's<00:09:33.440><c> two</c><00:09:33.800><c> ways</c><00:09:34.040><c> to</c><00:09:34.200><c> do</c><00:09:34.440><c> this</c><00:09:35.240><c> the</c><00:09:35.440><c> first</c><00:09:35.880><c> is</c>
+
+00:09:36.069 --> 00:09:36.079 align:start position:0%
+there's two ways to do this the first is
+ 
+
+00:09:36.079 --> 00:09:40.550 align:start position:0%
+there's two ways to do this the first is
+what<00:09:36.200><c> we</c><00:09:36.360><c> call</c><00:09:37.120><c> um</c><00:09:38.040><c> uh</c><00:09:39.040><c> vertical</c><00:09:40.000><c> uh</c>
+
+00:09:40.550 --> 00:09:40.560 align:start position:0%
+what we call um uh vertical uh
+ 
+
+00:09:40.560 --> 00:09:43.790 align:start position:0%
+what we call um uh vertical uh
+permissions<00:09:41.560><c> so</c><00:09:42.200><c> we</c><00:09:42.360><c> have</c><00:09:42.519><c> built-in</c><00:09:43.040><c> actions</c>
+
+00:09:43.790 --> 00:09:43.800 align:start position:0%
+permissions so we have built-in actions
+ 
+
+00:09:43.800 --> 00:09:46.790 align:start position:0%
+permissions so we have built-in actions
+like<00:09:44.160><c> listen</c><00:09:44.800><c> watch</c><00:09:45.200><c> and</c><00:09:45.440><c> read</c><00:09:46.160><c> and</c><00:09:46.399><c> custom</c>
+
+00:09:46.790 --> 00:09:46.800 align:start position:0%
+like listen watch and read and custom
+ 
+
+00:09:46.800 --> 00:09:48.829 align:start position:0%
+like listen watch and read and custom
+actions<00:09:47.399><c> like</c><00:09:47.680><c> cook</c><00:09:48.279><c> like</c><00:09:48.440><c> that</c><00:09:48.519><c> I</c><00:09:48.680><c> just</c>
+
+00:09:48.829 --> 00:09:48.839 align:start position:0%
+actions like cook like that I just
+ 
+
+00:09:48.839 --> 00:09:51.389 align:start position:0%
+actions like cook like that I just
+created<00:09:49.360><c> earlier</c><00:09:50.360><c> now</c><00:09:50.519><c> if</c><00:09:50.640><c> I</c><00:09:50.800><c> ask</c><00:09:51.040><c> for</c><00:09:51.160><c> the</c>
+
+00:09:51.389 --> 00:09:51.399 align:start position:0%
+created earlier now if I ask for the
+ 
+
+00:09:51.399 --> 00:09:54.230 align:start position:0%
+created earlier now if I ask for the
+user<00:09:51.760><c> actions.</c><00:09:52.560><c> Music</c><00:09:52.920><c> permission</c><00:09:53.880><c> then</c><00:09:54.079><c> I'm</c>
+
+00:09:54.230 --> 00:09:54.240 align:start position:0%
+user actions. Music permission then I'm
+ 
+
+00:09:54.240 --> 00:09:56.110 align:start position:0%
+user actions. Music permission then I'm
+going<00:09:54.320><c> to</c><00:09:54.440><c> be</c><00:09:54.560><c> able</c><00:09:54.720><c> to</c><00:09:54.959><c> get</c><00:09:55.560><c> all</c><00:09:55.800><c> of</c><00:09:55.959><c> the</c>
+
+00:09:56.110 --> 00:09:56.120 align:start position:0%
+going to be able to get all of the
+ 
+
+00:09:56.120 --> 00:09:58.590 align:start position:0%
+going to be able to get all of the
+listens<00:09:57.040><c> from</c><00:09:57.360><c> all</c><00:09:57.480><c> of</c><00:09:57.600><c> the</c><00:09:57.760><c> Music</c><00:09:58.040><c> Services</c><00:09:58.480><c> I</c>
+
+00:09:58.590 --> 00:09:58.600 align:start position:0%
+listens from all of the Music Services I
+ 
+
+00:09:58.600 --> 00:10:02.310 align:start position:0%
+listens from all of the Music Services I
+use<00:09:59.040><c> so</c><00:09:59.480><c> use</c><00:09:59.680><c> Spotify</c><00:10:00.279><c> audio</c><00:10:00.760><c> MOG</c><00:10:01.120><c> and</c><00:10:01.320><c> diesa</c>
+
+00:10:02.310 --> 00:10:02.320 align:start position:0%
+use so use Spotify audio MOG and diesa
+ 
+
+00:10:02.320 --> 00:10:04.150 align:start position:0%
+use so use Spotify audio MOG and diesa
+if<00:10:02.480><c> your</c><00:10:02.720><c> application</c><00:10:03.200><c> requests</c><00:10:03.680><c> the</c><00:10:03.800><c> user</c>
+
+00:10:04.150 --> 00:10:04.160 align:start position:0%
+if your application requests the user
+ 
+
+00:10:04.160 --> 00:10:06.110 align:start position:0%
+if your application requests the user
+actions.<00:10:04.920><c> Music</c><00:10:05.160><c> permission</c><00:10:05.760><c> then</c><00:10:05.880><c> you'll</c><00:10:06.040><c> be</c>
+
+00:10:06.110 --> 00:10:06.120 align:start position:0%
+actions. Music permission then you'll be
+ 
+
+00:10:06.120 --> 00:10:07.590 align:start position:0%
+actions. Music permission then you'll be
+able<00:10:06.279><c> to</c><00:10:06.360><c> read</c><00:10:06.600><c> all</c><00:10:06.760><c> of</c><00:10:06.880><c> the</c><00:10:06.959><c> listens</c><00:10:07.440><c> that</c>
+
+00:10:07.590 --> 00:10:07.600 align:start position:0%
+able to read all of the listens that
+ 
+
+00:10:07.600 --> 00:10:09.590 align:start position:0%
+able to read all of the listens that
+I've<00:10:07.800><c> performed</c><00:10:08.560><c> across</c><00:10:08.880><c> all</c><00:10:09.040><c> of</c><00:10:09.200><c> those</c>
+
+00:10:09.590 --> 00:10:09.600 align:start position:0%
+I've performed across all of those
+ 
+
+00:10:09.600 --> 00:10:11.630 align:start position:0%
+I've performed across all of those
+Services<00:10:10.600><c> likewise</c><00:10:10.959><c> if</c><00:10:11.040><c> you</c><00:10:11.200><c> ask</c><00:10:11.360><c> for</c><00:10:11.519><c> the</c>
+
+00:10:11.630 --> 00:10:11.640 align:start position:0%
+Services likewise if you ask for the
+ 
+
+00:10:11.640 --> 00:10:14.269 align:start position:0%
+Services likewise if you ask for the
+friends<00:10:12.600><c> actions.</c><00:10:13.160><c> music</c><00:10:13.360><c> permission</c><00:10:14.160><c> then</c>
+
+00:10:14.269 --> 00:10:14.279 align:start position:0%
+friends actions. music permission then
+ 
+
+00:10:14.279 --> 00:10:15.710 align:start position:0%
+friends actions. music permission then
+you<00:10:14.360><c> can</c><00:10:14.480><c> read</c><00:10:14.800><c> all</c><00:10:14.959><c> of</c><00:10:15.079><c> the</c><00:10:15.200><c> listens</c>
+
+00:10:15.710 --> 00:10:15.720 align:start position:0%
+you can read all of the listens
+ 
+
+00:10:15.720 --> 00:10:17.710 align:start position:0%
+you can read all of the listens
+performed<00:10:16.120><c> by</c><00:10:16.240><c> all</c><00:10:16.360><c> of</c><00:10:16.519><c> my</c><00:10:16.640><c> friends</c><00:10:17.279><c> across</c>
+
+00:10:17.710 --> 00:10:17.720 align:start position:0%
+performed by all of my friends across
+ 
+
+00:10:17.720 --> 00:10:20.389 align:start position:0%
+performed by all of my friends across
+Spotify<00:10:18.320><c> Rio</c><00:10:18.920><c> MOG</c><00:10:19.360><c> any</c><00:10:19.800><c> application</c><00:10:20.279><c> that</c>
+
+00:10:20.389 --> 00:10:20.399 align:start position:0%
+Spotify Rio MOG any application that
+ 
+
+00:10:20.399 --> 00:10:23.509 align:start position:0%
+Spotify Rio MOG any application that
+uses<00:10:20.839><c> the</c><00:10:21.000><c> built-in</c><00:10:21.480><c> listen</c><00:10:22.360><c> action</c><00:10:23.360><c> same</c>
+
+00:10:23.509 --> 00:10:23.519 align:start position:0%
+uses the built-in listen action same
+ 
+
+00:10:23.519 --> 00:10:26.269 align:start position:0%
+uses the built-in listen action same
+with<00:10:23.720><c> video</c><00:10:24.360><c> and</c><00:10:24.519><c> news</c><00:10:25.480><c> with</c><00:10:25.640><c> Muse</c><00:10:26.000><c> for</c>
+
+00:10:26.269 --> 00:10:26.279 align:start position:0%
+with video and news with Muse for
+ 
+
+00:10:26.279 --> 00:10:28.949 align:start position:0%
+with video and news with Muse for
+example<00:10:27.279><c> uh</c><00:10:27.560><c> we</c><00:10:27.720><c> have</c><00:10:28.240><c> there's</c><00:10:28.560><c> there's</c><00:10:28.760><c> tons</c>
+
+00:10:28.949 --> 00:10:28.959 align:start position:0%
+example uh we have there's there's tons
+ 
+
+00:10:28.959 --> 00:10:32.350 align:start position:0%
+example uh we have there's there's tons
+of<00:10:29.040><c> applic</c><00:10:29.399><c> ations</c><00:10:29.640><c> writing</c><00:10:30.000><c> in</c><00:10:30.959><c> uh</c><00:10:31.959><c> reads</c>
+
+00:10:32.350 --> 00:10:32.360 align:start position:0%
+of applic ations writing in uh reads
+ 
+
+00:10:32.360 --> 00:10:34.150 align:start position:0%
+of applic ations writing in uh reads
+against<00:10:32.600><c> news</c><00:10:32.880><c> articles</c><00:10:33.519><c> the</c><00:10:33.680><c> guardian</c>
+
+00:10:34.150 --> 00:10:34.160 align:start position:0%
+against news articles the guardian
+ 
+
+00:10:34.160 --> 00:10:37.389 align:start position:0%
+against news articles the guardian
+Washington<00:10:34.720><c> po</c><00:10:35.040><c> post</c><00:10:35.839><c> Yahoo</c><00:10:36.839><c> if</c><00:10:36.959><c> I</c><00:10:37.079><c> ask</c><00:10:37.279><c> for</c>
+
+00:10:37.389 --> 00:10:37.399 align:start position:0%
+Washington po post Yahoo if I ask for
+ 
+
+00:10:37.399 --> 00:10:39.990 align:start position:0%
+Washington po post Yahoo if I ask for
+the<00:10:37.480><c> user</c><00:10:38.120><c> actions.</c><00:10:38.639><c> newws</c><00:10:39.040><c> permission</c><00:10:39.760><c> I</c><00:10:39.839><c> can</c>
+
+00:10:39.990 --> 00:10:40.000 align:start position:0%
+the user actions. newws permission I can
+ 
+
+00:10:40.000 --> 00:10:41.710 align:start position:0%
+the user actions. newws permission I can
+read<00:10:40.160><c> in</c><00:10:40.360><c> all</c><00:10:40.519><c> of</c><00:10:40.639><c> the</c><00:10:40.800><c> articles</c><00:10:41.320><c> that</c><00:10:41.560><c> that</c>
+
+00:10:41.710 --> 00:10:41.720 align:start position:0%
+read in all of the articles that that
+ 
+
+00:10:41.720 --> 00:10:44.710 align:start position:0%
+read in all of the articles that that
+user<00:10:42.399><c> or</c><00:10:42.959><c> that</c><00:10:43.079><c> user's</c><00:10:43.440><c> friends</c><00:10:44.200><c> has</c><00:10:44.360><c> read</c>
+
+00:10:44.710 --> 00:10:44.720 align:start position:0%
+user or that user's friends has read
+ 
+
+00:10:44.720 --> 00:10:48.030 align:start position:0%
+user or that user's friends has read
+across<00:10:45.040><c> all</c><00:10:45.200><c> of</c><00:10:45.440><c> those</c>
+
+00:10:48.030 --> 00:10:48.040 align:start position:0%
+ 
+ 
+
+00:10:48.040 --> 00:10:50.910 align:start position:0%
+ 
+applications<00:10:49.040><c> and</c><00:10:49.240><c> then</c><00:10:49.760><c> you</c><00:10:49.880><c> can</c><00:10:50.120><c> ask</c><00:10:50.519><c> for</c><00:10:50.720><c> a</c>
+
+00:10:50.910 --> 00:10:50.920 align:start position:0%
+applications and then you can ask for a
+ 
+
+00:10:50.920 --> 00:10:53.069 align:start position:0%
+applications and then you can ask for a
+specific<00:10:51.399><c> permission</c><00:10:51.880><c> to</c><00:10:52.120><c> get</c><00:10:52.519><c> the</c><00:10:52.720><c> actions</c>
+
+00:10:53.069 --> 00:10:53.079 align:start position:0%
+specific permission to get the actions
+ 
+
+00:10:53.079 --> 00:10:55.110 align:start position:0%
+specific permission to get the actions
+posted<00:10:53.440><c> in</c><00:10:53.639><c> by</c><00:10:53.760><c> a</c><00:10:53.959><c> specific</c><00:10:54.440><c> other</c>
+
+00:10:55.110 --> 00:10:55.120 align:start position:0%
+posted in by a specific other
+ 
+
+00:10:55.120 --> 00:10:57.590 align:start position:0%
+posted in by a specific other
+application<00:10:56.120><c> so</c><00:10:56.360><c> here</c><00:10:56.600><c> user</c><00:10:57.000><c> applications</c>
+
+00:10:57.590 --> 00:10:57.600 align:start position:0%
+application so here user applications
+ 
+
+00:10:57.600 --> 00:10:59.310 align:start position:0%
+application so here user applications
+colon<00:10:58.040><c> and</c><00:10:58.160><c> then</c><00:10:58.320><c> the</c><00:10:58.440><c> names</c><00:10:58.760><c> space</c><00:10:58.959><c> of</c><00:10:59.040><c> the</c>
+
+00:10:59.310 --> 00:10:59.320 align:start position:0%
+colon and then the names space of the
+ 
+
+00:10:59.320 --> 00:11:00.829 align:start position:0%
+colon and then the names space of the
+application<00:10:59.800><c> that</c><00:10:59.920><c> I</c><00:11:00.079><c> want</c><00:11:00.639><c> those</c>
+
+00:11:00.829 --> 00:11:00.839 align:start position:0%
+application that I want those
+ 
+
+00:11:00.839 --> 00:11:03.230 align:start position:0%
+application that I want those
+permissions<00:11:01.560><c> that</c><00:11:01.839><c> those</c><00:11:02.000><c> actions</c><00:11:02.279><c> for</c><00:11:03.040><c> so</c>
+
+00:11:03.230 --> 00:11:03.240 align:start position:0%
+permissions that those actions for so
+ 
+
+00:11:03.240 --> 00:11:04.750 align:start position:0%
+permissions that those actions for so
+here<00:11:03.399><c> I</c><00:11:03.480><c> could</c><00:11:03.600><c> go</c><00:11:03.720><c> user</c><00:11:04.040><c> actions</c><00:11:04.320><c> colon</c>
+
+00:11:04.750 --> 00:11:04.760 align:start position:0%
+here I could go user actions colon
+ 
+
+00:11:04.760 --> 00:11:07.590 align:start position:0%
+here I could go user actions colon
+SoundCloud<00:11:05.760><c> and</c><00:11:06.040><c> get</c><00:11:06.680><c> all</c><00:11:06.839><c> of</c><00:11:07.000><c> the</c><00:11:07.200><c> actions</c>
+
+00:11:07.590 --> 00:11:07.600 align:start position:0%
+SoundCloud and get all of the actions
+ 
+
+00:11:07.600 --> 00:11:09.430 align:start position:0%
+SoundCloud and get all of the actions
+I've<00:11:07.760><c> performed</c><00:11:08.160><c> on</c><00:11:08.279><c> Soundcloud</c><00:11:08.959><c> The</c><00:11:09.079><c> Sounds</c>
+
+00:11:09.430 --> 00:11:09.440 align:start position:0%
+I've performed on Soundcloud The Sounds
+ 
+
+00:11:09.440 --> 00:11:11.550 align:start position:0%
+I've performed on Soundcloud The Sounds
+I've<00:11:09.600><c> played</c><00:11:09.959><c> The</c><00:11:10.079><c> Sounds</c><00:11:10.399><c> I've</c><00:11:10.600><c> liked</c><00:11:11.360><c> that's</c>
+
+00:11:11.550 --> 00:11:11.560 align:start position:0%
+I've played The Sounds I've liked that's
+ 
+
+00:11:11.560 --> 00:11:13.710 align:start position:0%
+I've played The Sounds I've liked that's
+because<00:11:11.720><c> this</c><00:11:11.839><c> is</c><00:11:11.959><c> the</c><00:11:12.079><c> users</c><00:11:12.519><c> data</c><00:11:13.480><c> what</c><00:11:13.600><c> this</c>
+
+00:11:13.710 --> 00:11:13.720 align:start position:0%
+because this is the users data what this
+ 
+
+00:11:13.720 --> 00:11:15.590 align:start position:0%
+because this is the users data what this
+means<00:11:14.000><c> is</c><00:11:14.200><c> if</c><00:11:14.279><c> you're</c><00:11:14.440><c> building</c><00:11:14.880><c> say</c><00:11:15.440><c> an</c>
+
+00:11:15.590 --> 00:11:15.600 align:start position:0%
+means is if you're building say an
+ 
+
+00:11:15.600 --> 00:11:16.550 align:start position:0%
+means is if you're building say an
+application<00:11:16.000><c> that's</c><00:11:16.160><c> all</c><00:11:16.320><c> about</c>
+
+00:11:16.550 --> 00:11:16.560 align:start position:0%
+application that's all about
+ 
+
+00:11:16.560 --> 00:11:19.430 align:start position:0%
+application that's all about
+recommending<00:11:17.120><c> awesome</c><00:11:17.720><c> music</c><00:11:18.120><c> to</c><00:11:18.440><c> people</c>
+
+00:11:19.430 --> 00:11:19.440 align:start position:0%
+recommending awesome music to people
+ 
+
+00:11:19.440 --> 00:11:21.750 align:start position:0%
+recommending awesome music to people
+then<00:11:19.760><c> you</c><00:11:19.880><c> could</c><00:11:20.160><c> ask</c><00:11:20.360><c> for</c><00:11:20.560><c> user</c><00:11:20.920><c> actions.</c>
+
+00:11:21.750 --> 00:11:21.760 align:start position:0%
+then you could ask for user actions.
+ 
+
+00:11:21.760 --> 00:11:24.269 align:start position:0%
+then you could ask for user actions.
+Music<00:11:22.160><c> and</c><00:11:22.320><c> say</c><00:11:22.680><c> user</c><00:11:23.040><c> actions</c><00:11:23.680><c> code</c><00:11:23.920><c> on</c>
+
+00:11:24.269 --> 00:11:24.279 align:start position:0%
+Music and say user actions code on
+ 
+
+00:11:24.279 --> 00:11:26.509 align:start position:0%
+Music and say user actions code on
+Soundcloud<00:11:25.279><c> and</c><00:11:25.440><c> pull</c><00:11:25.800><c> all</c><00:11:25.920><c> of</c><00:11:26.040><c> the</c><00:11:26.120><c> listens</c>
+
+00:11:26.509 --> 00:11:26.519 align:start position:0%
+Soundcloud and pull all of the listens
+ 
+
+00:11:26.519 --> 00:11:28.310 align:start position:0%
+Soundcloud and pull all of the listens
+on<00:11:26.680><c> those</c><00:11:26.880><c> Services</c><00:11:27.600><c> all</c><00:11:27.720><c> of</c><00:11:27.839><c> the</c><00:11:27.959><c> activity</c>
+
+00:11:28.310 --> 00:11:28.320 align:start position:0%
+on those Services all of the activity
+ 
+
+00:11:28.320 --> 00:11:30.389 align:start position:0%
+on those Services all of the activity
+I've<00:11:28.440><c> done</c><00:11:28.560><c> on</c><00:11:28.720><c> SoundCloud</c><00:11:29.320><c> and</c><00:11:29.440><c> use</c><00:11:29.680><c> that</c><00:11:30.040><c> to</c>
+
+00:11:30.389 --> 00:11:30.399 align:start position:0%
+I've done on SoundCloud and use that to
+ 
+
+00:11:30.399 --> 00:11:32.230 align:start position:0%
+I've done on SoundCloud and use that to
+personalize<00:11:30.920><c> your</c><00:11:31.079><c> service</c><00:11:31.600><c> to</c><00:11:31.760><c> make</c><00:11:31.920><c> an</c>
+
+00:11:32.230 --> 00:11:32.240 align:start position:0%
+personalize your service to make an
+ 
+
+00:11:32.240 --> 00:11:36.069 align:start position:0%
+personalize your service to make an
+awesome<00:11:33.240><c> uh</c><00:11:33.839><c> experience</c><00:11:34.440><c> for</c><00:11:34.600><c> the</c><00:11:34.959><c> user</c><00:11:35.959><c> and</c>
+
+00:11:36.069 --> 00:11:36.079 align:start position:0%
+awesome uh experience for the user and
+ 
+
+00:11:36.079 --> 00:11:38.110 align:start position:0%
+awesome uh experience for the user and
+the<00:11:36.200><c> way</c><00:11:36.279><c> you</c><00:11:36.399><c> do</c><00:11:36.600><c> that</c><00:11:36.959><c> is</c><00:11:37.120><c> just</c><00:11:37.399><c> by</c><00:11:37.560><c> making</c>
+
+00:11:38.110 --> 00:11:38.120 align:start position:0%
+the way you do that is just by making
+ 
+
+00:11:38.120 --> 00:11:41.030 align:start position:0%
+the way you do that is just by making
+calls<00:11:38.480><c> against</c><00:11:38.720><c> the</c><00:11:38.839><c> graph</c><00:11:39.120><c> API</c><00:11:40.040><c> user</c><00:11:40.360><c> IDM</c>
+
+00:11:41.030 --> 00:11:41.040 align:start position:0%
+calls against the graph API user IDM
+ 
+
+00:11:41.040 --> 00:11:42.750 align:start position:0%
+calls against the graph API user IDM
+music.<00:11:41.480><c> listens</c><00:11:41.880><c> with</c><00:11:42.000><c> an</c><00:11:42.160><c> access</c><00:11:42.440><c> token</c>
+
+00:11:42.750 --> 00:11:42.760 align:start position:0%
+music. listens with an access token
+ 
+
+00:11:42.760 --> 00:11:44.710 align:start position:0%
+music. listens with an access token
+that's<00:11:42.880><c> been</c><00:11:43.079><c> granted</c><00:11:43.440><c> that</c><00:11:43.560><c> permission</c><00:11:44.480><c> or</c>
+
+00:11:44.710 --> 00:11:44.720 align:start position:0%
+that's been granted that permission or
+ 
+
+00:11:44.720 --> 00:11:47.550 align:start position:0%
+that's been granted that permission or
+uid<00:11:45.360><c> slash</c><00:11:46.040><c> you</c><00:11:46.160><c> know</c><00:11:46.920><c> in</c><00:11:47.040><c> this</c><00:11:47.200><c> case</c><00:11:47.360><c> it</c><00:11:47.440><c> would</c>
+
+00:11:47.550 --> 00:11:47.560 align:start position:0%
+uid slash you know in this case it would
+ 
+
+00:11:47.560 --> 00:11:51.629 align:start position:0%
+uid slash you know in this case it would
+be<00:11:47.680><c> SoundCloud</c><00:11:48.320><c> colon</c><00:11:49.160><c> play</c><00:11:49.880><c> to</c><00:11:50.160><c> get</c><00:11:50.720><c> the</c><00:11:51.240><c> uh</c>
+
+00:11:51.629 --> 00:11:51.639 align:start position:0%
+be SoundCloud colon play to get the uh
+ 
+
+00:11:51.639 --> 00:11:53.670 align:start position:0%
+be SoundCloud colon play to get the uh
+plays<00:11:52.079><c> I've</c><00:11:52.399><c> done</c><00:11:52.720><c> on</c>
+
+00:11:53.670 --> 00:11:53.680 align:start position:0%
+plays I've done on
+ 
+
+00:11:53.680 --> 00:11:56.670 align:start position:0%
+plays I've done on
+Soundcloud<00:11:54.680><c> so</c><00:11:54.880><c> pulling</c><00:11:55.320><c> data</c><00:11:55.959><c> from</c><00:11:56.200><c> the</c><00:11:56.320><c> open</c>
+
+00:11:56.670 --> 00:11:56.680 align:start position:0%
+Soundcloud so pulling data from the open
+ 
+
+00:11:56.680 --> 00:11:58.790 align:start position:0%
+Soundcloud so pulling data from the open
+graph<00:11:57.360><c> in</c><00:11:57.480><c> order</c><00:11:57.720><c> to</c><00:11:57.839><c> make</c><00:11:58.000><c> your</c><00:11:58.200><c> services</c>
+
+00:11:58.790 --> 00:11:58.800 align:start position:0%
+graph in order to make your services
+ 
+
+00:11:58.800 --> 00:12:00.949 align:start position:0%
+graph in order to make your services
+awesome<00:11:59.399><c> and</c><00:11:59.480><c> more</c><00:11:59.720><c> personalized</c><00:12:00.480><c> is</c><00:12:00.600><c> a</c><00:12:00.760><c> very</c>
+
+00:12:00.949 --> 00:12:00.959 align:start position:0%
+awesome and more personalized is a very
+ 
+
+00:12:00.959 --> 00:12:04.310 align:start position:0%
+awesome and more personalized is a very
+powerful
+
+00:12:04.310 --> 00:12:04.320 align:start position:0%
+ 
+ 
+
+00:12:04.320 --> 00:12:07.320 align:start position:0%
+ 
+thing
+

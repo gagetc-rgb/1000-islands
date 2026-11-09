@@ -1,0 +1,626 @@
+[
+ [
+  "01 Home · Desktop",
+  {
+   "diff": 0.95,
+   "size": [
+    720,
+    2238,
+    720,
+    2238
+   ],
+   "bands": 52
+  }
+ ],
+ [
+  "02 Raja Ampat · Desktop",
+  {
+   "diff": 0.96,
+   "size": [
+    720,
+    2540,
+    720,
+    2540
+   ],
+   "bands": 68
+  }
+ ],
+ [
+  "03 North Sulawesi · Desktop",
+  {
+   "diff": 1.03,
+   "size": [
+    720,
+    2476,
+    720,
+    2476
+   ],
+   "bands": 71
+  }
+ ],
+ [
+  "04 Yacht charters · Desktop",
+  {
+   "diff": 0.73,
+   "size": [
+    720,
+    2994,
+    720,
+    2994
+   ],
+   "bands": 66
+  }
+ ],
+ [
+  "05 Guest stories · Desktop",
+  {
+   "diff": 0.8,
+   "size": [
+    720,
+    2065,
+    720,
+    2065
+   ],
+   "bands": 46
+  }
+ ],
+ [
+  "06 About · Desktop",
+  {
+   "diff": 0.64,
+   "size": [
+    720,
+    1661,
+    720,
+    1661
+   ],
+   "bands": 36
+  }
+ ],
+ [
+  "07 Travel agents · Desktop",
+  {
+   "diff": 0.78,
+   "size": [
+    720,
+    3291,
+    720,
+    3291
+   ],
+   "bands": 82
+  }
+ ],
+ [
+  "08 Plan your trip · Desktop",
+  {
+   "diff": 1.3,
+   "size": [
+    720,
+    801,
+    720,
+    801
+   ],
+   "bands": 30
+  }
+ ],
+ [
+  "09 Thank-you · traveller · Desktop",
+  {
+   "diff": 1.14,
+   "size": [
+    720,
+    543,
+    720,
+    543
+   ],
+   "bands": 16
+  }
+ ],
+ [
+  "10 Thank-you · agent · Desktop",
+  {
+   "diff": 1.15,
+   "size": [
+    720,
+    509,
+    720,
+    509
+   ],
+   "bands": 13
+  }
+ ],
+ [
+  "11 Privacy & cookies · Desktop",
+  {
+   "diff": 0.77,
+   "size": [
+    720,
+    1102,
+    720,
+    1102
+   ],
+   "bands": 32
+  }
+ ],
+ [
+  "12 Booking terms · Desktop",
+  {
+   "diff": 1.03,
+   "size": [
+    720,
+    1256,
+    720,
+    1256
+   ],
+   "bands": 35
+  }
+ ],
+ [
+  "13 404 · Page not found · Desktop",
+  {
+   "diff": 1.15,
+   "size": [
+    720,
+    694,
+    720,
+    694
+   ],
+   "bands": 20
+  }
+ ],
+ [
+  "14 Temporarily unavailable · Desktop",
+  {
+   "diff": 0.66,
+   "size": [
+    720,
+    450,
+    720,
+    450
+   ],
+   "bands": 13
+  }
+ ],
+ [
+  "S1 State · Cookie banner · Desktop",
+  {
+   "diff": 0.85,
+   "size": [
+    720,
+    450,
+    720,
+    450
+   ],
+   "bands": 10
+  }
+ ],
+ [
+  "S2 State · Cookie settings · Desktop",
+  {
+   "diff": 0.51,
+   "size": [
+    720,
+    450,
+    720,
+    450
+   ],
+   "bands": 11
+  }
+ ],
+ [
+  "S3 State · Form errors · Desktop",
+  {
+   "diff": 1.08,
+   "size": [
+    720,
+    450,
+    720,
+    450
+   ],
+   "bands": 16
+  }
+ ],
+ [
+  "S4 State · Sending failed · Desktop",
+  {
+   "diff": 1.14,
+   "size": [
+    720,
+    450,
+    720,
+    450
+   ],
+   "bands": 16
+  }
+ ],
+ [
+  "01 Home · Mobile",
+  {
+   "diff": 2.76,
+   "size": [
+    195,
+    2500,
+    195,
+    2500
+   ],
+   "bands": 74
+  }
+ ],
+ [
+  "02 Raja Ampat · Mobile",
+  {
+   "diff": 2.33,
+   "size": [
+    195,
+    3306,
+    195,
+    3306
+   ],
+   "bands": 95
+  }
+ ],
+ [
+  "03 North Sulawesi · Mobile",
+  {
+   "diff": 2.52,
+   "size": [
+    195,
+    3327,
+    195,
+    3327
+   ],
+   "bands": 96
+  }
+ ],
+ [
+  "04 Yacht charters · Mobile",
+  {
+   "diff": 2.43,
+   "size": [
+    195,
+    3238,
+    195,
+    3238
+   ],
+   "bands": 87
+  }
+ ],
+ [
+  "05 Guest stories · Mobile",
+  {
+   "diff": 2.74,
+   "size": [
+    195,
+    2496,
+    195,
+    2496
+   ],
+   "bands": 83
+  }
+ ],
+ [
+  "06 About · Mobile",
+  {
+   "diff": 2.45,
+   "size": [
+    195,
+    1745,
+    195,
+    1745
+   ],
+   "bands": 45
+  }
+ ],
+ [
+  "07 Travel agents · Mobile",
+  {
+   "diff": 1.84,
+   "size": [
+    195,
+    5025,
+    195,
+    5025
+   ],
+   "bands": 135
+  }
+ ],
+ [
+  "08 Plan your trip · Mobile",
+  {
+   "diff": 2,
+   "size": [
+    195,
+    1373,
+    195,
+    1373
+   ],
+   "bands": 52
+  }
+ ],
+ [
+  "09 Thank-you · traveller · Mobile",
+  {
+   "diff": 2.4,
+   "size": [
+    195,
+    691,
+    195,
+    691
+   ],
+   "bands": 26
+  }
+ ],
+ [
+  "10 Thank-you · agent · Mobile",
+  {
+   "diff": 2.39,
+   "size": [
+    195,
+    657,
+    195,
+    657
+   ],
+   "bands": 26
+  }
+ ],
+ [
+  "11 Privacy & cookies · Mobile",
+  {
+   "diff": 2,
+   "size": [
+    195,
+    1405,
+    195,
+    1405
+   ],
+   "bands": 40
+  }
+ ],
+ [
+  "12 Booking terms · Mobile",
+  {
+   "diff": 2.25,
+   "size": [
+    195,
+    1624,
+    195,
+    1624
+   ],
+   "bands": 45
+  }
+ ],
+ [
+  "13 404 · Page not found · Mobile",
+  {
+   "diff": 2.44,
+   "size": [
+    195,
+    840,
+    195,
+    840
+   ],
+   "bands": 27
+  }
+ ],
+ [
+  "14 Temporarily unavailable · Mobile",
+  {
+   "diff": 1.65,
+   "size": [
+    195,
+    422,
+    195,
+    422
+   ],
+   "bands": 12
+  }
+ ],
+ [
+  "S1 State · Cookie banner · Mobile",
+  {
+   "diff": 1.59,
+   "size": [
+    195,
+    422,
+    195,
+    422
+   ],
+   "bands": 9
+  }
+ ],
+ [
+  "S2 State · Cookie settings · Mobile",
+  {
+   "diff": 0.91,
+   "size": [
+    195,
+    422,
+    195,
+    422
+   ],
+   "bands": 13
+  }
+ ],
+ [
+  "S3 State · Form errors · Mobile",
+  {
+   "diff": 2.63,
+   "size": [
+    195,
+    422,
+    195,
+    422
+   ],
+   "bands": 18
+  }
+ ],
+ [
+  "S4 State · Sending failed · Mobile",
+  {
+   "diff": 2.04,
+   "size": [
+    195,
+    422,
+    195,
+    422
+   ],
+   "bands": 16
+  }
+ ],
+ [
+  "M1 Mobile menu (open) · Mobile",
+  {
+   "diff": 1.6,
+   "size": [
+    195,
+    422,
+    195,
+    422
+   ],
+   "bands": 12
+  }
+ ],
+ [
+  "E1 Email · Auto-reply to traveller · Desktop",
+  {
+   "diff": 1.57,
+   "size": [
+    380,
+    552,
+    380,
+    552
+   ],
+   "bands": 21
+  }
+ ],
+ [
+  "E2 Email · Auto-reply to agent · Desktop",
+  {
+   "diff": 1.54,
+   "size": [
+    380,
+    476,
+    380,
+    476
+   ],
+   "bands": 20
+  }
+ ],
+ [
+  "E3 Email · New enquiry alert (owner) · Desktop",
+  {
+   "diff": 1.82,
+   "size": [
+    380,
+    570,
+    380,
+    570
+   ],
+   "bands": 26
+  }
+ ],
+ [
+  "E1 Email · Auto-reply to traveller · Mobile",
+  {
+   "diff": 3.06,
+   "size": [
+    195,
+    574,
+    195,
+    574
+   ],
+   "bands": 23
+  }
+ ],
+ [
+  "E2 Email · Auto-reply to agent · Mobile",
+  {
+   "diff": 2.89,
+   "size": [
+    195,
+    515,
+    195,
+    515
+   ],
+   "bands": 22
+  }
+ ],
+ [
+  "E3 Email · New enquiry alert (owner) · Mobile",
+  {
+   "diff": 3.43,
+   "size": [
+    195,
+    582,
+    195,
+    582
+   ],
+   "bands": 26
+  }
+ ],
+ [
+  "P1 Link previews",
+  {
+   "diff": 1.39,
+   "size": [
+    720,
+    883,
+    720,
+    883
+   ],
+   "bands": 29
+  }
+ ],
+ [
+  "A1 Admin · Enquiries",
+  {
+   "diff": 1.04,
+   "size": [
+    720,
+    450,
+    720,
+    450
+   ],
+   "bands": 14
+  }
+ ],
+ [
+  "A2 Admin · Reviews",
+  {
+   "diff": 0.96,
+   "size": [
+    720,
+    553,
+    720,
+    553
+   ],
+   "bands": 25
+  }
+ ],
+ [
+  "A3 Admin · Photos & video",
+  {
+   "diff": 0.99,
+   "size": [
+    720,
+    450,
+    720,
+    450
+   ],
+   "bands": 16
+  }
+ ],
+ [
+  "A4 Admin · Prices",
+  {
+   "diff": 1.22,
+   "size": [
+    720,
+    535,
+    720,
+    535
+   ],
+   "bands": 23
+  }
+ ]
+]

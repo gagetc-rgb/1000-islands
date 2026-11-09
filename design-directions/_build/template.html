@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<title>{{title}} · 1000 Islands Travel</title>
+<script>if (!/[?&]noloader/.test(location.search)) document.documentElement.classList.add("is-loading")</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{{fonts}}">
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="{{css}}">
+</head>
+<body class="{{body}}"{{body_attr}}>
+<div class="loader" role="status" aria-live="polite" style="--li:url(assets/video/{{hero}}.webp);--li-sm:url(assets/video/{{hero}}-m.webp)"><span class="logo loader-logo">{{logo}}</span><span class="loader-bar" aria-hidden="true"><i></i></span><span class="sr-only">Loading</span></div>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hdr">
+  <div class="hdr-in">
+    <a class="logo" href="#top" aria-label="1000 Islands Travel, home"><span class="logo-name">1000 Islands Travel</span></a>
+    <nav class="nav" aria-label="Main">
+{{nav_where}}      <a href="#yachts">Yacht charters</a>
+      <a href="#story">Guest stories</a>
+      <a href="#about">About us</a>
+      <a class="btn btn-trade" href="#trade">Travel agents</a>
+      <a class="btn btn-primary" href="#plan">Plan your trip</a>
+    </nav>
+    <details class="menu">
+      <summary aria-label="Menu"><svg class="i-burger" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg><svg class="i-close" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 5.5l13 13M18.5 5.5l-13 13"/></svg></summary>
+      <nav class="menu-panel" aria-label="Main, mobile">
+        <a href="#where">Raja Ampat</a>
+        <a href="#where">North Sulawesi</a>
+        <a href="#yachts">Yacht charters</a>
+        <a href="#story">Guest stories</a>
+        <a href="#about">About us</a>
+        <a class="btn btn-trade" href="#trade">Travel agents</a>
+        <a class="btn btn-primary" href="#plan">Plan your trip</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="hero-media">
+    {{hero_video}}
+  </div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  {{hero_deco}}
+  <div class="hero-copy">
+    <h1 id="hero-title">Remote Indonesia.<br>Off the map.</h1>
+    <p class="hero-lead">Private journeys to Raja Ampat and North Sulawesi,<br> led by our own team on the ground.</p>
+    <div class="hero-actions">
+      <a class="btn btn-hero" href="#plan">Plan your trip</a>
+      <a class="link-hero" href="#where">Where we go</a>
+    </div>
+  </div>
+{{hero_control}}</section>
+
+<section class="where" id="where" aria-labelledby="where-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="where-title">Where we go</h2>
+      <p class="sec-lead">Two regions we know island by island.</p>
+    </div>
+    <div class="dest-grid">
+      <a class="dest" href="#plan">
+        <figure class="dest-media">{{ra_pic}}</figure>
+        <div class="dest-body">
+          <h3>Raja Ampat</h3>
+          <p class="dest-tag">The heart of the Coral Triangle</p>
+          <p class="dest-meta"><span class="price">from $X,XXX pp</span></p>
+        </div>
+      </a>
+      <a class="dest" href="#plan">
+        <figure class="dest-media">{{ns_pic}}</figure>
+        <div class="dest-body">
+          <h3>North Sulawesi</h3>
+          <p class="dest-tag">Living between volcanoes and the sea</p>
+          <p class="dest-meta"><span class="price">from $X,XXX pp</span></p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="yacht" id="yachts" aria-labelledby="yacht-title">
+  <div class="yacht-media">
+    {{yacht_video}}
+  </div>
+  <div class="wrap yacht-copy">
+    <h2 id="yacht-title">Yacht charters</h2>
+    <p class="price yacht-price">from $X,XXX per day, whole boat</p>
+    <a class="btn btn-on-media" href="#plan">Plan a charter</a>
+  </div>
+</section>
+
+<section class="easy" id="easy" aria-labelledby="easy-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="easy-title">Remote, made easy</h2>
+      <p class="sec-lead">Eight years on the ground. One team takes your trip from the first message to the last boat transfer.</p>
+    </div>
+    <ol class="steps">
+      <li><span class="num{{step_cls}}" aria-hidden="true">{{step_1}}</span><h3>Tell us</h3><p>Where, when, and how you like to travel.</p></li>
+      <li><span class="num{{step_cls}}" aria-hidden="true">{{step_2}}</span><h3>We design it</h3><p>We design the route around you.</p></li>
+      <li><span class="num{{step_cls}}" aria-hidden="true">{{step_3}}</span><h3>We handle everything</h3><p>Flights, boats, permits and local guides.</p></li>
+      <li><span class="num{{step_cls}}" aria-hidden="true">{{step_4}}</span><h3>You travel</h3><p>We stay one message away the whole trip.</p></li>
+    </ol>
+  </div>
+</section>
+
+
+<section class="story" id="story" aria-labelledby="story-title">
+  <div class="story-media">
+    {{story_video}}
+  </div>
+  <div class="wrap story-copy">
+    <h2 id="story-title">Nine days in Raja Ampat</h2>
+    <p class="story-meta">Guest story · Comfort · 9 days · Month, year</p>
+    <p class="story-quote">A short line from the guests goes here, in their own words.</p>
+    <div class="btns with-link"><a class="btn btn-on-media" href="#story">Read the story</a><a class="link-hero" href="#story">All guest stories</a></div>
+  </div>
+</section>
+
+<section class="reviews" aria-labelledby="reviews-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="reviews-title">What guests say</h2>
+      <p class="sec-lead">Google rating X.X · XX reviews · <a class="text-link" href="#">Read on Google</a></p>
+    </div>
+    <div class="rev-grid">
+      <figure class="rev"><blockquote>A guest review goes here: two or three lines in their own words.</blockquote><figcaption><b>Guest name</b><span>Country · Raja Ampat · Month, year</span></figcaption></figure>
+      <figure class="rev"><blockquote>A guest review goes here: two or three lines in their own words.</blockquote><figcaption><b>Guest name</b><span>Country · North Sulawesi · Month, year</span></figcaption></figure>
+      <figure class="rev"><blockquote>A guest review goes here: two or three lines in their own words.</blockquote><figcaption><b>Guest name</b><span>Country · Raja Ampat · Month, year</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+{{trade}}
+<section class="cta" id="plan" aria-labelledby="cta-title">
+  <div class="cta-media">{{cta_pic}}</div>
+  <div class="wrap cta-in">
+    <h2 id="cta-title">Start with an idea</h2>
+    <p class="cta-text">Tell us where and when, and we handle the rest.</p>
+    <div class="btns">
+      <a class="btn btn-hero" href="#plan">Plan your trip</a>
+      <a class="btn btn-ghost btn-ic" href="#plan">{{ic_whatsapp}}<span>WhatsApp us</span></a>
+    </div>
+    <figure class="cta-person"><span class="cta-person-ph" aria-hidden="true"></span><figcaption><b>Name, the person who answers you</b><span>Role · replies within 24 hours, 7 days a week</span></figcaption></figure>
+  </div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-cols">
+      <div class="ftr-brand"><a class="logo" href="#top" aria-label="1000 Islands Travel, home">{{logo}}</a><p>Private journeys and expeditions across Indonesia.</p></div>
+      <div><h2>Where we go</h2><ul><li><a href="#where">Raja Ampat</a></li><li><a href="#where">North Sulawesi</a></li><li><a href="#yachts">Yacht charters</a></li></ul></div>
+      <div><h2>Travel</h2><ul><li><a href="#story">Guest stories</a></li><li><a href="#plan">Plan your trip</a></li></ul></div>
+      <div><h2>Company</h2><ul><li><a href="#about">About us</a></li><li><a href="#how-we-travel">How we travel</a></li><li><a href="#faq">FAQ</a></li><li><a href="#trade">Travel agents</a></li></ul></div>
+      <div><h2>Contact</h2><ul class="ftr-contact"><li><a href="#plan">{{ic_whatsapp}}<span>WhatsApp</span></a></li><li><a href="#plan">{{ic_mail}}<span>Email</span></a></li><li><a href="#plan">{{ic_instagram}}<span>Instagram</span></a></li></ul></div>
+    </div>
+    <div class="ftr-bottom"><span>© 1000 Islands Travel</span><span><a href="#">Privacy &amp; cookies</a> · <a href="#">Booking terms</a> · <a href="#">Cookie settings</a></span><span>PT company name · registered address · licence no. …</span><span>Design direction {{num}} of 5 · <a href="index.html">all directions</a></span></div>
+  </div>
+</footer>
+
+<div class="mbar" aria-hidden="true"><a class="btn btn-primary" href="#plan" tabindex="-1">Plan your trip</a><a class="btn btn-ghost btn-ic" href="#plan" tabindex="-1">{{ic_whatsapp}}<span>WhatsApp</span></a></div>
+
+{{extra_js}}<script src="base.js" defer></script>
+</body>
+</html>

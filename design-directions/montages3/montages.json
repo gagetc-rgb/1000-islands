@@ -1,0 +1,622 @@
+[
+ {
+  "id": "p01",
+  "title": "Raja Ampat saga, with the reef",
+  "secs": 27.8,
+  "transition": "cut",
+  "shots": [
+   [
+    "dronie3",
+    "Rise over the karst tower (16, start trimmed)"
+   ],
+   [
+    "approach",
+    "Towards the row of karst towers"
+   ],
+   [
+    "corridor",
+    "Karst corridor, turns trimmed (32)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "p01l",
+  "title": "Raja Ampat saga, drone light grade",
+  "secs": 27.8,
+  "transition": "cut",
+  "shots": [
+   [
+    "dronie3_sun3",
+    "Rise over the karst tower (16, start trimmed), light grade, sun3"
+   ],
+   [
+    "approach_l",
+    "Towards the row of karst towers, light grade"
+   ],
+   [
+    "corridor_l",
+    "Karst corridor, turns trimmed (32), light grade"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "p01o",
+  "title": "Raja Ampat saga, drone as shot",
+  "secs": 27.8,
+  "transition": "cut",
+  "shots": [
+   [
+    "dronie3_o",
+    "Rise over the karst tower (16, start trimmed), as shot"
+   ],
+   [
+    "approach_o",
+    "Towards the row of karst towers, as shot"
+   ],
+   [
+    "corridor_o",
+    "Karst corridor, turns trimmed (32), as shot"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "p02",
+  "title": "Reef first, refined",
+  "secs": 31.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "lagoon3",
+    "Past the palm into the lagoon (33, ends before the brake)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "cape",
+    "Tropical cape (12)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ]
+  ]
+ },
+ {
+  "id": "p03",
+  "title": "Islands and reef, alternating",
+  "secs": 30.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "lagoon3",
+    "Past the palm into the lagoon (33, ends before the brake)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "dronie3",
+    "Rise over the karst tower (16, start trimmed)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "mushroom",
+    "Boat to the mushroom rock (20)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "p04",
+  "title": "Raja Ampat, above water",
+  "secs": 25.5,
+  "transition": "cut",
+  "shots": [
+   [
+    "dronie3",
+    "Rise over the karst tower (16, start trimmed)"
+   ],
+   [
+    "approach9",
+    "Towards the karst towers and low over the coral garden (17)"
+   ],
+   [
+    "corridor",
+    "Karst corridor, turns trimmed (32)"
+   ],
+   [
+    "reflect",
+    "Mushroom rock mirrored in still water"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ]
+  ]
+ },
+ {
+  "id": "p05",
+  "title": "Red and turquoise, second take",
+  "secs": 23.8,
+  "transition": "cut",
+  "shots": [
+   [
+    "fanmacro",
+    "Orange sea fan, close (25)"
+   ],
+   [
+    "garden3",
+    "Low and fast over the coral garden (17, before the turn)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "corridor",
+    "Karst corridor, turns trimmed (32)"
+   ],
+   [
+    "boat2p",
+    "Boat bow between coral heads (18, more contrast)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "p06",
+  "title": "Above and below in pairs",
+  "secs": 24.9,
+  "transition": "cut",
+  "shots": [
+   [
+    "approach",
+    "Towards the row of karst towers"
+   ],
+   [
+    "tables",
+    "Table corals on the reef wall"
+   ],
+   [
+    "lagoon3",
+    "Past the palm into the lagoon (33, ends before the brake)"
+   ],
+   [
+    "fish",
+    "Bommie with reef fish (27)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "jelly2",
+    "Golden jellyfish passing near the surface"
+   ]
+  ]
+ },
+ {
+  "id": "p07",
+  "title": "Reef life",
+  "secs": 26.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "fish",
+    "Bommie with reef fish (27)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "turtle2",
+    "Turtle over the reef, close"
+   ],
+   [
+    "fanmacro",
+    "Orange sea fan, close (25)"
+   ]
+  ]
+ },
+ {
+  "id": "p08",
+  "title": "By boat to the rock",
+  "secs": 28.1,
+  "transition": "cut",
+  "shots": [
+   [
+    "boat",
+    "Boat bow, horizon kept level (34)"
+   ],
+   [
+    "mushroom",
+    "Boat to the mushroom rock (20)"
+   ],
+   [
+    "reflect",
+    "Mushroom rock mirrored in still water"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "profile",
+    "Round the rock: the face in the cliff"
+   ],
+   [
+    "dronie3",
+    "Rise over the karst tower (16, start trimmed)"
+   ]
+  ]
+ },
+ {
+  "id": "p09",
+  "title": "North Sulawesi coast and the reef",
+  "secs": 25.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "coast",
+    "Volcanic coast, North Sulawesi (06)"
+   ],
+   [
+    "palms3",
+    "Between palm trunks (11, before the shake)"
+   ],
+   [
+    "cape",
+    "Tropical cape (12)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ]
+  ]
+ },
+ {
+  "id": "p10",
+  "title": "Slow, with dissolves",
+  "secs": 26.9,
+  "transition": "fade",
+  "shots": [
+   [
+    "dronie3",
+    "Rise over the karst tower (16, start trimmed)"
+   ],
+   [
+    "lagoon3",
+    "Past the palm into the lagoon (33, ends before the brake)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "p11",
+  "title": "Fast, 15 s",
+  "secs": 15.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "lagoon3",
+    "Past the palm into the lagoon (33, ends before the brake)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "approach",
+    "Towards the row of karst towers"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ]
+  ]
+ },
+ {
+  "id": "p11l",
+  "title": "Fast, 15 s, drone light grade",
+  "secs": 15.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "lagoon3_l",
+    "Past the palm into the lagoon (33, ends before the brake), light grade"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "approach_l",
+    "Towards the row of karst towers, light grade"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ]
+  ]
+ },
+ {
+  "id": "p12",
+  "title": "Beach and reef",
+  "secs": 27.5,
+  "transition": "cut",
+  "shots": [
+   [
+    "reefsun",
+    "Top-down: sun glitter on corals (21)"
+   ],
+   [
+    "canoe",
+    "Canoe on the white beach, longer (40)"
+   ],
+   [
+    "beachboat",
+    "Low over the moored boat to the reef (22)"
+   ],
+   [
+    "mushroom",
+    "Boat to the mushroom rock (20)"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ]
+  ]
+ },
+ {
+  "id": "r1",
+  "title": "Hill first",
+  "secs": 30.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "lagoon3_o",
+    "Past the palm into the lagoon (33, ends before the brake), as shot"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "cape_o",
+    "Tropical cape (12), as shot"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ]
+  ]
+ },
+ {
+  "id": "r2",
+  "title": "Turtle first, with fish",
+  "secs": 29.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "cape_o",
+    "Tropical cape (12), as shot"
+   ],
+   [
+    "fish",
+    "Bommie with reef fish (27)"
+   ],
+   [
+    "lagoon3_o",
+    "Past the palm into the lagoon (33, ends before the brake), as shot"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ]
+  ]
+ },
+ {
+  "id": "r3",
+  "title": "Cape first",
+  "secs": 30.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "cape_o",
+    "Tropical cape (12), as shot"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ],
+   [
+    "lagoon3_o",
+    "Past the palm into the lagoon (33, ends before the brake), as shot"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ]
+  ]
+ },
+ {
+  "id": "r4",
+  "title": "Coral first, with fish",
+  "secs": 29.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "fish",
+    "Bommie with reef fish (27)"
+   ],
+   [
+    "lagoon3_o",
+    "Past the palm into the lagoon (33, ends before the brake), as shot"
+   ],
+   [
+    "turtle",
+    "Turtle swims past the camera (36)"
+   ],
+   [
+    "cape_o",
+    "Tropical cape (12), as shot"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ },
+ {
+  "id": "r5",
+  "title": "Under the rock first",
+  "secs": 29.0,
+  "transition": "cut",
+  "shots": [
+   [
+    "rock",
+    "Under the orange rock (39)"
+   ],
+   [
+    "lagoon3_o",
+    "Past the palm into the lagoon (33, ends before the brake), as shot"
+   ],
+   [
+    "fan",
+    "Red sea fan against the blue (35)"
+   ],
+   [
+    "turtle2",
+    "Turtle over the reef, close"
+   ],
+   [
+    "cape_o",
+    "Tropical cape (12), as shot"
+   ],
+   [
+    "jelly",
+    "Jellyfish drifts into the frame (38)"
+   ]
+  ]
+ }
+]

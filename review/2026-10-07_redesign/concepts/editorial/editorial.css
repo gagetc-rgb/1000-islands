@@ -1,0 +1,389 @@
+/* 1000 Islands Travel · home concept "Editorial split" (grey hi-fi wireframe, 7 Oct 2026)
+   A strict 12-column grid, hairline rules instead of boxes and pills, and image proportions that change
+   with the job: portrait for places, panorama for the boat, bleed-left landscape for the story.
+   Spacing scale: 4 8 12 16 20 24 32 48 64 96 128. Inter is a placeholder face (brand type comes at stage 2). */
+
+:root {
+  --ink: #1c1c1c;
+  --ink-2: #474747;
+  --ink-3: #5c5c5c;
+  --line: #d2d2d2;
+  --rule: #1c1c1c;
+  --paper: #ffffff;
+  --paper-2: #f2f2f2;
+  --night: #242424;
+  --skel: #dadada;
+
+  --header: 72px;
+  --margin: clamp(16px, 4.4vw, 64px);
+  --max: 1440px;
+  --gutter: 24px;
+  --sec: clamp(64px, 12vh, 128px);          /* standard section padding, scales with screen height */
+  --pad-screen: clamp(24px, 5.5vh, 56px);   /* padding inside one-screen compositions */
+
+  --fs-h1: clamp(2.25rem, min(7vw, 11.5vh), 6rem);
+  --fs-h2: clamp(1.875rem, min(3.6vw, 6.4vh), 3.5rem);
+  --fs-h3: clamp(1.5rem, 2.4vw, 2.25rem);
+  --fs-lead: clamp(1.125rem, 1.4vw, 1.375rem);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: var(--header); }
+body { font-family: 'Inter', system-ui, sans-serif; font-size: 1.125rem; line-height: 1.6; color: var(--ink); background: var(--paper); -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+ul, ol { list-style: none; }
+figure { margin: 0; }
+::selection { background: var(--ink); color: #fff; }
+:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+h1, h2, h3 { font-weight: 600; text-wrap: balance; color: var(--ink); }
+h2 { font-size: var(--fs-h2); line-height: 1.04; letter-spacing: -.03em; }
+h3 { font-size: 1.25rem; line-height: 1.25; letter-spacing: -.01em; }
+p { color: var(--ink-2); }
+a svg, p svg { width: 16px; height: 16px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.5; }
+
+.wrap { max-width: calc(var(--max) + 2 * var(--margin)); margin-left: auto; margin-right: auto; padding-left: var(--margin); padding-right: var(--margin); }
+.skip { position: absolute; left: 16px; top: -120px; z-index: 50; background: var(--ink); color: #fff; padding: 12px 16px; font-weight: 600; }
+.skip:focus { top: 16px; }
+
+/* Owner annotation labels ("01 · Hero"): hidden; ?labels=1 or the L key shows them (editorial.js) */
+.label { display: none; }
+.show-labels .label { display: inline-block; position: absolute; top: 12px; left: 12px; z-index: 6; font-size: 12px; font-weight: 600; line-height: 1.4; color: var(--ink-2); background: #fff; border: 1px solid var(--line); padding: 2px 8px; }
+.show-labels .hero .cap { top: 48px; }
+
+/* Text skeleton: grey bars stand in for copy */
+.sk { display: grid; gap: 10px; max-width: 46ch; }
+.sk i { display: block; height: 10px; background: var(--skel); border-radius: 1px; }
+.sk i:nth-child(2n) { width: 86%; }
+.sk i:last-child { width: 58%; }
+.sk-lead { gap: 12px; }
+.sk-lead i { height: 13px; }
+.sk-quote { gap: 14px; }
+.sk-quote i { height: 18px; }
+
+/* Image placeholders: tonal grey fields, never crossed boxes. Each carries a caption: shot · ratio · master size */
+.ph, .media, .pano, .story-media, .portrait { position: relative; overflow: hidden; background-color: #6f6f6f; }
+.cap { position: absolute; top: 16px; left: 16px; z-index: 3; max-width: min(46ch, calc(100% - 32px)); font-size: 12px; font-weight: 500; line-height: 1.4; color: #2e2e2e; background: #f2f2f2; padding: 4px 8px; }
+.cap-under { display: block; font-size: 12px; line-height: 1.4; color: var(--ink-3); margin-top: 10px; }
+.tone-hero { background-image: linear-gradient(to top, rgba(17,17,17,.8) 0%, rgba(17,17,17,.25) 42%, rgba(17,17,17,0) 68%), linear-gradient(172deg, #8f8f8f 0%, #6d6d6d 50%, #4a4a4a 100%); }
+.tone-ra { background-image: linear-gradient(to top, rgba(17,17,17,.84) 0%, rgba(17,17,17,.3) 36%, rgba(17,17,17,0) 60%), linear-gradient(160deg, #a0a0a0 0%, #777 55%, #565656 100%); }
+.tone-ns { background-image: linear-gradient(to top, rgba(17,17,17,.84) 0%, rgba(17,17,17,.3) 36%, rgba(17,17,17,0) 60%), linear-gradient(200deg, #8a8a8a 0%, #646464 55%, #474747 100%); }
+.tone-pano { background-image: linear-gradient(180deg, #bdbdbd 0%, #acacac 44%, #939393 52%, #7a7a7a 100%); }
+.tone-story { background-image: linear-gradient(135deg, #a9a9a9 0%, #808080 58%, #636363 100%); }
+.tone-portrait { background-image: linear-gradient(180deg, #a2a2a2 0%, #727272 100%); }
+
+/* Buttons and links: 48px targets, square corners like the images */
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 28px; font-family: inherit; font-size: 15px; font-weight: 600; line-height: 1; letter-spacing: .01em; text-decoration: none; white-space: nowrap; border: 1px solid transparent; transition: background-color .2s ease, color .2s ease, border-color .2s ease; }
+.btn.dark { background: var(--ink); color: #fff; border-color: var(--ink); }
+.btn.dark:hover { background: #3a3a3a; border-color: #3a3a3a; }
+.btn.light { background: #fff; color: var(--ink); border-color: #fff; }
+.btn.light:hover { background: #e6e6e6; border-color: #e6e6e6; }
+.btn.ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn.outline-light { background: transparent; color: #fff; border-color: rgba(255,255,255,.75); }
+.btn.outline-light:hover { border-color: #fff; background: rgba(255,255,255,.08); }
+.link-arrow { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-size: 15px; font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; }
+.link-arrow svg { transition: transform .25s cubic-bezier(.2,.7,.2,1); }
+.link-arrow:hover svg { transform: translateX(3px); }
+
+/* ---------- Header ---------- */
+.site-header { position: sticky; top: 0; z-index: 20; background: var(--paper); border-bottom: 1px solid var(--line); transition: transform .25s ease; }
+.site-header.is-hidden { transform: translateY(-100%); }
+.site-header .wrap { height: calc(var(--header) - 1px); display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.logo { display: flex; flex-direction: column; justify-content: center; min-height: 44px; text-decoration: none; line-height: 1.15; }
+.logo b { font-size: 17px; font-weight: 700; letter-spacing: -.01em; white-space: nowrap; }
+.logo small { font-size: 11px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); white-space: nowrap; }
+.nav { display: flex; align-items: center; gap: 28px; font-size: 15px; font-weight: 500; }
+.nav a:not(.btn) { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; white-space: nowrap; background: linear-gradient(currentColor, currentColor) 0 calc(100% - 10px) / 0 1px no-repeat; transition: background-size .25s ease; }
+.nav a:not(.btn):hover { background-size: 100% 1px; }
+/* trade sits after a hairline: same weight as the consumer links, visibly its own door */
+.nav a.trade { position: relative; margin-left: 4px; }
+.nav a.trade::before { content: ""; position: absolute; left: -18px; top: 50%; width: 1px; height: 20px; margin-top: -10px; background: var(--line); }
+.nav .btn { min-height: 44px; padding: 0 20px; }
+
+.menu { display: none; }
+.burger { display: flex; flex-direction: column; justify-content: center; gap: 7px; width: 48px; height: 48px; padding: 0 12px; cursor: pointer; list-style: none; }
+.burger::-webkit-details-marker { display: none; }
+.burger i { display: block; height: 1.5px; background: var(--ink); transition: transform .2s ease; }
+.menu[open] .burger i:first-child { transform: translateY(4.25px) rotate(45deg); }
+.menu[open] .burger i:last-child { transform: translateY(-4.25px) rotate(-45deg); }
+.menu-panel { position: absolute; left: 0; right: 0; top: 100%; background: var(--paper); border-bottom: 1px solid var(--line); padding: 8px var(--margin) 24px; display: grid; gap: 4px; align-content: start; min-height: calc(100svh - var(--header)); max-height: calc(100svh - var(--header)); overflow-y: auto; }
+.menu-panel a:not(.btn) { display: flex; align-items: center; min-height: 56px; font-size: 1.375rem; font-weight: 500; letter-spacing: -.01em; text-decoration: none; border-bottom: 1px solid var(--line); }
+.menu-panel .btn { margin-top: 12px; }
+
+/* ---------- 01 Hero: one screen, copy on a ruled line ---------- */
+.hero { position: relative; display: flex; height: calc(100svh - var(--header)); min-height: 480px; color: #fff; overflow: hidden; }
+.hero .media { flex: 1; display: flex; align-items: flex-end; padding: 72px 0 0; background-color: #4a4a4a; }
+.hero-copy { position: relative; z-index: 2; width: 100%; padding-bottom: clamp(24px, 6vh, 64px); }
+.hero h1 { font-size: var(--fs-h1); line-height: .98; letter-spacing: -.035em; color: #fff; }
+.hero-line { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); align-items: center; margin-top: clamp(20px, 4.5vh, 48px); padding-top: clamp(16px, 2.6vh, 24px); border-top: 1px solid rgba(255,255,255,.6); }
+.hero-lead { grid-column: 1 / span 6; font-size: var(--fs-lead); line-height: 1.4; color: #fff; }
+.hero-actions { grid-column: 7 / -1; justify-self: end; display: flex; align-items: center; gap: 32px; }
+.cue { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; font-size: 15px; font-weight: 600; color: #fff; text-decoration: none; }
+.cue svg { transition: transform .3s cubic-bezier(.2,.7,.2,1); }
+.cue:hover svg { transform: translateY(3px); }
+
+.pause { position: absolute; z-index: 3; top: 16px; right: 16px; width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,.85); background: rgba(17,17,17,.4); cursor: pointer; display: grid; place-items: center; }
+.pause::before { content: ""; width: 10px; height: 12px; border-left: 3px solid #fff; border-right: 3px solid #fff; }
+.pause[aria-pressed="true"]::before { width: 0; height: 0; border-style: solid; border-width: 7px 0 7px 11px; border-color: transparent transparent transparent #fff; margin-left: 3px; }
+
+/* ---------- 02 Where we go: heading column + two tall portrait panels, one screen ---------- */
+.where { position: relative; padding: var(--pad-screen) 0; }
+.where .wrap { width: 100%; container-type: inline-size; }
+.where-head h2 { margin-bottom: 20px; }
+.where-head .sk { max-width: 30ch; }
+.map { margin-top: 32px; }
+.map-plate { position: relative; aspect-ratio: 4 / 3; padding: 16px; background: var(--paper-2); border: 1px solid var(--line); }
+.pin { position: absolute; left: var(--x); top: var(--y); display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 600; line-height: 1; color: var(--ink-2); white-space: nowrap; transform: translate(-4px, -50%); }
+.pin::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--ink); flex: none; }
+.pin:not(:first-child) { flex-direction: row-reverse; transform: translate(calc(-100% + 4px), -50%); }
+
+.where-panels { display: grid; gap: var(--gutter); }
+.panel { position: relative; display: block; overflow: hidden; color: #fff; background-color: #505050; text-decoration: none; }
+.panel .ph { position: absolute; inset: 0; transition: transform .7s cubic-bezier(.2,.7,.2,1); }
+.panel:hover .ph { transform: scale(1.02); }
+.panel-copy { position: absolute; z-index: 2; left: 0; right: 0; bottom: 0; padding: clamp(20px, 3.2vh, 32px) clamp(20px, 1.9vw, 32px); }
+.panel h3 { font-size: var(--fs-h3); line-height: 1.05; letter-spacing: -.025em; color: #fff; }
+.places { margin-top: 10px; font-size: 1rem; line-height: 1.45; color: #fff; }
+.from { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: clamp(14px, 2.4vh, 24px); padding-top: 14px; border-top: 1px solid rgba(255,255,255,.55); font-size: 1rem; font-weight: 600; color: #fff; }
+.from svg { transition: transform .25s cubic-bezier(.2,.7,.2,1); }
+.panel:hover .from svg { transform: translateX(4px); }
+
+/* Laptops and up: a magazine spread. Panels are sized from the screen height (3:4 to 4:5),
+   the heading column takes what is left; the whole group fits the screen under the header. */
+@media (min-width: 1000px) and (min-height: 561px) {
+  .where { min-height: calc(100svh - var(--header)); display: flex; align-items: center; }
+  .where-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 48px; }
+  .where-intro { display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }
+  .where-intro h2 { max-width: 7ch; }
+  .where-panels {
+    --avail: calc(100svh - var(--header) - 2 * var(--pad-screen));
+    --intro: clamp(220px, 22cqi, 340px);
+    --pw: min(calc(var(--avail) * .8), calc((100cqi - var(--intro) - 48px - var(--gutter)) / 2));
+    grid-template-columns: repeat(2, var(--pw));
+  }
+  .panel { height: min(var(--avail), calc(var(--pw) * 1.4)); }
+}
+/* Small tablets and short screens: heading row on top, two 4:5 panels, map last */
+@media (max-width: 999px), (max-height: 560px) {
+  .where { padding: var(--pad-screen) 0 var(--sec); }
+  .where-grid { display: grid; grid-template-areas: "head" "panels" "map"; row-gap: 32px; }
+  .where-intro { display: contents; }
+  .where-head { grid-area: head; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); align-items: end; }
+  .where-head h2 { grid-column: 1 / span 6; margin: 0; }
+  .where-head .sk { grid-column: 7 / -1; padding-bottom: 6px; }
+  .where-panels { grid-area: panels; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .panel { aspect-ratio: 4 / 5; }
+  .map { grid-area: map; margin: 0; width: min(100%, 360px); }
+}
+
+/* ---------- 03 Yacht charters: full-bleed panorama, caption row on the grid ---------- */
+.yacht { position: relative; padding-top: var(--sec); }
+.pano { display: block; height: clamp(280px, 58svh, 640px); }
+.yacht-row { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); align-items: end; padding-top: clamp(24px, 4vh, 40px); }
+.yacht-row h2 { grid-column: 1 / span 5; }
+.yacht-text { grid-column: 6 / span 4; }
+.yacht-buy { grid-column: 10 / -1; justify-self: end; text-align: right; }
+.places-dark { font-size: 1rem; font-weight: 600; color: var(--ink); margin-bottom: 12px; }
+.price { font-size: 1.125rem; font-weight: 600; color: var(--ink); }
+
+/* ---------- 04 Remote, made easy: four real steps on one rule ---------- */
+.easy { position: relative; padding: var(--sec) 0 calc(var(--sec) / 2); }
+.split-head { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); align-items: end; margin-bottom: clamp(32px, 7vh, 72px); }
+.split-head h2 { grid-column: 1 / span 6; }
+.split-head .sk { grid-column: 8 / -1; padding-bottom: 8px; }
+.steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: var(--gutter); border-top: 1px solid var(--rule); }
+.steps li { padding: 28px 0 0; }
+.num { display: block; font-size: clamp(3rem, min(6vw, 10vh), 5.5rem); font-weight: 300; line-height: .9; letter-spacing: -.04em; font-variant-numeric: tabular-nums; color: var(--ink); margin-bottom: clamp(20px, 5vh, 48px); }
+.steps h3 { margin-bottom: 12px; }
+.steps .sk { max-width: 26ch; }
+
+/* ---------- 05 Guest story: image bleeds off the left edge, text column on the grid ---------- */
+.story { position: relative; padding: var(--sec) 0; }
+.bleed {
+  display: grid;
+  grid-template-columns:
+    minmax(max(0px, calc(var(--margin) - var(--gutter))), 1fr)
+    repeat(12, minmax(0, calc((var(--max) - 11 * var(--gutter)) / 12)))
+    minmax(max(0px, calc(var(--margin) - var(--gutter))), 1fr);
+  column-gap: var(--gutter);
+}
+.story-media { grid-column: 1 / 9; height: min(calc(100svh - var(--header) - 2 * var(--pad-screen)), 760px); min-height: 400px; }
+.story-text { grid-column: 10 / 14; display: flex; flex-direction: column; justify-content: space-between; gap: 32px; }
+.story-text h2 { max-width: 12ch; }
+.meta { margin-top: 16px; font-size: .9375rem; color: var(--ink-3); }
+.pull { border-top: 1px solid var(--rule); padding-top: 20px; }
+.pull .sk { max-width: none; margin-top: 8px; }
+.attr { margin-top: 20px; font-size: .9375rem; font-weight: 600; color: var(--ink); }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; }
+
+/* ---------- 06 Reviews: heading column + one lead review and two short ones ---------- */
+.reviews { position: relative; padding-bottom: var(--sec); }
+.reviews .wrap { border-top: 1px solid var(--line); padding-top: var(--sec); }
+.reviews-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); align-items: start; }
+.reviews-head { grid-column: 1 / span 4; }
+.rating { margin-top: 20px; font-size: 1rem; color: var(--ink-2); }
+.reviews-head .link-arrow { margin-top: 4px; }
+.reviews-list { grid-column: 6 / -1; display: grid; grid-template-columns: 1fr 1fr; column-gap: clamp(24px, 3vw, 48px); }
+.review { display: flex; flex-direction: column; gap: 24px; padding: 28px 0 0; border-top: 1px solid var(--line); }
+.review.is-lead { grid-column: 1 / -1; padding: 8px 0 40px; border-top: 0; }
+.review .sk { max-width: none; }
+.who { display: flex; align-items: center; gap: 14px; margin-top: auto; font-size: .875rem; line-height: 1.45; color: var(--ink-3); }
+.who > span:last-child { display: grid; }
+.who b { color: var(--ink); font-size: .9375rem; }
+.avatar { width: 44px; height: 44px; flex: none; border-radius: 50%; background: linear-gradient(160deg, #a8a8a8, #7b7b7b); }
+
+/* ---------- 07 For travel agents: a ruled band with its own button ---------- */
+.trade-band { position: relative; padding-bottom: var(--sec); }
+.trade-row { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); align-items: center; padding-top: clamp(32px, 6vh, 56px); padding-bottom: clamp(32px, 6vh, 56px); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.trade-row h2 { grid-column: 1 / span 5; }
+.trade-row .sk { grid-column: 6 / span 4; }
+.trade-row .btn { grid-column: 10 / -1; justify-self: end; }
+
+/* ---------- 08 Start with an idea ---------- */
+.cta { position: relative; background: var(--night); color: #fff; padding: var(--sec) 0; }
+.cta-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); align-items: end; }
+.cta-main { grid-column: 1 / span 7; }
+.cta h2 { font-size: clamp(2.25rem, min(5.2vw, 9vh), 4.5rem); line-height: 1; letter-spacing: -.035em; color: #fff; }
+.cta .sk { margin-top: 28px; max-width: 40ch; }
+.cta .sk i { background: rgba(255,255,255,.3); }
+.cta .actions { margin-top: 40px; }
+.person { grid-column: 9 / -1; display: grid; grid-template-columns: minmax(0, 168px) minmax(0, 1fr); gap: 20px; align-items: end; }
+.portrait { aspect-ratio: 4 / 5; }
+.person figcaption { display: grid; gap: 4px; font-size: .9375rem; line-height: 1.45; color: #d6d6d6; }
+.person b { color: #fff; font-size: 1rem; }
+.cta .cap-under { color: #bdbdbd; margin-top: 8px; }
+
+/* ---------- Footer ---------- */
+.site-footer { background: var(--paper-2); border-top: 1px solid var(--line); padding: 64px 0 48px; font-size: .9375rem; }
+.site-footer .cols { display: grid; grid-template-columns: 2fr repeat(4, 1fr); gap: 32px; }
+.site-footer .brand .sk { margin-top: 20px; max-width: 30ch; }
+.site-footer h2 { font-size: 13px; line-height: 1.5; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 8px; }
+.site-footer li a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; }
+.site-footer li a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.site-footer .bottom { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; font-size: .875rem; color: var(--ink-3); }
+.footer-links a { display: inline-flex; align-items: center; min-height: 44px; }
+
+.mbar { display: none; }
+
+/* ================= Responsive ================= */
+
+/* full nav needs ~1100px; burger below that */
+@media (max-width: 1120px) {
+  .nav { display: none; }
+  .menu { display: block; }
+}
+
+/* narrower laptops: the story text column gets five columns instead of four */
+@media (min-width: 1000px) and (max-width: 1199px) {
+  .story-media { grid-column: 1 / 8; }
+  .story-text { grid-column: 9 / 14; }
+}
+
+/* small tablets: stack the spreads, keep the grid */
+@media (max-width: 999px) {
+  .hero-line { grid-template-columns: minmax(0, 1fr) auto; }
+  .hero-lead { grid-column: 1; }
+  .hero-actions { grid-column: 2; }
+  .yacht-row h2 { grid-column: 1 / -1; margin-bottom: 16px; }
+  .yacht-text { grid-column: 1 / span 7; }
+  .yacht-buy { grid-column: 8 / -1; }
+  .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .steps li:nth-child(n+3) { margin-top: 32px; }
+  .story-grid { display: block; }
+  .story-media { height: auto; min-height: 0; aspect-ratio: 3 / 2; }
+  .story-text { max-width: calc(var(--max) + 2 * var(--margin)); margin: 40px auto 0; padding-left: var(--margin); padding-right: var(--margin); gap: 32px; }
+  .reviews-head { grid-column: 1 / -1; margin-bottom: 40px; }
+  .reviews-list { grid-column: 1 / -1; }
+  .trade-row h2 { grid-column: 1 / -1; margin-bottom: 16px; }
+  .trade-row .sk { grid-column: 1 / span 7; }
+  .trade-row .btn { grid-column: 8 / -1; }
+  .cta-main { grid-column: 1 / span 7; }
+  .person { grid-column: 8 / -1; grid-template-columns: 1fr; }
+  .portrait { width: 140px; }
+  .site-footer .cols { grid-template-columns: repeat(4, 1fr); }
+  .site-footer .brand { grid-column: 1 / -1; }
+}
+
+/* ============ Phones ============ */
+@media (max-width: 768px) {
+  :root { --header: 64px; --gutter: 16px; --sec: 72px; --pad-screen: 48px; --fs-h2: 1.875rem; --fs-h3: 1.75rem; }
+  body { font-size: 1.0625rem; }
+  html { scroll-padding-top: 0; scroll-padding-bottom: 72px; }
+
+  /* hero: 9:16 crop, copy at the foot, one button and the cue on a row */
+  .hero h1 { font-size: clamp(2.25rem, 10.2vw, 3rem); }
+  .hero-line { display: block; margin-top: 20px; padding-top: 16px; }
+  .hero-lead { font-size: 1.125rem; }
+  .hero-actions { margin-top: 20px; justify-self: stretch; justify-content: space-between; gap: 16px; }
+  .hero-actions .btn { flex: 1; }
+  .hero .cap { max-width: calc(100% - 96px); }
+
+  /* where we go: stacked tall cards, 4:5, text on the photo */
+  .where { padding: 48px 0 64px; }
+  .where-grid { row-gap: 24px; }
+  .where-head { display: block; }
+  .where-head h2 { margin-bottom: 16px; }
+  .where-panels { grid-template-columns: 1fr; gap: 16px; }
+  .map { width: 100%; }
+  .map-plate { aspect-ratio: 16 / 9; }
+
+  /* yacht: still the odd one out, landscape 4:3 against the portrait cards */
+  .yacht { padding-top: 0; }
+  .pano { height: auto; aspect-ratio: 4 / 3; }
+  .yacht-row { display: block; padding-top: 24px; }
+  .yacht-row h2 { margin-bottom: 12px; }
+  .yacht-buy { justify-self: stretch; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 16px; margin-top: 20px; padding-top: 8px; border-top: 1px solid var(--line); text-align: left; }
+
+  /* steps: a numbered list, numeral beside the step */
+  .split-head { display: block; margin-bottom: 32px; }
+  .split-head h2 { margin-bottom: 16px; }
+  .steps { grid-template-columns: 1fr; }
+  .steps li, .steps li:nth-child(n+3) { display: grid; grid-template-columns: 52px minmax(0, 1fr); column-gap: 16px; padding: 20px 0 4px; margin: 0; }
+  .num { grid-row: 1 / span 2; font-size: 2.75rem; margin: 0; }
+  .steps h3 { margin-bottom: 8px; }
+
+  /* story: full-bleed 4:5 still, text under it */
+  .story { padding-top: 0; }
+  .story-media { aspect-ratio: 4 / 5; }
+  .story-media .pause { top: 16px; right: 16px; }
+  .story-media .cap { max-width: calc(100% - 96px); }
+  .story-text { margin-top: 28px; gap: 28px; }
+  .actions .btn { flex: 1 1 100%; }
+  .actions .link-arrow { flex: 1 1 100%; justify-content: center; }
+
+  .reviews-grid, .reviews-list { display: block; }
+  .reviews-head { margin-bottom: 24px; }
+  .review { padding: 24px 0; }
+  .review.is-lead { padding: 0 0 28px; }
+
+  .trade-row { display: block; }
+  .trade-row h2 { margin-bottom: 0; }
+  .trade-row .sk { margin: 16px 0 24px; }
+  .trade-row .btn { width: 100%; }
+
+  .cta-grid { display: block; }
+  .person { margin-top: 48px; grid-template-columns: 112px minmax(0, 1fr); gap: 16px; }
+  .portrait { width: auto; }
+  .cta .actions .btn { flex: 1 1 100%; }
+
+  .site-footer { padding: 48px 0 96px; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; gap: 24px 16px; }
+  .site-footer .bottom { flex-direction: column; }
+
+  /* sticky contact bar: hidden over the hero, forms and footer (wf.js) */
+  .mbar { display: grid; grid-template-columns: 1fr auto; gap: 8px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: var(--paper); border-top: 1px solid var(--line); padding: 8px 16px calc(8px + env(safe-area-inset-bottom)); }
+  .mbar.is-ready { transition: transform .25s ease, visibility .25s; }   /* editorial.js: transitions start after arming, so no slide-out on load */
+  .mbar .btn { min-height: 44px; padding: 0 16px; }
+  .mbar.is-armed:not(.is-on) { transform: translateY(100%); visibility: hidden; }
+}
+
+/* Short screens (phone turned sideways): nothing is forced to screen height */
+@media (max-height: 560px) {
+  .hero { height: auto; min-height: 0; }
+  .hero .media { padding-top: 96px; }
+  .story-media { height: auto; min-height: 0; aspect-ratio: 16 / 9; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; }
+}

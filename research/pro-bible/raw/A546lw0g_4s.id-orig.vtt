@@ -1,0 +1,2624 @@
+WEBVTT
+Kind: captions
+Language: id
+
+00:00:00.439 --> 00:00:02.327 align:start position:0%
+ 
+Dalam<00:00:00.737><c> video</c><00:00:01.035><c> ini</c><00:00:01.184><c>,</c><00:00:01.283><c> Anda</c><00:00:01.532><c> akan</c><00:00:01.780><c> mempelajari</c>
+
+00:00:02.327 --> 00:00:02.376 align:start position:0%
+Dalam video ini, Anda akan mempelajari
+ 
+
+00:00:02.376 --> 00:00:04.165 align:start position:0%
+Dalam video ini, Anda akan mempelajari
+ cara<00:00:02.625><c> mengonfigurasi</c><00:00:03.370><c> konversi</c><00:00:03.817><c> di</c><00:00:03.966><c> GA4</c><00:00:04.115><c>,</c>
+
+00:00:04.165 --> 00:00:04.215 align:start position:0%
+ cara mengonfigurasi konversi di GA4,
+ 
+
+00:00:04.215 --> 00:00:07.037 align:start position:0%
+ cara mengonfigurasi konversi di GA4,
+ Google<00:00:04.562><c> Analytics</c><00:00:05.059><c> 4</c><00:00:05.109><c>.</c><00:00:06.419><c> Penting</c><00:00:06.799><c> untuk</c>
+
+00:00:07.037 --> 00:00:07.085 align:start position:0%
+ Google Analytics 4. Penting untuk
+ 
+
+00:00:07.085 --> 00:00:08.846 align:start position:0%
+ Google Analytics 4. Penting untuk
+ meluangkan<00:00:07.608><c> waktu</c><00:00:07.894><c> melakukan</c><00:00:08.370><c> ini</c><00:00:08.560><c> karena</c>
+
+00:00:08.846 --> 00:00:08.893 align:start position:0%
+ meluangkan waktu melakukan ini karena
+ 
+
+00:00:08.893 --> 00:00:10.464 align:start position:0%
+ meluangkan waktu melakukan ini karena
+ konversi<00:00:09.322><c> digunakan</c><00:00:09.797><c> untuk</c><00:00:10.083><c> mengukur</c>
+
+00:00:10.464 --> 00:00:10.511 align:start position:0%
+ konversi digunakan untuk mengukur
+ 
+
+00:00:10.511 --> 00:00:12.177 align:start position:0%
+ konversi digunakan untuk mengukur
+ tindakan<00:00:10.940><c> terpenting</c><00:00:11.463><c> yang</c><00:00:11.701><c> terjadi</c><00:00:12.082><c> di</c>
+
+00:00:12.177 --> 00:00:12.225 align:start position:0%
+ tindakan terpenting yang terjadi di
+ 
+
+00:00:12.225 --> 00:00:15.743 align:start position:0%
+ tindakan terpenting yang terjadi di
+ situs<00:00:12.510><c> web</c><00:00:12.701><c> Anda</c><00:00:12.891><c>.</c><00:00:14.559><c> Misalnya</c><00:00:14.989><c>,</c><00:00:15.097><c> Anda</c><00:00:15.366><c> mungkin</c>
+
+00:00:15.743 --> 00:00:15.796 align:start position:0%
+ situs web Anda. Misalnya, Anda mungkin
+ 
+
+00:00:15.796 --> 00:00:17.519 align:start position:0%
+ situs web Anda. Misalnya, Anda mungkin
+ ingin<00:00:16.119><c> melacak</c><00:00:16.550><c> orang</c><00:00:16.873><c> yang</c><00:00:17.142><c> mengisi</c>
+
+00:00:17.519 --> 00:00:17.572 align:start position:0%
+ ingin melacak orang yang mengisi
+ 
+
+00:00:17.572 --> 00:00:19.348 align:start position:0%
+ ingin melacak orang yang mengisi
+ formulir<00:00:18.003><c>,</c><00:00:18.111><c> mendaftar</c><00:00:18.649><c> buletin</c><00:00:19.025><c>,</c><00:00:19.133><c> atau</c>
+
+00:00:19.348 --> 00:00:19.402 align:start position:0%
+ formulir, mendaftar buletin, atau
+ 
+
+00:00:19.402 --> 00:00:26.035 align:start position:0%
+ formulir, mendaftar buletin, atau
+ melakukan<00:00:19.940><c> pembelian</c><00:00:20.425><c>.</c><00:00:25.139><c> Dalam</c><00:00:25.475><c> video</c><00:00:25.811><c> ini</c><00:00:25.979><c>,</c>
+
+00:00:26.035 --> 00:00:26.091 align:start position:0%
+ melakukan pembelian. Dalam video ini,
+ 
+
+00:00:26.091 --> 00:00:27.939 align:start position:0%
+ melakukan pembelian. Dalam video ini,
+ kita<00:00:26.371><c> akan</c><00:00:26.651><c> membahas</c><00:00:27.155><c> dua</c><00:00:27.379><c> cara</c><00:00:27.659><c> untuk</c>
+
+00:00:27.939 --> 00:00:27.995 align:start position:0%
+ kita akan membahas dua cara untuk
+ 
+
+00:00:27.995 --> 00:00:30.296 align:start position:0%
+ kita akan membahas dua cara untuk
+ mengonfigurasi<00:00:28.835><c> konversi</c><00:00:29.283><c>.</c><00:00:29.819><c> Kita</c><00:00:30.084><c> akan</c>
+
+00:00:30.296 --> 00:00:30.349 align:start position:0%
+ mengonfigurasi konversi. Kita akan
+ 
+
+00:00:30.349 --> 00:00:32.366 align:start position:0%
+ mengonfigurasi konversi. Kita akan
+ membahas<00:00:30.827><c> langkah-langkah</c><00:00:31.676><c> untuk</c><00:00:31.994><c> membuat</c>
+
+00:00:32.366 --> 00:00:32.419 align:start position:0%
+ membahas langkah-langkah untuk membuat
+ 
+
+00:00:32.419 --> 00:00:34.488 align:start position:0%
+ membahas langkah-langkah untuk membuat
+ peristiwa<00:00:32.949><c> di</c><00:00:33.108><c> Google</c><00:00:33.480><c> Analytics</c><00:00:33.957><c>,</c><00:00:34.064><c> dan</c><00:00:34.276><c> kita</c>
+
+00:00:34.488 --> 00:00:34.541 align:start position:0%
+ peristiwa di Google Analytics, dan kita
+ 
+
+00:00:34.541 --> 00:00:36.398 align:start position:0%
+ peristiwa di Google Analytics, dan kita
+ juga<00:00:34.806><c> akan</c><00:00:35.072><c> membahas</c><00:00:35.549><c> cara</c><00:00:35.815><c> menggunakan</c>
+
+00:00:36.398 --> 00:00:36.451 align:start position:0%
+ juga akan membahas cara menggunakan
+ 
+
+00:00:36.451 --> 00:00:38.613 align:start position:0%
+ juga akan membahas cara menggunakan
+ Google<00:00:36.823><c> Tag</c><00:00:37.035><c> Manager</c><00:00:37.406><c>.</c><00:00:38.040><c> Penting</c><00:00:38.393><c> untuk</c>
+
+00:00:38.613 --> 00:00:38.657 align:start position:0%
+ Google Tag Manager. Penting untuk
+ 
+
+00:00:38.657 --> 00:00:40.334 align:start position:0%
+ Google Tag Manager. Penting untuk
+ ditegaskan<00:00:39.143><c> bahwa</c><00:00:39.408><c> kita</c><00:00:39.628><c> melacak</c><00:00:39.981><c> konversi</c>
+
+00:00:40.334 --> 00:00:40.378 align:start position:0%
+ ditegaskan bahwa kita melacak konversi
+ 
+
+00:00:40.378 --> 00:00:41.879 align:start position:0%
+ ditegaskan bahwa kita melacak konversi
+ menggunakan<00:00:40.908><c> peristiwa</c><00:00:41.349><c> penting</c><00:00:41.702><c> (</c><00:00:41.746><c>key</c>
+
+00:00:41.879 --> 00:00:41.923 align:start position:0%
+ menggunakan peristiwa penting (key
+ 
+
+00:00:41.923 --> 00:00:43.962 align:start position:0%
+ menggunakan peristiwa penting (key
+ events<00:00:42.188><c>)</c><00:00:42.276><c> di</c><00:00:42.408><c> Google</c><00:00:42.717><c> Analytics</c><00:00:43.114><c>.</c><00:00:43.519><c> Jadi</c><00:00:43.696><c>,</c><00:00:43.784><c> saat</c>
+
+00:00:43.962 --> 00:00:44.006 align:start position:0%
+ events) di Google Analytics. Jadi, saat
+ 
+
+00:00:44.006 --> 00:00:45.380 align:start position:0%
+ events) di Google Analytics. Jadi, saat
+ Anda<00:00:44.228><c> membuka</c><00:00:44.582><c> laporan</c><00:00:44.892><c>,</c><00:00:44.981><c> Anda</c><00:00:45.203><c> akan</c>
+
+00:00:45.380 --> 00:00:45.424 align:start position:0%
+ Anda membuka laporan, Anda akan
+ 
+
+00:00:45.424 --> 00:00:46.975 align:start position:0%
+ Anda membuka laporan, Anda akan
+ menggunakan<00:00:45.956><c> peristiwa</c><00:00:46.399><c> penting</c><00:00:46.754><c> untuk</c>
+
+00:00:46.975 --> 00:00:47.020 align:start position:0%
+ menggunakan peristiwa penting untuk
+ 
+
+00:00:47.020 --> 00:00:48.615 align:start position:0%
+ menggunakan peristiwa penting untuk
+ memahami<00:00:47.418><c> apakah</c><00:00:47.729><c> pengunjung</c><00:00:48.216><c> melakukan</c>
+
+00:00:48.615 --> 00:00:48.659 align:start position:0%
+ memahami apakah pengunjung melakukan
+ 
+
+00:00:48.659 --> 00:00:51.379 align:start position:0%
+ memahami apakah pengunjung melakukan
+ konversi<00:00:49.058><c> di</c><00:00:49.191><c> situs</c><00:00:49.457><c> Anda</c><00:00:49.634><c>.</c><00:00:50.339><c> Oke</c><00:00:50.561><c>,</c><00:00:50.710><c> mari</c><00:00:51.081><c> kita</c>
+
+00:00:51.379 --> 00:00:51.453 align:start position:0%
+ konversi di situs Anda. Oke, mari kita
+ 
+
+00:00:51.453 --> 00:00:54.892 align:start position:0%
+ konversi di situs Anda. Oke, mari kita
+ mulai<00:00:51.824><c>.</c><00:00:52.939><c> Kita</c><00:00:53.287><c> sedang</c><00:00:53.776><c> melihat</c><00:00:54.334><c> properti</c>
+
+00:00:54.892 --> 00:00:54.962 align:start position:0%
+ mulai. Kita sedang melihat properti
+ 
+
+00:00:54.962 --> 00:00:57.431 align:start position:0%
+ mulai. Kita sedang melihat properti
+ demo<00:00:55.311><c> GA4</c><00:00:55.590><c> saya</c><00:00:55.869><c>.</c><00:00:56.399><c> Jadi</c><00:00:56.605><c>,</c><00:00:56.708><c> mari</c><00:00:56.966><c> kita</c><00:00:57.224><c> buka</c>
+
+00:00:57.431 --> 00:00:57.482 align:start position:0%
+ demo GA4 saya. Jadi, mari kita buka
+ 
+
+00:00:57.482 --> 00:01:03.696 align:start position:0%
+ demo GA4 saya. Jadi, mari kita buka
+ menu<00:00:57.740><c> admin</c><00:01:00.959><c> lalu</c><00:01:01.447><c> pilih</c><00:01:02.034><c> tampilan</c><00:01:02.914><c> data</c><00:01:03.403><c> dan</c>
+
+00:01:03.696 --> 00:01:03.794 align:start position:0%
+ menu admin lalu pilih tampilan data dan
+ 
+
+00:01:03.794 --> 00:01:07.744 align:start position:0%
+ menu admin lalu pilih tampilan data dan
+ pilih<00:01:04.381><c> peristiwa</c><00:01:05.261><c>.</c><00:01:06.819><c> Saat</c><00:01:07.050><c> ini</c><00:01:07.235><c> kita</c><00:01:07.466><c> sedang</c>
+
+00:01:07.744 --> 00:01:07.790 align:start position:0%
+ pilih peristiwa. Saat ini kita sedang
+ 
+
+00:01:07.790 --> 00:01:10.718 align:start position:0%
+ pilih peristiwa. Saat ini kita sedang
+ melihat<00:01:08.160><c> tab</c><00:01:08.346><c> peristiwa</c><00:01:08.808><c> penting</c><00:01:09.132><c>.</c><00:01:10.539><c> Ini</c>
+
+00:01:10.718 --> 00:01:10.777 align:start position:0%
+ melihat tab peristiwa penting. Ini
+ 
+
+00:01:10.777 --> 00:01:13.045 align:start position:0%
+ melihat tab peristiwa penting. Ini
+ menampilkan<00:01:11.493><c> semua</c><00:01:11.851><c> peristiwa</c><00:01:12.448><c> yang</c><00:01:12.746><c> telah</c>
+
+00:01:13.045 --> 00:01:13.104 align:start position:0%
+ menampilkan semua peristiwa yang telah
+ 
+
+00:01:13.104 --> 00:01:15.252 align:start position:0%
+ menampilkan semua peristiwa yang telah
+ dikonfigurasi<00:01:13.940><c> untuk</c><00:01:14.298><c> melacak</c><00:01:14.775><c> tindakan</c>
+
+00:01:15.252 --> 00:01:15.312 align:start position:0%
+ dikonfigurasi untuk melacak tindakan
+ 
+
+00:01:15.312 --> 00:01:17.639 align:start position:0%
+ dikonfigurasi untuk melacak tindakan
+ konversi<00:01:15.849><c> yang</c><00:01:16.147><c> terjadi</c><00:01:16.625><c> di</c><00:01:16.804><c> situs</c><00:01:17.162><c> web</c><00:01:17.400><c> kita</c>
+
+00:01:17.639 --> 00:01:20.592 align:start position:0%
+ konversi yang terjadi di situs web kita
+.<00:01:18.739><c> Jika</c><00:01:19.003><c> ingin</c><00:01:19.321><c> mengonfigurasi</c><00:01:20.116><c> peristiwa</c>
+
+00:01:20.592 --> 00:01:20.645 align:start position:0%
+. Jika ingin mengonfigurasi peristiwa
+ 
+
+00:01:20.645 --> 00:01:22.552 align:start position:0%
+. Jika ingin mengonfigurasi peristiwa
+ lain<00:01:20.910><c> sebagai</c><00:01:21.334><c> peristiwa</c><00:01:21.863><c> penting</c><00:01:22.234><c>,</c><00:01:22.340><c> kita</c>
+
+00:01:22.552 --> 00:01:22.605 align:start position:0%
+ lain sebagai peristiwa penting, kita
+ 
+
+00:01:22.605 --> 00:01:24.459 align:start position:0%
+ lain sebagai peristiwa penting, kita
+ bisa<00:01:22.870><c> memilih</c><00:01:23.293><c> tab</c><00:01:23.505><c> peristiwa</c><00:01:24.035><c> terbaru</c><00:01:24.406><c>.</c>
+
+00:01:24.459 --> 00:01:25.740 align:start position:0%
+ bisa memilih tab peristiwa terbaru.
+ 
+
+00:01:25.740 --> 00:01:28.166 align:start position:0%
+ 
+ Sekarang<00:01:26.330><c> kita</c><00:01:26.657><c> melihat</c><00:01:27.182><c> semua</c><00:01:27.575><c> peristiwa</c>
+
+00:01:28.166 --> 00:01:28.231 align:start position:0%
+ Sekarang kita melihat semua peristiwa
+ 
+
+00:01:28.231 --> 00:01:30.723 align:start position:0%
+ Sekarang kita melihat semua peristiwa
+ yang<00:01:28.559><c> baru</c><00:01:28.887><c> saja</c><00:01:29.215><c> dikumpulkan</c><00:01:30.002><c> ke</c><00:01:30.198><c> properti</c>
+
+00:01:30.723 --> 00:01:30.788 align:start position:0%
+ yang baru saja dikumpulkan ke properti
+ 
+
+00:01:30.788 --> 00:01:33.597 align:start position:0%
+ yang baru saja dikumpulkan ke properti
+ GA4<00:01:31.051><c> kita</c><00:01:31.313><c>.</c><00:01:32.159><c> Dan</c><00:01:32.389><c> di</c><00:01:32.561><c> sebelah</c><00:01:33.022><c> kiri</c><00:01:33.252><c>,</c><00:01:33.367><c> kita</c>
+
+00:01:33.597 --> 00:01:33.655 align:start position:0%
+ GA4 kita. Dan di sebelah kiri, kita
+ 
+
+00:01:33.655 --> 00:01:37.086 align:start position:0%
+ GA4 kita. Dan di sebelah kiri, kita
+ bisa<00:01:33.942><c> melihat</c><00:01:34.403><c> ada</c><00:01:34.633><c> kolom</c><00:01:34.978><c> bintang</c><00:01:35.381><c>.</c><00:01:36.840><c> Jika</c>
+
+00:01:37.086 --> 00:01:37.147 align:start position:0%
+ bisa melihat ada kolom bintang. Jika
+ 
+
+00:01:37.147 --> 00:01:39.241 align:start position:0%
+ bisa melihat ada kolom bintang. Jika
+ bintang<00:01:37.640><c> berwarna</c><00:01:38.194><c> abu-abu</c><00:01:38.687><c> pekat</c><00:01:39.056><c> dan</c>
+
+00:01:39.241 --> 00:01:39.302 align:start position:0%
+ bintang berwarna abu-abu pekat dan
+ 
+
+00:01:39.302 --> 00:01:41.642 align:start position:0%
+ bintang berwarna abu-abu pekat dan
+ bukan<00:01:39.672><c> hanya</c><00:01:40.041><c> garis</c><00:01:40.411><c> luar</c><00:01:40.657><c>,</c><00:01:40.780><c> ini</c><00:01:41.026><c> menandakan</c>
+
+00:01:41.642 --> 00:01:41.704 align:start position:0%
+ bukan hanya garis luar, ini menandakan
+ 
+
+00:01:41.704 --> 00:01:43.735 align:start position:0%
+ bukan hanya garis luar, ini menandakan
+ peristiwa<00:01:42.319><c> tersebut</c><00:01:42.873><c> telah</c><00:01:43.243><c> ditandai</c>
+
+00:01:43.735 --> 00:01:43.797 align:start position:0%
+ peristiwa tersebut telah ditandai
+ 
+
+00:01:43.797 --> 00:01:45.706 align:start position:0%
+ peristiwa tersebut telah ditandai
+ sebagai<00:01:44.289><c> peristiwa</c><00:01:44.905><c> penting</c><00:01:45.398><c> untuk</c>
+
+00:01:45.706 --> 00:01:45.767 align:start position:0%
+ sebagai peristiwa penting untuk
+ 
+
+00:01:45.767 --> 00:01:48.852 align:start position:0%
+ sebagai peristiwa penting untuk
+ melaporkan<00:01:46.444><c> konversi</c><00:01:46.937><c>.</c><00:01:48.059><c> Jadi</c><00:01:48.270><c>,</c><00:01:48.376><c> jika</c><00:01:48.641><c> Anda</c>
+
+00:01:48.852 --> 00:01:48.905 align:start position:0%
+ melaporkan konversi. Jadi, jika Anda
+ 
+
+00:01:48.905 --> 00:01:50.810 align:start position:0%
+ melaporkan konversi. Jadi, jika Anda
+ melihat<00:01:49.328><c> daftar</c><00:01:49.699><c> peristiwa</c><00:01:50.228><c> terbaru</c><00:01:50.651><c> dan</c>
+
+00:01:50.810 --> 00:01:50.863 align:start position:0%
+ melihat daftar peristiwa terbaru dan
+ 
+
+00:01:50.863 --> 00:01:52.450 align:start position:0%
+ melihat daftar peristiwa terbaru dan
+ menemukan<00:01:51.392><c> peristiwa</c><00:01:51.921><c> yang</c><00:01:52.186><c> ingin</c>
+
+00:01:52.450 --> 00:01:52.503 align:start position:0%
+ menemukan peristiwa yang ingin
+ 
+
+00:01:52.503 --> 00:01:54.355 align:start position:0%
+ menemukan peristiwa yang ingin
+ digunakan<00:01:53.032><c> untuk</c><00:01:53.350><c> konversi</c><00:01:53.773><c>,</c><00:01:53.879><c> Anda</c><00:01:54.143><c> bisa</c>
+
+00:01:54.355 --> 00:01:54.408 align:start position:0%
+ digunakan untuk konversi, Anda bisa
+ 
+
+00:01:54.408 --> 00:01:56.419 align:start position:0%
+ digunakan untuk konversi, Anda bisa
+ menandainya<00:01:55.043><c> sebagai</c><00:01:55.466><c> peristiwa</c><00:01:55.995><c> penting</c><00:01:56.366><c>.</c>
+
+00:01:56.419 --> 00:01:57.059 align:start position:0%
+ menandainya sebagai peristiwa penting.
+ 
+
+00:01:57.059 --> 00:01:58.584 align:start position:0%
+ menandainya sebagai peristiwa penting.
+ Untuk<00:01:57.306><c> melakukan</c><00:01:57.718><c> ini</c><00:01:57.842><c>,</c><00:01:57.924><c> kita</c><00:01:58.131><c> hanya</c><00:01:58.378><c> perlu</c>
+
+00:01:58.584 --> 00:01:58.625 align:start position:0%
+ Untuk melakukan ini, kita hanya perlu
+ 
+
+00:01:58.625 --> 00:02:02.295 align:start position:0%
+ Untuk melakukan ini, kita hanya perlu
+ mengeklik<00:01:59.038><c> bintang</c><00:01:59.367><c> tersebut</c><00:01:59.697><c>.</c><00:02:01.699><c> Agar</c><00:02:01.997><c> dapat</c>
+
+00:02:02.295 --> 00:02:02.355 align:start position:0%
+ mengeklik bintang tersebut. Agar dapat
+ 
+
+00:02:02.355 --> 00:02:04.504 align:start position:0%
+ mengeklik bintang tersebut. Agar dapat
+ menandai<00:02:02.892><c> peristiwa</c><00:02:03.489><c> sebagai</c><00:02:03.967><c> peristiwa</c>
+
+00:02:04.504 --> 00:02:04.564 align:start position:0%
+ menandai peristiwa sebagai peristiwa
+ 
+
+00:02:04.564 --> 00:02:06.712 align:start position:0%
+ menandai peristiwa sebagai peristiwa
+ penting<00:02:04.981><c>,</c><00:02:05.101><c> Anda</c><00:02:05.399><c> memerlukan</c><00:02:06.056><c> izin</c><00:02:06.354><c> editor</c>
+
+00:02:06.712 --> 00:02:06.772 align:start position:0%
+ penting, Anda memerlukan izin editor
+ 
+
+00:02:06.772 --> 00:02:08.742 align:start position:0%
+ penting, Anda memerlukan izin editor
+ atau<00:02:07.070><c> administrator</c><00:02:07.906><c> untuk</c><00:02:08.264><c> properti</c>
+
+00:02:08.742 --> 00:02:08.801 align:start position:0%
+ atau administrator untuk properti
+ 
+
+00:02:08.801 --> 00:02:11.783 align:start position:0%
+ atau administrator untuk properti
+ tersebut<00:02:09.279><c>.</c><00:02:10.039><c> Jika</c><00:02:10.339><c> Anda</c><00:02:10.640><c> tidak</c><00:02:11.001><c> memiliki</c><00:02:11.542><c> izin</c>
+
+00:02:11.783 --> 00:02:11.843 align:start position:0%
+ tersebut. Jika Anda tidak memiliki izin
+ 
+
+00:02:11.843 --> 00:02:13.707 align:start position:0%
+ tersebut. Jika Anda tidak memiliki izin
+ yang<00:02:12.143><c> sesuai</c><00:02:12.504><c>,</c><00:02:12.625><c> Anda</c><00:02:12.925><c> perlu</c><00:02:13.286><c> meminta</c>
+
+00:02:13.707 --> 00:02:13.767 align:start position:0%
+ yang sesuai, Anda perlu meminta
+ 
+
+00:02:13.767 --> 00:02:15.692 align:start position:0%
+ yang sesuai, Anda perlu meminta
+ seseorang<00:02:14.369><c> yang</c><00:02:14.669><c> memilikinya</c><00:02:15.391><c> untuk</c>
+
+00:02:15.692 --> 00:02:15.752 align:start position:0%
+ seseorang yang memilikinya untuk
+ 
+
+00:02:15.752 --> 00:02:17.857 align:start position:0%
+ seseorang yang memilikinya untuk
+ mengonfigurasinya<00:02:16.834><c> atau</c><00:02:17.135><c> meminta</c><00:02:17.616><c> izin</c>
+
+00:02:17.857 --> 00:02:17.917 align:start position:0%
+ mengonfigurasinya atau meminta izin
+ 
+
+00:02:17.917 --> 00:02:21.094 align:start position:0%
+ mengonfigurasinya atau meminta izin
+ Anda<00:02:18.218><c> ditingkatkan</c><00:02:18.939><c>.</c><00:02:20.099><c> Karena</c><00:02:20.447><c> saya</c><00:02:20.696><c> memiliki</c>
+
+00:02:21.094 --> 00:02:21.143 align:start position:0%
+ Anda ditingkatkan. Karena saya memiliki
+ 
+
+00:02:21.143 --> 00:02:23.034 align:start position:0%
+ Anda ditingkatkan. Karena saya memiliki
+ tingkat<00:02:21.541><c> izin</c><00:02:21.790><c> yang</c><00:02:22.039><c> tepat</c><00:02:22.338><c> untuk</c><00:02:22.636><c> properti</c>
+
+00:02:23.034 --> 00:02:23.084 align:start position:0%
+ tingkat izin yang tepat untuk properti
+ 
+
+00:02:23.084 --> 00:02:24.875 align:start position:0%
+ tingkat izin yang tepat untuk properti
+ ini<00:02:23.233><c>,</c><00:02:23.333><c> peristiwa</c><00:02:23.830><c> ini</c><00:02:24.029><c> sekarang</c><00:02:24.477><c> ditandai</c>
+
+00:02:24.875 --> 00:02:24.925 align:start position:0%
+ ini, peristiwa ini sekarang ditandai
+ 
+
+00:02:24.925 --> 00:02:28.684 align:start position:0%
+ ini, peristiwa ini sekarang ditandai
+ sebagai<00:02:25.323><c> peristiwa</c><00:02:25.820><c> penting</c><00:02:26.169><c>.</c><00:02:27.919><c> Selanjutnya</c><00:02:28.621><c>,</c>
+
+00:02:28.684 --> 00:02:28.748 align:start position:0%
+ sebagai peristiwa penting. Selanjutnya,
+ 
+
+00:02:28.748 --> 00:02:31.046 align:start position:0%
+ sebagai peristiwa penting. Selanjutnya,
+ kapan<00:02:29.131><c> pun</c><00:02:29.387><c> peristiwa</c><00:02:30.025><c> ini</c><00:02:30.280><c> dikumpulkan</c><00:02:30.982><c>,</c>
+
+00:02:31.046 --> 00:02:31.110 align:start position:0%
+ kapan pun peristiwa ini dikumpulkan,
+ 
+
+00:02:31.110 --> 00:02:33.344 align:start position:0%
+ kapan pun peristiwa ini dikumpulkan,
+ itu<00:02:31.365><c> akan</c><00:02:31.684><c> dihitung</c><00:02:32.259><c> sebagai</c><00:02:32.770><c> peristiwa</c>
+
+00:02:33.344 --> 00:02:33.408 align:start position:0%
+ itu akan dihitung sebagai peristiwa
+ 
+
+00:02:33.408 --> 00:02:36.469 align:start position:0%
+ itu akan dihitung sebagai peristiwa
+ penting<00:02:33.855><c>.</c><00:02:35.379><c> Jadi</c><00:02:35.568><c>,</c><00:02:35.663><c> jika</c><00:02:35.900><c> Anda</c><00:02:36.137><c> melihat</c>
+
+00:02:36.469 --> 00:02:36.517 align:start position:0%
+ penting. Jadi, jika Anda melihat
+ 
+
+00:02:36.517 --> 00:02:38.224 align:start position:0%
+ penting. Jadi, jika Anda melihat
+ peristiwa<00:02:36.991><c> yang</c><00:02:37.228><c> ingin</c><00:02:37.512><c> dilacak</c><00:02:37.892><c> sebagai</c>
+
+00:02:38.224 --> 00:02:38.271 align:start position:0%
+ peristiwa yang ingin dilacak sebagai
+ 
+
+00:02:38.271 --> 00:02:40.025 align:start position:0%
+ peristiwa yang ingin dilacak sebagai
+ konversi<00:02:38.650><c>,</c><00:02:38.745><c> ini</c><00:02:38.935><c> sudah</c><00:02:39.219><c> cukup</c><00:02:39.456><c>,</c><00:02:39.551><c> tetapi</c><00:02:39.883><c> ada</c>
+
+00:02:40.025 --> 00:02:40.073 align:start position:0%
+ konversi, ini sudah cukup, tetapi ada
+ 
+
+00:02:40.073 --> 00:02:41.780 align:start position:0%
+ konversi, ini sudah cukup, tetapi ada
+ kalanya<00:02:40.452><c> Anda</c><00:02:40.689><c> tidak</c><00:02:40.974><c> melihat</c><00:02:41.353><c> peristiwa</c>
+
+00:02:41.780 --> 00:02:41.827 align:start position:0%
+ kalanya Anda tidak melihat peristiwa
+ 
+
+00:02:41.827 --> 00:02:45.155 align:start position:0%
+ kalanya Anda tidak melihat peristiwa
+ yang<00:02:42.064><c> tercantum</c><00:02:42.491><c>.</c><00:02:44.299><c> Atau</c><00:02:44.524><c> bagaimana</c><00:02:44.975><c> jika</c>
+
+00:02:45.155 --> 00:02:45.200 align:start position:0%
+ yang tercantum. Atau bagaimana jika
+ 
+
+00:02:45.200 --> 00:02:46.779 align:start position:0%
+ yang tercantum. Atau bagaimana jika
+ Anda<00:02:45.426><c> ingin</c><00:02:45.697><c> melacak</c><00:02:46.057><c> halaman</c><00:02:46.418><c> tertentu</c>
+
+00:02:46.779 --> 00:02:46.824 align:start position:0%
+ Anda ingin melacak halaman tertentu
+ 
+
+00:02:46.824 --> 00:02:48.448 align:start position:0%
+ Anda ingin melacak halaman tertentu
+ seperti<00:02:47.185><c> halaman</c><00:02:47.546><c> terima</c><00:02:47.861><c> kasih</c><00:02:48.132><c> sebagai</c>
+
+00:02:48.448 --> 00:02:48.493 align:start position:0%
+ seperti halaman terima kasih sebagai
+ 
+
+00:02:48.493 --> 00:02:51.505 align:start position:0%
+ seperti halaman terima kasih sebagai
+ konversi<00:02:48.853><c>?</c><00:02:50.099><c> Dalam</c><00:02:50.436><c> hal</c><00:02:50.661><c> ini</c><00:02:50.830><c>,</c><00:02:50.942><c> kita</c><00:02:51.223><c> tidak</c>
+
+00:02:51.505 --> 00:02:51.561 align:start position:0%
+ konversi? Dalam hal ini, kita tidak
+ 
+
+00:02:51.561 --> 00:02:53.698 align:start position:0%
+ konversi? Dalam hal ini, kita tidak
+ bisa<00:02:51.842><c> hanya</c><00:02:52.180><c> menandai</c><00:02:52.686><c> peristiwa</c><00:02:53.248><c> tampilan</c>
+
+00:02:53.698 --> 00:02:53.755 align:start position:0%
+ bisa hanya menandai peristiwa tampilan
+ 
+
+00:02:53.755 --> 00:02:55.611 align:start position:0%
+ bisa hanya menandai peristiwa tampilan
+ halaman<00:02:54.205><c> sebagai</c><00:02:54.655><c> peristiwa</c><00:02:55.217><c> penting</c>
+
+00:02:55.611 --> 00:02:55.667 align:start position:0%
+ halaman sebagai peristiwa penting
+ 
+
+00:02:55.667 --> 00:02:57.805 align:start position:0%
+ halaman sebagai peristiwa penting
+ karena<00:02:56.061><c> itu</c><00:02:56.286><c> berarti</c><00:02:56.736><c> setiap</c><00:02:57.130><c> halaman</c><00:02:57.580><c> yang</c>
+
+00:02:57.805 --> 00:02:57.861 align:start position:0%
+ karena itu berarti setiap halaman yang
+ 
+
+00:02:57.861 --> 00:02:59.661 align:start position:0%
+ karena itu berarti setiap halaman yang
+ dilihat<00:02:58.311><c> orang</c><00:02:58.648><c> di</c><00:02:58.817><c> situs</c><00:02:59.155><c> kita</c><00:02:59.436><c> akan</c>
+
+00:02:59.661 --> 00:02:59.717 align:start position:0%
+ dilihat orang di situs kita akan
+ 
+
+00:02:59.717 --> 00:03:02.560 align:start position:0%
+ dilihat orang di situs kita akan
+ dihitung<00:03:00.223><c> sebagai</c><00:03:00.673><c> konversi</c><00:03:01.123><c>.</c><00:03:02.200><c> Artinya</c><00:03:02.515><c>,</c>
+
+00:03:02.560 --> 00:03:02.605 align:start position:0%
+ dihitung sebagai konversi. Artinya,
+ 
+
+00:03:02.605 --> 00:03:04.226 align:start position:0%
+ dihitung sebagai konversi. Artinya,
+ jika<00:03:02.830><c> Anda</c><00:03:03.055><c> ingin</c><00:03:03.325><c> melacak</c><00:03:03.685><c> sesuatu</c><00:03:04.045><c> yang</c>
+
+00:03:04.226 --> 00:03:04.271 align:start position:0%
+ jika Anda ingin melacak sesuatu yang
+ 
+
+00:03:04.271 --> 00:03:05.756 align:start position:0%
+ jika Anda ingin melacak sesuatu yang
+ lebih<00:03:04.541><c> spesifik</c><00:03:04.946><c> seperti</c><00:03:05.306><c> orang</c><00:03:05.576><c> yang</c>
+
+00:03:05.756 --> 00:03:05.801 align:start position:0%
+ lebih spesifik seperti orang yang
+ 
+
+00:03:05.801 --> 00:03:07.422 align:start position:0%
+ lebih spesifik seperti orang yang
+ melihat<00:03:06.162><c> halaman</c><00:03:06.522><c> ucapan</c><00:03:06.837><c> terima</c><00:03:07.152><c> kasih</c><00:03:07.377><c>,</c>
+
+00:03:07.422 --> 00:03:07.467 align:start position:0%
+ melihat halaman ucapan terima kasih,
+ 
+
+00:03:07.467 --> 00:03:08.953 align:start position:0%
+ melihat halaman ucapan terima kasih,
+ kita<00:03:07.692><c> perlu</c><00:03:07.963><c> membuat</c><00:03:08.323><c> peristiwa</c><00:03:08.773><c> baru</c>
+
+00:03:08.953 --> 00:03:08.998 align:start position:0%
+ kita perlu membuat peristiwa baru
+ 
+
+00:03:08.998 --> 00:03:12.292 align:start position:0%
+ kita perlu membuat peristiwa baru
+ terlebih<00:03:09.403><c> dahulu</c><00:03:09.673><c>.</c><00:03:11.400><c> Sekarang</c><00:03:11.775><c>,</c><00:03:11.869><c> kita</c><00:03:12.104><c> akan</c>
+
+00:03:12.292 --> 00:03:12.339 align:start position:0%
+ terlebih dahulu. Sekarang, kita akan
+ 
+
+00:03:12.339 --> 00:03:14.124 align:start position:0%
+ terlebih dahulu. Sekarang, kita akan
+ membahas<00:03:12.762><c> langkah-langkah</c><00:03:13.513><c> untuk</c><00:03:13.795><c> membuat</c>
+
+00:03:14.124 --> 00:03:14.171 align:start position:0%
+ membahas langkah-langkah untuk membuat
+ 
+
+00:03:14.171 --> 00:03:16.003 align:start position:0%
+ membahas langkah-langkah untuk membuat
+ peristiwa<00:03:14.641><c> baru</c><00:03:14.875><c> langsung</c><00:03:15.298><c> di</c><00:03:15.439><c> dalam</c><00:03:15.721><c> Google</c>
+
+00:03:16.003 --> 00:03:16.050 align:start position:0%
+ peristiwa baru langsung di dalam Google
+ 
+
+00:03:16.050 --> 00:03:17.897 align:start position:0%
+ peristiwa baru langsung di dalam Google
+ Analytics<00:03:16.473><c>.</c><00:03:16.979><c> Ini</c><00:03:17.154><c> memungkinkan</c><00:03:17.722><c> kita</c>
+
+00:03:17.897 --> 00:03:17.941 align:start position:0%
+ Analytics. Ini memungkinkan kita
+ 
+
+00:03:17.941 --> 00:03:19.647 align:start position:0%
+ Analytics. Ini memungkinkan kita
+ membuat<00:03:18.291><c> peristiwa</c><00:03:18.729><c> berdasarkan</c><00:03:19.254><c> peristiwa</c>
+
+00:03:19.647 --> 00:03:19.691 align:start position:0%
+ membuat peristiwa berdasarkan peristiwa
+ 
+
+00:03:19.691 --> 00:03:21.930 align:start position:0%
+ membuat peristiwa berdasarkan peristiwa
+ yang<00:03:19.910><c> sudah</c><00:03:20.172><c> dikumpulkan</c><00:03:20.697><c> sebelumnya</c><00:03:21.135><c>.</c><00:03:21.799><c> Dan</c>
+
+00:03:21.930 --> 00:03:21.974 align:start position:0%
+ yang sudah dikumpulkan sebelumnya. Dan
+ 
+
+00:03:21.974 --> 00:03:23.553 align:start position:0%
+ yang sudah dikumpulkan sebelumnya. Dan
+ ini<00:03:22.149><c> adalah</c><00:03:22.456><c> opsi</c><00:03:22.676><c> yang</c><00:03:22.895><c> bagus</c><00:03:23.158><c> jika</c><00:03:23.377><c> Anda</c>
+
+00:03:23.553 --> 00:03:23.596 align:start position:0%
+ ini adalah opsi yang bagus jika Anda
+ 
+
+00:03:23.596 --> 00:03:25.000 align:start position:0%
+ ini adalah opsi yang bagus jika Anda
+ ingin<00:03:23.860><c> melacak</c><00:03:24.210><c> orang</c><00:03:24.473><c> yang</c><00:03:24.693><c> melihat</c>
+
+00:03:25.000 --> 00:03:25.044 align:start position:0%
+ ingin melacak orang yang melihat
+ 
+
+00:03:25.044 --> 00:03:26.622 align:start position:0%
+ ingin melacak orang yang melihat
+ halaman<00:03:25.394><c> ucapan</c><00:03:25.701><c> terima</c><00:03:26.008><c> kasih</c><00:03:26.271><c> tertentu</c>
+
+00:03:26.622 --> 00:03:26.666 align:start position:0%
+ halaman ucapan terima kasih tertentu
+ 
+
+00:03:26.666 --> 00:03:29.557 align:start position:0%
+ halaman ucapan terima kasih tertentu
+ sebagai<00:03:27.017><c> peristiwa</c><00:03:27.455><c> utama</c><00:03:27.675><c>.</c><00:03:28.939><c> Kita</c><00:03:29.248><c> masih</c>
+
+00:03:29.557 --> 00:03:29.619 align:start position:0%
+ sebagai peristiwa utama. Kita masih
+ 
+
+00:03:29.619 --> 00:03:31.907 align:start position:0%
+ sebagai peristiwa utama. Kita masih
+ melihat<00:03:30.114><c> setelan</c><00:03:30.608><c> peristiwa</c><00:03:31.227><c> di</c><00:03:31.412><c> properti</c>
+
+00:03:31.907 --> 00:03:31.969 align:start position:0%
+ melihat setelan peristiwa di properti
+ 
+
+00:03:31.969 --> 00:03:34.381 align:start position:0%
+ melihat setelan peristiwa di properti
+ GA4<00:03:32.216><c> dan</c><00:03:32.464><c> kita</c><00:03:32.773><c> bisa</c><00:03:33.082><c> melihat</c><00:03:33.577><c> ada</c><00:03:33.824><c> tombol</c><00:03:34.257><c> di</c>
+
+00:03:34.381 --> 00:03:34.443 align:start position:0%
+ GA4 dan kita bisa melihat ada tombol di
+ 
+
+00:03:34.443 --> 00:03:36.607 align:start position:0%
+ GA4 dan kita bisa melihat ada tombol di
+ bagian<00:03:34.876><c> atas</c><00:03:35.185><c> untuk</c><00:03:35.556><c> membuat</c><00:03:36.051><c> peristiwa</c>
+
+00:03:36.607 --> 00:03:36.669 align:start position:0%
+ bagian atas untuk membuat peristiwa
+ 
+
+00:03:36.669 --> 00:03:40.432 align:start position:0%
+ bagian atas untuk membuat peristiwa
+ baru<00:03:36.917><c>.</c><00:03:37.819><c> Mari</c><00:03:38.042><c> kita</c><00:03:38.265><c> klik</c><00:03:38.488><c> tombol</c><00:03:38.800><c> ini</c><00:03:38.934><c>.</c><00:03:40.219><c> Untuk</c>
+
+00:03:40.432 --> 00:03:40.475 align:start position:0%
+ baru. Mari kita klik tombol ini. Untuk
+ 
+
+00:03:40.475 --> 00:03:41.842 align:start position:0%
+ baru. Mari kita klik tombol ini. Untuk
+ memulai<00:03:40.774><c>,</c><00:03:40.859><c> kita</c><00:03:41.073><c> perlu</c><00:03:41.329><c> memberi</c><00:03:41.671><c> nama</c>
+
+00:03:41.842 --> 00:03:41.885 align:start position:0%
+ memulai, kita perlu memberi nama
+ 
+
+00:03:41.885 --> 00:03:44.603 align:start position:0%
+ memulai, kita perlu memberi nama
+ peristiwa<00:03:42.312><c> baru</c><00:03:42.526><c> kita</c><00:03:42.697><c>.</c><00:03:43.359><c> Saya</c><00:03:43.724><c> akan</c><00:03:44.090><c> menamai</c>
+
+00:03:44.603 --> 00:03:44.676 align:start position:0%
+ peristiwa baru kita. Saya akan menamai
+ 
+
+00:03:44.676 --> 00:03:48.343 align:start position:0%
+ peristiwa baru kita. Saya akan menamai
+ peristiwa<00:03:45.408><c> saya</c><00:03:45.774><c> generate</c><00:03:46.433><c> lead</c><00:03:46.725><c>.</c><00:03:48.180><c> Ini</c>
+
+00:03:48.343 --> 00:03:48.397 align:start position:0%
+ peristiwa saya generate lead. Ini
+ 
+
+00:03:48.397 --> 00:03:50.413 align:start position:0%
+ peristiwa saya generate lead. Ini
+ adalah<00:03:48.779><c> salah</c><00:03:49.105><c> satu</c><00:03:49.378><c> nama</c><00:03:49.650><c> peristiwa</c><00:03:50.195><c> yang</c>
+
+00:03:50.413 --> 00:03:50.467 align:start position:0%
+ adalah salah satu nama peristiwa yang
+ 
+
+00:03:50.467 --> 00:03:52.319 align:start position:0%
+ adalah salah satu nama peristiwa yang
+ direkomendasikan<00:03:51.393><c> Google</c><00:03:51.774><c> dan</c><00:03:51.992><c> sangat</c>
+
+00:03:52.319 --> 00:03:52.373 align:start position:0%
+ direkomendasikan Google dan sangat
+ 
+
+00:03:52.373 --> 00:03:54.498 align:start position:0%
+ direkomendasikan Google dan sangat
+ cocok<00:03:52.700><c> untuk</c><00:03:53.027><c> melacak</c><00:03:53.463><c> saat</c><00:03:53.735><c> orang</c><00:03:54.062><c> berhasil</c>
+
+00:03:54.498 --> 00:03:54.552 align:start position:0%
+ cocok untuk melacak saat orang berhasil
+ 
+
+00:03:54.552 --> 00:03:56.459 align:start position:0%
+ cocok untuk melacak saat orang berhasil
+ mengirimkan<00:03:55.206><c> formulir</c><00:03:55.696><c> di</c><00:03:55.859><c> situs</c><00:03:56.186><c> kita</c><00:03:56.404><c>.</c>
+
+00:03:56.459 --> 00:03:57.559 align:start position:0%
+ mengirimkan formulir di situs kita.
+ 
+
+00:03:57.559 --> 00:03:59.153 align:start position:0%
+ 
+ Selanjutnya<00:03:58.060><c>,</c><00:03:58.151><c> kita</c><00:03:58.379><c> bisa</c><00:03:58.606><c> mengaktifkan</c>
+
+00:03:59.153 --> 00:03:59.199 align:start position:0%
+ Selanjutnya, kita bisa mengaktifkan
+ 
+
+00:03:59.199 --> 00:04:00.839 align:start position:0%
+ Selanjutnya, kita bisa mengaktifkan
+ opsi<00:03:59.426><c> tandai</c><00:03:59.745><c> sebagai</c><00:04:00.110><c> peristiwa</c><00:04:00.565><c> utama</c><00:04:00.793><c>.</c>
+
+00:04:00.839 --> 00:04:01.999 align:start position:0%
+ opsi tandai sebagai peristiwa utama.
+ 
+
+00:04:01.999 --> 00:04:04.087 align:start position:0%
+ 
+ Ini<00:04:02.218><c> berarti</c><00:04:02.658><c> begitu</c><00:04:03.043><c> peristiwa</c><00:04:03.592><c> baru</c><00:04:03.867><c> kita</c>
+
+00:04:04.087 --> 00:04:04.142 align:start position:0%
+ Ini berarti begitu peristiwa baru kita
+ 
+
+00:04:04.142 --> 00:04:06.065 align:start position:0%
+ Ini berarti begitu peristiwa baru kita
+ dipicu<00:04:04.471><c>,</c><00:04:04.581><c> peristiwa</c><00:04:05.131><c> itu</c><00:04:05.350><c> akan</c><00:04:05.625><c> dihitung</c>
+
+00:04:06.065 --> 00:04:06.120 align:start position:0%
+ dipicu, peristiwa itu akan dihitung
+ 
+
+00:04:06.120 --> 00:04:08.918 align:start position:0%
+ dipicu, peristiwa itu akan dihitung
+ sebagai<00:04:06.559><c> peristiwa</c><00:04:07.109><c> utama</c><00:04:07.384><c>.</c><00:04:08.299><c> Sekarang</c><00:04:08.727><c> kita</c>
+
+00:04:08.918 --> 00:04:08.965 align:start position:0%
+ sebagai peristiwa utama. Sekarang kita
+ 
+
+00:04:08.965 --> 00:04:10.727 align:start position:0%
+ sebagai peristiwa utama. Sekarang kita
+ bisa<00:04:09.203><c> menentukan</c><00:04:09.727><c> nilai</c><00:04:10.013><c> untuk</c><00:04:10.299><c> peristiwa</c>
+
+00:04:10.727 --> 00:04:10.775 align:start position:0%
+ bisa menentukan nilai untuk peristiwa
+ 
+
+00:04:10.775 --> 00:04:13.860 align:start position:0%
+ bisa menentukan nilai untuk peristiwa
+ utama<00:04:11.060><c> kita</c><00:04:11.251><c>.</c><00:04:12.299><c> Untuk</c><00:04:12.646><c> peristiwa</c><00:04:13.224><c> utama</c><00:04:13.571><c> saya</c><00:04:13.803><c>,</c>
+
+00:04:13.860 --> 00:04:13.918 align:start position:0%
+ utama kita. Untuk peristiwa utama saya,
+ 
+
+00:04:13.918 --> 00:04:16.117 align:start position:0%
+ utama kita. Untuk peristiwa utama saya,
+ saya<00:04:14.208><c> akan</c><00:04:14.497><c> membiarkan</c><00:04:15.133><c> Dolar</c><00:04:15.480><c> AS</c><00:04:15.654><c> terpilih</c>
+
+00:04:16.117 --> 00:04:16.175 align:start position:0%
+ saya akan membiarkan Dolar AS terpilih
+ 
+
+00:04:16.175 --> 00:04:17.910 align:start position:0%
+ saya akan membiarkan Dolar AS terpilih
+ dan<00:04:16.406><c> saya</c><00:04:16.695><c> akan</c><00:04:16.984><c> menetapkan</c><00:04:17.621><c> nilai</c>
+
+00:04:17.910 --> 00:04:17.968 align:start position:0%
+ dan saya akan menetapkan nilai
+ 
+
+00:04:17.968 --> 00:04:21.193 align:start position:0%
+ dan saya akan menetapkan nilai
+ konversinya<00:04:18.662><c> sebesar</c><00:04:19.125><c> 50</c><00:04:19.241><c>.</c><00:04:20.659><c> Artinya</c><00:04:21.127><c>,</c>
+
+00:04:21.193 --> 00:04:21.260 align:start position:0%
+ konversinya sebesar 50. Artinya,
+ 
+
+00:04:21.260 --> 00:04:23.801 align:start position:0%
+ konversinya sebesar 50. Artinya,
+ peristiwa<00:04:21.929><c> tersebut</c><00:04:22.531><c> akan</c><00:04:22.865><c> diberi</c><00:04:23.333><c> nilai</c><00:04:23.734><c> $</c>
+
+00:04:23.801 --> 00:04:23.868 align:start position:0%
+ peristiwa tersebut akan diberi nilai $
+ 
+
+00:04:23.868 --> 00:04:26.861 align:start position:0%
+ peristiwa tersebut akan diberi nilai $
+ 50<00:04:24.068><c> setiap</c><00:04:24.536><c> kali</c><00:04:24.871><c> dipicu</c><00:04:25.272><c>.</c><00:04:26.279><c> Di</c><00:04:26.413><c> bawah</c><00:04:26.682><c> ini</c><00:04:26.816><c>,</c>
+
+00:04:26.861 --> 00:04:26.906 align:start position:0%
+ 50 setiap kali dipicu. Di bawah ini,
+ 
+
+00:04:26.906 --> 00:04:28.250 align:start position:0%
+ 50 setiap kali dipicu. Di bawah ini,
+ kita<00:04:27.130><c> bisa</c><00:04:27.354><c> mengontrol</c><00:04:27.847><c> bagaimana</c>
+
+00:04:28.250 --> 00:04:28.295 align:start position:0%
+ kita bisa mengontrol bagaimana
+ 
+
+00:04:28.295 --> 00:04:29.640 align:start position:0%
+ kita bisa mengontrol bagaimana
+ peristiwa<00:04:28.743><c> utama</c><00:04:29.012><c> akan</c><00:04:29.236><c> dihitung</c><00:04:29.595><c>.</c>
+
+00:04:29.640 --> 00:04:31.179 align:start position:0%
+ peristiwa utama akan dihitung.
+ 
+
+00:04:31.179 --> 00:04:33.330 align:start position:0%
+ 
+ Standarnya<00:04:31.785><c> adalah</c><00:04:32.171><c> sekali</c><00:04:32.558><c> per</c><00:04:32.778><c> peristiwa</c><00:04:33.275><c>,</c>
+
+00:04:33.330 --> 00:04:33.385 align:start position:0%
+ Standarnya adalah sekali per peristiwa,
+ 
+
+00:04:33.385 --> 00:04:35.260 align:start position:0%
+ Standarnya adalah sekali per peristiwa,
+ yang<00:04:33.661><c> berarti</c><00:04:34.102><c> setiap</c><00:04:34.488><c> kali</c><00:04:34.764><c> peristiwa</c>
+
+00:04:35.260 --> 00:04:35.316 align:start position:0%
+ yang berarti setiap kali peristiwa
+ 
+
+00:04:35.316 --> 00:04:37.081 align:start position:0%
+ yang berarti setiap kali peristiwa
+ dipicu<00:04:35.647><c>,</c><00:04:35.757><c> ia</c><00:04:35.922><c> akan</c><00:04:36.198><c> dihitung</c><00:04:36.695><c> sebagai</c>
+
+00:04:37.081 --> 00:04:37.136 align:start position:0%
+ dipicu, ia akan dihitung sebagai
+ 
+
+00:04:37.136 --> 00:04:40.483 align:start position:0%
+ dipicu, ia akan dihitung sebagai
+ peristiwa<00:04:37.688><c> utama</c><00:04:37.963><c>.</c><00:04:39.419><c> Namun</c><00:04:39.751><c>,</c><00:04:39.884><c> kita</c><00:04:40.217><c> bisa</c>
+
+00:04:40.483 --> 00:04:40.550 align:start position:0%
+ peristiwa utama. Namun, kita bisa
+ 
+
+00:04:40.550 --> 00:04:42.945 align:start position:0%
+ peristiwa utama. Namun, kita bisa
+ mengubahnya<00:04:41.348><c> menjadi</c><00:04:41.880><c> sekali</c><00:04:42.346><c> per</c><00:04:42.612><c> sesi</c><00:04:42.879><c>,</c>
+
+00:04:42.945 --> 00:04:43.012 align:start position:0%
+ mengubahnya menjadi sekali per sesi,
+ 
+
+00:04:43.012 --> 00:04:45.341 align:start position:0%
+ mengubahnya menjadi sekali per sesi,
+ yang<00:04:43.344><c> berguna</c><00:04:43.877><c> jika</c><00:04:44.209><c> Anda</c><00:04:44.542><c> mengharapkan</c>
+
+00:04:45.341 --> 00:04:45.407 align:start position:0%
+ yang berguna jika Anda mengharapkan
+ 
+
+00:04:45.407 --> 00:04:47.669 align:start position:0%
+ yang berguna jika Anda mengharapkan
+ orang<00:04:45.806><c> melakukan</c><00:04:46.472><c> tindakan</c><00:04:47.071><c> yang</c><00:04:47.403><c> sama</c>
+
+00:04:47.669 --> 00:04:47.736 align:start position:0%
+ orang melakukan tindakan yang sama
+ 
+
+00:04:47.736 --> 00:04:49.799 align:start position:0%
+ orang melakukan tindakan yang sama
+ berkali-kali<00:04:48.535><c>,</c><00:04:48.668><c> tetapi</c><00:04:49.133><c> Anda</c><00:04:49.466><c> tidak</c>
+
+00:04:49.799 --> 00:04:49.865 align:start position:0%
+ berkali-kali, tetapi Anda tidak
+ 
+
+00:04:49.865 --> 00:04:52.327 align:start position:0%
+ berkali-kali, tetapi Anda tidak
+ menambah<00:04:50.464><c> nilai</c><00:04:50.863><c> total</c><00:04:51.263><c> bagi</c><00:04:51.595><c> bisnis</c><00:04:52.061><c> atau</c>
+
+00:04:52.327 --> 00:04:52.394 align:start position:0%
+ menambah nilai total bagi bisnis atau
+ 
+
+00:04:52.394 --> 00:04:55.457 align:start position:0%
+ menambah nilai total bagi bisnis atau
+ organisasi<00:04:53.126><c> Anda</c><00:04:53.392><c>.</c><00:04:54.539><c> Saya</c><00:04:54.768><c> akan</c><00:04:54.998><c> membiarkan</c>
+
+00:04:55.457 --> 00:04:55.503 align:start position:0%
+ organisasi Anda. Saya akan membiarkan
+ 
+
+00:04:55.503 --> 00:04:57.201 align:start position:0%
+ organisasi Anda. Saya akan membiarkan
+ setelan<00:04:55.870><c> default</c><00:04:56.237><c> untuk</c><00:04:56.513><c> peristiwa</c><00:04:56.972><c> saya</c><00:04:57.155><c>,</c>
+
+00:04:57.201 --> 00:04:57.247 align:start position:0%
+ setelan default untuk peristiwa saya,
+ 
+
+00:04:57.247 --> 00:05:00.006 align:start position:0%
+ setelan default untuk peristiwa saya,
+ tetapi<00:04:57.569><c> Anda</c><00:04:57.798><c> bisa</c><00:04:58.028><c> mengubahnya</c><00:04:58.533><c>.</c><00:04:59.599><c> Dengan</c>
+
+00:05:00.006 --> 00:05:00.074 align:start position:0%
+ tetapi Anda bisa mengubahnya. Dengan
+ 
+
+00:05:00.074 --> 00:05:02.656 align:start position:0%
+ tetapi Anda bisa mengubahnya. Dengan
+ menggulir<00:05:00.754><c> ke</c><00:05:00.957><c> bawah</c><00:05:01.297><c>,</c><00:05:01.433><c> mari</c><00:05:01.773><c> pastikan</c><00:05:02.384><c> opsi</c>
+
+00:05:02.656 --> 00:05:02.724 align:start position:0%
+ menggulir ke bawah, mari pastikan opsi
+ 
+
+00:05:02.724 --> 00:05:06.072 align:start position:0%
+ menggulir ke bawah, mari pastikan opsi
+ buat<00:05:03.064><c> tanpa</c><00:05:03.471><c> kode</c><00:05:03.811><c> diaktifkan</c><00:05:04.491><c>.</c><00:05:05.599><c> Kita</c><00:05:05.861><c> juga</c>
+
+00:05:06.072 --> 00:05:06.124 align:start position:0%
+ buat tanpa kode diaktifkan. Kita juga
+ 
+
+00:05:06.124 --> 00:05:08.175 align:start position:0%
+ buat tanpa kode diaktifkan. Kita juga
+ perlu<00:05:06.440><c> memeriksa</c><00:05:06.965><c> apakah</c><00:05:07.333><c> aliran</c><00:05:07.701><c> data</c><00:05:07.964><c> yang</c>
+
+00:05:08.175 --> 00:05:08.227 align:start position:0%
+ perlu memeriksa apakah aliran data yang
+ 
+
+00:05:08.227 --> 00:05:11.058 align:start position:0%
+ perlu memeriksa apakah aliran data yang
+ benar<00:05:08.543><c> sudah</c><00:05:08.858><c> dipilih</c><00:05:09.226><c>.</c><00:05:10.159><c> Dalam</c><00:05:10.496><c> kebanyakan</c>
+
+00:05:11.058 --> 00:05:11.114 align:start position:0%
+ benar sudah dipilih. Dalam kebanyakan
+ 
+
+00:05:11.114 --> 00:05:13.138 align:start position:0%
+ benar sudah dipilih. Dalam kebanyakan
+ kasus<00:05:11.395><c>,</c><00:05:11.508><c> Anda</c><00:05:11.789><c> hanya</c><00:05:12.126><c> akan</c><00:05:12.407><c> memiliki</c><00:05:12.913><c> satu</c>
+
+00:05:13.138 --> 00:05:13.195 align:start position:0%
+ kasus, Anda hanya akan memiliki satu
+ 
+
+00:05:13.195 --> 00:05:15.162 align:start position:0%
+ kasus, Anda hanya akan memiliki satu
+ aliran<00:05:13.588><c> data</c><00:05:13.869><c> jika</c><00:05:14.150><c> Anda</c><00:05:14.431><c> hanya</c><00:05:14.769><c> melacak</c>
+
+00:05:15.162 --> 00:05:15.219 align:start position:0%
+ aliran data jika Anda hanya melacak
+ 
+
+00:05:15.219 --> 00:05:17.411 align:start position:0%
+ aliran data jika Anda hanya melacak
+ situs<00:05:15.556><c> web</c><00:05:15.781><c> Anda</c><00:05:16.006><c>,</c><00:05:16.118><c> jadi</c><00:05:16.399><c> Anda</c><00:05:16.680><c> mungkin</c><00:05:17.130><c> tidak</c>
+
+00:05:17.411 --> 00:05:17.467 align:start position:0%
+ situs web Anda, jadi Anda mungkin tidak
+ 
+
+00:05:17.467 --> 00:05:20.773 align:start position:0%
+ situs web Anda, jadi Anda mungkin tidak
+ perlu<00:05:17.805><c> mengubahnya</c><00:05:18.423><c>.</c><00:05:19.859><c> Selanjutnya</c><00:05:20.450><c>,</c><00:05:20.558><c> kita</c>
+
+00:05:20.773 --> 00:05:20.827 align:start position:0%
+ perlu mengubahnya. Selanjutnya, kita
+ 
+
+00:05:20.827 --> 00:05:22.710 align:start position:0%
+ perlu mengubahnya. Selanjutnya, kita
+ perlu<00:05:21.150><c> menentukan</c><00:05:21.741><c> kondisi</c><00:05:22.172><c> kapan</c><00:05:22.494><c> kita</c>
+
+00:05:22.710 --> 00:05:22.763 align:start position:0%
+ perlu menentukan kondisi kapan kita
+ 
+
+00:05:22.763 --> 00:05:24.539 align:start position:0%
+ perlu menentukan kondisi kapan kita
+ ingin<00:05:23.086><c> peristiwa</c><00:05:23.624><c> baru</c><00:05:23.893><c> kita</c><00:05:24.162><c> dipicu</c><00:05:24.485><c>.</c>
+
+00:05:24.539 --> 00:05:25.479 align:start position:0%
+ ingin peristiwa baru kita dipicu.
+ 
+
+00:05:25.479 --> 00:05:27.492 align:start position:0%
+ ingin peristiwa baru kita dipicu.
+ Google<00:05:25.870><c> memudahkan</c><00:05:26.485><c> kita</c><00:05:26.765><c> untuk</c><00:05:27.100><c> membuat</c>
+
+00:05:27.492 --> 00:05:27.548 align:start position:0%
+ Google memudahkan kita untuk membuat
+ 
+
+00:05:27.548 --> 00:05:29.729 align:start position:0%
+ Google memudahkan kita untuk membuat
+ peristiwa<00:05:28.107><c> baru</c><00:05:28.386><c> berdasarkan</c><00:05:29.058><c> halaman</c><00:05:29.505><c> yang</c>
+
+00:05:29.729 --> 00:05:29.785 align:start position:0%
+ peristiwa baru berdasarkan halaman yang
+ 
+
+00:05:29.785 --> 00:05:32.242 align:start position:0%
+ peristiwa baru berdasarkan halaman yang
+ dilihat<00:05:30.232><c> di</c><00:05:30.400><c> situs</c><00:05:30.735><c> web</c><00:05:30.959><c> kita</c><00:05:31.183><c>.</c><00:05:31.759><c> Kita</c><00:05:32.027><c> bisa</c>
+
+00:05:32.242 --> 00:05:32.296 align:start position:0%
+ dilihat di situs web kita. Kita bisa
+ 
+
+00:05:32.296 --> 00:05:34.122 align:start position:0%
+ dilihat di situs web kita. Kita bisa
+ melihat<00:05:32.725><c> peristiwa</c><00:05:33.263><c> tampilan</c><00:05:33.746><c> halaman</c>
+
+00:05:34.122 --> 00:05:34.176 align:start position:0%
+ melihat peristiwa tampilan halaman
+ 
+
+00:05:34.176 --> 00:05:37.595 align:start position:0%
+ melihat peristiwa tampilan halaman
+ sudah<00:05:34.498><c> dipilih</c><00:05:34.928><c> untuk</c><00:05:35.250><c> kita</c><00:05:35.465><c>.</c><00:05:36.979><c> Menggunakan</c>
+
+00:05:37.595 --> 00:05:37.651 align:start position:0%
+ sudah dipilih untuk kita. Menggunakan
+ 
+
+00:05:37.651 --> 00:05:39.611 align:start position:0%
+ sudah dipilih untuk kita. Menggunakan
+ pengaturan<00:05:38.267><c> yang</c><00:05:38.547><c> disederhanakan</c><00:05:39.387><c> ini</c><00:05:39.555><c>,</c>
+
+00:05:39.611 --> 00:05:39.667 align:start position:0%
+ pengaturan yang disederhanakan ini,
+ 
+
+00:05:39.667 --> 00:05:41.739 align:start position:0%
+ pengaturan yang disederhanakan ini,
+ kita<00:05:39.947><c> bisa</c><00:05:40.227><c> melihat</c><00:05:40.675><c> hanya</c><00:05:41.011><c> ada</c><00:05:41.235><c> satu</c><00:05:41.515><c> opsi</c>
+
+00:05:41.739 --> 00:05:41.795 align:start position:0%
+ kita bisa melihat hanya ada satu opsi
+ 
+
+00:05:41.795 --> 00:05:44.713 align:start position:0%
+ kita bisa melihat hanya ada satu opsi
+ pencocokan<00:05:42.355><c>,</c><00:05:42.467><c> yaitu</c><00:05:42.803><c> URL</c><00:05:43.027><c> berisi</c><00:05:43.363><c>.</c><00:05:44.439><c> Jadi</c><00:05:44.658><c>,</c>
+
+00:05:44.713 --> 00:05:44.768 align:start position:0%
+ pencocokan, yaitu URL berisi. Jadi,
+ 
+
+00:05:44.768 --> 00:05:46.856 align:start position:0%
+ pencocokan, yaitu URL berisi. Jadi,
+ Anda<00:05:45.043><c> kemudian</c><00:05:45.537><c> bisa</c><00:05:45.812><c> memasukkan</c><00:05:46.417><c> URL</c><00:05:46.636><c> atau</c>
+
+00:05:46.856 --> 00:05:46.911 align:start position:0%
+ Anda kemudian bisa memasukkan URL atau
+ 
+
+00:05:46.911 --> 00:05:48.615 align:start position:0%
+ Anda kemudian bisa memasukkan URL atau
+ bagian<00:05:47.296><c> dari</c><00:05:47.571><c> URL</c><00:05:47.790><c> yang</c><00:05:48.065><c> ingin</c><00:05:48.395><c> kita</c>
+
+00:05:48.615 --> 00:05:48.670 align:start position:0%
+ bagian dari URL yang ingin kita
+ 
+
+00:05:48.670 --> 00:05:51.466 align:start position:0%
+ bagian dari URL yang ingin kita
+ cocokkan<00:05:49.164><c> di</c><00:05:49.329><c> bawah</c><00:05:49.659><c> ini</c><00:05:49.824><c>.</c><00:05:50.920><c> Mari</c><00:05:51.223><c> kita</c>
+
+00:05:51.466 --> 00:05:51.526 align:start position:0%
+ cocokkan di bawah ini. Mari kita
+ 
+
+00:05:51.526 --> 00:05:54.633 align:start position:0%
+ cocokkan di bawah ini. Mari kita
+ masukkan<00:05:52.073><c> thank</c><00:05:52.437><c> you</c><00:05:52.619><c>.</c><00:05:53.999><c> Ini</c><00:05:54.229><c> berarti</c>
+
+00:05:54.633 --> 00:05:54.690 align:start position:0%
+ masukkan thank you. Ini berarti
+ 
+
+00:05:54.690 --> 00:05:56.939 align:start position:0%
+ masukkan thank you. Ini berarti
+ peristiwa<00:05:55.267><c> baru</c><00:05:55.555><c> kita</c><00:05:55.843><c> akan</c><00:05:56.132><c> terpicu</c><00:05:56.593><c> setiap</c>
+
+00:05:56.939 --> 00:05:56.997 align:start position:0%
+ peristiwa baru kita akan terpicu setiap
+ 
+
+00:05:56.997 --> 00:05:59.245 align:start position:0%
+ peristiwa baru kita akan terpicu setiap
+ kali<00:05:57.285><c> seseorang</c><00:05:57.861><c> melihat</c><00:05:58.323><c> halaman</c><00:05:58.784><c> di</c><00:05:58.957><c> situs</c>
+
+00:05:59.245 --> 00:05:59.303 align:start position:0%
+ kali seseorang melihat halaman di situs
+ 
+
+00:05:59.303 --> 00:06:01.551 align:start position:0%
+ kali seseorang melihat halaman di situs
+ web<00:05:59.533><c> kita</c><00:05:59.822><c> yang</c><00:06:00.110><c> memiliki</c><00:06:00.629><c> URL</c><00:06:00.859><c> berisi</c><00:06:01.263><c> thank</c>
+
+00:06:01.551 --> 00:06:01.609 align:start position:0%
+ web kita yang memiliki URL berisi thank
+ 
+
+00:06:01.609 --> 00:06:04.567 align:start position:0%
+ web kita yang memiliki URL berisi thank
+ you<00:06:01.782><c>.</c><00:06:02.819><c> Saya</c><00:06:03.076><c> puas</c><00:06:03.333><c> dengan</c><00:06:03.693><c> konfigurasi</c><00:06:04.310><c> untuk</c>
+
+00:06:04.567 --> 00:06:04.619 align:start position:0%
+ you. Saya puas dengan konfigurasi untuk
+ 
+
+00:06:04.619 --> 00:06:07.111 align:start position:0%
+ you. Saya puas dengan konfigurasi untuk
+ peristiwa<00:06:05.133><c> ini</c><00:06:05.287><c>.</c><00:06:05.959><c> Jadi</c><00:06:06.199><c> mari</c><00:06:06.439><c> kita</c><00:06:06.679><c> klik</c><00:06:06.919><c> buat</c>
+
+00:06:07.111 --> 00:06:07.159 align:start position:0%
+ peristiwa ini. Jadi mari kita klik buat
+ 
+
+00:06:07.159 --> 00:06:11.711 align:start position:0%
+ peristiwa ini. Jadi mari kita klik buat
+ di<00:06:07.303><c> bagian</c><00:06:07.639><c> atas</c><00:06:07.831><c>.</c><00:06:10.799><c> Kita</c><00:06:11.039><c> sekarang</c><00:06:11.471><c> telah</c>
+
+00:06:11.711 --> 00:06:11.759 align:start position:0%
+ di bagian atas. Kita sekarang telah
+ 
+
+00:06:11.759 --> 00:06:13.295 align:start position:0%
+ di bagian atas. Kita sekarang telah
+ membuat<00:06:12.143><c> peristiwa</c><00:06:12.623><c> baru</c><00:06:12.863><c> yang</c><00:06:13.103><c> akan</c>
+
+00:06:13.295 --> 00:06:13.343 align:start position:0%
+ membuat peristiwa baru yang akan
+ 
+
+00:06:13.343 --> 00:06:14.879 align:start position:0%
+ membuat peristiwa baru yang akan
+ terpicu<00:06:13.727><c> ketika</c><00:06:14.063><c> seseorang</c><00:06:14.543><c> melihat</c>
+
+00:06:14.879 --> 00:06:14.927 align:start position:0%
+ terpicu ketika seseorang melihat
+ 
+
+00:06:14.927 --> 00:06:16.799 align:start position:0%
+ terpicu ketika seseorang melihat
+ halaman<00:06:15.311><c> terima</c><00:06:15.647><c> kasih</c><00:06:15.935><c> di</c><00:06:16.079><c> situs</c><00:06:16.367><c> web</c><00:06:16.559><c> kita</c><00:06:16.751><c>.</c>
+
+00:06:16.799 --> 00:06:18.019 align:start position:0%
+ halaman terima kasih di situs web kita.
+ 
+
+00:06:18.019 --> 00:06:19.908 align:start position:0%
+ 
+ Setelah<00:06:18.416><c> seseorang</c><00:06:18.914><c> melihat</c><00:06:19.311><c> halaman</c><00:06:19.709><c> yang</c>
+
+00:06:19.908 --> 00:06:19.958 align:start position:0%
+ Setelah seseorang melihat halaman yang
+ 
+
+00:06:19.958 --> 00:06:21.847 align:start position:0%
+ Setelah seseorang melihat halaman yang
+ memenuhi<00:06:20.405><c> kondisi</c><00:06:20.803><c> kita</c><00:06:21.002><c>,</c><00:06:21.101><c> Anda</c><00:06:21.350><c> akan</c><00:06:21.599><c> dapat</c>
+
+00:06:21.847 --> 00:06:21.897 align:start position:0%
+ memenuhi kondisi kita, Anda akan dapat
+ 
+
+00:06:21.897 --> 00:06:23.737 align:start position:0%
+ memenuhi kondisi kita, Anda akan dapat
+ melihat<00:06:22.295><c> peristiwa</c><00:06:22.792><c> tersebut</c><00:06:23.239><c> di</c><00:06:23.389><c> laporan</c>
+
+00:06:23.737 --> 00:06:23.786 align:start position:0%
+ melihat peristiwa tersebut di laporan
+ 
+
+00:06:23.786 --> 00:06:26.518 align:start position:0%
+ melihat peristiwa tersebut di laporan
+ waktu<00:06:24.085><c> nyata</c><00:06:24.383><c> secara</c><00:06:24.731><c> langsung</c><00:06:25.129><c>.</c><00:06:26.099><c> Namun</c><00:06:26.448><c>,</c>
+
+00:06:26.518 --> 00:06:26.588 align:start position:0%
+ waktu nyata secara langsung. Namun,
+ 
+
+00:06:26.588 --> 00:06:28.894 align:start position:0%
+ waktu nyata secara langsung. Namun,
+ perlu<00:06:27.007><c> waktu</c><00:06:27.426><c> 12</c><00:06:27.636><c> hingga</c><00:06:28.125><c> 24</c><00:06:28.335><c> jam</c><00:06:28.614><c> agar</c>
+
+00:06:28.894 --> 00:06:28.964 align:start position:0%
+ perlu waktu 12 hingga 24 jam agar
+ 
+
+00:06:28.964 --> 00:06:31.270 align:start position:0%
+ perlu waktu 12 hingga 24 jam agar
+ peristiwa<00:06:29.662><c> utama</c><00:06:30.082><c> muncul</c><00:06:30.571><c> di</c><00:06:30.780><c> laporan</c>
+
+00:06:31.270 --> 00:06:31.339 align:start position:0%
+ peristiwa utama muncul di laporan
+ 
+
+00:06:31.339 --> 00:06:33.379 align:start position:0%
+ peristiwa utama muncul di laporan
+ standar<00:06:31.829><c>.</c><00:06:32.579><c> Jadi</c><00:06:32.739><c>,</c><00:06:32.819><c> jika</c><00:06:33.019><c> seseorang</c>
+
+00:06:33.379 --> 00:06:33.419 align:start position:0%
+ standar. Jadi, jika seseorang
+ 
+
+00:06:33.419 --> 00:06:34.699 align:start position:0%
+ standar. Jadi, jika seseorang
+ mengunjungi<00:06:33.899><c> halaman</c><00:06:34.219><c> terima</c><00:06:34.499><c> kasih</c>
+
+00:06:34.699 --> 00:06:34.739 align:start position:0%
+ mengunjungi halaman terima kasih
+ 
+
+00:06:34.739 --> 00:06:35.899 align:start position:0%
+ mengunjungi halaman terima kasih
+ sekarang<00:06:35.059><c>,</c><00:06:35.139><c> saya</c><00:06:35.339><c> sarankan</c><00:06:35.699><c> untuk</c>
+
+00:06:35.899 --> 00:06:35.939 align:start position:0%
+ sekarang, saya sarankan untuk
+ 
+
+00:06:35.939 --> 00:06:37.179 align:start position:0%
+ sekarang, saya sarankan untuk
+ mengeceknya<00:06:36.419><c> kembali</c><00:06:36.739><c> besok</c><00:06:36.979><c> untuk</c>
+
+00:06:37.179 --> 00:06:37.219 align:start position:0%
+ mengeceknya kembali besok untuk
+ 
+
+00:06:37.219 --> 00:06:39.772 align:start position:0%
+ mengeceknya kembali besok untuk
+ melihatnya<00:06:37.659><c> di</c><00:06:37.779><c> laporan</c><00:06:38.099><c> Anda</c><00:06:38.259><c>.</c><00:06:39.359><c> Dan</c><00:06:39.565><c> jika</c>
+
+00:06:39.772 --> 00:06:39.823 align:start position:0%
+ melihatnya di laporan Anda. Dan jika
+ 
+
+00:06:39.823 --> 00:06:41.424 align:start position:0%
+ melihatnya di laporan Anda. Dan jika
+ Anda<00:06:40.081><c> bertanya-tanya</c><00:06:40.804><c>,</c><00:06:40.908><c> Anda</c><00:06:41.166><c> dapat</c>
+
+00:06:41.424 --> 00:06:41.476 align:start position:0%
+ Anda bertanya-tanya, Anda dapat
+ 
+
+00:06:41.476 --> 00:06:43.386 align:start position:0%
+ Anda bertanya-tanya, Anda dapat
+ mengaktifkan<00:06:42.147><c> hingga</c><00:06:42.508><c> 30</c><00:06:42.663><c> peristiwa</c><00:06:43.180><c> unik</c>
+
+00:06:43.386 --> 00:06:43.438 align:start position:0%
+ mengaktifkan hingga 30 peristiwa unik
+ 
+
+00:06:43.438 --> 00:06:46.463 align:start position:0%
+ mengaktifkan hingga 30 peristiwa unik
+ sebagai<00:06:43.851><c> peristiwa</c><00:06:44.367><c> utama</c><00:06:44.677><c> di</c><00:06:44.832><c> GA4</c><00:06:44.987><c>.</c><00:06:46.219><c> Jadi</c><00:06:46.414><c>,</c>
+
+00:06:46.463 --> 00:06:46.512 align:start position:0%
+ sebagai peristiwa utama di GA4. Jadi,
+ 
+
+00:06:46.512 --> 00:06:48.324 align:start position:0%
+ sebagai peristiwa utama di GA4. Jadi,
+ Anda<00:06:46.757><c> seharusnya</c><00:06:47.296><c> memiliki</c><00:06:47.737><c> banyak</c><00:06:48.079><c> ruang</c>
+
+00:06:48.324 --> 00:06:48.373 align:start position:0%
+ Anda seharusnya memiliki banyak ruang
+ 
+
+00:06:48.373 --> 00:06:50.136 align:start position:0%
+ Anda seharusnya memiliki banyak ruang
+ untuk<00:06:48.667><c> melacak</c><00:06:49.059><c> semua</c><00:06:49.353><c> tindakan</c><00:06:49.793><c> penting</c>
+
+00:06:50.136 --> 00:06:50.185 align:start position:0%
+ untuk melacak semua tindakan penting
+ 
+
+00:06:50.185 --> 00:06:52.804 align:start position:0%
+ untuk melacak semua tindakan penting
+ tersebut<00:06:50.626><c> sebagai</c><00:06:51.018><c> konversi</c><00:06:51.410><c>.</c><00:06:52.519><c> Untuk</c>
+
+00:06:52.804 --> 00:06:52.861 align:start position:0%
+ tersebut sebagai konversi. Untuk
+ 
+
+00:06:52.861 --> 00:06:54.804 align:start position:0%
+ tersebut sebagai konversi. Untuk
+ memeriksanya<00:06:53.547><c>,</c><00:06:53.661><c> Anda</c><00:06:53.947><c> dapat</c><00:06:54.290><c> mengeklik</c>
+
+00:06:54.804 --> 00:06:54.861 align:start position:0%
+ memeriksanya, Anda dapat mengeklik
+ 
+
+00:06:54.861 --> 00:06:56.919 align:start position:0%
+ memeriksanya, Anda dapat mengeklik
+ informasi<00:06:55.433><c> kuota</c><00:06:55.776><c> di</c><00:06:55.947><c> sudut</c><00:06:56.290><c> kanan</c><00:06:56.633><c> atas</c><00:06:56.861><c>.</c>
+
+00:06:56.919 --> 00:06:57.919 align:start position:0%
+ informasi kuota di sudut kanan atas.
+ 
+
+00:06:57.919 --> 00:06:59.310 align:start position:0%
+ informasi kuota di sudut kanan atas.
+ Dan<00:06:58.065><c> ini</c><00:06:58.212><c> menunjukkan</c><00:06:58.651><c> kepada</c><00:06:58.907><c> Anda</c><00:06:59.091><c> berapa</c>
+
+00:06:59.310 --> 00:06:59.347 align:start position:0%
+ Dan ini menunjukkan kepada Anda berapa
+ 
+
+00:06:59.347 --> 00:07:00.739 align:start position:0%
+ Dan ini menunjukkan kepada Anda berapa
+ banyak<00:06:59.603><c> peristiwa</c><00:06:59.970><c> utama</c><00:07:00.189><c> yang</c><00:07:00.372><c> telah</c><00:07:00.592><c> Anda</c>
+
+00:07:00.739 --> 00:07:00.775 align:start position:0%
+ banyak peristiwa utama yang telah Anda
+ 
+
+00:07:00.775 --> 00:07:03.831 align:start position:0%
+ banyak peristiwa utama yang telah Anda
+ buat<00:07:00.922><c>.</c><00:07:01.839><c> Oke</c><00:07:02.002><c>,</c><00:07:02.111><c> mari</c><00:07:02.383><c> kita</c><00:07:02.655><c> tutup</c><00:07:02.981><c> ini</c><00:07:03.144><c>.</c><00:07:03.699><c> Dan</c>
+
+00:07:03.831 --> 00:07:03.875 align:start position:0%
+ buat. Oke, mari kita tutup ini. Dan
+ 
+
+00:07:03.875 --> 00:07:05.506 align:start position:0%
+ buat. Oke, mari kita tutup ini. Dan
+ sekarang<00:07:04.271><c> mari</c><00:07:04.492><c> kita</c><00:07:04.712><c> lihat</c><00:07:04.977><c> di</c><00:07:05.109><c> mana</c><00:07:05.329><c> Anda</c>
+
+00:07:05.506 --> 00:07:05.550 align:start position:0%
+ sekarang mari kita lihat di mana Anda
+ 
+
+00:07:05.550 --> 00:07:07.048 align:start position:0%
+ sekarang mari kita lihat di mana Anda
+ dapat<00:07:05.814><c> melihat</c><00:07:06.167><c> peristiwa</c><00:07:06.607><c> utama</c><00:07:06.872><c> yang</c>
+
+00:07:07.048 --> 00:07:07.092 align:start position:0%
+ dapat melihat peristiwa utama yang
+ 
+
+00:07:07.092 --> 00:07:09.224 align:start position:0%
+ dapat melihat peristiwa utama yang
+ dilaporkan<00:07:07.577><c> di</c><00:07:07.709><c> Google</c><00:07:08.018><c> Analytics</c><00:07:08.414><c>.</c><00:07:08.939><c> Mari</c>
+
+00:07:09.224 --> 00:07:09.295 align:start position:0%
+ dilaporkan di Google Analytics. Mari
+ 
+
+00:07:09.295 --> 00:07:15.280 align:start position:0%
+ dilaporkan di Google Analytics. Mari
+ kita<00:07:09.652><c> buka</c><00:07:10.009><c> laporan</c><00:07:10.508><c>.</c><00:07:13.879><c> dan</c><00:07:14.174><c> mari</c><00:07:14.542><c> kita</c><00:07:14.911><c> pilih</c>
+
+00:07:15.280 --> 00:07:15.354 align:start position:0%
+ kita buka laporan. dan mari kita pilih
+ 
+
+00:07:15.354 --> 00:07:17.935 align:start position:0%
+ kita buka laporan. dan mari kita pilih
+ akuisisi<00:07:16.017><c> lalu</c><00:07:16.386><c> buka</c><00:07:16.755><c> laporan</c><00:07:17.345><c> akuisisi</c>
+
+00:07:17.935 --> 00:07:18.009 align:start position:0%
+ akuisisi lalu buka laporan akuisisi
+ 
+
+00:07:18.009 --> 00:07:21.178 align:start position:0%
+ akuisisi lalu buka laporan akuisisi
+ traffic<00:07:18.525><c>.</c><00:07:20.139><c> Saya</c><00:07:20.386><c> sebelumnya</c><00:07:20.931><c> telah</c>
+
+00:07:21.178 --> 00:07:21.228 align:start position:0%
+ traffic. Saya sebelumnya telah
+ 
+
+00:07:21.228 --> 00:07:22.862 align:start position:0%
+ traffic. Saya sebelumnya telah
+ mengonfigurasi<00:07:21.971><c> peristiwa</c><00:07:22.466><c> utama</c><00:07:22.763><c> di</c>
+
+00:07:22.862 --> 00:07:22.911 align:start position:0%
+ mengonfigurasi peristiwa utama di
+ 
+
+00:07:22.911 --> 00:07:24.644 align:start position:0%
+ mengonfigurasi peristiwa utama di
+ properti<00:07:23.357><c> demo</c><00:07:23.605><c> saya</c><00:07:23.803><c>,</c><00:07:23.902><c> jadi</c><00:07:24.149><c> saya</c><00:07:24.397><c> sudah</c>
+
+00:07:24.644 --> 00:07:24.694 align:start position:0%
+ properti demo saya, jadi saya sudah
+ 
+
+00:07:24.694 --> 00:07:27.116 align:start position:0%
+ properti demo saya, jadi saya sudah
+ memiliki<00:07:25.140><c> data</c><00:07:25.387><c> di</c><00:07:25.536><c> laporan</c><00:07:25.932><c> saya</c><00:07:26.130><c>.</c><00:07:26.899><c> Jika</c>
+
+00:07:27.116 --> 00:07:27.171 align:start position:0%
+ memiliki data di laporan saya. Jika
+ 
+
+00:07:27.171 --> 00:07:29.295 align:start position:0%
+ memiliki data di laporan saya. Jika
+ Anda<00:07:27.443><c> baru</c><00:07:27.716><c> saja</c><00:07:27.988><c> mengonfigurasi</c><00:07:28.805><c> peristiwa</c>
+
+00:07:29.295 --> 00:07:29.350 align:start position:0%
+ Anda baru saja mengonfigurasi peristiwa
+ 
+
+00:07:29.350 --> 00:07:31.147 align:start position:0%
+ Anda baru saja mengonfigurasi peristiwa
+ utama<00:07:29.622><c>,</c><00:07:29.731><c> Anda</c><00:07:30.004><c> harus</c><00:07:30.330><c> menunggu</c><00:07:30.821><c> sampai</c>
+
+00:07:31.147 --> 00:07:31.202 align:start position:0%
+ utama, Anda harus menunggu sampai
+ 
+
+00:07:31.202 --> 00:07:33.326 align:start position:0%
+ utama, Anda harus menunggu sampai
+ peristiwa<00:07:31.747><c> tersebut</c><00:07:32.237><c> terpicu</c><00:07:32.673><c> sebelum</c><00:07:33.109><c> Anda</c>
+
+00:07:33.326 --> 00:07:33.381 align:start position:0%
+ peristiwa tersebut terpicu sebelum Anda
+ 
+
+00:07:33.381 --> 00:07:36.954 align:start position:0%
+ peristiwa tersebut terpicu sebelum Anda
+ mulai<00:07:33.708><c> melihatnya</c><00:07:34.307><c> di</c><00:07:34.470><c> laporan</c><00:07:34.906><c> Anda</c><00:07:35.124><c>.</c><00:07:36.699><c> Jika</c>
+
+00:07:36.954 --> 00:07:37.018 align:start position:0%
+ mulai melihatnya di laporan Anda. Jika
+ 
+
+00:07:37.018 --> 00:07:39.384 align:start position:0%
+ mulai melihatnya di laporan Anda. Jika
+ kita<00:07:37.338><c> gulir</c><00:07:37.722><c> ke</c><00:07:37.913><c> kanan</c><00:07:38.297><c> tabel</c><00:07:38.617><c>,</c><00:07:38.745><c> kita</c><00:07:39.064><c> dapat</c>
+
+00:07:39.384 --> 00:07:39.448 align:start position:0%
+ kita gulir ke kanan tabel, kita dapat
+ 
+
+00:07:39.448 --> 00:07:41.750 align:start position:0%
+ kita gulir ke kanan tabel, kita dapat
+ melihat<00:07:39.959><c> jumlah</c><00:07:40.407><c> total</c><00:07:40.791><c> peristiwa</c><00:07:41.430><c> utama</c>
+
+00:07:41.750 --> 00:07:41.814 align:start position:0%
+ melihat jumlah total peristiwa utama
+ 
+
+00:07:41.814 --> 00:07:43.732 align:start position:0%
+ melihat jumlah total peristiwa utama
+ yang<00:07:42.133><c> telah</c><00:07:42.517><c> terpicu</c><00:07:43.029><c> dan</c><00:07:43.284><c> tingkat</c>
+
+00:07:43.732 --> 00:07:43.796 align:start position:0%
+ yang telah terpicu dan tingkat
+ 
+
+00:07:43.796 --> 00:07:47.624 align:start position:0%
+ yang telah terpicu dan tingkat
+ peristiwa<00:07:44.435><c> utama</c><00:07:44.819><c> sesi</c><00:07:45.075><c>.</c><00:07:46.939><c> Anda</c><00:07:47.167><c> juga</c><00:07:47.395><c> dapat</c>
+
+00:07:47.624 --> 00:07:47.669 align:start position:0%
+ peristiwa utama sesi. Anda juga dapat
+ 
+
+00:07:47.669 --> 00:07:49.131 align:start position:0%
+ peristiwa utama sesi. Anda juga dapat
+ menggunakan<00:07:48.217><c> menu</c><00:07:48.446><c> drop-down</c><00:07:48.902><c> untuk</c>
+
+00:07:49.131 --> 00:07:49.176 align:start position:0%
+ menggunakan menu drop-down untuk
+ 
+
+00:07:49.176 --> 00:07:50.866 align:start position:0%
+ menggunakan menu drop-down untuk
+ memilih<00:07:49.542><c> peristiwa</c><00:07:49.998><c> utama</c><00:07:50.272><c> individu</c><00:07:50.683><c> guna</c>
+
+00:07:50.866 --> 00:07:50.912 align:start position:0%
+ memilih peristiwa utama individu guna
+ 
+
+00:07:50.912 --> 00:07:54.864 align:start position:0%
+ memilih peristiwa utama individu guna
+ memperbarui<00:07:51.460><c> metrik</c><00:07:51.734><c>.</c><00:07:53.879><c> Selain</c><00:07:54.262><c> laporan</c><00:07:54.700><c> ini</c>
+
+00:07:54.864 --> 00:07:54.919 align:start position:0%
+ memperbarui metrik. Selain laporan ini
+ 
+
+00:07:54.919 --> 00:07:57.055 align:start position:0%
+ memperbarui metrik. Selain laporan ini
+ yang<00:07:55.193><c> menyertakan</c><00:07:55.850><c> peristiwa</c><00:07:56.397><c> utama</c><00:07:56.726><c> secara</c>
+
+00:07:57.055 --> 00:07:57.109 align:start position:0%
+ yang menyertakan peristiwa utama secara
+ 
+
+00:07:57.109 --> 00:07:59.081 align:start position:0%
+ yang menyertakan peristiwa utama secara
+ default<00:07:57.493><c>,</c><00:07:57.602><c> Anda</c><00:07:57.876><c> juga</c><00:07:58.150><c> dapat</c><00:07:58.478><c> menambahkan</c>
+
+00:07:59.081 --> 00:07:59.135 align:start position:0%
+ default, Anda juga dapat menambahkan
+ 
+
+00:07:59.135 --> 00:08:01.216 align:start position:0%
+ default, Anda juga dapat menambahkan
+ metrik<00:07:59.519><c> peristiwa</c><00:08:00.066><c> utama</c><00:08:00.395><c> ke</c><00:08:00.559><c> laporan</c><00:08:00.997><c> lain</c>
+
+00:08:01.216 --> 00:08:01.271 align:start position:0%
+ metrik peristiwa utama ke laporan lain
+ 
+
+00:08:01.271 --> 00:08:03.023 align:start position:0%
+ metrik peristiwa utama ke laporan lain
+ dan<00:08:01.490><c> Anda</c><00:08:01.764><c> dapat</c><00:08:02.092><c> menambahkannya</c><00:08:02.914><c> ke</c>
+
+00:08:03.023 --> 00:08:03.078 align:start position:0%
+ dan Anda dapat menambahkannya ke
+ 
+
+00:08:03.078 --> 00:08:07.136 align:start position:0%
+ dan Anda dapat menambahkannya ke
+ laporan<00:08:03.516><c> eksplorasi</c><00:08:04.064><c>.</c><00:08:06.260><c> Kita</c><00:08:06.490><c> sekarang</c><00:08:06.905><c> telah</c>
+
+00:08:07.136 --> 00:08:07.182 align:start position:0%
+ laporan eksplorasi. Kita sekarang telah
+ 
+
+00:08:07.182 --> 00:08:08.935 align:start position:0%
+ laporan eksplorasi. Kita sekarang telah
+ membahas<00:08:07.597><c> langkah-langkah</c><00:08:08.335><c> untuk</c><00:08:08.612><c> membuat</c>
+
+00:08:08.935 --> 00:08:08.981 align:start position:0%
+ membahas langkah-langkah untuk membuat
+ 
+
+00:08:08.981 --> 00:08:10.779 align:start position:0%
+ membahas langkah-langkah untuk membuat
+ peristiwa<00:08:09.442><c> utama</c><00:08:09.719><c> baru</c><00:08:09.949><c> di</c><00:08:10.088><c> GA4</c><00:08:10.272><c> berdasarkan</c>
+
+00:08:10.779 --> 00:08:10.825 align:start position:0%
+ peristiwa utama baru di GA4 berdasarkan
+ 
+
+00:08:10.825 --> 00:08:12.681 align:start position:0%
+ peristiwa utama baru di GA4 berdasarkan
+ peristiwa<00:08:11.287><c> yang</c><00:08:11.517><c> sudah</c><00:08:11.794><c> ada</c><00:08:11.932><c>.</c><00:08:12.439><c> Namun</c><00:08:12.641><c>,</c>
+
+00:08:12.681 --> 00:08:12.722 align:start position:0%
+ peristiwa yang sudah ada. Namun,
+ 
+
+00:08:12.722 --> 00:08:14.058 align:start position:0%
+ peristiwa yang sudah ada. Namun,
+ bagaimana<00:08:13.127><c> jika</c><00:08:13.329><c> Anda</c><00:08:13.532><c> ingin</c><00:08:13.775><c> melacak</c>
+
+00:08:14.058 --> 00:08:14.099 align:start position:0%
+ bagaimana jika Anda ingin melacak
+ 
+
+00:08:14.099 --> 00:08:15.678 align:start position:0%
+ bagaimana jika Anda ingin melacak
+ tindakan<00:08:14.463><c> kustom</c><00:08:14.747><c> sebagai</c><00:08:15.071><c> peristiwa</c><00:08:15.476><c> utama</c>
+
+00:08:15.678 --> 00:08:17.728 align:start position:0%
+ tindakan kustom sebagai peristiwa utama
+?<00:08:16.220><c> Dalam</c><00:08:16.478><c> kasus</c><00:08:16.737><c> ini</c><00:08:16.866><c>,</c><00:08:16.952><c> menggunakan</c><00:08:17.470><c> Google</c>
+
+00:08:17.728 --> 00:08:17.771 align:start position:0%
+? Dalam kasus ini, menggunakan Google
+ 
+
+00:08:17.771 --> 00:08:19.237 align:start position:0%
+? Dalam kasus ini, menggunakan Google
+ Tag<00:08:17.944><c> Manager</c><00:08:18.289><c> adalah</c><00:08:18.590><c> cara</c><00:08:18.806><c> yang</c><00:08:19.021><c> tepat</c>
+
+00:08:19.237 --> 00:08:19.280 align:start position:0%
+ Tag Manager adalah cara yang tepat
+ 
+
+00:08:19.280 --> 00:08:22.708 align:start position:0%
+ Tag Manager adalah cara yang tepat
+ untuk<00:08:19.539><c> mengirim</c><00:08:19.927><c> peristiwa</c><00:08:20.358><c> ke</c><00:08:20.487><c> GA4</c><00:08:20.616><c>.</c><00:08:22.499><c> Mari</c>
+
+00:08:22.708 --> 00:08:22.760 align:start position:0%
+ untuk mengirim peristiwa ke GA4. Mari
+ 
+
+00:08:22.760 --> 00:08:25.619 align:start position:0%
+ untuk mengirim peristiwa ke GA4. Mari
+ kita<00:08:23.022><c> menuju</c><00:08:23.388><c> ke</c><00:08:23.545><c> Google</c><00:08:23.911><c> Tag</c><00:08:24.120><c> Manager</c><00:08:24.486><c>.</c><00:08:25.379><c> Kita</c>
+
+00:08:25.619 --> 00:08:25.679 align:start position:0%
+ kita menuju ke Google Tag Manager. Kita
+ 
+
+00:08:25.679 --> 00:08:28.019 align:start position:0%
+ kita menuju ke Google Tag Manager. Kita
+ dapat<00:08:26.039><c> melihat</c><00:08:26.519><c> ada</c><00:08:26.759><c> tag</c><00:08:26.999><c> Google</c><00:08:27.419><c> yang</c><00:08:27.719><c> sudah</c>
+
+00:08:28.019 --> 00:08:28.079 align:start position:0%
+ dapat melihat ada tag Google yang sudah
+ 
+
+00:08:28.079 --> 00:08:30.827 align:start position:0%
+ dapat melihat ada tag Google yang sudah
+ ada<00:08:28.319><c> di</c><00:08:28.499><c> penampung</c><00:08:29.099><c> GTM</c><00:08:29.339><c> ini</c><00:08:29.519><c>.</c><00:08:30.179><c> Tag</c><00:08:30.395><c> ini</c><00:08:30.611><c> akan</c>
+
+00:08:30.827 --> 00:08:30.881 align:start position:0%
+ ada di penampung GTM ini. Tag ini akan
+ 
+
+00:08:30.881 --> 00:08:32.719 align:start position:0%
+ ada di penampung GTM ini. Tag ini akan
+ secara<00:08:31.259><c> otomatis</c><00:08:31.746><c> mengirim</c><00:08:32.232><c> peristiwa</c>
+
+00:08:32.719 --> 00:08:32.773 align:start position:0%
+ secara otomatis mengirim peristiwa
+ 
+
+00:08:32.773 --> 00:08:34.664 align:start position:0%
+ secara otomatis mengirim peristiwa
+ termasuk<00:08:33.259><c> tampilan</c><00:08:33.745><c> halaman</c><00:08:34.178><c> ke</c><00:08:34.340><c> Google</c>
+
+00:08:34.664 --> 00:08:34.718 align:start position:0%
+ termasuk tampilan halaman ke Google
+ 
+
+00:08:34.718 --> 00:08:37.456 align:start position:0%
+ termasuk tampilan halaman ke Google
+ Analytics<00:08:35.204><c>.</c><00:08:36.179><c> Jadi</c><00:08:36.445><c> sekarang</c><00:08:36.924><c> kita</c><00:08:37.190><c> perlu</c>
+
+00:08:37.456 --> 00:08:37.509 align:start position:0%
+ Analytics. Jadi sekarang kita perlu
+ 
+
+00:08:37.509 --> 00:08:39.159 align:start position:0%
+ Analytics. Jadi sekarang kita perlu
+ membuat<00:08:37.935><c> tag</c><00:08:38.148><c> baru</c><00:08:38.414><c> untuk</c><00:08:38.733><c> mengirim</c>
+
+00:08:39.159 --> 00:08:39.212 align:start position:0%
+ membuat tag baru untuk mengirim
+ 
+
+00:08:39.212 --> 00:08:41.181 align:start position:0%
+ membuat tag baru untuk mengirim
+ peristiwa<00:08:39.744><c> tambahan</c><00:08:40.223><c> bagi</c><00:08:40.490><c> konversi</c><00:08:40.969><c> yang</c>
+
+00:08:41.181 --> 00:08:41.235 align:start position:0%
+ peristiwa tambahan bagi konversi yang
+ 
+
+00:08:41.235 --> 00:08:43.635 align:start position:0%
+ peristiwa tambahan bagi konversi yang
+ ingin<00:08:41.554><c> kita</c><00:08:41.820><c> lacak</c><00:08:42.086><c>.</c><00:08:42.640><c> Untuk</c><00:08:42.938><c> melakukan</c><00:08:43.436><c> ini</c><00:08:43.585><c>,</c>
+
+00:08:43.635 --> 00:08:43.684 align:start position:0%
+ ingin kita lacak. Untuk melakukan ini,
+ 
+
+00:08:43.684 --> 00:08:47.522 align:start position:0%
+ ingin kita lacak. Untuk melakukan ini,
+ mari<00:08:43.933><c> kita</c><00:08:44.182><c> buat</c><00:08:44.431><c> tag</c><00:08:44.630><c> baru</c><00:08:44.829><c>.</c><00:08:46.660><c> Mari</c><00:08:46.967><c> kita</c><00:08:47.275><c> beri</c>
+
+00:08:47.522 --> 00:08:47.583 align:start position:0%
+ mari kita buat tag baru. Mari kita beri
+ 
+
+00:08:47.583 --> 00:08:49.615 align:start position:0%
+ mari kita buat tag baru. Mari kita beri
+ nama<00:08:47.891><c> tag</c><00:08:48.137><c> tersebut</c><00:08:48.691><c> Konversi</c><00:08:49.246><c> Google</c>
+
+00:08:49.615 --> 00:08:49.677 align:start position:0%
+ nama tag tersebut Konversi Google
+ 
+
+00:08:49.677 --> 00:08:57.422 align:start position:0%
+ nama tag tersebut Konversi Google
+ Analytics<00:08:50.292><c> GA4</c><00:08:50.477><c>.</c><00:08:55.459><c> Sekarang</c><00:08:56.195><c> mari</c><00:08:56.604><c> kita</c><00:08:57.013><c> pilih</c>
+
+00:08:57.422 --> 00:08:57.504 align:start position:0%
+ Analytics GA4. Sekarang mari kita pilih
+ 
+
+00:08:57.504 --> 00:09:00.204 align:start position:0%
+ Analytics GA4. Sekarang mari kita pilih
+ konfigurasi<00:08:58.486><c> tag</c><00:08:58.813><c> lalu</c><00:08:59.222><c> pilih</c><00:08:59.713><c> Google</c>
+
+00:09:00.204 --> 00:09:00.285 align:start position:0%
+ konfigurasi tag lalu pilih Google
+ 
+
+00:09:00.285 --> 00:09:02.985 align:start position:0%
+ konfigurasi tag lalu pilih Google
+ Analytics<00:09:01.103><c> dan</c><00:09:01.431><c> pilih</c><00:09:01.922><c> peristiwa</c><00:09:02.740><c> GA4</c>
+
+00:09:02.985 --> 00:09:03.067 align:start position:0%
+ Analytics dan pilih peristiwa GA4
+ 
+
+00:09:03.067 --> 00:09:06.440 align:start position:0%
+ Analytics dan pilih peristiwa GA4
+ sebagai<00:09:03.721><c> jenis</c><00:09:04.212><c> tag</c><00:09:04.458><c>.</c><00:09:05.939><c> Kita</c><00:09:06.189><c> perlu</c>
+
+00:09:06.440 --> 00:09:06.490 align:start position:0%
+ sebagai jenis tag. Kita perlu
+ 
+
+00:09:06.490 --> 00:09:08.297 align:start position:0%
+ sebagai jenis tag. Kita perlu
+ memasukkan<00:09:07.042><c> ID</c><00:09:07.193><c> pengukuran</c><00:09:07.745><c> dari</c><00:09:07.996><c> Google</c>
+
+00:09:08.297 --> 00:09:08.347 align:start position:0%
+ memasukkan ID pengukuran dari Google
+ 
+
+00:09:08.347 --> 00:09:11.070 align:start position:0%
+ memasukkan ID pengukuran dari Google
+ Analytics<00:09:08.849><c> kita</c><00:09:09.049><c>.</c><00:09:09.819><c> Saya</c><00:09:10.166><c> sudah</c><00:09:10.583><c> membuat</c>
+
+00:09:11.070 --> 00:09:11.139 align:start position:0%
+ Analytics kita. Saya sudah membuat
+ 
+
+00:09:11.139 --> 00:09:13.850 align:start position:0%
+ Analytics kita. Saya sudah membuat
+ variabel<00:09:11.765><c> untuk</c><00:09:12.182><c> ID</c><00:09:12.390><c> pengukuran</c><00:09:13.155><c> saya</c><00:09:13.433><c>,</c><00:09:13.572><c> jadi</c>
+
+00:09:13.850 --> 00:09:13.920 align:start position:0%
+ variabel untuk ID pengukuran saya, jadi
+ 
+
+00:09:13.920 --> 00:09:18.024 align:start position:0%
+ variabel untuk ID pengukuran saya, jadi
+ saya<00:09:14.267><c> akan</c><00:09:14.615><c> memilihnya</c><00:09:15.310><c>.</c><00:09:17.119><c> Jika</c><00:09:17.420><c> Anda</c><00:09:17.722><c> ingin</c>
+
+00:09:18.024 --> 00:09:18.085 align:start position:0%
+ saya akan memilihnya. Jika Anda ingin
+ 
+
+00:09:18.085 --> 00:09:20.199 align:start position:0%
+ saya akan memilihnya. Jika Anda ingin
+ mempelajari<00:09:18.810><c> langkah-langkah</c><00:09:19.776><c> membuat</c>
+
+00:09:20.199 --> 00:09:20.259 align:start position:0%
+ mempelajari langkah-langkah membuat
+ 
+
+00:09:20.259 --> 00:09:22.433 align:start position:0%
+ mempelajari langkah-langkah membuat
+ variabel<00:09:20.803><c> sendiri</c><00:09:21.226><c>,</c><00:09:21.346><c> silakan</c><00:09:21.829><c> cek</c><00:09:22.071><c> sumber</c>
+
+00:09:22.433 --> 00:09:22.494 align:start position:0%
+ variabel sendiri, silakan cek sumber
+ 
+
+00:09:22.494 --> 00:09:24.427 align:start position:0%
+ variabel sendiri, silakan cek sumber
+ daya<00:09:22.796><c> tambahan</c><00:09:23.339><c> dan</c><00:09:23.581><c> kursus</c><00:09:24.004><c> saya</c><00:09:24.306><c> di</c>
+
+00:09:24.427 --> 00:09:24.487 align:start position:0%
+ daya tambahan dan kursus saya di
+ 
+
+00:09:24.487 --> 00:09:27.580 align:start position:0%
+ daya tambahan dan kursus saya di
+ deskripsi<00:09:25.091><c> di</c><00:09:25.272><c> bawah</c><00:09:25.635><c> video</c><00:09:25.997><c> ini</c><00:09:26.178><c>.</c><00:09:27.220><c> Oke</c><00:09:27.490><c>.</c>
+
+00:09:27.580 --> 00:09:27.859 align:start position:0%
+ deskripsi di bawah video ini. Oke.
+ 
+
+00:09:27.859 --> 00:09:29.910 align:start position:0%
+ deskripsi di bawah video ini. Oke.
+ Sekarang<00:09:28.279><c>,</c><00:09:28.385><c> mari</c><00:09:28.648><c> kita</c><00:09:28.911><c> beri</c><00:09:29.174><c> nama</c><00:09:29.437><c> peristiwa</c>
+
+00:09:29.910 --> 00:09:29.963 align:start position:0%
+ Sekarang, mari kita beri nama peristiwa
+ 
+
+00:09:29.963 --> 00:09:32.600 align:start position:0%
+ Sekarang, mari kita beri nama peristiwa
+ generate_lead<00:09:30.647><c>.</c><00:09:31.659><c> Anda</c><00:09:31.873><c> dapat</c><00:09:32.129><c> menambahkan</c>
+
+00:09:32.600 --> 00:09:32.643 align:start position:0%
+ generate_lead. Anda dapat menambahkan
+ 
+
+00:09:32.643 --> 00:09:34.098 align:start position:0%
+ generate_lead. Anda dapat menambahkan
+ parameter<00:09:33.071><c> peristiwa</c><00:09:33.499><c> untuk</c><00:09:33.756><c> mengirim</c>
+
+00:09:34.098 --> 00:09:34.141 align:start position:0%
+ parameter peristiwa untuk mengirim
+ 
+
+00:09:34.141 --> 00:09:35.682 align:start position:0%
+ parameter peristiwa untuk mengirim
+ informasi<00:09:34.569><c> tambahan</c><00:09:34.954><c> bersama</c><00:09:35.297><c> peristiwa</c>
+
+00:09:35.682 --> 00:09:35.725 align:start position:0%
+ informasi tambahan bersama peristiwa
+ 
+
+00:09:35.725 --> 00:09:38.362 align:start position:0%
+ informasi tambahan bersama peristiwa
+ Anda<00:09:35.896><c>.</c><00:09:36.799><c> Contohnya</c><00:09:37.340><c>,</c><00:09:37.460><c> jika</c><00:09:37.761><c> Anda</c><00:09:38.061><c> ingin</c>
+
+00:09:38.362 --> 00:09:38.422 align:start position:0%
+ Anda. Contohnya, jika Anda ingin
+ 
+
+00:09:38.422 --> 00:09:40.466 align:start position:0%
+ Anda. Contohnya, jika Anda ingin
+ membedakan<00:09:39.083><c> berbagai</c><00:09:39.625><c> jenis</c><00:09:39.985><c> prospek</c><00:09:40.406><c>,</c>
+
+00:09:40.466 --> 00:09:40.527 align:start position:0%
+ membedakan berbagai jenis prospek,
+ 
+
+00:09:40.527 --> 00:09:42.751 align:start position:0%
+ membedakan berbagai jenis prospek,
+ tetapi<00:09:40.948><c> untuk</c><00:09:41.308><c> peristiwa</c><00:09:41.910><c> ini</c><00:09:42.090><c>,</c><00:09:42.210><c> saya</c><00:09:42.511><c> akan</c>
+
+00:09:42.751 --> 00:09:42.812 align:start position:0%
+ tetapi untuk peristiwa ini, saya akan
+ 
+
+00:09:42.812 --> 00:09:44.615 align:start position:0%
+ tetapi untuk peristiwa ini, saya akan
+ membuatnya<00:09:43.473><c> tetap</c><00:09:43.834><c> sederhana</c><00:09:44.435><c> dan</c>
+
+00:09:44.615 --> 00:09:44.676 align:start position:0%
+ membuatnya tetap sederhana dan
+ 
+
+00:09:44.676 --> 00:09:47.827 align:start position:0%
+ membuatnya tetap sederhana dan
+ membiarkannya<00:09:45.517><c> default</c><00:09:45.938><c>.</c><00:09:47.199><c> Jadi</c><00:09:47.366><c>,</c><00:09:47.450><c> mari</c><00:09:47.659><c> kita</c>
+
+00:09:47.827 --> 00:09:47.869 align:start position:0%
+ membiarkannya default. Jadi, mari kita
+ 
+
+00:09:47.869 --> 00:09:50.692 align:start position:0%
+ membiarkannya default. Jadi, mari kita
+ pilih<00:09:48.120><c> pemicu</c><00:09:48.414><c> (</c><00:09:48.456><c>triggering</c><00:09:48.875><c>)</c><00:09:48.917><c>.</c><00:09:50.079><c> Dan</c><00:09:50.283><c> sekarang</c>
+
+00:09:50.692 --> 00:09:50.743 align:start position:0%
+ pilih pemicu (triggering). Dan sekarang
+ 
+
+00:09:50.743 --> 00:09:52.533 align:start position:0%
+ pilih pemicu (triggering). Dan sekarang
+ kita<00:09:50.999><c> perlu</c><00:09:51.306><c> membuat</c><00:09:51.715><c> pemicu</c><00:09:52.073><c> baru</c><00:09:52.329><c> yang</c>
+
+00:09:52.533 --> 00:09:52.585 align:start position:0%
+ kita perlu membuat pemicu baru yang
+ 
+
+00:09:52.585 --> 00:09:54.477 align:start position:0%
+ kita perlu membuat pemicu baru yang
+ hanya<00:09:52.892><c> akan</c><00:09:53.147><c> mengaktifkan</c><00:09:53.812><c> tag</c><00:09:54.017><c> peristiwa</c>
+
+00:09:54.477 --> 00:09:54.528 align:start position:0%
+ hanya akan mengaktifkan tag peristiwa
+ 
+
+00:09:54.528 --> 00:09:56.523 align:start position:0%
+ hanya akan mengaktifkan tag peristiwa
+ GA4<00:09:54.733><c> kita</c><00:09:54.988><c> saat</c><00:09:55.244><c> seseorang</c><00:09:55.756><c> melihat</c><00:09:56.165><c> halaman</c>
+
+00:09:56.523 --> 00:09:56.574 align:start position:0%
+ GA4 kita saat seseorang melihat halaman
+ 
+
+00:09:56.574 --> 00:09:58.943 align:start position:0%
+ GA4 kita saat seseorang melihat halaman
+ terima<00:09:56.932><c> kasih</c><00:09:57.239><c> di</c><00:09:57.392><c> situs</c><00:09:57.699><c> web</c><00:09:57.904><c> kita</c><00:09:58.108><c>.</c><00:09:58.760><c> Mari</c>
+
+00:09:58.943 --> 00:09:58.989 align:start position:0%
+ terima kasih di situs web kita. Mari
+ 
+
+00:09:58.989 --> 00:10:00.599 align:start position:0%
+ terima kasih di situs web kita. Mari
+ kita<00:09:59.219><c> klik</c><00:09:59.449><c> tanda</c><00:09:59.725><c> plus</c><00:09:59.955><c> berwarna</c><00:10:00.369><c> biru</c><00:10:00.553><c>.</c>
+
+00:10:00.599 --> 00:10:03.700 align:start position:0%
+ kita klik tanda plus berwarna biru.
+ 
+
+00:10:03.700 --> 00:10:05.220 align:start position:0%
+ 
+ Mari<00:10:03.917><c> beri</c><00:10:04.134><c> nama</c><00:10:04.351><c> pemicu</c><00:10:04.655><c> kita</c><00:10:04.872><c> "</c><00:10:04.916><c>halaman</c>
+
+00:10:05.220 --> 00:10:05.263 align:start position:0%
+ Mari beri nama pemicu kita "halaman
+ 
+
+00:10:05.263 --> 00:10:10.505 align:start position:0%
+ Mari beri nama pemicu kita "halaman
+ terima<00:10:05.567><c> kasih</c><00:10:05.828><c> apa</c><00:10:06.001><c> pun</c><00:10:06.132><c>"</c><00:10:06.175><c>.</c><00:10:09.759><c> dan</c><00:10:09.988><c> mari</c><00:10:10.275><c> kita</c>
+
+00:10:10.505 --> 00:10:10.563 align:start position:0%
+ terima kasih apa pun". dan mari kita
+ 
+
+00:10:10.563 --> 00:10:13.719 align:start position:0%
+ terima kasih apa pun". dan mari kita
+ pilih<00:10:10.907><c> konfigurasi</c><00:10:11.596><c> pemicu</c><00:10:11.941><c>.</c><00:10:13.139><c> Anda</c><00:10:13.429><c> dapat</c>
+
+00:10:13.719 --> 00:10:13.777 align:start position:0%
+ pilih konfigurasi pemicu. Anda dapat
+ 
+
+00:10:13.777 --> 00:10:15.927 align:start position:0%
+ pilih konfigurasi pemicu. Anda dapat
+ membuat<00:10:14.242><c> pemicu</c><00:10:14.649><c> untuk</c><00:10:14.997><c> tindakan</c><00:10:15.520><c> apa</c><00:10:15.752><c> pun</c>
+
+00:10:15.927 --> 00:10:15.985 align:start position:0%
+ membuat pemicu untuk tindakan apa pun
+ 
+
+00:10:15.985 --> 00:10:18.076 align:start position:0%
+ membuat pemicu untuk tindakan apa pun
+ yang<00:10:16.275><c> Anda</c><00:10:16.566><c> inginkan</c><00:10:17.030><c>,</c><00:10:17.146><c> tetapi</c><00:10:17.553><c> kita</c><00:10:17.843><c> akan</c>
+
+00:10:18.076 --> 00:10:18.134 align:start position:0%
+ yang Anda inginkan, tetapi kita akan
+ 
+
+00:10:18.134 --> 00:10:20.225 align:start position:0%
+ yang Anda inginkan, tetapi kita akan
+ membuat<00:10:18.599><c> pemicu</c><00:10:19.005><c> yang</c><00:10:19.296><c> mengaktifkan</c><00:10:20.051><c> tag</c>
+
+00:10:20.225 --> 00:10:20.283 align:start position:0%
+ membuat pemicu yang mengaktifkan tag
+ 
+
+00:10:20.283 --> 00:10:22.374 align:start position:0%
+ membuat pemicu yang mengaktifkan tag
+ berdasarkan<00:10:20.980><c> URL</c><00:10:21.212><c> halaman</c><00:10:21.677><c> yang</c><00:10:21.967><c> dilihat</c>
+
+00:10:22.374 --> 00:10:22.432 align:start position:0%
+ berdasarkan URL halaman yang dilihat
+ 
+
+00:10:22.432 --> 00:10:25.241 align:start position:0%
+ berdasarkan URL halaman yang dilihat
+ seseorang<00:10:23.013><c> di</c><00:10:23.187><c> situs</c><00:10:23.536><c> web</c><00:10:23.768><c> kita</c><00:10:24.000><c>.</c><00:10:24.659><c> Jadi</c><00:10:24.892><c>,</c><00:10:25.008><c> mari</c>
+
+00:10:25.241 --> 00:10:25.300 align:start position:0%
+ seseorang di situs web kita. Jadi, mari
+ 
+
+00:10:25.300 --> 00:10:29.294 align:start position:0%
+ seseorang di situs web kita. Jadi, mari
+ kita<00:10:25.591><c> pilih</c><00:10:25.941><c> inisialisasi</c><00:10:26.640><c>.</c><00:10:28.480><c> lalu</c><00:10:28.793><c> beberapa</c>
+
+00:10:29.294 --> 00:10:29.357 align:start position:0%
+ kita pilih inisialisasi. lalu beberapa
+ 
+
+00:10:29.357 --> 00:10:33.745 align:start position:0%
+ kita pilih inisialisasi. lalu beberapa
+ peristiwa<00:10:29.984><c> inisialisasi</c><00:10:30.736><c>.</c><00:10:32.839><c> Sekarang</c><00:10:33.357><c>,</c><00:10:33.486><c> saya</c>
+
+00:10:33.745 --> 00:10:33.810 align:start position:0%
+ peristiwa inisialisasi. Sekarang, saya
+ 
+
+00:10:33.810 --> 00:10:36.077 align:start position:0%
+ peristiwa inisialisasi. Sekarang, saya
+ akan<00:10:34.134><c> memilih</c><00:10:34.652><c> URL</c><00:10:34.911><c> halaman</c><00:10:35.429><c> berisi</c><00:10:35.882><c> dan</c>
+
+00:10:36.077 --> 00:10:36.141 align:start position:0%
+ akan memilih URL halaman berisi dan
+ 
+
+00:10:36.141 --> 00:10:40.973 align:start position:0%
+ akan memilih URL halaman berisi dan
+ saya<00:10:36.465><c> akan</c><00:10:36.789><c> memasukkan</c><00:10:37.501><c> "</c><00:10:37.566><c>thank</c><00:10:37.955><c> you</c><00:10:38.149><c>"</c><00:10:38.214><c>.</c><00:10:40.799><c> Ini</c>
+
+00:10:40.973 --> 00:10:41.031 align:start position:0%
+ saya akan memasukkan "thank you". Ini
+ 
+
+00:10:41.031 --> 00:10:43.068 align:start position:0%
+ saya akan memasukkan "thank you". Ini
+ berarti<00:10:41.497><c> tag</c><00:10:41.730><c> kita</c><00:10:42.021><c> akan</c><00:10:42.311><c> dipicu</c><00:10:42.719><c> setiap</c>
+
+00:10:43.068 --> 00:10:43.126 align:start position:0%
+ berarti tag kita akan dipicu setiap
+ 
+
+00:10:43.126 --> 00:10:45.163 align:start position:0%
+ berarti tag kita akan dipicu setiap
+ kali<00:10:43.417><c> seseorang</c><00:10:43.999><c> melihat</c><00:10:44.465><c> halaman</c><00:10:44.930><c> yang</c>
+
+00:10:45.163 --> 00:10:45.221 align:start position:0%
+ kali seseorang melihat halaman yang
+ 
+
+00:10:45.221 --> 00:10:47.200 align:start position:0%
+ kali seseorang melihat halaman yang
+ mengandung<00:10:45.861><c> "</c><00:10:45.919><c>thank</c><00:10:46.268><c> you</c><00:10:46.443><c>"</c><00:10:46.559><c> di</c><00:10:46.734><c> URL-nya</c><00:10:47.141><c>.</c>
+
+00:10:47.200 --> 00:10:48.179 align:start position:0%
+ mengandung "thank you" di URL-nya.
+ 
+
+00:10:48.179 --> 00:10:52.899 align:start position:0%
+ mengandung "thank you" di URL-nya.
+ Sekarang<00:10:48.469><c> mari</c><00:10:48.630><c> kita</c><00:10:48.791><c> klik</c><00:10:48.953><c> simpan</c><00:10:49.146><c>.</c><00:10:52.759><c> dan</c>
+
+00:10:52.899 --> 00:10:52.946 align:start position:0%
+ Sekarang mari kita klik simpan. dan
+ 
+
+00:10:52.946 --> 00:10:57.839 align:start position:0%
+ Sekarang mari kita klik simpan. dan
+ mari<00:10:53.181><c> kita</c><00:10:53.415><c> simpan</c><00:10:53.743><c> tag-nya</c><00:10:54.072><c>.</c><00:10:57.260><c> Anda</c><00:10:57.483><c> sekarang</c>
+
+00:10:57.839 --> 00:10:57.884 align:start position:0%
+ mari kita simpan tag-nya. Anda sekarang
+ 
+
+00:10:57.884 --> 00:10:59.400 align:start position:0%
+ mari kita simpan tag-nya. Anda sekarang
+ dapat<00:10:58.152><c> mempratinjau</c><00:10:58.731><c> perubahan</c><00:10:59.177><c> untuk</c>
+
+00:10:59.400 --> 00:10:59.445 align:start position:0%
+ dapat mempratinjau perubahan untuk
+ 
+
+00:10:59.445 --> 00:11:01.642 align:start position:0%
+ dapat mempratinjau perubahan untuk
+ mengujinya<00:10:59.936><c> di</c><00:11:00.069><c> situs</c><00:11:00.337><c> web</c><00:11:00.515><c> Anda</c><00:11:00.694><c>.</c><00:11:01.379><c> Namun</c>
+
+00:11:01.642 --> 00:11:01.694 align:start position:0%
+ mengujinya di situs web Anda. Namun
+ 
+
+00:11:01.694 --> 00:11:03.536 align:start position:0%
+ mengujinya di situs web Anda. Namun
+ saya<00:11:01.957><c> puas</c><00:11:02.221><c> dengan</c><00:11:02.589><c> tag</c><00:11:02.800><c> baru</c><00:11:03.063><c> ini</c><00:11:03.221><c>,</c><00:11:03.326><c> jadi</c>
+
+00:11:03.536 --> 00:11:03.589 align:start position:0%
+ saya puas dengan tag baru ini, jadi
+ 
+
+00:11:03.589 --> 00:11:05.536 align:start position:0%
+ saya puas dengan tag baru ini, jadi
+ saya<00:11:03.852><c> akan</c><00:11:04.115><c> memublikasikan</c><00:11:04.905><c> perubahan</c><00:11:05.431><c> ke</c>
+
+00:11:05.536 --> 00:11:05.589 align:start position:0%
+ saya akan memublikasikan perubahan ke
+ 
+
+00:11:05.589 --> 00:11:07.690 align:start position:0%
+ saya akan memublikasikan perubahan ke
+ situs<00:11:05.905><c> web</c><00:11:06.115><c> saya</c><00:11:06.326><c>.</c><00:11:06.880><c> Untuk</c><00:11:07.135><c> melakukannya</c><00:11:07.647><c>,</c>
+
+00:11:07.690 --> 00:11:07.732 align:start position:0%
+ situs web saya. Untuk melakukannya,
+ 
+
+00:11:07.732 --> 00:11:11.322 align:start position:0%
+ situs web saya. Untuk melakukannya,
+ kita<00:11:07.946><c> klik</c><00:11:08.159><c> kirim</c><00:11:08.415><c> (</c><00:11:08.457><c>submit</c><00:11:08.713><c>)</c><00:11:08.756><c>.</c><00:11:10.879><c> Kita</c><00:11:11.125><c> beri</c>
+
+00:11:11.322 --> 00:11:11.371 align:start position:0%
+ kita klik kirim (submit). Kita beri
+ 
+
+00:11:11.371 --> 00:11:20.171 align:start position:0%
+ kita klik kirim (submit). Kita beri
+ nama<00:11:11.617><c> versi</c><00:11:11.912><c> kita</c><00:11:12.109><c>.</c><00:11:19.280><c> dan</c><00:11:19.449><c> klik</c><00:11:19.662><c> publikasikan</c>
+
+00:11:20.171 --> 00:11:20.214 align:start position:0%
+ nama versi kita. dan klik publikasikan
+ 
+
+00:11:20.214 --> 00:11:29.811 align:start position:0%
+ nama versi kita. dan klik publikasikan
+ (<00:11:20.256><c>publish</c><00:11:20.554><c>)</c><00:11:20.596><c>.</c><00:11:28.459><c> Anda</c><00:11:28.700><c> dapat</c><00:11:28.990><c> menerapkan</c><00:11:29.522><c> teknik</c>
+
+00:11:29.811 --> 00:11:29.860 align:start position:0%
+ (publish). Anda dapat menerapkan teknik
+ 
+
+00:11:29.860 --> 00:11:31.503 align:start position:0%
+ (publish). Anda dapat menerapkan teknik
+ yang<00:11:30.101><c> sama</c><00:11:30.343><c> untuk</c><00:11:30.633><c> tindakan</c><00:11:31.068><c> lain</c><00:11:31.309><c> yang</c>
+
+00:11:31.503 --> 00:11:31.551 align:start position:0%
+ yang sama untuk tindakan lain yang
+ 
+
+00:11:31.551 --> 00:11:33.194 align:start position:0%
+ yang sama untuk tindakan lain yang
+ ingin<00:11:31.841><c> Anda</c><00:11:32.083><c> lacak</c><00:11:32.372><c> sebagai</c><00:11:32.759><c> peristiwa</c>
+
+00:11:33.194 --> 00:11:33.242 align:start position:0%
+ ingin Anda lacak sebagai peristiwa
+ 
+
+00:11:33.242 --> 00:11:35.684 align:start position:0%
+ ingin Anda lacak sebagai peristiwa
+ kunci<00:11:33.532><c> di</c><00:11:33.677><c> Google</c><00:11:34.015><c> Analytics</c><00:11:34.450><c>.</c><00:11:35.199><c> Hal</c><00:11:35.414><c> utama</c>
+
+00:11:35.684 --> 00:11:35.737 align:start position:0%
+ kunci di Google Analytics. Hal utama
+ 
+
+00:11:35.737 --> 00:11:37.731 align:start position:0%
+ kunci di Google Analytics. Hal utama
+ adalah<00:11:36.115><c> Anda</c><00:11:36.384><c> perlu</c><00:11:36.707><c> membuat</c><00:11:37.139><c> pemicu</c><00:11:37.516><c> yang</c>
+
+00:11:37.731 --> 00:11:37.785 align:start position:0%
+ adalah Anda perlu membuat pemicu yang
+ 
+
+00:11:37.785 --> 00:11:39.671 align:start position:0%
+ adalah Anda perlu membuat pemicu yang
+ akan<00:11:38.055><c> mengaktifkan</c><00:11:38.755><c> tag</c><00:11:38.971><c> peristiwa</c><00:11:39.510><c> GA4</c>
+
+00:11:39.671 --> 00:11:39.725 align:start position:0%
+ akan mengaktifkan tag peristiwa GA4
+ 
+
+00:11:39.725 --> 00:11:41.396 align:start position:0%
+ akan mengaktifkan tag peristiwa GA4
+ setelah<00:11:40.156><c> seseorang</c><00:11:40.695><c> menyelesaikan</c>
+
+00:11:41.396 --> 00:11:41.450 align:start position:0%
+ setelah seseorang menyelesaikan
+ 
+
+00:11:41.450 --> 00:11:44.389 align:start position:0%
+ setelah seseorang menyelesaikan
+ tindakan<00:11:41.935><c> yang</c><00:11:42.204><c> Anda</c><00:11:42.474><c> inginkan</c><00:11:42.905><c>.</c><00:11:43.900><c> Jadi</c><00:11:44.117><c>,</c><00:11:44.226><c> ini</c>
+
+00:11:44.389 --> 00:11:44.444 align:start position:0%
+ tindakan yang Anda inginkan. Jadi, ini
+ 
+
+00:11:44.444 --> 00:11:46.076 align:start position:0%
+ tindakan yang Anda inginkan. Jadi, ini
+ bisa<00:11:44.716><c> berupa</c><00:11:45.096><c> mengirim</c><00:11:45.586><c> formulir</c><00:11:46.021><c>,</c>
+
+00:11:46.076 --> 00:11:46.130 align:start position:0%
+ bisa berupa mengirim formulir,
+ 
+
+00:11:46.130 --> 00:11:48.252 align:start position:0%
+ bisa berupa mengirim formulir,
+ mengeklik<00:11:46.674><c> tombol</c><00:11:47.001><c>,</c><00:11:47.109><c> melihat</c><00:11:47.545><c> halaman</c><00:11:47.926><c>,</c><00:11:48.034><c> atau</c>
+
+00:11:48.252 --> 00:11:48.306 align:start position:0%
+ mengeklik tombol, melihat halaman, atau
+ 
+
+00:11:48.306 --> 00:11:51.910 align:start position:0%
+ mengeklik tombol, melihat halaman, atau
+ tindakan<00:11:48.796><c> lain</c><00:11:49.068><c> yang</c><00:11:49.340><c> Anda</c><00:11:49.612><c> pilih</c><00:11:49.884><c>.</c><00:11:51.499><c> Sekarang</c>
+
+00:11:51.910 --> 00:11:51.962 align:start position:0%
+ tindakan lain yang Anda pilih. Sekarang
+ 
+
+00:11:51.962 --> 00:11:53.867 align:start position:0%
+ tindakan lain yang Anda pilih. Sekarang
+ setelah<00:11:52.374><c> kita</c><00:11:52.631><c> memublikasikan</c><00:11:53.404><c> perubahan</c>
+
+00:11:53.867 --> 00:11:53.919 align:start position:0%
+ setelah kita memublikasikan perubahan
+ 
+
+00:11:53.919 --> 00:11:55.566 align:start position:0%
+ setelah kita memublikasikan perubahan
+ di<00:11:54.073><c> Google</c><00:11:54.433><c> Tag</c><00:11:54.639><c> Manager</c><00:11:55.000><c>,</c><00:11:55.103><c> kita</c><00:11:55.360><c> bisa</c>
+
+00:11:55.566 --> 00:11:55.618 align:start position:0%
+ di Google Tag Manager, kita bisa
+ 
+
+00:11:55.618 --> 00:11:58.631 align:start position:0%
+ di Google Tag Manager, kita bisa
+ kembali<00:11:56.030><c> ke</c><00:11:56.184><c> Google</c><00:11:56.545><c> Analytics</c><00:11:57.008><c>.</c><00:11:58.299><c> Dan</c><00:11:58.465><c> Anda</c>
+
+00:11:58.631 --> 00:11:58.672 align:start position:0%
+ kembali ke Google Analytics. Dan Anda
+ 
+
+00:11:58.672 --> 00:12:00.208 align:start position:0%
+ kembali ke Google Analytics. Dan Anda
+ kemudian<00:11:59.046><c> perlu</c><00:11:59.295><c> mengaktifkan</c><00:11:59.834><c> peristiwa</c>
+
+00:12:00.208 --> 00:12:00.249 align:start position:0%
+ kemudian perlu mengaktifkan peristiwa
+ 
+
+00:12:00.249 --> 00:12:02.441 align:start position:0%
+ kemudian perlu mengaktifkan peristiwa
+ tersebut<00:12:00.623><c> sebagai</c><00:12:00.955><c> peristiwa</c><00:12:01.370><c> kunci</c><00:12:01.577><c>.</c><00:12:02.239><c> Untuk</c>
+
+00:12:02.441 --> 00:12:02.481 align:start position:0%
+ tersebut sebagai peristiwa kunci. Untuk
+ 
+
+00:12:02.481 --> 00:12:03.817 align:start position:0%
+ tersebut sebagai peristiwa kunci. Untuk
+ melakukannya<00:12:02.967><c>,</c><00:12:03.048><c> kita</c><00:12:03.251><c> bisa</c><00:12:03.453><c> mengikuti</c>
+
+00:12:03.817 --> 00:12:03.858 align:start position:0%
+ melakukannya, kita bisa mengikuti
+ 
+
+00:12:03.858 --> 00:12:05.113 align:start position:0%
+ melakukannya, kita bisa mengikuti
+ langkah-langkah<00:12:04.505><c> yang</c><00:12:04.708><c> kita</c><00:12:04.910><c> bahas</c>
+
+00:12:05.113 --> 00:12:05.153 align:start position:0%
+ langkah-langkah yang kita bahas
+ 
+
+00:12:05.153 --> 00:12:07.800 align:start position:0%
+ langkah-langkah yang kita bahas
+ sebelumnya<00:12:05.558><c>.</c><00:12:06.199><c> Jadi</c><00:12:06.490><c>,</c><00:12:06.635><c> kita</c><00:12:06.999><c> buka</c><00:12:07.363><c> admin</c><00:12:07.727><c>.</c>
+
+00:12:07.800 --> 00:12:10.379 align:start position:0%
+ sebelumnya. Jadi, kita buka admin.
+ 
+
+00:12:10.379 --> 00:12:13.219 align:start position:0%
+ 
+ Pilih<00:12:10.865><c> tampilan</c><00:12:11.596><c> data</c><00:12:12.001><c> lalu</c><00:12:12.407><c> peristiwa</c><00:12:13.137><c>.</c>
+
+00:12:13.219 --> 00:12:14.559 align:start position:0%
+ Pilih tampilan data lalu peristiwa.
+ 
+
+00:12:14.559 --> 00:12:16.303 align:start position:0%
+ 
+ Jika<00:12:14.840><c> peristiwa</c><00:12:15.402><c> kunci</c><00:12:15.740><c> Anda</c><00:12:16.021><c> sudah</c>
+
+00:12:16.303 --> 00:12:16.359 align:start position:0%
+ Jika peristiwa kunci Anda sudah
+ 
+
+00:12:16.359 --> 00:12:18.384 align:start position:0%
+ Jika peristiwa kunci Anda sudah
+ terkumpul<00:12:16.865><c>,</c><00:12:16.978><c> Anda</c><00:12:17.259><c> akan</c><00:12:17.540><c> menemukannya</c><00:12:18.272><c> di</c>
+
+00:12:18.384 --> 00:12:18.441 align:start position:0%
+ terkumpul, Anda akan menemukannya di
+ 
+
+00:12:18.441 --> 00:12:21.634 align:start position:0%
+ terkumpul, Anda akan menemukannya di
+ tab<00:12:18.666><c> peristiwa</c><00:12:19.228><c> terkini</c><00:12:19.622><c>.</c><00:12:21.079><c> Jika</c><00:12:21.356><c> belum</c>
+
+00:12:21.634 --> 00:12:21.690 align:start position:0%
+ tab peristiwa terkini. Jika belum
+ 
+
+00:12:21.690 --> 00:12:23.858 align:start position:0%
+ tab peristiwa terkini. Jika belum
+ terkumpul<00:12:22.190><c>,</c><00:12:22.302><c> Anda</c><00:12:22.580><c> tidak</c><00:12:22.913><c> akan</c><00:12:23.191><c> menemukannya</c>
+
+00:12:23.858 --> 00:12:23.914 align:start position:0%
+ terkumpul, Anda tidak akan menemukannya
+ 
+
+00:12:23.914 --> 00:12:25.890 align:start position:0%
+ terkumpul, Anda tidak akan menemukannya
+ di<00:12:24.081><c> sini</c><00:12:24.303><c>.</c><00:12:24.738><c> Jadi</c><00:12:24.902><c>,</c><00:12:24.985><c> sebagai</c><00:12:25.314><c> gantinya</c><00:12:25.643><c>,</c><00:12:25.726><c> Anda</c>
+
+00:12:25.890 --> 00:12:25.932 align:start position:0%
+ di sini. Jadi, sebagai gantinya, Anda
+ 
+
+00:12:25.932 --> 00:12:27.537 align:start position:0%
+ di sini. Jadi, sebagai gantinya, Anda
+ dapat<00:12:26.179><c> mengonfigurasi</c><00:12:26.796><c> peristiwa</c><00:12:27.208><c> tersebut</c>
+
+00:12:27.537 --> 00:12:27.578 align:start position:0%
+ dapat mengonfigurasi peristiwa tersebut
+ 
+
+00:12:27.578 --> 00:12:29.020 align:start position:0%
+ dapat mengonfigurasi peristiwa tersebut
+ sebelumnya<00:12:28.031><c> sebagai</c><00:12:28.361><c> peristiwa</c><00:12:28.772><c> kunci</c><00:12:28.978><c>.</c>
+
+00:12:29.020 --> 00:12:29.439 align:start position:0%
+ sebelumnya sebagai peristiwa kunci.
+ 
+
+00:12:29.439 --> 00:12:31.779 align:start position:0%
+ sebelumnya sebagai peristiwa kunci.
+ Untuk<00:12:29.799><c> melakukannya</c><00:12:30.519><c>,</c><00:12:30.639><c> klik</c><00:12:30.939><c> buat</c><00:12:31.239><c> peristiwa</c>
+
+00:12:31.779 --> 00:12:35.084 align:start position:0%
+ Untuk melakukannya, klik buat peristiwa
+.<00:12:32.979><c> Masukkan</c><00:12:33.536><c> nama</c><00:12:33.846><c> acara</c><00:12:34.217><c> persis</c><00:12:34.651><c> seperti</c>
+
+00:12:35.084 --> 00:12:35.146 align:start position:0%
+. Masukkan nama acara persis seperti
+ 
+
+00:12:35.146 --> 00:12:37.500 align:start position:0%
+. Masukkan nama acara persis seperti
+ yang<00:12:35.456><c> akan</c><00:12:35.765><c> dikirim</c><00:12:36.261><c> ke</c><00:12:36.447><c> Google</c><00:12:36.880><c> Analytics</c><00:12:37.438><c>.</c>
+
+00:12:37.500 --> 00:12:38.460 align:start position:0%
+ yang akan dikirim ke Google Analytics.
+ 
+
+00:12:38.460 --> 00:12:40.173 align:start position:0%
+ yang akan dikirim ke Google Analytics.
+ Jadi<00:12:38.655><c>,</c><00:12:38.753><c> nama</c><00:12:38.998><c> acara</c><00:12:39.292><c> yang</c><00:12:39.536><c> tepat</c><00:12:39.830><c> seperti</c>
+
+00:12:40.173 --> 00:12:40.222 align:start position:0%
+ Jadi, nama acara yang tepat seperti
+ 
+
+00:12:40.222 --> 00:12:42.131 align:start position:0%
+ Jadi, nama acara yang tepat seperti
+ yang<00:12:40.466><c> Anda</c><00:12:40.711><c> gunakan</c><00:12:41.103><c> di</c><00:12:41.250><c> Google</c><00:12:41.592><c> Tag</c><00:12:41.788><c> Manager</c>
+
+00:12:42.131 --> 00:12:44.501 align:start position:0%
+ yang Anda gunakan di Google Tag Manager
+.<00:12:43.159><c> Kemudian</c><00:12:43.561><c> aktifkan</c><00:12:43.964><c> opsi</c><00:12:44.188><c> penanda</c>
+
+00:12:44.501 --> 00:12:44.546 align:start position:0%
+. Kemudian aktifkan opsi penanda
+ 
+
+00:12:44.546 --> 00:12:47.537 align:start position:0%
+. Kemudian aktifkan opsi penanda
+ peristiwa<00:12:44.993><c> utama</c><00:12:45.262><c> (</c><00:12:45.306><c>key</c><00:12:45.485><c> event</c><00:12:45.709><c>)</c><00:12:45.754><c>.</c><00:12:46.859><c> Gulir</c><00:12:47.367><c> ke</c>
+
+00:12:47.537 --> 00:12:47.621 align:start position:0%
+ peristiwa utama (key event). Gulir ke
+ 
+
+00:12:47.621 --> 00:12:50.419 align:start position:0%
+ peristiwa utama (key event). Gulir ke
+ bawah<00:12:48.130><c> dan</c><00:12:48.469><c> pilih</c><00:12:48.978><c> buat</c><00:12:49.401><c> dengan</c><00:12:49.995><c> kode</c><00:12:50.334><c>.</c>
+
+00:12:50.419 --> 00:12:51.759 align:start position:0%
+ bawah dan pilih buat dengan kode.
+ 
+
+00:12:51.759 --> 00:12:53.199 align:start position:0%
+ 
+ Sekarang<00:12:52.129><c> Anda</c><00:12:52.335><c> dapat</c><00:12:52.581><c> mengeklik</c><00:12:52.993><c> buat</c><00:12:53.157><c>.</c>
+
+00:12:53.199 --> 00:12:54.440 align:start position:0%
+ Sekarang Anda dapat mengeklik buat.
+ 
+
+00:12:54.440 --> 00:12:56.576 align:start position:0%
+ 
+ Setelah<00:12:54.878><c> acara</c><00:12:55.206><c> terkumpul</c><00:12:55.700><c>,</c><00:12:55.809><c> acara</c><00:12:56.138><c> tersebut</c>
+
+00:12:56.576 --> 00:12:56.631 align:start position:0%
+ Setelah acara terkumpul, acara tersebut
+ 
+
+00:12:56.631 --> 00:12:58.713 align:start position:0%
+ Setelah acara terkumpul, acara tersebut
+ akan<00:12:56.905><c> muncul</c><00:12:57.288><c> sebagai</c><00:12:57.726><c> peristiwa</c><00:12:58.274><c> utama</c><00:12:58.603><c> di</c>
+
+00:12:58.713 --> 00:12:58.767 align:start position:0%
+ akan muncul sebagai peristiwa utama di
+ 
+
+00:12:58.767 --> 00:13:02.145 align:start position:0%
+ akan muncul sebagai peristiwa utama di
+ laporan<00:12:59.206><c> Anda</c><00:12:59.425><c>.</c><00:13:01.060><c> Kita</c><00:13:01.306><c> telah</c><00:13:01.602><c> melihat</c><00:13:01.997><c> dua</c>
+
+00:13:02.145 --> 00:13:02.194 align:start position:0%
+ laporan Anda. Kita telah melihat dua
+ 
+
+00:13:02.194 --> 00:13:04.118 align:start position:0%
+ laporan Anda. Kita telah melihat dua
+ cara<00:13:02.441><c> untuk</c><00:13:02.737><c> membuat</c><00:13:03.132><c> peristiwa</c><00:13:03.625><c> utama</c><00:13:03.921><c> guna</c>
+
+00:13:04.118 --> 00:13:04.168 align:start position:0%
+ cara untuk membuat peristiwa utama guna
+ 
+
+00:13:04.168 --> 00:13:07.182 align:start position:0%
+ cara untuk membuat peristiwa utama guna
+ melaporkan<00:13:04.710><c> konversi</c><00:13:05.154><c> di</c><00:13:05.302><c> GA4</c><00:13:05.450><c>.</c><00:13:06.700><c> Kita</c><00:13:06.941><c> telah</c>
+
+00:13:07.182 --> 00:13:07.230 align:start position:0%
+ melaporkan konversi di GA4. Kita telah
+ 
+
+00:13:07.230 --> 00:13:08.725 align:start position:0%
+ melaporkan konversi di GA4. Kita telah
+ membahas<00:13:07.664><c> pembuatan</c><00:13:08.146><c> acara</c><00:13:08.435><c> secara</c>
+
+00:13:08.725 --> 00:13:08.773 align:start position:0%
+ membahas pembuatan acara secara
+ 
+
+00:13:08.773 --> 00:13:10.316 align:start position:0%
+ membahas pembuatan acara secara
+ langsung<00:13:09.207><c> di</c><00:13:09.351><c> Google</c><00:13:09.689><c> Analytics</c><00:13:10.171><c> dan</c>
+
+00:13:10.316 --> 00:13:10.364 align:start position:0%
+ langsung di Google Analytics dan
+ 
+
+00:13:10.364 --> 00:13:12.793 align:start position:0%
+ langsung di Google Analytics dan
+ menggunakan<00:13:10.942><c> Google</c><00:13:11.280><c> Tag</c><00:13:11.473><c> Manager</c><00:13:11.810><c>.</c><00:13:12.559><c> Untuk</c>
+
+00:13:12.793 --> 00:13:12.840 align:start position:0%
+ menggunakan Google Tag Manager. Untuk
+ 
+
+00:13:12.840 --> 00:13:14.575 align:start position:0%
+ menggunakan Google Tag Manager. Untuk
+ setiap<00:13:13.168><c> konversi</c><00:13:13.590><c> yang</c><00:13:13.825><c> ingin</c><00:13:14.106><c> Anda</c><00:13:14.341><c> lacak</c>
+
+00:13:14.575 --> 00:13:14.622 align:start position:0%
+ setiap konversi yang ingin Anda lacak
+ 
+
+00:13:14.622 --> 00:13:16.264 align:start position:0%
+ setiap konversi yang ingin Anda lacak
+ sebagai<00:13:14.998><c> peristiwa</c><00:13:15.467><c> utama</c><00:13:15.701><c>,</c><00:13:15.795><c> Anda</c><00:13:16.029><c> hanya</c>
+
+00:13:16.264 --> 00:13:16.311 align:start position:0%
+ sebagai peristiwa utama, Anda hanya
+ 
+
+00:13:16.311 --> 00:13:18.000 align:start position:0%
+ sebagai peristiwa utama, Anda hanya
+ perlu<00:13:16.592><c> memilih</c><00:13:16.968><c> salah</c><00:13:17.249><c> satu</c><00:13:17.484><c> metode</c><00:13:17.812><c> ini</c><00:13:17.953><c>.</c>
+
+00:13:18.000 --> 00:13:18.700 align:start position:0%
+ perlu memilih salah satu metode ini.
+ 
+
+00:13:18.700 --> 00:13:20.833 align:start position:0%
+ perlu memilih salah satu metode ini.
+ Konversi<00:13:19.233><c> apa</c><00:13:19.470><c> yang</c><00:13:19.766><c> akan</c><00:13:20.062><c> Anda</c><00:13:20.359><c> lacak</c><00:13:20.714><c> di</c>
+
+00:13:20.833 --> 00:13:20.892 align:start position:0%
+ Konversi apa yang akan Anda lacak di
+ 
+
+00:13:20.892 --> 00:13:22.488 align:start position:0%
+ Konversi apa yang akan Anda lacak di
+ Google<00:13:21.307><c> Analytics</c><00:13:21.840><c>?</c><00:13:22.000><c> Saya</c><00:13:22.143><c> ingin</c><00:13:22.315><c> sekali</c>
+
+00:13:22.488 --> 00:13:22.516 align:start position:0%
+ Google Analytics? Saya ingin sekali
+ 
+
+00:13:22.516 --> 00:13:24.126 align:start position:0%
+ Google Analytics? Saya ingin sekali
+ mengetahuinya<00:13:22.890><c>.</c><00:13:23.119><c> Beri</c><00:13:23.338><c> tahu</c><00:13:23.557><c> saya</c><00:13:23.776><c> di</c><00:13:23.907><c> kolom</c>
+
+00:13:24.126 --> 00:13:24.170 align:start position:0%
+ mengetahuinya. Beri tahu saya di kolom
+ 
+
+00:13:24.170 --> 00:13:26.166 align:start position:0%
+ mengetahuinya. Beri tahu saya di kolom
+ komentar<00:13:24.564><c> di</c><00:13:24.696><c> bawah</c><00:13:24.915><c>.</c><00:13:25.440><c> Dan</c><00:13:25.601><c> jika</c><00:13:25.803><c> video</c><00:13:26.045><c> ini</c>
+
+00:13:26.166 --> 00:13:26.206 align:start position:0%
+ komentar di bawah. Dan jika video ini
+ 
+
+00:13:26.206 --> 00:13:27.618 align:start position:0%
+ komentar di bawah. Dan jika video ini
+ bermanfaat<00:13:26.610><c>,</c><00:13:26.690><c> silakan</c><00:13:27.013><c> sukai</c><00:13:27.255><c> video</c><00:13:27.497><c> ini</c>
+
+00:13:27.618 --> 00:13:27.659 align:start position:0%
+ bermanfaat, silakan sukai video ini
+ 
+
+00:13:27.659 --> 00:13:29.030 align:start position:0%
+ bermanfaat, silakan sukai video ini
+ agar<00:13:27.860><c> saya</c><00:13:28.062><c> tahu</c><00:13:28.264><c> untuk</c><00:13:28.506><c> membuat</c><00:13:28.829><c> lebih</c>
+
+00:13:29.030 --> 00:13:29.071 align:start position:0%
+ agar saya tahu untuk membuat lebih
+ 
+
+00:13:29.071 --> 00:13:30.873 align:start position:0%
+ agar saya tahu untuk membuat lebih
+ banyak<00:13:29.353><c> video</c><00:13:29.595><c> seperti</c><00:13:29.918><c> ini</c><00:13:30.039><c>.</c><00:13:30.519><c> Terima</c><00:13:30.725><c> kasih</c>
+
+00:13:30.873 --> 00:13:30.903 align:start position:0%
+ banyak video seperti ini. Terima kasih
+ 
+
+00:13:30.903 --> 00:13:31.907 align:start position:0%
+ banyak video seperti ini. Terima kasih
+ telah<00:13:31.080><c> menonton</c><00:13:31.346><c> dan</c><00:13:31.464><c> sampai</c><00:13:31.671><c> jumpa</c><00:13:31.848><c> di</c>
+
+00:13:31.907 --> 00:13:31.936 align:start position:0%
+ telah menonton dan sampai jumpa di
+ 
+
+00:13:31.936 --> 00:13:33.439 align:start position:0%
+ telah menonton dan sampai jumpa di
+ video<00:13:32.114><c> berikutnya</c><00:13:32.409><c>.</c>
+

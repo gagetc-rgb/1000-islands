@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Урок 7. Безопасность, чужие скрипты и приватность</title>
+<meta name="description" content="Секреты в коде, чужой текст как HTML, проверка цены на сервере, OWASP 2025, чужие скрипты, баннер cookie и законы о данных. Интерактивный урок.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2314171c%27/%3E%3Crect x=%277%27 y=%2718%27 width=%2718%27 height=%276%27 fill=%27%23ffe14d%27/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/GolosText-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/course.css?v=6">
+<style>
+/* lesson 7: demo-only styles */
+.levels{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(15rem,100%),1fr));gap:1rem;margin-top:1.4rem}
+.levels > div{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1rem}
+.levels .mh{margin-bottom:.35rem}
+.levels ul{font-size:.95rem}
+
+.src-view{background:#10141a;color:#e6e9ee;font-family:var(--mono);font-size:.84rem;line-height:1.6;border-radius:var(--r);padding:.9rem 1rem;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+.src-view .hl{background:rgba(255,128,116,.32);border-radius:3px;color:#fff}
+.src-view .ok{background:rgba(112,220,152,.24);border-radius:3px}
+.src-view .c{color:#8f99a8}
+.sec-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:1rem;align-items:start}
+@media (min-width:52rem){.sec-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+
+.xss-in{display:grid;gap:.5rem}
+.xss-in textarea{font:inherit;font-family:var(--mono);font-size:.86rem;padding:.55rem .7rem;border:1.5px solid var(--ink-3);border-radius:8px;min-height:5rem;width:100%;background:#fff;color:var(--ink)}
+.xss-frame{display:block;width:100%;height:15rem;border:2px solid var(--ink);border-radius:12px;background:#fff}
+
+.price-row{display:flex;flex-wrap:wrap;gap:.75rem 1.25rem;align-items:end}
+.price-row label{display:grid;gap:.25rem;font-size:.92rem;font-weight:600}
+.price-row input{font:inherit;font-family:var(--mono);width:7rem;padding:.45rem .6rem;border:1.5px solid var(--ink-3);border-radius:8px;background:#fff;color:var(--ink)}
+.order{margin-top:1rem;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem 1rem;font-size:.94rem}
+.order .mh{font-size:1rem;margin-bottom:.3rem}
+
+.owasp{list-style:none;padding:0;margin:1.4rem 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(17rem,100%),1fr));gap:.75rem}
+.owasp li{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:.75rem .9rem}
+.owasp li.you{background:var(--mark-soft);border-color:var(--mark-line)}
+.owasp li.you p{color:#4a3a00}
+.owasp .mh{font-size:.98rem}
+.owasp .mh span{color:var(--ink-3);font-variant-numeric:tabular-nums;margin-right:.3rem}
+.owasp p{margin-top:.3rem;font-size:.92rem;color:var(--ink-2)}
+
+.inv{display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem;align-items:start}
+@media (min-width:52rem){.inv{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.inv-opts{display:grid;gap:.35rem}
+#invTable{width:100%;border-collapse:collapse;font-size:.88rem;table-layout:fixed}
+#invTable th:first-child{width:46%}
+#invTable th,#invTable td{overflow-wrap:anywhere;hyphens:auto;text-align:left;padding:.4rem .5rem;border-bottom:1px solid var(--line-2);vertical-align:top}
+#invTable th{font-weight:650;color:var(--ink-2);font-size:.82rem}
+#invTable td.y{color:var(--bad);font-weight:600}
+#invTable td.n{color:var(--good);font-weight:600}
+
+.cb-site{position:relative;height:22rem;border:2px solid var(--ink);border-radius:12px;background:#fff;overflow:hidden}
+.cb-page{padding:1rem 1.1rem;color:var(--ink-2);font-size:.92rem}
+.cb-page .mh{color:var(--ink);font-size:1.15rem;margin-bottom:.3rem}
+.cb-ban{position:absolute;left:.6rem;right:.6rem;bottom:.6rem;background:#fff;border-radius:10px;box-shadow:0 6px 24px rgba(20,23,28,.22);padding:.8rem .9rem;font-size:.88rem;color:var(--ink)}
+.cb-ban p{margin:0 0 .55rem}
+.cb-btns{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.cb-btns button{font:inherit;font-size:.86rem;font-weight:650;padding:.45rem .85rem;min-height:2.4rem;border-radius:7px;cursor:pointer;border:1.5px solid var(--ink);background:#fff;color:var(--ink)}
+.cb-btns button.pri{background:var(--ink);color:#fff}
+.cb-btns button.link{border:0;background:none;padding:.2rem .1rem;min-height:0;font-weight:400;color:#6b7280;text-decoration:underline;font-size:.8rem}
+.cb-cats{display:grid;gap:.3rem;margin:.3rem 0 .6rem}
+.cb-cats label{display:flex;gap:.45rem;align-items:center;font-size:.86rem}
+.cb-cats input{accent-color:var(--ink);width:1rem;height:1rem;margin:0}
+.netlog{background:#10141a;color:#e6e9ee;border-radius:var(--r);padding:.7rem .9rem;font-family:var(--mono);font-size:.8rem;line-height:1.55;min-height:22rem;overflow:auto}
+.netlog div{padding:.12rem 0;border-bottom:1px solid #222832}
+.netlog .t{color:#8f99a8}
+.netlog .bad{color:#ffb4ab}
+.netlog .ok{color:#9be3b5}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a href="index.html">Матчасть</a>
+    <span class="top-here">Урок 7 из 9: безопасность, чужие скрипты, приватность</span>
+    <a class="top-next" href="08-accept.html">Следующий урок</a>
+  </div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+</header>
+
+<div class="shell">
+<nav aria-label="Содержание урока"><details class="toc"><summary>Содержание</summary><ol></ol></details></nav>
+
+<main>
+<div class="hero">
+  <h1>Урок 7. Безопасность, чужие скрипты и приватность</h1>
+  <p class="lead">Пока сайт состоит из текста и фото, ломать в нём почти нечего. Всё меняется, когда появляются форма, оплата, вход или чужой скрипт, который что-то собирает о посетителях.</p>
+  <p>Около часа. Пять интерактивов: найти ключ в коде страницы, опубликовать «отзыв» со скриптом, купить тур за доллар, составить список чужих скриптов, проверить баннер cookie. Код не нужно писать: нужно понимать, что требовать и как проверить.</p>
+  <p class="small">Пометки: ◆ стандарт, закон или первичный источник, ◈ согласие нескольких авторов или общая практика, ◇ мнение одного автора. Это не юридическая консультация: законы здесь пересказаны для понимания, перед запуском их проверяет юрист.</p>
+</div>
+
+<section class="sec" id="when" data-short="Когда это важно">
+  <h2>Сколько безопасности нужно сайту</h2>
+  <p>Объём работы зависит от того, что сайт умеет. Это главное, что стоит понимать, прежде чем слушать модель или подрядчика.</p>
+  <div class="levels wide">
+    <div>
+      <div class="mh">Визитка: текст и фото</div>
+      <ul>
+        <li>HTTPS везде.</li>
+        <li>Никаких ключей и паролей в коде.</li>
+        <li>Список чужих скриптов и зачем каждый.</li>
+        <li>Доступ к хостингу и домену с двухфакторным входом.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="mh">Плюс форма заявки</div>
+      <ul>
+        <li>Проверка данных на сервере.</li>
+        <li>Защита от спама.</li>
+        <li>Чужой текст никогда не вставляется как HTML.</li>
+        <li>Политика конфиденциальности и только нужные поля.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="mh">Плюс оплата, вход, база</div>
+      <ul>
+        <li>Цена, скидка и количество считаются на сервере.</li>
+        <li>Доступ запрещён по умолчанию.</li>
+        <li>Защищённые cookie, токены против подделки запросов.</li>
+        <li>Журнал ошибок и входов. Здесь нужен человек, который отвечает за безопасность.</li>
+      </ul>
+    </div>
+  </div>
+  <p>Правило для третьей колонки простое: если нейронка пишет вход, оплату или базу данных, а проверить это некому, делать это не надо. Для оплаты бери готовый платёжный сервис, который сам принимает карту, для бронирования готовую систему. <span class="ev">◈ общая практика; ◈ «людям оставлять рискованные части», три автора об AI-коде</span></p>
+</section>
+
+<section class="sec" id="secrets" data-short="Секреты в коде">
+  <h2>Всё, что отдано браузеру, видно всем</h2>
+  <p>Код страницы, стили и скрипты скачиваются на компьютер посетителя. Любой может открыть их через «Просмотр кода страницы» или <code>F12</code>. Поэтому ключ от почтового сервиса, карт или платёжки, записанный в скрипте, это ключ, выданный всем. <span class="ev">◈ наше правило для AI-сайтов; ◈ авторы по безопасности</span></p>
+
+  <div class="stage" id="sk" data-ver="bad">
+    <div class="stage-head">
+      <span class="stage-title">Скрипт формы заявки, как его видит любой посетитель</span>
+      <div class="seg" role="group" aria-label="Версия">
+        <button type="button" class="is-bad" data-set="ver=bad" aria-pressed="true">Ключ в скрипте</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Ключ на сервере</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="sec-grid">
+        <pre class="src-view" id="skCode"></pre>
+        <div>
+          <button type="button" class="btn" id="skFind">Найти секреты, как это делает бот</button>
+          <p id="skOut" class="readout" aria-live="polite" style="margin-top:.8rem"></p>
+        </div>
+      </div>
+    </div>
+    <div class="stage-foot"><p class="small">Ключ выдуман. Поиск настоящий: в коде ищутся строки, похожие на ключи, тем же способом, каким автоматические сканеры обходят сайты и открытые репозитории. Что такие сканеры существуют, общая практика; как быстро они находят ключ, я не измерял. <span class="ev">◈</span></p></div>
+  </div>
+
+  <div class="note common">
+    <p class="nt">Частые ошибки: у людей и у нейронок</p>
+    <ul>
+      <li>Ключ вставлен прямо в скрипт страницы «для простоты», особенно в прототипе, который потом становится сайтом. Инженер Anthropic упоминает людей, у которых так утекали ключи в приложениях, собранных с моделью, но это рассказ, а не измерение. <span class="ev">◆ MITRE CWE-798; ◇ Anthropic, 2025</span></li>
+      <li>Файл <code>.env</code> с ключами лежит в репозитории или в папке, которая публикуется. <span class="ev">◆ MITRE CWE-540</span></li>
+      <li>Пароль от админки в комментарии к коду. <span class="ev">◆ MITRE CWE-615</span></li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>No secrets in client code, HTML, comments or the repository. Keys live in the hosting platform's environment variables and are used only in server functions.</li>
+      <li>Before publishing, search the build output for anything that looks like a key or password and show me the result.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="xss" data-short="Чужой текст как HTML">
+  <h2>Чужой текст никогда не становится кодом</h2>
+  <p>Отзыв, имя в форме, сообщение в чате: всё, что вводит посетитель, это текст. Если сайт вставит его на страницу как HTML, посетитель сможет вставить и код, и этот код выполнится у всех, кто откроет страницу. Атака называется <mark>XSS</mark>, cross-site scripting. Защита: выводить чужой текст как текст, а если нужен HTML, пропускать его через проверенную библиотеку очистки. <span class="ev">◈ четыре автора; ◆ OWASP: Injection в списке 2025 года</span></p>
+
+  <div class="stage" id="xs" data-ver="bad">
+    <div class="stage-head">
+      <span class="stage-title">Форма отзывов на странице тура</span>
+      <div class="seg" role="group" aria-label="Как выводится отзыв">
+        <button type="button" class="is-bad" data-set="ver=bad" aria-pressed="true">Как HTML (innerHTML)</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Как текст (textContent)</button>
+      </div>
+    </div>
+    <div class="controls">
+      <span class="field">Пример отзыва
+        <span class="seg" role="group" aria-label="Пример">
+          <button type="button" data-xs="plain" aria-pressed="false">Обычный</button>
+          <button type="button" data-xs="bold" aria-pressed="false">С тегом &lt;b&gt;</button>
+          <button type="button" data-xs="attack" aria-pressed="true">С кодом</button>
+        </span>
+      </span>
+    </div>
+    <div class="stage-body">
+      <div class="sec-grid">
+        <div class="xss-in">
+          <label for="xsText" class="small">Текст, который ввёл посетитель</label>
+          <textarea id="xsText" spellcheck="false"></textarea>
+          <div><button type="button" class="btn" id="xsPost">Опубликовать отзыв</button></div>
+        </div>
+        <iframe class="xss-frame" id="xsFrame" sandbox="allow-scripts" title="Страница тура с отзывами"></iframe>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="xsOut" class="readout" aria-live="polite"></p><p class="small">Код в примере настоящий и выполняется, но в изолированной рамке без доступа к этой странице и твоим данным: он только перекрашивает рамку и меняет текст.</p></div>
+  </div>
+
+  <p>В примере код безобидный. В реальной атаке он незаметно отправляет данные из формы бронирования или подменяет номер для оплаты. Защита со стороны сервера тоже есть: заголовок <mark>Content Security Policy</mark> говорит браузеру, откуда разрешено загружать и выполнять скрипты, и не даёт выполниться вставленному коду. <span class="ev">◆ MDN CSP</span></p>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>Never insert user-provided text with innerHTML or equivalent. Use textContent; if HTML is truly needed, sanitise it with DOMPurify.</li>
+      <li>Validate every input on the server (type, length, allowed values); client-side checks are only for convenience.</li>
+      <li>Add a Content-Security-Policy header that allows scripts only from our domain and the listed third parties.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="server" data-short="Цена на сервере">
+  <h2>Цену считает сервер</h2>
+  <p>Всё, что пришло из браузера, можно подделать. Человек открывает <code>F12</code>, меняет цену в скрытом поле формы и отправляет. Если сервер берёт цену из запроса, тур продан за доллар. Авторы приводят именно такие примеры: забронировать 50 мест при 6 свободных, сложить купоны до нуля. <span class="ev">◈ три автора; ◆ OWASP 2025: Insecure Design</span></p>
+
+  <div class="stage" id="pr" data-ver="bad">
+    <div class="stage-head">
+      <span class="stage-title">Бронирование: цена лежит в скрытом поле формы</span>
+      <div class="seg" role="group" aria-label="Что делает сервер">
+        <button type="button" class="is-bad" data-set="ver=bad" aria-pressed="true">Сервер верит браузеру</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Сервер считает сам</button>
+      </div>
+    </div>
+    <div class="controls price-row">
+      <label>price в скрытом поле <input id="prPrice" value="95" inputmode="decimal"></label>
+      <label>guests <input id="prGuests" value="2" inputmode="numeric"></label>
+      <label>coupon <input id="prCoupon" value="" placeholder="нет"></label>
+      <button type="button" class="btn" id="prSend">Отправить бронирование</button>
+    </div>
+    <div class="stage-body">
+      <pre class="code" id="prReq" style="margin-top:0"></pre>
+      <div class="order" id="prOrder"></div>
+    </div>
+    <div class="stage-foot"><p id="prOut" class="readout" aria-live="polite">Поменяй цену на 1 или гостей на 50, попробуй купон SALE50 два раза через запятую, и отправь.</p><p class="small">Симуляция сервера. Цена тура $95, свободно 6 мест, купон SALE50 даёт 50% один раз.</p></div>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>The server computes price, discount, availability and totals from its own data; it never trusts amounts or quantities sent by the browser.</li>
+      <li>Access is denied by default: every server endpoint checks who is asking and what they may see.</li>
+      <li>For payments use a hosted checkout from the payment provider; card data never touches our code.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="owasp" data-short="OWASP Top 10">
+  <h2>Десять классов проблем: OWASP Top 10 2025</h2>
+  <p>OWASP это некоммерческий проект, который составляет список самых частых классов уязвимостей веб-приложений. Текущая версия 2025 года. Почти все видео в подборке рассказывают версию 2021 года, и модели, обученные на старых текстах, тоже часто называют её. <span class="ev">◆ owasp.org, проверено по тексту</span> Жёлтым фоном отмечено то, что касается маленького сайта с формой.</p>
+  <ol class="owasp">
+    <li class="you"><div class="mh"><span>A01</span>Broken Access Control</div><p>Человек видит или меняет то, что ему нельзя: чужие заявки, админку по прямой ссылке. Первое место и в 2021, и в 2025.</p></li>
+    <li class="you"><div class="mh"><span>A02</span>Security Misconfiguration</div><p>Включено лишнее, пароли по умолчанию, открытые служебные страницы, подробные ошибки сервера наружу.</p></li>
+    <li class="you"><div class="mh"><span>A03</span>Software Supply Chain Failures</div><p>Уязвимость пришла с чужой библиотекой, плагином или скриптом. Новое название в 2025.</p></li>
+    <li><div class="mh"><span>A04</span>Cryptographic Failures</div><p>Данные без шифрования, слабое хранение паролей.</p></li>
+    <li class="you"><div class="mh"><span>A05</span>Injection</div><p>Чужой ввод становится кодом: XSS, внедрение в запросы к базе.</p></li>
+    <li class="you"><div class="mh"><span>A06</span>Insecure Design</div><p>Ошибка в самой логике: цена из браузера, купоны без лимита.</p></li>
+    <li><div class="mh"><span>A07</span>Authentication Failures</div><p>Слабый вход: без двухфакторной проверки, без защиты от перебора.</p></li>
+    <li><div class="mh"><span>A08</span>Software or Data Integrity Failures</div><p>Код или данные подменили по дороге, а сайт не проверил.</p></li>
+    <li><div class="mh"><span>A09</span>Security Logging and Alerting Failures</div><p>Атаку никто не заметил, потому что ничего не записывалось.</p></li>
+    <li><div class="mh"><span>A10</span>Mishandling of Exceptional Conditions</div><p>Сбой обработан так, что открыл дыру. Новое в 2025.</p></li>
+  </ol>
+  <p class="small">Пояснения к пунктам мои, короткие; названия из официального списка.</p>
+  <div class="note human">
+    <p class="nt">Что делаешь ты, даже без кода</p>
+    <ul>
+      <li>Двухфакторный вход в регистратор домена, хостинг, почту, аналитику. <span class="ev">◈ три автора</span></li>
+      <li>Никаких паролей по умолчанию у админок и плагинов. <span class="ev">◆ CISA Secure by Design, 2023; ◈ перекрёстная проверка по безопасности</span></li>
+      <li>Обновления плагинов и библиотек, если сайт на CMS. <span class="ev">◈ четыре автора</span></li>
+      <li>Каждый скачанный навык, плагин и сервер для модели считать непроверенным кодом и читать перед установкой. <span class="ev">◇ наш перенос общего правила «ставить только из надёжных источников» на навыки для моделей</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="third" data-short="Чужие скрипты">
+  <h2>Чужие скрипты: каждый должен иметь причину</h2>
+  <p>Аналитика, пиксель рекламы, чат, карта, видео, виджет бронирования. Каждый такой скрипт выполняется с теми же правами, что и твой код: видит страницу, может читать то, что вводят в форму. Он грузится с чужого сервера, и если там что-то подменят, подмена придёт к твоим посетителям. Поэтому для скрипта с чужого сервера есть атрибут <code>integrity</code>: браузер сверит файл с отпечатком и не выполнит изменённый. <span class="ev">◆ MDN Subresource Integrity</span></p>
+
+  <div class="stage" id="inv">
+    <div class="stage-head">
+      <span class="stage-title">Что подключено к сайту</span>
+      <div class="seg" role="group" aria-label="Примеры">
+        <button type="button" data-inv="ai">Типичная ошибка</button>
+        <button type="button" data-inv="lean">Только нужное</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="inv">
+        <div class="inv-opts" id="invOpts"></div>
+        <table id="invTable"><thead><tr><th>Скрипт</th><th>Следит за посетителем</th><th>Согласие в ЕС</th></tr></thead><tbody></tbody></table>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="invOut" class="readout" aria-live="polite"></p><p class="small">Оценки «следит» и «согласие» общие для типа сервиса при обычной настройке, а не проверка конкретных продуктов. Точный ответ даёт только проверка сайта в браузере, см. ниже.</p></div>
+  </div>
+
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>List every third-party script, iframe and font with its domain, purpose, whether it sets cookies, and whether it needs consent. Nothing is added without a reason I approve.</li>
+      <li>Maps, video and chat load on click behind a facade. Scripts from a CDN carry an integrity attribute.</li>
+      <li>Self-host fonts instead of loading them from a font CDN.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="consent" data-short="Баннер cookie">
+  <h2>Баннер cookie: что считается согласием</h2>
+  <p>Правила ЕС здесь проверены по первоисточникам и звучат так. Для всего, что не строго необходимо для работы сайта (аналитика, реклама, пиксели), нужно согласие до того, как скрипт сработал. <span class="ev">◆ директива ePrivacy, ст. 5(3)</span> Молчание, заранее отмеченные галочки и бездействие согласием не являются. <span class="ev">◆ GDPR, преамбула 32; ◆ Суд ЕС, дело Planet49</span> Прокрутка страницы тоже нет. <span class="ev">◆ EDPB, руководство 05/2020</span> Отказаться должно быть так же просто, как согласиться, а отозвать согласие так же просто, как дать. <span class="ev">◆ CNIL; ◆ GDPR ст. 7(3); ◆ EDPB, отчёт о баннерах 2023</span></p>
+
+  <div class="stage" id="cb" data-ver="ai">
+    <div class="stage-head">
+      <span class="stage-title">Открой сайт и ответь на баннер</span>
+      <div class="seg" role="group" aria-label="Вариант баннера">
+        <button type="button" class="is-bad" data-set="ver=ai" aria-pressed="true">Только «Accept»</button>
+        <button type="button" class="is-bad" data-set="ver=hide" aria-pressed="false">Отказ спрятан</button>
+        <button type="button" class="is-bad" data-set="ver=tick" aria-pressed="false">Галочки заранее</button>
+        <button type="button" class="is-good" data-set="ver=good" aria-pressed="false">Честный</button>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="sec-grid">
+        <div class="cb-site">
+          <div class="cb-page"><div class="mh">Nusa Penida day trip</div><p>Small boat, six guests, back by 5 pm. From $95.</p></div>
+          <div class="cb-ban" id="cbBan"></div>
+        </div>
+        <div class="netlog" id="cbLog" aria-label="Журнал запросов"></div>
+      </div>
+    </div>
+    <div class="stage-foot"><p id="cbOut" class="readout" aria-live="polite"></p><p class="small">Симуляция журнала запросов, как во вкладке Network. Домены условные.</p></div>
+  </div>
+
+  <p>Установка готового баннера сама по себе ничего не гарантирует. Исследователи находили сайты, которые записывают согласие ещё до нажатия и даже после отказа, а отвечает за это владелец сайта. <span class="ev">◈ три автора</span> Поэтому баннер проверяют руками, ниже сказано как.</p>
+  <p>Можно ли обойтись без баннера? Если на сайте нет ничего, кроме строго необходимого, да. Французский регулятор CNIL разрешает аналитику без согласия только при жёстких условиях: только подсчёт посещений для самого владельца, только анонимная статистика, без передачи третьим лицам и без слежки между сайтами. «Наша аналитика не требует баннера» в рекламе сервисов это обещание, а не правило: решает настройка. <span class="ev">◆ CNIL; ◇ правила других стран не проверял</span> Если аналитику включают только по согласию, данных будет заметно меньше: об этом говорят два автора, точной доли нет. <span class="ev">◇</span></p>
+
+  <div class="note check">
+    <p class="nt">Проверь за минуту</p>
+    <ul>
+      <li>Открой сайт в приватном окне, <code>F12</code>, вкладка Application, раздел Cookies. До нажатия на баннер там должны быть только служебные cookie самого сайта.</li>
+      <li>Вкладка Network, перезагрузи страницу и не трогай баннер. В списке не должно быть запросов к аналитике и рекламе: набери в фильтре <code>google</code>, <code>facebook</code>, <code>analytics</code>.</li>
+      <li>Нажми отказ и снова посмотри Network. Ничего не должно появиться.</li>
+      <li>Найди внизу страницы ссылку, которая снова открывает настройки cookie.</li>
+    </ul>
+  </div>
+  <div class="say">
+    <p class="nt">Что сказать модели</p>
+    <ul>
+      <li>All non-essential scripts are blocked until consent. Default state is denied; nothing fires before the visitor chooses.</li>
+      <li>First layer of the banner has Accept and Reject with the same simplicity, plus Settings. No pre-ticked boxes, no cookie wall, no "by continuing you agree".</li>
+      <li>A footer link reopens the settings. The privacy page lists every cookie and provider with purpose and duration.</li>
+      <li>Test it: show me the Network tab before consent and after Reject.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="law" data-short="Какие законы">
+  <h2>Какие законы касаются сайта на Бали</h2>
+  <p>Коротко и с честной пометкой, где я уверен, а где нет. Это не юридическая консультация.</p>
+  <ul>
+    <li><strong>GDPR касается и бизнеса вне ЕС</strong>, если он предлагает услуги людям, которые находятся в ЕС, или отслеживает их поведение. Туры для европейских туристов под это подпадают. <span class="ev">◆ GDPR, ст. 3(2), проверено по тексту</span></li>
+    <li><strong>В Индонезии действует закон о защите персональных данных</strong>, UU PDP, № 27 от 2022 года. Переходный период закончился 17 октября 2024 года. Он похож на GDPR: согласие явное, его можно отозвать, молчание и заранее отмеченные галочки не считаются. <span class="ev">◈ несколько юридических обзоров 2026 года; текст закона сам не читал</span> Подзаконный акт PP 33/2026, по одному источнику, вступает в силу в январе 2027 года. <span class="ev">◇ один источник</span></li>
+    <li><strong>Правила Австралии, Великобритании и штатов США</strong> не исследованы.</li>
+  </ul>
+  <p>Что из этого следует на практике, независимо от страны:</p>
+  <ul>
+    <li>Собирай только то, что нужно для ответа на заявку (урок 5). Меньше данных, меньше ответственности.</li>
+    <li>Политика конфиденциальности называет, что собирается, зачем, сколько хранится и кому передаётся. Её пишет или проверяет юрист, а не модель.</li>
+    <li>Срок хранения данных в Google Analytics настраивается: 2 или 14 месяцев. IP-адреса GA4 не хранит. <span class="ev">◆ справка Google Analytics</span></li>
+  </ul>
+</section>
+
+<section class="sec" id="errors" data-short="10 типичных ошибок">
+  <h2>Десять типичных ошибок</h2>
+  <ol class="cases">
+    <li><div class="mh">1. Ключ в скрипте страницы</div><p>Виден любому посетителю и ботам.</p><p><code>Keys only in server env vars.</code></p></li>
+    <li><div class="mh">2. .env в репозитории</div><p>Пароли уходят вместе с кодом.</p><p><code>.env in .gitignore; scan before publish.</code></p></li>
+    <li><div class="mh">3. innerHTML с чужим текстом</div><p>Отзыв становится кодом.</p><p><code>textContent or DOMPurify.</code></p></li>
+    <li><div class="mh">4. Цена из браузера</div><p>Тур продаётся за доллар.</p><p><code>Server computes totals.</code></p></li>
+    <li><div class="mh">5. Проверка только в браузере</div><p>Её обходят за минуту.</p><p><code>Validate on the server.</code></p></li>
+    <li><div class="mh">6. Скрипты «на всякий случай»</div><p>Пиксели и виджеты без причины.</p><p><code>Inventory with reasons.</code></p></li>
+    <li><div class="mh">7. Аналитика до согласия</div><p>Баннер висит, а данные уже ушли.</p><p><code>Default denied; test in Network.</code></p></li>
+    <li><div class="mh">8. Нет кнопки отказа</div><p>Только «Accept» или отказ на втором экране.</p><p><code>Reject on the first layer.</code></p></li>
+    <li><div class="mh">9. Пароль admin/admin</div><p>Первое, что пробуют боты.</p><p><code>No default credentials; 2FA.</code></p></li>
+    <li><div class="mh">10. OWASP 2021 в отчёте</div><p>Устаревший список.</p><p><code>Use OWASP Top 10 2025.</code></p></li>
+  </ol>
+</section>
+
+<section class="sec" id="accept" data-short="Чек-лист приёмки">
+  <h2>Чек-лист приёмки</h2>
+  <ul class="checklist" data-id="l7">
+    <li><label><input type="checkbox"><span>Поиск по опубликованным файлам не находит ключей и паролей; .env не в репозитории.</span></label></li>
+    <li><label><input type="checkbox"><span>Сайт открывается только по HTTPS.</span></label></li>
+    <li><label><input type="checkbox"><span>Всё, что вводит посетитель, выводится как текст; ввод проверяется на сервере.</span></label></li>
+    <li><label><input type="checkbox"><span>Цена, скидки и места считает сервер или готовая платёжная система.</span></label></li>
+    <li><label><input type="checkbox"><span>Есть таблица чужих скриптов: домен, зачем, ставит ли cookie, нужно ли согласие.</span></label></li>
+    <li><label><input type="checkbox"><span>Карта, видео и чат загружаются по нажатию; скрипты с CDN с integrity; шрифты свои.</span></label></li>
+    <li><label><input type="checkbox"><span>В приватном окне до ответа на баннер нет запросов к аналитике и рекламе; после отказа тоже.</span></label></li>
+    <li><label><input type="checkbox"><span>Отказ так же прост, как согласие; галочки не отмечены; в подвале ссылка на настройки.</span></label></li>
+    <li><label><input type="checkbox"><span>Политика конфиденциальности проверена юристом, в ней перечислены сервисы и сроки.</span></label></li>
+    <li><label><input type="checkbox"><span>На домене, хостинге, почте и аналитике включён двухфакторный вход.</span></label></li>
+  </ul>
+</section>
+
+<section class="sec" id="quiz" data-short="Тест">
+  <h2>Проверь себя</h2>
+  <div class="quiz" data-quiz="l7">
+    <script type="application/json">
+[
+ {"q":"Модель вставила ключ почтового сервиса в скрипт формы. Почему это плохо, если сайт никто не «взламывает»?","opts":["Это не плохо, ключ спрятан в коде","Код скрипта скачивается каждому посетителю: ключ видит любой, кто откроет F12","Ключ замедлит сайт","Ключ испортит SEO"],"a":1,"why":"Всё, что отдано браузеру, публично. Ключи живут на сервере, в переменных окружения хостинга."},
+ {"q":"Отзыв выводится через innerHTML. Что может сделать посетитель?","opts":["Ничего, это просто текст","Вставить код, который выполнится у каждого, кто откроет страницу","Только сделать текст жирным","Удалить сайт"],"a":1,"why":"Это XSS. Чужой текст выводят через textContent или очищают проверенной библиотекой."},
+ {"q":"Цена тура приходит на сервер из скрытого поля формы. Как правильно?","opts":["Спрятать поле получше","Сервер сам считает цену, скидку и наличие мест по своим данным","Проверить цену в браузере","Зашифровать поле"],"a":1,"why":"Всё из браузера можно подделать. Логику цены и количества держит сервер или платёжная система."},
+ {"q":"Какой список OWASP Top 10 актуален сейчас?","opts":["2017","2021","2025","OWASP больше не выпускает список"],"a":2,"why":"На сайте OWASP: текущая версия 2025 года. Первое место по-прежнему Broken Access Control."},
+ {"q":"Зачем атрибут integrity у скрипта с CDN?","opts":["Ускоряет загрузку","Браузер сверит файл с отпечатком и не выполнит подменённый","Скрывает скрипт от ботов","Нужен для SEO"],"a":1,"why":"Subresource Integrity защищает от подмены файла на чужом сервере."},
+ {"q":"Баннер: «By continuing to browse you accept cookies» и одна кнопка OK. Аналитика стартует сразу. Что не так?","opts":["Всё нормально","Продолжение работы и бездействие не согласие; нет отказа; скрипт сработал до выбора","Только цвет кнопки","Баннер должен быть сверху"],"a":1,"why":"По GDPR и разъяснениям EDPB согласие это явное действие до запуска скрипта, и отказ должен быть так же прост."},
+ {"q":"Кнопка «Reject all» есть, но только во втором окне «Settings». Это нормально?","opts":["Да, отказ же есть","Нет: большинство регуляторов ЕС считают нарушением отсутствие отказа на слое, где есть согласие","Нормально, если шрифт крупный","Нормально для туристических сайтов"],"a":1,"why":"Отчёт EDPB 2023 о баннерах и позиция CNIL: отказаться должно быть так же просто, как согласиться."},
+ {"q":"Бизнес на Бали, клиенты из Европы. Касается ли его GDPR?","opts":["Нет, бизнес не в ЕС","Да, если он предлагает услуги людям в ЕС или отслеживает их поведение","Только если есть офис в ЕС","Только при оплате в евро"],"a":1,"why":"GDPR ст. 3(2). Плюс в Индонезии действует свой закон UU PDP. Детали проверяет юрист."},
+ {"q":"Сервис аналитики пишет: «баннер не нужен». Как к этому относиться?","opts":["Верить, это их продукт","Это зависит от настройки и страны: CNIL освобождает только строго анонимный подсчёт для самого владельца","Баннер нужен всегда","Баннер нужен только в Германии"],"a":1,"why":"Условия CNIL жёсткие, правила других стран отличаются. Решает настройка, а не реклама."},
+ {"q":"Как быстро проверить, что баннер действительно блокирует аналитику?","opts":["Спросить модель","Приватное окно, F12, Network и Cookies до нажатия и после отказа","Посмотреть на баннер","Прогнать Lighthouse"],"a":1,"why":"Готовый баннер ничего не гарантирует, а отвечает владелец сайта. Проверяют по запросам и cookie."}
+]
+    </script>
+  </div>
+</section>
+
+<section class="sec" id="sources" data-short="Источники">
+  <h2>Откуда это взято</h2>
+  <ul>
+    <li>◆ OWASP Top 10 2025 (owasp.org): актуальная версия и названия классов. MDN: CSP, Subresource Integrity, атрибуты cookie HttpOnly и Secure.</li>
+    <li>◆ Право ЕС: GDPR ст. 3(2), 4(11), 7(3), 7(4), преамбула 32; директива ePrivacy ст. 5(3); Суд ЕС, Planet49 (C-673/17); EDPB, руководство 05/2020 и отчёт рабочей группы по баннерам 2023; CNIL о простоте отказа и об аналитике без согласия. Всё проверено по тексту.</li>
+    <li>◆ Справка Google Analytics: срок хранения данных, IP-адреса в GA4.</li>
+    <li>◈ Видео по безопасности: Cyber Citadel, PwnFunction (два), Владилен Минин (ru, машинный перевод субтитров), RINKU (es), Código Fonte TV (pt). Три из них описывают список OWASP 2021 года.</li>
+    <li>◈ Видео по приватности: TechGDPR, HotPETS 2020, юрист Röttger (de), Webalab (fr), Google Analytics, Small Business Toolbox, Rubén Monllor (es). Все опираются на одни и те же тексты ЕС.</li>
+    <li>◈ Индонезийский закон UU PDP: несколько юридических обзоров 2026 года; ◇ PP 33/2026 по одному источнику. Закон в оригинале я не читал.</li>
+    <li>◆ MITRE CWE-798, CWE-540, CWE-615; CISA Secure by Design Alert о паролях по умолчанию, декабрь 2023.</li>
+  </ul>
+  <p class="small">Не проверено и не вошло: размеры штрафов из видео, доля людей, которые соглашаются на аналитику, правила Австралии, Великобритании и США.</p>
+  <p class="small">В блоках «Где ошибаются нейронки» стоит только то, что видели в выдаче моделей 2025–2026 годов, с моделью и датой. Реальные ошибки без такого подтверждения собраны в блоках «Частые ошибки: у людей и у нейронок», и метка там подтверждает правило, а не привычку моделей. Разбор по каждому утверждению: PROVENANCE_ERRORS.md, AUDIT_INDEPENDENT.md, EXTERNAL_CHECK.md.</p>
+</section>
+</main>
+</div>
+
+<footer class="foot">
+  <nav aria-label="Навигация по курсу"><a href="06-search.html">Урок 6. Поиск и шаринг</a><a href="08-accept.html">Урок 8. Приёмка работы нейронки</a><a href="index.html">Все уроки</a></nav>
+</footer>
+
+<script src="assets/course.js?v=6"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const { $, $$ } = Course;
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  /* 1. Secrets in client code */
+  const SK = {
+    bad: `<span class="c">// enquiry.js, loaded by every visitor</span>
+const MAIL_API_KEY = "sk_live_7Hq2pX9vR4mN8kL1aZ6tW3yB";
+const ADMIN_PASS = "bali2026"; <span class="c">// TODO remove</span>
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  await fetch("https://api.mailservice.example/send", {
+    method: "POST",
+    headers: { Authorization: "Bearer " + MAIL_API_KEY },
+    body: new FormData(form)
+  });
+});`,
+    good: `<span class="c">// enquiry.js, loaded by every visitor</span>
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  await fetch("/api/enquiry", {
+    method: "POST",
+    body: new FormData(form)
+  });
+});
+
+<span class="c">// functions/api/enquiry.js runs on the host, never sent to browsers
+// const key = env.MAIL_API_KEY  (set in the hosting dashboard)</span>`
+  };
+  const sk = $('#sk');
+  function skShow(found) {
+    const v = sk.dataset.ver; let html = SK[v];
+    if (found) html = html.replace(/("sk_live_[^"]+"|"bali2026")/g, '<span class="hl">$1</span>');
+    $('#skCode').innerHTML = html;
+  }
+  $('#skFind').addEventListener('click', () => {
+    const text = $('#skCode').textContent;
+    const hits = [...text.matchAll(/(sk_live_[A-Za-z0-9]{8,}|(?:pass|password|secret|token)\s*=\s*"[^"]+")/gi)].map((m) => m[0]);
+    skShow(true);
+    $('#skOut').innerHTML = hits.length ? `<span class="verdict no">Найдено ${hits.length}:</span> ${hits.map((h) => `<code>${esc(h.length > 30 ? h.slice(0, 28) + '…' : h)}</code>`).join(', ')}. Это доступно любому посетителю: ключом можно рассылать письма от имени сайта, пока его не заменят.` : '<span class="verdict ok">Секретов в коде браузера нет.</span> Скрипт отправляет заявку на свой адрес /api/enquiry, а ключ использует функция на хостинге, которая браузеру не отдаётся.';
+  });
+  sk.addEventListener('statechange', () => { skShow(false); $('#skOut').textContent = 'Нажми кнопку поиска.'; });
+  skShow(false); $('#skOut').textContent = 'Нажми кнопку поиска.';
+
+  /* 2. XSS in a sandboxed frame */
+  const XS = {
+    plain: 'Amazing day, the captain found manta rays for us!',
+    bold: 'Amazing day, <b>book the morning boat</b>!',
+    attack: 'Great tour! <img src="x" onerror="document.body.style.background=\'#a1261d\';document.querySelector(\'h2\').textContent=\'Pay now to account 0000 for your booking\';">'
+  };
+  const xs = $('#xs'); const xsText = $('#xsText'); const xsFrame = $('#xsFrame');
+  function xsPost() {
+    const raw = xsText.value; const html = xs.dataset.ver === 'bad';
+    const data = JSON.stringify(raw).replace(/</g, '\\u003c');
+    xsFrame.srcdoc = `<style>body{margin:0;padding:14px;font:15px/1.45 system-ui,'Segoe UI',sans-serif;color:#14171c;background:#fff;overflow-wrap:anywhere}h2{font-size:18px;margin:0 0 8px}.r{border-top:1px solid #d5dae1;padding:8px 0}.r b.n{display:block;font-size:13px;color:#4a515e}</style>
+    <h2>Nusa Penida day trip: reviews</h2><div class="r"><b class="n">Anna, Sydney</b>Calm sea, great guide.</div><div class="r"><b class="n">Guest</b><div id="new"></div></div>
+    <script>document.getElementById('new').${html ? 'innerHTML' : 'textContent'} = ${data};<\/script>`;
+    const hasTag = /<[a-z]/i.test(raw); const hasCode = /on\w+\s*=|<script/i.test(raw);
+    let out;
+    if (!html) out = hasTag ? '<span class="verdict ok">Теги показаны буквально, как текст.</span> Код не выполнился: посетитель увидит угловые скобки, и это правильно.' : '<span class="verdict ok">Обычный отзыв выглядит как обычно.</span> Вывод через textContent ничего не ломает.';
+    else if (hasCode) out = '<span class="verdict no">Код из отзыва выполнился:</span> страница перекрасилась и показывает чужой текст про оплату. Это увидит каждый, кто откроет страницу.';
+    else if (hasTag) out = '<span class="verdict mid">Тег сработал, текст стал жирным.</span> Безобидно, но это доказывает, что посетитель управляет разметкой страницы. Следующим шагом будет код.';
+    else out = 'Обычный отзыв выглядит нормально. Проблема видна только на отзыве с тегами: выбери пример «С кодом».';
+    $('#xsOut').innerHTML = out;
+  }
+  $$('#xs [data-xs]').forEach((b) => b.addEventListener('click', () => {
+    xsText.value = XS[b.dataset.xs];
+    $$('#xs [data-xs]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    xsPost();
+  }));
+  $('#xsPost').addEventListener('click', xsPost);
+  xs.addEventListener('statechange', xsPost);
+  xsText.value = XS.attack; xsPost();
+
+  /* 3. Server-side price */
+  const pr = $('#pr'); const PRICE = 95; const SEATS = 6;
+  function prReq() {
+    $('#prReq').textContent = `POST /api/book\nprice=${$('#prPrice').value}&guests=${$('#prGuests').value}&coupon=${$('#prCoupon').value}`;
+  }
+  $('#prSend').addEventListener('click', () => {
+    prReq();
+    const p = parseFloat($('#prPrice').value) || 0; const g = parseInt($('#prGuests').value, 10) || 0;
+    const coupons = $('#prCoupon').value.split(',').map((c) => c.trim().toUpperCase()).filter(Boolean);
+    let out; let order;
+    if (pr.dataset.ver === 'bad') {
+      let total = p * g; coupons.forEach((c) => { if (c === 'SALE50') total *= 0.5; });
+      order = `<div class="mh">Бронирование принято</div>${g} guests × $${p} ${coupons.length ? '− купоны ' + esc(coupons.join(', ')) : ''} = <strong>$${total.toFixed(2)}</strong>`;
+      const cheated = p !== PRICE || g > SEATS || coupons.filter((c) => c === 'SALE50').length > 1;
+      out = cheated ? `<span class="verdict no">Сервер принял то, что прислал браузер.</span> ${p !== PRICE ? 'Цена подделана. ' : ''}${g > SEATS ? `Продано ${g} мест при ${SEATS} свободных. ` : ''}${coupons.filter((c) => c === 'SALE50').length > 1 ? 'Купон применён несколько раз. ' : ''}Менеджер узнает об этом, когда клиент придёт на лодку.` : 'Честный запрос прошёл честно. Теперь поменяй цену в поле на 1 и отправь снова.';
+    } else {
+      const problems = [];
+      if (g < 1 || g > SEATS) problems.push(`свободно только ${SEATS} мест`);
+      const uniq = [...new Set(coupons)]; const valid = uniq.filter((c) => c === 'SALE50');
+      if (uniq.length > valid.length) problems.push('неизвестный купон');
+      if (problems.length) { order = `<div class="mh">Отказано</div>${esc(problems.join('; '))}.`; out = '<span class="verdict ok">Сервер проверил количество и купон по своим данным</span> и вернул понятную ошибку.'; }
+      else {
+        let total = PRICE * g; if (valid.length) total *= 0.5;
+        order = `<div class="mh">Бронирование принято</div>${g} guests × $${PRICE} (цена из базы) ${valid.length ? '− SALE50 один раз' : ''} = <strong>$${total.toFixed(2)}</strong>`;
+        out = `<span class="verdict ok">Сервер не читал цену из запроса.</span> ${p !== PRICE ? `Подделанное значение ${esc(String(p))} просто проигнорировано. ` : ''}${coupons.length > 1 ? 'Повторный купон не сработал.' : ''}`;
+      }
+    }
+    $('#prOrder').innerHTML = order; $('#prOut').innerHTML = out;
+  });
+  ['prPrice', 'prGuests', 'prCoupon'].forEach((id) => $('#' + id).addEventListener('input', prReq));
+  pr.addEventListener('statechange', () => { $('#prOrder').innerHTML = ''; $('#prOut').textContent = 'Поменяй цену на 1 или гостей на 50, попробуй купон SALE50 два раза через запятую, и отправь.'; });
+  prReq();
+
+  /* 4. Third-party inventory */
+  const INV = [
+    { id: 'ga', n: 'Google Analytics', track: 'да', consent: 'да', why: 'считать заявки и источники', ai: 1, lean: 1 },
+    { id: 'px', n: 'Пиксель рекламной сети', track: 'да', consent: 'да', why: 'реклама, которой пока нет', ai: 1, lean: 0 },
+    { id: 'hot', n: 'Запись сеансов (тепловые карты)', track: 'да', consent: 'да', why: 'никто не смотрит записи', ai: 1, lean: 0 },
+    { id: 'chat', n: 'Чат-виджет, грузится сразу', track: 'обычно', consent: 'обычно', why: 'заменим ссылкой на WhatsApp', ai: 1, lean: 0 },
+    { id: 'map', n: 'Встроенная карта, грузится сразу', track: 'обычно', consent: 'обычно', why: 'нужна только на странице контактов, по нажатию', ai: 1, lean: 0 },
+    { id: 'mapf', n: 'Карта за картинкой, по нажатию', track: 'после нажатия', consent: 'после нажатия', why: 'путь до причала', ai: 0, lean: 1 },
+    { id: 'font', n: 'Шрифты с CDN шрифтов', track: 'передаёт IP', consent: 'спорно', why: 'можно положить на свой сервер', ai: 1, lean: 0 },
+    { id: 'jq', n: 'jQuery с CDN без integrity', track: 'нет', consent: 'нет', why: 'используется в одной строке', ai: 1, lean: 0 }
+  ];
+  $('#invOpts').innerHTML = INV.map((r) => `<label class="field"><input type="checkbox" data-inv-id="${r.id}"> ${esc(r.n)}</label>`).join('');
+  function invRender() {
+    const on = INV.filter((r) => $(`[data-inv-id="${r.id}"]`).checked);
+    $('#invTable tbody').innerHTML = on.map((r) => `<tr><td>${esc(r.n)}<br><span class="small">${esc(r.why)}</span></td><td class="${r.track === 'нет' ? 'n' : 'y'}">${r.track}</td><td class="${r.consent === 'нет' ? 'n' : 'y'}">${r.consent}</td></tr>`).join('') || '<tr><td colspan="3">Ничего чужого. Самый быстрый и простой вариант.</td></tr>';
+    const needs = on.filter((r) => r.consent === 'да' || r.consent === 'обычно').length;
+    const loadNow = on.filter((r) => !/после/.test(r.track)).length;
+    const lean = on.every((r) => r.lean) && on.length <= 2;
+    $('#invOut').innerHTML = `Чужих скриптов: <strong>${on.length}</strong>, грузятся сразу: ${loadNow}, требуют согласия в ЕС: ${needs}. ` + (lean ? '<span class="verdict ok">У каждого есть причина, и только аналитика ждёт согласия.</span>' : '<span class="verdict no">Часть подключена без причины.</span> Каждый лишний скрипт это вес страницы (урок 3), строка в баннере и ещё один чужой сервер, которому ты доверяешь посетителей.');
+  }
+  $('#invOpts').addEventListener('change', () => { $$('#inv [data-inv]').forEach((x) => x.setAttribute('aria-pressed', 'false')); invRender(); });
+  $$('#inv [data-inv]').forEach((b) => b.addEventListener('click', () => {
+    INV.forEach((r) => { $(`[data-inv-id="${r.id}"]`).checked = !!r[b.dataset.inv]; });
+    $$('#inv [data-inv]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    invRender();
+  }));
+  INV.forEach((r) => { $(`[data-inv-id="${r.id}"]`).checked = !!r.ai; });
+  $('#inv [data-inv="ai"]').setAttribute('aria-pressed', 'true'); invRender();
+
+  /* 5. Consent banner */
+  const cb = $('#cb'); let t0 = 0; let timers = [];
+  const log = (cls, txt) => {
+    const s = ((performance.now() - t0) / 1000).toFixed(1).replace('.', ',');
+    $('#cbLog').insertAdjacentHTML('beforeend', `<div class="${cls}"><span class="t">${s} с</span> ${txt}</div>`);
+  };
+  const BAN = {
+    ai: '<p>We use cookies to improve your experience. By continuing to browse you accept our cookie policy.</p><div class="cb-btns"><button class="pri" data-c="accept">OK</button></div>',
+    hide: '<p>We value your privacy. We and our 12 partners use cookies for analytics and ads.</p><div class="cb-btns"><button class="pri" data-c="accept">Accept all</button><button class="link" data-c="settings">Manage settings</button></div>',
+    tick: '<p>Choose which cookies we may use.</p><div class="cb-cats"><label><input type="checkbox" checked disabled> Necessary</label><label><input type="checkbox" checked data-cat> Analytics</label><label><input type="checkbox" checked data-cat> Advertising</label></div><div class="cb-btns"><button class="pri" data-c="save">Save choices</button></div>',
+    good: '<p>We would like to use analytics cookies (Google Analytics, 14 months) to count enquiries. No ads. You can change this any time via "Cookie settings" in the footer.</p><div class="cb-btns"><button data-c="accept">Accept analytics</button><button data-c="reject">Reject</button><button class="link" data-c="settings">Settings</button></div>'
+  };
+  function cbStart() {
+    timers.forEach(clearTimeout); timers = []; t0 = performance.now(); $('#cbLog').innerHTML = '';
+    const v = cb.dataset.ver; $('#cbBan').hidden = false; $('#cbBan').innerHTML = BAN[v];
+    log('', 'GET 1000islands.travel/tours/nusa-penida');
+    log('', 'GET 1000islands.travel/style.css, app.js');
+    if (v !== 'good') {
+      timers.push(setTimeout(() => log('bad', 'GET analytics.example/collect?ev=page_view ← до выбора'), 600));
+      if (v !== 'ai') timers.push(setTimeout(() => log('bad', 'GET ads-pixel.example/tr?ev=PageView ← до выбора'), 900));
+      else timers.push(setTimeout(() => log('bad', 'SET cookie _ga (2 года) ← до выбора'), 800));
+    } else timers.push(setTimeout(() => log('ok', 'Ничего чужого: ждём ответа на баннер'), 600));
+    $('#cbOut').innerHTML = { ai: 'Баннер ещё висит, а данные уже ушли. Нажми OK, но учти: вариантов «нет» здесь нет.', hide: 'Ищи, как отказаться. Аналитика и пиксель уже сработали.', tick: 'Все галочки отмечены за тебя. Попробуй просто сохранить.', good: 'До выбора ничего чужого не грузится. Нажми Reject или Accept.' }[v];
+  }
+  $('#cbBan').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-c]'); if (!b) return;
+    const v = cb.dataset.ver; const c = b.dataset.c;
+    if (c === 'settings' && v === 'hide') {
+      $('#cbBan').innerHTML = '<p>Partners (12): Analytics ✓, Ads ✓, Personalisation ✓ … <em>scroll</em></p><div class="cb-btns"><button class="pri" data-c="accept">Accept all</button><button class="link" data-c="reject">Reject all</button></div>';
+      $('#cbOut').innerHTML = '<span class="verdict no">Отказ нашёлся только на втором экране,</span> мелкой ссылкой рядом с крупным «Accept all». Регуляторы ЕС в большинстве считают это нарушением.';
+      return;
+    }
+    if (c === 'settings') { $('#cbOut').innerHTML = 'В честном варианте настройки дублируют выбор по категориям, но отказ уже есть на первом экране.'; return; }
+    $('#cbBan').hidden = true;
+    if (v === 'good' && c === 'reject') { log('ok', 'Выбор: отказ. Ничего не загружено, cookie не поставлены'); $('#cbOut').innerHTML = '<span class="verdict ok">Отказ в один клик, и после него тишина в журнале.</span> Выбор можно поменять ссылкой в подвале.'; return; }
+    if (v === 'good' && c === 'accept') { log('ok', 'Выбор: аналитика разрешена'); log('', 'GET analytics.example/collect?ev=page_view'); $('#cbOut').innerHTML = '<span class="verdict ok">Аналитика загрузилась после согласия,</span> и человек знал, на что соглашается: сервис, цель и срок были названы.'; return; }
+    if (v === 'tick') { log('bad', 'Выбор: «сохранено» с галочками, которые человек не ставил'); $('#cbOut').innerHTML = '<span class="verdict no">Заранее отмеченные галочки не считаются согласием.</span> Это прямо решил Суд ЕС в деле Planet49.'; return; }
+    if (v === 'hide' && c === 'reject') { log('bad', 'Выбор: отказ, но page_view и пиксель уже отправлены'); $('#cbOut').innerHTML = '<span class="verdict no">Отказ принят, но данные ушли раньше,</span> ещё до того, как человек его нашёл.'; return; }
+    log('bad', 'Выбор: «согласие»'); $('#cbOut').innerHTML = '<span class="verdict no">Ни одного законного варианта:</span> согласие «продолжением просмотра» не считается, отказа нет, данные ушли до нажатия.';
+  });
+  cb.addEventListener('statechange', cbStart);
+  cbStart();
+});
+</script>
+</body>
+</html>

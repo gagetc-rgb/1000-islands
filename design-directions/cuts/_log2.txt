@@ -1,0 +1,10 @@
+32 DJI_0531.MOV 23.0-29.5  6.5s  o 6.7 MiB  g 6.7 MiB  {'lo': 0, 'hi': 255, 'gain': np.float64(0.99)}
+31 DJI_0824.MP4 46.0-53.0  7.0s  o 2.8 MiB  g 3.1 MiB  {'lo': 0, 'hi': 242, 'gain': np.float64(1.06)}
+34 MVI_5333.MOV 0.0-7.0  7.0s  o 6.2 MiB  g 6.3 MiB  {'lo': 12, 'hi': 255, 'gain': np.float64(1.03)}
+36 2O4A9405.MOV 52.0-62.0  10.0s  o 5.8 MiB  g 7.2 MiB  {'lo': 0, 'hi': 204, 'gain': np.float64(1.25)}
+33 DJI_0832.MP4 9.0-16.5  7.5s  o 7.2 MiB  g 6.9 MiB  {'lo': 0, 'hi': 236, 'gain': np.float64(1.08)}
+37 2O4A9405.MOV 19.0-26.0  7.0s  o 5.3 MiB  g 6.0 MiB  {'lo': 0, 'hi': 235, 'gain': np.float64(1.08)}
+38 dji_mimo_20261009_105812_20261009105811_1791515923150_video.MP4 52.0-60.5  8.5s  o 2.3 MiB  g 3.0 MiB  {'lo': 12, 'hi': 220, 'gain': np.float64(1.22)}
+39 2O4A1230.MOV 22.0-31.0  9.0s  o 8.9 MiB  g 9.0 MiB  {'lo': 4, 'hi': 255, 'gain': np.float64(1.0)}
+40 DJI_20241005090030_0068_D.MP4 9.5-14.0  4.5s  o 4.5 MiB  g 4.5 MiB  {'lo': 4, 'hi': 236, 'gain': np.float64(1.1)}
+35 2O4A0721.MOV 19.0-26.0  7.0s  o 7.1 MiB  g 7.1 MiB  {'lo': 0, 'hi': 255, 'gain': np.float64(0.96)}

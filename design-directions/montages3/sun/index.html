@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Солнечный взлёт · 1000 Islands</title>
+<style>
+  :root { --bg: #f4f3ef; --ink: #1d1d1b; --muted: #55534d; --line: #d9d6cd; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1400px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.1; margin: 0 0 12px; }
+  main > p { margin: 0 0 24px; color: var(--muted); max-width: 72ch; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 16px; }
+  figure { margin: 0; background: #fff; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  video { width: 100%; aspect-ratio: 16 / 9; display: block; background: #000 center / cover; cursor: zoom-in; }
+  figcaption { padding: 12px 16px 14px; }
+  figcaption b { display: block; font-size: 17px; }
+  figcaption span { color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Взлёт над карстовой башней: насколько солнечно</h1>
+  <p>Всё уже на 1.25×, без поддёргивания. Исходник снят в пасмурную погоду, поэтому «солнце» здесь делается светом и цветом. Тепло добавлено только в светлые места, чтобы джунгли не желтели. Клик по видео открывает его на весь экран.</p>
+  <div class="grid">
+    <figure><video src="l.mp4" poster="l.webp" muted loop playsinline autoplay></video>
+      <figcaption><b>0 · Как сейчас</b><span>Лёгкий цветокор, который стоит в дизайнах.</span></figcaption></figure>
+    <figure><video src="sun1.mp4" poster="sun1.webp" muted loop playsinline autoplay></video>
+      <figcaption><b>1 · Светлее</b><span>Средние тона подняты сильно, цвет почти прежний.</span></figcaption></figure>
+    <figure><video src="sun2.mp4" poster="sun2.webp" muted loop playsinline autoplay></video>
+      <figcaption><b>2 · Сияющий</b><span>Открыты тени, вода холоднее и прозрачнее, блики тёплые.</span></figcaption></figure>
+    <figure><video src="sun3.mp4" poster="sun3.webp" muted loop playsinline autoplay></video>
+      <figcaption><b>3 · Тёплое солнце</b><span>Тёплый свет на скалах, ближе к вечеру.</span></figcaption></figure>
+    <figure><video src="sun4.mp4" poster="sun4.webp" muted loop playsinline autoplay></video>
+      <figcaption><b>4 · Тропики</b><span>Сочная зелень и яркая бирюза, самый «рекламный».</span></figcaption></figure>
+  </div>
+</main>
+<script>
+  document.querySelectorAll("video").forEach(v => v.onclick = () => (v.requestFullscreen || v.webkitEnterFullscreen)?.call(v));
+</script>
+</body>
+</html>

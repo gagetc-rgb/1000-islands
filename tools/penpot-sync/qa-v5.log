@@ -1,0 +1,49 @@
+01 Home · Desktop                              diff %   0.17 overlaps: "Where" × "we go" | "Remote Indonesia." × "Off the map." 
+02 Raja Ampat · Desktop                        diff %   0.37  
+03 North Sulawesi · Desktop                    diff %   0.24 overlaps: "Plan your North" × "Sulawesi trip" 
+04 Yacht charters · Desktop                    diff %   0.12  
+05 Guest stories · Desktop                     diff %   0.09  
+06 About · Desktop                             diff %   0.11  
+07 Travel agents · Desktop                     diff %    0.1  
+08 Plan your trip · Desktop                    diff %   0.25  
+09 Thank-you · traveller · Desktop             diff %   0.43  
+10 Thank-you · agent · Desktop                 diff %   0.21  
+11 Privacy & cookies · Desktop                 diff %   0.25  
+12 Booking terms · Desktop                     diff %   0.33  
+13 404 · Page not found · Desktop              diff %   0.28 overlaps: "This page is" × "off the map" 
+14 Temporarily unavailable · Desktop           diff %    0.2  
+S1 State · Cookie banner · Desktop             diff %   0.11 overlaps: "Remote Indonesia." × "Off the map." 
+S2 State · Cookie settings · Desktop           diff %   0.13 overlaps: "Remote Indonesia." × "Off the map." 
+S3 State · Form errors · Desktop               diff %   0.08  
+S4 State · Sending failed · Desktop            diff %   0.09  
+01 Home · Mobile                               diff %   0.85 overlaps: "Remote Indonesia." × "Off the map." 
+02 Raja Ampat · Mobile                         diff %   0.88 overlaps: "Plan your Raja" × "Ampat trip" 
+03 North Sulawesi · Mobile                     diff %   0.84 overlaps: "Plan your North" × "Sulawesi trip" 
+04 Yacht charters · Mobile                     diff %   0.76  
+05 Guest stories · Mobile                      diff %   1.52  
+06 About · Mobile                              diff %   1.63  
+07 Travel agents · Mobile                      diff %   0.78  
+08 Plan your trip · Mobile                     diff %    0.7  
+09 Thank-you · traveller · Mobile              diff %   0.51  
+10 Thank-you · agent · Mobile                  diff %   0.74  
+11 Privacy & cookies · Mobile                  diff %   0.08  
+12 Booking terms · Mobile                      diff %   0.16  
+13 404 · Page not found · Mobile               diff %   0.48 overlaps: "This page is" × "off the map" 
+14 Temporarily unavailable · Mobile            diff %      0 overlaps: "We're updating" × "the site" 
+S1 State · Cookie banner · Mobile              diff %   0.44 overlaps: "Remote Indonesia." × "Off the map." 
+S2 State · Cookie settings · Mobile            diff %   1.24 overlaps: "Remote Indonesia." × "Off the map." 
+S3 State · Form errors · Mobile                diff %    0.4  
+S4 State · Sending failed · Mobile             diff %   1.55  
+M1 Mobile menu (open) · Mobile                 diff %   0.07 overlaps: "Remote Indonesia." × "Off the map." 
+E1 Email · Auto-reply to traveller · Desktop   diff %   0.35  
+E2 Email · Auto-reply to agent · Desktop       diff %   0.14  
+E3 Email · New enquiry alert (owner) · Desktop diff %   0.14  
+E1 Email · Auto-reply to traveller · Mobile    diff %   0.75  
+E2 Email · Auto-reply to agent · Mobile        diff %   0.03  
+E3 Email · New enquiry alert (owner) · Mobile  diff %   0.24  
+P1 Link previews                               diff %   0.75  
+A1 Admin · Enquiries                           diff %   0.16  
+A2 Admin · Reviews                             diff %   0.15  
+A3 Admin · Photos & video                      diff %   0.22  
+A4 Admin · Prices                              diff %   0.19  
+boards 48 with text overlaps 13 unique strings 568

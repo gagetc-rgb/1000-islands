@@ -1,0 +1,2121 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.861 --> 00:00:05.861
+(audience applauds)
+
+00:00:08.698 --> 00:00:09.531
+- Okay.
+
+00:00:09.531 --> 00:00:10.364
+Hi everyone.
+
+00:00:10.364 --> 00:00:12.010
+Thank you for being here after lunch.
+
+00:00:12.010 --> 00:00:14.258
+That lunch, I think was
+the best lunch I've had
+
+00:00:14.258 --> 00:00:15.213
+at a conference.
+
+00:00:15.213 --> 00:00:16.308
+Who agrees?
+
+00:00:16.308 --> 00:00:17.929
+(audience applauds and cheers)
+
+00:00:17.929 --> 00:00:19.460
+Thank you, it really was.
+
+00:00:19.460 --> 00:00:23.293
+So, I'm here today to
+talk to you about forms.
+
+00:00:24.233 --> 00:00:25.515
+Yes.
+
+00:00:25.515 --> 00:00:27.150
+So, a little bit of background.
+
+00:00:27.150 --> 00:00:29.026
+My name is Julie, once again.
+
+00:00:29.026 --> 00:00:31.463
+I'm Senior UX Designer for Bronto,
+
+00:00:31.463 --> 00:00:33.877
+which is an e-commerce marking platform
+
+00:00:33.877 --> 00:00:37.077
+that was recently purchased by Oracle.
+
+00:00:37.077 --> 00:00:40.360
+So, previously, I was in public relations,
+
+00:00:40.360 --> 00:00:42.442
+and about 10 years fell
+in love with web design
+
+00:00:42.442 --> 00:00:45.776
+and development, and that
+has since morphed into
+
+00:00:45.776 --> 00:00:47.304
+user experience.
+
+00:00:47.304 --> 00:00:49.951
+So, please feel free
+to find me afterwards.
+
+00:00:49.951 --> 00:00:52.089
+I love chatting and networking
+and just really thrilled
+
+00:00:52.089 --> 00:00:55.469
+to be here with y'all in New Zealand.
+
+00:00:55.469 --> 00:00:56.377
+Okay.
+
+00:00:56.377 --> 00:00:59.238
+So why do we care about forms?
+
+00:00:59.238 --> 00:01:03.405
+Well, forms are the linchpin
+to all online interactions.
+
+00:01:05.089 --> 00:01:08.787
+Forms are important for
+registration, for revenue,
+
+00:01:08.787 --> 00:01:13.748
+to grow our community, and
+participation in sharing,
+
+00:01:13.748 --> 00:01:17.748
+and any task that requires
+entering information.
+
+00:01:19.069 --> 00:01:19.919
+So, just think.
+
+00:01:19.919 --> 00:01:23.437
+There'd be no cat videos
+on YouTube without a form,
+
+00:01:23.437 --> 00:01:25.253
+or none of us would be
+here at this conference
+
+00:01:25.253 --> 00:01:29.224
+with registering for the
+conference using a form.
+
+00:01:29.224 --> 00:01:33.391
+They're incredibly important
+to our interactions with life.
+
+00:01:34.303 --> 00:01:37.730
+So, Luke Wroblewski, who's
+the kind of gradnfather
+
+00:01:37.730 --> 00:01:41.381
+of webform design, said
+that "Webforms are often
+
+00:01:41.381 --> 00:01:45.880
+"the last and most important
+mile in a long journey."
+
+00:01:45.880 --> 00:01:48.504
+And this really resonated
+with me 'cause I can tell you
+
+00:01:48.504 --> 00:01:51.455
+previously, I was working in
+an agency where we were doing
+
+00:01:51.455 --> 00:01:55.079
+drupal websites, and as
+the information architect
+
+00:01:55.079 --> 00:01:58.765
+and UX designer, I was doing
+a lot of things, and mostly
+
+00:01:58.765 --> 00:02:01.580
+kind of our forms went
+something like this.
+
+00:02:01.580 --> 00:02:04.231
+About two to three days before
+launch, somebody would say,
+
+00:02:04.231 --> 00:02:05.940
+"Julie, do we have a contact form?"
+
+00:02:05.940 --> 00:02:08.251
+And I'd go, "Oh shit, I
+forgot the contact form."
+
+00:02:08.251 --> 00:02:12.009
+So, I would end up then having
+to enable the webform module
+
+00:02:12.009 --> 00:02:14.399
+or remind a developer to put
+the webform module in the site
+
+00:02:14.399 --> 00:02:16.928
+and just kind of throw it together.
+
+00:02:16.928 --> 00:02:20.406
+So, Luke's quote really rang
+true and for me personally,
+
+00:02:20.406 --> 00:02:23.025
+which is why I started
+researching really how can I make
+
+00:02:23.025 --> 00:02:26.195
+the best and most effective form?
+
+00:02:26.195 --> 00:02:30.547
+So, how much do we think
+a bad form can cost you?
+
+00:02:30.547 --> 00:02:32.762
+Well, I mean, the real
+answer is priceless, right?
+
+00:02:32.762 --> 00:02:35.053
+But I can tell you that for Expedia,
+
+00:02:35.053 --> 00:02:37.136
+it was about $12 million.
+
+00:02:38.539 --> 00:02:41.556
+They found that users
+were going on the site,
+
+00:02:41.556 --> 00:02:44.633
+entering their travel
+information, going through
+
+00:02:44.633 --> 00:02:48.652
+the whole process and
+then clicking Buy Now,
+
+00:02:48.652 --> 00:02:51.862
+but not completing the transactions.
+
+00:02:51.862 --> 00:02:54.634
+This was happening
+countless amount of times,
+
+00:02:54.634 --> 00:02:56.996
+so what's up with that?
+
+00:02:56.996 --> 00:03:00.628
+Well, it turns out that
+they had a field under
+
+00:03:00.628 --> 00:03:03.658
+First Name, Last Name for Company,
+
+00:03:03.658 --> 00:03:05.688
+and users were entering
+their, on the billing,
+
+00:03:05.688 --> 00:03:08.104
+this was on the billing
+screen, so users were entering
+
+00:03:08.104 --> 00:03:09.834
+their company--
+
+00:03:09.834 --> 00:03:12.584
+I mean, entering their bank
+account, like their bank name
+
+00:03:12.584 --> 00:03:15.589
+in the Company field, and then
+entering their bank address
+
+00:03:15.589 --> 00:03:18.580
+in the Address field, so
+credit card transactions
+
+00:03:18.580 --> 00:03:21.190
+were failing because,
+of course, the Address
+
+00:03:21.190 --> 00:03:23.684
+was the bank address, and
+not, like, their actual
+
+00:03:23.684 --> 00:03:26.451
+home address that the
+credit card company knew.
+
+00:03:26.451 --> 00:03:28.433
+So after doing a little bit
+of research, they realized
+
+00:03:28.433 --> 00:03:31.077
+if they just removed that Company field,
+
+00:03:31.077 --> 00:03:34.052
+transactions increased
+overnight, and over the course
+
+00:03:34.052 --> 00:03:36.817
+of that year, they earned
+an additional $12 million
+
+00:03:36.817 --> 00:03:37.734
+in revenue.
+
+00:03:38.833 --> 00:03:42.916
+So, y'all, this is all
+because of one form field.
+
+00:03:44.068 --> 00:03:47.265
+And the thing is is that UX
+designers and professionals
+
+00:03:47.265 --> 00:03:50.196
+in this industry, we know better.
+
+00:03:50.196 --> 00:03:53.988
+Studies have shown that forms
+that follow basic usability
+
+00:03:53.988 --> 00:03:57.423
+guidelines are faster to
+complete and almost twice
+
+00:03:57.423 --> 00:04:00.840
+as likely to be submitted without errors,
+
+00:04:01.717 --> 00:04:05.644
+so, and our challenge is
+is that forms are annoying.
+
+00:04:05.644 --> 00:04:08.447
+They're a thing in between
+the person and what they're
+
+00:04:08.447 --> 00:04:09.467
+looking for.
+
+00:04:09.467 --> 00:04:12.565
+They're that thing you have to
+go through to get something,
+
+00:04:12.565 --> 00:04:13.814
+right?
+
+00:04:13.814 --> 00:04:16.931
+So, it's kind of, it's a
+blocker often to something else
+
+00:04:16.931 --> 00:04:20.514
+why someone would even
+go through the form.
+
+00:04:21.683 --> 00:04:25.944
+And, forms really have
+lasting consequences.
+
+00:04:25.944 --> 00:04:28.967
+I can tell you that my
+friend Missy works for,
+
+00:04:28.967 --> 00:04:30.211
+in D.C. as someone,
+
+00:04:30.211 --> 00:04:31.899
+I was telling her I was coming
+to the conference to talk
+
+00:04:31.899 --> 00:04:34.523
+about forms, and in my research,
+I've been thinking more
+
+00:04:34.523 --> 00:04:36.798
+about forms, and she said,
+"Let me tell you about a form."
+
+00:04:36.798 --> 00:04:39.129
+So, she works with folks
+who are on disability
+
+00:04:39.129 --> 00:04:41.977
+and who are getting back to
+work, so she was with a client
+
+00:04:41.977 --> 00:04:45.191
+one day and they were filling
+out a form for the client
+
+00:04:45.191 --> 00:04:48.594
+to work at the local Harris
+Teeter, which is a grocery store
+
+00:04:48.594 --> 00:04:50.429
+chain in the United States,
+
+00:04:50.429 --> 00:04:54.989
+and Harris Teeter had recently
+redesigned their website,
+
+00:04:54.989 --> 00:04:57.568
+so they're filling out the
+form, name, information,
+
+00:04:57.568 --> 00:05:00.799
+you know, your basic online application,
+
+00:05:00.799 --> 00:05:03.988
+and in the State field,
+they were in Virginia,
+
+00:05:03.988 --> 00:05:07.962
+she entered VA, which is the
+state abbreviation for Virginia
+
+00:05:07.962 --> 00:05:10.779
+and they got an error
+message, so they went back,
+
+00:05:10.779 --> 00:05:11.618
+and the client said,
+
+00:05:11.618 --> 00:05:14.061
+"Maybe we need to type
+out V-I-R-G-I-N-I-A,"
+
+00:05:14.061 --> 00:05:16.728
+and still, got an error message,
+
+00:05:17.594 --> 00:05:20.556
+so they actually quit, they
+left, and that client of hers
+
+00:05:20.556 --> 00:05:23.022
+left feeling like he was
+not smart enough to work
+
+00:05:23.022 --> 00:05:26.681
+at Harris Teeter, and that
+is actually our fault,
+
+00:05:26.681 --> 00:05:28.890
+that's our fault as designers,
+developers, that someone
+
+00:05:28.890 --> 00:05:32.300
+who should have been QA-ing
+that site and missed it,
+
+00:05:32.300 --> 00:05:34.263
+so it's just important to
+remember that these decisions
+
+00:05:34.263 --> 00:05:36.160
+are things that we often
+forget about really can
+
+00:05:36.160 --> 00:05:37.327
+affect people.
+
+00:05:39.790 --> 00:05:42.355
+So here's an application
+form for an online,
+
+00:05:42.355 --> 00:05:44.732
+for a job to work at Ladybird
+and this is horrible.
+
+00:05:44.732 --> 00:05:47.467
+Imagine trying to go through this.
+
+00:05:47.467 --> 00:05:49.048
+Here's an online application.
+
+00:05:49.048 --> 00:05:50.965
+Everything is required.
+
+00:05:52.159 --> 00:05:53.242
+It's painful.
+
+00:05:54.637 --> 00:05:55.470
+(chuckles)
+
+00:05:55.470 --> 00:05:56.303
+Here's an online application.
+
+00:05:56.303 --> 00:06:00.136
+I've got a select list
+that has every type of,
+
+00:06:01.548 --> 00:06:03.736
+like, every type of job but
+it actually doesn't have
+
+00:06:03.736 --> 00:06:07.653
+my job in it, so I don't
+know what to fill out.
+
+00:06:09.225 --> 00:06:12.261
+All right, so, now we're
+going to talk about what makes
+
+00:06:12.261 --> 00:06:14.399
+an effective form.
+
+00:06:14.399 --> 00:06:16.854
+So you might say, well, Julie,
+one that follows usability
+
+00:06:16.854 --> 00:06:18.518
+guidelines, like we talked about earlier,
+
+00:06:18.518 --> 00:06:21.587
+and I'd say you're 100%
+correct, but for today,
+
+00:06:21.587 --> 00:06:23.872
+we're going to focus on
+three guiding principles,
+
+00:06:23.872 --> 00:06:26.692
+which is to reduce cognitive load,
+
+00:06:26.692 --> 00:06:30.442
+to help prevent errors,
+and to make it human.
+
+00:06:32.290 --> 00:06:36.099
+Okay, so, reducing cognitive
+load means that we want to,
+
+00:06:36.099 --> 00:06:39.299
+to me, it means we want
+the form to be scannable
+
+00:06:39.299 --> 00:06:42.010
+and have feelings of simplicity.
+
+00:06:42.010 --> 00:06:45.468
+So, first off, we're going
+to talk about labels.
+
+00:06:45.468 --> 00:06:49.635
+A label is the thing that
+is in red here, circled.
+
+00:06:51.109 --> 00:06:55.276
+Now, we know that top-line
+labels are best for faster form
+
+00:06:56.509 --> 00:06:58.324
+completion times.
+
+00:06:58.324 --> 00:07:01.149
+This is because it's easier
+to scan, and the reduced
+
+00:07:01.149 --> 00:07:05.199
+amount of eye movement needed
+when going through the form,
+
+00:07:05.199 --> 00:07:08.550
+so it's always best to
+have top-aligned labels.
+
+00:07:08.550 --> 00:07:11.490
+It's also important to
+have your label close
+
+00:07:11.490 --> 00:07:14.520
+to the input box because that
+way the eye visually knows
+
+00:07:14.520 --> 00:07:17.075
+they're tied together.
+
+00:07:17.075 --> 00:07:19.801
+I'd also like to recommend
+not to use all caps
+
+00:07:19.801 --> 00:07:23.224
+because it can feel like
+you're screaming at someone.
+
+00:07:23.224 --> 00:07:24.915
+And that's not cool.
+
+00:07:24.915 --> 00:07:29.054
+Additionally, it's really
+important that we don't use
+
+00:07:29.054 --> 00:07:30.221
+inline labels.
+
+00:07:31.168 --> 00:07:32.548
+Does anyone know what an,
+
+00:07:32.548 --> 00:07:34.628
+does anyone want a reminder
+about inline labels?
+
+00:07:34.628 --> 00:07:37.839
+Basically, inline labels are
+when you have a form field
+
+00:07:37.839 --> 00:07:41.390
+and the label for that
+form, like, user name
+
+00:07:41.390 --> 00:07:44.328
+is in the form box itself.
+
+00:07:44.328 --> 00:07:48.173
+The problem with using inline
+labels are that once someone
+
+00:07:48.173 --> 00:07:51.182
+clicks in the form, their
+instructions go away,
+
+00:07:51.182 --> 00:07:54.375
+and like, we don't
+remember things, as humans,
+
+00:07:54.375 --> 00:07:56.568
+we just don't, so, someone's got to out,
+
+00:07:56.568 --> 00:07:57.779
+like, click out again.
+
+00:07:57.779 --> 00:07:59.393
+It's making someone work harder.
+
+00:07:59.393 --> 00:08:02.686
+We're not helping them
+reduce the cognitive load.
+
+00:08:02.686 --> 00:08:06.558
+Also, inline labels, someone
+can think it's already
+
+00:08:06.558 --> 00:08:09.774
+filled out, so you just kind of skip it.
+
+00:08:09.774 --> 00:08:13.514
+And, according to an eye tracking
+study from Norman Nielsen,
+
+00:08:13.514 --> 00:08:14.513
+blank, like,
+
+00:08:14.513 --> 00:08:18.107
+not inline labels, like
+blank fields are actually
+
+00:08:18.107 --> 00:08:20.663
+more recognizable and draw the attention,
+
+00:08:20.663 --> 00:08:24.667
+eye's attention more
+than inline labels, so,
+
+00:08:24.667 --> 00:08:27.417
+remember our labels, top-aligned.
+
+00:08:28.361 --> 00:08:32.284
+Okay, we also, let's
+use sequential buttons.
+
+00:08:32.284 --> 00:08:36.336
+What I mean by this is put the
+primary action on the right
+
+00:08:36.336 --> 00:08:38.453
+and the secondary action on the left.
+
+00:08:38.453 --> 00:08:41.098
+So if you want someone to
+submit, put it on the right.
+
+00:08:41.098 --> 00:08:42.758
+If you want them to go to
+the next screen, put it
+
+00:08:42.758 --> 00:08:44.061
+on the right.
+
+00:08:44.061 --> 00:08:47.687
+Like, in this example,
+we're going to delete.
+
+00:08:47.687 --> 00:08:49.944
+That's what someone's
+intended to do, so it depends
+
+00:08:49.944 --> 00:08:52.158
+on your situation what
+your primary action is.
+
+00:08:52.158 --> 00:08:54.756
+The reason why I say this
+is because this follows
+
+00:08:54.756 --> 00:08:59.647
+most of our mental models
+about which direction to go,
+
+00:08:59.647 --> 00:09:01.960
+so on the right is typically next,
+
+00:09:01.960 --> 00:09:04.607
+think about your web browser,
+like the buttons at the top.
+
+00:09:04.607 --> 00:09:08.803
+Back is always left, so I
+think this just helps us,
+
+00:09:08.803 --> 00:09:11.903
+helps the form be easier
+to fill out if we know the,
+
+00:09:11.903 --> 00:09:13.934
+as designers, what we want people to do,
+
+00:09:13.934 --> 00:09:16.211
+put it on the right side.
+
+00:09:16.211 --> 00:09:17.044
+Cool?
+
+00:09:18.192 --> 00:09:19.764
+Oh yeah, don't use reset.
+
+00:09:19.764 --> 00:09:22.822
+That should never be a thing, ever.
+
+00:09:22.822 --> 00:09:26.320
+All right, also, let's
+make our forms one column.
+
+00:09:26.320 --> 00:09:29.069
+This is for scannability and readability,
+
+00:09:29.069 --> 00:09:30.089
+and it's also,
+
+00:09:30.089 --> 00:09:32.585
+this includes radial
+buttons and check boxes.
+
+00:09:32.585 --> 00:09:35.338
+Also, this is awesome
+if you, of course, have
+
+00:09:35.338 --> 00:09:40.092
+a responsive presence as well,
+because it's already aligned
+
+00:09:40.092 --> 00:09:41.425
+as it should be.
+
+00:09:43.116 --> 00:09:46.126
+All right, so now let's
+talk about options.
+
+00:09:46.126 --> 00:09:47.876
+And select lists, drop downs.
+
+00:09:47.876 --> 00:09:50.537
+So, if you have, it's
+recommended like, we,
+
+00:09:50.537 --> 00:09:54.351
+our brain can kind of absorb
+about five things at one time
+
+00:09:54.351 --> 00:09:56.761
+so if you have a select list,
+
+00:09:56.761 --> 00:09:58.489
+like so you have five option,
+
+00:09:58.489 --> 00:10:03.036
+if you want to actually show
+all those words on the page,
+
+00:10:03.036 --> 00:10:06.592
+if you have between six
+and 26, you can put those
+
+00:10:06.592 --> 00:10:09.512
+in a select list, but
+if it's more than 26,
+
+00:10:09.512 --> 00:10:12.012
+try and use contextual search.
+
+00:10:14.372 --> 00:10:16.675
+All right, another way we're
+going to reduce cognitive load
+
+00:10:16.675 --> 00:10:21.607
+is to match our field length
+to estimated text size,
+
+00:10:21.607 --> 00:10:24.312
+so, in this example, an expiry date,
+
+00:10:24.312 --> 00:10:26.241
+that's a, you know, like
+month/month, year/year.
+
+00:10:26.241 --> 00:10:27.447
+That makes sense.
+
+00:10:27.447 --> 00:10:31.682
+Zip or postal code is a little
+too big here in my opinion,
+
+00:10:31.682 --> 00:10:33.217
+but, and even though all your,
+
+00:10:33.217 --> 00:10:35.754
+I work with a visual
+designer and he'll say,
+
+00:10:35.754 --> 00:10:37.375
+but Julia, it's not lined up properly,
+
+00:10:37.375 --> 00:10:39.523
+and I'll say, I don't care,
+like, someone's going to think
+
+00:10:39.523 --> 00:10:43.585
+that they might be messing
+something up, or it's like,
+
+00:10:43.585 --> 00:10:46.234
+if we know how long something
+needs to be, that's as long
+
+00:10:46.234 --> 00:10:49.984
+as the text that, field
+input size should be.
+
+00:10:51.856 --> 00:10:52.689
+Right?
+
+00:10:53.618 --> 00:10:58.130
+Okay, and let's group related
+information in our forms.
+
+00:10:58.130 --> 00:11:01.495
+This is basically applying
+content strategy to your form,
+
+00:11:01.495 --> 00:11:03.596
+so we know how to do this.
+
+00:11:03.596 --> 00:11:07.356
+Put things together that
+make sense together.
+
+00:11:07.356 --> 00:11:11.439
+Yeah, once again, I know
+you know how to do this.
+
+00:11:12.962 --> 00:11:14.932
+All right, use pre-fills when you can.
+
+00:11:14.932 --> 00:11:19.099
+Pre-fills are like hooking
+into Google APIs to help
+
+00:11:20.295 --> 00:11:23.898
+bring in an address, or if
+you're asking for someone's
+
+00:11:23.898 --> 00:11:27.671
+email when someone use the @
+sign, then maybe prompting them
+
+00:11:27.671 --> 00:11:31.897
+up with @gmail.com or hotmail, et cetera.
+
+00:11:31.897 --> 00:11:34.324
+This is just another helpful
+way to get someone through
+
+00:11:34.324 --> 00:11:35.157
+the form.
+
+00:11:37.071 --> 00:11:40.328
+Okay, also, we want to show progress.
+
+00:11:40.328 --> 00:11:42.785
+This is especially
+helpful on longer forms.
+
+00:11:42.785 --> 00:11:47.078
+Give someone context for where
+they are, in different steps.
+
+00:11:47.078 --> 00:11:51.256
+It gives them a sense of
+place, and this is typically
+
+00:11:51.256 --> 00:11:54.173
+pretty good for onboarding as well.
+
+00:11:56.544 --> 00:12:00.711
+Okay, we also want to add
+attributes for usability purposes
+
+00:12:01.648 --> 00:12:06.484
+so let's say if you are, an
+attribute is a piece of code
+
+00:12:06.484 --> 00:12:08.667
+that you put in your form
+or your developer puts in
+
+00:12:08.667 --> 00:12:11.682
+your form, that it's
+basically saying, like,
+
+00:12:11.682 --> 00:12:13.697
+I know what you're going to
+put in so I'm going to help
+
+00:12:13.697 --> 00:12:16.503
+you with that, so, for
+instance, if you know it's going
+
+00:12:16.503 --> 00:12:18.180
+to be a telephone number,
+
+00:12:18.180 --> 00:12:21.744
+you an put in the attribute
+tel, which, if you're on
+
+00:12:21.744 --> 00:12:25.976
+a mobile device, that's how
+the number keypad pops up
+
+00:12:25.976 --> 00:12:28.517
+instead of, you know, the alphabet keypad,
+
+00:12:28.517 --> 00:12:32.350
+so that's just another
+way we can help people.
+
+00:12:34.976 --> 00:12:39.636
+Okay, an input mask also
+are important for reducing
+
+00:12:39.636 --> 00:12:40.704
+cognitive load.
+
+00:12:40.704 --> 00:12:42.800
+This is just helping people
+format, so if you know
+
+00:12:42.800 --> 00:12:44.913
+it's going to be a telephone
+number or a credit card
+
+00:12:44.913 --> 00:12:48.762
+number, this is like
+allowing that little dash
+
+00:12:48.762 --> 00:12:51.403
+and the parentheses to be
+there so the user does not
+
+00:12:51.403 --> 00:12:53.640
+have to fill those out.
+
+00:12:53.640 --> 00:12:55.571
+And, doing them right is key.
+
+00:12:55.571 --> 00:12:57.873
+It's also important that
+these aren't really going
+
+00:12:57.873 --> 00:13:01.456
+to show up unless you're
+on focus, as well.
+
+00:13:04.810 --> 00:13:05.643
+All right, so that was,
+
+00:13:05.643 --> 00:13:07.298
+once again, I'm going through
+a lot of things on how
+
+00:13:07.298 --> 00:13:10.516
+to go through a form, but that
+was how we can help reduce
+
+00:13:10.516 --> 00:13:12.224
+cognitive load, but now
+we're going to talk about
+
+00:13:12.224 --> 00:13:14.697
+how to help prevent errors.
+
+00:13:14.697 --> 00:13:18.876
+And this is the practice
+of basically putting up a,
+
+00:13:18.876 --> 00:13:22.045
+putting up a fence, like
+helping people not make errors,
+
+00:13:22.045 --> 00:13:24.378
+exactly what it sounds like.
+
+00:13:26.032 --> 00:13:29.036
+Okay, first off, field validation.
+
+00:13:29.036 --> 00:13:31.987
+So, we want to specify errors in line,
+
+00:13:31.987 --> 00:13:34.891
+and we want to validate items per field.
+
+00:13:34.891 --> 00:13:37.201
+This is an example from mint.com.
+
+00:13:37.201 --> 00:13:38.696
+I thought they did it really well.
+
+00:13:38.696 --> 00:13:41.373
+They had nice, clear context.
+
+00:13:41.373 --> 00:13:43.369
+They had nice examples for me.
+
+00:13:43.369 --> 00:13:45.919
+I mean, nice descriptions
+for what I was doing wrong,
+
+00:13:45.919 --> 00:13:49.174
+for telling me, like, hey
+this is what you can be doing.
+
+00:13:49.174 --> 00:13:51.947
+We all know how frustrating
+is it, after you filled
+
+00:13:51.947 --> 00:13:54.264
+out a form and then pushed
+Submit, and then get your
+
+00:13:54.264 --> 00:13:55.697
+sea of errors.
+
+00:13:55.697 --> 00:13:59.744
+This is slowing us down and
+making someone not get to
+
+00:13:59.744 --> 00:14:03.426
+that thing they're hoping to
+get to at the end of the form.
+
+00:14:03.426 --> 00:14:07.188
+Also, with this, it's
+important that we don't show
+
+00:14:07.188 --> 00:14:09.998
+in line validation on focus.
+
+00:14:09.998 --> 00:14:11.599
+We want to show it on blur.
+
+00:14:11.599 --> 00:14:14.976
+That means don't wait 'til
+someone clicks in the input,
+
+00:14:14.976 --> 00:14:15.906
+like, we don't want to,
+
+00:14:15.906 --> 00:14:18.029
+like, once you click in,
+you want to wait 'til they
+
+00:14:18.029 --> 00:14:20.700
+click out to show the
+error message, if there is
+
+00:14:20.700 --> 00:14:23.341
+an error message because
+if you do it on focus,
+
+00:14:23.341 --> 00:14:24.865
+which I see sometimes,
+it's like you're basically
+
+00:14:24.865 --> 00:14:29.525
+yelling at someone before they've
+even tried to fill it out.
+
+00:14:29.525 --> 00:14:30.907
+It's like saying, hey,
+you've done this wrong,
+
+00:14:30.907 --> 00:14:32.255
+and you haven't even tried yet!
+
+00:14:32.255 --> 00:14:36.422
+It's just really a negative
+experience (chuckles).
+
+00:14:37.723 --> 00:14:41.890
+Okay, so we also, we want
+to leave select lists blank,
+
+00:14:42.949 --> 00:14:45.032
+so, this is because it's,
+
+00:14:47.015 --> 00:14:49.178
+select lists are really
+easy to skip and if you're
+
+00:14:49.178 --> 00:14:50.350
+scanning a form,
+
+00:14:50.350 --> 00:14:53.124
+if people are scanning a form
+and it's already filled out
+
+00:14:53.124 --> 00:14:54.665
+or let's say there's the default,
+
+00:14:54.665 --> 00:14:57.687
+if it's an alpha-order
+list and the default is A,
+
+00:14:57.687 --> 00:14:59.036
+whatever that is for you,
+
+00:14:59.036 --> 00:15:02.356
+chances are that someone's
+just going to skip that
+
+00:15:02.356 --> 00:15:04.833
+and not change it, so this is helping,
+
+00:15:04.833 --> 00:15:08.489
+this is making someone basically,
+potentially give an error
+
+00:15:08.489 --> 00:15:09.656
+or a input at,
+
+00:15:10.892 --> 00:15:14.886
+an answer they might
+not have meant to give.
+
+00:15:14.886 --> 00:15:18.029
+So, static values are
+really easy to skip and when
+
+00:15:18.029 --> 00:15:20.605
+it's blank, similar to what
+we talked about earlier,
+
+00:15:20.605 --> 00:15:25.132
+when it's blank, it's actually
+more obvious to someone
+
+00:15:25.132 --> 00:15:28.011
+that they need to fill it out.
+
+00:15:28.011 --> 00:15:32.178
+However, if you know that 90%
+of your users are going to
+
+00:15:33.271 --> 00:15:37.609
+choose one option, you can use
+a smart default in that case
+
+00:15:37.609 --> 00:15:40.224
+so for instance, here, they,
+
+00:15:40.224 --> 00:15:42.918
+I think they were using
+geolocation to know that I was
+
+00:15:42.918 --> 00:15:45.680
+in the United States, so
+they were able to say,
+
+00:15:45.680 --> 00:15:50.041
+hey, okay, we're going to
+pre-populate United States for you
+
+00:15:50.041 --> 00:15:53.065
+but in general, it's always
+better to leave select lists
+
+00:15:53.065 --> 00:15:56.565
+blank if you don't have that kind of data.
+
+00:15:58.760 --> 00:16:00.889
+Okay, so help text.
+
+00:16:00.889 --> 00:16:04.200
+Sometimes you need additional,
+like, hey, here's what we
+
+00:16:04.200 --> 00:16:06.624
+mean by this, and when
+you're in your form,
+
+00:16:06.624 --> 00:16:07.638
+which is completely fine.
+
+00:16:07.638 --> 00:16:11.805
+It's recommended to put help
+text underneath the field box.
+
+00:16:14.733 --> 00:16:17.171
+Luckily for anyone who
+works with drupal sites,
+
+00:16:17.171 --> 00:16:19.579
+this is how drupal does
+it natively, so, it helps,
+
+00:16:19.579 --> 00:16:20.412
+it's nice.
+
+00:16:23.366 --> 00:16:27.396
+Okay, so it's also nice to
+differentiate button styles.
+
+00:16:27.396 --> 00:16:31.563
+Kind of similarly to making
+them sequential, the primary,
+
+00:16:32.816 --> 00:16:35.000
+let's make it more visually obvious.
+
+00:16:35.000 --> 00:16:37.105
+Let's say, okay, this
+is big, this is bright,
+
+00:16:37.105 --> 00:16:39.494
+this is what we want you
+to be doing or what we
+
+00:16:39.494 --> 00:16:41.797
+anticipate you doing.
+
+00:16:41.797 --> 00:16:44.081
+Once again, I think one of the
+most frustrating experiences
+
+00:16:44.081 --> 00:16:48.291
+I personally have had is
+to fill out a form and then
+
+00:16:48.291 --> 00:16:51.791
+accidentally push the wrong button, right?
+
+00:16:54.074 --> 00:16:56.718
+Okay, so now we're going
+to talk about how to make
+
+00:16:56.718 --> 00:16:57.718
+forms human.
+
+00:16:59.208 --> 00:17:01.491
+Because forms really are kind of the,
+
+00:17:01.491 --> 00:17:04.021
+it can be, it's like
+conversation almost that you're
+
+00:17:04.021 --> 00:17:08.084
+having with someone, and it's
+a really impersonal thing,
+
+00:17:08.084 --> 00:17:09.736
+like, there's absolutely no,
+
+00:17:09.736 --> 00:17:14.396
+well, often, there's no
+customization to it and there's,
+
+00:17:14.396 --> 00:17:15.484
+like, it can be really,
+
+00:17:15.484 --> 00:17:17.493
+they can be really dry, but
+let's remember that there's
+
+00:17:17.493 --> 00:17:19.736
+actually a person on the
+other side of this form
+
+00:17:19.736 --> 00:17:21.838
+who's filling it out.
+
+00:17:21.838 --> 00:17:24.309
+So as designers, it's important
+that we make our forms
+
+00:17:24.309 --> 00:17:27.085
+as human as we possibly can,
+so now we're going to talk
+
+00:17:27.085 --> 00:17:29.918
+about some tips on how to do that.
+
+00:17:30.978 --> 00:17:34.076
+Okay, similar to what Kyle was
+talking about this morning,
+
+00:17:34.076 --> 00:17:37.580
+we want clear and simple
+language and call to actions,
+
+00:17:37.580 --> 00:17:39.657
+so it's important to
+do your user research,
+
+00:17:39.657 --> 00:17:42.654
+know who your users are and
+speak to them in a language
+
+00:17:42.654 --> 00:17:45.128
+that they understand.
+
+00:17:45.128 --> 00:17:49.295
+Labels and buttons should clearly
+explain what they're doing
+
+00:17:51.176 --> 00:17:55.939
+and be written for the
+user, so in this example,
+
+00:17:55.939 --> 00:17:59.130
+this is, I was looking at
+a snowboard on Burton.com,
+
+00:17:59.130 --> 00:18:01.233
+and I said, oh sure, I'll
+sign up for your newsletter.
+
+00:18:01.233 --> 00:18:03.836
+I really liked how they
+said, I'm interested in gear
+
+00:18:03.836 --> 00:18:06.880
+for men, women, or kids, in the form.
+
+00:18:06.880 --> 00:18:10.075
+That was a really friendly
+way to say, hey, how,
+
+00:18:10.075 --> 00:18:14.242
+in the future, how should
+we market to this person?
+
+00:18:17.659 --> 00:18:20.138
+Also, we want to limit typing.
+
+00:18:20.138 --> 00:18:23.643
+Don't make people work any
+harder than they need to.
+
+00:18:23.643 --> 00:18:25.596
+We wouldn't do that in real life.
+
+00:18:25.596 --> 00:18:28.929
+We don't want to do it on a form either.
+
+00:18:31.567 --> 00:18:34.715
+Okay, and we want to make it accessible.
+
+00:18:34.715 --> 00:18:37.916
+Web accessibility refers
+to the inclusive practice
+
+00:18:37.916 --> 00:18:41.240
+of removing barriers that
+prevent interaction with,
+
+00:18:41.240 --> 00:18:44.959
+or access to websites by
+people with disabilities.
+
+00:18:44.959 --> 00:18:48.959
+And, if a website or app
+is designed, developed,
+
+00:18:50.759 --> 00:18:54.205
+and edited with accessibility
+in mind, then all users
+
+00:18:54.205 --> 00:18:58.372
+have access to the same
+information and functionality.
+
+00:18:59.269 --> 00:19:03.604
+And, sites and apps that
+are designed accessible
+
+00:19:03.604 --> 00:19:04.911
+are actually better for everyone.
+
+00:19:04.911 --> 00:19:06.961
+Kind of, accessibility
+practice is one of those things
+
+00:19:06.961 --> 00:19:09.130
+that once you do it, you
+find a lot of hidden benefits
+
+00:19:09.130 --> 00:19:10.186
+as well.
+
+00:19:10.186 --> 00:19:13.095
+For instance, ramps aren't
+just only used by people
+
+00:19:13.095 --> 00:19:14.011
+in wheelchairs.
+
+00:19:14.011 --> 00:19:18.094
+Strollers and people with
+bad knees, on crutches,
+
+00:19:19.423 --> 00:19:21.168
+or just someone who prefers
+to take a ramp and not
+
+00:19:21.168 --> 00:19:23.010
+the stairs, right?
+
+00:19:23.010 --> 00:19:25.300
+So, there's a lot of hidden
+benefits in accessibility
+
+00:19:25.300 --> 00:19:27.687
+and it's incredibly
+important with forms as well.
+
+00:19:27.687 --> 00:19:29.672
+There's a lot written
+about how to do this,
+
+00:19:29.672 --> 00:19:33.839
+on W3C, and really, if you
+just code a form in a clean way
+
+00:19:35.225 --> 00:19:37.058
+it will be accessible.
+
+00:19:38.084 --> 00:19:40.528
+It's better for everyone.
+
+00:19:40.528 --> 00:19:43.589
+Okay, and we want to
+value our users' time.
+
+00:19:43.589 --> 00:19:47.075
+Amanda mentioned earlier,
+like, if it's only $10,
+
+00:19:47.075 --> 00:19:47.942
+she's not going to do it.
+
+00:19:47.942 --> 00:19:49.994
+We want to make sure we
+are valuing someone's time
+
+00:19:49.994 --> 00:19:52.163
+as they're inputting,
+they're there on the form,
+
+00:19:52.163 --> 00:19:55.294
+they're taking their time
+out, we want to really think
+
+00:19:55.294 --> 00:19:59.747
+about the questions we're
+asking, so in this example,
+
+00:19:59.747 --> 00:20:02.891
+I was redesigning the giving
+form for Duke University
+
+00:20:02.891 --> 00:20:06.196
+and this is the old form, and
+I said, it was really long
+
+00:20:06.196 --> 00:20:08.666
+and lot of stuff, like this
+actually only the second half
+
+00:20:08.666 --> 00:20:10.308
+of the form in the screenshot.
+
+00:20:10.308 --> 00:20:12.262
+I couldn't fit the whole
+thing, where you'd all be able
+
+00:20:12.262 --> 00:20:13.644
+to read it.
+
+00:20:13.644 --> 00:20:17.268
+In this box, Enter any
+comments you have concerning
+
+00:20:17.268 --> 00:20:21.487
+your gift designations,
+maximum 1,000 characters.
+
+00:20:21.487 --> 00:20:24.165
+Nobody was doing anything
+with this text box,
+
+00:20:24.165 --> 00:20:28.232
+so people were often, people
+were just entering things like
+
+00:20:28.232 --> 00:20:31.215
+"Say hi to Bob for me," or "Go Duke!"
+
+00:20:31.215 --> 00:20:33.512
+And it wasn't that,
+
+00:20:33.512 --> 00:20:36.108
+that data wasn't actually going anywhere,
+
+00:20:36.108 --> 00:20:38.458
+so we removed that.
+
+00:20:38.458 --> 00:20:43.372
+Also, with our user research,
+we learned, with alumni dues,
+
+00:20:43.372 --> 00:20:45.462
+we could remove that from the redesign,
+
+00:20:45.462 --> 00:20:46.938
+we could remove that
+from the new iteration
+
+00:20:46.938 --> 00:20:50.406
+because it wasn't just alumni
+who were coming to the form,
+
+00:20:50.406 --> 00:20:52.337
+it was people who were also
+giving because they really
+
+00:20:52.337 --> 00:20:54.471
+liked the basketball team.
+
+00:20:54.471 --> 00:20:56.557
+So, it's just really important
+to make sure we think about
+
+00:20:56.557 --> 00:21:00.388
+who is going to be on this
+form and do we really need
+
+00:21:00.388 --> 00:21:03.493
+to ask that, because I want to
+make sure I value their time,
+
+00:21:03.493 --> 00:21:06.076
+just as you would in real life.
+
+00:21:08.153 --> 00:21:10.650
+Okay, and also consider the context.
+
+00:21:10.650 --> 00:21:13.339
+People are going to be
+filling out forms in all sorts
+
+00:21:13.339 --> 00:21:15.897
+of different places so we
+want to think about where
+
+00:21:15.897 --> 00:21:19.454
+is someone going to most likely be?
+
+00:21:19.454 --> 00:21:22.792
+Social situations matter and
+it includes forms as well
+
+00:21:22.792 --> 00:21:26.625
+so if you are, let's say
+a car insurance form,
+
+00:21:28.277 --> 00:21:30.764
+you want to make a claim
+on your car insurance,
+
+00:21:30.764 --> 00:21:34.142
+there's a possibility that
+someone's filling out that form
+
+00:21:34.142 --> 00:21:36.465
+right after they've had
+their accident, on the side
+
+00:21:36.465 --> 00:21:38.341
+of the road, so you want to
+make sure you think about
+
+00:21:38.341 --> 00:21:42.527
+color contrast and, is
+the text big enough?
+
+00:21:42.527 --> 00:21:45.007
+And are you using language
+that empathizes with them?
+
+00:21:45.007 --> 00:21:48.719
+It might be a really scary
+moment for that person, right?
+
+00:21:48.719 --> 00:21:50.764
+Or, if you're sick, if it's
+a form to maybe request
+
+00:21:50.764 --> 00:21:54.140
+a visit at a doctor's office,
+that person could be sick
+
+00:21:54.140 --> 00:21:56.009
+when they're filling out the
+form, so you want to make it
+
+00:21:56.009 --> 00:21:59.836
+really clear about what
+to do and make, you know,
+
+00:21:59.836 --> 00:22:04.003
+make it as easy as possible
+because situations matter.
+
+00:22:06.773 --> 00:22:09.570
+Okay, and, once again,
+clear call to actions.
+
+00:22:09.570 --> 00:22:12.641
+Right here, I'm really
+talking about buttons because
+
+00:22:12.641 --> 00:22:15.524
+it's important to remind
+people why they're filling out
+
+00:22:15.524 --> 00:22:16.646
+the form.
+
+00:22:16.646 --> 00:22:19.310
+This is an airline in
+the U.S. called Delta,
+
+00:22:19.310 --> 00:22:22.835
+and the button says Find
+Flights, which I just thought
+
+00:22:22.835 --> 00:22:25.699
+was really clear, and I liked
+that it was reminding me
+
+00:22:25.699 --> 00:22:28.095
+why I was filling out this form.
+
+00:22:28.095 --> 00:22:30.845
+Not just Submit or Go, let's say.
+
+00:22:32.007 --> 00:22:34.784
+This is also good for
+accessibility, like if you have
+
+00:22:34.784 --> 00:22:37.434
+a home page and you have
+a couple news snippets
+
+00:22:37.434 --> 00:22:40.585
+and then you want to say, like, more news,
+
+00:22:40.585 --> 00:22:42.548
+you want to show more news
+and go to your news page,
+
+00:22:42.548 --> 00:22:45.404
+it's awesome to say More
+News, not just More.
+
+00:22:45.404 --> 00:22:48.654
+So, we want to be as clear as possible.
+
+00:22:50.733 --> 00:22:52.388
+All right, so now I'm going
+to go through some kind of
+
+00:22:52.388 --> 00:22:55.065
+common questions that people ask me about,
+
+00:22:55.065 --> 00:22:56.594
+because once I started talking about forms
+
+00:22:56.594 --> 00:22:58.617
+and thinking about forms,
+it kind of comes to me,
+
+00:22:58.617 --> 00:23:01.313
+so I encourage you all to
+do that too afterwards.
+
+00:23:01.313 --> 00:23:04.298
+Somebody would say, Julie,
+forms, the shorter the better,
+
+00:23:04.298 --> 00:23:05.131
+right?
+
+00:23:05.131 --> 00:23:07.175
+And I'd say, totally depends.
+
+00:23:07.175 --> 00:23:10.764
+So much depends on the
+context and it doesn't,
+
+00:23:10.764 --> 00:23:15.239
+like studies have shown
+that long forms are fine,
+
+00:23:15.239 --> 00:23:19.158
+as long as the questions
+are contextual and engaging,
+
+00:23:19.158 --> 00:23:23.158
+so really, it always does
+come back to research.
+
+00:23:24.759 --> 00:23:27.583
+Or, optional versus required.
+
+00:23:27.583 --> 00:23:29.682
+Like, oh, hey, should we,
+
+00:23:29.682 --> 00:23:33.110
+should this field be required or optional?
+
+00:23:33.110 --> 00:23:34.590
+Or, what's the deal with that?
+
+00:23:34.590 --> 00:23:38.462
+It's best to mark your optional fields,
+
+00:23:38.462 --> 00:23:42.026
+not your required fields,
+and I recommend marking
+
+00:23:42.026 --> 00:23:46.115
+your optional fields in
+parentheses with the words optional
+
+00:23:46.115 --> 00:23:47.543
+in there.
+
+00:23:47.543 --> 00:23:52.223
+This is because not everyone
+knows what that asterisk means.
+
+00:23:52.223 --> 00:23:53.291
+Right?
+
+00:23:53.291 --> 00:23:58.037
+And, the required is, like,
+saying something is required
+
+00:23:58.037 --> 00:23:58.892
+is a little bit,
+
+00:23:58.892 --> 00:24:01.366
+is much more harsher than saying optional.
+
+00:24:01.366 --> 00:24:04.706
+Noting optional is more
+friendly, and we know
+
+00:24:04.706 --> 00:24:06.961
+someone's there to fill
+it out, so it's really not
+
+00:24:06.961 --> 00:24:08.705
+necessary to over,
+
+00:24:08.705 --> 00:24:12.034
+to show the required because
+they know they have to fill out
+
+00:24:12.034 --> 00:24:14.500
+the fields to get to the next step, right?
+
+00:24:14.500 --> 00:24:17.167
+So, marking optional is showing,
+
+00:24:18.145 --> 00:24:22.697
+it's showing that the
+fields that aren't optional
+
+00:24:22.697 --> 00:24:23.780
+are required.
+
+00:24:24.774 --> 00:24:26.476
+Also, let's think about it.
+
+00:24:26.476 --> 00:24:29.614
+Required is really a developer,
+
+00:24:29.614 --> 00:24:32.395
+required is something that actually
+
+00:24:32.395 --> 00:24:33.680
+goes in the code to make sure
+
+00:24:33.680 --> 00:24:36.321
+someone fills out the form,
+so this is a design pattern
+
+00:24:36.321 --> 00:24:39.935
+that is being influenced
+by code for us, right now,
+
+00:24:39.935 --> 00:24:41.662
+and we don't need to do that.
+
+00:24:41.662 --> 00:24:44.995
+It's totally fine to just mark optional.
+
+00:24:46.704 --> 00:24:49.434
+All right, so now we've got
+some interactive time here.
+
+00:24:49.434 --> 00:24:52.684
+So, help me chat about what went wrong.
+
+00:24:54.627 --> 00:24:58.699
+Okay, so this one,
+we've got inline labels,
+
+00:24:58.699 --> 00:25:01.080
+and I can tell you, I typed
+in Durham, North Carolina
+
+00:25:01.080 --> 00:25:04.568
+for my location and it
+says location not found.
+
+00:25:04.568 --> 00:25:06.901
+I promise it's a real place.
+
+00:25:09.105 --> 00:25:13.188
+All right, here, my buttons
+are all out of order.
+
+00:25:14.168 --> 00:25:15.607
+Let's see, it's not sequential.
+
+00:25:15.607 --> 00:25:18.264
+I'm getting an error
+message before I submitted,
+
+00:25:18.264 --> 00:25:20.243
+and just like, how are
+you going to have a form
+
+00:25:20.243 --> 00:25:21.121
+within a form?
+
+00:25:21.121 --> 00:25:22.278
+It's horribly unorganized.
+
+00:25:22.278 --> 00:25:25.528
+I don't have my content group together.
+
+00:25:27.072 --> 00:25:29.469
+Okay, here, I don't
+know how to close this.
+
+00:25:29.469 --> 00:25:31.024
+I don't see a close button.
+
+00:25:31.024 --> 00:25:33.024
+This is not human.
+
+00:25:33.024 --> 00:25:36.209
+You wouldn't trap someone
+in real life, would you?
+
+00:25:36.209 --> 00:25:38.221
+(audience chuckles)
+
+00:25:38.221 --> 00:25:40.676
+Oh, wow, I've got way
+too many select lists.
+
+00:25:40.676 --> 00:25:42.192
+Let's see, they're not blank.
+
+00:25:42.192 --> 00:25:46.497
+We should really have Please
+select not everywhere,
+
+00:25:46.497 --> 00:25:50.644
+and the input field, the
+fields don't match the size
+
+00:25:50.644 --> 00:25:52.792
+of what's in there at all.
+
+00:25:52.792 --> 00:25:54.910
+Also, this is making me do math.
+
+00:25:54.910 --> 00:25:56.397
+If y'all can't read it out there, it says,
+
+00:25:56.397 --> 00:26:00.545
+Skill test question: 4
+plus 10, divided by 5.
+
+00:26:00.545 --> 00:26:01.503
+What?
+
+00:26:01.503 --> 00:26:02.670
+This is crazy!
+
+00:26:03.775 --> 00:26:05.858
+These are real forms too.
+
+00:26:06.877 --> 00:26:08.755
+This one, I'm not even sure
+what all went wrong here,
+
+00:26:08.755 --> 00:26:13.039
+but (chuckles), it's just bad.
+
+00:26:13.039 --> 00:26:16.376
+All right, so here we have
+an example of in line errors
+
+00:26:16.376 --> 00:26:20.403
+that were given on focus, so, basically,
+
+00:26:20.403 --> 00:26:23.539
+I just clicked in First name,
+and then I got this prompt,
+
+00:26:23.539 --> 00:26:24.695
+What's your first name?
+
+00:26:24.695 --> 00:26:28.427
+But already got error messages
+in all the other fields.
+
+00:26:28.427 --> 00:26:29.673
+I hadn't even filled it out yet.
+
+00:26:29.673 --> 00:26:31.805
+I hadn't even tried and it
+was telling me I did it wrong
+
+00:26:31.805 --> 00:26:33.648
+already, right?
+
+00:26:33.648 --> 00:26:34.481
+It's sad.
+
+00:26:36.018 --> 00:26:37.711
+Okay, so while I just have
+a couple minutes left,
+
+00:26:37.711 --> 00:26:39.950
+I'm going to do a quick chat
+about how I kind of feel like
+
+00:26:39.950 --> 00:26:43.159
+the future of form design's going.
+
+00:26:43.159 --> 00:26:45.631
+And I just wanted to put
+that cat meme in here.
+
+00:26:45.631 --> 00:26:49.162
+Okay, so material design is,
+as we all know, it's a style,
+
+00:26:49.162 --> 00:26:51.906
+or as you might know, it's a
+style guide or a design trend
+
+00:26:51.906 --> 00:26:52.811
+from Google.
+
+00:26:52.811 --> 00:26:57.372
+It kind of breaks my top-align
+rule that I chatted about
+
+00:26:57.372 --> 00:26:59.387
+in the beginning, but it
+doesn't really break it because
+
+00:26:59.387 --> 00:27:01.210
+it's an inline label
+and when you click in,
+
+00:27:01.210 --> 00:27:02.760
+the label goes above.
+
+00:27:02.760 --> 00:27:04.009
+It's really cool.
+
+00:27:04.009 --> 00:27:05.782
+I think it works great.
+
+00:27:05.782 --> 00:27:08.045
+It's important, though,
+to test with your users,
+
+00:27:08.045 --> 00:27:09.743
+your user base, to make
+sure it works for them
+
+00:27:09.743 --> 00:27:13.809
+and also watch your
+accessibility contrast ratios
+
+00:27:13.809 --> 00:27:16.917
+'cause often, I see a
+light gray text on a white,
+
+00:27:16.917 --> 00:27:18.667
+with material design.
+
+00:27:20.224 --> 00:27:22.801
+Okay, conversational user interfaces.
+
+00:27:22.801 --> 00:27:24.757
+These are the chat box.
+
+00:27:24.757 --> 00:27:27.180
+Like, this is really
+just a form in itself.
+
+00:27:27.180 --> 00:27:29.704
+It's a way that the user or
+the person, the user, the human
+
+00:27:29.704 --> 00:27:33.459
+is giving interaction to
+the company, to the website.
+
+00:27:33.459 --> 00:27:36.199
+It's successful in collecting data.
+
+00:27:36.199 --> 00:27:38.928
+But, I mean, it's kind of like,
+
+00:27:38.928 --> 00:27:43.095
+it's somewhere in the cousin
+of form design, I'd say.
+
+00:27:44.256 --> 00:27:47.508
+Also, voice is a really cool
+way that we're going to be
+
+00:27:47.508 --> 00:27:49.258
+interacting with our,
+
+00:27:50.105 --> 00:27:52.906
+with sites, brands and apps in the future,
+
+00:27:52.906 --> 00:27:56.458
+to get that same kind of
+information that one might be
+
+00:27:56.458 --> 00:27:59.077
+filling out in a form, and I
+can't wait to listen to Mark
+
+00:27:59.077 --> 00:28:01.694
+later today talk about voice.
+
+00:28:01.694 --> 00:28:04.330
+You know, I think in my
+experience, usability heuristics
+
+00:28:04.330 --> 00:28:07.761
+still hold true when we're
+talking about voice UX,
+
+00:28:07.761 --> 00:28:11.928
+but, basically, I can't
+wait to see where this goes.
+
+00:28:13.049 --> 00:28:15.232
+All right, so if you
+forget everything I say,
+
+00:28:15.232 --> 00:28:17.601
+which is totally cool,
+please remember, just these
+
+00:28:17.601 --> 00:28:20.019
+guiding principles, which
+when you're talking about form
+
+00:28:20.019 --> 00:28:22.367
+design and you're
+thinking about your forms,
+
+00:28:22.367 --> 00:28:25.520
+we want to help reduce cognitive load,
+
+00:28:25.520 --> 00:28:29.138
+help prevent errors, and make it human,
+
+00:28:29.138 --> 00:28:33.364
+and when in doubt, be sure
+to talk to your users.
+
+00:28:33.364 --> 00:28:34.702
+So, thank you very much.
+
+00:28:34.702 --> 00:28:36.301
+I appreciate you all being here.
+
+00:28:36.301 --> 00:28:39.301
+(audience applauds)
+

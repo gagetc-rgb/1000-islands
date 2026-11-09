@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Нарезки видео · 1000 Islands</title>
+<style>
+  :root { --bg: #f4f3ef; --ink: #1d1d1b; --muted: #55534d; --line: #d9d6cd; --card: #fff; --accent: #0b6e69; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { padding: 32px 16px 8px; max-width: 1400px; margin: 0 auto; }
+  h1 { font-size: clamp(26px, 4vw, 40px); line-height: 1.1; margin: 0 0 12px; }
+  header p { margin: 0 0 16px; color: var(--muted); max-width: 70ch; }
+  .bar { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .bar div { max-width: 1400px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .bar button { font: inherit; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; }
+  .bar button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+  .bar span { color: var(--muted); margin-left: auto; font-size: 14px; }
+  main { max-width: 1400px; margin: 0 auto; padding: 8px 16px 64px; }
+  h2 { font-size: 22px; margin: 32px 0 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr)); gap: 16px; }
+  figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  .v { position: relative; aspect-ratio: 16 / 9; background: #000; }
+  video { width: 100%; height: 100%; display: block; object-fit: cover; cursor: zoom-in; }
+  .n { position: absolute; left: 10px; top: 10px; background: rgba(0,0,0,.72); color: #fff; font-weight: 700; font-size: 18px; padding: 2px 10px; border-radius: 6px; }
+  .mode { position: absolute; right: 10px; top: 10px; background: rgba(0,0,0,.72); color: #fff; font: inherit; font-size: 13px; padding: 3px 10px; border-radius: 6px; border: 0; cursor: pointer; }
+  figcaption { padding: 10px 14px 12px; }
+  figcaption b { display: block; font-weight: 600; }
+  figcaption small { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>40 нарезок из твоих видео</h1>
+  <p>Сверху 10, которые я выбрал сам по раскадровкам и замерам света, цвета и тряски, не глядя в тайм-коды Gemini. Ниже 30 по его тайм-кодам. Каждый клип в двух вариантах: как снято и с цветокором (ярче, солнечнее, насыщеннее). Переключатель сверху меняет все сразу, кнопка на клипе меняет только его. Клик по видео открывает его на весь экран. Напиши номера, которые нравятся и которые нет.</p>
+</header>
+<div class="bar"><div>
+  <button type="button" data-mode="g" aria-pressed="true">С цветокором</button>
+  <button type="button" data-mode="o" aria-pressed="false">Как снято</button>
+  <span id="count"></span>
+</div></div>
+<main id="list"></main>
+<script>
+const RU = {
+  "01": "Дрейф над облачными башнями", "02": "Облака раскрываются на кальдеру Батура", "03": "Подлёт к кратеру",
+  "04": "Панорама Батура с круговой радугой", "05": "Золотой утренний свет на хребте, внизу море облаков (замедлено)",
+  "06": "Общий план: риф, коса, два вулкана", "07": "Низко над лодкой с красной крышей на краю рифа",
+  "08": "Из-за холма: синяя бухта и дымящийся вулкан", "09": "Бреющий над белым пляжем и лодкой",
+  "10": "Вдоль косы к прибою", "11": "Между стволами пальм к пляжу и вулкану (замедлено)",
+  "12": "Тропический мыс, вулкан на горизонте", "13": "Сверху: геометрия рифа", "14": "Над гребнем джунглей",
+  "15": "Мимо пальмы, открывается лагуна", "16": "Отлёт назад: карстовая башня над бирюзовым рифом",
+  "17": "Низко в коралловый сад между башнями", "18": "С носа лодки между коралловыми шапками",
+  "19": "Выход в пролив, впереди гора", "20": "Лодка подходит к скале-грибу",
+  "21": "Сверху: солнечные блики на кораллах", "22": "Низко над лодкой у берега в сторону рифа",
+  "23": "Китовая акула у платформы, рядом пловцы", "24": "Подъём: 4–5 акул в синей воде",
+  "25": "Красный веер горгонарии, макро", "26": "Проводка вдоль красного веера",
+  "27": "Коралловый холм и облако рыб", "28": "Две медузы рядом, крупно",
+  "29": "Созвездие медуз", "30": "Одна пятнистая медуза под поверхностью",
+  "31": "Выход из облаков на зелёное нагорье", "32": "Солнечный коридор между карстовыми стенами",
+  "33": "Мимо пальмы в полностью открытую лагуну", "34": "С носа лодки: прозрачная вода, острова, облака",
+  "35": "Красный веер на фоне синей воды", "36": "Черепаха подплывает и проходит мимо камеры",
+  "37": "Коралловый пик со столовыми кораллами", "38": "Медуза подплывает и заполняет кадр",
+  "39": "Под нависающей оранжевой скалой", "40": "Лодка-аутригер на белом пляже, люди"
+};
+// own picks: did Gemini mark the same moment?
+const GEMINI = { "31": "нет", "32": "нет (у него тут «резкий разворот», но он раньше, на 20–22 с)", "33": "да, почти тот же отрезок",
+  "34": "нет", "35": "частично", "36": "нет, этот файл он вообще не разобрал", "37": "нет, этот файл он не разобрал",
+  "38": "да", "39": "нет", "40": "частично, как «лайфстайл»" };
+const GROUP = { "Own pick": "Мой выбор, без подсказок Gemini (31–40)", "Bali, volcano": "Бали: облака и вулкан", "Volcanic coast": "Вулканическое побережье",
+  "Palms and atoll": "Пальмы и атолл", "Raja Ampat": "Раджа-Ампат", "Whale sharks": "Китовые акулы", "Underwater": "Под водой" };
+const tc = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+let mode = "g";
+
+fetch("cuts.json").then(r => r.json()).then(cuts => {
+  const list = document.getElementById("list");
+  document.getElementById("count").textContent = `${cuts.length} клипов`;
+  const groups = { "Own pick": [] };
+  for (const c of cuts) (groups[c.group] ||= []).push(c);
+  for (const [g, items] of Object.entries(groups)) {
+    const h = document.createElement("h2"); h.textContent = GROUP[g] || g; list.append(h);
+    const grid = document.createElement("div"); grid.className = "grid"; list.append(grid);
+    for (const c of items) {
+      const f = document.createElement("figure");
+      f.innerHTML = `<div class="v"><video muted loop playsinline preload="none" poster="${c.id}g.webp" src="${c.id}g.mp4"></video>
+        <span class="n">${c.id}</span><button type="button" class="mode">как снято</button></div>
+        <figcaption><b>${RU[c.id] || c.note}</b><small>${c.src} · ${tc(c.start)}–${tc(c.end)} · ${c.secs} с${GEMINI[c.id] ? `<br>Совпадает с Gemini: ${GEMINI[c.id]}` : ""}</small></figcaption>`;
+      const v = f.querySelector("video"), b = f.querySelector(".mode");
+      v.dataset.id = c.id; v.dataset.mode = "g";
+      b.onclick = () => setMode(v, v.dataset.mode === "g" ? "o" : "g");
+      v.onclick = () => (v.requestFullscreen || v.webkitEnterFullscreen)?.call(v);
+      grid.append(f);
+    }
+  }
+  const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting ? e.target.play().catch(() => {}) : e.target.pause()),
+    { threshold: .6 });
+  document.querySelectorAll("video").forEach(v => io.observe(v));
+});
+
+function setMode(v, m) {
+  const t = v.currentTime, playing = !v.paused;
+  v.dataset.mode = m;
+  v.poster = `${v.dataset.id}${m}.webp`;
+  v.src = `${v.dataset.id}${m}.mp4`;
+  v.parentNode.querySelector(".mode").textContent = m === "g" ? "как снято" : "с цветокором";
+  v.addEventListener("loadedmetadata", () => { v.currentTime = t; if (playing) v.play().catch(() => {}); }, { once: true });
+}
+document.querySelectorAll(".bar button").forEach(b => b.onclick = () => {
+  mode = b.dataset.mode;
+  document.querySelectorAll(".bar button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  document.querySelectorAll("video").forEach(v => setMode(v, mode));
+});
+</script>
+</body>
+</html>

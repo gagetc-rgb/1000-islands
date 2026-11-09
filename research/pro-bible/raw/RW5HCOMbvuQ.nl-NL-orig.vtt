@@ -1,0 +1,1796 @@
+WEBVTT
+Kind: captions
+Language: nl-NL
+
+00:00:03.419 --> 00:00:05.515 align:start position:0%
+ 
+Hallo<00:00:03.750><c> en</c><00:00:03.915><c> welkom</c><00:00:04.301><c> bij</c><00:00:04.522><c> Programming</c><00:00:05.184><c> Percy</c><00:00:05.460><c>,</c>
+
+00:00:05.515 --> 00:00:05.570 align:start position:0%
+Hallo en welkom bij Programming Percy,
+ 
+
+00:00:05.570 --> 00:00:07.501 align:start position:0%
+Hallo en welkom bij Programming Percy,
+ vandaag<00:00:06.011><c> gaan</c><00:00:06.287><c> we</c><00:00:06.453><c> het</c><00:00:06.673><c> hebben</c><00:00:07.060><c> over</c><00:00:07.335><c> het</c>
+
+00:00:07.501 --> 00:00:07.556 align:start position:0%
+ vandaag gaan we het hebben over het
+ 
+
+00:00:07.556 --> 00:00:11.524 align:start position:0%
+ vandaag gaan we het hebben over het
+ Open<00:00:07.832><c> Graph-protocol</c><00:00:08.604><c>.</c><00:00:10.748><c> We</c><00:00:10.893><c> bespreken</c><00:00:11.379><c> hoe</c>
+
+00:00:11.524 --> 00:00:11.573 align:start position:0%
+ Open Graph-protocol. We bespreken hoe
+ 
+
+00:00:11.573 --> 00:00:13.272 align:start position:0%
+ Open Graph-protocol. We bespreken hoe
+ en<00:00:11.718><c> waarom</c><00:00:12.058><c> je</c><00:00:12.204><c> het</c><00:00:12.398><c> op</c><00:00:12.544><c> je</c><00:00:12.689><c> website</c><00:00:13.078><c> moet</c>
+
+00:00:13.272 --> 00:00:13.320 align:start position:0%
+ en waarom je het op je website moet
+ 
+
+00:00:13.320 --> 00:00:15.165 align:start position:0%
+ en waarom je het op je website moet
+ gebruiken<00:00:13.806><c> om</c><00:00:13.951><c> je</c><00:00:14.097><c> website</c><00:00:14.485><c> een</c><00:00:14.680><c> stuk</c><00:00:14.922><c> beter</c>
+
+00:00:15.165 --> 00:00:15.214 align:start position:0%
+ gebruiken om je website een stuk beter
+ 
+
+00:00:15.214 --> 00:00:18.981 align:start position:0%
+ gebruiken om je website een stuk beter
+ te<00:00:15.359><c> maken</c><00:00:15.602><c>.</c><00:00:17.633><c> Daar</c><00:00:17.865><c> had</c><00:00:18.051><c> ik</c><00:00:18.191><c> voorheen</c><00:00:18.609><c> nog</c><00:00:18.795><c> niet</c>
+
+00:00:18.981 --> 00:00:19.028 align:start position:0%
+ te maken. Daar had ik voorheen nog niet
+ 
+
+00:00:19.028 --> 00:00:21.322 align:start position:0%
+ te maken. Daar had ik voorheen nog niet
+ over<00:00:19.260><c> nagedacht</c><00:00:19.679><c>.</c><00:00:20.417><c> Hoe</c><00:00:20.618><c> weten</c><00:00:20.919><c> Twitter</c><00:00:21.271><c>,</c>
+
+00:00:21.322 --> 00:00:21.372 align:start position:0%
+ over nagedacht. Hoe weten Twitter,
+ 
+
+00:00:21.372 --> 00:00:23.333 align:start position:0%
+ over nagedacht. Hoe weten Twitter,
+ Facebook<00:00:21.824><c> en</c><00:00:21.975><c> andere</c><00:00:22.327><c> sociale</c><00:00:22.729><c> media</c><00:00:23.031><c> hoe</c><00:00:23.232><c> ze</c>
+
+00:00:23.333 --> 00:00:23.383 align:start position:0%
+ Facebook en andere sociale media hoe ze
+ 
+
+00:00:23.383 --> 00:00:25.243 align:start position:0%
+ Facebook en andere sociale media hoe ze
+ mijn<00:00:23.634><c> website</c><00:00:24.037><c> moeten</c><00:00:24.389><c> weergeven</c><00:00:24.891><c> wanneer</c>
+
+00:00:25.243 --> 00:00:25.294 align:start position:0%
+ mijn website moeten weergeven wanneer
+ 
+
+00:00:25.294 --> 00:00:28.623 align:start position:0%
+ mijn website moeten weergeven wanneer
+ ik<00:00:25.445><c> deze</c><00:00:25.696><c> in</c><00:00:25.847><c> een</c><00:00:26.048><c> bericht</c><00:00:26.450><c> deel</c><00:00:26.651><c>?</c><00:00:28.218><c> Daar</c><00:00:28.471><c> had</c>
+
+00:00:28.623 --> 00:00:28.673 align:start position:0%
+ ik deze in een bericht deel? Daar had
+ 
+
+00:00:28.673 --> 00:00:31.873 align:start position:0%
+ ik deze in een bericht deel? Daar had
+ ik<00:00:28.825><c> nooit</c><00:00:29.129><c> bij</c><00:00:29.332><c> stilgestaan</c><00:00:29.889><c>.</c><00:00:31.426><c> Maar</c><00:00:31.674><c> toen</c>
+
+00:00:31.873 --> 00:00:31.922 align:start position:0%
+ ik nooit bij stilgestaan. Maar toen
+ 
+
+00:00:31.922 --> 00:00:33.810 align:start position:0%
+ ik nooit bij stilgestaan. Maar toen
+ begon<00:00:32.220><c> ik</c><00:00:32.369><c> mijn</c><00:00:32.618><c> eigen</c><00:00:32.916><c> website</c><00:00:33.313><c> opnieuw</c><00:00:33.710><c> op</c>
+
+00:00:33.810 --> 00:00:33.859 align:start position:0%
+ begon ik mijn eigen website opnieuw op
+ 
+
+00:00:33.859 --> 00:00:37.443 align:start position:0%
+ begon ik mijn eigen website opnieuw op
+ te<00:00:34.008><c> bouwen</c><00:00:34.356><c> met</c><00:00:34.555><c> SvelteKit</c><00:00:35.002><c>.</c><00:00:36.984><c> En</c><00:00:37.121><c> toen</c><00:00:37.351><c> ik</c>
+
+00:00:37.443 --> 00:00:37.489 align:start position:0%
+ te bouwen met SvelteKit. En toen ik
+ 
+
+00:00:37.489 --> 00:00:39.280 align:start position:0%
+ te bouwen met SvelteKit. En toen ik
+ klaar<00:00:37.764><c> was</c><00:00:37.902><c>,</c><00:00:37.994><c> was</c><00:00:38.178><c> ik</c><00:00:38.315><c> super</c><00:00:38.591><c> enthousiast</c><00:00:39.142><c> dat</c>
+
+00:00:39.280 --> 00:00:39.326 align:start position:0%
+ klaar was, was ik super enthousiast dat
+ 
+
+00:00:39.326 --> 00:00:40.934 align:start position:0%
+ klaar was, was ik super enthousiast dat
+ ik<00:00:39.464><c> mijn</c><00:00:39.693><c> site</c><00:00:39.923><c> op</c><00:00:40.061><c> Twitter</c><00:00:40.428><c> ging</c><00:00:40.658><c> delen</c><00:00:40.888><c>.</c>
+
+00:00:40.934 --> 00:00:43.696 align:start position:0%
+ ik mijn site op Twitter ging delen.
+ 
+
+00:00:43.696 --> 00:00:45.388 align:start position:0%
+ 
+ Stel<00:00:43.931><c> je</c><00:00:44.072><c> dus</c><00:00:44.260><c> mijn</c><00:00:44.495><c> teleurstelling</c><00:00:45.200><c> voor</c>
+
+00:00:45.388 --> 00:00:45.435 align:start position:0%
+ Stel je dus mijn teleurstelling voor
+ 
+
+00:00:45.435 --> 00:00:47.268 align:start position:0%
+ Stel je dus mijn teleurstelling voor
+ toen<00:00:45.670><c> ik</c><00:00:45.811><c> de</c><00:00:45.952><c> link</c><00:00:46.187><c> in</c><00:00:46.328><c> mijn</c><00:00:46.563><c> tweet</c><00:00:46.845><c> kopieerde</c>
+
+00:00:47.268 --> 00:00:47.315 align:start position:0%
+ toen ik de link in mijn tweet kopieerde
+ 
+
+00:00:47.315 --> 00:00:49.102 align:start position:0%
+ toen ik de link in mijn tweet kopieerde
+ en<00:00:47.456><c> het</c><00:00:47.644><c> voorbeeld</c><00:00:48.114><c> er</c><00:00:48.255><c> nogal</c><00:00:48.537><c> saai</c><00:00:48.772><c> uitzag</c><00:00:49.054><c>.</c>
+
+00:00:49.102 --> 00:00:51.013 align:start position:0%
+ en het voorbeeld er nogal saai uitzag.
+ 
+
+00:00:51.013 --> 00:00:53.727 align:start position:0%
+ 
+ Dus<00:00:51.238><c> een</c><00:00:51.464><c> beetje</c><00:00:51.860><c> zoals</c><00:00:52.199><c> dit</c><00:00:52.368><c>.</c><00:00:53.197><c> Ik</c><00:00:53.341><c> ben</c><00:00:53.534><c> gaan</c>
+
+00:00:53.727 --> 00:00:53.776 align:start position:0%
+ Dus een beetje zoals dit. Ik ben gaan
+ 
+
+00:00:53.776 --> 00:00:55.513 align:start position:0%
+ Dus een beetje zoals dit. Ik ben gaan
+ zoeken<00:00:54.113><c> naar</c><00:00:54.355><c> de</c><00:00:54.499><c> reden</c><00:00:54.789><c> en</c><00:00:54.934><c> zo</c><00:00:55.079><c> leerde</c><00:00:55.416><c> ik</c>
+
+00:00:55.513 --> 00:00:55.561 align:start position:0%
+ zoeken naar de reden en zo leerde ik
+ 
+
+00:00:55.561 --> 00:00:58.113 align:start position:0%
+ zoeken naar de reden en zo leerde ik
+ over<00:00:55.802><c> het</c><00:00:55.995><c> Open</c><00:00:56.237><c> Graph-protocol</c><00:00:56.912><c>.</c><00:00:57.669><c> Het</c><00:00:57.891><c> Open</c>
+
+00:00:58.113 --> 00:00:58.169 align:start position:0%
+ over het Open Graph-protocol. Het Open
+ 
+
+00:00:58.169 --> 00:00:59.335 align:start position:0%
+ over het Open Graph-protocol. Het Open
+ Graph-protocol<00:00:59.002><c> is</c><00:00:59.169><c> een</c>
+
+00:00:59.335 --> 00:00:59.391 align:start position:0%
+ Graph-protocol is een
+ 
+
+00:00:59.391 --> 00:01:01.446 align:start position:0%
+ Graph-protocol is een
+ gestandaardiseerde<00:01:00.446><c> manier</c><00:01:00.835><c> om</c><00:01:01.002><c> gegevens</c>
+
+00:01:01.446 --> 00:01:01.502 align:start position:0%
+ gestandaardiseerde manier om gegevens
+ 
+
+00:01:01.502 --> 00:01:03.613 align:start position:0%
+ gestandaardiseerde manier om gegevens
+ van<00:01:01.724><c> je</c><00:01:01.891><c> website</c><00:01:02.335><c> weer</c><00:01:02.613><c> te</c><00:01:02.780><c> geven</c><00:01:03.113><c> op</c><00:01:03.280><c> andere</c>
+
+00:01:03.613 --> 00:01:03.669 align:start position:0%
+ van je website weer te geven op andere
+ 
+
+00:01:03.669 --> 00:01:05.718 align:start position:0%
+ van je website weer te geven op andere
+ websites<00:01:04.113><c>.</c><00:01:04.694><c> Beschouw</c><00:01:05.155><c> het</c><00:01:05.360><c> als</c><00:01:05.564><c> een</c>
+
+00:01:05.718 --> 00:01:05.769 align:start position:0%
+ websites. Beschouw het als een
+ 
+
+00:01:05.769 --> 00:01:07.716 align:start position:0%
+ websites. Beschouw het als een
+ visitekaartje<00:01:06.487><c> voor</c><00:01:06.743><c> je</c><00:01:06.897><c> website</c><00:01:07.306><c> of</c><00:01:07.460><c> zelfs</c>
+
+00:01:07.716 --> 00:01:07.768 align:start position:0%
+ visitekaartje voor je website of zelfs
+ 
+
+00:01:07.768 --> 00:01:09.913 align:start position:0%
+ visitekaartje voor je website of zelfs
+ voor<00:01:08.024><c> een</c><00:01:08.229><c> specifieke</c><00:01:08.792><c> webpagina</c><00:01:09.253><c>.</c><00:01:09.625><c> Zo</c><00:01:09.769><c> kun</c>
+
+00:01:09.913 --> 00:01:09.962 align:start position:0%
+ voor een specifieke webpagina. Zo kun
+ 
+
+00:01:09.962 --> 00:01:11.647 align:start position:0%
+ voor een specifieke webpagina. Zo kun
+ je<00:01:10.106><c> verschillende</c><00:01:10.780><c> voorbeelden</c><00:01:11.358><c> hebben</c>
+
+00:01:11.647 --> 00:01:11.695 align:start position:0%
+ je verschillende voorbeelden hebben
+ 
+
+00:01:11.695 --> 00:01:13.574 align:start position:0%
+ je verschillende voorbeelden hebben
+ voor<00:01:11.936><c> verschillende</c><00:01:12.610><c> pagina's</c><00:01:13.044><c> op</c><00:01:13.188><c> je</c><00:01:13.333><c> site</c><00:01:13.525><c>.</c>
+
+00:01:13.574 --> 00:01:15.658 align:start position:0%
+ voor verschillende pagina's op je site.
+ 
+
+00:01:15.658 --> 00:01:17.432 align:start position:0%
+ 
+ Nadat<00:01:15.945><c> ik</c><00:01:16.089><c> het</c><00:01:16.281><c> protocol</c><00:01:16.713><c> op</c><00:01:16.857><c> mijn</c><00:01:17.097><c> website</c>
+
+00:01:17.432 --> 00:01:17.480 align:start position:0%
+ Nadat ik het protocol op mijn website
+ 
+
+00:01:17.480 --> 00:01:19.255 align:start position:0%
+ Nadat ik het protocol op mijn website
+ had<00:01:17.672><c> toegepast</c><00:01:18.104><c>,</c><00:01:18.200><c> zag</c><00:01:18.392><c> mijn</c><00:01:18.632><c> tweet</c><00:01:18.919><c> er</c><00:01:19.063><c> veel</c>
+
+00:01:19.255 --> 00:01:19.303 align:start position:0%
+ had toegepast, zag mijn tweet er veel
+ 
+
+00:01:19.303 --> 00:01:20.934 align:start position:0%
+ had toegepast, zag mijn tweet er veel
+ intrigerender<00:01:19.975><c> uit</c><00:01:20.167><c> en</c><00:01:20.311><c> zullen</c><00:01:20.646><c> mensen</c>
+
+00:01:20.934 --> 00:01:20.982 align:start position:0%
+ intrigerender uit en zullen mensen
+ 
+
+00:01:20.982 --> 00:01:22.757 align:start position:0%
+ intrigerender uit en zullen mensen
+ waarschijnlijk<00:01:21.702><c> veel</c><00:01:21.941><c> meer</c><00:01:22.181><c> in</c><00:01:22.325><c> mijn</c><00:01:22.565><c> site</c>
+
+00:01:22.757 --> 00:01:22.805 align:start position:0%
+ waarschijnlijk veel meer in mijn site
+ 
+
+00:01:22.805 --> 00:01:24.628 align:start position:0%
+ waarschijnlijk veel meer in mijn site
+ geïnteresseerd<00:01:23.572><c> zijn</c><00:01:23.812><c> wanneer</c><00:01:24.196><c> het</c><00:01:24.388><c> er</c><00:01:24.532><c> zo</c>
+
+00:01:24.628 --> 00:01:24.676 align:start position:0%
+ geïnteresseerd zijn wanneer het er zo
+ 
+
+00:01:24.676 --> 00:01:29.559 align:start position:0%
+ geïnteresseerd zijn wanneer het er zo
+ uitziet<00:01:25.012><c>.</c><00:01:27.887><c> Het</c><00:01:28.109><c> protocol</c><00:01:28.611><c> is</c><00:01:28.778><c> eigenlijk</c><00:01:29.336><c> heel</c>
+
+00:01:29.559 --> 00:01:29.614 align:start position:0%
+ uitziet. Het protocol is eigenlijk heel
+ 
+
+00:01:29.614 --> 00:01:32.997 align:start position:0%
+ uitziet. Het protocol is eigenlijk heel
+ gemakkelijk<00:01:30.283><c> te</c><00:01:30.450><c> implementeren</c><00:01:31.175><c>.</c><00:01:32.663><c> Er</c><00:01:32.806><c> zijn</c>
+
+00:01:32.997 --> 00:01:33.045 align:start position:0%
+ gemakkelijk te implementeren. Er zijn
+ 
+
+00:01:33.045 --> 00:01:34.767 align:start position:0%
+ gemakkelijk te implementeren. Er zijn
+ veel<00:01:33.284><c> verschillende</c><00:01:33.954><c> tags</c><00:01:34.193><c> om</c><00:01:34.337><c> te</c><00:01:34.480><c> leren</c><00:01:34.719><c>,</c>
+
+00:01:34.767 --> 00:01:34.815 align:start position:0%
+ veel verschillende tags om te leren,
+ 
+
+00:01:34.815 --> 00:01:36.489 align:start position:0%
+ veel verschillende tags om te leren,
+ maar<00:01:35.054><c> om</c><00:01:35.198><c> te</c><00:01:35.341><c> beginnen</c><00:01:35.772><c> hoef</c><00:01:36.011><c> je</c><00:01:36.154><c> er</c><00:01:36.298><c> maar</c>
+
+00:01:36.489 --> 00:01:36.537 align:start position:0%
+ maar om te beginnen hoef je er maar
+ 
+
+00:01:36.537 --> 00:01:39.983 align:start position:0%
+ maar om te beginnen hoef je er maar
+ vier<00:01:36.776><c> te</c><00:01:36.920><c> kennen</c><00:01:37.207><c>.</c><00:01:38.889><c> Het</c><00:01:39.088><c> protocol</c><00:01:39.535><c> vertrouwt</c>
+
+00:01:39.983 --> 00:01:40.033 align:start position:0%
+ vier te kennen. Het protocol vertrouwt
+ 
+
+00:01:40.033 --> 00:01:41.675 align:start position:0%
+ vier te kennen. Het protocol vertrouwt
+ op<00:01:40.182><c> de</c><00:01:40.331><c> meta-tags</c><00:01:40.829><c> in</c><00:01:40.978><c> de</c><00:01:41.127><c> head</c><00:01:41.376><c> van</c><00:01:41.575><c> je</c>
+
+00:01:41.675 --> 00:01:41.724 align:start position:0%
+ op de meta-tags in de head van je
+ 
+
+00:01:41.724 --> 00:01:43.665 align:start position:0%
+ op de meta-tags in de head van je
+ webpagina's<00:01:42.272><c>,</c><00:01:42.371><c> die</c><00:01:42.570><c> andere</c><00:01:42.919><c> websites</c><00:01:43.366><c> kunnen</c>
+
+00:01:43.665 --> 00:01:43.715 align:start position:0%
+ webpagina's, die andere websites kunnen
+ 
+
+00:01:43.715 --> 00:01:45.555 align:start position:0%
+ webpagina's, die andere websites kunnen
+ lezen<00:01:44.013><c> en</c><00:01:44.162><c> begrijpen</c><00:01:44.660><c> om</c><00:01:44.809><c> te</c><00:01:44.958><c> weten</c><00:01:45.257><c> hoe</c><00:01:45.456><c> ze</c>
+
+00:01:45.555 --> 00:01:45.605 align:start position:0%
+ lezen en begrijpen om te weten hoe ze
+ 
+
+00:01:45.605 --> 00:01:48.136 align:start position:0%
+ lezen en begrijpen om te weten hoe ze
+ een<00:01:45.804><c> voorbeeld</c><00:01:46.302><c> moeten</c><00:01:46.650><c> tonen</c><00:01:46.899><c>.</c><00:01:47.700><c> Laten</c><00:01:48.027><c> we</c>
+
+00:01:48.136 --> 00:01:48.190 align:start position:0%
+ een voorbeeld moeten tonen. Laten we
+ 
+
+00:01:48.190 --> 00:01:50.098 align:start position:0%
+ een voorbeeld moeten tonen. Laten we
+ het<00:01:48.408><c> dus</c><00:01:48.626><c> eens</c><00:01:48.899><c> hebben</c><00:01:49.280><c> over</c><00:01:49.553><c> Open</c><00:01:49.825><c> Graph</c>
+
+00:01:50.098 --> 00:01:50.152 align:start position:0%
+ het dus eens hebben over Open Graph
+ 
+
+00:01:50.152 --> 00:01:54.285 align:start position:0%
+ het dus eens hebben over Open Graph
+ meta-tags<00:01:50.643><c>.</c><00:01:52.950><c> Open</c><00:01:53.217><c> Graph</c><00:01:53.537><c> meta-tags</c><00:01:54.072><c> zijn</c>
+
+00:01:54.285 --> 00:01:54.339 align:start position:0%
+ meta-tags. Open Graph meta-tags zijn
+ 
+
+00:01:54.339 --> 00:01:56.316 align:start position:0%
+ meta-tags. Open Graph meta-tags zijn
+ een<00:01:54.552><c> set</c><00:01:54.766><c> meta-tags</c><00:01:55.300><c> die</c><00:01:55.514><c> aan</c><00:01:55.728><c> de</c><00:01:55.888><c> head</c><00:01:56.155><c> van</c>
+
+00:01:56.316 --> 00:01:56.369 align:start position:0%
+ een set meta-tags die aan de head van
+ 
+
+00:01:56.369 --> 00:01:58.025 align:start position:0%
+ een set meta-tags die aan de head van
+ een<00:01:56.583><c> HTML-document</c><00:01:57.331><c> kunnen</c><00:01:57.705><c> worden</c>
+
+00:01:58.025 --> 00:01:58.079 align:start position:0%
+ een HTML-document kunnen worden
+ 
+
+00:01:58.079 --> 00:02:00.163 align:start position:0%
+ een HTML-document kunnen worden
+ toegevoegd<00:01:58.667><c> om</c><00:01:58.827><c> aanvullende</c><00:01:59.468><c> informatie</c><00:02:00.056><c> te</c>
+
+00:02:00.163 --> 00:02:00.216 align:start position:0%
+ toegevoegd om aanvullende informatie te
+ 
+
+00:02:00.216 --> 00:02:02.300 align:start position:0%
+ toegevoegd om aanvullende informatie te
+ geven<00:02:00.537><c> over</c><00:02:00.804><c> hoe</c><00:02:01.017><c> de</c><00:02:01.178><c> inhoud</c><00:02:01.552><c> van</c><00:02:01.765><c> die</c><00:02:01.979><c> pagina</c>
+
+00:02:02.300 --> 00:02:02.353 align:start position:0%
+ geven over hoe de inhoud van die pagina
+ 
+
+00:02:02.353 --> 00:02:06.550 align:start position:0%
+ geven over hoe de inhoud van die pagina
+ eruitziet<00:02:02.834><c>.</c><00:02:05.515><c> Deze</c><00:02:05.787><c> informatie</c><00:02:06.386><c> kan</c>
+
+00:02:06.550 --> 00:02:06.604 align:start position:0%
+ eruitziet. Deze informatie kan
+ 
+
+00:02:06.604 --> 00:02:08.675 align:start position:0%
+ eruitziet. Deze informatie kan
+ vervolgens<00:02:07.204><c> door</c><00:02:07.476><c> sociale</c><00:02:07.912><c> mediaplatforms</c>
+
+00:02:08.675 --> 00:02:08.729 align:start position:0%
+ vervolgens door sociale mediaplatforms
+ 
+
+00:02:08.729 --> 00:02:10.745 align:start position:0%
+ vervolgens door sociale mediaplatforms
+ of<00:02:08.893><c> andere</c><00:02:09.274><c> websites</c><00:02:09.765><c> worden</c><00:02:10.146><c> gebruikt</c><00:02:10.636><c> om</c>
+
+00:02:10.745 --> 00:02:10.800 align:start position:0%
+ of andere websites worden gebruikt om
+ 
+
+00:02:10.800 --> 00:02:12.870 align:start position:0%
+ of andere websites worden gebruikt om
+ een<00:02:11.018><c> rijker</c><00:02:11.399><c> voorbeeld</c><00:02:11.944><c> van</c><00:02:12.162><c> die</c><00:02:12.380><c> pagina</c><00:02:12.761><c> te</c>
+
+00:02:12.870 --> 00:02:12.925 align:start position:0%
+ een rijker voorbeeld van die pagina te
+ 
+
+00:02:12.925 --> 00:02:14.777 align:start position:0%
+ een rijker voorbeeld van die pagina te
+ bieden<00:02:13.306><c> wanneer</c><00:02:13.742><c> deze</c><00:02:14.015><c> wordt</c><00:02:14.341><c> gedeeld</c><00:02:14.723><c>,</c>
+
+00:02:14.777 --> 00:02:14.832 align:start position:0%
+ bieden wanneer deze wordt gedeeld,
+ 
+
+00:02:14.832 --> 00:02:16.466 align:start position:0%
+ bieden wanneer deze wordt gedeeld,
+ zoals<00:02:15.159><c> een</c><00:02:15.377><c> titel</c><00:02:15.649><c>,</c><00:02:15.758><c> beschrijving</c><00:02:16.412><c>,</c>
+
+00:02:16.466 --> 00:02:16.521 align:start position:0%
+ zoals een titel, beschrijving,
+ 
+
+00:02:16.521 --> 00:02:21.745 align:start position:0%
+ zoals een titel, beschrijving,
+ afbeelding<00:02:17.066><c>,</c><00:02:17.175><c> video</c><00:02:17.502><c> of</c><00:02:17.665><c> andere</c><00:02:18.047><c> details</c><00:02:18.428><c>.</c><00:02:21.634><c> Om</c>
+
+00:02:21.745 --> 00:02:21.801 align:start position:0%
+ afbeelding, video of andere details. Om
+ 
+
+00:02:21.801 --> 00:02:23.916 align:start position:0%
+ afbeelding, video of andere details. Om
+ te<00:02:21.968><c> beginnen</c><00:02:22.469><c> met</c><00:02:22.691><c> het</c><00:02:22.914><c> toevoegen</c><00:02:23.471><c> van</c><00:02:23.693><c> Open</c>
+
+00:02:23.916 --> 00:02:23.972 align:start position:0%
+ te beginnen met het toevoegen van Open
+ 
+
+00:02:23.972 --> 00:02:26.032 align:start position:0%
+ te beginnen met het toevoegen van Open
+ Graph<00:02:24.306><c> meta-tags</c><00:02:24.863><c> aan</c><00:02:25.085><c> je</c><00:02:25.252><c> HTML-document</c><00:02:25.976><c>,</c>
+
+00:02:26.032 --> 00:02:26.087 align:start position:0%
+ Graph meta-tags aan je HTML-document,
+ 
+
+00:02:26.087 --> 00:02:27.813 align:start position:0%
+ Graph meta-tags aan je HTML-document,
+ kun<00:02:26.310><c> je</c><00:02:26.477><c> het</c><00:02:26.700><c> meta-element</c><00:02:27.424><c> met</c><00:02:27.646><c> het</c>
+
+00:02:27.813 --> 00:02:27.869 align:start position:0%
+ kun je het meta-element met het
+ 
+
+00:02:27.869 --> 00:02:33.872 align:start position:0%
+ kun je het meta-element met het
+ property-attribuut<00:02:28.927><c> gebruiken</c><00:02:29.428><c>.</c><00:02:33.391><c> Je</c><00:02:33.551><c> zet</c><00:02:33.765><c> de</c>
+
+00:02:33.872 --> 00:02:33.925 align:start position:0%
+ property-attribuut gebruiken. Je zet de
+ 
+
+00:02:33.925 --> 00:02:35.796 align:start position:0%
+ property-attribuut gebruiken. Je zet de
+ property<00:02:34.406><c> gelijk</c><00:02:34.780><c> aan</c><00:02:34.994><c> "</c><00:02:35.048><c>og</c><00:02:35.155><c>"</c><00:02:35.208><c>,</c><00:02:35.315><c> wat</c><00:02:35.529><c> staat</c>
+
+00:02:35.796 --> 00:02:35.850 align:start position:0%
+ property gelijk aan "og", wat staat
+ 
+
+00:02:35.850 --> 00:02:37.881 align:start position:0%
+ property gelijk aan "og", wat staat
+ voor<00:02:36.117><c> Open</c><00:02:36.384><c> Graph</c><00:02:36.652><c>,</c><00:02:36.758><c> en</c><00:02:36.919><c> vervolgens</c><00:02:37.507><c> stel</c><00:02:37.774><c> je</c>
+
+00:02:37.881 --> 00:02:37.935 align:start position:0%
+ voor Open Graph, en vervolgens stel je
+ 
+
+00:02:37.935 --> 00:02:40.019 align:start position:0%
+ voor Open Graph, en vervolgens stel je
+ het<00:02:38.148><c> content-type</c><00:02:38.843><c> in</c><00:02:39.004><c> op</c><00:02:39.164><c> wat</c><00:02:39.378><c> je</c><00:02:39.538><c> maar</c><00:02:39.806><c> wilt</c>
+
+00:02:40.019 --> 00:02:40.073 align:start position:0%
+ het content-type in op wat je maar wilt
+ 
+
+00:02:40.073 --> 00:02:44.797 align:start position:0%
+ het content-type in op wat je maar wilt
+ weergeven<00:02:40.554><c>.</c><00:02:43.491><c> Deze</c><00:02:43.752><c> meta-tag</c><00:02:44.222><c> die</c><00:02:44.431><c> we</c><00:02:44.588><c> zien</c>
+
+00:02:44.797 --> 00:02:44.850 align:start position:0%
+ weergeven. Deze meta-tag die we zien
+ 
+
+00:02:44.850 --> 00:02:46.732 align:start position:0%
+ weergeven. Deze meta-tag die we zien
+ gebruikt<00:02:45.320><c> de</c><00:02:45.477><c> og</c><00:02:45.582><c>:</c><00:02:45.686><c> title-property</c><00:02:46.470><c> om</c><00:02:46.627><c> de</c>
+
+00:02:46.732 --> 00:02:46.784 align:start position:0%
+ gebruikt de og: title-property om de
+ 
+
+00:02:46.784 --> 00:02:48.718 align:start position:0%
+ gebruikt de og: title-property om de
+ titel<00:02:47.098><c> van</c><00:02:47.307><c> de</c><00:02:47.463><c> webpagina</c><00:02:47.986><c> op</c><00:02:48.143><c> te</c><00:02:48.300><c> geven</c><00:02:48.614><c> en</c>
+
+00:02:48.718 --> 00:02:48.770 align:start position:0%
+ titel van de webpagina op te geven en
+ 
+
+00:02:48.770 --> 00:02:50.652 align:start position:0%
+ titel van de webpagina op te geven en
+ gebruikt<00:02:49.241><c> het</c><00:02:49.450><c> content-attribuut</c><00:02:50.391><c> om</c><00:02:50.548><c> de</c>
+
+00:02:50.652 --> 00:02:50.705 align:start position:0%
+ gebruikt het content-attribuut om de
+ 
+
+00:02:50.705 --> 00:02:54.030 align:start position:0%
+ gebruikt het content-attribuut om de
+ waarde<00:02:51.071><c> voor</c><00:02:51.332><c> die</c><00:02:51.541><c> property</c><00:02:52.011><c> te</c><00:02:52.168><c> leveren</c><00:02:52.534><c>.</c><00:02:53.915><c> En</c>
+
+00:02:54.030 --> 00:02:54.088 align:start position:0%
+ waarde voor die property te leveren. En
+ 
+
+00:02:54.088 --> 00:02:56.112 align:start position:0%
+ waarde voor die property te leveren. En
+ je<00:02:54.261><c> kunt</c><00:02:54.551><c> zoveel</c><00:02:54.955><c> Open</c><00:02:55.244><c> Graph</c><00:02:55.591><c> meta-tags</c>
+
+00:02:56.112 --> 00:02:56.169 align:start position:0%
+ je kunt zoveel Open Graph meta-tags
+ 
+
+00:02:56.169 --> 00:02:58.309 align:start position:0%
+ je kunt zoveel Open Graph meta-tags
+ toevoegen<00:02:56.748><c> aan</c><00:02:56.979><c> je</c><00:02:57.152><c> HTML-document</c><00:02:57.962><c> als</c><00:02:58.193><c> je</c>
+
+00:02:58.309 --> 00:02:58.367 align:start position:0%
+ toevoegen aan je HTML-document als je
+ 
+
+00:02:58.367 --> 00:03:00.159 align:start position:0%
+ toevoegen aan je HTML-document als je
+ wilt<00:02:58.598><c>,</c><00:02:58.714><c> en</c><00:02:58.887><c> hij</c><00:02:59.118><c> zal</c><00:02:59.350><c> de</c><00:02:59.523><c> laatste</c><00:02:59.986><c> tag</c>
+
+00:03:00.159 --> 00:03:00.217 align:start position:0%
+ wilt, en hij zal de laatste tag
+ 
+
+00:03:00.217 --> 00:03:02.395 align:start position:0%
+ wilt, en hij zal de laatste tag
+ gebruiken<00:03:00.795><c> die</c><00:03:01.026><c> hij</c><00:03:01.258><c> vindt</c><00:03:01.547><c>.</c><00:03:01.859><c> Je</c><00:03:02.005><c> kunt</c><00:03:02.249><c> dus</c>
+
+00:03:02.395 --> 00:03:02.444 align:start position:0%
+ gebruiken die hij vindt. Je kunt dus
+ 
+
+00:03:02.444 --> 00:03:04.436 align:start position:0%
+ gebruiken die hij vindt. Je kunt dus
+ dubbele<00:03:02.834><c> tags</c><00:03:03.078><c> hebben</c><00:03:03.371><c>.</c><00:03:03.690><c> Er</c><00:03:03.839><c> is</c><00:03:03.988><c> niet</c><00:03:04.237><c> echt</c>
+
+00:03:04.436 --> 00:03:04.486 align:start position:0%
+ dubbele tags hebben. Er is niet echt
+ 
+
+00:03:04.486 --> 00:03:06.427 align:start position:0%
+ dubbele tags hebben. Er is niet echt
+ een<00:03:04.685><c> reden</c><00:03:04.984><c> om</c><00:03:05.133><c> duplicaten</c><00:03:05.680><c> te</c><00:03:05.830><c> hebben</c><00:03:06.128><c>,</c><00:03:06.228><c> maar</c>
+
+00:03:06.427 --> 00:03:06.477 align:start position:0%
+ een reden om duplicaten te hebben, maar
+ 
+
+00:03:06.477 --> 00:03:08.418 align:start position:0%
+ een reden om duplicaten te hebben, maar
+ voor<00:03:06.726><c> de</c><00:03:06.875><c> zekerheid</c><00:03:07.323><c>:</c><00:03:07.422><c> hij</c><00:03:07.621><c> kiest</c><00:03:07.920><c> de</c><00:03:08.069><c> laatste</c>
+
+00:03:08.418 --> 00:03:12.691 align:start position:0%
+ voor de zekerheid: hij kiest de laatste
+.<00:03:11.216><c> Hier</c><00:03:11.461><c> is</c><00:03:11.609><c> een</c><00:03:11.806><c> lijst</c><00:03:12.101><c> met</c><00:03:12.298><c> de</c><00:03:12.445><c> meest</c>
+
+00:03:12.691 --> 00:03:12.740 align:start position:0%
+. Hier is een lijst met de meest
+ 
+
+00:03:12.740 --> 00:03:15.668 align:start position:0%
+. Hier is een lijst met de meest
+ gebruikte<00:03:13.232><c> Open</c><00:03:13.478><c> Graph-eigenschappen</c><00:03:14.412><c>.</c><00:03:15.556><c> We</c>
+
+00:03:15.668 --> 00:03:15.725 align:start position:0%
+ gebruikte Open Graph-eigenschappen. We
+ 
+
+00:03:15.725 --> 00:03:17.646 align:start position:0%
+ gebruikte Open Graph-eigenschappen. We
+ hebben<00:03:16.120><c> de</c><00:03:16.290><c> Open</c><00:03:16.572><c> Graph-titel</c><00:03:17.194><c>,</c><00:03:17.307><c> wat</c><00:03:17.533><c> de</c>
+
+00:03:17.646 --> 00:03:17.702 align:start position:0%
+ hebben de Open Graph-titel, wat de
+ 
+
+00:03:17.702 --> 00:03:20.038 align:start position:0%
+ hebben de Open Graph-titel, wat de
+ titel<00:03:18.041><c> van</c><00:03:18.267><c> de</c><00:03:18.437><c> pagina</c><00:03:18.832><c> is</c><00:03:18.945><c>.</c><00:03:19.404><c> Dit</c><00:03:19.615><c> moet</c><00:03:19.879><c> een</c>
+
+00:03:20.038 --> 00:03:20.091 align:start position:0%
+ titel van de pagina is. Dit moet een
+ 
+
+00:03:20.091 --> 00:03:22.100 align:start position:0%
+ titel van de pagina is. Dit moet een
+ zeer<00:03:20.355><c> korte</c><00:03:20.673><c> en</c><00:03:20.831><c> beschrijvende</c><00:03:21.571><c> titel</c><00:03:21.889><c> zijn</c>
+
+00:03:22.100 --> 00:03:22.153 align:start position:0%
+ zeer korte en beschrijvende titel zijn
+ 
+
+00:03:22.153 --> 00:03:25.218 align:start position:0%
+ zeer korte en beschrijvende titel zijn
+ die<00:03:22.365><c> de</c><00:03:22.523><c> hele</c><00:03:22.788><c> inhoud</c><00:03:23.158><c> samenvat</c><00:03:23.581><c>.</c><00:03:24.743><c> We</c><00:03:24.901><c> hebben</c>
+
+00:03:25.218 --> 00:03:25.270 align:start position:0%
+ die de hele inhoud samenvat. We hebben
+ 
+
+00:03:25.270 --> 00:03:27.118 align:start position:0%
+ die de hele inhoud samenvat. We hebben
+ de<00:03:25.429><c> Open</c><00:03:25.693><c> Graph-beschrijving</c><00:03:26.643><c>,</c><00:03:26.749><c> wat</c><00:03:26.960><c> een</c>
+
+00:03:27.118 --> 00:03:27.171 align:start position:0%
+ de Open Graph-beschrijving, wat een
+ 
+
+00:03:27.171 --> 00:03:29.124 align:start position:0%
+ de Open Graph-beschrijving, wat een
+ korte<00:03:27.488><c> beschrijving</c><00:03:28.174><c> van</c><00:03:28.385><c> de</c><00:03:28.544><c> hele</c><00:03:28.808><c> pagina</c>
+
+00:03:29.124 --> 00:03:29.177 align:start position:0%
+ korte beschrijving van de hele pagina
+ 
+
+00:03:29.177 --> 00:03:31.492 align:start position:0%
+ korte beschrijving van de hele pagina
+ is<00:03:29.283><c>.</c><00:03:29.913><c> Het</c><00:03:30.098><c> zou</c><00:03:30.284><c> uit</c><00:03:30.470><c> een</c><00:03:30.656><c> paar</c><00:03:30.888><c> zinnen</c><00:03:31.214><c> moeten</c>
+
+00:03:31.492 --> 00:03:31.539 align:start position:0%
+ is. Het zou uit een paar zinnen moeten
+ 
+
+00:03:31.539 --> 00:03:33.212 align:start position:0%
+ is. Het zou uit een paar zinnen moeten
+ bestaan<00:03:31.911><c> en</c><00:03:32.050><c> veel</c><00:03:32.282><c> meer</c><00:03:32.515><c> details</c><00:03:32.886><c> over</c><00:03:33.119><c> de</c>
+
+00:03:33.212 --> 00:03:33.258 align:start position:0%
+ bestaan en veel meer details over de
+ 
+
+00:03:33.258 --> 00:03:37.382 align:start position:0%
+ bestaan en veel meer details over de
+ inhoud<00:03:33.583><c> van</c><00:03:33.769><c> je</c><00:03:33.909><c> pagina</c><00:03:34.234><c> moeten</c><00:03:34.559><c> bieden</c><00:03:34.838><c>.</c><00:03:37.275><c> We</c>
+
+00:03:37.382 --> 00:03:37.436 align:start position:0%
+ inhoud van je pagina moeten bieden. We
+ 
+
+00:03:37.436 --> 00:03:39.541 align:start position:0%
+ inhoud van je pagina moeten bieden. We
+ hebben<00:03:37.814><c> de</c><00:03:37.976><c> OG-afbeelding</c><00:03:38.677><c>,</c><00:03:38.785><c> wat</c><00:03:39.001><c> natuurlijk</c>
+
+00:03:39.541 --> 00:03:39.595 align:start position:0%
+ hebben de OG-afbeelding, wat natuurlijk
+ 
+
+00:03:39.595 --> 00:03:41.483 align:start position:0%
+ hebben de OG-afbeelding, wat natuurlijk
+ de<00:03:39.757><c> afbeelding</c><00:03:40.350><c> is</c><00:03:40.512><c> die</c><00:03:40.728><c> de</c><00:03:40.890><c> hele</c><00:03:41.159><c> pagina</c>
+
+00:03:41.483 --> 00:03:41.537 align:start position:0%
+ de afbeelding is die de hele pagina
+ 
+
+00:03:41.537 --> 00:03:43.641 align:start position:0%
+ de afbeelding is die de hele pagina
+ vertegenwoordigt<00:03:42.400><c>,</c><00:03:42.508><c> en</c><00:03:42.670><c> je</c><00:03:42.832><c> hebt</c><00:03:43.102><c> de</c><00:03:43.264><c> URL</c><00:03:43.480><c> die</c>
+
+00:03:43.641 --> 00:03:43.695 align:start position:0%
+ vertegenwoordigt, en je hebt de URL die
+ 
+
+00:03:43.695 --> 00:03:48.241 align:start position:0%
+ vertegenwoordigt, en je hebt de URL die
+ naar<00:03:43.965><c> die</c><00:03:44.181><c> pagina</c><00:03:44.559><c> linkt</c><00:03:44.829><c>.</c><00:03:47.384><c> Vrij</c><00:03:47.690><c> voor</c><00:03:47.996><c> zich</c>
+
+00:03:48.241 --> 00:03:48.302 align:start position:0%
+ naar die pagina linkt. Vrij voor zich
+ 
+
+00:03:48.302 --> 00:03:53.603 align:start position:0%
+ naar die pagina linkt. Vrij voor zich
+ sprekend<00:03:48.792><c>.</c><00:03:52.370><c> Om</c><00:03:52.518><c> te</c><00:03:52.666><c> begrijpen</c><00:03:53.159><c> welke</c><00:03:53.455><c> tag</c>
+
+00:03:53.603 --> 00:03:53.653 align:start position:0%
+ sprekend. Om te begrijpen welke tag
+ 
+
+00:03:53.653 --> 00:03:55.380 align:start position:0%
+ sprekend. Om te begrijpen welke tag
+ waarvoor<00:03:54.097><c> dient</c><00:03:54.344><c>,</c><00:03:54.442><c> kijken</c><00:03:54.788><c> we</c><00:03:54.936><c> naar</c><00:03:55.183><c> mijn</c>
+
+00:03:55.380 --> 00:03:55.429 align:start position:0%
+ waarvoor dient, kijken we naar mijn
+ 
+
+00:03:55.429 --> 00:04:01.384 align:start position:0%
+ waarvoor dient, kijken we naar mijn
+ verbeterde<00:03:55.972><c> tweet</c><00:03:56.219><c>.</c><00:04:00.474><c> En</c><00:04:00.634><c> we</c><00:04:00.795><c> zien</c><00:04:01.063><c> dat</c><00:04:01.277><c> de</c>
+
+00:04:01.384 --> 00:04:01.437 align:start position:0%
+ verbeterde tweet. En we zien dat de
+ 
+
+00:04:01.437 --> 00:04:03.472 align:start position:0%
+ verbeterde tweet. En we zien dat de
+ OG-afbeelding<00:04:02.187><c> natuurlijk</c><00:04:02.776><c> de</c><00:04:02.937><c> afbeelding</c>
+
+00:04:03.472 --> 00:04:03.526 align:start position:0%
+ OG-afbeelding natuurlijk de afbeelding
+ 
+
+00:04:03.526 --> 00:04:05.507 align:start position:0%
+ OG-afbeelding natuurlijk de afbeelding
+ is<00:04:03.633><c>,</c><00:04:03.740><c> en</c><00:04:03.901><c> de</c><00:04:04.061><c> OG-beschrijving</c><00:04:04.918><c> heeft</c><00:04:05.239><c> zoals</c>
+
+00:04:05.507 --> 00:04:05.561 align:start position:0%
+ is, en de OG-beschrijving heeft zoals
+ 
+
+00:04:05.561 --> 00:04:07.542 align:start position:0%
+ is, en de OG-beschrijving heeft zoals
+ je<00:04:05.721><c> ziet</c><00:04:05.989><c> meer</c><00:04:06.257><c> ruimte</c><00:04:06.578><c>,</c><00:04:06.685><c> dus</c><00:04:06.900><c> die</c><00:04:07.114><c> kan</c><00:04:07.328><c> iets</c>
+
+00:04:07.542 --> 00:04:07.596 align:start position:0%
+ je ziet meer ruimte, dus die kan iets
+ 
+
+00:04:07.596 --> 00:04:12.695 align:start position:0%
+ je ziet meer ruimte, dus die kan iets
+ langer<00:04:07.971><c> zijn</c><00:04:08.185><c>,</c><00:04:08.292><c> en</c><00:04:08.452><c> de</c><00:04:08.613><c> OG-titel</c><00:04:09.095><c> is</c><00:04:09.256><c> kort</c><00:04:09.470><c>.</c><00:04:12.575><c> De</c>
+
+00:04:12.695 --> 00:04:12.755 align:start position:0%
+ langer zijn, en de OG-titel is kort. De
+ 
+
+00:04:12.755 --> 00:04:14.679 align:start position:0%
+ langer zijn, en de OG-titel is kort. De
+ OG-URL<00:04:13.176><c> wordt</c><00:04:13.537><c> onder</c><00:04:13.897><c> de</c><00:04:14.078><c> afbeelding</c>
+
+00:04:14.679 --> 00:04:14.739 align:start position:0%
+ OG-URL wordt onder de afbeelding
+ 
+
+00:04:14.739 --> 00:04:19.920 align:start position:0%
+ OG-URL wordt onder de afbeelding
+ weergegeven<00:04:15.461><c> en</c><00:04:15.641><c> staat</c><00:04:16.002><c> hier</c><00:04:16.242><c>.</c><00:04:19.405><c> Naast</c><00:04:19.714><c> deze</c>
+
+00:04:19.920 --> 00:04:19.972 align:start position:0%
+ weergegeven en staat hier. Naast deze
+ 
+
+00:04:19.972 --> 00:04:21.879 align:start position:0%
+ weergegeven en staat hier. Naast deze
+ eigenschappen<00:04:20.693><c> zijn</c><00:04:20.951><c> er</c><00:04:21.106><c> nog</c><00:04:21.312><c> veel</c><00:04:21.570><c> andere</c>
+
+00:04:21.879 --> 00:04:21.931 align:start position:0%
+ eigenschappen zijn er nog veel andere
+ 
+
+00:04:21.931 --> 00:04:23.787 align:start position:0%
+ eigenschappen zijn er nog veel andere
+ Open<00:04:22.189><c> Graph-eigenschappen</c><00:04:23.220><c> die</c><00:04:23.426><c> je</c><00:04:23.581><c> kunt</c>
+
+00:04:23.787 --> 00:04:23.839 align:start position:0%
+ Open Graph-eigenschappen die je kunt
+ 
+
+00:04:23.839 --> 00:04:25.643 align:start position:0%
+ Open Graph-eigenschappen die je kunt
+ gebruiken<00:04:24.354><c> om</c><00:04:24.509><c> aanvullende</c><00:04:25.127><c> informatie</c>
+
+00:04:25.643 --> 00:04:25.695 align:start position:0%
+ gebruiken om aanvullende informatie
+ 
+
+00:04:25.695 --> 00:04:27.602 align:start position:0%
+ gebruiken om aanvullende informatie
+ over<00:04:25.952><c> je</c><00:04:26.107><c> pagina</c><00:04:26.468><c> op</c><00:04:26.623><c> te</c><00:04:26.777><c> geven</c><00:04:27.035><c>,</c><00:04:27.138><c> zoals</c><00:04:27.448><c> het</c>
+
+00:04:27.602 --> 00:04:27.654 align:start position:0%
+ over je pagina op te geven, zoals het
+ 
+
+00:04:27.654 --> 00:04:30.989 align:start position:0%
+ over je pagina op te geven, zoals het
+ type<00:04:27.912><c> pagina</c><00:04:28.221><c>.</c><00:04:29.972><c> Is</c><00:04:30.104><c> het</c><00:04:30.281><c> bijvoorbeeld</c><00:04:30.857><c> een</c>
+
+00:04:30.989 --> 00:04:31.034 align:start position:0%
+ type pagina. Is het bijvoorbeeld een
+ 
+
+00:04:31.034 --> 00:04:34.537 align:start position:0%
+ type pagina. Is het bijvoorbeeld een
+ artikel<00:04:31.343><c>?</c><00:04:32.889><c> Of</c><00:04:33.059><c> de</c><00:04:33.230><c> auteur</c><00:04:33.627><c> van</c><00:04:33.855><c> de</c><00:04:34.025><c> pagina</c><00:04:34.423><c> of</c>
+
+00:04:34.537 --> 00:04:34.594 align:start position:0%
+ artikel? Of de auteur van de pagina of
+ 
+
+00:04:34.594 --> 00:04:36.811 align:start position:0%
+ artikel? Of de auteur van de pagina of
+ de<00:04:34.764><c> publicatiedatum</c><00:04:35.617><c>,</c><00:04:35.731><c> de</c><00:04:35.901><c> datum</c><00:04:36.242><c> waarop</c><00:04:36.640><c> het</c>
+
+00:04:36.811 --> 00:04:36.867 align:start position:0%
+ de publicatiedatum, de datum waarop het
+ 
+
+00:04:36.867 --> 00:04:40.107 align:start position:0%
+ de publicatiedatum, de datum waarop het
+ werd<00:04:37.152><c> gepubliceerd</c><00:04:37.891><c> bijvoorbeeld</c><00:04:38.573><c>.</c><00:04:39.747><c> Je</c><00:04:39.901><c> kunt</c>
+
+00:04:40.107 --> 00:04:40.159 align:start position:0%
+ werd gepubliceerd bijvoorbeeld. Je kunt
+ 
+
+00:04:40.159 --> 00:04:42.013 align:start position:0%
+ werd gepubliceerd bijvoorbeeld. Je kunt
+ een<00:04:40.365><c> volledige</c><00:04:40.880><c> lijst</c><00:04:41.189><c> vinden</c><00:04:41.549><c> als</c><00:04:41.755><c> je</c><00:04:41.910><c> de</c>
+
+00:04:42.013 --> 00:04:42.064 align:start position:0%
+ een volledige lijst vinden als je de
+ 
+
+00:04:42.064 --> 00:04:43.867 align:start position:0%
+ een volledige lijst vinden als je de
+ website<00:04:42.476><c> van</c><00:04:42.682><c> het</c><00:04:42.888><c> Open</c><00:04:43.146><c> Graph-protocol</c>
+
+00:04:43.867 --> 00:04:43.918 align:start position:0%
+ website van het Open Graph-protocol
+ 
+
+00:04:43.918 --> 00:04:48.783 align:start position:0%
+ website van het Open Graph-protocol
+ bezoekt<00:04:44.279><c>.</c><00:04:47.429><c> Zoals</c><00:04:47.719><c> je</c><00:04:47.864><c> kunt</c><00:04:48.106><c> zien</c><00:04:48.299><c>,</c><00:04:48.396><c> tonen</c><00:04:48.686><c> ze</c>
+
+00:04:48.783 --> 00:04:48.831 align:start position:0%
+ bezoekt. Zoals je kunt zien, tonen ze
+ 
+
+00:04:48.831 --> 00:04:50.379 align:start position:0%
+ bezoekt. Zoals je kunt zien, tonen ze
+ ook<00:04:49.025><c> de</c><00:04:49.170><c> eerste</c><00:04:49.508><c> vier</c><00:04:49.750><c> die</c><00:04:49.944><c> we</c><00:04:50.089><c> hebben</c>
+
+00:04:50.379 --> 00:04:50.427 align:start position:0%
+ ook de eerste vier die we hebben
+ 
+
+00:04:50.427 --> 00:04:52.072 align:start position:0%
+ ook de eerste vier die we hebben
+ besproken<00:04:50.911><c> en</c><00:04:51.056><c> er</c><00:04:51.201><c> zijn</c><00:04:51.443><c> nog</c><00:04:51.637><c> veel</c><00:04:51.878><c> meer</c>
+
+00:04:52.072 --> 00:04:52.120 align:start position:0%
+ besproken en er zijn nog veel meer
+ 
+
+00:04:52.120 --> 00:04:54.007 align:start position:0%
+ besproken en er zijn nog veel meer
+ metatags<00:04:52.556><c> en</c><00:04:52.701><c> je</c><00:04:52.846><c> kunt</c><00:04:53.088><c> hier</c><00:04:53.329><c> veel</c><00:04:53.571><c> mee</c><00:04:53.765><c> doen</c><00:04:53.958><c>,</c>
+
+00:04:54.007 --> 00:04:54.055 align:start position:0%
+ metatags en je kunt hier veel mee doen,
+ 
+
+00:04:54.055 --> 00:05:00.776 align:start position:0%
+ metatags en je kunt hier veel mee doen,
+ maar<00:04:59.704><c> de</c><00:04:59.843><c> eerste</c><00:05:00.170><c> vier</c><00:05:00.403><c> zijn</c><00:05:00.636><c> het</c>
+
+00:05:00.776 --> 00:05:00.823 align:start position:0%
+ maar de eerste vier zijn het
+ 
+
+00:05:00.823 --> 00:05:02.642 align:start position:0%
+ maar de eerste vier zijn het
+ belangrijkst<00:05:01.429><c> om</c><00:05:01.569><c> te</c><00:05:01.709><c> hebben</c><00:05:01.989><c>,</c><00:05:02.082><c> zodat</c><00:05:02.362><c> je</c><00:05:02.502><c> een</c>
+
+00:05:02.642 --> 00:05:02.688 align:start position:0%
+ belangrijkst om te hebben, zodat je een
+ 
+
+00:05:02.688 --> 00:05:04.227 align:start position:0%
+ belangrijkst om te hebben, zodat je een
+ erg<00:05:02.875><c> mooi</c><00:05:03.108><c> voorbeeld</c><00:05:03.575><c> krijgt</c><00:05:03.901><c> wanneer</c>
+
+00:05:04.227 --> 00:05:04.274 align:start position:0%
+ erg mooi voorbeeld krijgt wanneer
+ 
+
+00:05:04.274 --> 00:05:08.490 align:start position:0%
+ erg mooi voorbeeld krijgt wanneer
+ iemand<00:05:04.601><c> je</c><00:05:04.740><c> link</c><00:05:04.974><c> deelt</c><00:05:05.207><c>.</c><00:05:08.040><c> We</c><00:05:08.190><c> kunnen</c>
+
+00:05:08.490 --> 00:05:08.540 align:start position:0%
+ iemand je link deelt. We kunnen
+ 
+
+00:05:08.540 --> 00:05:09.793 align:start position:0%
+ iemand je link deelt. We kunnen
+ bijvoorbeeld<00:05:09.192><c> naar</c><00:05:09.442><c> de</c><00:05:09.592><c> Open</c>
+
+00:05:09.793 --> 00:05:09.843 align:start position:0%
+ bijvoorbeeld naar de Open
+ 
+
+00:05:09.843 --> 00:05:11.696 align:start position:0%
+ bijvoorbeeld naar de Open
+ Graph-metatags<00:05:10.594><c> op</c><00:05:10.744><c> mijn</c><00:05:10.995><c> website</c><00:05:11.395><c> kijken</c>
+
+00:05:11.696 --> 00:05:11.746 align:start position:0%
+ Graph-metatags op mijn website kijken
+ 
+
+00:05:11.746 --> 00:05:14.398 align:start position:0%
+ Graph-metatags op mijn website kijken
+ als<00:05:11.946><c> ik</c><00:05:12.097><c> klaar</c><00:05:12.397><c> ben</c><00:05:12.547><c>.</c><00:05:13.140><c> En</c><00:05:13.319><c> die</c><00:05:13.559><c> zien</c><00:05:13.858><c> er</c><00:05:14.038><c> zo</c><00:05:14.218><c> uit</c>
+
+00:05:14.398 --> 00:05:16.559 align:start position:0%
+ als ik klaar ben. En die zien er zo uit
+.<00:05:15.119><c> Je</c><00:05:15.279><c> kunt</c><00:05:15.545><c> ze</c><00:05:15.705><c> bekijken</c><00:05:16.185><c> door</c><00:05:16.452><c> de</c>
+
+00:05:16.559 --> 00:05:16.612 align:start position:0%
+. Je kunt ze bekijken door de
+ 
+
+00:05:16.612 --> 00:05:18.585 align:start position:0%
+. Je kunt ze bekijken door de
+ ontwikkelaarstools<00:05:17.625><c> te</c><00:05:17.785><c> openen</c><00:05:18.159><c> door</c><00:05:18.425><c> met</c>
+
+00:05:18.585 --> 00:05:18.639 align:start position:0%
+ ontwikkelaarstools te openen door met
+ 
+
+00:05:18.639 --> 00:05:20.559 align:start position:0%
+ ontwikkelaarstools te openen door met
+ de<00:05:18.799><c> rechtermuisknop</c><00:05:19.652><c> op</c><00:05:19.812><c> een</c><00:05:20.025><c> website</c><00:05:20.452><c> te</c>
+
+00:05:20.559 --> 00:05:20.612 align:start position:0%
+ de rechtermuisknop op een website te
+ 
+
+00:05:20.612 --> 00:05:22.692 align:start position:0%
+ de rechtermuisknop op een website te
+ klikken<00:05:21.039><c> en</c><00:05:21.199><c> '</c><00:05:21.252><c>inspecteren</c><00:05:21.839><c>'</c><00:05:21.945><c> te</c><00:05:22.105><c> selecteren</c><00:05:22.639><c>,</c>
+
+00:05:22.692 --> 00:05:22.745 align:start position:0%
+ klikken en 'inspecteren' te selecteren,
+ 
+
+00:05:22.745 --> 00:05:24.399 align:start position:0%
+ klikken en 'inspecteren' te selecteren,
+ of<00:05:22.905><c> je</c><00:05:23.065><c> kunt</c><00:05:23.332><c> op</c><00:05:23.492><c> F12</c><00:05:23.705><c> drukken</c><00:05:24.132><c> om</c><00:05:24.292><c> de</c>
+
+00:05:24.399 --> 00:05:24.452 align:start position:0%
+ of je kunt op F12 drukken om de
+ 
+
+00:05:24.452 --> 00:05:27.873 align:start position:0%
+ of je kunt op F12 drukken om de
+ ontwikkelaarstools<00:05:25.465><c> te</c><00:05:25.625><c> openen</c><00:05:25.945><c>.</c><00:05:27.376><c> Ik</c><00:05:27.541><c> heb</c><00:05:27.763><c> er</c>
+
+00:05:27.873 --> 00:05:27.928 align:start position:0%
+ ontwikkelaarstools te openen. Ik heb er
+ 
+
+00:05:27.928 --> 00:05:32.912 align:start position:0%
+ ontwikkelaarstools te openen. Ik heb er
+ vrij<00:05:28.205><c> veel</c><00:05:28.481><c> van</c><00:05:28.647><c>.</c><00:05:31.696><c> En</c><00:05:31.854><c> de</c><00:05:32.013><c> belangrijkste</c><00:05:32.753><c> die</c>
+
+00:05:32.912 --> 00:05:32.965 align:start position:0%
+ vrij veel van. En de belangrijkste die
+ 
+
+00:05:32.965 --> 00:05:35.028 align:start position:0%
+ vrij veel van. En de belangrijkste die
+ ik<00:05:33.124><c> wil</c><00:05:33.335><c> dat</c><00:05:33.547><c> je</c><00:05:33.705><c> ziet</c><00:05:33.917><c>,</c><00:05:34.023><c> is</c><00:05:34.181><c> dat</c><00:05:34.393><c> je</c><00:05:34.552><c> merkt</c><00:05:34.869><c> hoe</c>
+
+00:05:35.028 --> 00:05:35.080 align:start position:0%
+ ik wil dat je ziet, is dat je merkt hoe
+ 
+
+00:05:35.080 --> 00:05:36.985 align:start position:0%
+ ik wil dat je ziet, is dat je merkt hoe
+ sommige<00:05:35.504><c> OG</c><00:05:35.662><c> zijn</c><00:05:35.874><c>,</c><00:05:35.980><c> wat</c><00:05:36.191><c> staat</c><00:05:36.509><c> voor</c><00:05:36.773><c> Open</c>
+
+00:05:36.985 --> 00:05:37.037 align:start position:0%
+ sommige OG zijn, wat staat voor Open
+ 
+
+00:05:37.037 --> 00:05:38.942 align:start position:0%
+ sommige OG zijn, wat staat voor Open
+ Graph<00:05:37.302><c>,</c><00:05:37.408><c> maar</c><00:05:37.672><c> andere</c><00:05:38.042><c> zijn</c><00:05:38.307><c> van</c><00:05:38.518><c> Twitter</c><00:05:38.889><c>.</c>
+
+00:05:38.942 --> 00:05:42.980 align:start position:0%
+ Graph, maar andere zijn van Twitter.
+ 
+
+00:05:42.980 --> 00:05:44.913 align:start position:0%
+ 
+ Twitter<00:05:43.398><c> heeft</c><00:05:43.711><c> bijvoorbeeld</c><00:05:44.391><c> zijn</c><00:05:44.652><c> eigen</c>
+
+00:05:44.913 --> 00:05:44.966 align:start position:0%
+ Twitter heeft bijvoorbeeld zijn eigen
+ 
+
+00:05:44.966 --> 00:05:46.847 align:start position:0%
+ Twitter heeft bijvoorbeeld zijn eigen
+ metatags<00:05:45.436><c> die</c><00:05:45.645><c> specifiek</c><00:05:46.168><c> zijn</c><00:05:46.429><c> voor</c><00:05:46.690><c> hun</c>
+
+00:05:46.847 --> 00:05:46.899 align:start position:0%
+ metatags die specifiek zijn voor hun
+ 
+
+00:05:46.899 --> 00:05:48.938 align:start position:0%
+ metatags die specifiek zijn voor hun
+ website<00:05:47.317><c> en</c><00:05:47.474><c> hoe</c><00:05:47.683><c> zij</c><00:05:47.892><c> met</c><00:05:48.101><c> metatags</c><00:05:48.572><c> omgaan</c><00:05:48.885><c>.</c>
+
+00:05:48.938 --> 00:05:51.553 align:start position:0%
+ website en hoe zij met metatags omgaan.
+ 
+
+00:05:51.553 --> 00:05:53.485 align:start position:0%
+ 
+ Dit<00:05:51.756><c> is</c><00:05:51.908><c> iets</c><00:05:52.163><c> om</c><00:05:52.315><c> rekening</c><00:05:52.773><c> mee</c><00:05:52.976><c> te</c><00:05:53.129><c> houden</c><00:05:53.434><c>.</c>
+
+00:05:53.485 --> 00:05:55.426 align:start position:0%
+ Dit is iets om rekening mee te houden.
+ 
+
+00:05:55.426 --> 00:05:57.497 align:start position:0%
+ 
+ Verschillende<00:05:56.189><c> sociale</c><00:05:56.625><c> media</c><00:05:56.952><c> hebben</c><00:05:57.334><c> dus</c>
+
+00:05:57.497 --> 00:05:57.552 align:start position:0%
+ Verschillende sociale media hebben dus
+ 
+
+00:05:57.552 --> 00:06:01.081 align:start position:0%
+ Verschillende sociale media hebben dus
+ zoiets<00:05:57.933><c> als</c><00:05:58.151><c> alternatieve</c><00:05:58.860><c> tags</c><00:05:59.078><c>.</c><00:06:00.574><c> Ze</c><00:06:00.743><c> hebben</c>
+
+00:06:01.081 --> 00:06:01.138 align:start position:0%
+ zoiets als alternatieve tags. Ze hebben
+ 
+
+00:06:01.138 --> 00:06:04.562 align:start position:0%
+ zoiets als alternatieve tags. Ze hebben
+ hun<00:06:01.363><c> eigen</c><00:06:01.702><c> tags</c><00:06:01.927><c>.</c><00:06:03.418><c> Ik</c><00:06:03.581><c> denk</c><00:06:03.853><c> dat</c><00:06:04.071><c> de</c><00:06:04.235><c> meeste</c>
+
+00:06:04.562 --> 00:06:04.616 align:start position:0%
+ hun eigen tags. Ik denk dat de meeste
+ 
+
+00:06:04.616 --> 00:06:06.687 align:start position:0%
+ hun eigen tags. Ik denk dat de meeste
+ standaard<00:06:05.161><c> terugvallen</c><00:06:05.815><c> op</c><00:06:05.979><c> de</c><00:06:06.142><c> OG-tag</c><00:06:06.524><c> als</c>
+
+00:06:06.687 --> 00:06:06.742 align:start position:0%
+ standaard terugvallen op de OG-tag als
+ 
+
+00:06:06.742 --> 00:06:13.842 align:start position:0%
+ standaard terugvallen op de OG-tag als
+ er<00:06:06.905><c> geen</c><00:06:07.178><c> andere</c><00:06:07.559><c> tag</c><00:06:07.777><c> is</c><00:06:07.886><c>.</c><00:06:12.953><c> Nou</c><00:06:13.119><c>,</c><00:06:13.231><c> maar</c><00:06:13.509><c> als</c><00:06:13.731><c> je</c>
+
+00:06:13.842 --> 00:06:13.898 align:start position:0%
+ er geen andere tag is. Nou, maar als je
+ 
+
+00:06:13.898 --> 00:06:16.067 align:start position:0%
+ er geen andere tag is. Nou, maar als je
+ bijvoorbeeld<00:06:14.621><c> wilt</c><00:06:14.899><c> dat</c><00:06:15.122><c> voor</c><00:06:15.400><c> Twitter</c><00:06:15.845><c> jouw</c>
+
+00:06:16.067 --> 00:06:16.123 align:start position:0%
+ bijvoorbeeld wilt dat voor Twitter jouw
+ 
+
+00:06:16.123 --> 00:06:18.292 align:start position:0%
+ bijvoorbeeld wilt dat voor Twitter jouw
+ afbeelding<00:06:16.735><c> de</c><00:06:16.902><c> hele</c><00:06:17.180><c> tweet</c><00:06:17.514><c> vult</c><00:06:17.736><c>,</c><00:06:17.847><c> zoals</c><00:06:18.181><c> op</c>
+
+00:06:18.292 --> 00:06:18.348 align:start position:0%
+ afbeelding de hele tweet vult, zoals op
+ 
+
+00:06:18.348 --> 00:06:20.462 align:start position:0%
+ afbeelding de hele tweet vult, zoals op
+ mijn<00:06:18.626><c> pagina</c><00:06:18.960><c>,</c><00:06:19.071><c> in</c><00:06:19.238><c> plaats</c><00:06:19.627><c> van</c><00:06:19.850><c> slechts</c><00:06:20.295><c> een</c>
+
+00:06:20.462 --> 00:06:20.517 align:start position:0%
+ mijn pagina, in plaats van slechts een
+ 
+
+00:06:20.517 --> 00:06:22.631 align:start position:0%
+ mijn pagina, in plaats van slechts een
+ kleine<00:06:20.907><c> afbeelding</c><00:06:21.519><c> in</c><00:06:21.685><c> de</c><00:06:21.852><c> hoek</c><00:06:22.075><c>,</c><00:06:22.186><c> dan</c><00:06:22.408><c> moet</c>
+
+00:06:22.631 --> 00:06:22.687 align:start position:0%
+ kleine afbeelding in de hoek, dan moet
+ 
+
+00:06:22.687 --> 00:06:24.800 align:start position:0%
+ kleine afbeelding in de hoek, dan moet
+ je<00:06:22.853><c> de</c><00:06:23.020><c> Twitter</c><00:06:23.465><c> card-tag</c><00:06:23.966><c> specificeren</c><00:06:24.689><c> en</c>
+
+00:06:24.800 --> 00:06:24.856 align:start position:0%
+ je de Twitter card-tag specificeren en
+ 
+
+00:06:24.856 --> 00:06:26.246 align:start position:0%
+ je de Twitter card-tag specificeren en
+ aangeven<00:06:25.357><c> dat</c><00:06:25.579><c> het</c><00:06:25.802><c> om</c><00:06:25.968><c> een</c><00:06:26.191><c> '</c>
+
+00:06:26.246 --> 00:06:28.305 align:start position:0%
+ aangeven dat het om een '
+summary_large_image<00:06:27.303><c>'</c><00:06:27.415><c> moet</c><00:06:27.693><c> gaan</c><00:06:27.915><c>,</c><00:06:28.026><c> zoals</c>
+
+00:06:28.305 --> 00:06:28.360 align:start position:0%
+summary_large_image' moet gaan, zoals
+ 
+
+00:06:28.360 --> 00:06:36.295 align:start position:0%
+summary_large_image' moet gaan, zoals
+ ik<00:06:28.527><c> in</c><00:06:28.694><c> mijn</c><00:06:28.972><c> meta-tag</c><00:06:29.473><c> heb</c><00:06:29.695><c> gedaan</c><00:06:30.029><c>.</c><00:06:35.974><c> Dus</c><00:06:36.188><c> om</c>
+
+00:06:36.295 --> 00:06:36.348 align:start position:0%
+ ik in mijn meta-tag heb gedaan. Dus om
+ 
+
+00:06:36.348 --> 00:06:38.116 align:start position:0%
+ ik in mijn meta-tag heb gedaan. Dus om
+ meer<00:06:36.616><c> te</c><00:06:36.777><c> weten</c><00:06:37.098><c> te</c><00:06:37.259><c> komen</c><00:06:37.581><c> over</c><00:06:37.848><c> welke</c>
+
+00:06:38.116 --> 00:06:38.170 align:start position:0%
+ meer te weten te komen over welke
+ 
+
+00:06:38.170 --> 00:06:39.991 align:start position:0%
+ meer te weten te komen over welke
+ meta-tags<00:06:38.705><c> er</c><00:06:38.866><c> beschikbaar</c><00:06:39.509><c> zijn</c><00:06:39.777><c> voor</c>
+
+00:06:39.991 --> 00:06:40.045 align:start position:0%
+ meta-tags er beschikbaar zijn voor
+ 
+
+00:06:40.045 --> 00:06:41.652 align:start position:0%
+ meta-tags er beschikbaar zijn voor
+ Twitter<00:06:40.473><c> enzovoort</c><00:06:40.955><c>,</c><00:06:41.062><c> kun</c><00:06:41.277><c> je</c><00:06:41.437><c> naar</c>
+
+00:06:41.652 --> 00:06:41.705 align:start position:0%
+ Twitter enzovoort, kun je naar
+ 
+
+00:06:41.705 --> 00:06:43.794 align:start position:0%
+ Twitter enzovoort, kun je naar
+ developer.twitter.com<00:06:42.884><c> gaan</c><00:06:43.098><c>;</c><00:06:43.205><c> daar</c><00:06:43.473><c> worden</c>
+
+00:06:43.794 --> 00:06:43.848 align:start position:0%
+ developer.twitter.com gaan; daar worden
+ 
+
+00:06:43.848 --> 00:06:45.884 align:start position:0%
+ developer.twitter.com gaan; daar worden
+ alle<00:06:44.116><c> beschikbare</c><00:06:44.759><c> tags</c><00:06:45.027><c> getoond</c><00:06:45.455><c> en</c><00:06:45.616><c> krijg</c>
+
+00:06:45.884 --> 00:06:45.937 align:start position:0%
+ alle beschikbare tags getoond en krijg
+ 
+
+00:06:45.937 --> 00:06:48.914 align:start position:0%
+ alle beschikbare tags getoond en krijg
+ je<00:06:46.098><c> er</c><00:06:46.259><c> een</c><00:06:46.473><c> korte</c><00:06:46.794><c> uitleg</c><00:06:47.169><c> bij</c><00:06:47.330><c>.</c><00:06:48.441><c> Hetzelfde</c>
+
+00:06:48.914 --> 00:06:48.966 align:start position:0%
+ je er een korte uitleg bij. Hetzelfde
+ 
+
+00:06:48.966 --> 00:06:51.567 align:start position:0%
+ je er een korte uitleg bij. Hetzelfde
+ geldt<00:06:49.282><c> voor</c><00:06:49.545><c> Facebook</c><00:06:50.018><c> en</c><00:06:50.176><c> anderen</c><00:06:50.544><c>.</c><00:06:51.288><c> En</c><00:06:51.455><c> je</c>
+
+00:06:51.567 --> 00:06:51.622 align:start position:0%
+ geldt voor Facebook en anderen. En je
+ 
+
+00:06:51.622 --> 00:06:53.576 align:start position:0%
+ geldt voor Facebook en anderen. En je
+ kunt<00:06:51.902><c> links</c><00:06:52.237><c> vinden</c><00:06:52.627><c> onderaan</c><00:06:53.130><c> het</c><00:06:53.353><c> Open</c>
+
+00:06:53.576 --> 00:06:53.632 align:start position:0%
+ kunt links vinden onderaan het Open
+ 
+
+00:06:53.632 --> 00:06:58.615 align:start position:0%
+ kunt links vinden onderaan het Open
+ Graph-protocol<00:06:54.414><c>.</c><00:06:57.605><c> Ze</c><00:06:57.756><c> hebben</c><00:06:58.110><c> daar</c><00:06:58.363><c> links</c>
+
+00:06:58.615 --> 00:06:58.666 align:start position:0%
+ Graph-protocol. Ze hebben daar links
+ 
+
+00:06:58.666 --> 00:07:00.232 align:start position:0%
+ Graph-protocol. Ze hebben daar links
+ naar<00:06:58.918><c> alle</c><00:06:59.171><c> gerelateerde</c><00:06:59.828><c> bronnen</c><00:07:00.182><c>,</c>
+
+00:07:00.232 --> 00:07:00.283 align:start position:0%
+ naar alle gerelateerde bronnen,
+ 
+
+00:07:00.283 --> 00:07:02.153 align:start position:0%
+ naar alle gerelateerde bronnen,
+ bijvoorbeeld<00:07:00.940><c> voor</c><00:07:01.192><c> Facebook</c><00:07:01.647><c> en</c><00:07:01.799><c> Google</c><00:07:02.102><c>.</c>
+
+00:07:02.153 --> 00:07:05.255 align:start position:0%
+ bijvoorbeeld voor Facebook en Google.
+ 
+
+00:07:05.255 --> 00:07:06.958 align:start position:0%
+ 
+ Het<00:07:05.455><c> kan</c><00:07:05.655><c> dus</c><00:07:05.856><c> nuttig</c><00:07:06.206><c> zijn</c><00:07:06.457><c> om</c><00:07:06.607><c> eens</c><00:07:06.858><c> te</c>
+
+00:07:06.958 --> 00:07:07.008 align:start position:0%
+ Het kan dus nuttig zijn om eens te
+ 
+
+00:07:07.008 --> 00:07:08.811 align:start position:0%
+ Het kan dus nuttig zijn om eens te
+ kijken<00:07:07.359><c> hoe</c><00:07:07.559><c> ze</c><00:07:07.709><c> dat</c><00:07:07.910><c> voor</c><00:07:08.160><c> elk</c><00:07:08.360><c> specifiek</c>
+
+00:07:08.811 --> 00:07:08.861 align:start position:0%
+ kijken hoe ze dat voor elk specifiek
+ 
+
+00:07:08.861 --> 00:07:12.855 align:start position:0%
+ kijken hoe ze dat voor elk specifiek
+ medium<00:07:09.212><c> doen</c><00:07:09.412><c>.</c><00:07:11.526><c> Wanneer</c><00:07:11.951><c> je</c><00:07:12.111><c> deze</c><00:07:12.376><c> meta-tags</c>
+
+00:07:12.855 --> 00:07:12.908 align:start position:0%
+ medium doen. Wanneer je deze meta-tags
+ 
+
+00:07:12.908 --> 00:07:14.663 align:start position:0%
+ medium doen. Wanneer je deze meta-tags
+ eenmaal<00:07:13.334><c> gaat</c><00:07:13.600><c> gebruiken</c><00:07:14.078><c>,</c><00:07:14.185><c> wil</c><00:07:14.397><c> je</c><00:07:14.557><c> ze</c>
+
+00:07:14.663 --> 00:07:14.717 align:start position:0%
+ eenmaal gaat gebruiken, wil je ze
+ 
+
+00:07:14.717 --> 00:07:17.367 align:start position:0%
+ eenmaal gaat gebruiken, wil je ze
+ natuurlijk<00:07:15.302><c> kunnen</c><00:07:15.674><c> debuggen</c><00:07:16.099><c>.</c><00:07:16.826><c> En</c><00:07:17.006><c> dat</c><00:07:17.247><c> is</c>
+
+00:07:17.367 --> 00:07:17.427 align:start position:0%
+ natuurlijk kunnen debuggen. En dat is
+ 
+
+00:07:17.427 --> 00:07:19.577 align:start position:0%
+ natuurlijk kunnen debuggen. En dat is
+ eigenlijk<00:07:18.029><c> vrij</c><00:07:18.330><c> eenvoudig</c><00:07:18.871><c>.</c><00:07:19.240><c> Er</c><00:07:19.384><c> zijn</c>
+
+00:07:19.577 --> 00:07:19.625 align:start position:0%
+ eigenlijk vrij eenvoudig. Er zijn
+ 
+
+00:07:19.625 --> 00:07:21.266 align:start position:0%
+ eigenlijk vrij eenvoudig. Er zijn
+ namelijk<00:07:20.060><c> een</c><00:07:20.253><c> heleboel</c><00:07:20.687><c> tools</c><00:07:20.976><c> die</c><00:07:21.169><c> je</c>
+
+00:07:21.266 --> 00:07:21.314 align:start position:0%
+ namelijk een heleboel tools die je
+ 
+
+00:07:21.314 --> 00:07:23.660 align:start position:0%
+ namelijk een heleboel tools die je
+ daarbij<00:07:21.700><c> helpen</c><00:07:21.989><c>.</c><00:07:22.428><c> Je</c><00:07:22.588><c> kunt</c><00:07:22.856><c> je</c><00:07:23.017><c> URL</c><00:07:23.231><c> invoeren</c>
+
+00:07:23.660 --> 00:07:23.714 align:start position:0%
+ daarbij helpen. Je kunt je URL invoeren
+ 
+
+00:07:23.714 --> 00:07:25.696 align:start position:0%
+ daarbij helpen. Je kunt je URL invoeren
+ en<00:07:23.874><c> ze</c><00:07:24.035><c> tonen</c><00:07:24.357><c> je</c><00:07:24.517><c> het</c><00:07:24.732><c> voorbeeld</c><00:07:25.268><c> dat</c><00:07:25.482><c> voor</c>
+
+00:07:25.696 --> 00:07:25.750 align:start position:0%
+ en ze tonen je het voorbeeld dat voor
+ 
+
+00:07:25.750 --> 00:07:28.656 align:start position:0%
+ en ze tonen je het voorbeeld dat voor
+ jouw<00:07:26.018><c> website</c><00:07:26.447><c> beschikbaar</c><00:07:27.090><c> is</c><00:07:27.197><c>.</c><00:07:28.142><c> Twitter</c><00:07:28.591><c>.</c>
+
+00:07:28.656 --> 00:07:28.966 align:start position:0%
+ jouw website beschikbaar is. Twitter.
+ 
+
+00:07:28.966 --> 00:07:31.976 align:start position:0%
+ jouw website beschikbaar is. Twitter.
+ Twitter<00:07:29.345><c> heeft</c><00:07:29.630><c> er</c><00:07:29.773><c> ook</c><00:07:29.963><c> een</c><00:07:30.105><c>.</c><00:07:31.226><c> Zoals</c><00:07:31.572><c> je</c><00:07:31.745><c> hier</c>
+
+00:07:31.976 --> 00:07:32.034 align:start position:0%
+ Twitter heeft er ook een. Zoals je hier
+ 
+
+00:07:32.034 --> 00:07:33.940 align:start position:0%
+ Twitter heeft er ook een. Zoals je hier
+ kunt<00:07:32.323><c> zien</c><00:07:32.554><c>,</c><00:07:32.669><c> voeren</c><00:07:33.074><c> we</c><00:07:33.247><c> onze</c><00:07:33.536><c> URL</c><00:07:33.767><c> in</c><00:07:33.882><c>,</c>
+
+00:07:33.940 --> 00:07:33.998 align:start position:0%
+ kunt zien, voeren we onze URL in,
+ 
+
+00:07:33.998 --> 00:07:36.250 align:start position:0%
+ kunt zien, voeren we onze URL in,
+ selecteren<00:07:34.633><c> we</c><00:07:34.807><c> '</c><00:07:34.864><c>preview</c><00:07:35.269><c>'</c><00:07:35.326><c>,</c><00:07:35.442><c> en</c><00:07:35.615><c> dan</c><00:07:35.846><c> vertelt</c>
+
+00:07:36.250 --> 00:07:36.308 align:start position:0%
+ selecteren we 'preview', en dan vertelt
+ 
+
+00:07:36.308 --> 00:07:38.156 align:start position:0%
+ selecteren we 'preview', en dan vertelt
+ het<00:07:36.539><c> ons</c><00:07:36.770><c> dat</c><00:07:37.001><c> er</c><00:07:37.175><c> 16</c><00:07:37.348><c> meta-tags</c><00:07:37.925><c> zijn</c>
+
+00:07:38.156 --> 00:07:38.214 align:start position:0%
+ het ons dat er 16 meta-tags zijn
+ 
+
+00:07:38.214 --> 00:07:39.774 align:start position:0%
+ het ons dat er 16 meta-tags zijn
+ gevonden<00:07:38.676><c>,</c><00:07:38.792><c> dat</c><00:07:39.023><c> de</c><00:07:39.196><c> specifieke</c>
+
+00:07:39.774 --> 00:07:39.831 align:start position:0%
+ gevonden, dat de specifieke
+ 
+
+00:07:39.831 --> 00:07:41.795 align:start position:0%
+ gevonden, dat de specifieke
+ Twitter-card<00:07:40.582><c> is</c><00:07:40.756><c> gevonden</c><00:07:41.275><c> en</c><00:07:41.449><c> dat</c><00:07:41.680><c> de</c>
+
+00:07:41.795 --> 00:07:41.853 align:start position:0%
+ Twitter-card is gevonden en dat de
+ 
+
+00:07:41.853 --> 00:07:45.184 align:start position:0%
+ Twitter-card is gevonden en dat de
+ kaart<00:07:42.200><c> succesvol</c><00:07:42.777><c> is</c><00:07:42.950><c> geladen</c><00:07:43.355><c>.</c><00:07:44.685><c> Het</c><00:07:44.866><c> zal</c><00:07:45.048><c> ons</c>
+
+00:07:45.184 --> 00:07:45.229 align:start position:0%
+ kaart succesvol is geladen. Het zal ons
+ 
+
+00:07:45.229 --> 00:07:46.819 align:start position:0%
+ kaart succesvol is geladen. Het zal ons
+ vertellen<00:07:45.684><c> dat</c><00:07:45.865><c> het</c><00:07:46.047><c> de</c><00:07:46.183><c> kaart</c><00:07:46.456><c> niet</c><00:07:46.683><c> kan</c>
+
+00:07:46.819 --> 00:07:46.864 align:start position:0%
+ vertellen dat het de kaart niet kan
+ 
+
+00:07:46.864 --> 00:07:48.499 align:start position:0%
+ vertellen dat het de kaart niet kan
+ weergeven<00:07:47.273><c>,</c><00:07:47.364><c> omdat</c><00:07:47.636><c> ze</c><00:07:47.773><c> daar</c><00:07:48.000><c> om</c><00:07:48.136><c> wat</c><00:07:48.318><c> voor</c>
+
+00:07:48.499 --> 00:07:48.545 align:start position:0%
+ weergeven, omdat ze daar om wat voor
+ 
+
+00:07:48.545 --> 00:07:50.915 align:start position:0%
+ weergeven, omdat ze daar om wat voor
+ reden<00:07:48.817><c> dan</c><00:07:48.999><c> ook</c><00:07:49.180><c> mee</c><00:07:49.362><c> zijn</c><00:07:49.589><c> gestopt</c><00:07:49.907><c>.</c><00:07:50.731><c> Maar</c>
+
+00:07:50.915 --> 00:07:50.962 align:start position:0%
+ reden dan ook mee zijn gestopt. Maar
+ 
+
+00:07:50.962 --> 00:07:52.719 align:start position:0%
+ reden dan ook mee zijn gestopt. Maar
+ het<00:07:51.147><c> is</c><00:07:51.285><c> goed</c><00:07:51.517><c> om</c><00:07:51.655><c> te</c><00:07:51.794><c> weten</c><00:07:52.025><c>:</c><00:07:52.118><c> als</c><00:07:52.303><c> er</c><00:07:52.442><c> fouten</c>
+
+00:07:52.719 --> 00:07:52.765 align:start position:0%
+ het is goed om te weten: als er fouten
+ 
+
+00:07:52.765 --> 00:07:54.199 align:start position:0%
+ het is goed om te weten: als er fouten
+ in<00:07:52.904><c> je</c><00:07:53.043><c> tag</c><00:07:53.228><c> staan</c><00:07:53.459><c>,</c><00:07:53.551><c> zal</c><00:07:53.736><c> het</c><00:07:53.921><c> je</c><00:07:54.060><c> dat</c>
+
+00:07:54.199 --> 00:07:54.245 align:start position:0%
+ in je tag staan, zal het je dat
+ 
+
+00:07:54.245 --> 00:07:57.393 align:start position:0%
+ in je tag staan, zal het je dat
+ vertellen<00:07:54.661><c>.</c><00:07:56.318><c> Hetzelfde</c><00:07:56.855><c> geldt</c><00:07:57.178><c> voor</c>
+
+00:07:57.393 --> 00:07:57.446 align:start position:0%
+ vertellen. Hetzelfde geldt voor
+ 
+
+00:07:57.446 --> 00:07:59.274 align:start position:0%
+ vertellen. Hetzelfde geldt voor
+ Facebook<00:07:57.876><c>,</c><00:07:57.984><c> zij</c><00:07:58.199><c> hebben</c><00:07:58.575><c> ook</c><00:07:58.790><c> hun</c><00:07:59.005><c> eigen</c>
+
+00:07:59.274 --> 00:07:59.328 align:start position:0%
+ Facebook, zij hebben ook hun eigen
+ 
+
+00:07:59.328 --> 00:08:01.618 align:start position:0%
+ Facebook, zij hebben ook hun eigen
+ debugger-tool<00:08:00.027><c>.</c><00:08:00.759><c> Ik</c><00:08:00.910><c> zal</c><00:08:01.112><c> deze</c><00:08:01.365><c> in</c><00:08:01.517><c> de</c>
+
+00:08:01.618 --> 00:08:01.668 align:start position:0%
+ debugger-tool. Ik zal deze in de
+ 
+
+00:08:01.668 --> 00:08:04.148 align:start position:0%
+ debugger-tool. Ik zal deze in de
+ beschrijving<00:08:02.326><c> linken</c><00:08:02.629><c>.</c><00:08:03.426><c> Dus</c><00:08:03.570><c>,</c><00:08:03.666><c> wanneer</c><00:08:04.052><c> ik</c>
+
+00:08:04.148 --> 00:08:04.196 align:start position:0%
+ beschrijving linken. Dus, wanneer ik
+ 
+
+00:08:04.196 --> 00:08:06.075 align:start position:0%
+ beschrijving linken. Dus, wanneer ik
+ bijvoorbeeld<00:08:04.822><c> wil</c><00:08:05.015><c> proberen</c><00:08:05.449><c> hoe</c><00:08:05.641><c> het</c><00:08:05.834><c> er</c><00:08:05.978><c> op</c>
+
+00:08:06.075 --> 00:08:06.123 align:start position:0%
+ bijvoorbeeld wil proberen hoe het er op
+ 
+
+00:08:06.123 --> 00:08:07.761 align:start position:0%
+ bijvoorbeeld wil proberen hoe het er op
+ Facebook<00:08:06.556><c> uitziet</c><00:08:06.894><c>,</c><00:08:06.990><c> kan</c><00:08:07.183><c> ik</c><00:08:07.327><c> naar</c><00:08:07.568><c> de</c><00:08:07.712><c> '</c>
+
+00:08:07.761 --> 00:08:09.786 align:start position:0%
+ Facebook uitziet, kan ik naar de '
+sharing<00:08:08.146><c> debugger</c><00:08:08.531><c>'</c><00:08:08.628><c> gaan</c><00:08:08.820><c>.</c><00:08:08.969><c> Ik</c><00:08:09.173><c> voer</c><00:08:09.514><c> mijn</c>
+
+00:08:09.786 --> 00:08:09.854 align:start position:0%
+sharing debugger' gaan. Ik voer mijn
+ 
+
+00:08:09.854 --> 00:08:13.801 align:start position:0%
+sharing debugger' gaan. Ik voer mijn
+ URL<00:08:10.127><c> in</c><00:08:10.263><c>.</c><00:08:12.158><c> Ik</c><00:08:12.317><c> druk</c><00:08:12.582><c> op</c><00:08:12.741><c> debug</c><00:08:13.006><c>,</c><00:08:13.112><c> het</c><00:08:13.324><c> duurt</c><00:08:13.642><c> een</c>
+
+00:08:13.801 --> 00:08:13.854 align:start position:0%
+ URL in. Ik druk op debug, het duurt een
+ 
+
+00:08:13.854 --> 00:08:15.550 align:start position:0%
+ URL in. Ik druk op debug, het duurt een
+ paar<00:08:14.119><c> seconden</c><00:08:14.596><c> en</c><00:08:14.755><c> dan</c><00:08:14.967><c> zie</c><00:08:15.179><c> ik</c><00:08:15.338><c> alle</c>
+
+00:08:15.550 --> 00:08:15.603 align:start position:0%
+ paar seconden en dan zie ik alle
+ 
+
+00:08:15.603 --> 00:08:19.157 align:start position:0%
+ paar seconden en dan zie ik alle
+ gegevens<00:08:16.027><c>.</c><00:08:17.626><c> Je</c><00:08:17.802><c> kunt</c><00:08:18.097><c> hier</c><00:08:18.391><c> zien</c><00:08:18.686><c> dat</c><00:08:18.922><c> mijn</c>
+
+00:08:19.157 --> 00:08:19.216 align:start position:0%
+ gegevens. Je kunt hier zien dat mijn
+ 
+
+00:08:19.216 --> 00:08:21.514 align:start position:0%
+ gegevens. Je kunt hier zien dat mijn
+ website<00:08:19.687><c> 51</c><00:08:19.864><c> minuten</c><00:08:20.335><c> geleden</c><00:08:20.807><c> is</c><00:08:20.983><c> gescraped</c>
+
+00:08:21.514 --> 00:08:27.039 align:start position:0%
+ website 51 minuten geleden is gescraped
+.<00:08:21.797><c> Je</c><00:08:21.983><c> kunt</c><00:08:22.293><c> mijn</c><00:08:22.603><c> URL</c><00:08:22.851><c> zien</c><00:08:23.099><c>.</c><00:08:26.531><c> We</c><00:08:26.669><c> zien</c><00:08:26.900><c> een</c>
+
+00:08:27.039 --> 00:08:27.085 align:start position:0%
+. Je kunt mijn URL zien. We zien een
+ 
+
+00:08:27.085 --> 00:08:28.795 align:start position:0%
+. Je kunt mijn URL zien. We zien een
+ paar<00:08:27.316><c> tags</c><00:08:27.547><c> die</c><00:08:27.732><c> zijn</c><00:08:27.963><c> doorverwezen</c><00:08:28.564><c> en</c><00:08:28.702><c> we</c>
+
+00:08:28.795 --> 00:08:28.841 align:start position:0%
+ paar tags die zijn doorverwezen en we
+ 
+
+00:08:28.841 --> 00:08:30.366 align:start position:0%
+ paar tags die zijn doorverwezen en we
+ kunnen<00:08:29.164><c> zien</c><00:08:29.396><c> hoe</c><00:08:29.580><c> het</c><00:08:29.765><c> eruitziet</c><00:08:30.227><c> als</c>
+
+00:08:30.366 --> 00:08:30.412 align:start position:0%
+ kunnen zien hoe het eruitziet als
+ 
+
+00:08:30.412 --> 00:08:32.076 align:start position:0%
+ kunnen zien hoe het eruitziet als
+ iemand<00:08:30.736><c> een</c><00:08:30.920><c> link</c><00:08:31.152><c> naar</c><00:08:31.383><c> mijn</c><00:08:31.614><c> website</c><00:08:31.983><c> op</c>
+
+00:08:32.076 --> 00:08:32.122 align:start position:0%
+ iemand een link naar mijn website op
+ 
+
+00:08:32.122 --> 00:08:37.540 align:start position:0%
+ iemand een link naar mijn website op
+ Facebook<00:08:32.538><c> plaatst</c><00:08:32.861><c>.</c><00:08:35.955><c> Zo</c><00:08:36.143><c> ziet</c><00:08:36.456><c> het</c><00:08:36.707><c> eruit</c><00:08:37.021><c>.</c><00:08:37.438><c> En</c>
+
+00:08:37.540 --> 00:08:37.591 align:start position:0%
+ Facebook plaatst. Zo ziet het eruit. En
+ 
+
+00:08:37.591 --> 00:08:39.429 align:start position:0%
+ Facebook plaatst. Zo ziet het eruit. En
+ we<00:08:37.744><c> kunnen</c><00:08:38.101><c> ook</c><00:08:38.305><c> de</c><00:08:38.459><c> gebruikte</c><00:08:38.969><c> meta-tags</c>
+
+00:08:39.429 --> 00:08:39.480 align:start position:0%
+ we kunnen ook de gebruikte meta-tags
+ 
+
+00:08:39.480 --> 00:08:45.109 align:start position:0%
+ we kunnen ook de gebruikte meta-tags
+ zien<00:08:39.735><c> en</c><00:08:39.888><c> hoe</c><00:08:40.093><c> ze</c><00:08:40.246><c> zijn</c><00:08:40.501><c> gevonden</c><00:08:40.909><c>.</c><00:08:44.617><c> Meta-tags</c>
+
+00:08:45.109 --> 00:08:45.163 align:start position:0%
+ zien en hoe ze zijn gevonden. Meta-tags
+ 
+
+00:08:45.163 --> 00:08:47.132 align:start position:0%
+ zien en hoe ze zijn gevonden. Meta-tags
+ zijn<00:08:45.437><c> dus</c><00:08:45.655><c> erg</c><00:08:45.874><c> makkelijk</c><00:08:46.421><c> te</c><00:08:46.585><c> gebruiken</c><00:08:47.077><c>,</c>
+
+00:08:47.132 --> 00:08:47.186 align:start position:0%
+ zijn dus erg makkelijk te gebruiken,
+ 
+
+00:08:47.186 --> 00:08:49.209 align:start position:0%
+ zijn dus erg makkelijk te gebruiken,
+ maar<00:08:47.460><c> ze</c><00:08:47.624><c> voegen</c><00:08:48.007><c> veel</c><00:08:48.280><c> waarde</c><00:08:48.663><c> toe</c><00:08:48.881><c> aan</c><00:08:49.100><c> je</c>
+
+00:08:49.209 --> 00:08:49.264 align:start position:0%
+ maar ze voegen veel waarde toe aan je
+ 
+
+00:08:49.264 --> 00:08:52.079 align:start position:0%
+ maar ze voegen veel waarde toe aan je
+ website<00:08:49.647><c>.</c><00:08:50.702><c> Wanneer</c><00:08:51.095><c> iemand</c><00:08:51.440><c> een</c><00:08:51.636><c> link</c><00:08:51.882><c> naar</c>
+
+00:08:52.079 --> 00:08:52.129 align:start position:0%
+ website. Wanneer iemand een link naar
+ 
+
+00:08:52.129 --> 00:08:53.949 align:start position:0%
+ website. Wanneer iemand een link naar
+ je<00:08:52.276><c> website</c><00:08:52.670><c> deelt</c><00:08:52.916><c>,</c><00:08:53.014><c> zal</c><00:08:53.211><c> het</c><00:08:53.408><c> er</c><00:08:53.556><c> een</c><00:08:53.752><c> stuk</c>
+
+00:08:53.949 --> 00:08:53.998 align:start position:0%
+ je website deelt, zal het er een stuk
+ 
+
+00:08:53.998 --> 00:08:57.023 align:start position:0%
+ je website deelt, zal het er een stuk
+ mooier<00:08:54.343><c> uitzien</c><00:08:54.687><c>.</c><00:08:55.950><c> Dus</c><00:08:56.154><c> als</c><00:08:56.359><c> je</c><00:08:56.512><c> Open</c><00:08:56.768><c> Graph</c>
+
+00:08:57.023 --> 00:08:57.074 align:start position:0%
+ mooier uitzien. Dus als je Open Graph
+ 
+
+00:08:57.074 --> 00:08:59.068 align:start position:0%
+ mooier uitzien. Dus als je Open Graph
+ nog<00:08:57.279><c> niet</c><00:08:57.534><c> hebt</c><00:08:57.790><c> gebruikt</c><00:08:58.199><c>,</c><00:08:58.301><c> dan</c><00:08:58.506><c> moet</c><00:08:58.761><c> je</c><00:08:58.915><c> het</c>
+
+00:08:59.068 --> 00:08:59.119 align:start position:0%
+ nog niet hebt gebruikt, dan moet je het
+ 
+
+00:08:59.119 --> 00:09:02.343 align:start position:0%
+ nog niet hebt gebruikt, dan moet je het
+ echt<00:08:59.375><c> direct</c><00:08:59.733><c> implementeren</c><00:09:00.397><c>.</c><00:09:01.854><c> Ik</c><00:09:02.000><c> raad</c><00:09:02.245><c> je</c>
+
+00:09:02.343 --> 00:09:02.392 align:start position:0%
+ echt direct implementeren. Ik raad je
+ 
+
+00:09:02.392 --> 00:09:03.909 align:start position:0%
+ echt direct implementeren. Ik raad je
+ aan<00:09:02.588><c> om</c><00:09:02.734><c> de</c><00:09:02.881><c> Open</c><00:09:03.126><c> Graph</c><00:09:03.419><c> website</c><00:09:03.811><c> te</c>
+
+00:09:03.909 --> 00:09:03.958 align:start position:0%
+ aan om de Open Graph website te
+ 
+
+00:09:03.958 --> 00:09:05.719 align:start position:0%
+ aan om de Open Graph website te
+ bezoeken<00:09:04.398><c> om</c><00:09:04.545><c> te</c><00:09:04.692><c> lezen</c><00:09:04.985><c> welke</c><00:09:05.279><c> opties</c><00:09:05.621><c> er</c>
+
+00:09:05.719 --> 00:09:05.768 align:start position:0%
+ bezoeken om te lezen welke opties er
+ 
+
+00:09:05.768 --> 00:09:07.530 align:start position:0%
+ bezoeken om te lezen welke opties er
+ zijn<00:09:06.013><c> en</c><00:09:06.160><c> om</c><00:09:06.307><c> te</c><00:09:06.453><c> zien</c><00:09:06.698><c> wat</c><00:09:06.894><c> je</c><00:09:07.041><c> ermee</c><00:09:07.334><c> kunt</c>
+
+00:09:07.530 --> 00:09:07.579 align:start position:0%
+ zijn en om te zien wat je ermee kunt
+ 
+
+00:09:07.579 --> 00:09:09.879 align:start position:0%
+ zijn en om te zien wat je ermee kunt
+ doen<00:09:07.775><c>.</c><00:09:08.334><c> We</c><00:09:08.488><c> hebben</c><00:09:08.849><c> hier</c><00:09:09.106><c> alleen</c><00:09:09.467><c> de</c><00:09:09.621><c> meest</c>
+
+00:09:09.879 --> 00:09:09.931 align:start position:0%
+ doen. We hebben hier alleen de meest
+ 
+
+00:09:09.931 --> 00:09:12.144 align:start position:0%
+ doen. We hebben hier alleen de meest
+ elementaire<00:09:10.549><c> zaken</c><00:09:10.858><c> laten</c><00:09:11.167><c> zien</c><00:09:11.373><c>.</c><00:09:11.807><c> Je</c><00:09:11.951><c> kunt</c>
+
+00:09:12.144 --> 00:09:12.192 align:start position:0%
+ elementaire zaken laten zien. Je kunt
+ 
+
+00:09:12.192 --> 00:09:13.687 align:start position:0%
+ elementaire zaken laten zien. Je kunt
+ bijvoorbeeld<00:09:12.819><c> een</c><00:09:13.012><c> voorbeeldvideo</c>
+
+00:09:13.687 --> 00:09:13.735 align:start position:0%
+ bijvoorbeeld een voorbeeldvideo
+ 
+
+00:09:13.735 --> 00:09:15.797 align:start position:0%
+ bijvoorbeeld een voorbeeldvideo
+ toevoegen<00:09:14.169><c>.</c><00:09:14.466><c> Ik</c><00:09:14.619><c> ben</c><00:09:14.824><c> zelf</c><00:09:15.080><c> in</c><00:09:15.234><c> ieder</c><00:09:15.541><c> geval</c>
+
+00:09:15.797 --> 00:09:15.849 align:start position:0%
+ toevoegen. Ik ben zelf in ieder geval
+ 
+
+00:09:15.849 --> 00:09:19.269 align:start position:0%
+ toevoegen. Ik ben zelf in ieder geval
+ geen<00:09:16.105><c> front-end</c><00:09:16.617><c> developer</c><00:09:17.129><c> van</c><00:09:17.334><c> beroep</c><00:09:17.641><c>.</c><00:09:19.176><c> Ik</c>
+
+00:09:19.269 --> 00:09:19.316 align:start position:0%
+ geen front-end developer van beroep. Ik
+ 
+
+00:09:19.316 --> 00:09:21.053 align:start position:0%
+ geen front-end developer van beroep. Ik
+ ben<00:09:19.504><c> nieuw</c><00:09:19.786><c> in</c><00:09:19.927><c> de</c><00:09:20.067><c> hele</c><00:09:20.302><c> front-end</c><00:09:20.772><c> wereld</c>
+
+00:09:21.053 --> 00:09:21.100 align:start position:0%
+ ben nieuw in de hele front-end wereld
+ 
+
+00:09:21.100 --> 00:09:22.603 align:start position:0%
+ ben nieuw in de hele front-end wereld
+ en<00:09:21.241><c> ik</c><00:09:21.382><c> was</c><00:09:21.570><c> echt</c><00:09:21.805><c> verbaasd</c><00:09:22.227><c> over</c><00:09:22.462><c> hoe</c>
+
+00:09:22.603 --> 00:09:22.650 align:start position:0%
+ en ik was echt verbaasd over hoe
+ 
+
+00:09:22.650 --> 00:09:24.434 align:start position:0%
+ en ik was echt verbaasd over hoe
+ makkelijk<00:09:23.119><c> dit</c><00:09:23.307><c> te</c><00:09:23.448><c> implementeren</c><00:09:24.105><c> was</c><00:09:24.246><c>;</c><00:09:24.340><c> ik</c>
+
+00:09:24.434 --> 00:09:24.480 align:start position:0%
+ makkelijk dit te implementeren was; ik
+ 
+
+00:09:24.480 --> 00:09:26.264 align:start position:0%
+ makkelijk dit te implementeren was; ik
+ wist<00:09:24.715><c> voor</c><00:09:24.950><c> deze</c><00:09:25.185><c> rebuild</c><00:09:25.560><c> eigenlijk</c><00:09:26.030><c> niets</c>
+
+00:09:26.264 --> 00:09:26.311 align:start position:0%
+ wist voor deze rebuild eigenlijk niets
+ 
+
+00:09:26.311 --> 00:09:29.441 align:start position:0%
+ wist voor deze rebuild eigenlijk niets
+ over<00:09:26.546><c> Open</c><00:09:26.781><c> Graph</c><00:09:27.016><c>.</c><00:09:28.128><c> Het</c><00:09:28.366><c> is</c><00:09:28.545><c> een</c><00:09:28.784><c> korte</c><00:09:29.143><c> video</c>
+
+00:09:29.441 --> 00:09:29.501 align:start position:0%
+ over Open Graph. Het is een korte video
+ 
+
+00:09:29.501 --> 00:09:31.262 align:start position:0%
+ over Open Graph. Het is een korte video
+ vandaag<00:09:29.919><c>.</c><00:09:30.079><c> Ik</c><00:09:30.221><c> hoop</c><00:09:30.457><c> dat</c><00:09:30.647><c> je</c><00:09:30.789><c> ervan</c><00:09:31.073><c> hebt</c>
+
+00:09:31.262 --> 00:09:31.310 align:start position:0%
+ vandaag. Ik hoop dat je ervan hebt
+ 
+
+00:09:31.310 --> 00:09:33.229 align:start position:0%
+ vandaag. Ik hoop dat je ervan hebt
+ genoten<00:09:31.641><c>.</c><00:09:31.789><c> Voel</c><00:09:32.029><c> je</c><00:09:32.173><c> vrij</c><00:09:32.413><c> om</c><00:09:32.557><c> contact</c><00:09:32.941><c> met</c><00:09:33.133><c> me</c>
+
+00:09:33.229 --> 00:09:33.277 align:start position:0%
+ genoten. Voel je vrij om contact met me
+ 
+
+00:09:33.277 --> 00:09:35.054 align:start position:0%
+ genoten. Voel je vrij om contact met me
+ op<00:09:33.421><c> te</c><00:09:33.565><c> nemen</c><00:09:33.853><c> via</c><00:09:34.045><c> mijn</c><00:09:34.286><c> sociale</c><00:09:34.670><c> media</c><00:09:34.958><c> of</c>
+
+00:09:35.054 --> 00:09:35.102 align:start position:0%
+ op te nemen via mijn sociale media of
+ 
+
+00:09:35.102 --> 00:09:36.952 align:start position:0%
+ op te nemen via mijn sociale media of
+ laat<00:09:35.342><c> hier</c><00:09:35.582><c> een</c><00:09:35.774><c> reactie</c><00:09:36.158><c> achter</c><00:09:36.446><c>.</c><00:09:36.606><c> Laat</c><00:09:36.822><c> het</c>
+
+00:09:36.952 --> 00:09:36.995 align:start position:0%
+ laat hier een reactie achter. Laat het
+ 
+
+00:09:36.995 --> 00:09:38.638 align:start position:0%
+ laat hier een reactie achter. Laat het
+ me<00:09:37.125><c> weten</c><00:09:37.384><c> als</c><00:09:37.557><c> er</c><00:09:37.687><c> iets</c><00:09:37.903><c> is</c><00:09:38.033><c> waar</c><00:09:38.249><c> ik</c><00:09:38.379><c> je</c><00:09:38.509><c> bij</c>
+
+00:09:38.638 --> 00:09:38.682 align:start position:0%
+ me weten als er iets is waar ik je bij
+ 
+
+00:09:38.682 --> 00:09:40.563 align:start position:0%
+ me weten als er iets is waar ik je bij
+ kan<00:09:38.855><c> helpen</c><00:09:39.114><c>.</c><00:09:39.258><c> En</c><00:09:39.414><c> als</c><00:09:39.623><c> je</c><00:09:39.780><c> deze</c><00:09:40.041><c> video</c><00:09:40.354><c> leuk</c>
+
+00:09:40.563 --> 00:09:40.615 align:start position:0%
+ kan helpen. En als je deze video leuk
+ 
+
+00:09:40.615 --> 00:09:42.286 align:start position:0%
+ kan helpen. En als je deze video leuk
+ vindt<00:09:40.876><c>,</c><00:09:40.981><c> kun</c><00:09:41.189><c> je</c><00:09:41.346><c> een</c><00:09:41.555><c> like</c><00:09:41.816><c> geven</c><00:09:42.077><c>,</c><00:09:42.181><c> je</c>
+
+00:09:42.286 --> 00:09:42.338 align:start position:0%
+ vindt, kun je een like geven, je
+ 
+
+00:09:42.338 --> 00:09:44.374 align:start position:0%
+ vindt, kun je een like geven, je
+ abonneren<00:09:42.860><c> en</c><00:09:43.017><c> gerust</c><00:09:43.382><c> mijn</c><00:09:43.643><c> andere</c><00:09:44.009><c> video's</c>
+
+00:09:44.374 --> 00:09:44.427 align:start position:0%
+ abonneren en gerust mijn andere video's
+ 
+
+00:09:44.427 --> 00:09:45.897 align:start position:0%
+ abonneren en gerust mijn andere video's
+ bekijken<00:09:44.844><c>.</c>
+

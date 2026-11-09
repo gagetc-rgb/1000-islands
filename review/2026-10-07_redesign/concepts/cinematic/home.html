@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home · Cinematic chapters · 1000 Islands Travel</title>
+<script>if (/[?&]labels=1/.test(location.search)) document.documentElement.classList.add('show-labels');</script>
+<link rel="stylesheet" href="cinematic.css?v=2">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="home.html"><b>1000 Islands Travel</b><small>Remote Indonesia</small></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/wireframes/raja-ampat.html">Raja Ampat</a>
+      <a href="/wireframes/north-sulawesi.html">North Sulawesi</a>
+      <a href="/wireframes/yachts.html">Yacht charters</a>
+      <a href="/wireframes/stories.html">Guest stories</a>
+      <a href="/wireframes/about.html">About</a>
+      <a class="secondary" href="/wireframes/advisors.html">Travel agents</a>
+      <a class="btn primary" href="/wireframes/plan.html">Plan your trip</a>
+    </nav>
+    <details class="menu">
+      <summary class="burger" aria-label="Menu"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg></summary>
+      <nav class="menu-panel" aria-label="Main">
+        <a href="/wireframes/raja-ampat.html">Raja Ampat</a>
+        <a href="/wireframes/north-sulawesi.html">North Sulawesi</a>
+        <a href="/wireframes/yachts.html">Yacht charters</a>
+        <a href="/wireframes/stories.html">Guest stories</a>
+        <a href="/wireframes/about.html">About</a>
+        <a href="/wireframes/advisors.html">Travel agents</a>
+        <a class="btn primary" href="/wireframes/plan.html">Plan your trip</a>
+        <a class="btn ghost" href="#">WhatsApp</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main>
+
+<!-- Scene 1. Title card: the whole first screen, nothing of the next block shows. -->
+<section class="hero" aria-labelledby="hero-title">
+  <span class="label">01 · Hero + region index</span>
+  <div class="shot shot-hero" aria-hidden="true"></div>
+  <p class="cap"><span class="cap-d">Hero video · split-level, reef below the waterline, islands above · 16:9 · 3840×2160 · 15 s loop, muted</span><span class="cap-m">Phone crop · 9:16 · 1080×1920 · waterline at 40% height</span></p>
+  <button class="pause" type="button" aria-label="Pause video"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M8 5v14M16 5v14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+  <div class="wrap hero-body">
+    <div class="hero-copy">
+      <h1 id="hero-title">Remote Indonesia.<br>Off the map.</h1>
+      <p class="hero-lead">Private trips to Raja Ampat and North Sulawesi</p>
+      <div class="btns"><a class="btn light" href="/wireframes/plan.html">Plan your trip</a></div>
+    </div>
+    <nav class="index" aria-label="Destinations">
+      <a href="/wireframes/raja-ampat.html"><b>Raja Ampat</b><span class="where">Central · Misool · + Triton Bay</span><span class="from">from $X,XXX pp</span></a>
+      <a href="/wireframes/north-sulawesi.html"><b>North Sulawesi</b><span class="where">Bunaken · Sangihe &amp; Siau · + Halmahera &amp; Widi</span><span class="from">from $X,XXX pp</span></a>
+      <a href="/wireframes/yachts.html"><b>Yacht charters</b><span class="where">Phinisi · Whole boat</span><span class="from">from $X,XXX per day</span></a>
+    </nav>
+  </div>
+  <a class="cue" href="#raja-ampat"><span>Scroll</span><i aria-hidden="true"></i></a>
+</section>
+
+<!-- Scenes 2–3. One destination per screen, same layout so the two compare at a glance. -->
+<section class="chapter ch-ra" id="raja-ampat" aria-labelledby="ra-title" data-chapter>
+  <span class="label">02 · Raja Ampat</span>
+  <div class="shot shot-ra" aria-hidden="true"></div>
+  <p class="cap"><span class="cap-d">Raja Ampat · karst islands and lagoon from above, drone · 16:9 · 3840×2160 · still</span><span class="cap-m">Phone crop · 9:16 · 1080×1920 · islands in the top half</span></p>
+  <div class="wrap chapter-body">
+    <h2 id="ra-title">Raja Ampat</h2>
+    <div class="lines pitch" aria-hidden="true"><i></i></div>
+    <div class="credits">
+      <span class="where">Central · Misool · + Triton Bay</span>
+      <span class="from">from $X,XXX pp</span>
+      <a class="go" href="/wireframes/raja-ampat.html">Explore Raja Ampat</a>
+    </div>
+  </div>
+</section>
+
+<section class="chapter ch-ns" id="north-sulawesi" aria-labelledby="ns-title" data-chapter>
+  <span class="label">03 · North Sulawesi</span>
+  <div class="shot shot-ns" aria-hidden="true"></div>
+  <p class="cap"><span class="cap-d">North Sulawesi · volcanic island over open sea at dusk · 16:9 · 3840×2160 · still</span><span class="cap-m">Phone crop · 9:16 · 1080×1920 · volcano in the top half</span></p>
+  <div class="wrap chapter-body">
+    <h2 id="ns-title">North Sulawesi</h2>
+    <div class="lines pitch" aria-hidden="true"><i></i></div>
+    <div class="credits">
+      <span class="where">Bunaken · Sangihe &amp; Siau · + Halmahera &amp; Widi</span>
+      <span class="from">from $X,XXX pp</span>
+      <a class="go" href="/wireframes/north-sulawesi.html">Explore North Sulawesi</a>
+    </div>
+  </div>
+</section>
+
+<!-- Scene 4. A different product, a different format: a letterboxed panorama on black. -->
+<section class="yacht" id="yachts" aria-labelledby="yacht-title" data-chapter>
+  <span class="label">04 · Yacht charters</span>
+  <div class="wrap yacht-head">
+    <h2 id="yacht-title">Yacht charters</h2>
+    <div class="lines pitch" aria-hidden="true"><i></i><i></i></div>
+  </div>
+  <div class="band">
+    <div class="shot shot-yacht" aria-hidden="true"></div>
+    <p class="cap"><span class="cap-d">Yacht · phinisi under sail, wide and low · 3:1 panorama · 3840×1280 · still</span><span class="cap-m">Phone crop · 4:3 · 2000×1500 · boat centred</span></p>
+  </div>
+  <div class="wrap">
+    <div class="credits">
+      <span class="where">Phinisi · Whole boat</span>
+      <span class="from">from $X,XXX per day</span>
+      <a class="go" href="/wireframes/yachts.html">See the yachts</a>
+    </div>
+  </div>
+</section>
+
+<!-- Calm sections: white, generous, type-led. -->
+<section class="calm how" aria-labelledby="how-title">
+  <span class="label">05 · Remote, made easy</span>
+  <div class="wrap">
+    <div class="how-head">
+      <h2 id="how-title">Remote, made easy</h2>
+      <div class="lines lead" aria-hidden="true"><i></i><i></i></div>
+    </div>
+    <ol class="steps">
+      <li><h3>Tell us</h3><div class="lines" aria-hidden="true"><i></i><i></i></div></li>
+      <li><h3>We design it</h3><div class="lines" aria-hidden="true"><i></i><i></i></div></li>
+      <li><h3>We handle everything</h3><div class="lines" aria-hidden="true"><i></i><i></i></div></li>
+      <li><h3>You travel</h3><div class="lines" aria-hidden="true"><i></i><i></i></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="calm story" aria-labelledby="story-title">
+  <span class="label">06 · Guest story</span>
+  <div class="wrap story-grid">
+    <figure class="story-shot">
+      <div class="shot shot-story" aria-hidden="true"></div>
+      <figcaption class="cap"><span class="cap-d">Guest story · guests on deck, candid, late light · 4:5 · 2400×3000 · still or muted loop</span><span class="cap-m">Phone · same 4:5 frame · 1080×1350</span></figcaption>
+    </figure>
+    <div class="story-text">
+      <h2 id="story-title">Nine days in Raja Ampat</h2>
+      <p class="meta">Guest story · Comfort · X days · month, year</p>
+      <div class="lines quote" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="btns"><a class="btn primary" href="/wireframes/stories.html#story-1">Read the story</a><a class="link" href="/wireframes/stories.html">All guest stories</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="calm reviews" aria-labelledby="reviews-title">
+  <span class="label">07 · Reviews</span>
+  <div class="wrap">
+    <div class="reviews-head">
+      <h2 id="reviews-title">What guests say</h2>
+      <p class="rating">★ 4.9 on Google · 48 reviews · <a class="link" href="#">Read on Google</a></p>
+    </div>
+    <div class="quotes grid scroll">
+      <figure class="quote"><div class="lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div><figcaption><b>Guest name</b><span>Country · Raja Ampat · Month, year</span></figcaption></figure>
+      <figure class="quote"><div class="lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div><figcaption><b>Guest name</b><span>Country · Yacht charters · Month, year</span></figcaption></figure>
+      <figure class="quote"><div class="lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div><figcaption><b>Guest name</b><span>Country · North Sulawesi · Month, year</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="calm trade" aria-labelledby="trade-title">
+  <span class="label">08 · For travel agents</span>
+  <div class="wrap trade-grid">
+    <h2 id="trade-title">For travel agents</h2>
+    <div class="trade-text">
+      <div class="lines lead" aria-hidden="true"><i></i><i></i></div>
+      <div class="btns"><a class="btn primary" href="/wireframes/advisors.html">Trade rates</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- Closing scene: the person who answers. -->
+<section class="final" aria-labelledby="final-title" data-quiet>
+  <span class="label">09 · Start with an idea</span>
+  <div class="wrap final-grid">
+    <div class="final-text">
+      <h2 id="final-title">Start with an idea</h2>
+      <div class="lines lead" aria-hidden="true"><i></i><i></i></div>
+      <div class="btns"><a class="btn light" href="/wireframes/plan.html">Plan your trip</a><a class="btn outline-light" href="#">WhatsApp us</a></div>
+    </div>
+    <figure class="person">
+      <div class="shot shot-person" aria-hidden="true"></div>
+      <figcaption><b>Name, the person who answers you</b><span>Role · replies within 24 hours, 7 days a week</span></figcaption>
+      <p class="cap"><span class="cap-d">Portrait · natural light, looking at camera · 4:5 · 1600×2000</span><span class="cap-m">Portrait · 1:1 crop · 800×800</span></p>
+    </figure>
+  </div>
+</section>
+
+</main>
+
+<!-- Chapter indicator: shows only while the three product chapters are on screen (desktop and tablet). -->
+<nav class="chapters" aria-label="Chapters">
+  <span class="label">Chapter index</span>
+  <a href="#raja-ampat">Raja Ampat</a>
+  <a href="#north-sulawesi">North Sulawesi</a>
+  <a href="#yachts">Yacht charters</a>
+</nav>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div><a class="logo" href="home.html"><b>1000 Islands Travel</b><small>Remote Indonesia</small></a><div class="lines" aria-hidden="true"><i></i><i></i></div></div>
+      <div><h2>Regions</h2><ul><li><a href="/wireframes/raja-ampat.html">Raja Ampat</a></li><li><a href="/wireframes/north-sulawesi.html">North Sulawesi</a></li><li><a href="/wireframes/yachts.html">Yacht charters</a></li></ul></div>
+      <div><h2>Travel</h2><ul><li><a href="/wireframes/stories.html">Guest stories</a></li><li><a href="/wireframes/plan.html">Plan your trip</a></li></ul></div>
+      <div><h2>Company</h2><ul><li><a href="/wireframes/about.html">About</a></li><li><a href="/wireframes/about.html#how">How we travel</a></li><li><a href="/wireframes/about.html#faq">FAQ</a></li><li><a href="/wireframes/advisors.html">Travel agents</a></li></ul></div>
+      <div><h2>Contact</h2><ul><li><a href="#">WhatsApp</a></li><li><a href="#">Email</a></li><li><a href="#">Instagram</a></li></ul></div>
+    </div>
+    <div class="bottom"><span>© 1000 Islands Travel · 1000islands.travel</span><span class="footer-links"><a href="/wireframes/privacy.html">Privacy &amp; cookies</a> · <a href="/wireframes/terms.html">Booking terms</a> · <a href="/wireframes/state-cookie-settings.html">Cookie settings</a></span></div>
+  </div>
+</footer>
+
+<div class="mbar"><a class="btn primary" href="/wireframes/plan.html">Plan your trip</a><a class="btn ghost" href="#">WhatsApp</a></div>
+
+<script src="wf.js" defer></script>
+<script src="cinematic.js" defer></script>
+</body>
+</html>

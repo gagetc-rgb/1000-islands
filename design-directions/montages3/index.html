@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Видео для главного экрана, раунд 3 · 1000 Islands</title>
+<style>
+  :root { --bg: #f4f3ef; --ink: #1d1d1b; --muted: #55534d; --line: #d9d6cd; --card: #fff; --top: #0b6e69; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1400px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: clamp(26px, 4vw, 40px); line-height: 1.1; margin: 0 0 12px; }
+  main > p { margin: 0 0 16px; color: var(--muted); max-width: 72ch; }
+  .bar { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); padding: 10px 0; margin-bottom: 8px; font-weight: 600; }
+  h2 { font-size: 22px; margin: 28px 0 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); gap: 16px; }
+  figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  figure.picked { outline: 3px solid var(--top); }
+  .v { position: relative; aspect-ratio: 16 / 9; background: #000; }
+  video { width: 100%; height: 100%; display: block; object-fit: cover; cursor: zoom-in; }
+  .n { position: absolute; left: 10px; top: 10px; background: rgba(0,0,0,.72); color: #fff; font-weight: 700; padding: 2px 10px; border-radius: 6px; }
+  figcaption { padding: 12px 16px 14px; }
+  figcaption b { display: block; font-size: 17px; }
+  .idea { margin: 4px 0 8px; color: var(--muted); font-size: 15px; }
+  .mine { margin: 4px 0 8px; color: var(--top); font-size: 15px; }
+  ol { margin: 0 0 10px; padding-left: 20px; color: var(--muted); font-size: 14px; }
+  label { display: inline-flex; gap: 8px; align-items: center; cursor: pointer; font-weight: 600; }
+  input { width: 20px; height: 20px; accent-color: var(--top); }
+</style>
+</head>
+<body>
+<main>
+  <h1>12 вычищенных вариантов главного видео</h1>
+  <p>Пиниси здесь нет. Кадры, где дрон тормозит, поворачивает или летит назад, вырезаны по замеру движения, а не на глаз: тот самый кусок после подлёта к скалам, остановка в пролёте мимо пальмы, тряска в пальмах. В каждом варианте 5–6 разных кадров по 4–6 секунд. Отметь лучшие галочкой и пришли номера.</p>
+  <p><a href="../editor/">Собрать свою секвенцию из этих кадров: монтажный стол</a></p>
+  <div class="bar" id="count">Отмечено: 0</div>
+  <div id="list"></div>
+</main>
+<script>
+const RU = {
+  p01: ["Сага Раджа-Ампат с рифом", "Начало, которое тебе понравилось (взлёт над башней, подлёт к скалам, коридор 32), потом веер, черепаха, медуза."],
+  p02: ["Сначала риф, вычищенный", "Вариант 01 без кадра с остановкой: веер, лагуна за пальмой, черепаха, мыс Сулавеси, медуза, скала."],
+  p03: ["Острова и риф по очереди", "Над водой и под водой строго через один."],
+  p04: ["Раджа-Ампат над водой", "Только надводное: взлёт, подлёт к скалам и низко над садом одним пролётом, коридор, отражение, скала."],
+  p05: ["Красное и бирюзовое, второй дубль", "Оранжевые веера и бирюзовая вода по очереди, нос лодки с новым цветокором."],
+  p06: ["Над и под водой парами", "Остров, под ним риф, и так три раза, по 4 секунды."],
+  p07: ["Жизнь рифа", "Только подводный мир: две черепахи, рыбы, медуза, два веера."],
+  p08: ["На лодке к скале", "С носа лодки к скале, под ней, вокруг, и взлёт над башней в конце."],
+  p09: ["Северный Сулавеси и риф", "Побережье, пальмы, мыс (всё по GPS Сулавеси), потом веер и черепаха."],
+  p10: ["Медленный, с растворениями", "Пять кадров по 6 секунд, плавно перетекают."],
+  p11: ["Быстрый, 15 секунд", "Пять кадров по 3 секунды."],
+  p12: ["Пляж и риф", "Блики на кораллах, каноэ, лодка у берега, скала, веер, черепаха."]
+};
+const MINE = {
+  p02: "Мой первый выбор. Самый разнообразный: красный веер, лагуна за пальмой (уже без остановки в конце), черепаха, мыс Сулавеси, медуза и в финале проход под скалой. Три кадра над водой, три под водой, и ни один не повторяет соседний ни цветом, ни движением.",
+  p01: "Начинается так, как тебе понравилось в «Саге»: взлёт над башней, подлёт к скалам, коридор 32. Кусок, где дрон тормозит и летит назад, вырезан. Дальше под воду: веер, черепаха, медуза.",
+  p04: "Если на главном нужно больше суши: только надводное Раджа-Ампат, пять разных кадров (подлёт и сад теперь один непрерывный пролёт, без скачка цвета на стыке). Замер не нашёл ни остановок, ни полёта назад."
+};
+let picked = [];
+try { picked = JSON.parse(localStorage.getItem("top5v3") || "[]"); } catch (e) {}
+const count = () => document.getElementById("count").textContent =
+  `Отмечено: ${picked.length} ${picked.length ? " · " + picked.map(x => x.slice(1)).join(", ") : ""}`;
+fetch("montages.json").then(r => r.json()).then(ms => {
+  const list = document.getElementById("list");
+  const block = (title, items) => {
+    if (!items.length) return;
+    const h = document.createElement("h2"); h.textContent = title; list.append(h);
+    const g = document.createElement("div"); g.className = "grid"; list.append(g);
+    for (const m of items) {
+      const [name, idea] = RU[m.id] || [m.title, ""];
+      const f = document.createElement("figure");
+      if (picked.includes(m.id)) f.classList.add("picked");
+      f.innerHTML = `<div class="v"><video muted loop playsinline preload="none" poster="${m.id}.webp" data-src="${m.id}.mp4"></video>
+        <span class="n">${m.id.slice(1)}</span></div>
+        <figcaption><b>${name} · ${m.secs} с</b><p class="idea">${idea}</p>${MINE[m.id] ? `<p class="mine">${MINE[m.id]}</p>` : ""}
+        <ol>${m.shots.map(s => `<li>${s[1]}</li>`).join("")}</ol>
+        <label><input type="checkbox" ${picked.includes(m.id) ? "checked" : ""}> в топ-5</label></figcaption>`;
+      const v = f.querySelector("video"), c = f.querySelector("input");
+      v.onclick = () => (v.requestFullscreen || v.webkitEnterFullscreen)?.call(v);
+      c.onchange = () => {
+        picked = c.checked ? [...picked, m.id] : picked.filter(x => x !== m.id);
+        f.classList.toggle("picked", c.checked);
+        try { localStorage.setItem("top5v3", JSON.stringify(picked)); } catch (e) {}
+        count();
+      };
+      g.append(f);
+    }
+  };
+  const mine = Object.keys(MINE);
+  block("Мои лучшие, если выбирать мне", mine.map(id => ms.find(m => m.id === id)).filter(Boolean));
+  block(mine.length ? "Остальные" : "Все варианты", ms.filter(m => !MINE[m.id]));
+  count();
+  // Only on-screen clips hold a decoder: a clip that leaves the screen is unloaded
+  // (with every played 1080p clip kept loaded, the lower ones stopped starting, 1 Nov).
+  const playing = new Set();
+  const stop = v => { v.pause(); v.removeAttribute("src"); v.load(); playing.delete(v); };
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    const v = e.target;
+    if (!e.isIntersecting) { if (v.getAttribute("src")) stop(v); return; }
+    if (!v.getAttribute("src")) v.src = v.dataset.src;
+    v.muted = true; playing.add(v); v.play().catch(() => {});
+  }), { threshold: .5 });
+  document.querySelectorAll("video").forEach(v => io.observe(v));
+});
+</script>
+</body>
+</html>

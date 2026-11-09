@@ -1,0 +1,472 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.960 --> 00:00:09.960
+Cookie Banners are possibly one of the most&nbsp;
+noticeable implementations of data protection&nbsp;&nbsp;
+
+00:00:09.960 --> 00:00:16.160
+legislation in a person's everyday life. You&nbsp;
+probably see them as an annoying popup that&nbsp;&nbsp;
+
+00:00:16.160 --> 00:00:22.760
+hinders your ability to get to content quickly,&nbsp;
+However for a company cookies serve as a useful&nbsp;&nbsp;
+
+00:00:22.760 --> 00:00:28.080
+tool to measure engagement with its website and&nbsp;
+for content publishers selling their space to&nbsp;&nbsp;
+
+00:00:28.080 --> 00:00:35.400
+advertisers cookies are a mean of determining how&nbsp;
+much you as a visitor are worth for advertisers.&nbsp;
+
+00:00:35.400 --> 00:00:41.640
+These advertisers engage in programmatic&nbsp;
+real time bidding to win a split second chance&nbsp;&nbsp;
+
+00:00:41.640 --> 00:00:48.320
+to promote a product it thinks you're likely&nbsp;
+to click on. I personally never intentionally&nbsp;&nbsp;
+
+00:00:48.320 --> 00:00:54.600
+click on any ad. If a product is displayed to&nbsp;
+me that I'm remotely curious about I'll make&nbsp;&nbsp;
+
+00:00:54.600 --> 00:00:59.800
+sure to look it up on another device another&nbsp;
+browser not connected to my account and then&nbsp;&nbsp;
+
+00:00:59.800 --> 00:01:06.160
+my cookies are purged after each session.&nbsp;
+Well, that's not perfect but it's a start. But&nbsp;&nbsp;
+
+00:01:06.160 --> 00:01:12.320
+taking the perspective of the publishers selling&nbsp;
+their space to advertisers it's in their interest&nbsp;&nbsp;
+
+00:01:12.320 --> 00:01:19.480
+to have the most visitors accept these cookies.&nbsp;
+That interest however leads to companies nudging&nbsp;&nbsp;
+
+00:01:19.480 --> 00:01:27.400
+website visitors to accept cookies in manners&nbsp;
+that are outright non-compliant. In today's&nbsp;&nbsp;
+
+00:01:27.400 --> 00:01:33.680
+video we'll be looking at cookie banner designs
+and explaining which ones constitute compliance&nbsp;&nbsp;
+
+00:01:33.680 --> 00:01:39.920
+with data protection laws and which have&nbsp;
+been deemed non-compliant due to the use of&nbsp;&nbsp;
+
+00:01:39.920 --> 00:01:47.200
+so-called dark patterns. Whether you've been making&nbsp;
+those decisions in your company or not you might&nbsp;&nbsp;
+
+00:01:47.200 --> 00:01:54.040
+find some interesting takeaways to bring back to&nbsp;
+your team. Perhaps before we start let us recap&nbsp;&nbsp;
+
+00:01:54.040 --> 00:02:01.320
+briefly the governing legal principles that&nbsp;
+are set in plain terms for companies to abide
+
+00:02:01.320 --> 00:02:11.640
+by: The use of cookies is currently regulated in&nbsp;
+the EU by the 2002 ePrivacy directive updated&nbsp;&nbsp;
+
+00:02:11.640 --> 00:02:18.040
+in 2009 specifically its Article 5 on&nbsp;
+the confidentiality of communications. The&nbsp;&nbsp;
+
+00:02:18.040 --> 00:02:23.600
+most recent amendment requires controllers&nbsp;
+to appropriately inform the users about the&nbsp;&nbsp;
+
+00:02:23.600 --> 00:02:30.880
+placement of cookies on their device and to give&nbsp;
+them the ability to opt-in to those cookies that&nbsp;&nbsp;
+
+00:02:30.880 --> 00:02:36.560
+are strictly that are not strictly necessary&nbsp;
+for delivering the page content onto the&nbsp;&nbsp;
+
+00:02:36.560 --> 00:02:43.800
+user's terminal. Additionally the General Data&nbsp;
+Protection Directive which was upgraded to a&nbsp;&nbsp;
+
+00:02:43.800 --> 00:02:52.000
+regulation in 2018 defines what constitutes&nbsp;
+consent. This double obligation for providing&nbsp;&nbsp;
+
+00:02:52.000 --> 00:02:57.880
+transparency and user choice has resulted in&nbsp;
+the creation of cookie banners as a means of&nbsp;&nbsp;
+
+00:02:57.880 --> 00:03:02.640
+delivering that information and allowing&nbsp;
+to opt- in to the setting of non-essential&nbsp;&nbsp;
+
+00:03:02.640 --> 00:03:09.480
+cookies. In North America the approach is that&nbsp;
+of an opt-out while in the EU it's that of an&nbsp;&nbsp;
+
+00:03:09.480 --> 00:03:15.280
+opt-in which is why you see awful banners that&nbsp;
+assume you're okay with the setting of cookies&nbsp;&nbsp;
+
+00:03:15.280 --> 00:03:22.280
+allowing you in the best of cases to refuse them.
+In the EU however these same banners must provide&nbsp;&nbsp;
+
+00:03:22.280 --> 00:03:29.680
+users the ability to opt in which means only&nbsp;
+on the user's choice can the cookies be set
+
+00:03:33.000 --> 00:03:38.600
+Giving users the ability to accept cookies means&nbsp;
+they must have a choice on whether non-necessary&nbsp;&nbsp;
+
+00:03:38.600 --> 00:03:44.480
+cookies are placed on their device. This choice&nbsp;
+is ultimately provided through user consent&nbsp;&nbsp;
+
+00:03:44.480 --> 00:03:50.720
+to be interpreted in the way that the GDPR&nbsp;
+understands consent under Article 4.11 On the&nbsp;&nbsp;
+
+00:03:50.720 --> 00:03:58.520
+front end consent must be freely given that means&nbsp;
+the user must be able to choose to proceed without&nbsp;&nbsp;
+
+00:03:58.520 --> 00:04:06.360
+consenting so cookie walls are illegal. Specific:&nbsp;
+that means the user cannot consent to many&nbsp;&nbsp;
+
+00:04:06.360 --> 00:04:13.600
+purposes under the same consent mechanism or tick&nbsp;
+box so requesting consent for many purposes under&nbsp;&nbsp;
+
+00:04:13.600 --> 00:04:21.920
+one same button is a legal. Informed: that means the&nbsp;
+user must have simple information given to them in&nbsp;&nbsp;
+
+00:04:21.920 --> 00:04:29.920
+order to make a decision to consent so a mere link&nbsp;
+to the privacy or cookie notice is likely illegal&nbsp;&nbsp;
+
+00:04:29.920 --> 00:04:37.680
+Unambiguous: that means that the user must give a&nbsp;
+clear indication of their wish to accept cookies&nbsp;&nbsp;
+
+00:04:37.680 --> 00:04:45.280
+so pre-ticked boxes or the setting of cookies&nbsp;
+before the user makes a choice or regardless of&nbsp;&nbsp;
+
+00:04:45.280 --> 00:04:51.400
+whether they ignore the banner is illegal. This&nbsp;
+is not rocket science yet there's still a lot&nbsp;&nbsp;
+
+00:04:51.400 --> 00:04:57.320
+of cookie walls and pre-ticked boxes out there&nbsp;
+additionally to the front end considerations&nbsp;&nbsp;
+
+00:04:57.320 --> 00:05:03.040
+around cookie compliance, which could be seen as&nbsp;
+the visible tip of the iceberg,data controllers&nbsp;&nbsp;
+
+00:05:03.040 --> 00:05:10.520
+or companies developing or implementing turnkey&nbsp;
+banners must make these cookie settings available.&nbsp;&nbsp;
+
+00:05:10.520 --> 00:05:16.360
+Despite abundant clarification around these&nbsp;
+requirements one of which being the EDPB
+
+00:05:16.360 --> 00:05:23.000
+on consent companies&nbsp;
+still unknowingly or purposefully try to find&nbsp;&nbsp;
+
+00:05:23.000 --> 00:05:29.800
+workarounds and get users to accept cookies. This&nbsp;
+has recently led to the Privacy nonprofit NYOB
+
+00:05:29.800 --> 00:05:36.360
+which placed hundreds of compliance with&nbsp;
+data controllers using non-compliance cookie&nbsp;&nbsp;
+
+00:05:36.360 --> 00:05:42.480
+banners. Despite some response from the controllers&nbsp;
+a cookie banner task force was established by the&nbsp;&nbsp;
+
+00:05:42.480 --> 00:05:49.240
+EDPB to align on what&nbsp;
+constitutes deceptive practices also known as&nbsp;&nbsp;
+
+00:05:49.240 --> 00:05:55.840
+dark patterns and to align on enforcement&nbsp;
+actions. So let's find out more about dark
+
+00:05:55.840 --> 00:06:03.520
+patterns: deceptive design patterns also known&nbsp;
+as dark patterns are defined by the 
+
+00:06:03.520 --> 00:06:08.600
+EDPB as interfaces meant&nbsp;
+to influence users into making decisions&nbsp;&nbsp;
+
+00:06:08.600 --> 00:06:15.000
+that are not in their best interest but in&nbsp;
+that of the controller. Initially this EDPB&nbsp;
+
+00:06:15.000 --> 00:06:20.640
+definition of dark patterns applied to social&nbsp;
+media platforms but it's now used to describe&nbsp;&nbsp;
+
+00:06:20.640 --> 00:06:25.840
+deceptive cookie banner strategies, in fact&nbsp;
+several studies conducted on standard cookie&nbsp;&nbsp;
+
+00:06:25.840 --> 00:06:32.600
+banner templates have provided specific examples&nbsp;
+of these deceptive designs. Some of the patterns&nbsp;&nbsp;
+
+00:06:32.600 --> 00:06:39.920
+identified include the following: Interface&nbsp;
+interference: refers to the manipulation of the&nbsp;&nbsp;
+
+00:06:39.920 --> 00:06:47.400
+interface that would privilege certain actions&nbsp;
+over another by limiting the discoverability&nbsp;&nbsp;
+
+00:06:47.400 --> 00:06:55.160
+of the alternative option, for example  having&nbsp;
+an accept all button that is easily accessible&nbsp;&nbsp;
+
+00:06:55.160 --> 00:07:01.160
+and visible on top of the banner whilst the&nbsp;
+option to reject all can only be found after&nbsp;&nbsp;
+
+00:07:01.160 --> 00:07:09.040
+scrolling past several paragraphs of text which&nbsp;
+is called a false hierarchy. Another very common&nbsp;&nbsp;
+
+00:07:09.040 --> 00:07:14.360
+example of false hierarchy is also designing&nbsp;
+the acceptance button in a way that it stands&nbsp;&nbsp;
+
+00:07:14.360 --> 00:07:20.560
+out perhaps in bright colors while the other&nbsp;
+options blend to the background and are less&nbsp;&nbsp;
+
+00:07:20.560 --> 00:07:27.080
+noticeable at first glance in comparison. This&nbsp;
+type of design brings into question whether the&nbsp;&nbsp;
+
+00:07:27.080 --> 00:07:33.720
+consent was truly freely given considering that&nbsp;
+the data subject were nudged to make a choice and&nbsp;&nbsp;
+
+00:07:33.720 --> 00:07:41.280
+may be completely unaware of the possibility of&nbsp;
+opting out. Sneaking: refers to hiding the relevant&nbsp;&nbsp;
+
+00:07:41.280 --> 00:07:47.920
+information and only providing the ability to&nbsp;
+opt out behind a less visible and unformatted&nbsp;&nbsp;
+
+00:07:47.920 --> 00:07:56.880
+hyperlink as such it challenges the notions of&nbsp;
+freely given and informed consent. Often times&nbsp;&nbsp;
+
+00:07:56.880 --> 00:08:03.920
+this looks like a banner that presents a large&nbsp;
+invisible accept all button and a smaller text&nbsp;&nbsp;
+
+00:08:03.920 --> 00:08:11.480
+reading more options or manage settings&nbsp;
+displayed in a corner or not formatted as&nbsp;&nbsp;
+
+00:08:11.480 --> 00:08:18.800
+a button. Additionally cookie banners continue&nbsp;
+to offer pre-ticked boxes or simply interpret&nbsp;&nbsp;
+
+00:08:18.800 --> 00:08:26.080
+continued scrolling as an indication of consent.&nbsp;
+These two go against the requirement of consent to&nbsp;&nbsp;
+
+00:08:26.080 --> 00:08:32.960
+be an unambiguous indication of the user's wishes,&nbsp;
+what is needed is simply clear and affirmative
+
+00:08:32.960 --> 00:08:41.160
+action. A good starting point is to ensure that&nbsp;
+the cookie banner meets the consent requirements&nbsp;&nbsp;
+
+00:08:41.160 --> 00:08:47.760
+indicated in Article 4.11 and article 7 of&nbsp;
+the GDPR. You need to ask yourself whether you&nbsp;&nbsp;
+
+00:08:47.760 --> 00:08:53.800
+provide users enough accurate information as to&nbsp;
+the placement of cookies on their device. Do you&nbsp;&nbsp;
+
+00:08:53.800 --> 00:08:58.960
+allow the option to choose whether to accept&nbsp;
+each category of cookies in a granular manner?&nbsp;
+
+00:08:58.960 --> 00:09:05.840
+Do users tick the option themselves? Are you&nbsp;
+potentially misleading users to pick one option&nbsp;&nbsp;
+
+00:09:05.840 --> 00:09:12.400
+over the other? Furthermore national supervisory&nbsp;
+authorities provide cookie banner guidelines which&nbsp;&nbsp;
+
+00:09:12.400 --> 00:09:18.760
+are of particular interest for those of you who&nbsp;
+are under the jurisdiction of those countries but&nbsp;&nbsp;
+
+00:09:18.760 --> 00:09:24.760
+for those who aren't still provide a good basis&nbsp;
+for how to ensure that the banner on your website&nbsp;&nbsp;
+
+00:09:24.760 --> 00:09:31.440
+is in compliance with EU standards. Particularly&nbsp;
+useful in that respect is the German good practice&nbsp;&nbsp;
+
+00:09:31.440 --> 00:09:37.560
+Initiative for cookie banner consent management&nbsp;
+design guideline. The guideline includes examples&nbsp;&nbsp;
+
+00:09:37.560 --> 00:09:44.560
+of compliant designs advises on layered banners&nbsp;
+and on managing user consent over time. The link&nbsp;&nbsp;
+
+00:09:44.560 --> 00:09:49.880
+to these guidelines and all sources mentioned&nbsp;
+in this video can be found in the description&nbsp;&nbsp;
+
+00:09:49.880 --> 00:09:56.440
+box below. Before we wrap up this video let me&nbsp;
+draw your attention on three additional topics&nbsp;&nbsp;
+
+00:09:56.440 --> 00:10:03.160
+that are seldom mentioned. Firstly: Article 6
+of the GDPR states that processing shall be&nbsp;&nbsp;
+
+00:10:03.160 --> 00:10:11.680
+lawful only if and to the extent that at least&nbsp;
+one legal base applies. Two options initially&nbsp;&nbsp;
+
+00:10:11.680 --> 00:10:18.120
+stand out: user consent or legitimate interest&nbsp;
+of the publisher. In the last 18 months large&nbsp;&nbsp;
+
+00:10:18.120 --> 00:10:24.560
+publishers most noticeably news networks have&nbsp;
+thus not been presetting cookies offering the&nbsp;&nbsp;
+
+00:10:24.560 --> 00:10:31.840
+option to unambiguously opt into the processing&nbsp;
+of targeted advertising, remarketing, tracking and&nbsp;&nbsp;
+
+00:10:31.840 --> 00:10:40.040
+audience measurement while setting those cookies&nbsp;
+undercover of legitimate interest. This exploits&nbsp;&nbsp;
+
+00:10:40.040 --> 00:10:47.040
+the potential interpretation loophole created&nbsp;
+by the formulation in the law of at least one&nbsp;&nbsp;
+
+00:10:47.040 --> 00:10:53.560
+legal base applies. Newer implementations of&nbsp;
+this workaround add a touch of compliance by&nbsp;&nbsp;
+
+00:10:53.560 --> 00:10:59.840
+allowing the user to dig deeper and object to&nbsp;
+the legitimate interest which is a data subject&nbsp;&nbsp;
+
+00:10:59.840 --> 00:11:07.280
+right provided under Article 21 of the GDPR. The&nbsp;
+aggravating factor however remains that of the&nbsp;&nbsp;
+
+00:11:07.280 --> 00:11:14.000
+overarching deceitful dark pattern of making it&nbsp;
+much harder to be informed about what is actually&nbsp;&nbsp;
+
+00:11:14.000 --> 00:11:21.080
+happening and simultaneously much harder to object&nbsp;
+to the processing which is a blatant violation of&nbsp;&nbsp;
+
+00:11:21.080 --> 00:11:28.520
+the fundamental principles of EU data protection&nbsp;
+which are transparency and control. Secondly:&nbsp;&nbsp;
+
+00:11:28.520 --> 00:11:36.000
+relative to transparency and control almost every&nbsp;
+site you visit provides a banner or some form of&nbsp;&nbsp;
+
+00:11:36.000 --> 00:11:43.280
+informative interface that disappears once you&nbsp;
+formulate your initial choice. Site publishers&nbsp;&nbsp;
+
+00:11:43.280 --> 00:11:48.840
+are quick to argue that they set cookies to&nbsp;
+provide you with the best possible experience&nbsp;&nbsp;
+
+00:11:48.840 --> 00:11:55.680
+but they don't inform you of what that experience&nbsp;
+is, nor provide you with the means of altering your&nbsp;&nbsp;
+
+00:11:55.680 --> 00:12:01.200
+settings past that first choice. So if if you're&nbsp;
+going to provide settings make sure they are&nbsp;&nbsp;
+
+00:12:01.200 --> 00:12:09.160
+accessible at any time. Best practices include&nbsp;
+leaving a cookie icon hovering in one corner&nbsp;&nbsp;
+
+00:12:09.160 --> 00:12:16.000
+of the page. Finally remember that relying on a&nbsp;
+cookie banner solution even those from reputable&nbsp;&nbsp;
+
+00:12:16.000 --> 00:12:23.240
+providers does not make you compliant.The same&nbsp;
+can be said of consent management platforms some&nbsp;&nbsp;
+
+00:12:23.240 --> 00:12:29.160
+of which mislead their implementers into thinking&nbsp;
+their solutions have figured out compliance for&nbsp;&nbsp;
+
+00:12:29.160 --> 00:12:35.760
+them. Ultimately, if you provide a website your&nbsp;
+data controller obligations remain unaffected&nbsp;&nbsp;
+
+00:12:35.760 --> 00:12:43.960
+by the use of third party tools or so-called&nbsp;
+consent and transparency frameworks. If anything&nbsp;&nbsp;
+
+00:12:43.960 --> 00:12:49.320
+your liability is increased by the fact you'll&nbsp;
+be sharing data with hundreds if not thousands&nbsp;&nbsp;
+
+00:12:49.320 --> 00:12:57.360
+of third parties with little to no paperwork to&nbsp;
+show for. And don't forget to keep your RoPA up&nbsp;&nbsp;
+
+00:12:57.360 --> 00:13:02.960
+to date. If you wish to find out more or if you&nbsp;
+have any specific question perhaps you'd like&nbsp;&nbsp;
+
+00:13:02.960 --> 00:13:09.400
+support in reviewing your currently implemented&nbsp;
+banner settings, we at TechGDPR provide ad hoc&nbsp;&nbsp;
+
+00:13:09.400 --> 00:13:14.320
+consulting on European Data Protection. Thank&nbsp;
+you for watching see you in the next video
+

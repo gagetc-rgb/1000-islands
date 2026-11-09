@@ -1,0 +1,2564 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.000
+♪ [music] ♪
+
+00:00:12.949 --> 00:00:14.046
+Hey folks!
+
+00:00:14.046 --> 00:00:18.330
+My name is Addy Osmani and welcome
+to Optimizing for Core Web Vitals.
+
+00:00:18.771 --> 00:00:23.286
+Today we're going to talk about 
+optimizing user experiences on the web,
+
+00:00:23.286 --> 00:00:27.686
+with a case study on 
+French luxury fashion house Chloé.
+
+00:00:27.686 --> 00:00:30.906
+Chloé have recently been taking 
+a fresh look at web performance
+
+00:00:30.906 --> 00:00:33.699
+and I'm really excited 
+to share their learnings with you.
+
+00:00:33.699 --> 00:00:36.140
+Now, you may have seen 
+Google Search announce
+
+00:00:36.140 --> 00:00:38.626
+an upcoming search ranking change recently
+
+00:00:38.626 --> 00:00:41.502
+that incorporates 
+page experience metrics.
+
+00:00:41.502 --> 00:00:43.930
+Now, these metrics 
+include the Core Web Vitals
+
+00:00:43.930 --> 00:00:46.427
+which, together with a few other signals,
+
+00:00:46.427 --> 00:00:48.338
+paint a pretty holistic picture
+
+00:00:48.338 --> 00:00:51.499
+about the quality 
+of user experiences on a page.
+
+00:00:51.499 --> 00:00:53.729
+But, what are the Core Web Vitals
+
+00:00:53.729 --> 00:00:56.144
+and how do you go about
+optimizing for them?
+
+00:00:56.144 --> 00:01:00.434
+Well, Core Web Vitals 
+are a set of metrics related to speed,
+
+00:01:00.434 --> 00:01:03.498
+responsiveness and visual stability.
+
+00:01:03.498 --> 00:01:08.625
+Now these three aspects of user experience
+are measured using three metrics.
+
+00:01:08.625 --> 00:01:12.050
+So first of all, 
+we have Largest Contentful Paint
+
+00:01:12.050 --> 00:01:14.226
+which measures loading performance.
+
+00:01:14.226 --> 00:01:18.231
+Next up, we have First Input Delay
+which measures interactivity.
+
+00:01:18.231 --> 00:01:20.886
+And last, we've got 
+Cumulative Layout Shift
+
+00:01:20.886 --> 00:01:22.946
+which measures layout stability.
+
+00:01:22.946 --> 00:01:27.556
+Let's kick things off by talking about
+Cumulative Layout Shift or CLS.
+
+00:01:27.918 --> 00:01:31.721
+Now, CLS is a pretty important metric
+for measuring visual stability
+
+00:01:31.721 --> 00:01:34.196
+because it helps quantify all those times
+
+00:01:34.196 --> 00:01:38.827
+when we see really surprising shifts
+in the content on a page,
+
+00:01:39.319 --> 00:01:42.914
+and it helps make sure that the page
+is as delightful as possible.
+
+00:01:42.914 --> 00:01:46.624
+Have you ever been reading
+like an article online
+
+00:01:47.142 --> 00:01:52.431
+when, all of a sudden, something
+suddenly changes on the page
+
+00:01:53.386 --> 00:01:57.836
+and without warning the text moves
+and you've lost your place?
+
+00:01:58.304 --> 00:02:00.294
+That's literally what happens,
+
+00:02:00.294 --> 00:02:03.279
+a giant chicken kicks your content away.
+
+00:02:03.976 --> 00:02:05.856
+And he has no regrets, look at him.
+
+00:02:05.856 --> 00:02:08.490
+He's basically CLS.
+
+00:02:08.490 --> 00:02:10.402
+So, what causes poor CLS?
+
+00:02:10.402 --> 00:02:13.927
+Well, first of all, we've got 
+images without dimensions,
+
+00:02:14.560 --> 00:02:17.946
+ads, embeds or iFrames
+without dimensions,
+
+00:02:17.946 --> 00:02:21.386
+dynamically injected content and web fonts
+
+00:02:21.386 --> 00:02:24.832
+that might cause a flash
+of unstyled content.
+
+00:02:25.242 --> 00:02:29.312
+Now, as I mentioned, 
+Chloé is a French luxury fashion house,
+
+00:02:29.312 --> 00:02:32.762
+and it's become a bit of a go-to brand
+not just for like luxury apparel
+
+00:02:32.762 --> 00:02:35.995
+but also handbags and fragrances
+and things like that.
+
+00:02:36.460 --> 00:02:40.668
+And they have recently been focused
+on improving Cumulative Layout Shift
+
+00:02:40.668 --> 00:02:42.570
+on all their main pages,
+
+00:02:42.570 --> 00:02:45.645
+so their Home Page, 
+their Product Listings Page
+
+00:02:45.645 --> 00:02:47.492
+and their Product Details Page.
+
+00:02:47.992 --> 00:02:50.973
+Through a bunch of work 
+they've been able to reduce their CLS
+
+00:02:50.973 --> 00:02:55.185
+all the way down to zero 
+which is about as perfect as you can get.
+
+00:02:55.185 --> 00:02:56.725
+So how did they get here?
+
+00:02:56.725 --> 00:02:59.325
+This is the before view 
+of the Chloé homepage
+
+00:02:59.325 --> 00:03:02.957
+where we can observe 
+a number of surprising layout shifts
+
+00:03:02.957 --> 00:03:06.957
+due to elements on the page 
+not following CLS best practices.
+
+00:03:06.957 --> 00:03:10.528
+So, let's dive into a few tips
+that worked well here.
+
+00:03:10.528 --> 00:03:14.168
+First off, always include 
+width and height size attributes
+
+00:03:14.168 --> 00:03:16.446
+on your images and video elements.
+
+00:03:16.446 --> 00:03:20.773
+Alternatively, you can always do things
+like reserve the required space
+
+00:03:20.773 --> 00:03:23.025
+with CSS aspect ratio boxes,
+
+00:03:23.025 --> 00:03:26.041
+but, in general, this approach 
+just makes sure that the browser
+
+00:03:26.041 --> 00:03:29.152
+can allocate the correct amount
+of space in the document
+
+00:03:29.152 --> 00:03:30.615
+while the image is loading.
+
+00:03:30.615 --> 00:03:32.447
+So, here's a demo of this in action.
+
+00:03:32.447 --> 00:03:36.890
+These are some images that don't have
+width and height specified
+
+00:03:36.890 --> 00:03:38.198
+and what you see happening
+
+00:03:38.198 --> 00:03:41.623
+is that they're pushing content
+in the page all the way down.
+
+00:03:42.049 --> 00:03:45.287
+This is something that's reflected
+in our tools like Lighthouse.
+
+00:03:45.287 --> 00:03:48.745
+I've got a little bit of a clip out here,
+you can see the Lighthouse report
+
+00:03:48.745 --> 00:03:52.048
+where CLS is in the red 
+and not quite where we want it to be.
+
+00:03:52.048 --> 00:03:53.516
+So, how do we address this?
+
+00:03:53.516 --> 00:03:56.651
+Well, in the early days of the web,
+
+00:03:56.651 --> 00:03:59.531
+developers would add 
+width and height attributes
+
+00:03:59.531 --> 00:04:02.185
+all over the place, they'd add them
+to their image tags,
+
+00:04:02.185 --> 00:04:05.939
+they make sure that they kept 
+enough space allocated on the page
+
+00:04:05.939 --> 00:04:08.917
+before browsers 
+would start fetching images.
+
+00:04:09.357 --> 00:04:13.179
+That was great because it would
+minimize re-flow and re-layout.
+
+00:04:13.179 --> 00:04:17.207
+Now, when responsive web design
+was introduced,
+
+00:04:17.207 --> 00:04:20.807
+developers began to omit 
+these width and height attributes
+
+00:04:20.807 --> 00:04:24.636
+and they started to use CSS 
+to resize their images instead.
+
+00:04:24.636 --> 00:04:26.810
+One of the downsides to this approach
+
+00:04:26.810 --> 00:04:29.647
+is that space could only be
+allocated for an image
+
+00:04:29.647 --> 00:04:31.499
+once it began to download.
+
+00:04:31.499 --> 00:04:35.466
+And, you know, at that point the browser
+could determine its dimensions.
+
+00:04:35.466 --> 00:04:38.719
+As images load in in that old world,
+
+00:04:38.719 --> 00:04:40.643
+you know, the page would re-flow
+
+00:04:40.643 --> 00:04:43.071
+as each image appears on the screen,
+
+00:04:43.071 --> 00:04:48.143
+and a lot of us got used to our text
+suddenly popping down the screen
+
+00:04:48.143 --> 00:04:50.842
+which wasn't a very great user experience.
+
+00:04:51.232 --> 00:04:54.311
+And this is where aspect ratio comes in.
+
+00:04:54.311 --> 00:04:59.423
+So, the aspect ratio of an image 
+is the ratio of its width to its height,
+
+00:04:59.423 --> 00:05:03.877
+it's pretty common to see this expressed
+as two numbers separated by a colon.
+
+00:05:03.877 --> 00:05:08.222
+So, for example, 16:9 or 4:3.
+
+00:05:08.222 --> 00:05:11.038
+For an X:Y aspect ratio,
+
+00:05:11.038 --> 00:05:15.031
+the image is X units wide
+and Y units high.
+
+00:05:15.031 --> 00:05:18.586
+What that means is that 
+if we know one of the dimensions,
+
+00:05:18.586 --> 00:05:20.638
+the other one can be determined.
+
+00:05:20.638 --> 00:05:23.230
+So for a 16 to 9 aspect ratio,
+
+00:05:23.230 --> 00:05:28.577
+if dress.jpg has got a 360px height,
+
+00:05:28.577 --> 00:05:33.188
+the width is 360 multiplied by 16 over 9
+
+00:05:33.188 --> 00:05:36.305
+which gives us 640px.
+
+00:05:36.998 --> 00:05:40.528
+I'm not very good at math, 
+so hopefully that was helpful.
+
+00:05:40.528 --> 00:05:46.030
+Now, modern browsers now set
+the default aspect ratio of images
+
+00:05:46.030 --> 00:05:49.120
+based on an image's 
+width and height attributes.
+
+00:05:49.120 --> 00:05:53.968
+So, it's really valuable to set them 
+if you want to avoid those layout shifts.
+
+00:05:53.968 --> 00:05:56.080
+This is a change in modern browsers,
+
+00:05:56.080 --> 00:05:58.768
+and it's all thanks 
+to the CSS working group.
+
+00:05:58.768 --> 00:06:01.218
+They've done some work
+that basically allows us
+
+00:06:01.218 --> 00:06:03.424
+to just set width and height as normal,
+
+00:06:03.424 --> 00:06:07.565
+and this calculates an aspect ratio
+based on the width and height attributes
+
+00:06:07.565 --> 00:06:09.297
+before the image has loaded.
+
+00:06:09.297 --> 00:06:11.162
+So, what we're seeing on screen here,
+
+00:06:11.162 --> 00:06:15.612
+this is something that's added 
+to the default style sheet of all browsers
+
+00:06:15.612 --> 00:06:17.853
+and it calculates aspect ratio
+
+00:06:17.853 --> 00:06:20.602
+based on the element's 
+width and height attributes.
+
+00:06:20.602 --> 00:06:23.591
+So, as long as you're providing
+width and height,
+
+00:06:23.591 --> 00:06:25.898
+the aspect ratio can be calculated
+
+00:06:25.898 --> 00:06:28.841
+and everything will hopefully
+avoid layout shifts,
+
+00:06:28.841 --> 00:06:31.126
+so this is a great best practice
+to be following.
+
+00:06:31.126 --> 00:06:34.681
+This is also something that works well
+with responsive images.
+
+00:06:34.681 --> 00:06:39.854
+With <i>srcset</i>, you're generally defining 
+images that you want to allow the browser
+
+00:06:39.854 --> 00:06:43.672
+to select between, you need to find
+sizes for those images.
+
+00:06:43.672 --> 00:06:48.194
+To make sure that your image 
+width and height attributes can be set,
+
+00:06:48.194 --> 00:06:52.177
+just make sure that each image
+is using the same aspect ratio.
+
+00:06:52.737 --> 00:06:57.964
+And here's that demo once again 
+with width and height attributes added.
+
+00:06:57.964 --> 00:07:01.799
+Notice that in a modern browser 
+you won't see any layout shifts there,
+
+00:07:01.799 --> 00:07:04.547
+and the user will get 
+a much more pleasant experience.
+
+00:07:04.547 --> 00:07:05.876
+So, another reminder,
+
+00:07:05.876 --> 00:07:08.677
+set those width and height attributes
+as much as you can.
+
+00:07:08.677 --> 00:07:11.216
+Here's the impact 
+that this change has on Lighthouse.
+
+00:07:11.216 --> 00:07:15.135
+As we can see before, 
+we went from a CLS of 0.36,
+
+00:07:15.135 --> 00:07:16.259
+so we're in the red,
+
+00:07:16.259 --> 00:07:18.568
+all the way back to something
+that's a little bit better.
+
+00:07:18.568 --> 00:07:21.807
+There are one or two other things 
+in this page that could have been improved
+
+00:07:21.807 --> 00:07:24.775
+but on the whole we've had 
+a relatively significant impact
+
+00:07:24.775 --> 00:07:26.267
+on reducing layout shift.
+
+00:07:26.267 --> 00:07:27.375
+You might be wondering,
+
+00:07:27.375 --> 00:07:30.695
+"How can I figure out 
+what elements on my page
+
+00:07:30.695 --> 00:07:32.634
+are contributing to CLS?"
+
+00:07:33.016 --> 00:07:34.283
+We've got you covered.
+
+00:07:34.283 --> 00:07:38.930
+So, in Lighthouse we have 
+an <i>Avoid large layout shifts</i> audit,
+
+00:07:38.930 --> 00:07:43.671
+that highlights the top DOM elements 
+contributing most of the CLS to the page,
+
+00:07:43.671 --> 00:07:45.143
+so check out that audit.
+
+00:07:45.143 --> 00:07:48.098
+In dev tools-- 
+we also have a good story here--
+
+00:07:48.098 --> 00:07:50.850
+so, if you're using 
+the dev tools performance panel,
+
+00:07:50.850 --> 00:07:54.205
+it has an experience section
+that can help you detect
+
+00:07:54.205 --> 00:07:55.911
+unexpected layout shifts,
+
+00:07:55.911 --> 00:07:59.935
+super helpful for finding 
+and fixing visual instability issues.
+
+00:07:59.935 --> 00:08:02.492
+They get highlighted 
+in this experience session
+
+00:08:02.492 --> 00:08:05.996
+with some kind of reddish pinkish
+layout shift records.
+
+00:08:05.996 --> 00:08:09.421
+And if you click on one of those records, 
+you'll be able to get more details
+
+00:08:09.421 --> 00:08:13.955
+about what was the score, 
+where did this element move to and from,
+
+00:08:13.955 --> 00:08:18.198
+really great diagnostics to help you
+nail down how to fix your CLS.
+
+00:08:18.643 --> 00:08:22.343
+So, Chloé's approach to image loading
+is that they use a skeleton pattern
+
+00:08:22.343 --> 00:08:26.390
+with a Sass-CSS Mixin 
+called Bruschetta loading.
+
+00:08:28.265 --> 00:08:29.893
+Bruschetta is one of those things
+
+00:08:29.893 --> 00:08:32.711
+that are a little bit of a luxury
+for me during quarantine.
+
+00:08:32.711 --> 00:08:37.156
+They're right up there 
+with toilet paper and antibacterial soap,
+
+00:08:37.156 --> 00:08:39.604
+but let's stick with bruschetta loading.
+
+00:08:40.388 --> 00:08:42.642
+So, this is Chloé's approach
+to image loading.
+
+00:08:42.642 --> 00:08:47.362
+They have a parent container 
+with a color similar to the final image
+
+00:08:47.362 --> 00:08:48.779
+that's being loaded.
+
+00:08:48.779 --> 00:08:51.106
+Lazy loading strategies like this,
+
+00:08:51.106 --> 00:08:55.951
+where you have a little bit of a preview
+of what's finally going to be shown,
+
+00:08:55.951 --> 00:08:59.065
+are sometimes referred 
+to as low quality image placeholders.
+
+00:08:59.065 --> 00:09:03.580
+You can use a predominant color
+from the final image,
+
+00:09:03.580 --> 00:09:06.149
+you can use a low resolution image.
+
+00:09:06.149 --> 00:09:09.439
+Sometimes people will use 
+like a 1 pixel by 1 pixel image
+
+00:09:09.439 --> 00:09:11.422
+or something like 10 pixels by 10 pixels,
+
+00:09:11.422 --> 00:09:14.202
+something very low resolution
+that just gives you a preview
+
+00:09:14.202 --> 00:09:16.269
+of what's finally going to be displayed.
+
+00:09:16.679 --> 00:09:20.130
+Now lazy loading strategies like this
+
+00:09:20.130 --> 00:09:22.717
+which either use a color 
+or that kind of placeholder,
+
+00:09:23.867 --> 00:09:26.667
+they don't strictly improve
+Largest Contentful Paint,
+
+00:09:26.667 --> 00:09:28.707
+but they do improve perceived performance,
+
+00:09:28.707 --> 00:09:31.381
+so they can still be pretty good
+for the user experience.
+
+00:09:31.381 --> 00:09:36.371
+Now, what Chloé did here in addition 
+to using this skeleton loading approach
+
+00:09:36.371 --> 00:09:38.773
+was that they do use responsive images
+
+00:09:38.773 --> 00:09:41.367
+and they do make sure 
+that they're setting dimensions
+
+00:09:41.367 --> 00:09:44.053
+on their images as well to avoid CLS.
+
+00:09:44.053 --> 00:09:46.950
+Let's shift the things up,
+shift things up.
+
+00:09:46.950 --> 00:09:48.283
+Let's go on to the next tip.
+
+00:09:48.283 --> 00:09:52.411
+So, reserve enough space 
+for any of your dynamic content,
+
+00:09:52.411 --> 00:09:54.645
+things like ads or promos.
+
+00:09:55.361 --> 00:09:57.171
+Ideally, you want to make sure
+
+00:09:57.171 --> 00:10:00.357
+that you are giving 
+any of that content a container
+
+00:10:00.357 --> 00:10:03.630
+that it's not going to just, 
+you know, bounce out of
+
+00:10:03.630 --> 00:10:05.915
+and suddenly cause shifts in the page.
+
+00:10:06.598 --> 00:10:08.963
+A related tip to this one is,
+
+00:10:08.963 --> 00:10:13.373
+avoid inserting new content
+above existing content,
+
+00:10:13.373 --> 00:10:16.431
+unless it's in reaction
+to a user interaction.
+
+00:10:16.431 --> 00:10:19.755
+You want to make sure 
+that any layout shifts in your page
+
+00:10:19.755 --> 00:10:22.674
+are ones that you are making
+a conscious decision around
+
+00:10:22.674 --> 00:10:25.405
+and like occur as expected.
+
+00:10:25.405 --> 00:10:26.941
+So let's try to visualize this.
+
+00:10:26.941 --> 00:10:29.522
+Here's an example of a promo
+
+00:10:29.522 --> 00:10:32.394
+where we're dynamically
+injected into the page,
+
+00:10:32.394 --> 00:10:34.183
+we haven't reserved space
+
+00:10:34.183 --> 00:10:36.779
+and it's just pushed everything
+all the way down.
+
+00:10:36.779 --> 00:10:39.554
+We can see this reflected 
+in our Lighthouse call-out
+
+00:10:39.554 --> 00:10:41.058
+at the bottom of the screen.
+
+00:10:41.058 --> 00:10:43.528
+Now, this is something 
+that very typically happens
+
+00:10:43.528 --> 00:10:47.242
+with ads, iFrames, promos.
+
+00:10:47.242 --> 00:10:51.099
+And these types of assets 
+can sometimes be the largest contributors
+
+00:10:51.099 --> 00:10:52.875
+to layout shifts on the web.
+
+00:10:52.875 --> 00:10:58.173
+Now, many ad networks and publishers
+will often support dynamic ad sizes
+
+00:10:58.633 --> 00:11:01.867
+and ad sizes that are dynamic
+
+00:11:01.867 --> 00:11:04.214
+are something that can 
+sometimes increase revenue
+
+00:11:04.214 --> 00:11:06.604
+because you're giving people
+a lot of flexibility
+
+00:11:06.604 --> 00:11:09.273
+around what can go inside there,
+your ad slots,
+
+00:11:09.273 --> 00:11:12.822
+but it can also be something 
+that can potentially negatively impact
+
+00:11:12.822 --> 00:11:15.175
+the user experience 
+by pushing things down.
+
+00:11:15.175 --> 00:11:17.290
+So, that's something 
+that you want to avoid.
+
+00:11:17.290 --> 00:11:18.669
+So, how do we approach this?
+
+00:11:18.669 --> 00:11:20.786
+Well, one solution to the problem
+
+00:11:20.786 --> 00:11:24.907
+is statically reserving
+space for the slot.
+
+00:11:24.907 --> 00:11:28.302
+So, you can make sure 
+that you're defining a container
+
+00:11:28.302 --> 00:11:33.686
+for these ads or embed frames, 
+so that regardless of what goes inside,
+
+00:11:33.686 --> 00:11:37.338
+you're not shifting the content
+of the page around.
+
+00:11:37.338 --> 00:11:41.111
+So, here I've got a container 
+where I set my width and my height,
+
+00:11:41.111 --> 00:11:44.776
+I've set a background color 
+but I've also set it to <i>overflow:hidden</i>
+
+00:11:44.776 --> 00:11:46.911
+just in case anything dynamic
+
+00:11:46.911 --> 00:11:51.214
+is a little bit, you know, 
+a little bit taller than the container,
+
+00:11:51.214 --> 00:11:53.954
+I still don't want it 
+to be able to break out of it.
+
+00:11:53.954 --> 00:11:57.014
+Ideally the content fits inside 
+of our container
+
+00:11:57.014 --> 00:11:59.583
+like our iFrames or whatever else
+we might inject in there.
+
+00:11:59.583 --> 00:12:01.036
+And what you can do
+
+00:12:01.036 --> 00:12:05.211
+if you're somebody 
+that has lots of dynamic content
+
+00:12:05.211 --> 00:12:06.974
+that gets injected into your page,
+
+00:12:06.974 --> 00:12:09.736
+you can take a look at your data,
+
+00:12:09.736 --> 00:12:14.047
+look at what are the medians
+or the 95th percentile
+
+00:12:14.047 --> 00:12:16.574
+widths and heights 
+for this dynamic content
+
+00:12:16.574 --> 00:12:18.962
+and size your container accordingly.
+
+00:12:18.962 --> 00:12:21.365
+That'll just mean 
+that you have the best chance
+
+00:12:21.365 --> 00:12:23.994
+at still being able to present 
+that content to users
+
+00:12:23.994 --> 00:12:27.038
+without negatively impacting 
+the rest of the user experience.
+
+00:12:27.038 --> 00:12:29.778
+So, here's what it looks 
+with my pattern in place.
+
+00:12:29.778 --> 00:12:33.346
+I've reserved enough space,
+and that content pops in,
+
+00:12:33.346 --> 00:12:35.799
+but there are no layout shifts in the page.
+
+00:12:35.799 --> 00:12:37.605
+So, I'm really happy about that.
+
+00:12:38.035 --> 00:12:41.377
+Slightly better is my baseline 
+for everything in life at the moment.
+
+00:12:41.377 --> 00:12:44.730
+So, this is the Lighthouse 6.0 impact,
+
+00:12:44.730 --> 00:12:47.046
+we can see that we reduced
+our layout shifts
+
+00:12:47.046 --> 00:12:49.682
+from 0.24 all the way down to
+
+00:12:50.342 --> 00:12:53.474
+about zero, I'm going give myself
+about zero, it's in the green.
+
+00:12:53.474 --> 00:12:54.606
+So, that's great.
+
+00:12:54.606 --> 00:13:00.546
+Let's talk about a production example
+of something like this on Chloé.
+
+00:13:00.546 --> 00:13:04.492
+Chloé had a promotion banner for shipping
+
+00:13:04.492 --> 00:13:07.415
+at the top of their Product Listing Page.
+
+00:13:07.415 --> 00:13:11.585
+And you'll see this free standard 
+shipping promotion listed in the very top,
+
+00:13:11.585 --> 00:13:13.831
+but this wasn't always there.
+
+00:13:14.386 --> 00:13:17.273
+There was a time 
+when this Product Listing Page
+
+00:13:17.273 --> 00:13:22.935
+had a CLS of 0.4 which is really not great
+because of two things.
+
+00:13:22.935 --> 00:13:27.482
+The first was the way they approached
+their dynamic promo banner
+
+00:13:27.482 --> 00:13:30.306
+and the way that they approached filters.
+
+00:13:30.306 --> 00:13:32.853
+Let's talk about the banner first.
+
+00:13:33.433 --> 00:13:36.901
+Now, this banner 
+used to be positioned in line
+
+00:13:37.363 --> 00:13:39.457
+underneath the main page header.
+
+00:13:39.965 --> 00:13:43.424
+And as you can see here, 
+it looks kind of harmless.
+
+00:13:43.424 --> 00:13:47.215
+But, what's the impact 
+of having a dynamically sized banner
+
+00:13:47.215 --> 00:13:48.595
+on the user experience?
+
+00:13:48.595 --> 00:13:50.935
+Well, we have a video here,
+let's take a look.
+
+00:13:50.935 --> 00:13:55.024
+As we can see here, 
+once the content is fetched
+
+00:13:55.024 --> 00:13:57.047
+and rendered for this banner,
+
+00:13:57.047 --> 00:14:00.843
+it pushes the content 
+for the rest of the page all the way down,
+
+00:14:00.843 --> 00:14:02.532
+and that's not very ideal.
+
+00:14:02.532 --> 00:14:05.122
+So, how did Chloé go about fixing this?
+
+00:14:05.122 --> 00:14:08.094
+Well, they reserved space for this banner.
+
+00:14:08.094 --> 00:14:09.676
+The content for this banner
+
+00:14:09.676 --> 00:14:13.102
+was also coming 
+from a client-side request.
+
+00:14:13.102 --> 00:14:17.765
+Therefore, messages were causing
+a pretty visual layout shift
+
+00:14:17.765 --> 00:14:20.002
+occurring a few seconds into page load.
+
+00:14:20.002 --> 00:14:23.456
+Now, they moved this API call
+straight to the server
+
+00:14:23.456 --> 00:14:26.794
+and they made sure to reserve
+enough space for the banner
+
+00:14:26.794 --> 00:14:28.427
+with a simple height setting.
+
+00:14:28.427 --> 00:14:32.139
+As a part of this work they moved 
+the position of the banner up a little bit
+
+00:14:32.139 --> 00:14:33.389
+but altogether,
+
+00:14:33.389 --> 00:14:36.603
+like moving more work to the server,
+always a good idea,
+
+00:14:37.205 --> 00:14:39.647
+and just making sure 
+that they're reserving space,
+
+00:14:39.647 --> 00:14:41.582
+these things made a bit of a difference.
+
+00:14:41.582 --> 00:14:43.637
+So, here's the after view.
+
+00:14:44.317 --> 00:14:47.483
+Here we can see the impact 
+to their Product Listing Page.
+
+00:14:47.483 --> 00:14:52.456
+After these changes have been made,
+it's a lot less shifty.
+
+00:14:52.456 --> 00:14:54.188
+So, I'm happy about that.
+
+00:14:54.188 --> 00:14:56.780
+So, we talked about their promo banner.
+
+00:14:56.780 --> 00:15:01.303
+The other big CLS issue 
+for product listing pages
+
+00:15:01.303 --> 00:15:05.261
+was that Chloé had a filters widget
+for filtering products.
+
+00:15:05.261 --> 00:15:09.901
+Now, this would rehydrate 
+to become dynamic once it booted up
+
+00:15:09.901 --> 00:15:15.685
+and so, on the client, 
+it was pending XHR calls for data,
+
+00:15:15.685 --> 00:15:19.120
+was waiting on session state
+based on filter choices
+
+00:15:19.120 --> 00:15:22.742
+in order to be able to finally 
+render this thing on the screen.
+
+00:15:23.459 --> 00:15:26.067
+So, this is what 
+this basically looked like.
+
+00:15:26.067 --> 00:15:29.334
+We wait for kind 
+of content to be sent down
+
+00:15:29.334 --> 00:15:31.319
+for the filter widget, 
+we wait for hydration
+
+00:15:31.319 --> 00:15:34.260
+and it would still push content 
+on the screen all the way down.
+
+00:15:34.260 --> 00:15:38.025
+What they ended up doing here
+was that they adapted this widget
+
+00:15:38.025 --> 00:15:41.681
+to contain more of the information 
+needed to render the filter widget,
+
+00:15:41.681 --> 00:15:45.092
+server-side they'd rendered it
+with better defaults.
+
+00:15:45.092 --> 00:15:47.294
+This helped avoid those layout shifts.
+
+00:15:47.294 --> 00:15:50.877
+And I just wanted 
+to give a call out here to the--
+
+00:15:51.348 --> 00:15:54.874
+right of the screen we can see 
+the Web Vitals Chrome Extension.
+
+00:15:55.319 --> 00:15:58.923
+This gives you a real-time view
+of all of your vitals metrics
+
+00:15:58.923 --> 00:16:02.525
+and can just be helpful 
+as you are building your sites locally,
+
+00:16:02.525 --> 00:16:05.371
+or you're just browsing the web
+and want to get a sense
+
+00:16:05.371 --> 00:16:09.080
+for the performance of different sites
+that you check out on the regular.
+
+00:16:09.080 --> 00:16:15.461
+And here's what things look like 
+after their rehydration fix for filters.
+
+00:16:15.987 --> 00:16:19.667
+As you can see, 
+CLS reduced by a decent amount,
+
+00:16:19.667 --> 00:16:21.409
+looking at the before and after,
+
+00:16:21.409 --> 00:16:23.451
+and it was just another case of like,
+
+00:16:23.451 --> 00:16:25.821
+pay attention 
+to the little things in your pages
+
+00:16:25.821 --> 00:16:29.418
+that might be in aggregate 
+causing lots of things to be pushed down.
+
+00:16:29.418 --> 00:16:32.324
+Every little CLS fix helps.
+
+00:16:33.265 --> 00:16:36.633
+And here's the overall impact 
+of these changes on Desktop.
+
+00:16:36.633 --> 00:16:40.576
+We can see that the above-the-fold content 
+is relatively stable
+
+00:16:40.576 --> 00:16:43.901
+and offers a much better 
+user experience on the whole.
+
+00:16:43.901 --> 00:16:46.745
+And this is also reflected in Lighthouse.
+
+00:16:47.390 --> 00:16:50.162
+Work on Lighthouse, 
+got to give Lighthouse a shout out.
+
+00:16:50.162 --> 00:16:52.970
+As we can see here 
+Cumulative Layout Shift is in the green,
+
+00:16:52.970 --> 00:16:55.564
+we've hit zero, 
+so it's in a really solid place.
+
+00:16:55.564 --> 00:17:00.089
+To improve CLS, Chloé acted 
+on a number of different elements.
+
+00:17:00.089 --> 00:17:01.980
+It wasn't just one thing.
+
+00:17:01.980 --> 00:17:06.008
+They reserved space for the Promo Content
+in terms of its ratio.
+
+00:17:06.008 --> 00:17:09.145
+They made sure to set width 
+and height dimensions on their images
+
+00:17:09.145 --> 00:17:13.724
+and they adopted a skeleton pattern 
+which improved perceived performance.
+
+00:17:14.234 --> 00:17:17.834
+They reserved space 
+for their Promo Banners requests
+
+00:17:17.834 --> 00:17:19.357
+before receiving messages.
+
+00:17:19.357 --> 00:17:22.320
+And they also reserved space 
+for the filters dynamic component
+
+00:17:22.320 --> 00:17:24.505
+as well as making 
+a few other optimizations
+
+00:17:24.505 --> 00:17:26.768
+to just help with rendering.
+
+00:17:27.465 --> 00:17:29.919
+So, on the whole 
+it was definitely worth it.
+
+00:17:30.585 --> 00:17:33.983
+Alright. So, I have 
+a big surprise for you.
+
+00:17:34.703 --> 00:17:37.011
+We've got more metrics to talk about.
+
+00:17:38.531 --> 00:17:40.422
+Put a lot of work into this slide.
+
+00:17:40.908 --> 00:17:44.608
+Historically, it's been 
+a bit of a challenge for web developers
+
+00:17:44.608 --> 00:17:48.689
+to measure just how quickly 
+the main content of the webpage loads
+
+00:17:48.689 --> 00:17:50.108
+and is visible to users.
+
+00:17:50.673 --> 00:17:53.757
+Thankfully, we now have metrics
+like Largest Contentful Paint
+
+00:17:53.757 --> 00:17:58.151
+that are able to report the render time
+of the largest content element
+
+00:17:58.151 --> 00:18:00.249
+that's visible within the viewport.
+
+00:18:00.249 --> 00:18:03.397
+Now, you might be wondering
+what causes a poor LCP.
+
+00:18:03.397 --> 00:18:05.069
+Well, there are lots of things.
+
+00:18:05.069 --> 00:18:07.289
+Slow server response times are a big one.
+
+00:18:07.289 --> 00:18:10.182
+This could be 
+your back-end infrastructure,
+
+00:18:10.182 --> 00:18:13.482
+it could be unoptimized database queries,
+
+00:18:13.482 --> 00:18:17.373
+API responses that are just 
+taking a while to resolve.
+
+00:18:17.373 --> 00:18:19.984
+It could be render blocking
+JavaScript and CSS.
+
+00:18:19.984 --> 00:18:23.246
+Slow resource times are another big one.
+
+00:18:23.246 --> 00:18:27.286
+You could have unoptimized images
+slowing down your LCP.
+
+00:18:27.286 --> 00:18:29.547
+And then, there's client-side rendering.
+
+00:18:29.547 --> 00:18:31.542
+There's a whole class of problems
+
+00:18:31.542 --> 00:18:35.046
+where those of us who love
+working in JavaScript
+
+00:18:35.046 --> 00:18:38.106
+and using modern libraries 
+and frameworks and bundlers,
+
+00:18:38.106 --> 00:18:43.543
+can sometimes get into a place 
+where we have our requests
+
+00:18:43.543 --> 00:18:46.758
+for assets like images, 
+in particular hero images,
+
+00:18:47.468 --> 00:18:49.522
+behind JavaScript fetches.
+
+00:18:49.522 --> 00:18:52.312
+The browser, first of all, 
+has to fetch your JavaScript.
+
+00:18:52.312 --> 00:18:56.382
+Then it has to parse and process 
+that JavaScript to fetch your image.
+
+00:18:56.382 --> 00:18:59.862
+And that whole process can take so long
+
+00:18:59.862 --> 00:19:02.791
+that you delay showing 
+meaningful content to your user.
+
+00:19:02.791 --> 00:19:05.579
+So, it's just things like that 
+you should keep an eye on.
+
+00:19:05.579 --> 00:19:08.663
+There are plenty of tools 
+that can help diagnose these issues.
+
+00:19:08.663 --> 00:19:13.502
+So let's take a look at some real-world
+production challenges around LCP
+
+00:19:13.502 --> 00:19:14.926
+and how to work around them.
+
+00:19:14.926 --> 00:19:19.270
+Chloé started off with an LCP
+of about 10 or 11 seconds.
+
+00:19:19.270 --> 00:19:23.627
+In this view here, we can see 
+that their primary hero image content
+
+00:19:23.627 --> 00:19:28.248
+wasn't getting fetched and rendered 
+until about 11 seconds into our trace.
+
+00:19:28.248 --> 00:19:30.054
+Their home page suffers from,
+
+00:19:30.054 --> 00:19:32.639
+in this case, it suffered from 
+a few different things.
+
+00:19:32.639 --> 00:19:38.192
+It had heavy full-screen image downloads,
+poorly optimized images,
+
+00:19:38.192 --> 00:19:41.480
+some images that were requested late
+in the network chain.
+
+00:19:41.480 --> 00:19:44.446
+And these are very common issues,
+there's nothing here
+
+00:19:44.446 --> 00:19:46.840
+that they're doing crazy wrong,
+
+00:19:46.840 --> 00:19:48.470
+it's just very common issues.
+
+00:19:48.470 --> 00:19:52.998
+And it's useful to be aware 
+of some of the things that impacts LCP.
+
+00:19:52.998 --> 00:19:56.527
+So, things that impact LCP
+are image elements,
+
+00:19:57.083 --> 00:20:00.162
+image elements that be inside
+of an SVG element,
+
+00:20:00.162 --> 00:20:03.618
+video elements, block-level elements
+containing text nodes.
+
+00:20:04.520 --> 00:20:07.024
+Let's talk about images first
+
+00:20:07.024 --> 00:20:10.977
+because they're pretty often
+a cause for poor LCP.
+
+00:20:11.474 --> 00:20:16.515
+For many sites, images 
+are the largest element in view
+
+00:20:16.515 --> 00:20:18.387
+when the page is finished loading,
+
+00:20:18.387 --> 00:20:22.791
+especially as UX patterns
+have shifted towards us
+
+00:20:22.791 --> 00:20:25.548
+using more hero images in our pages.
+
+00:20:25.548 --> 00:20:29.524
+So, it's very, very important 
+to optimize our images,
+
+00:20:29.524 --> 00:20:32.751
+especially anything that's visible
+within the initial viewport.
+
+00:20:32.751 --> 00:20:35.488
+Now, there are a few techniques
+that you can use here.
+
+00:20:36.026 --> 00:20:40.042
+You can consider not having
+an image in the first place,
+
+00:20:40.500 --> 00:20:42.852
+if it's not that relevant,
+maybe you remove it.
+
+00:20:43.848 --> 00:20:45.274
+Compress those images,
+
+00:20:45.274 --> 00:20:49.065
+use, you know-- there are plenty
+of image optimization tools out there,
+
+00:20:49.065 --> 00:20:50.253
+compress your images.
+
+00:20:50.253 --> 00:20:53.417
+Maybe consider converting them 
+to more efficient modern formats,
+
+00:20:53.417 --> 00:20:55.037
+use responsive images.
+
+00:20:55.037 --> 00:20:57.827
+And you can also consider
+using an image CDN.
+
+00:20:58.467 --> 00:21:02.861
+I'm seeing an increasing number
+of sites leveraging image CDNs
+
+00:21:02.861 --> 00:21:07.785
+just to help them 
+get control over an ability
+
+00:21:07.785 --> 00:21:11.159
+to just tweak parameters
+in a URL for an image
+
+00:21:11.159 --> 00:21:15.449
+and change what format gets served down
+or what quality you have.
+
+00:21:16.331 --> 00:21:19.263
+And it's just-- using an image CDN
+can be a really good way
+
+00:21:19.263 --> 00:21:21.753
+of staying on top of modern best practices
+
+00:21:21.753 --> 00:21:26.649
+because-- even us that are, 
+you know, web enthusiasts,
+
+00:21:26.649 --> 00:21:28.887
+sometimes have a hard time
+staying on top
+
+00:21:28.887 --> 00:21:31.662
+of everything happening 
+in the image optimization world.
+
+00:21:31.662 --> 00:21:33.035
+Now, you might be wondering,
+
+00:21:33.035 --> 00:21:38.039
+how can I identify the element
+that is my LCP?
+
+00:21:39.173 --> 00:21:41.425
+Thankfully, we've got some solutions here.
+
+00:21:41.425 --> 00:21:43.569
+In dev tools, in the performance panel,
+
+00:21:43.569 --> 00:21:47.496
+if you record a trace 
+and you go to timings,
+
+00:21:47.496 --> 00:21:49.683
+you should find a record for LCP.
+
+00:21:50.251 --> 00:21:54.122
+Click on that record and you'll get
+the summary pane showing up
+
+00:21:54.122 --> 00:21:56.463
+that includes things 
+like the size of the image
+
+00:21:56.463 --> 00:21:58.751
+and more importantly the related node.
+
+00:21:58.751 --> 00:22:02.685
+So, if you hover over that related node,
+it will highlight what in your page
+
+00:22:02.685 --> 00:22:04.193
+was considered LCP.
+
+00:22:04.193 --> 00:22:06.218
+I personally find this really valuable
+
+00:22:06.788 --> 00:22:11.249
+as kind of a stepping stone to where
+should I be spending my time optimizing.
+
+00:22:11.249 --> 00:22:14.304
+So, check that out 
+if you use the performance panel.
+
+00:22:14.304 --> 00:22:17.553
+This is also something 
+that we try to capture in Lighthouse.
+
+00:22:17.553 --> 00:22:21.959
+Lighthouse has got 
+a Largest Contentful Paint element audit,
+
+00:22:21.959 --> 00:22:25.545
+and we try to highlight 
+what element was responsible here too.
+
+00:22:25.545 --> 00:22:28.381
+So, if you use Lighthouse, check that out.
+
+00:22:28.381 --> 00:22:29.866
+So, back to Chloé.
+
+00:22:29.866 --> 00:22:34.778
+Chloé discovered that they were delivering
+very high resolution images
+
+00:22:34.778 --> 00:22:38.066
+even very high resolution
+for retina screens.
+
+00:22:38.066 --> 00:22:40.718
+Because there is a bit of a cutoff point
+
+00:22:40.718 --> 00:22:46.020
+where, if you're serving kind of 
+two-by, three-by images,
+
+00:22:46.020 --> 00:22:50.214
+the human eye 
+is not going to be able to perceive
+
+00:22:50.214 --> 00:22:52.332
+large amounts of difference there.
+
+00:22:52.332 --> 00:22:54.488
+And there are kind of, you know,
+
+00:22:54.488 --> 00:22:57.399
+you have diminishing values 
+that you get out of just serving
+
+00:22:57.399 --> 00:22:59.862
+very, very, very, high resolution images.
+
+00:22:59.862 --> 00:23:03.095
+Now, in this case, we're in dev tools-- 
+we're in the elements panel,
+
+00:23:03.095 --> 00:23:04.718
+we're looking at a specific image,
+
+00:23:04.718 --> 00:23:09.307
+and what we see is that the maximum
+width of images being served down
+
+00:23:09.307 --> 00:23:14.535
+is 1920 pixels, it's pretty large.
+
+00:23:14.535 --> 00:23:17.608
+So, one of the things 
+that Chloé actually decided to do
+
+00:23:17.608 --> 00:23:19.231
+was change things up here.
+
+00:23:19.231 --> 00:23:22.733
+They resized their images 
+to not be more than two times
+
+00:23:22.733 --> 00:23:24.473
+the image viewport size.
+
+00:23:24.473 --> 00:23:29.881
+So, they removed srcset sizes
+over 828 width
+
+00:23:29.881 --> 00:23:32.985
+to keep an image maximum size 
+that they were comfortable with
+
+00:23:32.985 --> 00:23:36.937
+and that actually ended up being 
+pretty fine on retina devices as well.
+
+00:23:36.937 --> 00:23:41.579
+There's this nice trade-off 
+of how do we deliver rich imagery
+
+00:23:41.579 --> 00:23:44.248
+without negatively impacting
+the user experience.
+
+00:23:45.118 --> 00:23:50.974
+Now, by doing this work 
+on an iPhone X or a Pixel 2 XL,
+
+00:23:51.810 --> 00:23:56.108
+that was previously seeing 
+anywhere up to 245 KB
+
+00:23:56.108 --> 00:23:57.898
+worth of image bytes being downloaded,
+
+00:23:57.898 --> 00:24:00.871
+they were able to reduce it down to 125.
+
+00:24:01.383 --> 00:24:07.644
+That's huge, that's like a 51% decrease
+in image bytes being served down
+
+00:24:07.644 --> 00:24:09.449
+with no noticeable difference.
+
+00:24:09.449 --> 00:24:12.107
+So, optimize your images, people.
+
+00:24:12.107 --> 00:24:13.984
+The next thing 
+we're going to talk about
+
+00:24:13.984 --> 00:24:17.948
+is some of the other image optimizations
+that they performed.
+
+00:24:17.948 --> 00:24:22.156
+So, on the Product Listing Page,
+Chloé used image lazy loading
+
+00:24:22.156 --> 00:24:25.192
+which, you know, 
+is a relatively popular pattern.
+
+00:24:25.192 --> 00:24:28.762
+What they discovered was that 
+there were four primary images
+
+00:24:28.762 --> 00:24:30.693
+being loaded above the fold.
+
+00:24:30.693 --> 00:24:33.518
+However, there was one off-screen image
+
+00:24:33.518 --> 00:24:36.954
+that seemed to be tripping up
+their lazy loading heuristics
+
+00:24:36.954 --> 00:24:38.668
+and was still being fetched.
+
+00:24:38.668 --> 00:24:43.522
+This particular image 
+happened to be 248 KB in size,
+
+00:24:43.522 --> 00:24:45.513
+about 200 plus KB in size,
+
+00:24:45.513 --> 00:24:49.665
+and this was negatively impacting
+the user experience.
+
+00:24:49.665 --> 00:24:51.529
+So, they wanted to try improving this.
+
+00:24:52.749 --> 00:24:55.775
+On the whole, there are
+a number of things Chloé did.
+
+00:24:56.608 --> 00:25:01.346
+They were able to bring down 
+their above-the-fold image download size
+
+00:25:01.346 --> 00:25:04.026
+all the way to 14.5 KB.
+
+00:25:04.026 --> 00:25:07.764
+They were able to tune 
+their lazy loading heuristics
+
+00:25:07.764 --> 00:25:10.870
+so that off-screen images, 
+like the one I was just talking about,
+
+00:25:10.870 --> 00:25:12.423
+were no longer a problem.
+
+00:25:12.423 --> 00:25:17.482
+They adopted an image CDN, 
+they adopted WebP by defaults,
+
+00:25:17.482 --> 00:25:20.460
+improved their image resizing strategy.
+
+00:25:20.924 --> 00:25:23.576
+And the results of this, 
+outside of just having
+
+00:25:23.576 --> 00:25:26.689
+a nice Lighthouse report 
+with lots of greens
+
+00:25:26.689 --> 00:25:31.814
+is that each product page 
+now weighs 57% less than it did before
+
+00:25:32.179 --> 00:25:34.651
+which is a really nice outcome to have
+
+00:25:34.651 --> 00:25:36.805
+as a result of optimizing your images.
+
+00:25:36.805 --> 00:25:41.440
+Taking a step back, 
+here's what the homepage LCP looked like
+
+00:25:41.440 --> 00:25:42.890
+after these changes.
+
+00:25:42.890 --> 00:25:46.581
+We can see that again,
+previously those hero images
+
+00:25:46.581 --> 00:25:49.817
+were not rendering in 
+until about 11 seconds in.
+
+00:25:50.136 --> 00:25:54.071
+Now LCP happens 
+at about 4 seconds into the process,
+
+00:25:54.071 --> 00:25:56.555
+and it's complete 
+just a few seconds later.
+
+00:25:56.555 --> 00:26:01.121
+The request time for our LCP related node
+for our hero images
+
+00:26:01.121 --> 00:26:03.352
+is about 1.3 seconds in,
+
+00:26:03.352 --> 00:26:05.619
+so on the whole, this is really great.
+
+00:26:05.619 --> 00:26:09.508
+There's still work they could do here 
+but on the whole this is fantastic to see.
+
+00:26:09.508 --> 00:26:12.265
+So let's switch things up to our next tip.
+
+00:26:13.106 --> 00:26:16.689
+Defer any non-critical JavaScript and CSS
+
+00:26:16.689 --> 00:26:20.313
+to speed up loading 
+the main content of your page.
+
+00:26:20.313 --> 00:26:22.524
+Now, this is guidance that is not new,
+
+00:26:22.524 --> 00:26:24.247
+it's been around for a few years,
+
+00:26:24.247 --> 00:26:26.543
+but for anyone that's not familiar
+with this guidance,
+
+00:26:26.543 --> 00:26:29.331
+I'll give you a very quick recap of it.
+
+00:26:29.331 --> 00:26:32.678
+Now, before a browser 
+can render any content,
+
+00:26:32.678 --> 00:26:35.789
+it needs to parse HTML markup
+into a DOM tree.
+
+00:26:35.789 --> 00:26:40.627
+The parser needs to pause 
+if it encounters any external style sheets
+
+00:26:40.627 --> 00:26:42.757
+or synchronous script.
+
+00:26:42.757 --> 00:26:48.793
+And scripts and style sheets can both
+be render blocking resources
+
+00:26:48.793 --> 00:26:52.527
+which can delay 
+your First Contentful Paint,
+
+00:26:52.527 --> 00:26:55.469
+consequently, your Largest
+Contentful Paint as well.
+
+00:26:55.469 --> 00:26:59.540
+So what we tell people to do 
+is defer any of your non-critical scripts
+
+00:26:59.540 --> 00:27:01.953
+and style sheets to speed upload.
+
+00:27:01.953 --> 00:27:05.742
+So, let's take a look once again 
+at the Product Listing Page for Chloé.
+
+00:27:05.742 --> 00:27:09.691
+As we can see, this is a trace independent
+of their image optimizations
+
+00:27:09.691 --> 00:27:12.808
+and as we can see here,
+Lighthouse highlights
+
+00:27:12.808 --> 00:27:15.769
+that there are a few 
+render-blocking style sheets
+
+00:27:15.769 --> 00:27:19.690
+that are delaying early paints
+on the Product Listing Page.
+
+00:27:19.690 --> 00:27:21.696
+Now, this is kind of manifested
+
+00:27:21.696 --> 00:27:25.239
+in terms of how much white
+we're seeing in our filmstrip.
+
+00:27:25.239 --> 00:27:30.032
+One approach to addressing this problem
+is by inlining your critical CSS
+
+00:27:30.032 --> 00:27:32.899
+and deferring the load
+of non-critical styles.
+
+00:27:32.899 --> 00:27:35.919
+We often call this technique critical CSS.
+
+00:27:35.919 --> 00:27:40.124
+Critical CSS is all about extracting CSS
+
+00:27:40.124 --> 00:27:42.182
+for above-the-fold content,
+
+00:27:42.182 --> 00:27:45.809
+ideally across a number 
+of different breakpoints
+
+00:27:45.809 --> 00:27:47.909
+and making sure
+
+00:27:47.909 --> 00:27:50.652
+that you can render 
+the above-the-fold content
+
+00:27:50.652 --> 00:27:53.849
+as quickly as possible 
+in the first few RTTs
+
+00:27:53.849 --> 00:27:57.568
+and deferring the load of the rest
+of your style sheets for the page,
+
+00:27:57.568 --> 00:28:01.468
+you know for things below the fold,
+as soon as possible otherwise.
+
+00:28:02.082 --> 00:28:03.473
+So, how did Chloé do this?
+
+00:28:03.473 --> 00:28:05.344
+Well, they built some tooling.
+
+00:28:06.079 --> 00:28:09.982
+They implemented critical CSS
+in their Sass build process
+
+00:28:09.982 --> 00:28:12.037
+and they constructed a syntax
+
+00:28:12.037 --> 00:28:16.039
+allowing their developers 
+to specify for each widget
+
+00:28:16.039 --> 00:28:20.164
+what part of the CSS code 
+goes into their critical CSS.
+
+00:28:20.164 --> 00:28:22.742
+This is highlighted 
+using the critical keywords
+
+00:28:22.742 --> 00:28:24.546
+you see on the screen right now.
+
+00:28:24.546 --> 00:28:26.048
+Now, at build time,
+
+00:28:26.048 --> 00:28:28.686
+they're able to build 
+both the critical CSS
+
+00:28:28.686 --> 00:28:30.704
+and the non-critical CSS,
+
+00:28:30.704 --> 00:28:33.577
+so that every single build
+is consistent with both.
+
+00:28:34.317 --> 00:28:37.151
+There are many ways 
+that you can approach critical CSS.
+
+00:28:37.650 --> 00:28:41.218
+I've contributed to some tooling
+on this topic in the past,
+
+00:28:41.626 --> 00:28:45.717
+and you can automate it,
+you can go very custom.
+
+00:28:45.717 --> 00:28:49.337
+I see some teams 
+that will just have a critical <i>.css</i> file
+
+00:28:49.337 --> 00:28:51.624
+that they manually curate.
+
+00:28:51.624 --> 00:28:54.280
+And regardless 
+of the approach that you take,
+
+00:28:54.280 --> 00:28:56.088
+what's key is just making sure
+
+00:28:56.088 --> 00:29:00.570
+that you're delivering important content
+to the user as quickly as possible.
+
+00:29:00.570 --> 00:29:02.202
+So, we talked about the need
+
+00:29:02.202 --> 00:29:05.547
+for loading in the other
+style sheets for the page.
+
+00:29:05.547 --> 00:29:11.720
+What Chloé do is, their non-critical 
+CSS style sheets are stored in an array
+
+00:29:11.720 --> 00:29:14.456
+so they point to references
+to them on their servers,
+
+00:29:14.456 --> 00:29:17.524
+and that's injected 
+with a deferred script,
+
+00:29:17.524 --> 00:29:20.222
+so that it's hopefully not render-blocking
+
+00:29:20.222 --> 00:29:23.576
+but is still loaded 
+with a relatively high priority
+
+00:29:23.576 --> 00:29:26.672
+that isn't going to interfere
+with the HTML parser.
+
+00:29:27.368 --> 00:29:31.171
+So, what was the impact 
+of optimizing their critical CSS?
+
+00:29:31.171 --> 00:29:33.095
+Well, the answer is pretty large.
+
+00:29:33.095 --> 00:29:36.578
+They were able to bring down
+their First Contentful Paint
+
+00:29:36.578 --> 00:29:39.224
+from 2.1 seconds to about 1.1,
+
+00:29:39.809 --> 00:29:44.150
+and their LCP 
+from 2.9 seconds to about 1.5.
+
+00:29:45.001 --> 00:29:47.235
+Now, this is really great work.
+
+00:29:47.235 --> 00:29:50.813
+Optimizing your critical CSS 
+can be a bit of a time investment
+
+00:29:50.813 --> 00:29:52.800
+but is something 
+that can just make sure
+
+00:29:52.800 --> 00:29:55.658
+that your page is getting styled
+as soon as possible.
+
+00:29:56.299 --> 00:29:57.992
+So, let's talk about another tip.
+
+00:29:58.600 --> 00:30:01.328
+I mentioned slow server response times
+
+00:30:01.328 --> 00:30:03.976
+when we were discussing
+what impacts LCP.
+
+00:30:04.560 --> 00:30:09.504
+The longer that it takes a browser
+to receive content from the server,
+
+00:30:09.999 --> 00:30:13.507
+the longer that it takes 
+to render anything on the screen.
+
+00:30:14.109 --> 00:30:17.097
+The faster a server can respond,
+
+00:30:17.097 --> 00:30:20.085
+that's going to improve 
+every single page-load metric,
+
+00:30:20.085 --> 00:30:21.765
+including LCP.
+
+00:30:21.765 --> 00:30:23.032
+So you might be wondering
+
+00:30:23.032 --> 00:30:25.448
+how can I tell if I have 
+a slow server response time.
+
+00:30:25.448 --> 00:30:26.720
+Lighthouse has you covered.
+
+00:30:26.720 --> 00:30:31.116
+In Lighthouse we have an audit called
+<i>Reduce initial server response time</i>.
+
+00:30:31.116 --> 00:30:33.055
+And if you see this,
+
+00:30:33.581 --> 00:30:36.988
+it's a good hint to spend more time
+diagnosing the problem
+
+00:30:36.988 --> 00:30:39.074
+and causes of the problem.
+
+00:30:39.074 --> 00:30:42.659
+As I mentioned earlier, it can be 
+plenty of things on your back-end.
+
+00:30:42.659 --> 00:30:46.433
+And we're trying to optimize
+our server response times.
+
+00:30:46.433 --> 00:30:51.237
+There's plenty that we can do 
+in terms of optimizing, you know,
+
+00:30:53.077 --> 00:30:56.826
+our DNS, our pre-connects 
+all of those types of things
+
+00:30:56.826 --> 00:31:00.475
+but there are also things that we can do
+to optimize loading priority.
+
+00:31:01.302 --> 00:31:04.686
+This is where techniques
+like [link rel] Preload and Server Push
+
+00:31:04.686 --> 00:31:06.369
+can come into play.
+
+00:31:06.369 --> 00:31:09.827
+Now, if you're new to server push, 
+I'll give you a quick summary of it.
+
+00:31:09.827 --> 00:31:14.799
+To improve latency, HTTP/2 introduced
+this idea of Server Push,
+
+00:31:15.365 --> 00:31:19.715
+which basically allows a server 
+to push resources to the browser
+
+00:31:19.715 --> 00:31:22.202
+before they're explicitly requested.
+
+00:31:22.737 --> 00:31:25.659
+Now, you and I, as developers, we can--
+
+00:31:25.659 --> 00:31:28.573
+as well as anyone else watching,
+you're all awesome too--
+
+00:31:28.573 --> 00:31:33.267
+we often know what the most important
+resources are on a page,
+
+00:31:33.267 --> 00:31:39.046
+and so we can start pushing those 
+as soon as, you know, things respond
+
+00:31:39.046 --> 00:31:41.096
+with the initial requests.
+
+00:31:41.096 --> 00:31:45.635
+This allows the server to fully utilize
+what's otherwise an idle network
+
+00:31:45.635 --> 00:31:47.834
+to improve page load times.
+
+00:31:48.369 --> 00:31:52.259
+Now Server Push is not without its nuance.
+
+00:31:53.815 --> 00:31:56.902
+This is one of those optimizations 
+where you need to be careful.
+
+00:31:57.410 --> 00:32:00.531
+It's possible to over push.
+
+00:32:00.531 --> 00:32:04.298
+So, Server Push is not HTTP cache aware,
+
+00:32:04.298 --> 00:32:07.496
+so I could push something 
+for a particular page,
+
+00:32:07.496 --> 00:32:09.983
+the user could come back
+to another related page,
+
+00:32:09.983 --> 00:32:13.272
+and the server would push 
+those exact same resources again.
+
+00:32:13.802 --> 00:32:19.518
+The way to avoid that is by either
+using cookies or a serviceworker
+
+00:32:19.518 --> 00:32:24.139
+to avoid those refetches 
+for those types of resources
+
+00:32:24.139 --> 00:32:26.038
+and track what's in the cache,
+
+00:32:26.038 --> 00:32:28.185
+but it does involve 
+a little bit more work.
+
+00:32:28.185 --> 00:32:31.405
+In general, Server Push is an optimization
+that can have a big impact
+
+00:32:31.405 --> 00:32:33.644
+but just be aware of some of that nuance.
+
+00:32:33.644 --> 00:32:37.073
+It's not quite as simple 
+as just like turning it on sometimes.
+
+00:32:37.073 --> 00:32:41.557
+Now, Chloé used automatic Server Push,
+
+00:32:41.557 --> 00:32:44.091
+which is an implementation
+provided by Akamai.
+
+00:32:44.091 --> 00:32:47.032
+It uses data to decide, you know,
+
+00:32:47.032 --> 00:32:50.140
+when to push critical CSS,
+fonts and script.
+
+00:32:50.140 --> 00:32:54.180
+And if you're manually 
+using Server Push yourself,
+
+00:32:54.180 --> 00:32:57.496
+you might end up looking at syntax
+that looks a little bit like this.
+
+00:32:57.496 --> 00:33:00.810
+What we see here is the link HTTP header.
+
+00:33:01.641 --> 00:33:05.081
+This is actually the preload
+resource hint in action,
+
+00:33:05.081 --> 00:33:08.662
+and it's a separate 
+but distinct optimization
+
+00:33:08.662 --> 00:33:09.867
+from Server Push.
+
+00:33:09.867 --> 00:33:15.340
+But in reality, most HTTP/2 implementations
+will push an asset
+
+00:33:15.953 --> 00:33:20.073
+that's specified in a link header 
+containing a preload resource hint
+
+00:33:20.073 --> 00:33:25.686
+so you can use the syntax in order 
+to enable server pushes for a page.
+
+00:33:26.137 --> 00:33:28.301
+So, what was the impact
+of this optimization?
+
+00:33:28.301 --> 00:33:31.784
+Without Server Push, 
+Chloé were finding in their lab tests
+
+00:33:31.784 --> 00:33:35.274
+that LCP was closer to four seconds.
+
+00:33:35.274 --> 00:33:38.784
+But with it, it was closer to 2.5 seconds
+
+00:33:38.784 --> 00:33:41.207
+which is like a huge amount of impact.
+
+00:33:41.207 --> 00:33:44.681
+On screen at the moment we've been 
+verifying that using Lighthouse,
+
+00:33:44.681 --> 00:33:48.581
+but you can also tell 
+if individual requests,
+
+00:33:48.581 --> 00:33:52.427
+you know, were server pushed
+using things like dev tools
+
+00:33:52.427 --> 00:33:56.335
+and using things like webpage tests
+network waterfall view.
+
+00:33:56.335 --> 00:33:58.097
+Both are very, very handy.
+
+00:33:58.386 --> 00:34:01.639
+Now, we're on to 
+our very last metric-- Hurray!
+
+00:34:02.508 --> 00:34:05.266
+Chloé didn't optimize
+for First Input Delay,
+
+00:34:05.266 --> 00:34:07.565
+but I did want to very quickly cover it.
+
+00:34:07.565 --> 00:34:09.294
+Now, First Input Delay
+
+00:34:09.294 --> 00:34:13.200
+measures the time from when 
+a user first interacts with a page,
+
+00:34:13.200 --> 00:34:18.817
+so that moment when they start 
+to click on a button or tap some UI,
+
+00:34:19.294 --> 00:34:21.388
+some JavaScript powered control,
+
+00:34:21.388 --> 00:34:23.033
+to the time that the browser
+
+00:34:23.033 --> 00:34:25.920
+is actually able to respond
+to that interaction.
+
+00:34:26.368 --> 00:34:30.395
+There are many things that cause
+a poor First Input Delay.
+
+00:34:30.395 --> 00:34:33.947
+There can be long tasks
+on the main thread,
+
+00:34:33.947 --> 00:34:36.812
+heavy JavaScript execution.
+
+00:34:36.812 --> 00:34:39.353
+Large JavaScript bundles can delay
+
+00:34:39.353 --> 00:34:42.991
+how soon script 
+can be processed by the browser
+
+00:34:42.991 --> 00:34:44.847
+and it can have an impact here.
+
+00:34:44.847 --> 00:34:47.527
+And then, you have things 
+like render blocking script.
+
+00:34:47.527 --> 00:34:53.052
+Now in general, I would strongly recommend
+using Lighthouse and using dev tools
+
+00:34:53.052 --> 00:34:56.501
+because they do try to point out 
+areas where you might have long tasks
+
+00:34:56.501 --> 00:34:58.111
+or heavy script execution.
+
+00:34:58.111 --> 00:35:01.638
+Very often the solution 
+is to just break up this work,
+
+00:35:01.638 --> 00:35:04.327
+serve what the user needs
+when they need it
+
+00:35:04.327 --> 00:35:06.876
+and try to look at opportunities
+
+00:35:06.876 --> 00:35:10.652
+for, you know, minimizing 
+main thread work as much as possible.
+
+00:35:11.177 --> 00:35:14.098
+Sometimes people will contextualize this
+
+00:35:14.098 --> 00:35:16.648
+in terms of, you know, 
+maybe shift some of that work,
+
+00:35:16.648 --> 00:35:19.907
+some of the logic work to a web worker.
+
+00:35:19.907 --> 00:35:22.595
+But regardless of the path
+you want to take there,
+
+00:35:23.783 --> 00:35:26.365
+the end goal is essentially
+just making sure
+
+00:35:26.365 --> 00:35:28.235
+that the main thread isn't busy
+
+00:35:28.235 --> 00:35:30.318
+and that user interactions
+are not delayed.
+
+00:35:30.802 --> 00:35:34.214
+So, we're almost at the end
+of our journey with Chloé.
+
+00:35:34.843 --> 00:35:39.018
+Here we can take a look 
+at Chloe's overall Web Vitals in the lab.
+
+00:35:39.018 --> 00:35:43.104
+Thanks to their investments 
+in performance and user experience,
+
+00:35:43.104 --> 00:35:45.859
+they were able to reduce 
+their Cumulative Layout Shifts
+
+00:35:45.859 --> 00:35:49.529
+down to zero, 
+and their LCP by almost half.
+
+00:35:49.529 --> 00:35:52.428
+This is mind-blowingly awesome.
+
+00:35:52.428 --> 00:35:54.146
+This is like really, really cool.
+
+00:35:54.146 --> 00:35:58.404
+As you've seen, all of this work
+is kind of the culmination
+
+00:35:58.404 --> 00:36:01.201
+of a number of smaller optimizations
+
+00:36:01.201 --> 00:36:05.161
+that when added up, actually make 
+a pretty significant impact
+
+00:36:05.161 --> 00:36:06.736
+to your end user experience.
+
+00:36:06.736 --> 00:36:09.155
+And we don't have 
+to just look at data in the lab,
+
+00:36:09.155 --> 00:36:10.785
+we can look at the field as well.
+
+00:36:10.785 --> 00:36:15.134
+Here is Chrome user experience
+report data for Chloé.
+
+00:36:15.134 --> 00:36:16.470
+And as we can see,
+
+00:36:16.470 --> 00:36:19.621
+our Core Web Vitals metrics
+for LCP and CLS
+
+00:36:19.621 --> 00:36:21.990
+are trending in the right direction.
+
+00:36:22.458 --> 00:36:27.516
+CLS went from 0.85 down to 0
+in the latest data set
+
+00:36:27.516 --> 00:36:30.353
+and this is all,
+on the whole, tremendous work.
+
+00:36:30.353 --> 00:36:31.769
+It's really great to see,
+
+00:36:31.769 --> 00:36:34.729
+and I know that Chloé are happy to continue
+
+00:36:34.729 --> 00:36:37.008
+building on this work in the future as well.
+
+00:36:37.605 --> 00:36:40.825
+Now, if you're interested 
+in building dashboards like this
+
+00:36:40.825 --> 00:36:43.952
+for your own team, 
+measuring the Core Web Vitals,
+
+00:36:43.952 --> 00:36:45.941
+you might be interested in checking out
+
+00:36:45.941 --> 00:36:48.066
+the Chrome User Experience
+Report Dashboard.
+
+00:36:48.066 --> 00:36:51.788
+This is a great solution 
+that just allows you to drop in a URL
+
+00:36:51.788 --> 00:36:55.652
+and very quickly get access to field data
+
+00:36:55.652 --> 00:36:58.195
+and distributions 
+for the different Core Web Vitals.
+
+00:36:58.195 --> 00:37:00.270
+It also summarizes the metrics.
+
+00:37:00.270 --> 00:37:03.393
+So if you're trying 
+to share around this report
+
+00:37:03.393 --> 00:37:05.024
+with other people on your team,
+
+00:37:05.024 --> 00:37:08.162
+they'll hopefully be able 
+to also get some familiarity
+
+00:37:08.162 --> 00:37:09.722
+with the Core Web Vitals too.
+
+00:37:09.722 --> 00:37:15.911
+We also recently shipped a new Chrome
+user experience report API, CrUX API.
+
+00:37:15.911 --> 00:37:18.276
+This is great for programmatically
+
+00:37:18.276 --> 00:37:20.470
+being able to build out
+your own dashboards,
+
+00:37:20.470 --> 00:37:22.985
+very similar to what we were
+just taking a look at.
+
+00:37:22.985 --> 00:37:24.601
+So check that out too.
+
+00:37:24.601 --> 00:37:25.744
+And that's it!
+
+00:37:25.744 --> 00:37:28.965
+I hope that you found this talk useful.
+
+00:37:28.965 --> 00:37:31.734
+Go and optimize your Web Vitals.
+
+00:37:31.734 --> 00:37:34.564
+There are plenty of docs over on <i>web.dev</i>
+
+00:37:34.564 --> 00:37:38.661
+that cover the methodology, the tools,
+as well as the best practices
+
+00:37:38.661 --> 00:37:42.025
+that you can use 
+to get fast and stay fast.
+
+00:37:42.025 --> 00:37:43.526
+My name is Addy Osmani.
+
+00:37:43.526 --> 00:37:45.637
+I hope this has been useful. 
+Thank you.
+
+00:37:45.637 --> 00:37:48.311
+♪ (music) ♪
+

@@ -1,0 +1,65 @@
+shot beachboat
+shot boat
+shot boat2
+shot boat3
+shot boatlagoon
+shot canoe
+shot cape
+shot coast
+shot corridor
+shot dronie
+shot fan
+shot fanmacro
+shot fish
+shot garden
+shot garden2
+shot jellies
+shot jelly
+shot jelly2
+shot karstwall
+shot lagoon
+[vid.stab @ 000000ebf0bfdf28] L1 camera path: interior point method stalled at an accuracy of 1.24e-04 (built-in interior point, 15312 rows, 7656 cols)shot lagoonfull
+shot mushroom
+shot palms
+shot phinisi
+shot phinisifull
+shot profile
+shot reefsun
+shot reeftop
+shot reflect
+shot rock
+shot shark
+shot tables
+shot turtle
+shot turtle2
+shot turtlelong
+n03  21.0 s  15.3 MiB  Clear water
+n02  25.2 s  18.3 MiB  One rock, four angles
+n01  31.5 s  21.9 MiB  Raja Ampat karst saga
+n06  12.0 s  8.6 MiB  Teaser, 12 s
+n05  26.0 s  16.9 MiB  Red and turquoise
+n04  30.5 s  21.9 MiB  Islands first, then the reef
+n08  25.7 s  18.2 MiB  Chapters: dip to black
+n09  27.0 s  18.0 MiB  Underwater, second set
+n07  39.5 s  28.1 MiB  Slow cinema, 40 s
+n10  30.5 s  22.3 MiB  Boat journey to sunset
+n11  30.0 s  20.3 MiB  Drone only, second set
+n12  20.7 s  15.1 MiB  One take: jungle to lagoon
+n14  12.3 s  9.2 MiB  One take: phinisi at sunset
+n13  16.0 s  11.8 MiB  One take: the turtle
+n15  25.3 s  17.5 MiB  North Sulawesi only (GPS)
+n17  24.5 s  16.5 MiB  Opens with a jellyfish
+n16  29.0 s  20.4 MiB  Raja Ampat only
+n18  22.0 s  15.4 MiB  Opens with the turtle
+n19  28.0 s  20.4 MiB  Eye level, no drone
+n20  21.0 s  14.1 MiB  Above, below, in pairs
+n21  25.0 s  17.1 MiB  Blue to gold
+n23  26.0 s  18.2 MiB  Wildlife
+n22  31.0 s  22.6 MiB  People and boats
+n24  26.0 s  18.5 MiB  Loop that closes on itself
+n25  28.5 s  19.2 MiB  Reef first (01) with dissolves
+n26  30.5 s  21.5 MiB  A day (10), soft loop
+n27  18.9 s  13.9 MiB  Three shots only
+n28  23.0 s  15.5 MiB  Centred subjects, phone-first
+n29  21.2 s  15.5 MiB  Karst and clear water
+n30  36.0 s  25.0 MiB  Best of, 36 s

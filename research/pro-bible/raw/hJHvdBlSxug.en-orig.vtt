@@ -1,0 +1,2528 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.679 --> 00:00:05.349 align:start position:0%
+ 
+how<00:00:03.000><c> does</c><00:00:03.280><c> the</c><00:00:03.480><c> web</c><00:00:03.879><c> work</c><00:00:04.560><c> now</c><00:00:04.799><c> maybe</c><00:00:05.080><c> you're</c>
+
+00:00:05.349 --> 00:00:05.359 align:start position:0%
+how does the web work now maybe you're
+ 
+
+00:00:05.359 --> 00:00:07.789 align:start position:0%
+how does the web work now maybe you're
+now<00:00:05.640><c> thinking</c><00:00:06.640><c> but</c><00:00:06.839><c> what's</c><00:00:07.080><c> this</c><00:00:07.319><c> question</c><00:00:07.640><c> of</c>
+
+00:00:07.789 --> 00:00:07.799 align:start position:0%
+now thinking but what's this question of
+ 
+
+00:00:07.799 --> 00:00:09.709 align:start position:0%
+now thinking but what's this question of
+course<00:00:08.040><c> I</c><00:00:08.200><c> know</c><00:00:08.360><c> how</c><00:00:08.480><c> the</c><00:00:08.599><c> web</c><00:00:08.800><c> works</c><00:00:09.519><c> well</c>
+
+00:00:09.709 --> 00:00:09.719 align:start position:0%
+course I know how the web works well
+ 
+
+00:00:09.719 --> 00:00:11.870 align:start position:0%
+course I know how the web works well
+maybe<00:00:09.960><c> you</c><00:00:10.080><c> do</c><00:00:10.440><c> but</c><00:00:10.960><c> maybe</c><00:00:11.360><c> you're</c><00:00:11.599><c> also</c>
+
+00:00:11.870 --> 00:00:11.880 align:start position:0%
+maybe you do but maybe you're also
+ 
+
+00:00:11.880 --> 00:00:13.829 align:start position:0%
+maybe you do but maybe you're also
+leaving<00:00:12.240><c> out</c><00:00:12.440><c> some</c><00:00:12.639><c> important</c><00:00:13.080><c> parts</c><00:00:13.400><c> in</c><00:00:13.639><c> this</c>
+
+00:00:13.829 --> 00:00:13.839 align:start position:0%
+leaving out some important parts in this
+ 
+
+00:00:13.839 --> 00:00:15.789 align:start position:0%
+leaving out some important parts in this
+video<00:00:14.400><c> and</c><00:00:14.559><c> in</c><00:00:14.719><c> the</c><00:00:14.879><c> article</c><00:00:15.320><c> which</c><00:00:15.440><c> you</c><00:00:15.559><c> find</c>
+
+00:00:15.789 --> 00:00:15.799 align:start position:0%
+video and in the article which you find
+ 
+
+00:00:15.799 --> 00:00:17.230 align:start position:0%
+video and in the article which you find
+below<00:00:16.080><c> the</c><00:00:16.199><c> video</c><00:00:16.400><c> in</c><00:00:16.480><c> the</c><00:00:16.600><c> video</c><00:00:16.800><c> description</c>
+
+00:00:17.230 --> 00:00:17.240 align:start position:0%
+below the video in the video description
+ 
+
+00:00:17.240 --> 00:00:19.710 align:start position:0%
+below the video in the video description
+also<00:00:18.119><c> I</c><00:00:18.160><c> will</c><00:00:18.359><c> have</c><00:00:18.480><c> a</c><00:00:18.600><c> look</c><00:00:18.760><c> at</c><00:00:19.039><c> how</c><00:00:19.199><c> the</c><00:00:19.400><c> web</c>
+
+00:00:19.710 --> 00:00:19.720 align:start position:0%
+also I will have a look at how the web
+ 
+
+00:00:19.720 --> 00:00:21.590 align:start position:0%
+also I will have a look at how the web
+Works<00:00:20.240><c> which</c><00:00:20.519><c> different</c><00:00:21.000><c> pieces</c><00:00:21.320><c> are</c>
+
+00:00:21.590 --> 00:00:21.600 align:start position:0%
+Works which different pieces are
+ 
+
+00:00:21.600 --> 00:00:24.029 align:start position:0%
+Works which different pieces are
+involved<00:00:22.199><c> and</c><00:00:22.400><c> how</c><00:00:22.680><c> that</c><00:00:22.920><c> influences</c><00:00:23.640><c> what</c>
+
+00:00:24.029 --> 00:00:24.039 align:start position:0%
+involved and how that influences what
+ 
+
+00:00:24.039 --> 00:00:25.470 align:start position:0%
+involved and how that influences what
+you<00:00:24.439><c> if</c><00:00:24.560><c> you</c><00:00:24.680><c> want</c><00:00:24.800><c> to</c><00:00:24.960><c> become</c><00:00:25.160><c> a</c><00:00:25.279><c> web</c>
+
+00:00:25.470 --> 00:00:25.480 align:start position:0%
+you if you want to become a web
+ 
+
+00:00:25.480 --> 00:00:27.310 align:start position:0%
+you if you want to become a web
+developer<00:00:25.960><c> or</c><00:00:26.080><c> if</c><00:00:26.199><c> you</c><00:00:26.439><c> simply</c><00:00:26.840><c> interested</c>
+
+00:00:27.310 --> 00:00:27.320 align:start position:0%
+developer or if you simply interested
+ 
+
+00:00:27.320 --> 00:00:29.509 align:start position:0%
+developer or if you simply interested
+into<00:00:27.560><c> the</c><00:00:27.800><c> topic</c><00:00:28.599><c> should</c><00:00:28.920><c> learn</c><00:00:29.240><c> and</c><00:00:29.359><c> should</c>
+
+00:00:29.509 --> 00:00:29.519 align:start position:0%
+into the topic should learn and should
+ 
+
+00:00:29.519 --> 00:00:31.589 align:start position:0%
+into the topic should learn and should
+be<00:00:29.679><c> aware</c><00:00:30.160><c> off</c><00:00:30.720><c> now</c><00:00:30.880><c> as</c><00:00:31.039><c> always</c><00:00:31.279><c> if</c><00:00:31.359><c> you're</c>
+
+00:00:31.589 --> 00:00:31.599 align:start position:0%
+be aware off now as always if you're
+ 
+
+00:00:31.599 --> 00:00:33.709 align:start position:0%
+be aware off now as always if you're
+liking<00:00:31.960><c> this</c><00:00:32.160><c> I'd</c><00:00:32.439><c> love</c><00:00:32.680><c> to</c><00:00:33.000><c> welcome</c><00:00:33.320><c> you</c><00:00:33.480><c> as</c><00:00:33.559><c> a</c>
+
+00:00:33.709 --> 00:00:33.719 align:start position:0%
+liking this I'd love to welcome you as a
+ 
+
+00:00:33.719 --> 00:00:35.790 align:start position:0%
+liking this I'd love to welcome you as a
+subscriber<00:00:34.440><c> please</c><00:00:34.680><c> share</c><00:00:34.960><c> the</c><00:00:35.120><c> video</c><00:00:35.520><c> and</c>
+
+00:00:35.790 --> 00:00:35.800 align:start position:0%
+subscriber please share the video and
+ 
+
+00:00:35.800 --> 00:00:37.950 align:start position:0%
+subscriber please share the video and
+the<00:00:35.960><c> usual</c><00:00:36.399><c> stuff</c><00:00:37.040><c> with</c><00:00:37.200><c> that</c><00:00:37.360><c> let's</c><00:00:37.520><c> lose</c><00:00:37.719><c> no</c>
+
+00:00:37.950 --> 00:00:37.960 align:start position:0%
+the usual stuff with that let's lose no
+ 
+
+00:00:37.960 --> 00:00:44.430 align:start position:0%
+the usual stuff with that let's lose no
+time<00:00:38.079><c> and</c><00:00:38.239><c> Dive</c><00:00:38.559><c> Right</c>
+
+00:00:44.430 --> 00:00:44.440 align:start position:0%
+ 
+ 
+
+00:00:44.440 --> 00:00:47.830 align:start position:0%
+ 
+In<00:00:45.440><c> with</c><00:00:45.640><c> that</c><00:00:45.879><c> let's</c><00:00:46.199><c> start</c><00:00:46.680><c> with</c><00:00:47.239><c> the</c><00:00:47.440><c> basic</c>
+
+00:00:47.830 --> 00:00:47.840 align:start position:0%
+In with that let's start with the basic
+ 
+
+00:00:47.840 --> 00:00:49.869 align:start position:0%
+In with that let's start with the basic
+the<00:00:48.000><c> most</c><00:00:48.280><c> common</c><00:00:48.559><c> scenario</c><00:00:49.280><c> you're</c><00:00:49.520><c> visiting</c>
+
+00:00:49.869 --> 00:00:49.879 align:start position:0%
+the most common scenario you're visiting
+ 
+
+00:00:49.879 --> 00:00:52.069 align:start position:0%
+the most common scenario you're visiting
+a<00:00:50.000><c> web</c><00:00:50.199><c> page</c><00:00:50.480><c> like</c><00:00:50.840><c> our</c><00:00:51.120><c> web</c><00:00:51.320><c> page</c><00:00:51.680><c> academ</c>
+
+00:00:52.069 --> 00:00:52.079 align:start position:0%
+a web page like our web page academ
+ 
+
+00:00:52.079 --> 00:00:55.709 align:start position:0%
+a web page like our web page academ
+mind.com<00:00:52.640><c> so</c><00:00:53.640><c> you</c><00:00:54.280><c> fire</c><00:00:54.559><c> up</c><00:00:54.760><c> your</c><00:00:54.920><c> browser</c><00:00:55.520><c> you</c>
+
+00:00:55.709 --> 00:00:55.719 align:start position:0%
+mind.com so you fire up your browser you
+ 
+
+00:00:55.719 --> 00:01:00.270 align:start position:0%
+mind.com so you fire up your browser you
+enter<00:00:56.800><c> htps</c><00:00:57.920><c> www</c><00:00:58.920><c> academy.com</c><00:00:59.680><c> or</c><00:00:59.960><c> or</c><00:01:00.079><c> maybe</c>
+
+00:01:00.270 --> 00:01:00.280 align:start position:0%
+enter htps www academy.com or or maybe
+ 
+
+00:01:00.280 --> 00:01:01.910 align:start position:0%
+enter htps www academy.com or or maybe
+just<00:01:00.519><c> academ</c><00:01:00.879><c> mind.com</c><00:01:01.199><c> and</c><00:01:01.440><c> the</c><00:01:01.519><c> browser</c>
+
+00:01:01.910 --> 00:01:01.920 align:start position:0%
+just academ mind.com and the browser
+ 
+
+00:01:01.920 --> 00:01:04.070 align:start position:0%
+just academ mind.com and the browser
+adds<00:01:02.239><c> the</c><00:01:02.840><c> other</c><00:01:03.239><c> parts</c><00:01:03.480><c> and</c><00:01:03.600><c> I'll</c><00:01:03.760><c> come</c><00:01:03.960><c> back</c>
+
+00:01:04.070 --> 00:01:04.080 align:start position:0%
+adds the other parts and I'll come back
+ 
+
+00:01:04.080 --> 00:01:07.230 align:start position:0%
+adds the other parts and I'll come back
+to<00:01:04.239><c> that</c><00:01:04.360><c> in</c><00:01:04.439><c> a</c><00:01:04.920><c> second</c><00:01:05.920><c> now</c><00:01:06.280><c> you</c><00:01:06.560><c> expect</c><00:01:07.040><c> the</c>
+
+00:01:07.230 --> 00:01:07.240 align:start position:0%
+to that in a second now you expect the
+ 
+
+00:01:07.240 --> 00:01:08.950 align:start position:0%
+to that in a second now you expect the
+website<00:01:07.560><c> to</c><00:01:07.680><c> show</c><00:01:07.960><c> up</c><00:01:08.159><c> on</c><00:01:08.280><c> the</c><00:01:08.439><c> screen</c><00:01:08.799><c> but</c>
+
+00:01:08.950 --> 00:01:08.960 align:start position:0%
+website to show up on the screen but
+ 
+
+00:01:08.960 --> 00:01:11.270 align:start position:0%
+website to show up on the screen but
+what<00:01:09.080><c> is</c><00:01:09.320><c> actually</c><00:01:09.680><c> happening</c><00:01:10.200><c> behind</c><00:01:10.520><c> the</c>
+
+00:01:11.270 --> 00:01:11.280 align:start position:0%
+what is actually happening behind the
+ 
+
+00:01:11.280 --> 00:01:14.630 align:start position:0%
+what is actually happening behind the
+scenes<00:01:12.280><c> well</c><00:01:12.600><c> the</c><00:01:12.799><c> website</c><00:01:13.400><c> is</c><00:01:13.759><c> stored</c><00:01:14.400><c> on</c>
+
+00:01:14.630 --> 00:01:14.640 align:start position:0%
+scenes well the website is stored on
+ 
+
+00:01:14.640 --> 00:01:16.749 align:start position:0%
+scenes well the website is stored on
+some<00:01:14.960><c> server</c><00:01:15.680><c> so</c><00:01:15.920><c> the</c><00:01:16.080><c> website</c><00:01:16.400><c> you're</c><00:01:16.520><c> seeing</c>
+
+00:01:16.749 --> 00:01:16.759 align:start position:0%
+some server so the website you're seeing
+ 
+
+00:01:16.759 --> 00:01:18.870 align:start position:0%
+some server so the website you're seeing
+is<00:01:16.960><c> either</c><00:01:17.240><c> generated</c><00:01:17.759><c> dynamically</c><00:01:18.360><c> there</c><00:01:18.600><c> or</c>
+
+00:01:18.870 --> 00:01:18.880 align:start position:0%
+is either generated dynamically there or
+ 
+
+00:01:18.880 --> 00:01:20.950 align:start position:0%
+is either generated dynamically there or
+the<00:01:19.040><c> code</c><00:01:19.280><c> for</c><00:01:19.479><c> it</c><00:01:19.680><c> was</c><00:01:19.920><c> actually</c><00:01:20.240><c> stored</c>
+
+00:01:20.950 --> 00:01:20.960 align:start position:0%
+the code for it was actually stored
+ 
+
+00:01:20.960 --> 00:01:24.069 align:start position:0%
+the code for it was actually stored
+there<00:01:21.200><c> already</c><00:01:21.960><c> and</c><00:01:22.119><c> is</c><00:01:22.479><c> returned</c><00:01:23.079><c> back</c>
+
+00:01:24.069 --> 00:01:24.079 align:start position:0%
+there already and is returned back
+ 
+
+00:01:24.079 --> 00:01:26.950 align:start position:0%
+there already and is returned back
+because<00:01:24.520><c> your</c><00:01:24.759><c> browser</c><00:01:25.240><c> in</c><00:01:25.360><c> the</c><00:01:25.479><c> end</c><00:01:25.920><c> is</c><00:01:26.240><c> just</c>
+
+00:01:26.950 --> 00:01:26.960 align:start position:0%
+because your browser in the end is just
+ 
+
+00:01:26.960 --> 00:01:29.550 align:start position:0%
+because your browser in the end is just
+an<00:01:27.200><c> interpreter</c><00:01:28.000><c> you</c><00:01:28.159><c> could</c><00:01:28.320><c> say</c><00:01:29.000><c> that</c><00:01:29.200><c> gets</c>
+
+00:01:29.550 --> 00:01:29.560 align:start position:0%
+an interpreter you could say that gets
+ 
+
+00:01:29.560 --> 00:01:31.990 align:start position:0%
+an interpreter you could say that gets
+back<00:01:30.360><c> certain</c><00:01:30.840><c> source</c><00:01:31.280><c> code</c><00:01:31.479><c> to</c><00:01:31.640><c> which</c><00:01:31.759><c> I</c><00:01:31.840><c> will</c>
+
+00:01:31.990 --> 00:01:32.000 align:start position:0%
+back certain source code to which I will
+ 
+
+00:01:32.000 --> 00:01:33.950 align:start position:0%
+back certain source code to which I will
+come<00:01:32.159><c> back</c><00:01:32.280><c> in</c><00:01:32.399><c> a</c><00:01:32.600><c> second</c><00:01:33.079><c> and</c><00:01:33.200><c> it</c><00:01:33.360><c> can</c><00:01:33.560><c> display</c>
+
+00:01:33.950 --> 00:01:33.960 align:start position:0%
+come back in a second and it can display
+ 
+
+00:01:33.960 --> 00:01:35.910 align:start position:0%
+come back in a second and it can display
+that<00:01:34.119><c> on</c><00:01:34.240><c> the</c><00:01:34.399><c> screen</c><00:01:34.920><c> and</c><00:01:35.159><c> that</c><00:01:35.320><c> source</c><00:01:35.680><c> code</c>
+
+00:01:35.910 --> 00:01:35.920 align:start position:0%
+that on the screen and that source code
+ 
+
+00:01:35.920 --> 00:01:37.550 align:start position:0%
+that on the screen and that source code
+could<00:01:36.119><c> either</c><00:01:36.399><c> be</c><00:01:36.560><c> stored</c><00:01:36.960><c> on</c><00:01:37.079><c> the</c><00:01:37.200><c> server</c>
+
+00:01:37.550 --> 00:01:37.560 align:start position:0%
+could either be stored on the server
+ 
+
+00:01:37.560 --> 00:01:40.429 align:start position:0%
+could either be stored on the server
+already<00:01:38.119><c> or</c><00:01:38.360><c> it's</c><00:01:38.600><c> generated</c><00:01:39.119><c> by</c><00:01:39.280><c> the</c><00:01:39.439><c> server</c>
+
+00:01:40.429 --> 00:01:40.439 align:start position:0%
+already or it's generated by the server
+ 
+
+00:01:40.439 --> 00:01:42.109 align:start position:0%
+already or it's generated by the server
+but<00:01:40.600><c> one</c><00:01:40.799><c> important</c><00:01:41.240><c> question</c><00:01:41.600><c> at</c><00:01:41.759><c> this</c><00:01:41.920><c> point</c>
+
+00:01:42.109 --> 00:01:42.119 align:start position:0%
+but one important question at this point
+ 
+
+00:01:42.119 --> 00:01:45.469 align:start position:0%
+but one important question at this point
+of<00:01:42.240><c> time</c><00:01:42.640><c> already</c><00:01:43.000><c> is</c><00:01:43.960><c> how</c><00:01:44.320><c> does</c><00:01:44.840><c> the</c><00:01:45.040><c> server</c>
+
+00:01:45.469 --> 00:01:45.479 align:start position:0%
+of time already is how does the server
+ 
+
+00:01:45.479 --> 00:01:48.830 align:start position:0%
+of time already is how does the server
+know<00:01:45.920><c> that</c><00:01:46.079><c> we</c><00:01:46.240><c> do</c><00:01:46.560><c> mean</c><00:01:47.280><c> it</c><00:01:47.680><c> the</c><00:01:47.840><c> server</c><00:01:48.680><c> by</c>
+
+00:01:48.830 --> 00:01:48.840 align:start position:0%
+know that we do mean it the server by
+ 
+
+00:01:48.840 --> 00:01:51.670 align:start position:0%
+know that we do mean it the server by
+entering<00:01:49.399><c> academ</c><00:01:49.799><c> mind.com</c><00:01:50.320><c> is</c><00:01:51.320><c> this</c><00:01:51.479><c> the</c>
+
+00:01:51.670 --> 00:01:51.680 align:start position:0%
+entering academ mind.com is this the
+ 
+
+00:01:51.680 --> 00:01:53.270 align:start position:0%
+entering academ mind.com is this the
+address<00:01:52.000><c> of</c><00:01:52.119><c> the</c><00:01:52.240><c> server</c><00:01:52.600><c> just</c><00:01:52.799><c> like</c><00:01:53.040><c> your</c>
+
+00:01:53.270 --> 00:01:53.280 align:start position:0%
+address of the server just like your
+ 
+
+00:01:53.280 --> 00:01:55.870 align:start position:0%
+address of the server just like your
+street<00:01:53.600><c> and</c><00:01:53.880><c> house</c><00:01:54.079><c> number</c><00:01:54.320><c> is</c><00:01:54.479><c> your</c><00:01:54.880><c> address</c>
+
+00:01:55.870 --> 00:01:55.880 align:start position:0%
+street and house number is your address
+ 
+
+00:01:55.880 --> 00:01:58.389 align:start position:0%
+street and house number is your address
+actually<00:01:56.280><c> not</c><00:01:57.039><c> the</c><00:01:57.320><c> official</c><00:01:57.880><c> address</c><00:01:58.240><c> of</c>
+
+00:01:58.389 --> 00:01:58.399 align:start position:0%
+actually not the official address of
+ 
+
+00:01:58.399 --> 00:02:01.069 align:start position:0%
+actually not the official address of
+each<00:01:58.600><c> server</c><00:01:59.039><c> is</c><00:01:59.280><c> an</c><00:01:59.520><c> i</c><00:02:00.000><c> P</c><00:02:00.360><c> IP</c><00:02:00.680><c> stands</c><00:02:00.920><c> for</c>
+
+00:02:01.069 --> 00:02:01.079 align:start position:0%
+each server is an i P IP stands for
+ 
+
+00:02:01.079 --> 00:02:04.029 align:start position:0%
+each server is an i P IP stands for
+Internet<00:02:01.520><c> Protocol</c><00:02:02.439><c> address</c><00:02:03.399><c> and</c><00:02:03.520><c> an</c><00:02:03.719><c> IP</c>
+
+00:02:04.029 --> 00:02:04.039 align:start position:0%
+Internet Protocol address and an IP
+ 
+
+00:02:04.039 --> 00:02:06.590 align:start position:0%
+Internet Protocol address and an IP
+address<00:02:04.360><c> looks</c><00:02:04.640><c> something</c><00:02:05.079><c> like</c><00:02:05.399><c> this</c><00:02:06.200><c> or</c><00:02:06.479><c> in</c>
+
+00:02:06.590 --> 00:02:06.600 align:start position:0%
+address looks something like this or in
+ 
+
+00:02:06.600 --> 00:02:08.869 align:start position:0%
+address looks something like this or in
+a<00:02:06.759><c> more</c><00:02:07.000><c> modern</c><00:02:07.439><c> version</c><00:02:08.000><c> like</c>
+
+00:02:08.869 --> 00:02:08.879 align:start position:0%
+a more modern version like
+ 
+
+00:02:08.879 --> 00:02:11.589 align:start position:0%
+a more modern version like
+this<00:02:09.879><c> this</c><00:02:10.000><c> is</c><00:02:10.200><c> of</c><00:02:10.360><c> course</c><00:02:10.640><c> not</c><00:02:10.840><c> something</c><00:02:11.160><c> you</c>
+
+00:02:11.589 --> 00:02:11.599 align:start position:0%
+this this is of course not something you
+ 
+
+00:02:11.599 --> 00:02:13.430 align:start position:0%
+this this is of course not something you
+would<00:02:11.800><c> want</c><00:02:11.959><c> to</c><00:02:12.120><c> enter</c><00:02:12.440><c> into</c><00:02:12.680><c> your</c><00:02:12.879><c> browser</c>
+
+00:02:13.430 --> 00:02:13.440 align:start position:0%
+would want to enter into your browser
+ 
+
+00:02:13.440 --> 00:02:15.030 align:start position:0%
+would want to enter into your browser
+but<00:02:13.599><c> you</c><00:02:13.720><c> could</c><00:02:13.959><c> do</c><00:02:14.120><c> it</c><00:02:14.360><c> actually</c><00:02:14.720><c> you</c><00:02:14.840><c> could</c>
+
+00:02:15.030 --> 00:02:15.040 align:start position:0%
+but you could do it actually you could
+ 
+
+00:02:15.040 --> 00:02:17.030 align:start position:0%
+but you could do it actually you could
+enter<00:02:15.480><c> such</c><00:02:15.680><c> an</c><00:02:15.879><c> address</c><00:02:16.160><c> if</c><00:02:16.280><c> you</c><00:02:16.400><c> knew</c><00:02:16.640><c> it</c>
+
+00:02:17.030 --> 00:02:17.040 align:start position:0%
+enter such an address if you knew it
+ 
+
+00:02:17.040 --> 00:02:18.990 align:start position:0%
+enter such an address if you knew it
+into<00:02:17.319><c> the</c><00:02:17.480><c> browser</c><00:02:17.920><c> and</c><00:02:18.120><c> visit</c><00:02:18.400><c> a</c><00:02:18.560><c> website</c>
+
+00:02:18.990 --> 00:02:19.000 align:start position:0%
+into the browser and visit a website
+ 
+
+00:02:19.000 --> 00:02:21.350 align:start position:0%
+into the browser and visit a website
+with<00:02:19.239><c> just</c><00:02:19.519><c> that</c><00:02:19.879><c> address</c><00:02:20.680><c> but</c><00:02:20.800><c> of</c><00:02:20.959><c> course</c><00:02:21.160><c> the</c>
+
+00:02:21.350 --> 00:02:21.360 align:start position:0%
+with just that address but of course the
+ 
+
+00:02:21.360 --> 00:02:23.470 align:start position:0%
+with just that address but of course the
+domain<00:02:21.920><c> as</c><00:02:22.120><c> this</c><00:02:22.319><c> other</c><00:02:22.959><c> thing</c><00:02:23.160><c> here</c><00:02:23.319><c> is</c>
+
+00:02:23.470 --> 00:02:23.480 align:start position:0%
+domain as this other thing here is
+ 
+
+00:02:23.480 --> 00:02:26.150 align:start position:0%
+domain as this other thing here is
+called<00:02:23.879><c> is</c><00:02:24.080><c> much</c><00:02:24.319><c> more</c><00:02:24.599><c> human</c><00:02:24.959><c> readable</c><00:02:25.959><c> and</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+called is much more human readable and
+ 
+
+00:02:26.160 --> 00:02:28.270 align:start position:0%
+called is much more human readable and
+therefore<00:02:26.599><c> the</c><00:02:26.800><c> actual</c><00:02:27.160><c> Thirst</c><00:02:27.760><c> thing</c><00:02:28.040><c> that</c>
+
+00:02:28.270 --> 00:02:28.280 align:start position:0%
+therefore the actual Thirst thing that
+ 
+
+00:02:28.280 --> 00:02:30.750 align:start position:0%
+therefore the actual Thirst thing that
+happens<00:02:28.720><c> when</c><00:02:28.879><c> you</c><00:02:29.040><c> enter</c><00:02:29.599><c> this</c><00:02:30.200><c> is</c><00:02:30.360><c> that</c><00:02:30.519><c> your</c>
+
+00:02:30.750 --> 00:02:30.760 align:start position:0%
+happens when you enter this is that your
+ 
+
+00:02:30.760 --> 00:02:34.710 align:start position:0%
+happens when you enter this is that your
+browser<00:02:31.280><c> contacts</c><00:02:31.760><c> a</c><00:02:32.480><c> DNS</c><00:02:33.480><c> uh</c><00:02:33.680><c> domain</c><00:02:34.239><c> name</c>
+
+00:02:34.710 --> 00:02:34.720 align:start position:0%
+browser contacts a DNS uh domain name
+ 
+
+00:02:34.720 --> 00:02:37.670 align:start position:0%
+browser contacts a DNS uh domain name
+system<00:02:35.560><c> server</c><00:02:36.560><c> which</c><00:02:36.720><c> is</c><00:02:36.920><c> basically</c><00:02:37.319><c> like</c><00:02:37.440><c> a</c>
+
+00:02:37.670 --> 00:02:37.680 align:start position:0%
+system server which is basically like a
+ 
+
+00:02:37.680 --> 00:02:40.070 align:start position:0%
+system server which is basically like a
+huge<00:02:38.160><c> dictionary</c><00:02:38.959><c> where</c><00:02:39.239><c> each</c><00:02:39.519><c> domain</c><00:02:39.879><c> name</c>
+
+00:02:40.070 --> 00:02:40.080 align:start position:0%
+huge dictionary where each domain name
+ 
+
+00:02:40.080 --> 00:02:42.630 align:start position:0%
+huge dictionary where each domain name
+is<00:02:40.280><c> mapped</c><00:02:40.640><c> to</c><00:02:40.800><c> an</c><00:02:41.000><c> IP</c><00:02:41.280><c> you</c><00:02:41.440><c> could</c><00:02:41.599><c> say</c><00:02:42.400><c> and</c>
+
+00:02:42.630 --> 00:02:42.640 align:start position:0%
+is mapped to an IP you could say and
+ 
+
+00:02:42.640 --> 00:02:44.910 align:start position:0%
+is mapped to an IP you could say and
+then<00:02:42.959><c> therefore</c><00:02:43.560><c> this</c><00:02:43.920><c> DNS</c><00:02:44.480><c> server</c>
+
+00:02:44.910 --> 00:02:44.920 align:start position:0%
+then therefore this DNS server
+ 
+
+00:02:44.920 --> 00:02:48.430 align:start position:0%
+then therefore this DNS server
+translates<00:02:45.640><c> your</c><00:02:46.159><c> academy.com</c><00:02:47.159><c> domain</c><00:02:47.959><c> into</c>
+
+00:02:48.430 --> 00:02:48.440 align:start position:0%
+translates your academy.com domain into
+ 
+
+00:02:48.440 --> 00:02:51.350 align:start position:0%
+translates your academy.com domain into
+an<00:02:48.800><c> IP</c><00:02:49.239><c> address</c><00:02:49.959><c> this</c><00:02:50.159><c> IP</c><00:02:50.599><c> address</c><00:02:50.959><c> is</c><00:02:51.159><c> then</c>
+
+00:02:51.350 --> 00:02:51.360 align:start position:0%
+an IP address this IP address is then
+ 
+
+00:02:51.360 --> 00:02:53.670 align:start position:0%
+an IP address this IP address is then
+given<00:02:51.599><c> to</c><00:02:51.760><c> the</c><00:02:51.920><c> browser</c><00:02:52.560><c> and</c><00:02:52.760><c> with</c><00:02:53.080><c> that</c><00:02:53.519><c> the</c>
+
+00:02:53.670 --> 00:02:53.680 align:start position:0%
+given to the browser and with that the
+ 
+
+00:02:53.680 --> 00:02:55.710 align:start position:0%
+given to the browser and with that the
+browser<00:02:54.120><c> can</c><00:02:54.360><c> actually</c><00:02:54.720><c> make</c><00:02:55.000><c> that</c><00:02:55.239><c> request</c>
+
+00:02:55.710 --> 00:02:55.720 align:start position:0%
+browser can actually make that request
+ 
+
+00:02:55.720 --> 00:02:58.350 align:start position:0%
+browser can actually make that request
+to<00:02:55.879><c> the</c><00:02:56.040><c> server</c><00:02:56.440><c> which</c><00:02:56.680><c> has</c><00:02:56.879><c> the</c><00:02:57.040><c> IP</c><00:02:57.360><c> address</c>
+
+00:02:58.350 --> 00:02:58.360 align:start position:0%
+to the server which has the IP address
+ 
+
+00:02:58.360 --> 00:03:00.470 align:start position:0%
+to the server which has the IP address
+then<00:02:58.640><c> there</c><00:02:59.000><c> as</c><00:02:59.280><c> as</c><00:02:59.360><c> I</c><00:02:59.440><c> mentioned</c><00:02:59.959><c> we</c><00:03:00.120><c> have</c><00:03:00.319><c> or</c>
+
+00:03:00.470 --> 00:03:00.480 align:start position:0%
+then there as as I mentioned we have or
+ 
+
+00:03:00.480 --> 00:03:02.990 align:start position:0%
+then there as as I mentioned we have or
+we<00:03:00.680><c> generate</c><00:03:01.599><c> the</c><00:03:02.000><c> source</c><00:03:02.440><c> code</c><00:03:02.640><c> for</c><00:03:02.800><c> the</c>
+
+00:03:02.990 --> 00:03:03.000 align:start position:0%
+we generate the source code for the
+ 
+
+00:03:03.000 --> 00:03:05.710 align:start position:0%
+we generate the source code for the
+website<00:03:03.799><c> and</c><00:03:03.959><c> then</c><00:03:04.239><c> this</c><00:03:04.519><c> is</c><00:03:04.920><c> sent</c><00:03:05.400><c> back</c><00:03:05.560><c> to</c>
+
+00:03:05.710 --> 00:03:05.720 align:start position:0%
+website and then this is sent back to
+ 
+
+00:03:05.720 --> 00:03:08.710 align:start position:0%
+website and then this is sent back to
+the<00:03:05.879><c> browser</c><00:03:06.760><c> where</c><00:03:06.959><c> this</c><00:03:07.200><c> website</c><00:03:07.720><c> is</c><00:03:07.959><c> now</c>
+
+00:03:08.710 --> 00:03:08.720 align:start position:0%
+the browser where this website is now
+ 
+
+00:03:08.720 --> 00:03:11.030 align:start position:0%
+the browser where this website is now
+displayed<00:03:09.720><c> that</c><00:03:09.840><c> is</c><00:03:10.080><c> how</c><00:03:10.360><c> this</c><00:03:10.519><c> works</c><00:03:10.760><c> in</c><00:03:10.879><c> a</c>
+
+00:03:11.030 --> 00:03:11.040 align:start position:0%
+displayed that is how this works in a
+ 
+
+00:03:11.040 --> 00:03:13.350 align:start position:0%
+displayed that is how this works in a
+nutshell<00:03:11.799><c> now</c><00:03:12.000><c> the</c><00:03:12.239><c> part</c><00:03:12.599><c> where</c><00:03:12.799><c> you</c><00:03:12.959><c> enter</c>
+
+00:03:13.350 --> 00:03:13.360 align:start position:0%
+nutshell now the part where you enter
+ 
+
+00:03:13.360 --> 00:03:15.309 align:start position:0%
+nutshell now the part where you enter
+the<00:03:13.599><c> URL</c><00:03:14.400><c> so</c>
+
+00:03:15.309 --> 00:03:15.319 align:start position:0%
+the URL so
+ 
+
+00:03:15.319 --> 00:03:19.470 align:start position:0%
+the URL so
+academy.com<00:03:16.319><c> and</c><00:03:16.920><c> you</c><00:03:17.280><c> send</c><00:03:17.760><c> this</c><00:03:18.560><c> off</c><00:03:18.840><c> to</c><00:03:19.319><c> the</c>
+
+00:03:19.470 --> 00:03:19.480 align:start position:0%
+academy.com and you send this off to the
+ 
+
+00:03:19.480 --> 00:03:22.110 align:start position:0%
+academy.com and you send this off to the
+internet<00:03:20.319><c> that</c><00:03:20.440><c> is</c><00:03:20.640><c> called</c><00:03:20.879><c> a</c><00:03:21.120><c> request</c><00:03:21.959><c> the</c>
+
+00:03:22.110 --> 00:03:22.120 align:start position:0%
+internet that is called a request the
+ 
+
+00:03:22.120 --> 00:03:25.390 align:start position:0%
+internet that is called a request the
+browser<00:03:22.599><c> makes</c><00:03:22.879><c> a</c><00:03:23.159><c> request</c><00:03:24.000><c> for</c><00:03:24.400><c> this</c><00:03:24.720><c> page</c>
+
+00:03:25.390 --> 00:03:25.400 align:start position:0%
+browser makes a request for this page
+ 
+
+00:03:25.400 --> 00:03:27.869 align:start position:0%
+browser makes a request for this page
+and<00:03:25.519><c> a</c><00:03:25.760><c> request</c><00:03:26.200><c> is</c><00:03:26.360><c> like</c><00:03:26.519><c> a</c><00:03:26.879><c> package</c><00:03:27.159><c> of</c><00:03:27.360><c> data</c>
+
+00:03:27.869 --> 00:03:27.879 align:start position:0%
+and a request is like a package of data
+ 
+
+00:03:27.879 --> 00:03:30.710 align:start position:0%
+and a request is like a package of data
+where<00:03:28.120><c> this</c><00:03:28.360><c> URL</c><00:03:28.879><c> is</c><00:03:29.080><c> one</c><00:03:29.400><c> part</c><00:03:30.080><c> but</c><00:03:30.280><c> another</c>
+
+00:03:30.710 --> 00:03:30.720 align:start position:0%
+where this URL is one part but another
+ 
+
+00:03:30.720 --> 00:03:33.229 align:start position:0%
+where this URL is one part but another
+part<00:03:31.000><c> would</c><00:03:31.239><c> be</c><00:03:31.920><c> the</c><00:03:32.200><c> type</c><00:03:32.439><c> of</c><00:03:32.680><c> request</c>
+
+00:03:33.229 --> 00:03:33.239 align:start position:0%
+part would be the type of request
+ 
+
+00:03:33.239 --> 00:03:34.910 align:start position:0%
+part would be the type of request
+because<00:03:33.480><c> it</c><00:03:33.599><c> turns</c><00:03:33.879><c> out</c><00:03:34.080><c> there</c><00:03:34.200><c> are</c><00:03:34.480><c> different</c>
+
+00:03:34.910 --> 00:03:34.920 align:start position:0%
+because it turns out there are different
+ 
+
+00:03:34.920 --> 00:03:37.429 align:start position:0%
+because it turns out there are different
+types<00:03:35.760><c> which</c><00:03:35.879><c> you</c><00:03:36.080><c> for</c><00:03:36.280><c> example</c><00:03:36.640><c> use</c><00:03:36.879><c> for</c>
+
+00:03:37.429 --> 00:03:37.439 align:start position:0%
+types which you for example use for
+ 
+
+00:03:37.439 --> 00:03:39.789 align:start position:0%
+types which you for example use for
+getting<00:03:37.799><c> a</c><00:03:37.959><c> website</c><00:03:38.400><c> or</c><00:03:38.560><c> for</c><00:03:39.040><c> storing</c><00:03:39.560><c> some</c>
+
+00:03:39.789 --> 00:03:39.799 align:start position:0%
+getting a website or for storing some
+ 
+
+00:03:39.799 --> 00:03:41.589 align:start position:0%
+getting a website or for storing some
+data<00:03:40.040><c> in</c><00:03:40.120><c> the</c><00:03:40.280><c> web</c><00:03:40.480><c> so</c><00:03:40.640><c> if</c><00:03:40.720><c> you</c><00:03:40.840><c> submit</c><00:03:41.159><c> a</c><00:03:41.280><c> forum</c>
+
+00:03:41.589 --> 00:03:41.599 align:start position:0%
+data in the web so if you submit a forum
+ 
+
+00:03:41.599 --> 00:03:43.350 align:start position:0%
+data in the web so if you submit a forum
+you<00:03:41.720><c> send</c><00:03:41.920><c> a</c><00:03:42.080><c> different</c><00:03:42.400><c> type</c><00:03:42.599><c> of</c><00:03:42.799><c> request</c><00:03:43.159><c> for</c>
+
+00:03:43.350 --> 00:03:43.360 align:start position:0%
+you send a different type of request for
+ 
+
+00:03:43.360 --> 00:03:45.589 align:start position:0%
+you send a different type of request for
+example<00:03:44.360><c> a</c><00:03:44.560><c> request</c><00:03:44.959><c> could</c><00:03:45.159><c> then</c><00:03:45.360><c> also</c>
+
+00:03:45.589 --> 00:03:45.599 align:start position:0%
+example a request could then also
+ 
+
+00:03:45.599 --> 00:03:47.830 align:start position:0%
+example a request could then also
+include<00:03:46.200><c> that</c><00:03:46.400><c> data</c><00:03:46.640><c> you</c><00:03:46.760><c> want</c><00:03:46.879><c> to</c><00:03:47.040><c> send</c><00:03:47.480><c> or</c><00:03:47.680><c> it</c>
+
+00:03:47.830 --> 00:03:47.840 align:start position:0%
+include that data you want to send or it
+ 
+
+00:03:47.840 --> 00:03:49.429 align:start position:0%
+include that data you want to send or it
+includes<00:03:48.280><c> no</c><00:03:48.599><c> data</c><00:03:48.840><c> if</c><00:03:48.959><c> you're</c><00:03:49.159><c> only</c>
+
+00:03:49.429 --> 00:03:49.439 align:start position:0%
+includes no data if you're only
+ 
+
+00:03:49.439 --> 00:03:51.149 align:start position:0%
+includes no data if you're only
+requesting<00:03:49.920><c> something</c><00:03:50.200><c> you</c><00:03:50.640><c> only</c><00:03:50.840><c> want</c><00:03:50.959><c> to</c>
+
+00:03:51.149 --> 00:03:51.159 align:start position:0%
+requesting something you only want to
+ 
+
+00:03:51.159 --> 00:03:53.910 align:start position:0%
+requesting something you only want to
+get<00:03:51.519><c> something</c><00:03:52.519><c> it</c><00:03:52.640><c> can</c><00:03:52.879><c> also</c><00:03:53.360><c> contains</c><00:03:53.760><c> some</c>
+
+00:03:53.910 --> 00:03:53.920 align:start position:0%
+get something it can also contains some
+ 
+
+00:03:53.920 --> 00:03:57.069 align:start position:0%
+get something it can also contains some
+metadata<00:03:54.920><c> so-called</c><00:03:55.760><c> headers</c><00:03:56.760><c> you</c><00:03:56.879><c> can</c>
+
+00:03:57.069 --> 00:03:57.079 align:start position:0%
+metadata so-called headers you can
+ 
+
+00:03:57.079 --> 00:03:59.309 align:start position:0%
+metadata so-called headers you can
+always<00:03:57.319><c> have</c><00:03:57.439><c> a</c><00:03:57.599><c> look</c><00:03:57.799><c> at</c><00:03:57.959><c> a</c><00:03:58.159><c> request</c><00:03:58.920><c> if</c><00:03:59.079><c> you</c>
+
+00:03:59.309 --> 00:03:59.319 align:start position:0%
+always have a look at a request if you
+ 
+
+00:03:59.319 --> 00:04:01.949 align:start position:0%
+always have a look at a request if you
+go<00:03:59.480><c> into</c><00:03:59.959><c> browser</c><00:04:00.599><c> open</c><00:04:00.959><c> the</c><00:04:01.159><c> developer</c><00:04:01.640><c> Tools</c>
+
+00:04:01.949 --> 00:04:01.959 align:start position:0%
+go into browser open the developer Tools
+ 
+
+00:04:01.959 --> 00:04:04.229 align:start position:0%
+go into browser open the developer Tools
+in<00:04:02.159><c> there</c><00:04:02.439><c> which</c><00:04:02.640><c> every</c><00:04:02.879><c> browser</c><00:04:03.360><c> has</c><00:04:04.079><c> and</c>
+
+00:04:04.229 --> 00:04:04.239 align:start position:0%
+in there which every browser has and
+ 
+
+00:04:04.239 --> 00:04:07.030 align:start position:0%
+in there which every browser has and
+then<00:04:04.439><c> in</c><00:04:04.640><c> the</c><00:04:04.840><c> network</c><00:04:05.360><c> tab</c><00:04:05.760><c> you</c><00:04:06.040><c> inspect</c><00:04:06.799><c> the</c>
+
+00:04:07.030 --> 00:04:07.040 align:start position:0%
+then in the network tab you inspect the
+ 
+
+00:04:07.040 --> 00:04:09.149 align:start position:0%
+then in the network tab you inspect the
+request<00:04:07.400><c> that</c><00:04:07.560><c> is</c><00:04:07.760><c> being</c><00:04:07.959><c> sent</c><00:04:08.480><c> and</c><00:04:08.720><c> there</c><00:04:09.000><c> you</c>
+
+00:04:09.149 --> 00:04:09.159 align:start position:0%
+request that is being sent and there you
+ 
+
+00:04:09.159 --> 00:04:12.030 align:start position:0%
+request that is being sent and there you
+will<00:04:09.439><c> see</c><00:04:10.239><c> all</c><00:04:10.640><c> the</c><00:04:10.959><c> The</c><00:04:11.079><c> Meta</c><00:04:11.439><c> data</c><00:04:11.720><c> and</c><00:04:11.840><c> on</c>
+
+00:04:12.030 --> 00:04:12.040 align:start position:0%
+will see all the The Meta data and on
+ 
+
+00:04:12.040 --> 00:04:13.670 align:start position:0%
+will see all the The Meta data and on
+that<00:04:12.200><c> was</c><00:04:12.439><c> attached</c><00:04:12.760><c> to</c><00:04:12.920><c> the</c><00:04:13.159><c> request</c><00:04:13.519><c> it's</c>
+
+00:04:13.670 --> 00:04:13.680 align:start position:0%
+that was attached to the request it's
+ 
+
+00:04:13.680 --> 00:04:15.750 align:start position:0%
+that was attached to the request it's
+always<00:04:13.959><c> interesting</c><00:04:14.360><c> to</c><00:04:14.519><c> see</c><00:04:14.799><c> that</c><00:04:15.480><c> now</c><00:04:15.640><c> what</c>
+
+00:04:15.750 --> 00:04:15.760 align:start position:0%
+always interesting to see that now what
+ 
+
+00:04:15.760 --> 00:04:18.150 align:start position:0%
+always interesting to see that now what
+you're<00:04:15.920><c> getting</c><00:04:16.280><c> back</c><00:04:16.639><c> is</c><00:04:16.919><c> a</c><00:04:17.199><c> response</c><00:04:18.040><c> that</c>
+
+00:04:18.150 --> 00:04:18.160 align:start position:0%
+you're getting back is a response that
+ 
+
+00:04:18.160 --> 00:04:19.909 align:start position:0%
+you're getting back is a response that
+is<00:04:18.320><c> also</c><00:04:18.560><c> a</c><00:04:18.720><c> data</c><00:04:19.040><c> package</c><00:04:19.320><c> in</c><00:04:19.440><c> the</c><00:04:19.560><c> end</c><00:04:19.799><c> and</c>
+
+00:04:19.909 --> 00:04:19.919 align:start position:0%
+is also a data package in the end and
+ 
+
+00:04:19.919 --> 00:04:22.510 align:start position:0%
+is also a data package in the end and
+you<00:04:20.040><c> can</c><00:04:20.239><c> also</c><00:04:20.560><c> inspect</c><00:04:21.160><c> that</c><00:04:21.759><c> and</c><00:04:21.880><c> this</c><00:04:22.040><c> also</c>
+
+00:04:22.510 --> 00:04:22.520 align:start position:0%
+you can also inspect that and this also
+ 
+
+00:04:22.520 --> 00:04:24.909 align:start position:0%
+you can also inspect that and this also
+again<00:04:22.800><c> contains</c><00:04:23.199><c> some</c><00:04:23.400><c> metadata</c><00:04:24.000><c> maybe</c><00:04:24.639><c> and</c>
+
+00:04:24.909 --> 00:04:24.919 align:start position:0%
+again contains some metadata maybe and
+ 
+
+00:04:24.919 --> 00:04:26.990 align:start position:0%
+again contains some metadata maybe and
+most<00:04:25.160><c> importantly</c><00:04:26.120><c> for</c><00:04:26.320><c> a</c><00:04:26.520><c> traditional</c>
+
+00:04:26.990 --> 00:04:27.000 align:start position:0%
+most importantly for a traditional
+ 
+
+00:04:27.000 --> 00:04:29.310 align:start position:0%
+most importantly for a traditional
+website<00:04:27.680><c> the</c><00:04:27.880><c> HTML</c><00:04:28.560><c> code</c><00:04:28.880><c> that</c><00:04:29.039><c> should</c><00:04:29.199><c> be</c>
+
+00:04:29.310 --> 00:04:29.320 align:start position:0%
+website the HTML code that should be
+ 
+
+00:04:29.320 --> 00:04:30.550 align:start position:0%
+website the HTML code that should be
+rendered
+
+00:04:30.550 --> 00:04:30.560 align:start position:0%
+rendered
+ 
+
+00:04:30.560 --> 00:04:32.230 align:start position:0%
+rendered
+HTML<00:04:31.120><c> code</c><00:04:31.320><c> is</c><00:04:31.440><c> something</c><00:04:31.680><c> we</c><00:04:31.800><c> haven't</c><00:04:31.960><c> heard</c>
+
+00:04:32.230 --> 00:04:32.240 align:start position:0%
+HTML code is something we haven't heard
+ 
+
+00:04:32.240 --> 00:04:33.590 align:start position:0%
+HTML code is something we haven't heard
+before<00:04:32.560><c> but</c><00:04:32.720><c> that's</c><00:04:32.919><c> essentially</c><00:04:33.400><c> that</c>
+
+00:04:33.590 --> 00:04:33.600 align:start position:0%
+before but that's essentially that
+ 
+
+00:04:33.600 --> 00:04:36.990 align:start position:0%
+before but that's essentially that
+source<00:04:34.039><c> code</c><00:04:34.720><c> that</c><00:04:35.000><c> is</c><00:04:35.280><c> displayed</c><00:04:36.160><c> or</c><00:04:36.400><c> that</c><00:04:36.600><c> is</c>
+
+00:04:36.990 --> 00:04:37.000 align:start position:0%
+source code that is displayed or that is
+ 
+
+00:04:37.000 --> 00:04:39.270 align:start position:0%
+source code that is displayed or that is
+turned<00:04:37.520><c> into</c><00:04:37.880><c> what</c><00:04:38.000><c> you</c><00:04:38.120><c> see</c><00:04:38.360><c> on</c><00:04:38.520><c> the</c><00:04:38.680><c> screen</c>
+
+00:04:39.270 --> 00:04:39.280 align:start position:0%
+turned into what you see on the screen
+ 
+
+00:04:39.280 --> 00:04:41.990 align:start position:0%
+turned into what you see on the screen
+by<00:04:39.479><c> the</c><00:04:39.919><c> browser</c><00:04:40.919><c> and</c><00:04:41.160><c> that</c><00:04:41.360><c> takes</c><00:04:41.600><c> us</c><00:04:41.720><c> to</c><00:04:41.880><c> the</c>
+
+00:04:41.990 --> 00:04:42.000 align:start position:0%
+by the browser and that takes us to the
+ 
+
+00:04:42.000 --> 00:04:44.430 align:start position:0%
+by the browser and that takes us to the
+involved<00:04:42.520><c> Technologies</c><00:04:43.199><c> already</c><00:04:44.160><c> what</c><00:04:44.280><c> you</c>
+
+00:04:44.430 --> 00:04:44.440 align:start position:0%
+involved Technologies already what you
+ 
+
+00:04:44.440 --> 00:04:46.469 align:start position:0%
+involved Technologies already what you
+see<00:04:44.680><c> in</c><00:04:44.800><c> the</c><00:04:44.919><c> browser</c><00:04:45.400><c> is</c><00:04:45.560><c> the</c><00:04:45.840><c> result</c><00:04:46.199><c> of</c><00:04:46.320><c> a</c>
+
+00:04:46.469 --> 00:04:46.479 align:start position:0%
+see in the browser is the result of a
+ 
+
+00:04:46.479 --> 00:04:49.670 align:start position:0%
+see in the browser is the result of a
+combination<00:04:46.960><c> of</c><00:04:47.280><c> HTML</c><00:04:48.199><c> CSS</c><00:04:48.880><c> and</c><00:04:49.120><c> JavaScript</c>
+
+00:04:49.670 --> 00:04:49.680 align:start position:0%
+combination of HTML CSS and JavaScript
+ 
+
+00:04:49.680 --> 00:04:51.629 align:start position:0%
+combination of HTML CSS and JavaScript
+these<00:04:49.800><c> are</c><00:04:49.960><c> the</c><00:04:50.080><c> three</c><00:04:50.759><c> languages</c><00:04:51.320><c> or</c>
+
+00:04:51.629 --> 00:04:51.639 align:start position:0%
+these are the three languages or
+ 
+
+00:04:51.639 --> 00:04:53.870 align:start position:0%
+these are the three languages or
+Technologies<00:04:52.360><c> involved</c><00:04:52.880><c> in</c><00:04:53.160><c> getting</c><00:04:53.520><c> onto</c>
+
+00:04:53.870 --> 00:04:53.880 align:start position:0%
+Technologies involved in getting onto
+ 
+
+00:04:53.880 --> 00:04:57.670 align:start position:0%
+Technologies involved in getting onto
+the<00:04:54.039><c> screen</c><00:04:54.600><c> what</c><00:04:54.759><c> you</c><00:04:55.160><c> see</c><00:04:56.160><c> now</c><00:04:56.479><c> HTML</c><00:04:57.280><c> stands</c>
+
+00:04:57.670 --> 00:04:57.680 align:start position:0%
+the screen what you see now HTML stands
+ 
+
+00:04:57.680 --> 00:05:01.510 align:start position:0%
+the screen what you see now HTML stands
+for<00:04:58.520><c> hypertext</c><00:04:59.199><c> Market</c><00:04:59.960><c> language</c><00:05:00.919><c> and</c><00:05:01.280><c> that</c>
+
+00:05:01.510 --> 00:05:01.520 align:start position:0%
+for hypertext Market language and that
+ 
+
+00:05:01.520 --> 00:05:04.629 align:start position:0%
+for hypertext Market language and that
+gives<00:05:01.800><c> a</c><00:05:02.039><c> website</c><00:05:02.600><c> its</c><00:05:03.160><c> structure</c><00:05:04.160><c> it</c><00:05:04.320><c> doesn't</c>
+
+00:05:04.629 --> 00:05:04.639 align:start position:0%
+gives a website its structure it doesn't
+ 
+
+00:05:04.639 --> 00:05:06.670 align:start position:0%
+gives a website its structure it doesn't
+say<00:05:04.880><c> anything</c><00:05:05.160><c> about</c><00:05:05.360><c> the</c><00:05:05.600><c> styling</c><00:05:06.320><c> it</c><00:05:06.479><c> just</c>
+
+00:05:06.670 --> 00:05:06.680 align:start position:0%
+say anything about the styling it just
+ 
+
+00:05:06.680 --> 00:05:08.150 align:start position:0%
+say anything about the styling it just
+says<00:05:07.080><c> what</c><00:05:07.199><c> should</c><00:05:07.400><c> be</c><00:05:07.479><c> a</c><00:05:07.680><c> heading</c><00:05:08.039><c> what</c>
+
+00:05:08.150 --> 00:05:08.160 align:start position:0%
+says what should be a heading what
+ 
+
+00:05:08.160 --> 00:05:09.670 align:start position:0%
+says what should be a heading what
+should<00:05:08.360><c> be</c><00:05:08.440><c> a</c><00:05:08.600><c> paragraph</c><00:05:09.160><c> what</c><00:05:09.280><c> should</c><00:05:09.440><c> be</c><00:05:09.560><c> an</c>
+
+00:05:09.670 --> 00:05:09.680 align:start position:0%
+should be a paragraph what should be an
+ 
+
+00:05:09.680 --> 00:05:11.430 align:start position:0%
+should be a paragraph what should be an
+input<00:05:10.039><c> what</c><00:05:10.160><c> should</c><00:05:10.280><c> be</c><00:05:10.400><c> a</c><00:05:10.520><c> button</c><00:05:11.160><c> that</c><00:05:11.280><c> is</c>
+
+00:05:11.430 --> 00:05:11.440 align:start position:0%
+input what should be a button that is
+ 
+
+00:05:11.440 --> 00:05:13.629 align:start position:0%
+input what should be a button that is
+what<00:05:11.560><c> you</c><00:05:11.680><c> say</c><00:05:11.919><c> with</c><00:05:12.120><c> HTML</c><00:05:13.000><c> and</c><00:05:13.120><c> the</c><00:05:13.240><c> browser</c>
+
+00:05:13.629 --> 00:05:13.639 align:start position:0%
+what you say with HTML and the browser
+ 
+
+00:05:13.639 --> 00:05:15.390 align:start position:0%
+what you say with HTML and the browser
+is<00:05:13.759><c> able</c><00:05:14.000><c> to</c><00:05:14.160><c> read</c><00:05:14.520><c> that</c><00:05:14.759><c> because</c><00:05:15.039><c> it's</c><00:05:15.160><c> a</c>
+
+00:05:15.390 --> 00:05:15.400 align:start position:0%
+is able to read that because it's a
+ 
+
+00:05:15.400 --> 00:05:18.309 align:start position:0%
+is able to read that because it's a
+standardized<00:05:16.600><c> format</c><00:05:17.600><c> now</c><00:05:17.840><c> of</c><00:05:17.960><c> course</c><00:05:18.199><c> a</c>
+
+00:05:18.309 --> 00:05:18.319 align:start position:0%
+standardized format now of course a
+ 
+
+00:05:18.319 --> 00:05:19.990 align:start position:0%
+standardized format now of course a
+website<00:05:18.680><c> should</c><00:05:18.840><c> also</c><00:05:19.120><c> look</c><00:05:19.440><c> good</c><00:05:19.720><c> and</c><00:05:19.880><c> that</c>
+
+00:05:19.990 --> 00:05:20.000 align:start position:0%
+website should also look good and that
+ 
+
+00:05:20.000 --> 00:05:21.950 align:start position:0%
+website should also look good and that
+is<00:05:20.120><c> done</c><00:05:20.319><c> with</c><00:05:20.520><c> CSS</c><00:05:21.160><c> which</c><00:05:21.400><c> stands</c><00:05:21.680><c> for</c>
+
+00:05:21.950 --> 00:05:21.960 align:start position:0%
+is done with CSS which stands for
+ 
+
+00:05:21.960 --> 00:05:25.510 align:start position:0%
+is done with CSS which stands for
+cascading<00:05:22.440><c> sty</c><00:05:22.759><c> sheets</c><00:05:23.720><c> CSS</c><00:05:24.280><c> is</c><00:05:24.520><c> responsible</c>
+
+00:05:25.510 --> 00:05:25.520 align:start position:0%
+cascading sty sheets CSS is responsible
+ 
+
+00:05:25.520 --> 00:05:29.029 align:start position:0%
+cascading sty sheets CSS is responsible
+for<00:05:26.520><c> turning</c><00:05:27.039><c> a</c><00:05:27.199><c> text</c><00:05:27.520><c> red</c><00:05:28.199><c> giving</c><00:05:28.479><c> a</c><00:05:28.639><c> button</c><00:05:28.919><c> a</c>
+
+00:05:29.029 --> 00:05:29.039 align:start position:0%
+for turning a text red giving a button a
+ 
+
+00:05:29.039 --> 00:05:31.350 align:start position:0%
+for turning a text red giving a button a
+certain<00:05:29.360><c> look</c><00:05:29.759><c> and</c><00:05:29.960><c> you</c><00:05:30.120><c> as</c><00:05:30.240><c> a</c><00:05:30.400><c> developer</c><00:05:31.080><c> can</c>
+
+00:05:31.350 --> 00:05:31.360 align:start position:0%
+certain look and you as a developer can
+ 
+
+00:05:31.360 --> 00:05:33.629 align:start position:0%
+certain look and you as a developer can
+write<00:05:31.759><c> that</c><00:05:32.000><c> CSS</c><00:05:32.479><c> code</c><00:05:32.880><c> just</c><00:05:33.080><c> as</c><00:05:33.240><c> you</c><00:05:33.400><c> write</c>
+
+00:05:33.629 --> 00:05:33.639 align:start position:0%
+write that CSS code just as you write
+ 
+
+00:05:33.639 --> 00:05:36.909 align:start position:0%
+write that CSS code just as you write
+the<00:05:33.759><c> HTML</c><00:05:34.360><c> code</c><00:05:34.919><c> to</c><00:05:35.199><c> get</c><00:05:35.479><c> the</c><00:05:35.639><c> result</c><00:05:36.039><c> you</c><00:05:36.199><c> want</c>
+
+00:05:36.909 --> 00:05:36.919 align:start position:0%
+the HTML code to get the result you want
+ 
+
+00:05:36.919 --> 00:05:38.590 align:start position:0%
+the HTML code to get the result you want
+by<00:05:37.039><c> the</c><00:05:37.160><c> way</c><00:05:37.319><c> I</c><00:05:37.440><c> also</c><00:05:37.680><c> mentioned</c><00:05:38.000><c> that</c><00:05:38.120><c> a</c>
+
+00:05:38.590 --> 00:05:38.600 align:start position:0%
+by the way I also mentioned that a
+ 
+
+00:05:38.600 --> 00:05:40.870 align:start position:0%
+by the way I also mentioned that a
+server<00:05:39.080><c> might</c><00:05:39.440><c> generate</c><00:05:39.960><c> that</c><00:05:40.240><c> dynamically</c>
+
+00:05:40.870 --> 00:05:40.880 align:start position:0%
+server might generate that dynamically
+ 
+
+00:05:40.880 --> 00:05:43.110 align:start position:0%
+server might generate that dynamically
+with<00:05:41.039><c> that</c><00:05:41.199><c> I</c><00:05:41.319><c> meant</c><00:05:41.960><c> that</c><00:05:42.120><c> it</c><00:05:42.360><c> might</c><00:05:42.720><c> generate</c>
+
+00:05:43.110 --> 00:05:43.120 align:start position:0%
+with that I meant that it might generate
+ 
+
+00:05:43.120 --> 00:05:46.749 align:start position:0%
+with that I meant that it might generate
+the<00:05:43.319><c> HTML</c><00:05:44.080><c> code</c><00:05:44.960><c> dynamically</c><00:05:45.960><c> and</c><00:05:46.280><c> that</c><00:05:46.479><c> that</c>
+
+00:05:46.749 --> 00:05:46.759 align:start position:0%
+the HTML code dynamically and that that
+ 
+
+00:05:46.759 --> 00:05:50.469 align:start position:0%
+the HTML code dynamically and that that
+with<00:05:47.280><c> that</c><00:05:48.280><c> it</c><00:05:48.720><c> actually</c><00:05:49.720><c> um</c><00:05:49.960><c> gives</c><00:05:50.160><c> you</c><00:05:50.280><c> a</c>
+
+00:05:50.469 --> 00:05:50.479 align:start position:0%
+with that it actually um gives you a
+ 
+
+00:05:50.479 --> 00:05:52.309 align:start position:0%
+with that it actually um gives you a
+different<00:05:51.039><c> code</c><00:05:51.400><c> back</c><00:05:51.680><c> for</c><00:05:51.960><c> different</c>
+
+00:05:52.309 --> 00:05:52.319 align:start position:0%
+different code back for different
+ 
+
+00:05:52.319 --> 00:05:54.150 align:start position:0%
+different code back for different
+requests<00:05:52.919><c> that</c><00:05:53.039><c> is</c><00:05:53.160><c> something</c><00:05:53.560><c> online</c><00:05:53.919><c> shop</c>
+
+00:05:54.150 --> 00:05:54.160 align:start position:0%
+requests that is something online shop
+ 
+
+00:05:54.160 --> 00:05:56.070 align:start position:0%
+requests that is something online shop
+needs<00:05:54.479><c> for</c><00:05:54.720><c> example</c><00:05:55.280><c> where</c><00:05:55.440><c> you</c><00:05:55.560><c> might</c><00:05:55.880><c> want</c>
+
+00:05:56.070 --> 00:05:56.080 align:start position:0%
+needs for example where you might want
+ 
+
+00:05:56.080 --> 00:05:58.430 align:start position:0%
+needs for example where you might want
+to<00:05:56.240><c> display</c><00:05:56.600><c> the</c><00:05:56.759><c> card</c><00:05:57.160><c> content</c><00:05:57.880><c> this</c><00:05:58.000><c> is</c><00:05:58.240><c> part</c>
+
+00:05:58.430 --> 00:05:58.440 align:start position:0%
+to display the card content this is part
+ 
+
+00:05:58.440 --> 00:06:00.510 align:start position:0%
+to display the card content this is part
+of<00:05:58.639><c> the</c><00:05:58.960><c> response</c><00:05:59.720><c> and</c><00:05:59.880><c> that</c><00:06:00.000><c> is</c><00:06:00.160><c> only</c>
+
+00:06:00.510 --> 00:06:00.520 align:start position:0%
+of the response and that is only
+ 
+
+00:06:00.520 --> 00:06:02.990 align:start position:0%
+of the response and that is only
+possible<00:06:00.880><c> if</c><00:06:01.000><c> that</c><00:06:01.240><c> response</c><00:06:01.759><c> that</c><00:06:01.919><c> HTML</c><00:06:02.520><c> code</c>
+
+00:06:02.990 --> 00:06:03.000 align:start position:0%
+possible if that response that HTML code
+ 
+
+00:06:03.000 --> 00:06:05.710 align:start position:0%
+possible if that response that HTML code
+is<00:06:03.240><c> generated</c><00:06:03.759><c> dynamically</c><00:06:04.360><c> on</c><00:06:04.560><c> the</c><00:06:04.759><c> server</c>
+
+00:06:05.710 --> 00:06:05.720 align:start position:0%
+is generated dynamically on the server
+ 
+
+00:06:05.720 --> 00:06:07.950 align:start position:0%
+is generated dynamically on the server
+now<00:06:06.000><c> we're</c><00:06:06.160><c> not</c><00:06:06.400><c> diving</c><00:06:06.720><c> into</c><00:06:07.080><c> how</c><00:06:07.360><c> this</c><00:06:07.599><c> works</c>
+
+00:06:07.950 --> 00:06:07.960 align:start position:0%
+now we're not diving into how this works
+ 
+
+00:06:07.960 --> 00:06:09.749 align:start position:0%
+now we're not diving into how this works
+here<00:06:08.319><c> but</c><00:06:08.479><c> you</c><00:06:08.680><c> as</c><00:06:08.800><c> a</c><00:06:08.960><c> developer</c><00:06:09.440><c> if</c><00:06:09.560><c> you're</c>
+
+00:06:09.749 --> 00:06:09.759 align:start position:0%
+here but you as a developer if you're
+ 
+
+00:06:09.759 --> 00:06:11.870 align:start position:0%
+here but you as a developer if you're
+building<00:06:10.120><c> that</c><00:06:10.319><c> website</c><00:06:10.840><c> you</c><00:06:11.080><c> simply</c><00:06:11.440><c> Define</c>
+
+00:06:11.870 --> 00:06:11.880 align:start position:0%
+building that website you simply Define
+ 
+
+00:06:11.880 --> 00:06:14.589 align:start position:0%
+building that website you simply Define
+rules<00:06:12.319><c> on</c><00:06:12.840><c> on</c><00:06:13.120><c> how</c><00:06:13.560><c> the</c><00:06:13.720><c> code</c><00:06:14.240><c> should</c><00:06:14.440><c> be</c>
+
+00:06:14.589 --> 00:06:14.599 align:start position:0%
+rules on on how the code should be
+ 
+
+00:06:14.599 --> 00:06:16.029 align:start position:0%
+rules on on how the code should be
+generated<00:06:15.039><c> how</c><00:06:15.160><c> it</c><00:06:15.280><c> should</c><00:06:15.440><c> look</c><00:06:15.639><c> like</c><00:06:15.840><c> and</c>
+
+00:06:16.029 --> 00:06:16.039 align:start position:0%
+generated how it should look like and
+ 
+
+00:06:16.039 --> 00:06:17.790 align:start position:0%
+generated how it should look like and
+when<00:06:16.319><c> which</c><00:06:16.520><c> code</c><00:06:16.759><c> should</c><00:06:16.919><c> be</c><00:06:17.039><c> generated</c><00:06:17.680><c> this</c>
+
+00:06:17.790 --> 00:06:17.800 align:start position:0%
+when which code should be generated this
+ 
+
+00:06:17.800 --> 00:06:20.029 align:start position:0%
+when which code should be generated this
+is<00:06:17.960><c> all</c><00:06:18.080><c> we</c><00:06:18.160><c> need</c><00:06:18.319><c> to</c><00:06:18.440><c> know</c><00:06:18.720><c> right</c><00:06:18.880><c> now</c><00:06:19.840><c> the</c>
+
+00:06:20.029 --> 00:06:20.039 align:start position:0%
+is all we need to know right now the
+ 
+
+00:06:20.039 --> 00:06:21.909 align:start position:0%
+is all we need to know right now the
+third<00:06:20.360><c> language</c><00:06:20.800><c> that</c><00:06:20.919><c> is</c><00:06:21.080><c> involved</c><00:06:21.599><c> is</c>
+
+00:06:21.909 --> 00:06:21.919 align:start position:0%
+third language that is involved is
+ 
+
+00:06:21.919 --> 00:06:24.510 align:start position:0%
+third language that is involved is
+Javascript<00:06:22.880><c> and</c><00:06:23.080><c> JavaScript</c><00:06:23.800><c> is</c><00:06:24.000><c> responsible</c>
+
+00:06:24.510 --> 00:06:24.520 align:start position:0%
+Javascript and JavaScript is responsible
+ 
+
+00:06:24.520 --> 00:06:26.909 align:start position:0%
+Javascript and JavaScript is responsible
+for<00:06:24.759><c> all</c><00:06:24.919><c> the</c><00:06:25.160><c> logic</c><00:06:25.639><c> all</c><00:06:25.759><c> the</c><00:06:25.960><c> dynamic</c><00:06:26.639><c> things</c>
+
+00:06:26.909 --> 00:06:26.919 align:start position:0%
+for all the logic all the dynamic things
+ 
+
+00:06:26.919 --> 00:06:29.589 align:start position:0%
+for all the logic all the dynamic things
+that<00:06:27.199><c> happen</c><00:06:27.800><c> in</c><00:06:27.960><c> the</c><00:06:28.120><c> browser</c><00:06:28.960><c> if</c><00:06:29.039><c> you</c><00:06:29.199><c> have</c><00:06:29.360><c> a</c>
+
+00:06:29.589 --> 00:06:29.599 align:start position:0%
+that happen in the browser if you have a
+ 
+
+00:06:29.599 --> 00:06:31.670 align:start position:0%
+that happen in the browser if you have a
+drop<00:06:29.960><c> down</c><00:06:30.240><c> if</c><00:06:30.360><c> you</c><00:06:30.479><c> have</c><00:06:30.720><c> tabs</c><00:06:31.160><c> if</c><00:06:31.280><c> you</c><00:06:31.440><c> have</c>
+
+00:06:31.670 --> 00:06:31.680 align:start position:0%
+drop down if you have tabs if you have
+ 
+
+00:06:31.680 --> 00:06:33.589 align:start position:0%
+drop down if you have tabs if you have
+like<00:06:31.840><c> that</c><00:06:32.080><c> overlay</c><00:06:32.560><c> that</c><00:06:32.759><c> opens</c><00:06:33.360><c> sometimes</c>
+
+00:06:33.589 --> 00:06:33.599 align:start position:0%
+like that overlay that opens sometimes
+ 
+
+00:06:33.599 --> 00:06:36.430 align:start position:0%
+like that overlay that opens sometimes
+or<00:06:33.759><c> a</c><00:06:33.919><c> sliding</c><00:06:34.319><c> in</c><00:06:34.800><c> navigation</c><00:06:35.800><c> that</c><00:06:36.000><c> all</c><00:06:36.240><c> is</c>
+
+00:06:36.430 --> 00:06:36.440 align:start position:0%
+or a sliding in navigation that all is
+ 
+
+00:06:36.440 --> 00:06:38.550 align:start position:0%
+or a sliding in navigation that all is
+powered<00:06:36.800><c> by</c><00:06:37.000><c> JavaScript</c><00:06:37.759><c> it's</c><00:06:38.039><c> basically</c>
+
+00:06:38.550 --> 00:06:38.560 align:start position:0%
+powered by JavaScript it's basically
+ 
+
+00:06:38.560 --> 00:06:40.430 align:start position:0%
+powered by JavaScript it's basically
+responsible<00:06:39.120><c> for</c><00:06:39.400><c> everything</c><00:06:39.759><c> that</c><00:06:39.919><c> changes</c>
+
+00:06:40.430 --> 00:06:40.440 align:start position:0%
+responsible for everything that changes
+ 
+
+00:06:40.440 --> 00:06:43.469 align:start position:0%
+responsible for everything that changes
+in<00:06:40.560><c> the</c><00:06:40.720><c> browser</c><00:06:41.520><c> after</c><00:06:41.840><c> the</c><00:06:42.039><c> page</c><00:06:42.520><c> has</c><00:06:42.680><c> been</c>
+
+00:06:43.469 --> 00:06:43.479 align:start position:0%
+in the browser after the page has been
+ 
+
+00:06:43.479 --> 00:06:46.790 align:start position:0%
+in the browser after the page has been
+loaded<00:06:44.479><c> now</c><00:06:44.800><c> all</c><00:06:45.120><c> that</c><00:06:45.400><c> data</c><00:06:45.800><c> transfer</c><00:06:46.520><c> as</c><00:06:46.639><c> I</c>
+
+00:06:46.790 --> 00:06:46.800 align:start position:0%
+loaded now all that data transfer as I
+ 
+
+00:06:46.800 --> 00:06:49.469 align:start position:0%
+loaded now all that data transfer as I
+said<00:06:47.199><c> is</c><00:06:47.560><c> also</c><00:06:48.000><c> standardized</c><00:06:49.000><c> it</c><00:06:49.120><c> is</c><00:06:49.280><c> for</c>
+
+00:06:49.469 --> 00:06:49.479 align:start position:0%
+said is also standardized it is for
+ 
+
+00:06:49.479 --> 00:06:51.510 align:start position:0%
+said is also standardized it is for
+example<00:06:49.919><c> standardized</c><00:06:50.599><c> how</c><00:06:50.759><c> a</c><00:06:50.919><c> request</c><00:06:51.280><c> and</c>
+
+00:06:51.510 --> 00:06:51.520 align:start position:0%
+example standardized how a request and
+ 
+
+00:06:51.520 --> 00:06:53.670 align:start position:0%
+example standardized how a request and
+response<00:06:51.880><c> should</c><00:06:52.080><c> look</c><00:06:52.319><c> like</c><00:06:53.120><c> that</c><00:06:53.240><c> is</c><00:06:53.400><c> all</c>
+
+00:06:53.670 --> 00:06:53.680 align:start position:0%
+response should look like that is all
+ 
+
+00:06:53.680 --> 00:06:55.589 align:start position:0%
+response should look like that is all
+defined<00:06:54.120><c> by</c><00:06:54.280><c> the</c><00:06:54.479><c> technology</c><00:06:54.960><c> used</c><00:06:55.280><c> which</c><00:06:55.400><c> is</c>
+
+00:06:55.589 --> 00:06:55.599 align:start position:0%
+defined by the technology used which is
+ 
+
+00:06:55.599 --> 00:06:57.749 align:start position:0%
+defined by the technology used which is
+HTTP<00:06:56.440><c> which</c><00:06:56.599><c> stands</c><00:06:56.840><c> for</c><00:06:57.080><c> hyper</c><00:06:57.479><c> text</c>
+
+00:06:57.749 --> 00:06:57.759 align:start position:0%
+HTTP which stands for hyper text
+ 
+
+00:06:57.759 --> 00:07:00.110 align:start position:0%
+HTTP which stands for hyper text
+transfer<00:06:58.319><c> protocol</c><00:06:59.280><c> there</c><00:06:59.400><c> are</c><00:06:59.599><c> all</c><00:06:59.800><c> this</c>
+
+00:07:00.110 --> 00:07:00.120 align:start position:0%
+transfer protocol there are all this
+ 
+
+00:07:00.120 --> 00:07:02.510 align:start position:0%
+transfer protocol there are all this
+https<00:07:01.120><c> which</c><00:07:01.240><c> is</c><00:07:01.400><c> the</c><00:07:01.560><c> same</c><00:07:01.879><c> just</c><00:07:02.160><c> in</c><00:07:02.280><c> an</c>
+
+00:07:02.510 --> 00:07:02.520 align:start position:0%
+https which is the same just in an
+ 
+
+00:07:02.520 --> 00:07:05.270 align:start position:0%
+https which is the same just in an
+encrypted<00:07:03.039><c> form</c><00:07:03.680><c> and</c><00:07:03.919><c> all</c><00:07:04.160><c> modern</c><00:07:04.599><c> websites</c>
+
+00:07:05.270 --> 00:07:05.280 align:start position:0%
+encrypted form and all modern websites
+ 
+
+00:07:05.280 --> 00:07:08.070 align:start position:0%
+encrypted form and all modern websites
+including<00:07:05.680><c> acad</c><00:07:06.080><c> mind.com</c><00:07:06.440><c> use</c><00:07:07.080><c> https</c>
+
+00:07:08.070 --> 00:07:08.080 align:start position:0%
+including acad mind.com use https
+ 
+
+00:07:08.080 --> 00:07:12.070 align:start position:0%
+including acad mind.com use https
+actually<00:07:08.599><c> so</c><00:07:08.800><c> that</c><00:07:09.080><c> all</c><00:07:09.440><c> data</c><00:07:10.240><c> is</c><00:07:11.080><c> encrypted</c>
+
+00:07:12.070 --> 00:07:12.080 align:start position:0%
+actually so that all data is encrypted
+ 
+
+00:07:12.080 --> 00:07:13.629 align:start position:0%
+actually so that all data is encrypted
+hence<00:07:12.319><c> the</c><00:07:12.440><c> request</c><00:07:12.800><c> dat</c><00:07:13.039><c> you</c><00:07:13.199><c> sending</c><00:07:13.479><c> and</c>
+
+00:07:13.629 --> 00:07:13.639 align:start position:0%
+hence the request dat you sending and
+ 
+
+00:07:13.639 --> 00:07:15.350 align:start position:0%
+hence the request dat you sending and
+the<00:07:13.840><c> response</c><00:07:14.240><c> you're</c><00:07:14.440><c> sending</c><00:07:14.720><c> is</c><00:07:14.919><c> end</c><00:07:15.240><c> to</c>
+
+00:07:15.350 --> 00:07:15.360 align:start position:0%
+the response you're sending is end to
+ 
+
+00:07:15.360 --> 00:07:17.230 align:start position:0%
+the response you're sending is end to
+endend<00:07:15.680><c> encrypted</c><00:07:16.240><c> so</c><00:07:16.400><c> the</c><00:07:16.560><c> browser</c><00:07:16.960><c> and</c><00:07:17.120><c> the</c>
+
+00:07:17.230 --> 00:07:17.240 align:start position:0%
+endend encrypted so the browser and the
+ 
+
+00:07:17.240 --> 00:07:19.469 align:start position:0%
+endend encrypted so the browser and the
+server<00:07:17.599><c> know</c><00:07:17.879><c> how</c><00:07:18.000><c> to</c><00:07:18.240><c> decrypt</c><00:07:18.759><c> it</c><00:07:19.120><c> but</c><00:07:19.319><c> in</c>
+
+00:07:19.469 --> 00:07:19.479 align:start position:0%
+server know how to decrypt it but in
+ 
+
+00:07:19.479 --> 00:07:21.749 align:start position:0%
+server know how to decrypt it but in
+between<00:07:20.080><c> it's</c><00:07:20.319><c> encrypted</c><00:07:21.080><c> and</c><00:07:21.199><c> if</c><00:07:21.400><c> someone</c>
+
+00:07:21.749 --> 00:07:21.759 align:start position:0%
+between it's encrypted and if someone
+ 
+
+00:07:21.759 --> 00:07:24.749 align:start position:0%
+between it's encrypted and if someone
+were<00:07:22.039><c> to</c><00:07:22.599><c> sniff</c><00:07:23.160><c> your</c><00:07:23.919><c> connection</c><00:07:24.440><c> which</c><00:07:24.560><c> is</c>
+
+00:07:24.749 --> 00:07:24.759 align:start position:0%
+were to sniff your connection which is
+ 
+
+00:07:24.759 --> 00:07:27.070 align:start position:0%
+were to sniff your connection which is
+technically<00:07:25.280><c> possible</c><00:07:26.240><c> then</c><00:07:26.599><c> these</c><00:07:26.840><c> people</c>
+
+00:07:27.070 --> 00:07:27.080 align:start position:0%
+technically possible then these people
+ 
+
+00:07:27.080 --> 00:07:30.189 align:start position:0%
+technically possible then these people
+will<00:07:27.280><c> only</c><00:07:27.520><c> see</c><00:07:27.919><c> some</c><00:07:28.599><c> unreadable</c><00:07:29.560><c> content</c><00:07:30.000><c> so</c>
+
+00:07:30.189 --> 00:07:30.199 align:start position:0%
+will only see some unreadable content so
+ 
+
+00:07:30.199 --> 00:07:31.670 align:start position:0%
+will only see some unreadable content so
+they<00:07:30.400><c> can't</c><00:07:30.639><c> read</c><00:07:31.000><c> which</c><00:07:31.199><c> data</c><00:07:31.440><c> you</c><00:07:31.520><c> are</c>
+
+00:07:31.670 --> 00:07:31.680 align:start position:0%
+they can't read which data you are
+ 
+
+00:07:31.680 --> 00:07:33.309 align:start position:0%
+they can't read which data you are
+sending<00:07:32.120><c> or</c><00:07:32.319><c> which</c><00:07:32.520><c> data</c><00:07:32.720><c> you</c><00:07:32.840><c> are</c><00:07:32.960><c> getting</c>
+
+00:07:33.309 --> 00:07:33.319 align:start position:0%
+sending or which data you are getting
+ 
+
+00:07:33.319 --> 00:07:36.270 align:start position:0%
+sending or which data you are getting
+back<00:07:33.960><c> this</c><00:07:34.080><c> is</c><00:07:34.240><c> what</c><00:07:34.400><c> https</c><00:07:35.240><c> is</c><00:07:35.759><c> it's</c><00:07:36.080><c> a</c>
+
+00:07:36.270 --> 00:07:36.280 align:start position:0%
+back this is what https is it's a
+ 
+
+00:07:36.280 --> 00:07:38.029 align:start position:0%
+back this is what https is it's a
+standard<00:07:36.759><c> that</c><00:07:36.919><c> defines</c><00:07:37.360><c> how</c><00:07:37.560><c> a</c><00:07:37.720><c> request</c>
+
+00:07:38.029 --> 00:07:38.039 align:start position:0%
+standard that defines how a request
+ 
+
+00:07:38.039 --> 00:07:39.830 align:start position:0%
+standard that defines how a request
+should<00:07:38.240><c> look</c><00:07:38.440><c> like</c><00:07:38.919><c> and</c><00:07:39.039><c> in</c><00:07:39.199><c> the</c><00:07:39.479><c> case</c><00:07:39.680><c> of</c>
+
+00:07:39.830 --> 00:07:39.840 align:start position:0%
+should look like and in the case of
+ 
+
+00:07:39.840 --> 00:07:42.550 align:start position:0%
+should look like and in the case of
+https<00:07:40.560><c> that</c><00:07:40.720><c> it</c><00:07:40.879><c> has</c><00:07:41.039><c> to</c><00:07:41.199><c> be</c><00:07:41.639><c> encrypted</c><00:07:42.440><c> and</c>
+
+00:07:42.550 --> 00:07:42.560 align:start position:0%
+https that it has to be encrypted and
+ 
+
+00:07:42.560 --> 00:07:44.469 align:start position:0%
+https that it has to be encrypted and
+the<00:07:42.680><c> encryption</c><00:07:43.520><c> is</c><00:07:43.720><c> then</c><00:07:43.919><c> done</c><00:07:44.199><c> by</c><00:07:44.360><c> the</c>
+
+00:07:44.469 --> 00:07:44.479 align:start position:0%
+the encryption is then done by the
+ 
+
+00:07:44.479 --> 00:07:47.670 align:start position:0%
+the encryption is then done by the
+browser<00:07:44.840><c> and</c><00:07:45.000><c> by</c><00:07:45.120><c> the</c><00:07:45.599><c> server</c><00:07:46.599><c> so</c><00:07:47.360><c> these</c><00:07:47.520><c> are</c>
+
+00:07:47.670 --> 00:07:47.680 align:start position:0%
+browser and by the server so these are
+ 
+
+00:07:47.680 --> 00:07:50.189 align:start position:0%
+browser and by the server so these are
+the<00:07:47.840><c> core</c><00:07:48.159><c> Technologies</c><00:07:49.000><c> involved</c><00:07:49.960><c> there</c>
+
+00:07:50.189 --> 00:07:50.199 align:start position:0%
+the core Technologies involved there
+ 
+
+00:07:50.199 --> 00:07:52.390 align:start position:0%
+the core Technologies involved there
+also<00:07:50.560><c> are</c><00:07:50.720><c> more</c><00:07:51.039><c> Technologies</c><00:07:51.800><c> because</c><00:07:52.120><c> for</c>
+
+00:07:52.390 --> 00:07:52.400 align:start position:0%
+also are more Technologies because for
+ 
+
+00:07:52.400 --> 00:07:54.430 align:start position:0%
+also are more Technologies because for
+example<00:07:52.960><c> if</c><00:07:53.159><c> on</c><00:07:53.319><c> the</c><00:07:53.560><c> server</c><00:07:54.000><c> side</c><00:07:54.159><c> we're</c>
+
+00:07:54.430 --> 00:07:54.440 align:start position:0%
+example if on the server side we're
+ 
+
+00:07:54.440 --> 00:07:56.830 align:start position:0%
+example if on the server side we're
+generating<00:07:55.000><c> this</c><00:07:55.199><c> page</c><00:07:55.639><c> dynamically</c><00:07:56.639><c> then</c>
+
+00:07:56.830 --> 00:07:56.840 align:start position:0%
+generating this page dynamically then
+ 
+
+00:07:56.840 --> 00:07:58.309 align:start position:0%
+generating this page dynamically then
+this<00:07:57.000><c> of</c><00:07:57.120><c> course</c><00:07:57.319><c> means</c><00:07:57.599><c> that</c><00:07:57.720><c> on</c><00:07:57.840><c> the</c><00:07:58.000><c> server</c>
+
+00:07:58.309 --> 00:07:58.319 align:start position:0%
+this of course means that on the server
+ 
+
+00:07:58.319 --> 00:07:59.909 align:start position:0%
+this of course means that on the server
+side<00:07:58.479><c> there</c><00:07:58.599><c> needs</c><00:07:58.800><c> to</c><00:07:58.919><c> be</c><00:07:59.039><c> some</c><00:07:59.199><c> code</c><00:07:59.759><c> that</c>
+
+00:07:59.909 --> 00:07:59.919 align:start position:0%
+side there needs to be some code that
+ 
+
+00:07:59.919 --> 00:08:02.909 align:start position:0%
+side there needs to be some code that
+runs<00:08:00.800><c> and</c><00:08:01.039><c> that</c><00:08:01.360><c> is</c><00:08:01.639><c> done</c><00:08:02.000><c> with</c><00:08:02.280><c> languages</c>
+
+00:08:02.909 --> 00:08:02.919 align:start position:0%
+runs and that is done with languages
+ 
+
+00:08:02.919 --> 00:08:04.390 align:start position:0%
+runs and that is done with languages
+like<00:08:03.199><c> node.js</c>
+
+00:08:04.390 --> 00:08:04.400 align:start position:0%
+like node.js
+ 
+
+00:08:04.400 --> 00:08:08.070 align:start position:0%
+like node.js
+PHP<00:08:05.520><c> Python</c><00:08:06.520><c> and</c><00:08:06.680><c> there</c><00:08:06.879><c> also</c><00:08:07.120><c> are</c><00:08:07.479><c> Frameworks</c>
+
+00:08:08.070 --> 00:08:08.080 align:start position:0%
+PHP Python and there also are Frameworks
+ 
+
+00:08:08.080 --> 00:08:10.510 align:start position:0%
+PHP Python and there also are Frameworks
+that<00:08:08.280><c> could</c><00:08:08.479><c> be</c><00:08:08.599><c> used</c><00:08:09.000><c> there</c><00:08:09.639><c> Frameworks</c><00:08:10.240><c> are</c>
+
+00:08:10.510 --> 00:08:10.520 align:start position:0%
+that could be used there Frameworks are
+ 
+
+00:08:10.520 --> 00:08:12.830 align:start position:0%
+that could be used there Frameworks are
+basically<00:08:11.120><c> packages</c><00:08:11.520><c> of</c><00:08:11.720><c> utility</c><00:08:12.240><c> functions</c>
+
+00:08:12.830 --> 00:08:12.840 align:start position:0%
+basically packages of utility functions
+ 
+
+00:08:12.840 --> 00:08:14.670 align:start position:0%
+basically packages of utility functions
+that<00:08:13.080><c> also</c><00:08:13.360><c> give</c><00:08:13.520><c> you</c><00:08:13.680><c> some</c><00:08:13.879><c> rules</c><00:08:14.199><c> on</c><00:08:14.400><c> how</c><00:08:14.520><c> to</c>
+
+00:08:14.670 --> 00:08:14.680 align:start position:0%
+that also give you some rules on how to
+ 
+
+00:08:14.680 --> 00:08:17.149 align:start position:0%
+that also give you some rules on how to
+use<00:08:14.960><c> them</c><00:08:15.560><c> that</c><00:08:15.720><c> make</c><00:08:16.159><c> writing</c><00:08:16.560><c> code</c><00:08:16.879><c> simply</c>
+
+00:08:17.149 --> 00:08:17.159 align:start position:0%
+use them that make writing code simply
+ 
+
+00:08:17.159 --> 00:08:18.430 align:start position:0%
+use them that make writing code simply
+easier<00:08:17.599><c> because</c><00:08:17.800><c> you</c><00:08:17.919><c> don't</c><00:08:18.159><c> have</c><00:08:18.240><c> to</c>
+
+00:08:18.430 --> 00:08:18.440 align:start position:0%
+easier because you don't have to
+ 
+
+00:08:18.440 --> 00:08:19.710 align:start position:0%
+easier because you don't have to
+reinvent<00:08:18.960><c> the</c><00:08:19.039><c> wheel</c><00:08:19.319><c> for</c><00:08:19.479><c> all</c><00:08:19.639><c> the</c>
+
+00:08:19.710 --> 00:08:19.720 align:start position:0%
+reinvent the wheel for all the
+ 
+
+00:08:19.720 --> 00:08:21.830 align:start position:0%
+reinvent the wheel for all the
+nitty-gritty<00:08:20.360><c> details</c><00:08:21.039><c> you</c><00:08:21.199><c> can</c><00:08:21.400><c> focus</c><00:08:21.680><c> on</c>
+
+00:08:21.830 --> 00:08:21.840 align:start position:0%
+nitty-gritty details you can focus on
+ 
+
+00:08:21.840 --> 00:08:23.909 align:start position:0%
+nitty-gritty details you can focus on
+your<00:08:22.039><c> business</c><00:08:22.440><c> logic</c><00:08:23.000><c> and</c><00:08:23.199><c> things</c><00:08:23.560><c> like</c>
+
+00:08:23.909 --> 00:08:23.919 align:start position:0%
+your business logic and things like
+ 
+
+00:08:23.919 --> 00:08:26.309 align:start position:0%
+your business logic and things like
+parsing<00:08:24.400><c> incoming</c><00:08:24.879><c> requests</c><00:08:25.280><c> and</c><00:08:25.440><c> so</c><00:08:25.560><c> on</c><00:08:26.080><c> is</c>
+
+00:08:26.309 --> 00:08:26.319 align:start position:0%
+parsing incoming requests and so on is
+ 
+
+00:08:26.319 --> 00:08:28.469 align:start position:0%
+parsing incoming requests and so on is
+done<00:08:26.639><c> by</c><00:08:26.879><c> such</c><00:08:27.080><c> a</c><00:08:27.240><c> framework</c><00:08:28.080><c> so</c><00:08:28.240><c> that</c><00:08:28.360><c> you</c>
+
+00:08:28.469 --> 00:08:28.479 align:start position:0%
+done by such a framework so that you
+ 
+
+00:08:28.479 --> 00:08:30.110 align:start position:0%
+done by such a framework so that you
+don't<00:08:28.720><c> have</c><00:08:28.800><c> to</c><00:08:28.960><c> manually</c><00:08:29.520><c> go</c><00:08:29.720><c> through</c><00:08:29.960><c> all</c>
+
+00:08:30.110 --> 00:08:30.120 align:start position:0%
+don't have to manually go through all
+ 
+
+00:08:30.120 --> 00:08:31.990 align:start position:0%
+don't have to manually go through all
+the<00:08:30.280><c> lines</c><00:08:30.560><c> of</c><00:08:30.680><c> an</c><00:08:30.800><c> incoming</c><00:08:31.199><c> request</c><00:08:31.840><c> you</c>
+
+00:08:31.990 --> 00:08:32.000 align:start position:0%
+the lines of an incoming request you
+ 
+
+00:08:32.000 --> 00:08:34.230 align:start position:0%
+the lines of an incoming request you
+instead<00:08:32.320><c> just</c><00:08:32.560><c> get</c><00:08:32.719><c> the</c><00:08:32.839><c> finished</c><00:08:33.320><c> parse</c><00:08:33.839><c> data</c>
+
+00:08:34.230 --> 00:08:34.240 align:start position:0%
+instead just get the finished parse data
+ 
+
+00:08:34.240 --> 00:08:35.870 align:start position:0%
+instead just get the finished parse data
+and<00:08:34.360><c> you</c><00:08:34.479><c> then</c><00:08:34.680><c> write</c><00:08:34.919><c> the</c><00:08:35.039><c> logic</c><00:08:35.399><c> what</c><00:08:35.519><c> to</c><00:08:35.680><c> do</c>
+
+00:08:35.870 --> 00:08:35.880 align:start position:0%
+and you then write the logic what to do
+ 
+
+00:08:35.880 --> 00:08:37.589 align:start position:0%
+and you then write the logic what to do
+with<00:08:36.080><c> that</c><00:08:36.240><c> data</c><00:08:36.719><c> instead</c><00:08:37.000><c> of</c><00:08:37.120><c> writing</c><00:08:37.399><c> the</c>
+
+00:08:37.589 --> 00:08:37.599 align:start position:0%
+with that data instead of writing the
+ 
+
+00:08:37.599 --> 00:08:39.389 align:start position:0%
+with that data instead of writing the
+parsing<00:08:38.039><c> logic</c><00:08:38.399><c> which</c><00:08:38.560><c> would</c><00:08:38.839><c> always</c><00:08:39.080><c> be</c><00:08:39.279><c> the</c>
+
+00:08:39.389 --> 00:08:39.399 align:start position:0%
+parsing logic which would always be the
+ 
+
+00:08:39.399 --> 00:08:41.709 align:start position:0%
+parsing logic which would always be the
+same<00:08:40.279><c> such</c><00:08:40.519><c> Frameworks</c><00:08:41.039><c> by</c><00:08:41.159><c> the</c><00:08:41.240><c> way</c><00:08:41.360><c> all</c>
+
+00:08:41.709 --> 00:08:41.719 align:start position:0%
+same such Frameworks by the way all
+ 
+
+00:08:41.719 --> 00:08:44.230 align:start position:0%
+same such Frameworks by the way all
+exist<00:08:42.000><c> for</c><00:08:42.159><c> the</c><00:08:42.560><c> front</c><00:08:42.919><c> end</c><00:08:43.599><c> where</c><00:08:43.880><c> you</c><00:08:44.039><c> might</c>
+
+00:08:44.230 --> 00:08:44.240 align:start position:0%
+exist for the front end where you might
+ 
+
+00:08:44.240 --> 00:08:46.269 align:start position:0%
+exist for the front end where you might
+have<00:08:44.440><c> applications</c><00:08:45.040><c> where</c><00:08:45.279><c> a</c><00:08:45.480><c> lot</c><00:08:45.720><c> of</c><00:08:46.040><c> stuff</c>
+
+00:08:46.269 --> 00:08:46.279 align:start position:0%
+have applications where a lot of stuff
+ 
+
+00:08:46.279 --> 00:08:48.470 align:start position:0%
+have applications where a lot of stuff
+is<00:08:46.519><c> happening</c><00:08:46.959><c> with</c><00:08:47.120><c> the</c><00:08:47.279><c> help</c><00:08:47.480><c> of</c><00:08:47.640><c> JavaScript</c>
+
+00:08:48.470 --> 00:08:48.480 align:start position:0%
+is happening with the help of JavaScript
+ 
+
+00:08:48.480 --> 00:08:50.990 align:start position:0%
+is happening with the help of JavaScript
+to<00:08:48.720><c> provide</c><00:08:49.000><c> a</c><00:08:49.160><c> nicer</c><00:08:49.560><c> user</c><00:08:49.920><c> experience</c><00:08:50.560><c> where</c>
+
+00:08:50.990 --> 00:08:51.000 align:start position:0%
+to provide a nicer user experience where
+ 
+
+00:08:51.000 --> 00:08:53.150 align:start position:0%
+to provide a nicer user experience where
+you<00:08:51.160><c> don't</c><00:08:51.480><c> always</c><00:08:51.760><c> need</c><00:08:51.959><c> to</c><00:08:52.120><c> fetch</c><00:08:52.480><c> new</c><00:08:52.760><c> pages</c>
+
+00:08:53.150 --> 00:08:53.160 align:start position:0%
+you don't always need to fetch new pages
+ 
+
+00:08:53.160 --> 00:08:55.230 align:start position:0%
+you don't always need to fetch new pages
+for<00:08:53.480><c> every</c><00:08:53.680><c> click</c><00:08:53.920><c> the</c><00:08:54.040><c> user</c><00:08:54.320><c> does</c><00:08:54.920><c> but</c><00:08:55.080><c> where</c>
+
+00:08:55.230 --> 00:08:55.240 align:start position:0%
+for every click the user does but where
+ 
+
+00:08:55.240 --> 00:08:56.990 align:start position:0%
+for every click the user does but where
+you<00:08:55.399><c> want</c><00:08:55.600><c> to</c><00:08:55.760><c> show</c><00:08:56.000><c> an</c><00:08:56.160><c> overlay</c><00:08:56.680><c> where</c><00:08:56.839><c> you</c>
+
+00:08:56.990 --> 00:08:57.000 align:start position:0%
+you want to show an overlay where you
+ 
+
+00:08:57.000 --> 00:08:59.269 align:start position:0%
+you want to show an overlay where you
+want<00:08:57.200><c> to</c><00:08:57.399><c> change</c><00:08:57.839><c> content</c><00:08:58.240><c> on</c><00:08:58.440><c> the</c><00:08:58.640><c> page</c><00:08:59.079><c> while</c>
+
+00:08:59.269 --> 00:08:59.279 align:start position:0%
+want to change content on the page while
+ 
+
+00:08:59.279 --> 00:09:01.470 align:start position:0%
+want to change content on the page while
+the<00:08:59.440><c> the</c><00:08:59.519><c> user</c><00:08:59.839><c> is</c><00:08:59.959><c> on</c><00:09:00.120><c> the</c><00:09:00.320><c> page</c><00:09:00.959><c> and</c><00:09:01.160><c> that</c><00:09:01.360><c> is</c>
+
+00:09:01.470 --> 00:09:01.480 align:start position:0%
+the the user is on the page and that is
+ 
+
+00:09:01.480 --> 00:09:03.110 align:start position:0%
+the the user is on the page and that is
+then<00:09:01.640><c> also</c><00:09:02.000><c> made</c><00:09:02.200><c> easier</c><00:09:02.680><c> with</c><00:09:02.880><c> such</c>
+
+00:09:03.110 --> 00:09:03.120 align:start position:0%
+then also made easier with such
+ 
+
+00:09:03.120 --> 00:09:05.430 align:start position:0%
+then also made easier with such
+Frameworks<00:09:03.920><c> for</c><00:09:04.160><c> the</c><00:09:04.320><c> same</c><00:09:04.560><c> reason</c><00:09:04.880><c> as</c><00:09:05.000><c> on</c><00:09:05.200><c> the</c>
+
+00:09:05.430 --> 00:09:05.440 align:start position:0%
+Frameworks for the same reason as on the
+ 
+
+00:09:05.440 --> 00:09:07.470 align:start position:0%
+Frameworks for the same reason as on the
+server<00:09:06.160><c> that</c><00:09:06.320><c> you</c><00:09:06.440><c> don't</c><00:09:06.720><c> have</c><00:09:06.839><c> to</c><00:09:07.000><c> write</c><00:09:07.240><c> the</c>
+
+00:09:07.470 --> 00:09:07.480 align:start position:0%
+server that you don't have to write the
+ 
+
+00:09:07.480 --> 00:09:10.190 align:start position:0%
+server that you don't have to write the
+logic<00:09:07.800><c> on</c><00:09:08.399><c> how</c><00:09:08.760><c> the</c><00:09:09.000><c> change</c><00:09:09.560><c> happens</c><00:09:09.880><c> on</c><00:09:10.000><c> the</c>
+
+00:09:10.190 --> 00:09:10.200 align:start position:0%
+logic on how the change happens on the
+ 
+
+00:09:10.200 --> 00:09:12.110 align:start position:0%
+logic on how the change happens on the
+page<00:09:10.839><c> but</c><00:09:11.000><c> instead</c><00:09:11.320><c> you</c><00:09:11.519><c> just</c><00:09:11.760><c> write</c><00:09:11.959><c> the</c>
+
+00:09:12.110 --> 00:09:12.120 align:start position:0%
+page but instead you just write the
+ 
+
+00:09:12.120 --> 00:09:14.389 align:start position:0%
+page but instead you just write the
+logic<00:09:12.399><c> for</c><00:09:12.760><c> what</c><00:09:13.040><c> should</c><00:09:13.320><c> change</c><00:09:13.800><c> when</c><00:09:14.240><c> and</c>
+
+00:09:14.389 --> 00:09:14.399 align:start position:0%
+logic for what should change when and
+ 
+
+00:09:14.399 --> 00:09:16.350 align:start position:0%
+logic for what should change when and
+the<00:09:14.519><c> framework</c><00:09:15.040><c> takes</c><00:09:15.320><c> over</c><00:09:15.560><c> and</c><00:09:15.720><c> Dusty</c><00:09:16.079><c> heavy</c>
+
+00:09:16.350 --> 00:09:16.360 align:start position:0%
+the framework takes over and Dusty heavy
+ 
+
+00:09:16.360 --> 00:09:19.150 align:start position:0%
+the framework takes over and Dusty heavy
+lifting<00:09:17.200><c> so</c><00:09:17.519><c> Frameworks</c><00:09:18.200><c> also</c><00:09:18.519><c> an</c><00:09:18.680><c> important</c>
+
+00:09:19.150 --> 00:09:19.160 align:start position:0%
+lifting so Frameworks also an important
+ 
+
+00:09:19.160 --> 00:09:21.630 align:start position:0%
+lifting so Frameworks also an important
+part<00:09:19.519><c> of</c><00:09:19.760><c> web</c><00:09:20.000><c> development</c><00:09:20.880><c> but</c><00:09:21.079><c> of</c><00:09:21.200><c> course</c><00:09:21.440><c> a</c>
+
+00:09:21.630 --> 00:09:21.640 align:start position:0%
+part of web development but of course a
+ 
+
+00:09:21.640 --> 00:09:23.350 align:start position:0%
+part of web development but of course a
+part<00:09:21.959><c> that</c><00:09:22.120><c> is</c><00:09:22.279><c> typically</c><00:09:22.640><c> hidden</c><00:09:22.920><c> away</c><00:09:23.160><c> from</c>
+
+00:09:23.350 --> 00:09:23.360 align:start position:0%
+part that is typically hidden away from
+ 
+
+00:09:23.360 --> 00:09:25.949 align:start position:0%
+part that is typically hidden away from
+you<00:09:23.680><c> if</c><00:09:23.800><c> you're</c><00:09:24.040><c> just</c><00:09:24.320><c> visiting</c><00:09:24.880><c> Pages</c><00:09:25.720><c> just</c>
+
+00:09:25.949 --> 00:09:25.959 align:start position:0%
+you if you're just visiting Pages just
+ 
+
+00:09:25.959 --> 00:09:28.430 align:start position:0%
+you if you're just visiting Pages just
+as<00:09:26.120><c> the</c><00:09:26.200><c> other</c><00:09:26.519><c> Technologies</c><00:09:27.120><c> I</c><00:09:27.279><c> guess</c><00:09:28.240><c> now</c>
+
+00:09:28.430 --> 00:09:28.440 align:start position:0%
+as the other Technologies I guess now
+ 
+
+00:09:28.440 --> 00:09:29.750 align:start position:0%
+as the other Technologies I guess now
+that<00:09:28.560><c> is</c><00:09:28.720><c> how</c><00:09:28.839><c> the</c><00:09:28.959><c> web</c><00:09:29.160><c> works</c><00:09:29.360><c> work</c><00:09:29.519><c> in</c><00:09:29.600><c> a</c>
+
+00:09:29.750 --> 00:09:29.760 align:start position:0%
+that is how the web works work in a
+ 
+
+00:09:29.760 --> 00:09:31.870 align:start position:0%
+that is how the web works work in a
+natural<00:09:30.279><c> but</c><00:09:30.399><c> the</c><00:09:30.560><c> web</c><00:09:30.800><c> is</c><00:09:31.000><c> more</c><00:09:31.440><c> than</c><00:09:31.680><c> just</c>
+
+00:09:31.870 --> 00:09:31.880 align:start position:0%
+natural but the web is more than just
+ 
+
+00:09:31.880 --> 00:09:34.389 align:start position:0%
+natural but the web is more than just
+traditional<00:09:32.560><c> websites</c><00:09:33.560><c> it's</c><00:09:33.720><c> more</c><00:09:33.959><c> than</c><00:09:34.160><c> just</c>
+
+00:09:34.389 --> 00:09:34.399 align:start position:0%
+traditional websites it's more than just
+ 
+
+00:09:34.399 --> 00:09:36.790 align:start position:0%
+traditional websites it's more than just
+HTML<00:09:35.079><c> code</c><00:09:35.360><c> getting</c><00:09:35.760><c> sent</c><00:09:36.160><c> back</c><00:09:36.399><c> and</c>
+
+00:09:36.790 --> 00:09:36.800 align:start position:0%
+HTML code getting sent back and
+ 
+
+00:09:36.800 --> 00:09:40.269 align:start position:0%
+HTML code getting sent back and
+displayed<00:09:37.360><c> on</c><00:09:37.519><c> the</c><00:09:37.880><c> page</c><00:09:38.600><c> with</c><00:09:38.920><c> that</c><00:09:39.920><c> I</c><00:09:40.040><c> mean</c>
+
+00:09:40.269 --> 00:09:40.279 align:start position:0%
+displayed on the page with that I mean
+ 
+
+00:09:40.279 --> 00:09:41.710 align:start position:0%
+displayed on the page with that I mean
+that<00:09:40.480><c> for</c><00:09:40.680><c> example</c><00:09:41.079><c> if</c><00:09:41.160><c> you're</c><00:09:41.360><c> having</c><00:09:41.560><c> a</c>
+
+00:09:41.710 --> 00:09:41.720 align:start position:0%
+that for example if you're having a
+ 
+
+00:09:41.720 --> 00:09:44.350 align:start position:0%
+that for example if you're having a
+mobile<00:09:42.079><c> app</c><00:09:42.519><c> Twitter</c><00:09:43.320><c> Facebook</c><00:09:43.839><c> Instagram</c>
+
+00:09:44.350 --> 00:09:44.360 align:start position:0%
+mobile app Twitter Facebook Instagram
+ 
+
+00:09:44.360 --> 00:09:47.150 align:start position:0%
+mobile app Twitter Facebook Instagram
+doesn't<00:09:44.600><c> matter</c><00:09:45.480><c> you</c><00:09:45.800><c> also</c><00:09:46.279><c> of</c><00:09:46.480><c> course</c><00:09:46.880><c> have</c>
+
+00:09:47.150 --> 00:09:47.160 align:start position:0%
+doesn't matter you also of course have
+ 
+
+00:09:47.160 --> 00:09:49.389 align:start position:0%
+doesn't matter you also of course have
+content<00:09:47.720><c> that's</c><00:09:47.959><c> not</c><00:09:48.120><c> stored</c><00:09:48.519><c> on</c><00:09:48.680><c> your</c><00:09:48.920><c> device</c>
+
+00:09:49.389 --> 00:09:49.399 align:start position:0%
+content that's not stored on your device
+ 
+
+00:09:49.399 --> 00:09:52.069 align:start position:0%
+content that's not stored on your device
+but<00:09:49.920><c> somewhere</c><00:09:50.279><c> in</c><00:09:50.399><c> the</c><00:09:50.519><c> internet</c><00:09:51.160><c> let's</c><00:09:51.399><c> say</c>
+
+00:09:52.069 --> 00:09:52.079 align:start position:0%
+but somewhere in the internet let's say
+ 
+
+00:09:52.079 --> 00:09:55.590 align:start position:0%
+but somewhere in the internet let's say
+pictures<00:09:52.519><c> posted</c><00:09:52.880><c> by</c><00:09:53.680><c> users</c><00:09:54.680><c> there</c><00:09:55.040><c> you</c><00:09:55.240><c> don't</c>
+
+00:09:55.590 --> 00:09:55.600 align:start position:0%
+pictures posted by users there you don't
+ 
+
+00:09:55.600 --> 00:09:57.710 align:start position:0%
+pictures posted by users there you don't
+actually<00:09:55.880><c> get</c><00:09:56.120><c> back</c><00:09:56.399><c> HTML</c><00:09:57.160><c> pages</c><00:09:57.560><c> that</c>
+
+00:09:57.710 --> 00:09:57.720 align:start position:0%
+actually get back HTML pages that
+ 
+
+00:09:57.720 --> 00:09:59.710 align:start position:0%
+actually get back HTML pages that
+contain<00:09:58.200><c> these</c><00:09:58.440><c> pictures</c><00:09:59.040><c> but</c><00:09:59.160><c> in</c><00:09:59.399><c> instead</c>
+
+00:09:59.710 --> 00:09:59.720 align:start position:0%
+contain these pictures but in instead
+ 
+
+00:09:59.720 --> 00:10:01.829 align:start position:0%
+contain these pictures but in instead
+only<00:10:00.079><c> data</c><00:10:00.399><c> is</c><00:10:00.600><c> exchanged</c><00:10:01.399><c> and</c><00:10:01.519><c> it</c><00:10:01.640><c> is</c>
+
+00:10:01.829 --> 00:10:01.839 align:start position:0%
+only data is exchanged and it is
+ 
+
+00:10:01.839 --> 00:10:03.509 align:start position:0%
+only data is exchanged and it is
+important<00:10:02.240><c> to</c><00:10:02.680><c> understand</c><00:10:02.839><c> that</c><00:10:03.040><c> with</c><00:10:03.279><c> the</c>
+
+00:10:03.509 --> 00:10:03.519 align:start position:0%
+important to understand that with the
+ 
+
+00:10:03.519 --> 00:10:06.509 align:start position:0%
+important to understand that with the
+web<00:10:03.920><c> we</c><00:10:04.040><c> don't</c><00:10:04.279><c> just</c><00:10:04.440><c> mean</c><00:10:05.079><c> websites</c><00:10:06.079><c> but</c><00:10:06.279><c> we</c>
+
+00:10:06.509 --> 00:10:06.519 align:start position:0%
+web we don't just mean websites but we
+ 
+
+00:10:06.519 --> 00:10:08.389 align:start position:0%
+web we don't just mean websites but we
+basically<00:10:06.880><c> mean</c><00:10:07.200><c> any</c><00:10:07.560><c> interaction</c><00:10:08.120><c> where</c><00:10:08.240><c> you</c>
+
+00:10:08.389 --> 00:10:08.399 align:start position:0%
+basically mean any interaction where you
+ 
+
+00:10:08.399 --> 00:10:10.790 align:start position:0%
+basically mean any interaction where you
+have<00:10:08.600><c> some</c><00:10:08.880><c> computer</c><00:10:09.440><c> called</c><00:10:09.640><c> a</c><00:10:09.839><c> server</c><00:10:10.600><c> which</c>
+
+00:10:10.790 --> 00:10:10.800 align:start position:0%
+have some computer called a server which
+ 
+
+00:10:10.800 --> 00:10:13.509 align:start position:0%
+have some computer called a server which
+sits<00:10:11.320><c> somewhere</c><00:10:12.320><c> out</c><00:10:12.600><c> there</c><00:10:12.760><c> in</c><00:10:12.920><c> the</c><00:10:13.079><c> internet</c>
+
+00:10:13.509 --> 00:10:13.519 align:start position:0%
+sits somewhere out there in the internet
+ 
+
+00:10:13.519 --> 00:10:15.430 align:start position:0%
+sits somewhere out there in the internet
+not<00:10:13.720><c> in</c><00:10:13.880><c> your</c><00:10:14.120><c> room</c><00:10:14.880><c> and</c><00:10:15.040><c> you're</c>
+
+00:10:15.430 --> 00:10:15.440 align:start position:0%
+not in your room and you're
+ 
+
+00:10:15.440 --> 00:10:17.389 align:start position:0%
+not in your room and you're
+communicating<00:10:16.040><c> with</c><00:10:16.240><c> that</c><00:10:16.440><c> server</c><00:10:16.959><c> not</c>
+
+00:10:17.389 --> 00:10:17.399 align:start position:0%
+communicating with that server not
+ 
+
+00:10:17.399 --> 00:10:19.470 align:start position:0%
+communicating with that server not
+actively<00:10:17.760><c> but</c><00:10:17.959><c> inactively</c><00:10:18.720><c> so</c><00:10:18.920><c> indirectly</c>
+
+00:10:19.470 --> 00:10:19.480 align:start position:0%
+actively but inactively so indirectly
+ 
+
+00:10:19.480 --> 00:10:21.230 align:start position:0%
+actively but inactively so indirectly
+your<00:10:19.839><c> your</c><00:10:20.079><c> app</c><00:10:20.360><c> communicates</c><00:10:20.920><c> with</c><00:10:21.079><c> that</c>
+
+00:10:21.230 --> 00:10:21.240 align:start position:0%
+your your app communicates with that
+ 
+
+00:10:21.240 --> 00:10:23.350 align:start position:0%
+your your app communicates with that
+your<00:10:21.480><c> website</c><00:10:22.200><c> a</c><00:10:22.360><c> website</c><00:10:22.760><c> might</c><00:10:22.959><c> send</c><00:10:23.160><c> a</c>
+
+00:10:23.350 --> 00:10:23.360 align:start position:0%
+your website a website might send a
+ 
+
+00:10:23.360 --> 00:10:26.069 align:start position:0%
+your website a website might send a
+request<00:10:23.680><c> get</c><00:10:23.880><c> back</c><00:10:24.079><c> a</c><00:10:24.279><c> response</c><00:10:24.680><c> with</c><00:10:25.079><c> HTML</c>
+
+00:10:26.069 --> 00:10:26.079 align:start position:0%
+request get back a response with HTML
+ 
+
+00:10:26.079 --> 00:10:27.949 align:start position:0%
+request get back a response with HTML
+now<00:10:26.279><c> that</c><00:10:26.480><c> request</c><00:10:26.959><c> response</c><00:10:27.440><c> pattern</c><00:10:27.800><c> is</c>
+
+00:10:27.949 --> 00:10:27.959 align:start position:0%
+now that request response pattern is
+ 
+
+00:10:27.959 --> 00:10:30.670 align:start position:0%
+now that request response pattern is
+always<00:10:28.320><c> the</c><00:10:28.480><c> same</c><00:10:29.040><c> but</c><00:10:29.440><c> actually</c><00:10:30.120><c> a</c><00:10:30.279><c> mobile</c>
+
+00:10:30.670 --> 00:10:30.680 align:start position:0%
+always the same but actually a mobile
+ 
+
+00:10:30.680 --> 00:10:32.949 align:start position:0%
+always the same but actually a mobile
+app<00:10:30.880><c> for</c><00:10:31.079><c> example</c><00:10:31.480><c> sends</c><00:10:31.800><c> a</c><00:10:32.000><c> request</c><00:10:32.720><c> but</c>
+
+00:10:32.949 --> 00:10:32.959 align:start position:0%
+app for example sends a request but
+ 
+
+00:10:32.959 --> 00:10:35.629 align:start position:0%
+app for example sends a request but
+doesn't<00:10:33.360><c> want</c><00:10:34.000><c> HTML</c><00:10:34.640><c> as</c><00:10:34.720><c> a</c><00:10:34.920><c> response</c><00:10:35.360><c> and</c><00:10:35.480><c> it</c>
+
+00:10:35.629 --> 00:10:35.639 align:start position:0%
+doesn't want HTML as a response and it
+ 
+
+00:10:35.639 --> 00:10:38.069 align:start position:0%
+doesn't want HTML as a response and it
+clearly<00:10:36.079><c> says</c><00:10:36.440><c> that</c><00:10:36.600><c> in</c><00:10:36.720><c> the</c><00:10:36.920><c> request</c><00:10:37.760><c> instead</c>
+
+00:10:38.069 --> 00:10:38.079 align:start position:0%
+clearly says that in the request instead
+ 
+
+00:10:38.079 --> 00:10:39.670 align:start position:0%
+clearly says that in the request instead
+it<00:10:38.279><c> wants</c><00:10:38.760><c> something</c><00:10:39.079><c> which</c><00:10:39.240><c> typically</c><00:10:39.560><c> is</c>
+
+00:10:39.670 --> 00:10:39.680 align:start position:0%
+it wants something which typically is
+ 
+
+00:10:39.680 --> 00:10:42.430 align:start position:0%
+it wants something which typically is
+called<00:10:40.000><c> Json</c><00:10:40.680><c> data</c><00:10:41.360><c> that's</c><00:10:41.519><c> a</c><00:10:41.720><c> specific</c><00:10:42.120><c> data</c>
+
+00:10:42.430 --> 00:10:42.440 align:start position:0%
+called Json data that's a specific data
+ 
+
+00:10:42.440 --> 00:10:44.629 align:start position:0%
+called Json data that's a specific data
+format<00:10:43.160><c> and</c><00:10:43.560><c> we</c><00:10:43.680><c> don't</c><00:10:43.839><c> need</c><00:10:43.959><c> to</c><00:10:44.200><c> dive</c><00:10:44.440><c> into</c>
+
+00:10:44.629 --> 00:10:44.639 align:start position:0%
+format and we don't need to dive into
+ 
+
+00:10:44.639 --> 00:10:46.629 align:start position:0%
+format and we don't need to dive into
+the<00:10:44.760><c> details</c><00:10:45.160><c> there</c><00:10:45.440><c> right</c><00:10:45.600><c> now</c><00:10:46.160><c> but</c><00:10:46.399><c> there</c>
+
+00:10:46.629 --> 00:10:46.639 align:start position:0%
+the details there right now but there
+ 
+
+00:10:46.639 --> 00:10:49.350 align:start position:0%
+the details there right now but there
+the<00:10:46.839><c> server</c><00:10:47.200><c> responds</c><00:10:47.680><c> with</c><00:10:47.800><c> a</c><00:10:48.000><c> data</c><00:10:48.480><c> package</c>
+
+00:10:49.350 --> 00:10:49.360 align:start position:0%
+the server responds with a data package
+ 
+
+00:10:49.360 --> 00:10:51.750 align:start position:0%
+the server responds with a data package
+which<00:10:49.519><c> is</c><00:10:49.760><c> not</c><00:10:50.079><c> parsable</c><00:10:50.720><c> by</c><00:10:50.839><c> the</c><00:10:51.000><c> browser</c><00:10:51.560><c> so</c>
+
+00:10:51.750 --> 00:10:51.760 align:start position:0%
+which is not parsable by the browser so
+ 
+
+00:10:51.760 --> 00:10:53.590 align:start position:0%
+which is not parsable by the browser so
+it's<00:10:51.959><c> not</c><00:10:52.240><c> something</c><00:10:52.600><c> that</c><00:10:52.760><c> would</c><00:10:53.000><c> be</c>
+
+00:10:53.590 --> 00:10:53.600 align:start position:0%
+it's not something that would be
+ 
+
+00:10:53.600 --> 00:10:55.790 align:start position:0%
+it's not something that would be
+converted<00:10:54.120><c> into</c><00:10:54.360><c> a</c><00:10:54.560><c> visual</c><00:10:55.040><c> website</c><00:10:55.480><c> by</c><00:10:55.639><c> a</c>
+
+00:10:55.790 --> 00:10:55.800 align:start position:0%
+converted into a visual website by a
+ 
+
+00:10:55.800 --> 00:10:58.870 align:start position:0%
+converted into a visual website by a
+browser<00:10:56.720><c> but</c><00:10:56.959><c> by</c><00:10:57.120><c> the</c><00:10:57.360><c> app</c><00:10:57.720><c> the</c><00:10:57.920><c> app</c><00:10:58.680><c> which</c>
+
+00:10:58.870 --> 00:10:58.880 align:start position:0%
+browser but by the app the app which
+ 
+
+00:10:58.880 --> 00:11:00.829 align:start position:0%
+browser but by the app the app which
+people<00:10:59.320><c> wrote</c><00:10:59.680><c> like</c><00:10:59.880><c> Instagram</c><00:11:00.440><c> the</c><00:11:00.560><c> source</c>
+
+00:11:00.829 --> 00:11:00.839 align:start position:0%
+people wrote like Instagram the source
+ 
+
+00:11:00.839 --> 00:11:02.949 align:start position:0%
+people wrote like Instagram the source
+code<00:11:01.079><c> behind</c><00:11:01.320><c> the</c><00:11:01.480><c> app</c><00:11:01.880><c> knows</c><00:11:02.279><c> how</c><00:11:02.399><c> to</c><00:11:02.600><c> parse</c>
+
+00:11:02.949 --> 00:11:02.959 align:start position:0%
+code behind the app knows how to parse
+ 
+
+00:11:02.959 --> 00:11:05.269 align:start position:0%
+code behind the app knows how to parse
+that<00:11:03.120><c> incoming</c><00:11:03.639><c> response</c><00:11:04.480><c> and</c><00:11:04.639><c> how</c><00:11:04.760><c> to</c><00:11:04.959><c> handle</c>
+
+00:11:05.269 --> 00:11:05.279 align:start position:0%
+that incoming response and how to handle
+ 
+
+00:11:05.279 --> 00:11:08.509 align:start position:0%
+that incoming response and how to handle
+that<00:11:05.720><c> if</c><00:11:05.880><c> that</c><00:11:06.079><c> for</c><00:11:06.240><c> example</c><00:11:06.639><c> are</c><00:11:07.000><c> five</c><00:11:07.480><c> new</c><00:11:08.360><c> uh</c>
+
+00:11:08.509 --> 00:11:08.519 align:start position:0%
+that if that for example are five new uh
+ 
+
+00:11:08.519 --> 00:11:10.910 align:start position:0%
+that if that for example are five new uh
+posts<00:11:08.959><c> by</c><00:11:09.120><c> people</c><00:11:09.399><c> you're</c><00:11:09.639><c> following</c><00:11:10.600><c> well</c>
+
+00:11:10.910 --> 00:11:10.920 align:start position:0%
+posts by people you're following well
+ 
+
+00:11:10.920 --> 00:11:12.910 align:start position:0%
+posts by people you're following well
+then<00:11:11.320><c> that</c><00:11:11.560><c> is</c><00:11:11.760><c> converted</c><00:11:12.279><c> into</c><00:11:12.600><c> something</c>
+
+00:11:12.910 --> 00:11:12.920 align:start position:0%
+then that is converted into something
+ 
+
+00:11:12.920 --> 00:11:14.990 align:start position:0%
+then that is converted into something
+you<00:11:13.120><c> can</c><00:11:13.360><c> see</c><00:11:13.600><c> on</c><00:11:13.720><c> the</c><00:11:13.920><c> screen</c><00:11:14.519><c> with</c><00:11:14.680><c> the</c><00:11:14.839><c> help</c>
+
+00:11:14.990 --> 00:11:15.000 align:start position:0%
+you can see on the screen with the help
+ 
+
+00:11:15.000 --> 00:11:16.310 align:start position:0%
+you can see on the screen with the help
+of<00:11:15.120><c> the</c><00:11:15.279><c> source</c><00:11:15.519><c> code</c><00:11:15.760><c> written</c><00:11:16.040><c> by</c><00:11:16.200><c> the</c>
+
+00:11:16.310 --> 00:11:16.320 align:start position:0%
+of the source code written by the
+ 
+
+00:11:16.320 --> 00:11:19.110 align:start position:0%
+of the source code written by the
+developers<00:11:16.800><c> of</c><00:11:16.959><c> the</c><00:11:17.120><c> app</c><00:11:17.959><c> so</c><00:11:18.279><c> that</c><00:11:18.480><c> is</c><00:11:18.720><c> also</c>
+
+00:11:19.110 --> 00:11:19.120 align:start position:0%
+developers of the app so that is also
+ 
+
+00:11:19.120 --> 00:11:21.069 align:start position:0%
+developers of the app so that is also
+where<00:11:19.279><c> we</c><00:11:19.440><c> have</c><00:11:19.600><c> the</c><00:11:19.720><c> internet</c><00:11:20.320><c> same</c><00:11:20.639><c> request</c>
+
+00:11:21.069 --> 00:11:21.079 align:start position:0%
+where we have the internet same request
+ 
+
+00:11:21.079 --> 00:11:23.269 align:start position:0%
+where we have the internet same request
+response<00:11:21.600><c> pattern</c><00:11:22.120><c> but</c><00:11:22.279><c> the</c><00:11:22.519><c> data</c><00:11:22.920><c> which</c><00:11:23.040><c> is</c>
+
+00:11:23.269 --> 00:11:23.279 align:start position:0%
+response pattern but the data which is
+ 
+
+00:11:23.279 --> 00:11:25.509 align:start position:0%
+response pattern but the data which is
+exchanged<00:11:23.800><c> is</c><00:11:24.000><c> different</c><00:11:24.480><c> it's</c><00:11:24.639><c> not</c><00:11:24.800><c> a</c><00:11:24.959><c> HTML</c>
+
+00:11:25.509 --> 00:11:25.519 align:start position:0%
+exchanged is different it's not a HTML
+ 
+
+00:11:25.519 --> 00:11:29.310 align:start position:0%
+exchanged is different it's not a HTML
+page<00:11:26.079><c> it's</c><00:11:26.519><c> other</c><00:11:26.959><c> form</c><00:11:27.240><c> of</c><00:11:27.480><c> data</c><00:11:28.200><c> so</c><00:11:28.519><c> the</c><00:11:28.760><c> data</c>
+
+00:11:29.310 --> 00:11:29.320 align:start position:0%
+page it's other form of data so the data
+ 
+
+00:11:29.320 --> 00:11:32.310 align:start position:0%
+page it's other form of data so the data
+format<00:11:29.680><c> is</c><00:11:29.959><c> flexible</c><00:11:30.760><c> the</c><00:11:30.959><c> core</c><00:11:31.360><c> idea</c><00:11:32.040><c> that</c><00:11:32.200><c> we</c>
+
+00:11:32.310 --> 00:11:32.320 align:start position:0%
+format is flexible the core idea that we
+ 
+
+00:11:32.320 --> 00:11:34.110 align:start position:0%
+format is flexible the core idea that we
+have<00:11:32.519><c> code</c><00:11:32.760><c> running</c><00:11:33.040><c> on</c><00:11:33.160><c> a</c><00:11:33.279><c> server</c><00:11:33.680><c> and</c><00:11:33.880><c> code</c>
+
+00:11:34.110 --> 00:11:34.120 align:start position:0%
+have code running on a server and code
+ 
+
+00:11:34.120 --> 00:11:36.030 align:start position:0%
+have code running on a server and code
+running<00:11:34.399><c> on</c><00:11:34.519><c> our</c><00:11:34.800><c> device</c><00:11:35.399><c> no</c><00:11:35.560><c> matter</c><00:11:35.800><c> if</c><00:11:35.920><c> it's</c>
+
+00:11:36.030 --> 00:11:36.040 align:start position:0%
+running on our device no matter if it's
+ 
+
+00:11:36.040 --> 00:11:39.230 align:start position:0%
+running on our device no matter if it's
+a<00:11:36.200><c> mobile</c><00:11:36.519><c> phone</c><00:11:36.920><c> or</c><00:11:37.079><c> if</c><00:11:37.160><c> it's</c><00:11:37.320><c> a</c><00:11:37.720><c> browser</c><00:11:38.720><c> um</c>
+
+00:11:39.230 --> 00:11:39.240 align:start position:0%
+a mobile phone or if it's a browser um
+ 
+
+00:11:39.240 --> 00:11:42.949 align:start position:0%
+a mobile phone or if it's a browser um
+that<00:11:39.519><c> core</c><00:11:39.839><c> idea</c><00:11:40.399><c> is</c><00:11:40.680><c> always</c><00:11:41.240><c> the</c><00:11:41.720><c> same</c><00:11:42.720><c> now</c>
+
+00:11:42.949 --> 00:11:42.959 align:start position:0%
+that core idea is always the same now
+ 
+
+00:11:42.959 --> 00:11:44.350 align:start position:0%
+that core idea is always the same now
+there<00:11:43.160><c> also</c><00:11:43.480><c> are</c><00:11:43.639><c> more</c><00:11:43.880><c> Advanced</c>
+
+00:11:44.350 --> 00:11:44.360 align:start position:0%
+there also are more Advanced
+ 
+
+00:11:44.360 --> 00:11:46.750 align:start position:0%
+there also are more Advanced
+Technologies<00:11:44.920><c> for</c><00:11:45.120><c> example</c><00:11:45.560><c> for</c><00:11:46.079><c> realtime</c>
+
+00:11:46.750 --> 00:11:46.760 align:start position:0%
+Technologies for example for realtime
+ 
+
+00:11:46.760 --> 00:11:48.150 align:start position:0%
+Technologies for example for realtime
+communication<00:11:47.480><c> where</c><00:11:47.600><c> you</c><00:11:47.720><c> don't</c><00:11:47.959><c> have</c>
+
+00:11:48.150 --> 00:11:48.160 align:start position:0%
+communication where you don't have
+ 
+
+00:11:48.160 --> 00:11:50.470 align:start position:0%
+communication where you don't have
+request<00:11:48.720><c> response</c><00:11:49.600><c> but</c><00:11:49.760><c> where</c><00:11:49.920><c> the</c><00:11:50.120><c> server</c>
+
+00:11:50.470 --> 00:11:50.480 align:start position:0%
+request response but where the server
+ 
+
+00:11:50.480 --> 00:11:52.550 align:start position:0%
+request response but where the server
+can<00:11:50.720><c> actively</c><00:11:51.200><c> push</c><00:11:51.519><c> a</c><00:11:51.680><c> new</c><00:11:51.880><c> message</c><00:11:52.200><c> to</c><00:11:52.399><c> the</c>
+
+00:11:52.550 --> 00:11:52.560 align:start position:0%
+can actively push a new message to the
+ 
+
+00:11:52.560 --> 00:11:54.750 align:start position:0%
+can actively push a new message to the
+client<00:11:53.279><c> so</c><00:11:53.440><c> the</c><00:11:53.560><c> client</c><00:11:53.959><c> never</c><00:11:54.240><c> send</c><00:11:54.560><c> a</c>
+
+00:11:54.750 --> 00:11:54.760 align:start position:0%
+client so the client never send a
+ 
+
+00:11:54.760 --> 00:11:57.150 align:start position:0%
+client so the client never send a
+request<00:11:55.160><c> but</c><00:11:55.399><c> gets</c><00:11:55.880><c> new</c><00:11:56.160><c> data</c><00:11:56.480><c> anyways</c>
+
+00:11:57.150 --> 00:11:57.160 align:start position:0%
+request but gets new data anyways
+ 
+
+00:11:57.160 --> 00:11:58.829 align:start position:0%
+request but gets new data anyways
+through<00:11:57.399><c> an</c><00:11:57.600><c> established</c><00:11:58.120><c> connection</c><00:11:58.560><c> with</c><00:11:58.680><c> a</c>
+
+00:11:58.829 --> 00:11:58.839 align:start position:0%
+through an established connection with a
+ 
+
+00:11:58.839 --> 00:12:01.509 align:start position:0%
+through an established connection with a
+technology<00:11:59.480><c> named</c><00:11:59.959><c> websockets</c><00:12:00.959><c> but</c><00:12:01.160><c> that's</c>
+
+00:12:01.509 --> 00:12:01.519 align:start position:0%
+technology named websockets but that's
+ 
+
+00:12:01.519 --> 00:12:05.430 align:start position:0%
+technology named websockets but that's
+even<00:12:02.000><c> more</c><00:12:02.440><c> advanced</c><00:12:03.120><c> IT</c><00:12:03.360><c> exists</c><00:12:04.200><c> though</c><00:12:05.200><c> I</c>
+
+00:12:05.430 --> 00:12:05.440 align:start position:0%
+even more advanced IT exists though I
+ 
+
+00:12:05.440 --> 00:12:07.949 align:start position:0%
+even more advanced IT exists though I
+hope<00:12:05.760><c> that</c><00:12:05.920><c> nonetheless</c><00:12:06.680><c> with</c><00:12:07.000><c> this</c><00:12:07.760><c> you</c>
+
+00:12:07.949 --> 00:12:07.959 align:start position:0%
+hope that nonetheless with this you
+ 
+
+00:12:07.959 --> 00:12:09.230 align:start position:0%
+hope that nonetheless with this you
+might<00:12:08.120><c> have</c><00:12:08.279><c> learned</c><00:12:08.680><c> something</c><00:12:08.959><c> which</c><00:12:09.079><c> you</c>
+
+00:12:09.230 --> 00:12:09.240 align:start position:0%
+might have learned something which you
+ 
+
+00:12:09.240 --> 00:12:11.910 align:start position:0%
+might have learned something which you
+already<00:12:09.519><c> knew</c><00:12:10.399><c> well</c><00:12:10.760><c> doesn't</c><00:12:11.079><c> hurt</c><00:12:11.399><c> then</c><00:12:11.800><c> I</c>
+
+00:12:11.910 --> 00:12:11.920 align:start position:0%
+already knew well doesn't hurt then I
+ 
+
+00:12:11.920 --> 00:12:13.509 align:start position:0%
+already knew well doesn't hurt then I
+hope<00:12:12.120><c> I</c><00:12:12.240><c> didn't</c><00:12:12.440><c> steal</c><00:12:12.800><c> too</c><00:12:13.000><c> much</c><00:12:13.160><c> of</c><00:12:13.279><c> your</c>
+
+00:12:13.509 --> 00:12:13.519 align:start position:0%
+hope I didn't steal too much of your
+ 
+
+00:12:13.519 --> 00:12:15.629 align:start position:0%
+hope I didn't steal too much of your
+time<00:12:14.160><c> but</c><00:12:14.320><c> you</c><00:12:14.639><c> also</c><00:12:15.000><c> might</c><00:12:15.199><c> have</c><00:12:15.320><c> learned</c>
+
+00:12:15.629 --> 00:12:15.639 align:start position:0%
+time but you also might have learned
+ 
+
+00:12:15.639 --> 00:12:17.750 align:start position:0%
+time but you also might have learned
+something<00:12:15.959><c> which</c><00:12:16.079><c> you</c><00:12:16.240><c> only</c><00:12:16.639><c> vaguely</c><00:12:17.320><c> knew</c>
+
+00:12:17.750 --> 00:12:17.760 align:start position:0%
+something which you only vaguely knew
+ 
+
+00:12:17.760 --> 00:12:20.750 align:start position:0%
+something which you only vaguely knew
+before<00:12:18.519><c> which</c><00:12:18.760><c> now</c><00:12:19.000><c> is</c><00:12:19.120><c> a</c><00:12:19.600><c> bit</c><00:12:19.800><c> clearer</c>
+
+00:12:20.750 --> 00:12:20.760 align:start position:0%
+before which now is a bit clearer
+ 
+
+00:12:20.760 --> 00:12:22.790 align:start position:0%
+before which now is a bit clearer
+hopefully<00:12:21.760><c> hopefully</c><00:12:22.160><c> see</c><00:12:22.320><c> you</c><00:12:22.440><c> in</c><00:12:22.560><c> other</c>
+
+00:12:22.790 --> 00:12:22.800 align:start position:0%
+hopefully hopefully see you in other
+ 
+
+00:12:22.800 --> 00:12:26.880 align:start position:0%
+hopefully hopefully see you in other
+videos<00:12:23.079><c> too</c><00:12:23.920><c> bye</c>
+

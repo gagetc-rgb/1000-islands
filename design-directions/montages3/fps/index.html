@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Плавность взлёта · 1000 Islands</title>
+<style>
+  :root { --bg: #f4f3ef; --ink: #1d1d1b; --muted: #55534d; --line: #d9d6cd; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1400px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.1; margin: 0 0 12px; }
+  main > p { margin: 0 0 24px; color: var(--muted); max-width: 72ch; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); gap: 16px; }
+  figure { margin: 0; background: #fff; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  video { width: 100%; aspect-ratio: 16 / 9; display: block; background: #000; cursor: zoom-in; }
+  figcaption { padding: 12px 16px 14px; }
+  figcaption b { display: block; font-size: 17px; }
+  figcaption span { color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Взлёт над карстовой башней: три скорости</h1>
+  <p>Исходник снят в 24 кадра в секунду. Везде одни и те же 156 настоящих кадров, разница только в том, как они ложатся в 30 кадров сайта. Клик по видео открывает его на весь экран, так дёрганье видно лучше.</p>
+  <div class="grid">
+    <figure><video src="a080.mp4" muted loop playsinline autoplay></video>
+      <figcaption><b>Как было: замедление 0.8×</b><span>19 настоящих кадров в секунду, повторы неравномерные. Отсюда поддёргивание.</span></figcaption></figure>
+    <figure><video src="b100.mp4" muted loop playsinline autoplay></video>
+      <figcaption><b>Реальная скорость 1×</b><span>24 кадра в секунду, каждый пятый повторяется ровно. Как кино по телевизору.</span></figcaption></figure>
+    <figure><video src="c125.mp4" muted loop playsinline autoplay></video>
+      <figcaption><b>Ускорение 1.25×</b><span>Каждый кадр ровно один раз, 30 в секунду. Самое плавное, дрон летит на четверть быстрее.</span></figcaption></figure>
+  </div>
+</main>
+<script>
+  document.querySelectorAll("video").forEach(v => v.onclick = () => (v.requestFullscreen || v.webkitEnterFullscreen)?.call(v));
+</script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+{
+  "network": [
+    [
+      404,
+      "https://islands-1000-prototype.pages.dev/favicon.ico"
+    ]
+  ],
+  "notesOff": true,
+  "notesN": true,
+  "notes": {
+    "on": true,
+    "labels": []
+  },
+  "home-menu-390": true,
+  "raja-ampat-menu-390": true,
+  "north-sulawesi-menu-390": true,
+  "yachts-menu-390": true,
+  "stories-menu-390": true,
+  "about-menu-390": true,
+  "advisors-menu-390": true,
+  "plan-menu-390": true,
+  "plan-submit": "https://islands-1000-prototype.pages.dev/thank-you",
+  "advisors-submit": "https://islands-1000-prototype.pages.dev/thank-you-advisor",
+  "slider": {
+    "days": "8 days",
+    "links": [
+      "https://islands-1000-prototype.pages.dev/plan.html?region=Raja+Ampat&level=Essential&days=8",
+      "https://islands-1000-prototype.pages.dev/plan.html?region=Raja+Ampat&level=Comfort&days=8",
+      "https://islands-1000-prototype.pages.dev/plan.html?region=Raja+Ampat&level=Premium&days=8"
+    ]
+  },
+  "faq": [
+    false,
+    true,
+    true,
+    true
+  ],
+  "adminTabs": [
+    {
+      "text": "Enquiries\n3 new",
+      "id": "t-leads"
+    },
+    {
+      "text": "Reviews\n12 on the site",
+      "id": "t-reviews"
+    },
+    {
+      "text": "Photos & video\nby page",
+      "id": "t-photos"
+    },
+    {
+      "text": "Prices\nday by day",
+      "id": "t-prices"
+    }
+  ],
+  "linkChecks": [
+    {
+      "url": "https://islands-1000-prototype.pages.dev/home.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/raja-ampat.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/north-sulawesi.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/yachts.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/stories.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/about.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/advisors.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/about.html#how",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/about.html#faq",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/privacy.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/terms.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/state-cookie-settings.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/stories.html#story-2",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/thank-you-advisor.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/admin-simple.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/stories.html#story-1",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/thank-you.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/404.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/unavailable.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/state-cookies.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/state-form-errors.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/state-form-failed.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/email-traveller.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/email-advisor.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/email-owner.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/link-preview.html",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=North+Sulawesi",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=North+Sulawesi&level=Essential&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=North+Sulawesi&level=Comfort&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=North+Sulawesi&level=Premium&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=North+Sulawesi&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/advisors.html#partner-form",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Raja+Ampat",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Raja+Ampat&level=Essential&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Raja+Ampat&level=Comfort&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Raja+Ampat&level=Premium&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Raja+Ampat&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/home.html#where",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Raja+Ampat&level=Comfort&days=9",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Yacht+charter&days=10",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=North+Sulawesi&level=Essential",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Yacht+charter",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Yacht+charter&level=Boat+1&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Yacht+charter&level=Boat+2&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Yacht+charter&level=Boat+3&days=7",
+      "status": 200,
+      "hashOk": true
+    },
+    {
+      "url": "https://islands-1000-prototype.pages.dev/plan.html?region=Yacht+charter&days=7",
+      "status": 200,
+      "hashOk": true
+    }
+  ],
+  "guideLocalMatch": true,
+  "copy": [
+    {
+      "expected": "https://islands-1000-prototype.pages.dev/home",
+      "actual": "https://islands-1000-prototype.pages.dev/home"
+    }
+  ]
+}
